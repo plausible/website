@@ -13,10 +13,6 @@ show_excerpts: true # set to true to show excerpts on the homepage
 minima:
   date_format: "%b %-d, %Y"
 
-  social_links:
-    twitter: ukutaht
-    rss: rss
-
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md

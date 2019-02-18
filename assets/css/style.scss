@@ -4,12 +4,17 @@
 
 h1, h2, h3, h4, h5, h6 {
   color: #3a3a3a;
-  -webkit-font-smoothing: antialiased;
+}
+
+.content-text {
+  font-family: 'Helvetica', 'Avenir', 'Arial', sans-serif;
+  color: #4D4D4D;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .post-content {
   font-family: 'Helvetica', 'Avenir', 'Arial', sans-serif;
-  -webkit-font-smoothing: antialiased;
   color: #4D4D4D;
   font-size: 18px;
   line-height: 1.5;

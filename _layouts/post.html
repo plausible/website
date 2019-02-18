@@ -2,10 +2,10 @@
 layout: default
 ---
 <article class="container max-w-md mt-24">
-  <a class="text-indigo uppercase text-sm tracking-wide font-black" href="/">All posts</a>
+  <a class="text-indigo uppercase text-sm tracking-wide font-black" href="{{ site.baseurl }}">All posts</a>
   <header class="post-header">
     <time class="uppercase text-xs text-grey font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
-    <h2 class="font-black text-4xl">{{ page.title | escape }}</h2>
+    <h2 class="font-black text-indigo-darkest text-4xl">{{ page.title | escape }}</h2>
   </header>
 
   <div class="mt-8 post-content">

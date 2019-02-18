@@ -24,11 +24,24 @@
         <p>{{- site.description | escape -}}</p>
       </div>
 
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
     </div>
 
   </div>
 
+</footer>
+
+{%- include mailerlite_signup.html -%}
+
+<footer class='w-full text-center text-grey p-8 pin-b bg-indigo-darker'>
+  <div>
+    <a href="https://journal.plausible.io" class="light-text font-medium mr-4">Blog</a>
+    <a href="/feedback" class="light-text font-medium mr-4">Feedback</a>
+    <a href="/plausible.io" class="light-text font-medium">Live Demo</a>
+  </div>
+  <div class="leading-normal text-sm pt-12">
+    <p>Made by <a href="https://twitter.com/ukutaht" class="light-text underline">@ukutaht</a> in London, UK</p>
+    <p>
+    <a href="/privacy" class="light-text">Privacy Policy</a> • <a href="/terms" class="light-text">Terms of service</a>
+    </p>
+  </div>
 </footer>

@@ -1,7 +1,8 @@
 <header class="px-8 flex items-center justify-between flex-wrap py-6">
   <div class="flex items-center flex-no-shrink">
-    <img src="https://plausible.io/images/icon/48x48-7a2b07cebea37d4d3b8975562eecd31d.png?vsn=d" style="height: 28px; margin-right: 6px;">
-    <a href="/" class="logo-text">Plausible</a>
+    <img src="https://plausible.io/images/icon/48x48-7a2b07cebea37d4d3b8975562eecd31d.png?vsn=d" style="height: 16px; margin-right: 6px;">
+    <a href="/" class="logo-text text-lg">Plausible</a>
+    <a href="{{ site.baseur; }}" class="ml-2">Blog</a>
   </div>
 
   <div>
@@ -17,5 +18,11 @@
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
+
+    <p class="inline-block ml-4">
+      <svg class="w-4 h-4 inline-block orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg>
+      <a class="font-medium text-grey-darker rounded p-2 hover:bg-grey-lighter" href="{{ "/feed.xml" | relative_url }}">Subscribe</a>
+    </p>
+
   </div>
 </header>
