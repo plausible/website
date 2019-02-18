@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="max-w-lg mx-auto mt-24">
+<article class="container max-w-md mt-16">
+  <div class="mb-12">
   <a
     class="text-indigo uppercase text-sm tracking-wide font-black content-link"
     href="{{ site.baseurl }}"
@@ -10,9 +11,7 @@ layout: default
     >
     &larr; All posts
   </a>
-</div>
-
-<article class="container max-w-md mt-12">
+  </div>
   <time class="uppercase text-xs text-grey-dark font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
   <h2 class="font-black text-indigo-darkest text-4xl mb-2">{{ page.title | escape }}</h2>
 

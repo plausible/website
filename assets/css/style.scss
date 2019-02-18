@@ -42,7 +42,7 @@ pre {
 .post-content {
   color: #4D4D4D;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
 
   p {
     margin-top: 20px;
@@ -55,10 +55,16 @@ pre {
 
 
   ul {
+    padding-left: 1rem;
     font-size: 17px;
     line-height: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
+
+    li {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
   }
 
   a {

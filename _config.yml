@@ -1,6 +1,6 @@
-title: Plausible blog
+title: The Plausible Blog
 baseurl: /blog/
-permalink: /:year/:title/
+permalink: /:title/
 highlighter: rouge
 url: https://plausible.io
 
