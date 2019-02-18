@@ -24,7 +24,7 @@ layout: default
 <ul class="container max-w-md mt-12">
   {%- for post in site.posts -%}
   <li class="mt-16 list-reset">
-    <time class="uppercase text-xs text-grey font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <time class="uppercase text-xs text-grey-dark font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
     <h3 class="mt-1 font-black text-3xl">
       <a class="text-indigo-darkest" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h3>

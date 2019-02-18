@@ -13,8 +13,8 @@ layout: default
 </div>
 
 <article class="container max-w-md mt-12">
+  <time class="uppercase text-xs text-grey-dark font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
   <h2 class="font-black text-indigo-darkest text-4xl mb-2">{{ page.title | escape }}</h2>
-  <time class="uppercase text-xs text-grey font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
 
   <div class="mt-8 post-content">
     {{ content }}
