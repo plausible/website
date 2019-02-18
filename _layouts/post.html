@@ -3,7 +3,13 @@ layout: default
 ---
 
 <div class="max-w-lg mx-auto mt-24">
-  <a class="text-indigo uppercase text-sm tracking-wide font-black content-link" href="{{ site.baseurl }}">&larr; All posts</a>
+  <a
+    class="text-indigo uppercase text-sm tracking-wide font-black content-link"
+    href="{{ site.baseurl }}"
+    onclick="if (document.referrer === '{{ "" | absolute_url }}' || document.referrer === '{{ "/" | absolute_url }}') { history.back(); return false; } else { return true; }"
+    >
+    &larr; All posts
+  </a>
 </div>
 
 <article class="container max-w-md mt-12">

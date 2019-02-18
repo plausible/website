@@ -1,35 +1,15 @@
-<header class="px-8 flex items-center justify-between flex-wrap py-6 container max-w-2xl">
+<nav class="container flex items-center justify-between flex-wrap py-6">
   <div class="flex items-center flex-no-shrink">
     <img src="https://plausible.io/images/icon/48x48-7a2b07cebea37d4d3b8975562eecd31d.png?vsn=d" style="height: 22px; margin-right: 6px;">
-    <a href="/" class="logo-text text-indigo-darker text-xl font-sans">Plausible</a>
+    <a href="/" class="logo-text text-xl text-indigo-darker font-sans">Plausible</a>
   </div>
 
-  <div>
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-
-    {%- if titles_size > 0 -%}
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-        <p class="inline-block">
-          <a class="font-bold text-grey-darker rounded p-2 px-3 hover:bg-grey-lighter" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        </p>
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-
-    <p class="inline-block">
-      <a class="font-bold text-grey-darker rounded p-2 px-3 hover:bg-grey-lighter" href="{{ site.baseurl }}">Blog</a>
-    </p>
-
-    <p class="inline-block">
-      <a class="font-bold text-grey-darker rounded p-2 px-3 hover:bg-grey-lighter" href="{{ "/feed.xml" | relative_url }}">
-        <span>Subscribe</span>
-        <svg class="inline-block ml-1" height="20px" style="transform: translateY(4px)" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 437.29932 546.7925625" enable-background="new 0 0 595 842" xml:space="preserve"><path style="" d="m 24.57802,0.03623566 c -6.637,-0.3457 -12.445,1.78310004 -17.2849997,6.34640004 C 2.4530203,10.945936 2.0311025e-5,16.691436 2.0311025e-5,23.398236 l 0,31.1943 c 0,12.3763 9.500999988975,22.6015 21.876999688975,23.3622 181.426,10.9242 326.544,156.041604 337.468,337.467604 0.761,12.3762 11.051,22.0142 23.496,21.8763 l 31.061,0 c 6.706,0 12.452,-2.452 17.015,-7.2918 4.563,-4.7707 6.692,-10.7139 6.346,-17.4207 -12.376,-222.2192 -190.397,-400.173704 -412.685,-412.54990434 z m 0.675,137.33610434 c -6.776,-0.5525 -12.847,1.4449 -17.8249997,6.0768 -4.978,4.6325 -7.427999988975,10.4404 -7.427999988975,17.2852 l 0,31.1952 c 0,12.0998 9.101999988975,22.1204 21.201999688975,23.2264 106.339,10.0257 191.051,94.6022 201.076,200.9411 1.107,12.0995 11.128,21.337 23.227,21.337 l 31.195,0 c 6.845,0 12.653,-2.5845 17.285,-7.5626 4.563,-4.9784 6.63,-11.0495 6.077,-17.8251 -12.169,-146.0949 -128.645,-262.5052 -274.809,-274.674 z m 38.757,171.7725 A 64.093729,64.093729 0 0 0 2.0311025e-5,373.28934 64.093729,64.093729 0 0 0 64.01002,437.43404 a 64.093729,64.093729 0 0 0 64.145,-64.1447 64.093729,64.093729 0 0 0 -64.145,-64.1445 z" clip-rule="evenodd" fill="#606f7b" fill-rule="evenodd"/></svg>
-      </a>
-    </p>
-
-  </div>
-</header>
+  <ul class="list-reset flex">
+    <li>
+      <a class="text-indigo-darker font-bold text-sm rounded py-2 px-3 hover:bg-grey-lighter" style="line-height: 33px;" href="{{ site.baseurl }}">Blog</a>
+    </li>
+    <li class="ml-6">
+      <a class="text-indigo-darker font-bold text-sm rounded py-2 px-3 hover:bg-grey-lighter" style="line-height: 33px;" href="/login">Login</a>
+    </li>
+  </ul>
+</nav>
