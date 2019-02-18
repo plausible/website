@@ -7,16 +7,16 @@ The meteoric rise of front-end frameworks like React, Angular, Vue.js, Elm, etc.
 
 Is there something wrong with these tools? Absolutely not. In fact, I love working with them. However, I would only choose this architecture when an actual requirement is pushing me in that direction. If there are no specific reasons to build a single-page application, I will go with a traditional server-rendered architecture every day of the week. It is simpler and allows you to move faster:
 
-* **Stateless requests**
+* **Stateless requests**<br />
 Traditional web servers are built to be stateless. This means that each endpoint can be reasoned about and tested in isolation. SPAs, by contrast, have to explicitly define how all state is loaded, refreshed, and discarded by the frontend during the whole session. This introduces new caching/synchronization problems that just don't exist in the server-rendered world.
 
-* **The browser knows how to deal with a traditional architecture**
+* **The browser knows how to deal with a traditional architecture**<br />
 If you go with the SPA route, you'll always need extra code to emulate trivial browser features. I've spent many hours making sure that browser history is managed just right, that the loading animation looks smooth, restoring the scroll position when the user navigates through history, etc. It's a mess.
 
-* **Fewer, more mature tools**
+* **Fewer, more mature tools**<br />
 Frameworks like Rails, Phoenix, Lavarel, etc. have been around for a while and they are very stable. I learned Rails about 5 years ago and my knowledge is still completely relevant. Around the same time, I also learned Gulp, CoffeeScript, BackboneJS, and SASS, all of which have been superseded by newer tools. Avoid the [Javascript fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) by not relying so much on Javascript!
 
-* **SEO for free**
+* **SEO for free**<br />
 Single-page apps have to add extra infrastructure and code to make sure they can be indexed by crawlers. If you need SEO on your dynamic pages, it's much easier to accomplish with a server-rendered architecture.
 
 All of this means that single-page applications impose more complexity and cognitive load on the developers. In my experience as a developer, complexity and cognitive load are the single biggest factors in software bugs and development slowdown.

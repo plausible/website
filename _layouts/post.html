@@ -1,27 +1,18 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+<article class="container max-w-md mt-24">
+  <a class="text-indigo uppercase text-sm tracking-wide font-black" href="/">All posts</a>
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-      {%- endif -%}</p>
+    <time class="uppercase text-xs text-grey font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
+    <h2 class="font-black text-4xl">{{ page.title | escape }}</h2>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="mt-8 post-content">
     {{ content }}
   </div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

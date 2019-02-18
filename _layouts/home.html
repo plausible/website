@@ -2,33 +2,31 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="container max-w-md mt-24">
+  <div class="text-center">
+    <h2 class="text-indigo text-4xl">The Plausible Blog</h2>
+    <p class="text-lg text-grey-darkest mt-2">Read about the journey of building <a class="underline" href="https://plausible.io">plausible.io</a></p>
+  </div>
+</div>
 
-  {{ content }}
+<ul class="list-reset mt-24">
+  {%- for post in site.posts -%}
+  <li class="max-w-md mx-auto mt-16">
+    <time class="uppercase text-xs text-grey font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h3 class="mt-1 font-black text-3xl">
+      <a class="text-indigo-darkest" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      <div class="mt-8 post-content">{{ post.content | truncatewords:120 }}</div>
+    {%- endif -%}
+    <div class="mt-6">
+      <a class="text-indigo uppercase text-sm tracking-wide font-black" href="{{ post.url | relative_url }}">Continue reading -></a>
+    </div>
+  </li>
+  <hr class="w-full bg-grey-lighter my-12" style="height: 1px;">
+  {%- endfor -%}
+</ul>
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
-  {%- endif -%}
+<p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
 
 </div>
