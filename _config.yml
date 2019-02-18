@@ -2,6 +2,7 @@ title: Plausible blog
 baseurl: /blog/
 permalink: /:year/:title/
 highlighter: rouge
+url: https://plausible.io
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
