@@ -19,7 +19,7 @@ $ mix ecto.gen.migration add_last_seen_to_users
 ```
 and the migration itself:
 
-```
+```elixir
 defmodule Plausible.Repo.Migrations.AddLastSeenToUsers do
   use Ecto.Migration
 
@@ -37,7 +37,7 @@ At this point, you'll want to add the field to your `User` Ecto schema as well.
 
 Now I want to update this field every time use uses the website. A natural solution here is to add a Plug that intercepts every request. However, updating the database on every request seems fairly wasteful. Besides, for my purposes, the timestamp doesn't need to be accurate to the millisecond. This is a perfect case for throttling, which can be achieved by using the browser session.
 
-```
+```elixir
 defmodule PlausibleWeb.LastSeenPlug do
   import Plug.Conn
   use Plausible.Repo

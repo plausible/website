@@ -19,10 +19,10 @@ layout: default
       <a class="text-indigo-darkest" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h3>
     {%- if site.show_excerpts -%}
-      <div class="mt-8 post-content">{{ post.content | truncatewords:120 }}</div>
+      <div class="mt-6 post-content">{{ post.content | truncatewords:120 }}</div>
     {%- endif -%}
-    <div class="mt-6">
-      <a class="text-indigo uppercase text-sm tracking-wide font-black" href="{{ post.url | relative_url }}">Continue reading -></a>
+    <div class="mt-10">
+      <a class="text-indigo uppercase text-sm tracking-wide font-black content-link" href="{{ post.url | relative_url }}">Continue reading -></a>
     </div>
   </li>
   <hr class="w-full bg-grey-lighter my-12" style="height: 1px;">

@@ -2,19 +2,48 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import url(highlight.css);
+
 h1, h2, h3, h4, h5, h6 {
   color: #3a3a3a;
+  font-family: system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+pre {
+  font-size: 14px;
+  white-space: pre-wrap;
+  padding: 6px;
+}
+
+html {
+  font-family:  'Lato', 'Helvetica', 'Avenir', 'Arial', sans-serif;
 }
 
 .content-text {
-  font-family: 'Helvetica', 'Avenir', 'Arial', sans-serif;
   color: #4D4D4D;
   font-size: 18px;
   line-height: 1.5;
 }
 
+.content-link {
+  padding: 2px 0;
+  text-decoration: none;
+  outline: 0;
+  border-bottom: 2px solid #e1e1e1;
+  transition-property: all;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -ms-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+
+  &:hover {
+    border-bottom: 2px solid #6574cd; // indigo
+  }
+}
+
 .post-content {
-  font-family: 'Helvetica', 'Avenir', 'Arial', sans-serif;
   color: #4D4D4D;
   font-size: 18px;
   line-height: 1.5;
@@ -34,5 +63,23 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+    border-bottom: 2px solid #e1e1e1;
+    transition-property: all;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -moz-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -ms-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -o-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+
+    &:hover {
+      border-bottom: 2px solid #6574cd; // indigo
+    }
   }
 }
