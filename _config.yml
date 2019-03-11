@@ -1,10 +1,9 @@
 title: The Plausible Blog
-baseurl: /blog/
 permalink: /:title
 highlighter: rouge
 url: https://plausible.io
 
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: true
 
 plugins:
  - jekyll-feed
