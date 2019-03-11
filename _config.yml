@@ -1,5 +1,5 @@
 title: The Plausible Blog
-baseurl: /blog
+baseurl: /blog/
 permalink: /:title
 highlighter: rouge
 url: https://plausible.io
