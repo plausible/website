@@ -26,13 +26,13 @@ layout: default
   <li class="mt-16 list-reset">
     <time class="uppercase text-xs text-grey-dark font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
     <h3 class="mt-1 font-black text-3xl">
-      <a class="text-indigo-darkest" href="{{ post.url }}">{{ post.title | escape }}</a>
+      <a class="text-indigo-darkest" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h3>
     {%- if site.show_excerpts -%}
       <div class="mt-6 post-content">{{ post.excerpt }}</div>
     {%- endif -%}
     <div class="mt-10">
-      <a class="text-indigo uppercase text-sm tracking-wide font-black content-link" href="{{ post.url }}">Continue reading -></a>
+      <a class="text-indigo uppercase text-sm tracking-wide font-black content-link" href="{{ post.url | relative_url }}">Continue reading -></a>
     </div>
   </li>
   <hr class="w-full bg-grey-lighter my-12" style="height: 1px;">
