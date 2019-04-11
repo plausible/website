@@ -42,7 +42,7 @@ Thanks,
 Uku Taht
 ```
 
-After lunch, I came back with a fresh mind to look at the copy again from the point of view of a customer. What a bland, _boring_ email! If I received an email like this I would most likely ignore it.
+After lunch, I came back with a fresh mind to look at the copy again from the point of view of a customer. What a bland, _boring_ email!  If I received an email like this I would most likely ignore it.
 
 So I decided to re-write this email in a more personal way. My trick for doing
 so is to pick a friend of mine, and imagine that I'm addressing the email to them.
@@ -61,7 +61,7 @@ Thanks,
 Uku Taht
 ```
 
-Ah, much better. I'd like to believe that if I received an email like this I would actually respond to it.
+Ah, much better. I believe that I would actually respond to an email like this.
 
 Notice how I switched _we_ to _I_ and even used a smiley face. The language is much more emotional and informal.
 This is how I write when I'm communicating normally,
