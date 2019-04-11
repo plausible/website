@@ -12,7 +12,7 @@ as _I_ or _we_? It's tempting to use a royal _we_, even if you're working on a p
 
 This makes you sound bigger, more legitimate, more respectable, right?
 
-It does, but it also sets expectations that you cannot fulfill. When people feel like your company is big, they expect speedy customer service, comprehensive documentation, a feature complete product, etc. It sets the bar pretty high.
+It does, but it also sets expectations that you probably cannot fulfill as a solo founder. When people feel like your company is big, they expect speedy customer service, comprehensive documentation, a feature complete product, etc. It sets the bar really high.
 
 Using a _we_ also makes your brand faceless. As a maker,
 you actually have the _luxury_ of putting your personality
