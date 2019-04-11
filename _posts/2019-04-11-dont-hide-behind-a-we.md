@@ -3,7 +3,7 @@ layout: post
 title: "Founders: Don't hide behind a 'we'"
 ---
 
-Makers and founders often have a dilemma: when communicating with customers, should I describe myself
+Founders and makers often have a dilemma: when communicating with customers, should I describe myself
 as _I_ or _we_? It's tempting to use a royal _we_, even if you're working on a product alone:
 
 > We're launching a new feature<br />
