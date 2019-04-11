@@ -18,7 +18,7 @@ Using a _we_ also makes your brand faceless. As a maker,
 you actually have the _luxury_ of putting your personality
 front and center of your brand. This can increase trust and set the right expectations for your customers.
 
-Instead, I've found that when you make communication personal, customers are much more likely to talk to
+I've found that when you make communication personal, customers are much more likely to talk to
 you. They're also more forgiving about bugs and long lead times on features.
 After all, it's just one guy doing it all by himself.
 
