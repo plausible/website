@@ -25,7 +25,7 @@ After all, it's just one guy doing it all by himself.
 ### Personal communication in practice
 
 I thought of this when I was writing email copy for a customer survey invitation today. It's a
-transactional email that goes out to every user who has used Plausible for more than 30 days
+transactional email that goes out to every user who has used [Plausible](https://plausible.io) for more than 30 days
 and has been active recently. After looking at some examples from bigger companies,
 I whipped up a quick first draft:
 
