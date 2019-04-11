@@ -12,16 +12,14 @@ as _I_ or _we_? It's tempting to use a royal _we_, even if you're working on a p
 
 This makes you sound bigger, more legitimate, more respectable, right?
 
-It does, but it also sets expectations that you cannot fulfill. When people feel like your
-company is big, they expect speedy customer service that you probably cannot provide.
-They expect a complete product that you probably don't have yet.
+It does, but it also sets expectations that you cannot fulfill. When people feel like your company is big, they expect speedy customer service, comprehensive documentation, a feature complete product, etc. It sets the bar pretty high.
 
 Using a _we_ also makes your brand faceless. As a maker,
 you actually have the _luxury_ of putting your personality
 front and center of your brand. This can increase trust and set the right expectations for your customers.
 
-I've found that when you make communication personal, customers are much more likely to talk to
-you. They're also much more forgiving about bugs and long lead times on features.
+Instead, I've found that when you make communication personal, customers are much more likely to talk to
+you. They're also more forgiving about bugs and long lead times on features.
 After all, it's just one guy doing it all by himself.
 
 ### Personal communication in practice
@@ -38,14 +36,13 @@ You're receiving this email because you signed up to Plausible beta. We're looki
 
 [Take the survey]
 
-There are 4 questions so it should only take a couple minutes.
+There are 4 questions so it should only take a couple of minutes.
 
 Thanks,
 Uku Taht
 ```
 
-After lunch I came back with a fresh mind to look at the copy again from the point of view of a customer. What a bland, _boring_ email! Honestly,
-if I received an email like this I would most likely ignore it.
+After lunch, I came back with a fresh mind to look at the copy again from the point of view of a customer. What a bland, _boring_ email! If I received an email like this I would most likely ignore it.
 
 So I decided to re-write this email in a more personal way. My trick for doing
 so is to pick a friend of mine, and imagine that I'm addressing the email to them.
@@ -64,11 +61,11 @@ Thanks,
 Uku Taht
 ```
 
-Ah, much better. I'd like to belive that if I received an email like this I would actually respond to it.
+Ah, much better. I'd like to believe that if I received an email like this I would actually respond to it.
 
 Notice how I switched _we_ to _I_ and even used a smiley face. The language is much more emotional and informal.
 This is how I write when I'm communicating normally,
-so why do it any differently in an email that goes out to to everyone?
+so why do it any differently in an email that goes out to everyone?
 
 I'm also sending this email from my actual email address rather than something like `info@plausible.io`.
 Users can strike a conversation directly with me by replying to the email. Again,
