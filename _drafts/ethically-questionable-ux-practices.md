@@ -64,7 +64,7 @@ reach your goal.
 
 So I'm doing my best to make consistent progress on Plausible.
 My goal is to do one measurable thing each day to help the project move forward.
-I often limit how much I work on it in a single evening or weekend as well.
+I often limit how much I work on it in a single evening or weekend as well. // Seosta
 Even though I could keep going, I force myself to close the laptop because I
 prioritize being fresh the day after.
 
