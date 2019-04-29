@@ -16,7 +16,8 @@ I could easily hide in my cave for more months to tackle that roadmap. But to se
 
 ### Pricing
 
-This means that Plausible will have a price tag going forward. I asked myself: *Should Plausible have a freemium model?*
+Coming up with the price tag for Plausible was a surprisingly difficult process.
+I started by asking myself: *Should Plausible have a freemium model?*
 After doing some research, I decided that the support and maintenance costs of running a free tier would be far too high for one person to handle. As a solo founder, I need to keep overhead low so I can keep up with both support and product development.
 
 I'm not going to rule out a free tier (or even a self-hosted version of Plausible), but for now I want to protect my time and get the
