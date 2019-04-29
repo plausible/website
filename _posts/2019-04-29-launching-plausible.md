@@ -3,7 +3,7 @@ layout: post
 title: I'm launching Plausible
 ---
 
-It's been 4 months since I wrote about [the analytics tool I want](http://localhost:4000/blog/the-analytics-tool-i-want). My idea
+It's been 4 months since I wrote about [the analytics tool I want](https://plausible.io/blog/the-analytics-tool-i-want). My idea
 was to create an alternative for Google Analytics that simplifies the UI and enhances the privacy of online tracking.
 
 After writing that initial post, I spent 2 months creating a prototype and launched the public beta for [Plausible](https://plausible.io) in February.
