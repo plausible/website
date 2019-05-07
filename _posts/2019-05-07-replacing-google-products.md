@@ -4,13 +4,16 @@ title: Replacing Google products with more ethical alternatives
 ---
 
 For more than a decade I used a variety of products made by Google. Their products and services are reliable, intuitive, and often free to use.
-Like many other programmers, I really looked up to the company and even if I didn't necessarily want to work there, I saw
-the company as the pinnacle of software development. I never wondered about how they can hire all these people, build these big offices,
-but still keep their products completely free for the general public.
+Like many other programmers, I really looked up to the company and followed their rapid rise to one of the biggest companies in the world.
+
+However, I do remember thinking: _How is Google one of the largest companies in the world when almost nobody is paying for their products?_
 
 Over time I learned that instead of collecting cash from you, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared with intelligence services.
 
-This pushed me to be more conscious of what products I use, and by proxy, who I support. I didn't agree with how Google was building
+> If you're not paying for the product, you are the product
+
+
+This has pushed me to be more conscious of what products I use, and by proxy, who I support. I didn't agree with how Google was building
 the web so I started looking for alternative products by smaller companies. The alternatives are more likely to be paid, but we need to start paying for software if we don’t want to pay with our privacy.
 
 Here’s a list of great replacements that I’ve found in my own use so far:
