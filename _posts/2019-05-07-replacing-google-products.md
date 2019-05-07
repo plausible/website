@@ -7,7 +7,7 @@ It has become clear how much data is collected on regular people around the worl
 
 I’m not a big Facebook user, but I’ve used Google products daily for more than a decade. Their products are reliable, intuitive, and free to use.
 
-Instead of collecting cash, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared it with intelligence services. The more data Google accumulates, the more powerful they become.
+Instead of collecting cash, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared with intelligence services. The more data Google accumulates, the more powerful they become.
 
 A few years ago I started removing Google products from my life because I don’t want to feed this corporate surveillance machine. There are many great alternatives out there by smaller players. The alternatives are more likely to be paid, but we need to start paying for software if we don’t want to pay with our privacy.
 
