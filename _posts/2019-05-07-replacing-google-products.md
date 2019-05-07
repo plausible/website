@@ -3,11 +3,13 @@ layout: post
 title: Replacing Google products with more ethical alternatives
 ---
 
-It has become clear how much data is collected on regular people around the world by large corporations and governments. The biggest offenders in this space are government agencies like the NSA and GCHQ, along with large internet companies like Facebook and Google.
+For more than a decade I used a variety of products made by Google. Their products and services are reliable, intuitive, and often free to use.
+Like many other programmers, I really looked up to the company and even if I didn't necessarily want to work there, I saw
+the company as the pinnacle of software development. I never wondered about how they can hire all these people, build these big offices,
+but still keep their products completely free for the general public.
 
-I’m not a big Facebook user, but I’ve used Google products daily for more than a decade. Their products are reliable, intuitive, and free to use.
-
-Instead of collecting cash, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared with intelligence services. The more data Google accumulates, the more powerful they become.
+Over time I learned that instead of collecting cash from you, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared with intelligence services. Google is not trying to
+please their users, they are trying to collect as much information about them as possible.
 
 A few years ago I started removing Google products from my life because I don’t want to feed this corporate surveillance machine. There are many great alternatives out there by smaller players. The alternatives are more likely to be paid, but we need to start paying for software if we don’t want to pay with our privacy.
 
