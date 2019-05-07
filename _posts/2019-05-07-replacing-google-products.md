@@ -27,7 +27,7 @@ I’ve been forced to use Hangouts in the past, but I've always preferred [Slack
 #### Google Docs -> Notion
 I like [Notion](https://notion.so) as a replacement for Google Docs. Notion is markdown-based and seems to fit my brain a lot better than Google Docs. It has way better navigation so it makes a good internal knowledge base where people can actually find stuff.
 
-#### Google Analytics -> Plausible
+#### Google Analytics -> Plausible Insights
 When I looked for alternatives for Google Analytics, I didn’t find any that I really liked. Being interested in web analytics, I decided to build my own solution, [Plausible](https://plausible.io). It provides simple, privacy-focused analytics without collecting website visitors’ personal data. I've switched all my current projects over from Google Analytics to Plausible.
 
 #### Google Maps -> Citymapper
