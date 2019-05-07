@@ -8,10 +8,10 @@ Like many other programmers, I really looked up to the company and even if I did
 the company as the pinnacle of software development. I never wondered about how they can hire all these people, build these big offices,
 but still keep their products completely free for the general public.
 
-Over time I learned that instead of collecting cash from you, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared with intelligence services. Google is not trying to
-please their users, they are trying to collect as much information about them as possible.
+Over time I learned that instead of collecting cash from you, Google collects data about your identity, behaviour, habits, and preferences. This data is aggregated and analysed on a global scale, sold to advertisers and shared with intelligence services.
 
-A few years ago I started removing Google products from my life because I don’t want to feed this corporate surveillance machine. There are many great alternatives out there by smaller players. The alternatives are more likely to be paid, but we need to start paying for software if we don’t want to pay with our privacy.
+This pushed me to be more conscious of what products I use, and by proxy, who I support. I didn't agree with how Google was building
+the web so I started looking for alternative products by smaller companies. The alternatives are more likely to be paid, but we need to start paying for software if we don’t want to pay with our privacy.
 
 Here’s a list of great replacements that I’ve found in my own use so far:
 
