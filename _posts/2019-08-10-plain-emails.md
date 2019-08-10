@@ -14,7 +14,7 @@ for complex layouts and graphics. Instead of abusing the format for something it
 intended for, let's respect it and use it to our advantage instead.
 
 Before we go on, of course there are cases where it makes sense to design complex HTML emails for
-better readability. For example, I'm planning to add a weekly (or monthyl) email report
+better readability. For example, I'm planning to add a regular email report
 to [Plausible](https://plausible.io) in the future. Such a report needs to fit a lot of
 data in a scannable format, so I will probably lean towards a designed email template.
 
@@ -30,10 +30,10 @@ adding colours, logos and buttons to the email would improve it.
 ### More than just time savings
 
 Avoiding the complexity of HTML templates can save a lot of time in design and development.
-But and even greater win is that plain emails also have
+An even greater win is that plain emails also have
 [better deliverability and response rates](https://blog.hubspot.com/marketing/plain-text-vs-html-emails-data).
 
-HMTL elements and images have a negative effect on deliverability because they tend to trip spam
+HMTL elements and images have a negative effect on deliverability because they tend to trigger spam
 filters. Over-designed emails can definitely feel spammy to the reader as well, not just the AI.
 I'm guessing it's due to the ridiculous amount of unsolicited marketing emails
 that we all receive on a daily basis. They are almost exclusively complex HTML templates with
