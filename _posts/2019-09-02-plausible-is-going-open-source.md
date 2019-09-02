@@ -28,7 +28,7 @@ the same product.
 
 I chose to follow the example of Ghost here. Plausible is open-sourced under the most permissible MIT license, which basically
 states that you can do whatever you want with the code. I'm not really worried about the possibility of someone stealing business
-from me by just running the same code and selling it.
+from me by just getting the code and selling it.
 
 It’s worth noting that for now, there's no explicit support for self-hosting Plausible. The project is still evolving quickly
 and maintaining a self-hosted solution would slow product development down considerably. I would love to offer a self-hosted solution
