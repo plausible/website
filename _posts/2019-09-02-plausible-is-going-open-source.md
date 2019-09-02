@@ -11,7 +11,7 @@ Today I'm happy to announce that Plausible is open source with the code being [a
 This repository includes all of the code powering [plausible.io](https://plausible.io) with nothing hidden.
 
 Making the source open to the public is a crucial step to building a more transparent analytics platform. It proves that Plausible
-does not store any personal information or IP addresses, and that it doesn't track people across websites
+does not store any personal information or IP addresses, and that it doesn't track people across multiple websites
 like Google Analytics does.
 
 ### How open?
