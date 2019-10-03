@@ -25,7 +25,7 @@ This means collecting your browsing history, measuring your engagement with cont
 location at all times, inferring demographic information about you, etc.
 
 This is why Google Analytics exists. It's also why Chrome, Gmail, Google Maps, and pretty much every other
-free product by Google exists. The goal is to embed Google's free services in the infrastructure
+free product by Google exists. The goal is to embed their free services in the basic infrastructure
 of the web. This infrastructure can be used to collect as much personal data as possible to drive
 advertising profits.
 
@@ -34,13 +34,14 @@ advertising profits.
 Google's track record of handling personal data has been
 [absolutely dismal](https://en.wikipedia.org/wiki/Privacy_concerns_regarding_Google). Facebook is
 even worse. Their online trackers are incredibly intrusive, making us feel like we're under
-corporate surveillance at all times.
+corporate surveillance at all times. Although we can use their useful software for free, we end up
+paying with our personal privacy. This is well documented.
 
 Besides the costs to our personal privacy, I'd say the much bigger scandal lies in how targeted
 advertising affects society as a whole. Oligarchs across the world have weaponised
 this technology to advance their agenda with absolutely no regard for democracy or the common good.
 
-This is what the Cambridge Analytica scandal was about. It was basically a company built to use online
+This is what the Cambridge Analytica scandal was about. The company was built to use online
 tracking and targeting to win political campaigns for the highest bidder. They've been incredibly
 successful:
 
@@ -60,11 +61,7 @@ campaign as well as **[more than 100 other political campaigns across the world.
 
 - Alexander Nix, Former CEO of Cambridge Analytica
 
-If you have 10 minutes, I'd recommend watching Alexander Nix himself [explain how they use personal targeting](https://www.youtube.com/watch?v=n8Dd5aVXLCc) to push propaganda and suppress independent thought. If you have 2 hours, I'd recommend watching [The Great Hack](https://www.thegreathack.com/). Orwellian stuff.
-
- > I made Steve Bannon’s psychological warfare tool
-
-- Christopher Wylie, Cambridge Analytica Whistleblower
+If you have 10 minutes, I'd recommend watching Alexander Nix himself [explain how they use personal targeting](https://www.youtube.com/watch?v=n8Dd5aVXLCc) to push propaganda, undermine democracy, and suppress independent thought. If you have 2 hours, I'd recommend watching [The Great Hack](https://www.thegreathack.com/). Orwellian stuff.
 
 ### What does Google Analytics have to do with this?
 
