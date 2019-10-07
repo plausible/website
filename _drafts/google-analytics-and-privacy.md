@@ -65,11 +65,11 @@ If you have 10 minutes, I'd recommend watching Alexander Nix himself [explain ho
 
 ### What does Google Analytics have to do with this?
 
-Individual targeting is only as good as the data collected on individuals.
+Individual targeting is only as effective as the data collected on individuals.
 With GA used on more than 60% of all websites, Google can track your
 journey through _most_ websites you visit. Based on this browsing
-history and many other variables, they can build a profile on who you are and what your interests are so
-advertisers can target you more effectively.
+history and many other variables, they can build a profile on who you are and what your interests are.
+This helps political and corporate campaigns to target you more effectively.
 
 As developers, marketers, technologists, we shouldn't be complicit in this. Yes, most of us block
 ourselves from being tracked individually, but what about the websites we run?
@@ -89,5 +89,5 @@ This is why I'm building an open-source alternative to Google Analytics at [plau
 
 It's a stripped-down, lightweight version of what big analytics suites offer. My aim is to build a tool that
 can give you an overview of traffic to your website without compromising your visitors' privacy. If Plausible
-is too simplistic, I'd recommend checking out [this list](https://ethical.net/resources/?resource-category=analytics)
+is too simplistic for your needs, I'd recommend checking out [this list](https://ethical.net/resources/?resource-category=analytics)
 of alternatives to Google Analytics.
