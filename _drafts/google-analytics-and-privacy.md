@@ -84,10 +84,23 @@ First of all, don't include any scripts or pixels by advertising companies like 
 That's the starting point.
 
 If you care about measuring traffic to your website, use an open-source analytics tool that you trust.
-There are a few on the market but I didn't find one that I really liked when I looked last year.
-This is why I'm building an open-source alternative to Google Analytics at [plausible.io](https://plausible.io).
+Open-source projects are subject to public scrutiny, and they embody a more ethical culture oriented
+towards the public good rather than private profits.
 
-It's a stripped-down, lightweight version of what big analytics suites offer. My aim is to build a tool that
-can give you an overview of traffic to your website without compromising your visitors' privacy. If Plausible
+It's also important to consider data ownership. The Google and Facebook model says that the analytics data
+from your website is to be sold to advertisers. After all, they must get something in return
+for offering a free service. If you want to truly own your data, you have to be ready to pay for your analytics.
+
+You can either install a self-hosted analytics platform, or choose a cloud-based service whose business model is
+to charge directly for their service instead of making money from advertisers. I like convenience so I lean
+towards cloud services as long as they are open source and promise 100% data ownership.
+
+There are many projects in this space catering for different needs. Last year I started building
+an [analytics tool for my own needs](https://plausible.io), which are simplicity and performance.
+I think most analytics platforms are overcomplicated to the point of being more confusing than helpful.
+Meanwhile, websites are getting more bloated due to heavy frontend scripts that degrade the user experience.
+
+Plausible is a stripped-down, lightweight version of what big analytics suites offer. My aim is to build a tool that
+tracks overall trends in traffic, not personal data on individual visitors. If Plausible
 is too simplistic for your needs, I'd recommend checking out [this list](https://ethical.net/resources/?resource-category=analytics)
 of alternatives to Google Analytics.
