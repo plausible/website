@@ -5,7 +5,7 @@ title: 'Google Analytics & Privacy: Why it matters'
 
 If you're running a website with Google Analytics installed, you may be wondering how it
 affects the privacy of your website's visitors. There's a growing distrust towards the digital
-advertising [oligopoly](https://www.investopedia.com/terms/o/oligopoly.asp) but what are the real issues besides calling out 'creepy' ads?
+advertising sector but what are the actual issues besides calling out 'creepy' ads?
 Let's discuss the wider ethical questions around personal data collection and digital targeting.
 
 ### Why is Google in the analytics business?
@@ -38,8 +38,10 @@ corporate surveillance at all times. Although we can use their useful software f
 paying with our personal privacy. This is well documented.
 
 Besides the costs to our personal privacy, I'd say the much bigger scandal lies in how targeted
-advertising affects society as a whole. Oligarchs across the world have weaponised
-this technology to advance their agenda with absolutely no regard for democracy or the common good.
+advertising affects civil society. Political campaigns are now able to discern with amazing
+accuracy which voters to target with their advertising. Instead of debating issues in the public
+and broadcasting ads to everbody, campaigns can target voters on an individual basis. This contributes
+to filter bubbles, disinformation, radicalization, and a general breakdown of democracy.
 
 This is what the Cambridge Analytica scandal was about. The company was built to use online
 tracking and targeting to win political campaigns for the highest bidder. They've been incredibly
@@ -53,15 +55,15 @@ successful:
 
 - Alexander Nix, Former CEO of Cambridge Analytica
 
-Regardless of your own political views, it's hard to deny that targeted propaganda was a
-**[crucial part of the success](https://semantiko.com/project-alamo/)** in the 2016 Trump
-campaign as well as **[more than 100 other political campaigns across the world.](https://qz.com/1239762/cambridge-analytica-scandal-all-the-countries-where-scl-elections-claims-to-have-worked/)**
+Regardless of whether you support Trump or not, it's hard to deny that propaganda is on the rise.
+Trump's marketing team, was spending $70 million a month during it's peak in October 2016.
+The details are not known, but it's fair to assume that most of it was spent on digital advertising.
 
 > We are thrilled that our revolutionary approach to data-driven communication has played such an integral part in President-elect Trump's extraordinary win
 
 - Alexander Nix, Former CEO of Cambridge Analytica
 
-If you have 10 minutes, I'd recommend watching Alexander Nix himself [explain how they use personal targeting](https://www.youtube.com/watch?v=n8Dd5aVXLCc) to push propaganda, undermine democracy, and suppress independent thought. If you have 2 hours, I'd recommend watching [The Great Hack](https://www.thegreathack.com/). Orwellian stuff.
+If you have 10 minutes, I'd recommend watching Alexander Nix himself [explain how they use personal targeting](https://www.youtube.com/watch?v=n8Dd5aVXLCc) to push propaganda and undermine democracy. If you have 2 hours, I'd recommend watching [The Great Hack](https://www.thegreathack.com/). Orwellian stuff.
 
 ### What does Google Analytics have to do with this?
 
