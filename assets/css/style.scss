@@ -4,6 +4,42 @@
 
 @import url(highlight.css);
 
+html {
+  color: #3d4852;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light-text {
+  color: #F0F4F8;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2f365f;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .025em;
+  padding: .5rem 1.25rem;
+  border-radius: .25rem;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #3a3a3a;
   font-family: system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
