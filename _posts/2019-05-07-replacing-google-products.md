@@ -24,7 +24,7 @@ In my mind, [Firefox](https://www.mozilla.org/en-US/firefox/new/) is the best al
 As someone who is extremely concerned about the climate crisis, I've recently switched to [Ecosia](https://www.ecosia.org/) as my default search engine. Part of their ad revenue goes towards planting trees in the tropics to fight against deforestation. They have planted 61 million trees so far and the number is increasing by the day.
 
 #### Google Hangouts -> Slack calls
-I’ve been forced to use Hangouts in the past, but I've always preferred [Slack](https://slack.com/intl/en-gb/) calls and [appear.in](https://appear.in). I’m eagerly waiting for [Tuple](tuple.app) to launch so I can get my hands on it as well. It’s a video calling tool built specifically for pair programming. Seems awesome :)
+I’ve been forced to use Hangouts in the past, but I've always preferred [Slack](https://slack.com/intl/en-gb/) calls and [appear.in](https://appear.in). I’m eagerly waiting for [Tuple](https://tuple.app) to launch so I can get my hands on it as well. It’s a video calling tool built specifically for pair programming. Seems awesome :)
 
 #### Google Docs -> Notion
 I like [Notion](https://notion.so) as a replacement for Google Docs. Notion is markdown-based and seems to fit my brain a lot better than Google Docs. It has way better navigation so it makes a good internal knowledge base where people can actually find stuff.
