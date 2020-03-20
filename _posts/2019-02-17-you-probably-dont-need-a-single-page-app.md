@@ -37,7 +37,7 @@ Even if your app needs some real-time capabilities or rich interactions, you don
 
 Github uses this hybrid approach. The backbone of their website is a traditional rails app but some areas, like the projects tab, are built as embedded frontend applications. It's a beautiful solution that combines the best of both worlds. The great thing is that you can start simple and gradually add more complex UI interactions with this approach.
 
-I believe that my current project, [Plausible](https://plausible.io/), will evolve in this direction. The main UI of the app will need rich interactions in the future, but the rest of the app can stay with the server-rendered architecture.
+I've also decided to use the hybrid approach for my current project, [Plausible Analytics](https://plausible.io). It's a privacy-focused alternative to Google Analytics that I've been working on. Most of the app is rendered on the server side. However, I wanted the main dashboard ([demo](https://plausible.io/plausible.io)) to have a pretty rich UI with animations and refreshing data without reloading the whole page. When you open that page, the frontend router takes over and everything is rendered in React.
 
 ### It all comes down to tradeoffs
 
