@@ -54,7 +54,7 @@ layout: default
 
 <div class="relative">
   <div class="max-w-5xl mx-auto rounded shadow-2xl" style="margin-bottom: -36rem">
-    <%= img_tag(PlausibleWeb.Router.Helpers.static_path(@conn, "/images/screenshot.png")) %>
+    <img src="/assets/images/screenshot.png" alt="Simple web analytics dashboard" />
   </div>
 </div>
 
@@ -122,7 +122,7 @@ layout: default
             <div class="ml-4">
               <h3 class="text-lg leading-6 font-medium text-gray-900">Doesn’t track nor collect any personal data</h3>
               <p class="mt-2 text-base leading-6 text-gray-500">
-              Plausible respects the privacy of your visitors. Your traffic data is not used for any other purposes. You fully own and control it. See our <%= link("data policy", to: "/data-policy", class: "text-indigo-600") %> for details.
+              Plausible respects the privacy of your visitors. Your traffic data is not used for any other purposes. You fully own and control it. See our <a href="/data-policy" class="text-indigo-600 hover:underline">data policy</a> for details.
               </p>
             </div>
           </div>
@@ -309,7 +309,7 @@ layout: default
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
         </svg>
-        <%= img_tag(PlausibleWeb.Router.Helpers.static_path(@conn, "/images/screenshot-countries.png"), class: "relative mx-auto shadow-xl", alt: "Screenshot of referrers") %>
+        <img src="/assets/images/screenshot-countries.png" class="relative mx-auto shadow-xl" alt="Website traffic stats">
       </div>
     </div>
   </div>
@@ -323,7 +323,7 @@ layout: default
           <img class="max-h-12" src="https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg" alt="Wordpress" />
         </div>
         <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <%= img_tag(PlausibleWeb.Router.Helpers.static_path(@conn, "/images/icon/ghost.svg"), class: "max-h-12", alt: "Ghost") %>
+          <img class="max-h-12" src="/assets/images/icon/ghost.svg" alt="Ghost" />
         </div>
         <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
           <img class="max-h-8 mt-2" src="https://static1.squarespace.com/static/ta/579a2a93c534a544b31573c3/30/assets/pages/logomark/images/icons/icon-squarespace.svg?20181219" alt="Wix" />
@@ -371,7 +371,7 @@ layout: default
         <footer class="mt-8">
           <div class="md:flex md:items-center md:justify-center">
             <div class="md:flex-shrink-0">
-              <%= img_tag(PlausibleWeb.Router.Helpers.static_path(@conn, "/images/testimonials/felipe.jpg"), class: "mx-auto h-10 w-10 rounded-full", alt: "Image of Felipe Sere") %>
+              <img src="/assets/images/testimonials/felipe.jpg" class="mx-auto h-10 w-10 rounded-full" alt="Image of Felipe Sere" />
             </div>
             <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
               <div class="text-base leading-6 font-medium text-gray-900">Felipe Sere</div>
@@ -642,7 +642,7 @@ layout: default
             </h3>
             <div class="mt-2">
               <p class="text-base leading-6 text-gray-500">
-              Plausible is fully open-source and available <%= link("on Github", to: "https://github.com/plausible-insights/plausible", class: "text-indigo-600") %> so you can check out the code. We welcome feedback, have a public roadmap and are available to you via email.
+              Plausible is fully open-source and available <a href="https://github.com/plausible-insights/plausible" class="text-indigo-600 hover:underline">on Github</a> so you can check out the code. We welcome feedback, have a public roadmap and are available to you via email.
               </p>
             </div>
           </div>
@@ -666,7 +666,7 @@ layout: default
             </h3>
             <div class="mt-2">
               <p class="text-base leading-6 text-gray-500">
-              We take painstaking care to not collect or store any personal information that could be tied back to the visitor. You own your data and we will never sell it or use it in nefarious ways. <%= link("Read more about our data policy", to: "/data-policy", class: "text-indigo-600") %>.
+              We take painstaking care to not collect or store any personal information that could be tied back to the visitor. You own your data and we will never sell it or use it in nefarious ways. <a href="/data-policy" class="text-indigo-600 hover:underline">Read more about our data policy</a>.
               </p>
             </div>
           </div>
