@@ -11,3 +11,5 @@ include:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-postcss
+ - jekyll-purgecss

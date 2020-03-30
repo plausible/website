@@ -1,0 +1,25 @@
+---
+---
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "assets/css/highlight.css";
+
+
+html {
+  @apply text-gray-800;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@screen xl {
+  .container {
+    max-width: 70rem;
+  }
+}
+
+
+@tailwind utilities;

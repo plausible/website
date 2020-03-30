@@ -3,3 +3,4 @@
 Gemfile.lock
 _site
 *.gem
+node_modules

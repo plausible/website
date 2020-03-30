@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+<article class="max-w-screen-xl mx-auto">
+  <header>
+    <h1 class="text-3xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">
+      {{ page.title | escape }}
+    </h1>
   </header>
 
-  <div class="post-content">
+  <div>
     {{ content }}
   </div>
-
 </article>
