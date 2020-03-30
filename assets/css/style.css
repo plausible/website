@@ -25,4 +25,9 @@ body {
   color: #F0F4F8;
 }
 
+pre.highlight {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 @tailwind utilities;
