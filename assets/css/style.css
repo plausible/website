@@ -21,5 +21,8 @@ body {
   }
 }
 
+.light-text {
+  color: #F0F4F8;
+}
 
 @tailwind utilities;
