@@ -14,3 +14,16 @@ plugins:
  - jekyll-seo-tag
  - jekyll-postcss
  - jekyll-purgecss
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - tailwind.config.js
+  - .gitignore
+
