@@ -4,8 +4,10 @@ permalink: /:title
 highlighter: rouge
 url: https://plausible.io
 description: 'Stories, learnings and experiences gained from building an open source privacy-friendly Google Analytics alternative'
-
 show_excerpts: true
+
+include:
+  - _redirects
 
 plugins:
  - jekyll-feed
