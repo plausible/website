@@ -1,9 +1,8 @@
-title: The Plausible Blog
-baseurl: /blog/
-permalink: /:title
+title: Plausible · Simple, privacy-friendly alternative to Google Analytics
+permalink: /blog/:title
 highlighter: rouge
 url: https://plausible.io
-description: 'Stories, learnings and experiences gained from building an open source privacy-friendly Google Analytics alternative'
+description: 'Plausible is a lightweight and open-source web analytics tool. Your website data is 100% yours and the privacy of your visitors is respected.'
 show_excerpts: true
 
 include:
