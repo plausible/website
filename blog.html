@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="container max-w-screen-md mt-24">
+  <div class="text-center">
+    <h1 class="text-4xl font-black">The Plausible Blog</h1>
+    <p class="content-text text-lg mt-6">
+    Hi! My name is <a class="text-indigo-600 hover:underline" href="https://twitter.com/ukutaht">Uku</a> and I'm building a lightweight, non-intrusive alternative to Google Analytics.
+    You can read about the journey and what I've learnt along the way on this blog.
+    </p>
+  </div>
+</div>
+
+<div class="container max-w-screen-md mt-12">
+  <form class="mt-8 sm:flex justify-center" action="https://plausible.us20.list-manage.com/subscribe/post?u=aa3638e2a24986bbda7c17506&id=a307649d1b" method="post">
+    <input type="email" name="EMAIL" required class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:max-w-xs" placeholder="Enter your email" />
+    <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+      <button class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+        Subscribe
+      </button>
+    </div>
+  </form>
+</div>
+
+<hr class="w-full bg-gray-100 my-12" style="height: 1px;">
+
+<ul class="container max-w-screen-md mt-12">
+  {%- for post in site.posts -%}
+  <li class="mt-16 list-reset">
+    <time class="uppercase text-xs text-gray-500 font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h2 class="mt-1 font-black text-3xl">
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+    {%- if site.show_excerpts -%}
+      <div class="mt-6 post-content">{{ post.excerpt }}</div>
+    {%- endif -%}
+    <div class="mt-10">
+      <a class="text-indigo-600 uppercase text-sm tracking-wide font-black content-link" href="{{ post.url | relative_url }}">Continue reading -></a>
+    </div>
+  </li>
+  <hr class="w-full bg-gray-100 my-12" style="height: 1px;">
+  {%- endfor -%}
+</ul>
