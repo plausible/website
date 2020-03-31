@@ -35,7 +35,7 @@ We use this to show you what browsers people use when visiting your website. Thi
 ### 4. Operating system
 Example: _macOS_
 
-We use this to show you what operating systems people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded.
+We use this to show you what operating systems people use when visiting your website. We only show the brand of the operating system and don't include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded.
 
 ### 5. Device type
 Example: _Desktop_
