@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container max-w-screen-md mt-24">
+<div class="container max-w-screen-sm mt-24">
   <div class="text-center">
     <h1 class="text-4xl font-black">The Plausible Blog</h1>
     <p class="content-text text-lg mt-6">
@@ -12,7 +12,7 @@ layout: default
   </div>
 </div>
 
-<div class="container max-w-screen-md mt-12">
+<div class="container max-w-screen-sm mt-12">
   <form class="mt-8 sm:flex justify-center" action="https://plausible.us20.list-manage.com/subscribe/post?u=aa3638e2a24986bbda7c17506&id=a307649d1b" method="post">
     <input type="email" name="EMAIL" required class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:max-w-xs" placeholder="Enter your email" />
     <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
@@ -25,7 +25,7 @@ layout: default
 
 <hr class="w-full bg-gray-100 my-12" style="height: 1px;">
 
-<ul class="container max-w-screen-md mt-12">
+<ul class="container max-w-screen-sm mt-12">
   {%- for post in site.posts -%}
   <li class="mt-16 list-reset">
     <time class="uppercase text-xs text-gray-500 font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
