@@ -1,4 +1,4 @@
-<nav x-data="{ mobileNav: false }" class="relative py-8 z-10">
+<nav x-data="{mobileNav: false}" class="relative py-8 z-10">
   <div class="container">
     <nav class="relative flex items-center justify-between sm:h-10 md:justify-center">
       <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
@@ -39,7 +39,7 @@
         <a href="https://docs.plausible.io" class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Docs</a>
       </div>
       <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-        <ul class="flex">
+        <ul class="flex" x-show="!document.cookie.includes('logged_in=true')">
           <li>
             <div class="hidden lg:inline-flex">
               <a href="/login" class="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Login</a>
@@ -49,6 +49,9 @@
             </div>
           </li>
         </ul>
+        <div class="inline-flex rounded shadow ml-6" x-show="document.cookie.includes('logged_in=true')">
+          <a href="/sites" class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">My dashboard</a>
+        </div>
       </div>
     </nav>
   </div>
