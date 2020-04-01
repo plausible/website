@@ -1,3 +1,5 @@
-# Plausible blog
+[![Netlify Status](https://api.netlify.com/api/v1/badges/13747c07-3aed-4c4f-9ae2-7528ded7f45d/deploy-status)](https://app.netlify.com/sites/reverent-johnson-3dce37/deploys)
 
-This is a jekyll static site. The theme started out as Minima, but it's heavily customized to fit the Plausible brand.
+# Plausible website
+
+This is a jekyll static site.
