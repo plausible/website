@@ -1,61 +1,79 @@
 ---
 layout: page
-title: How lightweight web analytics can reduce the carbon footprint of your site
-description: Replacing Google Analytics with a lightweight web analytics tool can
-  have a significant effect on the page load time of your website.
-permalink: "/lightweight-web-analytics"
+title: 'Matomo vs Plausible: Why Plausible is a great Matomo alternative'
+description: Plausible and Matomo are open-source website analytics tools. What is
+  the difference between them and why are they good alternatives to Google Analytics?
+permalink: "/vs-matomo"
 published: false
 
 ---
-Page speed shows you the amount of time it takes for your website to load. Having a fast loading website is one of the key elements of modern web development. 
+Matomo, formerly known as Piwik, was founded in 2007 and has long been the most well known open-source alternative to Google Analytics.
 
-And replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time. Let's take a closer look.
+[Plausible Analytics](https://plausible.io) is a brand new player on this market so what are the differences between the two? Let's take a look.
 
-## Why should I care about my website speed?
+## Plausible vs Matomo comparison: What are the differences?
 
-What are the benefits of a fast loading website and why is site speed an important factor to consider? Let's take a look at some of the key elements:
+In our post on why we believe [Plausible is a great Google Analytics alternative](https://plausible.io/vs-google-analytics), we listed several ways in which Plausible Analytics and Google Analytics differ from one another.
 
-1. **People are impatient** and the slower your site loads the higher chance a significant part of your first-time visitors will close the browser tab or click on the back button. Page load time directly impacts the bounce rate. The average bounce rate for sites loading in under 2 seconds is 9% and it increases with the time spent loading. Bounce rate is at [38%](https://royal.pingdom.com/page-load-time-really-affect-bounce-rate/) for pages that take 5 seconds to load. Aim for your site to load within 2 seconds.
-2. Search engines such as Google have **page speed as one of their ranking factors** which determine how sites rank in the search results. A slower page speed may result in your site ranking lower and getting fewer visitors from search than a faster loading site.
-3. Browsers such as the Chrome browser are starting to **warn their users when they are about to visit a slow loading site**.
-4. A lighter and faster site generally means that less data is being transmitted and loaded which means that less electricity is used. **A lighter site emits less carbon** for each and every visitor.
+In the case of Plausible versus Matomo things are a bit more similar. Let's start with the similarities before we focus on the differences.
 
-## How do web analytics scripts affect the page size and page load time?
+### Both tools are open source
 
-Web analytics like any other website element add extra page weight and extra loading time to your website. Here's the brief overview of Plausible and a couple of the most popular providers:
+Both of our tools are fully [open-source web analytics](https://plausible.io/open-source-website-analytics) first of all. This means that the code is available [on GitHub](https://github.com/plausible-insights/plausible) for anyone to view and inspect. You can read it and review it to understand how it works and to ensure it keeps the data private and secure.
 
-* **Google Tag Manager** https://www.googletagmanager.com/gtag/js **28 KB**
-* **Google Analytics** https://www.google-analytics.com/analytics.js **17.7 KB**
+This gives you and everyone else full transparency on how the tools handle website stats. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
+
+### Both are developed in the open
+
+Both of our tools are developed in the open too welcoming user feedback and suggestions. You can for instance view [the public roadmap](https://feedback.plausible.io/roadmap) of the Plausible development and add (or vote on) your favorite feature suggestions.
+
+### Both allow you to completely own the data
+
+By using Plausible or [Matomo](https://matomo.org/), you are completely in control and have 100% ownership of all the website stats and other data collected.
+
+You don't have to worry about anyone else getting access to your website data, your visitor data is not being shared or sold to third-parties nor is it being mined for behavioral insights for advertising purposes.
+
+If so many key aspects of Matomo and Plausible are similar, in which ways do we differ? Let's explore the main differences.
+
+## Simple web analytics vs complex web analytics
+
+There are big differences in the way that Plausible and Matomo approach analytics.
+
+### Matomo is more like a full blown Google Analytics alternative
+
+When you enter your Matomo dashboard, it has that Google Analytics feel in terms of the amount of features, charts and the huge number of metrics and reports you have access to.
+
+There are 12 main sections on the left-side navigation menu with more than 70 individual reports within them.
+
+This means that Matomo collects and displays hundreds of different website metrics. For some website owners, all of these metrics and reports might be useful but the majority will probably never look at more than a fraction of them.
+
+### Plausible is built with simplicity and ease of use in mind
+
+This is the idea behind Plausible. We built a [simple web analytics tool](https://plausible.io/simple-web-analytics) that is focused on the essential website stats and metrics only. You get to see unique visitors, page views and bounce rate for the chosen date or time period. You can see the comparison to the previous period. 
+
+You also get to see the most popular pages on your site and the most popular sources of traffic. On top of that, you can see the geographical overview of where your visitors are coming from and the overview of devices, operating systems and browsers that they use.
+
+You can do event and goal conversion tracking too and we plan to add more useful metrics as we go along but you get the idea behind it.
+
+Simple, easy to understand and quick to review website analytics. We've made it easy to open publicly or share your website stats privately with other people such as your visitors or your clients who have no prior experience with analytics. 
+
+We have an actual [live demo](https://plausible.io/plausible.io) for you to view. It present you the live website analytics of our website.
+
+## A lightweight analytics script that is optimized for speed
+
+Web analytics scripts like any other website element add extra page weight and extra loading time to your website. Every KB matters when you want to keep your site fast to load.
+
+Plausible is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weights only 1.4 KB. That's 16 times smaller than the Matomo script which weights 22.8 KB.
+
 * **Matomo** https://example.org/matomo.js **22.8 KB**
 * **Plausible** https://plausible.io/js/analytics.js **1.4 KB**
 
-### Google Analytics
+Plausible script you need to integrate into your site looks like this:
 
-Google Analytics is the most popular web analytics solution that is installed on [more than 50% of all websites](https://w3techs.com/technologies/history_overview/traffic_analysis/all) on the web. The recommended way to start tracking your website using Google Analytics is to install the Global Site Tag (gtag.js) tracking code on all of your pages.
+    <script async defer data-domain="domain.com" 
+    src="https://plausible.io/js/plausible.js"></script>
 
-Google Analytics script you need to integrate into your site looks like this:
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async 
-    src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-XX">
-    </script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    
-    gtag('config', 'UA-XXXXXXX-XX');
-    </script>
-
-https://www.googletagmanager.com/gtag/js weights 28 KB and this script downloads another JavaScript file called the Google Analytics tag (https://www.google-analytics.com/analytics.js) which adds an additional 17.7 KB to your page size.
-
-**These two tracking scripts combined add 45.7 KB of page weight to each and every page load**.
-
-### Matomo
-
-A popular open-source alternative to Google Analytics is [Matomo (formerly known as Piwik)](https://plausible.io/vs-matomo). Matomo too is installed on millions of websites. 
-
-To track your website traffic using Matomo, you need to integrate the matomo.js script to your pages. It looks like this:
+While the Matomo script looks like this:
 
     <!-- Matomo -->
     <script type="text/javascript">
@@ -68,91 +86,37 @@ To track your website traffic using Matomo, you need to integrate the matomo.js 
     _paq.push(['setSiteId', {$IDSITE}]);
     var d=document, g=d.createElement('script'), 
     s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; 
-    g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; 
+    g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
     </script>
     <!-- End Matomo Code -->
 
-This matomo.js script adds 22.8 KB to the page size of your website.
+## Privacy regulations and the need for cookie notices and GDPR or CCPA consent
 
-### Plausible Analytics
+By being a more simple and more lightweight alternative, it means that Plausible also tracks and collects fewer data points by default.
 
-Every KB matters when you want to keep your site fast to load. Plausible is built with simplicity, speed and performance in mind.
+With Matomo being a full-blown Google Analytics-like tool, it is using cookies and it is collecting personal data by default for reports such as session recordings and heatmaps.
 
-**Plausible script weights only 1.4 KB. That's 16 times smaller than the Matomo script and 33 times smaller than the Google Analytics Global Site Tag.** 
+To make Matomo privacy regulation compliant and to not have to ask your visitors for cookie or GDPR consent, you can take [these steps](https://matomo.org/blog/2018/04/how-to-not-process-any-personal-data-with-matomo-and-what-it-means-for-you/). To make Matomo compliant with GDPR and other privacy regulations without obtaining consent, you need to:
 
-Even if a site owner figures out that there's a way to load Google Analytics script without using the Global Site Tag, Plausible is still 13 times lighter.
+1. Anonymize visitors' IP addresses
+2. Disable the creation of cookies
+3. Anonymize URLs which include personal identifiers
+4. Anonymize the tracking data which includes the user ID and order ID
+5. Anonymize location data so a full IP address is not used to geolocate visitors
+6. Anonymize all keystrokes which users enter into forms of your site
 
-Plausible script you need to integrate into your site looks like this:
+Without taking the above steps, you would need to compromise the visitor experience by prompting them to give you consent to place cookies on their devices or for collecting personal data.
 
-    <script async defer data-domain="domain.com" 
-    src="https://plausible.io/js/plausible.js"></script>
+Plausible doesn't use any cookies and we don't collect any personal data so by using Plausible you don't need to obtain a [cookie consent or the GDPR consent](https://plausible.io/data-policy) at all.
 
-## How can I test my website speed and the script size of my analytics provider?
+## One of the largest web analytics platforms on the web versus a brand new startup
 
-[GTmetrix](https://gtmetrix.com/) is a great free resource for measuring the speed of your site. It gives you a brief overview with useful metrics such as the PageSpeed Score, the time it takes to fully load your website and the total page size.
+Matomo is one of the most popular website analytics providers. It is installed on 1.5% of all the websites that use a known traffic analysis tool. This means that Matomo is used on [1% of all websites](https://w3techs.com/technologies/details/ta-piwik) on the web. It's a great success for a great open-source web analytics project.
 
-Another interesting report within GTmetrix is the Waterfall chart. It presents you with a request-by-request visualization of the page load of your website. Every element that your site loads is listed with its size and timeline.
+Plausible is a brand new and independently developed project. We're a small team and we're self-funded. By using Plausible, you will support indie-developers, indie-businesses and the independent web.
 
-You'll see your CSS in here, your images and other media elements and you'll see any JavaScript as well. Identify the script(s) from your analytics provider to see what page weight they add to your site.
+## Sign up for a free Plausible trial
 
-This is how the waterfall chart looks for the Plausible home page. In this list, you can see the plausible.js which is our tracking script, the same scripts that our users use too.
-
-![Plausible Analytics home page loading time](/uploads/plausible-web-speed-test.png "Plausible home page elements and loading time")
-
-## Why is the Google Analytics tracking script so heavy?
-
-Google's Global Site Tag and the Universal Analytics script can be considered bloat if you care about only the most useful website stats and want to make your site as lean and fast as possible.
-
-Why is it so heavy? Global Site Tag is a centralized script that can help you integrate many other Google services and features such as conversion tracking and remarketing while **Google Analytics itself tracks hundreds of different metrics for more than 125 individual reports**.
-
-Some people can benefit from all these but most website owners don't have a use for the vast majority of these services, integrations, reports and individual metrics. 
-
-Google Analytics is overkill and a not so [privacy-friendly website analytics](https://plausible.io/data-policy) solution for the problem of simply figuring out how many people visit your site, where they discovered it in the first place and what type of content they consume.
-
-Plausible aims to focus on the essential metrics only which makes our script lightweight as we don't collect any personal data. 
-
-This also makes our [simple web analytics](https://plausible.io/simple-web-analytics) easy to use and get useful insights from. No education or prior experience is required. There are also other reasons why we believe Plausible is a great [Google Analytics alternative](https://plausible.io/vs-google-analytics).
-
-## What else can I do reduce the size and have a fast loading website?
-
-Here are some of the actions you can take to speed up your website:
-
-1. When you plan to add a new element to your website, do ask yourself if it's necessary. You'll find that **many elements are unnecessary** and you may consider leaving them out or removing them.
-2. **Use system fonts** where it is possible. System fonts are already on the devices of your visitors so no extra page weight and loading time will be added.
-3. **Use fewer images and videos**. Images and videos are much heavier than simple text so reducing the usage of multimedia elements can make a huge difference.
-4. Optimize the images that you do use by **resizing and compressing** them to a smaller size. Your visitors won't notice much or any difference at all. [ImageOptim](https://imageoptim.com/mac) is a great tool for this and so is [Squoosh](https://squoosh.app/) by Google.
-5. **Implement lazy loading** on your images and video so they do not load unless the visitor scrolls down to the areas where they are placed.
-
-## How much electricity does my website consume?
-
-Try and run your site through the [Website Carbon Calculator](https://www.websitecarbon.com/). It gives you an estimation of how many g of CO2 is produced for every visitor to your site.
-
-![Plausible Analytics website carbon footprint](/uploads/plausible-carbon-footprint.png "Plausible Analytics website carbon footprint")
-
-Let's do a bit of a calculation. The Google Tag Manager way of integrating Google Analytics into a website adds a total script size of 45.7 KB. 
-
-Plausible script itself is at 1.4 KB. **If you replace Google Analytics with Plausible you will reduce your page size by 44.3 KB for each visitor**.
-
-With 10,000 monthly visitors that will be a saving of 443,000 KB (0.443 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors. 
-
-That brings us to more than 5 GB of data transfer per year saved. Even a saving of 44.3 KB in scripts can really make a huge difference in reducing the carbon footprint of your website.
-
-The estimated numbers [vary a lot from study to study](https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630) and by which type of network is used, but Website Carbon Calculator has set the energy usage at 1.8 kWh (kilowatt‐hours) for every GB of data transfer. 
-
-**That would result in almost 10 kWh (9.6 to be exact) saved per year for one website of 10,000 monthly visitors only by reducing one analytics script**.
-
-Another number that is not easy to get a definitive answer to is the [carbon intensity of the electricity generation](https://www.eea.europa.eu/data-and-maps/indicators/overview-of-the-electricity-production-2/assessment-4). Website Carbon Calculator sets this at 475 g CO2 per kWh. 
-
-This means that the almost 10 kWh saved per year for one single website of 10,000 monthly visitors ends up saving more than 4.5 kg of CO2 emissions.
-
-**So almost five kilograms in the yearly reduction of CO2 emissions for one website of 10,000 monthly visitors alone from a saving of 44.3 KB in JavaScript**. 
-
-These numbers are all estimates but you can imagine if millions of website owners and Google Analytics users end up making a similar reduction in their website size too. The total reduction in the carbon footprint of the web would be immense.
-
-## Give Plausible a try as your lightweight web analytics tool
-
-Plausible is a simple, open-source and lightweight site analytics tool. At 1.4 KB, our analytics script is 16 times smaller than the Matomo script and 33 times smaller than the Google Analytics Global Site Tag. 
-
-[Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard while getting a faster website that produces less carbon emissions.
+[Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard while getting a faster website that doesn't require you to annoy your visitors with the different cookie and privacy regulation prompts and notices.
