@@ -27,4 +27,4 @@ exclude:
   - purgecss.config.js
   - tailwind.config.js
   - .gitignore
-
+  - vendor
