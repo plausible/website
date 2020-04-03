@@ -14,3 +14,5 @@ fields:
 - type: text
   name: permalink
   label: permalink
+pages:
+- matomo-vs-plausible-why-plausible-is-a-great-matomo-alternative.md
