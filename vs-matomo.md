@@ -4,7 +4,6 @@ title: 'Matomo vs Plausible: Why Plausible is a great Matomo alternative'
 description: Plausible and Matomo are open-source website analytics tools. What is
   the difference between them and why are they good alternatives to Google Analytics?
 permalink: "/vs-matomo"
-published: false
 
 ---
 Matomo, formerly known as Piwik, was founded in 2007 and has long been the most well known open-source alternative to Google Analytics.
