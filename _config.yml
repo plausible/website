@@ -7,6 +7,10 @@ description: 'Plausible is a lightweight and open-source web analytics tool. You
 show_excerpts: true
 css_dir: 'assets/css'
 
+collections:
+  articles:
+    output: true
+
 include:
   - _redirects
 
