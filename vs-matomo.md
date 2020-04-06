@@ -49,13 +49,13 @@ This means that Matomo collects and displays hundreds of different website metri
 
 ### Plausible is built with simplicity and ease of use in mind
 
-This is the idea behind Plausible. We built a [simple web analytics tool](https://plausible.io/simple-web-analytics) that is focused on the essential website stats and metrics only. You get to see unique visitors, page views and bounce rate for the chosen date or time period. You can see the comparison to the previous period. 
+This is the idea behind Plausible. We built a [simple web analytics tool](https://plausible.io/simple-web-analytics) that is focused on the essential website stats and metrics only. You get to see unique visitors, page views and bounce rate for the chosen date or time period. You can see the comparison to the previous period.
 
 You also get to see the most popular pages on your site and the most popular sources of traffic. On top of that, you can see the geographical overview of where your visitors are coming from and the overview of devices, operating systems and browsers that they use.
 
 You can do event and goal conversion tracking too and we plan to add more useful metrics as we go along but you get the idea behind it.
 
-Simple, easy to understand and quick to review website analytics. We've made it easy to open publicly or share your website stats privately with other people such as your visitors or your clients who have no prior experience with analytics. 
+Simple, easy to understand and quick to review website analytics. We've made it easy to open publicly or share your website stats privately with other people such as your visitors or your clients who have no prior experience with analytics.
 
 We have an actual [live demo](https://plausible.io/plausible.io) for you to view. It present you the live website analytics of our website.
 
@@ -66,7 +66,7 @@ Web analytics scripts like any other website element add extra page weight and e
 Plausible is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weights only 1.4 KB. That's 16 times smaller than the Matomo script which weights 22.8 KB.
 
 * **Matomo** https://example.org/matomo.js **22.8 KB**
-* **Plausible** https://plausible.io/js/analytics.js **1.4 KB**
+* **Plausible** https://plausible.io/js/plausible.js **1.4 KB**
 
 Plausible script you need to integrate into your site looks like this:
 
