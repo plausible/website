@@ -31,6 +31,16 @@ pre.highlight {
   white-space: pre-wrap;
 }
 
+#markdown-toc::before {
+  content: "Contents";
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#markdown-toc {
+  @apply p-4 pl-10 border border-gray-300 my-6;
+}
+
 .rich-text code {
   white-space: pre-wrap;
 }

@@ -10,6 +10,9 @@ Even though the purpose of [Plausible Analytics](https://plausible.io) is to tra
 
 Here's a closer look at our data policy, the information that we do collect, what we use it for and steps we've taken to comply with the cookie law and the privacy regulations such as the GDPR, CCPA and PECR.
 
+1. Ordered list
+{:toc}
+
 ## First thing first: What we collect and what we use it for
 
 The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. The privacy of your website visitors is important to us. We don’t collect or store any personal or identifiable data. All of the data that we do collect is aggregated data only and it has no personal information.
