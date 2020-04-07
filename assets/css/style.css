@@ -28,6 +28,11 @@ body {
 pre.highlight {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.rich-text code {
+  white-space: pre-wrap;
 }
 
 .rich-text table {
@@ -35,8 +40,17 @@ pre.highlight {
 }
 
 .rich-text table {
-  width: 150%;
-  margin-left: -25%;
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+@screen lg {
+  .rich-text table {
+    max-width: unset;
+    width: 150%;
+    margin-left: -25%;
+  }
 }
 
 .rich-text table th {
