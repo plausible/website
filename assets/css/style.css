@@ -30,4 +30,21 @@ pre.highlight {
   margin-bottom: 1rem;
 }
 
+.rich-text table {
+  @apply min-w-full bg-white shadow my-6;
+}
+
+.rich-text table {
+  width: 150%;
+  margin-left: -25%;
+}
+
+.rich-text table th {
+  @apply px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider whitespace-no-wrap bg-gray-50;
+}
+
+.rich-text table td {
+  @apply px-6 py-4 border-b border-gray-200 text-sm leading-5 text-gray-600;
+}
+
 @tailwind utilities;

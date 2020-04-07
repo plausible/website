@@ -16,51 +16,16 @@ The goal of Plausible is to track overall trends in your website traffic, it is 
 
 We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page. Here is the complete list of what we collect and store about your website visitors:
 
-### 1. Page URL
+| Data point | Example | Comment |
+|---|---|---|---|---|
+| **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=` and `utm_source=`. |
+| **HTTP Referer** | _https://facebook.com_ | We use the referrer string to show you the number of visitors referred to your website from links on other sites. |
+| **Browser** | _Chrome_ | We use this to show you what browsers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
+| **Operating system** | _macOS_ | We use this to show you what operating systems people use when visiting your website. We only show the brand of the operating system and don't include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
+| **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
+| **Visitor Country**  | _United Kingdom_ | We look up the visitor's country using their IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
+| **Initial referrer** <small>(Optional)</small>  | _https://facebook.com_ | You can choose to configure Plausible to use a cookie which is then used to provide referral information for goal conversions. In that case, the initial referrer is stored in a cookie on the visitor's device and later attached to the conversion event such as a subscription to your newsletter. <br /><br />This is not enabled by default and is an optional feature for those who want to track referral sources of their goal or event conversions. You can still track goal or event conversions without using cookies but you will not get the referral source. |
 
-Example: _https://yoursite.com/pricing_
-
-We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed.
-
-The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=` and `utm_source=`.
-
-### 2. HTTP Referer
-
-Example: _https://facebook.com_
-
-We use the referrer string to show you the number of visitors referred to your website from links on other sites.
-
-### 3. Browser
-
-Example: _Chrome_
-
-We use this to show you what browsers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded.
-
-### 4. Operating system
-
-Example: _macOS_
-
-We use this to show you what operating systems people use when visiting your website. We only show the brand of the operating system and don't include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded.
-
-### 5. Device type
-
-Example: _Desktop_
-
-We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded.
-
-### 6. Initial referrer (Optional and opt-in only)
-
-Example: _https://facebook.com_
-
-You can choose to configure Plausible to use a cookie which is then used to provide referral information for goal conversions. In that case, the initial referrer is stored in a cookie on the visitor's device and later attached to the conversion event such as a subscription to your newsletter.
-
-This is not on by default and is an optional feature for those who want to track referral sources of their goal or event conversions. You can still track goal or event conversions without using cookies but you will not get the referral source.
-
-### 7. We never store IP addresses in our database or logs
-
-We never store IP addresses in our database or logs. The IP address is used to look up the visitor country, which we use to show the Top Countries report.
-
-We do not track anything more granular than the country of origin and the IP address of the visitor is discarded.
 
 ## Web analytics and compliance with the cookie law, GDPR, CCPA, PECR and other privacy regulations
 
