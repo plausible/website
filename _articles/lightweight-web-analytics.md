@@ -10,6 +10,9 @@ Page speed shows you the amount of time it takes for your website to load. Havin
 
 And replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time. Let's take a closer look.
 
+1. Ordered list
+{:toc}
+
 ## Why should I care about my website speed?
 
 What are the benefits of a fast loading website and why is site speed an important factor to consider? Let's take a look at some of the key elements:
@@ -35,14 +38,14 @@ Google Analytics is the most popular web analytics solution that is installed on
 Google Analytics script you need to integrate into your site looks like this:
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async 
+    <script async
     src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-XX">
     </script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    
+
     gtag('config', 'UA-XXXXXXX-XX');
     </script>
 
@@ -65,9 +68,9 @@ To track your website traffic using Matomo, you need to integrate the matomo.js 
     var u="//{$MATOMO_URL}/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', {$IDSITE}]);
-    var d=document, g=d.createElement('script'), 
+    var d=document, g=d.createElement('script'),
     s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; 
+    g.type='text/javascript'; g.async=true;
     g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
     </script>
@@ -85,7 +88,7 @@ Even if a site owner figures out that there's a way to load Google Analytics scr
 
 Plausible script you need to integrate into your site looks like this:
 
-    <script async defer data-domain="domain.com" 
+    <script async defer data-domain="domain.com"
     src="https://plausible.io/js/plausible.js"></script>
 
 ## How can I test my website speed and the script size of my analytics provider?

@@ -10,6 +10,9 @@ Matomo, formerly known as Piwik, was founded in 2007 and has long been the most 
 
 [Plausible Analytics](https://plausible.io) is a brand new player on this market so what are the differences between the two? Let's take a look.
 
+1. Ordered list
+{:toc}
+
 ## Plausible vs Matomo comparison: What are the differences?
 
 In our post on why we believe [Plausible is a great Google Analytics alternative](https://plausible.io/vs-google-analytics), we listed several ways in which Plausible Analytics and Google Analytics differ from one another.
@@ -69,7 +72,7 @@ Plausible is a [lightweight web analytics tool](https://plausible.io/lightweight
 
 Plausible script you need to integrate into your site looks like this:
 
-    <script async defer data-domain="domain.com" 
+    <script async defer data-domain="domain.com"
     src="https://plausible.io/js/plausible.js"></script>
 
 While the Matomo script looks like this:
@@ -83,9 +86,9 @@ While the Matomo script looks like this:
     var u="//{$MATOMO_URL}/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', {$IDSITE}]);
-    var d=document, g=d.createElement('script'), 
+    var d=document, g=d.createElement('script'),
     s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; 
+    g.type='text/javascript'; g.async=true; g.defer=true;
     g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
     </script>

@@ -10,6 +10,9 @@ The goal of [Plausible Analytics](https://plausible.io/) is to provide you all t
 
 You get to check your website traffic without deep layers of menus and without a need to create custom reports. Plausible presents you with all the most insightful website statistics on one single page. Here's a closer look.
 
+1. Ordered list
+{:toc}
+
 ## What are web analytics?
 
 Web analytics is the process of measuring and analyzing the usage of a website. Website owners use the analytics data to assess the performance of a site, to figure out what they're doing well and what no so well and to see what they can do to improve and optimize their future efforts.

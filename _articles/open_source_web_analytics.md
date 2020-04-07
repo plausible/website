@@ -8,6 +8,9 @@ permalink: "/open-source-website-analytics"
 ---
 Plausible is a simple and privacy-friendly website analytics tool. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is fully open-source software. Let's take a look at what that means exactly.
 
+1. Ordered list
+{:toc}
+
 ## What is web analytics?
 
 Web analytics is the process of measuring and analyzing the usage of a website. With Plausible activated on your website, you get access to a simple open source analytics dashboard.

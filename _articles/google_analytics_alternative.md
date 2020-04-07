@@ -9,6 +9,9 @@ Many site owners have the habit of installing the Google Analytics tracking scri
 
 Here's why you should break the habit of using Google Analytics and consider [Plausible](https://plausible.io/) as a simple, lightweight, ethical, open-source and privacy-friendly Google Analytics alternative.
 
+1. Ordered list
+{:toc}
+
 ## Plausible vs Google Analytics comparison: What are the differences?
 
 ### 1. Simple vs complex web analytics
