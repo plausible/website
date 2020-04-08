@@ -2,6 +2,8 @@
 layout: post
 title: Why you should stop using Google Analytics on your website
 date: 2020-04-08T12:20:53.993Z
+image: /uploads/remove-google-analytics.png
+image-alt: Remove google analytics
 ---
 Google, the world's largest ad-tech company, has direct access to user data and browsing information from a large part of the web traffic. Their data collection can track an individual from multiple angles to create the best possible behavioral profile. Google has nine different products with more than one billion users each.
 
