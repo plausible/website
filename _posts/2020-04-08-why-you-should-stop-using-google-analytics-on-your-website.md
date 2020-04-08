@@ -19,7 +19,7 @@ Google Analytics is the most popular website stats tool. More than 53% of all si
 
 Google Analytics is created, hosted and run by the largest ad-tech company in the world. A company that loves to devour all the personal data it can get access to. 
 
-Google's products are free to use because Google has built its wealth by collecting huge amounts of personal information and using these [personal and behavioral insights to sell targeted advertising](https://plausible.io/blog/google-analytics-and-privacy). 
+Google's products are free to use because Google has built its wealth by collecting huge amounts of personal information and using these [personal and behavioral insights to sell targeted advertising](https://plausible.io/blog/google-analytics-and-privacy).
 
 This business model of [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) creates a massive demand for personal information. 
 
