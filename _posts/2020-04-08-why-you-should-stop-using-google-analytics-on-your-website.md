@@ -76,7 +76,7 @@ And all the privacy regulations have a say about cookies too. PECR, for instance
 
 [According to PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you "need to tell people about analytics cookies and gain consent for their use". If you use cookies you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
-## It' blocked by many plugins and browsers so the data is not very accurate
+## It's blocked by many plugins and browsers so the data is not very accurate
 
 Many people have got enough of banner advertising, retargeting and remarketing messages, and behavioral profiling so they choose to block some of these distractions.
 
@@ -100,7 +100,7 @@ They send fake visitors to your site which then shows their URL towards the top 
 
 This referral spam has been going on for years in Google Analytics and it can really skew the stats you see. Many site owners put a lot of effort and spend a lot of time blocking the referral spam. Some do it manually one domain at a time while some use more automated systems. Neither are ideal solutions.
 
-## It's closed source product so you need to put your trust in Google
+## It's a proprietary product so you need to put your trust in Google
 
 As it says on the very top of the [Google's privacy policy](https://policies.google.com/privacy): "When you use our services, you’re trusting us with your information". In the case of Google Analytics, you're not only trusting Google with your information but also the information of all your website visitors.
 
@@ -108,7 +108,7 @@ Google Analytics is a closed source, proprietary product. There have been many r
 
 Google has denied many of the accusations and rumors but there's no way of knowing what's going on behind the scenes when you're using the Google Analytics script. You have to simply put your trust in Google, the world's largest ad-tech company.
 
-## It negatively affects the user experience due to the necessity for the annoying prompts
+## It worsens the user experience due to the necessity for the annoying prompts
 
 When you're using Google Analytics, you're making the user experience on your site more inconvenient. All the privacy regulations are a good step towards a better web and are a necessary thing in the world of surveillance capitalism. 
 
