@@ -15,6 +15,11 @@ layout: default
   <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
   <h1 class="font-black text-4xl mb-2">{{ page.title | escape }}</h1>
 
+  {% if page.image %}
+    <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image-alt | default: 'Featured image' }}" />
+  {% endif %}
+
+
   <div class="mt-8 rich-text">
     {{ content }}
   </div>

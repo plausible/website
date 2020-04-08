@@ -35,6 +35,18 @@ pre.highlight {
   @apply p-4 pl-10 border border-gray-300 my-6;
 }
 
+article img {
+  @apply rounded max-w-full mt-12 mb-6;
+}
+
+@screen lg {
+  article img {
+    max-width: unset;
+    width: 150%;
+    margin-left: -25%;
+  }
+}
+
 .rich-text code {
   white-space: pre-wrap;
 }
