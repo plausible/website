@@ -16,9 +16,7 @@ Google Chrome is the most popular web browser with a market share of [64%](https
 And then there's the Google Analytics tool for tracking website stats. Google Analytics is used by millions of websites in order to learn more about their visitors. I used Google Analytics and for years it was one of the first things I integrated on a newly launched site.
 
 More recently my thinking about this has changed. Using Google Analytics is a habit website owners, bloggers and web developers should try to stop. Here's a look at why you should remove Google Analytics from your website and help create a more open, independent web that's more friendly to the visitors.
-
 1. Ordered list {:toc}
-
 ## It's owned by Google, the largest ad-tech company in the world
 
 Google Analytics is the most popular website stats tool. More than 53% of all sites on the web track their visitors using Google Analytics. [84%](https://w3techs.com/technologies/details/ta-googleanalytics) of sites that do use a known analytics script use Google Analytics. It's the most popular third-party request on the web. It accounts for [0.64%](https://almanac.httparchive.org/en/2019/third-parties) of all network requests.
