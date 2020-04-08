@@ -1,6 +1,7 @@
 ---
 title: You probably don't need a single-page application
 layout: post
+date: 2019-02-17
 ---
 
 The meteoric rise of front-end frameworks like React, Angular, Vue.js, Elm, etc. has made single-page applications ubiquitous on the web. For many developers, these have become part of their 'default' toolset. When they start a new project, they grab the tools they know already: a REST API on the backend, and a React/Angular/Vue/Elm frontend.

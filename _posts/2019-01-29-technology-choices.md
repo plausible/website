@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Technology choices
+date: 2019-01-29
 ---
 
 In general I don't think that the tech stack matters too much for software projects. Especially if you're a solo maker, almost all of the risk is on the sales and marketing side as opposed to the tech side. The best approach is normally to just pick some boring tools and start solving your customers' problems.

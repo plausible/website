@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Google Analytics & Privacy: Why it matters'
+date: 2019-10-08
 ---
 
 If you're running a website with Google Analytics installed, you may be wondering how it

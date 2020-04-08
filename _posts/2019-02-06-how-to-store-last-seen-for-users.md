@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to store 'last seen' for users in Phoenix
+date: 2019-02-06
 ---
 
 This week, I worked on some under-the-hood improvements to [Plausible](https://plausible.io/) to give me better insights into my userbase. One of these was to store a `last_seen` timestamp for all users. This is a private piece of data that I use to determine:

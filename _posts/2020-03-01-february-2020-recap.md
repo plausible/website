@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Building Plausible: February 2020 recap'
+date: 2020-03-01
 ---
 
 As promised, here's another monthly update on building Plausible. February was a really good month:

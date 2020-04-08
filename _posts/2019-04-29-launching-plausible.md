@@ -1,6 +1,7 @@
 ---
 layout: post
 title: I'm launching Plausible
+date: 2019-04-29
 ---
 
 It's been 4 months since I wrote about [the analytics tool I want](https://plausible.io/blog/the-analytics-tool-i-want). My idea

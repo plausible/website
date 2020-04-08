@@ -1,6 +1,7 @@
 ---
 title: Learning design as a developer
 layout: post
+date: 2019-01-23
 ---
 Working on [plausible.io](https://plausible.io) I often find myself doing things I have no clue how to do. I struggle massively with marketing, copywriting, and most of all, UX/UI design. Here are some tips I’ve found helpful when trying to design for the web as an unimaginative developer who hasn’t designed a single thing in his life.
 

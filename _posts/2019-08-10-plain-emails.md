@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Plain emails are a win-win
+date: 2019-08-10
 ---
 
 If you've ever had to develop transactional HTML emails with slick designs, you'll
