@@ -36,7 +36,7 @@ pre.highlight {
 }
 
 article img {
-  @apply rounded max-w-full mt-12 mb-6;
+  @apply rounded max-w-full mt-10 mb-6;
 }
 
 @screen lg {
