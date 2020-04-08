@@ -17,7 +17,8 @@ And then there's the Google Analytics tool for tracking website stats. Google An
 
 More recently my thinking about this has changed. Using Google Analytics is a habit website owners, bloggers and web developers should try to stop. Here's a look at why you should remove Google Analytics from your website and help create a more open, independent web that's more friendly to the visitors.
 
-1. Ordered list {:toc}
+1. Ordered list
+{:toc}
 
 ## It's owned by Google, the largest ad-tech company in the world
 
