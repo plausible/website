@@ -9,6 +9,9 @@ date: 2020-04-08T12:20:53.993Z
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
+1. Ordered list
+{:toc}
+
 Google, the world's largest ad-tech company, has direct access to user data and browsing information from a large part of the web traffic. Their data collection can track an individual from multiple angles to create the best possible behavioral profile. Google has nine different products with more than one billion users each.
 
 Google Chrome is the most popular web browser with a market share of [64%](https://gs.statcounter.com/browser-market-share). Google's Android is the most popular operating system on mobile devices with a market share of [72%](https://gs.statcounter.com/os-market-share/mobile/worldwide). Google Fonts are used by millions of website developers and it's the most popular third-party domain accounting for more than 3.5% of all network requests.
