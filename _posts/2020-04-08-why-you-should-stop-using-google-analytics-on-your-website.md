@@ -115,11 +115,11 @@ And if you're simply using Google Analytics for basic web statistics, it's worth
 
 ## What are the alternatives to Google Analytics?
 
-1. ### No analytics or server logs
+* ### No analytics or server logs
 
 Many solutions do exist so there's no excuse not to explore them for a bit. If you really don't care too much about the data, you can simply go without having analytics in the first place or use your server logs to get access to the basic stats.
 
-2. ### Full-blown but more ethical alternatives
+* ### Full-blown but more ethical alternatives
 
 There are also full-blown direct competitors to Google Analytics such as [Matomo](https://plausible.io/vs-matomo). Matomo (formerly known as Piwik) is one of the big players in the ethical site analytics market. 
 
@@ -127,11 +127,11 @@ Matomo does have some of the similar issues to Google Analytics such as being di
 
 But it is an [open-source analytics tool](https://plausible.io/open-source-website-analytics) that you can self-host on your domain name and that you can customize to be less privacy-invasive.
 
-3. ### Search Console for data on search engine visibility
+* ### Search Console for data on search engine visibility
 
 For those who just use Google Analytics to understand their search engine visibility and traffic they get from Google search, there’s the [Google Search Console](https://search.google.com/search-console). It is the most accurate way of doing that. It's completely independent of Google Analytics and you don’t need to add any tracking scripts to your site to use it.
 
-4. ### Privacy-friendly and simple to understand alternatives
+* ### Privacy-friendly and simple to understand alternatives
 
 This is where our brand-new solution comes in place. With Plausible Analytics we believe we have created a better Google Analytics alternative for many site owners. Plausible Analytics gives you a web analytics tool that is:
 
