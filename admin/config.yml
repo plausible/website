@@ -3,14 +3,14 @@ backend:
   repo: plausible-insights/website
 publish_mode: editorial_workflow
 media_folder: "uploads"
-editor:
-  preview: false
 collections:
   - name: "blog"
     label: "Blog"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -23,6 +23,8 @@ collections:
     folder: "_articles"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
