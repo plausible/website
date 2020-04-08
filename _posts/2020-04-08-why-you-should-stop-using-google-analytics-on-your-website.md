@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Why you should stop using Google Analytics on your website
+description: >-
+  Here's a look at why you should remove Google Analytics from your website and
+  help create a more open, independent web that's more friendly to the visitors.
+slug: remove-google-analytics
 date: 2020-04-08T12:20:53.993Z
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
