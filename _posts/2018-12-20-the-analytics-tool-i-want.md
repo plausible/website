@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The analytics tool I want
+date: 2020-03-29T07:48:42.082Z
 ---
 
 While working on [Gigride](http://gigride.live), our marketing head asked me to integrate Google Analytics for our landing page. My first thought was:
