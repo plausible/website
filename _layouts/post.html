@@ -13,7 +13,7 @@ layout: default
   </a>
   </div>
   <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
-  <h1 class="font-black text-4xl mb-2">{{ page.title | escape }}</h1>
+  <h1 class="text-3xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">{{ page.title | escape }}</h1>
 
   {% if page.image %}
     <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image-alt | default: 'Featured image' }}" />

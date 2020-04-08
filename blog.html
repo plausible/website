@@ -29,7 +29,7 @@ layout: default
   {%- for post in site.posts -%}
   <li class="mt-16 list-reset">
     <time class="uppercase text-xs text-gray-500 font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
-    <h2 class="mt-1 font-black text-3xl">
+    <h2 class="mt-1 text-2xl tracking-tight font-extrabold text-gray-900 sm:leading-none md:text-3xl">
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h2>
     {%- if site.show_excerpts -%}
