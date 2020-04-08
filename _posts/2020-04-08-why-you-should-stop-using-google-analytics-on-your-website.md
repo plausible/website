@@ -135,11 +135,11 @@ For those who just use Google Analytics to understand their search engine visibi
 
 This is where our brand-new solution comes in place. With Plausible Analytics we believe we have created a better Google Analytics alternative for many site owners. Plausible Analytics gives you a web analytics tool that is:
 
-* Fully **open source** with the code available [on GitHub](https://github.com/plausible-insights/plausible)
-* **Simple to understand** and get insights from in one minute
-* A **lightweight script of 1.4 KB** only so your site keeps loading fast
-* **Doesn't use cookies** so there's no need for cookie banners
-* **Doesn't collect personal data** so no need for GDPR and CCPA consent prompts
+1. Fully **open source** with the code available [on GitHub](https://github.com/plausible-insights/plausible)
+2. **Simple to understand** and get insights from in one minute
+3. A **lightweight script of 1.4 KB** only so your site keeps loading fast
+4. **Doesn't use cookies** so there's no need for cookie banners
+5. **Doesn't collect personal data** so no need for GDPR and CCPA consent prompts
 
 Take a look at [our live demo](https://plausible.io/plausible.io).
 
