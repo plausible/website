@@ -1,12 +1,12 @@
 ---
 layout: post
+author: marko-saric
 title: Why you should stop using Google Analytics on your website
-description: >-
-  Here's a look at why you should remove Google Analytics from your website and
-  help create a more open, independent web that's more friendly to the visitors.
+description: Here's a look at why you should remove Google Analytics from your
+  website and help create a more open, independent web that's more friendly to
+  the visitors.
 slug: remove-google-analytics
 date: 2020-04-08T12:20:53.993Z
-author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
@@ -61,7 +61,7 @@ Some just ignore their Google Analytics completely as it's overwhelming to even 
 
 Lawmakers have taken notice about the surveillance capitalism and several different personal data and privacy regulations have been introduced such as the General Data Protection Regulation (GDPR) in Europe, California Consumer Privacy Act (CCPA) in the United States and the Privacy and Electronic Communications Regulations (PECR) in the United Kingdom.
 
-Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them. If you prefer not to do this, you should use an alternative that gives you [privacy-friendly analytics](](https://plausible.io/data-policy)).
+Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them. If you prefer not to do this, you should use an alternative that gives you [privacy-friendly analytics](https://plausible.io/data-policy).
 
 On top of the standard site analytics, many Google Analytics users also enable different advertising features such as remarketing, demographics reporting and interest reporting. In those cases, you're collecting data for advertising purposes which means that Google Analytics uses additional advertising identifiers.
 
