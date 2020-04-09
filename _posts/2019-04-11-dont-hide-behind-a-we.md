@@ -2,6 +2,7 @@
 layout: post
 title: "Founders: Don't hide behind a 'we'"
 date: 2019-04-11
+author: uku-taht
 ---
 
 Solo founders and makers often have a dilemma: when communicating with customers, should I describe myself

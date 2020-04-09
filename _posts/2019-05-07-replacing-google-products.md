@@ -2,6 +2,7 @@
 layout: post
 title: Replacing Google products with more ethical alternatives
 date: 2019-05-07
+author: uku-taht
 ---
 
 For more than a decade I used a variety of products made by Google. Their products and services are reliable, intuitive, and often free to use.

@@ -2,6 +2,7 @@
 layout: post
 title: Plausible is going open-source
 date: 2019-09-02
+author: uku-taht
 ---
 
 One of the main reasons I started Plausible was to provide a more transparent alternative to Google Analytics.

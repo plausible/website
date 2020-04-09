@@ -6,6 +6,7 @@ description: >-
   help create a more open, independent web that's more friendly to the visitors.
 slug: remove-google-analytics
 date: 2020-04-08T12:20:53.993Z
+author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
@@ -24,15 +25,15 @@ More recently my thinking about this has changed. Using Google Analytics is a ha
 
 Google Analytics is the most popular website stats tool. More than 53% of all sites on the web track their visitors using Google Analytics. [84%](https://w3techs.com/technologies/details/ta-googleanalytics) of sites that do use a known analytics script use Google Analytics. It's the most popular third-party request on the web. It accounts for [0.64%](https://almanac.httparchive.org/en/2019/third-parties) of all network requests.
 
-Google Analytics is created, hosted and run by the largest ad-tech company in the world. A company that loves to devour all the personal data it can get access to. 
+Google Analytics is created, hosted and run by the largest ad-tech company in the world. A company that loves to devour all the personal data it can get access to.
 
 Google's products are free to use because Google has built its wealth by collecting huge amounts of personal information and using these [personal and behavioral insights to sell targeted advertising](https://plausible.io/blog/google-analytics-and-privacy).
 
-This business model of [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) creates a massive demand for personal information. 
+This business model of [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) creates a massive demand for personal information.
 
 All the raw data that we produce such as the sites that we visit, topics we search for, products that we buy, people that we engage with and locations we spend our time at is used to create better behavioral profiles that are then used to sell targeted advertising directed at us.
 
-Here's what Google [says](https://policies.google.com/technologies/partner-sites?hl=en-US) on how they use information from sites that use their products: 
+Here's what Google [says](https://policies.google.com/technologies/partner-sites?hl=en-US) on how they use information from sites that use their products:
 
 > "Google uses the information shared by sites and apps to deliver our services, maintain and improve them, develop new services, measure the effectiveness of advertising, protect against fraud and abuse, and personalize content and ads you see on Google and on our partners’ sites and apps".
 
@@ -42,7 +43,7 @@ Web analytics like any other website element add extra page weight and extra loa
 
 Global Site Tag, the recommended way of integrating Google Analytics into your site, is a centralized script that can help you integrate many other Google services and features such as conversion tracking and remarketing.
 
-*https://www.googletagmanager.com/gtag/js* weights 28 KB and this script downloads another JavaScript file called the Google Analytics tag (*https://www.google-analytics.com/analytics.js*) which adds 17.7 KB to your page size. 
+*https://www.googletagmanager.com/gtag/js* weights 28 KB and this script downloads another JavaScript file called the Google Analytics tag (*https://www.google-analytics.com/analytics.js*) which adds 17.7 KB to your page size.
 
 These two tracking scripts combined add 45.7 KB of page weight to each and every page load. Every KB matters when you want to keep your site fast to load and a more [lightweight analytics](https://plausible.io/lightweight-web-analytics) solution is needed.
 
@@ -50,9 +51,9 @@ These two tracking scripts combined add 45.7 KB of page weight to each and every
 
 For most site owners, the amount of data Google Analytics collects is overkill. It’s a powerful but complex tool that takes time to understand and requires training. Most people find real and regular use for only a fraction of the metrics it measures.
 
-In total, Google Analytics on its left-hand side navigation menu has more than 125 items for different reports you can gather your insights from. All these different reports track more than 290 different metrics combined. 
+In total, Google Analytics on its left-hand side navigation menu has more than 125 items for different reports you can gather your insights from. All these different reports track more than 290 different metrics combined.
 
-Analyzing these is a full-time job that requires a lot of time, effort, expertise and experience to do well. Many Google Analytics users end up creating custom dashboards where they add few widgets with useful metrics that they get actual value from. Then they ignore everything else that Google Analytics tracks. 
+Analyzing these is a full-time job that requires a lot of time, effort, expertise and experience to do well. Many Google Analytics users end up creating custom dashboards where they add few widgets with useful metrics that they get actual value from. Then they ignore everything else that Google Analytics tracks.
 
 Some just ignore their Google Analytics completely as it's overwhelming to even start with. There's a need for more [simple site analytics](https://plausible.io/simple-web-analytics).
 
@@ -62,7 +63,7 @@ Lawmakers have taken notice about the surveillance capitalism and several differ
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them. If you prefer not to do this, you should use an alternative that gives you [privacy-friendly analytics](](https://plausible.io/data-policy)).
 
-On top of the standard site analytics, many Google Analytics users also enable different advertising features such as remarketing, demographics reporting and interest reporting. In those cases, you're collecting data for advertising purposes which means that Google Analytics uses additional advertising identifiers. 
+On top of the standard site analytics, many Google Analytics users also enable different advertising features such as remarketing, demographics reporting and interest reporting. In those cases, you're collecting data for advertising purposes which means that Google Analytics uses additional advertising identifiers.
 
 [According to Google](https://www.google.com/about/company/user-consent-policy/): "you must ensure that certain disclosures are given to, and consents obtained from, end users in the European Economic Area along with the UK. If you fail to comply with this policy, we may limit or suspend your use of the Google product and/or terminate your agreement".
 
@@ -72,7 +73,7 @@ Google states that you "must obtain end users’ legally valid consent" to the u
 
 Google Analytics is a cookie-based web analytics tool and it is not possible to use it without cookies. Google Analytics sets [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) and it "uses cookies to identify unique users across browsing sessions". This is done "to remember what a user has done on previous pages / interactions with the website".
 
-And all the privacy regulations have a say about cookies too. PECR, for instance, requires a site owner to tell their visitors about cookies that they use to track personal data and give visitors the choice of whether to accept them or not. 
+And all the privacy regulations have a say about cookies too. PECR, for instance, requires a site owner to tell their visitors about cookies that they use to track personal data and give visitors the choice of whether to accept them or not.
 
 [According to PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you "need to tell people about analytics cookies and gain consent for their use". If you use cookies you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
@@ -94,7 +95,7 @@ In addition to the cookie notice and the GDPR consent prompt, Google has [furthe
 
 ## It's abused by referral spam that skews the data
 
-You may have noticed referrer URLs in your dashboard that are spam. It's a way for bad actors to "advertise" their products and services to other website owners by spamming Google Analytics. 
+You may have noticed referrer URLs in your dashboard that are spam. It's a way for bad actors to "advertise" their products and services to other website owners by spamming Google Analytics.
 
 They send fake visitors to your site which then shows their URL towards the top of your referral sources list. The intention is to get you to get curious and visit their site.
 
@@ -110,7 +111,7 @@ Google has denied many of the accusations and rumors but there's no way of knowi
 
 ## It worsens the user experience due to the necessity for the annoying prompts
 
-When you're using Google Analytics, you're making the user experience on your site more inconvenient. All the privacy regulations are a good step towards a better web and are a necessary thing in the world of surveillance capitalism. 
+When you're using Google Analytics, you're making the user experience on your site more inconvenient. All the privacy regulations are a good step towards a better web and are a necessary thing in the world of surveillance capitalism.
 
 To abide by the privacy regulations while collecting the personal data of your visitors, you need to compromise the visitor experience by displaying annoying cookie banners and GDPR or CCPA consent notices. You also need to present comprehensive privacy policy regarding analytics tracking.
 
@@ -124,9 +125,9 @@ Many solutions do exist so there's no excuse not to explore them for a bit. If y
 
 * ### Full-blown but more ethical alternatives
 
-There are also full-blown direct competitors to Google Analytics such as [Matomo](https://plausible.io/vs-matomo). Matomo (formerly known as Piwik) is one of the big players in the ethical site analytics market. 
+There are also full-blown direct competitors to Google Analytics such as [Matomo](https://plausible.io/vs-matomo). Matomo (formerly known as Piwik) is one of the big players in the ethical site analytics market.
 
-Matomo does have some of the similar issues to Google Analytics such as being difficult to get insights from hundreds of different reports and metrics, and the fact that it collects a lot of personal information and requires cookie notices and GDPR consent prompts by default. 
+Matomo does have some of the similar issues to Google Analytics such as being difficult to get insights from hundreds of different reports and metrics, and the fact that it collects a lot of personal information and requires cookie notices and GDPR consent prompts by default.
 
 But it is an [open-source analytics tool](https://plausible.io/open-source-website-analytics) that you can self-host on your domain name and that you can customize to be less privacy-invasive.
 
@@ -148,8 +149,8 @@ Take a look at [our live demo](https://plausible.io/plausible.io).
 
 ## Give Plausible Analytics a try
 
-Plausible Analytics is built with simplicity, speed and privacy in mind. We've used Google Analytics for years and understand its pitfalls. 
+Plausible Analytics is built with simplicity, speed and privacy in mind. We've used Google Analytics for years and understand its pitfalls.
 
-The idea with Plausible is to build an alternative that could help many site owners get access to actionable website stats while having a fast loading website, completely controlling all the data and respecting the privacy of visitors. 
+The idea with Plausible is to build an alternative that could help many site owners get access to actionable website stats while having a fast loading website, completely controlling all the data and respecting the privacy of visitors.
 
 [Sign up for a free trial](https://plausible.io/register) and give Plausible Analytics a chance. And if this message resonates with you, do spread the word to your favorite site owners. Friends don't let friends use Google Analytics.
