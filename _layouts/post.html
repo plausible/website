@@ -15,7 +15,7 @@ layout: default
   <div class="mt-2">
     <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
     {% assign author = site.data.authors[page.author] %}
-    <span class="text-xs uppercase font-bold text-gray-500">• Written by <a class="uppercase text-xs text-indigo-600 font-bold hover:underline" href="{{author.twitter}}">{{ author.name }}</a></span>
+    <span class="text-xs uppercase font-bold text-gray-500">• Written by <a class="uppercase text-xs text-indigo-600 font-bold hover:underline" href="https://twitter.com/{{author.twitter}}">{{ author.name }}</a></span>
   </div>
 
   {% if page.image %}
