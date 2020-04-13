@@ -38,7 +38,7 @@ in the future once the product and the business are more stable.
 
 ### What's next?
 
-Please check out the [public roadmap and feedback board](https://feedback.plausible.io/roadmap) to see which features
+Please check out the [public roadmap and feedback board](https://plausible.io/roadmap) to see which features
 are planned in the near future.
 
 I think it's also worth talking about ways to raise the standard of trust and transparency

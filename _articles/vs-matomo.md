@@ -27,7 +27,7 @@ This gives you and everyone else full transparency on how the tools handle websi
 
 ### Both are developed in the open
 
-Both of our tools are developed in the open too welcoming user feedback and suggestions. You can for instance view [the public roadmap](https://feedback.plausible.io/roadmap) of the Plausible development and add (or vote on) your favorite feature suggestions.
+Both of our tools are developed in the open too welcoming user feedback and suggestions. You can for instance view [the public roadmap](https://plausible.io/roadmap) of the Plausible development and add (or vote on) your favorite feature suggestions.
 
 ### Both allow you to completely own the data
 

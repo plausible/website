@@ -49,7 +49,7 @@ Making Plausible easy to self-host, providing full documentation and support for
 
 #### 1. Open to community feedback with a public roadmap
 
-We welcome feedback from our community. We have a [public roadmap](https://feedback.plausible.io/roadmap) driven by the features suggested by the community members and we are available to you via email or GitHub if you have any questions or need any help.
+We welcome feedback from our community. We have a [public roadmap](https://plausible.io/roadmap) driven by the features suggested by the community members and we are available to you via email or GitHub if you have any questions or need any help.
 
 #### 2. You can open your website analytics and make the stats publicly-viewable too
 

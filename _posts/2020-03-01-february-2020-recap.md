@@ -7,7 +7,7 @@ author: uku-taht
 
 As promised, here's another monthly update on building Plausible. February was a really good month:
 
-* 🚀 **Shipped custom domains:** You can now run plausible analytics through your own custom domain. [More info](https://feedback.plausible.io/10)
+* 🚀 **Shipped custom domains:** You can now run plausible analytics through your own custom domain. [More info](https://plausible.nolt.io/10)
 * 🚀 **Shipped tweet referrals:** Using the Twitter API to show the actual tweets driving traffic instead of useless `t.co` links. [Example on the live demo](https://plausible.io/plausible.io/referrers/Twitter?period=month&date=2020-02-01)
 * 🚀 **New look for the dashboard:** Updated the look and feel of the dashboard to make the stats more readable
 * 💵 **MRR: $403 (+14%):** Converted 8 new paying users
