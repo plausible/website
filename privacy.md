@@ -22,8 +22,8 @@ We run our own analytics script on this website. The following information is co
 
 | Data point | Example | Comment |
 |---|---|---|---|---|
-| **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on our website. We use this to understand which pages have been viewed and how many times a particular page has been viewed. The hostname and path are collected. Query parameters are discarded, except for these special query parameters: ref=, source= and utm_source=. |
-| **HTTP Referer** | _https://facebook.com_ | We use the referrer string to understand the number of visitors referred to our website from links on other sites. |
+| **Page URL** | _https://plausible.io/simple-web-analytics_ | We track the page URL of each page view on our website. We use this to understand which pages have been viewed and how many times a particular page has been viewed. |
+| **HTTP Referer** | _https://indiehackes.com_ | We use the referrer string to understand the number of visitors referred to our website from links on other sites. |
 | **Browser** | _Chrome_ | We use this to understand what browsers people use when visiting our website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
 | **Operating system** | _macOS_ | We use this to understand what operating systems people use when visiting our website. We only use the brand of the operating system and don’t include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
 | **Device type**  | _Desktop_ | We use this to understand what devices people use when visiting our website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
