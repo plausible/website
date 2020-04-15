@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: 'Plausible vs Google Analytics: Why Plausible is a great alternative'
 description: Here's why you should consider Plausible as a simple, lightweight, ethical, open-source and privacy-friendly alternative to Google Analytics.
 permalink: /vs-google-analytics

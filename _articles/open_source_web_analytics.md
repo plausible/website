@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: Why you should consider using an open source web analytics tool
 description: Plausible is an open source website analytics tool you can use to check
   site traffic. It is a simple and privacy-friendly alternative to Google Analytics.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: 'Matomo vs Plausible: Why Plausible is a great Matomo alternative'
 description: Plausible and Matomo are open-source website analytics tools. What is
   the difference between them and why are they good alternatives to Google Analytics?

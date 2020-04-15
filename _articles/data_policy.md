@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: 'Plausible: GDPR, CCPA and cookie law compliant site analytics'
 description: Plausible provides cookie-less web analytics without collecting personal
   data and while respecting the privacy of website visitors. This is our data policy.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: How lightweight web analytics can reduce the carbon footprint of your site
 description: Replacing Google Analytics with a lightweight web analytics tool can
   have a significant effect on the page load time of your website.

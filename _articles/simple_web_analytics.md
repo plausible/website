@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: Simple web analytics tool you can use to measure website traffic
 description: Plausible provides you all the valuable website traffic metrics in a
   simple web analytics dashboard. No layers of menus and no need for custom reports.
