@@ -11,12 +11,11 @@ image-alt: Getting 48,000 visitors to my startup in one week
 ---
 We recently relaunched [Plausible Analytics](https://plausible.io) as a no-cookie, GDPR compliant alternative to Google Analytics. We had some very eventful days and here's what we learned.
 
-We released a new product update, new website and the first blog post in a new series. This resulted in us breaking all of our website traffic and trial signup records. We were overwhelmed with feedback, comments, opportunities and new ideas too.
+We released a new product update, new website and [the first blog post](https://plausible.io/blog/remove-google-analytics) in a new series. This resulted in us breaking all of our website traffic and trial signup records. We were overwhelmed with feedback, comments, opportunities and new ideas too.
 
 Here's an overview of all the steps we've taken over the last couple of weeks and lessons we've learned that may help others in the indie startup community get their products out to more people too.
 
-1. Ordered list
-{:toc}
+1. Ordered list {:toc}
 
 ## Results of the first week after the "relaunch"
 
