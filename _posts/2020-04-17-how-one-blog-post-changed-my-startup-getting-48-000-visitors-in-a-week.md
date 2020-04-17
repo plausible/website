@@ -25,12 +25,13 @@ The results were overwhelmingly positive.
 * **We also got 166 new trials in the first week** which was more than we got in the four months before that combined. 
 * **We got more than [1,400 developers](https://github.com/plausible-insights/plausible/graphs/traffic) to look at our GitHub page** where our code is.
 * **Google featured our post in the Discover section of the Google app**. This resulted in almost 200,000 impressions and almost 7,000 clicks. 
-* We got a **boost in the number of impressions on Google's search results**. 
+* We got a **boost of more than 300% in the number of impressions and clicks on Google's search results**. 
 * One interesting fact is that only 10 people searched for "Plausible Analytics" on Google in the week before the post and 121 searched for the same phrase the week after. This shows that the post made a difference in **making more people aware of our product**. The hope is that this will stick with our future activities. 
 * The post was also **featured in some roundup articles, top lists of the day and even email newsletters** that share some of the best content of the week.
 * On top of the visitor numbers and the new trials, **we got hundreds of comments on different forums and social media**. Some influential figures including [Rand Fishkin](https://twitter.com/randfish/status/1247934239808475137) and [April Dunford](https://twitter.com/aprildunford/status/1247986144517767169) shared our post. Other startups reached out to us too and there's even an invite to be a guest on a popular podcast. 
+* One interesting feature of Plausible Analytics is the fact that you can **open your dashboard and share your website stats with the public**. We've done that so you can follow our stats on this [live demo](https://plausible.io/plausible.io).
 
-One interesting feature of Plausible Analytics is the fact that you can open your dashboard and share your website stats with the public. We've done that so you can follow our stats on this [live demo](https://plausible.io/plausible.io).
+So this relaunch really changed the traction of our startup, the goal posts have moved. Here's a deeper look into actions we took.
 
 ## Revamp of the product, website and blog
 
@@ -98,23 +99,24 @@ Especially in the early days of your startup, it's really important to **take so
 
 We shared the post on our Twitter and Mastodon accounts, we shared it on [Indie Hackers](https://www.indiehackers.com/post/why-you-should-stop-using-google-analytics-on-your-website-4050ba09da), [Lobsters](https://lobste.rs/s/cdrrty/why_you_should_stop_using_google), [Hacker News](https://news.ycombinator.com/item?id=22813168) and [Reddit](https://old.reddit.com/r/degoogle/comments/fx79ov/why_you_should_stop_using_google_analytics_on/) too. At this stage with the post being in those communities, the things are really out of your hands. Will the community pick it up or not? Will they ignore it? Will we get lucky so some people have a look before the post gets lost in hundreds of other posts, threads and submissions?
 
-We got lucky this time.
+We got lucky with this post. And this is where the main spike in traffic came from.
 
 ## Early lessons learned from this new direction
 
 * **Find some areas where the market leader is lacking and design a replacement and an alternative** with a focus on those. This will help you to easier get your message across to people. You should not try to design a clone, a full-blown replacement and a feature-by-feature reproduction of the market leader. You don't need to cover all the different use-cases of the most popular product. 
 * **Don't hide the fact that a popular competitor and a market leader exists.** People know. Rather than pretend they don't exist, use their existence to your advantage. Create a product with features that fill their gaps. Clearly explain the differences between your product and the biggest player on the market. Publish comparison posts where you go into the details on these differences. List reasons why your major competitor is flawed and explain what makes your solution a viable alternative.
 * **You don't necessarily need a huge social media following.** Plausible Analytics doesn't (yet?) have official and active social media profiles but it doesn't mean that we cannot get traffic from social media. Most social media platforms these days focus on algorithmic newsfeeds. In cases such as Facebook, the organic reach of posts from brands and brand pages is demoted compared to posts from actual people. This means that getting real people to share your content has a higher chance of getting reach in you sharing it yourself. So again by creating interesting and useful content, we tried to incentivize more people to share our message too.
+* **Share the post that you've created**. If you've put a lot of effort into creating a great post and you're proud of it, make sure to share it with the world too. If you don't put some effort into promoting the good work you've done, the chances it will go unnoticed and people won't discover it. 
 * **Monitor the conversation, listen, engage and act on insightful feedback.** We got so much feedback on social, via email, different forums and even on GitHub. Some added useful feedback such as [this](https://github.com/plausible-insights/plausible/issues/52) very insightful look into how we can make our script even lighter and [this](https://github.com/plausible-insights/plausible/pull/53) contribution for Docker. We've acted on a lot of the feedback already and done some fixes. Such as the addition of pricing to the top navigation bar, updated and hand-crafted privacy policy, more clarification about pricing and various fixes to the website. There's also a list of feature ideas for us to work in our public roadmap.
 * **Don't be unhappy about the negative feedback.** Be grateful that people care enough to comment and write to you in the first place. Some Hacker News feedback was that we were not upfront that we're a Google Analytics competitor. Some people were happy with the way we approached things and defended us but this feedback is something we will consider in future posts. 
 
-  Our thinking that by not putting ourselves up on top of the post was to not try and appear to salesy or pushy. This is why we also included several competing alternatives to Google Analytics and why we listed our solution last in that list. The idea was to create the best possible post that looks into some of the issues with Google Analytics. We only put the mention of our product at the very end almost 2,500 words into the post.
+  Our thinking that by not putting ourselves up on top of the post was to not try and appear too salesy or pushy. This is why we also included several competing alternatives to Google Analytics and why we listed our solution last in that list. The idea was to create the best possible post that looks into some of the issues with Google Analytics. We only put the mention of our product at the very end almost 2,500 words into the post. Perhaps we should put outselves on the top of next post and see what feedback we get then.
 
 ## What we plan to do next
 
 So what's going to happen in the upcoming weeks and months? We plan to work on improving our product, our website, our communication and we plan to publish more useful content that people find interesting. 
 
-You can arguably say that the only way from this top in terms of traffic is down. We hit the ball out of the park on our first blog post but this is an incredible result that is impossible to achieve each and every time. It's important to have realistic expectations when trying to promote a company using organic means. 
+You can argue that the only way from here in terms of traffic is down. We hit the ball out of the park on our first blog post but this is an incredible result that is impossible to achieve each and every time. It's important to have realistic expectations when trying to promote a company using organic means. 
 
 We will do our best and try to make progress each and every month. Growing a startup is a marathon, it's not a sprint.
 
