@@ -9,7 +9,7 @@ date: 2020-04-17T08:26:33.288Z
 image: /uploads/big-spike-in-traffic.png
 image-alt: Getting 48,000 visitors to my startup in one week
 ---
-We recently relaunched[ Plausible Analytics](https://plausible.io) as a no-cookie, GDPR compliant alternative to Google Analytics. We had some very eventful days and here's what we learned.
+We recently relaunched [Plausible Analytics](https://plausible.io) as a no-cookie, GDPR compliant alternative to Google Analytics. We had some very eventful days and here's what we learned.
 
 We released a new product update, new website and the first blog post in a new series. This resulted in us breaking all of our website traffic and trial signup records. We were overwhelmed with feedback, comments, opportunities and new ideas too.
 
