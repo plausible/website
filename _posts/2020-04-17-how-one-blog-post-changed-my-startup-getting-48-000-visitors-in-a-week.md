@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How one blog post changed my startup: Getting 48,000 visitors in a week"
+title: How one blog post changed the traction for my startup
 description: Plausible Analytics relaunched as a no-cookie, GDPR compliant
   alternative to Google Analytics. We had some eventful days and here's what we
   learned.
