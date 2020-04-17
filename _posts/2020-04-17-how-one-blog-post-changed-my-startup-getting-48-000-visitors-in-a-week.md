@@ -15,7 +15,8 @@ We released a new product update, new website and the first blog post in a new s
 
 Here's an overview of all the steps we've taken over the last couple of weeks and lessons we've learned that may help others in the indie startup community get their products out to more people too.
 
-1. Ordered list {:toc}
+1. Ordered list
+{:toc}
 
 ## Results of the first week after the "relaunch"
 
