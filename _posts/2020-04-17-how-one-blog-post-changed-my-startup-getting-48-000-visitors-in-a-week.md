@@ -6,7 +6,7 @@ description: Plausible Analytics relaunched as a no-cookie, GDPR compliant
   learned.
 slug: blog-post-changed-my-startup
 date: 2020-04-17T08:26:33.288Z
-author: marco-saric
+author: marko-saric
 image: /uploads/big-spike-in-traffic.png
 image-alt: Getting 48,000 visitors to my startup in one week
 ---
