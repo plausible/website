@@ -31,7 +31,7 @@ The results were overwhelmingly positive.
 * On top of the visitor numbers and the new trials, **we got hundreds of comments on different forums and social media**. Some influential figures including [Rand Fishkin](https://twitter.com/randfish/status/1247934239808475137) and [April Dunford](https://twitter.com/aprildunford/status/1247986144517767169) shared our post. Other startups reached out to us too and there's even an invite to be a guest on a popular podcast. 
 * One interesting feature of Plausible Analytics is the fact that you can **open your dashboard and share your website stats with the public**. We've done that so you can follow our stats on this [live demo](https://plausible.io/plausible.io).
 
-So this relaunch really changed the traction of our startup, the goal posts have moved. Here's a deeper look into actions we took.
+So this "relaunch" changed the traction of our startup, the goalposts have moved. Here's a deeper look into the actions we took.
 
 ## Revamp of the product, website and blog
 
@@ -55,16 +55,16 @@ It's a David vs Goliath-like situation as we're a brand new startup while Google
 
 To better explain what Plausible Analytics does, we published several pages where we go into detail on the different features and the different ways that Plausible works. 
 
-To come up with these differentiators, we looked at what Google does wrong in our eyes, we collected all the feedback we had from our customers, from people running websites and from doing research on things people talk about and search for online. These features of Plausible fall into several categories:
+To come up with these differentiators, we looked at what Google does wrong in our eyes, we collected all the feedback we had from our customers, from people running websites and from researching things people talk about and search for online. These features of Plausible fall into several categories:
 
 * [Simple to use](https://plausible.io/simple-web-analytics): One of the main things people struggle with Google Analytics is the fact that it is too overwhelming. There are more than 100 different reports you get access to and almost 300 different metrics. Plausible Analytics presents everything you need to know at a glance so you can have more time to focus on your site.
-* [Lightweight script](https://plausible.io/lightweight-web-analytics): Google Analytics with the Google Manager Tag adds 45.7 KB to the page size. This may seem very little but every KB matters if you want to speed up the page speed. And Google Analytics can have a negative impact on the site speed. Plausible Analytics is only 1.4 KB which helps you keep your website fast.
+* [Lightweight script](https://plausible.io/lightweight-web-analytics): Google Analytics with the Google Manager Tag adds 45.7 KB to the page size. This may seem very little but every KB matters if you want to speed up the page speed. And Google Analytics script can hurt the site speed. Plausible Analytics is only 1.4 KB which helps you keep your website fast.
 * [Compliant with privacy regulations](https://plausible.io/data-policy): Google Analytics places cookies and collects a lot of data from the visitors of websites. You're required to have a privacy policy, to show a cookie banner and to obtain consent for GDPR if you use Google Analytics. Plausible Analytics doesn't use cookies and doesn't track personal data so you don't need to annoy your visitors or worry about those prompts.
 * [Open source](https://plausible.io/open-source-website-analytics): Google Analytics is a closed source, proprietary product. It's impossible to know what's going on behind the scenes and you need to put your trust in Google. Plausible Analytics is open source with our code being publicly [accessible on GitHub](https://github.com/plausible-insights/plausible).
 
 ### New Plausible Analytics comparisons with the most popular providers
 
-To make matters even clearer for the potential customers and help them make the best choice, we also published two different comparison posts putting Plausible Analytics head-to-head against the main website analytics providers.
+To make matters even clearer for potential customers and help them make the best choice, we also published two different comparison posts putting Plausible Analytics head-to-head against the main website analytics providers.
 
 * **Google Analytics** is the biggest site analytics platform on the web. 85% of sites that use web analytics use Google Analytics. Here's the [Plausible Analytics vs Google Analytics](https://plausible.io/vs-google-analytics) post.
 * **Matomo (formerly known as Piwik)** is the most well-known open source alternative. It is used by 1.5% of all websites that use web analytics. We also published a [Plausible Analytics vs Matomo](https://plausible.io/vs-matomo) comparison.
@@ -81,7 +81,7 @@ It's also a very expensive and competitive way of doing marketing that few witho
 
 Content marketing has a big role to play here. We aim to publish content that helps people out. That may mean that we answer relevant questions that people have. Or that we solve major relevant issues people are struggling with. 
 
-**Content marketing doesn't bring instant results like paid advertising does**. You may put in some time and effort in create a great post, and when you publish it, nobody might be there to see it. If you start an advertising campaign now, chances are that you will see a few clicks immediately. 
+**Content marketing doesn't bring instant results like paid advertising does**. You may put in time and effort to create a great post, and when you publish it, nobody might be there to see it. If you start an advertising campaign now, on the other hand, chances are that you will see a few clicks immediately. 
 
 Content marketing is a long term game. Unlike paid advertising which in most cases stops delivering results as soon as you stop paying for it, content marketing can deliver results weeks, months and even years after the original work has been done. It takes a dedicated and concentrated strategic effort over a long period of time to start getting results but they are also there for the long haul too.
 
