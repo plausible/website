@@ -392,7 +392,7 @@ image: /assets/images/plausible_promo.jpg
   </div>
 </div>
 
-<div class="bg-gray-900" id="pricing">
+<div class="bg-gray-900" x-data="{pricingYearly: false}" id="pricing">
   <div class="pt-12 sm:pt-16 lg:pt-24">
     <div class="max-w-screen-xl mx-auto text-center px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto lg:max-w-none">
@@ -405,6 +405,15 @@ image: /assets/images/plausible_promo.jpg
         <p class="mt-2 text-xl leading-7 text-gray-300">
           Sign up for 30-day unlimited trial. No credit card required.
         </p>
+
+        <div class="mt-10 flex items-center justify-center">
+          <span class="text-xl text-gray-200 mr-2">Monthly</span>
+          <span role="checkbox" @click="pricingYearly = !pricingYearly" :class="{'bg-green-500': pricingYearly, 'bg-gray-200': !pricingYearly}" class="text-left relative inline-block flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <span aria-hidden="true" :class="{'translate-x-5': pricingYearly, 'translate-x-0': !pricingYearly}" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+          </span>
+          <span class="text-xl text-gray-200 ml-2">Annual</span>
+        </div>
+
       </div>
     </div>
   </div>
@@ -421,7 +430,8 @@ image: /assets/images/plausible_promo.jpg
                 </span>
               </div>
               <div class="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
-                $6
+                <span x-show="!pricingYearly">$6</span>
+                <span x-show="pricingYearly">$4</span>
                 <span class="ml-1 text-2xl leading-8 font-medium text-gray-500">
                   /mo
                 </span>
@@ -485,7 +495,8 @@ image: /assets/images/plausible_promo.jpg
                 </span>
               </div>
               <div class="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
-                $12
+                <span x-show="!pricingYearly">$12</span>
+                <span x-show="pricingYearly">$8</span>
                 <span class="ml-1 text-2xl leading-8 font-medium text-gray-500">
                   /mo
                 </span>
@@ -549,7 +560,8 @@ image: /assets/images/plausible_promo.jpg
                 </span>
               </div>
               <div class="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
-                $36
+                <span x-show="!pricingYearly">$36</span>
+                <span x-show="pricingYearly">$24</span>
                 <span class="ml-1 text-2xl leading-8 font-medium text-gray-500">
                   /mo
                 </span>
@@ -635,7 +647,8 @@ image: /assets/images/plausible_promo.jpg
             </h3>
             <div class="mt-2">
               <p class="text-base leading-6 text-gray-500">
-              You don't have to pay for a one-time spike in traffic, but if you go over your plan limit for 2 months in a row, we will contact you to discuss upgrade options.
+              You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly.<br /><br />
+              If your page views exceed your plan for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have two weeks to make a decision. You can decide to continue with a higher plan or to cancel your account at that point.
               </p>
             </div>
           </div>
