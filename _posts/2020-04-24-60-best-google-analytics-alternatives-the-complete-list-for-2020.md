@@ -14,25 +14,27 @@ Google Analytics is the largest web analytics platform. 84% of sites that use a 
 
 Google Analytics is a powerful and useful tool, but [here are some reasons](https://plausible.io/blog/remove-google-analytics) why some people look for alternatives:
 
-* They want something more niche and specialized in different areas such as product analytics, funnels or heat maps
-* They want something easier to understand and get insights from without needing to be an expert or without taking a lot of time
-* They want something compliant with the different privacy regulations to [avoid cookies banners and other consent prompts](https://plausible.io/data-policy) 
-* They want something more lightweight to optimize their site speed and performance
-* They want something that's open source and/or self-hostable 
+* They want something **more niche and specialized in different areas** such as product analytics, funnels or heat maps
+* They want something **easier to understand and get insights from** without needing to be an expert or without taking a lot of time
+* They want something **compliant with the different privacy regulations** to [avoid cookies banners and other consent prompts](https://plausible.io/data-policy) 
+* They want something **more lightweight to optimize their site speed** and performance
+* They want something that's **open source and/or self-hostable** 
 
 Are you looking for a Google Analytics alternative or a tool to use as an addition to Google Analytics? Here's the complete list of all the best website analytics tools you can choose from in 2020. Let's get started.
 
-1. Ordered list {:toc}
+1. Ordered list  {:toc}
 
 ## Plausible Analytics
 
+![Plausible Analytics Top Referrers and Top Pages](/uploads/top-referrers-pages.png "Plausible Analytics Top Referrers and Top Pages")
+
 We're Plausible Analytics and after using Google Analytics for many years we believe we have created a better alternative for some site owners and some use cases. Plausible Analytics gives you a web analytics tool that is:
 
-* Fully open source with the code available on GitHub
-* Simple to understand and get insights from in one minute
-* A [lightweight script of 1.4 KB only](https://plausible.io/lightweight-web-analytics) so your site keeps loading fast
-* Doesn’t use cookies so there’s no need for cookie banners
-* Doesn’t collect personal data so no need for GDPR and CCPA consent prompts
+* Fully **open source** with the code available on GitHub
+* **Simple to understand** and get insights from in one minute
+* **A [lightweight script of 1.4 KB only](https://plausible.io/lightweight-web-analytics)** so your site keeps loading fast
+* **Doesn’t use cookies** so there’s no need for cookie banners
+* **Doesn’t collect personal data** so no need for GDPR and CCPA consent prompts
 * See more details on the [differences between Plausible Analytics and Google Analytics](https://plausible.io/vs-google-analytics).
 
 If this sounds interesting, do [register for a trial](https://plausible.io/register). The script is 1.4 KB only so you can try and run it alongside Google Analytics. The free trial is for 30 days, there are no restrictions on the usage and no credit card is required either.
@@ -44,6 +46,8 @@ If this sounds interesting, do [register for a trial](https://plausible.io/regis
 * Demo: [Live demo](https://plausible.io/plausible.io)
 
 ## Google Analytics competitors and full-blown replacements
+
+![Clicky live demo](/uploads/clicky-live-demo.png "Clicky live demo")
 
 These Google Analytics alternatives are designed to be more powerful, full-blown replacements that pretty much cover the same stats and provide most of the same metrics but packaged different ways.
 
@@ -136,6 +140,8 @@ Siteimprove's all-in-one software helps you perfect your digital presence and tu
 
 ## Simple-to-use alternatives to Google Analytics
 
+![Toasted Analytics live demo](/uploads/toasted-analytics-live-demo.png "Toasted Analytics live demo")
+
 These Google Analytics alternatives are focused on the fact that Google Analytics is too complex and overkill for the majority of site owners. They aim to provide a better curated and [easier-to-understand site metrics](https://plausible.io/simple-web-analytics).
 
 ### Simple Analytics
@@ -216,6 +222,8 @@ Clear dashboards and simple reports you can understand without a manual or train
 
 ## Open source and self-hosted Google Analytics alternatives
 
+![Matomo live demo](/uploads/matomo-live-demo.png "Matomo live demo")
+
 These [open-source Google Analytics alternatives](https://plausible.io/open-source-website-analytics) allow you to download their software, install it and run it from your web server. Some offer premium hosted solutions too.
 
 ### Matomo
@@ -284,6 +292,10 @@ Powerful product analytics for all apps and devices. Understand your customers a
 
 ## Privacy-focused Google Analytics alternatives
 
+![GoatCounter live demo](/uploads/goatcounter-live-demo.png "GoatCounter live demo")
+
+These Google Analytics alternatives focus on providing website stats that are useful and that are not privacy-invasive at the same time.
+
 ### Fathom
 
 * Website: <https://usefathom.com/>
@@ -323,6 +335,8 @@ Don't compromise your visitors' privacy for analytics insights. Our analytics pr
 
 ## Web server log analyzers
 
+![GoAccess live demo](/uploads/goaccess-live-demo.png "GoAccess live demo")
+
 The level above not having any analytics script at all is to simply use your server logs to get access to the most basic stats. Here are some server log analyzers that you could use. Depending on the hosting solution you use, one of these might be already preinstalled and preconfigured. 
 
 ### The Webalizer
@@ -353,6 +367,8 @@ GoAccess is an open source real-time web log analyzer. Its core idea is to quick
 AWStats is a free powerful and featureful open source tool that generates advanced web server statistics, graphically.
 
 ## Google Analytics alternatives for WordPress and other native analytics
+
+![Koko Analytics live demo](/uploads/koko-analytics-live-demo.png "Koko Analytics live demo")
 
 More than 35% of all websites on the web use WordPress as the content management system. There are some WordPress exclusive and WordPress native ways to get website analytics. The same is the case for many of the other platforms.
 
