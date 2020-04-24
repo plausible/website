@@ -22,7 +22,8 @@ Google Analytics is a powerful and useful tool, but [here are some reasons](http
 
 Are you looking for a Google Analytics alternative or a tool to use as an addition to Google Analytics? Here's the complete list of all the best website analytics tools you can choose from in 2020. Let's get started.
 
-1. Ordered list  {:toc}
+1. Ordered list
+{:toc}
 
 ## Plausible Analytics
 
