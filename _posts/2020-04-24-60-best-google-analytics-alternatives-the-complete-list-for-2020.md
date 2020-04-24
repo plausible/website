@@ -429,6 +429,8 @@ Cloudflare Analytics empowers you with deep insights and intelligence to protect
 
 ## Product and user behavioral analytics
 
+![Amplitude live demo](/uploads/amplitude-demo.png "Amplitude live demo")
+
 These analytical tools focus on providing insights into the customer experience, user behavior, conversions and how people use a product and its different features. 
 
 ### Amplitude
