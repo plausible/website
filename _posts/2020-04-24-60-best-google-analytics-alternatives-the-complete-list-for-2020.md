@@ -18,11 +18,11 @@ Google Analytics is a powerful and useful tool, but [here are some reasons](http
 * They want something easier to understand and get insights from without needing to be an expert or without taking a lot of time
 * They want something compliant with the different privacy regulations to [avoid cookies banners and other consent prompts](https://plausible.io/data-policy) 
 * They want something more lightweight to optimize their site speed and performance
+* They want something that's open source and/or self-hostable 
 
-Are you looking for a Google Analytics alternative or for an addition to Google Analytics too? Here's the complete list of all the best website analytics tools you can choose from in 2020.
+Are you looking for a Google Analytics alternative or a tool to use as an addition to Google Analytics? Here's the complete list of all the best website analytics tools you can choose from in 2020. Let's get started.
 
-1. Ordered list
-{:toc}
+1. Ordered list {:toc}
 
 ## Plausible Analytics
 
