@@ -643,10 +643,6 @@ If you don’t care too much about the data and statistics, you can simply go wi
 
 ## Conclusion
 
-There are many website statistics options covering any possible niche and use case. I hope that this post has helped give you some alternative options in case you do deci
-
-![]()
-
-de to stop using Google Analytics.
+There are many website statistics options covering any possible niche and use case. I hope that this post has helped give you some alternative options in case you do decide to stop using Google Analytics.
 
 And if you'd like to give Plausible Analytics a chance, do [register for a trial](https://plausible.io/register). We're open source, lightweight, simple to use and there's no need for a cookie banner or a GDPR consent either.
