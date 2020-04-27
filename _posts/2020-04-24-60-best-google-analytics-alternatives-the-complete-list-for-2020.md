@@ -5,7 +5,7 @@ description: Are you looking for a Google Analytics alternative? Here's the
   complete list of all the best website analytics tools you can choose from in
   2020.
 slug: google-analytics-alternatives
-date: 2020-04-24T08:10:19.688Z
+date: 2020-04-27T13:30:20.745Z
 author: marko-saric
 image: /uploads/google-analytics-alternatives.png
 image-alt: Best Google Analytics alternatives
