@@ -99,7 +99,7 @@ John Mueller, who's another Google Webmaster Trends Analyst answered this in [tw
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GA can give you lots of insights about your site &amp; how users enjoy it, but it&#39;s not required for search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012276593660780544?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 ```
 
-## Does Google Analytics improve SEO?
+## Does Google Analytics improve SEO? Our conclusion
 
 So the answer to the question of "does Google use Google Analytics in order to figure out their search results?" is a firm "no" according to people working for Google. Google doesn't use any of the Google Analytics data in its search results algorithm. 
 
@@ -111,7 +111,7 @@ Now it's up to you to verify that or to trust that. And if you're interested in 
 
 We're different from Google Analytics in several ways:
 
-* We're fully open source with our code available for anyone to see at GitHub
+* We're fully open source with our code available for anyone to see [at GitHub](https://github.com/plausible-insights/plausible/)
 * We're a [lightweight solution](https://plausible.io/lightweight-web-analytics) with our script being only 1.4 KB
 * We don't use cookies and we don't collect any personal data so you don't need to display [cookie banners or ask for GDPR consent](https://plausible.io/data-policy)
 
