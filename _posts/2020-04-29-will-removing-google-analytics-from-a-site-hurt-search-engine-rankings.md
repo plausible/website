@@ -65,11 +65,7 @@ Matt Cutts, who's a former head of Google's webspam team, answered the question 
 
 Is Google Analytics data a factor in [a page's ranking](https://www.youtube.com/watch?v=CgBw9tbAQhU)? 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-```
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
+`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
 > "At PubCon a few years ago which is a WebmasterWorld Conference somebody said,”Do you use Google Analytics and–in Web spam?” And I said, “Not only doing not used in Web spam, I promise you, my team will never go and ask the analytics team to use their data. And we’ve held true to that promise.” And I got asked this at the most recent PubCon and I was like, “Well, I know we don’t use it in Web spam. I don’t know about all of search quality. I don’t think that we do. But to my knowledge, no one uses it.” So when I saw this question, I went ahead and I emailed the most senior, most knowledgeable person who would know about this. And I said, “We don’t use Google Analytics in our ranking in any way, do we?” And the one word reply was, “No.” So, there you go. Taken a long time to say a relatively short answer, which is “Google Analytics is not used in search quality in any way for our rankings".
 
