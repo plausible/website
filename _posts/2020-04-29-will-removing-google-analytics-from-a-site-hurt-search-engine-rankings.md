@@ -65,6 +65,8 @@ Matt Cutts, who's a former head of Google's webspam team, answered the question 
 
 Is Google Analytics data a factor in [a page's ranking](https://www.youtube.com/watch?v=CgBw9tbAQhU)? 
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ```
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
