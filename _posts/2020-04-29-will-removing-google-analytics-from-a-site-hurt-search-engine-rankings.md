@@ -19,10 +19,9 @@ The majority of sites on the web run Google Analytics for their web stats so it'
 
 Let's start with some of the concerns that the site owners have raised to us about Google Analytics and its potential impact on search rankings and traffic from Google's search results.
 
-1. Ordered list
-{:toc}
+1. Ordered list {:toc}
 
-## Does Google Analytics help SEO? Concerns from the website owners
+## Concerns from the website owners
 
 There's an on-going debate in the SEO (search engine optimization) world about the pros and [cons of using Google Analytics](https://plausible.io/blog/remove-google-analytics) on a website. This has been going on for years.
 
@@ -56,7 +55,7 @@ And as another website owner put it to us:
 
 So what is the answer?
 
-## Does Google Analytics affect search ranking? What does Google say?
+## What does Google say?
 
 Google's search algorithm and Google Analytics are [proprietary products](https://plausible.io/open-source-website-analytics). They're black boxes to us and we cannot see what's going on inside of them. 
 
@@ -68,8 +67,6 @@ Is Google Analytics data a factor in [a page's ranking](https://www.youtube.com/
 
 <div class="my-6"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-
-
 > "At PubCon a few years ago which is a WebmasterWorld Conference somebody said,”Do you use Google Analytics and–in Web spam?” And I said, “Not only doing not used in Web spam, I promise you, my team will never go and ask the analytics team to use their data. And we’ve held true to that promise.” And I got asked this at the most recent PubCon and I was like, “Well, I know we don’t use it in Web spam. I don’t know about all of search quality. I don’t think that we do. But to my knowledge, no one uses it.” So when I saw this question, I went ahead and I emailed the most senior, most knowledgeable person who would know about this. And I said, “We don’t use Google Analytics in our ranking in any way, do we?” And the one word reply was, “No.” So, there you go. Taken a long time to say a relatively short answer, which is “Google Analytics is not used in search quality in any way for our rankings".
 
 Will using Google Analytics have a [negative effect on my ranking](https://www.youtube.com/watch?v=LLmO1GE4GvI)? 
@@ -80,14 +77,10 @@ Will using Google Analytics have a [negative effect on my ranking](https://www.y
 
 Gary Illyes, who's a Webmaster Trends Analyst at Google, answered a question about this [on Twitter](https://twitter.com/methode/status/879362807472545792) saying: 
 
-> "We don't use *anything* from Google analytics in the "algo"."
-
 <div class="my-6">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We don&#39;t use \*anything\* from Google analytics in the &quot;algo&quot;.</p>&mdash; Socially distant Gary Illyes (@methode) <a href="https://twitter.com/methode/status/879362807472545792?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf 8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We don&#39;t use \\*anything\\* from Google analytics in the &quot;algo&quot;.</p>&mdash; Socially distant Gary Illyes (@methode) <a href="https://twitter.com/methode/status/879362807472545792?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf 8"></script>
 
 John Mueller, who's another Google Webmaster Trends Analyst answered this in [two](https://twitter.com/JohnMu/status/1012320567381422081) [different](https://twitter.com/JohnMu/status/1012276593660780544) tweets as well: 
-
-> "GA can give you lots of insights about your site & how users enjoy it, but it's not required for search. Just to be clear: there's no penalty for using or not using GA with regards to search." 
 
 <div class="my-6">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just to be clear: there&#39;s no penalty for using or not using GA with regards to search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012320567381422081?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -95,7 +88,7 @@ John Mueller, who's another Google Webmaster Trends Analyst answered this in [tw
 <div class="my-6">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GA can give you lots of insights about your site &amp; how users enjoy it, but it&#39;s not required for search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012276593660780544?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Does Google Analytics improve SEO? Our conclusion
+## Our conclusion
 
 So the answer to the question of "does Google use Google Analytics in order to figure out their search results?" is a firm "no" according to people working for Google. Google doesn't use any of the Google Analytics data in its search results algorithm. 
 
@@ -103,12 +96,12 @@ Several Google employees have answered this way multiple times over the last dec
 
 It doesn't matter if you do have Google Analytics installed or if you don't have it installed either. It won't make any difference to your search rankings and the traffic you get from Google's search results.
 
-Now it's up to you to verify that or to trust that. And if you're interested in trying out our way of thinking about website statistics, do register for a [free 30-day trial](https://plausible.io/register).
+Now it's up to you to verify that or to trust that. I personally don't use Google Analytics on my sites and haven't experienced any negative side effects.
 
-We're different from Google Analytics in several ways:
+If you're interested in trying out our way of thinking about website statistics, do register for a [free 30-day trial](https://plausible.io/register). We're different from Google Analytics in several ways:
 
-* We're fully open source with our code available for anyone to see [at GitHub](https://github.com/plausible-insights/plausible/)
-* We're a [lightweight solution](https://plausible.io/lightweight-web-analytics) with our script being only 1.4 KB
-* We don't use cookies and we don't collect any personal data so you don't need to display [cookie banners or ask for GDPR consent](https://plausible.io/data-policy)
+* We're **fully open source** with our code available for anyone to see [at GitHub](https://github.com/plausible-insights/plausible/)
+* We're a [lightweight solution](https://plausible.io/lightweight-web-analytics) with **our script being only 1.4 KB**
+* **We don't use cookies and we don't collect any personal data** so you don't need to display [cookie banners or ask for GDPR consent](https://plausible.io/data-policy)
 
 And it's also simple to run Plausible Analytics on your site alongside Google Analytics and see how you like it and
