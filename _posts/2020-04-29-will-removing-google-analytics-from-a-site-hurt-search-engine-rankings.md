@@ -71,7 +71,7 @@ Is Google Analytics data a factor in [a page's ranking](https://www.youtube.com/
 
 Will using Google Analytics have a [negative effect on my ranking](https://www.youtube.com/watch?v=LLmO1GE4GvI)? 
 
-<div class="my-4><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LLmO1GE4GvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="my-4"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LLmO1GE4GvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 > “The answer is no. Webspam does not use Google Analytics, and a while ago I went and checked and search quality in general does not use Google Analytics in ranking. So, you can use Google Analytics, you can not use Google Analytics, it won’t affect your ranking within Google search results"
 
