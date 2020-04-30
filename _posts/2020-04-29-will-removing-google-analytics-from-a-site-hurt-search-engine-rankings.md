@@ -111,4 +111,4 @@ We're different from Google Analytics in several ways:
 * We're a [lightweight solution](https://plausible.io/lightweight-web-analytics) with our script being only 1.4 KB
 * We don't use cookies and we don't collect any personal data so you don't need to display [cookie banners or ask for GDPR consent](https://plausible.io/data-policy)
 
-And it's also simple to run Plausible ANalytics on your site alongside Google Analytics and see how you like it and
+And it's also simple to run Plausible Analytics on your site alongside Google Analytics and see how you like it and
