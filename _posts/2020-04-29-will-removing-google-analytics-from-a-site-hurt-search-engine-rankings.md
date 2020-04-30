@@ -19,8 +19,7 @@ The majority of sites on the web run Google Analytics for their web stats so it'
 
 Let's start with some of the concerns that the site owners have raised to us about Google Analytics and its potential impact on search rankings and traffic from Google's search results.
 
-1. Ordered list 
-
+1. Ordered list
 {:toc}
 
 ## Concerns from the website owners
