@@ -19,7 +19,9 @@ The majority of sites on the web run Google Analytics for their web stats so it'
 
 Let's start with some of the concerns that the site owners have raised to us about Google Analytics and its potential impact on search rankings and traffic from Google's search results.
 
-1. Ordered list {:toc}
+1. Ordered list 
+
+{:toc}
 
 ## Concerns from the website owners
 
@@ -78,7 +80,7 @@ Will using Google Analytics have a [negative effect on my ranking](https://www.y
 Gary Illyes, who's a Webmaster Trends Analyst at Google, answered a question about this [on Twitter](https://twitter.com/methode/status/879362807472545792) saying: 
 
 <div class="my-6">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We don&#39;t use \\*anything\\* from Google analytics in the &quot;algo&quot;.</p>&mdash; Socially distant Gary Illyes (@methode) <a href="https://twitter.com/methode/status/879362807472545792?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf 8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We don&#39;t use \\\*anything\\\* from Google analytics in the &quot;algo&quot;.</p>&mdash; Socially distant Gary Illyes (@methode) <a href="https://twitter.com/methode/status/879362807472545792?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf 8"></script>
 
 John Mueller, who's another Google Webmaster Trends Analyst answered this in [two](https://twitter.com/JohnMu/status/1012320567381422081) [different](https://twitter.com/JohnMu/status/1012276593660780544) tweets as well: 
 
