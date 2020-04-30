@@ -4,7 +4,7 @@ title: Will removing Google Analytics from a site hurt search engine rankings?
 description: Does Google Analytics help SEO and search rankings? Will removing
   Google Analytics hurt my Google rankings and traffic? Here's what Google says.
 slug: google-analytics-seo
-date: 2020-04-29T13:46:39.510Z
+date: 2020-04-30T13:25:21.299Z
 author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Will removing Google Analytics from a site hurt search engine rankings?
