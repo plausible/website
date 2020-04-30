@@ -65,7 +65,7 @@ Matt Cutts, who's a former head of Google's webspam team, answered the question 
 
 Is Google Analytics data a factor in [a page's ranking](https://www.youtube.com/watch?v=CgBw9tbAQhU)? 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="my-4><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CgBw9tbAQhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 > "At PubCon a few years ago which is a WebmasterWorld Conference somebody said,”Do you use Google Analytics and–in Web spam?” And I said, “Not only doing not used in Web spam, I promise you, my team will never go and ask the analytics team to use their data. And we’ve held true to that promise.” And I got asked this at the most recent PubCon and I was like, “Well, I know we don’t use it in Web spam. I don’t know about all of search quality. I don’t think that we do. But to my knowledge, no one uses it.” So when I saw this question, I went ahead and I emailed the most senior, most knowledgeable person who would know about this. And I said, “We don’t use Google Analytics in our ranking in any way, do we?” And the one word reply was, “No.” So, there you go. Taken a long time to say a relatively short answer, which is “Google Analytics is not used in search quality in any way for our rankings".
 
@@ -79,15 +79,15 @@ Gary Illyes, who's a Webmaster Trends Analyst at Google, answered a question abo
 
 > "We don't use *anything* from Google analytics in the "algo"."
 
-`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We don&#39;t use *anything* from Google analytics in the &quot;algo&quot;.</p>&mdash; Socially distant Gary Illyes (@methode) <a href="https://twitter.com/methode/status/879362807472545792?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> `
+`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We don&#39;t use *anything* from Google analytics in the &quot;algo&quot;.</p>&mdash; Socially distant Gary Illyes (@methode) <a href="https://twitter.com/methode/status/879362807472545792?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
 
 John Mueller, who's another Google Webmaster Trends Analyst answered this in [two](https://twitter.com/JohnMu/status/1012320567381422081) [different](https://twitter.com/JohnMu/status/1012276593660780544) tweets as well: 
 
 > "GA can give you lots of insights about your site & how users enjoy it, but it's not required for search. Just to be clear: there's no penalty for using or not using GA with regards to search." 
 
-`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just to be clear: there&#39;s no penalty for using or not using GA with regards to search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012320567381422081?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> `
+`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just to be clear: there&#39;s no penalty for using or not using GA with regards to search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012320567381422081?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
 
-`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">GA can give you lots of insights about your site &amp; how users enjoy it, but it&#39;s not required for search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012276593660780544?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> `
+`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">GA can give you lots of insights about your site &amp; how users enjoy it, but it&#39;s not required for search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012276593660780544?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
 
 ## Does Google Analytics improve SEO? Our conclusion
 
