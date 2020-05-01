@@ -60,7 +60,7 @@ The reason to keep the raw data is to support ad-hoc queries like these:
 
 *\* Show top countries by average session length*
 
-You get the idea. These queries cannot be pre-aggregated because you end up with a combinatorial explosion of stored queries. If you want to explore your dataset in unpredictable ways, it's more efficient to just keep the raw data around.
+You get the idea. These queries cannot be pre-aggregated because you end up with a combinatorial explosion of stored queries. If you want to explore your dataset in unpredictable ways, it's more efficient to just keep the raw data around and do it on the fly.
 
 ### I'm migrating from PostgreSQL to Clickhouse
 
