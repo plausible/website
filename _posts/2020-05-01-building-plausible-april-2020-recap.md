@@ -60,7 +60,7 @@ The reason to keep the raw data is to support ad-hoc queries like these:
 
 You get the idea. These queries cannot be pre-aggregated because you end up with a combinatorial explosion of stored queries. Instead of pre-aggregationn, it's more efficient to just keep the raw data around.
 
-#### I'm migrating from PostgreSQL to Clickhouse
+### I'm migrating from PostgreSQL to Clickhouse
 
 [Clickhouse](https://clickhouse.tech/) is a column-oriented OLAP database as described above. It stores the raw data in a very compressed format and aggregates results blazingly fast. I'm picking an OLAP database over pre-aggregation because it supports ad-hoc queries. Although we don't support them currently, I want to keep this option open so we can add it to the product later on.
 
