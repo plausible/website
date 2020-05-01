@@ -34,7 +34,7 @@ When I started working on Plausible, I didn't worry about performance because of
 
 > Premature optimization is the root of all evil
 
-The current version of the stats engine is very naive. I wanted to keep things simple, so I just started writing all the pageviews into a PostgreSQL table and aggregating the results. This approach has been working fine but I think optimizing performance at this point is sorely needed and not premature at all.
+The current version of the stats engine is very naive. I wanted to keep things simple, so I just started writing all the pageviews into a PostgreSQL table and aggregating the results as needed. This approach has been working fine but I think optimizing performance at this point is sorely needed and not premature at all.
 
 I've been reading up on how to do analytics *properly* so that it can handle large ingest volume and perform fast queries on millions (billions?) of pageviews/sessions. There seem to be 2 general approaches:
 
