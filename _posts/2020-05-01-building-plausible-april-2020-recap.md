@@ -24,7 +24,7 @@ All this attention translated to **272 signups in April**. This is more than **p
 
 It's incredibly how one article can [change the traction of a startup](https://plausible.io/blog/blog-post-changed-my-startup). I truly believe that publishing this blog post was a pivotal moment for the journey of this project.
 
-Among everything else that was going on, I was contacted by 3 people who are interested in using Plausible but their sites are bigger than our largest volume plan. It's clear that we need to support customers with up to 10m monthyl pageviews or so.
+Among everything else that was going on, I was contacted by 3 people who are interested in using Plausible but their sites are bigger than our largest volume plan. It's clear that we need to support customers with up to 10m monthly pageviews or so.
 
 With all the traffic and new signups, I also noticed that the product is starting to become sluggish. For example, loading the main graph of the [product demo](https://plausible.io/plausible.io?period=6mo) can take upwards of 6 seconds which is totally unacceptable to me. This brings me to what I'm working on now.
 
