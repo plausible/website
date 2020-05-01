@@ -64,7 +64,9 @@ You get the idea. These queries cannot be pre-aggregated because you end up with
 
 ### I'm migrating from PostgreSQL to Clickhouse
 
-[Clickhouse](https://clickhouse.tech/) is a column-oriented OLAP database as described above. It stores the raw data in a very compressed format and aggregates results blazingly fast. I'm picking an OLAP database over pre-aggregation because it supports ad-hoc queries. Although we don't support them currently, I want to keep this option open so we can add it to the product later on.
+[Clickhouse](https://clickhouse.tech/) is a column-oriented OLAP database as described above. It stores the raw data in a very compressed format and aggregates results blazingly fast. According to their testing, it can [scan hundreds of millions of records](https://www.altinity.com/blog/2020/1/1/clickhouse-cost-efficiency-in-action-analyzing-500-billion-rows-on-an-intel-nuc) per second running on a small 4-core PC.
+
+I'm picking an OLAP database over pre-aggregation because it supports ad-hoc queries. Although we don't support them currently, I want to keep this option open so we can add it to the product later on.
 
 The migration is not complete so I can't share any results yet. However, the initial results are looking good and my goal of keeping all stats queries under one second seems achievable. If your dashboard feels sluggish at the moment, I can guarantee it won't be when this migration goes live.
 
