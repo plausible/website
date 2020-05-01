@@ -9,10 +9,10 @@ author: uku-taht
 ---
 April 2020 was by far the most successful month in Plausible's history. Here are the highlights from the last month:
 
-* **Front page of Hacker News!** Marko wrote an [awesome post](https://plausible.io/blog/remove-google-analytics) about why you should stop using Google Analytics. It got tons of attention, including on Hacker News.
-* **Released annual plans:** Plausible is now [33% cheaper](https://plausible.io/#pricing) if you commit to the whole year. 
+* 📈 **Front page of Hacker News!** Marko wrote an [awesome post](https://plausible.io/blog/remove-google-analytics) about why you should stop using Google Analytics. It got tons of attention, including on Hacker News.
+* 📅 **Released annual plans:** Plausible is now [33% cheaper](https://plausible.io/#pricing) if you commit to the whole year. 
 * 👩 **62.8k visitors (+2.5k%):** The blog post about removing Google Analytics broke all traffic and signup records for Plausible
-* **272 Signups:** This is 6x more signups than March!
+* 🙋 **272 Signups:** This is 6x more signups than March!
 
 <small>PS: I wanted to include MRR for April but Paddle's reporting dashboard is broken and I can't see it. Hopefully it's fixed for May.</small>
 
