@@ -14,7 +14,7 @@ April 2020 was by far the most successful month in Plausible's history. Here are
 * 👩 **62.8k visitors (+2.5k%):** The blog post about removing Google Analytics broke all traffic and signup records for Plausible
 * 🙋 **272 Signups:** This is 6x more signups than March!
 
-PS: I wanted to include MRR for April but Paddle's reporting dashboard is broken and I can't see it. Hopefully it's fixed for May.
+PS: I wanted to include MRR for April but Paddle's reporting dashboard is broken and I'm too lazy to calculate it manually. Hopefully the reporting is fixed for next month.
 
 ### Tons of traffic and signups
 
