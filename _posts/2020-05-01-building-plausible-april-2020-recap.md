@@ -48,7 +48,7 @@ As far as I understand, this is what GoatCounter and Fathom Lite do.
 
 There are databases built to handle millions and potentially billions of time-series events and aggregate them on the fly. In this case the database looks more like the raw data coming into the system, not how it's presented to the user. All the hard work of aggregating results happens on the fly as the user is requesting the dashboard.
 
-This is very similar to how I'm using PostgreSQL at the moment. However, PostgreSQL is a row-oriented data store and it's not optimized for my use-case. You can [read more](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/) about the differences between row vs column-oriented databases but long story short, columnar stores are way quicker for common in web analytics queries.
+This is very similar to how I'm using PostgreSQL at the moment. However, PostgreSQL is a row-oriented data store and it's not optimized for my use-case. You can [read more](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/) about the differences between row vs column-oriented databases but long story short, columnar stores are way quicker for common web analytics queries.
 
 These databases require a lot of metal to work properly. Queries are run in parallel and even with amazing compression ratios there's a lot of disk IO needed for each query. Why would I want to store all the raw data and then pay for the CPU + memory for aggregating the results each time the dashboard is shown? Wouldn't it be easier to just pre-aggregate?
 
