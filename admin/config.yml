@@ -32,4 +32,6 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", hint: "e.g. '/my-article'"}
       - {label: "Body", name: "body", widget: "markdown"}
