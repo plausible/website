@@ -1,6 +1,10 @@
 ---
 layout: article
 title: Website analytics platform for freelancers and agencies
+description: With Plausible Analytics, we believe we have created a better and
+  easier website analytics solution for certain use cases both for freelancers
+  and agencies, but their clients too.
+permalink: /for-freelancers-agencies
 ---
 One of the use cases [Plausible Analytics](https://plausible.io/) was specifically designed for are the freelancers and agencies who work with clients developing their websites, communication and marketing practices.
 
