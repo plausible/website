@@ -1,10 +1,10 @@
 ---
 layout: article
-title: Website analytics for personal sites and blogs
+title: Website analytics for content creators
 ---
-Many people run personal websites and blogs. There are many motivations behind this. Some use it like a diary, some as a hobby, or as a way to connect to other people, as a way to build an audience, make money and even improve their career opportunities. 
+Many people create content on their personal websites and blogs. There are many motivations behind this. Some use it like a diary, some as a hobby, or as a way to connect to other people, as a way to build an audience, make money and even improve their career opportunities. 
 
-For some of these creators, external recognition is not that important. They write what they want, about things they are interested in and they publish whatever they please. The fun is in the writing and the creative process itself.
+For some of these content creators, external recognition is not that important. They write what they want, about things they are interested in and they publish whatever they please. The fun is in the writing and the creative process itself.
 
 Others like to understand the impact that their efforts have on the world, which posts bring in the readers, what topics people seem to enjoy the most and even how people end up discovering their content in the first place.
 
@@ -16,7 +16,7 @@ And this is where website analytics come into the picture. Web analytics give we
 
 Google Analytics is the obvious and the default choice for most websites. Even though it is a very useful and powerful tool used on the majority of websites on the web, it [brings several issues](https://plausible.io/blog/remove-google-analytics) that distract site owners from what they enjoy doing the most. 
 
-Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for personal websites and blogs.
+Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for content creators and their personal websites and blogs.
 
 ## Google Analytics is complicated to use and understand
 
@@ -64,6 +64,4 @@ Plausible Analytics is a new player on this market and it's privacy-friendly by 
 
 ## Give Plausible Analytics a chance
 
-Register for a [free 30-day trial](https://plausible.io/register) account to test Plausible Analytics on your site. It's so lightweight that you can run it alongside Google Analytics without any impact on your site loading time. 
-
-The 30 days of the free trial should give you enough time to explore Plausible Analytics and figure out how it fits with your needs and your workflow compared to Google Analytics.
+Register for a [free 30-day trial](https://plausible.io/register) account to test Plausible Analytics on your site. It's so lightweight that you can run it alongside Google Analytics without any impact on your site loading time. The 30 days of the free trial should give you enough time to explore Plausible Analytics and figure out how it fits with your needs and your workflow compared to Google Analytics.
