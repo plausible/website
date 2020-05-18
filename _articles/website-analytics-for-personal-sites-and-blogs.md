@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Website analytics for content creators
+title: Website analytics platform for content creators
 ---
 Many people create content on their personal websites and blogs. There are many motivations behind this. Some use it like a diary, some as a hobby, or as a way to connect to other people, as a way to build an audience, make money and even improve their career opportunities. 
 
