@@ -1,6 +1,10 @@
 ---
 layout: article
-title: Website analytics platform for content creators
+title: Website analytics platform for bloggers and content creators
+description: Here's a look at why we created Plausible Analytics as a great
+  Google Analytics alternative for content creators and their personal websites
+  and blogs.
+permalink: /bloggers-creators
 ---
 Many people create content on their personal websites and blogs. There are many motivations behind this. Some use it like a diary, some as a hobby, or as a way to connect to other people, as a way to build an audience, make money and even improve their career opportunities. 
 
