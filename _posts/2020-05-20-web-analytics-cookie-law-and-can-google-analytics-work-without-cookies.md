@@ -25,19 +25,17 @@ PECR requires a website owner to tell their visitors about technologies such as 
 
 According to [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you “need to tell people about analytics cookies and gain consent for their use”. If you use cookies you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
-```
-Say what cookies will be set
-Explain what the cookies will do
-Obtain consent to store cookies on devices
-```
+> Say what cookies will be set 
+>
+> Explain what the cookies will do
+>
+> Obtain consent to store cookies on devices
 
 This is how we would sum up different regulations such as the General Data Protection Regulation (GDPR) in Europe and the California Consumer Privacy Act (CCPA) in the United States with regards to the cookies:
 
-```
-If you track, collect, share or sell personal data or personally identifiable information (PII) by using cookies and other technology, you need to inform the visitor in clear and plain language, ask for and get explicit consent before you take that action
-```
+> If you track, collect, share or sell personal data or personally identifiable information (PII) by using cookies and other technology, you need to inform the visitor in clear and plain language, ask for and get explicit consent before you take that action
 
-Disclaimer: We’re not lawyers. The information in this post is our view on things and it’s here to help give you an introduction to web cookies and how Plausible Analytics is built to help you comply with the cookie laws. We encourage you to discuss specific issues with your lawyer if you have any concerns.
+**Disclaimer:** *We’re not lawyers. The information in this post is our view on things and it’s here to help give you an introduction to web cookies and how Plausible Analytics is built to help you comply with the cookie laws. We encourage you to discuss specific issues with your lawyer if you have any concerns.*
 
 ## Does Google Analytics use cookies?
 
@@ -45,12 +43,9 @@ Google Analytics is a cookie based web analytics platform. It sets [multiple coo
 
 Here are some of the things Google Analytics tracks using cookies:
 
-```
-Distinguish unique users
-Remember the number and time of previous visits
-Remember traffic source information
-Determine the start and end of a session
-```
+> Distinguish unique users Remember the number and time of previous visits
+> Remember traffic source information
+> Determine the start and end of a session
 
 On top of the standard analytics, many Google Analytics users also enable the different advertising features such as remarketing, and demographics and interest reporting. In those cases, you’re collecting data for advertising purposes which means that Google Analytics places additional advertising cookies and identifiers.
 
@@ -71,18 +66,13 @@ Google says that in some cases you can replace Google Analytics cookies with you
 
 Google has several requirements for your use of Google Analytics:
 
-```
-“You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law.”
-```
+> “You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law.”
 
 According to Google: “you must ensure that certain disclosures are given to, and consents obtained from, end users in the European Economic Area along with the UK. If you fail to comply with this policy, we may limit or suspend your use of the Google product and/or terminate your agreement”.
 
 Google states that you “must obtain end users’ legally valid consent” to:
 
-```
-the use of cookies or other local storage where legally required
-the collection, sharing, and use of personal data for personalization of ads
-```
+> the use of cookies or other local storage where legally required the collection, sharing, and use of personal data for personalization of ads
 
 ### How to implement the Google Analytics cookie consent prompt
 
@@ -111,11 +101,9 @@ So if you don't use cookies how do you count website visitors and report on metr
 
 To approximate the count, we can count the number of unique IP addresses instead of setting a user id in a cookie. Of course, there are problems with this:
 
-```
-IP addresses are considered personal data under GDPR
-Network Address Translation gives multiple people the same IP address
-On a mobile device, you are constantly going through multiple IP addresses
-```
+* IP addresses are considered personal data under GDPR
+* Network Address Translation gives multiple people the same IP address
+* On a mobile device, you are constantly going through multiple IP addresses
 
 Plausible Analytics uses an old trick from log analysis to approximate the unique user count: 
 
