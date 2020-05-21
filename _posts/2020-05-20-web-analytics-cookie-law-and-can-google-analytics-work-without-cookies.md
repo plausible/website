@@ -11,8 +11,6 @@ image-alt: Website analytics and the cookie consent
 ---
 Are you confused about the use of Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? This post aims to help you through that process. Let's get started.
 
-1. Ordered list {:toc}
-
 ## What are web cookies?
 
 Web cookies are small pieces of data that websites place on the devices of people browsing the web. Web browsers then store these cookies and can send them back to the website on the next visit.
