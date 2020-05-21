@@ -41,10 +41,16 @@ This is how we would sum up different regulations such as the General Data Prote
 
 Google Analytics is a cookie based web analytics platform. It sets [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) (including _ga, _gid and _gat) and it “uses cookies to identify unique users across browsing sessions”. This is done “to remember what a user has done on previous pages / interactions with the website”.
 
+![Example of cookies Google Analytics sets](/uploads/google-analytics-cookies.png "Example of cookies Google Analytics sets")
+
 Here are some of the things Google Analytics tracks using cookies:
 
-> Distinguish unique users Remember the number and time of previous visits
+> Distinguish unique users 
+>
+> Remember the number and time of previous visits 
+>
 > Remember traffic source information
+>
 > Determine the start and end of a session
 
 On top of the standard analytics, many Google Analytics users also enable the different advertising features such as remarketing, and demographics and interest reporting. In those cases, you’re collecting data for advertising purposes which means that Google Analytics places additional advertising cookies and identifiers.
@@ -82,8 +88,9 @@ Here's how you can implement the cookie consent prompt on your website if you're
 2. Don't store any cookies on the device of your visitor before that visitor gives you the consent to do so.
 3. Place the cookie consent prompt somewhere visible on your site such as the bottom left or bottom right of the screen.
 4. Write in plain language in a similar way that you communicate on the rest of your site. Explain to the visitor what you want to collect and why that is useful to you.
-5. Ask the visitor to decide whether to give you the consent to do so or not. Make that choice clear with simple "yes" and "no" or "accept" and "decline" options. No dark patterns can be used in order to make the visitor accept.
-6. If you need help to do this, there are products such as [Metomic](https://metomic.io/) that can help you create beautiful and cookie law compliant consent prompts.
+5. Ask the visitor to decide whether to give you the consent to do so or not. Make that choice clear with simple "yes" and "no" or "accept" and "decline" options. No dark patterns can be used in order to make the visitor accept. If you need help to do this, there are products such as [Metomic](https://metomic.io/) that can help you create beautiful and cookie law compliant consent prompts.
+
+![An example of a valid cookie consent banner](/uploads/cookie-consent-banner.png "An example of a valid cookie consent banner")
 
 ## Can you get website statistics without cookies?
 
@@ -97,21 +104,21 @@ This is one of the reasons why you should consider Plausible Analytics as a grea
 
 ### How can Plausible Analytics count unique visitors without cookies?
 
-So if you don't use cookies how do you count website visitors and report on metrics such as new versus returning visitors? 
+So if you don't use cookies how do you count the number of website visitors and report on metrics such as new versus returning visitors?
 
-To approximate the count, we can count the number of unique IP addresses instead of setting a user id in a cookie. Of course, there are problems with this:
+Plausible Analytics uses an old trick from log analysis to approximate the unique user count. We count the number of unique IP addresses that accessed your website instead of setting a unique user ID in a cookie. There are some things we needed to consider about this approach:
 
 * IP addresses are considered personal data under GDPR
-* Network Address Translation gives multiple people the same IP address
-* On a mobile device, you are constantly going through multiple IP addresses
+* \[Network Address Translation](https://en.wikipedia.org/wiki/Network_address_translation) gives multiple people the same IP address
+* On a mobile device, a user can go through multiple IP addresses
 
-Plausible Analytics uses an old trick from log analysis to approximate the unique user count: 
+So here's how our system works:
 
-1. Instead of setting a cookie with a unique user ID, we simply count the number of unique IP addresses that accessed your website to determine the visitor count. We don’t want to store any personal data, so the only way we could store IP addresses is by scrambling them with a one-way hash function. Hashing makes it impossible to recover the raw data that went into it and enhances visitor privacy. We don’t store the raw visitor IP address in our database or logs.
-2. To further enhance visitor privacy, we add the website domain to their IP hash. This means that the same user will never have the same IP hash on two different websites. If we didn’t do this, the hash would effectively act like a third-party (cross-domain) cookie.
-3. To deal with Network Address Translation, we add the User-Agent string to the hash. When two visitors share an IP address, it’s quite rare for them to also share the same User-Agent. As with the IP address, the raw string is discarded and only the hash is kept.
+1. We don’t want to store any personal data, so we scramble IP addresses with a one-way hash function. Hashing makes it impossible to recover the raw data (IP addresses) that went into it and enhances visitor privacy. We don’t store the raw visitor IP address in our database or logs.
+2. To further enhance visitor privacy, we add the website domain to the IP hash. This means that the same user will never have the same IP hash on two different websites. If we didn’t do this, the hash would effectively act like a third-party (cross-domain) cookie.
+3. To deal with Network Address Translation, we add the \[browser User-Agent](https://en.wikipedia.org/wiki/User_agent) string to the hash. If two visitors share an IP address, it’s quite rare for them to also share the same User-Agent (device type, operating system, browser). As with the IP address, the raw string is discarded and only the hash is kept.
 
-In summary, here’s how we assign a hash that we use for unique user counting:
+In summary, here’s how we assign a hash that we use for unique visitor counting:
 
 > hash(website_domain + ip_address + user_agent)
 
@@ -125,7 +132,7 @@ In our testing, using IP addresses to count visitors is remarkably accurate when
 
 Overall, we're happy with this approach because we expected bigger inaccuracy. In some cases, it might even be more accurate than using a cookie because some audiences such as tech-savvy audiences block cookies altogether. 
 
-Turns out, counting IP addresses is not much less accurate than using cookies. Not having to show a cookie banner is a worthwhile trade off for many sites.
+Turns out, counting IP addresses is not much less accurate than using cookies. And not having to show a cookie banner is a worthwhile trade off for many sites.
 
 ## Try Plausible Analytics cookie-free stats
 
