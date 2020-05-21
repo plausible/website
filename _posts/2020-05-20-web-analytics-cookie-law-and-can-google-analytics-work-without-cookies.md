@@ -107,7 +107,7 @@ This is one of the reasons why you should consider Plausible Analytics as a grea
 
 So if you don't use cookies how do you count the number of website visitors and report on metrics such as the number of unique users?
 
-Instead of tagging users with a cookies, we count the number of unique IP addresses that accessed your website. Counting IP addresses is an old-school method that was used before the modern age of javascript snippets and tracking cookies.
+Instead of tagging users with cookies, we count the number of unique IP addresses that accessed your website. Counting IP addresses is an old-school method that was used before the modern age of javascript snippets and tracking cookies.
 
 Since IP addresses are considered personal data under GDPR, we anonymize them using a one-way cryptographic hash function. You can read our data policy with full details on things we do collect, how we do it and how we've made our product a [GDPR compliant web analytics tool](https://plausible.io/data-policy).
 
