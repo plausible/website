@@ -45,13 +45,10 @@ Google Analytics is a cookie based web analytics platform. It sets [multiple coo
 
 Here are some of the things Google Analytics tracks using cookies:
 
-> Distinguish unique users 
->
-> Remember the number and time of previous visits 
->
-> Remember traffic source information
->
-> Determine the start and end of a session
+* Distinguish unique users
+* Remember the number and time of previous visits
+* Remember traffic source information
+* Determine the start and end of a session
 
 On top of the standard analytics, many Google Analytics users also enable the different advertising features such as remarketing, and demographics and interest reporting. In those cases, you’re collecting data for advertising purposes which means that Google Analytics places additional advertising cookies and identifiers.
 
