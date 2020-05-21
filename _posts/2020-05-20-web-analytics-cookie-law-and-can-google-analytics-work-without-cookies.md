@@ -11,8 +11,7 @@ image-alt: Website analytics and the cookie consent
 ---
 Are you confused about the use of Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? This post aims to help you through that process. Let's get started.
 
-1. Ordered list
-{:toc}
+1. Ordered list {:toc}
 
 ## What are web cookies?
 
@@ -106,31 +105,17 @@ This is one of the reasons why you should consider Plausible Analytics as a grea
 
 ### How can Plausible Analytics count unique visitors without cookies?
 
-So if you don't use cookies how do you count the number of website visitors and report on metrics such as new versus returning visitors?
+So if you don't use cookies how do you count the number of website visitors and report on metrics such as the number of unique users?
 
-Plausible Analytics uses an old trick from log analysis to approximate the unique user count. We count the number of unique IP addresses that accessed your website instead of setting a unique user ID in a cookie. There are some things we needed to consider about this approach:
+Instead of tagging users with a cookies, we count the number of unique IP addresses that accessed your website. Counting IP addresses is an old-school method that was used before the modern age of javascript snippets and tracking cookies.
 
-* IP addresses are considered personal data under GDPR
-* [Network Address Translation](https://en.wikipedia.org/wiki/Network_address_translation) gives multiple people the same IP address
-* On a mobile device, a user can go through multiple IP addresses
-
-So here's how our system works:
-
-1. We don’t want to store any personal data, so we scramble IP addresses with a one-way hash function. Hashing makes it impossible to recover the raw data (IP addresses) that went into it and enhances visitor privacy. We don’t store the raw visitor IP address in our database or logs.
-2. To further enhance visitor privacy, we add the website domain to the IP hash. This means that the same user will never have the same IP hash on two different websites. If we didn’t do this, the hash would effectively act like a third-party (cross-domain) cookie.
-3. To deal with Network Address Translation, we add the [browser User-Agent](https://en.wikipedia.org/wiki/User_agent) string to the hash. If two visitors share an IP address, it’s quite rare for them to also share the same User-Agent (device type, operating system, browser). As with the IP address, the raw string is discarded and only the hash is kept.
-
-In summary, here’s how we assign a hash that we use for unique visitor counting:
-
-> hash(website_domain + ip_address + user_agent)
-
-You can read our data policy with full details on things we do collect, how we do it and how we've made our product a [GDPR compliant web analytics tool](https://plausible.io/data-policy).
+Since IP addresses are considered personal data under GDPR, we anonymize them using a one-way cryptographic hash function. You can read our data policy with full details on things we do collect, how we do it and how we've made our product a [GDPR compliant web analytics tool](https://plausible.io/data-policy).
 
 ### But what if the IP address of a visitor gets changed?
 
 If a visitor changes the IP address they will be counted as another new visitor. Similar to if someone blocks or deletes their cookies, they become new visitors too.
 
-In our testing, using IP addresses to count visitors is remarkably accurate when compared to using a cookie. Total unique visitor counts were within 10% error range with hash-based counting usually showing lower numbers. 
+In our testing, using IP addresses to count visitors is remarkably accurate when compared to using a cookie. Total unique visitor counts were within 10% error range with IP-based counting usually showing lower numbers. 
 
 Overall, we're happy with this approach because we expected bigger inaccuracy. In some cases, it might even be more accurate than using a cookie because some audiences such as tech-savvy audiences block cookies altogether. 
 
