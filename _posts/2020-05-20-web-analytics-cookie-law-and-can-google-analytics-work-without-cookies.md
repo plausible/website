@@ -6,8 +6,13 @@ description: Are you confused about Google Analytics and the requirement to show
 slug: google-analytics-cookies
 date: 2020-05-20T09:56:34.718Z
 author: marko-saric
+image: /uploads/big-spike-in-traffic.png
+image-alt: Website analytics and the cookie consent
 ---
 Are you confused about the use of Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? This post aims to help you through that process. Let's get started.
+
+1. Ordered list
+{:toc}
 
 ## What are web cookies?
 
