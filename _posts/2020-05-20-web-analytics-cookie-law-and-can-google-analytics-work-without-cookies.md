@@ -111,14 +111,14 @@ So if you don't use cookies how do you count the number of website visitors and 
 Plausible Analytics uses an old trick from log analysis to approximate the unique user count. We count the number of unique IP addresses that accessed your website instead of setting a unique user ID in a cookie. There are some things we needed to consider about this approach:
 
 * IP addresses are considered personal data under GDPR
-* \[Network Address Translation](https://en.wikipedia.org/wiki/Network_address_translation) gives multiple people the same IP address
+* [Network Address Translation](https://en.wikipedia.org/wiki/Network_address_translation) gives multiple people the same IP address
 * On a mobile device, a user can go through multiple IP addresses
 
 So here's how our system works:
 
 1. We don’t want to store any personal data, so we scramble IP addresses with a one-way hash function. Hashing makes it impossible to recover the raw data (IP addresses) that went into it and enhances visitor privacy. We don’t store the raw visitor IP address in our database or logs.
 2. To further enhance visitor privacy, we add the website domain to the IP hash. This means that the same user will never have the same IP hash on two different websites. If we didn’t do this, the hash would effectively act like a third-party (cross-domain) cookie.
-3. To deal with Network Address Translation, we add the \[browser User-Agent](https://en.wikipedia.org/wiki/User_agent) string to the hash. If two visitors share an IP address, it’s quite rare for them to also share the same User-Agent (device type, operating system, browser). As with the IP address, the raw string is discarded and only the hash is kept.
+3. To deal with Network Address Translation, we add the [browser User-Agent](https://en.wikipedia.org/wiki/User_agent) string to the hash. If two visitors share an IP address, it’s quite rare for them to also share the same User-Agent (device type, operating system, browser). As with the IP address, the raw string is discarded and only the hash is kept.
 
 In summary, here’s how we assign a hash that we use for unique visitor counting:
 
