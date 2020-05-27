@@ -3,9 +3,9 @@ layout: post
 title: Marko & Uku on the Changelog podcast
 description: We talk through the backstory of the project, why it’s open source,
   the details behind a few viral blog posts Marko shared to bring in a ton of
-  new interest to the project, why privacy matters in web analytics, how they
-  prioritize building new features, the technical details behind their no cookie
-  light-weight JavaScript approach, and their thoughts on a server-side option.
+  new interest to the project, why privacy matters in web analytics, how we
+  prioritize building new features, the technical details behind Plausible, and
+  our thoughts on a server-side option.
 slug: changelog-podcast
 date: 2020-05-27T11:18:20.249Z
 author: uku-taht
