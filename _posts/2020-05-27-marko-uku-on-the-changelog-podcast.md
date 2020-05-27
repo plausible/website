@@ -17,4 +17,4 @@ We go through the backstory of the project, why it’s open source, the details 
 <br />
 
 
-<audio data-theme="night" data-src="https://changelog.com/podcast/396/embed" src="https://cdn.changelog.com/uploads/podcast/396/the-changelog-396.mp3" preload="none" class="changelog-episode" controls></audio><p><a href="https://changelog.com/podcast/396">The Changelog 396: De-Google-ing your website analytics</a> – Listen on <a href="https://changelog.com/">Changelog.com</a></p><script async src="//cdn.changelog.com/embed.js"></script>
+<audio data-theme="day" data-src="https://changelog.com/podcast/396/embed" src="https://cdn.changelog.com/uploads/podcast/396/the-changelog-396.mp3" preload="none" class="changelog-episode" controls></audio><p><a href="https://changelog.com/podcast/396">The Changelog 396: De-Google-ing your website analytics</a> – Listen on <a href="https://changelog.com/">Changelog.com</a></p><script async src="//cdn.changelog.com/embed.js"></script>
