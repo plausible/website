@@ -1,10 +1,10 @@
 ---
 layout: article
 title: Simple web analytics tool you can use to measure website traffic
-description: Plausible provides you all the valuable website traffic metrics in a
-  simple web analytics dashboard. No layers of menus and no need for custom reports.
-permalink: "/simple-web-analytics"
-
+description: Plausible provides you all the valuable website traffic metrics in
+  a simple web analytics dashboard. No layers of menus and no need for custom
+  reports.
+permalink: /simple-web-analytics
 ---
 The goal of [Plausible Analytics](https://plausible.io/) is to provide you all the valuable website traffic metrics at a glance in a simple web analytics dashboard.
 
@@ -63,7 +63,7 @@ We are an [open-source web analytics](https://plausible.io/open-source-website-a
 
 Analytics scripts have a performance impact on the page weight and the loading time speed of a website. Plausible aims to provide you with all the essential website traffic insights without a negative impact on your site speed.
 
-Our analytics script is [14 times smaller than the Google Analytics](https://plausible.io/lightweight-web-analytics) script. It is lighter and faster to load so you will reduce the page weight of your site compared to when using Google Analytics.
+Our analytics script is [17 times smaller than the Google Analytics](https://plausible.io/lightweight-web-analytics) script and 45 times smaller than the recommended Google Analytics integration using Google Tag Manager. It is lighter and faster to load so you will reduce the page weight of your site compared to when using Google Analytics.
 
 **2. Web analytics without the use of cookies and other privacy-invasive tools**
 
