@@ -100,7 +100,7 @@ You'll see your CSS in here, your images and other media elements and you'll see
 
 This is how the waterfall chart looks for the Plausible home page. In this list, you can see the plausible.js which is our tracking script, the same scripts that our users use too.
 
-![Plausible Analytics home page loading time](/uploads/plausible-web-speed-test.png "Plausible home page elements and loading time")
+![Plausible home page elements, loading time and the script size](/uploads/plausible-script-size-test.png "Plausible home page elements, loading time and the script size")
 
 ## Why is the Google Analytics tracking script so heavy?
 
