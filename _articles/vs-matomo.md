@@ -1,10 +1,10 @@
 ---
 layout: article
-title: 'Matomo vs Plausible: Why Plausible is a great Matomo alternative'
-description: Plausible and Matomo are open-source website analytics tools. What is
-  the difference between them and why are they good alternatives to Google Analytics?
-permalink: "/vs-matomo"
-
+title: "Matomo vs Plausible: Why Plausible is a great Matomo alternative"
+description: Plausible and Matomo are open-source website analytics tools. What
+  is the difference between them and why are they good alternatives to Google
+  Analytics?
+permalink: /vs-matomo
 ---
 Matomo, formerly known as Piwik, was founded in 2007 and has long been the most well known open-source alternative to Google Analytics.
 
@@ -65,12 +65,12 @@ We have an actual [live demo](https://plausible.io/plausible.io) for you to view
 
 Web analytics scripts like any other website element add extra page weight and extra loading time to your website. Every KB matters when you want to keep your site fast to load.
 
-Plausible is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weights only 1.4 KB. That's 16 times smaller than the Matomo script which weights 22.8 KB.
+Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weights under 1 KB. That's more than 22 times smaller than the Matomo script which weights 22.8 KB.
 
 * **Matomo** https://example.org/matomo.js **22.8 KB**
-* **Plausible** https://plausible.io/js/plausible.js **1.4 KB**
+* **Plausible** https://plausible.io/js/plausible.js **<1 KB**
 
-Plausible script you need to integrate into your site looks like this:
+Plausible Analytics script you need to integrate into your site looks like this:
 
     <script async defer data-domain="domain.com"
     src="https://plausible.io/js/plausible.js"></script>
