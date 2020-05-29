@@ -1,7 +1,8 @@
 ---
 layout: article
-title: 'Plausible vs Google Analytics: Why Plausible is a great alternative'
-description: Here's why you should consider Plausible as a simple, lightweight, ethical, open-source and privacy-friendly alternative to Google Analytics.
+title: "Plausible vs Google Analytics: Why Plausible is a great alternative"
+description: Here's why you should consider Plausible as a simple, lightweight,
+  ethical, open-source and privacy-friendly alternative to Google Analytics.
 permalink: /vs-google-analytics
 ---
 
@@ -65,9 +66,9 @@ By using Plausible, you don't need to have any GDPR, CCPA, PECR or cookie prompt
 
 ### 7. Increasing the page weight and the loading time
 
-Analytics scripts have a performance impact on the page weight and the loading time speed of a website. Plausible aims to provide you with all the essential website traffic insights without a negative impact on the web speed.
+Analytics scripts have a performance impact on the page weight and the loading time speed of a website. Plausible Analytics aims to provide you with all the essential website traffic insights without a negative impact on the web speed.
 
-The Plausible script is 14 times smaller than the Google Analytics script. By using Plausible, you will reduce your page weight and your site will load faster too.
+Plausible Analytics script is more than 17 times smaller than the Google Analytics script and more than 45 times smaller than the recommended Google Analytics integration using the Google Tag Manager. By using Plausible Analytics, you will reduce your page weight and your site will load faster too.
 
 ### 8. David vs Goliath
 
