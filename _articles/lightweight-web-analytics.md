@@ -1,10 +1,9 @@
 ---
 layout: article
 title: How lightweight web analytics can reduce the carbon footprint of your site
-description: Replacing Google Analytics with a lightweight web analytics tool can
-  have a significant effect on the page load time of your website.
-permalink: "/lightweight-web-analytics"
-
+description: Replacing Google Analytics with a lightweight web analytics tool
+  can have a significant effect on the page load time of your website.
+permalink: /lightweight-web-analytics
 ---
 Page speed shows you the amount of time it takes for your website to load. Having a fast loading website is one of the key elements of modern web development.
 
@@ -29,7 +28,7 @@ Web analytics like any other website element add extra page weight and extra loa
 * **Google Tag Manager** https://www.googletagmanager.com/gtag/js **28 KB**
 * **Google Analytics** https://www.google-analytics.com/analytics.js **17.7 KB**
 * **Matomo** https://example.org/matomo.js **22.8 KB**
-* **Plausible** https://plausible.io/js/plausible.js **1.4 KB**
+* **Plausible** https://plausible.io/js/plausible.js **<1 KB**
 
 ### Google Analytics
 
@@ -82,9 +81,9 @@ This matomo.js script adds 22.8 KB to the page size of your website.
 
 Every KB matters when you want to keep your site fast to load. Plausible is built with simplicity, speed and performance in mind.
 
-**Plausible script weights only 1.4 KB. That's 16 times smaller than the Matomo script and 33 times smaller than the Google Analytics Global Site Tag.**
+**Plausible script weights less than 1 KB. That's more than 22 times smaller than the Matomo script and more than 45 times smaller than the Google Analytics Global Site Tag.**
 
-Even if a site owner figures out that there's a way to load Google Analytics script without using the Global Site Tag, Plausible is still 13 times lighter.
+Even if a site owner figures out that there's a way to load Google Analytics script without using the Global Site Tag, Plausible is still more than 17 times lighter.
 
 Plausible script you need to integrate into your site looks like this:
 
@@ -135,7 +134,7 @@ Try and run your site through the [Website Carbon Calculator](https://www.websit
 
 Let's do a bit of a calculation. The Google Tag Manager way of integrating Google Analytics into a website adds a total script size of 45.7 KB.
 
-Plausible script itself is at 1.4 KB. **If you replace Google Analytics with Plausible you will reduce your page size by 44.3 KB for each visitor**.
+Plausible script itself is under 1 KB. **If you replace Google Analytics with Plausible you will reduce your page size by 44.3 KB for each visitor**.
 
 With 10,000 monthly visitors that will be a saving of 443,000 KB (0.443 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
 
@@ -155,6 +154,6 @@ These numbers are all estimates but you can imagine if millions of website owner
 
 ## Give Plausible a try as your lightweight web analytics tool
 
-Plausible is a simple, open-source and lightweight site analytics tool. At 1.4 KB, our analytics script is 16 times smaller than the Matomo script and 33 times smaller than the Google Analytics Global Site Tag.
+Plausible is a simple, open-source and lightweight site analytics tool. At under 1 KB, our analytics script is 22 times smaller than the Matomo script and 45 times smaller than the Google Analytics Global Site Tag.
 
 [Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard while getting a faster website that produces less carbon emissions.
