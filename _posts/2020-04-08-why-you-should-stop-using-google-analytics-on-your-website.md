@@ -1,12 +1,12 @@
 ---
 layout: post
-author: marko-saric
 title: Why you should stop using Google Analytics on your website
 description: Here's a look at why you should remove Google Analytics from your
   website and help create a more open, independent web that's more friendly to
   the visitors.
 slug: remove-google-analytics
 date: 2020-04-08T12:20:53.993Z
+author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
@@ -141,7 +141,7 @@ This is where our brand-new solution comes in place. With Plausible Analytics we
 
 1. Fully **open source** with the code available [on GitHub](https://github.com/plausible-insights/plausible)
 2. **Simple to understand** and get insights from in one minute
-3. A **lightweight script of 1.4 KB** only so your site keeps loading fast
+3. A **lightweight script of less than 1 KB** only so your site keeps loading fast
 4. **Doesn't use cookies** so there's no need for cookie banners
 5. **Doesn't collect personal data** so no need for GDPR and CCPA consent prompts
 
