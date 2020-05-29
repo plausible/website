@@ -1,10 +1,10 @@
 ---
 layout: article
-title: 'Plausible: GDPR, CCPA and cookie law compliant site analytics'
-description: Plausible provides cookie-less web analytics without collecting personal
-  data and while respecting the privacy of website visitors. This is our data policy.
-permalink: "/data-policy"
-
+title: "Plausible: GDPR, CCPA and cookie law compliant site analytics"
+description: Plausible provides cookie-less web analytics without collecting
+  personal data and while respecting the privacy of website visitors. This is
+  our data policy.
+permalink: /data-policy
 ---
 Even though the purpose of [Plausible Analytics](https://plausible.io) is to track the usage of a website, this can still be done without collecting any personal data or personally identifiable information (PII), without using cookies and while respecting the privacy of the website visitors.
 
@@ -27,8 +27,6 @@ We measure only the most essential data points and nothing else. All the metrics
 | **Operating system** | _macOS_ | We use this to show you what operating systems people use when visiting your website. We only show the brand of the operating system and don't include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
 | **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
 | **Visitor Country**  | _United Kingdom_ | We look up the visitor's country using their IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
-| **Initial referrer** <small>(Optional)</small>  | _https://facebook.com_ | You can choose to configure Plausible to use a cookie which is then used to provide referral information for goal conversions. In that case, the initial referrer is stored in a cookie on the visitor's device and later attached to the conversion event such as a subscription to your newsletter. <br /><br />This is not enabled by default and is an optional feature for those who want to track referral sources of their goal or event conversions. You can still track goal or event conversions without using cookies but you will not get the referral source. |
-
 
 ## Web analytics and compliance with the cookie law, GDPR, CCPA, PECR and other privacy regulations
 
