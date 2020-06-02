@@ -10,12 +10,13 @@ Another month, another update. Here's what went down with Plausible in May:
 
 * 🚀 **Plausible is now much faster and can handle more load**
 * 🙌 **Reduced the size of our tracking script by more than 50%**
-* 💵 **MRR: $1,085:** We had our biggest revenue growth ever.
+* 🔨 **Good progress on a self-hosted version of Plausible**
+* 💵 **MRR: $1,085:** A lot of trials from April expired this month and we blew past $1k MRR. Huge month for revenue growth.
 * 👩 **26k visitors (-59%):** Traffic couldn't match April when we hit the front page of Hacker news. Still, 26k visitors is very strong.
 
 ### Database migration
 
-As I talked about in my [last monthly update](https://plausible.io/blog/april-2020-recap#scaling-plausible), Plausible had started to get pretty slow and we also had requests for bigger plans that our setup wasn't equipped to handle.
+As I talked about in my [last monthly update](https://plausible.io/blog/april-2020-recap#scaling-plausible), Plausible started to get pretty slow in April and we also had requests for bigger plans that our setup wasn't equipped to handle.
 
 I started moving from our PostgreSQL database to Clickhouse in the beginning of May. It has been running in production just over a week now and everything seems to be working as expected. The app is much faster, for example the main graph for the live demo used to take 5-6s to load but now it's consistently around 500ms.
 
