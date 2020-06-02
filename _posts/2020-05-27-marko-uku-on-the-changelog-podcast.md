@@ -398,6 +398,8 @@ It's one of the first products I worked on where the cost efficiency is a big de
 
 **Jerod Santo:** Cool, guys. Well, we hope you get there. We will be rooting along, we're following the blog. We'll be trying out Plausible. I'll definitely be checking out that roadmap and waiting for the server-side stuff to hit.
 
+## On hosted vs self-hosted analytics
+
 **Uku Täht:** Well, just an interesting question - are you comfortable with us hosting the data, or would you also want to run your own instance of Plausible?
 
 **Jerod Santo:** I'm not interested in self-hosted whatsoever.
@@ -408,7 +410,7 @@ It's one of the first products I worked on where the cost efficiency is a big de
 
 There are a few things I do want that aren't there, but like I said, I'll just check out that public roadmap and maybe I'll give a few thumbs up to some things... But yeah, that's interesting to me, that aspect, and really just kind of return to the old way of doing things, server-side versus in the browser.
 
-**Uku Täht:** \[01:20:22.06\] I'm with you. I think allowing people to self-host makes sense for Plausible. We're in that sort of space.
+**Uku Täht:** I'm with you. I think allowing people to self-host makes sense for Plausible. We're in that sort of space.
 
 **Jerod Santo:** Absolutely.
 
@@ -418,15 +420,9 @@ There are a few things I do want that aren't there, but like I said, I'll just c
 
 **Uku Täht:** I wanna minimize my headache as a developer.
 
-**Jerod Santo:** There are people that love setting this stuff up though. They love self-hosting, they love running servers, they've got their Ansible scripts, or they've got their Docker files, or they've got their Kubernetes clusters... I mean, I get it, I used to do that kind of stuff as part of my living, which is why I'm so allergic to it now... So if they could slot this in as just another one of their Docker containers, that they're already running this infrastructure for their company, or for their home, or whatever it is - there are people that love that stuff. I'm just not that person. I think it's a worthwhile endeavor for you guys, I just am not interested in it for is. But I am interested in server-side stuff.
+**Jerod Santo:** There are people that love setting this stuff up though. They love self-hosting, they love running servers, they've got their Ansible scripts, or they've got their Docker files, or they've got their Kubernetes clusters. There are people that love that stuff. I'm just not that person. I am interested in server-side stuff.
 
-**Adam Stacoviak:** Yeah. I mean, I don't know where you're at with customer base or -- I mean, I can kind of see it based on MRR, but you mentioned the next few things for you in terms of focus around customer base and dollars is sustainability... So I'd say if over the next six months you can focus on the customers that you need to get to to sustain, focus on features and roadmap that sort of enables that - that would be a wise focus of your energy and time... And sure, maybe at some point a self-hosted is certainly possible now, but it requires documentation stuff, but that'll not be your focus until you're ready to take on that kind of customer base. You're gonna attract the (Jerod's words) privacy-oriented, so you don't wanna say no, but just say "Not yet".
-
-**Marko Saric:** We actually spoke about -- I don't know if you guys know Proton Mail. I use them for my email... Again, in my switch from Google, I ended up having to pay for email, which I had never considered before. So I pay for Proton Mail, and their concept I really liked; something we discussed is they have paid plans, and they have several levels in it, and people are donating money and giving quite high levels that you can pay for... And they use that money they get from bank customers in order to support those that cannot afford it, or that don't wanna pay... And they allow people to also have a free email address.
-
-So this is something we discussed. If we build - like you mentioned now - Plausible and get some sustainability there, that will then allow us to actually spend some of our time, rather than building new features and trying to get new customers, we can actually spend some of those resources into allowing easy self-hosting, and things like that, that will make it easier for people that cannot pay right now, or that don't wanna pay, and so on.
-
-**Adam Stacoviak:** Well, it's certainly been fun digging through all these details. I certainly applaud what you're working on. It's definitely in the right timing, right timing for people like us even, looking for alternatives... And thank you so much for sharing your story and your time. I appreciate it, guys.
+## A feature request
 
 **Jerod Santo:** So now that I have you off-air, let me give you my feature request real quick.
 
