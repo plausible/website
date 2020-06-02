@@ -30,7 +30,7 @@ One of our main value propositions is that Plausible is lightweight. I was quite
 
 I removed an obsolete section of the code that dealt with cookies and changed the build system for the tracker. Webpack adds a lot of code to your script to make modules work at runtime which is completely unnecessary for the tracking script. Instead of using Webpack, I decided to write a tiny `compile.js` file that just minifies the code and replaces the API URL. Very simple.
 
-There were some extra tricks to make it even smaller like changing `XMLHttpRequest.DONE` -> `4` and pulling `window.document` into a variable at the top of the file. It saves space to pull commonly referenced attributes into a variable that can be minified.
+There were some extra tricks to make it even smaller like changing `XMLHttpRequest.DONE` -> `4` and pulling `window.document` into a variable at the top of the file. Pulling commonly used attributes into a variable helps the minifier do its job and ends up saving space.
 
 ### Dockerized codebase
 
