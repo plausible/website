@@ -33,7 +33,7 @@ There were some extra tricks to make it even smaller like changing `XMLHttpReque
 
 ### Dockerized codebase
 
-This month I also merged a [massive pull request](https://github.com/plausible-insights/plausible/pull/64) that adds Docker support to Plausible. This is a big step towards having a version of Plausible that people can host themselves.
+This month I also merged a [massive pull request](https://github.com/plausible-insights/plausible/pull/64) that adds Docker support to Plausible. This is a big step towards having a version of Plausible that people can host themselves. Big credit and thanks to [Chandra](https://twitter.com/this_is_tckb) for creating the PR and for his continued work on this.
 
 There's still work to do as I haven't designed everything for self-hosting from the beginning. For example, I've relied on my CDN setting a custom HTTP header to get the origin country of the request. In a self-hosted situation, we can't rely on the user running it behind any specific CDN so we have to add the capability for Plausible to look up the country of the visitor.
 
@@ -52,9 +52,9 @@ There are many examples of products that are possible to self-host, yet they've 
 I haven't had a chance to work on the actual analytics dashboard for a while now. I still have more work to do on the hosting and backend side of things. However, I would really like to get back to doing feature development and product design by mid-June or so.
 
 Here are my priorities for the next month:
+
 * Consolidate our hosting to Digital Ocean's Frankfurt data center
 * Release alpha version of self-hosted Plausible
 * Deliver at least one new feature for the dashboard (ideally more)
 
 Stay tuned for another update in a month.
-
