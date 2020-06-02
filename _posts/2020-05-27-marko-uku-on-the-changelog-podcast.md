@@ -14,11 +14,11 @@ Last month we joined Adam Stacoviak and Jerod Santo over at [changelog.com](http
 
 We go through the backstory of the project, why it’s [open source](https://plausible.io/open-source-website-analytics), the details behind a few viral blog posts Marko shared to bring in a ton of new interest to the project, [why privacy matters in web analytics](https://plausible.io/data-policy), how we prioritize building new features, the technical details behind Plausible Analytics, and our thoughts on a server-side option.
 
-You can listen to the full show below and read an edited and shortened transcript too. Here's the [full transcript](https://github.com/thechangelog/transcripts/blob/master/podcast/the-changelog-396.md) and you can also listen to this episode on the [Changelog website](https://changelog.com/podcast/396).
+You can listen to the full show below and read an edited and shortened transcript too. Here's the [full transcript](https://github.com/thechangelog/transcripts/blob/master/podcast/the-changelog-396.md) and you can also listen to the episode on the [Changelog website](https://changelog.com/podcast/396).
 
 <br />
 
-<audio data-theme="night" data-src="https://changelog.com/podcast/396/embed" src="https://cdn.changelog.com/uploads/podcast/396/the-changelog-396.mp3" preload="none" class="changelog-episode" controls></audio><p><a href="https://changelog.com/podcast/396">The Changelog 396: De-Google-ing your website analytics</a> – Listen on <a href="https://changelog.com/">Changelog.com</a></p><script async src="//cdn.changelog.com/embed.js"></script>
+<audio data-theme="night" data-src="https://changelog.com/podcast/396/embed" src="https://cdn.changelog.com/uploads/podcast/396/the-changelog-396.mp3" preload="none" class="changelog-episode" controls></audio><script async src="//cdn.changelog.com/embed.js"></script>
 
 ## About Google Analytics
 
@@ -26,19 +26,19 @@ You can listen to the full show below and read an edited and shortened transcrip
 
 **Marko Saric:** Google Analytics is not lightweight. And the official way to install Google Analytics - you use this second script as well, so you end up having quite a lot of things loading, even though it's something that most people don't really look at.
 
-Over the last couple of years - several of these different privacy regulations. We know the GDPR in Europe, there's the CCPA in California, and there's one in U.K, and so on... And these regulations require webmasters or website owners to insert these different -- like a cookie banner to ask for permission to store cookies, the permission to get consent to share data with the third-parties, and all these.
+We know the GDPR in Europe, there's the CCPA in California, and there's one in U.K, and so on... And these regulations require webmasters or website owners to insert these different -- like a cookie banner to ask for permission to store cookies, the permission to get consent to share data with the third-parties, and all these.
 
-I agree with GDPR, it's something necessary for the web to keep it healthier, but I also think that website owners that care about it can use a different solution that doesn't use cookies, that doesn't collect personal data, which means also that you can get analytics without needing to give all this prompt to your visitors and kind of annoy their experience. So these are the major ones that I believe most people will get quite a good benefit from.
+I agree with GDPR, it's something necessary for the web to keep it healthier, but I also think that website owners that care about it can use a different solution that doesn't use cookies, that doesn't collect personal data, which means also that you can get analytics without needing to give all this prompt to your visitors and kind of annoy their experience.
 
 **Adam Stacoviak:** I think it's been hard to grok the dashboards and the data. It's pretty complex; it's not very clear, like "This is what you really need to know." 
 
 It seems like one tool built for many different kinds of customers, and the kind of needs we particularly have aren't exactly the ones that are surfacing easily. Just for that one reason alone it's pretty difficult. I only really care about a couple pages in there, and even then they're just difficult to (I guess) bend to my will, give me the information I actually wanna know. Analyze my actual information. It just seems like that's what it should do well, and that's the one thing it does, in my opinion, pretty poorly.
 
-**Marko Saric:** Yeah. Basically, when I did the research for this post, I actually went through Google Analytics and I basically counted all the different reports they have, and I counter more than 125 different reports in the left-hand side. All combined, these 125 reports or so, have about 300 different metrics between them. I'm thinking for my own site I probably use 5-10 at most. The other ones - some of them I've never heard about or have never looked at them. But still, I'm running the script there that's kind of calculating these and collecting this data all the time... And I'm using it either never, or maybe once in a while.
+**Marko Saric:** When I did the research for this post, I actually went through Google Analytics and I basically counted all the different reports they have, and I counted more than 125 different reports in the left-hand side. All combined, these 125 reports or so, have about 300 different metrics between them. I'm thinking for my own site I probably use 5-10 at most. The other ones - some of them I've never heard about or have never looked at them. But still, I'm running the script there that's kind of calculating these and collecting this data all the time... And I'm using it either never, or maybe once in a while.
 
 I think I'm not the special case here. I think this is quite common. People install Google Analytics because it's the most popular tool, or it's something that they've told that I need to have... And they have this - this collects 300 different metrics from their visitors, and they use maybe five of them. It's a waste in terms of the kb load on every website visitor... Thinking in the sense of the climate change even - how to decrease the Carbon footprint of a website, there's a Carbon footprint calculator. If you decrease something like 50 kb of your site, your score gets so high that you're something like in the top 10% of the sites that load fast. So it does make a difference, and it's something people don't use to look at; and if you don't use it, then you can remove it. For me personally it makes sense to do that.
 
-**Jerod Santo:** \[00:08:13.28\] I'm just like you, Adam. For me, if I said "What's the number one reason why I don't like it?" I'm just like, I log into the thing and I just wanna log out again. There's so many features that I don't care about... I don't care about conversion tracking, I don't care about AdSense things, and goals... It seems like the information I want is further away than I want it to be, and the information I don't care about is right there, and then the filtering is convoluted...
+**Jerod Santo:** For me, if I said "What's the number one reason why I don't like it?" I'm just like, I log into the thing and I just wanna log out again. There's so many features that I don't care about... I don't care about conversion tracking, I don't care about AdSense things, and goals... It seems like the information I want is further away than I want it to be, and the information I don't care about is right there, and then the filtering is convoluted...
 
 And then the other thing is I don't really trust it. And I don't not trust it in a privacy way, although I think that's there as well; I'd say my second reason is I feel like they have so much of our information, and we're just giving them more... Like "Here. Here's all of our website traffic information." That feels naive to me. But I don't actually trust their analytics, I think because of our audience demographic, and Changelog.com's traffic demographic. Most of the people that read our website are blocking things.
 
@@ -46,13 +46,11 @@ And then the other thing is I don't really trust it. And I don't not trust it in
 
 **Marko Saric:** If you think about it, Firefox, Brave - they're quite popular browsers, especially in the tech community, and these things block it by default. And then not even that - people that use Chrome, they have extensions on such as the AdBlock or uBlock, and they block it by default as well... So it's not uncommon to see 40%-50% of a tech site going hidden, as in the visitors block Google Analytics. So using a different service perhaps also gives you more accurate data, because that different service is less of a target, as in a less popular service, and it might not be blocked by some of these services such as Firefox, and Brave, and so on.
 
-**Adam Stacoviak:** I'm sure eventually Plausible though will get to a popularity point that you do get that visibility... And maybe we could talk about how you block scripts, or how you block tracking in a way that respects the user. Because if a user comes to our site and doesn't want to be tracked, I'm not gonna force my way to track them; that's wrong. So I want an opt-in world, and that's what I really care about. I suppose when it comes to data and traffic and analytics you just have to sort of assume that there's a hidden or an untracked spectrum of your actual analytics that's just not ever gonna be there. You just have to take that into account, even when reporting to yourself or others that care about the performance of your site, or lack thereof.
-
-**Marko Saric:** Yeah.
+**Adam Stacoviak:** I'm sure eventually Plausible though will get to a popularity point that you do get that visibility... And maybe we could talk about how you block scripts, or how you block tracking in a way that respects the user. Because if a user comes to our site and doesn't want to be tracked, I'm not gonna force my way to track them; that's wrong. So I want an opt-in world, and that's what I really care about.
 
 ## About Plausible Analytics
 
-**Jerod Santo:** Well, let's talk about Plausible Analytics a little bit here, and set the stage... Because this post that you wrote was a brilliant piece of content marketing for Plausible Analytics, which is a service and a tool and an open source application that you two are working on. So the pitch is uninstall GA -- and I would say, why do we still use Google Analytics? It's because, well, what else are we gonna do? It's free, it's easy to set up. What else is out there?
+**Jerod Santo:** Let's talk about Plausible Analytics a little bit here, and set the stage... Because this post that you wrote was a brilliant piece of content marketing for Plausible Analytics, which is a service and a tool and an open source application that you two are working on. So the pitch is uninstall GA -- and I would say, why do we still use Google Analytics? It's because, well, what else are we gonna do? It's free, it's easy to set up. What else is out there?
 
 So this was a nice piece of marketing, because it's like "Here's this great post all about it, and here's some alternatives... By the way, Plausible Analytics is something that we're building, which is an alternative to that." So I would love to hear all about how that works, and some of the stuff Adam's bringing up.
 
@@ -111,6 +109,8 @@ It's interesting - there's a lot of talk about being a solo founder, and whether
 **Marko Saric:** Well, for whatever reason, I wrote several Google posts... \[laughter\]
 
 **Jerod Santo:** Guy is like the Google killer. Google assassin.
+
+## About Google's control on the web
 
 **Marko Saric:** I wrote one for your personal life, and one of your website. That was basically me, in my life, over the last two years or so, trying to figure out "What can I do to make the web a healthier place? What can I do to support the smaller players, and what can I do to get away from the ad tech, and so on?"
 
