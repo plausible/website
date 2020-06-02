@@ -7,14 +7,14 @@ description: We talk through the backstory of the project, why it’s open sourc
   prioritize building new features, the technical details behind Plausible, and
   our thoughts on a server-side option.
 slug: changelog-podcast
-date: 2020-06-02T08:17:14.261Z
+date: 2020-06-02T09:28:16.831Z
 author: uku-taht
 ---
 Last month we joined Adam Stacoviak and Jerod Santo over at [changelog.com](https://changelog.com) to talk about Plausible Analytics.
 
 We go through the backstory of the project, why it’s [open source](https://plausible.io/open-source-website-analytics), the details behind a few viral blog posts Marko shared to bring in a ton of new interest to the project, [why privacy matters in web analytics](https://plausible.io/data-policy), how we prioritize building new features, the technical details behind Plausible Analytics, and our thoughts on a server-side option.
 
-You can listen to the full show below and read an edited and shortened transcript too. Here's the [full transcript](https://github.com/thechangelog/transcripts/blob/master/podcast/the-changelog-396.md) and you can also listen to the episode on the [Changelog website](https://changelog.com/podcast/396).
+You can listen to the full show below and read an edited and shortened transcript too. There's the [full transcript](https://github.com/thechangelog/transcripts/blob/master/podcast/the-changelog-396.md) too and you can also listen to the episode on the [Changelog website](https://changelog.com/podcast/396).
 
 <br />
 
