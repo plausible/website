@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Building Plausible: May 2020 recap"
-description: "Another month, another update. Here's what went down with Plausible in May:"
+description: Another month, another update. Here's what went down with Plausible
+  Analytics in May.
 slug: may-2020-recap
 date: 2020-06-02T06:39:50.314Z
 author: uku-taht
@@ -18,15 +19,15 @@ Another month, another update. Here's what went down with Plausible in May:
 
 As I talked about in my [last monthly update](https://plausible.io/blog/april-2020-recap#scaling-plausible), Plausible started to get pretty slow in April and we also had requests for bigger plans that our setup wasn't equipped to handle.
 
-I started moving from our PostgreSQL database to Clickhouse in the beginning of May. It has been running in production just over a week now and everything seems to be working as expected. The app is much faster, for example the main graph for the live demo used to take 5-6s to load but now it's consistently around 500ms.
+I started moving from our PostgreSQL database to Clickhouse at the beginning of May. It has been running in production just over a week now and everything seems to be working as expected. The app is much faster, for example, the main graph for the live demo used to take 5-6s to load but now it's consistently around 500ms.
 
-I think 500ms is acceptable but it can be further improved. Some of the remaining latency is coming from my hosting setup which creates unnecessary roundtrips for each requests. I'm working on a more streamlined approach that should shave even more milliseconds off each request.
+I think 500ms is acceptable but it can be further improved. Some of the remaining latency is coming from my hosting setup which creates unnecessary roundtrips for each request. I'm working on a more streamlined approach that should shave even more milliseconds off each request.
 
 In addition to reducing latency, this new setup allows us to handle much bigger clients. We've onboarded some clients who will test this setup with up to ~5m pageviews per month and we're talking to some even bigger ones. Our Clickhouse instance can be optimized and scaled way beyond that but we're taking one step at a time.
 
 ### Reducing script size
 
-One of our main value propositions is that Plausible is lightweight. I was quite happy with our 1.4KB script but it [was pointed out](https://github.com/plausible-insights/plausible/issues/52) that there are some low-hanging fruit to make it even smaller.
+One of our main value propositions is that [Plausible is lightweight](https://plausible.io/lightweight-web-analytics). I was quite happy with our 1.4KB script but it [was pointed out](https://github.com/plausible-insights/plausible/issues/52) that there is some low-hanging fruit to make it even smaller.
 
 I removed an obsolete section of the code that dealt with cookies and changed the build system for the tracker. Webpack adds a lot of code to your script to make modules work at runtime which is completely unnecessary for the tracking script. Instead of using Webpack, I decided to write a tiny `compile.js` file that just minifies the code and replaces the API URL. Very simple.
 
@@ -40,13 +41,13 @@ There's still work to do as I haven't designed everything for self-hosting from 
 
 I've also relied on an external service to run scheduled jobs. Again, this isn't something we can rely on going forward so I'm [working on](https://github.com/plausible-insights/plausible/pull/69) adding scheduled job support into the Plausible server itself.
 
-All of these changes are improving the codebase and also moving us closer to having an image on DockerHub you can download and run. I can't wait for people to host it themselves and become contributors on the project.
+All of these changes are improving the codebase and also moving us closer to having an image on DockerHub you can download and run. I can't wait for people to host it themselves and become contributors to the project.
 
 Some people have asked me: How are you going to make money if people can just take your code and run it? The answer is that the vast majority of people prefer a hosted, managed version of a product. It's more convenient, less hassle and often cheaper than hosting it yourself.
 
 For those who want to take the extra step and be in complete control, I think we should facilitate that. I don't see it as taking anything away from the hosted version.
 
-There are many examples of products that are possible to self-host, yet they've built a sustainable business around it: Sentry, Matomo, Gitlab, etc. In fact I believe that the community they've built around their open-source offering makes the hosted version better and stronger.
+There are many examples of products that are possible to self-host, yet they've built a sustainable business around it: Sentry, [Matomo](https://plausible.io/vs-matomo), Gitlab, etc. In fact, I believe that the community they've built around their open-source offering makes the hosted version better and stronger.
 
 ### What's next?
 
