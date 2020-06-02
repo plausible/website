@@ -22,7 +22,7 @@ You can listen to the full show below and read an edited and shortened transcrip
 
 ## About Google Analytics
 
-**Jerod Santo:** Marko you wrote a blog post which was quite intriguing - "Why you should stop using Google Analytics on your website". We thought we'd start with you just giving us the hard sell. What's the pitch? Why should folks stop using GA on their website?
+**Jerod Santo:** Marko you wrote a blog post which was quite intriguing - "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". We thought we'd start with you just giving us the hard sell. What's the pitch? Why should folks stop using GA on their website?
 
 **Marko Saric:** Google Analytics is not lightweight. And the official way to install Google Analytics - you use this second script as well, so you end up having quite a lot of things loading, even though it's something that most people don't really look at.
 
@@ -212,7 +212,7 @@ The main reason why I haven't done it so far is because the product is still fai
 
 **Jerod Santo:** Yeah, it takes away from other things you'd be working on.
 
-**Uku Täht:** Yeah. But I have nothing against people -- it's released under MIT; that means you can do whatever you want with it. You can start your own company running the same code, if you want. But recently there's been more and more interest in self-hosting Plausible, and there's a GitHub issue with now three people involved - well, excluding me, so four people involved - and I'm trying to offer my own help as much as I can to make it self-hostable.
+**Uku Täht:** Yeah. But I have nothing against people -- it's released under MIT; that means you can do whatever you want with it. You can start your own company running the same code, if you want. But recently there's been more and more interest in self-hosting Plausible, and [there's a GitHub issue](https://github.com/plausible-insights/plausible/issues) with now three people involved - well, excluding me, so four people involved - and I'm trying to offer my own help as much as I can to make it self-hostable.
 
 **Adam Stacoviak:** You mentioned it was MIT... What was the thought behind making it MIT? Why is the transparency important? Obviously, Google Analytics is not, so...
 
@@ -334,7 +334,7 @@ My experience is if you actually think of them first, and you actually provide v
 
 **Marko Saric:** You know, because of this success here we've had, I've been doing more interviews and speaking to other people... Because so many people are curious now. They heard about Plausible, and they wanna either feature us on their sites, they wanna ask questions, and things like that. There's many questions on social media, email...
 
-If you look at our blog, it hasn't been that active since then. We've published twice or three times... But basically, one good example of what I've published since -- obviously, I've published one with the results and how one blog post can make a difference... But the second one I published is actually six or seven different people have asked me pretty much a similar question, like "This sounds great to me. I also don't like Google etc. but would I lose my search engine rankings if I remove Google Analytics, or does Google actually use Google Analytics and the data they get from there to help me rank better for a search, and get more visitors?" That was something I didn't consider; that was not on my roadmap to write about... But I was like "I see. I understand the opportunity, I understand what people are asking for and what they're curious about, and what questions they have." And then I did my research and I wrote whatever I could find directly from Google on this topic, and I published that.
+If you look at our blog, it hasn't been that active since then. We've published twice or three times... But basically, one good example of what I've published since -- obviously, I've published one with the results and [how one blog post can make a difference](https://plausible.io/blog/blog-post-changed-my-startup)... But the second one I published is actually six or seven different people have asked me pretty much a similar question, like "This sounds great to me. I also don't like Google etc. but would I lose my search engine rankings if I remove Google Analytics, or does Google actually use Google Analytics and the data they get from there to help me rank better for a search, and get more visitors?" That was something I didn't consider; that was not on my roadmap to write about... But I was like "I see. I understand the opportunity, I understand what people are asking for and what they're curious about, and what questions they have." And then I did my research and I wrote whatever I could find directly from Google on this topic, and [I published that](https://plausible.io/blog/google-analytics-seo).
 
 Again, you've gotta put yourself in the shoes of people that you're targeting and just understand what kind of questions they have what are they thinking about, and these things... And then you basically roadmap according to that.
 
