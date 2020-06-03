@@ -7,7 +7,7 @@ description: We talk through the backstory of the project, why it’s open sourc
   prioritize building new features, the technical details behind Plausible, and
   our thoughts on a server-side option.
 slug: changelog-podcast
-date: 2020-06-02T09:28:16.831Z
+date: 2020-06-03T05:57:26.292Z
 author: uku-taht
 ---
 Last month we joined Adam Stacoviak and Jerod Santo over at [changelog.com](https://changelog.com) to talk about Plausible Analytics.
