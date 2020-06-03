@@ -8,6 +8,8 @@ show_excerpts: true
 css_dir: 'assets/css'
 twitter:
   username: ukutaht
+feed:
+  path: /blog/feed.xml
 
 collections:
   articles:
