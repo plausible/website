@@ -14,7 +14,7 @@ In the last few weeks, we've spent most of our efforts on behind the scenes proj
 * Your website stats dashboard is much faster to load now. You'll notice the dashboard loading some 3 seconds faster for the average site and for those with higher visitor numbers the difference will be even larger
 * We can now accommodate order of magnitude larger websites too with tens of millions of page views per month in traffic numbers. If you have a large website and want to test our simple, lightweight and privacy friendly alternative to Google Analytics, do [sign up for a free trial](https://plausible.io/register)
 
-Concluding our backend efforts at this time, we have now moved all of the website data from servers in the UK to servers in Germany. 
+Concluding our back-end development efforts at this time, we have now moved all of the website data from servers in the UK to servers in Germany. 
 
 This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK. And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. 
 
