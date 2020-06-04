@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Moving from the UK to Germany and running on 100% renewable energy
-description: A look into our server move from the UK to Germany. And we're now
-  powered by sustainable energy. Plausible is now made in, run from and stored
-  in the EU.
+title: Moving Plausible to Germany and running on 100% renewable energy
+description: A look into our server move to Germany. And we're now powered by
+  sustainable energy. Plausible is now made in, run from and stored in the EU.
 slug: made-in-eu
 date: 2020-06-04T10:13:10.546Z
 author: marko-saric
@@ -23,17 +22,17 @@ Let's look closer at these details.
 1. Ordered list
 {:toc}
 
-## Moving from the UK to Germany
+## Moving the data to Germany
 
 Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we do store such as your website traffic stats is kept fully secured and encrypted.
 
-Some members of the community raised concern that our database, customer and site data was hosted on a server in the UK. Especially with the concerns about how Brexit will impact GDPR and other privacy laws in the UK, it made sense to move the data to the European Union.
+Some members of the community raised concern that our database, customer and site data was hosted on a server in the UK. Especially with the concerns about how Brexit will impact GDPR and other privacy laws in the UK, it made sense to move the data to the European Union to ensure being covered by its strict laws on data privacy.
 
 [PrivacyTools.io](https://www.privacytools.io/providers/#ukusa) is a great resource and they have a deep dive into this and have more info on why being hosted in the USA but also in the UK is not the best for data privacy and security purposes. The UK is the founding member and a part of the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes):
 
 > "The UKUSA Agreement is an agreement between the United Kingdom, United States, Australia, Canada, and New Zealand to cooperatively collect, analyze, and share intelligence. Members of this group, known as the Five Eyes, focus on gathering and analyzing intelligence from different parts of the world."
 
-So now all the data is hosted in Germany. Germany is not part of the Five Eyes but is part of Fourteen Eyes which should be less bad. But again our priority is to not collect and store anything personal so this is less of a concern.
+So now all the data is hosted, stored and processed on a server in Germany that complies with and will continue to comply with strict European Union privacy laws. Germany is not part of the Five Eyes but is part of Fourteen Eyes which should be less bad. But again our priority is to not collect and store anything personal so this is less of a concern.
 
 Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the GDPR and other strong European and German privacy standards, laws and regulations even after the Brexit. Plausible Analytics is now fully made in, run from and stored in the EU!
 
