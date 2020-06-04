@@ -37,7 +37,7 @@ So now all the data is hosted in Germany. Germany is not part of the Five Eyes b
 
 Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the GDPR and other strong European and German privacy standards, laws and regulations even after the Brexit. Plausible Analytics is now fully made in, run from and stored in the EU!
 
-## Moving from AWS to DigitalOcean
+## Moving to being 100% powered by renewable energy
 
 Our server is now hosted with DigitalOcean and located in a data center in Frankfurt am Main. It is placed on the [German Commercial Internet Exchange](https://en.wikipedia.org/wiki/DE-CIX)(DE-CIX) which is the second-largest Internet exchange point worldwide by peak traffic and the largest one in Europe.
 
