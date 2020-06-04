@@ -20,6 +20,9 @@ This makes us more comfortable in the long run in terms of data security and pri
 
 Let's look closer at these details.
 
+1. Ordered list
+{:toc}
+
 ## Moving from the UK to Germany
 
 Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we do store such as your website traffic stats is kept fully secured and encrypted.
