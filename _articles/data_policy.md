@@ -108,7 +108,7 @@ By using Plausible, you keep 100% ownership of your website data. Although when 
 
 ## Why should I trust you?
 
-Plausible is a fully [open-source website analytics tool](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible-insights/plausible) so you can read it and review it to ensure our code does what we say.
+Plausible is a fully [open-source website analytics tool](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/) so you can read it and review it to ensure our code does what we say.
 
 ## GDPR, CCPA and PECR compliant web analytics
 
