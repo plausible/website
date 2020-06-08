@@ -43,7 +43,7 @@ If this sounds interesting, do [register for a trial](https://plausible.io/regis
 * Website: <https://plausible.io/>
 * Cost: Starts from $4/month
 * Trial: 30 day free trial
-* Open-source: Yes. [GitHub](https://github.com/plausible-insights/plausible)
+* Open-source: Yes. [GitHub](https://github.com/plausible/analytics/)
 * Demo: [Live demo](https://plausible.io/plausible.io)
 
 ## Google Analytics competitors and full-blown replacements
