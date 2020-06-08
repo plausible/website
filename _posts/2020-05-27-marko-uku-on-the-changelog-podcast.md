@@ -212,7 +212,7 @@ The main reason why I haven't done it so far is because the product is still fai
 
 **Jerod Santo:** Yeah, it takes away from other things you'd be working on.
 
-**Uku Täht:** Yeah. But I have nothing against people -- it's released under MIT; that means you can do whatever you want with it. You can start your own company running the same code, if you want. But recently there's been more and more interest in self-hosting Plausible, and [there's a GitHub issue](https://github.com/plausible-insights/plausible/issues) with now three people involved - well, excluding me, so four people involved - and I'm trying to offer my own help as much as I can to make it self-hostable.
+**Uku Täht:** Yeah. But I have nothing against people -- it's released under MIT; that means you can do whatever you want with it. You can start your own company running the same code, if you want. But recently there's been more and more interest in self-hosting Plausible, and [there's a GitHub issue](https://github.com/plausible/analytics/) with now three people involved - well, excluding me, so four people involved - and I'm trying to offer my own help as much as I can to make it self-hostable.
 
 **Adam Stacoviak:** You mentioned it was MIT... What was the thought behind making it MIT? Why is the transparency important? Obviously, Google Analytics is not, so...
 
