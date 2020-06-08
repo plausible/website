@@ -21,7 +21,7 @@ In the case of Plausible versus Matomo things are a bit more similar. Let's star
 
 ### Both tools are open source
 
-Both of our tools are fully [open-source web analytics](https://plausible.io/open-source-website-analytics) first of all. This means that the code is available [on GitHub](https://github.com/plausible-insights/plausible) for anyone to view and inspect. You can read it and review it to understand how it works and to ensure it keeps the data private and secure.
+Both of our tools are fully [open-source web analytics](https://plausible.io/open-source-website-analytics) first of all. This means that the code is available [on GitHub](https://github.com/plausible/analytics/) for anyone to view and inspect. You can read it and review it to understand how it works and to ensure it keeps the data private and secure.
 
 This gives you and everyone else full transparency on how the tools handle website stats. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
 
