@@ -9,6 +9,9 @@ author: marko-saric
 ---
 Let's take a look at the meaning of GDPR, how it impacts web analytics, steps you need to take to make Google Analytics GDPR compliant and a look at our [GDPR compliant Google Analytics alternative](https://plausible.io/vs-google-analytics) you can explore.
 
+1. Ordered list
+{:toc}
+
 Disclaimer: We’re not lawyers. The information in this post is our view on GDPR and it’s here to help give you an introduction to GDPR and how Plausible Analytics is built to help you comply with it. If you have any specific concerns, we encourage you to consult an attorney to ensure you are GDPR compliant.
 
 ## A brief overview of the GDPR
