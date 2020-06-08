@@ -162,7 +162,7 @@ Google Analytics sets multiple cookies (including _ga, _gid and _gat) and it “
  
 Google [says](https://support.google.com/analytics/answer/2992042): "In order for Google Analytics to determine which traffic belongs to which user, a unique identifier associated with each user is sent with each hit. This identifier can be a single, first-party cookie named _ga that stores a Google Analytics client ID, or you can use the User-ID feature in conjunction with the client ID to more accurately identify users across all the devices they use to access your site or app".
 
-You can disable cookies from Google Analytics but disabling cookies leaves Google Analytics with a broken functionality. Tracking unique visitors will be broken and pretty much every visitor will be a unique visitor.
+You can disable cookies from Google Analytics but disabling cookies leaves Google Analytics with a broken functionality. Tracking unique visitors will be broken and pretty much every pageview will be counted as a unique visitor.
 
 Google says that in some cases you can replace Google Analytics cookies with your own storage mechanism such as localStorage or a service worker in order to fix the breakage of unique visitor counting. This is a bit more complicated solution for the average website as you need to send another client ID to Google but [here’s](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id) a guide from Google themselves on how you can achieve it.
 
