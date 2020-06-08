@@ -36,7 +36,7 @@ That is not necessarily the case with Google Analytics, a tool that is created, 
 
 ### 3. Open source vs closed source web analytics
 
-Plausible is a fully open-source web analytics tool. Our [source code](https://github.com/plausible-insights/plausible) is available and accessible on Github so anyone can read it and review it to ensure it keeps the data private and secure.
+Plausible is a fully open-source web analytics tool. Our [source code](https://github.com/plausible/analytics/) is available and accessible on Github so anyone can read it and review it to ensure it keeps the data private and secure.
 
 This is not the case with Google Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Google Analytics script. You have to put your trust in Google.
 
