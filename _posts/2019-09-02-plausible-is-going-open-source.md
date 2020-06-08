@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Plausible is going open-source
-date: 2019-09-02
+description: Today I'm happy to announce that Plausible is open source with the
+  code being available on Github.
+slug: plausible-is-going-open-source
+date: 2019-09-02T00:00:00.000Z
 author: uku-taht
 ---
-
 One of the main reasons I started Plausible was to provide a more transparent alternative to Google Analytics.
-I believe that people should be able to control and know about their data, instead of having it sold to the
-advertisers behind their back.
+I believe that people should be able to control and know about their data, instead of having it sold to the advertisers behind their back.
 
-Today I'm happy to announce that Plausible is open source with the code being [available on Github](https://github.com/plausible-insights/plausible).
+Today I'm happy to announce that Plausible is open source with the code being [available on Github](https://github.com/plausible/analytics).
 This repository includes all of the code powering [plausible.io](https://plausible.io) with nothing hidden.
 
 Making the source open to the public is a crucial step to building a more transparent analytics platform. It proves that Plausible
