@@ -27,7 +27,7 @@ In addition to reducing latency, this new setup allows us to handle much bigger 
 
 ### Reducing script size
 
-One of our main value propositions is that [Plausible is lightweight](https://plausible.io/lightweight-web-analytics). I was quite happy with our 1.4KB script but it [was pointed out](https://github.com/plausible-insights/plausible/issues/52) that there is some low-hanging fruit to make it even smaller.
+One of our main value propositions is that [Plausible is lightweight](https://plausible.io/lightweight-web-analytics). I was quite happy with our 1.4KB script but it [was pointed out](https://github.com/plausible/analytics/issues/52) that there is some low-hanging fruit to make it even smaller.
 
 I removed an obsolete section of the code that dealt with cookies and changed the build system for the tracker. Webpack adds a lot of code to your script to make modules work at runtime which is completely unnecessary for the tracking script. Instead of using Webpack, I decided to write a tiny `compile.js` file that just minifies the code and replaces the API URL. Very simple.
 
@@ -35,11 +35,11 @@ There were some extra tricks to make it even smaller like changing `XMLHttpReque
 
 ### Dockerized codebase
 
-This month I also merged a [massive pull request](https://github.com/plausible-insights/plausible/pull/64) that adds Docker support to Plausible. This is a big step towards having a version of Plausible that people can host themselves. Big credit and thanks to [Chandra](https://twitter.com/this_is_tckb) for creating the PR and for his continued work on this.
+This month I also merged a [massive pull request](https://github.com/plausible/analytics/pull/64) that adds Docker support to Plausible. This is a big step towards having a version of Plausible that people can host themselves. Big credit and thanks to [Chandra](https://twitter.com/this_is_tckb) for creating the PR and for his continued work on this.
 
 There's still work to do as I haven't designed everything for self-hosting from the beginning. For example, I've relied on my CDN setting a custom HTTP header to get the origin country of the request. In a self-hosted situation, we can't rely on the user running it behind any specific CDN so we have to add the capability for Plausible to look up the country of the visitor.
 
-I've also relied on an external service to run scheduled jobs. Again, this isn't something we can rely on going forward so I'm [working on](https://github.com/plausible-insights/plausible/pull/69) adding scheduled job support into the Plausible server itself.
+I've also relied on an external service to run scheduled jobs. Again, this isn't something we can rely on going forward so I'm [working on](https://github.com/plausible/analytics/pull/69) adding scheduled job support into the Plausible server itself.
 
 All of these changes are improving the codebase and also moving us closer to having an image on DockerHub you can download and run. I can't wait for people to host it themselves and become contributors to the project.
 
