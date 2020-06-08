@@ -35,11 +35,11 @@ There were some extra tricks to make it even smaller like changing `XMLHttpReque
 
 ### Dockerized codebase
 
-This month I also merged a [massive pull request](https://github.com/plausible-insights/plausible/pull/64) that adds Docker support to Plausible. This is a big step towards having a version of Plausible that people can host themselves. Big credit and thanks to [Chandra](https://twitter.com/this_is_tckb) for creating the PR and for his continued work on this.
+This month I also merged a [massive pull request](https://github.com/plausible/analytics/pull/64) that adds Docker support to Plausible. This is a big step towards having a version of Plausible that people can host themselves. Big credit and thanks to [Chandra](https://twitter.com/this_is_tckb) for creating the PR and for his continued work on this.
 
 There's still work to do as I haven't designed everything for self-hosting from the beginning. For example, I've relied on my CDN setting a custom HTTP header to get the origin country of the request. In a self-hosted situation, we can't rely on the user running it behind any specific CDN so we have to add the capability for Plausible to look up the country of the visitor.
 
-I've also relied on an external service to run scheduled jobs. Again, this isn't something we can rely on going forward so I'm [working on](https://github.com/plausible-insights/plausible/pull/69) adding scheduled job support into the Plausible server itself.
+I've also relied on an external service to run scheduled jobs. Again, this isn't something we can rely on going forward so I'm [working on](https://github.com/plausible/analytics/pull/69) adding scheduled job support into the Plausible server itself.
 
 All of these changes are improving the codebase and also moving us closer to having an image on DockerHub you can download and run. I can't wait for people to host it themselves and become contributors to the project.
 
