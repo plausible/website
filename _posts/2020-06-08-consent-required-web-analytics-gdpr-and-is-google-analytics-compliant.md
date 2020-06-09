@@ -6,6 +6,8 @@ description: Here's a look at the meaning of GDPR, how it impacts web analytics
 slug: google-analytics-gdpr
 date: 2020-06-08T11:56:30.989Z
 author: marko-saric
+image: /uploads/remove-google-analytics.png
+image-alt: Web Analytics, GDPR and is Google Analytics GDPR compliant?
 ---
 Let's take a look at the meaning of GDPR, how it impacts web analytics, steps you need to take to make Google Analytics GDPR compliant and a look at our [GDPR compliant Google Analytics alternative](https://plausible.io/vs-google-analytics) you can explore.
 
