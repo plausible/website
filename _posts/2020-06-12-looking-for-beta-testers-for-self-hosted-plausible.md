@@ -6,14 +6,16 @@ description: The beta version of the self-hosted Plausible Analytics is ready to
 slug: self-hosted-web-analytics-beta
 date: 2020-06-12T15:54:11.459Z
 author: uku-taht
+image: /uploads/big-spike-in-traffic.png
+image-alt: Plausible Analytics Self-Hosted Beta
 ---
-Plausible Analytics has been [open-source](https://plausible.io/open-source-website-analytics) since September 2019 but we haven't offered a convenient way for people to host the code on their own infrastructure. There's always been [strong interest](https://github.com/plausible/analytics/issues/26) from the community to self-host the code.
+Plausible Analytics has been [open source](https://plausible.io/open-source-website-analytics) since September 2019 but we haven't offered a convenient way for people to host the code on their own infrastructure. There's always been a [strong interest](https://github.com/plausible/analytics/issues/26) from the community to self-host the code.
 
 Today I'm happy to announce that we have a beta version of Plausible Analytics Self-Hosted ready to be tested. This is a free as in beer and free as in speech version of Plausible Analytics. It's exactly the same product as our [Plausible Analytics Cloud](https://plausible.io) solution, only the self-hosted version you have to install, host and manage yourself. 
 
 To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md). The self-hosted version is based on a [Dockerized web server](https://hub.docker.com/r/plausible/analytics) and it requires a PostgreSQL + ClickhouseDB to run.
 
-When we have a stable Plausible Analytics Self-Hosted release in the future, it would be great to offer one-click apps on platforms like Digital Ocean and Heroku. For the beta release, this is out of scope although we always welcome contributions :)
+When we have a stable Plausible Analytics Self-Hosted release in the future, it would be great to offer one-click apps on platforms such as Digital Ocean and Heroku. For the beta release, this is out of scope although we always welcome contributions :)
 
 If you have any questions or issues setting it up, [please open a Github issue](https://github.com/plausible/analytics) or reach me at uku@plausible.io. I would love to hear feedback from everyone who decides to give it a go, either by email or [Twitter](https://twitter.com/plausiblehq).
 
@@ -36,3 +38,5 @@ Going forward, I will also have to maintain a proper changelog and start tagging
 To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md).
 
 If you have any questions or issues setting it up, [please open a Github issue](https://github.com/plausible/analytics).
+
+Thank you!
