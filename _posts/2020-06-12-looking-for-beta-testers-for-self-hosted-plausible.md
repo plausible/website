@@ -11,6 +11,8 @@ image-alt: Plausible Analytics Self-Hosted Beta
 ---
 Plausible Analytics has been [open source](https://plausible.io/open-source-website-analytics) since September 2019 but we haven't offered a convenient way for people to host the code on their own infrastructure. There's always been a [strong interest](https://github.com/plausible/analytics/issues/26) from the community to self-host the code.
 
+## Happy to announce the Plausible Analytics Self-Hosted beta release
+
 Today I'm happy to announce that we have a beta version of Plausible Analytics Self-Hosted ready to be tested. This is a free as in beer and free as in speech version of Plausible Analytics. It's exactly the same product as our [Plausible Analytics Cloud](https://plausible.io) solution, only the self-hosted version you have to install, host and manage yourself. 
 
 To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md). The self-hosted version is based on a [Dockerized web server](https://hub.docker.com/r/plausible/analytics) and it requires a PostgreSQL + ClickhouseDB to run.
@@ -19,7 +21,7 @@ When we have a stable Plausible Analytics Self-Hosted release in the future, it 
 
 If you have any questions or issues setting it up, [please open a Github issue](https://github.com/plausible/analytics) or reach me at uku@plausible.io. I would love to hear feedback from everyone who decides to give it a go, either by email or [Twitter](https://twitter.com/plausiblehq).
 
-### Getting to Plausible Analytics Self-Hosted 1.0
+## Getting to Plausible Analytics Self-Hosted 1.0
 
 We're opening the self-hosted version up as a beta to begin with because we don't have anyone actually running this setup in production other than ourselves. The goal of the beta is to test it out and make sure everything works as expected when someone else uses this setup.
 
@@ -33,7 +35,7 @@ When does this beta evolve into a stable release? Here's my current plan:
 
 Going forward, I will also have to maintain a proper changelog and start tagging releases after the first stable one. This is a good forcing function to improve my own workflow as well.
 
-### Get started with the Plausible Analytics Self-Hosted beta
+## Get started with the Plausible Analytics Self-Hosted beta
 
 To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md).
 
