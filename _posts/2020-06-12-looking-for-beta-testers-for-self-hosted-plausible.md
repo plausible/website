@@ -6,7 +6,7 @@ slug: self-hosted-beta
 date: 2020-06-12T13:44:27.355Z
 author: uku-taht
 ---
-Plausible has been open-source since September 2019 but we haven't offered a convenient way for people to host the code on their own infrastructure. There's always been \[strong interest](https://github.com/plausible/analytics/issues/26) from the community to self-host the code.
+Plausible has been open-source since September 2019 but we haven't offered a convenient way for people to host the code on their own infrastructure. There's always been [strong interest](https://github.com/plausible/analytics/issues/26) from the community to self-host the code.
 
 Today I'm happy to announce that we have a beta version of self-hosted Plausible ready to be tested. To get started, follow the instructions of our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md). The self-hosted version is based on a [Dockerized web server](https://hub.docker.com/r/plausible/analytics) and it requires a PostgreSQL + ClickhouseDB to run.
 
@@ -14,7 +14,7 @@ When we have a stable release in the future, it would be great to offer one-clic
 
 If you have any questions or issues setting it up, please open a Github issue or reach me at uku@plausible.io. I would love to hear feedback from everyone who decides to give it a go, either by email or Twitter.
 
-\### Getting to 1.0
+### Getting to 1.0
 
 We're opening the self-hosted version up as a beta to begin with because we don't have anyone actually running this setup in production other than ourselves. The goal of the beta is to test it out and make sure everything works as expected when someone else uses this setup.
 
