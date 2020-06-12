@@ -13,7 +13,7 @@ Plausible Analytics has been [open source](https://plausible.io/open-source-webs
 
 ## Happy to announce the Plausible Analytics Self-Hosted beta release
 
-Today I'm happy to announce that we have a beta version of Plausible Analytics Self-Hosted ready to be tested. This is a free as in beer and free as in speech version of Plausible Analytics. It's exactly the same product as our [Plausible Analytics Cloud](https://plausible.io) solution, only the self-hosted version you have to install, host and manage yourself. 
+Today I'm happy to announce that we have a beta version of Plausible Analytics Self-Hosted ready to be tested. This is the free as in beer and free as in speech version of Plausible Analytics. It's exactly the same product as our [Plausible Analytics Cloud](https://plausible.io) solution, only the self-hosted version you have to install, host and manage yourself. 
 
 To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md). The self-hosted version is based on a [Dockerized web server](https://hub.docker.com/r/plausible/analytics) and it requires a PostgreSQL + ClickhouseDB to run.
 
