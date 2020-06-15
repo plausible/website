@@ -25,6 +25,8 @@ Being open source means that our [source code](https://github.com/plausible/anal
 
 This gives you and everyone else full transparency on how we handle the website traffic data. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
 
+You can even download Plausible Analytics and install and run it on your own server.
+
 ## What license is Plausible released under?
 
 Plausible is open-source under the most permissive Massachusetts Institute of Technology (MIT) license. This means that there are no restrictions on redistributing, modifying or using Plausible software for any reason. You can take it and use it any way that you wish. The MIT license [states](https://en.wikipedia.org/wiki/MIT_License):
@@ -35,15 +37,9 @@ Plausible is open-source under the most permissive Massachusetts Institute of Te
 >
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Can Plausible be self-hosted?
+## Can Plausible Analytics be self-hosted?
 
-Yes, but at the moment we don't provide support for easily self-hosting the code. Currently, the main purpose of keeping the code open-source is to be transparent with the community about how we collect and process website usage data.
-
-Plausible product is being developed very actively by a small independent team. It would take a lot of work to make it easy and simple to self-host and to document it all. At this stage, this would result in a dramatic slow down in the development of the product itself.
-
-For these reasons, we have decided to open-source Plausible and those who are familiar with the technologies we use can self-host it. Plausible is a standard Elixir/Phoenix application backed by a PostgreSQL database. Our current focus is on improving the product and providing a hosted version for site owners who want a ready-made solution in the cloud.
-
-Making Plausible easy to self-host, providing full documentation and support for the process is something we can see happening in the future but it is not of immediate priority for us.
+Yes, you can self-host Plausible Analytics. Plausible Analytics Self-Hosted is our free as in beer and free as in speech version. It’s exactly the same product as our Plausible Analytics Cloud solution, only the self-hosted version you have to install, host and manage yourself. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/blog/self-hosted-web-analytics-beta) solution.
 
 ## Plausible is open in other ways too
 
@@ -69,15 +65,15 @@ Other than Plausible being open source while Google Analytics being closed sourc
 
 For further details on the differences between the two, take a look at our [Plausible vs Google Analytics comparison](https://plausible.io/vs-google-analytics).
 
-## Why is Plausible not free as in free beer?
+## Why is Plausible Analytics Cloud not free as in free beer?
 
-Plausible is an independently owned and actively developed project. To keep the project development going, to stay in business, to continue putting effort into building a better product and to cover our costs, we need to charge a fee.
+Plausible Analytics is an independently owned and actively developed project. To keep the project development going, to stay in business, to continue putting effort into building a better product and to cover our costs, we need to charge a fee.
 
 Google Analytics is free because Google has built their company and their wealth by collecting and analyzing huge amounts of personal information from web users and using these personal and behavioral insights to sell advertisements.
 
-Plausible has no part in that business model. No personal data is being collected and analyzed either. With Plausible, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
+Plausible Analytics has no part in that business model. No personal data is being collected and analyzed either. With Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
 
-We choose the subscription business model rather than the business model of surveillance capitalism.
+We choose the subscription business model rather than the business model of surveillance capitalism. If you want our free as in beer solution, you can self-host Plausible Analytics on your own server.
 
 ## How to switch from Google Analytics to an open source analytics alternative
 
