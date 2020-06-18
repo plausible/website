@@ -4,7 +4,7 @@ title: How to pay your rent with your open source project
 description: A look at the different business and pricing models to fund open
   source software and make it sustainable.
 slug: open-source-funding
-date: 2020-06-18T09:54:40.638Z
+date: 2020-06-18T13:34:17.331Z
 author: marko-saric
 image: /uploads/big-spike-in-traffic.png
 image-alt: Open source business, pricing and funding models
@@ -82,7 +82,7 @@ Other cloud-based software as a service open source examples:
 
 ## Premium version with additional features and expanded functionality
 
-This is the freemium pricing model where you provide the basic product for free but charge money for an enhanced version of the product that comes with additional features and expanded functionality.
+This is the freemium pricing model (or the [open-core model](https://en.wikipedia.org/wiki/Open-core_model) in some cases) where you provide the basic product for free but charge money for an enhanced version of the product that comes with additional features and expanded functionality.
 
 * GitLab is an open source tool that provides a Git-repository manager. The basic product is free for everyone, while you can upgrade to [a premium plan](https://about.gitlab.com/pricing/) that comes with additional features such as security scans and alerts.
 
