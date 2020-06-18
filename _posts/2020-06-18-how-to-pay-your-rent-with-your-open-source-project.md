@@ -48,13 +48,13 @@ Raising money for any project whether open source or not is not easy and it requ
 
 In general, it is useful for many projects to be aligned with something people or businesses believe in so much or find value in that they are willing to pay for. In the majority of cases that is the best and most effective business model and the best way to reach sustainability. 
 
-The fact that people are willing to pay for the software that you are working on means that they are finding value in the software, that they use it to do stuff and so are happy to pay to fund continuous development and ensure the sustainability in the long run.
+The fact that people are willing to pay for the software that you are working on means that they are finding value in the software, that they use it to do stuff and so are happy to pay to fund continuous development and ensure sustainability in the long run.
 
 So building a community and making that community care about your use case just enough that they are willing to pay for it is the first step. 
 
 I hear you saying that you're not a business person, you don't want to change your role, you don't want to need to communicate to the outside world, to not even talk about doing marketing! Perhaps there's a way to get other passionate people involved that could help you with some of the aspects that you don't want to deal with?
 
-In the case of Plausible Analytics, Uku is more focused on the development while I'm more focused on the communication side of things. We discuss the different things together but our main responsibilities are split along those lines.
+In the case of Plausible Analytics, Uku is more focused on development while I'm more focused on the communication side of things. We discuss the different things together but our main responsibilities are split along those lines.
 
 Here's [Webpack’s Sean Larkin](https://medium.com/open-collective/funding-open-source-how-webpack-reached-400k-year-dfb6d8384e19) on what cultural change they needed to make to grow the project’s funding which included publishing content, doing outreach and building relationships:
 
@@ -64,7 +64,7 @@ Here are some ways you can ensure that you can pay your rent and your bills with
  
 ## Hosted, plug and play solution as a SaaS
 
-Many open source projects offer a do-it-yourself, self-hosted deployment. Some people prefer that approach and want to host, run and maintain software themselves on their own server. 
+Many open source projects offer a do-it-yourself, self-hosted deployment. Some people prefer that approach and want to host, run and maintain the software themselves on their own server. 
 
 To many others, there is a great value in a hosted, "plug and play" solution that lives in the cloud. They don't want to worry about the installation, about the upgrades, about having a server, security, maintenance, uptime, stability, consistency, loading time and so on.
 
@@ -88,7 +88,7 @@ This is the freemium pricing model where you provide the basic product for free 
 
 * Sentry is an open source application monitoring and error tracking tool. You can use it for free as a solo developer but [you can upgrade](https://sentry.io/pricing/) to a premium plan if you're part of a team or if you want additional functionality such as third-party integration or advanced analytics.
 
-* [Standard Notes](https://standardnotes.org/) is an open source and completely encrypted notes app. It is free to use on unlimited number of devices but you can upgrade to the extended version which includes different themes, powerful extensions and more.
+* [Standard Notes](https://standardnotes.org/) is an open source and completely encrypted notes app. It is free to use on an unlimited number of devices but you can upgrade to the extended version which includes different themes, powerful extensions and more.
 
 ## Training, support or consulting services from the project's maintainers
  
@@ -124,7 +124,7 @@ A good place to get inspired by the different funding initiatives for open sourc
 
 Explore the different options and different examples in this post. The list of funding methods above doesn't mean that you have to choose and sticky to one business model only.
 
-Ghost is a good example of a project that started with a crowdfunding campaign, later they introduced subscriptions to a premium hosted solution and now also accept donations from those who use the self-hosted version but are happy to contribute to keep the project sustainable and the development ongoing. 
+Ghost is a good example of a project that started with a crowdfunding campaign, later they introduced subscriptions to a premium hosted solution and now also accept donations from those who use the self-hosted version but are happy to contribute to keeping the project sustainable and the development ongoing. 
 
 These different business models and pricing models are a reasonable way of making sure that people working on open source software get paid for their time and hard work. 
 
