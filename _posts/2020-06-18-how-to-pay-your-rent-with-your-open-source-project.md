@@ -13,6 +13,9 @@ Some open source projects dream about going from a passionate hobby to a small b
 
 Financial sacrifice to work on an open source product many people use and enjoy should not be required. In order to build and grow great open source alternatives to proprietary software such as Firefox is to Chrome, we do need more people to be able to commit to open source full time.
 
+1. Ordered list
+{:toc}
+
 ## Why should open source projects need funding at all?
 
 Making open source sustainable is something we've spent a long time thinking about for Plausible Analytics. We're building a free and [open source web analytics](https://plausible.io/open-source-website-analytics) alternative to Google Analytics. We have a free as in beer self-hosted solution and we have a cloud solution that is the exact same software with the difference being that we run and manage it for you in exchange for a subscription fee. 
