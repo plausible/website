@@ -22,7 +22,7 @@ Financial sacrifice to work on an open source product many people use and enjoy 
 
 Making open source sustainable is something we've spent a long time thinking about for Plausible Analytics. We're building a free and [open source web analytics](https://plausible.io/open-source-website-analytics) alternative to Google Analytics. We have a free as in beer self-hosted solution and we have a cloud solution that is the exact same software with the difference being that we run and manage it for you in exchange for a subscription fee. 
 
-We're focusing on this full time with no salary at the moment in order to grow it and make it a self-sustainable project that could pay our rent and our bills. And we'd like to succeed in this and have even more people succeed working on open source projects that make the web a better, more user friendly and more ethical place.
+We're focusing on this full time with no salary at the moment in order to grow it and make it a self-sustainable project that could pay our rent and our bills. We're fully bootstrapped with no external funding too. And we'd like to succeed in this and have even more people succeed working on open source projects that make the web a better, more user friendly and more ethical place.
 
 Some open source developers don't want and don't need funding. That's ok.
 
