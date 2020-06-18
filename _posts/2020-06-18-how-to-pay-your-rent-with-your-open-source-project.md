@@ -6,6 +6,8 @@ description: A look at the different business and pricing models to fund open
 slug: open-source-funding
 date: 2020-06-18T09:54:40.638Z
 author: marko-saric
+image: /uploads/big-spike-in-traffic.png
+image-alt: Open source business, pricing and funding models
 ---
 Many open source projects are terribly under-resourced and under-funded. Some open source developers even have to sacrifice their financial security to work on their passion.
 
