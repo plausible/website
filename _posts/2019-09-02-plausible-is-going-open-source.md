@@ -27,11 +27,11 @@ It’s worth noting that for now, there's no explicit support for self-hosting P
 
 ### What's next?
 
-Please check out the [public roadmap and feedback board](https://plausible.io/roadmap) to see which features are planned in the near future.
+Please check out the [public roadmap and feedback board](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc) to see which features are planned in the near future.
 
 I think it's also worth talking about ways to raise the standard of trust and transparency even more. No matter how open we are or how much effort we put into making the data anonymous, there are still no guarantees that analytics companies don't turn around and sell their data to advertisers.
 
 To fix that, I would like for Plausible users to completely own their data in a way that makes it illegal for the company to use it for any purposes other than providing the analytics service. Our role would essentially be renting the processors and disk to you to run open-source software and to safely store data
 that you own.
 
-Do you know of any examples of this? What's the best way to enforce it? Would adding it to terms of service be enough? If you have knowledge or opinions on this topic, please reach out to me on [Twitter](https://twitter.com/ukutaht)
+Do you know of any examples of this? What's the best way to enforce it? Would adding it to terms of service be enough? If you have knowledge or opinions on this topic, please reach out to me on [Twitter](https://twitter.com/ukutaht).
