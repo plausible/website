@@ -1,12 +1,12 @@
 ---
 layout: article
-title: Why you should consider using an open source web analytics tool
-description: Plausible is an open source website analytics tool you can use to
-  check site traffic. It is a simple and privacy-friendly alternative to Google
-  Analytics.
+title: "Plausible: Open source Google Analytics alternative"
+description: Plausible is an open source analytics tool you can use to check web
+  traffic. It is a simple, lightweight and privacy-friendly Google Analytics
+  alternative.
 permalink: /open-source-website-analytics
 ---
-Plausible is a simple and privacy-friendly website analytics tool. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is fully open-source software. Let's take a look at what that means exactly.
+Plausible Analytics is an open source, simple, lightweight and privacy-friendly website analytics tool. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is fully open-source software. Let's take a look at what that means exactly.
 
 1. Ordered list
 {:toc}
@@ -19,13 +19,13 @@ This simple dashboard includes website metrics such as the number of unique visi
 
 All this data you can use to assess the performance of your site and to figure out what you can do to improve your future efforts.
 
-## What does it mean for web analytics to be open source?
+## What is open source web analytics?
 
 Being open source means that our [source code](https://github.com/plausible/analytics/) is available and accessible on GitHub so anyone can check it out. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure.
 
 This gives you and everyone else full transparency on how we handle the website traffic data. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
 
-You can even download Plausible Analytics and install and run it on your own server.
+You can even download Plausible Analytics, install and run it on your own server.
 
 ## What license is Plausible released under?
 
@@ -39,7 +39,9 @@ Plausible is open-source under the most permissive Massachusetts Institute of Te
 
 ## Can Plausible Analytics be self-hosted?
 
-Yes, you can self-host Plausible Analytics. Plausible Analytics Self-Hosted is our free as in beer and free as in speech version. It’s exactly the same product as our Plausible Analytics Cloud solution, only the self-hosted version you have to install, host and manage yourself. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/blog/self-hosted-web-analytics-beta) solution.
+Yes, you can self-host Plausible Analytics. Plausible Analytics Self-Hosted is our free as in beer and free as in speech version. It’s exactly the same product as our Plausible Analytics Cloud solution, only the self-hosted version you have to install, host and manage yourself. 
+
+We're fully open source and all our code is available on GitHub. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/blog/self-hosted-web-analytics-beta) solution.
 
 ## Plausible is open in other ways too
 
@@ -65,7 +67,7 @@ Other than Plausible being open source while Google Analytics being closed sourc
 
 For further details on the differences between the two, take a look at our [Plausible vs Google Analytics comparison](https://plausible.io/vs-google-analytics).
 
-## Why is Plausible Analytics Cloud not free as in free beer?
+## Google Analytics is free so why is Plausible Analytics Cloud not free?
 
 Plausible Analytics is an independently owned and actively developed project. To keep the project development going, to stay in business, to continue putting effort into building a better product and to cover our costs, we need to charge a fee.
 
