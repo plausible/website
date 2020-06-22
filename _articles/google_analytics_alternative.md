@@ -86,7 +86,7 @@ Plausible is not a part of the adtech industry. It doesn't track any personal da
 
 ### 10. A public roadmap driven by the community
 
-With Plausible you can be a part of the development. Take a look at our [public roadmap](https://plausible.io/roadmap) which itself is defined by our community. You can leave your feedback and have your say on metrics and features we should be adding next to the product.
+With Plausible you can be a part of the development. Take a look at our [public roadmap](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc) which itself is defined by our community. You can leave your feedback and have your say on metrics and features we should be adding next to the product.
 
 Google, on the other hand, is notorious for not listening to their users, not providing any way to reach the customer support to get help and even by shutting down products that millions of people love.
 
