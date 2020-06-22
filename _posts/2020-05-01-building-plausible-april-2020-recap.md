@@ -72,4 +72,4 @@ The migration is not complete so I can't share any results yet. However, the ini
 
 I believe that we'll also be able to support much bigger clients with millions of pageviews per month. Hopefully the potential customers who got in touch with me are still interested when the migration is complete. If they've picked something else by then, at least we'll be ready for new large customers who'd be interested.
 
-Next time I write a monthly journal, my target is to be running on Clickhouse. Once the underlying performance and stability issues are fixed, I can move on to doing more feature work. In terms of next features, you can check out [our roadmap](https://plausible.nolt.io/roadmap).
+Next time I write a monthly journal, my target is to be running on Clickhouse. Once the underlying performance and stability issues are fixed, I can move on to doing more feature work. In terms of next features, you can check out [our roadmap](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc).
