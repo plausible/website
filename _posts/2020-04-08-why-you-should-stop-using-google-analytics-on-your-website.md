@@ -10,6 +10,10 @@ author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
+Apple has announced that Safari will start blocking Google Analytics from cross-site tracking. Site owners now fear that Google Analytics stats will become less accurate.
+
+We are working on a leaner and more transparent alternative to Google Analytics that's called Plausible Analytics and that comes without all the privacy baggage. Here's a look at some of the other issues with Google Analytics.
+
 Google, the world's largest ad-tech company, has direct access to user data and browsing information from a large part of the web traffic. Their data collection can track an individual from multiple angles to create the best possible behavioral profile. Google has nine different products with more than one billion users each.
 
 Google Chrome is the most popular web browser with a market share of [64%](https://gs.statcounter.com/browser-market-share). Google's Android is the most popular operating system on mobile devices with a market share of [72%](https://gs.statcounter.com/os-market-share/mobile/worldwide). Google Fonts are used by millions of website developers and it's the most popular third-party domain accounting for more than 3.5% of all network requests.
