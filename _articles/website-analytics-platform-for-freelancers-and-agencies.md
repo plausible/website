@@ -10,6 +10,11 @@ One of the use cases [Plausible Analytics](https://plausible.io/) was specifical
 
 A regular task when working on a website for a client is to install some kind of website statistics and reporting solution. And Google Analytics is the most popular web analytics solution.
 
+![Website analytics platform for freelancers and agencies](/uploads/google-analytics-alternatives.png "Website analytics platform for freelancers and agencies")
+
+1. Ordered list
+{:toc}
+
 ## The problem with Google Analytics for freelancers and agencies
 
 [The problem with Google Analytics](https://plausible.io/blog/remove-google-analytics) is that it tracks way too many data points and is overkill for the majority of clients. This makes Google Analytics difficult to understand for the majority of non-technical users who are unfamiliar with it and who may be intimidated by having access to hundreds of different reports and metrics.
