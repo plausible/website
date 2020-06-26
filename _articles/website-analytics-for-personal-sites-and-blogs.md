@@ -6,13 +6,13 @@ description: Here's a look at why we created Plausible Analytics as a great
   and blogs.
 permalink: /for-bloggers-creators
 ---
-![Website analytics for bloggers and content creators](/uploads/google-analytics-alternatives.png "Website analytics for bloggers and content creators")
-
 Many people create content on their personal websites and blogs. There are many motivations behind this. Some use it like a diary, some as a hobby, or as a way to connect to other people, as a way to build an audience, make money and even improve their career opportunities. 
 
 For some of these content creators, external recognition is not that important. They write what they want, about things they are interested in and they publish whatever they please. The fun is in the writing and the creative process itself.
 
 Others like to understand the impact that their efforts have on the world, which posts bring in the readers, what topics people seem to enjoy the most and even how people end up discovering their content in the first place.
+
+![Website analytics for bloggers and content creators](/uploads/google-analytics-alternatives.png "Website analytics for bloggers and content creators")
 
 1. Ordered list
 {:toc}
