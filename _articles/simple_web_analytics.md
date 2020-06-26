@@ -6,11 +6,11 @@ description: Plausible provides you all the valuable website traffic metrics in
   reports.
 permalink: /simple-web-analytics
 ---
-![Plausible: Simple web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: Simple web analytics tool")
-
 The goal of [Plausible Analytics](https://plausible.io/) is to provide you all the valuable website traffic metrics at a glance in a simple web analytics dashboard.
 
 You get to check your website traffic without deep layers of menus and without a need to create custom reports. Plausible presents you with all the most insightful website statistics on one single page. Here's a closer look.
+
+![Plausible: Simple web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: Simple web analytics tool")
 
 1. Ordered list
 {:toc}
