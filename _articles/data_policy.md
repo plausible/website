@@ -6,6 +6,8 @@ description: Plausible provides cookie-less web analytics without collecting
   our data policy.
 permalink: /data-policy
 ---
+![Plausible: GDPR, CCPA and cookie law compliant site analytics](/uploads/google-analytics-alternatives.png "Plausible: GDPR, CCPA and cookie law compliant site analytics")
+
 Even though the purpose of [Plausible Analytics](https://plausible.io) is to track the usage of a website, this can still be done without collecting any personal data or personally identifiable information (PII), without using cookies and while respecting the privacy of the website visitors.
 
 Here's a closer look at our data policy, the information that we do collect, what we use it for and steps we've taken to comply with the cookie law and the privacy regulations such as the GDPR, CCPA and PECR.
