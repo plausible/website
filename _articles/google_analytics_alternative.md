@@ -5,10 +5,11 @@ description: Here's why you should consider Plausible as a simple, lightweight,
   ethical, open-source and privacy-friendly alternative to Google Analytics.
 permalink: /vs-google-analytics
 ---
-
 Many site owners have the habit of installing the Google Analytics tracking script on their sites as one of the first actions they take after the launch.
 
 Here's why you should break the habit of using Google Analytics and consider [Plausible](https://plausible.io/) as a simple, lightweight, ethical, open-source and privacy-friendly Google Analytics alternative.
+
+![Plausible vs Google Analytics](/uploads/google-analytics-alternatives.png "Plausible vs Google Analytics")
 
 1. Ordered list
 {:toc}
