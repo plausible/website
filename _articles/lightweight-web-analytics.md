@@ -5,11 +5,11 @@ description: Replacing Google Analytics with a lightweight web analytics tool
   can have a significant effect on the page load time of your website.
 permalink: /lightweight-web-analytics
 ---
-![Plausible: A lightweight web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
-
 Page speed shows you the amount of time it takes for your website to load. Having a fast loading website is one of the key elements of modern web development.
 
 And replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time. Let's take a closer look.
+
+![Plausible: A lightweight web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
 
 1. Ordered list
 {:toc}
