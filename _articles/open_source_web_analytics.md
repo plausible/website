@@ -6,9 +6,9 @@ description: Plausible is an open source analytics tool you can use to check web
   alternative.
 permalink: /open-source-website-analytics
 ---
-![Plausible: Open source Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Open source Google Analytics alternative")
-
 Plausible Analytics is an open source, simple, lightweight and privacy-friendly website analytics tool. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is fully open-source software. Let's take a look at what that means exactly.
+
+![Plausible: Open source Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Open source Google Analytics alternative")
 
 1. Ordered list
 {:toc}
