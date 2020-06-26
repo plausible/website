@@ -62,7 +62,7 @@ Google Analytics collects personal data such as the IP address, shares it with o
 
 Here’s a brief overview of Google Analytics features that may not be compliant with the CCPA:
 
-* Google Analytics stores cookies and tracks your visitors using cookies. It “uses cookies to identify unique users across browsing sessions”. This is done “to remember what a user has done on previous pages / interactions with the website”.
+* [Google Analytics stores cookies](https://plausible.io/blog/google-analytics-cookies) and tracks your visitors using cookies. It “uses cookies to identify unique users across browsing sessions”. This is done “to remember what a user has done on previous pages / interactions with the website”.
 * Google Analytics sets unique user IDs in order to track users between sessions and between different devices. User-ID feature: “lets you connect multiple devices, sessions, and engagement data to the same users. Associate a persistent ID for a single user with that user’s engagement data from one or more sessions initiated from one or more devices.”
 * There are many different data sharing and advertising integrations within Google Analytics that integrate your visitor data with the wider Google ecosystem
 
@@ -116,4 +116,6 @@ There are ways you can hack and change Google Analytics to make it CCPA complian
 
 We've built Plausible Analytics with simplicity and privacy in mind. We don't collect much data about your visitors as we only display the most important metrics on our dashboard. You can take a look at [our live demo](https://plausible.io/plausible.io) for details on exactly what data you can get access to. We also have [a data policy](https://plausible.io/data-policy) where we list exactly what we do collect and for what purposes. 
 
-We don't collect nor store any personal data either. We're cookie-free too. Our business model has nothing to do with personalized advertising and integration with a wider marketing ecosystem so we have no interest in any of data collection for the purpose of behavioral analysis. 
+We don't collect nor store any personal data either. We're cookie-free too. Our business model has nothing to do with personalized advertising and integration with a wider marketing ecosystem so we have no interest in any of data collection for the purpose of behavioral analysis and no interest in sharing your website data with third-parties. 
+
+If you'd like to explore Plausible Analytics in more detail, you can [sign up for a free 30-day trial](https://plausible.io/register). No credit card is required and you can use Plausible Analytics without any restrictions in those 30 days.
