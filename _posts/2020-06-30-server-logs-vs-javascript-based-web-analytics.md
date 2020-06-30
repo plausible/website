@@ -10,15 +10,18 @@ author: marko-saric
 ---
 What's the difference between server logs such as AWStats and JavaScript-based web analytics such as Google Analytics? Are client side or server side analytics more accurate? And which should I use on my website? Let's take a look.
 
+1. Ordered list
+{:toc}
+
 ## TL;DR: Here's a summary
 
 The main benefits of server-side analytics are that they have no impact on your page speed and the fact that adblockers cannot block server logs. But are these advantages worth the side effects?
 
-With server log analysis, it is harder to filter out robots, crawlers, spiders and other non-visitors. And there is a lot of automated bot traffic on the internet. It is also harder to get more insightful metrics such as the bounce rate and session length time compared to the JavaScript-based web analytics.
+With server log analysis, it is harder to filter out robots, crawlers, spiders and other non-visitors. And there is a lot of automated bot traffic on the internet. It is also harder to get more insightful metrics such as the bounce rate and session length time.
 
 Let's take a deeper look at the server logs vs JavaScript-based web analytics.
 
-## How big of a gap in data is there between server log analysis and web analytics?
+## How big of a data gap is there between server log analysis and web analytics?
 
 To learn more about the differences in the data between these approaches, I've compared the data between [Plausible Analytics](https://plausible.io/) as a client-side analytics and [AWStats](https://www.awstats.org/) as a server-side analytics on my own website in June 2020.
 
@@ -114,7 +117,7 @@ Server-side analytics have several native advantages:
 
 ## Problems with server logs
 
-Google Analytics is the most popular client-side analytics tool on the web. It is installed on more than half of all websites. From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most. Here are some general opinions about server logs that I've heard most frequently:
+Here are some disadvantages with using server logs:
 
 * Server logs are not pretty, not user friendly and the user experience is not the best. It is a bit of a pain to set up and the user interface is a little bit difficult to use and understand. Many site owners want a plug and play solution.
 * Server log stats are not accurate and they are very wrong when compared to what people see in tools such as Google Analytics. An overwhelming amount of website traffic is automated and comes from search engines, web crawlers and other bots. How to find signal-in-the-noise of server-side analytics and how to filter out bots are very time-consuming tasks.
@@ -123,6 +126,8 @@ Google Analytics is the most popular client-side analytics tool on the web. It i
 * Server logs only keep a limited amount of traffic data so you need a way to archive them before they are deleted. 
 
 ## Are server-side analytics a realistic alternative to Google Analytics for the average website?
+
+Google Analytics is the most popular client-side analytics tool on the web. It is installed on more than half of all websites. From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most. 
 
 Some web hosting packages may come with server logs pre-installed and ready to use. For most of the others, it is a bit more complicated process to get them set up.
 
@@ -148,7 +153,7 @@ Some data privacy activists often have the opinion of "any analytics are bad, on
 
 The problem with JavaScript-based trackers such as Google Analytics is not the fact that they use JavaScript, it is the fact that they are bloated scripts and that they collect way too much data, set third-party cookies and track and profile people across devices, websites and apps as they browse the web. Then they use these insights on people for personalized advertising purposes. 
 
-But this is not what privacy-friendly, JavaScript-based web analytics such as Plausible Analytics does.
+But this is not what privacy-friendly, JavaScript-based web analytics such as Plausible Analytics do.
 
 ### How is Plausible Analytics different from the average client side analytics?
 
