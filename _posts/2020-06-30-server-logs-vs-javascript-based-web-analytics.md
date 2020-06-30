@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Server logs vs JavaScript-based web analytics
+title: "Client side vs server side analytics: What's the gap in data?"
 description: What's the difference between server logs such as AWStats and
   JavaScript-based web analytics such as Google Analytics? Which one is more
   accurate?
