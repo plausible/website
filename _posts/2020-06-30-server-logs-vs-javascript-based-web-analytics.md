@@ -63,7 +63,7 @@ Plausible Analytics alongside other web analytics such as Google Analytics displ
 * Plausible Analytics: /blog-or-vlog/ 2.4k
 * AWStats: /wp-cron.php 89.4k, /feed/ 74k, home page 64k
 
-Most of the page views and pages that AWStats counts are made by bots to the backend pages that are not customer facing. My actual top post, /blog-or-vlog/, is 6th in the list on AWStats with 3k views	.
+Most of the page views and pages that AWStats counts are made by bots to the backend pages that are not customer facing. My actual top post, /blog-or-vlog/, is 6th in the list on AWStats with 3k views.
 
 #### Top countries
 
@@ -90,21 +90,27 @@ Looking at the other metrics, it is very clear that the majority of data include
 
 There could be a way to make it more accurate. If I exclude back-end pages such as wp-cron.php, /feed/ and wp-login.php that the bots are trying to access, I may get something closer to the actual numbers.
 
-Similar is the case with top operating systems and top browsers. If I exclude the "unknown" category in AWStats, the remaining table becomes a bit more usable.
+Similar is the case with top operating systems and top browsers. If I exclude the "unknown" category in AWStats, the remaining table becomes a bit more usable. Same for top countries with Russia, for instance, having way too inflated numbers on AWStats compared to the reality.
 
-## What are client and server-side analytics?
+## What are client and server-side analytics and how do they work?
+
+Let's take a step back and look at the differences in the way that client and server-side analytics work.
 
 Client-side analytics such as Google Analytics and Plausible Analytics are deployed as small pieces of JavaScript files that are embedded in the code of a website. When real people land on your site, this script gets executed and it gathers some basic information on the client-side. 
 
 Server-side analytics are server-side programs that monitor network traffic on the server itself and only process server-side information. Every request on your server, no matter what it is and by whom it is made, is recorded in the server logs. 
 
-The main issue with this approach is that not every request on your website is from real people. On most websites, the number of requests from non-human visitors largely outnumbers the number of requests from real people. 
+The main issue with the server-side approach is that not every request on your website is from real people. On most websites, the number of requests from non-human visitors largely outnumbers the number of requests from real people. 
 
 ### The JavaScript question
 
-A vast majority of robots, crawlers and other non-human visitors to your website don't run JavaScript so they do not affect the client-side analytics. This makes the bot filtering easier for tools such as Plausible Analytics. The majority of visitors that are capable of running JavaScript are real, human visitors. 
+A vast majority of robots, crawlers and other non-human visitors to your website don't run JavaScript so they do not affect the client-side analytics as JavaScript is needed to be counted by client-side analytics.
 
-What's the number of people who block JavaScript as they browse the web? There is no definite study on this but the number is going to be a tiny fraction of your total visitors. Most websites are terribly broken without JavaScript so browsing without it is difficult. 
+This makes the bot filtering easier for tools such as Plausible Analytics. The majority of visitors that are capable of running JavaScript are real, human visitors. Everything without JavaScript is simply not counted.
+
+And are there some real humans that block JavaScript as they browse the web? Isn't that a problem for client-side analytics as they wouldn't be included in the stats?
+
+There is no definite study on this but the number of people who block JavaScript is going to be a tiny fraction of your total visitors. Most websites are terribly broken without JavaScript so browsing without it is difficult.
 
 ## Advantages of server-side analytics
 
@@ -119,19 +125,19 @@ Server-side analytics have several native advantages:
 
 Here are some disadvantages with using server logs:
 
-* Server logs are not pretty, not user friendly and the user experience is not the best. It is a bit of a pain to set up and the user interface is a little bit difficult to use and understand. Many site owners want a plug and play solution.
-* Server log stats are not accurate and they are very wrong when compared to what people see in tools such as Google Analytics. An overwhelming amount of website traffic is automated and comes from search engines, web crawlers and other bots. How to find signal-in-the-noise of server-side analytics and how to filter out bots are very time-consuming tasks.
-* Server logs don't provide richer information such as screen resolution, bounce rates, time on site and more
+* Server logs are not pretty, not user friendly and the user experience is not ideal. It's a bit of a pain to set up and the user interface is a little bit difficult to use and understand. Many site owners want a prettier and simpler plug and play solution.
+* Server log stats are not accurate when compared to what stats you see in tools such as Plausible Analytics. An overwhelming amount of website traffic is automated and comes from search engines, web crawlers and other bots. How to find signal-in-the-noise of server-side analytics and how to filter out bots are very time-consuming tasks.
+* Server logs don't provide richer information such as screen resolution, bounce rates, time on site and more.
 * Despite many hosting providers such as Netlify and Cloudflare offering server-side analytics, many sites such as those on GitHub pages have no access to server logs at all.
 * Server logs only keep a limited amount of traffic data so you need a way to archive them before they are deleted. 
 
-## Are server-side analytics a realistic alternative to Google Analytics for the average website?
+## Are server-side analytics a realistic alternative to client-side analytics for the average website?
 
-Google Analytics is the most popular client-side analytics tool on the web. It is installed on more than half of all websites. From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most. 
+Google Analytics is the most popular client-side analytics tool on the web. It is installed on more than 50% of all websites. From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most.
 
 Some web hosting packages may come with server logs pre-installed and ready to use. For most of the others, it is a bit more complicated process to get them set up.
 
-Trying to get the average website or business that is using Google Analytics right now to remove Google Analytics and switch to server-side analytics reminds of that [famous Hacker News comment](https://news.ycombinator.com/item?id=9224) about the announcement of Dropbox. 
+Trying to get the average website or business that is using Google Analytics right now to remove Google Analytics and switch to server-side analytics reminds me of that [famous Hacker News comment](https://news.ycombinator.com/item?id=9224) about the announcement of Dropbox: 
 
 > "You can already build such a system yourself quite trivially by getting an FTP account, mounting it locally with curlftpfs, and then using SVN or CVS on the mounted filesystem. From Windows or Mac, this FTP account could be accessed through built-in software."
 
@@ -140,18 +146,18 @@ How would the average website or business owner that runs Google Analytics switc
 1. You need to have access to a server. This is especially difficult when considering that many sites these days are hosted on proprietary CMS tools that don't allow you to have server access 
 2. Then you need to set up your server logs in the first place unless your server already supports them
 3. Then you need to enable archiving as by default server logs get discarded after the system processes them
-4. Then you need to redirect your server logs to another tool to parse the server logs, organize the information into a format readable by people that are used to Google Analytics dashboard and then show the analytics reports with charts and tables
-5. Then you need to figure out how to filter out bots from the data to get something that resembles the accuracy they are used to from Google Analytics
+4. Then you need to redirect your server logs to another tool to parse them, organize the information into a format readable by people that are used to Google Analytics dashboard and then show the analytics reports with pretty charts and tables
+5. Then you need to figure out how to filter out bots from the data to get something that resembles the accuracy you are used to from client-side analytics
 
-Some site owners are happy to do this process and that's fine. I've been using server logs alone for a year or so since I decided to [remove Google Analytics](https://plausible.io/blog/remove-google-analytics) and before discovering and becoming part of Plausible Analytics. 
+Some site owners are happy to do this process and that's fine. I've been using server logs for a year or so since I decided to [remove Google Analytics](https://plausible.io/blog/remove-google-analytics) and before discovering and becoming part of Plausible Analytics. 
 
 But this is not a realistic solution for millions of websites running Google Analytics and donating their visitor and customer data to Google today. There is a need for a better plug and play solution. 
 
 ## Are server logs more privacy-friendly than client-side analytics?
 
-Some data privacy activists often have the opinion of "any analytics are bad, only server logs are good", but server logs are not a fundamentally more privacy-friendly solution compared to JavaScript-based analytics tools. 
+Some data privacy activists often share the opinion that "any analytics are bad, only server logs are good", but server logs are not a fundamentally more privacy-friendly solution compared to JavaScript-based analytics tools. 
 
-The problem with JavaScript-based trackers such as Google Analytics is not the fact that they use JavaScript, it is the fact that they are bloated scripts and that they collect way too much data, set third-party cookies and track and profile people across devices, websites and apps as they browse the web. Then they use these insights on people for personalized advertising purposes. 
+The problem with JavaScript-based trackers such as Google Analytics is not the fact that they use JavaScript, it is the fact that they are bloated scripts and that they collect way too much data, set third-party cookies, and track and profile people across devices, websites and apps as they browse the web. Then they use these insights about people for personalized advertising purposes.
 
 But this is not what privacy-friendly, JavaScript-based web analytics such as Plausible Analytics do.
 
@@ -163,20 +169,20 @@ I would actually say that server logs record and display more personal informati
 
 Here's a quick summary on Plausible Analytics and the [way it differs from tools such as Google Analytics](https://plausible.io/vs-google-analytics):
 
-* We don't collect nor store any personal data. Unlike server logs, we don't even collect nor store IP addresses. 
+* We don't collect nor store any personal data. Unlike server logs, we don't even collect nor store IP addresses.
 * We don't use cookies.
 * We are lightweight with the script being under 1 KB so no impact on the site speed. Much more comparable to server logs than to Google Analytics.
 * We are isolated to one site only and don't do any tracking of people around the web and across their different devices.
-* Our business model has nothing to do with personalized advertising so we have no interest in collecting, sharing or selling your website data to anyone. You are fully in control and with full ownership of your website stats. Our business model is the subscription fee we charge you to host and manage your website stats for you.
+* Our business model has nothing to do with personalized advertising so we have no interest in collecting, sharing or selling your website data to anyone. You are fully in control and have full ownership of your website stats. Our business model is the subscription fee we charge you to host and manage your website stats for you.
 * Our script can be served from your domain name as a first-party connection if you're concerned about adblockers and other content blockers.
-* We can be self-hosted on your server if you're concerned about third-party connections. The self-hosted product is free as in beer but you do need to install, maintain and manage it yourself on your server.
+* We can be self-hosted on your server if you're concerned about third-party connections. [Our self-hosted product](https://plausible.io/blog/self-hosted-web-analytics-beta) is free as in beer but you do need to install, maintain and manage it yourself on your server.
 
 ## Conclusion
 
-Server logs are an option for some site owners with basic analytics needs that are happy to get it all set up and that can live with inaccuracies caused by the majority of visitors to the average site being robots. 
+Server logs are an option for some site owners with basic analytics needs that are happy to do the work to get it all set up and that can live with inaccuracies caused by so many of web visitors being robots. 
 
-Unfortunately, it would be difficult to get many site owners to remove Google Analytics and use server log analysis so we do need privacy-friendly JavaScript-based web analytics such as [Plausible Analytics](https://plausible.io/) too.
+It would be difficult to get many site owners to remove Google Analytics and use server log analysis so we do need privacy-friendly JavaScript-based web analytics such as [Plausible Analytics](https://plausible.io/) too.
 
-These site owners need something more user friendly, with better accuracy and to actually convince them to make the move away from Google Analytics, they need something that can improve upon some of the issues they experience with Google Analytics.
+These site owners need something user friendly, accurate and to actually convince them to make the move away from Google Analytics, they need something that can improve upon some of the issues they experience with Google Analytics.
 
 If we insist all the websites remove Google Analytics and replace them with server logs, we will ultimately fail in the goal of restricting Google's grip on the web.
