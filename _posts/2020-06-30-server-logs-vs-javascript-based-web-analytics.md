@@ -8,14 +8,14 @@ slug: server-log-analysis
 date: 2020-06-30T13:44:41.457Z
 author: marko-saric
 ---
-What's the difference between server logs such as AWStats and JavaScript-based web analytics such as Google Analytics? Which one is more accurate? And which should I use on my website? Let's take a look.
+What's the difference between server logs such as AWStats and JavaScript-based web analytics such as Google Analytics? Are client side or server side analytics more accurate? And which should I use on my website? Let's take a look.
 
 1. Ordered list
 {:toc}
 
 ## TL;DR: Here's a summary
 
-The benefit of server-side analytics is that you can count visitors who disable JavaScript when browsing your site, the fact that they have no impact on your page speed and the fact that adblockers and other content blockers cannot block server logs. But are these advantages and benefits worth the side effects?
+The benefits of server-side analytics are that you can count visitors that disable JavaScript when browsing your site, the fact that they have no impact on your page speed and the fact that adblockers and other content blockers cannot block server logs. But are these advantages and benefits worth the side effects?
 
 With server log analysis, it is harder to filter out robots, crawlers, spiders and other non-visitors. And there is a lot of automated bot traffic on the internet. It is also harder to get more insightful metrics such as the bounce rate and session length time compared to the JavaScript-based web analytics.
  
@@ -23,7 +23,7 @@ Let's take a deeper look at the server logs vs JavaScript-based web analytics.
   
 ## How big of a gap in data is there between server log analysis and web analytics?
 
-To learn more about the differences in the data between these approaches, I've compared the data between [Plausible Analytics](https://plausible.io/) as a client-side analytics and [AWStats](https://www.awstats.org/) as a server-side analytics on my own website for June 2020.
+To learn more about the differences in the data between these approaches, I've compared the data between [Plausible Analytics](https://plausible.io/) as a client-side analytics and [AWStats](https://www.awstats.org/) as a server-side analytics on my own website in June 2020.
 
 ### My process
 
@@ -37,62 +37,58 @@ I pretty much ignored my site in June to see what would happen. I didn't publish
 
 ### My website stats for June
 
-The total number of unique visitors:
+#### The total number of unique visitors
 
-Plausible Analytics: 10.2k
-AWStats: 20.5k
+* Plausible Analytics: 10.2k
+* AWStats: 20.5k
 
 100% higher number of visitors according to AWStats.
 
-The total number of page views:
+#### The total number of page views
 
-Plausible Analytics: 16.5k
-AWStats: 290.5k
+* Plausible Analytics: 16.5k
+* AWStats: 290.5k
 
 17 times higher number of page views according to AWStats.
 
-Top referrers:
+#### Top referrers
 
-Plausible Analytics: Google 6.3k
-AWStats: Google USA 6.7k, Google UK 3k...
+* Plausible Analytics: Google 6.3k
+* AWStats: Google USA 6.7k, Google UK 3k...
 
 Plausible Analytics alongside other web analytics such as Google Analytics display all traffic from Google under one referral. AWStats splits traffic from Google according to the locality. Between Google USA, Google UK, Google India and others, there were more than 10,000 visitors from Google combined according to AWStats.
 
-Top pages:
+#### Top pages
 
-Plausible Analytics: /blog-or-vlog/ 2.4k
-AWStats: /wp-cron.php 89.4k, /feed/ 74k, home page 64k
+* Plausible Analytics: /blog-or-vlog/ 2.4k
+* AWStats: /wp-cron.php 89.4k, /feed/ 74k, home page 64k
 
 Most of the page views and pages that AWStats counts are made by bots to the backend pages that are not customer facing. My actual top post, /blog-or-vlog/, is 6th in the list on AWStats with 3k views	.
 
-Top countries:
+#### Top countries
 
-Plausible Analytics: USA 3.2k
-AWStats: USA 196.5k (doesn't show the number of unique visitors but a number of page views)
+* Plausible Analytics: USA 3.2k
+* AWStats: USA 196.5k (doesn't show the number of unique visitors but a number of page views)
 
 Interestingly enough, Russia is listed second on AWStats while it doesn't even make it into the top 10 on Plausible Analytics.
 
-Top operating systems:
+#### Top operating systems
 
-Plausible Analytics: Windows 32%
-AWStats: "Unknown" 67.5% (doesn't show the number of unique visitors but a number of page views)
-Windows is second with 15.6% of all page views.
+* Plausible Analytics: Windows 32%
+* AWStats: "Unknown" 67.5% (doesn't show the number of unique visitors but a number of page views). Windows is second with 15.6% of all page views.
 
-Top browsers:
+#### Top browsers
 
-Plausible Analytics: Chrome 59%
-AWStats: "Unknown" 64.7% (doesn't show the number of unique visitors but a number of page views)
-Chrome is second with 18.5% of all page views.
+* Plausible Analytics: Chrome 59%
+* AWStats: "Unknown" 64.7% (doesn't show the number of unique visitors but a number of page views). Chrome is second with 18.5% of all page views.
 
 ### Conclusion about the differences in stats between Plausible Analytics and AWStats
 
 There is a great data disparity between the two. The biggest issue with the difference in stats is the fact that AWStats inflates the main numbers such as the total unique visitors by more than 100% and the total page views by more than 17 times. 
 
-Looking at the other metrics, it is very clear that the majority of data included in AWStats is made by robots. Even though AWStats tries to isolate and exclude robots, it seems to miss out on a lot of them.
+Looking at the other metrics, it is very clear that the majority of data included in AWStats is made by robots. Even though AWStats tries to isolate and exclude robots, it seems to miss out on a lot of them. And these seem to be issues with server log analysis as a whole rather than issues with AWStats software itself.
 
-And these seem to be issues with server log analysis as a whole rather than issues with AWStats software itself.
-
-There could be a way to make it more accurate. If I exclude backend pages such as wp-cron.php, /feed/ and wp-login.php that the bots are trying to access, I may get somewhere closer to the actual numbers.
+There could be a way to make it more accurate. If I exclude back-end pages such as wp-cron.php, /feed/ and wp-login.php that the bots are trying to access, I may get something closer to the actual numbers.
 
 Similar is the case with top operating systems and top browsers. If I exclude the "unknown" category in AWStats, the remaining table becomes a bit more usable.
 
@@ -125,11 +121,11 @@ Server-side analytics have several native advantages:
 
 From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most. Some general opinions I heard most frequently:
 
-1. Server logs are not pretty, not user friendly and the user experience is not the best. It is a bit of a pain to set up and the user interface is a little difficult to use and understand. Many site owners want a plug and play solution.
-2. Server logs stats are not accurate and they are very wrong compared to what people see in Google Analytics. An overwhelming amount of website traffic is automated and comes from search engines, web crawlers and other bots. Huge differences in general and much higher stats in general. How to find signal-in-the-noise of server-side analytics and how to filter out bots are very time-consuming tasks.
-3. Server logs don't provide richer information such as screen resolution, bounce rates, time on site and more
-4. Despite many hosting providers such as Netlify and Cloudflare offering server-side analytics, many sites such as those on GitHub pages have no access to server logs at all.
-5. Server logs only keep a limited amount of traffic data so you need a way to archive them before they are deleted. 
+* Server logs are not pretty, not user friendly and the user experience is not the best. It is a bit of a pain to set up and the user interface is a little difficult to use and understand. Many site owners want a plug and play solution.
+* Server logs stats are not accurate and they are very wrong compared to what people see in Google Analytics. An overwhelming amount of website traffic is automated and comes from search engines, web crawlers and other bots. Huge differences in general and much higher stats in general. How to find signal-in-the-noise of server-side analytics and how to filter out bots are very time-consuming tasks.
+* Server logs don't provide richer information such as screen resolution, bounce rates, time on site and more
+* Despite many hosting providers such as Netlify and Cloudflare offering server-side analytics, many sites such as those on GitHub pages have no access to server logs at all.
+* Server logs only keep a limited amount of traffic data so you need a way to archive them before they are deleted. 
 
 ## Are server-side analytics a realistic alternative to Google Analytics for the average website?
 
@@ -159,11 +155,13 @@ The problem with JavaScript-based trackers such as Google Analytics is not the f
 
 But this is not what privacy-friendly, JavaScript-based web analytics such as Plausible Analytics does.
 
+### How is Plausible Analytics different from the average client side analytics?
+
 Privacy-friendly web analytics tools such as Plausible Analytics have more in common with server logs than they do with Google's surveillance capitalism tools.
 
 I would actually say that server logs record and display more personal information than a tool such as Plausible Analytics. Server log analysis on my server using AWStats show all visitor IP addresses and the number of times they have accessed my site.
 
-Here's a quick summary on Plausible Analytics and the way it differs from tools such as Google Analytics:
+Here's a quick summary on Plausible Analytics and the [way it differs from tools such as Google Analytics](https://plausible.io/vs-google-analytics):
 
 * We don't collect nor store any personal data. Unlike server logs, we don't even collect nor store IP addresses. 
 * We don't use cookies.
@@ -177,7 +175,7 @@ Here's a quick summary on Plausible Analytics and the way it differs from tools 
 
 Server logs are an option for some site owners with basic analytics needs that are happy to get it all set up and that can live with inaccuracies caused by the majority of visitors to the average site being robots. 
 
-Unfortunately, it would be difficult to get many site owners to remove Google Analytics and use server log analysis so we do need privacy-friendly JavaScript-based web analytics such as Plausible Analytics too.
+Unfortunately, it would be difficult to get many site owners to remove Google Analytics and use server log analysis so we do need privacy-friendly JavaScript-based web analytics such as [Plausible Analytics](https://plausible.io/) too.
 
 These site owners need something more user friendly, with better accuracy and to actually convince them to make the move away from Google Analytics, they need something that can improve upon some of the issues they experience with Google Analytics.
 
