@@ -167,28 +167,6 @@ Here are some disadvantages with using server logs:
 * Despite many hosting providers such as Netlify and Cloudflare offering server-side analytics, many sites such as those on GitHub pages have no access to server logs at all.
 * Server logs only keep a limited amount of traffic data so you need a way to archive them before they are deleted. 
 
-## Are server-side analytics a realistic alternative to client-side analytics for the average website?
-
-Google Analytics is the most popular client-side analytics tool on the web. It is installed on more than 50% of all websites. From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most.
-
-Some web hosting packages may come with server logs pre-installed and ready to use. For most of the others, it is a bit more complicated process to get them set up.
-
-Trying to get the average website or business that is using Google Analytics right now to remove Google Analytics and switch to server-side analytics reminds me of that [famous Hacker News comment](https://news.ycombinator.com/item?id=9224) about the announcement of Dropbox: 
-
-> "You can already build such a system yourself quite trivially by getting an FTP account, mounting it locally with curlftpfs, and then using SVN or CVS on the mounted filesystem. From Windows or Mac, this FTP account could be accessed through built-in software."
-
-How would the average website or business owner that runs Google Analytics switch to a server log analytics system?
-
-1. You need to have access to a server. This is especially difficult when considering that many sites these days are hosted on proprietary CMS tools that don't allow you to have server access 
-2. Then you need to set up your server logs in the first place unless your server already supports them
-3. Then you need to enable archiving as by default server logs get discarded after the system processes them
-4. Then you need to redirect your server logs to another tool to parse them, organize the information into a format readable by people that are used to Google Analytics dashboard and then show the analytics reports with pretty charts and tables
-5. Then you need to figure out how to filter out bots from the data to get something that resembles the accuracy you are used to from client-side analytics
-
-Some site owners are happy to do this process and that's fine. I've been using server logs for a year or so since I decided to [remove Google Analytics](https://plausible.io/blog/remove-google-analytics) and before discovering and becoming part of Plausible Analytics. 
-
-But this is not a realistic solution for millions of websites running Google Analytics and donating their visitor and customer data to Google today. There is a need for a better plug and play solution. 
-
 ## Are server logs more privacy-friendly than client-side analytics?
 
 Some data privacy activists often share the opinion that "any analytics are bad, only server logs are good", but server logs are not a fundamentally more privacy-friendly solution compared to JavaScript-based analytics tools. 
@@ -212,6 +190,28 @@ Here's a quick summary on Plausible Analytics and the [way it differs from tools
 * Our business model has nothing to do with personalized advertising so we have no interest in collecting, sharing or selling your website data to anyone. You are fully in control and have full ownership of your website stats. Our business model is the subscription fee we charge you to host and manage your website stats for you.
 * Our script can be served from your domain name as a first-party connection if you're concerned about adblockers and other content blockers.
 * We can be self-hosted on your server if you're concerned about third-party connections. [Our self-hosted product](https://plausible.io/blog/self-hosted-web-analytics-beta) is free as in beer but you do need to install, maintain and manage it yourself on your server.
+
+## Are server-side analytics a realistic alternative to client-side analytics for the average website?
+
+Google Analytics is the most popular client-side analytics tool on the web. It is installed on more than 50% of all websites. From speaking to many website owners over the last few weeks, server logs, in general, are not seen as an ideal replacement for Google Analytics by most.
+
+Some web hosting packages may come with server logs pre-installed and ready to use. For most of the others, it is a bit more complicated process to get them set up.
+
+Trying to get the average website or business that is using Google Analytics right now to remove Google Analytics and switch to server-side analytics reminds me of that [famous Hacker News comment](https://news.ycombinator.com/item?id=9224) about the announcement of Dropbox: 
+
+> "You can already build such a system yourself quite trivially by getting an FTP account, mounting it locally with curlftpfs, and then using SVN or CVS on the mounted filesystem. From Windows or Mac, this FTP account could be accessed through built-in software."
+
+How would the average website or business owner that runs Google Analytics switch to a server log analytics system?
+
+1. You need to have access to a server. This is especially difficult when considering that many sites these days are hosted on proprietary CMS tools that don't allow you to have server access 
+2. Then you need to set up your server logs in the first place unless your server already supports them
+3. Then you need to enable archiving as by default server logs get discarded after the system processes them
+4. Then you need to redirect your server logs to another tool to parse them, organize the information into a format readable by people that are used to Google Analytics dashboard and then show the analytics reports with pretty charts and tables
+5. Then you need to figure out how to filter out bots from the data to get something that resembles the accuracy you are used to from client-side analytics
+
+Some site owners are happy to do this process and that's fine. I've been using server logs for a year or so since I decided to [remove Google Analytics](https://plausible.io/blog/remove-google-analytics) and before discovering and becoming part of Plausible Analytics. 
+
+But this is not a realistic solution for millions of websites running Google Analytics and donating their visitor and customer data to Google today. There is a need for a better plug and play solution. 
 
 ## Conclusion
 
