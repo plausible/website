@@ -61,12 +61,20 @@ More than 100% higher number of visitors according to AWStats.
 
 #### Top referrers
 
+![Top referrers in Plausible Analytics](/uploads/top-referrers.png "Top referrers in Plausible Analytics")
+
+![Top referrers in AWStats](/uploads/google-referrers.png "Top referrers in AWStats")
+
 * Plausible Analytics: Google 6.4k
 * AWStats: Google USA 7k, Google UK 3.1k
 
 Plausible Analytics alongside other web analytics such as Google Analytics display all traffic from Google under one referral. AWStats splits traffic from Google according to the locality. Between Google USA, Google UK, Google India and others, there were more than 10,000 visitors from Google combined according to AWStats.
 
 #### Top pages
+
+![Top pages in Plausible Analytics](/uploads/top-pages.png "Top pages in Plausible Analytics")
+
+![Top pages in AWStats](/uploads/top-pages-awstats.png "Top pages in AWStats")
 
 * Plausible Analytics: /blog-or-vlog/ 2.5k
 * AWStats: /wp-cron.php 93k, /feed/ 78k, home page 67k
@@ -75,6 +83,10 @@ Most of the page views and pages that AWStats counts are made by bots to the bac
 
 #### Top countries
 
+![Top countries in Plausible Analytics](/uploads/top-countries.png "Top countries in Plausible Analytics")
+
+![Top countries in AWStats](/uploads/top-locales-awstats.png "Top countries in AWStats")
+
 * Plausible Analytics: USA 3.2k
 * AWStats: USA 207k (doesn't show the number of unique visitors but a number of page views)
 
@@ -82,10 +94,18 @@ Interestingly enough, Russia is listed second on AWStats while it doesn't even m
 
 #### Top operating systems
 
+![Top OS in Plausible Analytics](/uploads/top-os.png "Top OS in Plausible Analytics")
+
+![Top OS in AWStats](/uploads/top-os-awstats.png "Top OS in AWStats")
+
 * Plausible Analytics: Windows 32%
 * AWStats: "Unknown" 67.5% (doesn't show the number of unique visitors but a number of page views). Windows is second with 15.6% of all page views.
 
 #### Top browsers
+
+![Top browsers in Plausible Analytics](/uploads/top-browsers.png "Top browsers in Plausible Analytics")
+
+![Top browsers in AWStats](/uploads/top-browser-awstats.png "Top browsers in AWStats")
 
 * Plausible Analytics: Chrome 59%
 * AWStats: "Unknown" 64.7% (doesn't show the number of unique visitors but a number of page views). Chrome is second with 18.5% of all page views.
