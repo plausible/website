@@ -7,6 +7,8 @@ description: What's the difference between server logs such as AWStats and
 slug: server-log-analysis
 date: 2020-06-30T13:44:41.457Z
 author: marko-saric
+image: /uploads/server-side-client-side-analytics.png
+image-alt: "Client side vs server side analytics: What's the gap in data?"
 ---
 What's the difference between server logs such as AWStats and JavaScript-based web analytics such as Google Analytics? Are client side or server side analytics more accurate? And which should I use on my website? Let's take a look.
 
