@@ -19,7 +19,7 @@ What's the difference between server logs such as AWStats and JavaScript-based w
 
 The main benefits of server-side analytics are that they have no impact on your page speed and the fact that adblockers cannot block server logs. But are these advantages worth the side effects?
 
-With server log analysis, it is harder to filter out robots, crawlers, spiders and other non-visitors. And there is a lot of automated bot traffic on the internet. It is also harder to get more insightful metrics such as the bounce rate and session length time.
+With server log analysis, it is harder to filter out robots, crawlers, spiders and other non-visitors. And there is a lot of automated bot traffic on the internet.
 
 Let's take a deeper look at the server logs vs JavaScript-based web analytics.
 
@@ -33,7 +33,7 @@ With access to your server logs, you can feed the logs into server log analysis 
 
 I'm lucky to have access to the [cPanel](https://www.cpanel.net/) through my web hosting provider and cPanel has integration with AWStats. I installed the Plausible Analytics script on my site too (I've opened up my Plausible Analytics dashboard to the public and you can [view it here](https://plausible.io/markosaric.com)), so I can now compare the complete stats for June 2020 between these two services.
 
-I compared all the data points that were measured by both tools. This means that I excluded things such as the bounce rate and the visitor devices as those are not measured by the server logs. I also excluded things such as bandwidth consumed as that's not measured by web analytics.
+I compared all the data points that were measured by both tools. This means that I excluded things such as the bounce rate and the visitor devices as those are not measured by AWStats. I also excluded things such as bandwidth consumed as that's not measured by web analytics.
 
 I pretty much ignored my site in June to see what would happen. I didn't publish any new content and I didn't share any of my posts anywhere at all. Here are the stats.
 
@@ -163,7 +163,6 @@ Here are some disadvantages of using server logs:
 
 * Server logs are not pretty, not user friendly and the user experience is not ideal. It's a bit of a pain to set up and the user interface is a little bit difficult to use and understand. Many site owners want a prettier and simpler plug and play solution.
 * Server log stats are not accurate when compared to what stats you see in tools such as Plausible Analytics. An overwhelming amount of website traffic is automated and comes from search engines, web crawlers and other bots. How to find signal-in-the-noise of server-side analytics and how to filter out bots are very time-consuming tasks.
-* Server logs don't provide richer information such as screen resolution, bounce rates, time on site and more.
 * Despite many hosting providers such as Netlify and Cloudflare offering server-side analytics, many sites such as those on GitHub pages have no access to server logs at all.
 * Server logs only keep a limited amount of traffic data so you need a way to archive them before they are deleted. 
 
