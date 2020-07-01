@@ -41,6 +41,10 @@ I pretty much ignored my site in June to see what would happen. I didn't publish
 
 You can see my complete data for the month of June [in this open dashboard](https://plausible.io/markosaric.com?period=custom&from=2020-06-01&to=2020-06-30).
 
+![Traffic overview in Plausible Analytics](/uploads/traffic-overview.png "Traffic overview in Plausible Analytics")
+
+![Traffic overview in AWStats](/uploads/traffic-overview-awstats.png "Traffic overview in AWStats")
+
 #### The total number of unique visitors
 
 * Plausible Analytics: 10.3k
