@@ -10,11 +10,11 @@ author: uku-taht
 ---
 June was easily the best month of all time for Plausible. We added some large customers and had our biggest revenue growth ever, both in absolute ($) and relative (%) terms.
 
-* 🚀 **Self-hosted Plausible beta launched** [More info in the launch post](https://plausible.io/blog/self-hosted-web-analytics-beta)
+* 🚀 **Self-hosted Plausible beta launched**. [More info in the launch post](https://plausible.io/blog/self-hosted-web-analytics-beta)
 * 💰 **New pricing tiers for larger customers**
 * 🤖 **Moved our hosting to Digital Ocean in Germany**
 * 💵 **MRR: 1,882 (+73%)**:  Breaking revenue growth record two months in a row. Huge testament to Marko’s work on getting the word out there about us.
-* 👩 **26k visitors (+3%)***:* We were helped by an [lwn.net article](https://lwn.net/Articles/822568/) hitting #1 on HackerNews.
+* 👩 **26k visitors (+3%)***:* We were helped by an [lwn.net article](https://lwn.net/Articles/822568/) hitting #1 on HackerNews. [See our full stats](https://plausible.io/plausible.io?period=custom&from=2020-06-01&to=2020-06-30).
 
 This month was a great step towards our vision of [building a sustainable business ](https://plausible.io/blog/open-source-funding) around an open-source analytics tool. I love the fact that people are now hosting Plausible themselves and we’re starting to receive more community contributions.
 
@@ -59,7 +59,7 @@ This setup is not ideal, but none of these issues seem like ‘the house is on f
 
 ### What’s next?
 
-One of my goals for June was to deploy at least one new feature/metric. I missed that goal as I spent the whole month working on our hosting situation and dealing with other issues that ca me up.
+One of my goals for June was to deploy at least one new feature/metric. I missed that goal as I spent the whole month working on our hosting situation and dealing with other issues that came up.
 
 My next month will be dedicated to product development. I haven’t checked something off our product roadmap for a while and I’m really looking forward to getting back into it. 
 
