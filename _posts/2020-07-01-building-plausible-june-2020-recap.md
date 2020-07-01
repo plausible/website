@@ -26,10 +26,9 @@ Since moving from Postgres to Clickhouse, we’ve been able to accommodate much 
 
 For some businesses I would recommend doing direct sales for a long time to figure out what people are willing to pay for your product. However, our market is already established and we want to keep our pricing extremely simple and transparent from the start.
 
-Instead of trying to find some ‘willingness to pay’ sweet-spot, we instead opted to just come up with some cold math for the pricing curve. Looking at competitors and based on our own gut-feel we thought the ratio should be that for every doubling of traffic we increase the price by 1.5x. With this logic we came up with the following tiers:
+Instead of spending too much time in price negotiations with bigger clients, we opted to just come up with some simple math for the pricing curve. Looking at competitors and based on our own gut-feel we thought the ratio should be that for every doubling of traffic we increase the price by 1.5x. With this logic we came up with the following tiers:
 
 | Pageviews | Cost   |
-|—————|————|
 |10k       |  $6/mo|
 |100k      |  $12/mo| 
 |200k      |  $18/mo|
