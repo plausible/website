@@ -27,7 +27,7 @@ Let's take a deeper look at the server logs vs JavaScript-based web analytics.
 
 To learn more about the differences in the data between these approaches, I've compared the data between [Plausible Analytics](https://plausible.io/) as a client-side analytics and [AWStats](https://www.awstats.org/) as a server-side analytics on my own website in June 2020.
 
-### My process
+### Comparison from my own website
 
 With access to your server logs, you can feed the logs into server log analysis tools such as AWStats, Analog, GoAccess and Webalizer to get a dashboard with charts and graphs. This is exactly what I've done. There are [many other server-side analytics providers](https://plausible.io/blog/google-analytics-alternatives) depending on where you host your site. Netlify and Cloudflare are some of the examples.
 
