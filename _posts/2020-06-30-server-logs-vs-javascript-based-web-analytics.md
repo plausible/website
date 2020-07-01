@@ -179,7 +179,9 @@ But this is not what privacy-friendly, JavaScript-based web analytics such as Pl
 
 Privacy-friendly web analytics tools such as Plausible Analytics have more in common with server logs than they do with Google's surveillance capitalism tools.
 
-I would actually say that server logs record and display more personal information than a tool such as Plausible Analytics. Server log analysis on my server using AWStats show all visitor IP addresses and the number of times they have accessed my site.
+I would actually say that server logs record and display more personal information than a tool such as Plausible Analytics. Server log analysis on my server using AWStats show all visitor IP addresses, the number of times they have accessed my site and the last time they have visited.
+
+![Visitor IP addresses in AWStats](/uploads/awstats-hosts.png "Visitor IP addresses in AWStats")
 
 Here's a quick summary on Plausible Analytics and the [way it differs from tools such as Google Analytics](https://plausible.io/vs-google-analytics):
 
