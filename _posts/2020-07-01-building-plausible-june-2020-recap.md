@@ -7,6 +7,8 @@ description: June was easily the best month of all time for Plausible. We added
 slug: june-2020-recap
 date: 2020-07-01T15:26:18.152Z
 author: uku-taht
+image: /uploads/plausible-traffic-in-june.png
+image-alt: "Building Plausible: June 2020 recap"
 ---
 June was easily the best month of all time for Plausible. We added some large customers and had our biggest revenue growth ever, both in absolute ($) and relative (%) terms.
 
