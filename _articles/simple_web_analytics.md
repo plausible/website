@@ -55,7 +55,7 @@ It is easy to use and understand with no training or prior experience. Everythin
 
 With Plausible, you get all the important web analytics at a glance so you can focus on creating a better site.
 
-We welcome feedback from our community. There's a [public roadmap](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc) and it's driven by the features suggested by our community members. We are available to you via email too if you have any questions or need any help.
+We welcome feedback from our community. There's a [public roadmap](https://plausible.io/roadmap) and it's driven by the features suggested by our community members. We are available to you via email too if you have any questions or need any help.
 
 We are an [open-source web analytics](https://plausible.io/open-source-website-analytics) platform too and our code is accessible to everyone so you can read and review it.
 
