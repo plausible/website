@@ -31,6 +31,7 @@ For some businesses I would recommend doing direct sales for a long time to figu
 Instead of spending too much time in price negotiations with bigger clients, we opted to just come up with some simple math for the pricing curve. Looking at competitors and based on our own gut-feel we thought the ratio should be that for every doubling of traffic we increase the price by 1.5x. With this logic we came up with the following tiers:
 
 | Pageviews | Cost   | w/ Annual Discount (33%)
+|---|---|---|
 |10k       |  $6/mo| $4/mo|
 |100k      |  $12/mo| $8/mo|
 |200k      |  $18/mo| $12/mo|
