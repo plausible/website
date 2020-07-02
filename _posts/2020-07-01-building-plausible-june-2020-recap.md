@@ -16,7 +16,7 @@ June was easily the best month of all time for Plausible. We added some large cu
 * 💰 **New pricing tiers for larger customers**
 * 🤖 **Moved our hosting to Digital Ocean in Germany**
 * 💵 **MRR: 1,882 (+73%)**:  Breaking revenue growth record two months in a row. Huge testament to Marko’s work on getting the word out there about us.
-* 👩 **26k visitors (+3%)***:* We were helped by an [lwn.net article](https://lwn.net/Articles/822568/) hitting #1 on HackerNews. [See our full stats](https://plausible.io/plausible.io?period=custom&from=2020-06-01&to=2020-06-30).
+* 👩 **26k visitors (+3%)***:* We were helped by an [lwn.net article](https://lwn.net/Articles/822568/) hitting #1 on HackerNews. [See our full stats for June](https://plausible.io/plausible.io?period=custom&from=2020-06-01&to=2020-06-30).
 
 This month was a great step towards our vision of [building a sustainable business ](https://plausible.io/blog/open-source-funding) around an open-source analytics tool. I love the fact that people are now hosting Plausible themselves and we’re starting to receive more community contributions.
 
@@ -30,15 +30,15 @@ For some businesses I would recommend doing direct sales for a long time to figu
 
 Instead of spending too much time in price negotiations with bigger clients, we opted to just come up with some simple math for the pricing curve. Looking at competitors and based on our own gut-feel we thought the ratio should be that for every doubling of traffic we increase the price by 1.5x. With this logic we came up with the following tiers:
 
-| Pageviews | Cost   |
-|10k       |  $6/mo|
-|100k      |  $12/mo| 
-|200k      |  $18/mo|
-|500k      |  $27/mo|
-|1m        |  $48/mo|
-|2m        |  $66/mo|
-|5m        |  $99/mo|
-|10m       | $150/mo|
+| Pageviews | Cost   | w/ Annual Discount (33%)
+|10k       |  $6/mo| $4/mo|
+|100k      |  $12/mo| $8/mo|
+|200k      |  $18/mo| $12/mo|
+|500k      |  $27/mo| $18/mo|
+|1m        |  $48/mo| $32/mo|
+|2m        |  $66/mo| $44/mo|
+|5m        |  $99/mo| $66/mo|
+|10m       | $150/mo| $100/mo|
 
 
 We don’t have bigger tiers listed yet but figuring out the next tier is not that difficult if you follow the formula. For 20m pageviews per month we’re looking at 150 * 1.50 = $225/mo.
