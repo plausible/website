@@ -49,7 +49,7 @@ We're fully open source and all our code is available on GitHub. Take a look at 
 
 #### Open to community feedback with a public roadmap
 
-We welcome feedback from our community. We have a [public roadmap](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc) driven by the features suggested by the community members and we are available to you via email or GitHub if you have any questions or need any help.
+We welcome feedback from our community. We have a [public roadmap](https://plausible.io/roadmap) driven by the features suggested by the community members and we are available to you via email or GitHub if you have any questions or need any help.
 
 #### You can open your website analytics and make the stats publicly-viewable too
 
