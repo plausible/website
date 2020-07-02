@@ -22,11 +22,13 @@ This month was a great step towards our vision of [building a sustainable busine
 
 ### Self-hosted beta
 
-We launched the beta for self-hosted Plausible. Unlike some open-core business models, Plausible is 100% open-source with no proprietary parts at all. You can install and run exactly the same code base that we use for the cloud offering. [More info in the launch post](https://plausible.io/blog/self-hosted-web-analytics-beta)
+It has always been theoretically possible to download and run the Plausible source code but now we're making it also practical with Docker. You can install and run exactly the same code base that we use for the cloud offering. [More info in the launch post](https://plausible.io/blog/self-hosted-web-analytics-beta)
 
 This is a period for people to test it out and report any issues, as well as for us to figure out how to properly roll out updates to the codebase. For example, I don't have a way to run database migrations for Clickhouse in an automated way, so the beta gives us some time to solve these issues.
 
 With the new self-hosted offering, we've been asked if we accept sponsorships. I do not believe in donations as a primary funding model but I also don't see why we should turn down money that people are offering. We're applying to Github Sponsorships so people who aren't paying for the cloud service can still support the project.
+
+Some people have also suggested that we should change our license from MIT to AGPL. This move would still allow self-hosting and even spinning up a competitor based on our source code. The main restriction in GPL is that if anyone distributes our software, it always has to be kept open-source. We need to do a lot more research on licensing and make a decision on this.
 
 ### New pricing
 
