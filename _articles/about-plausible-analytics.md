@@ -9,6 +9,8 @@ Plausible Analytics is a two-person web analytics startup based in the EU and co
 
 We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia while we work remotely and flexibly.
 
+![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
+
 ## Independent, self-funded and sustainable by the subscription fees our users pay us
 
 We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our goal is to grow a [sustainable open-source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us.
