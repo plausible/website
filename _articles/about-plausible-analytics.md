@@ -17,7 +17,7 @@ This is why Plausible Analytics Cloud is not free as in beer. Our business model
 
 When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. Since we don't make money from advertising, we need to charge a fee to keep the project development going, to stay in business, to continue putting effort into improving the project and to cover our costs.
 
-Our current MRR is $2,264 (last updated on July 16th, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
+**Our current MRR is $2,264** (last updated on July 16th, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
 
 ## Is it possible to have privacy-friendly web analytics?
 
@@ -29,7 +29,7 @@ From speaking to many website and business owners, it is evident that going with
 
 Our goal is to reduce the number of websites and businesses online that run proprietary, user-hostile and privacy-invasive web analytics products. We do that by providing them with a competitive, useful and actionable analytics product that at the same time respects the privacy of their website visitors.
 
-What makes Plausible Analytics a more privacy-friendly alternative to the average web analytics tool?
+## What makes Plausible Analytics a more privacy-friendly alternative to the average web analytics tool?
 
 * We are completely open source so anyone can view, review and inspect the code we're running to verify whether our actions match with our words
 
@@ -47,19 +47,19 @@ What makes Plausible Analytics a more privacy-friendly alternative to the averag
 
 * We do not share or send the data to any advertising companies or any other third-parties in general. The data is not monetized, mined and harvested for personal and behavioral trends. The website owner completely owns and controls the data from their website
 
-* We have an in-built feature that we recommend all website owners use to open up their stats to the public and share it on their site so their visitors and anyone else can view the data that they have access to
+* We have an in-built feature that we recommend all website owners use to open up their stats to the public and share it on their site to be fully transparent so their visitors and anyone else can view the data that they have access to
 
-See our [data policy](https://plausible.io/data-policy) for the full list of what stats we do collect, what we use it for and a more technical view on what actions we take to make Plausible Analytics privacy-friendly and compliant with the different privacy regulations.
+See our [data policy](https://plausible.io/data-policy) for the full list of data we do collect to display your web stats, which metrics we use the data for and a more technical view on what actions we take to make Plausible Analytics privacy-friendly and compliant with the different privacy regulations.
 
 ## How do you prevent Plausible Analytics from going from "Don't be evil" to "Be evil"?
 
-Plausible Analytics is a fully libre and open source startup. Everything we do is transparent and in the open. We share [our website traffic stats](https://plausible.io/plausible.io) with the public, we share our revenue with the public, we share our development work with the public and [our roadmap too](https://plausible.io/roadmap).
+Plausible Analytics is a fully libre and open source startup. Everything we do is transparent and in the open. We share [our website traffic stats](https://plausible.io/plausible.io) with the public, we share our revenue with the public, we share [our development work](https://github.com/plausible/analytics/issues) with the public and [our roadmap too](https://plausible.io/roadmap).
 
 Plausible Analytics code is [free and open source](https://github.com/plausible/analytics/) under the most permissive Massachusetts Institute of Technology (MIT) license. This means that there are no restrictions on redistributing, modifying or using Plausible Analytics for any reason. You can take it and use it any way that you wish.
 
 Good intentions are not always enough and being open source is the best way to prevent us from going from "Don't be evil" to "Be evil". Our code is not proprietary and our users are not locked down so we have to be the best business running this codebase. The threat of forking is a real threat and if we make some evil choices or sell out to some evil corp, you can take the code and have your own Plausible Analytics. This keeps us honest.
 
-Imagine if you had the same choice with your favorite proprietary and closed source app so if they decided to change the strategy, to make user-hostile decisions or to sell out to an evil corporation, the community could simply take over and keep alive the product that they love while ignoring the new development. You can do that with Plausible Analytics.
+Imagine if you had the same choice with your favorite proprietary and closed source app so if they decided to change the strategy, to make user-hostile decisions or to sell out to a corporation with different beliefs, the community could simply take over and keep alive the product that they love while ignoring the new development. You can do that with Plausible Analytics.
 
 ## Is there an ethical way to do marketing for a startup?
 
