@@ -1,8 +1,7 @@
 ---
 layout: article
 title: About Plausible Analytics
-description:
-Plausible Analytics is an open-source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn’t come from the AdTech world. Learn more about us.
+description: Plausible Analytics is an open-source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn’t come from the AdTech world. Learn more about us.
 permalink: /about
 ---
 
