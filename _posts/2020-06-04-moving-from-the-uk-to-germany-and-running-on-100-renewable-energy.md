@@ -9,15 +9,11 @@ author: marko-saric
 image: /uploads/plausible-analytics.png
 image-alt: Plausible is now made in, run from and stored in the EU
 ---
-In the last few weeks, we've spent most of our efforts on behind the scenes projects and improvements. Here's the summary of the progress that we've already [informed you](https://plausible.io/blog/may-2020-recap) about:
+We have now moved all of the website data from servers in the UK to servers in Germany.
 
-* We were able to reduce the Plausible Analytics script from 1.4 KB to 679 B so everyone can have an even faster loading site
-* Your website stats dashboard is much faster to load now. You'll notice the dashboard loading some 3 seconds faster for the average site and for those with higher visitor numbers the difference will be even larger
-* We can now accommodate order of magnitude larger websites too with tens of millions of page views per month in traffic numbers. If you have a large website and want to test our simple, lightweight and privacy friendly alternative to Google Analytics, do [sign up for a free trial](https://plausible.io/register)
+This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK. 
 
-Concluding our back-end development efforts at this time, we have now moved all of the website data from servers in the UK to servers in Germany. 
-
-This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK. And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. 
+And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. 
 
 Let's look closer at these details.
 
@@ -36,7 +32,7 @@ Some members of the community raised concern that our database, customer and sit
 
 So now all the data is hosted, stored and processed on a server in Germany that complies with and will continue to comply with strict European Union privacy laws. Germany is not part of the Five Eyes but is part of Fourteen Eyes which should be less bad. But again our priority is to not collect and store anything personal so this is less of a concern.
 
-Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the GDPR and other strong European and German privacy standards, laws and regulations even after the Brexit. Plausible Analytics is now fully made in, run from and stored in the EU!
+Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit. Plausible Analytics is now fully made in, run from and stored in the EU!
 
 ## Moving to being 100% powered by renewable energy
 
