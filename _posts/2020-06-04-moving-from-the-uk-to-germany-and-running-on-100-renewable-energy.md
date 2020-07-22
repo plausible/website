@@ -15,8 +15,6 @@ This makes us more comfortable in the long run in terms of data security and pri
 
 And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. Let's look closer at these details.
 
-![Plausible is now made in, run from and stored in the EU](/uploads/plausible-analytics.png "Plausible is now made in, run from and stored in the EU")
-
 ## Moving the data to Germany
 
 Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we do store such as your website traffic stats is kept fully secured and encrypted. You can read more about it on [our about page](https://plausible.io/about).
