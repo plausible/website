@@ -6,6 +6,8 @@ description: A look into our server move to Germany. And we're now powered by
 slug: made-in-eu
 date: 2020-06-04T10:13:10.546Z
 author: marko-saric
+image: /uploads/plausible-analytics.png
+image-alt: Plausible is now made in, run from and stored in the EU
 ---
 In the last few weeks, we've spent most of our efforts on behind the scenes projects and improvements. Here's the summary of the progress that we've already [informed you](https://plausible.io/blog/may-2020-recap) about:
 
