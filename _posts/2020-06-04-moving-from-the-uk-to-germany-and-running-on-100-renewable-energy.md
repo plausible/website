@@ -59,7 +59,7 @@ After using Google Analytics for many years we believe we have created a better 
 * [Fully open source](https://plausible.io/open-source-website-analytics) with the code available on GitHub
 * Simple to understand and get insights from in one minute
 * A lightweight script of under 1 KB so your site keeps loading fast
-* Doesn’t use cookies so there’s no need for cookie banners
+* [Doesn’t use cookies](https://plausible.io/blog/google-analytics-cookies) so there’s no need for cookie banners
 * Doesn’t collect personal data so no need for GDPR and CCPA consent prompts
  
 If this sounds interesting, do [register for a trial](https://plausible.io/register). Our script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days, there are no restrictions on the usage and no credit card is required either.
