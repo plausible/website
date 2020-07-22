@@ -6,16 +6,16 @@ description: A look into our server move to Germany. And we're now powered by
 slug: made-in-eu
 date: 2020-07-22T13:30:01.532Z
 author: marko-saric
-image: /uploads/plausible-analytics.png
-image-alt: Plausible is now made in, run from and stored in the EU
+image: ""
+image-alt: ""
 ---
 We have now moved all of the website data from servers in the UK to servers in Germany.
 
 This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK.
 
-And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. 
+And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. Let's look closer at these details.
 
-Let's look closer at these details.
+![Plausible is now made in, run from and stored in the EU](/uploads/plausible-analytics.png "Plausible is now made in, run from and stored in the EU")
 
 ## Moving the data to Germany
 
