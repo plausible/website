@@ -24,7 +24,7 @@ Let's look closer at these details.
 
 ## Moving the data to Germany
 
-Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we do store such as your website traffic stats is kept fully secured and encrypted.
+Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we do store such as your website traffic stats is kept fully secured and encrypted. You can read more about it on [our about page](https://plausible.io/about).
 
 Some members of the community raised concern that our database, customer and site data was hosted on a server in the UK. Especially with the concerns about how Brexit will impact GDPR and other privacy laws in the UK, it made sense to move the data to the European Union to ensure being covered by its strict laws on data privacy in the future.
 
