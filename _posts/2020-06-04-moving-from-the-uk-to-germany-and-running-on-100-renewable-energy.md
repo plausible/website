@@ -11,7 +11,7 @@ image-alt: Plausible is now made in, run from and stored in the EU
 ---
 We have now moved all of the website data from servers in the UK to servers in Germany.
 
-This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK. 
+This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK.
 
 And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. 
 
