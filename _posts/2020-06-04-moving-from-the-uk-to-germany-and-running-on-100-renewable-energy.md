@@ -4,7 +4,7 @@ title: Moving Plausible to Germany and running on 100% renewable energy
 description: A look into our server move to Germany. And we're now powered by
   sustainable energy. Plausible is now made in, run from and stored in the EU.
 slug: made-in-eu
-date: 2020-06-04T10:13:10.546Z
+date: 2020-07-22T13:30:01.532Z
 author: marko-saric
 image: /uploads/plausible-analytics.png
 image-alt: Plausible is now made in, run from and stored in the EU
