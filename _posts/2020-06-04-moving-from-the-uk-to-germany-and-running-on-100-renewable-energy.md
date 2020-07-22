@@ -6,8 +6,8 @@ description: A look into our server move to Germany. And we're now powered by
 slug: made-in-eu
 date: 2020-07-22T13:30:01.532Z
 author: marko-saric
-image: ""
-image-alt: ""
+image: /uploads/google-analytics-alternatives.png
+image-alt: Plausible is now made in, run from and stored in the EU
 ---
 We have now moved all of the website data from servers in the UK to servers in Germany.
 
