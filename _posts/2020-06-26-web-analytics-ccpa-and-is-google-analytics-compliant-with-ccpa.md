@@ -4,7 +4,7 @@ title: Web analytics, CCPA and is Google Analytics compliant with CCPA?
 description: What is CCPA and how does it affect website analytics? And how can
   I make Google Analytics compliant with the CCPA?
 slug: google-analytics-ccpa
-date: 2020-06-26T07:35:59.363Z
+date: 2020-07-27T09:35:07.752Z
 author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Web analytics, CCPA and is Google Analytics compliant with CCPA?
