@@ -1,5 +1,3 @@
 /feedback https://github.com/plausible/analytics/issues
 /roadmap https://github.com/plausible/analytics/projects/1
-https://competent-benz-12aade.netlify.app/* https://docs.plausible.io/:splat 301!
-http://competent-benz-12aade.netlify.app/* https://docs.plausible.io/:splat 301!
 /* http://161.35.214.234/:splat 200
