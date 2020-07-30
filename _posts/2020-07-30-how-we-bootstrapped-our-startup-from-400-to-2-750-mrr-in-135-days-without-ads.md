@@ -9,7 +9,7 @@ author: marko-saric
 image: /uploads/startup-marketing.png
 image-alt: How we bootstrapped our startup
 ---
-The last few months have been remarkable for Plausible Analytics. We got more than 180,000 visitors in this period which is a 2,200% increase compared to the prior period. We also saw a 980% increase in trial signups and a 690% increase in subscribers. 
+The last few months have been remarkable for Plausible Analytics. We got more than 180,000 visitors in this period which is a 2,200% increase compared to the prior period. We also saw a 10x more trial signups and a 690% increase in subscribers.
 
 As we're bootstrapped, all this was done without any paid advertising, affiliate marketing and other sponsorships. Here's a brief overview of our recent growth:
 
@@ -18,7 +18,7 @@ As we're bootstrapped, all this was done without any paid advertising, affiliate
 * May 27th: $1,000 MRR
 * June 11th: 200 paying subscribers
 * July 6th: Reached $2,000 MRR and 300 paying subscribers
-* July 30th: 2,750 MRR and 427 paying subscribers
+* July 30th: $2,750 MRR and 427 paying subscribers
 
 Our conversion rate is incredibly high. We have a 30-day free trial with no credit card upfront. Our trial to paid conversion rate for April and May cohorts combined is 33.5%.
 
@@ -45,7 +45,7 @@ It is much easier to promote a product if it rides a wave of growing market inte
 
 * [GDPR](https://plausible.io/blog/google-analytics-gdpr), [CCPA](https://plausible.io/blog/google-analytics-ccpa) and other privacy regulations have certain requirements for website owners around needing to give visitors options and get their consent
 
-* Having a [fast loading and speedy website](https://plausible.io/lightweight-web-analytics) makes the user experience much better especially on mobile phones and it is even a signal for search engine algorithms
+* Having a fast loading and speedy website makes the user experience much better especially on mobile phones and it is even a signal for search engine algorithms
 
 Plausible Analytics provides a great and simple solution for all of the above. It is privacy-first, compliant with the different regulations and 45 times lighter than the market leader.
 
@@ -114,13 +114,13 @@ You may believe that people love your product and that they'll check it every da
 
 We didn't stop at changing the home page copy. The old home page only had the front page. We added several more product pages which were not necessary just selling the product but were more focused around the different needs people have and how Plausible Analytics is built to help with those.
 
-From using Google Analytics ourselves in the past to speaking to other Google Analytics users, we came up with several different categories and pain points where we believe we have a valid alternative:
+From using Google Analytics ourselves in the past to speaking to other Google Analytics users, we came up with several different categories and pain points where we believe we have a valid alternative. Here are some examples of pages we published:
 
 * [Ease of use](https://plausible.io/simple-web-analytics) - Google Analytics is famous for having hundreds of different reports/metrics and many people struggle to understand and get value from it. Our tool gives all metrics at a glance.
 
-* Website speed - Google Analytics tracks a lot of data so if you insert their scripts on your site, it may affect the page loading speed. Our tool weighs less than 1 KB so tiny impact on site speed.
+* [Website speed](https://plausible.io/lightweight-web-analytics) - Google Analytics tracks a lot of data so if you insert their scripts on your site, it may affect the page loading speed. Our tool weighs less than 1 KB so tiny impact on site speed.
 
-* Privacy regulations - Google Analytics uses cookies and tracks personal data so your site needs to have cookie banner and prompts to get GDPR consent too. Our tool is compliant with the privacy regulations out of the box.
+* [Privacy regulations](https://plausible.io/data-policy) - Google Analytics uses cookies and tracks personal data so your site needs to have cookie banner and prompts to get GDPR consent too. Our tool is compliant with the privacy regulations out of the box.
 
 And a few more such as one focused on [how we help agencies and freelancers](https://plausible.io/for-freelancers-agencies) better serve their client. We then added a page for each of these. 8 pages in total with more than 1,000 words in each. Full of interesting and useful content rather than salesy stuff. You can find them all in our top menu.
 
@@ -128,7 +128,9 @@ This helps make our site more complete, gives potential customers more informati
 
 ## Start publishing interesting blog posts
 
-Then we started publishing [blog posts](https://plausible.io/blog). I published my first Plausible blog post on April 8th. We've now published 15 blog posts since the start of April which makes it approximately one per week. Again, none of these posts were salesy and promotional. 
+Then we started publishing [blog posts](https://plausible.io/blog). I published my first blog post on April 8th and it was titled "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". That went well across the different communities. 
+
+Our more recent post on ways to [fund open source projects](https://plausible.io/blog/open-source-funding) has done just as well. We've now published 15 blog posts since the start of April which makes it approximately one per week. Again, none of these posts were salesy and promotional. 
 
 They all focused on a pain point, a question people have or a trending but relevant topic. The main idea is always to include a lot of useful and interesting information first, to answer the questions people have, to solve their issues and indirectly introduce them to Plausible Analytics.
 
@@ -184,11 +186,9 @@ Hopefully this can inspire you to new ways that you can drive traffic to your st
 
 ### Hacker News 43.6K
 
-The first blog post I published since joining Plausible as a co-founder was "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)" and that went well across the different communities. Our more recent post on ways to [fund open source projects](https://plausible.io/blog/open-source-funding) has done just as well.
+We got lucky that couple of the blog posts that we submitted to Hacker News ourselves picked up by the community, upvoted and discussed. They could have just as well been completely forgotten with no upvotes in the first few minutes.
 
-We got lucky that after we submitted the posts to Hacker News ourselves, the community there picked them up, upvoted them and started a discussion.
-
-They could have just as well been completely forgotten with no upvotes in the first few minutes. Sometimes you need a bit of luck. The first post and the fact that we got so much discussion and so many visitors from Hacker News helped kick-start our growth. 
+Sometimes you need a bit of luck. The first post and the fact that we got so much discussion and so many visitors from Hacker News helped kick-start our growth. 
 
 So the lesson is to publish the best stuff that you can and give yourself a chance to get a lucky break by submitting and sharing it with relevant communities. You cannot simply publish and wait for people to come and find you. Go out there and find them.
 
