@@ -22,7 +22,7 @@ As we're bootstrapped, all this was done without any paid advertising, affiliate
 
 Our conversion rate is incredibly high. We have a 30-day free trial with no credit card upfront. Our trial to paid conversion rate for April and May cohorts combined is 33.5%.
 
-![Our MRR growth to date](https://plausible.io/uploads/mrr-growth.png)
+![Our MRR growth to date](/uploads/mrr-growth.png)
 
 This post will focus on all the actions we took since I joined Plausible Analytics as a co-founder to focus on the communication and marketing side of things. Let's start.
 
@@ -98,7 +98,7 @@ We improved the design too and included a large image close to the top that show
 
 We went [from this](https://web.archive.org/web/20200312031224/https://plausible.io) where the main headline was: "Simple analytics for your website", to what you see on our home page right now where the headline is "Simple and privacy-friendly alternative to Google Analytics".
 
-![Old home page](https://plausible.io/uploads/old-home-page.png)
+![Old home page](/uploads/old-home-page.png)
 
 ## Keep it simple and keep communication direct and clear
 
@@ -144,7 +144,7 @@ Between these three sections, there's also a lot of questions to answer and othe
 
 We went from getting just over 400 clicks in the period before April and more than 6,000 in the period since. Many of these articles are now slowly sending us a click or two from Google every day which accumulates. And most importantly they help us rank our home page too. [You can see here](https://plausible.io/plausible.io/referrers/Google?period=custom&from=2020-04-01&to=2020-07-30) the list of keyword phrases people found us with on Google.
 
-![The list of keyword phrases](https://plausible.io/uploads/keyword-phrases.png)
+![The list of keyword phrases](/uploads/keyword-phrases.png)
 
 ## Talk to people
 
@@ -176,7 +176,7 @@ This introduces us to new people, helps us get great feedback and in many cases 
 
 ## A look at our top referral sources
 
-![A look at our top referral sources](https://plausible.io/uploads/top-traffic-sources.png)
+![A look at our top referral sources](/uploads/top-traffic-sources.png)
 
 Many startup founders struggle to figure out what to do to get some attention and drive some traffic when starting. Here's the list of our top 10 referral sources and some comments on each. You can also see it on our [open stats dashboard](https://plausible.io/plausible.io/referrers?period=custom&from=2020-04-01&to=2020-07-30). 
 
@@ -218,7 +218,7 @@ The reason is that Google search traffic is of very high quality. People are sea
 
 This shows in our Google traffic which has the longest visit duration of all the top traffic sources with more than 3 minutes on average and which is also the number one source of our trial signups by far. You can see here the list of our [best sources of trial signups](https://plausible.io/plausible.io?period=custom&goal=Signup&from=2020-04-01&to=2020-07-30). 
 
-![Best sources of trial signups](https://plausible.io/uploads/top-sources-trial-signups.png)
+![Best sources of trial signups](/uploads/top-sources-trial-signups.png)
 
 ### Indie Hackers 4.8K
 
