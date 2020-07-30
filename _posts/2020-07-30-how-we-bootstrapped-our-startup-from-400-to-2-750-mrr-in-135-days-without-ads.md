@@ -172,7 +172,7 @@ Many startup founders struggle to figure out what to do to get some attention an
 
 Hopefully this can inspire you to new ways that you can drive traffic to your startup too.
 
-### 1. Hacker News 43.6K
+### Hacker News 43.6K
 
 The first blog post I published since joining Plausible as a co-founder was "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)" and that went well across the different communities. Our more recent post on ways to [fund open source projects](https://plausible.io/blog/open-source-funding) has done just as well.
 
@@ -182,7 +182,7 @@ They could have just as well been completely forgotten with no upvotes in the fi
 
 So the lesson is to publish the best stuff that you can and give yourself a chance to get a lucky break by submitting and sharing it with relevant communities. You cannot simply publish and wait for people to come and find you. Go out there and find them.
 
-### 2. Twitter 10K
+### Twitter 10K
 
 Twitter is a great source of referral traffic. If Hacker News gives you thousands of visitors within several hours, Twitter is something that can give you a few visitors every day consistently if you follow the method I'll describe. 
 
@@ -190,7 +190,7 @@ We posted [our first tweet](https://twitter.com/PlausibleHQ/) on May 18th and ha
 
 When starting, your audience will be small (we only have 674 followers at the time of writing) but that doesn't have to stop you. I would recommend you focus less on the number of followers and more on engaging with people. 
 
-### 3. Facebook 6.4K
+### Facebook 6.4K
 
 We don't have an official Facebook page. And neither of us are Facebook users. This is completely organic as people share our blog posts on the different Facebook pages and communities. 
 
@@ -200,7 +200,7 @@ DuckDuckGo promoted our "remove Google Analytics" post and the "low" quality tra
 
 Facebook can work in a similar way to Twitter though. There are many Facebook groups and by finding those relevant to your product, you can start engaging within those groups and start getting some attention.
 
-### 4. Google 6.3K
+### Google 6.3K
 
 Google search traffic is the holy grail of organic traffic for many startups. A lot of focus is spent on doing search engine optimization and trying to rank for the different search queries. 
 
@@ -208,7 +208,7 @@ The reason is that Google search traffic is of very high quality. People are sea
 
 This shows in our Google traffic which has the longest visit duration of all the top traffic sources with more than 3 minutes on average and which is also the number one source of our trial signups by far. You can see here the list of our [best sources of trial signups](https://plausible.io/plausible.io?period=custom&goal=Signup&from=2020-04-01&to=2020-07-30). 
 
-### 5. Indie Hackers 4.8K
+### Indie Hackers 4.8K
 
 Indie Hackers community has been great to us! We're regularly posting our latest milestones and other updates but what's the key part of this is the fact that many of our users have decided to share us on Indie Hackers too.
 
@@ -216,7 +216,7 @@ Be it by responding and recommending Plausible in different threads to even star
 
 That has been amazing to see! We are grateful to everyone who shares Plausible Analytics as without people spreading the word about us it would be difficult for us to grow and achieve our goal of reducing the number of websites and businesses online that run proprietary, user-hostile and privacy-invasive web analytics.
 
-### 6. GitHub 2.7K
+### GitHub 2.7K
 
 We're an open source project and everything we do such as our development and our feature roadmap is [hosted on GitHub](https://github.com/plausible/analytics/). 
 
@@ -224,17 +224,17 @@ GitHub is a big community and a big "social network" in the first place so by be
 
 GitHub is our third best source of trial signups too.
 
-### 7. Hacker Newsletter 2.6K
+### Hacker Newsletter 2.6K
 
 This came completely organic as we were featured in the Hacker Newsletter for being one of the trending posts on Hacker News that week. Get onto Hacker News and chances are you'll be getting extra traffic from other sources such as the Hacker Newsletter too.
 
-### 8. LWN.net 2.6K
+### LWN.net 2.6K
 
 Another completely organic mention. Ben Hoyt posted an article about lightweight alternatives to Google Analytics and featured Plausible as one of the two recommended alternatives. 
 
 How Ben heard about Plausible I don't know (chances are he might have read one of our blog posts) but it was amazing to be featured in his post which was widely shared on Hacker News and other tech communities.
 
-### 9. Reddit 2.2K
+### Reddit 2.2K
 
 Reddit can be a great source of traffic. We submitted some of our posts ourselves while some of our highest upvoted posts were submitted by others too. 
 
@@ -242,7 +242,7 @@ Communities such as /r/degoogle, /r/opensource and /r/webdev have been good to u
 
 Reddit can be used in similar ways like Twitter and Facebook. You can use Reddit search to look for threads relevant to your startup and the problems you are solving, then you can join those threads and engage with the people.
 
-### 10. Dev.to 2.2K
+### Dev.to 2.2K
 
 Dev.to is another great and friendly tech community. Our activity there is in the form of syndication of some of our blog content.
 
