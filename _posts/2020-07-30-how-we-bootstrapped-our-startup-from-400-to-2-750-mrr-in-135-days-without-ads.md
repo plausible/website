@@ -22,6 +22,8 @@ As we're bootstrapped, all this was done without any paid advertising, affiliate
 
 Our conversion rate is incredibly high. We have a 30-day free trial with no credit card upfront. Our trial to paid conversion rate for April and May cohorts combined is 33.5%.
 
+![Our MRR growth to date](https://plausible.io/uploads/mrr-growth.png)
+
 This post will focus on all the actions we took since I joined Plausible Analytics as a co-founder to focus on the communication and marketing side of things. Let's start.
 
 1. Ordered list
