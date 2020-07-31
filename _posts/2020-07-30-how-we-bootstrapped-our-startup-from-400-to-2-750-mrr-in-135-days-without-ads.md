@@ -5,7 +5,7 @@ description: How we grow our startup without any paid advertising, affiliate
   marketing and other sponsorships. All the steps we took and our best traffic
   sources are included.
 slug: startup-marketing
-date: 2020-07-30T09:50:49.726Z
+date: 2020-07-31T08:38:29.798Z
 author: marko-saric
 image: /uploads/startup-marketing.png
 image-alt: How we bootstrapped our startup
