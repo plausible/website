@@ -12,7 +12,7 @@ image-alt: How we bootstrapped our startup
 ---
 The last few months have been remarkable for Plausible Analytics. We got more than 180,000 visitors in this period which is a 2,200% increase compared to the prior period. We also saw 10x more trial signups and a 690% increase in subscribers.
 
-As we're bootstrapped, all this was done without any paid advertising, affiliate marketing and other sponsorships. Here's a brief overview of our recent growth:
+As we're bootstrapped, all this was done without any paid advertising, affiliate marketing and other sponsorships. We've focused on organic ways to drive brand awareness and business growth. Here's a brief overview of our recent milestones:
 
 * April 2nd: We announced that we reached $415 MRR
 * May 12th: Reached 100 paying subscribers in 364 days since we opened up for subscriptions
