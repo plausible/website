@@ -2,14 +2,15 @@
 layout: post
 title: How we bootstrapped our startup from $400 to $2,750 MRR in 135 days without ads
 description: How we grow our startup without any paid advertising, affiliate
-  marketing and other sponsorships.
+  marketing and other sponsorships. All the steps we took and our best traffic
+  sources are included.
 slug: startup-marketing
 date: 2020-07-30T09:50:49.726Z
 author: marko-saric
 image: /uploads/startup-marketing.png
 image-alt: How we bootstrapped our startup
 ---
-The last few months have been remarkable for Plausible Analytics. We got more than 180,000 visitors in this period which is a 2,200% increase compared to the prior period. We also saw a 10x more trial signups and a 690% increase in subscribers.
+The last few months have been remarkable for Plausible Analytics. We got more than 180,000 visitors in this period which is a 2,200% increase compared to the prior period. We also saw 10x more trial signups and a 690% increase in subscribers.
 
 As we're bootstrapped, all this was done without any paid advertising, affiliate marketing and other sponsorships. Here's a brief overview of our recent growth:
 
@@ -31,17 +32,17 @@ This post will focus on all the actions we took since I joined Plausible Analyti
 
 ## Start with a product that sells itself
 
-Uku has built a great product that helps promote itself and makes the marketing job much easier.
+My co-founder Uku has built a great product that speaks for itself and makes the marketing job much easier.
 
-It is simple to use, it is beautiful to look at and it naturally differentiates itself as a [great Google Analytics alternative](https://plausible.io/vs-google-analytics) in several ways. All this helps communicating about the benefits of using the product. And it helps with word-of-mouth as many of the users love the product so much that they end up sharing it with their friends and networks.
+It is simple to use, beautiful to look at and naturally differentiates itself as a [great Google Analytics alternative](https://plausible.io/vs-google-analytics) in several ways. All this helps when communicating about the benefits of using the product. And it drives word-of-mouth as many of the users love the product so much that they share it with their friends and networks.
 
-If the product is not differentiated from the rest of the market, it makes marketing so much more difficult. That puts the marketing people in a situation where they have to get very creative with the copy and promises they make which are not necessarily based on the facts and that is bound to overpromise and underdeliver. 
+If the product is not easily differentiated from the rest of the market, it makes marketing so much more difficult. That puts the marketing people in a situation where they have to get very creative with the copy which is not necessarily based on the facts. That is bound to overpromise and underdeliver. We don't have those problems.
 
 ## Ride the wave
 
-It is much easier to promote a product if it rides a wave of growing market interest. And Plausible Analytics is riding a rising trend:
+It is much easier to promote a product if it rides a wave of a growing market interest. And Plausible Analytics is riding a rising trend:
 
-* People are becoming more aware of the different privacy issues around websites and analytics
+* More website owners are becoming increasingly aware of the different privacy issues around websites analytics and user tracking
 
 * [GDPR](https://plausible.io/blog/google-analytics-gdpr), [CCPA](https://plausible.io/blog/google-analytics-ccpa) and other privacy regulations have certain requirements for website owners around needing to give visitors options and get their consent
 
@@ -49,21 +50,21 @@ It is much easier to promote a product if it rides a wave of growing market inte
 
 Plausible Analytics provides a great and simple solution for all of the above. It is privacy-first, compliant with the different regulations and 45 times lighter than the market leader.
 
-## Main marketing decision is about saying no to options
+## Main marketing decision is about which options to say no to
 
-Some marketers embrace the "be everywhere" approach. They are represented on all the main social media platforms, they chase the upcoming channels and so on.
+Some marketers embrace the "be everywhere" approach. They are represented on all the main social media networks, they chase the growth on upcoming platforms and so on.
 
-As a bootstrapped startup, resources are limited. You simply don't have enough time, money nor people to do everything, be everywhere and follow all the recommended marketing practices. You need to pick your battles, choose a selected few tactics and say no to the majority of "best practices".
+As a bootstrapped startup, resources are limited. You simply don't have enough time, money nor people to do everything, be everywhere and follow all the recommended marketing practices.
 
-Here's what we do:
+**Here's what we do:**
 
-* We only have active social profiles on Twitter and Mastodon
-* We put the majority of our effort into content
+* We only have active social media profiles on [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible)
+* We put the majority of our marketing efforts into creating and publishing content
 
-And what we don't do:
+**And here's what we don't do:**
 
 * We don't do paid advertising
-* We don't track your every step and every click looking at your sessions
+* We don't track your every step and every click watching your sessions
 * We don't do A/B testing
 * We don't have spy pixels from Facebook and Google so we can retarget you
 * We don't try and collect your data in exchange for some freebies
@@ -74,15 +75,29 @@ And what we don't do:
 
 There is nothing inherently wrong with some of the above and these tactics can be very successful for some startups but they all take a lot of time to be implemented properly.
 
-And that's difficult to achieve especially if you’re just starting out or if you're a bootstrapped startup with limited human resources. If you try to follow all the best practices and be on all the platforms, you may very well end up not doing any of them well enough and failing. 
+And that's difficult to achieve especially if you’re just starting out or if you're a bootstrapped with limited human resources. If you try to follow all the best practices and do everything, you may very well end up not doing any of it well enough and failing.
 
-You don’t need to do everything. Choose a few tactics that make sense to you and ignore everything else until you have more capacity. But those tactics that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
+You need to pick your spots, choose a selected few tactics that make sense to you and ignore everything else until you have more capacity. Those tactics that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
 
-## Be very clear and direct in your positioning in the market
+## Understand the audience you are trying to reach
 
 I started working with Uku on March 16th this year. The first actionable step we took was to address the home page and the positioning of the product. To do this, you need to have a good understanding of the market you are in, what the needs of the market are and the position that your product plays in the market.
 
-You can know this by being a part of that market yourself and making a product that fills your needs. Or you can do market research to understand what the demand is and what gaps there are.
+You can do market research to understand what the demand is and what gaps there are. It helps that you think like the audience you’re trying to reach, that you’ve had a similar experience, been in a similar position and that you can be in their shoes. Think about your target audience:
+
+* Who are they?
+* Where are they spending their time online?
+* What questions do they want to get answered?
+* What issues do they face?
+* What are their pain points?
+
+## Position your startup against a market leader
+
+You really need to work hard on figuring out what makes you stand out in the crowded market. What makes you different from the other products in your industry. The common angle of looking at a market is no longer of any real interest. You should add an angle on an angle.
+
+* Do you make boring concepts exciting?
+* Do you make complicated things simple?
+* Do you make intimidating solutions painless?
 
 The best way to position your startup is against something that many people are aware of. Pretending that a popular competitor and a market leader doesn't exist is something I've noticed many startups do. It's a mistake. 
 
@@ -100,19 +115,19 @@ We went [from this](https://web.archive.org/web/20200312031224/https://plausible
 
 ![Old home page](/uploads/old-home-page.png)
 
-## Keep it simple and keep communication direct and clear
+## Keep it simple, stupid and make the communication direct and clear
 
-In addition to the changes to the home page, we tried to make the communication as clear as possible and we tried to simplify whatever we could. All this helps get the message across to more people and helps them have a nicer and more efficient user experience.
+In addition to the changes to the home page, we tried to make the communication as clear as possible and we tried to simplify whatever we could. All this helps get the message across to more people and helps them have a nicer user experience.
 
-We went through every key step and looked at it from a fresh perspective. The perspective of a person just entering that page for the first time. We added frequently asked questions with some useful information. We added copy to the registration page that explained the different details around our free trial.
+We went through every key step and looked at it from a fresh perspective. The perspective of a person just entering our page for the first time. We added frequently asked questions with some useful information. We added copy to the registration page that explained the different details about our free trial.
 
-We added an email flow that everyone who signs up for a trial gets. Nothing too fancy, more informational such as telling the trialist that their trial is about to expire. 
+We added an email flow that everyone who signs up for a trial gets. Nothing too fancy, more informational such as telling the trialist that their website is now being tracked or that their trial is about to expire.
 
 You may believe that people love your product and that they'll check it every day or be aware of when their trial is expiring, and that may very well be true in some cases, but in the majority of cases, a bit of information here and there helps.
 
 ## Start publishing useful supplementary content
 
-We didn't stop at changing the home page copy. The old home page only had the front page. We added several more product pages which were not necessary just selling the product but were more focused around the different needs people have and how Plausible Analytics is built to help with those.
+We didn't stop at changing the home page copy. We added several more product pages which were not necessary just selling the product but were more focused around the different needs people have and how Plausible Analytics is built to address those.
 
 From using Google Analytics ourselves in the past to speaking to other Google Analytics users, we came up with several different categories and pain points where we believe we have a valid alternative. Here are some examples of pages we published:
 
@@ -120,11 +135,11 @@ From using Google Analytics ourselves in the past to speaking to other Google An
 
 * [Website speed](https://plausible.io/lightweight-web-analytics) - Google Analytics tracks a lot of data so if you insert their scripts on your site, it may affect the page loading speed. Our tool weighs less than 1 KB so tiny impact on site speed.
 
-* [Privacy regulations](https://plausible.io/data-policy) - Google Analytics uses cookies and tracks personal data so your site needs to have cookie banner and prompts to get GDPR consent too. Our tool is compliant with the privacy regulations out of the box.
+* [Privacy regulations](https://plausible.io/data-policy) - [Google Analytics uses cookies](https://plausible.io/blog/google-analytics-cookies) and tracks personal data so your site needs to have cookie banner and prompts to get GDPR consent too. Our tool is compliant with the privacy regulations out of the box.
 
-And a few more such as one focused on [how we help agencies and freelancers](https://plausible.io/for-freelancers-agencies) better serve their client. We then added a page for each of these. 8 pages in total with more than 1,000 words in each. Full of interesting and useful content rather than salesy stuff. You can find them all in our top menu.
+And a few more such as one focused on [how we help agencies and freelancers](https://plausible.io/for-freelancers-agencies) better serve their clients. We published 8 product pages in total with more than 1,000 words in each. Full of interesting and useful content rather than salesy stuff. You can find them all in our top menu.
 
-This helps make our site more complete, gives potential customers more information about us and gives search engines more content that they can index which gives us more ways to get discovered by more people.
+This helps make our site more complete. It gives potential users more information about us when they're doing their research. And it gives search engines more content that they can index which gives us additional ways to get discovered by more people.
 
 ## Start publishing interesting blog posts
 
@@ -132,17 +147,17 @@ Then we started publishing [blog posts](https://plausible.io/blog). I published 
 
 Our more recent post on ways to [fund open source projects](https://plausible.io/blog/open-source-funding) has done just as well. We've now published 15 blog posts since the start of April which makes it approximately one per week. Again, none of these posts were salesy and promotional. 
 
-They all focused on a pain point, a question people have or a trending but relevant topic. The main idea is always to include a lot of useful and interesting information first, to answer the questions people have, to solve their issues and indirectly introduce them to Plausible Analytics.
+They all focused on a pain point, a question people have or a trending but relevant topic. We covered many interesting topics relevant to web analytics, open source and the different privacy regulations.
 
-We covered many interesting topics relevant to web analytics, open source and the different privacy regulations. We do some research on a relevant and timely content topic and try to write a longer article that answers all the different questions people are asking about that topic. Our research is mainly based on Google's search results. 
+The main idea is always to include a lot of useful and interesting information first, to answer the questions people have, to solve their issues and indirectly introduce them to Plausible Analytics.
 
-For every post we look at these different areas of Google's website:
+We do some research on a relevant and timely content topic and try to write a longer article that answers all the different questions people are asking about that topic. Our research is mainly based on Google's search results. For every post we look at these different areas of Google's results:
 
 * Google autocomplete for search queries people search for
 * "People also ask" section which lists a lot of relevant questions people frequently ask
 * "Searches related to" gives an additional list of related topics to cover
 
-Between these three sections, there's also a lot of questions to answer and other ideas for different things to include in an article. It all helps create a longer and more complete post that looks at a topic from several different angles.
+Between these three sections, there's a lot of questions to answer and other ideas for different things to include in an article. It all helps create a longer and more complete post that looks at a topic from several different angles.
 
 We went from getting just over 400 clicks in the period before April and more than 6,000 in the period since. Many of these articles are now slowly sending us a click or two from Google every day which accumulates. And most importantly they help us rank our home page too. [You can see here](https://plausible.io/plausible.io/referrers/Google?period=custom&from=2020-04-01&to=2020-07-30) the list of keyword phrases people found us with on Google.
 
@@ -150,31 +165,33 @@ We went from getting just over 400 clicks in the period before April and more th
 
 ## Talk to people
 
-A large part of my day is spent on talking and engaging with people. This includes responding to emails, DMs and other messages that we get, but also include proactively engaging other people too.
+A large part of my day is spent on talking and engaging with people. This includes responding to emails, social media and other messages that we get, but also includes proactively reaching out to other people too.
 
 ### Reach out to relevant people
 
-Our most successful day in terms of new trial signups was on May 2nd with 94 new trialists. This was when we published a post on Opensource.com. This opportunity came from cold outreach. 
+Our most successful day in terms of new trial signups was on May 2nd with 94 new trials. This was when we published a post on Opensource.com. This opportunity came from cold outreach.
 
 Opensource.com had previously published a post about open source alternatives to Google Analytics and as that is very relevant to us we reached out to see if there was a way to get Plausible Analytics added to the list.
 
-They like our product and offered that we write a post about Plausible Analytics instead so we did.
+They liked our product and suggested that we write a post about Plausible Analytics instead and so we did.
 
-We have reached out to many other sites too. In most cases, you will be ignored but if you contact only the most relevant sites to what you're doing and you do it without trying to sell anything, you may get a decent amount of responses.
+We have reached out to several other sites too. In most cases, you will be ignored but if you do contact only the most relevant sites to what you're doing and you do it without trying to sell anything, you may get a decent rate of responses.
 
 ### Invite yourself to be a podcast guest
 
-We were invited by the Changelog team to be a guest on [their podcast](https://plausible.io/blog/changelog-podcast) after they read our post about [how one post changed the traction of our startup](https://plausible.io/blog/blog-post-changed-my-startup). This was a great opportunity for us to get our message across to a large and relevant audience. Changelog even ended up [installing Plausible Analytics on their website](https://twitter.com/PlausibleHQ/status/1262774349347672065)!
+We were invited by the Changelog team to be a guest on [their podcast](https://plausible.io/blog/changelog-podcast) after they read our post about [how one post changed the traction of our startup](https://plausible.io/blog/blog-post-changed-my-startup). 
 
-Similar to the outreach process, you could simply reach out to relevant podcasts too, tell them what's interesting about your story and invite yourself to be a guest. Or you could publish a blog post with your story, get some traffic to it and wait for the invites to start coming in.
+This was a great opportunity for us to get our message across to a large and relevant audience. Changelog even ended up [installing Plausible Analytics on their website](https://twitter.com/PlausibleHQ/status/1262774349347672065).
+
+You could reach out to relevant podcasts, tell them what's interesting about your story and invite yourself to be a guest. Or you could publish a blog post with your story, get some traffic to it and wait for the invites to start coming in.
 
 ### Engage with people looking for your solution
 
-One of the things I do is to use Twitter search to look for people that are looking for solutions to the problems that we are solving and for people talking about relevant topics to web analytics. 
+One of the things I do is to use Twitter search to find people that are looking for solutions to the problems that we are solving and for people talking about relevant topics to web analytics. 
 
 I use [TweetDeck](https://tweetdeck.twitter.com/) to search Twitter for a variety of relevant keywords about Google Analytics and I try to interact with many of those who are looking for an alternative or who have frustrations with Google Analytics.
 
-This introduces us to new people, helps us get great feedback and in many cases gets the people to give Plausible Analytics a chance. It is also one of the main reasons why Twitter is our second highest source of traffic. Here's a look at that.
+This introduces us to new people, helps us get great feedback and in many cases gets the people to give Plausible Analytics a chance. It is also one of the main reasons why Twitter is our second highest source of traffic. Let's take a look at our top traffic sources.
 
 ## A look at our top referral sources
 
@@ -266,10 +283,10 @@ And again by being a part of another website which has its community and its own
 
 ## What do we plan to do next?
 
-We plan to continue putting time and effort into what's working. In addition to that, we're always on the lookout for more niche communities that are relevant to what we're doing. We're also planning to actively look to get interviewed on more podcasts.
+That is it. Pretty much everything we have done to grow Plausible Analytics until now. We plan to continue putting time and effort into what's working. In addition to that, we're always on the lookout for more niche communities that are relevant to what we're doing. We're also planning to get interviewed on more podcasts.
 
-I hope this has helped get you inspired to get out there and do the best you can to try and get your startup in front of more eyeballs. 
+Most startup founders are self-funded and don't have a large budget to spend on paid advertising so content marketing and community engagement are perfectly suitable ways to grow. 
 
-Most indie hackers are self-funded and don't have a large budget to spend on paid advertising so content marketing and community engagement are perfectly suitable ways to grow. 
+So publish the best content that you can by answering relevant questions that real people have and then go out there into the different relevant communities and engage. By doing this you will start opening doors and start getting new opportunities.
 
-So publish the best content that you can by answering relevant questions that real people have and then go out there into the different relevant communities and engage. By doing this you will start opening doors and start getting new opportunities. Good luck!
+I hope this has helped get you inspired to get out there and do the best you can to try and get your startup in front of more eyeballs. Now it’s the time for the hard part. Doing the actual work and seeing tiny progress day after day. Good luck!
