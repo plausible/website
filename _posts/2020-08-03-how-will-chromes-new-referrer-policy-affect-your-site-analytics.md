@@ -49,13 +49,13 @@ This change means that the referrer header for cross-origin requests will be red
 
 This is an example of how referrals look like when shown with a full URL path:
 
-![Referral sources with full URL paths](https://plausible.io/uploads/full-referrer-drilldown.png)
+![Referral sources with full URL paths](/uploads/full-referrer-drilldown.png)
 
 If I link to your site on myownblog.com/best-resources/ and someone clicks on that link, in your web analytics you will be able to see visitors coming from myownblog.com but you won't see the exact page URL (myownblog.com/best-resources).
 
 So cross-origin navigation from one website to another will no longer reveal the full path or query string information. It will only reveal the top-level domain. It will look something like this:
 
-![Referral sources without full URL paths](https://plausible.io/uploads/referral-drilldown-without-paths.png)
+![Referral sources without full URL paths](/uploads/referral-drilldown-without-paths.png)
 
 This will reduce the potential of unexpected leaks of personal information as URLs on some commercial websites may contain sensitive user data.
 
