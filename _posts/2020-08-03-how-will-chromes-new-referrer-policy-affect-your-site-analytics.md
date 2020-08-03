@@ -7,6 +7,8 @@ description: In Chrome 85 Google plans to change its default referrer policy to
 slug: referrer-policy
 date: 2020-08-03T08:43:16.317Z
 author: marko-saric
+image: /uploads/chrome-referrer-policy.png
+image-alt: How will Chrome's new referrer policy affect your site analytics
 ---
 Google's Chrome browser is the most popular web browser. It has a market share of 65%. Whatever new policy Chrome implements will have an affect on all websites as chances are the majority of your visitors use Chrome too.
 
