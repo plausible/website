@@ -10,7 +10,7 @@ author: marko-saric
 image: /uploads/chrome-referrer-policy.png
 image-alt: How will Chrome's new referrer policy affect your site analytics
 ---
-Google's Chrome browser is the most popular web browser. It has a market share of 65%. Whatever new policy Chrome implements will have an affect on all websites as chances are the majority of your visitors use Chrome too.
+Google's Chrome browser is the most popular web browser. It has a market share of more than 70%. Whatever new policy Chrome implements will have an affect on all websites as chances are the majority of your visitors use Chrome too.
 
 In Chrome 85 which ships in late August 2020, Google plans to change its default referrer policy to strict-origin-when-cross-origin. 
 
