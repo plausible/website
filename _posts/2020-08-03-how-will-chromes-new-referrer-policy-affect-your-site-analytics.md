@@ -21,7 +21,7 @@ What's a referrer policy and what does **strict-origin-when-cross-origin** even 
 
 ## TL;DR: How Chrome's new referrer policy affects your analytics
 
-Web analytics products will have reduced granularity in the referral sources data. Your website analytics will still be able to show the referral source of your traffic but only on the domain level rather than the full URL. 
+[Web analytics tools](https://plausible.io/blog/google-analytics-alternatives) will have reduced granularity in the referral sources data. Your website analytics will still be able to show the referral source of your traffic but only on the domain level rather than the full URL. 
 
 For instance, if ``thatblog.com/one-post/`` links to you and sends you visitors, you will see ``thatblog.com`` in your referral sources list but won't be able to see the exact post URL itself.
 
@@ -47,13 +47,13 @@ From Google's [announcement](https://developers.google.com/web/updates/2020/07/r
 
 This change means that the referrer header for cross-origin requests will be reduced and you will see the top-level domain (TLD) only in the referral sources of your web analytics.
 
-This is an example of how referrals look like when shown with a full URL path:
+This is an example of how referrals look like when shown with a full URL path in your [Plausible Analytics](https://plausible.io) dashboard:
 
 ![Referral sources with full URL paths](/uploads/full-referrer-drilldown.png)
 
 If I link to your site on ``myownblog.com/best-resources/`` and someone clicks on that link, in your web analytics you will be able to see visitors coming from ``myownblog.com`` but you won't see the exact page URL (``myownblog.com/best-resources``).
 
-So cross-origin navigation from one website to another will no longer reveal the full path or query string information. It will only reveal the top-level domain. It will look something like this:
+So cross-origin navigation from one website to another will no longer reveal the full path or query string information. It will only reveal the top-level domain. It will look something similar to how Facebook's current referrer sources look like:
 
 ![Referral sources without full URL paths](/uploads/referral-drilldown-without-paths.png)
 
@@ -91,9 +91,9 @@ Dark traffic covers all the traffic where the referrer is not passed. There are 
 
 * Facebook referrer only includes the fact that the visitor came from Facebook. Facebook never sends the post or comment ID where someone clicked.
 
-* Twitter sets the referrer to their link shortener so you can see the shortened link but not the actual tweet that brought the traffic.
+* Twitter sets the referrer to their link shortener so you can see the shortened link but not the actual tweet that brought the traffic. Plausible Analytics makes the best effort to find the relevant tweet that the visitor came from [using the Twitter API](https://docs.plausible.io/twitter/).
     
-* Google does not include the search keywords in the referrer so you can see that the visitor is coming from Google search but you cannot see which keyword phrase they used to find you.
+* Google does not include the search keywords in the referrer so you can see that the visitor is coming from Google search but you cannot see which keyword phrase they used to find you. In Plausible Analytics, you can [integrate your Search Console data to see these search queries](https://docs.plausible.io/google-search-console-integration/).
 
 Chrome's latest change won't make a difference in dark traffic but it will create "dark traffic" within the specific referrer as you won't be able to see the exact page on the domain that is linking to you.
 
