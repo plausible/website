@@ -37,9 +37,9 @@ Chances are some websites such as publishers and blogs will change their default
 
 As a web user navigates from one site to another, servers are informed of the URL that the user is coming from. The same happens with different resources such as images and scripts within websites. A server knows the origin of the request when a request is made.
 
-This is done using the Referer header (it is missing an R due to the original misspelling). The Referer header helps the server where the resource such as an image is hosted understand which website is requesting that same resource.
+This is done using the Referer header (it is missing an R due to the original misspelling). The Referer header helps the server where the resource is hosted understand which website is requesting that same resource.
 
-So this mechanism can be very useful for many things including for website owners to understand which other websites talk about them and link to their content and where their website traffic is originating from.
+This mechanism can be very useful for many things including for website owners to understand which other websites talk about them, link to their content and where their website traffic is originating from.
 
 ## What does Chrome's new referrer policy default do?
 
@@ -51,13 +51,13 @@ This is an example of how referrals look like when shown with a full URL path in
 
 ![Referral sources with full URL paths](/uploads/full-referrer-drilldown.png)
 
-If I link to your site on ``myownblog.com/best-resources/`` and someone clicks on that link, in your web analytics you will be able to see visitors coming from ``myownblog.com`` but you won't see the exact page URL (``myownblog.com/best-resources``).
+With this new policy, if I link to your site on ``myownblog.com/best-resources/`` and someone clicks on that link, you will be able to see visitors coming from ``myownblog.com`` in your web analytics but you won't see the exact page URL (``myownblog.com/best-resources``).
 
-So cross-origin navigation from one website to another will no longer reveal the full path or query string information. It will only reveal the top-level domain. It will look something similar to how Facebook's current referrer sources look like:
+So cross-origin navigation from one website to another will no longer reveal the full path or query string information. It will only reveal the top-level domain. It will look something similar to how Facebook's current referrer sources look like. Facebook referrer only includes the fact that the visitor comes from Facebook. It doesn't send the post or comment ID where someone clicked.
 
 ![Referral sources without full URL paths](/uploads/referral-drilldown-without-paths.png)
 
-This will reduce the potential of unexpected leaks of personal information as URLs on some commercial websites may contain sensitive user data.
+The idea with this new policy is to reduce the potential of unexpected leaks of personal information as URLs on some commercial websites may contain sensitive user data.
 
 In summary:
 
@@ -81,7 +81,9 @@ You can read more about [referrer policies here](https://developer.mozilla.org/e
 
 ## The issue of dark traffic
 
-Not every request from a browser will have the referrer specified. You may be familiar with the "**(direct)/(none)**" referrer source in Google Analytics or the term "**dark traffic**" or the fact that your total visitors rarely match with the total visitors of all the referral sources combined.
+As you can see, not every request from a browser will have the referrer specified. 
+
+You may be familiar with the "**(direct)/(none)**" referrer source in Google Analytics, the term "**dark traffic**" or the fact that your total visitors rarely match with the total visitors of all the referral sources combined.
 
 Dark traffic covers all the traffic where the referrer is not passed. There are many mechanisms where the referrer is not passed:
 
@@ -95,7 +97,7 @@ Dark traffic covers all the traffic where the referrer is not passed. There are 
     
 * Google does not include the search keywords in the referrer so you can see that the visitor is coming from Google search but you cannot see which keyword phrase they used to find you. In Plausible Analytics, you can [integrate your Search Console data to see these search queries](https://docs.plausible.io/google-search-console-integration/).
 
-Chrome's latest change won't make a difference in dark traffic but it will create "dark traffic" within the specific referrer as you won't be able to see the exact page on the domain that is linking to you.
+Chrome's latest change won't make a difference in the amount of dark traffic that you see but it will create additional "dark traffic" within the specific referrer as you won't be able to see the exact page the other site is linking to you from.
 
 ## How can I set the referrer policy for my own website?
 
