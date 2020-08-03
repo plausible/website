@@ -5,7 +5,7 @@ description: In Chrome 85 Google plans to change its default referrer policy to
   strict-origin-when-cross-origin. Here's how that will affect your website
   analytics.
 slug: referrer-policy
-date: 2020-08-03T08:43:16.317Z
+date: 2020-08-03T13:05:55.629Z
 author: marko-saric
 image: /uploads/chrome-referrer-policy.png
 image-alt: How will Chrome's new referrer policy affect your site analytics
