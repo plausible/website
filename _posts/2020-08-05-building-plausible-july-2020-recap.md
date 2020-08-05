@@ -13,8 +13,8 @@ image-alt: "Building Plausible: July 2020 recap"
 This last month I’ve been able to get into a nice groove with development.  We added a couple of new metrics that should help customers understand their traffic better. 
 
 * 🚀 **Added visit duration metric**
-* 💰 **More detailed referrer drilldown**
-* 🤖 **Launched Github Sponsor page and community forum**
+* 📈 **More detailed referrer drilldown**
+* 🏛️ **Launched Github Sponsor page and community forum**
 * 💵 **MRR: $2750 (+46%) and more than 400 paying subscribers**
 * 👩 **69k visitors (+151%)**: Marko hit the Jackpot again and hit the front page of HackerNews with an article on [How to pay your rent with your open source project](https://plausible.io/blog/open-source-funding). [See our full stats for July](https://plausible.io/plausible.io?period=custom&from=2020-07-01&to=2020-07-31).
 
