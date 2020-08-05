@@ -122,7 +122,7 @@ A good place to get inspired by the different funding initiatives for open sourc
 
 ## Find what works best for your situation and your project
 
-Explore the different options and different examples in this post. The list of funding methods above doesn't mean that you have to choose and sticky to one business model only.
+Explore the different options and different examples in this post. The list of funding methods above doesn't mean that you have to choose and stick to one business model only.
 
 Ghost is a good example of a project that started with a crowdfunding campaign, later they introduced subscriptions to a premium hosted solution and now also accept donations from those who use the self-hosted version but are happy to contribute to keeping the project sustainable and the development ongoing. 
 
