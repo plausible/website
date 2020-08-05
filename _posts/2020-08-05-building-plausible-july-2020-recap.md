@@ -12,11 +12,11 @@ image-alt: "Building Plausible: July 2020 recap"
 ---
 This last month I’ve been able to get into a nice groove with development.  We added a couple of new metrics that should help customers understand their traffic better. 
 
-* 🚀 *Added visit duration metric*.
-* 💰 *More detailed referrer drilldown*
-* 🤖 *Launched Github Sponsor page and community forum*
-* 💵 *MRR: $2750 (+46%) and more than 400 paying subscribers*
-* 👩 *69k visitors (+151%)*: Marko hit the Jackpot again and hit the front page of HackerNews with an article on [How to pay your rent with your open source project](https://plausible.io/blog/open-source-funding). [See our full stats for July](https://plausible.io/plausible.io?period=custom&from=2020-07-01&to=2020-07-31).
+* 🚀 **Added visit duration metric**
+* 💰 **More detailed referrer drilldown**
+* 🤖 **Launched Github Sponsor page and community forum**
+* 💵 **MRR: $2750 (+46%) and more than 400 paying subscribers**
+* 👩 **69k visitors (+151%)**: Marko hit the Jackpot again and hit the front page of HackerNews with an article on [How to pay your rent with your open source project](https://plausible.io/blog/open-source-funding). [See our full stats for July](https://plausible.io/plausible.io?period=custom&from=2020-07-01&to=2020-07-31).
 
 July was a month of broken records! New top months in terms of site traffic, new best day record on July 27th with 35,665 visitors, new record for trial signups and a record day with 13 new paying subscriptions on July 18th. You can follow us [on Twitter](https://twitter.com/plausiblehq) or [on Mastodon](https://fosstodon.org/@plausible) for daily updates and milestones.
 
@@ -40,9 +40,9 @@ Many analytics tools also show pageviews per session which is a similar metric t
 
 ### Referrer drilldowns
 
-![Referrer drilldowns](/uploads/indiehackers-referral-drilldown.png)
+The other feature I built is more detailed referrer source drilldowns. Instead of just showing a popup with limited information, we now show the whole dashboard filtered to one traffic source. For example, [click here](https://plausible.io/plausible.io?period=month&date=2020-07-01&source=indiehackers.com) to see traffic to our landing page from IndieHackers.
 
-The other feature I built is more detailed referrer source drilldowns. Instead of just showing the different URLs from one source, we now show the whole dashboard filtered to one source. For example, [click here](https://plausible.io/plausible.io?period=month&date=2020-07-01&source=indiehackers.com) to see traffic to our landing page from IndieHackers.
+![Referrer drilldowns](/uploads/indiehackers-referral-drilldown.png)
 
 This feature is useful to see traffic from one source graphed over time. Additionally, you can find which pages people land on and even the countries and device information for a specific traffic source.
 
@@ -50,7 +50,7 @@ I love this feature because it adds an interesting way to slice your data withou
 
 ### Other details from our changelog
 
-* We've added a realtime dashboard which includes data on how many people are currently on your site and what are they viewing. It also includes view data for the previous 30 minutes. All numbers are constantly updated and noo reload is needed.
+* We've added a realtime dashboard which includes data on how many people are currently on your site and what are they viewing. It also includes a pageview graph for the last 30 minutes. The whole dashboard is live so you don't have to refresh to stay up to date.
 
 * Within your "Top Pages" report you can now see the number of unique visitors alongside total pageviews and bounce rate for the pages of your site. 
 
@@ -59,8 +59,6 @@ I love this feature because it adds an interesting way to slice your data withou
 * We've made an update to the way we measure unique visitors without using cookies and without using persistent identifiers to further improve the visitor privacy. You can see the details in [our data policy](https://plausible.io/data-policy).
 
 * You can now reset your site data within the website settings area of your Plausible account. It's useful when you've done some tests to make sure everything works on a new site. Then you can reset the data and start counting stats from the moment the site is public.
-
-* You can now remove and manage your Search Console integration and your custom domain integration in the website settings of your Plausible account without any manual intervention and support needed from us.
 
 ### What’s next?
 
