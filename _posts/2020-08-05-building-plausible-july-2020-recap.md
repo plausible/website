@@ -66,7 +66,7 @@ I love this feature because it adds an interesting way to slice your data withou
 
 In August I’m going to take the drilldown view a bit further and also add page drilldowns. This way you can see traffic to one page over time and which sources are referring traffic to that page. This is another highly requested feature that we feel would really help us understand our own site traffic.
 
-Beyond page drilldowns, here’s what’s on our roadmap currently:
+Beyond page drilldowns, here’s what’s [on our roadmap currently](https://plausible.io/roadmap):
 
 * UX improvement to go to website settings from the dashboard
 * Hash mode for SPAs
