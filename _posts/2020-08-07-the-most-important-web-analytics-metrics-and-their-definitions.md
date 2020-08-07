@@ -73,9 +73,9 @@ Either change the way you approach the particular community or see if there are 
 
 ### Direct / None
 
-This referral source includes visitors who typed your URL into their browser or clicked a link in an email. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
+This referral source includes visitors who typed your URL into their browser, clicked a link in an email or in a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
 
-To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
+For many websites, "Direct / None" stands at the top of their referral sources. To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
 
 * yourdomain.com?ref=Newsletter
 * yourdomain.com?source=Newsletter
@@ -83,7 +83,17 @@ To minimize the amount of traffic that falls within the "Direct / None" category
 
 For any clicks on any of the above links, "Newsletter" would be listed as a referral source in your Plausible Analytics dashboard. It is a good practice to tag your links where the referrer header is not sent. Emails, newsletters, chat, messaging applications, particular websites and communities and so on.
 
-When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, we fall back to the referrer header.
+When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, Plausible Analytics falls back to the referrer header.
+
+### Google search queries 
+
+Google and other search engines are top sources of quality traffic for many websites. Looking deeper into the organic traffic from search engines is a valuable exercise which can help drive your future strategy. Some things that are worth keeping an eye on:
+
+* The overall level of traffic from Google search (or other search engine that drives the traffic to your site). You want this number to be rising as you continue building your brand. You certainly don't want to see a sudden drop which can signify a potential issue such as less interest in your topic, a competitor taking over some of your rankings or even an algorithmic penalty.
+
+* The search queries people find your site with. Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search query that Google sends you traffic from. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
+
+* Entry pages from search engine. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
 
 ### Entry Pages
 
@@ -93,7 +103,9 @@ Shows the first page people view on your site.
 
 Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
 
-For instance, we've published different product pages that explain in detail how Plausible Analytics is built around different areas where we believe Google Analytics is not the ideal solution for some website owners. These are things such as website speed, simplicity and privacy regulations.
+For instance, we've published different product pages that explain in detail how Plausible Analytics is built around use-cases where we believe Google Analytics is not the ideal solution for some website owners. These are things such as the website speed, simplicity and privacy regulations. We can now look into our stats to see which of these "benefits" is most interesting to the visitors of our site.
+
+Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to product a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
 
 ### Countries
 
