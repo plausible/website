@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The most important web analytics metrics and their definitions
+title: How we use web analytics metrics to measure our successes (and failures)
 description: " Here's a look at all the metrics we do support on our dashboard
   and their definitions. We plan to keep this page up to date with all the
   latest changes and additions."
@@ -13,7 +13,7 @@ Plausible Analytics is a simple, lightweight and privacy-friendly web analytics 
 1. Ordered list
 {:toc}
 
-## Plausible Analytics web analytics metrics definitions
+## Web analytics metrics usecases and definitions
 
 ### Unique Visitors
 
@@ -57,19 +57,33 @@ In Plausible Analytics, you can click on the number of current visitors to enter
 
 This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by.
 
-### Source
+### Referral Source
 
 See all referral sources that are sending you traffic. A source is reported when a person clicks through to your site from another site.
 
 In Plausible Analytics, you can click on any source to drill-down and view the individual referrers linking to your site and the traffic they've sent over time.
 
-This is especially useful if you want to understand your marketing activities in depth.
+This is especially useful if you want to understand your marketing activities in depth. Here's for instance a look into referral traffic sent from Indie Hackers, one of the communities we engage on a lot:
+
+![Referral source trend](/uploads/referral-source-trend.png)
+
+This can help you understand the effectiveness of your actions. If you're spending a lot of time and effort on a community but that effort doesn't result in any benefits to your site or business, then you need to reconsider things. 
+
+Either change the way you approach the particular community or see if there are other communities that may be more beneficial to you.
 
 ### Direct / None
 
-Includes visitors who typed your URL into their browser or clicked a link in an email. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
+This referral source includes visitors who typed your URL into their browser or clicked a link in an email. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
 
-To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/).
+To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
+
+* yourdomain.com?ref=Newsletter
+* yourdomain.com?source=Newsletter
+* yourdomain.com?utm_source=Newsletter
+
+For any clicks on any of the above links, "Newsletter" would be listed as a referral source in your Plausible Analytics dashboard. It is a good practice to tag your links where the referrer header is not sent. Emails, newsletters, chat, messaging applications, particular websites and communities and so on.
+
+When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, we fall back to the referrer header.
 
 ### Entry Pages
 
@@ -83,6 +97,12 @@ Shows the list of countries your visitors are based in.
 
 You can use goals to track desired actions people take on your site. Goals can be based on people [visiting a particular page](https://docs.plausible.io/pageview-goals/) or [triggering a particular event](https://docs.plausible.io/custom-event-goals/) such as subscribing to a newsletter or signing up for an account.
 
+For our own needs, we have set up three different goals:
+
+* Visiting the register page. This is useful in telling us how many of the website visitors end on our registration page, which referral sources drive the most traffic to it and which internal pages do the same
+* Registering for a trial account. This is useful in knowing the number of trial accounts registered but also to look at the health of the register page itself. If there's a sudden drop in the conversion rate on the register page, it might mean that there are some issues that need to be reviewed
+* Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can for instance see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
+
 ### Converted Visitors
 
 When a visitor converts for a particular goal they’ll be counted as a converted visitor. If the same goal is completed multiple times by the same visitor, it will only be counted as a single conversion.
@@ -95,7 +115,12 @@ The percentage of visitors that take a desired action such as subscribing to a n
 
 Shows the width of the screens used by your visitors. We measure the width of the browser window where your site is actually rendered rather than the full screen width. 
 
-Anything under 576px screen size is considered a mobile device, up to 992px is considered a tablet, up to 1440px is considered a laptop and anything above 1440px is considered a desktop. Metrics are shown as a percentage of all visitors.
+* Everything under 576px screen size is considered a mobile device
+* Everything from 576px up to 992px screen size is considered a tablet
+* Everything from 992px up to 1440px is considered a laptop
+* Evertyhing above 1440px is considered a desktop
+
+Metrics are shown as a percentage of all visitors.
 
 ### Browser
 
