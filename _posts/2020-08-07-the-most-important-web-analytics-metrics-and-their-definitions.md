@@ -89,6 +89,12 @@ When a query parameter is present in the link it takes priority. When someone la
 
 Shows the first page people view on your site.
 
+### Top Pages
+
+Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
+
+For instance, we've published different product pages that explain in detail how Plausible Analytics is built around different areas where we believe Google Analytics is not the ideal solution for some website owners. These are things such as website speed, simplicity and privacy regulations.
+
 ### Countries
 
 Shows the list of countries your visitors are based in.
