@@ -43,6 +43,8 @@ Visit duration is another metric that can help you measure the quality of your s
 
 For instance, on our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
 
+![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
+
 But if you add bounce rate and the visit duration into the equation, you can then see a big difference in the quality. Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
 
 ### Current Visitors
