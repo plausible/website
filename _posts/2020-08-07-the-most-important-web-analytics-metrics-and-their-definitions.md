@@ -8,12 +8,14 @@ slug: /metrics-definitons
 date: 2020-08-07T08:45:48.514Z
 author: marko-saric
 ---
-Plausible Analytics is a simple, lightweight and privacy-friendly web analytics tool. Here's a look at all the metrics we do support on our dashboard and their definitions. We plan to keep this page up to date with all the latest changes and additions.
+Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup that has subscriptions as a business model. This post is a look at metrics we care about to analyze the health of our website and marketing efforts.
+
+It features all the metrics we do support on our dashboard and their definitions too. We plan to keep this page up to date with all the latest changes and additions.
 
 1. Ordered list
 {:toc}
 
-## Web analytics metrics usecases and definitions
+## Web analytics metrics use cases and definitions
 
 ### Unique Visitors
 
@@ -138,7 +140,7 @@ Shows the width of the screens used by your visitors. We measure the width of th
 * Everything under 576px screen size is considered a mobile device
 * Everything from 576px up to 992px screen size is considered a tablet
 * Everything from 992px up to 1440px is considered a laptop
-* Evertyhing above 1440px is considered a desktop
+* Everything above 1440px is considered a desktop
 
 Metrics are shown as a percentage of all visitors.
 
