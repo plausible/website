@@ -93,6 +93,8 @@ Google and other search engines are top sources of quality traffic for many webs
 
 * The search queries people find your site with. Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search query that Google sends you traffic from. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
 
+![Our top search queries from Google](/uploads/top-google-search-queries.png)
+
 * Entry pages from search engine. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
 
 ### Entry Pages
