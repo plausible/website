@@ -91,6 +91,7 @@ DEPENDENCIES
   jekyll-purgecss
   jekyll-seo-tag!
   jekyll-sitemap (~> 1.4)
+  kramdown
 
 BUNDLED WITH
    2.0.1
