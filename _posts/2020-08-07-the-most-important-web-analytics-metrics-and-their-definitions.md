@@ -41,6 +41,8 @@ How long time visitors spend on your site. It only shows people who visit more t
 
 Visit duration is another metric that can help you measure the quality of your site and the quality of a referral source. It can be nicely combined with the bounce rate.
 
+#### How to use the bounce rate and visit duration to analyze your referral sources
+
 For instance, on our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
 
 ![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
@@ -51,13 +53,17 @@ But if you add bounce rate and the visit duration into the equation, you can the
 
 How many people are currently on your site. This includes all visitors who have loaded a page in the last 5 minutes. 
 
-In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages they are viewing and other details.
+In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages they are viewing, referral sources that sent them to your site, completed goals and other details. 
+
+This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by.
 
 ### Source
 
 See all referral sources that are sending you traffic. A source is reported when a person clicks through to your site from another site.
 
 In Plausible Analytics, you can click on any source to drill-down and view the individual referrers linking to your site and the traffic they've sent over time.
+
+This is especially useful if you want to understand your marketing activities in depth.
 
 ### Direct / None
 
