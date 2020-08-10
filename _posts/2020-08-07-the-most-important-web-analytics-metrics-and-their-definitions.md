@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How we use web analytics metrics to measure our successes (and failures)
+title: How we use web analytics to measure our startup's progress
 description: " Here's a look at all the metrics we do support on our dashboard
   and their definitions. We plan to keep this page up to date with all the
   latest changes and additions."
@@ -8,18 +8,24 @@ slug: /metrics-definitons
 date: 2020-08-07T08:45:48.514Z
 author: marko-saric
 ---
-Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup that has subscriptions as a business model. This post is a look at metrics we care about to analyze the health of our website and marketing efforts.
-
-It features all the metrics we do support on our dashboard and their definitions too. We plan to keep this page up to date with all the latest changes and additions.
+Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup that has subscriptions as a business model. This post is a look at metrics we care about when analyzing the health of our website and marketing efforts.
 
 1. Ordered list
 {:toc}
 
-## Web analytics metrics use cases and definitions
+### Web analytics metrics use cases and definitions
+
+This post features all the metrics Plausible Analytics supports on our dashboard and their definitions too. We plan to keep this page up to date with all the latest changes and additions.
 
 ### Unique Visitors
 
-The number of people who visited your site. Plausible Analytics is privacy friendly tool so we don't use cookies and other persistent identifiers to keep track of your visitors. 
+The number of people who visited your site. 
+
+We look at unique visitors as an overall, top level indicator of what's happening. You want to see your site growing and attracting an increasing number of people. So a quick look at the number of unique visitors with a comparison to the previous period is a great place to start.
+
+But it's also worth noting that things are not that simple. If you have a large spike because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after.
+
+The definition of unique visitors is a bit different in Plausible Analytics compared to a cookie-based analytics tool. Plausible Analytics is privacy friendly tool so we don't use cookies and other persistent identifiers to keep track of your visitors. 
 
 If a person visits your site from multiple devices or on multiple days, they are counted as separate visitors. This allows us to be compliant with the different privacy regulations such as PECR and [GDPR](https://plausible.io/blog/google-analytics-gdpr) so you don't need to get the visitor consent to keep track of the stats.
  
@@ -35,6 +41,8 @@ The percentage of visitors with a single page view. A visitor "bounces" away and
 
 This is a useful metric to judge the quality of the individual pages on your site. You can review sites with high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are some actions you can take to improve the particular page and reduce the number of bounces.
 
+Note that a particular page having a high bounce rate doesn't automatically mean that it is a negative thing that needs to be acted on. Depending on the context, some visitors bounce because they got what they came for and have no need to explore further.
+
 Bounce rate is also useful when judging the quality of a referral source and can help you decide which marketing actions to continue being focused on and which to stop.
 
 ### Visit Duration
@@ -49,7 +57,9 @@ For instance, on our own website over the last six months, Google and Facebook h
 
 ![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
 
-But if you add bounce rate and the visit duration into the equation, you can then see a big difference in the quality. Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
+But if you add bounce rate and the visit duration into the equation, you can then see a big difference in the quality. 
+
+Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
 
 ### Current Visitors
 
@@ -57,7 +67,9 @@ How many people are currently on your site. This includes all visitors who have 
 
 In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages they are viewing, referral sources that sent them to your site, completed goals and other details. 
 
-This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by.
+This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see a disproportionately high number of active visitors on site, I enter the realtime view and view the referral sources and the top pages.
+
+This can help you identify when your content is being shared on social media, when you have a new link pointing to you or when your site has been submitted to a large aggregator or niche forum.
 
 ### Referral Source
 
