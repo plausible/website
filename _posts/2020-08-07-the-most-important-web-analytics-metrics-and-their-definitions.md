@@ -1,14 +1,19 @@
 ---
 layout: post
-title: How we use web analytics to measure our startup's progress
-description: " Here's a look at all the metrics we do support on our dashboard
-  and their definitions. We plan to keep this page up to date with all the
-  latest changes and additions."
+title: How we use web analytics to measure our startup's progress and make
+  better decisions
+description: We're a SaaS startup that has subscriptions as a business model.
+  This post is a look at metrics we care about when analyzing our website and
+  marketing efforts.
 slug: /metrics-definitons
 date: 2020-08-07T08:45:48.514Z
 author: marko-saric
 ---
-Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup that has subscriptions as a business model. This post is a look at metrics we care about when analyzing the health of our website and marketing efforts.
+Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup that has subscriptions as a business model. 
+
+This post is a look at metrics we care about when analyzing our website and marketing efforts. 
+
+We eat our own dog food and use Plausible Analytics itself to do all our traffic analysis. There are no other analytics scripts installed on our site. You can see [our open stats dashboard](https://plausible.io/plausible.io).
 
 1. Ordered list
 {:toc}
@@ -19,11 +24,15 @@ This post features all the metrics Plausible Analytics supports on our dashboard
 
 ## Unique Visitors
 
-The number of people who visited your site. 
+The number of people who visited your site. This is important in understand your acquisition and whether you're actually getting any new people to come to your site.
 
 We look at unique visitors as an overall, top-level indicator of what's happening. You want to see your site growing and attracting an increasing number of people. So a quick look at the number of unique visitors with a comparison to the previous period is a great place to start.
 
-But it's also worth noting that things are not that simple. If you have a large spike because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after.
+But it's also worth noting that things are not that simple. If you have a large spike because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after. 
+
+Accept that short term fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions.
+
+### Tracking unique visitors without cookies
 
 The definition of unique visitors is a bit different in Plausible Analytics compared to a cookie-based analytics tool. Plausible Analytics is privacy friendly tool so we don't use cookies and other persistent identifiers to keep track of your visitors. 
 
@@ -69,7 +78,7 @@ In Plausible Analytics, you can click on the number of current visitors to enter
 
 This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see a disproportionately high number of active visitors on site, I enter the realtime view and view the referral sources and the top pages.
 
-This can help you identify when your content is being shared on social media, when you have a new link pointing to you or when your site has been submitted to a large aggregator or niche forum.
+This can help you identify when your content is being shared on social media, when you have a new link pointing to you or when your site has been submitted to a large aggregator or niche forum. Then you can go and join the conversion wherever it is taking place.
 
 ## Referral Source
 
