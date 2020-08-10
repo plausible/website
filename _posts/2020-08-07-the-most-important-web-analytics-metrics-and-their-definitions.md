@@ -24,17 +24,17 @@ This post features all the metrics Plausible Analytics supports on our dashboard
 
 ## Unique Visitors
 
-The number of people who visited your site. This is important in understand your acquisition and whether you're actually getting any new people to come to your site.
+The number of people who visited your site. This is important to understand your acquisition and whether you're actually getting any new people to come to your site.
 
 We look at unique visitors as an overall, top-level indicator of what's happening. You want to see your site growing and attracting an increasing number of people. So a quick look at the number of unique visitors with a comparison to the previous period is a great place to start.
 
-But it's also worth noting that things are not that simple. If you have a large spike because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after. 
+But it's also worth noting that things are not always that simple. If you have a large spike of traffic because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after. 
 
-Accept that short term fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions. Tracking metrics and their trends over a longer period of time is the key.
+Accept that short term traffic fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions. Tracking metrics and understanding trends over a longer period of time is the key.
 
 ### Tracking unique visitors without cookies
 
-The definition of unique visitors is a bit different in Plausible Analytics compared to a cookie-based analytics tool. Plausible Analytics is privacy friendly tool so we don't use cookies and other persistent identifiers to keep track of your visitors. 
+The definition of unique visitors is a bit different in Plausible Analytics compared to a cookie-based analytics tool. Plausible Analytics is privacy friendly tool so we don't use cookies and any other persistent identifiers to keep track of visitors. 
 
 If a person visits your site from multiple devices or on multiple days, they are counted as separate visitors. This allows us to be compliant with the different privacy regulations such as PECR and [GDPR](https://plausible.io/blog/google-analytics-gdpr) so you don't need to get the visitor consent to keep track of the stats.
  
@@ -48,9 +48,9 @@ The total number of times your pages were loaded by your visitors.
 
 The percentage of visitors with a single page view. A visitor "bounces" away and leaves your site after only viewing a single page.
 
-This is a useful metric to judge the quality of the individual pages on your site. You can review pages with a high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are some actions you can take to improve the particular page and reduce the number of bounces.
+This is a useful metric to judge the quality of the individual pages on your site. You can review pages with a high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are actions you can take to improve the particular page and reduce the number of bounces.
 
-Note that a particular page having a high bounce rate doesn't automatically mean that it is a negative thing that needs to be acted on. Depending on the context, some visitors bounce because they got what they came for and have no need to explore further.
+Note that a particular page having a high bounce rate doesn't automatically mean that it is a negative thing that needs to be acted on. Depending on the context, some visitors bounce because they get what they came for and have no need to explore further.
 
 Bounce rate is also useful when judging the quality of a referral source and can help you decide which marketing actions to continue being focused on and which to stop.
 
@@ -60,25 +60,15 @@ How long time visitors spend on your site. It only shows people who visit more t
 
 Visit duration is another metric that can help you measure the quality of your site and the quality of a referral source. It can be nicely combined with the bounce rate.
 
-#### How to use the bounce rate and visit duration to analyze your referral sources
-
-For instance, on our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
-
-![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
-
-But if you add bounce rate and the visit duration into the equation, you can then see a big difference in the quality. 
-
-Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
-
 ## Current Visitors
 
-How many people are currently on your site. This includes all visitors who have loaded a page in the last 5 minutes. 
+How many people are on your site right now. This includes all visitors who have loaded a page in the last 5 minutes. 
 
-In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages they are viewing, referral sources that sent them to your site, completed goals and other details. 
+In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages current visitors are viewing, referral sources that sent them to your site, completed goals and other details. 
 
-This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see a disproportionately high number of active visitors on site, I enter the realtime view and view the referral sources and the top pages.
+This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see an unusually high number of active visitors on site, I enter the realtime view and view the referral sources and the top pages.
 
-This can help you identify when your content is being shared on social media, when you have a new link pointing to you or when your site has been submitted to a large aggregator or niche forum. Then you can go and join the conversion wherever it is taking place.
+This can help identify when your content is being shared on social media, when you have a new link pointing or when your site has been submitted to a large aggregator or niche forum. Then you can go and join the conversion wherever it is taking place.
 
 ## Referral Source
 
@@ -94,11 +84,25 @@ This can help you understand the effectiveness of your actions. If you're spendi
 
 Either change the way you approach the particular community or see if there are other communities that may be more beneficial to you.
 
+#### How to use bounce rate and visit duration to analyze referral sources
+
+For instance, on our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
+
+![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
+
+But if you add bounce rate and the visit duration into the equation, you can then see a big difference in quality. 
+
+Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
+
+It doesn't necessarily mean that Facebook is a bad traffic source but it does show that things are not exactly what they seem on the surface and that a closer look is necessary to get more useful insights.
+
 ## Direct / None
 
-This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
+This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). For many websites, "Direct / None" stands at the top of their referral sources. 
 
-For many websites, "Direct / None" stands at the top of their referral sources. To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
+### How to minimize the amount of traffic without referrals 
+
+To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
 
 * yourdomain.com?ref=Newsletter
 * yourdomain.com?source=Newsletter
@@ -110,7 +114,7 @@ When a query parameter is present in the link it takes priority. When someone la
 
 ## Google search queries 
 
-Google and other search engines are top sources of quality traffic for many websites. Looking deeper into the organic traffic from search engines is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
+Google and other search engines are top sources of quality traffic for many websites and startups. Looking deeper into the organic traffic from search engines is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
 
 * The overall level of traffic from Google search (or other search engine that drives the traffic to your site). You want this number to be rising as you continue building your brand. You certainly don't want to see a sudden drop which can signify a potential issue such as less interest in your topic, a competitor taking over some of your rankings or even an algorithmic penalty.
 
