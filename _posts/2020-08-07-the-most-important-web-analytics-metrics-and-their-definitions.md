@@ -132,6 +132,15 @@ For instance, we've published different product pages that explain in detail how
 
 Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to produce a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
 
+Top pages report can also help analyze your in-product usage in terms of activation and retention. We don't do any in-depth analysis of our product usage such as screen recordings but we do keep an eye on the aggregate usage of specific pages:
+
+* /sites is our landing page for logged in users
+* /settings is our settings page for logged in users
+* /sites/new is where our users go to add a new domain name to Plausible
+* /billing/upgrade is where our users go if they want to sign up for a paid subscription
+
+As mentioned earlier, day to day fluctuations in visits are normal but when looked at a period of several months, we do like to see these numbers grow.
+
 ## Countries
 
 Shows the list of countries your visitors are based in.
