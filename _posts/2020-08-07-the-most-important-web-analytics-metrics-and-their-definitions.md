@@ -151,7 +151,11 @@ This is another report that we pay close attention to. There are top referral so
 
 So it's worth looking at conversions by referral source too. Looking at our own trial signups goal conversions, the 8 of the top 10 referral sources of traffic are also in the top 10 sources of conversions too but their order is much different.
 
+![Our top referral sources in the last 60 days](/uploads/top-traffic-sources-last-60-days.png)
+
 Hacker News, for instance, is our top referral source of traffic but far but comes in 10th place for conversions. Google organic search is the third highest source of traffic but comes on the strongest by far in conversions.
+
+![Our top conversion sources](/uploads/top-conversion-sources.png)
 
 This report gives you an addition layer and more depth to analyze your efforts which can then help you optimize your strategy for the future. 
 
