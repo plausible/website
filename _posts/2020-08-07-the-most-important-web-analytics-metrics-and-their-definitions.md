@@ -13,11 +13,11 @@ Plausible Analytics is a simple, lightweight, open source and privacy-friendly w
 1. Ordered list
 {:toc}
 
-### Web analytics metrics use cases and definitions
+## Web analytics metrics use cases and definitions
 
 This post features all the metrics Plausible Analytics supports on our dashboard and their definitions too. We plan to keep this page up to date with all the latest changes and additions.
 
-### Unique Visitors
+## Unique Visitors
 
 The number of people who visited your site. 
 
@@ -31,11 +31,11 @@ If a person visits your site from multiple devices or on multiple days, they are
  
 You can learn more about [how we count unique visitors](https://plausible.io/data-policy).
 
-### Total Pageviews
+## Total Pageviews
 
 The total number of times your pages were loaded by your visitors.
 
-### Bounce Rate
+## Bounce Rate
 
 The percentage of visitors with a single page view. A visitor "bounces" away and leaves your site after only viewing a single page.
 
@@ -45,7 +45,7 @@ Note that a particular page having a high bounce rate doesn't automatically mean
 
 Bounce rate is also useful when judging the quality of a referral source and can help you decide which marketing actions to continue being focused on and which to stop.
 
-### Visit Duration
+## Visit Duration
 
 How long time visitors spend on your site. It only shows people who visit more than one page. For those who visit one page only we default to 0 seconds.
 
@@ -61,7 +61,7 @@ But if you add bounce rate and the visit duration into the equation, you can the
 
 Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
 
-### Current Visitors
+## Current Visitors
 
 How many people are currently on your site. This includes all visitors who have loaded a page in the last 5 minutes. 
 
@@ -71,7 +71,7 @@ This is especially useful in those cases where you have a spike in traffic and w
 
 This can help you identify when your content is being shared on social media, when you have a new link pointing to you or when your site has been submitted to a large aggregator or niche forum.
 
-### Referral Source
+## Referral Source
 
 See all referral sources that are sending you traffic. A source is reported when a person clicks through to your site from another site.
 
@@ -85,7 +85,7 @@ This can help you understand the effectiveness of your actions. If you're spendi
 
 Either change the way you approach the particular community or see if there are other communities that may be more beneficial to you.
 
-### Direct / None
+## Direct / None
 
 This referral source includes visitors who typed your URL into their browser, clicked a link in an email or in a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
 
@@ -99,7 +99,7 @@ For any clicks on any of the above links, "Newsletter" would be listed as a refe
 
 When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, Plausible Analytics falls back to the referrer header.
 
-### Google search queries 
+## Google search queries 
 
 Google and other search engines are top sources of quality traffic for many websites. Looking deeper into the organic traffic from search engines is a valuable exercise which can help drive your future strategy. Some things that are worth keeping an eye on:
 
@@ -111,11 +111,11 @@ Google and other search engines are top sources of quality traffic for many webs
 
 * Entry pages from search engine. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
 
-### Entry Pages
+## Entry Pages
 
 Shows the first page people view on your site.
 
-### Top Pages
+## Top Pages
 
 Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
 
@@ -123,11 +123,11 @@ For instance, we've published different product pages that explain in detail how
 
 Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to product a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
 
-### Countries
+## Countries
 
 Shows the list of countries your visitors are based in.
 
-### Goals
+## Goals
 
 You can use goals to track desired actions people take on your site. Goals can be based on people [visiting a particular page](https://docs.plausible.io/pageview-goals/) or [triggering a particular event](https://docs.plausible.io/custom-event-goals/) such as subscribing to a newsletter or signing up for an account.
 
@@ -137,15 +137,15 @@ For our own needs, we have set up three different goals:
 * Registering for a trial account. This is useful in knowing the number of trial accounts registered but also to look at the health of the register page itself. If there's a sudden drop in the conversion rate on the register page, it might mean that there are some issues that need to be reviewed
 * Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can for instance see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
 
-### Converted Visitors
+## Converted Visitors
 
 When a visitor converts for a particular goal they’ll be counted as a converted visitor. If the same goal is completed multiple times by the same visitor, it will only be counted as a single conversion.
 
-### Conversion Rate
+## Conversion Rate
 
 The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account.
 
-### Screen Size
+## Screen Size
 
 Shows the width of the screens used by your visitors. We measure the width of the browser window where your site is actually rendered rather than the full screen width. 
 
@@ -156,11 +156,11 @@ Shows the width of the screens used by your visitors. We measure the width of th
 
 Metrics are shown as a percentage of all visitors.
 
-### Browser
+## Browser
 
 Shows the browsers used by your visitors. We only show the brand of the browser and don’t include the version number or any other details. Metrics are shown as a percentage of all visitors.
 
-### Operating System
+## Operating System
 
 Shows the operating systems used by your visitors. We only show the brand of the operating system and don’t include the version number or any other details. Metrics are shown as a percentage of all visitors.
 
