@@ -9,11 +9,11 @@ slug: /metrics-definitons
 date: 2020-08-07T08:45:48.514Z
 author: marko-saric
 ---
-Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup that has subscriptions as a business model. 
+Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup with subscriptions as a business model. 
 
-This post is a look at metrics we care about when analyzing our website and marketing efforts. 
+This post is a look at metrics we care about when analyzing our website, product and marketing efforts. 
 
-We eat our own dog food and use Plausible Analytics itself to do all our traffic analysis. There are no other analytics scripts installed on our site. You can see [our open stats dashboard](https://plausible.io/plausible.io).
+We eat our own dog food and use Plausible Analytics itself to do all our analysis. There are no other analytics scripts installed on our site. You can see [our open stats dashboard](https://plausible.io/plausible.io) with all the same data that we have access to.
 
 1. Ordered list
 {:toc}
@@ -28,7 +28,7 @@ The number of people who visited your site. This is important to understand your
 
 We look at unique visitors as an overall, top-level indicator of what's happening. You want to see your site growing and attracting an increasing number of people. So a quick look at the number of unique visitors with a comparison to the previous period is a great place to start.
 
-But it's also worth noting that things are not always that simple. If you have a large spike of traffic because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after. 
+But it's also worth noting that things are not always that simple. If you have a large spike of traffic because [one of your posts goes viral](https://plausible.io/blog/blog-post-changed-my-startup), it is only natural that you will see a big drop in unique visitors in the period after. 
 
 Accept that short term traffic fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions. Tracking metrics and understanding trends over a longer period of time is the key.
 
@@ -66,9 +66,9 @@ How many people are on your site right now. This includes all visitors who have 
 
 In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages current visitors are viewing, referral sources that sent them to your site, completed goals and other details. 
 
-This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see an unusually high number of active visitors on site, I enter the realtime view and view the referral sources and the top pages.
+This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see an unusually high number of active visitors on site, I enter the realtime view and look at the referral sources and the top pages.
 
-This can help identify when your content is being shared on social media, when you have a new link pointing or when your site has been submitted to a large aggregator or niche forum. Then you can go and join the conversion wherever it is taking place.
+This can help identify when your content was shared by an influential person in social media, when you have a new link pointing to your site or when your post has been submitted to a large aggregator or a niche forum. Then you can go and join the conversion wherever it is taking place.
 
 ## Referral Source
 
@@ -76,17 +76,17 @@ See all referral sources that are sending you traffic. A source is reported when
 
 In Plausible Analytics, you can click on any source to drill-down and view the individual referrers linking to your site and the traffic they've sent over time.
 
-This is especially useful if you want to understand your marketing activities in depth. Here's, for instance, a look into referral traffic sent from Indie Hackers, one of the communities we engage on a lot:
+This is especially useful if you want to understand your marketing activities in depth. Here's a look into referral traffic sent from Indie Hackers, one of the communities we engage on a lot:
 
 ![Referral source trend](/uploads/referral-source-trend.png)
 
 This can help you understand the effectiveness of your actions. If you're spending a lot of time and effort on a community but that effort doesn't result in any benefits to your site or business, then you need to reconsider things. 
 
-Either change the way you approach the particular community or see if there are other communities that may be more beneficial to you.
+Either change the way you approach the particular community or see if there are other communities that may be more appropriate to you.
 
-#### How to use bounce rate and visit duration to analyze referral sources
+### How to use bounce rate and visit duration to analyze referral sources
 
-For instance, on our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
+On our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
 
 ![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
 
@@ -94,7 +94,7 @@ But if you add bounce rate and the visit duration into the equation, you can the
 
 Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
 
-It doesn't necessarily mean that Facebook is a bad traffic source but it does show that things are not exactly what they seem on the surface and that a closer look is necessary to get more useful insights.
+It doesn't necessarily mean that Facebook is a bad traffic source but it does show that things are not exactly what they seem on the surface and that a closer look is needed to get more actionable insights.
 
 ## Direct / None
 
@@ -124,6 +124,8 @@ Google and other search engines are top sources of quality traffic for many webs
 
 * Entry pages from search engines. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
 
+* The number of searches for branded keywords such as your startup's name or your URL. Tracking the trend of these keywords is useful to understand whether your marketing efforts are working in a more indirect way. You may see a spike in branded search traffic thanks to a guest post on a big site or thanks to you being a guest on a popular podcast.
+
 ## Entry Pages
 
 Shows the first page people view on your site.
@@ -138,18 +140,18 @@ For instance, we've published different product pages that explain in detail how
 
 ### Analyzing your content marketing efforts
 
-Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to produce a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
+Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to produce a blog post so knowing which blog posts have had a bigger impact than others is an insightful and actionable stat. It can help you decide which topics to explore even further.
 
 ### Analyzing in-product usage and retention
 
-Top pages report can also help analyze your in-product usage in terms of activation and retention. We don't do any in-depth analysis of our product usage such as screen recordings but we do keep an eye on the aggregate usage of specific pages:
+Top pages report can also help analyze your in-product usage in terms of activation and retention. We don't do any in-depth analysis of our product usage such as heatmaps and behavioral analytics but we do keep an eye on the aggregate usage of specific pages:
 
 * /sites is our landing page for logged in users
 * /settings is our settings page for logged in users
 * /sites/new is where our users go to add a new domain name to Plausible
 * /billing/upgrade is where our users go if they want to sign up for a paid subscription
 
-As mentioned earlier, day to day fluctuations in visits are normal but when looked at a period of several months, we do like to see these numbers grow. Here's how the numbers look like for our logged in users over the last six months.
+As mentioned earlier, day to day fluctuations in visits to a specific page are normal but when looked at a period of several months, we do like to see these numbers grow. Here's how the numbers look like for our logged in users over the last six months.
 
 ![Logged in users over time](/uploads/logged-in-users.png)
 
@@ -185,7 +187,7 @@ So it's worth looking at conversions by referral source too. Looking at our own 
 
 ![Our top referral sources in the last 60 days](/uploads/top-traffic-sources-last-60-days.png)
 
-Hacker News, for instance, is our top referral source of traffic but far but comes in 10th place for conversions. Google organic search is the third highest source of traffic but comes on the strongest by far in conversions.
+Hacker News is our top referral source of traffic but far but comes in 10th place for conversions. Google organic search is the third highest source of traffic but comes on the strongest by far in conversions.
 
 ![Our top conversion sources](/uploads/top-conversion-sources.png)
 
