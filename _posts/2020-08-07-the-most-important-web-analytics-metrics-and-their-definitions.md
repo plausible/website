@@ -145,6 +145,16 @@ When a visitor converts for a particular goal they’ll be counted as a converte
 
 The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account.
 
+## Conversions by referral source
+
+This is another report that we pay close attention to. There are top referral sources of overall website traffic but there are also referral sources that send traffic that converts. And these are not necessarily the same sources.
+
+So it's worth looking at conversions by referral source too. Looking at our own trial signups goal conversions, the 8 of the top 10 referral sources of traffic are also in the top 10 sources of conversions too but their order is much different.
+
+Hacker News, for instance, is our top referral source of traffic but far but comes in 10th place for conversions. Google organic search is the third highest source of traffic but comes on the strongest by far in conversions.
+
+This report gives you an addition layer and more depth to analyze your efforts which can then help you optimize your strategy for the future. 
+
 ## Screen Size
 
 Shows the width of the screens used by your visitors. We measure the width of the browser window where your site is actually rendered rather than the full screen width. 
