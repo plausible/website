@@ -21,7 +21,7 @@ This post features all the metrics Plausible Analytics supports on our dashboard
 
 The number of people who visited your site. 
 
-We look at unique visitors as an overall, top level indicator of what's happening. You want to see your site growing and attracting an increasing number of people. So a quick look at the number of unique visitors with a comparison to the previous period is a great place to start.
+We look at unique visitors as an overall, top-level indicator of what's happening. You want to see your site growing and attracting an increasing number of people. So a quick look at the number of unique visitors with a comparison to the previous period is a great place to start.
 
 But it's also worth noting that things are not that simple. If you have a large spike because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after.
 
@@ -39,7 +39,7 @@ The total number of times your pages were loaded by your visitors.
 
 The percentage of visitors with a single page view. A visitor "bounces" away and leaves your site after only viewing a single page.
 
-This is a useful metric to judge the quality of the individual pages on your site. You can review sites with high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are some actions you can take to improve the particular page and reduce the number of bounces.
+This is a useful metric to judge the quality of the individual pages on your site. You can review pages with a high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are some actions you can take to improve the particular page and reduce the number of bounces.
 
 Note that a particular page having a high bounce rate doesn't automatically mean that it is a negative thing that needs to be acted on. Depending on the context, some visitors bounce because they got what they came for and have no need to explore further.
 
@@ -77,7 +77,7 @@ See all referral sources that are sending you traffic. A source is reported when
 
 In Plausible Analytics, you can click on any source to drill-down and view the individual referrers linking to your site and the traffic they've sent over time.
 
-This is especially useful if you want to understand your marketing activities in depth. Here's for instance a look into referral traffic sent from Indie Hackers, one of the communities we engage on a lot:
+This is especially useful if you want to understand your marketing activities in depth. Here's, for instance, a look into referral traffic sent from Indie Hackers, one of the communities we engage on a lot:
 
 ![Referral source trend](/uploads/referral-source-trend.png)
 
@@ -87,7 +87,7 @@ Either change the way you approach the particular community or see if there are 
 
 ## Direct / None
 
-This referral source includes visitors who typed your URL into their browser, clicked a link in an email or in a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
+This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). 
 
 For many websites, "Direct / None" stands at the top of their referral sources. To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
 
@@ -101,15 +101,15 @@ When a query parameter is present in the link it takes priority. When someone la
 
 ## Google search queries 
 
-Google and other search engines are top sources of quality traffic for many websites. Looking deeper into the organic traffic from search engines is a valuable exercise which can help drive your future strategy. Some things that are worth keeping an eye on:
+Google and other search engines are top sources of quality traffic for many websites. Looking deeper into the organic traffic from search engines is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
 
 * The overall level of traffic from Google search (or other search engine that drives the traffic to your site). You want this number to be rising as you continue building your brand. You certainly don't want to see a sudden drop which can signify a potential issue such as less interest in your topic, a competitor taking over some of your rankings or even an algorithmic penalty.
 
-* The search queries people find your site with. Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search query that Google sends you traffic from. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
+* The search queries people find your site with. Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
 
 ![Our top search queries from Google](/uploads/top-google-search-queries.png)
 
-* Entry pages from search engine. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
+* Entry pages from search engines. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
 
 ## Entry Pages
 
@@ -119,9 +119,9 @@ Shows the first page people view on your site.
 
 Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
 
-For instance, we've published different product pages that explain in detail how Plausible Analytics is built around use-cases where we believe Google Analytics is not the ideal solution for some website owners. These are things such as the website speed, simplicity and privacy regulations. We can now look into our stats to see which of these "benefits" is most interesting to the visitors of our site.
+For instance, we've published different product pages that explain in detail how Plausible Analytics is built around use-cases where we believe Google Analytics is not the ideal solution for some website owners. These are things such as website speed, simplicity and privacy regulations. We can now look into our stats to see which of these "benefits" is most interesting to the visitors of our site.
 
-Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to product a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
+Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to produce a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
 
 ## Countries
 
@@ -135,7 +135,7 @@ For our own needs, we have set up three different goals:
 
 * Visiting the register page. This is useful in telling us how many of the website visitors end on our registration page, which referral sources drive the most traffic to it and which internal pages do the same
 * Registering for a trial account. This is useful in knowing the number of trial accounts registered but also to look at the health of the register page itself. If there's a sudden drop in the conversion rate on the register page, it might mean that there are some issues that need to be reviewed
-* Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can for instance see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
+* Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can, for instance, see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
 
 ## Converted Visitors
 
