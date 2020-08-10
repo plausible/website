@@ -30,7 +30,7 @@ We look at unique visitors as an overall, top-level indicator of what's happenin
 
 But it's also worth noting that things are not that simple. If you have a large spike because one of your posts goes viral, it is only natural that you will see a big drop in unique visitors in the period after. 
 
-Accept that short term fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions.
+Accept that short term fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions. Tracking metrics and their trends over a longer period of time is the key.
 
 ### Tracking unique visitors without cookies
 
@@ -128,9 +128,15 @@ Shows the first page people view on your site.
 
 Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
 
+### Understanding the interest around your product's benefits
+
 For instance, we've published different product pages that explain in detail how Plausible Analytics is built around use-cases where we believe Google Analytics is not the ideal solution for some website owners. These are things such as website speed, simplicity and privacy regulations. We can now look into our stats to see which of these "benefits" is most interesting to the visitors of our site.
 
+### Analyzing your content marketing efforts
+
 Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to produce a blog post so knowing which blog posts have had a bigger impact than others is an insightful stat. It can help you decide which topics to explore even further.
+
+### Analyzing in-product usage and retention
 
 Top pages report can also help analyze your in-product usage in terms of activation and retention. We don't do any in-depth analysis of our product usage such as screen recordings but we do keep an eye on the aggregate usage of specific pages:
 
