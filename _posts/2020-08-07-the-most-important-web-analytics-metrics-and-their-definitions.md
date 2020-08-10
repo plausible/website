@@ -173,7 +173,9 @@ When a visitor converts for a particular goal they’ll be counted as a converte
 
 ## Conversion Rate
 
-The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account.
+The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account. Here's a look at our trial signups.
+
+![The number of trial signups](/uploads/number-of-trial-signups.png)
 
 ## Conversions by referral source
 
