@@ -149,7 +149,9 @@ Top pages report can also help analyze your in-product usage in terms of activat
 * /sites/new is where our users go to add a new domain name to Plausible
 * /billing/upgrade is where our users go if they want to sign up for a paid subscription
 
-As mentioned earlier, day to day fluctuations in visits are normal but when looked at a period of several months, we do like to see these numbers grow.
+As mentioned earlier, day to day fluctuations in visits are normal but when looked at a period of several months, we do like to see these numbers grow. Here's how the numbers look like for our logged in users over the last six months.
+
+![Logged in users over time](/uploads/logged-in-users.png)
 
 ## Countries
 
