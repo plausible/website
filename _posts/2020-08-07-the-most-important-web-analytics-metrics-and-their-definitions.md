@@ -222,11 +222,11 @@ On the other hand, majority of website and business owners want to see some leve
 
 There is no definitive answer to this question. Which metrics to use to measure the success of your website really depends on the website itself and the goals the site owner has with the website. 
 
-These are some of the main areas where web analytics can help website owners get a better idea of what's happening and how things are going:
+In this post, we tried to showcase the metrics we use ourselves and what we use them for. These are some of the main areas where web analytics can help website owners get a better idea of what's happening and how things are going:
 
 ### Is the website growing
 
-This is one of the main important metrics overall. Are people visiting your website in the first place? How does the visitor trend look like over a longer period of time? This gives you the answer to the question of is your website alive but also is it growing or declining. 
+This is one of the most important areas overall. Are people visiting your website in the first place? How does the visitor trend look like over a longer period of time? This gives you the answer to the question whether your website alive but also whether it is growing or declining. 
 
 This can help you understand which of your communication and marketing activities make a difference to your site. You may be putting a lot of time, effort and resources into different marketing campaigns and by looking at referral sources of your website traffic you can better understand which of those campaigns are more worth than others.
 
