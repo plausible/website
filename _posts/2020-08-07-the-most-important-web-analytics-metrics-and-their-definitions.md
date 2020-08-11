@@ -112,19 +112,27 @@ For any clicks on any of the above links, "Newsletter" would be listed as a refe
 
 When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, Plausible Analytics falls back to the referrer header.
 
-## Google search queries 
+## Google Search Queries 
 
 Google and other search engines are top sources of quality traffic for many websites and startups. Looking deeper into the organic traffic from search engines is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
 
-* The overall level of traffic from Google search (or other search engine that drives the traffic to your site). You want this number to be rising as you continue building your brand. You certainly don't want to see a sudden drop which can signify a potential issue such as less interest in your topic, a competitor taking over some of your rankings or even an algorithmic penalty.
+### The overall level of organic search traffic
 
-* The search queries people find your site with. Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
+The overall level of traffic from Google search (or other search engine that drives the traffic to your site). You want this number to be rising as you continue building your brand. You certainly don't want to see a sudden drop which can signify a potential issue such as less interest in your topic, a competitor taking over some of your rankings or even an algorithmic penalty.
+
+### Search queries people find your site with
+
+Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
 
 ![Our top search queries from Google](/uploads/top-google-search-queries.png)
 
-* Entry pages from search engines. It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
+### Entry pages from search engines
 
-* The number of searches for branded keywords such as your startup's name or your URL. Tracking the trend of these keywords is useful to understand whether your marketing efforts are working in a more indirect way. You may see a spike in branded search traffic thanks to a guest post on a big site or thanks to you being a guest on a popular podcast.
+It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
+
+### The number of branded searches
+
+The number of searches for branded keywords such as your startup's name or your URL. Tracking the trend of these keywords is useful to understand whether your marketing efforts are working in a more indirect way. You may see a spike in branded search traffic thanks to a guest post on a big site or thanks to you being a guest on a popular podcast.
 
 ## Entry Pages
 
