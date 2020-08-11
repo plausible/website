@@ -8,6 +8,8 @@ description: We're a SaaS startup that has subscriptions as a business model.
 slug: /metrics-definitons
 date: 2020-08-07T08:45:48.514Z
 author: marko-saric
+image: /uploads/plausible-traffic-july.png
+image-alt: How we use web analytics
 ---
 Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup with subscriptions as a business model. 
 
