@@ -78,7 +78,7 @@ See all referral sources that are sending you traffic. A source is reported when
 
 In Plausible Analytics, you can click on any source to drill-down and view the individual referrers linking to your site and the traffic they've sent over time.
 
-This is especially useful if you want to understand your marketing activities in depth. Here's a look into referral traffic sent from Indie Hackers, one of the communities we engage on a lot:
+This is especially useful if you want to understand your marketing activities in depth. Here's a look into [referral traffic sent from Indie Hackers](https://plausible.io/plausible.io?period=6mo&source=indiehackers.com), one of the communities we engage on a lot:
 
 ![Referral source trend](/uploads/referral-source-trend.png)
 
@@ -88,7 +88,7 @@ Either change the way you approach the particular community or see if there are 
 
 ### How to use bounce rate and visit duration to analyze referral sources
 
-On our own website over the last six months, Google and Facebook have sent a similar amount of referral traffic (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
+On our own website over the last six months, [Google and Facebook have sent a similar amount of referral traffic](https://plausible.io/plausible.io/referrers?period=6mo) (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
 
 ![Our top referral sources of traffic](/uploads/top-referral-sources-quality.png)
 
@@ -116,7 +116,7 @@ When a query parameter is present in the link it takes priority. When someone la
 
 ## Google Search Queries 
 
-Google and other search engines are top sources of quality traffic for many websites and startups. Looking deeper into the organic traffic from search engines is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
+Google and other search engines are top sources of quality traffic for many websites and startups. [Looking deeper into the organic traffic from search engines](https://plausible.io/plausible.io/referrers/Google?period=6mo&source=Google) is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
 
 ### The overall level of organic search traffic
 
@@ -161,7 +161,7 @@ Top pages report can also help analyze your in-product usage in terms of activat
 * /sites/new is where our users go to add a new domain name to Plausible
 * /billing/upgrade is where our users go if they want to sign up for a paid subscription
 
-As mentioned earlier, day to day fluctuations in visits to a specific page are normal but when looked at a period of several months, we do like to see these numbers grow. Here's how the numbers look like for our logged in users over the last six months.
+As mentioned earlier, day to day fluctuations in visits to a specific page are normal but when looked at a period of several months, we do like to see these numbers grow. Here's how the numbers look like for [our logged in users over the last six months](https://plausible.io/plausible.io?period=6mo&page=%2Fsites).
 
 ![Logged in users over time](/uploads/logged-in-users.png)
 
@@ -185,7 +185,7 @@ When a visitor converts for a particular goal they’ll be counted as a converte
 
 ## Conversion Rate
 
-The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account. Here's a look at our trial signups.
+The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account. [Here's a look at our trial signups](https://plausible.io/plausible.io?period=6mo&goal=Signup).
 
 ![The number of trial signups](/uploads/number-of-trial-signups.png)
 
