@@ -6,10 +6,10 @@ description: We're a SaaS startup that has subscriptions as a business model.
   This post is a look at metrics we care about when analyzing our website and
   marketing efforts.
 slug: /metrics-definitons
-date: 2020-08-07T08:45:48.514Z
+date: 2020-08-12T08:10:32.482Z
 author: marko-saric
 image: /uploads/plausible-traffic-july.png
-image-alt: How we use web analytics
+image-alt: How we use web analytics to measure our startup's progress
 ---
 Plausible Analytics is a simple, lightweight, open source and privacy-friendly web analytics tool. We're a SaaS startup with subscriptions as a business model. 
 
@@ -26,7 +26,7 @@ Some site owners don't use any analytics as they are not interested in knowing t
 
 On the other hand, majority of website and business owners want to see some level of stats that tells them what's going on, whether their efforts are resulting in anything and what exactly works and what doesn't. There are many website analytics options for them.
 
-## What can web analytics tell a site owner?
+## What can web analytics tell a site or business owner?
 
 There is no definitive answer to this question. Which metrics to use to measure the success of your website really depends on the website itself and the goals the site owner has with the website. 
 
