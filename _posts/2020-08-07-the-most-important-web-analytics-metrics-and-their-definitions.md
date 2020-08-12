@@ -72,22 +72,6 @@ If a person visits your site from multiple devices or on multiple days, they are
  
 You can learn more about [how we count unique visitors](https://plausible.io/data-policy).
 
-### Bounce Rate
-
-The percentage of visitors with a single page view. A visitor "bounces" away and leaves your site after only viewing a single page.
-
-This is a useful metric to judge the quality of the individual pages on your site. You can review pages with a high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are actions you can take to improve the particular page and reduce the number of bounces.
-
-Note that a particular page having a high bounce rate doesn't automatically mean that it is a negative thing that needs to be acted on. Depending on the context, some visitors bounce because they get what they came for and have no need to explore further.
-
-Bounce rate is also useful when judging the quality of a referral source and can help you decide which marketing actions to continue being focused on and which to stop.
-
-### Visit Duration
-
-How long time visitors spend on your site. It only shows people who visit more than one page. For those who visit one page only we default to 0 seconds.
-
-Visit duration is another metric that can help you measure the quality of your site and the quality of a referral source. It can be nicely combined with the bounce rate.
-
 ### Referral Sources
 
 See all referral sources that are sending you traffic. A source is reported when a person clicks through to your site from another site.
@@ -192,6 +176,22 @@ This post features all the metrics Plausible Analytics supports on our dashboard
 ### Total Pageviews
 
 The total number of times your pages were loaded by your visitors.
+
+### Bounce Rate
+
+The percentage of visitors with a single page view. A visitor "bounces" away and leaves your site after only viewing a single page.
+
+This is a useful metric to judge the quality of the individual pages on your site. You can review pages with a high bounce rate where many visitors leave your site to decide whether that is expected behavior and whether there are actions you can take to improve the particular page and reduce the number of bounces.
+
+Note that a particular page having a high bounce rate doesn't automatically mean that it is a negative thing that needs to be acted on. Depending on the context, some visitors bounce because they get what they came for and have no need to explore further.
+
+Bounce rate is also useful when judging the quality of a referral source and can help you decide which marketing actions to continue being focused on and which to stop.
+
+### Visit Duration
+
+How long time visitors spend on your site. It only shows people who visit more than one page. For those who visit one page only we default to 0 seconds.
+
+Visit duration is another metric that can help you measure the quality of your site and the quality of a referral source. It can be nicely combined with the bounce rate.
 
 ### Current Visitors
 
