@@ -20,9 +20,39 @@ We eat our own dog food and use Plausible Analytics itself to do all our analysi
 1. Ordered list
 {:toc}
 
-## Web analytics metrics use cases and definitions
+## Do you need web analytics at all?
 
-This post features all the metrics Plausible Analytics supports on our dashboard and their definitions too. We plan to keep this page up to date with all the latest changes and additions.
+Some site owners don't use any analytics as they are not interested in knowing the results of their efforts. They run a website because they want to or publish content on topics they want to more like a diary and they don't worry whether someone visits that content or whether people like a particular topic more than another. That's fantastic.
+
+On the other hand, majority of website and business owners want to see some level of stats that tells them what's going on, whether their efforts are resulting in anything and what exactly works and what doesn't. There are many website analytics options for them.
+
+## What can web analytics tell a site owner and what are the most important metrics?
+
+There is no definitive answer to this question. Which metrics to use to measure the success of your website really depends on the website itself and the goals the site owner has with the website. 
+
+In this post, we will try to showcase the metrics we use ourselves and what we use them for. These are some of the main areas where web analytics can help website owners get a better idea of what's happening and how things are going:
+
+### Is the website growing
+
+This is one of the most important areas overall. Are people visiting your website in the first place? How does the visitor trend look like over a longer period of time? This gives you the answer to the question whether your website alive but also whether it is growing or declining. 
+
+This can help you understand which of your communication and marketing activities make a difference to your site. You may be putting a lot of time, effort and resources into different marketing campaigns and by looking at referral sources of your website traffic you can better understand which of those campaigns are more worth than others.
+
+### What are people doing when they visit the website
+
+This tells you more about the different areas, sections and pages of your site. You've put a lot of time and effort to create those pages and web analytics can tell you which of them are attracting visitors. Metrics such as page views, bounce rate and visit duration can show you which of your pages are more useful and interesting and which are not.
+
+This can help you understand which of your efforts are working better than the others. This can help you better allocate your future time and efforts to do more of the things that work and that your audience is interested in.
+
+### Are the visitors converting on the goals
+
+Most web analytics allow site owners to set goals and events to track those visitor actions that matter the most to them. Examples of this can be anything from the number of visitors who sign up to a mailing list, to things such as the number of people who sign up to a trial account or the number of visitors who buy a product.
+
+In many cases, goals and events can be tied directly to the monetary success of an enterprise which makes them essential metrics to follow to understand the state of the business.
+
+## Most important web analytics metrics that we monitor 
+
+Here's the list of the most important metrics that we monitor to understand the progress we're making as a startup.
 
 ## Unique Visitors
 
@@ -41,10 +71,6 @@ The definition of unique visitors is a bit different in Plausible Analytics comp
 If a person visits your site from multiple devices or on multiple days, they are counted as separate visitors. This allows us to be compliant with the different privacy regulations such as PECR and [GDPR](https://plausible.io/blog/google-analytics-gdpr) so you don't need to get the visitor consent to keep track of the stats.
  
 You can learn more about [how we count unique visitors](https://plausible.io/data-policy).
-
-## Total Pageviews
-
-The total number of times your pages were loaded by your visitors.
 
 ## Bounce Rate
 
@@ -136,10 +162,6 @@ It's useful to understand which pages Google (or another search engine) consider
 
 The number of searches for branded keywords such as your startup's name or your URL. Tracking the trend of these keywords is useful to understand whether your marketing efforts are working in a more indirect way. You may see a spike in branded search traffic thanks to a guest post on a big site or thanks to you being a guest on a popular podcast.
 
-## Entry Pages
-
-Shows the first page people view on your site.
-
 ## Top Pages
 
 Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
@@ -164,10 +186,6 @@ Top pages report can also help analyze your in-product usage in terms of activat
 As mentioned earlier, day to day fluctuations in visits to a specific page are normal but when looked at a period of several months, we do like to see these numbers grow. Here's how the numbers look like for [our logged in users over the last six months](https://plausible.io/plausible.io?period=6mo&page=%2Fsites).
 
 ![Logged in users over time](/uploads/logged-in-users.png)
-
-## Countries
-
-Shows the list of countries your visitors are based in.
 
 ## Goals
 
@@ -203,7 +221,23 @@ Hacker News is our top referral source of traffic but far but comes in 10th plac
 
 This report gives you an addition layer and more depth to analyze your efforts which can then help you optimize your strategy for the future. 
 
-## Screen Size
+## Other web analytics metrics definitions
+
+This post features all the metrics Plausible Analytics supports on our dashboard and their definitions too. We plan to keep this page up to date with all the latest changes and additions.
+
+### Total Pageviews
+
+The total number of times your pages were loaded by your visitors.
+
+### Entry Pages
+
+Shows the first page people view on your site.
+
+### Countries
+
+Shows the list of countries your visitors are based in.
+
+### Screen Size
 
 Shows the width of the screens used by your visitors. We measure the width of the browser window where your site is actually rendered rather than the full screen width. 
 
@@ -214,40 +248,10 @@ Shows the width of the screens used by your visitors. We measure the width of th
 
 Metrics are shown as a percentage of all visitors.
 
-## Browser
+### Browser
 
 Shows the browsers used by your visitors. We only show the brand of the browser and don’t include the version number or any other details. Metrics are shown as a percentage of all visitors.
 
-## Operating System
+### Operating System
 
 Shows the operating systems used by your visitors. We only show the brand of the operating system and don’t include the version number or any other details. Metrics are shown as a percentage of all visitors.
-
-## Do you need web analytics at all?
-
-Some site owners don't use any analytics as they are not interested in knowing the results of their efforts. They run a website because they want to or publish content on topics they want to more like a diary and they don't worry whether someone visits that content or whether people like a particular topic more than another. That's fantastic.
-
-On the other hand, majority of website and business owners want to see some level of stats that tells them what's going on, whether their efforts are resulting in anything and what exactly works and what doesn't. There are many website analytics options for them.
-
-## What can web analytics tell a site owner and what are the most important metrics?
-
-There is no definitive answer to this question. Which metrics to use to measure the success of your website really depends on the website itself and the goals the site owner has with the website. 
-
-In this post, we tried to showcase the metrics we use ourselves and what we use them for. These are some of the main areas where web analytics can help website owners get a better idea of what's happening and how things are going:
-
-### Is the website growing
-
-This is one of the most important areas overall. Are people visiting your website in the first place? How does the visitor trend look like over a longer period of time? This gives you the answer to the question whether your website alive but also whether it is growing or declining. 
-
-This can help you understand which of your communication and marketing activities make a difference to your site. You may be putting a lot of time, effort and resources into different marketing campaigns and by looking at referral sources of your website traffic you can better understand which of those campaigns are more worth than others.
-
-### What are people doing when they visit the website
-
-This tells you more about the different areas, sections and pages of your site. You've put a lot of time and effort to create those pages and web analytics can tell you which of them are attracting visitors. Metrics such as page views, bounce rate and visit duration can show you which of your pages are more useful and interesting and which are not.
-
-This can help you understand which of your efforts are working better than the others. This can help you better allocate your future time and efforts to do more of the things that work and that your audience is interested in.
-
-### Are the visitors converting on the goals
-
-Most web analytics allow site owners to set goals and events to track those visitor actions that matter the most to them. Examples of this can be anything from the number of visitors who sign up to a mailing list, to things such as the number of people who sign up to a trial account or the number of visitors who buy a product.
-
-In many cases, goals and events can be tied directly to the monetary success of an enterprise which makes them essential metrics to follow to understand the state of the business.
