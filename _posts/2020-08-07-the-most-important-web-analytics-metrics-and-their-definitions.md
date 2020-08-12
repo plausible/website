@@ -114,41 +114,41 @@ Google traffic bounce rate is at 43% and visit duration is at 3 minutes which ma
 
 It doesn't necessarily mean that Facebook is a bad traffic source but it does show that things are not exactly what they seem on the surface and that a closer look is needed to get more actionable insights.
 
-## Google Search Queries 
+### Google Search Queries 
 
 Google and other search engines are top sources of quality traffic for many websites and startups. [Looking deeper into the organic traffic from search engines](https://plausible.io/plausible.io/referrers/Google?period=6mo&source=Google) is a valuable exercise that can help drive your future strategy. Some things that are worth keeping an eye on:
 
-### The overall level of organic search traffic
+#### The overall level of organic search traffic
 
 The overall level of traffic from Google search (or other search engine that drives the traffic to your site). You want this number to be rising as you continue building your brand. You certainly don't want to see a sudden drop which can signify a potential issue such as less interest in your topic, a competitor taking over some of your rankings or even an algorithmic penalty.
 
-### Search queries people find your site with
+#### Search queries people find your site with
 
 Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
 
 ![Our top search queries from Google](/uploads/top-google-search-queries.png)
 
-### Entry pages from search engines
+#### Entry pages from search engines
 
 It's useful to understand which pages Google (or another search engine) considers important to rank and send you traffic to. This can help you analyze your efforts to understand what works and what doesn't which can help you optimize your future content calendar.
 
-### The number of branded searches
+#### The number of branded searches
 
 The number of searches for branded keywords such as your startup's name or your URL. Tracking the trend of these keywords is useful to understand whether your marketing efforts are working in a more indirect way. You may see a spike in branded search traffic thanks to a guest post on a big site or thanks to you being a guest on a popular podcast.
 
-## Top Pages
+### Top Pages
 
 Shows the most viewed pages of your site. On many websites, the home page is not necessarily the most visited and the popular page. Knowing the pages that people visit the most is useful in many ways.
 
-### Understanding the interest around your product's benefits
+#### Understanding the interest around your product's benefits
 
 For instance, we've published different product pages that explain in detail how Plausible Analytics is built around use-cases where we believe Google Analytics is not the ideal solution for some website owners. These are things such as website speed, simplicity and privacy regulations. We can now look into our stats to see which of these "benefits" is most interesting to the visitors of our site.
 
-### Analyzing your content marketing efforts
+#### Analyzing your content marketing efforts
 
 Top pages is also one of the main metrics for your content marketing efforts. It takes a lot of time and effort to produce a blog post so knowing which blog posts have had a bigger impact than others is an insightful and actionable stat. It can help you decide which topics to explore even further.
 
-### Analyzing in-product usage and retention
+#### Analyzing in-product usage and retention
 
 Top pages report can also help analyze your in-product usage in terms of activation and retention. We don't do any in-depth analysis of our product usage such as heatmaps and behavioral analytics but we do keep an eye on the aggregate usage of specific pages:
 
@@ -161,7 +161,7 @@ As mentioned earlier, day to day fluctuations in visits to a specific page are n
 
 ![Logged in users over time](/uploads/logged-in-users.png)
 
-## Goals
+### Goals
 
 You can use goals to track desired actions people take on your site. Goals can be based on people [visiting a particular page](https://docs.plausible.io/pageview-goals/) or [triggering a particular event](https://docs.plausible.io/custom-event-goals/) such as subscribing to a newsletter or signing up for an account.
 
@@ -171,7 +171,7 @@ For our own needs, we have set up three different goals:
 * Registering for a trial account. This is useful in knowing the number of trial accounts registered but also to look at the health of the register page itself. If there's a sudden drop in the conversion rate on the register page, it might mean that there are some issues that need to be reviewed
 * Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can, for instance, see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
 
-### Conversions by referral source
+#### Conversions by referral source
 
 This is another report that we pay close attention to. There are top referral sources of overall website traffic but there are also referral sources that send traffic that converts. And these are not necessarily the same sources.
 
