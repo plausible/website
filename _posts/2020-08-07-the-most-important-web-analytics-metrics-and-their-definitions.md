@@ -5,7 +5,7 @@ title: How we use web analytics to measure our startup's progress and make
 description: We're a SaaS startup that has subscriptions as a business model.
   This post is a look at metrics we care about when analyzing our website and
   marketing efforts.
-slug: /analytics-metrics-definitons
+slug: /analytics-metrics-definitions
 date: 2020-08-12T08:10:32.482Z
 author: marko-saric
 image: /uploads/plausible-traffic-july.png
