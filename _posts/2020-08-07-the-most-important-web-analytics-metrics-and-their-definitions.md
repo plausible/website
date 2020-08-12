@@ -26,7 +26,7 @@ Some site owners don't use any analytics as they are not interested in knowing t
 
 On the other hand, majority of website and business owners want to see some level of stats that tells them what's going on, whether their efforts are resulting in anything and what exactly works and what doesn't. There are many website analytics options for them.
 
-## What can web analytics tell a site owner and what are the most important metrics?
+## What can web analytics tell a site owner?
 
 There is no definitive answer to this question. Which metrics to use to measure the success of your website really depends on the website itself and the goals the site owner has with the website. 
 
@@ -54,7 +54,7 @@ In many cases, goals and events can be tied directly to the monetary success of 
 
 Here's the list of the most important metrics that we monitor to understand the progress we're making as a startup.
 
-## Unique Visitors
+### Unique Visitors
 
 The number of people who visited your site. This is important to understand your acquisition and whether you're actually getting any new people to come to your site.
 
@@ -64,7 +64,7 @@ But it's also worth noting that things are not always that simple. If you have a
 
 Accept that short term traffic fluctuations are normal and wait for more long-term trends to emerge before making any drastic decisions. Tracking metrics and understanding trends over a longer period of time is the key.
 
-### Tracking unique visitors without cookies
+#### Tracking unique visitors without cookies
 
 The definition of unique visitors is a bit different in Plausible Analytics compared to a cookie-based analytics tool. Plausible Analytics is privacy friendly tool so we don't use cookies and any other persistent identifiers to keep track of visitors. 
 
@@ -72,7 +72,7 @@ If a person visits your site from multiple devices or on multiple days, they are
  
 You can learn more about [how we count unique visitors](https://plausible.io/data-policy).
 
-## Bounce Rate
+### Bounce Rate
 
 The percentage of visitors with a single page view. A visitor "bounces" away and leaves your site after only viewing a single page.
 
@@ -82,23 +82,13 @@ Note that a particular page having a high bounce rate doesn't automatically mean
 
 Bounce rate is also useful when judging the quality of a referral source and can help you decide which marketing actions to continue being focused on and which to stop.
 
-## Visit Duration
+### Visit Duration
 
 How long time visitors spend on your site. It only shows people who visit more than one page. For those who visit one page only we default to 0 seconds.
 
 Visit duration is another metric that can help you measure the quality of your site and the quality of a referral source. It can be nicely combined with the bounce rate.
 
-## Current Visitors
-
-How many people are on your site right now. This includes all visitors who have loaded a page in the last 5 minutes. 
-
-In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages current visitors are viewing, referral sources that sent them to your site, completed goals and other details. 
-
-This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see an unusually high number of active visitors on site, I enter the realtime view and look at the referral sources and the top pages.
-
-This can help identify when your content was shared by an influential person in social media, when you have a new link pointing to your site or when your post has been submitted to a large aggregator or a niche forum. Then you can go and join the conversion wherever it is taking place.
-
-## Referral Source
+### Referral Sources
 
 See all referral sources that are sending you traffic. A source is reported when a person clicks through to your site from another site.
 
@@ -112,7 +102,7 @@ This can help you understand the effectiveness of your actions. If you're spendi
 
 Either change the way you approach the particular community or see if there are other communities that may be more appropriate to you.
 
-### How to use bounce rate and visit duration to analyze referral sources
+#### How to use bounce rate and visit duration to analyze referral sources
 
 On our own website over the last six months, [Google and Facebook have sent a similar amount of referral traffic](https://plausible.io/plausible.io/referrers?period=6mo) (Google 7.2K and Facebook 6.4K visitors). Without looking at other metrics, you may think that they are equally useful sources of traffic.
 
@@ -123,22 +113,6 @@ But if you add bounce rate and the visit duration into the equation, you can the
 Google traffic bounce rate is at 43% and visit duration is at 3 minutes which makes it one of our top traffic sources. Facebook, on the other hand, bring lower quality traffic. The bounce rate is 86% and the visit duration is 25 seconds.
 
 It doesn't necessarily mean that Facebook is a bad traffic source but it does show that things are not exactly what they seem on the surface and that a closer look is needed to get more actionable insights.
-
-## Direct / None
-
-This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). For many websites, "Direct / None" stands at the top of their referral sources. 
-
-### How to minimize the amount of traffic without referrals 
-
-To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
-
-* yourdomain.com?ref=Newsletter
-* yourdomain.com?source=Newsletter
-* yourdomain.com?utm_source=Newsletter
-
-For any clicks on any of the above links, "Newsletter" would be listed as a referral source in your Plausible Analytics dashboard. It is a good practice to tag your links where the referrer header is not sent. Emails, newsletters, chat, messaging applications, particular websites and communities and so on.
-
-When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, Plausible Analytics falls back to the referrer header.
 
 ## Google Search Queries 
 
@@ -197,17 +171,17 @@ For our own needs, we have set up three different goals:
 * Registering for a trial account. This is useful in knowing the number of trial accounts registered but also to look at the health of the register page itself. If there's a sudden drop in the conversion rate on the register page, it might mean that there are some issues that need to be reviewed
 * Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can, for instance, see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
 
-## Converted Visitors
+### Converted Visitors
 
 When a visitor converts for a particular goal they’ll be counted as a converted visitor. If the same goal is completed multiple times by the same visitor, it will only be counted as a single conversion.
 
-## Conversion Rate
+### Conversion Rate
 
 The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account. [Here's a look at our trial signups](https://plausible.io/plausible.io?period=6mo&goal=Signup).
 
 ![The number of trial signups](/uploads/number-of-trial-signups.png)
 
-## Conversions by referral source
+### Conversions by referral source
 
 This is another report that we pay close attention to. There are top referral sources of overall website traffic but there are also referral sources that send traffic that converts. And these are not necessarily the same sources.
 
@@ -229,9 +203,35 @@ This post features all the metrics Plausible Analytics supports on our dashboard
 
 The total number of times your pages were loaded by your visitors.
 
+### Current Visitors
+
+How many people are on your site right now. This includes all visitors who have loaded a page in the last 5 minutes. 
+
+In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages current visitors are viewing, referral sources that sent them to your site, completed goals and other details. 
+
+This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see an unusually high number of active visitors on site, I enter the realtime view and look at the referral sources and the top pages.
+
+This can help identify when your content was shared by an influential person in social media, when you have a new link pointing to your site or when your post has been submitted to a large aggregator or a niche forum. Then you can go and join the conversion wherever it is taking place.
+
 ### Entry Pages
 
 Shows the first page people view on your site.
+
+### Direct / None
+
+This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). For many websites, "Direct / None" stands at the top of their referral sources. 
+
+#### How to minimize the amount of traffic without referrals 
+
+To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
+
+* yourdomain.com?ref=Newsletter
+* yourdomain.com?source=Newsletter
+* yourdomain.com?utm_source=Newsletter
+
+For any clicks on any of the above links, "Newsletter" would be listed as a referral source in your Plausible Analytics dashboard. It is a good practice to tag your links where the referrer header is not sent. Emails, newsletters, chat, messaging applications, particular websites and communities and so on.
+
+When a query parameter is present in the link it takes priority. When someone lands on your website without the special query parameter defined, Plausible Analytics falls back to the referrer header.
 
 ### Countries
 
