@@ -171,16 +171,6 @@ For our own needs, we have set up three different goals:
 * Registering for a trial account. This is useful in knowing the number of trial accounts registered but also to look at the health of the register page itself. If there's a sudden drop in the conversion rate on the register page, it might mean that there are some issues that need to be reviewed
 * Subscribing to the newsletter. This is useful to know how many people decide to hear from us. We can, for instance, see which referral sources and individual blog posts have had the biggest impact in getting people to subscribe to the newsletter
 
-### Converted Visitors
-
-When a visitor converts for a particular goal they’ll be counted as a converted visitor. If the same goal is completed multiple times by the same visitor, it will only be counted as a single conversion.
-
-### Conversion Rate
-
-The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account. [Here's a look at our trial signups](https://plausible.io/plausible.io?period=6mo&goal=Signup).
-
-![The number of trial signups](/uploads/number-of-trial-signups.png)
-
 ### Conversions by referral source
 
 This is another report that we pay close attention to. There are top referral sources of overall website traffic but there are also referral sources that send traffic that converts. And these are not necessarily the same sources.
@@ -255,3 +245,13 @@ Shows the browsers used by your visitors. We only show the brand of the browser 
 ### Operating System
 
 Shows the operating systems used by your visitors. We only show the brand of the operating system and don’t include the version number or any other details. Metrics are shown as a percentage of all visitors.
+
+### Converted Visitors
+
+When a visitor converts for a particular goal they’ll be counted as a converted visitor. If the same goal is completed multiple times by the same visitor, it will only be counted as a single conversion.
+
+### Conversion Rate
+
+The percentage of visitors that take a desired action such as subscribing to a newsletter or signing up for an account. [Here's a look at our trial signups](https://plausible.io/plausible.io?period=6mo&goal=Signup).
+
+![The number of trial signups](/uploads/number-of-trial-signups.png)
