@@ -123,9 +123,80 @@
             </div>
           </div>
         </div>
+        <div x-data="{open: false}" class="relative inline-block text-left ml-8">
+          <div>
+            <span @click="open = !open" class="cursor-pointer inline-flex justify-center font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
+              Community
+              <svg class="-mr-1 h-5 w-5" style="transform: translateY(3px);" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </span>
+          </div>
+          <div x-show="open" @click.away="open = false" style="display: none;" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
+            <div class="rounded-lg shadow-lg">
+              <div class="rounded-lg shadow-xs overflow-hidden">
+                <div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                  <a href="/blog" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                    <div class="space-y-1">
+                      <p class="text-base leading-6 font-medium text-gray-900">
+                      Blog
+                      </p>
+                      <p class="text-sm leading-5 text-gray-500">
+                        Stories about privacy, web analytics, and building a financially sustainable open-source project.
+                      </p>
+                    </div>
+                  </a>
+                  <a href="https://docs.plausible.io/" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                    <div class="space-y-1">
+                      <p class="text-base leading-6 font-medium text-gray-900">
+                      Documentation
+                      </p>
+                      <p class="text-sm leading-5 text-gray-500">
+                        Everything you need to know about getting up and running with Plausible.
+                      </p>
+                    </div>
+                  </a>
+                  <a href="https://github.com/plausible/analytics" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                    <div class="space-y-1">
+                      <p class="text-base leading-6 font-medium text-gray-900">
+                      Github Repo
+                      </p>
+                      <p class="text-sm leading-5 text-gray-500">
+                        Inspect the source code behind our product. Self-hosted Plausible is available in beta.
+                      </p>
+                    </div>
+                  </a>
+                  <a href="https://plausible.io/roadmap" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                    <div class="space-y-1">
+                      <p class="text-base leading-6 font-medium text-gray-900">
+                      Public Roadmap
+                      </p>
+                      <p class="text-sm leading-5 text-gray-500">
+                      Follow the developement and make suggestions for what you would like to see in the next version.
+                      </p>
+                    </div>
+                  </a>
+                  <a href="https://plausible.io/forum" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                    <div class="space-y-1">
+                      <p class="text-base leading-6 font-medium text-gray-900">
+                      Forum
+                      </p>
+                      <p class="text-sm leading-5 text-gray-500">
+                      Community support for self-hosting Plausible users.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
+                  <h3 class="text-sm font-medium text-gray-600">
+                    Follow <a href="https://twitter.com/PlausibleHQ" class="text-blue-500">@PlausibleHQ</a> on Twitter for news and updates
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <a href="/#pricing" class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-        <a href="/blog" class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Blog</a>
-        <a href="https://docs.plausible.io" class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Docs</a>
       </div>
       <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
         <ul class="flex" x-show="!document.cookie.includes('logged_in=true')">
@@ -172,9 +243,13 @@
           <span class="block px-3 py-2 rounded-md text-base font-medium text-gray-700">Comparisons</span>
           <a href="/vs-google-analytics" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Google Analytics alternative</a>
           <a href="/vs-matomo" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Matomo alternative</a>
+          <span class="block px-3 py-2 rounded-md text-base font-medium text-gray-700">Community</span>
+          <a href="/blog" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Blog</a>
+          <a href="https://docs.plausible.io" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Documentation</a>
+          <a href="https://github.com/plausible/analytics" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Github Repo</a>
+          <a href="https://plausible.io/roadmap" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Public Roadmap</a>
+          <a href="https://plausible.io/forum" class="ml-2 mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">- Forum</a>
           <a href="/#pricing" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Pricing</a>
-          <a href="/blog" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Blog</a>
-          <a href="https://docs.plausible.io" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Docs</a>
         </div>
         <div x-show="!document.cookie.includes('logged_in=true')">
           <a href="/register" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">
