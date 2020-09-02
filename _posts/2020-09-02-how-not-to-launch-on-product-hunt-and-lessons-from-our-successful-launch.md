@@ -29,7 +29,7 @@ Don't dream too much about launching on Product Hunt and getting hundreds of pay
 
 And certainly don't go on search engines looking for launch advice or launch guides. When I started writing this post I had a quick look at what ranks on the first page of search engines for keywords phrases such as "Product Hunt launch" and I didn't like what I saw.
 
-So much spam and so much bad and generic advice that simply cannot work. Or at least it makes your chances of succeeding much lower and gets you to focus on and waste time on useless things. No wonder many founder end up being hesitant about launching,
+So much spam and so much bad and generic advice that simply cannot work. Or at least it makes your chances of succeeding much lower and gets you to focus on and waste time on useless things. No wonder many founders end up being hesitant with their launch.
 
 ## Plausible Analytics launch on Product Hunt
 
@@ -78,7 +78,7 @@ We're [a web analytics tool](https://plausible.io/simple-web-analytics) and you 
 
 ## The spike of hope, the flatline of nope and why Product Hunt is not the holy grail of your startup marketing
  
-It's important for founders to understand that Product Hunt is not the holy grail of your startup marketing. It's not the solution to your marketing problems and it's not the end goal of your marketing efforts.
+You need to understand that Product Hunt is not the holy grail of your startup marketing. It's not the solution to your marketing problems and it's not the end goal of your marketing efforts.
 
 You may launch on Product Hunt and even if you have great success such as that you finish on the top, get featured in the newsletter and so on, you will see a spike of 1,500+ visitors on the day and a big drop the day after.
 
@@ -88,11 +88,13 @@ The faith of your startup should not rely on your Product Hunt launch. The big a
 
 Do the "marketing" work day in and day out from day one instead. Improve your product, talk to people, listen to the feedback, share your lessons and learnings, answer questions people have, build your audience and your community one person at a time.
 
-Our marketing is focused on content and the different niche communities. You can read more about how our approach helped us bootstrapped our startup [from $400 to $2,750 MRR in 135 days without paid advertising](https://plausible.io/blog/startup-marketing).
+Our marketing is focused on content and different niche communities. You can read more about how our approach helped us bootstrapped our startup [from $400 to $2,750 MRR in 135 days without paid advertising](https://plausible.io/blog/startup-marketing).
 
 ## Two possible approaches for your Product Hunt launch
 
-1. Launch on Product Hunt as soon as you have something to show. This will be the first time you showcase your product to the world. You won't have much of an audience to help you spread the word at that stage so you'll need to play the Product Hunt game and hope to get lucky.
+### Launch as soon as you have a working product
+
+Launch on Product Hunt as soon as you have something to show. This will be the first time you showcase your product to the world. You won't have much of an audience to help you spread the word at that stage so you'll need to play the Product Hunt game and hope to get lucky.
 
 Ali for [Instatus](https://instatus.com/) had a [reasonable strategy](https://twitter.com/alisalahio/status/1293151141816041473) for this approach:
 
@@ -102,7 +104,9 @@ Ali for [Instatus](https://instatus.com/) had a [reasonable strategy](https://tw
 
 This will optimize your chances of having a successful launch even if you don't have an existing audience. 
 
-2. Launch on Product Hunt when you're more established and have already built an engaged audience. Then you don't need to play the game.
+### Delays the launch until you have built an audience
+
+Launch on Product Hunt when you're more established and have already built an engaged audience. Then you don't need to play the game.
 
 Launch your product, start engaging with relevant people, build your audience one person at a time over a period of few months and then go with the delayed launch on Product Hunt itself where the audience you've built will help you get seen.
 
