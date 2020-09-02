@@ -96,7 +96,7 @@ Our marketing approach is focused on content and different niche communities. Yo
 
 Launch on Product Hunt as soon as you have something to show. This will be the first time you showcase your product to the world. You won't have much of an audience to help you spread the word at that stage so you'll need to play the Product Hunt game and hope to get lucky.
 
-Ali for [Instatus](https://instatus.com/) has a [reasonable strategy](https://twitter.com/alisalahio/status/1293151141816041473) for this approach:
+Ali from [Instatus](https://instatus.com/) has a [reasonable strategy](https://twitter.com/alisalahio/status/1293151141816041473) for this approach:
 
 * Ask a popular hunter to submit your product
 * Create a cool GIF and a cool video
