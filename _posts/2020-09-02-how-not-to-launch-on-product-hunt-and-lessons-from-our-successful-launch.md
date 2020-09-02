@@ -45,7 +45,7 @@ On August 11th I tweeted asking what's the [best launch approach](https://twitte
 
 There was no specific reason other than trying to see what Product Hunt could do for us. No month-long preparation and no high expectations either that Product Hunt would make us an overnight success. 
 
-## Our Product Hunt launch results
+## Our Product Hunt referral traffic and trial conversions
 
 We ended up having a relatively successful Product Hunt launch. 
 
