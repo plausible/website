@@ -5,7 +5,7 @@ description: Here's what we learned from our successful Product Hunt launch with
   more than 850 upvotes and more than 100 comments. And what not to do when you
   want to launch on Product Hunt.
 slug: product-hunt-launch
-date: 2020-09-02T08:17:32.425Z
+date: 2020-09-02T09:31:06.427Z
 author: marko-saric
 image: /uploads/product-hunt-launch-traffic.png
 image-alt: Our Product Hunt launch website traffic
