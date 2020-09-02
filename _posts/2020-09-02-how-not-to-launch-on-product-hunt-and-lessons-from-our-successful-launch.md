@@ -161,5 +161,4 @@ Product Hunt is much more than the daily list of launched products. There's the 
 
 ### Read the official launch guide
 
-Last but not least. Product Hunt has released a lot of useful advice on how to launch your product there. Here's [the official launch guide](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399). This includes all the practical info you need such as character limits and image size recommendations. 
-
+Last but not least. Product Hunt has released a lot of useful advice on how to launch your product there. Here's [the official launch guide](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399). This includes all the practical info you need such as character limits and image size recommendations.
