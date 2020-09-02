@@ -14,6 +14,9 @@ We just had a successful Product Hunt launch with Plausible Analytics. More than
 
 And no. You don't need to join any Slack or Facebook groups to upvote each other's products. You don't need a famous hunter. You don't need to create a long spreadsheet with contact details of people you'll spam asking for upvotes. You don't need to bother people by creating hype days in advance. You don't need to gather an army of soldiers or an army of fake users either.
 
+1. Ordered list
+{:toc}
+
 ## Don't overcomplicate and overthink your Product Hunt launch
 
 Too many startup founders spend way too much time being concerned and thinking about launching on Product Hunt.
