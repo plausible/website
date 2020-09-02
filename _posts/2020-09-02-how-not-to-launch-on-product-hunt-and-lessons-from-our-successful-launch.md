@@ -7,6 +7,8 @@ description: Here's what we learned from our successful Product Hunt launch with
 slug: product-hunt-launch
 date: 2020-09-02T08:17:32.425Z
 author: marko-saric
+image: /uploads/product-hunt-launch-traffic.png
+image-alt: Our Product Hunt launch website traffic
 ---
 We just had a successful Product Hunt launch with Plausible Analytics. More than 850 upvotes, more than 100 comments, featured on both the official Twitter account (twice) and in the daily and weekly newsletters. These are the details about our experience and what we learned launching.
 
@@ -30,6 +32,8 @@ So much spam and so much bad and generic advice that simply cannot work. Or at l
 
 We launched on Product Hunt on August 27th with a year and a half delay or so from the actual launch of the product. Here's [our page on Product Hunt](https://www.producthunt.com/posts/plausible-analytics).
 
+![Plausible Analytics Product Hunt listing](/uploads/product-hunt-listing.png)
+
 What was the final push that made us decide that we're launching on Product Hunt? No specific reason. As a marketer, I'm always looking for new platforms and places where to reach more relevant and interested people. Product Hunt was a platform we didn't explore yet and it was about time.
 
 On August 11th I tweeted asking what's the [best launch approach](https://twitter.com/MarkoSaric/status/1293147217612726272) getting some useful replies. Then I went on a holiday, returned on August 24th and on August 26th on our daily call we briefly mentioned Product Hunt and agreed to go for it the day after. 
@@ -48,9 +52,15 @@ Within the first 24 hours, we got 1,490 unique visitors from Product Hunt to our
 
 And now, almost a week after the launch, we're on more than 850 upvotes, more than 100 comments and 27 reviews with a score of 4.8/5. 2,560 unique visitors to our website, with a bounce rate of 44%, average visit duration of 1 minute and 44 seconds and 36 trial signups.
 
+Product Hunt ended up being our top referral source of traffic even though we launched at the very end of the month.
+
+![Our top referral sources of traffic in August](/uploads/top-referral-sources-august.png)
+
 You can take a look at the full real-time details of the traffic we got from Product Hunt on [our live demo](https://plausible.io/plausible.io?period=12mo&source=producthunt).
 
 On top of this, I believe we will see other benefits of being on Product Hunt. It's always difficult to measure brand awareness and the impact our Product Hunt listing will have in the coming weeks and months, but I'm hoping we will continue seeing a trickle of visitors day after day. 
+
+### Comparison of our referral sources and their conversions to trial
 
 Here's an interesting comparison of our referral sources for the full month of August ([see the complete data here](https://plausible.io/plausible.io?period=month&date=2020-08-01)):
 
@@ -58,6 +68,8 @@ Here's an interesting comparison of our referral sources for the full month of A
 * Indie Hackers sent 2,390 unique visitors and 18 trial signups (0.75% conversion rate)
 * Google organic search sent 2,215 unique visitors and 78 trial signups (3.52% conversion rate)
 * Twitter sent 2,059 unique visitors and 20 trial signups (0.97% conversion rate)
+
+![Top trial conversions referral sources](/uploads/top-conversions-sources-august.png)
 
 We're [a web analytics tool](https://plausible.io/simple-web-analytics) and you need to sign up for a trial and insert a piece of code into your site to try us out. If you're launching a mobile app that is quick to download on the spot or a newsletter with a one-click subscription, you may see higher levels of conversions.
 
