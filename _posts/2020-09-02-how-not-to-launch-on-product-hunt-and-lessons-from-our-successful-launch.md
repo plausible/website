@@ -107,6 +107,8 @@ Have a nice featured image but you don't necessarily need to go overboard creati
 
 We already had an image that we use as our home page featured image for social media so we went with that one.
 
+![Our home page featured image for social media](/uploads/plausible-analytics-social.jpeg)
+
 ### Self-hunting vs an established hunter
 
 We simply submitted it ourselves as we already had an audience of people who use and like Plausible Analytics. If we didn't have an audience, it would help to use an established hunter as they would help bring their audience by sharing it on their social media.
