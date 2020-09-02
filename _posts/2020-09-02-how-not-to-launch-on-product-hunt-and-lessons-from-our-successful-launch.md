@@ -10,9 +10,11 @@ author: marko-saric
 image: /uploads/product-hunt-launch-traffic.png
 image-alt: Our Product Hunt launch website traffic
 ---
-We just had a successful Product Hunt launch with Plausible Analytics. More than 850 upvotes, more than 100 comments, featured on both the official Twitter account (twice) and in the daily and weekly newsletters. These are the details about our experience and what we learned launching.
+We've just had a successful Product Hunt launch for Plausible Analytics. More than 850 upvotes, more than 100 comments, featured twice on the official Twitter account and in the daily and weekly newsletters too.
 
-And no. You don't need to join any Slack or Facebook groups to upvote each other's products. You don't need a famous hunter. You don't need to create a long spreadsheet with contact details of people you'll spam asking for upvotes. You don't need to bother people by creating hype days in advance. You don't need to gather an army of soldiers or an army of fake users either.
+And no. You don't need to join any Slack or Facebook groups to upvote each other's products. You don't need a famous hunter. You don't need to create a spreadsheet with contact details of people you'll ask for upvotes. You don't need to bother people by creating hype days in advance. You don't need to gather an army of soldiers or an army of fake users either.
+
+Let's get started with our experience and what we learned launching on Product Hunt.
 
 1. Ordered list
 {:toc}
@@ -23,13 +25,13 @@ Too many startup founders spend way too much time being concerned and thinking a
 
 I've heard founders say things such as "I'm just dreaming about when I launch on PH and after that I'm a millionaire" or "I'm trying to pluck up the courage to launch on PH" or asking "how do you know when's the right time" and "what's the final push to launch".
 
-Product Hunt is a popular platform with a supportive community and it's a great place to get some attention for your startup and be discovered. But it is only one of the many other great niche communities where you can do the same.
+Product Hunt is a popular platform with a supportive community and it's a great place to get some attention for your startup and be discovered. But it's only one of the many other great niche communities where you can do the same.
 
-Don't dream too much about launching on Product Hunt and getting hundreds of paying customers on the day so you can immediately quit your job. If you have such high expectations, you're bound to be disappointed. This dream may happen to a few products but it is an unrealistic expectation for most.
+Don't dream too much about launching on Product Hunt and getting hundreds of paying customers on the day so you can immediately quit your job. If you have such high expectations, you're bound to be disappointed. This dream may come true to a few products but it's an unrealistic expectation for most.
 
-And certainly don't go on search engines looking for launch advice or launch guides. When I started writing this post I had a quick look at what ranks on the first page of search engines for keywords phrases such as "Product Hunt launch" and I didn't like what I saw.
+And certainly don't go to search engines looking for launch advice or guides. When I started writing this post I had a quick look at what posts ranks on the first page of search and I didn't like what I saw.
 
-So much spam and so much bad and generic advice that simply cannot work. Or at least it makes your chances of succeeding much lower and gets you to focus on and waste time on useless things. No wonder many founders end up being hesitant with their launch.
+So much spam and so much bad and generic advice that simply cannot work. Or at least it makes your chances of succeeding much lower and gets you to focus on and waste time on useless things. No wonder many founders end up being hesitant about their launch.
 
 ## Plausible Analytics launch on Product Hunt
 
@@ -55,13 +57,11 @@ Within the first 24 hours, we got 1,490 unique visitors from Product Hunt to our
 
 And now, almost a week after the launch, we're on more than 850 upvotes, more than 100 comments and 27 reviews with a score of 4.8/5. 2,560 unique visitors to our website, with a bounce rate of 44%, average visit duration of 1 minute and 44 seconds and 36 trial signups.
 
-Product Hunt ended up being our top referral source of traffic even though we launched at the very end of the month.
+You can take a look at the full real-time details of the traffic we got from Product Hunt on [our live demo](https://plausible.io/plausible.io?period=12mo&source=producthunt). Product Hunt ended up being our top referral source of traffic in August even though we launched at the very end of the month.
 
 ![Our top referral sources of traffic in August](/uploads/top-referral-sources-august.png)
 
-You can take a look at the full real-time details of the traffic we got from Product Hunt on [our live demo](https://plausible.io/plausible.io?period=12mo&source=producthunt).
-
-On top of this, I believe we will see other benefits of being on Product Hunt. It's always difficult to measure brand awareness and the impact our Product Hunt listing will have in the coming weeks and months, but I'm hoping we will continue seeing a trickle of visitors day after day. 
+On top of this, I believe we will see other benefits of being on Product Hunt. It's always difficult to measure brand awareness and the impact our Product Hunt listing will have in the coming weeks and months, but I'm hoping we will continue seeing a trickle of visitors day after day.
 
 ### Comparison of our referral sources and their conversions to trial
 
@@ -80,7 +80,7 @@ We're [a web analytics tool](https://plausible.io/simple-web-analytics) and you 
  
 You need to understand that Product Hunt is not the holy grail of your startup marketing. It's not the solution to your marketing problems and it's not the end goal of your marketing efforts.
 
-You may launch on Product Hunt and even if you have great success such as that you finish on the top, get featured in the newsletter and so on, you will see a spike of 1,500+ visitors on the day and a big drop the day after.
+You may launch on Product Hunt and even if you have great success such as that you finish on the top, get featured in the newsletter and so on, you will see a spike of 1,500+ visitors or so on the day and a big drop the day after.
 
 You'll get the spike of hope and chances are that without additional marketing efforts you'll have the flatline of nope next. So what's the marketing plan for after the Product Hunt launch? You cannot go launch on Product Hunt every day.
 
@@ -88,31 +88,31 @@ The faith of your startup should not rely on your Product Hunt launch. The big a
 
 Do the "marketing" work day in and day out from day one instead. Improve your product, talk to people, listen to the feedback, share your lessons and learnings, answer questions people have, build your audience and your community one person at a time.
 
-Our marketing is focused on content and different niche communities. You can read more about how our approach helped us bootstrapped our startup [from $400 to $2,750 MRR in 135 days without paid advertising](https://plausible.io/blog/startup-marketing).
+Our marketing approach is focused on content and different niche communities. You can read more about how our approach helped us bootstrap our startup [from $400 to $2,750 MRR in 135 days without paid advertising](https://plausible.io/blog/startup-marketing).
 
 ## Two possible approaches for your Product Hunt launch
 
-### Launch as soon as you have a working product
+### Go live as soon as you have a working product
 
 Launch on Product Hunt as soon as you have something to show. This will be the first time you showcase your product to the world. You won't have much of an audience to help you spread the word at that stage so you'll need to play the Product Hunt game and hope to get lucky.
 
-Ali for [Instatus](https://instatus.com/) had a [reasonable strategy](https://twitter.com/alisalahio/status/1293151141816041473) for this approach:
+Ali for [Instatus](https://instatus.com/) has a [reasonable strategy](https://twitter.com/alisalahio/status/1293151141816041473) for this approach:
 
-* Ask a popular hunter to submit the product
+* Ask a popular hunter to submit your product
 * Create a cool GIF and a cool video
 * Do a retweet giveaway in the launch tweet
 
-This will optimize your chances of having a successful launch even if you don't have an existing audience. 
+This will optimize your chances of having a successful launch even if you don't have an existing audience.
 
-### Delays the launch until you have built an audience
+### Delay the launch until you've built an audience
 
-Launch on Product Hunt when you're more established and have already built an engaged audience. Then you don't need to play the game.
+Launch on Product Hunt when you're more established and have built an audience. Then you don't need to play the game.
 
-Launch your product, start engaging with relevant people, build your audience one person at a time over a period of few months and then go with the delayed launch on Product Hunt itself where the audience you've built will help you get seen.
+Release your product, start engaging with relevant people, build your audience one person at a time over a period of few months and then go with the delayed launch on Product Hunt itself where the audience you've built will help you get seen.
 
 How much time do you need to build an audience? How big audience do you need? There's no definitive answer that would work for all the startups. If you start seeing great subscriber numbers, if people love sharing your product and if your tweets get a lot of engagement... these are all great positive signs.
 
-We had an audience of about 1,000 Twitter followers when we launched. This was an audience we've built in about 4 months and we didn't do any hacks or tricks. Each of the followers is a person who has volunteered to follow us because they liked our product and/or the message we stand for.
+We had an audience of about 1,000 Twitter followers when we launched on Product Hunt. This was an audience we've built in about 4 months and we didn't do any hacks or tricks. Each of the followers is a person who has volunteered to follow us because they liked our product and/or the message we stand for.
 
 ## Product Hunt launch checklist 
 
@@ -130,13 +130,13 @@ We already had an image that we use as our home page featured image for social m
 
 ### Self-hunting vs an established hunter
 
-We simply submitted it ourselves as we already had an audience of people who use and like Plausible Analytics. If we didn't have an audience, it would help to use an established hunter as they would help bring their audience by sharing it on their social media.
+We submitted it ourselves as we already had an audience of people who use and like Plausible Analytics. If we didn't have an audience, it would help to use an established hunter as they would help bring their audience by sharing it on their social media.
 
-Product Hunt themselves recommend submitting the product yourself: "Spending lots of time “finding a hunter” is a distraction. You know your product better than anyone else, and it makes very little difference who hunts the product and how well it performs overall."
+Product Hunt recommends submitting the product yourself: "Spending lots of time “finding a hunter” is a distraction. You know your product better than anyone else, and it makes very little difference who hunts the product and how well it performs overall."
 
 "It used to matter, back in the day when we sent email notification to the hunter’s followers, but we stopped doing that a long time ago."
 
-If you still prefer to go with a hunter, one of the people who specializes in submitting products is Chris Messina. He even [has a page](https://chrismessina.me/hunt-me) where he goes through his process and lets you tell him about your product so he can hunt it.
+If you still prefer to go with a hunter, one of the people who specializes in submitting products is Chris Messina. He [has a page](https://chrismessina.me/hunt-me) where he goes through his process and lets you tell him about your product so he can hunt it.
 
 ### Don't ask for upvotes, buy upvotes or try to game the system
 
@@ -148,7 +148,7 @@ So basically don't follow any of the advice in the guides you see ranking on the
 
 ### How to start the promotion to get the upvotes rolling
 
-Some people "prep" their audience way ahead of time. We didn't do any of that. We told nobody about us planning to launch on Product Hunt until our listing was live.
+Some people "prep" their audience way ahead of time. We didn't do any of that. We told nobody about our launch on Product Hunt until our listing was live.
 
 Then we shared the link on our [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible) profiles and added the Product Hunt badge for our logged-in users and the live demo visitors on the website. 
 
@@ -158,11 +158,11 @@ We shared a few more social media posts such as site traffic updates during the 
 
 ### Don't ignore Product Hunt after your launch campaign is completed
 
-Product Hunt is much more than the daily list of launched products. There's the "Ask Product Hunt" section. There are the "alternatives to" lists. There's the community with discussions and advice. I recommend that you at least do these after your launch:
+Product Hunt is much more than the daily list of launched products. There's the "Ask Product Hunt" section, there are the "alternatives to" lists and there's the community with discussions and advice. I recommend that you do this after your launch campaign is completed:
 
-* Add your product to the "alternatives to" list of all the other popular products you're competing with.
-* Add your product to the relevant "Ask Product Hunt" threads. Some of these threads are very popular and get traffic from search engines so it's useful to be listed.
+* Add your product to the "alternatives to" lists of all the other popular products you're competing with
+* Add your product to the relevant "Ask Product Hunt" threads. Some of these threads are very popular and get traffic from search engines so it's useful to be listed and can help you get discover by more people
 
 ### Read the official launch guide
 
-Last but not least. Product Hunt has released a lot of useful advice on how to launch your product there. Here's [the official launch guide](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399). This includes all the practical info you need such as character limits and image size recommendations.
+Last but not least. Product Hunt has released a lot of useful advice on how to launch your product. Here's [the official launch guide](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399). It includes all the practical info you need such as character limits and image size recommendations. Good luck with your launch!
