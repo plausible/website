@@ -53,7 +53,8 @@ I’m going to follow this pattern for future options that don’t need dynamic 
 * Added a quick switcher to make it easier to jump between sites when you have more than one. The dropdown also includes a link to site settings to make navigation easier.
 * Added metric to see total conversions alongside unique conversions.
 * Show real counts alongside percentages (applies to screen sizes, browsers, operating systems and countries).
-* Fixed an encoding issue with page URLs, goal names, and `utm_source`. 
+* Fixed an encoding issue with page URLs, goal names, and `utm_source`.
+* Added [direct traffic and other dark traffic](https://plausible.io/blog/referrer-policy) sources as "Direct / None" in the Top Sources report.
 
 ### What’s next?
 
