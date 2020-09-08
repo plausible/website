@@ -24,7 +24,7 @@ All in all, Product Hunt was worthwhile but it’s not our core growth strategy.
 
 Product Hunt and other launch sites are great for products that people buy impulsively. However, the cost of switching for an analytics tool is quite high and I’ve found it very hard to convince someone who isn’t already looking for an alternative. Our main strategy is to focus on pre-qualified audiences who are already looking for an alternative to GA.
 
-It’s easy to convince someone to sign up when they search on DuckDuckGo for ‘[open source google analytics alternative](https://plausible.io/open-source-website-analytics)’. In comparison, it’s relatively hard to convince someone that they should sign up when they’re just scrolling on Product Hunt.
+It’s easy to convince someone to sign up when they search on DuckDuckGo for ‘open source google analytics alternative’. In comparison, it’s relatively hard to convince someone that they should sign up when they’re just scrolling on Product Hunt.
 
 The Product Hunt launch was all Marko, so let’s take a look at what I was up to on the development side.
 
