@@ -26,7 +26,7 @@ Product Hunt and other launch sites are great for products that people buy impul
 
 It’s easy to convince someone to sign up when they search on DuckDuckGo for ‘open source google analytics alternative’. In comparison, it’s relatively hard to convince someone that they should sign up when they’re just scrolling on Product Hunt.
 
-The Product Hunt launch was all Marko, so let’s take a look at what I was up to in August
+The Product Hunt launch was all Marko, so let’s take a look at what I was up to on the development side.
 
 ### Page drilldowns
 
