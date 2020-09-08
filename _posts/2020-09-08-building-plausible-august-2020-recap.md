@@ -7,6 +7,8 @@ description: "The recap for this month is a week late because I just got back
 slug: august-2020-recap
 date: 2020-09-08T08:46:23.967Z
 author: uku-taht
+image: /uploads/plausible-analytics-august-recap.png
+image-alt: "Building Plausible: August 2020 recap"
 ---
 The recap for this month is a week late because I just got back from holiday.  I’ve been working on Plausible pretty much non-stop all this year so it felt great to take a breather. We still got a lot done in August:
 
