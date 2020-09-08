@@ -30,17 +30,17 @@ The Product Hunt launch was all Marko, so let’s take a look at what I was up t
 
 ### Page drilldowns
 
-
 Have you ever clicked on a page URL in Plausible expecting to see stats scoped to that specific page? I know I’ve done it a million times myself, so I was super happy to add the page drilldown feature. It gives so much more depth to the dashboard, especially when combined with the referrer filter.
 
 For example, here’s the traffic from Google to [plausible.io/open-source-web-analytics](https://plausible.io/open-source-website-analytics):
 
 
 
+![Google traffic to /open-source-web-analytics](/uploads/google-traffic-to-open-source-web-analytics.png "Google traffic to /open-source-web-analytics")
+
 This sort of analysis is required for more advanced use-cases. It’s a challenge to keep the dashboard simple while also allowing arbitrary ways to slice and dice your data. For now, I think we’re balancing these two concerns quite well.
 
 ### Hash mode for SPAs
-
 
 Plausible works with most modern SPA frameworks out of the box. Our tracking script listens for the `pushState` event and triggers a pageview automatically. However, some front-end frameworks use the hash part of the URL for navigation. In that case, the tracker should listen to the `hashchange` event  to trigger pageviews. 
 
