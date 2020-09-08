@@ -29,18 +29,19 @@ It’s easy to convince someone to sign up when they search on DuckDuckGo for �
 The Product Hunt launch was all Marko, so let’s take a look at what I was up to in August
 
 ### Page drilldowns
-￼
+
+
 Have you ever clicked on a page URL in Plausible expecting to see stats scoped to that specific page? I know I’ve done it a million times myself, so I was super happy to add the page drilldown feature. It gives so much more depth to the dashboard, especially when combined with the referrer filter.
 
 For example, here’s the traffic from Google to [plausible.io/open-source-web-analytics](https://plausible.io/open-source-website-analytics):
 
-[image:977D2C84-8B58-4D0F-9F45-4FF73F21A827-74980-00004F94CF23650A/Screenshot 2020-09-08 at 11.01.19.png]
 
 
 This sort of analysis is required for more advanced use-cases. It’s a challenge to keep the dashboard simple while also allowing arbitrary ways to slice and dice your data. For now, I think we’re balancing these two concerns quite well.
 
 ### Hash mode for SPAs
-￼
+
+
 Plausible works with most modern SPA frameworks out of the box. Our tracking script listens for the `pushState` event and triggers a pageview automatically. However, some front-end frameworks use the hash part of the URL for navigation. In that case, the tracker should listen to the `hashchange` event  to trigger pageviews. 
 
 This was a fairly easy change to make but what I found more interesting was the configuration. Instead of configuring the hash mode at runtime, I used a templating language to generate two different versions of the tracker. The new one is available at `https://plausible.io/js/plausible.hash.js`. 
@@ -50,12 +51,10 @@ This way I don’t need to add configuration-related code to the tracker script 
 I’m going to follow this pattern for future options that don’t need dynamic configuration at runtime.  I’ve always wondered why this isn’t a more common approach. I personally love it when a library is designed such that you don’t need to ship anything superfluous to the client.
 
 ### Other details from our changelog
+
 * Added a quick switcher to make it easier to jump between sites when you have more than one. The dropdown also includes a link to site settings to make navigation easier.
-
 * Added metric to see total conversions alongside unique conversions.
-
 * Show real counts alongside percentages (applies to screen sizes, browsers, operating systems and countries)
-
 * Fixed an encoding issue with page URLs, goal names, and `utm_source`. 
 
 ### What’s next?
