@@ -12,9 +12,9 @@ image-alt: "Building Plausible: August 2020 recap"
 ---
 The recap for this month is a week late because I just got back from holiday.  I’ve been working on Plausible pretty much non-stop all this year so it felt great to take a breather. We still got a lot done in August:
 
-* 🚀 **Added page drilldowns**
-* 📈 **Hash mode for SPAs**
-* 🏛️ **Launched on Product Hunt**. More info in the [blog post](https://plausible.io/blog/product-hunt-launch).
+* 📈 **Added page drilldowns**
+* ✨ **Hash mode for SPAs**
+* 🚀 **Launched on Product Hunt**. More info in the [blog post](https://plausible.io/blog/product-hunt-launch).
 * 💵 **MRR: $4091 (+48%) and more than 600 paying subscribers**
 * 👩 **36k visitors (-47%)**:  Most of the visitors came from Product Hunt and Indie Hackers.  [See our full stats for August](https://plausible.io/plausible.io?period=month&date=2020-08-08).
 
