@@ -11,6 +11,12 @@ twitter:
 feed:
   path: /blog/feed.xml
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/plausible_promo.jpg
+
 collections:
   articles:
     output: true
