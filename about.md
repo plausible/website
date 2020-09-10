@@ -22,7 +22,7 @@ This is why Plausible Analytics Cloud is not free as in beer. Our business model
 
 When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. Since we don't make money from advertising, we need to charge a fee to keep the project development going, to stay in business, to continue putting effort into improving the project and to cover our costs.
 
-**Our current MRR is $3,893 with 601 paying subscribers** (last updated on August 25th, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
+**Our current MRR is $4,377 with 707 paying subscribers** (last updated on September 10th, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
 
 ## Is it possible to have privacy-friendly web analytics?
 
