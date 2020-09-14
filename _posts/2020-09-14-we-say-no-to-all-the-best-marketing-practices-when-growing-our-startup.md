@@ -63,21 +63,21 @@ We've been in situations where someone would choose not to include us in a post 
 
 ## We don’t do A/B testing and other experiments
 
-We haven't A/B tested anything on our site and our product whatsoever. We don't use our visitors as lab rats trying to manipulate their behavior to make them sign up or to get them addicted to our product.
+We haven't A/B tested anything on our site and our product: Buttons, colors, headlines, calls-to-action, pricing or copy. Everything starts with us trying to understand the worldview of our audience. We then talk about things we think will resonate with people. I guess you can call it a gut feel.
 
-A/B testing can be done in tasteful and harmless ways for useful purposes that improve the actual user-experience but in most cases, it is done to make a product more addictive so we just say no to the practice.
+A/B testing can be conducted in transparent and harmless ways for useful purposes that improve the actual user-experience but in many cases, it is used as a way to make a product more addictive or convince you to take an action so we just say no to the practice.
 
-## We don’t try to get you on a sales call to try our product
+## We don’t try to get you on a sales call to test our product
 
 Our live demo is prominently placed on the top of our home page. It allows you to fully explore our product and the value we can provide to you. You don't need to register a form, give us an email address or have a sales call to test it.
 
 You can subscribe to get the latest blog post but we don't try to get you to share your email address by any other means. No special offers, no gifts and other freebies in exchange for your email address. There are no content lockers that gate the content to get your email address either.
 
-## We don’t have a podcast and don’t do videos
+## We don’t have a podcast and a video channel
 
-Both podcasts and videos are similar to blog posts and are a part of content marketing. The reason we say no to videos and podcasts is that they can be a distraction. We're a team of two and our hands are full of work of higher priority such as the actual development and customer support.
+We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
 
-For us to suddenly start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
+You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
 
 We're more than happy to join other shows for interviews as we've done with [Changelog in the past](https://plausible.io/blog/changelog-podcast).
 
