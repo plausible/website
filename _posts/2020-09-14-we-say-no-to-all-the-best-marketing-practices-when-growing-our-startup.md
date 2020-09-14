@@ -1,0 +1,125 @@
+---
+layout: post
+title: We say no to all the best marketing practices when growing our startup
+description: We reject, exclude and say no to the majority of the best marketing
+  practices for growing a startup. We practice ethical marketing and grow while
+  respecting the people we're trying to reach.
+slug: growth-hacks
+date: 2020-09-14T11:44:00.466Z
+author: marko-saric
+---
+Plausible Analytics is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup. 
+
+We practice ethical marketing and grow while respecting the people we're trying to reach. We've gone from $415 MRR in April this year to more than $4,500 MRR at the time of writing.
+
+You may say that we're growing too slow or we're leaving money on the table or someone less ethical will steal our lunch, but this is our choice. Not every startup should sacrifice their principles and happiness to become the next unicorn.
+
+We've never raised any money and don't plan to do so. We value more freedom over more money so we choose to promote our project without supporting the Google and Facebook advertising duopoly.
+
+## Don't confuse marketing with advertising, spamming and shouting
+
+Marketing is not the same as advertising. Many startups confuse marketing with spending money on advertising, spamming, interrupting, shouting, being annoying, trying to steal people's attention, taking shortcuts and other hacks and tricks. 
+
+Marketing is communication. You get to know people, look at the world from their point of view, listen to what they need, focus on them, create something that solves their issues, be valuable to them, help them notice you, remember you and keep in touch.
+
+Startups can help make things better and cause a change we'd like to see in the world. The web is broken thanks to the business model of surveillance capitalism so we're proud to say no to these best practices.
+
+## We don’t do any paid advertising
+
+Not doing paid advertising on platforms such as Google and Facebook is not a viable option to grow a company these days. This is the accepted wisdom for the vast majority of entrepreneurs, business owners, investors and marketers. Both Google and Facebook work hard on keeping it that way.
+
+We don’t do any paid advertising campaigns on social media, search engines and anywhere else. We cut out the middleman and don't help fund Google and Facebook and their stranglehold on the web and startups. 
+
+There is nothing inherently wrong with advertising if people give their proper consent to it or if it's contextual without any need for personal data, we just don’t do it.
+
+## We don’t use spy pixels from Facebook and Google to retarget you
+
+In the marketing world, it's a given that the most successful and lucrative way to do online advertising is remarketing. Get someone's email address or get someone to visit your site and then target them with remarketing messages on Google, Facebook or anywhere else as they browse the web. 
+
+You can rest safely knowing that if you sign up for our service or if you visit our website, no tracking pixels are used and you will never have our ads follow you around the web.
+
+## We don’t track your every click using sessions recordings
+
+There's no "session recording" feature in Plausible Analytics. We don't have any other session recording scripts installed on our site either. We do not want to track any individuals whatsoever.
+
+Session recordings can be useful to improve the user experience on a website but they are intrusive too. If you do use any type of session recording tool, you should inform your audience about it in clear words and ask their permission.
+
+## We don’t do any exit popups and other intrusive calls-to-action
+
+There are no exit intent popups with which we detect your mouse behavior and send you messages when you try to leave our site. There are no welcome mats, no slide-in scroll boxes and such growth hacks.
+
+You can click on our "register" button and sign up for an account if you want but we don't try to force you to do that.
+
+Growth gurus will tell you that you can boost your signup conversion rate by 1% if you install some intrusive tools but they don't tell you that you'll anger 10 times more visitors with hostile, annoying and slow user experience.
+
+## We don't have affiliates and don't pay anyone to recommend us
+
+We don’t pay anyone to recommend Plausible Analytics to their audience be it via referral programs, affiliate programs or other types of sponsorship. Affiliate programs are a great way for site owners to monetize their content as long as it is prominently disclosed, we just don’t do it.
+
+We've been in situations where someone would choose not to include us in a post after we tell them we don't have an affiliate program. They end up promoting alternative tools that pay them (despite preferring Plausible) and often it's not disclosed.
+
+## We don’t do A/B testing and other experiments
+
+We haven't A/B tested anything on our site and our product whatsoever. We don't use our visitors as lab rats trying to manipulate their behavior to make them sign up or to get them addicted to our product.
+
+A/B testing can be done in tasteful and harmless ways for useful purposes that improve the actual user-experience but in most cases, it is done to make a product more addictive so we just say no to the practice.
+
+## We don’t try to get you on a sales call to try our product
+
+Our live demo is prominently placed on the top of our home page. It allows you to fully explore our product and the value we can provide to you. You don't need to register a form, give us an email address or have a sales call to test it.
+
+You can subscribe to get the latest blog post but we don't try to get you to share your email address by any other means. No special offers, no gifts and other freebies in exchange for your email address. There are no content lockers that gate the content to get your email address either.
+
+## We don’t have a podcast and don’t do videos
+
+Both podcasts and videos are similar to blog posts and are a part of content marketing. The reason we say no to videos and podcasts is that they can be a distraction. We're a team of two and our hands are full of work of higher priority such as the actual development and customer support.
+
+For us to suddenly start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
+
+We're more than happy to join other shows for interviews as we've done with [Changelog in the past](https://plausible.io/blog/changelog-podcast).
+
+## We don’t have a fancy email sequence to "nurture" you into paying
+
+If you sign up for our blog mailing list, the only thing you will get is the latest blog post sent to you in full in an email. You'll not hear from us about anything else.
+
+If you sign up for a trial, we'll send you a few emails such as to confirm that your site stats are being tracked or that your trial is expiring. You'll not see us sending any email sequence trying to nurture you into paying for our product.
+
+Our product speaks for itself, we're happy for you to try it and explore it. It's amazing when you love it and choose to become a subscriber. If it's not for you or if you're not ready at this time, that's fine too.
+
+## We don't try to engage you after you sign up for our product
+
+After you become a subscriber, you pretty much don't hear from us again. You may get the weekly and/or monthly email reports if you choose so. You may get our latest blog posts if you subscribe to those.
+
+We don't send you the latest tips, advice, news and other messages to try and keep you engaged to optimize the chances of retaining you.
+
+If you need some help, we're here to help you but otherwise, we let you do your thing and let the value of our product speak for itself. 
+
+You can always follow us on social media if you want all the latest updates and other community engagement. We're active on [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible).
+
+## We don't use a chatbot or AI-tools to engage and convert you
+
+There are no live chats popups and chatbots on our website. You can [reach out to us via email](https://plausible.io/contact) but you'll have to speak to one of us rather than our AI robot. Sorry for the inconvenience.
+
+## We don't ask you to join yet another webinar to learn some secrets
+
+We don't do any "free" webinars or other courses where the idea is to give you just a little bit of information while trying to upsell you something else.
+
+There's nothing inherently wrong with webinars and courses, they're just in many cases used as a sales tool with a whole industry of growth hacks and tricks behind it.
+
+## We don't participate in any link buying to game search engines
+
+We don't spend any money on buying links, paying for consultants or other search engine optimization either.
+
+All the posts we publish help us spread the word and get people to type in our brand name directly into DuckDuckGo as they're looking for us. That's the best search engine optimization a startup can get.
+
+## We don't know who you are, what you like or where you're from
+
+Demographic and geographic data are a big part of marketing. For us, we don't need to know anything about you so we don't try to collect anything about you either. We don't know what you look like, where you're from or what else you like.
+
+Another popular growth tactic is to create lookalike profiles using Facebook's and Google's machine learning algorithms to find more people that look like your "best customers". We don't do that.
+
+We took a stand with Plausible Analytics in terms of what we believe in, what we're against and what change we want to see. Our way of "targeting" is by attracting people who align with our values, beliefs and wishes in the way they want the web to be.
+
+## We ignore all other unethical proposals we see in our inbox
+
+We're often sent offers to buy customer lists and other personal details of customers of competing products. I don't even want to think about how these personal details are gathered and we ignore all these proposals.
