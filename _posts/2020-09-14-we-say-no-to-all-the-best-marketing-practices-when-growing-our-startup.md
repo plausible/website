@@ -16,6 +16,9 @@ You may say that we're growing too slow or we're leaving money on the table or s
 
 We've never raised any money and don't plan to do so. We value more freedom over more money so we choose to promote our project without supporting the Google and Facebook advertising duopoly.
 
+1. Ordered list
+{:toc}
+
 ## Don't confuse marketing with advertising, spamming and shouting
 
 Marketing is not the same as advertising. Many startups confuse marketing with spending money on advertising, spamming, interrupting, shouting, being annoying, trying to steal people's attention, taking shortcuts and other hacks and tricks. 
