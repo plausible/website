@@ -77,6 +77,8 @@ You can subscribe to get the latest blog post but we don't try to get you to sha
 
 ## We don’t have a podcast and a video channel
 
+Like some of the other practices in this list, there's nothing inherently wrong with podcasts and videos (other than perhaps the fact that YouTube should be split from Google).
+
 We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
 
 You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
