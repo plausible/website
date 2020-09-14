@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 16 best startup marketing practices we say no to (still we grew our MRR
+title: 16 best startup marketing practices we say no to (while growing our MRR
   by 1000% in 6 months)
 description: We reject, exclude and say no to the majority of the best marketing
   practices for growing a startup. We practice ethical marketing and grow while
