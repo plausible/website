@@ -111,7 +111,7 @@ All the posts we publish help us spread the word and get people to type in our b
 
 ## We don’t have a podcast and a video channel
 
-Like some of the other practices in this list, there's nothing inherently wrong with podcasts and videos (other than perhaps the fact that YouTube should be split from Google).
+Unlike some of the other practices in this list, there's nothing wrong with podcasts and videos (other than perhaps the fact that YouTube should be split from Google).
 
 We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
 
