@@ -4,7 +4,7 @@ title: 16 best startup marketing practices we say no to
 description: We reject, exclude and say no to the majority of the best marketing
   practices for growing a startup. We practice ethical marketing and grow while
   respecting the people we're trying to reach.
-slug: growth-hacks
+slug: best-marketing-practices
 date: 2020-09-14T11:44:00.466Z
 author: marko-saric
 image: /uploads/plausible-analytics-august-recap.png
@@ -43,7 +43,7 @@ In the marketing world, it's a given that the most successful and lucrative way 
 
 You can rest safely knowing that if you sign up for our service or if you visit our website, no tracking pixels are used and you will never have our ads follow you around the web.
 
-## We don’t track your every click using sessions recordings
+## We don’t track your every click using session recordings
 
 There's no "session recording" feature in Plausible Analytics. We don't have any other session recording scripts installed on our site either. We do not want to track any individuals whatsoever.
 
@@ -74,16 +74,6 @@ A/B testing can be conducted in transparent and harmless ways for useful purpose
 Our live demo is prominently placed on the top of our home page. It allows you to fully explore our product and the value we can provide to you. You don't need to register a form, give us an email address or have a sales call to test it.
 
 You can subscribe to get the latest blog post but we don't try to get you to share your email address by any other means. No special offers, no gifts and other freebies in exchange for your email address. There are no content lockers that gate the content to get your email address either.
-
-## We don’t have a podcast and a video channel
-
-Like some of the other practices in this list, there's nothing inherently wrong with podcasts and videos (other than perhaps the fact that YouTube should be split from Google).
-
-We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
-
-You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
-
-We're more than happy to join other shows for interviews as we've done with [Changelog in the past](https://plausible.io/blog/changelog-podcast).
 
 ## We don’t have a fancy email sequence to "nurture" you into paying
 
@@ -118,6 +108,17 @@ There's nothing inherently wrong with webinars and courses, they're just in many
 We don't spend any money on buying links, paying for consultants or other search engine optimization either.
 
 All the posts we publish help us spread the word and get people to type in our brand name directly into DuckDuckGo as they're looking for us. That's the best search engine optimization a startup can get.
+
+## We don’t have a podcast and a video channel
+
+Like some of the other practices in this list, there's nothing inherently wrong with podcasts and videos (other than perhaps the fact that YouTube should be split from Google).
+
+We're a team of two and our hands are full of work such as the product development and customer support.
+ For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
+
+You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
+
+We're more than happy to join other shows for interviews as we've done with [Changelog in the past](https://plausible.io/blog/changelog-podcast).
 
 ## We don't know who you are, what you like or where you're from
 
