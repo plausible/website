@@ -8,7 +8,7 @@ slug: growth-hacks
 date: 2020-09-14T11:44:00.466Z
 author: marko-saric
 ---
-Plausible Analytics is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup. 
+Plausible Analytics is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup.
 
 We practice ethical marketing and grow while respecting the people we're trying to reach. We've gone from $415 MRR in April this year to more than $4,500 MRR at the time of writing.
 
