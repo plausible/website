@@ -7,6 +7,8 @@ description: We reject, exclude and say no to the majority of the best marketing
 slug: growth-hacks
 date: 2020-09-14T11:44:00.466Z
 author: marko-saric
+image: /uploads/plausible-analytics-august-recap.png
+image-alt: Best startup marketing practices we say no to
 ---
 Plausible Analytics is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup.
 
