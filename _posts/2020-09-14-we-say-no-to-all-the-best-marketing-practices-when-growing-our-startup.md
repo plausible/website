@@ -124,7 +124,7 @@ Demographic and geographic data are a big part of marketing. For us, we don't ne
 
 Another popular growth tactic is to create lookalike profiles using Facebook's and Google's machine learning algorithms to find more people that look like your "best customers". We don't do that.
 
-We took a stand with Plausible Analytics in terms of what we believe in, what we're against and what change we want to see. Our way of "targeting" is by attracting people who align with our values, beliefs and wishes in the way they want the web to be.
+We took a stand with Plausible Analytics in terms of what we believe in, [what we're against](https://plausible.io/blog/remove-google-analytics) and what change we want to see. Our way of "targeting" is by attracting people who align with our values, beliefs and wishes in the way they want the web to be.
 
 ## We ignore all other unethical proposals we see in our inbox
 
