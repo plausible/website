@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We say no to all the best marketing practices when growing our startup
+title: 16 best startup marketing practices we say no to
 description: We reject, exclude and say no to the majority of the best marketing
   practices for growing a startup. We practice ethical marketing and grow while
   respecting the people we're trying to reach.
