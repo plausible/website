@@ -10,13 +10,13 @@ author: marko-saric
 image: /uploads/plausible-analytics-august-recap.png
 image-alt: Best startup marketing practices we say no to
 ---
-Plausible Analytics is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup.
+[Plausible Analytics](https://plausible.io) is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup.
 
 We practice ethical marketing and grow while respecting the people we're trying to reach. We've gone from $415 MRR in April this year to more than $4,500 MRR at the time of writing.
 
 You may say that we're growing too slow or we're leaving money on the table or someone less ethical will steal our lunch, but this is our choice. Not every startup should sacrifice their principles and happiness to become the next unicorn.
 
-We've never raised any money and don't plan to do so. We value more freedom over more money so we choose to promote our project without supporting the Google and Facebook advertising duopoly.
+We've never raised any money and [don't plan to do so](https://plausible.io/about). We value more freedom over more money so we choose to promote our project without supporting the Google and Facebook advertising duopoly.
 
 1. Ordered list
 {:toc}
@@ -27,13 +27,13 @@ Marketing is not the same as advertising. Many startups confuse marketing with s
 
 Marketing is communication. You get to know people, look at the world from their point of view, listen to what they need, focus on them, create something that solves their issues, be valuable to them, help them notice you, remember you and keep in touch.
 
-Startups can help make things better and cause a change we'd like to see in the world. The web is broken thanks to the business model of surveillance capitalism so we're proud to say no to these best practices. And we're happy to say that it is possible to do.
+Startups can help make things better and cause a change we'd like to see in the world. The web is broken thanks to the business model of surveillance capitalism so we're proud to say no to these best practices. And we're happy to say that it is possible to grow while doing so.
 
 ## We don’t do any paid advertising
 
-Not doing paid advertising on platforms such as Google and Facebook is not a viable option to grow a company these days. This is the accepted wisdom for the vast majority of entrepreneurs, business owners, investors and marketers. Both Google and Facebook work hard on keeping it that way.
+Not doing paid advertising on platforms such as Google and Facebook is not a viable option to grow a company these days. This is the accepted wisdom for the vast majority of entrepreneurs, business owners, investors and marketers. Both Google and Facebook work hard on keeping that myth alive.
 
-We don’t do any paid advertising campaigns on social media, search engines and anywhere else. We cut out the middleman and don't help fund Google and Facebook and their stranglehold on the web and startups. 
+[We don’t do any paid advertising campaigns](https://plausible.io/blog/startup-marketing) on social media, search engines and anywhere else. We cut out the middleman and don't help fund Google and Facebook and their stranglehold on the web and startups. And we still grew our MRR by 1000% in the last 6 months.
 
 There is nothing inherently wrong with advertising if people give their proper consent to it or if it's contextual without any need for personal data, we just don’t do it.
 
@@ -91,7 +91,7 @@ We don't send you the latest tips, advice, news and other messages to try and ke
 
 You can always follow us on social media if you want all the latest updates and other community engagement. We're active on [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible).
 
-## We don't use a chatbot or AI-tools to engage and convert you
+## We don't use a chatbot or an AI-tool to engage and convert you
 
 There are no live chats popups and chatbots on our website. You can [reach out to us via email](https://plausible.io/contact) but you'll have to speak to one of us rather than our AI robot. Sorry for the inconvenience.
 
