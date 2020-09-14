@@ -27,7 +27,7 @@ Marketing is not the same as advertising. Many startups confuse marketing with s
 
 Marketing is communication. You get to know people, look at the world from their point of view, listen to what they need, focus on them, create something that solves their issues, be valuable to them, help them notice you, remember you and keep in touch.
 
-Startups can help make things better and cause a change we'd like to see in the world. The web is broken thanks to the business model of surveillance capitalism so we're proud to say no to these best practices.
+Startups can help make things better and cause a change we'd like to see in the world. The web is broken thanks to the business model of surveillance capitalism so we're proud to say no to these best practices. And we're happy to say that it is possible to do.
 
 ## We don’t do any paid advertising
 
@@ -59,15 +59,15 @@ Growth gurus will tell you that you can boost your signup conversion rate by 1% 
 
 ## We don't have affiliates and don't pay anyone to recommend us
 
-We don’t pay anyone to recommend Plausible Analytics to their audience be it via referral programs, affiliate programs or other types of sponsorship. Affiliate programs are a great way for site owners to monetize their content as long as it is prominently disclosed, we just don’t do it.
+We don’t pay anyone to recommend Plausible Analytics to their audience be it via referral programs, affiliate programs or other types of sponsorship. Affiliate programs are a great way for site owners to monetize their content as long as it is prominently disclosed.
 
 We've been in situations where someone would choose not to include us in a post after we tell them we don't have an affiliate program. They end up promoting alternative tools that pay them (despite preferring Plausible) and often it's not disclosed.
 
 ## We don’t do A/B testing and other experiments
 
-We haven't A/B tested anything on our site and our product: Buttons, colors, headlines, calls-to-action, pricing or copy. Everything starts with us trying to understand the worldview of our audience. We then talk about things we think will resonate with people. I guess you can call it a gut feel.
+We haven't A/B tested anything on our site and our product: Buttons, colors, headlines, calls-to-action, pricing or copy. Instead we start by trying to understand the worldview of our audience. We then talk about things we think will resonate with people. I guess you can call it a gut feel.
 
-A/B testing can be conducted in transparent and harmless ways for useful purposes that improve the actual user-experience but in many cases, it is used as a way to make a product more addictive or convince you to take an action so we just say no to the practice.
+A/B testing can be conducted in transparent and harmless ways for useful purposes that improve the actual user-experience but in many cases, it is promoted as a way to make a product more addictive or convince people to take an action they otherwise might not have taken.
 
 ## We don’t try to get you on a sales call to test our product
 
@@ -81,15 +81,13 @@ If you sign up for our blog mailing list, the only thing you will get is the lat
 
 If you sign up for a trial, we'll send you a few emails such as to confirm that your site stats are being tracked or that your trial is expiring. You'll not see us sending any email sequence trying to nurture you into paying for our product.
 
-Our product speaks for itself, we're happy for you to try it and explore it. It's amazing when you love it and choose to become a subscriber. If it's not for you or if you're not ready at this time, that's fine too.
+Our product speaks for itself, we're happy for you to try it and explore it. It's amazing if you love it and choose to become a subscriber. If it's not for you or if you're not ready at this time, that's fine too.
 
 ## We don't try to engage you after you sign up for our product
 
 After you become a subscriber, you pretty much don't hear from us again. You may get the weekly and/or monthly email reports if you choose so. You may get our latest blog posts if you subscribe to those.
 
-We don't send you the latest tips, advice, news and other messages to try and keep you engaged to optimize the chances of retaining you.
-
-If you need some help, we're here to help you but otherwise, we let you do your thing and let the value of our product speak for itself. 
+We don't send you the latest tips, advice, news and other messages to try and keep you engaged to optimize the chances of retaining you. If you need some help, we're here to help you but otherwise, we let you do your thing and let the value of our product speak for itself. 
 
 You can always follow us on social media if you want all the latest updates and other community engagement. We're active on [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible).
 
