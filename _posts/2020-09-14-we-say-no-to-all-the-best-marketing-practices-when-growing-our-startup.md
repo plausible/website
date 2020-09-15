@@ -108,13 +108,11 @@ All the posts we publish help us spread the word and get people to type in our b
 
 ## We don’t have a podcast and a video channel
 
-Unlike some of the other practices in this list, there's nothing wrong with podcasts and videos (other than the fact that YouTube should be split from Google).
+Unlike some of the other practices in this list, there's nothing wrong with podcasts and videos (other than the fact that YouTube should be split from Google). We're happy to join other shows for interviews such as our appereance on [Changelog](https://plausible.io/blog/changelog-podcast).
 
 We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
 
 You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
-
-We're more than happy to join other shows for interviews as we've done with [Changelog and others in the past](https://plausible.io/blog/changelog-podcast).
 
 ## We don't know who you are, what you like or where you're from
 
