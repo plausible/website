@@ -62,6 +62,8 @@ We don’t pay anyone to recommend Plausible Analytics to their audience be it v
 
 We've been in situations where someone would choose not to include us in a post after we tell them we don't have an affiliate program. They end up promoting alternative tools that pay them (despite preferring Plausible) and often it's not disclosed.
 
+To start an affiliate program, we would need a lot of time to communicate with and review activities from the different partners to ensure that they disclose the affiliate links to their visitors or that they don't use paid advertising to promote our product.
+
 ## We don’t do A/B testing and other experiments
 
 We haven't A/B tested anything on our site and our product: Buttons, colors, headlines, calls-to-action, pricing or copy. Instead, we start by trying to understand the worldview of our audience. We then talk about things we think will resonate with people. I guess you can call it a gut feel.
