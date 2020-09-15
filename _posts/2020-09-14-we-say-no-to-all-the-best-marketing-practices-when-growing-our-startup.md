@@ -28,7 +28,7 @@ Marketing is not the same as advertising. Many startups confuse marketing with s
 
 Marketing is communication. You get to know people, look at the world from their point of view, listen to what they need, focus on them, create something that solves their issues, be valuable to them, help them notice you, remember you and keep in touch.
 
-We deliberately avoid the following marketing strategies. Many for ethical reasons, some for not wanting to strech ourselves too thin. By practicing ethical marketing, we can grow while respecting the people we're trying to reach.
+We deliberately avoid the following marketing strategies. Many for ethical reasons, some for not wanting to strech ourselves too thin. By practicing ethical marketing, we can grow while respecting the people we're trying to reach and doing our little bit to make the web more independent.
 
 ## We don’t do any paid advertising
 
@@ -125,3 +125,5 @@ We took a stand with Plausible Analytics in terms of what we believe in, [what w
 ## We ignore all other unethical proposals we see in our inbox
 
 We're often sent offers to buy customer lists and other personal details of customers of competing products. I don't even want to think about how these personal details are gathered and we ignore all these proposals.
+
+I hope this post gives you inspiration to try and make your project, your site and your business less reliant on the surveillance capitalism practices. It can be done.
