@@ -6,7 +6,7 @@ description: We reject, exclude and say no to the majority of the best marketing
   practices for growing a startup. We practice ethical marketing and grow while
   respecting the people we're trying to reach.
 slug: best-marketing-practices
-date: 2020-09-15T07:44:45.271Z
+date: 2020-09-15T08:01:43.745Z
 author: marko-saric
 image: /uploads/plausible-analytics-august-recap.png
 image-alt: Best startup marketing practices we say no to
