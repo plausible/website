@@ -15,7 +15,7 @@ image-alt: Best startup marketing practices we say no to
 
 Startups can help make things better and cause a change we'd like to see in the world. The web is broken and we're proud to promote our project without supporting the Google and Facebook advertising duopoly.
 
-We're happy to say that it's possible to grow while saying no to the business model of surveillance capitalism. We've gone from $415 MRR in April this year to more than $4,500 MRR at the time of writing. That's 1000% growth in 6 months.
+We're happy to say that it's possible to grow while saying no to the business model of surveillance capitalism. We've gone from $415 MRR in April this year to $4,601 MRR at the time of writing. That's 1000% growth in 6 months.
 
 You may say that we're growing too slow or we're leaving money on the table or someone less ethical will steal our lunch, but this is our choice. Not every startup should sacrifice their principles and happiness to become the next unicorn.
 
