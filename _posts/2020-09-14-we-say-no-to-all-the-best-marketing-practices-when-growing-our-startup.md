@@ -36,8 +36,6 @@ Not doing paid advertising on platforms such as Google and Facebook is not a via
 
 [We don’t do any paid advertising campaigns](https://plausible.io/blog/startup-marketing) on social media, search engines and anywhere else. We cut out the middleman and don't help fund Google and Facebook and their stranglehold on the web and startups.
 
-There is nothing inherently wrong with advertising if people give their proper consent to it or if it's contextual without any need for personal data, we just don’t do it.
-
 ## We don’t use spy pixels from Facebook and Google to retarget you
 
 In the marketing world, it's a given that the most successful and lucrative way to do online advertising is remarketing. Get someone's email address or get someone to visit your site and then target them with remarketing messages on Google, Facebook or anywhere else as they browse the web.
