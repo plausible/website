@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 16 best startup marketing practices we say no to (while growing our MRR
+title: 16 best startup marketing practices we say "no" to (while growing our MRR
   by 1000% in 6 months)
 description: We reject, exclude and say no to the majority of the best marketing
   practices for growing a startup. We practice ethical marketing and grow while
@@ -13,11 +13,11 @@ image-alt: Best startup marketing practices we say no to
 ---
 [Plausible Analytics](https://plausible.io) is a simple, lightweight, privacy-first and open-source web analytics. We reject, exclude and say no to the majority of the best marketing practices for growing a startup.
 
-We practice ethical marketing and grow while respecting the people we're trying to reach. We've gone from $415 MRR in April this year to more than $4,500 MRR at the time of writing.
+Startups can help make things better and cause a change we'd like to see in the world. The web is broken and we're proud to promote our project without supporting the Google and Facebook advertising duopoly.
+
+We're happy to say that it's possible to grow while saying no to the business model of surveillance capitalism. We've gone from $415 MRR in April this year to more than $4,500 MRR at the time of writing. That's 1000% growth in 6 months.
 
 You may say that we're growing too slow or we're leaving money on the table or someone less ethical will steal our lunch, but this is our choice. Not every startup should sacrifice their principles and happiness to become the next unicorn.
-
-We've never raised any money and [don't plan to do so](https://plausible.io/about). We value more freedom over more money so we choose to promote our project without supporting the Google and Facebook advertising duopoly.
 
 1. Ordered list
 {:toc}
@@ -28,19 +28,19 @@ Marketing is not the same as advertising. Many startups confuse marketing with s
 
 Marketing is communication. You get to know people, look at the world from their point of view, listen to what they need, focus on them, create something that solves their issues, be valuable to them, help them notice you, remember you and keep in touch.
 
-Startups can help make things better and cause a change we'd like to see in the world. The web is broken thanks to the business model of surveillance capitalism so we're proud to say no to these best practices. And we're happy to say that it is possible to grow while doing so.
+We deliberately avoid the following marketing strategies. Many for ethical reasons, some for not wanting to strech ourselves too thin. By practicing ethical marketing, we can grow while respecting the people we're trying to reach.
 
 ## We don’t do any paid advertising
 
 Not doing paid advertising on platforms such as Google and Facebook is not a viable option to grow a company these days. This is the accepted wisdom for the vast majority of entrepreneurs, business owners, investors and marketers. Both Google and Facebook work hard on keeping that myth alive.
 
-[We don’t do any paid advertising campaigns](https://plausible.io/blog/startup-marketing) on social media, search engines and anywhere else. We cut out the middleman and don't help fund Google and Facebook and their stranglehold on the web and startups. And we still grew our MRR by 1000% in the last 6 months.
+[We don’t do any paid advertising campaigns](https://plausible.io/blog/startup-marketing) on social media, search engines and anywhere else. We cut out the middleman and don't help fund Google and Facebook and their stranglehold on the web and startups.
 
 There is nothing inherently wrong with advertising if people give their proper consent to it or if it's contextual without any need for personal data, we just don’t do it.
 
 ## We don’t use spy pixels from Facebook and Google to retarget you
 
-In the marketing world, it's a given that the most successful and lucrative way to do online advertising is remarketing. Get someone's email address or get someone to visit your site and then target them with remarketing messages on Google, Facebook or anywhere else as they browse the web. 
+In the marketing world, it's a given that the most successful and lucrative way to do online advertising is remarketing. Get someone's email address or get someone to visit your site and then target them with remarketing messages on Google, Facebook or anywhere else as they browse the web.
 
 You can rest safely knowing that if you sign up for our service or if you visit our website, no tracking pixels are used and you will never have our ads follow you around the web.
 
@@ -88,7 +88,7 @@ Our product speaks for itself, we're happy for you to try it and explore it. It'
 
 After you become a subscriber, you pretty much don't hear from us again. You may get the weekly and/or monthly email reports if you choose so. You may get our latest blog posts if you subscribe to those.
 
-We don't send you the latest tips, advice, news and other messages to try and keep you engaged to optimize the chances of retaining you. If you need some help, we're here to help you but otherwise, we let you do your thing and let the value of our product speak for itself. 
+We don't send you the latest tips, advice, news and other messages to try and keep you engaged to optimize the chances of retaining you. If you need some help, we're here to help you but otherwise, we let you do your thing and let the value of our product speak for itself.
 
 You can always follow us on social media if you want all the latest updates and other community engagement. We're active on [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible).
 
@@ -110,13 +110,13 @@ All the posts we publish help us spread the word and get people to type in our b
 
 ## We don’t have a podcast and a video channel
 
-Unlike some of the other practices in this list, there's nothing wrong with podcasts and videos (other than perhaps the fact that YouTube should be split from Google).
+Unlike some of the other practices in this list, there's nothing wrong with podcasts and videos (other than the fact that YouTube should be split from Google).
 
 We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
 
 You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
 
-We're more than happy to join other shows for interviews as we've done with [Changelog in the past](https://plausible.io/blog/changelog-podcast).
+We're more than happy to join other shows for interviews as we've done with [Changelog and others in the past](https://plausible.io/blog/changelog-podcast).
 
 ## We don't know who you are, what you like or where you're from
 
@@ -124,7 +124,7 @@ Demographic and geographic data are a big part of marketing. For us, we don't ne
 
 Another popular growth tactic is to create lookalike profiles using Facebook's and Google's machine learning algorithms to find more people that look like your "best customers". We don't do that.
 
-We took a stand with Plausible Analytics in terms of what we believe in, [what we're against](https://plausible.io/blog/remove-google-analytics) and what change we want to see. Our way of "targeting" is by attracting people who align with our values, beliefs and wishes in the way they want the web to be.
+We took a stand with Plausible Analytics in terms of what we believe in, [what we're against](https://plausible.io/blog/remove-google-analytics) and what change we want to see. Our way of "targeting" is by attracting people who align with these values, beliefs and wishes in the way they want the web to be.
 
 ## We ignore all other unethical proposals we see in our inbox
 
