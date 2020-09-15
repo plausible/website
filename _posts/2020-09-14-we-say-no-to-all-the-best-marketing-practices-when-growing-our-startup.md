@@ -28,7 +28,7 @@ Marketing is not the same as advertising. Many startups confuse marketing with s
 
 Marketing is communication. You get to know people, look at the world from their point of view, listen to what they need, focus on them, create something that solves their issues, be valuable to them, help them notice you, remember you and keep in touch.
 
-We deliberately avoid the following marketing strategies. Many for ethical reasons, some for not wanting to strech ourselves too thin. By practicing ethical marketing, we can grow while respecting the people we're trying to reach and doing our little bit to make the web more independent.
+We deliberately avoid the following marketing strategies. Many for ethical reasons, some for not wanting to spread ourselves too thin. By practicing ethical marketing, we can grow while respecting the people we're trying to reach and doing our little bit to make the web more independent.
 
 ## We don’t do any paid advertising
 
@@ -64,7 +64,7 @@ We've been in situations where someone would choose not to include us in a post 
 
 ## We don’t do A/B testing and other experiments
 
-We haven't A/B tested anything on our site and our product: Buttons, colors, headlines, calls-to-action, pricing or copy. Instead we start by trying to understand the worldview of our audience. We then talk about things we think will resonate with people. I guess you can call it a gut feel.
+We haven't A/B tested anything on our site and our product: Buttons, colors, headlines, calls-to-action, pricing or copy. Instead, we start by trying to understand the worldview of our audience. We then talk about things we think will resonate with people. I guess you can call it a gut feel.
 
 A/B testing can be conducted in transparent and harmless ways for useful purposes that improve the actual user-experience but in many cases, it is promoted as a way to make a product more addictive or convince people to take an action they otherwise might not have taken.
 
@@ -110,7 +110,7 @@ All the posts we publish help us spread the word and get people to type in our b
 
 Unlike some of the other practices in this list, there's nothing wrong with podcasts and videos (other than the fact that YouTube should be split from Google). We're happy to join other shows for interviews such as our appearance on [The Changelog](https://plausible.io/blog/changelog-podcast).
 
-We're a team of two and our hands are full of work such as the product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
+We're a team of two and our hands are full of work such as product development and customer support. For us to start getting into equipment, recording and having to edit our shows, something else would need to give and we don't want to lower the effort we put in our other activities.
 
 You need to pick your spots, choose a selected few channels that make sense to you and ignore everything else until you have more capacity. Those channels that you do pick, make sure you commit to being consistent on. Excel at those first and consider adding more later on.
 
@@ -126,4 +126,4 @@ We took a stand with Plausible Analytics in terms of what we believe in, [what w
 
 We're often sent offers to buy customer lists and other personal details of customers of competing products. I don't even want to think about how these personal details are gathered and we ignore all these proposals.
 
-I hope this post gives you inspiration to try and make your project, your site and your business less reliant on the surveillance capitalism practices. It can be done.
+I hope this post gives you some inspiration to try and make your project, your site and your business less reliant on the surveillance capitalism practices. It can be done.
