@@ -6,18 +6,27 @@ description: Apple's Safari 14 browser and its Privacy Report names, shames and
 slug: safari-privacy-report
 date: 2020-09-21T07:41:18.863Z
 author: marko-saric
+image: /uploads/safari-privacy-stamp-of-approval.png
+image-alt: Safari's Privacy Report stamp of approval
 ---
 Apple has declared privacy a "fundamental human right" and now they're putting their money where their mouth is, and doing something about it. Apple's Safari 14 browser and its Privacy Report names, shames and prevents websites that use cross-site trackers to profile web users.
+
+1. Ordered list
+{:toc}
 
 ## How does the Privacy Report look like in Safari 14?
 
 From the release of Safari 14 on September 16th, the privacy shield icon is prominently placed next to the address bar and with a click, you can see which trackers a website you're on uses to track your visit. Or on mobile devices, you can tap the "Aa" button in the address bar.
+
+![Image](/uploads/safari-itp.png)
 
 Users can get a more detailed Privacy Report by clicking on the (i) button or selecting "Privacy Report" on the mobile devices. This gives you an overview of the trackers you have encountered across the sites you've visited in the last 30 days. 
 
 It lists how many trackers have been prevented from profiling you and the percentage of websites you visited that contacted trackers. It also highlights the most contacted tracker.
 
 The Privacy Report also lists (shames) the sites that use the most trackers and the most widely used trackers across the sites you visited.
+
+![Image](/uploads/safari-privacy-report.png)
 
 ## Could Safari change the way people browse the web?
 
