@@ -30,7 +30,7 @@ The Privacy Report also lists (shames) the sites that use the most trackers and 
 
 ## Could Safari change the way people browse the web?
 
-This is a similar feature to what open-source and privacy-friendly browsers such as Firefox and Brave have had for a while. But Safari is a much more widely used browser, it puts the Privacy Report upfront and center, and raises awareness of these issues to a new level with their large, mainstream audience.
+This is a similar feature to what open-source and privacy-friendly browsers such as Firefox and Brave have had for a while. But Safari is a much more widely used browser, it puts the Privacy Report up front and center, and raises awareness of these issues to a new level with their large, mainstream audience.
 
 People have already started complaining about the shocking number of trackers they are seeing on their favorite sites. Or the irony behind the "we care about your privacy" messages on sites with multiple trackers. Or the fact that some sites such as Wikipedia seem to be the good guys and have no trackers at all.
 
@@ -122,7 +122,7 @@ Plausible is currently not blocked nor highlighted by Safari's Intelligent Track
 
 ## What will Google and the adtech do next?
 
-Apple has made the life a little bit more difficult for the adtech industry. Their data collection has become a little bit less accurate and more people can now escape from being continuously tracked and monitored for behavioral insights.
+Apple has made life a little bit more difficult for the adtech industry. Their data collection has become a little bit less accurate and more people can now escape from being continuously tracked and monitored for behavioral insights.
 
 Adtech's response to this would be to rely less on third-party tracking and move more of the tracking to first-party. There may be an increase in fingerprinting and other alternative ways to track web users without using cookies too.
 
