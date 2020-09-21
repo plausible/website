@@ -62,25 +62,25 @@ They've found that Google is the biggest tracking company on the web saying that
 
 You can see the full list of all the domains on [DuckDuckGo's list](https://github.com/duckduckgo/tracker-radar/tree/main/domains/US).
 
-Websites making calls to the domains listed in DuckDuckGo's Tracker Radar list are listed in Safari's Privacy Report. Safari shows the number of trackers discovered on the particular site and states the number of "trackers prevented from profiling you".
+Websites making calls to specific domains from DuckDuckGo's Tracker Radar list are listed in Safari's Privacy Report. Safari shows the number of trackers discovered on the particular site and states the number of "trackers prevented from profiling you".
 
 ## What does Safari's Intelligent Tracking Protection (ITP) actually do?
 
 Unlike the tracking protection in Brave or Firefox, Safari's Intelligent Tracking Protection does not block the listed third-party requests. Instead, it prevents them from placing cookies or from accessing the local storage of a device.
 
-This means that Google (and other adtech companies) are prevented from building cross-site profiles of web users for advertising purposes:
+This means that Google, Facebook and other adtech companies are prevented from building cross-site profiles of web users for advertising purposes:
 
 * Third-party cookies are completely blocked
 
 * First-party JS cookies are limited to a maximum of 7 days. This means that [cookie-based analytics tools](https://plausible.io/blog/google-analytics-cookies) such as Google Analytics may not be as reliable as before in showing new unique visitors or returning visitors. If a person visits your site today and then comes back the following week, they are likely to be listed as another unique visitor again. 
 
-* [Referrer header](https://plausible.io/blog/referrer-policy) is truncated to only show the domain name origin for referring websites with cross-site tracking capabilities.
+* [Referrer header](https://plausible.io/blog/referrer-policy) is truncated and any query parameters are stripped to only show the domain name origin for referring websites with cross-site tracking capabilities.
 
 * Intelligent Tracking Protection is turned on by default and applies to all browsers on iOS and iPadOS and not only to Safari. Firefox, Chrome, Brave and others are following the same rules. 
 
 * Users have the option to turn this off by disabling the "Prevent cross-site tracking" feature in the settings but defaults matter and it is likely that only a tiny percentage of users would disable it.
 
-* For full details on all this, [see this](https://www.cookiestatus.com/safari/).
+* For full details, [see the overview on Cookie Status](https://www.cookiestatus.com/safari/).
 
 ## What's the motivation behind DuckDuckGo's Tracker Radar list? 
 
@@ -126,6 +126,6 @@ Apple has made life a little bit more difficult for the adtech industry. Their d
 
 Adtech's response to this would be to rely less on third-party tracking and move more of the tracking to first-party. There may be an increase in fingerprinting and other alternative ways to track web users without using cookies too.
 
-Apple could respond to that by moving more in the direction of privacy-first browsers such as Brave. Brave for instance blocks all the trackers by default and has several features to prevent fingerprinting enable by default out of the box.
+Apple could respond to that by moving more in the direction of privacy-first browsers such as Brave. Brave for instance blocks all the trackers by default and has several features to prevent fingerprinting enabled by default out of the box.
 
-It will be an exciting "battle" to follow over the upcoming months and it's great to see such a large company as Apple take a stand against surveillance capitalism and try to make the web a little bit of a better place for everyone.
+It will be an exciting "battle" to follow over the upcoming months. It's great to see such a large company as Apple take a stand against surveillance capitalism and try to make the web a little bit of a better place for everyone.
