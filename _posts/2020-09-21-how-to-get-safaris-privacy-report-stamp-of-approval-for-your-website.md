@@ -30,7 +30,7 @@ The Privacy Report also lists (shames) the sites that use the most trackers and 
 
 ## Could Safari change the way people browse the web?
 
-This is a similar feature to what open-source and privacy-friendly browsers such as Firefox and Brave have had for a while. But Safari is a much more widely used browser, it puts the Privacy Report up front and center, and raises awareness of these issues to a new level with their large, mainstream audience.
+This is a similar feature to what open-source and privacy-friendly browsers such as Firefox and Brave have had for a while. But Safari is a much more widely used browser, it puts the Privacy Report up front and center, and raises awareness of these issues to a new level with their large, mainstream audience. [Safari's browser market share](https://gs.statcounter.com/browser-market-share) is at 17% compared to 4% for Firefox.
 
 People have already started complaining about the shocking number of trackers they are seeing on their favorite sites. Or the irony behind the "we care about your privacy" messages on sites with multiple trackers. Or the fact that some sites such as Wikipedia seem to be the good guys and have no trackers at all.
 
