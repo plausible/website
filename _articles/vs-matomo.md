@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Matomo vs Plausible: Why Plausible is a great Matomo alternative"
+title: What makes Plausible a great Matomo alternative
 description: Plausible and Matomo are open-source website analytics tools. What
   is the difference between them and why are they good alternatives to Google
   Analytics?
@@ -8,14 +8,14 @@ permalink: /vs-matomo
 ---
 Matomo, formerly known as Piwik, was founded in 2007 and has long been the most well known open-source alternative to Google Analytics.
 
-[Plausible Analytics](https://plausible.io) is a brand new player on this market so what are the differences between the two? Let's take a look.
+[Plausible Analytics](https://plausible.io) is a new player on this market launched in 2019. So what are the differences between the two and why should you consider Plausible as a Matomo alternative? Let's take a look.
 
-![Matomo vs Plausible](/uploads/google-analytics-alternatives.png "Matomo vs Plausible")
+![Plausible as a great Matomo alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Matomo alternative")
 
 1. Ordered list
 {:toc}
 
-## Plausible vs Matomo comparison: What are the differences?
+## Plausible vs Matomo comparison: What are the similarities?
 
 In our post on why we believe [Plausible is a great Google Analytics alternative](https://plausible.io/vs-google-analytics), we listed several ways in which Plausible Analytics and Google Analytics differ from one another.
 
@@ -33,11 +33,13 @@ Both of our tools are developed in the open too welcoming user feedback and sugg
 
 ### Both allow you to completely own the data
 
-By using Plausible or [Matomo](https://matomo.org/), you are completely in control and have 100% ownership of all the website stats and other data collected.
+By using Plausible or Matomo, you are completely in control and have 100% ownership of all the website stats and other data collected. Both tools can be self-hosted on your own server or you can use our services to have us host it for you.
 
 You don't have to worry about anyone else getting access to your website data, your visitor data is not being shared or sold to third-parties nor is it being mined for behavioral insights for advertising purposes.
 
-If so many key aspects of Matomo and Plausible are similar, in which ways do we differ? Let's explore the main differences.
+## What makes Plausible a great Matomo alternative?
+
+If so many key aspects of Matomo and Plausible are similar, in which ways do we differ and what makes Plausible a great Matomo alternative? Let's explore the main differences.
 
 ## Simple web analytics vs complex web analytics
 
@@ -98,7 +100,7 @@ While the Matomo script looks like this:
 
 ## Privacy regulations and the need for cookie notices and GDPR or CCPA consent
 
-By being a more simple and more lightweight alternative, it means that Plausible also tracks and collects fewer data points by default.
+By being a more simple and more lightweight alternative, it means that Plausible also tracks and collects fewer data points by default. We are built as a [privacy-first analytics tool](https://plausible.io/privacy-focused-web-analytics).
 
 With Matomo being a full-blown Google Analytics-like tool, it is using cookies and it is collecting personal data by default for reports such as session recordings and heatmaps.
 
@@ -119,7 +121,7 @@ Plausible doesn't use any cookies and we don't collect any personal data so by u
 
 Matomo is one of the most popular website analytics providers. It is installed on 1.5% of all the websites that use a known traffic analysis tool. This means that Matomo is used on [1% of all websites](https://w3techs.com/technologies/details/ta-piwik) on the web. It's a great success for a great open-source web analytics project.
 
-Plausible is a brand new and independently developed project. We're a small team and we're self-funded. By using Plausible, you will support indie-developers, indie-businesses and the independent web.
+Plausible is an independently developed project. We're a small team and we're self-funded. By using Plausible, you will support indie-developers, indie-businesses and the independent web. You can read more [about us](https://plausible.io/about).
 
 ## Sign up for a free Plausible trial
 
