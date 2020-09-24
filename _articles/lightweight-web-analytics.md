@@ -1,13 +1,14 @@
 ---
 layout: article
-title: How lightweight web analytics can reduce the carbon footprint of your site
+title: "Plausible: Lightweight web analytics tool (<1KB) that doesn't slow down
+  your site"
 description: Replacing Google Analytics with a lightweight web analytics tool
   can have a significant effect on the page load time of your website.
 permalink: /lightweight-web-analytics
 ---
-Page speed shows you the amount of time it takes for your website to load. Having a fast loading website is one of the key elements of modern web development.
+Plausible Analytics script weights less than 1 KB. That's 45 times smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will stop your site from loading slow.
 
-Replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time and the carbon footprint too. Let's take a closer look.
+Having a fast loading website is one of the key elements of modern web development. Replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time and the carbon footprint too. Let's take a closer look.
 
 ![Plausible: A lightweight web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
 
@@ -32,7 +33,7 @@ Web analytics like any other website element add extra page weight and extra loa
 * **Matomo** https://example.org/matomo.js **22.8 KB**
 * **Plausible** https://plausible.io/js/plausible.js **<1 KB**
 
-### Google Analytics
+### Does Google Analytics slow down my website?
 
 Google Analytics is the most popular web analytics solution that is installed on [more than 50% of all websites](https://w3techs.com/technologies/history_overview/traffic_analysis/all) on the web. The recommended way to start tracking your website using Google Analytics is to install the Global Site Tag (gtag.js) tracking code on all of your pages.
 
@@ -79,7 +80,7 @@ To track your website traffic using Matomo, you need to integrate the matomo.js 
 
 This matomo.js script adds 22.8 KB to the page size of your website.
 
-### Plausible Analytics
+### Plausible is a lightweight web analytics weighing less than 1 KB
 
 Every KB matters when you want to keep your site fast to load. Plausible is built with simplicity, speed and performance in mind. Plausible is also running on 100% renewable energy which should further minimize our impact on the planet. 
 
