@@ -62,11 +62,11 @@ Our goal is to reduce the number of websites and businesses online that run prop
 
 * We have an in-built feature that we recommend all website owners use to open up their stats to the public and share it on their site to be fully transparent so their visitors and anyone else can view the data that they have access to
 
-See our [data policy](https://plausible.io/data-policy) for the full list of data we do collect to display your web stats and which metrics we use the data for. We also have a more deeper look into how Plausible Analytics is built to be a [privacy-friendly web analytics](https://plausible.io/privacy-focused-web-analytics) tool that's compliant with the different privacy regulations.
+See our [data policy](https://plausible.io/data-policy) for the full list of data we do collect to display your web stats and which metrics we use the data for. We also have a deeper look into how Plausible Analytics is built to be a [privacy-friendly web analytics](https://plausible.io/privacy-focused-web-analytics) tool that's compliant with the different privacy regulations.
 
 ## How do you prevent Plausible Analytics from going from "Don't be evil" to "Be evil"?
 
-Plausible Analytics is a fully libre and open source startup. Plausible Analytics code is [free and open source](https://github.com/plausible/analytics/) under the most permissive Massachusetts Institute of Technology (MIT) license. This means that there are no restrictions on redistributing, modifying or using Plausible Analytics for any reason. You can take it and use it any way that you wish.
+Plausible Analytics is a fully libre and open source startup. Our code is [free and open source](https://github.com/plausible/analytics/) under the most permissive Massachusetts Institute of Technology (MIT) license. This means that there are no restrictions on redistributing, modifying or using Plausible Analytics for any reason. You can take it and use it any way that you wish.
 
 Good intentions are not always enough and being open source is the best way to prevent us from going from "Don't be evil" to "Be evil". Our code is not proprietary and our users are not locked down so we have to be the best business running this codebase. The threat of forking is a real threat and if we make some evil choices or sell out to some evil corp, you can take the code and have your own Plausible Analytics. This keeps us honest.
 
