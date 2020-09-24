@@ -1,12 +1,12 @@
 ---
 layout: article
-title: Simple web analytics tool you can use to measure website traffic
+title: "Plausible: Simple web analytics tool you can use to measure site traffic"
 description: Plausible provides you all the valuable website traffic metrics in
   a simple web analytics dashboard. No layers of menus and no need for custom
   reports.
 permalink: /simple-web-analytics
 ---
-The goal of [Plausible Analytics](https://plausible.io/) is to provide you all the valuable website traffic metrics at a glance in a simple web analytics dashboard.
+The goal of [Plausible Analytics](https://plausible.io/) is to provide you all the valuable and actionable website traffic metrics at a glance in a simple and modern web analytics dashboard.
 
 You get to check your website traffic without deep layers of menus and without a need to create custom reports. Plausible presents you with all the most insightful website statistics on one single page. Here's a closer look.
 
@@ -48,7 +48,7 @@ There is no navigational menu. There are no additional sub-menus. There is no ne
 It is easy to use and understand with no training or prior experience. Everything you need to know about your website traffic is on one page:
 
 1. Choose the time range that you want to analyze. The visitor numbers are automatically presented on an hourly, daily or monthly graph. The default time frame is set at the last 30 days.
-2. See the number of unique visitors, total page views and the bounce rate. These metrics include a percentage comparison to the previous time period so you understand if the trends are going up or down.
+2. See the number of unique visitors, total page views, the bounce rate and visit duration. These metrics include a percentage comparison to the previous time period so you understand if the trends are going up or down.
 3. Right below that you see all the top referral sources of traffic and all the most visited pages on your site. Bounce rates of the individual referrals and pages are included too.
 4. Underneath the referral sources and the most visited pages, you see the list of countries your traffic is coming from. You can also see the device, browser and operating system your visitors are using.
 5. Last but not least, you can even track events and goals to identify the number of converted visitors, conversion rate, to understand who is converting and the referral sites that send the traffic that converts the best.
@@ -75,7 +75,7 @@ There is no need for you to have a complex privacy policy because of the Plausib
 
 **3. You can keep your website experience simple and visitor-friendly**
 
-By using Plausible, you don't need to compromise the user experience of your website. You don't need to have any prompts to obtain consent for GDPR, CCPA or PECR.
+Plausible is built as a [privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics). By using Plausible, you don't need to compromise the user experience of your website. You don't need to have any prompts to obtain consent for GDPR, CCPA or PECR.
 
 You don't need to show any cookie banners either. You can focus on creating a pure web experience instead and your visitors can enjoy your site without any annoyances and distractions.
 
