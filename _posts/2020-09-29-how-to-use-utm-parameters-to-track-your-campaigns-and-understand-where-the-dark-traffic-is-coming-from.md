@@ -18,7 +18,7 @@ UTM parameters are a useful tool for website owners. They can help you get more 
 
 ## What does UTM stand for?
 
-A lot of website traffic doesn't have a referrer header. This traffic is called dark traffic. You may know it as "direct / none" in your analytics dashboard. 
+A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "direct / none" in your analytics dashboard.
 
 Dark traffic includes clicks from emails, clicks from documents, clicks from mobile messengers, bookmarks, people typing in the URL directly into the browser and many other mechanisms. Site owners cannot see which referrer sources are sending that traffic. 
 
