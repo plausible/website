@@ -8,6 +8,8 @@ description: Plausible Analytics has full UTM tags support out-of-the-box to
 slug: utm-tracking-tags
 date: 2020-09-29T11:46:13.345Z
 author: marko-saric
+image: /uploads/utm-campaign-tracking.png
+image-alt: UTM campaign tracking with Plausible Analytics
 ---
 UTM parameters are a useful tool for website owners. They can help you get more insight into the dark traffic and can also help you understand what specific campaign or piece of content delivers the best conversions. [Plausible Analytics](https://plausible.io/) has full UTM tags support out-of-the-box to help you in this process. Let's take a closer look.
 
