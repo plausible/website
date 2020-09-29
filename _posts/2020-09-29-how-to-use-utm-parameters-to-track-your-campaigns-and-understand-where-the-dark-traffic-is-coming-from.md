@@ -6,7 +6,7 @@ description: Plausible Analytics has full UTM tags support out-of-the-box to
   help you track your marketing campaigns with a fast and easy to understand
   dashboard.
 slug: utm-tracking-tags
-date: 2020-09-29T11:46:13.345Z
+date: 2020-09-29T15:06:06.455Z
 author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
