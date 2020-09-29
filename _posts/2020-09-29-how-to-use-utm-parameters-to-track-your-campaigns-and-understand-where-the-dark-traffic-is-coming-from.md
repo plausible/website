@@ -11,7 +11,7 @@ author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
 ---
-UTM parameters are a useful tool for website owners. They can help you get more insight into the dark traffic and can also help you understand what specific campaign or piece of content delivers the best conversions. [Plausible Analytics](https://plausible.io/) has full UTM tags support out-of-the-box to help you in this process. Let's take a closer look.
+UTM parameters are a useful tool for business owners. They can help you get more insights into the dark traffic and identify specific campaigns or pieces of content that deliver the best conversions. [Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box to help you in this process. Let's take a closer look.
 
 1. Ordered list
 {:toc}
@@ -50,11 +50,15 @@ With UTM tagged links in email, social media and other sources, you can see thes
 
 UTM parameters consist of:
 
-* `utm_source`: The name of the campaign source where you plan to share the link. Such as the name of your newsletter or the name of the social network you're doing a campaign on. 
+### UTM Source
+
+`utm_source`: The name of the campaign source where you plan to share the link. Such as the name of your newsletter or the name of the social network you're doing a campaign on. 
 
 The `utm_source` parameter is mandatory and required. Make sure to use it in all UTM tagged links.
 
-* `utm_medium`: The name of the channel where the link is placed. Such as email or paid social media posts.
+### UTM Medium
+
+`utm_medium`: The name of the channel where the link is placed. Such as email or paid social media posts.
 
 You can organize and group `utm_medium` tags within few of your main marketing strategies: 
 
@@ -66,7 +70,9 @@ You can organize and group `utm_medium` tags within few of your main marketing s
 "Affiliate" for all affiliate marketing campaigns.
 "Referral" for all organic campaigns on other websites.
 
-* `utm_campaign`: The name of your individual campaign. Such as "November+newsletter" or "Black+Friday+sale".
+### UTM Campaign
+
+`utm_campaign`: The name of your individual campaign. Such as "November+newsletter" or "Black+Friday+sale".
 
 `utm_campaign` is the most flexible of all the UTM tags. You can put anything you want. Launches, sales, features, specific topics...
 
@@ -104,7 +110,7 @@ One way to do that would be to tag all your organic (non-paid) social media link
 
 This will show a clear split in your website referral sources traffic between visitors and activity coming from "social" vs "social-paid".
 
-### Check the results of each individual social media posts
+### Check the results of each individual social media post
 
 You can go even deeper than the paid vs organic social media split. You could analyze each individual post that you share using the `utm_campaign` tags. Here's an example:
 
@@ -116,21 +122,21 @@ Or:
 
 The above examples would allow you to not only split the traffic and see the difference between the paid and organic posts but also the results of the individual posts such as the paid campaign you're having for Black Friday sale or the organic post you published about the announcement for the new season.
 
-### Analyze influencers, affiliate partners and other creators you're working with
+### Analyze influencers, affiliates and creators you're sponsoring
 
 UTM tags are useful in the world of affiliate marketing, influencer marketing and other sponsorships such as when sponsoring a specific newsletter. 
 
 You could tag all of the links they post with their unique UTM tags so you can not only figure out what results they drive and what ROI (return on investment) they get you, but also compare them to each other to understand which deliver the best value for you and which may make sense to sponsor again.
 
-### Analyze your guest blogging or content syndication campaigns 
+### Analyze your guest blogging and content syndication campaigns 
 
 In content marketing, people do many guest blogging and content syndication campaigns. Some of these are hard to track as some websites don't send a referral header. UTM tags are a solution to these.
 
 Simply tag all the links in the different guest posts and other syndication activities to be able to see how many clicks and other results they drive.
 
-## Best practices for UTM tag and other things to know
+## Best practices for UTM tags and other things to know
 
-### Plausible merges UTM tags that are identical to referral sources in the "Top Sources" report
+### Plausible merges UTM tags that are identical to referral sources
 
 In the "Top Sources" report in the Plausible Analytics dashboard, within the "All" tab we merge any identical sources. So for instance clicks that you get untagged from Twitter are labeled with a referral source Twitter. In addition to that, if you tag some links that you share on Twitter with the `utm_source=Twitter` we will merge them alongside other Twitter clicks in the "All" tab. This is in order to make it easier for you to keep track and get a nicer overview.
 
@@ -160,7 +166,7 @@ Keeping the `utm_source` consistent from platform to platform allows you to view
 
 This is not possible if you call some of your tags Facebook, others facebook, Facebook-post or facebook-paid.
 
-### How do I test UTM parameters?
+### How to test UTM parameters
 
 If you get no traffic from links tagged with UTM parameters, then your UTM report in Plausible Analytics will be empty. 
 
