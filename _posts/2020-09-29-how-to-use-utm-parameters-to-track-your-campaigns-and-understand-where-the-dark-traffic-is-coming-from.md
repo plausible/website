@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to use UTM parameters to track your campaigns and understand where
-  the dark traffic is coming from
+title: How to use UTM parameters to track your campaigns and understand the dark
+  traffic
 description: Plausible Analytics has full UTM tags support out-of-the-box to
   help you track your marketing campaigns with a fast and easy to understand
   dashboard.
