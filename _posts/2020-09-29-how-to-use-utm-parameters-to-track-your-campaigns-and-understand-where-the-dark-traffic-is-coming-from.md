@@ -18,11 +18,23 @@ UTM parameters are a useful tool for business owners. They can help you get more
 
 ## What does UTM stand for?
 
-A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "direct / none" in your analytics dashboard.
+A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "Direct / None" in your Plausible Analytics dashboard.
 
 Dark traffic includes clicks from emails, clicks from documents, clicks from mobile messengers, bookmarks, people typing in the URL directly into the browser and many other mechanisms. Site owners cannot see which referrer sources are sending that traffic. 
 
-A solution to minimize dark traffic is to tag links. Website owners use UTM parameters (Urchin Tracking Modules) to help them understand where their site traffic is coming from. Urchin was the analytics company that Google acquired in 2005 and turned it into Google Analytics.
+A solution to minimize dark traffic is to tag links. Website owners use UTM parameters (Urchin Tracking Modules) to help them understand where their site traffic is coming from. Urchin was the analytics company that Google acquired in 2005 and turned it into [Google Analytics](https://plausible.io/vs-google-analytics).
+
+## How do I see UTM campaign stats in Plausible Analytics?
+
+When you have UTM tagged links in your emails, social media and other platforms, you can see clicks on these links in your Plausible Analytics dashboard. You can see referral sources of your traffic, even those that would otherwise be listed as "Direct / None": 
+
+* In your "Top Sources" report you can filter by medium, source and campaign tabs which include all the visits to your sites from tagged links.
+
+* You can click on any of your individual UTM tags to drill down and get a full report based on that specific UTM tag:
+
+1. See which content on your site is visited by people that clicked on the links tagged with that UTM
+2. See which of your goals and events people that click on tagged URLs convert on
+3. See details about visitors that click on the tagged URLs such as what country they are from and what device, browser and OS they use
 
 ## How do I generate UTM tagged links? 
 
@@ -30,21 +42,15 @@ UTM parameters are bits of text that you add to your URLs and links that you sha
 
 `https://yourdomain.com?utm_medium=social&utm_source=Twitter&utm_campaign=milestone`
 
-UTM parameters are all the tags that come after the question mark (`?`) in the URL above. Individual parameters are separated by the ampersand (`&`) symbol.
+UTM parameters are all the tags that come after the question mark (`?`) in the URL above:
+
+* utm_medium=social
+* utm_source=Twitter
+* utm_campaign=milestone
+
+Individual parameters are separated by the ampersand (`&`) symbol.
 
 You can tag all your links manually or you can use a tool such as the [Campaign URL Builder](https://ga-dev-tools.appspot.com/campaign-url-builder/).
-
-## How do I see UTM campaign stats in Plausible Analytics?
-
-With UTM tagged links in email, social media and other sources, you can see these in Plausible Analytics:
-
-* See referral sources of your traffic, even those that would otherwise be listed as "direct / none". In your "Top Sources" report you can filter by medium, source and campaign tabs which include all the visits to your sites from tagged links.
-
-* You can click on any of your UTM tags to drill down and get a full report based on that UTM tag:
-
-1. See which content on your site is visited by people that clicked on the links tagged with that UTM
-2. See which of your goals and events people that click on tagged URLs convert on
-3. See details about visitors that click on the tagged URLs such as what country they are from and what device, browser and OS they use
 
 ## Types of UTM parameters
 
@@ -62,13 +68,13 @@ The `utm_source` parameter is mandatory and required. Make sure to use it in all
 
 You can organize and group `utm_medium` tags within few of your main marketing strategies: 
 
-"Email" for all email marketing campaigns.
-"Social" for organic content posted on your social media channels.
-"Social+paid" for paid campaigns posted on social media.
-"CPC" for pay per click advertising such as search engine paid advertising. 
-"Display" for any advertising banner campaigns you're having on other websites.
-"Affiliate" for all affiliate marketing campaigns.
-"Referral" for all organic campaigns on other websites.
+* "Email" for all email marketing campaigns
+* "Social" for organic content posted on your social media channels
+* "Social+paid" for paid campaigns posted on social media
+* "CPC" for pay per click advertising such as search engine paid advertising.
+* "Display" for any advertising banner campaigns you're having on other websites
+* "Affiliate" for all affiliate marketing campaigns
+* "Referral" for all organic campaigns on other websites
 
 ### UTM Campaign
 
@@ -78,7 +84,7 @@ You can organize and group `utm_medium` tags within few of your main marketing s
 
 ## Why are UTM parameters so valuable?
 
-UTM parameters help you understand the big picture and referral sources that bring traffic to your site. But they also help you understand the small details such as what specific social media content works best in terms of driving conversions.
+UTM parameters help you understand the big picture and referral sources that bring traffic to your site. But they also help you understand the small details such as what specific social media content works best in terms of driving conversions. Here are some use cases where UTMs can make a difference:
 
 ### Track your dark traffic
 
@@ -108,7 +114,7 @@ Social media typically sends dark traffic referrals. So by tagging the content y
 
 One way to do that would be to tag all your organic (non-paid) social media links with a `utm_medium=social` tag and all your paid social media posts with a `utm_medium=social-paid` tag.
 
-This will show a clear split in your website referral sources traffic between visitors and activity coming from "social" vs "social-paid".
+This will show a clear split in your website referral traffic between visitors and activity coming from "social" and "social-paid". It makes it easier to analyze and understand the results you're getting from your campaigns.
 
 ### Check the results of each individual social media post
 
@@ -120,7 +126,7 @@ Or:
 
 `https://yourdomain.com?utm_medium=social&utm_source=facebook&utm_campaign=new-season-announcement`
 
-The above examples would allow you to not only split the traffic and see the difference between the paid and organic posts but also the results of the individual posts such as the paid campaign you're having for Black Friday sale or the organic post you published about the announcement for the new season.
+The above examples would allow you to not only split the traffic and see the difference between paid and organic posts but also the results of the individual posts such as paid campaign you're having for Black Friday sale or the organic post you published about the announcement for the new season.
 
 ### Analyze influencers, affiliates and creators you're sponsoring
 
@@ -130,7 +136,7 @@ You could tag all of the links they post with their unique UTM tags so you can n
 
 ### Analyze your guest blogging and content syndication campaigns 
 
-In content marketing, people do many guest blogging and content syndication campaigns. Some of these are hard to track as some websites don't send a referral header. UTM tags are a solution to these.
+In content marketing, companies do many guest blogging and content syndication campaigns. Some of these are hard to track as some websites don't send a referral header. UTM tags are a solution to these.
 
 Simply tag all the links in the different guest posts and other syndication activities to be able to see how many clicks and other results they drive.
 
@@ -138,9 +144,11 @@ Simply tag all the links in the different guest posts and other syndication acti
 
 ### Plausible merges UTM tags that are identical to referral sources
 
-In the "Top Sources" report in the Plausible Analytics dashboard, within the "All" tab we merge any identical sources. So for instance clicks that you get untagged from Twitter are labeled with a referral source Twitter. In addition to that, if you tag some links that you share on Twitter with the `utm_source=Twitter` we will merge them alongside other Twitter clicks in the "All" tab. This is in order to make it easier for you to keep track and get a nicer overview.
+We merge all identical sources in the "All" tab of the "Top Sources" report in your Plausible Analytics dashboard. 
 
-If you then click on the "Source" tab we will only show those clicks coming from `utm_source=Twitter`. 
+For instance, clicks that you from Twitter which are not tagged by UTMs are labeled with a referral source Twitter. But if you tag some links that you share on Twitter with the `utm_source=Twitter`, clicks on those we will merge alongside other Twitter clicks in the "All" tab. 
+
+This is in order to make it easier for you to keep track and get a nicer overview. When you click on the "Source" tab, we only show those clicks coming from `utm_source=Twitter` itself. 
 
 ### UTM tags are case-sensitive
 
@@ -150,21 +158,23 @@ UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` wil
 
 You cannot just include `utm_medium=social paid` as spaces are not supported. Either call it `utm_medium=social-paid` or `utm_medium=social+paid`. 
 
-### Plausible Analytics converts plus signs into spaces
+### Plausible converts plus signs into spaces
 
 We recommend the plus sign as Plausible will automatically convert those into spaces. For instance, if you use `social+paid` in your links, it will be displayed as `social paid` in your Plausible Analytics dashboard.
 
 ### Note the standard URL syntax for query strings
 
-As explained earlier, to specify query parameters you start with a `?` and follow each consecutive parameter with `&`. If you use the question mark twice, the first part is ignored and only the last part is used. So try to avoid URLs with more than a single question mark in them. If the URL already has a question mark in it, simply use the ampersand symbol instead of the initial question mark at the start of your UTM. 
+As explained earlier, to specify query parameters you start with a `?` and follow each consecutive parameter with `&`. If you use the question mark twice, the first part is ignored and only the last part is used. 
+
+So try to avoid URLs with more than a single question mark in them. If the URL already has a question mark in it, simply use the ampersand symbol instead of the initial question mark at the start of your UTM. 
 
 ### Have a consistent campaign naming convention
 
 Do you see too many campaign names and other sources in your UTM report? Is it difficult to get a good overview? Try to create a better and more consistent campaign naming convention for you and your team.
 
-Keeping the `utm_source` consistent from platform to platform allows you to view all the activities in one place. If you tag all the links you share on Facebook with `utm_source` Facebook, then you'll be able to see all of them by click on the `utm_source` Facebook in your Plausible Analytics dashboard. 
+Keeping the `utm_source` consistent from platform to platform allows you to view all the activities in one place. If you tag all the links you share on Facebook with `utm_source` Facebook, then you'll be able to see all of them by clicking on the `utm_source` Facebook in your Plausible Analytics dashboard. 
 
-This is not possible if you call some of your tags Facebook, others facebook, Facebook-post or facebook-paid.
+This is not possible if you call some of your tags Facebook, others facebook, or Facebook-post and facebook-paid.
 
 ### How to test UTM parameters
 
@@ -172,7 +182,7 @@ If you get no traffic from links tagged with UTM parameters, then your UTM repor
 
 In order to test whether your UTM tagged link works, simply click on it and check your Plausible Analytics dashboard. Your visit should immediately show on the dashboard.
 
-Just note that in Plausible Analytics the referral sources are counted only when they start a new session on your site so you won't be able to see your own visits in referral sources list after the first click of the day.
+Note that in Plausible Analytics the referral sources are counted only when they start a new session so you won't be able to use this method to test your links multiple times each day. Our session length is one day long.
 
 ## Explore our fast, simple and easy to understand UTM campaign dashboard
 
