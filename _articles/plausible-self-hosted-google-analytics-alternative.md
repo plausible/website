@@ -23,9 +23,9 @@ There is only one version of Plausible Analytics. Both our Cloud and our Self-Ho
 
 You get the same fast-loading dashboard, same actionable metrics and same commitment to [respecting the privacy of your visitors](https://plausible.io/privacy-focused-web-analytics) with both.
 
-We started developing Plausible in early 2019 and we launched our SaaS subscription business in May 2019. The project is very much alive and actively developed. It is robust and battle-tested too. 
+We started developing Plausible in early 2019 and we launched our SaaS subscription business in May 2019. The project is very much alive, actively developed and fast growing. It is robust and battle-tested too. 
 
-Plausible Analytics is installed on more than 5,000 websites and we’ve counted 240 million page views until now, 180 million of those in the last three months alone. That's 180 million page views fewer going to the surveillance capitalism over the last quarter.
+Plausible Analytics is installed on more than 5,000 websites and we’ve counted 240 million page views until now, 180 million of those in the last three months alone. 
 
 Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 
@@ -52,10 +52,6 @@ We are not interested in raising funds or taking investment either. Plausible is
 
 For more views on the topic of open source funding, see [how to pay your rent with your open source project](https://plausible.io/blog/open-source-funding).
 
-## How do I self-host Plausible Analytics?
-
-This is the free as in beer and free as in speech version of Plausible Analytics. Here's [how you can install Plausible Analytics Self-Hosted on your own server](https://docs.plausible.io/self-hosting).
-
 ## Transparency as a key value of privacy focused software
 
 One aspect that makes Plausible Analytics different from many of the other web analytics providers such as Google Analytics is the fact that Plausible is [a fully open source web analytics software](https://plausible.io/open-source-website-analytics).
@@ -79,3 +75,7 @@ Plausible is open source under the most permissive Massachusetts Institute of Te
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 >
 > THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## How do I self-host Plausible Analytics?
+
+This is the free as in beer and free as in speech version of Plausible Analytics. Here's [how you can install Plausible Analytics Self-Hosted on your own server](https://docs.plausible.io/self-hosting).
