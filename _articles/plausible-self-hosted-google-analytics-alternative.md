@@ -17,6 +17,15 @@ And you can now self-host Plausible Analytics on your server too.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://github.com/plausible/analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> View on GitHub </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
 
+<div class="relative">
+  <div class="max-w-5xl mx-auto rounded shadow-2xl" style="margin-bottom: -36rem">
+    <figure class="relative" style="padding-bottom: 82.6%">
+      <img class="absolute top-0 left-0" src="/assets/images/privacy-focused-web-analytics.png" alt="Privacy-focused web analytics dashboard" />
+    </figure>
+  </div>
+</div>
+
+
 ## What's the difference between Plausible Cloud and Plausible Self-Hosted?
 
 There is only one version of Plausible Analytics. Both our Cloud and our Self-Hosted products are completely equal. There’s no premium and exclusive commercial version with a better or more complete feature set.
