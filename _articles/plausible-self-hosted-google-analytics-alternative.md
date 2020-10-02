@@ -5,6 +5,8 @@ description: Plausible Analytics is a privacy-friendly and open-source Google
   Analytics alternative that you can install and self-host on your server.
 permalink: /self-hosted-web-analytics
 ---
+![Plausible: Self-hosted Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Self-hosted Google Analytics alternative")
+
 [Plausible Analytics](https://plausible.io/) is a 100% open source web analytics tool. Our mission is to reduce corporate surveillance by making a useful and privacy-friendly website analytics tool that doesn't come from the adtech world.
 
 The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
