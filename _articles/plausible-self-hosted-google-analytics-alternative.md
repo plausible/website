@@ -11,7 +11,9 @@ permalink: /self-hosted-web-analytics
 
 The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
 
-Plausible Analytics is installed on more than 5,000 websites and we’ve counted 60 million page views in September. That's 60 million page views fewer going to the surveillance capitalism. And you can now self-host Plausible Analytics on your server too. Let's take a look.
+Plausible Analytics is installed on more than 5,000 websites and we’ve counted 60 million page views in September. That's 60 million page views fewer going to the surveillance capitalism. 
+
+And you can now self-host Plausible Analytics on your server too.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://github.com/plausible/analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> View on GitHub </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
 
