@@ -9,11 +9,9 @@ permalink: /self-hosted-web-analytics
 
 The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
 
-Plausible Analytics is installed on more than 5,000 websites and we’ve counted 60 million page views in September. That's 60 million page views fewer going to the surveillance capitalism.
-
 And you can now self-host Plausible Analytics on your server too.
 
-<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://github.com/plausible/analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;"> View on GitHub </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
+<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://docs.plausible.io/self-hosting" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;"> Installation instructions </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
 
 ![Plausible: Self-hosted Google Analytics alternative](/assets/images/privacy-focused-web-analytics.png "Plausible: Self-hosted Google Analytics alternative")
 
@@ -25,46 +23,20 @@ There is only one version of Plausible Analytics. Both our Cloud and our Self-Ho
 
 You get the same fast-loading dashboard, same actionable metrics and same commitment to [respecting the privacy of your visitors](https://plausible.io/privacy-focused-web-analytics) with both.
 
+We started developing Plausible in early 2019 and we launched our SaaS subscription business in May 2019. The project is very much alive and actively developed. It is robust and battle-tested too. 
+
+Plausible Analytics is installed on more than 5,000 websites and we’ve counted 240 million page views until now, 180 million of those in the last three months alone. That's 180 million page views fewer going to the surveillance capitalism over the last quarter.
+
 Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 
 <div class="py-2"></div>
 
 | | Cloud | Self-hosted |
 |---|---|---|---|---|
-| **Hosting** | Easy and convenient. We take care of the installation, upgrades, server, security, maintenance, uptime, stability, consistency, loading time and so on. | Do it yourelf. You are responsible for installation, maintenance, upgrades, server capacity, uptime, backup and so on. |
-| **Storage** | Your analytics data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.|
-| **Raw data** | You can only see the stats aggregated in the dashboard | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
+| **Hosting** | Easy and convenient. We manage everything for you so you don’t have to worry about anything. We take care of the installation, upgrades, server, security, maintenance, uptime, stability, consistency, loading time and so on. | You do it all yourself. You need to get a server and you need to install, maintain and manage Plausible on that server. You are  responsible for installation, maintenance, upgrades, server capacity, uptime, backup and so on. |
+| **Storage** | We keep your site data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.|
+| **Raw data** | You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. You can only see the stats aggregated in the dashboard. | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
 | **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. | You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.|
-
-### Plug and play vs do it yourself
-
-**Cloud**: Easy and convenient. We manage everything for you so you don’t have to worry about anything. We take care of the installation, upgrades, server, security, maintenance, uptime, stability, consistency, loading time and so on.
-
-**Self-Hosted**: You do it all yourself. You need to get a server and you need to install, maintain and manage Plausible Analytics on that server. You are  responsible for installation, maintenance, upgrades, server capacity, uptime, backup and so on.
-
-### Hosted in the EU vs host it wherever you want
-
-**Cloud**: We keep your site data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws.
-
-**Self-Hosted**: You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.
-
-### Adding our JavaScript file vs no third-party connections
-
-**Cloud**: You need to add one [JavaScript file of under 1 KB](https://plausible.io/lightweight-web-analytics) to your site for Plausible Analytics to count your stats. This data is then displayed on your dashboard on our domain name.
-
-**Self-Hosted**: No third-party connections are necessary. You don't need to integrate our JavaScript snippet onto your site and you don't even need to visit our website to view your stats.
-
-### Aggregated data vs raw data
-
-**Cloud**: You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. All data is in aggregate only. You can [take a look at the live demo](https://plausible.io/plausible.io).
-
-**Self-Hosted**: Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice.
-
-### Subscription fee vs free forever
-
-**Cloud**: There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism.
-
-**Self-Hosted**: You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.
 
 ## How can you be sustainable if you're giving your software for free?
 
@@ -82,9 +54,9 @@ For more views on the topic of open source funding, see [how to pay your rent wi
 
 ## How do I self-host Plausible Analytics?
 
-This is the free as in beer and free as in speech version of Plausible Analytics. Here's how you can install Plausible Analytics Self-Hosted on your own server:
+This is the free as in beer and free as in speech version of Plausible Analytics. Here's [how you can install Plausible Analytics Self-Hosted on your own server](https://docs.plausible.io/self-hosting).
 
-## What's the deal with self-hosted web analytics?
+## Transparency as a key value of privacy focused software
 
 One aspect that makes Plausible Analytics different from many of the other web analytics providers such as Google Analytics is the fact that Plausible is [a fully open source web analytics software](https://plausible.io/open-source-website-analytics).
 
