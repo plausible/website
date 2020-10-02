@@ -11,6 +11,8 @@ The site owner gets some actionable data to help them learn and improve, while t
 
 Plausible Analytics is installed on more than 5,000 websites and we’ve counted 60 million page views in September. That's 60 million page views fewer going to the surveillance capitalism. And you can now self-host Plausible Analytics on your server too. Let's take a look.
 
+<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://github.com/plausible/analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> View on GitHub </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div> </div> </div> </div> </div>
+
 ## What's the difference between Plausible Cloud and Plausible Self-Hosted?
 
 There is only one version of Plausible Analytics. Both our Cloud and our Self-Hosted products are completely equal. There’s no premium and exclusive commercial version with a better or more complete feature set.
@@ -19,7 +21,7 @@ You get the same fast-loading dashboard, same actionable metrics and same commit
 
 Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 
-### Plug and play vs do it yourself 
+### Plug and play vs do it yourself
 
 Cloud: Easy and convenient. We manage everything for you so you don’t have to worry about anything. We take care of the installation, upgrades, server, security, maintenance, uptime, stability, consistency, loading time and so on.
 
@@ -86,7 +88,7 @@ Many open source projects offer a do-it-yourself, self-hosted deployment. Some p
 Plausible is open source under the most permissive Massachusetts Institute of Technology (MIT) license. There are no restrictions on redistributing, modifying or using Plausible for any reason. You can take it and use it any way that you wish. The MIT license states:
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
+>
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
+>
 > THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
