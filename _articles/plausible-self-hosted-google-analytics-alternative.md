@@ -17,6 +17,8 @@ And you can now self-host Plausible Analytics on your server too.
 
 ![Plausible: Self-hosted Google Analytics alternative](/assets/images/privacy-focused-web-analytics.png "Plausible: Self-hosted Google Analytics alternative")
 
+<div class="py-4"></div>
+
 ## What's the difference between Plausible Cloud and Plausible Self-Hosted?
 
 There is only one version of Plausible Analytics. Both our Cloud and our Self-Hosted products are completely equal. There’s no premium and exclusive commercial version with a better or more complete feature set.
@@ -24,6 +26,15 @@ There is only one version of Plausible Analytics. Both our Cloud and our Self-Ho
 You get the same fast-loading dashboard, same actionable metrics and same commitment to [respecting the privacy of your visitors](https://plausible.io/privacy-focused-web-analytics) with both.
 
 Here are the differences between Plausible Cloud and Plausible Self-Hosted:
+
+<div class="py-2"></div>
+
+| | Cloud | Self-hosted |
+|---|---|---|---|---|
+| **Hosting** | Easy and convenient. We take care of the installation, upgrades, server, security, maintenance, uptime, stability, consistency, loading time and so on. | Do it yourelf. You are responsible for installation, maintenance, upgrades, server capacity, uptime, backup and so on. |
+| **Storage** | Your analytics data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.|
+| **Raw data** | You can only see the stats aggregated in the dashboard | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
+| **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. | You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.|
 
 ### Plug and play vs do it yourself
 
