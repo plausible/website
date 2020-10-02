@@ -5,17 +5,17 @@ description: Plausible Analytics is a privacy-friendly and open-source Google
   Analytics alternative that you can install and self-host on your server.
 permalink: /self-hosted-web-analytics
 ---
-![Plausible: Self-hosted Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Self-hosted Google Analytics alternative")
-
 [Plausible Analytics](https://plausible.io/) is a 100% open source web analytics tool. Our mission is to reduce corporate surveillance by making a useful and privacy-friendly website analytics tool that doesn't come from the adtech world.
 
 The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
 
-Plausible Analytics is installed on more than 5,000 websites and we’ve counted 60 million page views in September. That's 60 million page views fewer going to the surveillance capitalism. 
+Plausible Analytics is installed on more than 5,000 websites and we’ve counted 60 million page views in September. That's 60 million page views fewer going to the surveillance capitalism.
 
 And you can now self-host Plausible Analytics on your server too.
 
-<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://github.com/plausible/analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> View on GitHub </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
+<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://github.com/plausible/analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;"> View on GitHub </a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
+
+![Plausible: Self-hosted Google Analytics alternative](/assets/images/privacy-focused-web-analytics.png "Plausible: Self-hosted Google Analytics alternative")
 
 ## What's the difference between Plausible Cloud and Plausible Self-Hosted?
 
@@ -75,11 +75,11 @@ This is the free as in beer and free as in speech version of Plausible Analytics
 
 ## What's the deal with self-hosted web analytics?
 
-One aspect that makes Plausible Analytics different from many of the other web analytics providers such as Google Analytics is the fact that Plausible is [a fully open source web analytics software](https://plausible.io/open-source-website-analytics). 
+One aspect that makes Plausible Analytics different from many of the other web analytics providers such as Google Analytics is the fact that Plausible is [a fully open source web analytics software](https://plausible.io/open-source-website-analytics).
 
 We are not a black box. There’s nothing proprietary or closed source about Plausible Analytics. Everything is in the open. Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics).
 
-Anyone can view, review and inspect the code we’re running to understand how it works and to verify whether our actions match with our words. This gives you and everyone else full transparency on how we handle website traffic data. 
+Anyone can view, review and inspect the code we’re running to understand how it works and to verify whether our actions match with our words. This gives you and everyone else full transparency on how we handle website traffic data.
 
 This is essential in the market of privacy focused analytics. Corporations and proprietary software cannot always be trusted when personal data is in question. This is one of the main reasons [why you should stop using Google Analytics on your site](https://plausible.io/blog/remove-google-analytics).
 
