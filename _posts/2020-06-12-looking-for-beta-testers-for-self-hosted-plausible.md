@@ -11,11 +11,15 @@ image-alt: Plausible Analytics Self-Hosted Beta
 ---
 Plausible Analytics has been [open source](https://plausible.io/open-source-website-analytics) since September 2019 but we haven't offered a convenient way for people to host the code on their own infrastructure. There's always been a [strong interest](https://github.com/plausible/analytics/issues/26) from the community to self-host the code.
 
+:::note
+Plausible Analytics Self-Hosted is now out of beta! You can read more about our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) and follow the [installation instructions](https://docs.plausible.io/self-hosting).
+:::
+
 ## Happy to announce the Plausible Analytics Self-Hosted beta release
 
 Today I'm happy to announce that we have a beta version of Plausible Analytics Self-Hosted ready to be tested. This is the free as in beer and free as in speech version of Plausible Analytics. It's exactly the same product as our [Plausible Analytics Cloud](https://plausible.io) solution, only the self-hosted version you have to install, host and manage yourself. 
 
-To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md). The self-hosted version is based on a [Dockerized web server](https://hub.docker.com/r/plausible/analytics) and it requires a PostgreSQL + ClickhouseDB to run.
+To get started, follow the instructions in our hosting documentation. The self-hosted version is based on a [Dockerized web server](https://hub.docker.com/r/plausible/analytics) and it requires a PostgreSQL + ClickhouseDB to run.
 
 When we have a stable Plausible Analytics Self-Hosted release in the future, it would be great to offer one-click apps on platforms such as Digital Ocean and Heroku. For the beta release, this is out of scope although we always welcome contributions :)
 
@@ -37,7 +41,11 @@ Going forward, I will also have to maintain a proper changelog and start tagging
 
 ## Get started with the Plausible Analytics Self-Hosted beta
 
-To get started, follow the instructions in our [hosting documentation](https://github.com/plausible/analytics/blob/master/HOSTING.md).
+:::note
+Plausible Analytics Self-Hosted is now out of beta! You can read more about our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) and follow the [installation instructions](https://docs.plausible.io/self-hosting).
+:::
+
+To get started, follow the instructions in our hosting documentation.
 
 If you have any questions or issues setting it up, [please open a Github issue](https://github.com/plausible/analytics).
 
