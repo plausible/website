@@ -17,7 +17,7 @@ Plausible seems to be settling into a more steady rate of growth. I had to doubl
 * 💵 *MRR: $5326 (+30%) and more than 800 paying subscribers*
 * 👩 *27.6k* visitors (-22%): Most of the visitors came from Google and Indie Hackers.  [See our full stats for September](https://plausible.io/plausible.io?period=month&date=2020-09-01)
 
-On September 10th I paid out the first proper salaries for myself and Marko. Even though our salaries don’t match what we could command on the job market, it makes me incredibly happy to see a green entry on my bank account, paid from our open source project. Pretty wild.
+On September 10th we paid out the first proper salaries for myself and Marko. Even though our salaries don’t match what we could command on the job market, it makes me incredibly happy to see a green entry on my bank account, paid from our open source project. Pretty wild.
 
 This got me thinking about salaries more generally. Some open startups have a formula to figure out everyone’s salaries based on job position, seniority, cost of living, etc. They make their salaries public so anyone can compare their salary to a co-worker.
 
