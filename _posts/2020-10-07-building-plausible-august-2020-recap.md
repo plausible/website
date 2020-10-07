@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building Plausible: August 2020 recap"
+title: "Building Plausible: September 2020 recap"
 description: "Plausible seems to be settling into a more steady rate of growth.
   I had to double our server capacity in late September to accommodate the new
   trial signups and customers. Here are the stats from last month:"
