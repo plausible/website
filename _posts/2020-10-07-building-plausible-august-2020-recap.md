@@ -27,9 +27,9 @@ I’ve never agreed with cost-of-living adjustments in remote company salaries. 
 Luckily it’s just the two of us for now and we can just set salary levels by having a quick conversation. Instead of talking about potential future problems, let’s look at what I was busy building in September.
 
 ### Full UTM Tag support
-In any web analytics tool lots of inbound traffic is missing an associated traffic source (in Plausible we label it   `Direct / None`).  This is caused by different browser and website policies that govern the behaviour of the `Referer` HTTP header.
+In any web analytics tool lots of inbound traffic is missing an associated traffic source (in Plausible we label it `Direct / None`). This is caused by different browser and website policies that govern the behaviour of the `Referer` HTTP header.
 
-Many social media sites do not reveal in their `Referer` header which post the user clicked on, either.  If you just post a link on Facebook, Instagram or LinkedIn, it’s impossible to correlate inbound traffic from these sites to specific posts. To get access to this data,  social media sites encourage website owners to install their trackers and pixels, eroding online privacy for everyone.
+Many social media sites do not reveal in their `Referer` header which post the user clicked on, either. If you just post a link on Facebook, Instagram or LinkedIn, it’s impossible to correlate inbound traffic from these sites to specific posts. To get access to this data, social media sites encourage website owners to install their trackers and pixels, eroding online privacy for everyone.
 
 Problems with dark traffic and social media sites can be alleviated by tagging your links. Marko wrote a whole blog [post about link tagging](https://plausible.io/blog/utm-tracking-tags) which you should definitely check out.
 
@@ -56,6 +56,4 @@ We released the stable version on Oct 6th, read the announcement [here](https://
 
 The next big items on my todo list are:
 * Event metadata [plausible/analytics #134](https://github.com/plausible/analytics/issues/134)
-* API to show data on dashboard  [plausible/analytics #95](https://github.com/plausible/analytics/issues/95)
-
-
+* API to show data on dashboard [plausible/analytics #95](https://github.com/plausible/analytics/issues/95)
