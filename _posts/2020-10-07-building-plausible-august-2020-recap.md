@@ -7,6 +7,7 @@ description: "Plausible seems to be settling into a more steady rate of growth.
 slug: september-2020-recap
 date: 2020-10-07T09:26:24.717Z
 author: uku-taht
+image: /uploads/building-plausible-september.png
 image-alt: "Building Plausible: September 2020 recap"
 ---
 Plausible seems to be settling into a more steady rate of growth. I had to double our server capacity in late September to accommodate the new trial signups and customers. Here are the stats from last month:
