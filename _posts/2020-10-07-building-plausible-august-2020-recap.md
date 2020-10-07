@@ -12,10 +12,10 @@ image-alt: "Building Plausible: September 2020 recap"
 ---
 Plausible seems to be settling into a more steady rate of growth. I had to double our server capacity in late September to accommodate the new trial signups and customers. Here are the stats from last month:
 
-* 📈 *Full UTM tag support*
-* 🚀 *Tagged v1.0 of self-hosted Plausible*
-* 💵 *MRR: $5326 (+30%) and more than 800 paying subscribers*
-* 👩 *27.6k* visitors (-22%): Most of the visitors came from Google and Indie Hackers.  [See our full stats for September](https://plausible.io/plausible.io?period=month&date=2020-09-01)
+* 📈 **Full UTM tag support**
+* 🚀 **Tagged v1.0 of self-hosted Plausible**
+* 💵 **MRR: $5326 (+30%) and more than 800 paying subscribers**
+* 👩 **27.6k** visitors (-22%): Most of the visitors came from Google and Indie Hackers.  [See our full stats for September](https://plausible.io/plausible.io?period=month&date=2020-09-01)
 
 On September 10th we paid out the first proper salaries for myself and Marko. Even though our salaries don’t match what we could command on the job market, it makes me incredibly happy to see a green entry on my bank account, paid from our open source project. Pretty wild.
 
