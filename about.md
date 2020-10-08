@@ -15,17 +15,17 @@ We are completely independent, self-funded and bootstrapped. The legal entity is
 
 ## Independent, self-funded and sustainable by the subscription fees our users pay us
 
-Our goal is to grow a [sustainable open-source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists.
+Plausible Analytics development started in December 2018 and we launched our product in April 2019. While Plausible is an open source software that you can self-host on your server for free, we also sell a hosted, plug and play solution as a SaaS. Our goal is to grow a [sustainable open-source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. 
 
-This is why Plausible Analytics Cloud is not free as in beer. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. We choose the subscription business model rather than the business model of surveillance capitalism.
+We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. We don’t make money by selling or sharing your data, or abusing your visitor’s privacy. When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
 
-When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. Since we don't make money from advertising, we need to charge a fee to keep the project development going, to stay in business, to continue putting effort into improving the project and to cover our costs.
+Since we don't make money from advertising, we need to charge a fee to keep the project going. This is why Plausible Analytics Cloud is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
 
 ## Open startup
 
 Everything we do is transparent and in the open. We share [our website traffic stats](https://plausible.io/plausible.io) with the public, we share our revenue numbers with the public, we share [our development work](https://github.com/plausible/analytics/issues) with the public and [our roadmap too](https://plausible.io/roadmap).
 
-**Our current MRR is $5,350 with 858 paying subscribers** (last updated on October 1st, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
+**Our current MRR is $5,586 with 904 paying subscribers** (last updated on October 1st, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
 
 Plausible Analytics is installed on 5,185 websites and we've counted 60 million pageviews in the month of September 2020. That's 60 million pageviews fewer going to the surveillance capitalism!
 
