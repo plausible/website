@@ -15,11 +15,15 @@ We are completely independent, self-funded and bootstrapped. The legal entity is
 
 ## Independent, self-funded and sustainable by the subscription fees our users pay us
 
-Plausible Analytics development started in December 2018 and we launched our product in April 2019. While Plausible is an open source software that you can self-host on your server for free, we also sell a hosted, plug and play solution as a SaaS. Our goal is to grow a [sustainable open-source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. 
+Plausible Analytics development started in December 2018 and we launched our product in April 2019. While Plausible is an open source software that you can self-host on your server, we also sell a hosted, plug and play solution as a SaaS.
 
-We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. We don’t make money by selling or sharing your data, or abusing your visitor’s privacy. When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
+Our goal is to grow a [sustainable open-source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
 
-Since we don't make money from advertising, we need to charge a fee to keep the project going. This is why Plausible Analytics Cloud is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
+We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. 
+
+We don’t make money by selling or sharing your data, or abusing your visitor’s privacy. When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
+
+Since we don't make money from advertising, we need to charge a fee to keep the project going. This is why Plausible Analytics Cloud is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism. 
 
 ## Open startup
 
