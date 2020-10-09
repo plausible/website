@@ -39,11 +39,11 @@ Paying customers are billed automatically via credit card or PayPal depending on
     
 The number of pageviews purchased in the paid plan must be used during the applicable term and any unused pageviews at the end of the term are forfeited. For a paid plan purchased for a yearly term, the pageviews can be used anytime during the year and the number of available pageviews is twelve times the number of pageviews in a month for the selected plan.
 
-You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly. In the event the usage of pageviews exceeds the service plan you selected during a term for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have two weeks to make a decision. You can decide to continue with a higher plan or to cancel your account at that point.
+You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly. In the event the usage of pageviews exceeds the paid plan you selected for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have two weeks to make a decision. You can decide to continue with a higher plan or to cancel your account at that point.
 
-You can [upgrade or downgrade in plan level](https://docs.plausible.io/change-plan) at any time within your account settings. Downgrading your service may cause the loss of features or capacity of your account. Plausible Analytics does not accept any liability for such loss.
+You can [upgrade or downgrade in plan level](https://docs.plausible.io/change-plan) at any time within your account settings. Downgrading your plan may cause the loss of features or capacity of your account. Plausible Analytics does not accept any liability for such loss.
 
-Our online order process is conducted by our payment processor Paddle. Paddle provides customer service inquiries and handles returns. All fees are inclusive of all taxes, levies, or duties imposed by taxing authorities. Our payment processor Paddle will collect those taxes on behalf of taxing authority and remit those taxes to taxing authorities. See [Paddle's Terms of Use](https://paddle.com/legal/) for details.
+Our payment process is conducted by our payment processor Paddle. Paddle provides customer service inquiries and handles returns. All fees are inclusive of all taxes, levies, or duties imposed by taxing authorities. Paddle will collect those taxes on behalf of taxing authority and remit those taxes to taxing authorities. See [Paddle's Terms of Use](https://paddle.com/legal/) for details.
 
 Fees paid hereunder are non-refundable.
 
