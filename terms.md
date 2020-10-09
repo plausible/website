@@ -7,7 +7,7 @@ permalink: "/terms"
 
 Thank you for using Plausible Analytics!
 
-When we say ”company”, “we”, “our”, “us” or ”service” in this document, we are referring to Plausible Analytics.
+When we say ”company”, “we”, “our”, “us”, ”service” or ”services” in this document, we are referring to Plausible Analytics.
 
 We may update these Terms of Service in the future. Whenever we make a significant change to our policies, we will also announce them [on our blog](https://plausible.io/blog).
 
