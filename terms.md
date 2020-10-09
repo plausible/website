@@ -55,7 +55,7 @@ If you cancel the service before the end of your current paid up period, your ca
 
 You can choose to [delete your account](https://docs.plausible.io/delete-account) and all your site stats at any time. All your stats will be permanently deleted immediately when you delete your Plausible Analytics account. 
 
-We may, but have no obligation to, remove content and accounts that we determine in our sole discretion are unlawful or violates any party’s intellectual property or these Terms of Service. We reserve the right to suspend or terminate your account and refuse any and all current or future use of the service for any reason at any time. Such termination of the service will result in the deactivation or deletion of your account or your access to your account and site stats. Plausible Analytics reserves the right to refuse service to anyone for any reason at any time. We have this clause because statistically speaking, out of the thousands of sites on our service, there may be at least one doing something nefarious.
+We reserve the right to suspend or terminate your account and refuse any and all current or future use of the service for any reason at any time. Such termination of the service will result in the deactivation or deletion of your account or your access to your account and site stats. Plausible Analytics reserves the right to refuse service to anyone for any reason at any time. We have this clause because statistically speaking, out of the thousands of sites on our service, there may be at least one doing something nefarious.
 
 Verbal, physical, written or other abuse (including threats of abuse or retribution) of any service customer, company employee or officer may result in immediate account termination.
 
