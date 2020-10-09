@@ -55,7 +55,9 @@ If you cancel the service before the end of your current paid up period, your ca
 
 You can choose to [delete your account](https://docs.plausible.io/delete-account) and all your site stats at any time. All your stats will be permanently deleted immediately when you delete your Plausible Analytics account. 
 
-We reserve the right to suspend or terminate your account and refuse any and all current or future use of the service for any reason at any time. Such termination of the service will result in the deactivation or deletion of your account or your access to your account and site stats. Plausible Analytics reserves the right to refuse service to anyone for any reason at any time. We have this clause because statistically speaking, out of the thousands of sites on our service, there is at least one doing something nefarious. There are some things we staunchly stand against and this clause is how we exercise that stance. 
+We may, but have no obligation to, remove content and accounts that we determine in our sole discretion are unlawful or violates any party’s intellectual property or these Terms of Service. We reserve the right to suspend or terminate your account and refuse any and all current or future use of the service for any reason at any time. Such termination of the service will result in the deactivation or deletion of your account or your access to your account and site stats. Plausible Analytics reserves the right to refuse service to anyone for any reason at any time. We have this clause because statistically speaking, out of the thousands of sites on our service, there may be at least one doing something nefarious.
+
+Verbal, physical, written or other abuse (including threats of abuse or retribution) of any service customer, company employee or officer may result in immediate account termination.
 
 ## Modifications to the service and prices
 
@@ -73,7 +75,7 @@ We claim no intellectual property rights over the material you provide to the se
 
 You may provide us with feedback, suggestions, and ideas about the service. You agree that we own all rights to use and incorporate the feedback you provide in any way, including in future enhancements and modifications to the service, without payment or attribution to you.
 
-The look and feel of the service is copyright© to Plausible Analytics. All rights reserved. “Plausible Analytics”, the Plausible Analytics logo and any other product or service name or slogan displayed on the service are trademarks of the company and may not be copied, imitated or used, in whole or in part, without the prior written permission of the company or the applicable trademark holder.
+You must not modify another website so as to falsely imply that it is associated with Plausible Analytics. The look and feel of the service is copyright© to Plausible Analytics. All rights reserved. “Plausible Analytics”, the Plausible Analytics logo and any other product or service name or slogan displayed on the service are trademarks of the company and may not be copied, imitated or used, in whole or in part, without the prior written permission of the company or the applicable trademark holder. You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the service, use of the service, or access to the service without the express written permission by the company.
 
 ## Privacy and security of your data
 
@@ -97,19 +99,9 @@ We also test all of our features extensively before shipping them. As with any s
 
 Technical support is provided by email. Email responses are provided on the reasonable effort basis without guaranteed response time.
 
-We as humans can access your data to help you with support requests you make and to maintain and safeguard Plausible Analytics to ensure the security of your data and the Service as a whole.
+We as humans can access your data to help you with support requests you make and to maintain and safeguard Plausible Analytics to ensure the security of your data and the service as a whole.
 
 We use third party vendors to provide the necessary hardware, storage, payment processing and related technology required to run the Services. You can see a list of [all subprocessors here](https://plausible.io/privacy).
-
-## You must not modify, adapt or hack the service.
-
-You must not modify another website so as to falsely imply that it is associated with Plausible Analytics.
-
-You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the service, use of the service, or access to the service without the express written permission by the company.
- 
-We may, but have no obligation to, remove content and accounts that we determine in our sole discretion are unlawful or violates any party’s intellectual property or these Terms of Service.
-
-Verbal, physical, written or other abuse (including threats of abuse or retribution) of any service customer, company employee or officer may result in immediate account termination.
 
 ## Liability
 
