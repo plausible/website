@@ -15,7 +15,7 @@ We may update these Terms of Service in the future. Whenever we make a significa
 
 When you use our service, now or in the future, you are agreeing to the latest Terms of Service. That's true for any of our existing and future products and all features that we add to our service over time. There may be times where we do not exercise or enforce any right or provision of the Terms of Service; in doing so, we are not waiving that right or provision. These terms do contain a limitation of our liability.
 
-If you do not agree to these Terms of Service, do not use this service. Violation of any of the terms below may result in the termination of your account. That's a broad statement and it means you need to place a lot of trust in us. We do our best to deserve that trust by being open about who we are, how we work, and keeping an open door to [your feedback](https://plausible.io/contact).
+If you do not agree to these Terms of Service, do not use this service. Violation of any of the terms below may result in the termination of your account. That's a broad statement and it means you need to place a lot of trust in us. We do our best to deserve that trust by being open about [who we are, how we work](https://plausible.io/about), and keeping an open door to [your feedback](https://plausible.io/contact).
 
 ## Account terms
 
@@ -85,7 +85,7 @@ When you use the service to measure web properties, Plausible Analytics will col
 
 Each party agrees to handle the other party’s data in accordance with (i) all applicable laws; and (ii) privacy and security measures reasonably adequate to preserve the other party data’s confidentiality and security.
 
-You own all right, title, and interest to your website data. We obtain no rights from you to your website data.
+You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We do not sell or share any of your site data to any third-parties. 
 
 You agree to comply with all applicable laws including all privacy and data protection regulations.
 
