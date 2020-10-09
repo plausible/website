@@ -7,15 +7,13 @@ permalink: "/terms"
 
 Thank you for using Plausible Analytics!
 
-When we say ”company”, “we”, “our”, “us”, ”service” or ”services” in this document, we are referring to Plausible Analytics.
+When we say ”company”, “we”, “our”, “us”, ”service” or ”services” in this document, we are referring to Plausible Analytics. Note: The following Terms of Service apply to Plausible Analytics Cloud only and not to Plausible Analytics Self-Hosted which would be hosted on your own servers and therefore the Terms of Service isn't needed.
 
 We may update these Terms of Service in the future. Whenever we make a significant change to our policies, we will also announce them [on our blog](https://plausible.io/blog).
 
 When you use our service, now or in the future, you are agreeing to the latest Terms of Service. That's true for any of our existing and future products and all features that we add to our service over time. There may be times where we do not exercise or enforce any right or provision of the Terms of Service; in doing so, we are not waiving that right or provision. These terms do contain a limitation of our liability.
 
 If you do not agree to these Terms of Service, do not use this service. Violation of any of the terms below may result in the termination of your account. That's a broad statement and it means you need to place a lot of trust in us. We do our best to deserve that trust by being open about who we are, how we work, and keeping an open door to [your feedback](https://plausible.io/contact).
-
-Note: The following Terms of Service apply to Plausible Analytics Cloud only and not to Plausible Analytics Self-Hosted which would be hosted on your own servers and therefore the Terms of Service isn't needed.
 
 ## Account terms
 
