@@ -79,9 +79,7 @@ You must not modify another website so as to falsely imply that it is associated
 
 ## Privacy and security of your data
 
-We take many measures to protect and secure your data through backups, redundancies, and encryption. When you use our service, you entrust us with your site data. We take that trust to heart. You agree that Plausible Analytics may process your data as described in our [Privacy Policy](https://plausible.io/privacy) and for no other purpose. 
-
-When you use the service to measure web properties, Plausible Analytics will collect information about your visitors. Take a look at [our data policy](https://plausible.io/data-policy) for full details on data we collect about your visitors on your behalf.
+We take many measures to protect and secure your data through backups, redundancies, and encryption. When you use our service to measure your website stats, Plausible Analytics will collect information about your visitors. You entrust us with your site data and we take that trust to heart. You agree that Plausible Analytics may process your data as described in our [data policy](https://plausible.io/data-policy) and for no other purpose. Our data policy includes full details on data we collect about your visitors on your behalf.
 
 Each party agrees to handle the other party’s data in accordance with (i) all applicable laws; and (ii) privacy and security measures reasonably adequate to preserve the other party data’s confidentiality and security.
 
