@@ -37,7 +37,7 @@ If you are upgrading from a free trial to a paid plan, we will charge you immedi
 
 Paying customers are billed automatically via credit card or PayPal depending on their preference.
     
-The number of pageviews purchased in the paid plan must be used during the month and any unused pageviews at the end of the month are forfeited. 
+The number of pageviews purchased in the paid plan must be used during the applicable term and any unused pageviews at the end of the term are forfeited.
 
 You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly. In the event the usage of pageviews exceeds the paid plan you selected for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have two weeks to make a decision. You can decide to continue with a higher plan or to cancel your account at that point.
 
