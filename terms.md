@@ -73,9 +73,7 @@ We claim no intellectual property rights over the material you provide to the se
 
 You may provide us with feedback, suggestions, and ideas about the service. You agree that we own all rights to use and incorporate the feedback you provide in any way, including in future enhancements and modifications to the service, without payment or attribution to you.
 
-The look and feel of the service is copyright© to Plausible Analytics. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from Plausible Analytics.
-
-“Plausible Analytics”, the Plausible Analytics logo and any other product or service name or slogan displayed on the service are trademarks of the company and may not be copied, imitated or used, in whole or in part, without the prior written permission of the company or the applicable trademark holder.
+The look and feel of the service is copyright© to Plausible Analytics. All rights reserved. “Plausible Analytics”, the Plausible Analytics logo and any other product or service name or slogan displayed on the service are trademarks of the company and may not be copied, imitated or used, in whole or in part, without the prior written permission of the company or the applicable trademark holder.
 
 ## Privacy and security of your data
 
