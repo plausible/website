@@ -17,7 +17,7 @@ If you do not agree to these Terms of Service, do not use this service. Violatio
 
 Note: The following Terms of Service apply to Plausible Analytics Cloud only and not to Plausible Analytics Self-Hosted which would be hosted on your own servers and therefore the Terms of Service isn't needed.
 
-## Account Terms
+## Account terms
 
 You are responsible for maintaining the security of your account and password. Plausible Analytics cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
 
@@ -29,7 +29,7 @@ You must provide your legal full name and a valid email address in order to comp
 
 You must be a human. Accounts registered by bots or other automated methods are not permitted.
 
-## Payment, Refunds, Upgrading and Downgrading Terms
+## Payment, refunds, upgrading and downgrading terms
 
 For our free trial, we explain the length of trial when you sign up. We do not ask you for your credit card and — just like for customers who pay for our services — we do not sell your data. After the trial period, you need to pay in advance to keep using the service. If you do not pay, we will freeze your account and it will be inaccessible until you make payment. If your account has been frozen for 60 days, we will queue it up for auto-cancellation.
 
@@ -43,11 +43,11 @@ You will never be charged extra for an occasional traffic spike. There are no su
 
 You can [upgrade or downgrade in plan level](https://docs.plausible.io/change-plan) at any time within your account settings. Downgrading your service may cause the loss of features or capacity of your account. Plausible Analytics does not accept any liability for such loss.
 
-Our online order process is conducted by our payment processor Paddle.com. Paddle provides customer service inquiries and handles returns. All fees are inclusive of all taxes, levies, or duties imposed by taxing authorities. Our payment processor Paddle will collect those taxes on behalf of taxing authority and remit those taxes to taxing authorities.
+Our online order process is conducted by our payment processor Paddle. Paddle provides customer service inquiries and handles returns. All fees are inclusive of all taxes, levies, or duties imposed by taxing authorities. Our payment processor Paddle will collect those taxes on behalf of taxing authority and remit those taxes to taxing authorities. See [Paddle's Terms of Use](https://paddle.com/legal/) for details.
 
 Fees paid hereunder are non-refundable.
 
-## Cancellation and Termination
+## Cancellation and termination
 
 You are solely responsible for properly canceling your account. An email to cancel your account is not considered cancellation. You can find instructions for [how to cancel your account here](https://docs.plausible.io/cancel-subscription). We provide a simple no-questions-asked cancellation link.
 
@@ -57,23 +57,23 @@ You can choose to [delete your account](https://docs.plausible.io/delete-account
 
 We reserve the right to suspend or terminate your account and refuse any and all current or future use of the service for any reason at any time. Such termination of the service will result in the deactivation or deletion of your account or your access to your account and site stats. Plausible Analytics reserves the right to refuse service to anyone for any reason at any time. We have this clause because statistically speaking, out of the thousands of sites on our service, there is at least one doing something nefarious. There are some things we staunchly stand against and this clause is how we exercise that stance. 
 
-## Modifications to the Service and Prices
+## Modifications to the service and prices
 
 We reserve the right at any time and from time to time to modify or discontinue, temporarily or permanently, any part of the service with or without notice.
 
-Sometimes we change the pricing structure for our products. When we do that, we tend to exempt existing customers from those changes. However, we may choose to change the prices for existing customers. If we do so, we will give at least 30 days notice and will notify you via the email address on record. We may also post a notice about changes on our blog or the affected Services themselves.
+Sometimes we change the pricing structure for our products. When we do that, we tend to exempt existing customers from those changes. However, we may choose to change the prices for existing customers. If we do so, we will give at least 30 days notice and will notify you via the email address on record. We may also post a notice about changes on our blog or the affected services themselves.
 
 Plausible Analytics shall not be liable to you or to any third-party for any modification, price change, suspension or discontinuance of the service.
 
-## Content Ownership, Copyright and Trademark
+## Content ownership, copyright and trademark
 
 You are solely responsible for any content and other material that you submit, publish, transmit, email, or display on, through, or with the service.
 
-We claim no intellectual property rights over the material you provide to the service. All site data uploaded remains yours.
+We claim no intellectual property rights over the material you provide to the service. All site data remains yours.
 
 You may provide us with feedback, suggestions, and ideas about the service. You agree that we own all rights to use and incorporate the feedback you provide in any way, including in future enhancements and modifications to the service, without payment or attribution to you.
 
-The look and feel of the service is copyright© to Plausible Analytics. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from the Company.
+The look and feel of the service is copyright© to Plausible Analytics. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from Plausible Analytics.
 
 “Plausible Analytics”, the Plausible Analytics logo and any other product or service name or slogan displayed on the service are trademarks of the company and may not be copied, imitated or used, in whole or in part, without the prior written permission of the company or the applicable trademark holder.
 
@@ -89,7 +89,7 @@ You own all right, title, and interest to your website data. We obtain no rights
 
 You agree to comply with all applicable laws including all privacy and data protection regulations.
 
-## General Conditions
+## General conditions
 
 Your use of Plausible Analytics is at your sole risk. The service is provided on an “as is” and “as available” basis. We do take uptime of our application seriously. Visit [our status page](https://plausible.io/status) to see the status of our service.
 
@@ -103,7 +103,7 @@ We as humans can access your data to help you with support requests you make and
 
 We use third party vendors to provide the necessary hardware, storage, payment processing and related technology required to run the Services. You can see a list of [all subprocessors here](https://plausible.io/privacy).
 
-## You must not modify, adapt or hack the Service.
+## You must not modify, adapt or hack the service.
 
 You must not modify another website so as to falsely imply that it is associated with Plausible Analytics.
 
@@ -123,7 +123,7 @@ In other words: choosing to use our services does mean you are making a bet on u
 
 This agreement shall be governed by the laws of Estonia, and the courts of Estonia shall have exclusive jurisdiction to hear and determine all issues that may arise under or in relation to this agreement.
 
-## Contact Us
+## Contact us
 
 If you have a question about any of the Terms of Service, please [contact us](https://plausible.io/contact).
 
