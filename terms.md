@@ -83,7 +83,7 @@ We take many measures to protect and secure your data through backups, redundanc
 
 Each party agrees to handle the other party’s data in accordance with (i) all applicable laws; and (ii) privacy and security measures reasonably adequate to preserve the other party data’s confidentiality and security.
 
-You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We do not sell or share any of your site data to any third-parties. 
+You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We do not collect and analyze huge amounts of personal information from web users and use these behavioral insights to sell advertisements. We don’t sell or share your data, or abuse your visitor’s privacy. When using Plausible Analytics, you 100% own and control all of your website data. Your data and your site data is not being shared with or sold to any third-parties.
 
 You agree to comply with all applicable laws including all privacy and data protection regulations.
 
