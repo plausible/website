@@ -139,9 +139,3 @@ Free Software Foundation and the GNU project [state](https://www.gnu.org/license
 > "If it is likely that others will make improved versions of your program to run on servers and not distribute their versions to anyone else, and you're concerned that this will put your released version at a disadvantage, we recommend the GNU Affero General Public License (AGPL). The AGPL's terms are almost identical to the GPL's; the sole substantive difference is that it has an extra condition to ensure that people who use the software over a network will be able to get the source code for it."
 
 This seems the exact license for the Plausible Analytics use case. And Google is opposed to it. So we take AGPL for the win!
-
-
-
-
-
-
