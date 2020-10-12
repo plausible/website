@@ -16,6 +16,9 @@ So we're making a change to our license. This change doesn't affect anyone subsc
 
 The change will affect corporations that want to take our code and use it to create and sell proprietary tools that directly compete with us. Let's look at the details.
 
+1. Ordered list
+{:toc}
+
 ## Risks associated with permissive open source licenses
 
 It's the first time the two of us are involved in building and growing an open source project. And there are some things we didn't consider when we chose the license. 
