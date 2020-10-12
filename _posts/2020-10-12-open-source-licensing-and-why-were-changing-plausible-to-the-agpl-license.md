@@ -43,7 +43,7 @@ This is the best way to future-proof the project against bad actors, including o
 
 We're trying to [make open source sustainable](https://plausible.io/blog/open-source-funding) by having people find value and pay for open source software without needing donations from the big tech.
 
-It's tough to become sustainable providing open source software competing with a free product from Google, and it makes it even tougher when providing our software with zero strings attached to the corporations that want to compete with us by selling our own software.
+It's tough to become sustainable selling open source software and competing with [a free product made by Google](https://plausible.io/blog/remove-google-analytics). It makes it even tougher when providing our analytics tool with zero strings attached to the corporations that want to compete with us by selling work based on our own software.
 
 So we want a "don't be evil" license and here's what we are trying to accomplish with it:
 
@@ -93,7 +93,7 @@ The benefit of this is that anyone can use your software for any purpose whatsoe
 
 One famous case is Apple taking BSD (which was licensed with a permissive license) and creating OSX based on it. They were not able to do that with Linux as Linux was not licensed with an MIT-like license. 
 
-This is great if you only care about the spread of your code, but not so great if you'd like to encourage more companies to contribute back to the world of open source. But there's a license for that too.
+MIT license is great if you only care about the spread of your code, and not so great if you'd like to encourage more companies to contribute back to the world of open source. But there's a license for that too.
 
 ## What is the GNU GPLv3 license?
 
@@ -103,7 +103,7 @@ This is great if you only care about the spread of your code, but not so great i
 
 ### What are the restrictions with GPL?
 
-GPL license helps minimize the possibility that corporations can take advantage and profit from open source software without contributing back to the project and the open source. It basically says that as we open sourced our code so should you too so everyone can benefit from it.
+GPL license helps minimize the possibility that corporations can take advantage and profit from open source software without contributing back to the project and the open source. It basically says that as we open sourced our code so should you too and everyone can benefit from it.
 
 ### What's the issue with the GPL license? 
 
@@ -113,7 +113,7 @@ They're not actually "distributing" the software because users never have the so
 
 And this is against the spirit of free and open source software. So there's a license that considers cloud computing too.
 
-### What is GNU AGPLv3?
+## What is the GNU AGPLv3 license?
 
 > Copyleft license: "If you make a derivative work of this, and distribute it or run it as a service on a server to others then you have to provide the source code under this license"
 
@@ -121,7 +121,7 @@ In the early 2000s, Stallman and others tried to close this cloud computing loop
 
 ### What are the benefits of the AGPLv3?
 
-The AGLP license is identical to the original GPL license with the only additional term being to allow users who interact with the licensed software over a network to receive the source for that program. 
+The AGPL license is identical to the original GPL license with the only additional term being to allow users who interact with the licensed software over a network to receive the source for that program. 
 
 AGPL is designed to ensure corporations contribute back to the open source community even when running the software as a service in the cloud.
 
@@ -141,9 +141,9 @@ Here's that extra paragraph:
 
 So how can a corporation commercialize a FOSS project without open sourcing their modified code? They can purchase a commercial license to remove the copyleft restrictions and in that way support the original project.
 
-### Free Software Foundation recommends the AGPLv3 license for projects in the cloud
+### FSF recommends the AGPLv3 license for projects in the cloud
 
-Free Software Foundation and the GNU project [state](https://www.gnu.org/licenses/licenses.html): 
+Free Software Foundation (FSF) and the GNU project [state](https://www.gnu.org/licenses/licenses.html): 
 
 > "We recommend that people consider using the GNU AGPL for any software which will commonly be run over a network". 
 
