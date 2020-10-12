@@ -30,6 +30,12 @@ These corporations use Google Analytics to track their users, have Facebook pixe
 
 Their motives don't seem to be to make the web more privacy-friendly and reduce the dominance of Google. It seems purely a business opportunity to make money from open source.	
 
+### The power of forking
+
+Although we don’t want closed source corporations to directly compete with us using our own work, it’s important to leave the space open for forking of the project and incorporating it into other open source works.
+
+This is the best way to future-proof the project against bad actors, including ourselves if we become evil at some point. By allowing open source forks and competitors to exist, we are opening ourselves up to healthy competition and accountability from the open source community.
+
 ## Choosing an open source license for the cloud
 
 We're trying to [make open source sustainable](https://plausible.io/blog/open-source-funding) by having people find value and pay for open source software without needing donations from the big tech.
