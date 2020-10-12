@@ -21,9 +21,11 @@ This seems like a really obvious restriction if you're trying to build a sustain
 
 I chose to follow the example of Ghost here. Plausible is open-sourced under the most permissible MIT license, which basically states that you can do whatever you want with the code. I'm not really worried about the possibility of someone stealing business from me by just getting the code and selling it.
 
-**Update**: [Plausible Analytics Self-Hosted solution](https://plausible.io/blog/self-hosted-web-analytics-beta) is now available.
+**Update**: Plausible is now open-source under the GNU Affero General Public License Version 3 (AGPLv3). You can [read more here](https://plausible.io/blog/open-source-licenses).
 
 It’s worth noting that for now, there's no explicit support for self-hosting Plausible. The project is still evolving quickly and maintaining a self-hosted solution would slow product development down considerably. I would love to offer a self-hosted solution in the future once the product and the business are more stable.
+
+**Update**: [Plausible Analytics Self-Hosted solution](https://plausible.io/blog/self-hosted-web-analytics-beta) is now available.
 
 ### What's next?
 
