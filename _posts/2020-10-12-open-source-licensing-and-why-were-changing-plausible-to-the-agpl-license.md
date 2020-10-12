@@ -5,7 +5,7 @@ description: We're changing our license as we've become aware that there are
   risks associated with permissive open source licenses that corporations that
   don't care about open source are happy to take advantage of.
 slug: open-source-licenses
-date: 2020-10-12T12:45:17.338Z
+date: 2020-10-12T14:59:44.197Z
 author: marko-saric
 image: /uploads/plausible-analytics-august-recap.png
 image-alt: Open source licensing
