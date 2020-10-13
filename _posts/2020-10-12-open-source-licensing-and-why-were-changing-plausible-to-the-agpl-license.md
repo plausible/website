@@ -57,7 +57,7 @@ This is the best way to future-proof the project against bad actors, including o
 
 ## Plausible is now AGPLv3 licensed 
 
-So how do we accomplish all that? We do it by changing our license. Plausible Analytics has now changed the license from the MIT to a newer licensing scheme called GNU General Public License V3 (AGPLv3). Plausible version can be [found here](https://github.com/plausible/analytics/blob/master/LICENSE.md).
+So how do we accomplish all that? We do it by changing our license. Plausible Analytics has now changed the license from the MIT to a newer licensing scheme called GNU Affero General Public License V3 (AGPLv3). Plausible version can be [found here](https://github.com/plausible/analytics/blob/master/LICENSE.md).
 
 This change makes no difference to any of you who subscribe to Plausible Cloud or who self-host Plausible, but it may upset a few corporations who tried to use our software to directly compete with us without contributing back. 
 
