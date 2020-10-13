@@ -70,7 +70,7 @@ See our [data policy](https://plausible.io/data-policy) for the full list of dat
 
 ## How do you prevent Plausible Analytics from going from "Don't be evil" to "Be evil"?
 
-Plausible Analytics is a fully libre and open source startup. Our code is [free and open source](https://github.com/plausible/analytics/) under the most permissive Massachusetts Institute of Technology (MIT) license. This means that there are no restrictions on redistributing, modifying or using Plausible Analytics for any reason. You can take it and use it any way that you wish.
+Plausible Analytics is a fully libre and open source startup. Our code is [free and open source](https://github.com/plausible/analytics/) under the GNU Affero General Public License Version 3 (AGPLv3) or any later version.
 
 Good intentions are not always enough and being open source is the best way to prevent us from going from "Don't be evil" to "Be evil". Our code is not proprietary and our users are not locked down so we have to be the best business running this codebase. The threat of forking is a real threat and if we make some evil choices or sell out to some evil corp, you can take the code and have your own Plausible Analytics. This keeps us honest.
 
