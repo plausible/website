@@ -87,7 +87,7 @@ You own all right, title, and interest to your website data. We obtain no rights
 
 You agree to comply with all applicable laws including all privacy and data protection regulations.
 
-You agree to not use the service to send to the company sensitive information where unauthorized disclosure could cause material, severe, or catastrophic harm or impact to the company, any data subjects or third-parties. Sensitive information includes, but is not limited to credit card information, passport numbers, government issued identification numbers, financial account information, real time geolocation and personally identifiable information (PII). PII is information that could be used on its own to directly identify, contact, or precisely locate an individual.
+You agree not to use the service to send sensitive information to the company where unauthorized disclosure could cause material, severe, or catastrophic harm or impact to the company, any data subjects or third-parties. Sensitive information includes, but is not limited to credit card information, passport numbers, government issued identification numbers, financial account information, real time geolocation and personally identifiable information (PII). PII is information that could be used on its own to directly identify, contact, or precisely locate an individual.
 
 ## General conditions
 
