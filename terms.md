@@ -13,7 +13,7 @@ When we say ”company”, “we”, “our”, “us”, ”service” or ”se
 
 We may update these Terms of Service in the future. Whenever we make a significant change to our policies, we will also announce them [on our blog](https://plausible.io/blog).
 
-When you use our service, now or in the future, you are agreeing to the latest Terms of Service. That's true for any of our existing and future products and all features that we add to our service over time. There may be times where we do not exercise or enforce any right or provision of the Terms of Service; in doing so, we are not waiving that right or provision. These terms do contain a limitation of our liability.
+When you use our service, now or in the future, you are agreeing to the latest Terms of Service. That's true for any of our existing and future products and all features that we add to our service over time. There may be times where we do not exercise or enforce any right or provision of the Terms of Service; in doing so, we are not waiving that right or provision. These terms do contain a limitation of our liability. Our [Data Processing Agreement (DPA)](https://plausible.io/dpa) under the European General Data Protection Regulation (GDPR) forms part of these Terms of Service.
 
 If you do not agree to these Terms of Service, do not use this service. Violation of any of the terms below may result in the termination of your account. That's a broad statement and it means you need to place a lot of trust in us. We do our best to deserve that trust by being open about [who we are, how we work](https://plausible.io/about), and keeping an open door to [your feedback](https://plausible.io/contact).
 
@@ -83,9 +83,11 @@ We take many measures to protect and secure your data through backups, redundanc
 
 Each party agrees to handle the other party’s data in accordance with (i) all applicable laws; and (ii) privacy and security measures reasonably adequate to preserve the other party data’s confidentiality and security.
 
-You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We do not collect and analyze personal information from web users and use these behavioral insights to sell advertisements. When using Plausible Analytics, you 100% own and control all of your website data. We don’t sell or share your site data to any third-parties, and we don't abuse your visitor’s privacy.
+You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We do not collect and analyze personal information from web users and we do not use behavioral insights to sell advertisements. We will never collect or store any personally identifiable information and we will never abuse your visitor’s privacy. When using Plausible Analytics, you 100% own and control all of your website data. We will never sell or share your site data to any third-parties. 
 
 You agree to comply with all applicable laws including all privacy and data protection regulations.
+
+You agree to not use the service to send to the company sensitive information where unauthorized disclosure could cause material, severe, or catastrophic harm or impact to the company, any data subjects or third-parties. Sensitive information includes, but is not limited to credit card information, passport numbers, government issued identification numbers, financial account information, real time geolocation and personally identifiable information (PII). PII is information that could be used on its own to directly identify, contact, or precisely locate an individual.
 
 ## General conditions
 
@@ -115,4 +117,4 @@ This agreement shall be governed by the laws of Estonia, and the courts of Eston
 
 If you have a question about any of the Terms of Service, please [contact us](https://plausible.io/contact).
 
-Last updated: October 9, 2020
+Last updated: October 26, 2020
