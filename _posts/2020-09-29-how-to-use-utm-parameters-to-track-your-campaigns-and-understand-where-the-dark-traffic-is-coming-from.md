@@ -142,17 +142,25 @@ Simply tag all the links in the different guest posts and other syndication acti
 
 ## Best practices for UTM tags and other things to know
 
-### Plausible merges UTM tags that are identical to referral sources
-
-We merge all identical sources in the "All" tab of the "Top Sources" report in your Plausible Analytics dashboard. 
-
-For instance, clicks that you from Twitter which are not tagged by UTMs are labeled with a referral source Twitter. But if you tag some links that you share on Twitter with the `utm_source=Twitter`, clicks on those we will merge alongside other Twitter clicks in the "All" tab. 
-
-This is in order to make it easier for you to keep track and get a nicer overview. When you click on the "Source" tab, we only show those clicks coming from `utm_source=Twitter` itself. 
-
 ### UTM tags are case-sensitive
 
 UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` will show separately in your analytics dashboard. Be consistent in your UTM naming practices such as by keeping all tag names in lower case to make it easier to analyze results.
+
+### Plausible merges UTM tags that are identical to referral sources
+
+We merge all identical sources in the "All" tab of the "Top Sources" report in your Plausible Analytics dashboard.
+
+For instance, clicks that you get from Twitter which are not tagged by UTMs are labeled with a referral source Twitter by Twitter itself. If you tag some links that you share on Twitter with the `utm_source=Twitter`, clicks on those we will merge alongside other Twitter clicks in the "All" tab. 
+
+This is in order to make it easier for you to keep track and get a combined overview of all the clicks from Twitter. When you click on the "Source" tab, we only show those clicks coming from `utm_source=Twitter` itself. 
+
+Here are the referral header names for other popular websites so aim to names your utm_source with identical names:
+
+* Facebook
+* GitHub
+* Twitter
+* LinkedIn
+* Reddit
 
 ### You cannot use spaces in UTM tags
 
