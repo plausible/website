@@ -154,7 +154,7 @@ For instance, clicks that you get from Twitter which are not tagged by UTMs are 
 
 This is in order to make it easier for you to keep track and get a combined overview of all the clicks from Twitter. When you click on the "Source" tab, we only show those clicks coming from `utm_source=Twitter` itself. 
 
-Here are the referral header names for other popular websites so aim to names your utm_source with identical names:
+Here are the referral header names for other popular websites so do aim to name your utm_source with identical names:
 
 * Facebook
 * GitHub
