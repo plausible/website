@@ -61,7 +61,7 @@ With goals and events, you can track the number of goals completed, conversion r
 
 Here are the instructions on [how to get started with goals and events](https://docs.plausible.io/custom-event-goals).
 
-## Add properties to event to create your custom metrics
+## Add properties to an event to create your custom metrics
 
 You can create your custom metrics in Plausible Analytics. You do this by adding properties to your events to collect and analyze data that Plausible Analytics doesn't automatically track. When sending an event, you can attach arbitrary metadata to it. This helps you:
 
