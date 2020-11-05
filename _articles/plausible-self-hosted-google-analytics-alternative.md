@@ -68,7 +68,7 @@ Many open source projects offer a do-it-yourself, self-hosted deployment. Some p
 
 ## What license is Plausible released under?
 
-Plausible is open-source under the GNU Affero General Public License Version 3 (AGPLv3). You can [find it here](https://github.com/plausible/analytics/blob/master/LICENSE.md).
+Plausible is open-source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/plausible/analytics/blob/master/LICENSE.md).
 
 ## How do I self-host Plausible Analytics?
 
