@@ -8,7 +8,7 @@ description: "We experienced big growth in October, breaking our traffic and
 slug: october-2020-recap
 date: 2020-11-05T14:10:53.904Z
 author: uku-taht
-image: /uploads/building-plausible-september.png
+image: /uploads/plausible-october-traffic.png
 image-alt: "Building Plausible: October 2020 recap"
 ---
 We experienced big growth in October, breaking our traffic and signup records once again. These numbers can be attributed to Marko who published three articles that landed on the front page of Hacker News. Here are the stats from last month:
