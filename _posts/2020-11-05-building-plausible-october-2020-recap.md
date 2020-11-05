@@ -13,18 +13,18 @@ image-alt: "Building Plausible: October 2020 recap"
 ---
 We experienced big growth in October, breaking our traffic and signup records once again. These numbers can be attributed to Marko who published three articles that landed on the front page of Hacker News. Here are the stats from last month:
 
-* 📈 *Relicensed Plausible as AGPL*
-* 🚀 *Additional filters in the dashboard*
-* 💵 *MRR: $6226 (+16%) and more than 1000 paying subscribers*
-* 👩 *71.6k* visitors (+148%): Most of the traffic came from Hacker News.  [See our full stats for October](https://plausible.io/plausible.io?period=month&date=2020-10-04)
+* 📈 **Relicensed Plausible as AGPL**
+* 🚀 **Additional filters in the dashboard**
+* 💵 **MRR: $6226 (+16%) and more than 1000 paying subscribers**
+* 👩 **71.6k visitors (+148%)**: Most of the traffic came from Hacker News.  [See our full stats for October](https://plausible.io/plausible.io?period=month&date=2020-10-01)
 
-A lot of my time in October was spent on the v1 release of Plausible Self Hosted. It is my first time managing an open-source project of this magnitude so there’s tons to learn.
+A lot of my time in October was spent on the v1 release of [Plausible Self Hosted](https://plausible.io/self-hosted-web-analytics). It is my first time managing an open-source project of this magnitude so there’s tons to learn.
 
 I also learned a painful lesson about security. The official docker-compose setup I created would expose ports of each container to the public internet. Combine this with the fact that the Postgres database was configured with the default username/password combination (`postgres:postgres`) and what you get is a huge vulnerability.
 
-My own testing instance worked OK for a few days and then the CPU started spiking to 100%. Turns out a malicious actor installed a crypto miner on the server. I’m guessing they just check the whole IPv4 space for anything accepting connections on port 5432 and then they try to connect with the default credentials.
+My own testing instance worked OK for a few days and then the CPU started spiking to 100%. At first I didn't understand why but then I received a warning about port exposure on our [Github issues](https://github.com/plausible/hosting/issues/4).Turns out that malicious actors are [installing crypto miners](https://www.alibabacloud.com/blog/is-your-postgresql-server-secretly-mining-digital-coins_593932) on Postgres servers with exposed ports and weak passwords.
 
-I had to quickly release a patch to make sure the only exposed port in the docker-compose setup is the web server itself. Lesson learned.
+I've worked in software for 6 years but so far my dealings with security issues have been purely theoretical. This was the first time a server under my management was actually compromised by a hacker. I quickly released a patch to eliminate unnecessary port exposure in our official setup. I also need to be more dilligent about security threats going forward.
 
 I wish I had stats about how many people are running self-hosted Plausible. Unfortunately I don’t think it’s possible to get accurate stats for that. Since launching it, we’ve had 36 posts on our forum (mostly support for getting started). The actual number of users is probably an order of magnitude higher than that.
 
@@ -36,7 +36,7 @@ We decided to move from a permissive license (MIT) to a copyleft license (AGPL) 
 
 Copyleft licensing ensures that the code behind Plausible remains open source. It prevents corporations from taking our code and creating proprietary, closed-source products with it. This is why many large corporations steer clear of GPL licenses in general and we see that as a benefit.
 
-Marko wrote a lot more in depth about the license change over on our blog: [Open source licensing and why we’re changing Plausible to the AGPL license | Plausible Analytics](https://plausible.io/blog/open-source-licenses)
+Marko wrote a lot more in depth about the license change over on our blog: https://plausible.io/blog/open-source-licenses
 
 ### Additional filters
 
