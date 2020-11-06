@@ -28,9 +28,9 @@ I also learned a painful lesson about security. The docker-compose setup I recom
 
 My own testing instance worked OK for a few days and then the CPU started spiking to 100%. At first I didn't understand why but then I received a warning about port exposure on our [Github issues](https://github.com/plausible/hosting/issues/4). Turns out that malicious actors are [installing crypto miners](https://www.alibabacloud.com/blog/is-your-postgresql-server-secretly-mining-digital-coins_593932) on Postgres servers with exposed ports and weak passwords.
 
-Luckily the damage was limited to an internal test installation and a few of the first self-hosted users. This issue did not affect the official cloud version. I immediately patched and released a new version of the recommended `docker-compose.yml` file to prevent it from happening for new self-hosters.
+Luckily the damage was limited to an internal test installation and a few of the first self-hosted users. This issue did not affect the official cloud version. I immediately patched and released a new version of the recommended `docker-compose.yml` file to prevent it from happening for future self-hosters.
 
-I wish I had stats about how many people are running self-hosted Plausible. Unfortunately I don’t think it’s possible to get accurate stats for that. Since launching it, we’ve had 36 posts on our forum (mostly support for getting started). The actual number of users is probably an order of magnitude higher than that.
+I wish I had stats about how many people are running self-hosted Plausible today. Unfortunately I don’t think it’s possible to get accurate stats for that. Since launching it, we’ve had 36 posts on our forum (mostly support for getting started). The actual number of users is probably an order of magnitude higher than that.
 
 We also had some chats with other open source maintainers and received a lot of advice. This brought us to the contentious issue of open-source licensing and finding the proper balance between openness and protecting our own interests.
 
