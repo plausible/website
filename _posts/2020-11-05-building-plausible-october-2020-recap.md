@@ -13,7 +13,7 @@ image-alt: "Building Plausible: October 2020 recap"
 ---
 We experienced big growth in October, breaking our traffic and signup records once again. These numbers can be attributed to Marko who published three articles that landed on the front page of Hacker News. Here are the stats from last month:
 
-* 📈 **Relicensed Plausible as AGPL**
+* 📝 **Relicensed Plausible as AGPL**
 * 🚀 **Additional filters in the dashboard**
 * 💵 **MRR: $6226 (+16%) and more than 1000 paying subscribers**
 * 👩 **71.6k visitors (+148%)**: Most of the traffic came from Hacker News.  [See our full stats for October](https://plausible.io/plausible.io?period=month&date=2020-10-01)
