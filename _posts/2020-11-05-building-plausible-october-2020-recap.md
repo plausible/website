@@ -22,15 +22,17 @@ We experienced big growth in October, breaking our traffic and signup records on
 
 A lot of my time in October was spent on the v1 release of [Plausible Self Hosted](https://plausible.io/self-hosted-web-analytics). It is my first time managing an open-source project of this magnitude so there’s tons to learn.
 
-I also learned a painful lesson about security. The official docker-compose setup I created would expose ports of each container to the public internet. Combine this with the fact that the Postgres database was configured with the default username/password combination (`postgres:postgres`) and what you get is a huge vulnerability.
+In preparation for this release I started keeping a [changelog](https://github.com/plausible/analytics/blob/master/CHANGELOG.md) and learned about how release tagging works in Github and DockerHub. I wrote [official docs](https://docs.plausible.io/self-hosting/) for self-hosting and created a [hosting repo](https://github.com/plausible/hosting) with example docker-compose setups.
+
+I also learned a painful lesson about security. The docker-compose setup I recommended for self-hosting Plausible would expose ports of each container to the public internet. Combine this with the fact that the Postgres database was configured with the default username/password combination (`postgres:postgres`) and what you get is a huge vulnerability.
 
 My own testing instance worked OK for a few days and then the CPU started spiking to 100%. At first I didn't understand why but then I received a warning about port exposure on our [Github issues](https://github.com/plausible/hosting/issues/4). Turns out that malicious actors are [installing crypto miners](https://www.alibabacloud.com/blog/is-your-postgresql-server-secretly-mining-digital-coins_593932) on Postgres servers with exposed ports and weak passwords.
 
-I've worked in software for 6 years but so far my dealings with security issues have been purely theoretical. This was the first time a server under my management was actually compromised by a hacker. I quickly released a patch to eliminate unnecessary port exposure in our official setup. I also need to be more diligent about security threats going forward.
+Luckily the damage was limited to an internal test installation and a few of the first self-hosted users. This issue did not affect the official cloud version. I immediately patched and released a new version of the recommended `docker-compose.yml` file to prevent it from happening for new self-hosters.
 
 I wish I had stats about how many people are running self-hosted Plausible. Unfortunately I don’t think it’s possible to get accurate stats for that. Since launching it, we’ve had 36 posts on our forum (mostly support for getting started). The actual number of users is probably an order of magnitude higher than that.
 
-We had some chats with other open source maintainers and received a lot of advice. This brought us to the contentious issue of open-source licensing and finding the proper balance between openness and protecting our own interests.
+We also had some chats with other open source maintainers and received a lot of advice. This brought us to the contentious issue of open-source licensing and finding the proper balance between openness and protecting our own interests.
 
 ### Changing our license
 
