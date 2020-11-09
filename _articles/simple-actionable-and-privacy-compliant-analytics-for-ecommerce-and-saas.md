@@ -70,7 +70,7 @@ You can create your custom metrics in Plausible Analytics. You do this by adding
 * Track the number of file downloads
 * Do A/B testing
 
-And anything else that you wish. The number of properties you can add per event is unlimited. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more here](https://docs.plausible.io/custom-event-goals#using-custom-props).
+And anything else that you wish. The number of properties you can add per event is unlimited. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more about custom properties here](https://docs.plausible.io/custom-event-goals#using-custom-props).
 
 Note that you must ensure that no personally identifiable information (PII) is sent to Plausible Analytics when you collect the metadata. PII is information that could be used on its own to identify, contact, or precisely locate an individual. This includes:
 
