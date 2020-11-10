@@ -24,8 +24,8 @@ We run our own analytics script on this website. The following information is co
 |---|---|---|---|---|
 | **Page URL** | _https://plausible.io/simple-web-analytics_ | We track the page URL of each page view on our website. We use this to understand which pages have been viewed and how many times a particular page has been viewed. |
 | **HTTP Referer** | _https://indiehackes.com_ | We use the referrer string to understand the number of visitors referred to our website from links on other sites. |
-| **Browser** | _Chrome_ | We use this to understand what browsers people use when visiting our website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
-| **Operating system** | _macOS_ | We use this to understand what operating systems people use when visiting our website. We only use the brand of the operating system and don’t include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
+| **Browser** | _Chrome 86.0_ | We use this to understand what browsers and browser version numbers people use when visiting our website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
+| **Operating system** | _macOS 10.15_ | We use this to understand what operating systems people use when visiting our website. We include the brand of the operating system and the version number. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
 | **Device type**  | _Desktop_ | We use this to understand what devices people use when visiting our website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
 | **Visitor Country**  | _United Kingdom_ | We look up the visitor’s country using the IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
 
@@ -46,4 +46,4 @@ If you have placed the Plausible Analytics script on your website, take a look a
 
 [Contact us](https://plausible.io/contact) if you have any questions. If you have an account with Plausible Analytics you can contact us to request all information collected about you or to request removal of all information.
 
-Effective Date: 15th April 2020
+Effective Date: April 15th, 2020
