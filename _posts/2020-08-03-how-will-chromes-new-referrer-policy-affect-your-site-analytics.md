@@ -113,8 +113,8 @@ You can set the new referrer policy with a ``<meta>`` referrer tag which should 
 
 The reduced granularity in the referral sources data and the rise of dark traffic increases the importance of tagging the links that you can control.
 
-To minimize the amount of traffic that falls within the "no referrer" category, you can add special query parameters to your links. 
+To minimize the amount of traffic that falls within the "no referrer" category, you can add special query parameters such as UTM tags to your links. 
 
 When a query parameter such as the ``?utm_source=<value>`` is present in a link, Plausible Analytics and most of the other analytics tools will show it as the referral source. Same works with the ``ref`` and ``source`` query parameters.
 
-Read our guide on [tagging your links here](https://docs.plausible.io/manual-link-tagging).
+Read our guide on [how to use UTM parameters to track your marketing campaigns](https://plausible.io/blog/utm-tracking-tags).
