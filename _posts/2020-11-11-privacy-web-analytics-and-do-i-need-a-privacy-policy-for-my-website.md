@@ -6,6 +6,8 @@ description: Do I need a privacy policy on my website with regards to my use of
 slug: /privacy-policy-website
 date: 2020-11-11T09:45:47.784Z
 author: marko-saric
+image: /uploads/plausible-october-traffic.png
+image-alt: Do I need a privacy policy on my website
 ---
 TL;DR: A privacy policy is recommended for all sites if you want to be transparent and open to your visitors. If you're not collecting or processing any personal data and not using cookies directly or through third-party connections, you may not legally need a privacy policy. For all other use cases, a privacy policy is legally required.
 
