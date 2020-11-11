@@ -10,7 +10,7 @@ author: marko-saric
 image: /uploads/plausible-october-traffic.png
 image-alt: Do I need a privacy policy for my website?
 ---
-TL;DR: A privacy policy is recommended for all sites if you want to be transparent and open to your visitors. If you're not collecting or processing any personal data and not using cookies directly or through third-party connections, you may not legally need a privacy policy. For all other use cases, a privacy policy is legally required.
+TL;DR: A privacy policy is recommended for all sites if you want to be transparent and open to your visitors. If you're not collecting or processing any personal data and not using cookies, you may not legally need a privacy policy. For all other use cases, a privacy policy is legally required.
 
 1. Ordered list
 {:toc}
@@ -21,23 +21,23 @@ A privacy policy is a legal document that informs your website visitors and expl
 
 Having a privacy policy in place when you collect or store personal information is required by many laws around the world, including the US and the EU.
 
-Many third-party services commonly used on websites (analytics providers, advertising companies, payment processors and so on) also require a privacy policy to be made available according to their terms of use.
+In addition to this, many third-party services commonly used on websites (analytics providers, advertising companies, payment processors and so on) also require a privacy policy to be made available according to their terms of use.
 
 ## Do I need a privacy policy on my website?
 
 *Disclaimer: We're not lawyers. The information in this post is here to help give you an introduction to privacy policies. It may not cover all the laws you are subject to. We encourage you to discuss specific issues with your lawyer if you have any concerns, want to determine whether this applies to you and what actions you need to take.*
 
-The chances are that you most probably do need a privacy policy for your website. If your website collects any personal data directly or indirectly using third-party services, you legally need a privacy policy. 
+The chances are that you most probably do need a privacy policy for your website. If your website collects any personal data directly or indirectly using third-party services, you legally need a privacy policy.
 
-Most websites do collect some type of personal data. Sometimes you, as a site owner, may not even be aware that some third-party service you make a call to collects personal data or [places cookies](https://plausible.io/blog/google-analytics-cookies) on the devices of your visitors.
+Most websites do collect some type of personal data. Sometimes you, as a site owner, may not even be aware that a third-party service you make a call to collects personal data or [places cookies](https://plausible.io/blog/google-analytics-cookies) on the devices of your visitors.
 
-This is why it is recommended to add a privacy policy to your website. Even though you may be very careful about what third-party services you use on your site and what personal data you collect, it is still recommended to include a privacy policy. 
+This is why it is recommended to add a privacy policy to your website. Even though you may be very careful about what third-party services you use on your site and that you do not collect any personal data, it is still recommended to include a privacy policy. 
 
 If for no other purpose than to explain to your audience the steps you've taken to not intrude on their privacy. This tells your visitors that you are open, transparent and take their privacy and personal data seriously. 
 
 ### Google Analytics requires you to have a privacy policy 
 
-Google Analytics itself specifies the requirement for a privacy policy in its terms of service. If you don't have a privacy policy on your site, you're using Google Analytics illegally and you've breached [your contract with Google](https://marketingplatform.google.com/about/analytics/terms/us/):
+Google Analytics itself specifies the requirement for a privacy policy in its terms of service. If you use Google Analytics and don't have a privacy policy on your site, you're using Google Analytics illegally and you've breached [your contract with Google](https://marketingplatform.google.com/about/analytics/terms/us/):
  
  > "You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data"
 
@@ -57,9 +57,7 @@ Here's a look at some of the things to consider when creating your privacy polic
 
 ### What should privacy policy include?
  
-Different laws require different disclosures. But in general, your goal should be to describe what personal data you collect, how you do it and what you use it for. 
-
-List third-party services that you use, what you use them for and link to their privacy policies for further details.
+Different laws require different disclosures. Your goal should be to describe what personal data you collect, how you do it and what you use it for. List third-party services that you use, what you use them for and link to their privacy policies for further details.
 
 Here are some of the things you should consider to include in your privacy policy:
  
@@ -71,17 +69,18 @@ Here are some of the things you should consider to include in your privacy polic
 * how you collect personal data and whether you use any services for that
 * what you use personal data for and how you use it
 * whether you share any personal data with any third-parties
+* how you secure the personal data and how long you store it for
 * how visitors can opt out of personal data collection
 * how visitors can download any personal data already collected about them
-* the last updated date
+* the date that the privacy policy was last updated
 
 ### Where should I put the privacy policy on my website?
  
-Your privacy policy should not be a document that is hidden away. Make your privacy policy easily discoverable. Put it in your site footer or include a link to it on your about page. 
+Your privacy policy should not be a document that is hidden away. Make your privacy policy easily discoverable. Put it in your site footer or include a link to it on your about page.
 
 ### Your privacy policy should be easy to read
 
-Privacy policy written in a straightforward and human-friendly way builds trust. According to the GDPR, you should communicate information about your collection and processing of personal data in a clear and user-friendly way. It should be:
+Privacy policy written in a straightforward and human-friendly way builds trust. According to the GDPR, you should communicate information about your collection and processing of personal data in a clear and user-friendly way. This information should be:
 
 * concise
 * transparent
@@ -107,13 +106,12 @@ Or Andrew Mason on his [personal website](https://www.andrewm.codes/privacy-poli
 
 > I am using Plausible Analytics, which is a GDPR, CCPA and cookie law compliant site analytics tool. I don't care who you are, I just am curious how you are using the site, so that is why I chose a privacy focused tool and for that reason, I have made my analytics dashboard public so that you can see exactly what is being gathered.
 
-Here is an alternative way to disclose your usage of Plausible Analytics. A "How Many People Are on This Site?" page or `/stats/` page as seen here on the [website of Gergely Orosz](https://blog.pragmaticengineer.com/stats/):
+Here is an alternative way to disclose your usage of Plausible Analytics. A "How Many People Are on This Site?" page or `/stats/` page as seen on the [website of Gergely Orosz](https://blog.pragmaticengineer.com/stats/):
 
 > I integrated Plausible analytics on this site. On top of the very small footprint of the analytics script (under 1KB) and no-tracking-and-not-selling-your-data-for-advertising part, a really neat thing is how you can make your dashboard public. Here is the dashboard for The Pragmatic Engineer with public (and live) visitor information, and historic stats. 
 
 ### Privacy policy template
 
-Basecamp has been kind enough to open source [their privacy policy](https://github.com/basecamp/policies/blob/master/privacy/index.md), terms of use and [other legal documents](https://github.com/basecamp/policies). 
+Basecamp has been kind enough to open source [its privacy policy](https://github.com/basecamp/policies/blob/master/privacy/index.md), terms of use and [other legal documents](https://github.com/basecamp/policies). 
 
-You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the draft you start from and then you would need to edit them or adapt them to your needs.
-
+You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
