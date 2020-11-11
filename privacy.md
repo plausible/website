@@ -13,7 +13,7 @@ In this policy, we lay out what data we collect and why, how your data is handle
 
 If you have placed the Plausible Analytics script on your website, take a look at [our data policy](https://plausible.io/data-policy) for details on the information we do collect about your website visitors on your behalf.
 
-### As a visitor to the plausible.io website
+## As a visitor to the plausible.io website
 
 The privacy of our website visitors is important to us so we do not track any individual people. As a visitor to the plausible.io website:
 
