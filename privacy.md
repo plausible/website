@@ -15,7 +15,7 @@ If you have placed the Plausible Analytics script on your website, take a look a
 
 ### As a visitor to the plausible.io website
 
-As a visitor to the plausible.io website:
+The privacy of our website visitors is important to us so we do not track any individual people. As a visitor to the plausible.io website:
 
 - No personal information is collected
 - No information such as cookies is stored in the browser
@@ -24,11 +24,10 @@ As a visitor to the plausible.io website:
 - No information is mined and harvested for personal and behavioral trends
 - No information is monetized
 
-We run our own analytics script on our website. We collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected. 
+We run our own analytics script to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected. 
 
-This includes the website which referred the traffic to us, the pages on our site that have been visited, duration of the visits, information from the devices (device type, operating system, country and web browser type) used during the visit and more. You can see full details in [our data policy](https://plausible.io/data-policy) and view the data we have access to in [our live demo](https://plausible.io/plausible.io).
+Data collected includes websites that send us traffic, pages on our site that are visited, duration of the visits, information from the devices (device type, operating system, country and browser) used during the visit and more. You can see full details in [our data policy](https://plausible.io/data-policy) and view the data we have access to in [our live demo](https://plausible.io/plausible.io).
 
-The privacy of our website visitors is important to us so we do not track any individual people. 
 ## As a customer and subscriber of Plausible Analytics
 
 Our guiding principle is to collect only what we need and that we will solely process this information to provide you with the service you signed up for. 
