@@ -12,6 +12,9 @@ image-alt: Do I need a privacy policy for my website?
 ---
 TL;DR: A privacy policy is recommended for all sites if you want to be transparent and open to your visitors. If you're not collecting or processing any personal data and not using cookies directly or through third-party connections, you may not legally need a privacy policy. For all other use cases, a privacy policy is legally required.
 
+1. Ordered list
+{:toc}
+
 ## Why should I create a privacy policy?
 
 A privacy policy is a legal document that informs your website visitors and explains what kind of personal data you collect about them, how you do it and what it's used for. 
