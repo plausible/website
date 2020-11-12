@@ -12,9 +12,11 @@ Here's a closer look at our data policy, the information that we do collect, wha
 
 ## First thing first: What we collect and what we use it for
 
-The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. We don’t collect or store any personal or identifiable data. All of the data that we do collect is aggregated data only and it has no personal information.
+We do not track people across their devices and across websites and apps that they visit. All the data is isolated to a single day, single website and single device only. There is no way to know whether the same person visits a site from more than one device or visits another website. See here [the full list of what makes Plausible a privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics).
 
-We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page. Here is the complete list of what we collect and store about your website visitors:
+The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. We do not use cookies. We do not generate any persistent identifiers. We don’t collect or store any personal or identifiable data. All of the data that we do collect is aggregated data only and it has no personal information.
+
+By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page. Here is the complete list of what we collect and store about your website visitors:
 
 | Data point | Example | Comment |
 |---|---|---|---|---|
@@ -49,9 +51,21 @@ The biggest limitation with this approach is that we cannot do good retention an
 
 <small>_Disclaimer:_ We're not lawyers. The information in this post is our view on things and it's here to help give you an introduction to the different privacy regulations and how Plausible is built to help you comply with them. We encourage you to discuss specific issues with your lawyer if you have any concerns.</small>
 
+## Built and hosted in the EU
+
+[We’re a two person team](https://plausible.io/about) and we’re based in the EU. The legal entity is incorporated in Estonia.
+
+All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered [server in Germany](https://plausible.io/blog/made-in-eu). This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+
+You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU.
+
 ## Data ownership of your web analytics
 
-By using Plausible, you keep 100% ownership of your website data. Although when using our hosted service, your site analytics are stored on our server in the cloud, you remain completely in control of your site data and you fully own all of your data too:
+When you use our service to measure your website stats, Plausible Analytics will collect information about your visitors. You entrust us with your site data and we take that trust to heart. The privacy of your site data — and it is your data, not ours! — is a big deal to us.
+
+By using Plausible, you keep 100% ownership of your website data. Although when using our hosted service, your site analytics are stored on our server in the cloud, you remain completely in control of your site data and you fully own all of your data too. 
+
+You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We will never sell or share your site data to any third-parties.
 
 * Your website data is not shared with advertising companies or any other companies in general.
 * Your website data is not sent to any third-parties at all.
@@ -62,8 +76,12 @@ By using Plausible, you keep 100% ownership of your website data. Although when 
 
 Plausible is a fully [open-source website analytics tool](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/) so you can read it and review it to ensure our code does what we say.
 
+We are not a black box. There’s nothing proprietary or closed source about Plausible Analytics. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
+
+This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you’re actually doing what you’re saying you’re doing.
+
 ## GDPR, CCPA and PECR compliant web analytics
 
-By using Plausible, you don't need to have any GDPR, CCPA or PECR prompts and you don't need a complex privacy policy about your use of analytics and cookies. With Plausible, you are not tracking any personal data after all. Your visitors can enjoy your site without any annoyances and distractions.
+By using Plausible, you don't need to have any GDPR, CCPA or PECR prompts and you don't need [a complex privacy policy](https://plausible.io/blog/privacy-policy-page) about your use of analytics and cookies. With Plausible, you are not tracking any personal data after all. Your visitors can enjoy your site without any annoyances and distractions.
 
 You can [sign up for a 30-day free trial](https://plausible.io/register) and explore our privacy-friendly and GDPR, CCPA and PECR compliant site analytics. You don't need to remove your current analytics provider either until you've tested Plausible and figured out if you like our product.
