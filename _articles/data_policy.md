@@ -14,13 +14,13 @@ Here's a closer look at our data policy, the information that we do collect, wha
 
 We do not track people across their devices and across websites and apps that they visit. All the data is isolated to a single day, single website and single device only. There is no way to know whether the same person visits a site from more than one device or visits another website. See here [the full list of what makes Plausible a privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics).
 
-The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. We do not use cookies. We do not generate any persistent identifiers. We don’t collect or store any personal or identifiable data. All of the data that we do collect is aggregated data only and it has no personal information.
+The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. We don't use cookies, we don't generate any persistent identifiers and we don’t collect or store any personal or identifiable data. All of the data that we do collect is aggregated data only and it has no personal information.
 
 By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page. Here is the complete list of what we collect and store about your website visitors:
 
 | Data point | Example | Comment |
 |---|---|---|---|---|
-| **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=` and `utm_source=`. |
+| **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=`, `utm_source=`, `utm_medium=` and `utm_campaign=`. |
 | **HTTP Referer** | _https://facebook.com_ | We use the referrer string to show you the number of visitors referred to your website from links on other sites. |
 | **Browser** | _Chrome 86.0_ | We use this to show you what browsers and browser version numbers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
 | **Operating system** | _macOS 10.15_ | We use this to show you what operating systems people use when visiting your website. We show the brand of the operating system and the version number. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
