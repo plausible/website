@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Privacy, web analytics and do I need a privacy policy for my website?
+title: GDPR, web analytics and do I need a privacy policy for my website?
 description: A privacy policy is a legal document that informs your website
   visitors and explains what kind of personal data you collect about them, how
   you do it and what it's used for.
