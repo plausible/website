@@ -87,29 +87,29 @@ We've chosen the subscription business model rather than surveillance capitalism
 
 The process below works on all the different content management systems you may be using for your website including WordPress, Ghost, Squarespace and Webflow.
 
-### Step 1: Add the Plausible script snippet to your site
+### Add the Plausible script snippet to your site
 
 Add the Plausible Analytics "outbound link click" script snippet to your site. Note that this is not the same as our default snippet.
 
 The outbound link click snippet will look like this (make sure to change the data-domain attribute to the domain you added to your Plausible account):
 
-```<script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+```
+<script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+```
+
+Some Plausible Analytics users choose to serve our script from their subdomain [as a first-party connection](https://docs.plausible.io/custom-domain).
+
+In those cases, the new "outbound link click" snippet will look like this (make sure to change the data-domain attribute to the domain you added to Plausible):
+
+```
+<script async defer data-domain="yourdomain.com" src="https://yoursubdomain.yourdomain.com/js/index.outbound-links.js"></script>
 ```
 
 You need to place this tracking script code into the header (`<head>`) section of your site. Place the tracking script within the `<head> … </head>` tags.
 
 Do this for all of the individual websites on which you'd like to enable outbound link click tracking.
 
-#### If you're serving our script from your domain as a first-party connection:
-
-Some Plausible Analytics users choose to serve our script from their subdomain [as a first-party connection](https://docs.plausible.io/custom-domain).
-
-In those cases, the new "outbound link click" snippet will look like this (make sure to change the data-domain attribute to the domain you added to Plausible):
-
-```<script async defer data-domain="yourdomain.com" src="https://yoursubdomain.yourdomain.com/js/index.outbound-links.js"></script>
-```
-
-### Step 2: Create a custom event goal in your Plausible Analytics account
+### Create a custom event goal in your Plausible Analytics account
 
 Create one general goal for all external link clicks to start showing up in your dashboard.
 
@@ -119,7 +119,7 @@ Click on the "+ Add goal" button to go to the goal creation form. Select `Custom
 
 Next, click on the "Add goal" button and you'll be taken back to the Goals page.
 
-### Step 3: Check your external link click stats in your dashboard 
+### Check your external link click stats in your dashboard 
 
 After you've completed this process, all the external link clicks will start being tracked. They will be displayed in the "Goal Conversions" report at the bottom of your Plausible Analytics dashboard.
 
