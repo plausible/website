@@ -115,7 +115,11 @@ Create one general goal for all external link clicks to start showing up in your
 
 To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
 
+![Image](https://docs.plausible.io/img/goal-conversions.png)
+
 Click on the "+ Add goal" button to go to the goal creation form. Select `Custom event` as the goal trigger and enter this exact name: `Outbound Link: Click`.
+
+![Image](https://docs.plausible.io/img/outbound-link-click-goal.png)
 
 Next, click on the "Add goal" button and you'll be taken back to the Goals page.
 
