@@ -81,7 +81,7 @@ Plausible Analytics is an independent analytics tool that's built with simplicit
 
 If you want to track external link clicks with Plausible Analytics, here's what you need to do.
 
-### Step 1: Sign up for a Plausible Analytics account 
+### Sign up for a Plausible Analytics account 
 
 First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on unlimited number of sites and with no usage restrictions.
 
