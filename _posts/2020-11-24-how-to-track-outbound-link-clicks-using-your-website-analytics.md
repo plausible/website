@@ -101,12 +101,19 @@ The default works for the Global Site Tag (gtag.js) implementation but we've als
 * Then create a new goal by clicking on the "+ New Goal" button.
 * Name the goal: "Outbound Link: Click"
 * Select "Event" in the goal type
+
+![Image](/uploads/goal-description-google-analytics.png)
+
 * Click the "Continue" button
 * In "Goal details" select category equals to "Outbound Link"
 * And select action equals to "Click"
 * Then click on the "Save" button
 
+![Image](/uploads/google-analytics-goals-list.png)
+
 You'll now see your newly created "Outbound Link: Click" in your list of goals.
+
+![Image](/uploads/goal-details-google-analytics.png)
 
 ### Find the outbound link clicks report in Google Analytics dashboard
 
