@@ -81,7 +81,7 @@ Here's what you need to do to set up outbound link click tracking using the Plau
         event_label : link.href
       });
       // Or, if you're using analytics.js
-      // ga('send', 'event', 'Outbound Link', 'Click', link.href)
+      // ga('send', 'event', 'Outbound Link', 'Click', link.href);
 
       // Allow event to be sent before the page is unloaded
       if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
