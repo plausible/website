@@ -24,13 +24,13 @@ Outbound links have always been a big part of the open web. It's what helps peop
 
 You create the outbound links the same way you do your inbound links. In HTML, it looks like this:
 
-```
+```html
 <a href="https://www.url.com/">link text</a>
 ```
 
 Many also set external links to be opened in new windows not to lose the visitor who clicks on them. It's done like this:
 
-```
+```html
 <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a> 
 ```
 
@@ -67,7 +67,7 @@ With a couple of simple steps, you'll be able to see the full list of all clicks
 
 Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics:
 
-```javascript
+```html
 <script>
   document.addEventListener('click', function (event) {
     var link = event.target;
@@ -76,7 +76,12 @@ Here's what you need to do to set up outbound link click tracking using the Plau
     }
 
     if (link && link.href && link.host && link.host !== location.host) {
-      ga('send', 'event', 'Outbound Link', 'Click', link.href)
+      gtag('event', 'Click', {
+        event_category: 'Outbound Link',
+        event_label : link.href
+      });
+      // Or, if you're using analytics.js
+      // ga('send', 'event', 'Outbound Link', 'Click', link.href)
 
       // Allow event to be sent before the page is unloaded
       if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
@@ -115,7 +120,7 @@ Add the Plausible Analytics "outbound link click" script snippet to your site. N
 
 The outbound link click snippet will look like this (make sure to change the data-domain attribute to the domain you added to your Plausible account):
 
-```
+```html
 <script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
 ```
 
@@ -123,7 +128,7 @@ Some Plausible Analytics users choose to serve our script from their subdomain [
 
 In those cases, the new "outbound link click" snippet will look like this (make sure to change the data-domain attribute to the domain you added to Plausible):
 
-```
+```html
 <script async defer data-domain="yourdomain.com" src="https://yoursubdomain.yourdomain.com/js/index.outbound-links.js"></script>
 ```
 
