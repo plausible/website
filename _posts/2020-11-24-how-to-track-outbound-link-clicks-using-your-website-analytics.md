@@ -31,7 +31,7 @@ You create the outbound links the same way you do your inbound links. In HTML, i
 Many also set external links to be opened in new windows not to lose the visitor who clicks on them. It's done like this:
 
 ```
-<a href="https://www.url.com/" target="_blank">link text</a> 
+<a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a> 
 ```
 
 ## What can I learn from tracking outbound link clicks?
@@ -67,7 +67,25 @@ With a couple of simple steps, you'll be able to see the full list of all clicks
 
 Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics:
 
-(GOOGLE ANALYTICS INSTRUCTIONS HERE)
+```javascript
+    document.addEventListener('click', function (event) {
+      var link = event.target;
+      while(link && (typeof link.tagName == 'undefined' || link.tagName.toLowerCase() != 'a' || !link.href)) {
+        link = link.parentNode
+      }
+
+      if (link && link.href && link.host && link.host !== location.host) {
+        ga('send', 'event', 'Outbound Link', 'Click', link.href)
+
+        // Delay navigation so that Plausible is notified of the click
+        if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
+          setTimeout(function() { location.href = link.href; }, 150);
+          event.preventDefault();
+        }
+      }
+    })
+```
+
 
 ### Where do I find my outbound link clicks in Google Analytics?
 
