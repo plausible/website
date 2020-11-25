@@ -24,15 +24,11 @@ Outbound links have always been a big part of the open web. It's what helps peop
 
 You create the outbound links the same way you do your inbound links. In HTML, it looks like this:
 
-```html
-<a href="https://www.url.com/">link text</a>
-```
+     <a href="https://www.url.com/">link text</a>
 
 Many also set external links to be opened in new windows not to lose the visitor who clicks on them. It's done like this:
 
-```html
-<a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a> 
-```
+     <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a>
 
 ## What can I learn from tracking outbound link clicks?
 
@@ -59,7 +55,7 @@ If you look at the popular guides on the web, the process typically goes like th
 
 This is a cumbersome, time consuming and slow process not used by many site owners due to its inconvenience.
 
-### A simple method to track outbound link clicks in Google Analytics
+## A simpler method to track outbound link clicks in Google Analytics
 
 At Plausible Analytics, we've worked on a more straightforward method that can help you automate the process of tracking external link clicks without any coding or knowledge of JavaScript. 
 
@@ -67,7 +63,7 @@ With a couple of simple steps, you'll be able to see the full list of all clicks
 
 Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics:
 
-#### Add the script to your site header
+### Add the script to your site header
 
 Add the following script to your site header where you also have your Google Analytics script. 
 
@@ -99,20 +95,20 @@ The default works for the Global Site Tag (gtag.js) implementation but we've als
 </script>
 ```
 
-#### Add the goal in your Google Analytics admin
+### Add the goal in your Google Analytics admin
 
-Go into your Google Analytics Admin interface and click on "Goals". 
-Then create a new goal by clicking on the "+ New Goal" button.
-Name the goal: "Outbound Link: Click"
-Select "Event" in the goal type
-Click the "Continue" button
-In "Goal details" select category equals to "Outbound Link"
-And select action equals to "Click"
-Then click on the "Save" button
+* Go into your Google Analytics Admin interface and click on "Goals". 
+* Then create a new goal by clicking on the "+ New Goal" button.
+* Name the goal: "Outbound Link: Click"
+* Select "Event" in the goal type
+* Click the "Continue" button
+* In "Goal details" select category equals to "Outbound Link"
+* And select action equals to "Click"
+* Then click on the "Save" button
 
 You'll now see your newly created "Outbound Link: Click" in your list of goals.
 
-#### Find the outbound link clicks report in Google Analytics dashboard
+### Find the outbound link clicks report in Google Analytics dashboard
 
 You can find your goal report in three sections of Google Analytics:
 
