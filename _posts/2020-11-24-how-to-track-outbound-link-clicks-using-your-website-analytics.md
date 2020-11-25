@@ -24,11 +24,11 @@ Outbound links have always been a big part of the open web. It's what helps peop
 
 You create the outbound links the same way you do your inbound links. In HTML, it looks like this:
 
-     <a href="https://www.url.com/">link text</a>
+    <a href="https://www.url.com/">link text</a>
 
 Many also set external links to be opened in new windows not to lose the visitor who clicks on them. It's done like this:
 
-     <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a>
+    <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a>
 
 ## What can I learn from tracking outbound link clicks?
 
