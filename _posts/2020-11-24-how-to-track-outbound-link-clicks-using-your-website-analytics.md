@@ -4,7 +4,7 @@ title: How to track outbound link clicks using your website analytics
 description: Here's a guide on how to automate the external link click tracking
   on your website. Let's get started.
 slug: /track-outbound-link-clicks
-date: 2020-11-24T13:25:17.104Z
+date: 2020-11-25T13:55:35.955Z
 author: marko-saric
 image: /uploads/outbound-link-click-tracking.png
 image-alt: How to automatically track external link clicks using your site analytics
@@ -125,7 +125,7 @@ You can find your goal report in three sections of Google Analytics:
 
 In Google Analytics, you can now see the number of external link clicks, which links were clicked on and on what pages where those links clicked. 
 
-If you find Google Analytics cumbersome and slow to work with, you can 
+If you find Google Analytics cumbersome and slow to work with, you can get automated outbound link click tracking in Plausible Analytics on [our fast loading dashboard](https://plausible.io/plausible.io).
 
 ## How to track outbound links with Plausible Analytics
 
