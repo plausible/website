@@ -78,7 +78,7 @@ Here's what you need to do to set up outbound link click tracking using the Plau
     if (link && link.href && link.host && link.host !== location.host) {
       ga('send', 'event', 'Outbound Link', 'Click', link.href)
 
-      // Delay navigation so that the event can be sent before the page is unloaded
+      // Allow event to be sent before the page is unloaded
       if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
         setTimeout(function() { location.href = link.href; }, 150);
         event.preventDefault();
