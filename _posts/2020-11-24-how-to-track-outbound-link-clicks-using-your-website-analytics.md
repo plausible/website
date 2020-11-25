@@ -67,6 +67,12 @@ With a couple of simple steps, you'll be able to see the full list of all clicks
 
 Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics:
 
+#### Add the script to your site header
+
+Add the following script to your site header where you also have your Google Analytics script. 
+
+The default works for the Global Site Tag (gtag.js) implementation but we've also included the code for those using the analytics.js version of Google Analytics.
+
 ```html
 <script>
   document.addEventListener('click', function (event) {
@@ -93,10 +99,30 @@ Here's what you need to do to set up outbound link click tracking using the Plau
 </script>
 ```
 
+#### Add the goal in your Google Analytics admin
 
-### Where do I find my outbound link clicks in Google Analytics?
+Go into your Google Analytics Admin interface and click on "Goals". 
+Then create a new goal by clicking on the "+ New Goal" button.
+Name the goal: "Outbound Link: Click"
+Select "Event" in the goal type
+Click the "Continue" button
+In "Goal details" select category equals to "Outbound Link"
+And select action equals to "Click"
+Then click on the "Save" button
 
-(INSTRUCTIONS FOR WHERE TO FIND THE REPORT)
+You'll now see your newly created "Outbound Link: Click" in your list of goals.
+
+#### Find the outbound link clicks report in Google Analytics dashboard
+
+You can find your goal report in three sections of Google Analytics:
+
+1. In "Realtime" under "Events"
+2. In "Behavior", choose "Events" and explore the different reports within it
+3. In "Conversions", choose "Goals" and explore the different reports within it
+
+In Google Analytics, you can now see the number of external link clicks, which links were clicked on and on what pages where those links clicked. 
+
+If you find Google Analytics cumbersome and slow to work with, you can 
 
 ## How to track outbound links with Plausible Analytics
 
