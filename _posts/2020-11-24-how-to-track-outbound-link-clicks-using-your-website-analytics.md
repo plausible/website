@@ -78,7 +78,7 @@ Here's what you need to do to set up outbound link click tracking using the Plau
     if (link && link.href && link.host && link.host !== location.host) {
       ga('send', 'event', 'Outbound Link', 'Click', link.href)
 
-      // Delay navigation so that Plausible is notified of the click
+      // Delay navigation so that Google Analytics is notified of the click
       if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
         setTimeout(function() { location.href = link.href; }, 150);
         event.preventDefault();
