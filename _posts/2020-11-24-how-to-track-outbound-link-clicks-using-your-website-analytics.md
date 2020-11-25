@@ -68,22 +68,24 @@ With a couple of simple steps, you'll be able to see the full list of all clicks
 Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics:
 
 ```javascript
-    document.addEventListener('click', function (event) {
-      var link = event.target;
-      while(link && (typeof link.tagName == 'undefined' || link.tagName.toLowerCase() != 'a' || !link.href)) {
-        link = link.parentNode
-      }
+<script>
+  document.addEventListener('click', function (event) {
+    var link = event.target;
+    while(link && (typeof link.tagName == 'undefined' || link.tagName.toLowerCase() != 'a' || !link.href)) {
+      link = link.parentNode
+    }
 
-      if (link && link.href && link.host && link.host !== location.host) {
-        ga('send', 'event', 'Outbound Link', 'Click', link.href)
+    if (link && link.href && link.host && link.host !== location.host) {
+      ga('send', 'event', 'Outbound Link', 'Click', link.href)
 
-        // Delay navigation so that Plausible is notified of the click
-        if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
-          setTimeout(function() { location.href = link.href; }, 150);
-          event.preventDefault();
-        }
+      // Delay navigation so that Plausible is notified of the click
+      if(!link.target || link.target.match(/^_(self|parent|top)$/i)) {
+        setTimeout(function() { location.href = link.href; }, 150);
+        event.preventDefault();
       }
-    })
+    }
+  })
+</script>
 ```
 
 
