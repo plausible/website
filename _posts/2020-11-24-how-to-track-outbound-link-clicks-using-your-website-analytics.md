@@ -9,7 +9,7 @@ author: marko-saric
 image: /uploads/outbound-link-click-tracking.png
 image-alt: How to automatically track external link clicks using your site analytics
 ---
-Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your website analytics? Here's a guide on how to automate the external link click tracking on your website using Google Analytics and on Plausible Analytics. Let's get started.
+Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your website analytics? Here's a guide on how to automate the external link click tracking on your website using Google Analytics and Plausible Analytics. Let's get started.
 
 1. Ordered list
 {:toc}
