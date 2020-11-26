@@ -9,7 +9,7 @@ author: marko-saric
 image: /uploads/outbound-link-click-tracking.png
 image-alt: How to automatically track external link clicks using your site analytics
 ---
-Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your website analytics? Here's a guide on how to automate the external link click tracking on your website using Google Analytics and Plausible Analytics. Let's get started.
+Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your website analytics? Here's a guide on how to automate external link click tracking on your site using Google Analytics and Plausible Analytics. Let's get started.
 
 1. Ordered list
 {:toc}
@@ -26,7 +26,7 @@ You create the outbound links the same way you do your inbound links. In HTML, i
 
     <a href="https://www.url.com/">link text</a>
 
-Many also set external links to be opened in new windows not to lose the visitor who clicks on them. It's done like this:
+Many also set external links to be opened in new window not to lose the visitor who clicks on them. It's done like this:
 
     <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a>
 
@@ -34,13 +34,13 @@ Many also set external links to be opened in new windows not to lose the visitor
 
 With outbound link click tracking, you can:
 
-* Get an overview of all the external links on your site so you can change or remove those you don't want to link to anymore
+* Get an overview of all the external links on your site so you can fix broken links or remove those you don't want to link to anymore
 * See which external URLs are clicked the most on your site
 * See on which of your pages the particular outbound link gets the clicks
 * See which referral sources drive the traffic that clicks on the external links
 * Filter your traffic by external URL to understand what type of visitor clicks outbound links the most (the country they're from, the device they're on, browser and OS they use)
 
-All this gives you a more complete picture of the performance of your website. It also helps you better understand what your visitors are interested in. You can also identify the best sources of quality traffic and your content that delivers the best results.
+All this gives you a more complete picture of the performance of your website. It also helps you better understand what your visitors are interested in. You can also identify the best sources of quality traffic and content that delivers the best results.
 
 ## Can Google Analytics and Google Tag Manager track link clicks?
 
@@ -59,15 +59,15 @@ This is a cumbersome, time consuming and slow process not used by many site owne
 
 At Plausible Analytics, we've worked on a more straightforward method that can help you automate the process of tracking external link clicks without any coding or knowledge of JavaScript. 
 
-With a couple of simple steps, you'll be able to see the full list of all clicks on all external links on your site. No need for manual tagging of links. And as everything else that we do, we've made it [open source](https://plausible.io/open-source-website-analytics) so this tracking is possible even for those who [use Google Analytics](https://plausible.io/blog/remove-google-analytics).
+With a couple of simple steps, you'll be able to see the full list of all clicks on all external links on your site. No need for manual tagging of links. And as with everything else that we do, we've made it [open source](https://plausible.io/open-source-website-analytics) so our tracking method is possible even for those who [use Google Analytics](https://plausible.io/blog/remove-google-analytics).
 
-Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics:
+Here's what you need to do to set up outbound link click tracking using the Plausible Analytics method on Google Analytics.
 
 ### Add the script to your site header
 
-Add the following script to your site header where you also have your Google Analytics script. 
+Add the following script to your site header where you also have your Google Analytics script.
 
-The default works for the Global Site Tag (gtag.js) implementation but we've also included the code for those using the analytics.js version of Google Analytics.
+The default option works for the Global Site Tag (gtag.js) Google Analytics implementation but we've also included the code for those who use the analytics.js version of Google Analytics.
 
 ```html
 <script>
@@ -95,16 +95,16 @@ The default works for the Global Site Tag (gtag.js) implementation but we've als
 </script>
 ```
 
-### Add the goal in your Google Analytics admin
+### Add the outbound link click goal in Google Analytics admin
 
 * Go into your Google Analytics Admin interface and click on "Goals". 
 * Then create a new goal by clicking on the "+ New Goal" button.
 * Name the goal: "Outbound Link: Click"
 * Select "Event" in the goal type
+* Click the "Continue" button
 
 ![Image](/uploads/goal-description-google-analytics.png)
 
-* Click the "Continue" button
 * In "Goal details" select category equals to "Outbound Link"
 * And select action equals to "Click"
 * Then click on the "Save" button
@@ -115,15 +115,13 @@ You'll now see your newly created "Outbound Link: Click" in your list of goals.
 
 ![Image](/uploads/google-analytics-goals-list.png)
 
-### Find the outbound link clicks report in Google Analytics dashboard
+### Find the outbound link click report in Google Analytics dashboard
 
-You can find your goal report in three sections of Google Analytics:
+In Google Analytics, you can now see the number of external link clicks, which links were clicked on and on what pages where those links clicked. You can find your goal report in three sections of Google Analytics:
 
 1. In "Realtime" under "Events"
 2. In "Behavior", choose "Events" and explore the different reports within it
 3. In "Conversions", choose "Goals" and explore the different reports within it
-
-In Google Analytics, you can now see the number of external link clicks, which links were clicked on and on what pages where those links clicked. 
 
 If you find Google Analytics cumbersome and slow to work with, you can get automated outbound link click tracking in Plausible Analytics on [our fast loading dashboard](https://plausible.io/plausible.io).
 
@@ -131,9 +129,9 @@ If you find Google Analytics cumbersome and slow to work with, you can get autom
 
 Don't use Google Analytics? You can get this automated external link click tracking directly in Plausible Analytics too. This is in-built into our analytics tool so the process to set it all up is even easier.
 
-Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while at the same time being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [the privacy of website visitors](https://plausible.io/privacy-focused-web-analytics).
+Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [the privacy of website visitors](https://plausible.io/privacy-focused-web-analytics).
 
-If you want to track external link clicks with Plausible Analytics, here's what you need to do.
+If you want to track external link clicks in Plausible Analytics, here's what you need to do.
 
 ### Sign up for a Plausible Analytics account 
 
@@ -141,13 +139,11 @@ First, you need to [sign up for a free trial account](https://plausible.io/). Yo
 
 We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service in case you decide to convert into a subscriber after your trial is completed. Plans start at $4/month.
 
-The process below works on all the different content management systems you may be using for your website including WordPress, Ghost, Squarespace and Webflow.
+The process below works on all the different content management systems you may use for your website including WordPress, Ghost, Squarespace and Webflow.
 
 ### Add the Plausible script snippet to your site
 
-Add the Plausible Analytics "outbound link click" script snippet to your site. Note that this is not the same as our default snippet.
-
-The outbound link click snippet will look like this (make sure to change the data-domain attribute to the domain you added to your Plausible account):
+Add the Plausible Analytics "outbound link click" script snippet to your site. The outbound link click snippet will look like this (make sure to change the data-domain attribute to the domain you added to your Plausible account):
 
 ```html
 <script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
@@ -162,8 +158,6 @@ In those cases, the new "outbound link click" snippet will look like this (make 
 ```
 
 You need to place this tracking script code into the header (`<head>`) section of your site. Place the tracking script within the `<head> … </head>` tags.
-
-Do this for all of the individual websites on which you'd like to enable outbound link click tracking.
 
 ### Create a custom event goal in your Plausible Analytics account
 
