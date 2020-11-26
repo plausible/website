@@ -4,7 +4,7 @@ title: How to track outbound link clicks using your website analytics
 description: Here's a guide on how to automate the external link click tracking
   on your website. Let's get started.
 slug: /track-outbound-link-clicks
-date: 2020-11-25T13:55:35.955Z
+date: 2020-11-26T08:52:38.450Z
 author: marko-saric
 image: /uploads/outbound-link-click-tracking.png
 image-alt: How to automatically track external link clicks using your site analytics
