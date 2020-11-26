@@ -117,7 +117,7 @@ You'll now see your newly created "Outbound Link: Click" in your list of goals.
 
 ### Find the outbound link click report in Google Analytics dashboard
 
-In Google Analytics, you can now see the number of external link clicks, which links were clicked on and on what pages where those links clicked. You can find your goal report in three sections of Google Analytics:
+You can now see the number of external link clicks in Google Analytics, which links were clicked on and on what pages where those links clicked. You can find your goal report in three sections of Google Analytics:
 
 1. In "Realtime" under "Events"
 2. In "Behavior", choose "Events" and explore the different reports within it
@@ -129,15 +129,15 @@ If you find Google Analytics cumbersome and slow to work with, you can get autom
 
 Don't use Google Analytics? You can get this automated external link click tracking directly in Plausible Analytics too. This is in-built into our analytics tool so the process to set it all up is even easier.
 
-Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [the privacy of website visitors](https://plausible.io/privacy-focused-web-analytics).
+Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [website visitors' privacy](https://plausible.io/privacy-focused-web-analytics).
 
 If you want to track external link clicks in Plausible Analytics, here's what you need to do.
 
 ### Sign up for a Plausible Analytics account 
 
-First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on unlimited number of sites and with no usage restrictions.
+First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on an unlimited number of sites and with no usage restrictions.
 
-We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service in case you decide to convert into a subscriber after your trial is completed. Plans start at $4/month.
+We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed. Plans start at $4/month.
 
 The process below works on all the different content management systems you may use for your website including WordPress, Ghost, Squarespace and Webflow.
 
