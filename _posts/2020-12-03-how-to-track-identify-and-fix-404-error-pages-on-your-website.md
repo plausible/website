@@ -104,7 +104,7 @@ Plausible Analytics discovers 404s resulting from internal links and broken link
 
 If you want to track and identify 404 error pages on your site, here's what you need to do to set it up on Plausible Analytics. 
 
-### Sign up for a Plausible Analytics account 
+### Sign up for an account 
 
 First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on an unlimited number of sites and with no usage restrictions.
 
@@ -112,7 +112,7 @@ We've chosen the subscription business model rather than surveillance capitalism
 
 The process below works on all the different content management systems you may use for your website, including WordPress, Ghost, Squarespace and Webflow.
 
-### Add the Plausible script snippet to your site
+### Add the script snippet to your site
 
 Add the Plausible script snippet to your site and make sure your tracking setup includes the second script as shown below:
 
@@ -133,7 +133,7 @@ Add this code to your 404 page. For instance, if you're using WordPress, your 40
 
 You need to place this code on your 404 page below the header section. Put it somewhere after the closing `</head>` tag.
 
-### Create a custom event goal in your Plausible Analytics account
+### Create a custom event goal in your account
 
 404 error pages won't show up automatically. You'll have to configure the goal for them to show up on your dashboard.
 
