@@ -133,9 +133,13 @@ You need to place this code on your 404 page below the header section. Put it so
 
 To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
 
+![Image](/uploads/goal-conversions.png)
+
 Click on the "+ Add goal" button to go to the goal creation form.
 
 Select `Custom event` as the goal trigger and enter this exact name: `404`.
+
+![Image](/uploads/404-error-pages-goal.png)
 
 Next, click on the "Add goal" button and you'll be taken back to the Goals page. 
 
