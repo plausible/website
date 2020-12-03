@@ -37,6 +37,7 @@ Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 | **Storage** | We keep your site data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.|
 | **Raw data** | You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. You can only see the stats aggregated in the dashboard. | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
 | **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. | You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.|
+| **Releases** | Continuously developed and improved with new features and frequent updates. | Latest features won't be immediately available as they're battled-tested in the cloud before released to self-hosted.|
 
 ## How can you be sustainable if you're giving your software for free?
 
@@ -49,6 +50,8 @@ While Plausible Analytics is an open source software that you can self-host for 
 [Our business model](https://plausible.io/about) has nothing to do with collecting and analyzing huge amounts of personal information from your visitors and using these behavioral insights to sell advertisements. We don't make money by selling or sharing your data, or abusing your visitor's privacy.
 
 We are not interested in raising funds or taking investment either. Plausible is completely independent and bootstrapped. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to open source full time.
+
+If you choose to self-host Plausible you can [become a sponsor](https://github.com/sponsors/plausible) and support Plausible with a donation.
 
 For more views on the topic of open source funding, see [how to pay your rent with your open source project](https://plausible.io/blog/open-source-funding).
 
