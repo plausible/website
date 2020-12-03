@@ -112,7 +112,7 @@ The process below works on all the different content management systems you may 
 
 ### Add the Plausible script snippet to your site
 
-Add the Plausible script snippet to your site and make sure your tracking setup includes the second line as shown below:
+Add the Plausible script snippet to your site and make sure your tracking setup includes the second script as shown below:
 
 ```html
 <script async defer data-domain="<yourdomain.com>" src="https://plausible.io/js/plausible.js"></script>
@@ -153,7 +153,7 @@ So when you're aware of an important 404 page error, it's time to fix it. You ca
 
 When dealing with broken internal links, it is simple for you to change those links to point to a correct URL. You're in full control of your site and the pages on which the broken links are located.
 
-### Redirect incoming 404s
+### 301 redirect incoming broken links
 
 In case of incoming 404s from other sites that point to a page not found on your server, it is not always easy to fix those errors. You don't own those links and you cannot change their pages.
 
@@ -161,7 +161,7 @@ You may reach out to the author in question and ask them to fix the link. This m
 
 The easiest solution is to simply do a [301 permanent redirect](https://en.wikipedia.org/wiki/HTTP_301) so any traffic to the broken page gets redirected to an existing and relevant replacement page on your site.
 
-## How do I avoid 404 errors on my site?
+## How do I avoid future page not found errors on my site?
 
 Making sure that future 404 page errors don't occur doesn't need to be time-consuming. Simply check and monitor your "Goal Conversions" report in your Plausible Analytics dashboard regularly. 
 
