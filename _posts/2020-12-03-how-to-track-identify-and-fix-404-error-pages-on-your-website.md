@@ -66,9 +66,9 @@ You can also find 404 page errors in your [Google Search Console](https://docs.p
 
 ### Google Analytics
 
-In your Google Analytics dashboard, go into "Behavior" in the left-hand navigation, then choose "Site Content" and click on the "All Pages" report.
+In your [Google Analytics](https://plausible.io/vs-google-analytics) dashboard, go into "Behavior" in the left-hand navigation, then choose "Site Content" and click on the "All Pages" report.
 
-Select "Page Title" as the primary dimension and search for 404. This will give you the list of 404 pages errors.
+Select "Page Title" as the primary dimension and search for 404. This will give you the list of 404 page errors.
 
 ### Server logs
 
@@ -95,12 +95,6 @@ With our "404 Error Pages Tracking", you can:
 * Get an easy overview of which 404 pages are accessed by your visitors
 * See where visitors find broken links to your 404 error pages 
 * Then you can manually fix broken links and redirect error pages
-
-This is a very efficient method of tracking 404 errors as the error URLs are displayed directly in your web analytics dashboard.
-
-Plausible Analytics ranks the individual 404 errors according to the number of times it has occurred to real visitors (and not bots). 
-
-Plausible Analytics discovers 404s resulting from internal links and broken links around the web. It gives you the source of where visitors find the particular dead link.
 
 If you want to track and identify 404 error pages on your site, here's what you need to do to set it up on Plausible Analytics. 
 
@@ -143,7 +137,17 @@ Click on the "+ Add goal" button to go to the goal creation form.
 
 Select `Custom event` as the goal trigger and enter this exact name: `404`.
 
-Next, click on the "Add goal" button and you'll be taken back to the Goals page. After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "404" goal as soon as the first visit on an error page has been tracked.
+Next, click on the "Add goal" button and you'll be taken back to the Goals page. 
+
+### Check the 404 pages error report
+
+After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "404" goal as soon as the first visit on an error page has been tracked.
+
+This is a very efficient method of tracking 404 errors as the error URLs are displayed directly in your web analytics dashboard.
+
+Plausible Analytics ranks the individual 404 errors according to the number of times it has occurred to real visitors (and not bots). 
+
+Plausible Analytics discovers 404s resulting from internal links and broken links around the web. It gives you the source of where visitors find the particular dead link.
 
 Thanks to [Jeremiah Lee](https://www.jeremiahlee.com/) for contributing this to the Plausible Analytics community!
 
