@@ -171,6 +171,10 @@ You may reach out to the author in question and ask them to fix the link. This m
 
 The easiest solution is to simply do a [301 permanent redirect](https://en.wikipedia.org/wiki/HTTP_301) so any traffic to the broken page gets redirected to an existing and relevant replacement page on your site.
 
+Different site builders and content management systems have different methods for creating 301 redirects. If you're using WordPress, you would need to locate the `.htaccess` file and add a line for each individual redirect:
+
+`Redirect 301 /old-path/ https://yourdomain.com/new-path/`
+
 ## How do I avoid future page not found errors on my site?
 
 Making sure that future 404 page errors don't occur doesn't need to be time-consuming. Simply check and monitor your "Goal Conversions" report in your Plausible Analytics dashboard regularly. 
