@@ -6,7 +6,7 @@ description: Here's a look at 404 page not found errors and how you can identify
 slug: fix-404-errors
 date: 2020-12-03T13:34:30.670Z
 author: marko-saric
-image: /img/track-404-error-pages.jpg
+image: /uploads/track-404-error-pages.jpg
 image-alt: Track and fix 404 error pages on your site
 ---
 Having 404 error pages on your website can lead to a bad user experience, a negative first impression, and even damage your search engine rankings and traffic you get from SEO.
