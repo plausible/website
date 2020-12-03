@@ -86,7 +86,7 @@ Use online tools that help you find broken links by crawling through your site. 
 
 These can only find 404 errors resulting from internal links and cannot discover 404s that result from dead links around the web.
 
-## How to track outbound links with Plausible Analytics
+## How to track 404 page errors with Plausible Analytics
 
 Tracking 404 error pages is essential for many site owners and Plausible Analytics helps you automate this process. Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind.
 
