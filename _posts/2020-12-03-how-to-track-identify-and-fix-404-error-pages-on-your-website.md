@@ -3,7 +3,7 @@ layout: post
 title: How to track, identify and fix 404 error pages on your website
 description: Here's a look at 404 page not found errors and how you can identify
   and fix those broken links using your website analytics.
-slug: fix-404-errors
+slug: track-404-errors
 date: 2020-12-04T10:06:52.410Z
 author: marko-saric
 image: /uploads/track-404-error-pages.png
