@@ -9,7 +9,9 @@ author: marko-saric
 image: /uploads/growing-open-source.png
 image-alt: Building and growing an open source SaaS
 ---
-Plausible Analytics is the first open source project I've been involved in as a developer and maintainer. 
+Plausible Analytics is the first open source project I've been involved in as a developer and maintainer. And what a great journey it has been until now. 
+
+Plausible Analytics is installed on thousands of sites, we've had contributions from more than 100 developers and we've gone from fewer than 500 GitHub stars in April this year to 4,600 at the time of writing. 
 
 Here are some lessons learned from building and growing an open source SaaS startup in the highly competitive web analytics market.
 
@@ -43,6 +45,12 @@ These are my lessons learned that I hope other people venturing into building op
 
 ## Copyleft licenses help protect the project and the community
 
+The most popular open source license is MIT. GitHub helped popularize its use. Influential companies, including Google and Amazon, push back against many of the other licenses and there's a lot of misinformation online about what licenses stand for. 
+
+Many people choose to use MIT because of these facts. Not because they specifically want a permissive license but because it is the most acceptable option. 
+
+We did the same. My co-founder Uku didn't think about the license at all when he started building Plausible. He chose MIT because it's pretty much the "default".
+
 As Plausible Analytics [started growing and getting more buzz](https://plausible.io/blog/startup-marketing), we started seeing some disadvantages of having a permissive open source license. It felt like we had a target on our back.
 
 There are several cases we know of where companies took our code and created direct, proprietary competitors. 
@@ -51,15 +59,13 @@ There were also multiple cases of large cloud corporations wanting to take our c
 
 You may say, of course, this is the way it was intended with a permissive license but this is not something too obvious at the outset. 
 
-The most popular open source license is MIT. GitHub helped popularize its use. Influential companies, including Google and Amazon, push back against many of the other licenses and there's a lot of misinformation online about what licenses stand for. 
+After being a part of an open source project for some nine months now, I now believe that the MIT license is bad for most customer facing open source projects. 
 
-Many people choose to use MIT because of these facts. Not because they specifically want a permissive license but because it is the most acceptable option. 
+MIT is great if your project is a library, developer tool, database or other building block for development and you'd like it to be used by as many corporations as possible. 
 
-We did the same. My co-founder Uku didn't think about the license at all when he started building Plausible. He chose MIT because it's pretty much the "default".
+But it's not so good for SaaS products that produce a packaged thing that goes to the end users directly. Some corporations are ready to take advantage of this free labor to make a profit from open source without caring about OSS.
 
-After being a part of an open source project for some nine months now, I now believe that the MIT license is bad for most open source projects. Some corporations are ready to take advantage of this free labor to make a profit from open source without caring about OSS.
-
-We've since changed our license and we're now AGPL licensed. AGPL means that the companies must license their own versions of our software with the same terms.
+We've since changed our license and we're now AGPL licensed. AGPL means that a corporation cannot take our code and launch a proprietary competitor. If they want to use our code to build a competing service, it needs to stay open source as well.
 
 And just this simple fact gets the target off your back from companies who never intended to contribute to open source and are only interested in taking advantage of it.
 
@@ -99,9 +105,9 @@ Read more about the topic of open source business models in: "[How to pay your r
 
 This brings me to the self-hostable aspects of open source. The self-hosted offering is about giving back to the community. Think of it rather as a voluntary service for the public good.
 
-We are happy to offer people the option to [self-host our web analytics product](https://plausible.io/self-hosted-web-analytics) and be in even better control of their experience. It is completely free (as in beer) to use and it's not some inferior product with "light" features. You pretty much get the exact same dashboard using our cloud product as you do self-hosting it.
+We are happy to offer people the option to [self-host our web analytics product](https://plausible.io/self-hosted-web-analytics) and be in even better control of their experience. It is completely free (as in beer) to use and it's not some inferior product with "light" features. You get the exact same dashboard using our cloud product as you do self-hosting it.
 
-The donations are an entirely voluntary way for self-hosters to contribute to the continuous development of the project. Still, by nature of it, we never expected it to be another line of business. We only started accepting donations after being asked about them.
+The donations are an entirely voluntary way for self-hosters to contribute to the continuous development of the project.
 
 Self-hosting does bring a large volume of support inquiries. This means that we need to be better at balancing our limited time between reactive tasks such as troubleshooting issues from self-hosters and proactive ones such as delivering new features and support to the customers that do support us.
 
@@ -111,7 +117,7 @@ So if you can, please do contribute back to the self-hosted community with your 
 
 There's no guarantee that, we as creators of Plausible, will be able to help out with all self-hosting issues. We will read all messages and will respond to some messages too. If there’s a case where we’re aware of the problem and the solution, we will share it, but there is no guarantee that we will troubleshoot each self-hosting case as things depend on the individual setup.
 
-If you want nice, easy and convenient, and want to know that you're helping us make this project sustainable, do sign up for [our cloud version](https://plausible.io) where everything works out of the box. 
+If you want a nice, easy and convenient experience, and want to know that you're helping us make this project sustainable, do sign up for [our cloud version](https://plausible.io) where everything works out of the box. 
 
 If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues or get community support in the forum.
 
