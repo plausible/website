@@ -107,7 +107,7 @@ Self-hosting does bring a large volume of support inquiries. This means that we 
 
 To provide a better service and experience to people who actually pay our bills, we're making a change. User support for self-hosted analytics should be mutual. Our community of many self-hosters should actively take part in helping troubleshoot issues for new self-hosting users.
 
-So if you can, please do contribute back to the self-hosted community with your solutions to issues. We encourage self-hosters to help answer questions and help people out in [our public forum on GitHub](https://github.com/plausible/analytics/discussions?discussions_q=category%3A%22Self-Hosted+Support%22).
+So if you can, please do contribute back to the self-hosted community with your solutions to issues. We encourage self-hosters to help answer questions and help people out in [our public forum on GitHub](https://github.com/plausible/analytics/discussions).
 
 There's no guarantee that, we as creators of Plausible, will be able to help out with all self-hosting issues. We will read all messages and will respond to some messages too. If there’s a case where we’re aware of the problem and the solution, we will share it, but there is no guarantee that we will troubleshoot each self-hosting case as things depend on the individual setup.
 
@@ -115,7 +115,7 @@ If you want nice, easy and convenient, and want to know that you're helping us m
 
 If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues or get community support in the forum.
 
-If you donate to Plausible Analytics as a self-hoster, you can [reach out to us](https://plausible.io/contact) and expect equal support as all the other paying customers of our cloud version. As a self-hoster who donates to the project, you help us make Plausible sustainable and can get our full support and help.
+If you donate to Plausible Analytics as a self-hoster, you help us make Plausible sustainable, and you can [reach out to us](https://plausible.io/contact) and expect to get equal support and help as all the other paying customers of our cloud version.
 
 Donations are made on GitHub and are very appreciated. See [how you can become a sponsor of Plausible](https://github.com/sponsors/plausible).
 
