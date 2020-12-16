@@ -6,6 +6,8 @@ description: Here are some lessons learned from building and growing an open
 slug: /building-open-source
 date: 2020-12-16T10:54:26.754Z
 author: marko-saric
+image: /uploads/growing-open-source.png
+image-alt: Building and growing an open source SaaS
 ---
 Plausible Analytics is the first open source project I've been involved in as a developer and maintainer. 
 
