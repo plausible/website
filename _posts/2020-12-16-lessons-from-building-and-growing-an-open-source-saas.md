@@ -61,9 +61,9 @@ You may say, of course, this is the way it was intended with a permissive licens
 
 After being a part of an open source project for some nine months now, I now believe that the MIT license is bad for most customer facing open source projects. 
 
-MIT is great if your project is a library, developer tool, database or other building block for development and you'd like it to be used by as many corporations as possible. 
+MIT is great if your project is a library, developer tool or a database and you'd like it to be used by as many projects and corporations as possible. 
 
-But it's not so good for SaaS products that produce a packaged thing that goes to the end users directly. Some corporations are ready to take advantage of this free labor to make a profit from open source without caring about OSS.
+But it's not so good for SaaS projects that produce a packaged product that goes to the end users directly. Some corporations are ready to take advantage of this free labor to make a profit from open source without caring about OSS.
 
 We've since changed our license and we're now AGPL licensed. AGPL means that a corporation cannot take our code and launch a proprietary competitor. If they want to use our code to build a competing service, it needs to stay open source as well.
 
@@ -79,7 +79,7 @@ Funding is a big topic in the world of open source. We're a two person team and 
 
 Our salaries are still below what we're used to on the job market but we've made massive progress over the last nine months in terms of sustainability. And it is so much sweeter to be able to make an income taking market share directly from Google Analytics with a project like Plausible Analytics.
 
-We've been accepting donations for about six months now and as things stand, we've had five donations of $5 each. We're grateful to the five people who choose to donate.
+We've been accepting donations for about six months now and as things stand, we've had six donations of $5 each. We're grateful to the six people who choose to donate.
 
 At the same time, our cloud product has grown from $400 MRR in April this year to more than $8,500 MRR at the time of writing. It is clear that without us having people who are happy to pay for Plausible Analytics service in the cloud, Plausible Analytics and our self-hostable version wouldn't exist.
 
@@ -111,19 +111,21 @@ The donations are an entirely voluntary way for self-hosters to contribute to th
 
 Self-hosting does bring a large volume of support inquiries. This means that we need to be better at balancing our limited time between reactive tasks such as troubleshooting issues from self-hosters and proactive ones such as delivering new features and support to the customers that do support us.
 
-To provide a better service and experience to people who actually pay our bills, we're making a change. User support for self-hosted analytics should be mutual. Our community of many self-hosters should actively take part in helping troubleshoot issues for new self-hosting users.
+To provide a better service and experience to people who actually pay our bills, we're making a change. 
 
-So if you can, please do contribute back to the self-hosted community with your solutions to issues. We encourage self-hosters to help answer questions and help people out in [our public forum on GitHub](https://github.com/plausible/analytics/discussions).
-
-There's no guarantee that, we as creators of Plausible, will be able to help out with all self-hosting issues. We will read all messages and will respond to some messages too. If there’s a case where we’re aware of the problem and the solution, we will share it, but there is no guarantee that we will troubleshoot each self-hosting case as things depend on the individual setup.
+There's no longer any guarantee that, we as creators of Plausible, will be able to help out with your self-hosting issues. We will read all messages and will respond to some messages too. If there’s a case where we’re aware of the problem and the solution, we will share it, but there is no guarantee that we will troubleshoot each self-hosting case as things depend on the individual setup.
 
 If you want a nice, easy and convenient experience, and want to know that you're helping us make this project sustainable, do sign up for [our cloud version](https://plausible.io) where everything works out of the box. 
 
-If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues or get community support in the forum.
+If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues, [read our documentation](https://docs.plausible.io/) or get community support in the forum.
 
-If you donate to Plausible Analytics as a self-hoster, you help us make Plausible sustainable, and you can [reach out to us](https://plausible.io/contact) and expect to get equal support and help as all the other paying customers of our cloud version.
+If you donate to Plausible Analytics as a self-hoster, you help us make Plausible sustainable, and you can still [reach out to us](https://plausible.io/contact) and expect to get equal support and help as all the other paying customers of our cloud version.
 
 Donations are made on GitHub and are very appreciated. See [how you can become a sponsor of Plausible](https://github.com/sponsors/plausible).
+
+We're hoping to see the user support for self-hosted analytics becomes more mutual. Our community of many self-hosters should actively take part in helping troubleshoot issues for new self-hosting users.
+
+So if you can, please do contribute back to the self-hosted community with your solutions to issues. We encourage self-hosters to help answer questions and help people out in [our public forum on GitHub](https://github.com/plausible/analytics/discussions).
 
 ## Self-hosted analytics will become a twice a year, long term release 
 
