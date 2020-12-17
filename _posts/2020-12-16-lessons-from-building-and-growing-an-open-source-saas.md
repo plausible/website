@@ -4,7 +4,7 @@ title: Lessons from building and growing an open source SaaS
 description: Here are some lessons learned from building and growing an open
   source SaaS startup in the highly competitive web analytics market.
 slug: /building-open-source
-date: 2020-12-16T10:54:26.754Z
+date: 2020-12-17T11:09:07.750Z
 author: marko-saric
 image: /uploads/growing-open-source.png
 image-alt: Building and growing an open source SaaS
