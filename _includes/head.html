@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icon/favicon.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon/apple-touch-icon.png">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') history.replaceState(null, '', '/sites/'); location.reload();</script>
+  <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') window.location.pathname = '/sites'</script>
   <script async defer type="text/javascript" src="https://plausible.io/js/plausible.js"></script>
   <script async defer src="https://testing.plausible.io/js/plausible.js"></script>
 
