@@ -3,5 +3,5 @@
 /forum https://github.com/plausible/analytics/discussions
 /status https://plausible.instatus.com
 /blog/analytics-metrics-definitons /blog/analytics-metrics-definitions
-/docs/* https://docs.plausible.io/:splat 200
+/docs/* https://5fe1c6a0a21e380007f513a5--competent-benz-12aade.netlify.app/:splat 200
 /* http://161.35.214.234/:splat 200
