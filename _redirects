@@ -3,4 +3,5 @@
 /forum https://github.com/plausible/analytics/discussions
 /status https://plausible.instatus.com
 /blog/analytics-metrics-definitons /blog/analytics-metrics-definitions
+/docs/* https://docs.plausible.io/:splat 200
 /* http://161.35.214.234/:splat 200
