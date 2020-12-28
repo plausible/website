@@ -1,7 +1,7 @@
+/docs/* https://competent-benz-12aade.netlify.app/:splat 200
 /feedback https://github.com/plausible/analytics/discussions
 /roadmap https://github.com/plausible/analytics/projects/1
 /forum https://github.com/plausible/analytics/discussions
 /status https://plausible.instatus.com
 /blog/analytics-metrics-definitons /blog/analytics-metrics-definitions
-/docs/* https://competent-benz-12aade.netlify.app/:splat 200
 /* http://161.35.214.234/:splat 200
