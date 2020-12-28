@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a jekyll static site. The theme started out as Minima, but it's heavily customized to fit the Plausible brand.",
   "dependencies": {
-    "@tailwindcss/typography": "git+https://github.com/tailwindcss/typography.git",
+    "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.1.3",
     "autoprefixer": "^9.7.5",
     "postcss-cli": "^7.1.0",
