@@ -47,33 +47,33 @@ article img {
   }
 }
 
-.rich-text code {
+.prose code {
   white-space: pre-wrap;
 }
 
-.rich-text table {
+.prose table {
   @apply min-w-full bg-white shadow my-6;
 }
 
-.rich-text table {
+.prose table {
   max-width: 100%;
   overflow-x: auto;
   display: block;
 }
 
 @screen lg {
-  .rich-text table {
+  .prose table {
     max-width: unset;
     width: 150%;
     margin-left: -25%;
   }
 }
 
-.rich-text table th {
+.prose table th {
   @apply px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider whitespace-no-wrap bg-gray-50;
 }
 
-.rich-text table td {
+.prose table td {
   @apply px-6 py-4 border-b border-gray-200 text-sm leading-5 text-gray-600;
 }
 
