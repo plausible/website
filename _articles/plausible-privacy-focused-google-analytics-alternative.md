@@ -44,7 +44,7 @@ Other analytics tools such as the market leader Google Analytics collect and pro
 
 All the metrics we do collect fit on one single page. The benefits of minimizing data collection go beyond privacy. Plausible Analytics is much easier and simpler to use and understand. It's also [45 times lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site and reduces your carbon footprint. 
 
-You can view all the data we collect in [our live demo dashboard](https://plausible.io/plausible.io). If features our own website stats.
+You can view all the data we collect in [our live demo dashboard](https://plausible.io/plausible.io). It features our own website stats.
 
 ## No personal data is collected
 
