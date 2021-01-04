@@ -29,9 +29,9 @@ Since we don't make money from advertising, we need to charge a fee to keep the 
 
 Everything we do is transparent and in the open. We share [our website traffic stats](https://plausible.io/plausible.io) with the public, we share our revenue numbers with the public, we share [our development work](https://github.com/plausible/analytics/issues) with the public and [our roadmap too](https://plausible.io/roadmap).
 
-**Our current MRR is $7,680 with 1269 paying subscribers** (last updated on December 1st, 2020). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
+**Our current MRR is $9,519 with 1540 paying subscribers** (last updated on January 4th, 2021). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
 
-Plausible Analytics is installed on 7,651 websites and we've counted 107,251,707 pageviews in the month of November 2020. We've counted more than 360 million pageviews in the last five months in total. That's 360 million pageviews fewer going to the surveillance capitalism!
+Plausible Analytics is installed on 9,120 websites and we've counted 171,811,460 pageviews in the month of December 2020. We've counted more than 500 million pageviews in the last six months in total. That's half a billion pageviews fewer going to the surveillance capitalism!
 
 If you're curious and want to follow us on this journey, take a look at our social media profiles [on Twitter](https://twitter.com/plausiblehq) and [on Mastodon](https://fosstodon.org/@plausible).
 
