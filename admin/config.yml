@@ -35,3 +35,15 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string", hint: "e.g. '/my-article'"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "changes"
+    label: "Changes"
+    folder: "_changes"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "change"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
