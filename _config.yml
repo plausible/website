@@ -25,7 +25,6 @@ collections:
   articles:
     output: true
   changes:
-    output: true
 
 include:
   - _redirects

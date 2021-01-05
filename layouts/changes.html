@@ -14,13 +14,12 @@ layout: default
 
 <ul class="container mt-12">
   <hr class="w-full bg-gray-100 my-12" style="height: 1px;">
-  {% assign sorted = site.changes | reverse %}
-  {%- for post in sorted -%}
-  <li class="mt-10 list-reset lg:flex items-start">
+  {%- for post in site.changes -%}
+  <li class="mt-16 list-reset lg:flex items-start">
     <time class="lg:mt-1 uppercase text-xs lg:text-sm lg:leading-9 text-gray-500 font-bold w-48 flex-shrink-0">{{ post.date | date: "%b %-d, %Y" }}</time>
     <div>
       <h2 class="text-2xl tracking-tight font-extrabold text-gray-900 md:text-3xl">
-        {{ post.title | escape }}
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
       <div class="mt-6 prose max-w-none">{{ post.content }}</div>
     </div>
