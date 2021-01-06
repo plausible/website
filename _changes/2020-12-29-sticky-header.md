@@ -2,7 +2,7 @@
 layout: change
 title: Sticky header is here for easier filtering
 ---
-You told us you loved our sticky header idea so it is now live! 😍 It makes it easier to:
+You told us you loved the sticky header concept so it is now live! 😍 It makes it easier to:
 
 * See the chosen time period and switch dates
 * See the chosen filters and clear filters
