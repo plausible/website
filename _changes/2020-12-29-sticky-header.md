@@ -9,4 +9,4 @@ You told us you loved our sticky header idea so it is now live! 😍 It makes it
 * Get a filter drop-down menu when using many filters
 * "This Month" is now "Month to Date" with a comparison to the previous period
 
-Thanks to [@Vigasaurus](https://github.com/Vigasaurus) for helping us build this!
+Thanks to [@Vigasaurus](https://github.com/Vigasaurus) for helping us [build this](https://github.com/plausible/analytics/discussions/409)!
