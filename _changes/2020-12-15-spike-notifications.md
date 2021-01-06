@@ -1,17 +1,9 @@
 ---
 layout: change
-title: Spike notifications
+title: You can now get traffic spike notifications
 ---
+Get an email (or a Slack alert) when there's an unusually high number of current visitors on your site 🚀
 
-New feature: Traffic spike notifications
+Thanks to the @changelog team for [suggesting this](https://github.com/plausible/analytics/discussions/172) and helping us build it 🙌
 
-Get an email when there's an unusually high number of current visitors on your site
-Upwards arrow
-
-
-Thanks to @changelog
- for suggesting this and helping us build it
-Folded hands
-
-
-How to enable it: https://docs.plausible.io/traffic-spikes
+Here's how to [enable it for your site](https://docs.plausible.io/traffic-spikes) and how to [set up Slack alerts too](https://plausible.io/docs/slack-reports).
