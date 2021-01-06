@@ -28,6 +28,7 @@ collections:
 
 include:
   - _redirects
+  - _headers
 
 plugins:
  - jekyll-feed
