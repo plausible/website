@@ -4,7 +4,7 @@ title: Cloudflare Web Analytics vs Plausible Analytics
 description: Here's a look at what Cloudflare Web Analytics does and how it
   compares to Plausible Analytics and other analytics tools such as Google
   Analytics.
-permalink: vs-cloudflare-web-analytics
+permalink: /vs-cloudflare-web-analytics
 ---
 Cloudflare Web Analytics is a new player on the simple, privacy-first and de-Googled web analytics market.
 
@@ -35,7 +35,7 @@ That sounds pretty much like [what Plausible does too](https://plausible.io/priv
 
 Even though both Plausible and Cloudflare Web Analytics are built to be simple to use, privacy-friendly and lightweight, there are some important differences too. Let's explore them.
 
-### Cloudflare Analytics restricts you to 7 days of data
+## Cloudflare Analytics restricts you to 7 days of data
 
 The maximum viewable range for your Cloudflare Web Analytics dashboard is 7 days. They are "working on extending the queryable time range to 30 days for Business plan users". The business plan is not free and starts at $200 per month.
 
@@ -47,7 +47,7 @@ This may be a great way for Cloudflare to reduce their cost when providing a pro
 
 When using Plausible Analytics, there are no limitations on how much data you can store. You can view any of the data we've counted about your website since you installed the Plausible Analytics script and you can do so at any time that you wish. No data restrictions whatsoever. 
 
-### Cloudflare Analytics is inaccurate
+## Cloudflare Analytics is inaccurate
 
 Some stats that Cloudflare Analytics displays are a bit weird and inaccurate. In the past, their dashboard used to have a note that all stats are "based on a 1%-10% sample of requests". 
 
@@ -69,13 +69,13 @@ Plausible:
 
 Plausible Analytics doesn't use data sampling at all so all the stats in your dashboard is 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
-### Cloudflare Analytics limits you to one website only
+## Cloudflare Analytics limits you to one website only
 
 You can only add one domain name or one website to your Cloudflare Analytics account. They have announced that they plan to "add support for multiple analytics properties per account" but this is not currently the case.
 
 Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account.
 
-### Cloudflare Analytics limits you to 15 items on any report
+## Cloudflare Analytics limits you to 15 items on any report
 
 You can only see the top 15 of your pages, referral sources, countries and so on in your Cloudflare Analytics dashboard. Full lists are not available which makes it difficult to work with larger data sets or sites with a higher number of visitors. 
 
@@ -90,7 +90,7 @@ The filtering process is slow and inconvenient and goes something like this. To 
 
 Plausible Analytics doesn't have any limits on the number of items we show in the individual reports. Have hundreds of pages or hundreds of referral sources? Keep scrolling within your Top Pages or Top Sources lists. Same goes for countries, goals and other metrics within other reports.
 
-### Cloudflare Analytics limits the number of metrics you can get access to
+## Cloudflare Analytics limits the number of metrics you can get access to
 
 Cloudflare Analytics is too basic even for the [simple web analytics](https://plausible.io/simple-web-analytics) tools such as Plausible Analytics. 
 
@@ -103,7 +103,7 @@ Here are some of the metrics missing on Cloudflare Analytics compared to what yo
 * No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
 * No way to use a custom domain so the Cloudflare Analytics script is blocked by many browsers and extensions which means fewer of your visitors get counted
 
-### Cloudflare Analytics is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
+## Cloudflare Analytics is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
 
 Cloudflare Analytics JavaScript file that you need to integrate into your site to start tracking visitors is 4.3 KB.
 
@@ -115,7 +115,7 @@ This could be a feature they plan to add in the future versions of the dashboard
 
 If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice.
 
-### Different definitions of what a unique visitor is
+## Different definitions of what a unique visitor is
 
 Plausible Analytics and Cloudflare Analytics have a different definition of what a unique visitor is.
 
@@ -133,7 +133,7 @@ Plausible Analytics doesn't attempt to generate a device-persistent identifier e
 
 Instead, we generate a daily changing identifier using the visitor’s IP address and User Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt. You can learn more about our method in [our data policy](https://plausible.io/data-policy).
 
-### Open source vs closed source web analytics
+## Open source vs closed source web analytics
 
 Plausible Analytics is a fully [open-source web analytics](https://plausible.io/open-source-website-analytics) tool. Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure. Plausible can even be self-hosted for those who want to manage their own server infrastructure.
 
@@ -141,7 +141,7 @@ This is not the case with Cloudflare Analytics which is a closed source product.
 
 This doesn't necessary have to mean anything bad as Cloudflare unlike Google has no interest in the ad-tech world, it simply means that you have to put your trust in Cloudflare.
 
-### Paid vs Free (and David vs Goliath)
+## Paid vs Free (and David vs Goliath)
 
 Cloudflare Analytics is a product made by one of the largest corporations in the world. A company that has many different money-generating products which allows them to provide their analytics for free as a way to get more customers to their main line of business.
 
@@ -154,17 +154,3 @@ It costs money to develop and manage a web analytics service. This is why we cha
 Cloudflare chooses to make their web analytics a free product but they cut the costs of running that free service by using aggressive data sampling and strict data history limitations.
 
 If you're curious about Plausible Analytics, we have a 30-day free trial you can use without any restrictions or limitations. There's also no credit card required to sign up for the trial. [Learn more here](https://plausible.io/register).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
