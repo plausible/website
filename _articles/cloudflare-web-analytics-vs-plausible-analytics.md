@@ -67,7 +67,11 @@ Plausible:
 
 ![Plausible Analytics top pages](/uploads/plausible-top-pages.png)
 
-Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection.
+Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. In your list of top browsers and top operating systems, you may find "Unknown" having a decent percentage of the market share. This is normally a good sign of bot traffic.
+
+![Plausible Analytics top OS](/uploads/cloudflare-web-analytics-os.png)
+
+![Plausible Analytics top browsers](/uploads/cloudflare-web-analytics-browsers.png)
 
 Plausible Analytics doesn't use data sampling at all so all the stats in your dashboard is 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
