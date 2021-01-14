@@ -55,11 +55,17 @@ They've since removed that note from the dashboard but the stats look a bit weir
 
 What does that mean? Cloudflare Web Analytics may not show the actual stats from your site. They take a subset of all of the data they collect (1% to 10% of your total traffic), analyze it and display an assumption based on the patterns seen in the sample they analyzed.
 
-This is another great way for them to reduce their running costs for providing this free product but it leads to inaccurate data. Just compare these two charts for top pages. Same website and same time period but obviously inaccurate numbers on the Cloudflare dashboard compared to the Plausible dashboard.
+This is another great way for them to reduce their running costs for providing this free product but it leads to inaccurate data. 
 
-![Image 1](/uploads/building-plausible-september.png)
+Just compare these two charts for top pages. Same website and same time period but obviously inaccurate numbers on the Cloudflare dashboard compared to the Plausible dashboard.
 
-![Image 2](/uploads/building-plausible-september.png)
+Cloudflare:
+
+![Cloudflare Web Analytics top pages](/uploads/cloudflare-top-pages.png)
+
+Plausible:
+
+![Plausible Analytics top pages](/uploads/plausible-top-pages.png)
 
 Plausible Analytics doesn't use data sampling at all so all the stats in your dashboard is 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
