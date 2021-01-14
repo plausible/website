@@ -59,21 +59,21 @@ This is another great way for them to reduce their running costs for providing t
 
 Just compare these two charts for top pages. Same website and same time period but obviously inaccurate numbers on the Cloudflare dashboard compared to the Plausible dashboard.
 
-Cloudflare:
+Cloudflare top pages:
 
 ![Cloudflare Web Analytics top pages](/uploads/cloudflare-top-pages.png)
 
-Plausible:
+Plausible top pages:
 
 ![Plausible Analytics top pages](/uploads/plausible-top-pages.png)
 
 Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. In your list of top browsers and top operating systems, you may find "Unknown" having a decent percentage of the market share. This is normally a good sign of bot traffic.
 
-![Plausible Analytics top OS](/uploads/cloudflare-web-analytics-os.png)
+![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os.png)
 
-![Plausible Analytics top browsers](/uploads/cloudflare-web-analytics-browsers.png)
+![Cloudflare Web Analytics top browsers](/uploads/cloudflare-web-analytics-browsers.png)
 
-Plausible Analytics doesn't use data sampling at all so all the stats in your dashboard is 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
+Plausible Analytics filters out the bots and we don't use any type of data sampling at all so all the stats in your dashboard show 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
 ## Cloudflare Analytics limits you to one website only
 
