@@ -23,11 +23,11 @@ Cloudflare Analytics is a server-side analytics tool similar to server logs. You
 
 Like other server logs, Cloudflare Analytics is wildly inaccurate as all the bots and other spam is included in the stats. You can read more about [client side vs server side web analytics](https://plausible.io/blog/server-log-analysis) and the gap in the data between them.
 
-Cloudflare Analytics is a premium product for the paying customers who use their other services to improve their sites' performance and security.
+Cloudflare Analytics is a premium product for the paying customers of Cloudflare who use their other services to improve their sites' performance and security.
 
 Cloudflare has recently launched Cloudflare Web Analytics and this is their response to Google Analytics and other web analytics tools such as Plausible Analytics. 
 
-It works client side using a JavaScript script that you need to insert into your site. And unlike their other analytics product, Cloudflare Web Analytics is free to use. 
+It works client side using a JavaScript snippet that you need to insert into your site. And unlike their other analytics product, Cloudflare Web Analytics is free to use. 
 
 This is how they describe it: "Our analytics don't cookie your visitors, collect their personal information, or track them across sites. So if your site needs a cookie banner, it won't be because of us".
 
@@ -37,7 +37,7 @@ That sounds pretty much like [what Plausible does too](https://plausible.io/priv
 
 Even though both Plausible and Cloudflare Web Analytics are built to be simple to use, privacy-friendly and lightweight, there are some important differences too. Let's explore them.
 
-## Cloudflare Analytics restricts you to 7 days of data
+## Cloudflare restricts you to 7 days of data
 
 The maximum viewable range for your Cloudflare Web Analytics dashboard is 7 days. They are "working on extending the queryable time range to 30 days for Business plan users". The business plan is not free and starts at $200 per month.
 
@@ -45,13 +45,13 @@ On the free plan, you lose access to everything that happened more than a week a
 
 This is a dealbreaker for many people who use analytics. It is very common to compare larger data sets ranging from a month on month comparison, quarter on quarter or even year on year. 
 
-This may be a great way for Cloudflare to reduce their cost when providing a product free of charge but 7 or 30 days of historical data is not that useful for most site owners.
+Limiting data retention is a great way for Cloudflare to reduce their cost when providing a product free of charge but 7 or even 30 days of historical data is not that useful for most site owners.
 
-When using Plausible Analytics, there are no limitations on how much data you can store. You can view any of the data we've counted about your website since you installed the Plausible Analytics script and you can do so at any time that you wish. No data restrictions whatsoever. 
+When using Plausible Analytics, there are no limitations on how much data you can store or retain. You can view any of the data we've counted about your website since you installed the Plausible Analytics script and you can do so at any time that you wish. No data restrictions or limits whatsoever. 
 
-## Cloudflare Analytics is inaccurate
+## Cloudflare dashboard is inaccurate
 
-Some stats that Cloudflare Analytics displays are a bit weird and inaccurate. In the past, their dashboard used to have a note that all stats are "based on a 1%-10% sample of requests". 
+Some stats that Cloudflare Web Analytics displays are a bit weird and inaccurate. In the past, their dashboard used to have a note that all stats are "based on a 1%-10% sample of requests". 
 
 They've since removed that note from the dashboard but the stats look a bit weird which probably means they're still doing some kind of sampling.
 
@@ -77,13 +77,13 @@ Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't see
 
 Plausible Analytics filters out the bots and we don't use any type of data sampling at all so all the stats in your dashboard show 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
-## Cloudflare Analytics limits you to one website only
+## Cloudflare limits you to one website only
 
 You can only add one domain name or one website to your Cloudflare Analytics account. They have announced that they plan to "add support for multiple analytics properties per account" but this is not currently the case.
 
 Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account.
 
-## Cloudflare Analytics limits you to 15 items on any report
+## Cloudflare limits you to 15 items on any report
 
 You can only see the top 15 of your pages, referral sources, countries and so on in your Cloudflare Analytics dashboard. Full lists are not available which makes it difficult to work with larger data sets or sites with a higher number of visitors. 
 
@@ -98,7 +98,7 @@ The filtering process is slow and inconvenient and goes something like this. To 
 
 Plausible Analytics doesn't have any limits on the number of items we show in the individual reports. Have hundreds of pages or hundreds of referral sources? Keep scrolling within your Top Pages or Top Sources lists. Same goes for countries, goals and other metrics within other reports.
 
-## Cloudflare Analytics limits the number of insights you get access to
+## Cloudflare limits the number of insights you can get access to
 
 Cloudflare Analytics is too basic even for the [simple web analytics](https://plausible.io/simple-web-analytics) tools such as Plausible Analytics. 
 
@@ -111,7 +111,7 @@ Here are some of the metrics missing on Cloudflare Analytics compared to what yo
 * No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
 * No way to use a custom domain so the Cloudflare Analytics script is blocked by many browsers and extensions which means fewer of your visitors get counted
 
-## Cloudflare Analytics is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
+## Cloudflare is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
 
 Cloudflare Analytics JavaScript file that you need to integrate into your site to start tracking visitors is 4.3 KB.
 
