@@ -78,13 +78,13 @@ Plausible Analytics filters out the bots and we don't use any type of data sampl
 
 ## Cloudflare limits you to one website only
 
-You can only add one domain name or one website to your Cloudflare Analytics account. They have announced that they plan to "add support for multiple analytics properties per account" but this is not currently the case.
+You can only add one domain name or one website to your Cloudflare Web Analytics account. They have announced that they plan to "add support for multiple analytics properties per account" but this is not currently the case.
 
-Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account.
+Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account. Free of charge.
 
 ## Cloudflare limits you to 15 items on any report
 
-You can only see the top 15 of your pages, referral sources, countries and so on in your Cloudflare Analytics dashboard. Full lists are not available which makes it difficult to work with larger data sets or sites with a higher number of visitors. 
+You can only see the top 15 of your pages, referral sources, countries and so on in your Cloudflare Web Analytics dashboard. Full lists are not available which makes it difficult to work with larger data sets or sites with a higher number of visitors. 
 
 You could use the filter to manually input a specific page or specific referral source to try and dig those stats up but there's no easy way to discover them.
 
@@ -99,44 +99,44 @@ Plausible Analytics doesn't have any limits on the number of items we show in th
 
 ## Cloudflare limits the number of insights you can get access to
 
-Cloudflare Analytics is too basic even for the [simple web analytics](https://plausible.io/simple-web-analytics) tools such as Plausible Analytics. 
+Cloudflare Web Analytics is too basic even for the [simple web analytics](https://plausible.io/simple-web-analytics) tools such as Plausible Analytics. 
 
-Here are some of the metrics missing on Cloudflare Analytics compared to what you can get on Plausible Analytics:
+Here are some of the metrics missing on Cloudflare Web Analytics compared to what you can get on Plausible Analytics:
 
 * No live view or live dashboard so you cannot see what's happening on your site right now
 * No visit duration so you cannot figure out how long people stay on your site or judge the quality of a referral source
 * No bounce rate so you cannot analyze the quality of different pages or referral sources
-* No UTM campaign stats so you cannot track your marketing campaigns and minimize the dark traffic
+* No support for [UTM tags](https://plausible.io/blog/utm-tracking-tags) so you cannot track your marketing campaigns, emails and minimize the dark traffic
 * No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
-* No way to use a custom domain so the Cloudflare Analytics script is blocked by many browsers and extensions which means fewer of your visitors get counted
+* No way to use a custom domain to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted
 
 ## Cloudflare is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
 
-Cloudflare Analytics JavaScript file that you need to integrate into your site to start tracking visitors is 4.3 KB.
+Cloudflare Web Analytics JavaScript file that you need to integrate into your site to start tracking visitors is 4.3 KB.
 
 This is a big improvement compared to the 45.7 KB that Google Analytics integration adds to your page weight but it's still 6 times heavier than the Plausible Analytics default script which is at 0.7 KB. 
 
-Why is Cloudflare Analytics script so heavy despite not displaying much data in the dashboard? Looking at the contents of the script, they seem to be collecting a lot of data points about page loading speed and performance. 
+Why is Cloudflare Web Analytics script so heavy despite not giving you much data or insights in the dashboard? Looking at the script, they are collecting a lot of data about page loading time, web speed and site performance despite not providing you with any insights into this.
 
-This could be a feature they plan to add in the future versions of the dashboard but it is also a way for them to gather business intelligence to improve their premium products.
+These could be insights they plan to add in the future versions of the dashboard but it is also a way for them to gather business intelligence to improve their premium products and services. "Free" is pretty much never free on the web and always comes with some type of cost.
 
-If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice.
+If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice. We are transparent and only collect the data we actually display on your dashboard. We have no other agenda with your traffic.
 
 ## Different definitions of unique visitor
 
-Plausible Analytics and Cloudflare Analytics have a different definition of what a unique visitor is.
+Plausible Analytics and Cloudflare Web Analytics have different definitions of what a unique visitor is.
 
-Like Plausible Analytics, Cloudflare Analytics doesn't use cookies nor local storage to track visitors so a different method of counting is necessary.
+Like Plausible Analytics, Cloudflare Web Analytics [doesn't use cookies nor local storage to track visitors](https://plausible.io/blog/google-analytics-cookies) so a different method of counting is necessary.
  
-In Cloudflare Analytics, "a visit is a successful page view that has an HTTP referrer that doesn't match the hostname of the request".
+In Cloudflare Web Analytics, "a visit is a successful page view that has an HTTP referrer that doesn't match the hostname of the request".
 
-Basically Cloudflare Analytics counts the number of times someone landed on any page of your site from another site. They say that "you should expect this number to differ from other analytics tools". 
+Basically Cloudflare counts the number of times someone landed on any page of your site from another site. They say that "you should expect this number to differ from other analytics tools". 
 
 This is because it may differ greatly from other analytics tools depending on the type of site and audience you're attracting. 
 
-If the same person visits your site 10 times in one day, Cloudflare Web Analytics lists that visitor as 10 different unique visitors while tools such as Plausible Analytics will show that person as 1 unique visitor.
+If the same person visits your site ten times in one day, Cloudflare Web Analytics lists that person as ten unique visitors while tools such as Plausible Analytics will show that visitor as one unique.
 
-Plausible Analytics doesn't attempt to generate a device-persistent identifier either because these are considered personal data under GDPR.
+Plausible Analytics doesn't attempt to generate a device-persistent identifier either because these are considered [personal data under GDPR](https://plausible.io/blog/google-analytics-gdpr).
 
 Instead, we generate a daily changing identifier using the visitor’s IP address and User Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt. You can learn more about our method in [our data policy](https://plausible.io/data-policy).
 
@@ -144,19 +144,19 @@ Instead, we generate a daily changing identifier using the visitor’s IP addres
 
 Plausible Analytics is a fully [open-source web analytics](https://plausible.io/open-source-website-analytics) tool. Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure. Plausible can even be self-hosted for those who want to manage their own server infrastructure.
 
-This is not the case with Cloudflare Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Cloudflare Analytics script. 
+This is not the case with Cloudflare Web Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Cloudflare script.
 
 This doesn't necessary have to mean anything bad as Cloudflare unlike Google has no interest in the ad-tech world, it simply means that you have to put your trust in Cloudflare.
 
 ## Paid vs Free (and David vs Goliath)
 
-Cloudflare Analytics is a product made by one of the largest corporations in the world. A company that has many different money-generating products which allows them to provide their analytics for free as a way to get more customers to their main line of business.
+Cloudflare Web Analytics is a product made by one of the largest corporations in the world. A company that has many different money-generating products which allows them to provide analytics free of charge as a way to get more paying customers or a way to gather business intelligence to improve their services.
 
-It is also a company that is not specialized in web analytics which shows in the way they've built their analytics dashboard with inconveniences such as not having an easy access to view the data for today.
+It is also a company that is not specialized in web analytics which shows in the way they've built their analytics dashboard with inconveniences such as not having an easy access to view the stats for today.
 
-Plausible, on the other hand, is by a small, bootstrapped and independent team. And web analytics is what we do so our focus is 100% on our web analytics product. 
+Plausible Analytics, on the other hand, is made by a small, bootstrapped and independent team. And web analytics is what we do so our focus is 100% on our web analytics product. 
 
-It costs money to develop and manage a web analytics service. This is why we charge a subscription fee for our plans. It helps us run a sustainable business that we can work on full time. By using Plausible, you will support indie-developers, indie-businesses and the independent web. 
+It costs time and money to develop, manage and maintain a web analytics service. This is why we charge a fee for our subscription plans. It helps us run a sustainable business that we can work on full time. By using Plausible, you will support indie-developers, indie-businesses and the independent web. 
  
 Cloudflare chooses to make their web analytics a free product but they cut the costs of running that free service by using aggressive data sampling and strict data history limitations.
 
