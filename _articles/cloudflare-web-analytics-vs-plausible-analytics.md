@@ -98,7 +98,7 @@ The filtering process is slow and inconvenient and goes something like this. To 
 
 Plausible Analytics doesn't have any limits on the number of items we show in the individual reports. Have hundreds of pages or hundreds of referral sources? Keep scrolling within your Top Pages or Top Sources lists. Same goes for countries, goals and other metrics within other reports.
 
-## Cloudflare Analytics limits the number of metrics you can get access to
+## Cloudflare Analytics limits the number of insights you get access to
 
 Cloudflare Analytics is too basic even for the [simple web analytics](https://plausible.io/simple-web-analytics) tools such as Plausible Analytics. 
 
@@ -123,7 +123,7 @@ This could be a feature they plan to add in the future versions of the dashboard
 
 If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice.
 
-## Different definitions of what a unique visitor is
+## Different definitions of unique visitor
 
 Plausible Analytics and Cloudflare Analytics have a different definition of what a unique visitor is.
 
