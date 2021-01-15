@@ -1,9 +1,8 @@
 ---
 layout: article
 title: Cloudflare Web Analytics vs Plausible Analytics
-description: Here's a look at what Cloudflare Web Analytics does and how it
-  compares to Plausible Analytics and other analytics tools such as Google
-  Analytics.
+description: Here's a look at Cloudflare Web Analytics and how it compares to
+  Plausible Analytics and other analytics such as Google Analytics.
 permalink: /vs-cloudflare-web-analytics
 ---
 Cloudflare Web Analytics is a new player on the simple, privacy-first and de-Googled web analytics market.
