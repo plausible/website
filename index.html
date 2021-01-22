@@ -2,25 +2,25 @@
 layout: default
 ---
 
-  <div class="relative container pb-12 lg:pb-16 xl:pb-20">
-    <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+  <div class="container relative pb-12 lg:pb-16 xl:pb-20">
+    <div class="px-4 mx-auto mt-10 max-w-screen-xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
       <div class="text-center">
-        <h1 class="text-3xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">
+        <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 leading-10 sm:text-4xl sm:leading-none md:text-5xl">
           Simple and privacy-friendly
           <br class="xl:hidden" />
           <span class="text-indigo-600">alternative to Google Analytics</span>
         </h1>
-        <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        <p class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
         Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU 🇪🇺
         </p>
-        <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-          <div class="rounded-md shadow">
-            <a href="/register" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+        <div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
+          <div class="shadow rounded-md">
+            <a href="/register" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
               Get started
             </a>
           </div>
-          <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a href="/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+          <div class="mt-3 shadow rounded-md sm:mt-0 sm:ml-3">
+            <a href="/plausible.io" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
               Live demo
             </a>
           </div>
@@ -41,7 +41,7 @@ layout: default
 <div class="py-24 bg-white">
   <div style="padding-top: 36rem;"></div>
   <div class="container mx-auto">
-    <div class="prose prose-lg text-gray-600 mx-auto">
+    <div class="mx-auto text-gray-600 prose prose-lg">
       <h2>It's time to ditch Google Analytics</h2>
       <p>
       Frustrated with Google Analytics? So are we and that's why we built Plausible Analytics, a simple, lightweight (< 1 KB), open source and privacy-friendly alternative that doesn't come from the adtech world.
@@ -95,12 +95,12 @@ layout: default
 
 <div class="bg-gray-100" id="pricing">
   <div class="pt-12 sm:pt-16 lg:pt-20">
-    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
       <div class="text-center">
-        <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
+        <h2 class="text-3xl font-extrabold text-gray-900 leading-9 sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
           Simple, traffic-based pricing
         </h2>
-        <p class="mt-4 text-xl leading-7 text-gray-600">
+        <p class="mt-4 text-xl text-gray-600 leading-7">
           Sign up for 30-day unlimited trial. No credit card required.
         </p>
       </div>
@@ -111,26 +111,26 @@ layout: default
     monthlyPriceTiers = ['$6 / mo', '$12 / mo', '$18 / mo', '$27 / mo', '$48 / mo', '$69 / mo', '$99 / mo', '$150 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
     yearlyPriceTiers = ['$4 / mo', '$8 / mo', '$12 / mo', '$18 / mo', '$32 / mo', '$46 / mo', '$66 / mo', '$100 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
   </script>
-  <div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28" x-data="{volumeTier: 0, pricingYearly: false}">
+  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{volumeTier: 0, pricingYearly: false}">
     <div class="relative">
-      <div class="absolute inset-0 h-1/2 bg-gray-100"></div>
-      <div class="relative max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none">
-          <div class="bg-white px-6 py-8 lg:p-12">
-            <div class="w-full flex justify-between">
+      <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
+      <div class="relative px-4 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
+        <div class="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg lg:max-w-none">
+          <div class="px-6 py-8 bg-white lg:p-12">
+            <div class="flex justify-between w-full">
               <div>
-                <p class="text-sm leading-6 font-medium text-gray-500 uppercase tracking-wider">
+                <p class="text-sm font-medium tracking-wider text-gray-500 uppercase leading-6">
                   Monthly pageviews
                 </p>
-                <div class="text-2xl leading-none font-extrabold text-gray-900" x-text="pageviewTiers[volumeTier]">
+                <div class="text-2xl font-extrabold leading-none text-gray-900" x-text="pageviewTiers[volumeTier]">
                   10k
                 </div>
               </div>
               <div class="text-right">
-                <p class="text-sm leading-6 font-medium text-gray-500 uppercase tracking-wider">
+                <p class="text-sm font-medium tracking-wider text-gray-500 uppercase leading-6">
                   Your price
                 </p>
-                <div class="text-2xl leading-none font-extrabold text-gray-900">
+                <div class="text-2xl font-extrabold leading-none text-gray-900">
                   <span x-show="!pricingYearly" x-html="monthlyPriceTiers[volumeTier]">$6 / mo</span>
                   <span x-show="pricingYearly" style="display: none;" x-html="yearlyPriceTiers[volumeTier]">$48 / yr</span>
                 </div>
@@ -141,13 +141,13 @@ layout: default
               <input type="range" name="volume" min="0" max="8" x-model="volumeTier">
             </div>
 
-            <div class="mt-10 flex items-center justify-center">
-              <span class="text-sm text-gray-700 mr-2">Monthly billing</span>
-              <span role="checkbox" @click="pricingYearly = !pricingYearly" class="group relative inline-flex items-center justify-center flex-shrink-0 h-5 w-10 cursor-pointer focus:outline-none">
-                <span aria-hidden="true" :class="{'bg-indigo-600': pricingYearly, 'bg-gray-200': !pricingYearly}" class="bg-gray-200 absolute h-4 w-9 mx-auto rounded-full transition-colors ease-in-out duration-200"></span>
-                <span aria-hidden="true" :class="{'translate-x-5': pricingYearly, 'translate-x-0': !pricingYearly}" class="translate-x-0 absolute left-0 inline-block h-5 w-5 border border-gray-200 rounded-full bg-white shadow transform group-focus:shadow-outline group-focus:border-blue-300 transition-transform ease-in-out duration-200"></span>
+            <div class="flex items-center justify-center mt-10">
+              <span class="mr-2 text-sm text-gray-700">Monthly billing</span>
+              <span role="checkbox" @click="pricingYearly = !pricingYearly" class="relative inline-flex items-center justify-center flex-shrink-0 w-10 h-5 cursor-pointer group focus:outline-none">
+                <span aria-hidden="true" :class="{'bg-indigo-600': pricingYearly, 'bg-gray-200': !pricingYearly}" class="absolute h-4 mx-auto bg-gray-200 rounded-full w-9 transition-colors ease-in-out duration-200"></span>
+                <span aria-hidden="true" :class="{'translate-x-5': pricingYearly, 'translate-x-0': !pricingYearly}" class="absolute left-0 inline-block w-5 h-5 bg-white border border-gray-200 rounded-full shadow translate-x-0 transform group-focus:shadow-outline group-focus:border-blue-300 transition-transform ease-in-out duration-200"></span>
               </span>
-              <span class="text-sm text-gray-700 ml-2 relative">
+              <span class="relative ml-2 text-sm text-gray-700">
                 Yearly billing
                 <span class="absolute r-0 whitespace-no-wrap px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 text-yellow-800">
                   33% discount
@@ -157,7 +157,7 @@ layout: default
 
             <div class="mt-8">
               <div class="flex items-center">
-                <h4 class="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold tracking-wider text-indigo-600 uppercase bg-white leading-5">
                   What's included
                 </h4>
                 <div class="flex-1 border-t-2 border-gray-200"></div>
@@ -165,66 +165,66 @@ layout: default
               <ul class="mt-8 lg:grid lg:grid-cols-3 lg:col-gap-8 lg:row-gap-5">
                 <li class="flex items-start lg:col-span-1">
                   <div class="flex-shrink-0">
-                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm leading-5 text-gray-700">
+                  <p class="ml-3 text-sm text-gray-700 leading-5">
                   Unlimited websites
                   </p>
                 </li>
-                <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
                   <div class="flex-shrink-0">
-                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm leading-5 text-gray-700">
+                  <p class="ml-3 text-sm text-gray-700 leading-5">
                     Email/Slack reports
                   </p>
                 </li>
-                <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
                   <div class="flex-shrink-0">
-                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm leading-5 text-gray-700">
+                  <p class="ml-3 text-sm text-gray-700 leading-5">
                     100% data ownership
                   </p>
                 </li>
-                <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
                   <div class="flex-shrink-0">
-                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm leading-5 text-gray-700">
+                  <p class="ml-3 text-sm text-gray-700 leading-5">
                     Custom events*
                   </p>
                 </li>
-                <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
                   <div class="flex-shrink-0">
-                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm leading-5 text-gray-700">
+                  <p class="ml-3 text-sm text-gray-700 leading-5">
                     Custom domains
                   </p>
                 </li>
-                <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
                   <div class="flex-shrink-0">
-                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm leading-5 text-gray-700">
+                  <p class="ml-3 text-sm text-gray-700 leading-5">
                     Strong privacy protection
                   </p>
                 </li>
               </ul>
-            <div class="text-left text-xs mt-6">
+            <div class="mt-6 text-xs text-left">
               * Note that if you use the "Custom Events" feature, then these count towards your billable monthly pageviews.
             </div>
             </div>
@@ -232,7 +232,7 @@ layout: default
 
         </div>
         <div class="mt-12 text-center">
-          <a href="/register" class="px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+          <a href="/register" class="px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent leading-6 rounded-md hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
             Start your free trial
           </a>
         </div>
@@ -241,18 +241,54 @@ layout: default
   </div>
 </div>
 
-<div class="py-8 bg-white overflow-hidden md:py-12 lg:py-16">
+<div class="py-6 overflow-hidden bg-white md:py-8 lg:py-12">
   <div class="container mx-auto">
-    <h2 class="text-3xl leading-9 font-extrabold text-gray-900 text-center">
-      What people are saying
+    <h2 class="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">
+      People ❤️  Plausible
     </h2>
-    <div class="md:grid gap-4 grid-cols-3 mt-16">
+    <p class="max-w-3xl mx-auto mt-3 text-xl text-center text-gray-500 sm:mt-4">
+      Thousands of website and business owners have already made the switch from Google Analytics and other services.
+    </p>
+
+    <div class="pb-12 mt-10 bg-white sm:pb-16">
+      <div class="relative w-full">
+        <div class="mx-auto">
+          <dl class="bg-white rounded-lg sm:grid sm:grid-cols-3">
+            <div class="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
+              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
+              Tracked pageviews
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+              511,321,321
+              </dd>
+            </div>
+            <div class="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
+              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
+              Installed websites
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+              9,823
+              </dd>
+            </div>
+            <div class="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
+              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
+              Uptime (Last 90 days)
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+              99.99%
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="md:grid gap-4 grid-cols-3">
       {% for tweet in site.data.testimonials %}
         <div class="my-4 md:m-0">
-          <div class="border border-gray-100 rounded-lg p-4">
+          <div class="p-4 border border-gray-100 rounded-lg">
             <div class="flex items-center">
               <a class="flex items-center group" href="https://twitter.com/{{ tweet.author_handle }}" target="_blank">
-                <img class="rounded-full w-10" src="{{ tweet.author_img }}" />
+                <img class="w-10 rounded-full" src="{{ tweet.author_img }}" />
                 <div class="ml-2 leading-tight">
                   <div class="font-bold group-hover:text-blue-500">{{ tweet.author_name }}</div>
                   <div class="text-xs text-gray-500">@{{ tweet.author_handle }}</div>
@@ -260,7 +296,7 @@ layout: default
               </a>
               <a class="ml-auto twitter-icon" href="{{tweet.url}}" target="_blank"></a>
             </div>
-            <div class="mt-2 text-sm cursor-text tweet-text whitespace-pre-wrap">{{tweet.text}}</div>
+            <div class="mt-2 text-sm whitespace-pre-wrap cursor-text tweet-text">{{tweet.text}}</div>
           </div>
         </div>
       {% endfor %}
@@ -269,105 +305,105 @@ layout: default
 </div>
 
 <div class="bg-white">
-  <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+  <div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl leading-9 font-extrabold text-gray-900">Why use Plausible Analytics?</h2>
-      <p class="mt-4 text-lg leading-7 text-gray-500">Google Analytics is overkill for most site owners. Plausible Analytics is easy to use and understand with no training or prior experience.</p>
+      <h2 class="text-3xl font-extrabold text-gray-900 leading-9">Why use Plausible Analytics?</h2>
+      <p class="mt-4 text-lg text-gray-500 leading-7">Google Analytics is overkill for most site owners. Plausible Analytics is easy to use and understand with no training or prior experience.</p>
     </div>
     <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:col-gap-6 sm:row-gap-12 lg:grid-cols-4 lg:col-gap-8">
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Quick and easy to integrate</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Quick and easy to integrate</dt>
           <dd class="flex space-x-3 lg:py-0 lg:pb-4">
-            <span class="text-base leading-6 text-gray-500">Simple to set up and integrate with popular tools such as WordPress, Ghost, Squarespace, Wix and Weebly. Supports single-page applications and hash-based routing.</span>
+            <span class="text-base text-gray-500 leading-6">Simple to set up and integrate with popular tools such as WordPress, Ghost, Squarespace, Wix and Weebly. Supports single-page applications and hash-based routing.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Unlimited websites</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Unlimited websites</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-gray-500">All subscription plans support unlimited websites. You can add as many websites as you want under a single account. You are charged for the total pageviews of all of your websites combined.</span>
+            <span class="text-base text-gray-500 leading-6">All subscription plans support unlimited websites. You can add as many websites as you want under a single account. You are charged for the total pageviews of all of your websites combined.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Automated email reports</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Automated email reports</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-gray-500">Keep an eye on your traffic with automated weekly and/or monthly email reports. Email reports can be scheduled to be sent to multiple recipients.</span>
+            <span class="text-base text-gray-500 leading-6">Keep an eye on your traffic with automated weekly and/or monthly email reports. Email reports can be scheduled to be sent to multiple recipients.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Serve the script as a first-party connection</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Serve the script as a first-party connection</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-gray-500">You can serve our script from your domain name as a first-party connection from a subdomain such as plausible.yoursite.com or stats.yoursite.com.</span>
+            <span class="text-base text-gray-500 leading-6">You can serve our script from your domain name as a first-party connection from a subdomain such as plausible.yoursite.com or stats.yoursite.com.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Own and control your data</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Own and control your data</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-gray-500">Your site data will never be shared with or sold to any third-parties. It will never be monetized, mined and harvested for personal and behavioral trends.</span>
+            <span class="text-base text-gray-500 leading-6">Your site data will never be shared with or sold to any third-parties. It will never be monetized, mined and harvested for personal and behavioral trends.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Filter the dashboard by anything you click on</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Filter the dashboard by anything you click on</dt>
           <dd class="flex space-x-3 lg:border-t-0 lg:py-0 lg:pb-4">
-            <span class="text-base leading-6 text-gray-500">Dig more in-depth and get further insights by filtering. Click on any metric to filter your dashboard by it. You can mix and match filters too.</span>
+            <span class="text-base text-gray-500 leading-6">Dig more in-depth and get further insights by filtering. Click on any metric to filter your dashboard by it. You can mix and match filters too.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Integrate with Search Console</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Integrate with Search Console</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-gray-500">Integrate with Google Search Console to see search queries people use to find your site in Google's search results directly in your Plausible dashboard.</span>
+            <span class="text-base text-gray-500 leading-6">Integrate with Google Search Console to see search queries people use to find your site in Google's search results directly in your Plausible dashboard.</span>
           </dd>
         </div>
       </div>
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
-        <svg class="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="flex-shrink-0 w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-gray-900">Analyze your UTM campaigns</dt>
+          <dt class="text-lg font-medium text-gray-900 leading-6">Analyze your UTM campaigns</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-gray-500">Tag all your links in emails and social media with UTM parameters and analyze your marketing campaigns directly in Plausible.</span>
+            <span class="text-base text-gray-500 leading-6">Tag all your links in emails and social media with UTM parameters and analyze your marketing campaigns directly in Plausible.</span>
           </dd>
         </div>
       </div>
@@ -375,21 +411,21 @@ layout: default
   </div>
 </div>
 
-<div class="bg-gray-50 pb-12">
-  <div class="container mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-    <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-      Ready to dive in?
+<div class="pb-12 bg-gray-50">
+  <div class="container px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 leading-9 sm:text-4xl sm:leading-10">
+      Ready to ditch Google Analytics?
       <br />
       <span class="text-indigo-600">Start your free trial today.</span>
     </h3>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
-      <div class="inline-flex rounded-md shadow">
-        <a href="/register" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+    <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
+      <div class="inline-flex shadow rounded-md">
+        <a href="/register" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
           Get started
         </a>
       </div>
-      <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="/plausible.io" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+      <div class="inline-flex ml-3 shadow rounded-md">
+        <a href="/plausible.io" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
           Live demo
         </a>
       </div>
