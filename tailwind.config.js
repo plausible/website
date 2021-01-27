@@ -8,6 +8,10 @@ module.exports = {
       default: {
         css: {
           color: '#333',
+          pre: {
+            backgroundColor: null,
+            color: null
+          },
           a: {
             color: '#3182ce',
             '&:hover': {

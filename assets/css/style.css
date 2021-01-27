@@ -32,11 +32,11 @@ pre.highlight {
 }
 
 #markdown-toc {
-  @apply p-4 pl-10 border border-gray-300 my-6;
+  @apply p-4 pl-10 my-6 border border-gray-300;
 }
 
 article img {
-  @apply rounded max-w-full mt-10 mb-6;
+  @apply max-w-full mt-10 mb-6 rounded;
 }
 
 @screen lg {
@@ -49,10 +49,6 @@ article img {
 
 .prose code {
   white-space: pre-wrap;
-}
-
-.prose table {
-  @apply min-w-full bg-white shadow my-6;
 }
 
 .prose table {
@@ -70,11 +66,11 @@ article img {
 }
 
 .prose table th {
-  @apply px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider whitespace-no-wrap bg-gray-50;
+  @apply px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-600 uppercase whitespace-no-wrap border-b border-gray-200 leading-4 bg-gray-50;
 }
 
 .prose table td {
-  @apply px-6 py-4 border-b border-gray-200 text-sm leading-5 text-gray-600;
+  @apply px-6 py-4 text-sm text-gray-600 border-b border-gray-200 leading-5;
 }
 
 @tailwind utilities;

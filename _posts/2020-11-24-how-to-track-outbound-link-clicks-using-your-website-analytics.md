@@ -23,12 +23,14 @@ Outbound links have always been a big part of the open web. It's what helps peop
 ## How do you create outbound links?
 
 You create the outbound links the same way you do your inbound links. In HTML, it looks like this:
-
+```html
     <a href="https://www.url.com/">link text</a>
+```
 
 Many also set external links to be opened in new window not to lose the visitor who clicks on them. It's done like this:
-
+```html
     <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a>
+```
 
 ## What can I learn from tracking outbound link clicks?
 
@@ -97,7 +99,7 @@ The default option works for the Global Site Tag (gtag.js) Google Analytics impl
 
 ### Add the outbound link click goal in Google Analytics admin
 
-* Go into your Google Analytics Admin interface and click on "Goals". 
+* Go into your Google Analytics Admin interface and click on "Goals".
 * Then create a new goal by clicking on the "+ New Goal" button.
 * Name the goal: "Outbound Link: Click"
 * Select "Event" in the goal type
