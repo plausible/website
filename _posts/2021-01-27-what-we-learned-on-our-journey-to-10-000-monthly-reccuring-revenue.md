@@ -25,13 +25,15 @@ Here are some of the lessons we learned on our journey to $10,000 monthly reccur
 
 A few days ago, we got [17 trial signups from Google's organic search results](https://plausible.io/plausible.io?source=Google&period=day&goal=Signup&date=2021-01-21) in one day. This made me think back on the first day I started working on Plausible after joining as the co-founder: March 16th, 2020.
 
-I remember looking at our Google traffic stats on my first day. We had 0 visitors from Google on March 15th and one visitor on March 14th. There were a few 10+ visitors/day days in the previous months but no consistency and we were well below ten visitors per day on average.
+I remember looking at our Google traffic stats on my first day. We had 0 visitors from Google on March 15th and one visitor on March 14th. There were a few 10+ visitors per day occasions in the previous months but no consistency and we were well below ten visitors per day on average.
 		
 My first goal was to get 10+ visitors from Google every day consistently. Nothing grand or crazy ambitious but something that was realistic and something that would tell us that we were making progress. 
 
 We made a plan that we hoped would get us there: publish regular content and make that content as useful as possible to the audience we are trying to reach. 
 
-Then we simply started taking small, regular steps towards reaching that tiny goal. And now, some nine months later, we're at a stage where 10+ trial signups (not visitors!) from Google a day is not unusual. Google is now by far the largest source of our trial signups.
+Then we simply started taking small, regular steps towards reaching that tiny goal. And now, some nine months later, we're at a stage where 10+ trial signups (not visitors!) from Google a day is not unusual. Google is now one of our top traffic sources and by far the largest source of trial signups.
+
+![Our Google search traffic](/uploads/google-search-traffic-12-months.png)
 
 I'm a big fan of small, short-term realistic plans and quick wins rather than long-term, multi-year ambitious goals that just turn out to be guesses. 
 
@@ -107,11 +109,7 @@ Content is really what drives the growth for us. We publish regular new content 
 
 We focus on the quality of the content and publish a mix of current topics that might do well on social media and more search engine optimized stuff that focuses on problems we solve for people.
 
-Each of these pieces gives us more opportunities to get discovered on Google and other search engines. And Google is now one of our top traffic sources and our top referral source of trial signups.
-
-![Our Google search traffic](/uploads/google-search-traffic-12-months.png)
-
-In addition to potential traffic from search engines, content gives us something to submit to the various communities and niche aggregators. And people also share it in social media.
+Each of these pieces gives us more opportunities to get discovered on Google and other search engines. In addition to potential traffic from search engines, content gives us something to submit to the various communities and niche aggregators. And people also share it in social media.
 
 If you want a closer look at how we publish content, see [how we bootstrapped our startup from $400 to $2,750 MRR in 135 days without ads](https://plausible.io/blog/startup-marketing).
 
