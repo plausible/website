@@ -7,6 +7,8 @@ description: We've made it to $10,000 MRR with Plausible Analytics! Several
 slug: growing-saas-mrr
 date: 2021-01-27T09:37:15.141Z
 author: marko-saric
+image: /uploads/10k-mrr.png
+image-alt: Lessons learned on our journey to $10k MRR
 ---
 We've made it to $10,000 MRR with Plausible Analytics! Several people asked about our lessons learned, so I wanted to share some in this post.
 
