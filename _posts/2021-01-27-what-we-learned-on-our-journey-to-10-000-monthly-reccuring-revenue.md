@@ -127,7 +127,7 @@ And our "boring marketing strategy" is very efficient. Being active in different
 
 All these are great marketing channels that have helped us reach more than 450,000 people in the last 12 months and helped us grow from $400 MRR in April 2020 to more than $10,000 MRR at the time of writing.
 
-![Our total website traffic over the last year](total-traffic-last-12-months.png)
+![Our total website traffic over the last year](/uploads/total-traffic-last-12-months.png)
 
 ## A great documentation will reduce your customer support
 
