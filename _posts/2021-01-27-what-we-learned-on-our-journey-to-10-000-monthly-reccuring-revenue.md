@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What we learned on our journey to $10,000 monthly reccuring revenue
+title: What we learned on our journey to $10,000 MRR
 description: We've made it to $10,000 MRR with Plausible Analytics! Several
   people asked about our lessons learned, so I wanted to share some in this
   post.
