@@ -12,7 +12,7 @@ image-alt: Lessons learned on our journey to $10k MRR
 ---
 We've made it to $10,000 MRR with Plausible! Several people asked about our lessons learned, so I wanted to share some in this post.
 
-A little bit about our product: [Plausible Analytics](https://plausible.io/) is a simple, lightweight and privacy-first alternative to Google Analytics. We're a completely independent and bootstrapped team of two. 
+A brief introduction: [Plausible Analytics](https://plausible.io/) is a simple, lightweight and privacy-first alternative to Google Analytics. We're a completely independent and bootstrapped team of two. 
 
 As we say no to the adtech and surveillance capitalism, we also don't use Facebook and Google ads to grow Plausible. In addition to this, we're a 100% open source project that is transparent in everything we do.
 
@@ -48,7 +48,7 @@ For all the other, not so essential things, we follow the minimum viable approac
 * We use a template design (with some custom work to make it look a bit different from the default) for our home page even though we could spend a lot of money and time to have it all custom-built
 * We have a logo and some simple branding images on our site that we made ourselves even though we could spend some money and time on having a full suite of images and branding done by a professional designer
 * We use a simple CMS for our blog and content editing experience even though it's less user friendly and more cumbersome to work with than some of the more popular tools. Would be nice to make a move to something better but we've decided not to spend too much time on that
-* For our open stats details on [our about page](https://plausible.io/about) where we share numbers about our growth, we manually update the metrics once a month instead of building a proper, automatically updated integration
+* For the open stats on [our about page](https://plausible.io/about) where we share numbers about our growth, we manually update the metrics once a month instead of building a proper, automatically updated integration
 * For our usage and performance counter on the home page where we list the number of sites Plausible is installed on, the total number of pageviews counted and the uptime, we do the same. Manual update once a month
 
 None of these are perfect, but all of them are more than enough to do what we need them to do. And this allows us to fully focus on product development and improving the product, the main thing people come to us for. 
