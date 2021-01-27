@@ -105,7 +105,7 @@ I basically aim to find people saying mostly negative things about their Google 
 
 It's probably the most natural way for you to find new people interested in what you're doing - people that already talk about the problem you have a solution for. It may not be the most scalable tactic but it works and I still do it.	
 
-### Publish regular content to give yourself a chance of being discovered
+### Content gives you a chance to be discovered
 
 Content is really what drives the growth for us. We publish regular new content on our site. This includes blog posts, documentation pages, and different marketing pages about our features, usecases and problems we solve. 
 
@@ -149,7 +149,7 @@ And when hearing from people, so many have told us how useful they found the doc
 
 Growing your brand to get more social media mentions, more buzz and signups, also leads to more emails and questions, so think about how to do customer support more efficiently and not get overwhelmed. 
 
-## You don't need to charge more just because everyone says you should
+## You don't need to charge more just because everyone says so
 
 Basic and often repeated startup advice is to charge more. Add another 0 to your prices. Double it up. Things like that. That can work but you don't need to follow it despite it being very commonly given advice. Consider your market situation and your potential audience when deciding the pricing.
 
