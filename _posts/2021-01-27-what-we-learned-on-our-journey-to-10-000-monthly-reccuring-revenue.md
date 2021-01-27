@@ -65,7 +65,7 @@ People are familiar with the big name you are up against, so instead of pretendi
 
 What we now have on the top of our home page is very clear and easy to understand within seconds:
 
-> "Simple and privacy-friendly alternative to Google Analytics. Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU 🇪🇺"
+> Simple and privacy-friendly alternative to Google Analytics. Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU 🇪🇺
 
 And we keep repeating this and similar messages throughout our communication. It never gets boring.
 
@@ -135,7 +135,7 @@ I never understood the value of documentation until I started working on the [Pl
 
 The top of [our "Contact" page says](https://plausible.io/contact): 
 
-> "Our Documentation is a great place for most answers, but if you can't find your answer there, please do contact us using the email address below". 
+> Our Documentation is a great place for most answers, but if you can't find your answer there, please do contact us using the email address below.
 
 We also link to our documentation prominently for our logged in users.
 
