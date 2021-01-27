@@ -16,7 +16,7 @@ A brief introduction: [Plausible Analytics](https://plausible.io/) is a simple, 
 
 As we say no to the adtech and surveillance capitalism, we also don't use Facebook and Google ads to grow Plausible. In addition to this, we're a 100% open source project that is transparent in everything we do.
 
-Here are some of the lessons we learned on our journey to $10,000 monthly reccuring revenue.
+Here are some of the lessons we learned on our journey to $10,000 monthly recurring revenue.
 
 1. Ordered list
 {:toc}
@@ -87,7 +87,7 @@ We focus on a small number of things but we try to do them really well:
 
 [My co-founder Uku](https://twitter.com/ukutaht) has been building the product for more than 2 years. I've been building the brand, content and social presence for 9 months full-time. Most of Uku's time is writing code and most of my time is writing content and interacting on social.
 
-No tricks. Just putting one foot in front of the other every day and focusing on the marathon not the sprint. Sometimes people see our recent success and think that it came overnight. In reality, we have invested thousands of hours of coding and writing to get to this point.
+No tricks. Just putting one foot in front of the other every day and focusing on the marathon not the sprint. Sometimes people see our recent success and think that it came overnight. In reality, we have invested thousands of hours of coding and writing in getting to this point.
 
 Here's a bit more on how we monitor the conversation around the web and how we publish content:
 
@@ -125,7 +125,7 @@ I often hear that you cannot grow your startup when you don't have a marketing t
 
 At Plausible, we're indie hackers. We have no external funding so we're completely self-funded and made sustainable by our subscribers' fees. 
 
-Are we crazy to reject all the venture funds that regularly knock on our door? We think not and we believe it is the time for more startups to do things patiently and differently.
+Are we crazy to reject all the venture funds that regularly knock on our door? We don't think so and we believe it is time for more startups to do things patiently and differently.
 
 Having no investors means that we don't have easy money we can throw at Google and Facebook funding them to do the marketing work for us. Our marketing budget is $0 if you don't account for our own time. That doesn't stop us from growing and from doing marketing though.
 
@@ -171,7 +171,7 @@ At first, I wasn't sure if it was a good idea to reduce the amount of time I spe
 
 The early work was focused on increasing brand awareness and attracting people to try Plausible and now that so many people are showing interest, we better treat them nicely and give them a great experience so they also stick with us.
 
-And now people that try Plausible and have a great and useful experience transitioning from Google Analytics, they help drive the word of mouth and proactive marketing buzz for us.
+And now people who try Plausible and have a great and useful experience transitioning from Google Analytics help drive word of mouth and proactive marketing buzz for us.
 
 ## Don't be worried about being transparent and open source 
 
@@ -181,7 +181,7 @@ Many indie hackers have asked whether being transparent or open source is the wa
 
 My general advice is that being transparent and open is a great way to build trust and a great way to incentivize others to look at your project, share it, use it or even contribute to it. 
 
-So if being open source and transparent is something that speaks to you, do go ahead with it without being too worried about the "...but what if...". We've shared some of our [lessons learned of building an open source project](https://plausible.io/blog/building-open-source) and I recommend you review them.
+So if being open source and transparent is something that speaks to you, go ahead without being too worried about the "...but what if...". We've shared some of our [lessons learned of building an open source project](https://plausible.io/blog/building-open-source) and I recommend you review them.
 
 ## Look for help
 
@@ -195,4 +195,4 @@ And with the two of us clearly focused on different but equally important tasks 
 
 That doesn't mean that you do need to find a co-founder for your project but it can certainly help you speed up the progress.
 
-Good luck on reaching $10k MRR with your own project and have fun on this amazing journey!
+Good luck on reaching $10k MRR with your project and have fun on this fantastic journey!
