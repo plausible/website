@@ -115,13 +115,15 @@ In addition to potential traffic from search engines, content gives us something
 
 If you want a closer look at how we publish content, see [how we bootstrapped our startup from $400 to $2,750 MRR in 135 days without ads](https://plausible.io/blog/startup-marketing).
 
-## You don't need big resources 
+## You don't need big resources and investors
 
 I often hear that you cannot grow your startup when you don't have a marketing team or don't have an advertising budget. It is a mistake to think like that. 
 
 At Plausible, we're indie hackers. We have no external funding so we're completely self-funded and made sustainable by our subscribers' fees. 
 
-This means that we don't have easy money given to us by investors so we can throw it at Google and Facebook to do the marketing work for us. Our marketing budget is $0 if you don't account for our own time. That doesn't stop us from growing and from doing marketing though.
+Are we crazy rejecting all the venture funds that regularly knock on our door? We think not and we believe it is the time for more startups to do things patiently and differently.
+
+Having no investors means that we don't have easy money we can throw at Google and Facebook funding them to do the marketing work for us. Our marketing budget is $0 if you don't account for our own time. That doesn't stop us from growing and from doing marketing though.
 
 And our "boring marketing strategy" is very efficient. Being active in different niche communities is free. So is being involved in social media. So is writing blog posts and sharing them with various niche aggregators.
 
