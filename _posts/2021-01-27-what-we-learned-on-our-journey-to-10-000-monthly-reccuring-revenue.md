@@ -107,7 +107,9 @@ Content is really what drives the growth for us. We publish regular new content 
 
 We focus on the quality of the content and publish a mix of current topics that might do well on social media and more search engine optimized stuff that focuses on problems we solve for people.
 
-Each of these pieces gives us more opportunities to get discovered on Google and other search engines. And Google is now our top referral source of trial signups.
+Each of these pieces gives us more opportunities to get discovered on Google and other search engines. And Google is now one of our top traffic sources and our top referral source of trial signups.
+
+![Our Google search traffic](/uploads/google-search-traffic-12-months.png)
 
 In addition to potential traffic from search engines, content gives us something to submit to the various communities and niche aggregators. And people also share it in social media.
 
@@ -124,6 +126,8 @@ This means that we don't have easy money given to us by investors so we can thro
 And our "boring marketing strategy" is very efficient. Being active in different niche communities is free. So is being involved in social media. So is writing blog posts and sharing them with various niche aggregators.
 
 All these are great marketing channels that have helped us reach more than 450,000 people in the last 12 months and helped us grow from $400 MRR in April 2020 to more than $10,000 MRR at the time of writing.
+
+![Our total website traffic over the last year](total-traffic-last-12-months.png)
 
 ## A great documentation will reduce your customer support
 
