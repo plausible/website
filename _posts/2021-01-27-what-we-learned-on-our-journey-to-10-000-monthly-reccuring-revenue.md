@@ -49,7 +49,7 @@ For all the other, not so essential things, we follow the minimum viable approac
 * We have a logo and some simple branding images on our site that we made ourselves even though we could spend some money and time on having a full suite of images and branding done by a professional designer
 * We use a simple CMS for our blog and content editing experience even though it's less user friendly and more cumbersome to work with than some of the more popular tools. Would be nice to make a move to something better but we've decided not to spend too much time on that
 * For the open stats on [our about page](https://plausible.io/about) where we share numbers about our growth, we manually update the metrics once a month instead of building a proper, automatically updated integration
-* For the popularity and performance counter on our home page where we list the number of sites Plausible is installed on, the total number of pageviews counted and the uptime, we do the same. Manual update once a month for a handmade counter:
+* For the "social proof" counter on our home page where we list the number of sites Plausible is installed on, the total number of pageviews counted and the uptime, we do the same. Manual update once a month for a handmade counter:
 
 ![Our fancy, handmade counter](/uploads/people-plausible-counter.png)
 
@@ -159,17 +159,17 @@ An important consideration for us was the fact that Google Analytics is free of 
 
 To incentivize more of the site owners to ditch Google, we wanted to offer fair and affordable prices. And so we did. Our plans start at $6 per month and there's even a generous discount on annual billing.
 
-This price point is much more attractive to many site owners who have never paid for analytics and would never consider switching to an alternative if they had to pay 5x or 10x more. We aim to always keep a fairly priced entry point to give site owners of smaller sites a chance to de-Google too.
+This price point is much more attractive to many site owners who have never paid for analytics and would never consider switching to an alternative if they had to pay 5x or 10x more. We aim to always keep a fairly priced entry point to give owners of smaller sites a chance to de-Google too.
 
 ## Be flexible and adaptable in what you work on
 
-The first few months after I joined Plausible as a co-founder I spent 90% of my time on writing new content and reaching out to people and websites trying to get traction. 
+The first few months after I joined Plausible, I spent 90% of my time on writing new content and reaching out to people and websites trying to get traction. 
 
 More recently, as our marketing activities succeeded and we now have some traction, 90% of my time is spent on community management, public relations and customer support talking to people that reach out to us.
 
 At first, I wasn't sure if it was a good idea to reduce the amount of time I spend on proactive marketing activities and spend that time on the more reactive tasks. Now I see it as a natural part of the journey.
 
-The early work was focused on attracting so many people to discover and try Plausible and now they're coming in so we better treat them nicely and give them a great experience so they also stick with us.
+The early work was focused on increasing brand awareness and attracting people to try Plausible and now that so many people are showing interest, we better treat them nicely and give them a great experience so they also stick with us.
 
 And now people that try Plausible and have a great and useful experience transitioning from Google Analytics, they help drive the word of mouth and proactive marketing buzz for us.
 
@@ -181,15 +181,15 @@ Many indie hackers have asked whether being transparent or open source is the wa
 
 My general advice is that being transparent and open is a great way to build trust and a great way to incentivize others to look at your project, share it, use it or even contribute to it. 
 
-So if being open source and transparent is something that speaks to you, do go ahead with it without being too worried about the "...but what if...". We've shared some of our [lessons learned of building an open source project](https://plausible.io/blog/building-open-source) and I would recommend you review them.
+So if being open source and transparent is something that speaks to you, do go ahead with it without being too worried about the "...but what if...". We've shared some of our [lessons learned of building an open source project](https://plausible.io/blog/building-open-source) and I recommend you review them.
 
 ## Look for help
 
-Running, developing and growing a startup in a competitive market such as web analytics is challenging. There are many other indie hacking projects, many other established alternatives and several major tech companies offering analytics too. 
+Running, developing and growing a startup in a competitive market such as web analytics is challenging. There are many other indie hacking projects, many established alternatives and several major tech companies offering analytics too. 
 
 My co-founder Uku started developing Plausible and growing it on his own in December 2018. Just over a year into his journey, he decided that he needed some help in order to make Plausible sustainable and something that can become a viable project.
 
-So he reached out to me and we started working together. Uku could now focus completely on the design and development of the product, while I could take care of the marketing, growing, community management and customer support. We've shared more details on this in [our Changelog Podcast appearance](https://plausible.io/blog/changelog-podcast). 
+So he reached out to me and we started working together. Uku could now focus completely on the design and development of the product, while I could take care of the marketing, community management and customer support. We've shared more details on this in [our Changelog Podcast appearance](https://plausible.io/blog/changelog-podcast). 
 
 And with the two of us clearly focused on different but equally important tasks (development and marketing), we were able to make so much more progress than what anyone can do on their own. 
 
