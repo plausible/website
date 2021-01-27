@@ -31,7 +31,7 @@ My first goal was to get 10+ visitors from Google every day consistently. Nothin
 
 We made a plan that we hoped would get us there: publish regular content and make that content as useful as possible to the audience we are trying to reach. 
 
-Then we simply started taking small, regular steps towards reaching that tiny goal. And now, some nine months later, we're at a stage where 10+ trial signups (not visitors!) from Google a day is not unusual. Google is now one of our top traffic sources and by far the largest source of trial signups.
+Then we simply started taking small, regular steps towards reaching that tiny goal. And now, some nine months later, we're at a stage where 10+ trial signups (not visitors!) from Google a day is not unusual. Google is one of our top traffic sources now and you can see [our growth here](https://plausible.io/plausible.io?period=12mo&source=Google).
 
 ![Our Google search traffic](/uploads/google-search-traffic-12-months.png)
 
@@ -109,7 +109,11 @@ Content is really what drives the growth for us. We publish regular new content 
 
 We focus on the quality of the content and publish a mix of current topics that might do well on social media and more search engine optimized stuff that focuses on problems we solve for people.
 
-Each of these pieces gives us more opportunities to get discovered on Google and other search engines. In addition to potential traffic from search engines, content gives us something to submit to the various communities and niche aggregators. And people also share it in social media.
+Each of these pieces gives us more opportunities to get discovered on Google and other search engines. And search engines are the best source of "quality" traffic to our website with Google being the top source of [trial signups too](https://plausible.io/plausible.io?period=12mo&goal=Signup).
+
+![Google is our top trial source](/uploads/top-sources-of-trial-signups.png)
+
+In addition to potential traffic from search engines, content gives us something to submit to the various communities and niche aggregators. And people also share it in social media.
 
 If you want a closer look at how we publish content, see [how we bootstrapped our startup from $400 to $2,750 MRR in 135 days without ads](https://plausible.io/blog/startup-marketing).
 
@@ -125,7 +129,7 @@ Having no investors means that we don't have easy money we can throw at Google a
 
 And our "boring marketing strategy" is very efficient. Being active in different niche communities is free. So is being involved in social media. So is writing blog posts and sharing them with various niche aggregators.
 
-All these are great marketing channels that have helped us reach more than 450,000 people in the last 12 months and helped us grow from $400 MRR in April 2020 to more than $10,000 MRR at the time of writing.
+All these are great marketing channels that have helped us [reach more than 450,000 people in the last 12 months](https://plausible.io/plausible.io?period=12mo) and helped us grow from $400 MRR in April 2020 to more than $10,000 MRR at the time of writing.
 
 ![Our total website traffic over the last year](/uploads/total-traffic-last-12-months.png)
 
