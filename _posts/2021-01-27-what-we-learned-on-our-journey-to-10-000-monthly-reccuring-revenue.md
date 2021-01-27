@@ -121,7 +121,7 @@ I often hear that you cannot grow your startup when you don't have a marketing t
 
 At Plausible, we're indie hackers. We have no external funding so we're completely self-funded and made sustainable by our subscribers' fees. 
 
-Are we crazy rejecting all the venture funds that regularly knock on our door? We think not and we believe it is the time for more startups to do things patiently and differently.
+Are we crazy to reject all the venture funds that regularly knock on our door? We think not and we believe it is the time for more startups to do things patiently and differently.
 
 Having no investors means that we don't have easy money we can throw at Google and Facebook funding them to do the marketing work for us. Our marketing budget is $0 if you don't account for our own time. That doesn't stop us from growing and from doing marketing though.
 
