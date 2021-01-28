@@ -9,7 +9,7 @@ permalink: /self-hosted-web-analytics
 
 The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
 
-And you can now self-host Plausible Analytics on your server too.
+We offer [Plausible Analytics as a managed service in the cloud](https://plausible.io) but if you're happy to manage your own infrastructure, you can also self-host Plausible on your server.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://docs.plausible.io/self-hosting" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Installation docs</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
 
@@ -23,9 +23,7 @@ There is only one version of Plausible Analytics. Both our Cloud and our Self-Ho
 
 You get the same fast-loading dashboard, same actionable metrics and same commitment to [respecting the privacy of your visitors](https://plausible.io/privacy-focused-web-analytics) with both.
 
-We started developing Plausible in early 2019 and we launched our SaaS subscription business in May 2019. The project is very much alive, actively developed and fast growing. It is robust and battle-tested too. 
-
-Plausible Analytics is installed on more than 5,000 websites and we’ve counted 240 million page views until now, 180 million of those in the last three months alone. 
+We started developing Plausible in December 2018 and we launched our SaaS subscription business in May 2019. The project is very much alive, actively developed and fast growing. It is robust and battle-tested too. 
 
 Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 
@@ -37,7 +35,7 @@ Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 | **Storage** | We keep your site data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.|
 | **Raw data** | You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. You can only see the stats aggregated in the dashboard. | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
 | **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. | You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.|
-| **Releases** | Continuously developed and improved with new features and frequent updates. | Latest features won't be immediately available as they're battled-tested in the cloud before released to self-hosted.|
+| **Releases** | Continuously developed and improved with new features and frequent updates. | [It's a long term release](https://plausible.io/blog/building-open-source) so latest features won't be immediately available as they're battled-tested in the cloud before released to self-hosted.|
 
 ## How can you be sustainable if you're giving your software for free?
 
@@ -51,7 +49,7 @@ While Plausible Analytics is an open source software that you can self-host for 
 
 We are not interested in raising funds or taking investment either. Plausible is completely independent and bootstrapped. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to open source full time.
 
-If you choose to self-host Plausible you can [become a sponsor](https://github.com/sponsors/plausible) and support Plausible with a donation.
+If you choose to self-host Plausible you can [become a sponsor](https://github.com/sponsors/plausible) which is a great way to give back to the community and to contribute to the long-term sustainability of the project. Simply put, we treat sponsors like paying customers which means you can receive guaranteed priority support.
 
 For more views on the topic of open source funding, see [how to pay your rent with your open source project](https://plausible.io/blog/open-source-funding).
 
