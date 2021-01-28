@@ -11,7 +11,7 @@ The site owner gets some actionable data to help them learn and improve, while t
 
 We offer [Plausible Analytics as a managed service in the cloud](https://plausible.io) but if you're happy to manage your own infrastructure, you can also self-host Plausible on your server.
 
-<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://docs.plausible.io/self-hosting" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Installation docs</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
+<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://plausible.io/docs/self-hosting" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Installation docs</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
 
 ![Plausible: Self-hosted Google Analytics alternative](/assets/images/privacy-focused-web-analytics.png "Plausible: Self-hosted Google Analytics alternative")
 
@@ -73,4 +73,4 @@ Plausible is open-source under the GNU Affero General Public License Version 3 (
 
 ## How do I self-host Plausible Analytics?
 
-This is the free as in beer and free as in speech version of Plausible Analytics. Here's [how you can install Plausible Analytics Self-Hosted on your own server](https://docs.plausible.io/self-hosting).
+This is the free as in beer and free as in speech version of Plausible Analytics. Here's [how you can install Plausible Analytics Self-Hosted on your own server](https://plausible.io/docs/self-hosting).
