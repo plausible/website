@@ -1,6 +1,7 @@
 ---
 layout: change
 title: Get traffic spike notifications via email or Slack
+date: 2020-12-15
 ---
 You can now get an email (or a Slack alert) when there's an unusually high number of current visitors on your site 🚀
 

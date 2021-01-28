@@ -1,6 +1,7 @@
 ---
 layout: change
 title: Sticky header is here for easier filtering
+date: 2020-12-29
 ---
 You told us you loved the sticky header concept so it is now live! 😍 It makes it easier to:
 
