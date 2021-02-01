@@ -25,16 +25,6 @@ We donâ€™t make money by selling or sharing your data, or abusing your visitorâ€
 
 Since we don't make money from advertising, we need to charge a fee to keep the project going. This is why Plausible Analytics Cloud is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism. 
 
-## Open startup
-
-Everything we do is transparent and in the open. We share [our website traffic stats](https://plausible.io/plausible.io) with the public, we share our revenue numbers with the public, we share [our development work](https://github.com/plausible/analytics/issues) with the public and [our roadmap too](https://plausible.io/roadmap).
-
-**Our current MRR is $9,519 with 1540 paying subscribers** (last updated on January 4th, 2021). MRR stands for Monthly Recurring Revenue and it measures the total amount of subscription revenue that we expect on a monthly basis.
-
-Plausible Analytics is installed on 9,120 websites and we've counted 171,811,460 pageviews in the month of December 2020. We've counted more than 500 million pageviews in the last six months in total. That's half a billion pageviews fewer going to the surveillance capitalism!
-
-If you're curious and want to follow us on this journey, take a look at our social media profiles [on Twitter](https://twitter.com/plausiblehq) and [on Mastodon](https://fosstodon.org/@plausible).
-
 ## Is it possible to have privacy-friendly web analytics?
 
 [We founded Plausible Analytics](https://plausible.io/blog/the-analytics-tool-i-want) to create a privacy-friendly alternative to very popular and widely used surveillance capitalism web analytics tools that are installed and tracking user behavior on the majority of websites online.
