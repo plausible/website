@@ -73,10 +73,13 @@ If we want to see more FOSS that can compete with the alternatives made by surve
 
 We will keep this page updated with the latest numbers and we'll also announce initiatives and projects we will donate to when we have finalized those. 
 
-Plausible 5% fund to date:
+"Plausible 5% for the environment and open source" donation fund to date:
 
-* January 2021: $842
+Month | Donation
+------ | ------
+January 2021  | $842  
+Total to date | $842  
 
-Our "Plausible 5% for the environment and open source" donation fund is currently at $842 total. We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund by the end of the year 2021. No questions asked.
+We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund by the end of the year 2021. No questions asked.
 
 Every Plausible Analytics subscriber contributes to our fund. Thank you for supporting us and for helping us make a bit of a difference!
