@@ -34,7 +34,7 @@ And our stories are not uncommon. To work on something new, to try and make a di
 
 By us being in control of the decisions and the direction we want to take Plausible in, we don't need to cut corners or force things to achieve our personal goals. And we can still do our tiny bit to help and give back to the initiatives that we care about.
 
-And sustainability is the purpose of our donation fund. We'd like to contribute to our planet's sustainability and the sustainability of other open source projects that we rely on.
+This is why we have sustainability as the purpose of our donation fund. We'd like to contribute to our planet's sustainability and the sustainability of other open source projects that we rely on.
 
 ## We dedicate 5% of our gross revenue to environmental causes and open source projects
 
