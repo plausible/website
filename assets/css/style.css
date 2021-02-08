@@ -51,26 +51,12 @@ article img {
   white-space: pre-wrap;
 }
 
-.prose table {
-  max-width: 100%;
-  overflow-x: auto;
-  display: block;
-}
-
-@screen lg {
-  .prose table {
-    max-width: unset;
-    width: 150%;
-    margin-left: -25%;
-  }
-}
-
 .prose table th {
-  @apply px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-600 uppercase whitespace-no-wrap border-b border-gray-200 leading-4 bg-gray-50;
+  @apply px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-700 uppercase whitespace-no-wrap border-b border-gray-200 leading-4 bg-gray-50;
 }
 
 .prose table td {
-  @apply px-6 py-4 text-sm text-gray-600 border-b border-gray-200 leading-5;
+  @apply px-6 py-4 text-sm text-gray-700 border-b border-gray-200 leading-5;
 }
 
 @tailwind utilities;
