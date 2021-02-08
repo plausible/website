@@ -18,14 +18,14 @@ The goal of Plausible is to track overall trends in your website traffic, it is 
 
 By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page. Here is the complete list of what we collect and store about your website visitors:
 
-| Data point | Example | Comment |
-|---|---|---|---|---|
-| **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=`, `utm_source=`, `utm_medium=` and `utm_campaign=`. |
-| **HTTP Referer** | _https://facebook.com_ | We use the referrer string to show you the number of visitors referred to your website from links on other sites. |
-| **Browser** | _Chrome 86.0_ | We use this to show you what browsers and browser version numbers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
-| **Operating system** | _macOS 10.15_ | We use this to show you what operating systems people use when visiting your website. We show the brand of the operating system and the version number. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
-| **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
-| **Visitor Country**  | _United Kingdom_ | We look up the visitor's country using their IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
+  | Data point | Example | Comment |
+  |---|---|---|---|---|
+  | **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=`, `utm_source=`, `utm_medium=` and `utm_campaign=`. |
+  | **HTTP Referer** | _https://facebook.com_ | We use the referrer string to show you the number of visitors referred to your website from links on other sites. |
+  | **Browser** | _Chrome 86.0_ | We use this to show you what browsers and browser version numbers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
+  | **Operating system** | _macOS 10.15_ | We use this to show you what operating systems people use when visiting your website. We show the brand of the operating system and the version number. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
+  | **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
+  | **Visitor Country**  | _United Kingdom_ | We look up the visitor's country using their IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
 
 ## How we count unique users without cookies
 
@@ -63,7 +63,7 @@ You don’t have to worry about Schrems II and that it invalidates the EU-US Pri
 
 When you use our service to measure your website stats, Plausible Analytics will collect information about your visitors. You entrust us with your site data and we take that trust to heart. The privacy of your site data — and it is your data, not ours! — is a big deal to us.
 
-By using Plausible, you keep 100% ownership of your website data. Although when using our hosted service, your site analytics are stored on our server in the cloud, you remain completely in control of your site data and you fully own all of your data too. 
+By using Plausible, you keep 100% ownership of your website data. Although when using our hosted service, your site analytics are stored on our server in the cloud, you remain completely in control of your site data and you fully own all of your data too.
 
 You own all right, title, and interest to your website data. We obtain no rights from you to your website data. We will never sell or share your site data to any third-parties.
 
