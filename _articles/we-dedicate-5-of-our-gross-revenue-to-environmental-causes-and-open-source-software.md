@@ -12,6 +12,8 @@ At Plausible Analytics, we're very fortunate to have reached sustainability with
 
 It's a dream and a fantastic feeling that allows us to start thinking about giving back. Today, we're announcing our pledge and commitment to give back 5% of our gross revenue to the environmental causes and open source software.
 
+![Plausible is giving back](/uploads/google-analytics-alternatives.png "Plausible is giving back")
+
 1. Ordered list
 {:toc}
 
