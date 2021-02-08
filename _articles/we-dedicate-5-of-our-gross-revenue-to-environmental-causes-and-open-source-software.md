@@ -1,7 +1,6 @@
 ---
 layout: article
-title: We dedicate 5% of our gross revenue to environmental causes and open
-  source software
+title: 5% of our gross revenue goes to environmental causes and open source
 description: This is our pledge and commitment to give back 5% of our gross
   revenue to the environmental causes and open source software.
 permalink: /giving-back
