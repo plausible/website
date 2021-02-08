@@ -9,7 +9,7 @@ Working on and growing a bootstrapped, self-funded and open source startup is no
 
 At Plausible Analytics, we're very fortunate to have reached sustainability with [our recent $10,000 monthly recurring revenue milestone](https://plausible.io/blog/growing-saas-mrr). We're a team of two, we're based in the EU and at these levels, we can pay our rent and other bills from the salaries we get for the work we do on open source software.
 
-It's a dream and a fantastic feeling that allows us to start thinking about giving back. Today, we're announcing our pledge and commitment to give back 5% of our gross revenue to the environmental causes and open source software.
+It's a dream come true and a fantastic feeling that allows us to start thinking about giving back. Today, we're announcing our pledge and commitment to give back 5% of our gross revenue to the environmental causes and open source software.
 
 ![Plausible is giving back](/uploads/google-analytics-alternatives.png "Plausible is giving back")
 
