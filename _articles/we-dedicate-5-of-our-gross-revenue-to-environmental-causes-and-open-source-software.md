@@ -9,7 +9,7 @@ Working on and growing a bootstrapped, self-funded and open source startup is no
 
 At Plausible Analytics, we're very fortunate to have reached sustainability with [our recent $10,000 monthly recurring revenue milestone](https://plausible.io/blog/growing-saas-mrr). We're a team of two, we're based in the EU and at these levels, we can pay our rent and other bills from the salaries we get for the work we do on open source software.
 
-It's a dream come true and a fantastic feeling that allows us to start thinking about giving back. Today, we're announcing our pledge and commitment to give back 5% of our gross revenue to the environmental causes and open source software.
+It's a dream come true and a fantastic feeling that allows us to start thinking about giving back. So we're now announcing our pledge and commitment to give back 5% of our gross revenue to the environmental causes and open source software.
 
 ![Plausible is giving back](/uploads/google-analytics-alternatives.png "Plausible is giving back")
 
@@ -42,7 +42,9 @@ Because of our fortunate MRR position, we can now start contributing back. This 
 
 We've started this commitment on January 1st, 2021. We're allocating 5% of our gross revenue into a separate account every month. We'll distribute and donate 100% of what we have in that account at some point at the start of the next year.
 
-All Plausible Analytics subscribers contribute to this fund and together we can make a little bit of a difference. As usual with Plausible, we will do it all with full transparency and openness to our supporters. We will pick a mix of environmental causes and open source software to donate to. And we will announce it all here.
+All Plausible Analytics subscribers contribute to this fund and together we can make a little bit of a difference. And the price you pay for your Plausible subscription doesn't change.
+
+As usual with Plausible, we will do it all with full transparency and openness to our supporters. We will pick a mix of environmental causes and open source software to donate to. And we will announce it all here.
 
 ### The environmental causes 
 
