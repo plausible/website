@@ -40,13 +40,13 @@ This is why we have sustainability as the purpose of our donation fund. We'd lik
 
 Because of our fortunate MRR position, we want to start contributing back. This is why we're announcing that we're taking 5% of our total revenue and giving it back.
 
-We've started this commitment on January 1st, 2021. We're allocating 5% of our gross revenue into a separate account every month. We'll distribute and donate 100% of what we have in that account at some point before the end of this year.
+We've started this commitment on January 1st, 2021. We're allocating 5% of our gross revenue into a separate account every month. We'll distribute and donate 100% of what we have in that account at some point at the start of the next year.
 
 As usual with Plausible, we will do it all with full transparency and openness to our supporters. We will pick a mix of environmental causes and open source software to donate to. And we will announce it all here.
 
 ### The environmental causes 
 
-Plausible Analytics has always been a project very conscious about how we as humans impact our planet and the environment. We're 100% powered by renewable energy and we've taken many steps to be as lightweight as possible both on our own website, our stats dashboard and the script that people place on their sites.
+Plausible Analytics has always been a project very conscious about how we as humans impact our planet and the environment. Our servers are 100% powered by renewable energy and we've taken many steps to be as lightweight as possible both on our own website, our stats dashboard and the script that people place on their sites.
 
 Plausible Analytics script weights less than 1 KB, which is 45 times smaller than the Google Analytics Global Site Tag script. Plausible will reduce your page weight, keep your site loading fast and reduce your electricity usage.
 
@@ -66,7 +66,9 @@ We're now up on nine $5/month donations and we're grateful to the people who dec
 
 The fact is that it's easier to find a Google Analytics user, tell them about Plausible, let them have the trial and become a paying subscriber than it is to get a person who's self-hosting Plausible to [donate to the long-term sustainability of the project](https://github.com/sponsors/plausible). 
 
-From speaking to other open source maintainers, we are not an exception to this phenomenon. Possible reasons for why this may be are a topic for another post but it means that we're aware of this major issue that other open sources projects face too.
+From speaking to other open source maintainers, we are not an exception to this phenomenon. Possible reasons for why this may be are a topic for another post but it means that we're very aware of this major issue that other open sources projects face too.
+
+We're lucky to have a more straight-forward business model for Plausible but many open source projects that we rely on such as developer tools like languages and databases don't have a simple way to fund their activities. They are almost exclusively donation-funded projects.
 
 If we want to see more open source software that can compete with the alternatives made by surveillance capitalism, users and projects that can afford to should donate and pay for open source software. And we are doing so too.
 
@@ -81,6 +83,6 @@ Month | Donation
 January 2021  | $842  
 Total to date | $842 
 
-We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund by the end of the year 2021. No questions asked.
+We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund at the start of 2022. No questions asked.
 
 Every Plausible Analytics subscriber contributes to our fund. Thank you for supporting us and for helping us make a bit of a difference!
