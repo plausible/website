@@ -1,2 +1,3 @@
 /changes.txt
   Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=300; includeSubDomains;
