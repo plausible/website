@@ -68,7 +68,7 @@ The fact is that it's easier to find a Google Analytics user, tell them about Pl
 
 From speaking to other open source maintainers, we are not an exception to this phenomenon. Possible reasons for why this may be are a topic for another post but it means that we're aware of this major issue that other open sources projects face too.
 
-If we want to see more FOSS that can compete with the alternatives made by surveillance capitalism, open source users and projects that can afford to should consider donating to open source software. And we are doing so too.
+If we want to see more open source software that can compete with the alternatives made by surveillance capitalism, users and projects that can afford to should donate and pay for open source software. And we are doing so too.
 
 ## Plausible 5% fund: Numbers to date
 
