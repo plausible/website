@@ -30,7 +30,7 @@ Just because you take a risk and start working on a startup doesn't stop the bil
 
 My personal goal for this year would be to pay all my bills and other personal expenses from my Plausible salary, recover the savings lost in the first year and hopefully start saving money again. This is something that is now a realistic goal.
 
-And our stories are not uncommon. To work on something new, to try and make a difference in your own way for the things you care about, many people and teams put a lot of their time and resources. And only some can tell the story of making it work too.
+And our stories are not uncommon. To work on something new, to try and make a difference in your own way to the things you care about, many people and teams sacrifice a lot of their time and resources. And only some can tell the story of making it work too.
 
 By us being in control of the decisions and the direction we want to take Plausible in, we don't need to cut corners or force things to achieve our personal goals. And we can still do our tiny bit to help and give back to the initiatives that we care about.
 
@@ -38,19 +38,19 @@ This is why we have sustainability as the purpose of our donation fund. We'd lik
 
 ## We dedicate 5% of our gross revenue to environmental causes and open source projects
 
-Because of our fortunate MRR position, we want to start contributing back. This is why we're announcing that we're taking 5% of our total revenue and giving it back.
+Because of our fortunate MRR position, we can now start contributing back. This is why we're announcing that we're taking 5% of our total revenue and giving it back.
 
 We've started this commitment on January 1st, 2021. We're allocating 5% of our gross revenue into a separate account every month. We'll distribute and donate 100% of what we have in that account at some point at the start of the next year.
 
-As usual with Plausible, we will do it all with full transparency and openness to our supporters. We will pick a mix of environmental causes and open source software to donate to. And we will announce it all here.
+All Plausible Analytics subscribers contribute to this fund and together we can make a little bit of a difference. As usual with Plausible, we will do it all with full transparency and openness to our supporters. We will pick a mix of environmental causes and open source software to donate to. And we will announce it all here.
 
 ### The environmental causes 
 
-Plausible Analytics has always been a project very conscious about how we as humans impact our planet and the environment. Our servers are 100% powered by renewable energy and we've taken many steps to be as lightweight as possible both on our own website, our stats dashboard and the script that people place on their sites.
+Plausible Analytics has always been a project very conscious about how we as humans impact our planet and the environment. The web itself consumes a lot of electricity. It has a bigger carbon footprint than the whole airline industry or the entire United Kingdom.
 
-The internet consumes a lot of electricity. It has a bigger carbon footprint than the whole airline industry or the entire United Kingdom.
+Plausible Analytics servers are 100% powered by renewable energy and we've taken many steps to be as lightweight as possible both on our own website, our stats dashboard and the script that people place on their sites.
 
-Plausible Analytics script weights less than 1 KB, which is 45 times smaller than the Google Analytics Global Site Tag script. Plausible will reduce your page weight, keep your site loading fast and reduce your electricity usage.
+Our script weights less than 1 KB, which is 45 times smaller than the Google Analytics Global Site Tag script. Using Plausible will reduce your page weight, keep your site loading fast and reduce your electricity usage.
 
 A site with 10,000 monthly visitors can save more than 4.5 kg of CO2 emissions per year by replacing Google Analytics with Plausible Analytics. And with Plausible now installed on more than 10,000 sites and counting hundreds of millions of page views every month, this adds up. You can read more about what makes Plausible a [lightweight web analytics](https://plausible.io/lightweight-web-analytics) solution.
 
@@ -58,7 +58,7 @@ The environmental causes and projects we will donate to remain to be decided. We
 
 ### Open source software projects 
 
-On the open source side of things, we want to donate to the projects we stand on the shoulders of. The full list of projects remains to be decided.
+On the open source side of things, we want to donate to the giants whose shoulders we stand on. The full list of projects remains to be decided.
 
 Running an open source project, we're very aware of how tough it is to [pay your rent](https://plausible.io/blog/open-source-funding) when the only accepted funding model is donations. Maintaining open source software is a thankless, time-consuming job. We released our code on GitHub and made it easy to self-host on principle, not because it's a profitable business.
 
