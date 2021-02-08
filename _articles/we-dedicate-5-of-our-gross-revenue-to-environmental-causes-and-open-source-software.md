@@ -76,12 +76,10 @@ We will keep this page updated with the latest numbers and we'll also announce i
 
 "Plausible 5% for the environment and open source" donation fund to date:
 
-<p style="text-align: center;">
 Month | Donation
 ------ | ------
 January 2021  | $842  
 Total to date | $842 
-</p>
 
 We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund by the end of the year 2021. No questions asked.
 
