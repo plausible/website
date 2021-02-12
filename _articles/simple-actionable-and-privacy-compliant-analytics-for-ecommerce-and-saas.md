@@ -33,7 +33,11 @@ You get actionable insights at a glance to analyze and understand the effectiven
 
 And much more. You can see [our live demo](https://plausible.io/plausible.io) for full details on actionable metrics you get access to. 
 
-## Track marketing campaigns using UTM tags
+## Follow the user journey from paid ad to conversion
+
+With Plausible Analytics, you can follow the user journey from a paid advertising campaign to a conversion on your website. You do that by tagging your marketing campaigns with UTM tags and by setting up custom goals on your site:
+
+### 1. Track marketing campaigns using UTM tags
 
 UTM parameters are a useful tool for businesses. They help you get more insights into the dark traffic and identify specific campaigns or pieces of content that deliver the best conversions. 
 
@@ -51,7 +55,7 @@ When you have tagged links in your email campaigns and social media advertising,
 
 See "[how to use UTM parameters to track your campaigns and understand the dark traffic](https://plausible.io/blog/utm-tracking-tags)".
 
-## Goal and event tracking
+### 2. Set up custom goals and events to track conversions
 
 With Plausible Analytics, you can set up the goal and event tracking to figure out your conversion rates and understand the percentage of visitors who sign up for your service or buy your product.
 
