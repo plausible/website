@@ -17,7 +17,7 @@ We are completely independent, self-funded and bootstrapped. The legal entity is
 
 Plausible Analytics development started in December 2018 and we launched our product in April 2019. While Plausible is an open source software that you can self-host on your server, we also sell a hosted, plug and play solution as a SaaS.
 
-Our goal is to grow a [sustainable open-source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
+We run a [sustainable open source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time. It also allows us to allocate [5% of our gross revenue](https://plausible.io/giving-back) to give back to the environmental causes and open source projects that we rely on.
 
 We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. 
 
