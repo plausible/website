@@ -106,13 +106,18 @@ Learn more in: "[How to track, identify and fix 404 error pages on your website]
 
 ## Serve the script as a first-party connection from your domain name
 
-If you'd like to serve our script as a first party connection from your subdomain (such as plausible.yourdomain.com or stats.yourdomain.com), you need to enable the custom domain feature in your Plausible Analytics account. We offer a quick and easy way to do that. Here's how:
+Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your subdomain. 
+
+We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you wan
+
+What's the benefit of using a custom domain feature? Your site looks like it has no third-party connections and you get more accurate stats as by running Plausible as a first-party you avoid some of the adblockers.
+
+To get started with the custom domain, you need to enable this feature in your Plausible Analytics account. Here's how:
 
 * Click on the "Add custom domain" button in the "Custom domain" section of your website settings to get started
 
 ![Add custom domain](/docs/img/custom-domain.png)
 
-* We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com. The name of the subdomain can be anything that you want
 * Type in your subdomain in the "Domain" field and click on the "DNS setup" button
 
 ![Add custom domain](/docs/img/setup-custom-domain.png)
