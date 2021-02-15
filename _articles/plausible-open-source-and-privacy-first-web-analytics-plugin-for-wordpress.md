@@ -19,17 +19,17 @@ Plausible Analytics is an open source web analytics plugin for WordPress that is
 
 Plausible Analytics is built to be a more modern [alternative to Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics solutions. Here's what makes us different:
 
-* Plausible unlike Google Analytics doesn't use cookies and doesn't track any personal data. You don't need to bother your visitors with GDPR consent banners. Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
+* Plausible, unlike Google Analytics, doesn't use cookies and doesn't track any personal data. You don't need to bother your visitors with GDPR consent banners. Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
 
-* Plausible unlike Google Analytics is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Our script is under 1 KB in weight which is 45 times more lightweight than the Google Analytics script. Your site will not be slowed down
+* Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Our script is under 1 KB in size, which is 45 times more lightweight than the Google Analytics script. Plausible will not slow down your site
 
-* Plausible unlike Google Analytics is [simple to use](https://plausible.io/simple-web-analytics) and get useful insights from. All the main metrics are displayed on one page including top pages, top referral sources, external link clicks and goal conversions. 
+* Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions. 
 
 * Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can review our code and contribute to the development. You can even self-host Plausible on your server and manage your infrastructure
 
 ## What are the other features of Plausible Analytics for WordPress?
 
-* Our WordPress plugin excludes your own visits to your website from being counted in your analytics by default
+* Our WordPress plugin excludes your visits to your website from being counted in your analytics by default
 * We make it easy to track 404 error pages that people visit so you can fix them and redirect them to more appropriate pages
 * We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
 * We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers 
@@ -49,7 +49,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 
 ![Activate our WordPress plugin](/uploads/activate-our-wordpress-plugin.png)
 
-* "Plausible Analytics" entry will now show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the different options available
+* "Plausible Analytics" entry will now show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the various options available
 * Select the options that you want and click on the "Save Changes" button
 * If you have a cache plugin activated, do purge the cache just in case
 
@@ -119,29 +119,30 @@ If you'd like to serve our script as a first party connection from your subdomai
 
 * Next, you need to go to your DNS provider’s website and create a new CNAME record for your chosen subdomain. Please check with your DNS provider's documentation on how you can create a new CNAME record
 * Point the CNAME record to **custom.plausible.io.** (including the last dot) and then click on the "Done" button on the Plausible Analytics website
-* In most cases this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain
-* The setup is completed and ready to use when your subdomain loads our JavaScript file (yoursubdomain.yourdomain.com/js/index.js)
+
+In most cases, this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain.
+
+The setup is complete and ready to use when your subdomain loads our JavaScript file (yoursubdomain.yourdomain.com/js/index.js).
+
 * When your subdomain loads our script, go into your Plausible Analytics WordPress plugin settings
 * Enable the "Custom Domain" section and type in your chosen subdomain
 * Click on the "Save Changes" button
 * If you have a cache plugin activated, do purge the cache just in case
 
-That's it! You are now counting your visitors using the Plausible Analytics script which is loading as a first-party conection from your domain name.
+That's it! You are now counting your visitors using the Plausible Analytics script which is loading as a first-party connection from your domain name.
 
 See more on how to "[Serve the script from your domain as a first-party connection](https://plausible.io/docs/custom-domain)"
 
 ## How to exclude admins from being tracked
 
-By default, our WordPress plugin excludes your own visits from being counted in the stats. 
-
-However, if you'd like to count your own visits, you can enable the tracking for yourself too.
+By default, our WordPress plugin excludes your own visits from being counted in the stats. However, if you'd like to count your visits, you can enable this.
 
 ## Contribute to the development of our WordPress plugin
 
-Thanks to [Mehul Gohil](https://mehulgohil.com/) for helping us build the Plausible Analytics WordPress plugin and for keeping it up to date with the latest features that we add to Plausible Analytics.
+Thanks to [Mehul Gohil](https://mehulgohil.com/) for building the Plausible Analytics WordPress plugin and for keeping it up to date.
 
-You too can contribute to our Plausible Analytics WordPress plugin on GitHub. You can add your feature requests, upvote existing request or even contribute with your own code.
+You can contribute to our WordPress plugin too. Add your feature requests, upvote existing request or even contribute with your code.
 
-This is [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
+Here's [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
 
-And if you're enjoying Plausible Analytics and our plugin? Please consider leaving a comment on our page in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/).
+Enjoying Plausible Analytics and our WordPress plugin? Please consider leaving a comment on our page in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/).
