@@ -70,7 +70,7 @@ Outbound link clicks won’t show up automatically in your Plausible dashboard. 
 
 ![Visit the "Goals" section in your Plausible account](/docs/img/goal-conversions.png)
 
-* Select Custom event as the goal trigger and enter this exact name: ``Outbound Link: Click``.
+* Select Custom event as the goal trigger and enter this exact name: `Outbound Link: Click`.
 
 ![Select Custom event and create a goal](/docs/img/outbound-link-click-goal.png)
 
@@ -92,7 +92,7 @@ Plausible Analytics plugin can help you identify those broken links and 404 page
 
 * To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
 * Click on the "+ Add goal" button to go to the goal creation form.
-* Select Custom event as the goal trigger and enter this exact name: ``404``.
+* Select Custom event as the goal trigger and enter this exact name: `404`.
 
 ![Select Custom event and create a 404 goal](/docs/img/404-error-pages-goal.png)
 
@@ -103,12 +103,6 @@ After you've completed this process, all the 404 error pages will start being tr
 Click on "404" to see the full list of all visits on all error pages and have your dashboard filtered by error pages only. Click on a particular error page URL to filter the dashboard by those clicks only and get the full overview of that specific URL. Then you can figure out how your visitors discover the broken links and fix them.
 
 Learn more in: "[How to track, identify and fix 404 error pages on your website](https://plausible.io/blog/track-404-errors)"
-
-### How to exclude admins from being tracked
-
-By default, our WordPress plugin excludes your own visits from being counted in the stats. 
-
-However, if you'd like to count your own visits, you can enable the tracking for yourself too.
 
 ### How to serve our script as a first-party connection from your domain name
 
@@ -133,6 +127,14 @@ If you'd like to serve our script as a first party connection from your subdomai
 * If you have a cache plugin activated, do purge the cache just in case
 
 That's it! You are now counting your visitors using the Plausible Analytics script which is loading as a first-party conection from your domain name.
+
+See more on how to "[Serve the script from your domain as a first-party connection](https://plausible.io/docs/custom-domain)"
+
+### How to exclude admins from being tracked
+
+By default, our WordPress plugin excludes your own visits from being counted in the stats. 
+
+However, if you'd like to count your own visits, you can enable the tracking for yourself too.
 
 ## Contribute to the development of the Plausible Analytics WordPress plugin
 
