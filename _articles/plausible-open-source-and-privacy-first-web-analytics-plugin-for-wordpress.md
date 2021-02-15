@@ -108,7 +108,7 @@ Learn more in: "[How to track, identify and fix 404 error pages on your website]
 
 Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your subdomain. 
 
-We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you wan
+We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you want.
 
 What's the benefit of using a custom domain feature? Your site looks like it has no third-party connections and you get more accurate stats as by running Plausible as a first-party you avoid some of the adblockers.
 
@@ -140,7 +140,9 @@ See more on how to "[Serve the script from your domain as a first-party connecti
 
 ## How to exclude admins from being tracked
 
-By default, our WordPress plugin excludes your own visits from being counted in the stats. However, if you'd like to count your visits, you can enable this.
+By default, our WordPress plugin excludes your own visits from being counted in the stats. 
+
+However, if you'd like to count your visits, you can enable this. Switch on the "Track analytics for administrator" feature.
 
 ## Contribute to the development of our WordPress plugin
 
