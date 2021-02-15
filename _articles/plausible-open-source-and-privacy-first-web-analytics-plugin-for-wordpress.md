@@ -63,13 +63,20 @@ There are some optional Plausible features that we recommend you enable too. Her
 
 Outbound link clicks won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up.
 
-To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section. 
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form.
 
-Click on the "+ Add goal" button to go to the goal creation form.
+![Visit the "Goals" section in your Plausible account](/docs/img/goal-conversions.png)
 
-Select Custom event as the goal trigger and enter this exact name: Outbound Link: Click.
+* Select Custom event as the goal trigger and enter this exact name: Outbound Link: Click.
 
-Next, click on the "Add goal" button and you’ll be taken back to the Goals page. After you've completed this process, all the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
+![Select Custom event and create a goal](/docs/img/outbound-link-click-goal.png)
+
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page. 
+
+After you've completed this process, all the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
 
 ### How to track 404 error pages
 
