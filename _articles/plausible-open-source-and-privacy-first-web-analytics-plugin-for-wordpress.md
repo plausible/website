@@ -36,13 +36,19 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
  
 ## How to install Plausible Analytics WordPress plugin
 
-You can install the Plausible Analytics plugin in the "Plugins" section in the left-hand side navigation within your WordPress dashboard.
+Here's how you can install the Plausible Analytics plugin on your WordPress site:
 
-Click on "Add New", in the search field in the top right, search for the name of the plugin (Plausible Analytics) and click on the "Install Now" button.
+* Go into the "Plugins" section in the left-hand side navigation within your WordPress dashboard
+* Click on "Add New"
+* In the search box in the top right, type "Plausible Analytics" and press enter
+* Click on the "Install Now" button
+* After the installation is finished, click on the "Activate" button
+* "Plausible Analytics" entry will now show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the different options available
+* Select the options that you want and click on the "Save Changes" button
+* If you have a cache plugin enabled, do purge the cache just in case
+* You are now counting your site stats with a privacy-first web analytics tool and can go to your Plausible account to view the dashboard
 
-After the installation is finished, click on the "Activate" button.
-
-"Plausible Analytics" will now show up in the "Settings" section in the left-hand side navigation within your WordPress dashboard. Click on it to explore the different options available.
+There are some optional Plausible features that we recommend you enable too. Here's a look at those.
 
 ### How to track external link clicks 
 
