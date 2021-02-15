@@ -8,7 +8,7 @@ permalink: /wordpress-analytics-plugin
 ---
 Plausible Analytics is an open source web analytics plugin for WordPress that is a simple to use, lightweight (< 1 KB) and privacy-friendly Google Analytics alternative.
 
-<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">View on WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">View live demo</a> </div> </div>
+<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
 ![Plausible Analytics WordPress plugin](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics WordPress plugin")
 
@@ -84,6 +84,8 @@ After you've completed the setup process on our website, you can then switch on 
 
 ## Contribute to the development of the Plausible Analytics WordPress plugin
 
-You can contribute to the Plausible Analytics WordPress plugin on GitHub. You can add your feature requests, upvote existing request or even contribute with your own code.
+Thanks to [Mehul Gohil](https://mehulgohil.com/) for helping us build the Plausible Analytics WordPress plugin and for keeping it up to date with the latest features.
+
+You too can contribute to our Plausible Analytics WordPress plugin on GitHub. You can add your feature requests, upvote existing request or even contribute with your own code.
 
 This is [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
