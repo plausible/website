@@ -59,22 +59,22 @@ That's it! You are now counting your site stats with a privacy-first web analyti
 
 There are some optional Plausible features that we recommend you enable too. Here's a look at those.
 
-### How to track external link clicks 
+## How to track external link clicks 
 
-Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your WordPress analytics? Plausible Analytics plugin can help you automate external link click tracking on your WordPress site..
+Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your WordPress analytics? Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
 
 Outbound link clicks won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
 
-* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section. 
-* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form.
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
 
 ![Visit the "Goals" section in your Plausible account](/docs/img/goal-conversions.png)
 
-* Select Custom event as the goal trigger and enter this exact name: `Outbound Link: Click`.
+* Select Custom event as the goal trigger and enter this exact name: **Outbound Link: Click**
 
 ![Select Custom event and create a goal](/docs/img/outbound-link-click-goal.png)
 
-* Next, click on the "Add goal" button and you’ll be taken back to the Goals page. 
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
 
 After you've completed this process, all the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
@@ -82,7 +82,7 @@ You'll see "Outbound Link: Click" goal as soon as the first external link click 
 
 Learn more in "[How to track outbound link clicks using your website analytics](https://plausible.io/blog/track-outbound-link-clicks)"
 
-### How to track 404 error pages
+## How to track 404 error pages
 
 Having 404 error pages on your WordPress site can lead to a bad user experience, a negative first impression, and even damage your search engine rankings and traffic you get from Google.
 
@@ -90,13 +90,13 @@ Plausible Analytics plugin can help you identify those broken links and 404 page
 
 404 error pages won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up. Here's how:
 
-* To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
-* Click on the "+ Add goal" button to go to the goal creation form.
-* Select Custom event as the goal trigger and enter this exact name: `404`.
+* To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal
+* Click on the "+ Add goal" button to go to the goal creation form
+* Select Custom event as the goal trigger and enter this exact name: **404**
 
 ![Select Custom event and create a 404 goal](/docs/img/404-error-pages-goal.png)
 
-* Next, click on the "Add goal" button and you'll be taken back to the Goals page. 
+* Next, click on the "Add goal" button and you'll be taken back to the Goals page 
 
 After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "404" goal as soon as the first visit on an error page has been tracked.
 
@@ -104,25 +104,25 @@ Click on "404" to see the full list of all visits on all error pages and have yo
 
 Learn more in: "[How to track, identify and fix 404 error pages on your website](https://plausible.io/blog/track-404-errors)"
 
-### How to serve our script as a first-party connection from your domain name
+## How to serve our script as a first-party connection from your domain name
 
 If you'd like to serve our script as a first party connection from your subdomain (such as plausible.yourdomain.com or stats.yourdomain.com), you need to enable the custom domain feature in your Plausible Analytics account. We offer a quick and easy way to do that. Here's how:
 
-* Click on the "Add custom domain" button in the "Custom domain" section of your website settings to get started.
+* Click on the "Add custom domain" button in the "Custom domain" section of your website settings to get started
 
 ![Add custom domain](/docs/img/custom-domain.png)
 
-* We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com. The name of the subdomain can be anything that you want. 
-* Type in your subdomain in the "Domain" field and click on the "DNS setup" button.
+* We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com. The name of the subdomain can be anything that you want
+* Type in your subdomain in the "Domain" field and click on the "DNS setup" button
 
 ![Add custom domain](/docs/img/setup-custom-domain.png)
 
-* Next, you need to go to your DNS provider’s website and create a new CNAME record for your chosen subdomain. Please check with your DNS provider's documentation on how you can create a new CNAME record.
-* Point the CNAME record to custom.plausible.io. (including the last dot) and then click on the "Done" button on the Plausible Analytics website.
-* In most cases this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain.
-* The setup is completed and ready to use when your subdomain loads our JavaScript file (yoursubdomain.yourdomain.com/js/index.js).
-* When your subdomain loads our script, go into your Plausible Analytics WordPress plugin settings.
-* Enable the "Custom Domain" section and type in your chosen subdomain.
+* Next, you need to go to your DNS provider’s website and create a new CNAME record for your chosen subdomain. Please check with your DNS provider's documentation on how you can create a new CNAME record
+* Point the CNAME record to **custom.plausible.io.** (including the last dot) and then click on the "Done" button on the Plausible Analytics website
+* In most cases this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain
+* The setup is completed and ready to use when your subdomain loads our JavaScript file (yoursubdomain.yourdomain.com/js/index.js)
+* When your subdomain loads our script, go into your Plausible Analytics WordPress plugin settings
+* Enable the "Custom Domain" section and type in your chosen subdomain
 * Click on the "Save Changes" button
 * If you have a cache plugin activated, do purge the cache just in case
 
@@ -130,7 +130,7 @@ That's it! You are now counting your visitors using the Plausible Analytics scri
 
 See more on how to "[Serve the script from your domain as a first-party connection](https://plausible.io/docs/custom-domain)"
 
-### How to exclude admins from being tracked
+## How to exclude admins from being tracked
 
 By default, our WordPress plugin excludes your own visits from being counted in the stats. 
 
