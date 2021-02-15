@@ -1,17 +1,19 @@
 ---
 layout: post
-title: How to use UTM parameters to track your campaigns and understand the dark
-  traffic
+title: How to use UTM parameters to track your marketing campaigns and
+  understand the dark traffic
 description: Plausible Analytics has full UTM tags support out-of-the-box to
-  help you track your marketing campaigns with a fast and easy to understand
-  dashboard.
+  help you track your paid marketing campaigns with a fast and easy to
+  understand dashboard.
 slug: utm-tracking-tags
 date: 2020-09-29T15:06:06.455Z
 author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
 ---
-UTM parameters are a useful tool for business owners. They can help you get more insights into the dark traffic and identify specific campaigns or pieces of content that deliver the best conversions. [Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box to help you in this process. Let's take a closer look.
+UTM parameters are a useful tool for business owners. They can help you get more insights into the dark traffic, track paid marketing campaigns, newsletters and identify specific pieces of social media content that deliver the best conversions. 
+
+[Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box to help you track your marketing campaigns from click to conversion. Let's take a closer look.
 
 1. Ordered list
 {:toc}
