@@ -144,7 +144,7 @@ Simply tag all the links in the different guest posts and other syndication acti
 
 ### UTM tags are case-sensitive
 
-UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` will show separately in your analytics dashboard. Be consistent in your UTM naming practices such as by keeping all tag names in lower case to make it easier to analyze results.
+UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` will show separately in your analytics dashboard. Be consistent in your UTM naming practices. Keep all the tag names consistent to keep your dashboard clean and tidy and make it easier to analyze results.
 
 ### Plausible merges UTM tags that are identical to referral sources
 
@@ -154,6 +154,8 @@ For instance, clicks that you get from Twitter which are not tagged by UTMs are 
 
 This is in order to make it easier for you to keep track and get a combined overview of all the clicks from Twitter. When you click on the "Source" tab, we only show those clicks coming from `utm_source=Twitter` itself. 
 
+And note again that UTM tags are case-sensitive so `utm_source=twitter` with lowercase t doesn't get merged with Twitter with uppercase T.
+
 Here are the referral header names for other popular websites so do aim to name your utm_source with identical names:
 
 * Facebook
@@ -161,14 +163,15 @@ Here are the referral header names for other popular websites so do aim to name 
 * Twitter
 * LinkedIn
 * Reddit
+* Google
 
 ### You cannot use spaces in UTM tags
 
-You cannot just include `utm_medium=social paid` as spaces are not supported. Either call it `utm_medium=social-paid` or `utm_medium=social+paid`. 
+You cannot just include `utm_medium=social paid` as spaces are not supported. Either call it `utm_medium=social-paid`, `utm_medium=social+paid` or `utm_medium=social%20paid`.
 
 ### Plausible converts plus signs into spaces
 
-We recommend the plus sign as Plausible will automatically convert those into spaces. For instance, if you use `social+paid` in your links, it will be displayed as `social paid` in your Plausible Analytics dashboard.
+We recommend the plus sign or `%20` as Plausible will automatically convert those into spaces. For instance, if you use `social+paid` or `social%20paid` in your links, it will be displayed as `social paid` in your Plausible Analytics dashboard.
 
 ### Note the standard URL syntax for query strings
 
