@@ -112,9 +112,27 @@ However, if you'd like to count your own visits, you can enable the tracking for
 
 ### How to serve our script as a first-party connection from your domain name
 
-If you'd like to serve our script as a first party connection from your subdomain (such as plausible.yourdomain.com or stats.yourdomain.com), you need to enable the custom domain feature in your Plausible Analytics account. You can see the instructions here.
+If you'd like to serve our script as a first party connection from your subdomain (such as plausible.yourdomain.com or stats.yourdomain.com), you need to enable the custom domain feature in your Plausible Analytics account. We offer a quick and easy way to do that. Here's how:
 
-After you've completed the setup process on our website, you can then switch on the custom domain feature in our WordPress plugin too.
+* Click on the "Add custom domain" button in the "Custom domain" section of your website settings to get started.
+
+![Add custom domain](/docs/img/custom-domain.png)
+
+* We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com. The name of the subdomain can be anything that you want. 
+* Type in your subdomain in the "Domain" field and click on the "DNS setup" button.
+
+![Add custom domain](/docs/img/setup-custom-domain.png)
+
+* Next, you need to go to your DNS provider’s website and create a new CNAME record for your chosen subdomain. Please check with your DNS provider's documentation on how you can create a new CNAME record.
+* Point the CNAME record to custom.plausible.io. (including the last dot) and then click on the "Done" button on the Plausible Analytics website.
+* In most cases this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain.
+* The setup is completed and ready to use when your subdomain loads our JavaScript file (yoursubdomain.yourdomain.com/js/index.js).
+* When your subdomain loads our script, go into your Plausible Analytics WordPress plugin settings.
+* Enable the "Custom Domain" section and type in your chosen subdomain.
+* Click on the "Save Changes" button
+* If you have a cache plugin activated, do purge the cache just in case
+
+That's it! You are now counting your visitors using the Plausible Analytics script which is loading as a first-party conection from your domain name.
 
 ## Contribute to the development of the Plausible Analytics WordPress plugin
 
