@@ -30,8 +30,8 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 ## What are the other features of Plausible Analytics for WordPress?
 
 * Our WordPress plugin excludes your own visits to your website from being counted in your analytics by default
-* We make it easy to [track 404 error pages](https://plausible.io/blog/track-404-errors) that people visit so you can fix them and redirect them to more appropriate pages
-* We make it easy to [track clicks on external links](https://plausible.io/blog/track-outbound-link-clicks) so you can see which of your affiliate links are more popular than others
+* We make it easy to track 404 error pages that people visit so you can fix them and redirect them to more appropriate pages
+* We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
 * We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers 
  
 ## How to install Plausible Analytics WordPress plugin
@@ -61,7 +61,9 @@ There are some optional Plausible features that we recommend you enable too. Her
 
 ### How to track external link clicks 
 
-Outbound link clicks won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up.
+Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your WordPress analytics? Plausible Analytics plugin can help you automate external link click tracking on your WordPress site..
+
+Outbound link clicks won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
 
 * To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section. 
 * You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form.
@@ -78,19 +80,29 @@ After you've completed this process, all the external link clicks will start bei
 
 You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
 
+Learn more in "[How to track outbound link clicks using your website analytics](https://plausible.io/blog/track-outbound-link-clicks)"
+
 ### How to track 404 error pages
 
-404 error pages won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up.
+Having 404 error pages on your WordPress site can lead to a bad user experience, a negative first impression, and even damage your search engine rankings and traffic you get from Google.
 
-To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
+Plausible Analytics plugin can help you identify those broken links and 404 page not found errors.
 
-Click on the "+ Add goal" button to go to the goal creation form.
+404 error pages won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up. Here's how:
 
-Select Custom event as the goal trigger and enter this exact name: 404.
+* To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
+* Click on the "+ Add goal" button to go to the goal creation form.
+* Select Custom event as the goal trigger and enter this exact name: 404.
 
-Next, click on the "Add goal" button and you'll be taken back to the Goals page. After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "404" goal as soon as the first visit on an error page has been tracked.
+![Select Custom event and create a 404 goal](/docs/img/404-error-pages-goal.png)
+
+* Next, click on the "Add goal" button and you'll be taken back to the Goals page. 
+
+After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "404" goal as soon as the first visit on an error page has been tracked.
 
 Click on "404" to see the full list of all visits on all error pages and have your dashboard filtered by error pages only. Click on a particular error page URL to filter the dashboard by those clicks only and get the full overview of that specific URL. Then you can figure out how your visitors discover the broken links and fix them.
+
+Learn more in: "[How to track, identify and fix 404 error pages on your website](https://plausible.io/blog/track-404-errors)"
 
 ### How to exclude admins from being tracked
 
