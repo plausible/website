@@ -70,7 +70,7 @@ Outbound link clicks won’t show up automatically in your Plausible dashboard. 
 
 ![Visit the "Goals" section in your Plausible account](/docs/img/goal-conversions.png)
 
-* Select Custom event as the goal trigger and enter this exact name: Outbound Link: Click.
+* Select Custom event as the goal trigger and enter this exact name: ```Outbound Link: Click```.
 
 ![Select Custom event and create a goal](/docs/img/outbound-link-click-goal.png)
 
@@ -92,7 +92,7 @@ Plausible Analytics plugin can help you identify those broken links and 404 page
 
 * To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
 * Click on the "+ Add goal" button to go to the goal creation form.
-* Select Custom event as the goal trigger and enter this exact name: 404.
+* Select Custom event as the goal trigger and enter this exact name: ```404```.
 
 ![Select Custom event and create a 404 goal](/docs/img/404-error-pages-goal.png)
 
