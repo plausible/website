@@ -104,7 +104,7 @@ Click on "404" to see the full list of all visits on all error pages and have yo
 
 Learn more in: "[How to track, identify and fix 404 error pages on your website](https://plausible.io/blog/track-404-errors)"
 
-## How to serve our script as a first-party connection from your domain name
+## Serve the script as a first-party connection from your domain name
 
 If you'd like to serve our script as a first party connection from your subdomain (such as plausible.yourdomain.com or stats.yourdomain.com), you need to enable the custom domain feature in your Plausible Analytics account. We offer a quick and easy way to do that. Here's how:
 
@@ -136,10 +136,12 @@ By default, our WordPress plugin excludes your own visits from being counted in 
 
 However, if you'd like to count your own visits, you can enable the tracking for yourself too.
 
-## Contribute to the development of the Plausible Analytics WordPress plugin
+## Contribute to the development of our WordPress plugin
 
-Thanks to [Mehul Gohil](https://mehulgohil.com/) for helping us build the Plausible Analytics WordPress plugin and for keeping it up to date with the latest features.
+Thanks to [Mehul Gohil](https://mehulgohil.com/) for helping us build the Plausible Analytics WordPress plugin and for keeping it up to date with the latest features that we add to Plausible Analytics.
 
 You too can contribute to our Plausible Analytics WordPress plugin on GitHub. You can add your feature requests, upvote existing request or even contribute with your own code.
 
 This is [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
+
+And if you're enjoying Plausible Analytics and our plugin? Please consider leaving a comment on our page in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/).
