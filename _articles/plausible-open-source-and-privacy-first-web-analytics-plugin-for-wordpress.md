@@ -29,7 +29,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism
 
-* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can subscribe and the plans start at $6/month or $4/month when billed annually all based on the number of page views your sites have
+* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can subscribe. The plans start at $6/month or $4/month when billed annually and are based on the number of page views your sites have
 
 ## What are the other features of Plausible Analytics for WordPress?
 
@@ -38,7 +38,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
 * We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers 
  
-## Hot to get started with Plausible Analytics
+## How to get started with Plausible Analytics
 
 To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial. There are no restrictions on your usage during the free trial and no credit card is required to sign up.
 
