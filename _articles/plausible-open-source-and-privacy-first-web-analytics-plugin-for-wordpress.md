@@ -23,9 +23,13 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Our script is under 1 KB in size, which is 45 times more lightweight than the Google Analytics script. Plausible will not slow down your site
 
-* Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions. 
+* Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions
 
 * Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can review our code and contribute to the development. You can even self-host Plausible on your server and manage your infrastructure
+
+* Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism. We're operating a sustainable project funded solely by the fees that our subscribers pay us
+
+* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can subscribe and the tiers start at $6/month or $4/month when billed annually all based on the number of pageviews your sites have
 
 ## What are the other features of Plausible Analytics for WordPress?
 
@@ -34,6 +38,26 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
 * We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers 
  
+## Hot to get started with Plausible Analytics
+
+To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial. There are no restrictions on your usage during the free trial and no credit card is required to sign up.
+
+[Click here to register](https://plausible.io/register). It is a simple process and we only ask for your name and email address.
+
+![Register your Plausible account](/docs/img/register-account.png)
+
+After you verify your email address, you need to enter the domain name of the website you want to track. 
+
+Please, remove https and www from the URL, just keep the hostname (yourdomain.com). For example, if your site is https://www.yourdomain.com then the part to enter in the "Domain" field is yourdomain.com.
+
+If you would like to track a subdomain such as blog.yourdomain.com then please include the subdomain. Plausible Analytics essentially sees different subdomains as different sites.
+
+For example, if your subdomain is https://blog.yourdomain.com then the part to enter in the "Domain" field is blog.yourdomain.com.
+
+![Enter the domain name of the website you want to track](/docs/img/website-details.png)
+
+That's it! You have no registered for an account and you have added your website. Now you need to go to your WordPress dashboard and activate the Plausible Analytics WordPress plugin.
+
 ## How to install Plausible Analytics WordPress plugin
 
 Here's how you can install the Plausible Analytics plugin on your WordPress site:
