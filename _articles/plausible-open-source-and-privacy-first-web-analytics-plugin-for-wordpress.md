@@ -122,9 +122,11 @@ Plausible Analytics plugin can help you identify those broken links and 404 page
 
 * Next, click on the "Add goal" button and you'll be taken back to the Goals page 
 
-After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. You'll see "404" goal as soon as the first visit on an error page has been tracked.
+After you've completed this process, all the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-Click on "404" to see the full list of all visits on all error pages and have your dashboard filtered by error pages only. Click on a particular error page URL to filter the dashboard by those clicks only and get the full overview of that specific URL. Then you can figure out how your visitors discover the broken links and fix them.
+You'll see "404" goal as soon as the first visit on an error page has been tracked. Click on "404" to see the full list of all visits on all error pages and have your dashboard filtered by error pages only. 
+
+Click on a particular error page URL to filter the dashboard by those clicks only and get the full overview of that specific URL. Then you can figure out how your visitors discover the broken links and fix them.
 
 Learn more in: "[How to track, identify and fix 404 error pages on your website](https://plausible.io/blog/track-404-errors)"
 
@@ -132,9 +134,9 @@ Learn more in: "[How to track, identify and fix 404 error pages on your website]
 
 Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your subdomain. 
 
-We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you want.
+What's the benefit of doing this? Your site looks like it has no third-party connections. You also get more accurate stats as by running Plausible as a first-party you avoid most of the adblockers.
 
-What's the benefit of using a custom domain feature? Your site looks like it has no third-party connections and you get more accurate stats as by running Plausible as a first-party you avoid some of the adblockers.
+We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you want.
 
 To get started with the custom domain, you need to enable this feature in your Plausible Analytics account. Here's how:
 
@@ -172,8 +174,6 @@ However, if you'd like to count your visits, you can enable this. Switch on the 
 
 Thanks to [Mehul Gohil](https://mehulgohil.com/) for building the Plausible Analytics WordPress plugin and for keeping it up to date.
 
-You can contribute to our WordPress plugin too. Add your feature requests, upvote existing request or even contribute with your code.
+You can contribute to our WordPress plugin too. Add your feature requests, upvote existing request or even contribute with your code. Here's [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
 
-Here's [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
-
-Enjoying Plausible Analytics and our WordPress plugin? Please consider leaving a comment on our page in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/).
+Enjoying Plausible Analytics and our WordPress plugin? Please consider leaving a comment in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/).
