@@ -27,9 +27,9 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can review our code and contribute to the development. You can even self-host Plausible on your server and manage your infrastructure
 
-* Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism. We're operating a sustainable project funded solely by the fees that our subscribers pay us
+* Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism
 
-* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can subscribe and the tiers start at $6/month or $4/month when billed annually all based on the number of pageviews your sites have
+* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can subscribe and the plans start at $6/month or $4/month when billed annually all based on the number of page views your sites have
 
 ## What are the other features of Plausible Analytics for WordPress?
 
@@ -56,7 +56,7 @@ For example, if your subdomain is https://blog.yourdomain.com then the part to e
 
 ![Enter the domain name of the website you want to track](/docs/img/website-details.png)
 
-That's it! You have no registered for an account and you have added your website. Now you need to go to your WordPress dashboard and activate the Plausible Analytics WordPress plugin.
+That's it! You have now registered for an account and you have added your website. Now you need to go to your WordPress dashboard and activate the Plausible Analytics WordPress plugin.
 
 ## How to install Plausible Analytics WordPress plugin
 
@@ -68,7 +68,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 
 ![Search and install the "Plausible Analytics" WordPress plugin](/uploads/wordpress-plugin-search.png)
 
-* Click on the "Install Now" button on the listing of our official "Plausible Analytics" plugin
+* Click on the "Install Now" button on the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/)
 * After the installation is finished, click on the "Activate" button
 
 ![Activate our WordPress plugin](/uploads/activate-our-wordpress-plugin.png)
