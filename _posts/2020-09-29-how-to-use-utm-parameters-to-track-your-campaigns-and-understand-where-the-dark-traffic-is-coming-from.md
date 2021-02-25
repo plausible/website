@@ -52,7 +52,17 @@ UTM parameters are all the tags that come after the question mark (`?`) in the U
 
 Individual parameters are separated by the ampersand (`&`) symbol.
 
-You can tag all your links manually or you can use a tool such as the [Campaign URL Builder](https://ga-dev-tools.appspot.com/campaign-url-builder/).
+You can tag all your links manually or you can use the UTM tag builder tool that makes this easy for you.
+
+## Plausible UTM Tag Builder tool
+
+For an easy way to create your UTM tagged links, you can use the Plausible UTM Tag Builder tool. 
+
+Just insert the URL of your page, enter the UTM tags that you want to use and you'll have the final URL ready for you to use in your emails, in social media or in your paid campaigns. 
+
+Thanks to [Abhijit Kar](https://www.abhijit-kar.com/) for building this tool. 
+
+<iframe src="https://www.abhijit-kar.com/plausible-utm-builder/" title="Plausible UTM Tag Builder by Derpy" style="width: 100%; height: 100vh; margin-bottom: 30px;" frameborder="0" loading="lazy" allowfullscreen="true"></iframe>
 
 ## Types of UTM parameters
 
@@ -141,16 +151,6 @@ You could tag all of the links they post with their unique UTM tags so you can n
 In content marketing, companies do many guest blogging and content syndication campaigns. Some of these are hard to track as some websites don't send a referral header. UTM tags are a solution to these.
 
 Simply tag all the links in the different guest posts and other syndication activities to be able to see how many clicks and other results they drive.
-
-## UTM Tag Builder tool
-
-For an easy way to create your UTM tagged links, you can use the Plausible UTM Tag Builder tool. 
-
-Just insert the URL of your page, enter the UTM tags that you want to use and you'll have the final URL ready for you to use in your emails, in social media or in your paid campaigns. 
-
-Thanks to [Abhijit Kar](https://www.abhijit-kar.com/) for building this tool. 
-
-<iframe src="https://www.abhijit-kar.com/plausible-utm-builder/" title="Plausible UTM Tag Builder by Derpy" style="width: 100%; height: 100vh; margin-bottom: 30px;" frameborder="0" loading="lazy" allowfullscreen="true"></iframe>
 
 ## Best practices for UTM tags and other things to know
 
