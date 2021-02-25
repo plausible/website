@@ -142,6 +142,16 @@ In content marketing, companies do many guest blogging and content syndication c
 
 Simply tag all the links in the different guest posts and other syndication activities to be able to see how many clicks and other results they drive.
 
+## UTM Tag Builder tool
+
+For an easy way to create your UTM tagged links, you can use the Plausible UTM Tag Builder tool. 
+
+Just insert the URL of your page, enter the UTM tags that you want to use and you'll have the final URL ready for you to use in your emails, in social media or in your paid campaigns. 
+
+Thanks to [Abhijit Kar](https://www.abhijit-kar.com/) for building this tool. 
+
+<iframe src="https://www.abhijit-kar.com/plausible-utm-builder/" title="Plausible UTM Tag Builder by Derpy" style="width: 100%; height: 100vh; margin-bottom: 30px;" frameborder="0" loading="lazy" allowfullscreen="true"></iframe>
+
 ## Best practices for UTM tags and other things to know
 
 ### UTM tags are case-sensitive
