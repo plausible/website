@@ -84,8 +84,9 @@ We will keep this page updated with the latest numbers and we'll also announce i
 
 Month | Donation
 ------ | ------
-January 2021  | $842  
-Total to date | $842 
+January 2021  | $842
+February 2021  | $954  
+Total to date | $1,796 
 
 We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund at the start of 2022. No questions asked.
 
