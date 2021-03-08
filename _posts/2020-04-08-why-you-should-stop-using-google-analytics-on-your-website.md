@@ -10,7 +10,7 @@ author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
-We are working on a leaner and more transparent alternative to Google Analytics. It's called Plausible Analytics and it comes without all the privacy baggage. Here's a look at some of the other issues with Google Analytics.
+We are working on a leaner and more transparent alternative to Google Analytics. It's called Plausible Analytics and it comes without all the privacy baggage. Here's a look at some of the issues with Google Analytics.
 
 Google, the world's largest ad-tech company, has direct access to user data and browsing information from a large part of the web traffic. Their data collection can track an individual from multiple angles to create the best possible behavioral profile. Google has nine different products with more than one billion users each.
 
