@@ -37,7 +37,7 @@ All the raw data that we produce such as the sites that we visit, topics we sear
 
 Here's what Google [says](https://policies.google.com/technologies/partner-sites?hl=en-US) on how they use information from sites that use their products:
 
-> "Google uses the information shared by sites and apps to deliver our services, maintain and improve them, develop new services, measure the effectiveness of advertising, protect against fraud and abuse, and personalize content and ads you see on Google and on our partners’ sites and apps".
+> Google uses the information shared by sites and apps to deliver our services, maintain and improve them, develop new services, measure the effectiveness of advertising, protect against fraud and abuse, and personalize content and ads you see on Google and on our partners’ sites and apps.
 
 ## It's a bloated script that affects your site speed
 
@@ -93,7 +93,7 @@ Another aspect of Google Analytics data accuracy that some people are concerned 
 
 In addition to the cookie notice and the GDPR consent prompt, Google has [further requirements](https://marketingplatform.google.com/about/analytics/terms/us/) for your use of Google Analytics:
 
-> "You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law."
+> You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law.
 
 ## It's abused by referral spam that skews the data
 
