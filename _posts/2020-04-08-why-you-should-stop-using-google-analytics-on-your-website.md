@@ -10,9 +10,7 @@ author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
 ---
-Apple has announced that Safari will start blocking Google Analytics from cross-site tracking. Site owners now fear that Google Analytics stats will become less accurate.
-
-We are working on a leaner and more transparent alternative to Google Analytics that's called Plausible Analytics and that comes without all the privacy baggage. Here's a look at some of the other issues with Google Analytics.
+We are working on a leaner and more transparent alternative to Google Analytics. It's called Plausible Analytics and it comes without all the privacy baggage. Here's a look at some of the other issues with Google Analytics.
 
 Google, the world's largest ad-tech company, has direct access to user data and browsing information from a large part of the web traffic. Their data collection can track an individual from multiple angles to create the best possible behavioral profile. Google has nine different products with more than one billion users each.
 
@@ -85,7 +83,7 @@ And all the privacy regulations have a say about cookies too. PECR, for instance
 
 Many people have got enough of banner advertising, retargeting and remarketing messages, and behavioral profiling so they choose to block some of these distractions.
 
-Google Analytics script is blocked by millions of people who use adblockers such as the [uBlock Origin](https://github.com/gorhill/uBlock) and by users of popular browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Brave](https://brave.com/).
+Google Analytics script is blocked by millions of people who use adblockers such as the [uBlock Origin](https://github.com/gorhill/uBlock) and by users of popular browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Brave](https://brave.com/). Apple Safari has started blocking Google Analytics from cross-site tracking too.
 
 There's no definite answer on how many people block Google Analytics as that depends on the audience of your site, but for a tech audience, you shouldn't be surprised to see 50% or more of the visitors blocking Google Analytics.
 
@@ -123,7 +121,7 @@ And if you're simply using Google Analytics for basic web statistics, it's worth
 
 ## What are the alternatives to Google Analytics?
 
-* ### No analytics or server logs
+* ### Don't use analytics or use server logs
 
 Many solutions do exist so there's no excuse not to explore them for a bit. If you really don't care too much about the data, you can simply go without having analytics in the first place or use your server logs to get access to the basic stats.
 
