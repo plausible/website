@@ -129,3 +129,5 @@ input[type="range"]::-moz-focus-outer {
 .tweet-text a:hover {
   text-decoration: underline;
 }
+
+[x-cloak] { display: none; }
