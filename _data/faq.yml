@@ -3,3 +3,6 @@
 
 - question: Can I give someone access to my stats without making the dashboard public?
   answer: "You can use our private and secure shared links. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
+
+- question: Anything else?
+  answer: "We put a lot of effort into making our documentation be as detailed and as up to date as possible so you can quickly find answers to any question you might have. <a href="https://plausible.io/docs">Take a look here</a>."
