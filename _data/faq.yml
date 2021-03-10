@@ -1,5 +1,5 @@
 - question: Is the billing based per account or per website?
-  answer: "You can add as many websites as you want to your Plausible account free of charge. The billing is based on the total number of pageviews between all of the sites you have added."
+  answer: "You can add as many websites as you want to your Plausible account free of charge. The billing is based on the total number of pageviews between all of the sites you have added. You can see this total number of billable pageviews at any time in your account settings."
 
 - question: Can I give someone access to my stats without making the dashboard public?
-  answer: "You can use our private and secure shared links. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
+  answer: "You can use our [private and secure shared links](https://plausible.io/docs/shared-links). These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
