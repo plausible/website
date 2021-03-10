@@ -13,6 +13,74 @@ layout: default
           <p class="leading-7 text-gray-800">
             Hi! We’re happy to see you here and we want to make sure that your experience using Plausible Analytics is a great one. <a class="text-indigo-600" href="https://plausible.io/docs">Our Documentation</a> is a great place for most answers, but if you can’t find your answer there, please do contact us using the email address below.
           </p>
+          
+          <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-gray-50">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+      <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        Frequently asked questions
+      </h2>
+      <dl class="mt-6 space-y-6 divide-y divide-gray-200">
+        <div class="pt-6">
+          <dt class="text-lg">
+            <!-- Expand/collapse question button -->
+            <button class="text-left w-full flex justify-between items-start text-gray-400">
+              <span class="font-medium text-gray-900">
+                Is the billing based per account or per website?
+              </span>
+              <span class="ml-6 h-7 flex items-center">
+                <!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+                <svg class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd class="mt-2 pr-12">
+            <p class="text-base text-gray-500">
+              You can add as many websites as you want to your Plausible account free of charge. The billing is based on the total number of pageviews between all of the sites you have added.
+            </p>
+          </dd>
+        </div>
+        <div class="pt-6">
+          <dt class="text-lg">
+            <!-- Expand/collapse question button -->
+            <button class="text-left w-full flex justify-between items-start text-gray-400">
+              <span class="font-medium text-gray-900">
+                Can I give someone access to my stats without making the dashboard public?
+              </span>
+              <span class="ml-6 h-7 flex items-center">
+                <!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+                <svg class="-rotate-180 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+          </dt>
+          <dd class="mt-2 pr-12">
+            <p class="text-base text-gray-500">
+              You can use our private and secure shared links. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account.
+            </p>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+
           <p class="leading-7 text-gray-800 mt-4">
           Do you have a bug report? Please search the issues on <a class="text-indigo-600" href="https://github.com/plausible/analytics/issues">our Github</a> to make sure that the bug has not already been reported. If you cannot find what you had in mind, <a class="text-indigo-600" href="https://github.com/plausible/analytics/issues/new/choose">please submit your bug report here</a>.
           </p>
