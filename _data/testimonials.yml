@@ -1,9 +1,8 @@
-- author_name: Libreture
-  author_handle: libreture
+- author_name: Debbie O'Brien
+  author_handle: debs_obrien
   author_img: /assets/images/twitter/libreture.jpg
-  text: "Really happy to find that <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> share so many of our values around privacy and ethical business.\n\nIt's been smooth sailing since we installed Plausible on all our websites. And I think readers will prefer knowing that we're supporting them.\n\n😊👍\n\n<a target=\"blank\" href=\"https://plausible.io/about\">plausible.io/about</a>"
-  url: https://twitter.com/libreture/status/1285855778583261186
-
+  text: "I recently switched from Google Analytics to <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> and I am really happy with it so far. I wrote a post about it and how you can add Plausible to your <a target=\"_blank\" href=\"https://twitter.com/nuxt_js\">@nuxt_js</a> site 💚 <a target=\"_blank\" href=\"https://debbie.codes/blog/nuxt-analytics/\">debbie.codes/blog/nuxt-analytics/</a>"
+  url: https://twitter.com/debs_obrien/status/1354809329203830797
 
 - author_name: elementary
   author_handle: elementary
