@@ -1,39 +1,39 @@
-- author_name: Libreture
-  author_handle: libreture
-  author_img: /assets/images/twitter/libreture.jpg
-  text: "Really happy to find that <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> share so many of our values around privacy and ethical business.\n\nIt's been smooth sailing since we installed Plausible on all our websites. And I think readers will prefer knowing that we're supporting them.\n\n😊👍\n\n<a target=\"blank\" href=\"https://plausible.io/about\">plausible.io/about</a>"
-  url: https://twitter.com/libreture/status/1285855778583261186
-
-
+- author_name: Debbie O'Brien
+  author_handle: debs_obrien
+  author_img: /assets/images/twitter/debs_obrien.jpg
+  text: "I recently switched from Google Analytics to <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> and I am really happy with it so far. I wrote a post about it and how you can add Plausible to your <a target=\"_blank\" href=\"https://twitter.com/nuxt_js\">@nuxt_js</a> site 💚 <a target=\"_blank\" href=\"https://debbie.codes/blog/nuxt-analytics/\">debbie.codes/blog/nuxt-analytics/</a>"
+  url: https://twitter.com/debs_obrien/status/1354809329203830797
+  
 - author_name: elementary
   author_handle: elementary
   author_img: /assets/images/twitter/elementary.jpg
-  text: "We've completely left Google Analytics behind in favor of <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>
-. Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that. \n\n <a target=\"_blank\" href=\"https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/\">blog.elementary.io/leaving-google…</a>"
+  text: "We've completely left Google Analytics behind in favor of <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>. Google's incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that. \n\n <a target=\"_blank\" href=\"https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/\">blog.elementary.io/leaving-google…</a>"
   url: https://twitter.com/elementary/status/1283851023568850947
 
-- author_name: mentalpivot
-  author_handle: mentalpivot
-  author_img: /assets/images/twitter/mentalpivot.jpg
-  text: "Blog post on my positive experience with Plausible Analytics: <a target=\"_blank\" href=\"https://mentalpivot.com/pleased-with-plausible-a-followup-on-ethical-web-analytics/\">mentalpivot.com/pleased-with-p…</a> (the promised followup to my survey of Google Analytics alternatives)\n<a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>"
-  url: https://twitter.com/mentalpivot/status/1300918220111536128
+- author_name: Rob Hope 🇿🇦
+  author_handle: robhope
+  author_img: /assets/images/twitter/robhope.jpg
+  text: "Just replaced my full network's Google Analytics with <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> - I can't remember when last I was this impressed by a SaaS UX + design 💯 <br/> 
+  <br/>
+  All site scripts integrated with CNAME domains <1hr.<br/>
+  <br/>
+  Became a paying customer within 1hr of the 30-day trial."
+  url: https://twitter.com/robhope/status/1351465826109558784
+  
+- author_name: Erlang Ecosystem Foundation
+  author_handle: TheErlef
+  author_img: /assets/images/twitter/TheErlef.jpg
+  text: "We're very excited to announce that we're switching to <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>! 📈🚀"
+  url: https://twitter.com/TheErlef/status/1369689461886496771
 
+- author_name: Christina Warren
+  author_handle: film_girl
+  author_img: /assets/images/twitter/film_girl.jpg
+  text: "OMG <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> looks like it really will be the thing that finally replaces the dearly departed Mint as my Google-free analytics program of choice! The team outbound link click tracking at the request of me and a few others and the docs are fab."
+  url: https://twitter.com/film_girl/status/1324825768778559488
 
-- author_name: Kyle Gawley 🏴‍☠️
-  author_handle: kylegawley
-  author_img: /assets/images/twitter/kylegawley.jpg
-  text: "Upgraded from my <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> trial. Things I like:\n\n• clean ui &amp; simple dashboard with all the info I need\n• conversions tracking\n• weekly email reports \n• privacy focused\n• always adding new features\n\nSuper affordable for every business too."
-  url: https://twitter.com/kylegawley/status/1294532523939319808
-
-
-- author_name: ElixirCasts
-  author_handle: elixircastsio
-  author_img: /assets/images/twitter/elixircasts.jpg
-  text: Like privacy and Elixir? Give <a target="_blank" href="https://twitter.com/PlausibleHQ">@PlausibleHQ</a> a try. A great service that's written in <a target="_blank" href="https://twitter.com/elixirlang">@elixirlang</a>
-  url: https://twitter.com/elixircastsio/status/1294684714406567936
-
-- author_name: Lakshmi Narayanan
-  author_handle: _glnarayanan
-  author_img: /assets/images/twitter/glnarayanan.jpg
-  text: "I've been using <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> for a while now and I really love it! <a target=\"_blank\" href=\"https://twitter.com/ukutaht\">@ukutaht</a> and <a target=\"_blank\" href=\"https://twitter.com/markosaric\">@markosaric</a> have built a phenomenal product that helps people realize it is possible to get a lot of analytics without snooping on your visitors. \nVote for them <a target=\"_blank\" href=\"https://twitter.com/producthunt\">@producthunt</a> \n\n<a target=\"_blank\" href=\"https://www.producthunt.com/posts/plausible-analytics\">producthunt.com/posts/plausibl…</a>"
-  url: https://twitter.com/_glnarayanan/status/1298982512031481859
+- author_name: Andy Clarke
+  author_handle: Malarkey
+  author_img: /assets/images/twitter/Malarkey.jpg
+  text: "Removed the final remnants of Google Analytics from my website. I now use Plausible.io"
+  url: https://twitter.com/Malarkey/status/1311751869128159234
