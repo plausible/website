@@ -7,14 +7,13 @@
 - author_name: elementary
   author_handle: elementary
   author_img: /assets/images/twitter/elementary.jpg
-  text: "We've completely left Google Analytics behind in favor of <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>
-. Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that. \n\n <a target=\"_blank\" href=\"https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/\">blog.elementary.io/leaving-google…</a>"
+  text: "We've completely left Google Analytics behind in favor of <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>. Google's incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that. \n\n <a target=\"_blank\" href=\"https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/\">blog.elementary.io/leaving-google…</a>"
   url: https://twitter.com/elementary/status/1283851023568850947
 
 - author_name: Rob Hope 🇿🇦
   author_handle: robhope
   author_img: /assets/images/twitter/robhope.jpg
-  text: "Just replaced my full network's Google Analytics with <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> - I can't remember when last I was this impressed by a SaaS UX + design 💯\n\n All site scripts integrated with CNAME domains <1hr.\n\n Became a paying customer within 1hr of the 30-day trial."
+  text: "Just replaced my full network's Google Analytics with <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> - I can't remember when last I was this impressed by a SaaS UX + design 💯 \n\n All site scripts integrated with CNAME domains <1hr. \n\n Became a paying customer within 1hr of the 30-day trial."
   url: https://twitter.com/robhope/status/1351465826109558784
 
 - author_name: Erlang Ecosystem Foundation
