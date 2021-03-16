@@ -57,7 +57,7 @@ We may be biased but we don't recommend you use Google Analytics on your WordPre
 * It's a proprietary product so you need to put your trust in Google
 * It worsens the user experience due to the necessity for the annoying prompts
 
-See more in: [Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics).
+See full details in: [Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics).
 
 ## Best analytics plugins for WordPress
 
@@ -113,15 +113,15 @@ What insights can you get from Matomo? It is very similar to Google Analytics. Y
 
 Plausible Analytics is a new player on the WordPress analytics market. We've built an analytics tool that is simple to use, easy to understand, lightweight (<1 KB) and privacy-first. No cookies are used and there is no cross-site or cross-device tracking. 
 
-Here's how the dashboard looks like:
+Here's how the dashboard looks like and you can [explore a live demo](https://plausible.io/plausible.io):
 
 ![Plausible Analytics dashboard](/assets/images/privacy-focused-web-analytics.png)
 
-Plausible is simple to understand but it also provides valuable and actionable website statistics. You can track 404 error pages and external link clicks out of the box. You can track conversions and other custom events too. 
+Plausible Analytics WordPress plugin is installed on hundreds of WordPress sites and Plausible is trusted by thousands of paying subscribers to deliver their website and business insights. [The analytics script itself is very lightweight](https://plausible.io/lightweight-web-analytics) and comes at 1.2 KB.
 
-Plausible Analytics WordPress plugin is installed on hundreds of  WordPress sites and Plausible is trusted by more than 2,000 paying subscribers to deliver their website and business insights. The script itself is very lightweight and comes at 1.2 KB.
+Plausible is open source but it is not free to use. We have a free 30-day trial but if you choose to stay with Plausible, you'll need to get on a subscription plan. We choose the subscription business model rather than surveillance capitalism and are operating a sustainable project funded solely by subscribers' fees.
 
-Plausible Analytics is open source software but it is not free to use. We have a free 30-day trial but if you choose to stay with Plausible, you'll need to get on a subscription plan. We choose the subscription business model rather than surveillance capitalism and are operating a sustainable project funded solely by subscribers' fees.
+What insights can you get from Plausible? Plausible is simple to understand but it also provides valuable and actionable website statistics. You can track 404 error pages and external link clicks out of the box. You can track conversions and other custom events too.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/wordpress-analytics-plugin" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Instructions</a> </div> </div>
 
