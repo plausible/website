@@ -6,7 +6,7 @@ description: As a WordPress user, you have access to countless ways to check
 slug: /best-wordpress-analytics-plugins
 date: 2021-03-16T09:05:45.717Z
 author: marko-saric
-image: /assets/images/privacy-focused-web-analytics.png
+image: /uploads/wordpress-web-analytics-plugins.png
 image-alt: WordPress web analytics plugins
 ---
 Started your WordPress site, published some posts and now want to get some stats to figure out how you're doing? It's time to install a WordPress plugin for web analytics.
@@ -65,7 +65,7 @@ There are better web analytics alternatives to Google Analytics for WordPress si
 
 ### Jetpack Site Stats - Made by Automattic
 
-![Jetpack Site Stats](/assets/images/jetpack-site-stats.png "Jetpack Site Stats")
+![Jetpack Site Stats](/uploads/jetpack-site-stats.png "Jetpack Site Stats")
 
 Jetpack is made by the same people that also run WordPress.com. 
 
@@ -81,7 +81,7 @@ Take a look at [Jetpack](https://wordpress.org/plugins/jetpack/)
 
 ### Koko Analytics - Best for basic statistics
 
-![Koko Analytics](/assets/images/koko-analytics.png "Koko Analytics")
+![Koko Analytics](/uploads/koko-analytics.png "Koko Analytics")
 
 Koko Analytics is a simple and privacy-first WordPress-native analytics plugin. You self-host it on your server without needing significant server resources. 
 
