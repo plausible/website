@@ -38,7 +38,7 @@ This plugin is used on more than one million sites. It is free to use.
 
 What insights can you get from Google Analytics? Google Analytics provides more than 125 different reports with almost 300 metrics between them.
 
-<div class="mt-5 max-w-md mx-auto sm:flex md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/google-site-kit/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Site Kit</a> </div> </div>
+<div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/google-site-kit/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Site Kit</a></div>
 
 There are various unofficial Google Analytics plugins for WordPress too. Some have a few users while others have millions. You can browse them all [in this list](https://wordpress.org/plugins/search/analytics/) in the official WordPress plugin directory.
 
