@@ -77,7 +77,7 @@ What insights can you get from Jetpack Site Stats? The total number of views in 
 
 This is all within your WordPress dashboard but you can also view enhanced stats on WordPress.com. These include countries your visitors are coming from, which authors get the most views and stats on videos played.
 
-Take a look at [Jetpack](https://wordpress.org/plugins/jetpack/)
+<div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/jetpack/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Jetpack Site Stats</a> </div> </div>
 
 ### Koko Analytics - Best for basic statistics
 
@@ -95,7 +95,7 @@ What insights can you get from Koko Analytics? Koko is as barebones and straight
 
 See the number of total visitors, total pageviews and pageviews in the last hour in the graph on top. See the number of visitors and pageviews for the top pages and the top referral sources below that. That's it.
 
-Take a look at [Koko Analytics](https://wordpress.org/plugins/koko-analytics/)
+<div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/koko-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Koko Analytics</a> </div> </div>
 
 ### Matomo Analytics - Best for self-hosted Google Analytics replacement
 
@@ -107,7 +107,7 @@ It is installed on more than twenty thousand sites. It is open source software, 
 
 What insights can you get from Matomo? It is very similar to Google Analytics. You have more than 70 individual reports within it with hundreds of different website metrics within them. 
 
-Take a look at [Matomo Analytics](https://wordpress.org/plugins/matomo/)
+<div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/matomo/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Matomo Analytics</a> </div> </div>
 
 ### Plausible Analytics - Best for simple but powerful privacy-first analytics
 
@@ -131,7 +131,7 @@ Insert Headers and Footers allows you to easily insert any code into your header
 
 This plugin has more than one million active users and it is free to use. Activate this plugin, paste your analytics tracking code in the "Scripts in Header" field and click on the "Save" button.
 
-Take a look at [Insert Headers and Footers](https://wordpress.org/plugins/insert-headers-and-footers/) 
+<div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/insert-headers-and-footers/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Insert Headers and Footers</a> </div> </div>
 
 ## How to add analytics to WordPress without a plugin
 
