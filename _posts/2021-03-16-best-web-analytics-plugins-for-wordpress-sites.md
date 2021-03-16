@@ -38,13 +38,15 @@ This plugin is used on more than one million sites. It is free to use.
 
 What insights can you get from Google Analytics? Google Analytics provides more than 125 different reports with almost 300 metrics between them.
 
+<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/google-site-kit/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Site Kit</a> </div> </div>
+
 Take a look at [Site Kit](https://wordpress.org/plugins/google-site-kit/)
 
 There are various unofficial Google Analytics plugins for WordPress too. Some have a few users while others have millions. You can browse them all [in this list](https://wordpress.org/plugins/search/analytics/) in the official WordPress plugin directory.
 
 ### Why you shouldn't use Google Analytics on your site
 
-We don't recommend you use Google Analytics on your WordPress site because of these reasons:
+We may be biased but we don't recommend you use Google Analytics on your WordPress site because of these reasons:
 
 * It's owned by Google, the largest ad-tech company in the world
 * It's a bloated script that affects your site speed
@@ -57,7 +59,7 @@ We don't recommend you use Google Analytics on your WordPress site because of th
 * It's a proprietary product so you need to put your trust in Google
 * It worsens the user experience due to the necessity for the annoying prompts
 
-See more in [Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics).
+See more in: [Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics).
 
 ## Best analytics plugins for WordPress
 
@@ -124,10 +126,6 @@ Plausible Analytics WordPress plugin is installed on hundreds of  WordPress site
 Plausible Analytics is open source software but it is not free to use. We have a free 30-day trial but if you choose to stay with Plausible, you'll need to get on a subscription plan. We choose the subscription business model rather than surveillance capitalism and are operating a sustainable project funded solely by subscribers' fees.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/wordpress-analytics-plugin" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Instructions</a> </div> </div>
-
-Take a look at [Plausible Analytics](https://wordpress.org/plugins/plausible-analytics/) plugin in the official WordPress directory.
-
-And learn more about how to get started with [Plausible Analytics WordPress plugin](), a great alternative to Google Analytics.
 
 ### Insert Headers and Footers - Best for manual insertion of any analytics code
 
