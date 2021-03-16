@@ -96,6 +96,69 @@ layout: default
 </div>
 </div>
 
+<div class="py-6 overflow-hidden bg-white md:py-8 lg:py-12">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">
+      People ❤️  Plausible
+    </h2>
+    <p class="max-w-3xl mx-auto mt-3 text-xl text-center text-gray-500 sm:mt-4">
+      Thousands of website and business owners have already made the switch from Google Analytics and other services.
+    </p>
+
+    <div class="pb-12 mt-10 bg-white sm:pb-16">
+      <div class="relative w-full">
+        <div class="mx-auto">
+          <dl class="bg-white rounded-lg sm:grid sm:grid-cols-3">
+            <div class="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
+              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
+              Tracked pageviews
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+              1.1B
+              </dd>
+            </div>
+            <div class="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
+              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
+              Installed websites
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+              11,475
+              </dd>
+            </div>
+            <div class="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
+              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
+              Uptime (Last 90 days)
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+              99.99%
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="md:grid gap-4 grid-cols-3">
+      {% for tweet in site.data.testimonials %}
+        <div class="my-4 md:m-0">
+          <div class="p-4 border border-gray-100 rounded-lg">
+            <div class="flex items-center">
+              <a class="flex items-center group" href="https://twitter.com/{{ tweet.author_handle }}" target="_blank">
+                <img class="w-10 rounded-full" src="{{ tweet.author_img }}" />
+                <div class="ml-2 leading-tight">
+                  <div class="font-bold group-hover:text-blue-500">{{ tweet.author_name }}</div>
+                  <div class="text-xs text-gray-500">@{{ tweet.author_handle }}</div>
+                </div>
+              </a>
+              <a class="ml-auto twitter-icon" href="{{tweet.url}}" target="_blank"></a>
+            </div>
+            <div class="mt-2 text-sm whitespace-pre-wrap cursor-text tweet-text">{{tweet.text}}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 <div class="bg-gray-100" id="pricing">
   <div class="pt-12 sm:pt-16 lg:pt-20">
     <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
@@ -240,69 +303,6 @@ layout: default
           </a>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="py-6 overflow-hidden bg-white md:py-8 lg:py-12">
-  <div class="container mx-auto">
-    <h2 class="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">
-      People ❤️  Plausible
-    </h2>
-    <p class="max-w-3xl mx-auto mt-3 text-xl text-center text-gray-500 sm:mt-4">
-      Thousands of website and business owners have already made the switch from Google Analytics and other services.
-    </p>
-
-    <div class="pb-12 mt-10 bg-white sm:pb-16">
-      <div class="relative w-full">
-        <div class="mx-auto">
-          <dl class="bg-white rounded-lg sm:grid sm:grid-cols-3">
-            <div class="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
-              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
-              Tracked pageviews
-              </dt>
-              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
-              1.1B
-              </dd>
-            </div>
-            <div class="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
-              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
-              Installed websites
-              </dt>
-              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
-              11,475
-              </dd>
-            </div>
-            <div class="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
-              <dt class="order-2 mt-2 text-lg font-medium text-gray-500 leading-6">
-              Uptime (Last 90 days)
-              </dt>
-              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
-              99.99%
-              </dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-    </div>
-    <div class="md:grid gap-4 grid-cols-3">
-      {% for tweet in site.data.testimonials %}
-        <div class="my-4 md:m-0">
-          <div class="p-4 border border-gray-100 rounded-lg">
-            <div class="flex items-center">
-              <a class="flex items-center group" href="https://twitter.com/{{ tweet.author_handle }}" target="_blank">
-                <img class="w-10 rounded-full" src="{{ tweet.author_img }}" />
-                <div class="ml-2 leading-tight">
-                  <div class="font-bold group-hover:text-blue-500">{{ tweet.author_name }}</div>
-                  <div class="text-xs text-gray-500">@{{ tweet.author_handle }}</div>
-                </div>
-              </a>
-              <a class="ml-auto twitter-icon" href="{{tweet.url}}" target="_blank"></a>
-            </div>
-            <div class="mt-2 text-sm whitespace-pre-wrap cursor-text tweet-text">{{tweet.text}}</div>
-          </div>
-        </div>
-      {% endfor %}
     </div>
   </div>
 </div>
