@@ -34,9 +34,9 @@ Official WordPress plugin made by Google.
 
 Integrates your site with Google Analytics, Google Tag Manager, Google Optimize, Google Search Console, Google AdSense and other services. 
 
-This plugin is used on more than one million sites. It is free to use.
+This plugin is used on more than one million sites. It is free to use. Google Analytics script with the recommended Global Site Tag integration comes at 45.7 KB of page weight.
 
-What insights can you get from Google Analytics? Google Analytics provides more than 125 different reports with almost 300 metrics between them.
+What insights can you get from Google Analytics? Google Analytics provides more than 125 different reports with almost 300 metrics between them. It tracks whatever you want but it's also overkill for most site owners.
 
 <div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/google-site-kit/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Site Kit</a> </div> </div>
 
@@ -103,7 +103,7 @@ See the number of total visitors, total pageviews and pageviews in the last hour
 
 Matomo itself notes that self-hosting their stats on your server "can use significant resources". If you have a high traffic site or use a shared hosting account, you may need to upgrade to a more powerful server.
 
-It is installed on more than twenty thousand sites. It is open source software, the basic features are free to use and there are paid premium features such as funnels, heatmaps and session recordings.
+It is installed on more than twenty thousand sites. It is open source software, the basic features are free to use and there are paid premium features such as funnels, heatmaps and session recordings. The script adds 22.8 KB to the size of your site.
 
 What insights can you get from Matomo? It is very similar to Google Analytics. You have more than 70 individual reports within it with hundreds of different website metrics within them. 
 
