@@ -4,7 +4,7 @@ title: Best web analytics plugins for WordPress sites
 description: As a WordPress user, you have access to countless ways to check
   your blog stats. Here's what you need to know about WordPress analytics.
 slug: /best-wordpress-analytics-plugins
-date: 2021-03-16T09:05:45.717Z
+date: 2021-03-17T10:02:59.434Z
 author: marko-saric
 image: /uploads/wordpress-web-analytics-plugins.png
 image-alt: WordPress web analytics plugins
