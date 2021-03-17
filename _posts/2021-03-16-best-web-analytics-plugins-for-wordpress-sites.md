@@ -111,15 +111,15 @@ What insights can you get from Matomo? It is very similar to Google Analytics. Y
 
 ### Plausible Analytics - Best for simple but powerful privacy-first analytics
 
-Plausible Analytics is a new player on the WordPress analytics market. We've built an analytics tool that is simple to use, easy to understand, lightweight (<1 KB) and privacy-first. No cookies are used and there is no cross-site or cross-device tracking. 
+Plausible Analytics is a new player on the WordPress analytics market. We've built an analytics tool that is simple to use, easy to understand, lightweight and privacy-first. No cookies are used and there is no cross-site or cross-device tracking. 
 
-Here's how the dashboard looks like and you can [explore a live demo](https://plausible.io/plausible.io):
+Here's how the dashboard looks like and you can [explore the live demo](https://plausible.io/plausible.io):
 
 ![Plausible Analytics dashboard](/assets/images/privacy-focused-web-analytics.png)
 
 Plausible Analytics WordPress plugin is installed on hundreds of WordPress sites and Plausible is trusted by thousands of paying subscribers to deliver their website and business insights. [The analytics script itself is very lightweight](https://plausible.io/lightweight-web-analytics) and comes at 1.2 KB.
 
-Plausible is open source but it is not free to use. We have a free 30-day trial but if you choose to stay with Plausible, you'll need to get on a subscription plan. We choose the subscription business model rather than surveillance capitalism and are operating a sustainable project funded solely by subscribers' fees.
+Plausible is open source but it is not free to use. There's a free 30-day trial and if you choose to stay with Plausible, you'll need to get on a subscription plan. We choose the subscription business model rather than surveillance capitalism and are operating a sustainable project funded solely by subscribers' fees.
 
 What insights can you get from Plausible? Plausible is simple to understand but it also provides valuable and actionable website statistics. You can track 404 error pages and external link clicks out of the box. You can track conversions and other custom events too. See [how to get started with our WordPress plugin](https://plausible.io/wordpress-analytics-plugin).
 
