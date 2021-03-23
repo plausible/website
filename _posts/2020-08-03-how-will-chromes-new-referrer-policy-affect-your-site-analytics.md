@@ -1,18 +1,19 @@
 ---
 layout: post
-title: How will Chrome's new referrer policy affect your site analytics
-description: In Chrome 85 Google plans to change its default referrer policy to
-  strict-origin-when-cross-origin. Here's how that will affect your website
+title: How Chrome's new referrer policy affects your site analytics
+description: In Chrome 85 Google changed its default referrer policy to
+  strict-origin-when-cross-origin. Here's how that change affects your website
   analytics.
 slug: referrer-policy
 date: 2020-08-03T13:05:55.629Z
 author: marko-saric
 image: /uploads/chrome-referrer-policy.png
-image-alt: How will Chrome's new referrer policy affect your site analytics
+image-alt: How Chrome's new strict-origin-when-cross-origin referrer policy
+  affects your site analytics
 ---
 Google's Chrome browser is the most popular web browser. It has a market share of more than 70%. Whatever new policy Chrome implements will have an affect on all websites as chances are the majority of your visitors use Chrome too.
 
-In Chrome 85 which ships in late August 2020, Google plans to change its default referrer policy to **strict-origin-when-cross-origin**. 
+In Chrome 85 which was released in August 2020, Google changed its default referrer policy to **strict-origin-when-cross-origin**. Firefox made the same change in March 2021 with version 87. Safari also follows the same policy.
 
 What's a referrer policy and what does **strict-origin-when-cross-origin** even mean? Why should I care as a website owner? You should be aware of it as it will affect your website analytics. Let's take a closer look.
 
@@ -29,7 +30,7 @@ Most of the time the origin domain is sufficient for you to understand who has m
 
 For instance, you would not be able to see the exact Reddit thread you were mentioned in anymore and would need to use Reddit search to try and find it manually.
 
-Good news is that the individual site can still pick a referrer policy of their choice. If the referring site changes its referral policy, then that policy will be followed in the browser. 
+The individual site can still pick a referrer policy of their choice. If the referring site changes its referral policy, then that policy will be followed in the browser. 
 
 Chances are some websites such as publishers and blogs will change their default referral policy to keep displaying their referring traffic in full.
 
@@ -69,9 +70,9 @@ In summary:
 
 * Chrome is using **strict-origin-when-cross-origin** from version 85. **Strict-origin-when-cross-origin** is where the full path is sent if on the same domain but only sends the domain itself if going to another domain. Previously it used **no-referrer-when-downgrade**.
 
-* Firefox is using **no-referrer-when-downgrade** by default. It always passes the full path unless the request is sent from HTTPS to HTTP. Firefox is using **strict-origin-when-cross-origin** in the Private Browsing tabs and for known trackers.
+* Firefox is using **strict-origin-when-cross-origin** from version 87. Same as Chrome.
 
-* Edge is using **no-referrer-when-downgrade**. Same as Firefox.
+* Edge is using **strict-origin-when-cross-origin** from version 85. Same as Chrome.
 
 * Safari is using **strict-origin-when-cross-origin**. Same as Chrome.
 
