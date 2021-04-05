@@ -63,7 +63,7 @@ You can do event and goal conversion tracking too and we plan to add more useful
 
 Simple, easy to understand and quick to review website analytics. We've made it easy to open publicly or share your website stats privately with other people such as your visitors or your clients who have no prior experience with analytics.
 
-We have an actual [live demo](https://plausible.io/plausible.io) for you to view. It present you the live website analytics of our website.
+We have an actual [live demo](https://plausible.io/plausible.io) for you to view. It shows you the live website analytics of our website.
 
 ## A lightweight analytics script that is optimized for speed
 
