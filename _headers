@@ -1,2 +1,4 @@
+X-Frame-Options: SAMEORIGIN
+
 /changes.txt
   Access-Control-Allow-Origin: *
