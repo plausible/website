@@ -25,11 +25,9 @@ Cross-site tracking that the adtech is based on using tools such as Google Analy
 
 The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its advertising business.
 
-How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level.
+How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level. That's how we got to the Federated Learning of Cohorts (FLoc) initiative which is currently being tested on millions of Chrome browser users across the world. 
 
-That's how we got to the Federated Learning of Cohorts (FLoc) initiative which is currently being tested on millions of Chrome browser users across the world. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to software built by companies with a more ethical business model.
-
-Google is doubling down on a business model based on tracking personal data. This business model in itself is a privacy violation and cannot exist in the privacy-first world that they are trying to join.
+Google is doubling down on a business model based on tracking personal data. This business model in itself is a privacy violation and cannot exist in the privacy-first web. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to software built by companies with a more ethical business model.
 
 Let's take a look at what this all means and what you can do about it.
 
@@ -65,7 +63,7 @@ The rest of the adtech ecosystem doesn't like Google's proposal because Chrome i
 
 Google owns the browser with the largest market share and the only major browser that still allows third-party cookies out of the box. Google is also the largest advertising company and the largest seller of online advertising. 
 
-Without third-party cookies, Google still gets all the data as they own the platforms while everyone else in the ecosystem only get the cohorts that Google sends them.
+Without third-party cookies, Google still gets all the data as they own the platforms while everyone else in the ecosystem only gets the cohorts that Google sends them.
 
 The Competition and Markets Authority in the UK [has opened an investigation into FLoC](https://www.gov.uk/government/news/cma-to-investigate-google-s-privacy-sandbox-browser-changes) to assess whether it could cause "advertising spend to become even more concentrated on Google's ecosystem at the expense of its competitors".
 
