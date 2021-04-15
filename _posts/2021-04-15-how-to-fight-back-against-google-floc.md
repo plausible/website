@@ -45,7 +45,7 @@ Instead of following individuals around the web using tools such as [Google Anal
 
 These different cohorts will be based on sites people visit, the content they consume and other signals. They will be composed of a few thousand similar people and set once per week using data from the browsing done in the previous week.
 
-Chrome browser (and other browsers that join this scheme) send this behavioral profile to sites and advertisers you visit and interact with. And these businesses can tie the information they get from FLoC to whatever user profile they have on you.
+Chrome browser (and other browsers that join this scheme) send this behavioral profile to sites and advertisers you visit and interact with. And these businesses can tie the information they get from FLoC to whatever first-party data and user profile they have on you.
 
 ## FLoC is not being tested in countries where GDPR is in place
 
@@ -53,7 +53,7 @@ Adtech still gets the data they need. Now even without needing to track anything
 
 > If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million).
 
-EFF also brings up a second concern which is also novel and scary in terms of privacy. If you sign up to some online service with an email address, they can immediately tie your last week's browsing data with the email address that you supply them (or physical address, phone nr, etc). It means any service you use now knows what you've been up to and not just in an anonymous way.
+EFF also brings up a second concern which is also novel and scary in terms of privacy. If you sign up to an online service with your email address, they can immediately tie your last week's browsing data with the email address that you supply them (or physical address, phone nr, etc). It means any service you use now knows what you've been up to and not just in an anonymous way.
 
 The plan is that [by the end of 2021](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html), FLoC will be the primary method for data gathering for advertising purposes and that it will make third-party cookies obsolete. Google will then phase out third-party cookies from the Chrome browser.
 
