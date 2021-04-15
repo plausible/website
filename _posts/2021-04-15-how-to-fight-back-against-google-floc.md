@@ -25,7 +25,7 @@ Cross-site tracking that the adtech is based on using tools such as Google Analy
 
 ## Google's business model is a privacy violation
 
-The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to their business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its advertising business.
+The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its advertising business.
 
 How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level.
 
@@ -51,15 +51,13 @@ Chrome browser (and other browsers that join this scheme) send this behavioral p
 
 ## FLoC is not being tested in countries where GDPR is in place
 
-The adtech gets the data they need now without needing to track anything themselves and with Google in the driving seat with full control.
-
-According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to target individuals: 
+The adtech gets the data they need now without needing to track anything themselves and with Google in the driving seat with full control. According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to target individuals: 
 
 > If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million).
 
 The plan is that [by the end of 2021](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html), FLoC will be the primary method for data gathering for advertising purposes and that it will make third-party cookies obsolete. Google will then phase out third-party cookies from the Chrome browser.
 
-Interestingly enough, Google is not testing FLoC in countries where GDPR (General Data Protection Regulation) is in place. They seem to doubt whether this new approach needs consent from the people.
+Interestingly enough, Google is not testing FLoC in countries where GDPR is in place. They seem to doubt whether this new approach needs consent from the people.
 
 Blocking third-party cookies is a big win for everyone on the web. No useful functionality is lost for web users while a lot of privacy is gained. No longer will thousands of actors in the adtech ecosystem collect, share and sell personal data and browsing histories of millions of web users.
 
@@ -69,7 +67,7 @@ The rest of the adtech ecosystem doesn't like Google's proposal because Chrome i
 
 Google owns the browser with the largest market share and the only major browser that still allows third-party cookies out of the box. Google is also the largest advertising company and the largest seller of online advertising. 
 
-Without third-party cookies, Google still gets all the data as they own the platforms while everyone else in the ecosystem gets the cohorts that Google sends them.
+Without third-party cookies, Google still gets all the data as they own the platforms while everyone else in the ecosystem only get the cohorts that Google sends them.
 
 The Competition and Markets Authority in the UK [has opened an investigation into FLoC](https://www.gov.uk/government/news/cma-to-investigate-google-s-privacy-sandbox-browser-changes) to assess whether it could cause "advertising spend to become even more concentrated on Google's ecosystem at the expense of its competitors".
 
@@ -79,7 +77,7 @@ Even though Google keeps promoting the idea that all this is a collaborative ope
 
 Every website and every Chrome user will be opted into FLoC by default without any say in that choice. That is a decision Google has made for us all.
 
-There are ways to opt-out for those aware of this issue but we know that defaults matter most sites and users will never change the defaults.
+There are ways to opt-out for those aware of this issue but we know that defaults matter and that most sites and users will never change the defaults.
 
 GDPR is an opt-in law so people need to opt into this type of tracking for advertising purposes and it would be great if Google makes FLoC opt-in rather than opt-out by default.
 
@@ -128,7 +126,7 @@ If you have access to the `.htaccess` file on your server, you can edit it with 
 
 You can use a test site such as [this one](https://securityheaders.com) to check whether you have implemented the Permissions Policy correctly.
 
-Many sites using frameworks and content management systems don't even have the option to control this. Opting out of FLoC is not possible for these sites so Google needs to provide a more straightforward method.
+Many sites using frameworks and content management systems don't even have the option to control this. Opting out of FLoC is not possible for those sites so Google needs to provide a more straightforward method.
 
 Plausible Analytics has opted out of FLoC and visits to our site will not be included when Google determines a cohort to share with their partners for personalized advertising purposes.
 
