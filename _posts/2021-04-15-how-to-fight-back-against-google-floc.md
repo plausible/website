@@ -17,13 +17,11 @@ Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative
 1. Ordered list
 {:toc}
 
-## Towards a privacy-first web
+## Google's business model is a privacy violation
 
 The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect the privacy of their users.
 
 Cross-site tracking that the adtech is based on using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
-
-## Google's business model is a privacy violation
 
 The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its advertising business.
 
@@ -75,19 +73,17 @@ Even though Google keeps promoting the idea that all this is a collaborative ope
 
 ## Defaults matter and FLoC is opt-out by default
 
+The significant difference for site owners is that FLoC, unlike third-party cookies and Google Analytics, allows Google to profile users on any site on the web and not only on sites that integrate Google's products and scripts.
+
+According [to Google](https://github.com/WICG/floc#sites-which-interest-cohorts-will-be-calculated-on): "All sites with publicly routable IP addresses that the user visits when not in incognito mode will be included in the POC cohort calculation."
+
 Every website and every Chrome user will be opted into FLoC by default without any say in that choice. That is a decision Google has made for us all.
 
 There are ways to opt-out for those aware of this issue but we know that defaults matter and that most sites and users will never change the defaults.
 
 GDPR is an opt-in law so people need to opt into this type of tracking for advertising purposes and it would be great if Google makes FLoC opt-in rather than opt-out by default.
 
-## FLoC targets your site visitors by default
-
-The significant difference for site owners is that FLoC, unlike third-party cookies and Google Analytics, allows Google to profile users on any site on the web and not only on sites that integrate Google's products and scripts.
-
-According [to Google](https://github.com/WICG/floc#sites-which-interest-cohorts-will-be-calculated-on): "All sites with publicly routable IP addresses that the user visits when not in incognito mode will be included in the POC cohort calculation."
-
-## How to opt-out of FLoC as a web user: Do not use Google Chrome
+## How to opt-out of FLoC as a web user: Don't use Google Chrome
 
 Do not use Google Chrome. Use Firefox or Safari. Or use Chromium-based browsers such as Brave that have disabled FLoC.
 
