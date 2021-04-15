@@ -5,7 +5,7 @@ description: Here's a closer look at Google's Federated Learning of Cohorts
   (FLoC) initiative and how you can fight back and opt-out as a web user and a
   web developer.
 slug: google-floc
-date: 2021-04-15T10:15:56.364Z
+date: 2021-04-15T10:21:10.087Z
 author: marko-saric
 image: /uploads/fight-back-google-floc.png
 image-alt: How to fight back against Google FLoC
