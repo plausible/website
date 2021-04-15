@@ -10,7 +10,7 @@ author: marko-saric
 image: /uploads/fight-back-google-floc.png
 image-alt: How to fight back against Google FLoC
 ---
-Google is starting to track your site visitors without you using Google Analytics or having any relationship with Google.
+Google is starting to track your site visitors for advertising purposes even when you're not using Google Analytics or having any relationship with Google.
 
 Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative and how you can fight back and opt-out as a web user and a web developer.
 
