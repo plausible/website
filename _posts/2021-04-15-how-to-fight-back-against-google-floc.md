@@ -25,7 +25,7 @@ Cross-site tracking using tools such as Google Analytics and third-party cookies
 
 The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its targeted advertising business.
 
-How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level. That's how we got to the Federated Learning of Cohorts (FLoc) initiative which is currently being tested on millions of Chrome browser users across the world. 
+How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level. That's how we got to the Federated Learning of Cohorts (FLoC) initiative which is currently being tested on millions of Chrome browser users across the world. 
 
 There have always been concerns about Chrome tracking. We know that the browsing history of logged-in Chrome users is sent to Google. FLoC seems like a continuation of their strategy to track people through the browser.
 
