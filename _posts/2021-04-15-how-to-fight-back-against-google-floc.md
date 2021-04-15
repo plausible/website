@@ -21,7 +21,7 @@ Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative
 
 The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect their users' privacy.
 
-Cross-site tracking that adtech is based on using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
+Cross-site tracking using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
 
 The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its targeted advertising business.
 
