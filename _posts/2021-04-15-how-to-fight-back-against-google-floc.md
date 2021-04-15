@@ -27,7 +27,7 @@ The writing is on the wall and Google is increasingly aware of the existential t
 
 How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level. That's how we got to the Federated Learning of Cohorts (FLoc) initiative which is currently being tested on millions of Chrome browser users across the world. 
 
-There have always been concerns about Chrome tracking. We know that the browsing history of logged-in Chrome users is sent to Google. FLoC seems like a continuation of their angle to track people through the browser.
+There have always been concerns about Chrome tracking. We know that the browsing history of logged-in Chrome users is sent to Google. FLoC seems like a continuation of their strategy to track people through the browser.
 
 Google is doubling down on a business model based on behavioral profiling and targeted advertisements. This business model in itself is a privacy violation and cannot exist on the privacy-first web. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to solutions built by companies with a more ethical business model.
 
@@ -53,7 +53,7 @@ Adtech still gets the data they need. Now even without needing to track anything
 
 > If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million).
 
-EFF also brings up a second concern which is also novel and scary in terms of privacy. If you sign up to an online service with your email address, they can immediately tie your last week's browsing data with the email address that you supply them (or physical address, phone nr, etc). It means any service you use now knows what you've been up to and not just in an anonymous way.
+EFF brings up a second concern which is also novel and scary in terms of privacy. If you sign up to an online service with your email address, they can immediately tie your last week's browsing data with the email address that you supply them (or physical address, phone nr, etc). It means any service you use now knows what you've been up to and not just in an anonymous way.
 
 The plan is that [by the end of 2021](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html), FLoC will be the primary method for data gathering for advertising purposes and that it will make third-party cookies obsolete. Google will then phase out third-party cookies from the Chrome browser.
 
@@ -124,7 +124,7 @@ If you have access to the `.htaccess` file on your Apache server, you can edit i
 
 You can use a test site such as [this one](https://securityheaders.com) to check whether you have implemented the Permissions Policy correctly.
 
-Many sites using frameworks and content management systems don't even have the option to control this. Opting out of FLoC is not possible for those sites. Frameworks and CMSs that care about privacy should add this header by default and Google needs to provide a more straightforward method. 
+Many sites using frameworks and content management systems don't even have the option to control this. Opting out of FLoC is not possible for those sites. Frameworks and CMS providers that care about privacy should add this header by default. Google also needs to provide a more straightforward method. 
 
 Plausible Analytics has opted out of FLoC and visits to our site will not be included when Google determines a cohort to share with their partners for personalized advertising purposes.
 
