@@ -7,6 +7,8 @@ description: Here's a closer look at Google's Federated Learning of Cohorts
 slug: google-floc
 date: 2021-04-15T08:17:54.712Z
 author: marko-saric
+image: /uploads/fight-back-google-floc.png
+image-alt: How to fight back against Google FLoC
 ---
 Google is starting to track your site visitors without you using Google Analytics or having any relationship with Google.
 
