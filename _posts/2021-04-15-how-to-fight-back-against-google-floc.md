@@ -63,7 +63,7 @@ Interestingly enough, Google is not testing FLoC in countries where GDPR (Genera
 
 Blocking third-party cookies is a big win for everyone on the web. No useful functionality is lost for web users while a lot of privacy is gained. No longer will thousands of actors in the adtech ecosystem collect, share and sell personal data and browsing histories of millions of web users.
 
-## Will the advertising spend become even more concentrated on Google's ecosystem at the expense of its competitors?
+## The ad spend to become more concentrated on Google's ecosystem?
 
 The rest of the adtech ecosystem doesn't like Google's proposal because Chrome is now solely responsible for all the tracking. 
 
@@ -83,7 +83,7 @@ There are ways to opt-out for those aware of this issue but we know that default
 
 GDPR is an opt-in law so people need to opt into this type of tracking for advertising purposes and it would be great if Google makes FLoC opt-in rather than opt-out by default.
 
-## FLoC targets your site visitors even if you don't have any Google Analytics or Google Ads scripts installed on your site
+## FLoC targets your site visitors by default
 
 The significant difference for site owners is that FLoC, unlike third-party cookies and Google Analytics, allows Google to profile users on any site on the web and not only on sites that integrate Google's products and scripts.
 
