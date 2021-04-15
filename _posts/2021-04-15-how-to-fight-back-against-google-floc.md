@@ -37,7 +37,7 @@ Let's take a look at what this all means and what you can do about it.
 
 Here's [how Google describes it](https://blog.google/products/ads-commerce/2021-01-privacy-sandbox/): 
 
-> "Federated Learning of Cohorts (FLoC) proposes a new way for businesses to reach people with relevant content and ads by clustering large groups of people with similar interests. This approach effectively hides individuals “in the crowd” and uses on-device processing to keep a person’s web history private on the browser."
+> Federated Learning of Cohorts (FLoC) proposes a new way for businesses to reach people with relevant content and ads by clustering large groups of people with similar interests. This approach effectively hides individuals “in the crowd” and uses on-device processing to keep a person’s web history private on the browser."
 
 Google has launched trials of FLoC in Chrome browser version 89 on March 30th, 2021 in the USA, Canada, Australia, Brazil, Japan and several other countries for millions of users. FLoC is a part of the Chrome browser's source code and it helps them do cookie-less and consent-less ad targeting.
 
@@ -53,7 +53,7 @@ The adtech gets the data they need now without needing to track anything themsel
 
 According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to target individuals: 
 
-> "If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million)."
+> If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million).
 
 The plan is that [by the end of 2021](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html), FLoC will be the primary method for data gathering for advertising purposes and that it will make third-party cookies obsolete. Google will then phase out third-party cookies from the Chrome browser.
 
@@ -106,7 +106,7 @@ In the meanwhile, here's how to opt-out on Chrome:
 
 You can declare to Google that your site does not want to be included in the list of sites for cohort calculation. If you don't declare anything, the [default is to allow](https://github.com/WICG/floc#opting-out-of-computation).
 
-> "A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. This can be accomplished via a new interest-cohort permissions policy. This policy will be default allow."
+> A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. This can be accomplished via a new interest-cohort permissions policy. This policy will be default allow.
 
 To opt your site out of FLoC, you need to send the [Permissions Policy](https://www.w3.org/TR/permissions-policy-1/) HTTP response header.
 
