@@ -19,15 +19,17 @@ Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative
 
 ## Google's business model is a privacy violation
 
-The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect the privacy of their users.
+The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect the privacy of their users.
 
-Cross-site tracking that the adtech is based on using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
+Cross-site tracking that adtech is based on using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
 
-The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its advertising business.
+The writing is on the wall and Google is increasingly aware of the existential threat the privacy-first movement poses to its business model. Now Google wants to join this new world without the intention to give up on surveillance capitalism and jeopardize its targeted advertising business.
 
 How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level. That's how we got to the Federated Learning of Cohorts (FLoc) initiative which is currently being tested on millions of Chrome browser users across the world. 
 
-Google is doubling down on a business model based on tracking of personal data. This business model in itself is a privacy violation and cannot exist on the privacy-first web. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to solutions built by companies with a more ethical business model.
+There have always been concerns about Chrome tracking. We know that the browsing history of logged-in Chrome users is sent to Google. FLoC seems like a continuation of their angle to track people through the browser.
+
+Google is doubling down on a business model based on behavioral profiling and targeted advertisements. This business model in itself is a privacy violation and cannot exist on the privacy-first web. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to solutions built by companies with a more ethical business model.
 
 Let's take a look at what this all means and what you can do about it.
 
@@ -47,9 +49,11 @@ Chrome browser (and other browsers that join this scheme) send this behavioral p
 
 ## FLoC is not being tested in countries where GDPR is in place
 
-The adtech still gets the data they need. Now even without needing to track anything themselves and with Google in the driving seat and full control. According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to target individuals: 
+Adtech still gets the data they need. Now even without needing to track anything themselves and with Google in the driving seat and full control. According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to fingerprint individuals: 
 
 > If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million).
+
+EFF also brings up a second concern which is also novel and scary in terms of privacy. If you sign up to some online service with an email address, they can immediately tie your last week's browsing data with the email address that you supply them (or physical address, phone nr, etc). It means any service you use now knows what you've been up to and not just in an anonymous way.
 
 The plan is that [by the end of 2021](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html), FLoC will be the primary method for data gathering for advertising purposes and that it will make third-party cookies obsolete. Google will then phase out third-party cookies from the Chrome browser.
 
@@ -110,7 +114,7 @@ Permissions Policy is a new header that allows a site to control which features 
 Permissions-Policy: interest-cohort=()
 ```
 
-If you have access to the `.htaccess` file on your server, you can edit it with this code to set your Permissions Policy: 
+If you have access to the `.htaccess` file on your Apache server, you can edit it with this code to set your Permissions Policy: 
 
 ```
 <IfModule mod_headers.c>
@@ -120,11 +124,13 @@ If you have access to the `.htaccess` file on your server, you can edit it with 
 
 You can use a test site such as [this one](https://securityheaders.com) to check whether you have implemented the Permissions Policy correctly.
 
-Many sites using frameworks and content management systems don't even have the option to control this. Opting out of FLoC is not possible for those sites so Google needs to provide a more straightforward method.
+Many sites using frameworks and content management systems don't even have the option to control this. Opting out of FLoC is not possible for those sites. Frameworks and CMSs that care about privacy should add this header by default and Google needs to provide a more straightforward method. 
 
 Plausible Analytics has opted out of FLoC and visits to our site will not be included when Google determines a cohort to share with their partners for personalized advertising purposes.
 
 ## We need to ban targeted advertising
+
+FLoC seems to be Google's way of saving a dying business. They are trying to keep targeted ads going by making them more 'privacy-friendly' and 'anonymous'. But behavioral profiling and targeted advertisement is not compatible with a privacy-respecting web.
 
 Google made their first many billions exclusively on contextual advertising. Google now prefers to push the message that behavioral advertising based on personal data collection is superior but there is simply no trustworthy evidence to that.
 
