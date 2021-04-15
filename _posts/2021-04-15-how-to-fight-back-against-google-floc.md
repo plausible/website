@@ -37,7 +37,7 @@ Let's take a look at what this all means and what you can do about it.
 
 Here's [how Google describes it](https://blog.google/products/ads-commerce/2021-01-privacy-sandbox/): 
 
-> Federated Learning of Cohorts (FLoC) proposes a new way for businesses to reach people with relevant content and ads by clustering large groups of people with similar interests. This approach effectively hides individuals “in the crowd” and uses on-device processing to keep a person’s web history private on the browser."
+> Federated Learning of Cohorts (FLoC) proposes a new way for businesses to reach people with relevant content and ads by clustering large groups of people with similar interests. This approach effectively hides individuals “in the crowd” and uses on-device processing to keep a person’s web history private on the browser.
 
 Google has launched trials of FLoC in Chrome browser version 89 on March 30th, 2021 in the USA, Canada, Australia, Brazil, Japan and several other countries for millions of users. FLoC is a part of the Chrome browser's source code and it helps them do cookie-less and consent-less ad targeting.
 
