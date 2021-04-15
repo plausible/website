@@ -27,7 +27,7 @@ The writing is on the wall and Google is increasingly aware of the existential t
 
 How can you keep your lucrative ad business when not being able to use third-party cookies and tools such as Google Analytics? Google is moving all the tracking and data gathering for advertising purposes where they can control it best: browser level. That's how we got to the Federated Learning of Cohorts (FLoc) initiative which is currently being tested on millions of Chrome browser users across the world. 
 
-Google is doubling down on a business model based on tracking personal data. This business model in itself is a privacy violation and cannot exist in the privacy-first web. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to software built by companies with a more ethical business model.
+Google is doubling down on a business model based on tracking of personal data. This business model in itself is a privacy violation and cannot exist on the privacy-first web. Google's business interests mean that they are unlikely to ever provide a true web privacy protection compared to solutions built by companies with a more ethical business model.
 
 Let's take a look at what this all means and what you can do about it.
 
@@ -47,15 +47,15 @@ Chrome browser (and other browsers that join this scheme) send this behavioral p
 
 ## FLoC is not being tested in countries where GDPR is in place
 
-The adtech gets the data they need now without needing to track anything themselves and with Google in the driving seat with full control. According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to target individuals: 
+The adtech still gets the data they need. Now even without needing to track anything themselves and with Google in the driving seat and full control. According to [the EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), this new approach makes it even easier to target individuals: 
 
 > If a tracker starts with your FLoC cohort, it only has to distinguish your browser from a few thousand others (rather than a few hundred million).
 
 The plan is that [by the end of 2021](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html), FLoC will be the primary method for data gathering for advertising purposes and that it will make third-party cookies obsolete. Google will then phase out third-party cookies from the Chrome browser.
 
-Interestingly enough, Google is not testing FLoC in countries where GDPR is in place. They seem to doubt whether this new approach needs consent from the people.
-
 Blocking third-party cookies is a big win for everyone on the web. No useful functionality is lost for web users while a lot of privacy is gained. No longer will thousands of actors in the adtech ecosystem collect, share and sell personal data and browsing histories of millions of web users.
+
+Interestingly enough, Google is not testing FLoC in countries where GDPR is in place. They seem to doubt whether this new approach needs consent from the people.
 
 ## The ad spend to become more concentrated on Google's ecosystem?
 
