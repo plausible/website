@@ -5,7 +5,7 @@ description: Here's a closer look at Google's Federated Learning of Cohorts
   (FLoC) initiative and how you can fight back and opt-out as a web user and a
   web developer.
 slug: google-floc
-date: 2021-04-15T08:17:54.712Z
+date: 2021-04-15T10:15:56.364Z
 author: marko-saric
 image: /uploads/fight-back-google-floc.png
 image-alt: How to fight back against Google FLoC
@@ -19,7 +19,7 @@ Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative
 
 ## Google's business model is a privacy violation
 
-The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect the privacy of their users.
+The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect their users' privacy.
 
 Cross-site tracking that adtech is based on using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
 
@@ -130,7 +130,7 @@ Plausible Analytics has opted out of FLoC and visits to our site will not be inc
 
 ## We need to ban targeted advertising
 
-FLoC seems to be Google's way of saving a dying business. They are trying to keep targeted ads going by making them more 'privacy-friendly' and 'anonymous'. But behavioral profiling and targeted advertisement is not compatible with a privacy-respecting web.
+FLoC seems to be Google's way of saving a dying business. They are trying to keep targeted ads going by making them more "privacy-friendly" and "anonymous". But behavioral profiling and targeted advertisement is not compatible with a privacy-respecting web.
 
 Google made their first many billions exclusively on contextual advertising. Google now prefers to push the message that behavioral advertising based on personal data collection is superior but there is simply no trustworthy evidence to that.
 
