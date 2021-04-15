@@ -75,7 +75,7 @@ The Competition and Markets Authority in the UK [has opened an investigation int
 
 Even though Google keeps promoting the idea that all this is a collaborative open source effort, it is clear who is in the driving seat and whose employees are doing the work. No other browser has expressed interest in joining FLoC while several such as Brave and Vivaldi have stated the intention to remove it.
 
-## Default matters and FLoC is opt-out by default
+## Defaults matter and FLoC is opt-out by default
 
 Every website and every Chrome user will be opted into FLoC by default without any say in that choice. That is a decision Google has made for us all.
 
