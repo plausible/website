@@ -36,7 +36,8 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * Our WordPress plugin excludes your visits to your website from being counted in your analytics by default
 * We make it easy to track 404 error pages that people visit so you can fix them and redirect them to more appropriate pages
 * We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
-* We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers 
+* We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers
+* You can check your stats directly in your WordPress dashboard
  
 ## How to get started with Plausible Analytics
 
@@ -82,6 +83,28 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
 
 There are some optional Plausible features that we recommend you enable too. Here's a look at those.
+
+## How to view your stats directly in your WordPress dashboard
+
+You can view your Plausible stats directly in your WordPress dashboard without needing to visit our own website. Here's how to enable that: 
+
+* You need to create a secure and private shared link in your Plausible account first. The shared link is secure and impossible to guess
+
+![Create a shared link in your Plausible account](/docs/img/shared-stats.png)
+
+* In the "Visibility" area of your website settings in your Plausible account there's a "Shared links" section where you can create your shared link. Click on the "+ new link" button to do so. 
+
+* You can optionally password protect the shared link if you want to type in your chosen password first before being able to view the stats in your WordPress admin dashboard
+
+* If you prefer to view your stats without the password protection you can keep the password field blank
+
+* Click the "Create shared link" button and your new shared link will be displayed
+
+* Enable the "View your stats in your WordPress dashboard" setting in our WordPress plugin and paste your shared link 
+
+* Click on the "Save Changes" button to save it and to enable you to view your stats in your WordPress dashboard
+
+* You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard
 
 ## How to track external link clicks 
 
