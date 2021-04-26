@@ -7,7 +7,7 @@ permalink: /about
 
 Plausible Analytics is an open-source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world.
 
-Plausible is trusted by 2,000+ subscribers. The full-time team is based in the EU and consists of [Uku Taht](https://twitter.com/ukutaht) and [Marko Saric](https://twitter.com/markosaric). We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia while we work remotely and flexibly.
+Plausible is trusted by 3,000+ subscribers. The full-time team is based in the EU and consists of [Uku Taht](https://twitter.com/ukutaht) and [Marko Saric](https://twitter.com/markosaric). We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia while we work remotely and flexibly.
 
 ![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
 
