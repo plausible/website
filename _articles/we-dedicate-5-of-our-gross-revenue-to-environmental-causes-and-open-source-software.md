@@ -52,7 +52,7 @@ Plausible Analytics has always been a project very conscious about how we as hum
 
 Plausible Analytics servers are 100% powered by renewable energy and we've taken many steps to be as lightweight as possible both on our own website, our stats dashboard and the script that people place on their sites.
 
-Our script weights less than 1 KB, which is 45 times smaller than the Google Analytics Global Site Tag script. Using Plausible will reduce your page weight, keep your site loading fast and reduce your electricity usage.
+Our script weighs less than 1 KB, which is 45 times smaller than the Google Analytics Global Site Tag script. Using Plausible will reduce your page weight, keep your site loading fast and reduce your electricity usage.
 
 A site with 10,000 monthly visitors can save more than 4.5 kg of CO2 emissions per year by replacing Google Analytics with Plausible Analytics. And with Plausible now installed on more than 10,000 sites and counting hundreds of millions of page views every month, this adds up. You can read more about what makes Plausible a [lightweight web analytics](https://plausible.io/lightweight-web-analytics) solution.
 

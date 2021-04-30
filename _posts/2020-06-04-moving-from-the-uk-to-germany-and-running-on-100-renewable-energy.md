@@ -33,7 +33,7 @@ Now we're confident and comfortable with Germany as an integral part of the EU t
 
 Our server is now hosted with DigitalOcean and located in a data center in Frankfurt am Main. It is placed on the [German Commercial Internet Exchange](https://en.wikipedia.org/wiki/DE-CIX)(DE-CIX) which is the second-largest Internet exchange point worldwide by peak traffic and the largest one in Europe.
 
-We're now 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weights less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
+We're now 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
 
 If you replace Google Analytics with Plausible Analytics you will reduce your page size by approximately 45 KB for each visitor. With 10,000 monthly visitors that will be a saving of 450,000 KB (0.45 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
 

@@ -45,7 +45,7 @@ Web analytics like any other website element add extra page weight and extra loa
 
 Global Site Tag, the recommended way of integrating Google Analytics into your site, is a centralized script that can help you integrate many other Google services and features such as conversion tracking and remarketing.
 
-*https://www.googletagmanager.com/gtag/js* weights 28 KB and this script downloads another JavaScript file called the Google Analytics tag (*https://www.google-analytics.com/analytics.js*) which adds 17.7 KB to your page size.
+*https://www.googletagmanager.com/gtag/js* weighs 28 KB and this script downloads another JavaScript file called the Google Analytics tag (*https://www.google-analytics.com/analytics.js*) which adds 17.7 KB to your page size.
 
 These two tracking scripts combined add 45.7 KB of page weight to each and every page load. Every KB matters when you want to keep your site fast to load and a more [lightweight analytics](https://plausible.io/lightweight-web-analytics) solution is needed.
 
