@@ -69,7 +69,7 @@ We have an actual [live demo](https://plausible.io/plausible.io) for you to view
 
 Web analytics scripts like any other website element add extra page weight and extra loading time to your website. Every KB matters when you want to keep your site fast to load.
 
-Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weights under 1 KB. That's more than 22 times smaller than the Matomo script which weights 22.8 KB.
+Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weighs under 1 KB. That's more than 22 times smaller than the Matomo script which weighs 22.8 KB.
 
 * **Matomo** https://example.org/matomo.js **22.8 KB**
 * **Plausible** https://plausible.io/js/plausible.js **<1 KB**

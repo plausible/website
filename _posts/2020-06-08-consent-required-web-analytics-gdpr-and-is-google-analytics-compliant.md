@@ -176,4 +176,4 @@ We built Plausible Analytics with GDPR and user privacy in mind. This means that
 
 We also don't use any of the data we do collect for any advertising and behavioral profiling purposes. Our business model has nothing to do with advertising. Our product is not your website data. Our product is the website analytics tool and our business model is focused on hosting this analytics tool and charging a subscription fee for doing that.
 
-If you're curious about trying out our Plausible Analytics on your website, you can register for a [free, unlimited-usage 30-day trial](https://plausible.io/register) with no credit card required. Our analytics script weights less than 1 KB so you can run it alongside Google Analytics for the trial period and decide for yourself if it works for you.
+If you're curious about trying out our Plausible Analytics on your website, you can register for a [free, unlimited-usage 30-day trial](https://plausible.io/register) with no credit card required. Our analytics script weighs less than 1 KB so you can run it alongside Google Analytics for the trial period and decide for yourself if it works for you.
