@@ -5,5 +5,5 @@
 /status https://plausible.instatus.com
 /blog/analytics-metrics-definitons /blog/analytics-metrics-definitions
 /js/script.js http://161.35.214.234/js/plausible.js 200
-/* http://161.35.214.234/:splat 200
 /staging/* http://167.71.36.78/:splat 200
+/* http://161.35.214.234/:splat 200
