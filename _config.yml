@@ -11,10 +11,6 @@ twitter:
 feed:
   path: /blog/feed.xml
 
-jekyll-minifier:
-  uglifier_args:
-    harmony: true
-
 defaults:
   - scope:
       path: ""
@@ -36,7 +32,6 @@ plugins:
  - jekyll-sitemap
  - jekyll-postcss
  - jekyll-purgecss
- - jekyll-minifier
 
 exclude:
   - Gemfile

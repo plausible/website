@@ -172,6 +172,7 @@ layout: default
       </div>
     </div>
   </div>
+
   <script>
     pageviewTiers =   ['10k', '100k', '200k', '500k', '1m', '2m', '5m', '10m', '10m+']
     monthlyPriceTiers = ['$6 / mo', '$12 / mo', '$18 / mo', '$27 / mo', '$48 / mo', '$69 / mo', '$99 / mo', '$150 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
@@ -181,7 +182,7 @@ layout: default
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="relative px-4 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
-        <div class="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg lg:max-w-none">
+        <div class="max-w-lg mx-auto rounded-lg shadow-lg lg:max-w-none">
           <div class="px-6 py-8 bg-white lg:p-12">
             <div class="flex justify-between w-full">
               <div>
@@ -235,8 +236,9 @@ layout: default
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-700 leading-5">
-                  Unlimited websites
+                  <p aria-label="Have more sites? Contact us" data-microtip-position="top-right" role="tooltip" class="inline-flex items-center ml-3 text-sm text-gray-700 leading-5">
+                    20 websites
+                    <svg class="w-4 h-4 ml-1 mb-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                   </p>
                 </li>
                 <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
@@ -265,8 +267,9 @@ layout: default
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-700 leading-5">
-                    Custom events*
+                  <p aria-label="Custom events count towards your billable monthly pageviews" data-microtip-position="top-right" data-microtip-size="large" role="tooltip" class="inline-flex items-center ml-3 text-sm text-gray-700 leading-5">
+                    Custom events
+                    <svg class="w-4 h-4 ml-1 mb-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                   </p>
                 </li>
                 <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
@@ -290,9 +293,6 @@ layout: default
                   </p>
                 </li>
               </ul>
-            <div class="mt-6 text-xs text-left">
-              * Note that if you use the "Custom Events" feature, then these count towards your billable monthly pageviews.
-            </div>
             </div>
           </div>
 
