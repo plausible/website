@@ -4,7 +4,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "assets/css/highlight.css";
-@import "assets/css/tooltip.css";
 
 
 html {
