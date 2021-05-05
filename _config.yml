@@ -11,6 +11,11 @@ twitter:
 feed:
   path: /blog/feed.xml
 
+jekyll-minifier:
+  compress_css: false  # https://github.com/digitalsparky/jekyll-minifier/issues/54. Breaks the tooltip positioning of microtip
+  uglifier_args:
+    harmony: true
+
 defaults:
   - scope:
       path: ""
@@ -32,6 +37,7 @@ plugins:
  - jekyll-sitemap
  - jekyll-postcss
  - jekyll-purgecss
+ - jekyll-minifier
 
 exclude:
   - Gemfile
