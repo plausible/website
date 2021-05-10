@@ -27,7 +27,7 @@ Unlike Google's other initiatives such as AMP pages and [FLoC](https://plausible
 
 There are three brand-new Core Web Vitals benchmarks within the page experience signals and these will start rolling out as a part of the Google ranking algorithm beginning in mid-June 2021 and will be fully in place by the end of August 2021. 
 
-Your individual pages will get a label of either "Good", "Needs Improvement" or "Poor" for each of the Core Web Vitals. If your site meets the minimum threshold (score "Good") for all the Core Web Vitals, it could get a potential search ranking boost and more traffic from Google's search results.
+Your individual pages will get a label of either "Good", "Needs Improvement" or "Poor" for each of the Core Web Vitals. If your site meets the minimum threshold (score "Good") for all the Core Web Vitals, it could get a potential SEO ranking boost and more traffic from Google's search results.
 
 ## What sites may be at risk? 
 
@@ -145,7 +145,7 @@ The field data comes from the Chrome UX Report which takes the data from actual 
 
 One benefit of using PageSpeed Insights is that you can get the scores of any website on the web rather than only getting the scores of sites that you manage. Take a look at [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
 
-## How can I improve my core web vitals and my page speed?
+## How can I improve my page speed and pass core web vitals?
 
 ![Image](/uploads/core-web-vitals-field-lab-data.png)
 
