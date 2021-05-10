@@ -4,5 +4,11 @@
 - question: How do I get an invoice?
   answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice."
 
+- question: What happens if I go over my monthly page views limit?
+  answer: "You will never be charged extra for an occasional traffic spike. We will not stop counting your stats and you will keep having access to your dashboard. There are no surprise fees and your card will never be charged unexpectedly. Suppose new higher traffic levels become your new standard and your page views exceed your subscription plan for two consecutive months. In that case, we kindly ask you to upgrade your subscription plan to accommodate your new traffic levels using our self-serve platform."
+
+- question: How does the billing work if I upgrade my subscription to a higher tier?
+  answer: "Our payment processor Paddle will calculate a pro-rated amount which reflects the amount you have paid on your previous subscription and the amount of time until that subscription was supposed to expire."
+
 - question: Can I give someone access to my stats without making the dashboard public?
   answer: "You can use our private and secure shared links. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
