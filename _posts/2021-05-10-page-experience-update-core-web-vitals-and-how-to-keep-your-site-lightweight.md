@@ -8,6 +8,7 @@ description: As a site owner, you've probably heard about Google's page
 slug: page-experience-web-vitals
 date: 2021-05-10T09:29:22.817Z
 author: marko-saric
+image: /uploads/page-experience-core-web-vitals.png
 ---
 As a site owner, you've probably heard about Google's page experience update and the introduction of Core Web Vitals but what does it all mean?
 
@@ -45,6 +46,8 @@ These sites may be at risk:
 So even though you may not get more visitors from Google, the main benefit of meeting Core Web Vitals benchmarks is to provide a faster, safer and better user experience for your site visitors and have a website that uses less electricity and has a [lower carbon footprint](https://plausible.io/lightweight-web-analytics).
 
 ## Core Web Vitals and other page experience signals
+
+![Image](/uploads/all-page-experience-signals.jpg)
 
 Core Web Vitals are combined with other page experience signals to measure the user experience on your website, how people experience the speed, responsiveness and visual stability of your website. 
 
@@ -126,6 +129,8 @@ Great place to check your Core Web Vitals and get your real-world measurement sc
 
 ### Google Search Console 
 
+![Image](/uploads/page-exprience-signals.png)
+
 Google Search Console scores your pages with "Good", "Needs Improvement" or "Poor" based on the real-world data. It identifies pages that are not meeting the Core Web Vitals benchmarks and that require your attention.
 
 In the "Experience" section of the Search Console, you have access to the reports on the "Page Experience", "Core Web Vitals" and the "Mobile Usability". 
@@ -142,7 +147,11 @@ One benefit of using PageSpeed Insights is that you can get the scores of any we
 
 ## How can I improve my core web vitals and my page speed?
 
-The advice to improve your core web vitals scores is very similar to the advice on how to speed up your page in general. Here are some things you can consider:
+![Image](/uploads/core-web-vitals-field-lab-data.png)
+
+The advice to improve your core web vitals score is very similar to the advice on how to speed up your page in general. Plausible website itself hasn't been optimized for the core web vitals but it still scores well because we have optimized for speed even before web vitals were a thing.
+
+So put speed as one of your top priorities when building a website. Here are some things you can consider:
 
 ### Reduce the number of elements you're using
 
