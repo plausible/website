@@ -81,7 +81,7 @@ As a side note, those legal banners are also required not to be in the form of c
 
 Google has published [more details](https://developers.google.com/search/blog/2016/08/helping-users-easily-access-content-on) on what type of interstitials are not welcome.
 
-### Page speed using the Largest Contentful Paint (LCP)
+### Largest Contentful Paint (LCP)
 
 Largest Contentful Paint (LCP) is the first of the three Core Web Vitals. It measures the loading speed of the content on a website. People are impatient on the web and tend to close the slow loading sites. 
 
@@ -153,7 +153,7 @@ The advice to improve your core web vitals score is very similar to the advice o
 
 So put speed as one of your top priorities when building a website. Here are some things you can consider:
 
-### Reduce the number of elements you're using
+### Reduce the number of elements
 
 "Keep request counts low and transfer sizes small" is one of the main recommendations from Google. Another one is to "minimize third-party usage".
 
@@ -161,13 +161,13 @@ Every single design element or feature that you add to your site adds additional
 
 Your task is to analyze and understand all the requests your website is making. What is the purpose of each individual request? Can you and your visitors live without some of these? Remove and eliminate all the unnecessary elements.
 
-### Resize and compress all the images you're using
+### Resize and compress all the images
 
 "Properly size images" and "Serve images in next-gen formats" are two of Google's recommendations.
 
 By resizing and compressing images that you use, you can dramatically reduce your page weight without any noticeable difference to your visitors. You can also serve images in next-gen formats such as WebP.  
 
-### Implement lazy loading
+### Implement lazy loading and facades
 
 If you still have many elements on your site, you can improve the performance by lazy loading. Google recommends to "Defer offscreen images".
 
