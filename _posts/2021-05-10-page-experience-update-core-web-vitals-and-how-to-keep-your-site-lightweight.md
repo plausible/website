@@ -168,7 +168,7 @@ Your task is to analyze and understand all the requests your website is making. 
 
 By resizing and compressing images that you use, you can dramatically reduce your page weight without any noticeable difference to your visitors. You can also serve images in next-gen formats such as WebP.  
 
-### Implement lazy loading and facades
+### Implement lazy loading and facades
 
 If you still have many elements on your site, you can improve the performance by lazy loading. Google recommends to "Defer offscreen images".
 
