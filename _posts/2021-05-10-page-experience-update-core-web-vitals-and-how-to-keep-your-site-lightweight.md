@@ -8,6 +8,7 @@ slug: page-experience-web-vitals
 date: 2021-05-10T09:29:22.817Z
 author: marko-saric
 image: /uploads/page-experience-core-web-vitals.png
+image-alt: Core Web Vitals and the page experience update
 ---
 As a site owner, you've probably heard about Google's page experience update and the introduction of Core Web Vitals but what does it all mean?
 
