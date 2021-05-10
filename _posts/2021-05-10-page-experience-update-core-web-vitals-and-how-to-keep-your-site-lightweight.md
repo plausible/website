@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Core Web Vitals and how to optimize your page experience "
+title: "Core Web Vitals and how to improve the page experience "
 description: You've probably heard about Google's page experience update and the
   introduction of Core Web Vitals but what does it all mean?  Here's a summary
   of all the things you need to know.
