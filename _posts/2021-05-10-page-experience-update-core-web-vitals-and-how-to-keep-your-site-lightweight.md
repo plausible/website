@@ -42,6 +42,7 @@ These sites may be at risk:
 * Sites with security issues such as malware
 * Sites that block their content from being seen by using paywalls and similar elements
 * Sites that rely on a large number of intrusive banner ads, popups and other calls to action
+* Heavy and slow sites that frustrate the visitor and that are not optimized for speed
 
 So even though you may not get more visitors from Google, the main benefit of meeting Core Web Vitals benchmarks is to provide a faster, safer and better user experience for your site visitors and have a website that uses less electricity and has a [lower carbon footprint](https://plausible.io/lightweight-web-analytics).
 
