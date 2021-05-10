@@ -47,7 +47,7 @@ So even though you may not get more visitors from Google, the main benefit of me
 
 ## Core Web Vitals and other page experience signals
 
-![Image](/uploads/all-page-experience-signals.jpg)
+![All page experience signals](/uploads/all-page-experience-signals.jpg)
 
 Core Web Vitals are combined with other page experience signals to measure the user experience on your website, how people experience the speed, responsiveness and visual stability of your website. 
 
@@ -129,7 +129,7 @@ Great place to check your Core Web Vitals and get your real-world measurement sc
 
 ### Google Search Console 
 
-![Image](/uploads/page-exprience-signals.png)
+![Page experience scores in Google Search Console](/uploads/page-exprience-signals.png)
 
 Google Search Console scores your pages with "Good", "Needs Improvement" or "Poor" based on the real-world data. It identifies pages that are not meeting the Core Web Vitals benchmarks and that require your attention.
 
@@ -147,7 +147,7 @@ One benefit of using PageSpeed Insights is that you can get the scores of any we
 
 ## How can I improve my page speed and pass core web vitals?
 
-![Image](/uploads/core-web-vitals-field-lab-data.png)
+![Passing the core web vitals](/uploads/core-web-vitals-field-lab-data.png)
 
 The advice to improve your core web vitals score is very similar to the advice on how to speed up your page in general. Plausible website itself hasn't been optimized for the core web vitals but it still scores well because we have optimized for speed even before web vitals were a thing.
 
