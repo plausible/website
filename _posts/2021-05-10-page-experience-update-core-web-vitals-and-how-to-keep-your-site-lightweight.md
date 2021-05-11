@@ -5,7 +5,7 @@ description: You've probably heard about Google's page experience update and the
   introduction of Core Web Vitals but what does it all mean?  Here's a summary
   of all the things you need to know.
 slug: page-experience-web-vitals
-date: 2021-05-10T09:29:22.817Z
+date: 2021-05-11T08:41:53.079Z
 author: marko-saric
 image: /uploads/page-experience-core-web-vitals.png
 image-alt: Core Web Vitals and the page experience update
