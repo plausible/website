@@ -78,7 +78,7 @@ Intrusive interstitials are popups, paywalls, full-page advertising banners and 
 
 Note that some elements such as [cookie popups](https://plausible.io/blog/google-analytics-cookies) and [GDPR consent notices](https://plausible.io/blog/google-analytics-gdpr) are not included in this.
 
-As a side note, those legal banners are also required not to be in the form of consent walls that obstruct the content. According to the GDPR legislation, the consent notices should allow your visitors to view the content even if they don't want to accept cookies or profiling for advertising purposes.
+As a side note, those legal banners are also required not to be in the form of consent walls that obstruct the content. According to the GDPR legislation, the consent notices should not obstruct the content of the page and should allow visitors to view the content even when they don't want to interact with the notice.
 
 Google has published [more details](https://developers.google.com/search/blog/2016/08/helping-users-easily-access-content-on) on what type of interstitials are not welcome.
 
@@ -124,6 +124,8 @@ Another report by [iProspect](https://corewebvitals.iprospect.com/) looked at 1,
 
 The First Input Delay vital is pretty much a non-existent issue for the vast majority of sites but many seem to struggle with Cumulative Layout Shift and Largest Contentful Paint. 
 
+So if your site is meeting all the benchmarks and provides a fast and quick-loading user experience, you are in the minority!
+
 ## What tools can I use to check my core web vitals?
 
 Great place to check your Core Web Vitals and get your real-world measurement scores is using the tools that Google has created:
@@ -158,9 +160,9 @@ So put speed as one of your top priorities when building a website. Here are som
 
 "Keep request counts low and transfer sizes small" is one of the main recommendations from Google. Another one is to "minimize third-party usage".
 
-Every single design element or feature that you add to your site adds additional footprint. Images, auto-playing videos, fonts, analytics, social media sharing buttons, pop-ups or banner advertising.
+Every single design element or feature that you add to your site adds additional footprint. Images, auto-playing videos, fonts, live chat, analytics, social media sharing buttons, pop-ups or banner advertising.
 
-Your task is to analyze and understand all the requests your website is making. What is the purpose of each individual request? Can you and your visitors live without some of these? Remove and eliminate all the unnecessary elements.
+Your task is to analyze and understand all the requests your website is making. What is the purpose of each individual request? Can you and your visitors live without some of these? Then remove and eliminate all the unnecessary elements.
 
 ### Resize and compress all the images
 
