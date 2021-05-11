@@ -185,3 +185,15 @@ If you cannot live without some specific features, try and find more lightweight
 * Google Analytics with its 45 KB in script size can be [replaced with Plausible Analytics](https://plausible.io/vs-google-analytics) which is under 1 KB
 
 Identify heavy and slow elements of your site and go on a hunt for more appropriate and lightweight alternative solutions.
+
+### How does Google Analytics impact your core web vitals?
+
+I did some tests using PageSpeed Insights on my own site to see how web analytics impact the core web vitals scores. 
+
+Here's the test with Plausible Analytics installed:
+
+And with Google Analytics installed:
+
+Pretty much overall the scores are a bit worse but all still within the "Good" benchmark. But you can imagine how quickly the scores turn bad if you have several heavy and optimized elements.
+
+Interestingly enough, Google PageSpeed Insights flags Google Analytics in the "Avoid long main-thread tasks" section:
