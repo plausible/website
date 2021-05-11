@@ -198,7 +198,7 @@ And with Google Analytics installed:
 
 ![Google Analytics core web vitals on my site](/uploads/plausible-google-analytics.png)
 
-The main score stays on 100 for the desktop test but drops from 100 to 97 for the mobile test. Pretty much overall the scores for core web vitals are a bit worse with Google Analytics but all still within the "Good" benchmark. But you can imagine how quickly the scores turn bad if you have several heavy and optimized elements.
+The main score stays on 100 for the desktop test but drops from 100 to 97 for the mobile test. Pretty much overall the scores for core web vitals are a bit worse with Google Analytics but all still within the "Good" benchmark. But you can imagine how quickly the scores turn bad if you have several heavy and unoptimized elements.
 
 Interestingly enough, Google PageSpeed Insights flags Google Analytics in the "Avoid long main-thread tasks" recommendation:
 
