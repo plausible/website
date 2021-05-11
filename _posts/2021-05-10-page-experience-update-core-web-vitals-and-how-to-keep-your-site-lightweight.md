@@ -200,9 +200,9 @@ And with Google Analytics installed:
 
 ![Google Analytics core web vitals on my site](/uploads/plausible-google-analytics.png)
 
-My main score stays on 100 for the desktop test but drops from 100 to 97 for the mobile test. Pretty much overall the scores for core web vitals are a bit worse with Google Analytics but all still within the "Good" benchmark. 
+Pretty much overall the scores for core web vitals are a bit worse with Google Analytics but all still within the "Good" benchmark. First Contentful Paint goes from 1.3 seconds to 1.7 seconds and Largest Contentful Paint goes from 1.8 seconds to 2 seconds. Speed Index itself slows down from 2.2 seconds to 2.7 seconds.
 
-My site is already optimized so a drop from 100 to 97 for using Google Analytics doesn't look too bad. For a site that's on the line between "Good" and "Needs improvement", adding Google Analytics could be the final straw that ruins the score. These scores can turn bad quickly if you add even one heavy and unoptimized element.
+My main score stays on 100 for the desktop test but drops from 100 to 97 for the mobile test. My site is already optimized so this drop when using Google Analytics doesn't look too bad. For a site that's on the line between "Good" and "Needs improvement", adding Google Analytics could be the final straw that ruins the score. These scores can turn bad quickly if you add even one heavy and unoptimized element.
 
 Interestingly enough, Google PageSpeed Insights flags Google Analytics in the "Avoid long main-thread tasks" recommendation:
 
