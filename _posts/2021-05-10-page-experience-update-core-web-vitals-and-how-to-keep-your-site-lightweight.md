@@ -192,8 +192,14 @@ I did some tests using PageSpeed Insights on my own site to see how web analytic
 
 Here's the test with Plausible Analytics installed:
 
+![Plausible Analytics core web vitals on my site](/uploads/plausible-alone.png)
+
 And with Google Analytics installed:
+
+![Google Analytics core web vitals on my site](/uploads/plausible-google-analytics.png)
 
 The main score stays on 100 for the desktop test but drops from 100 to 97 for the mobile test. Pretty much overall the scores for core web vitals are a bit worse with Google Analytics but all still within the "Good" benchmark. But you can imagine how quickly the scores turn bad if you have several heavy and optimized elements.
 
-Interestingly enough, Google PageSpeed Insights flags Google Analytics in the "Avoid long main-thread tasks" section:
+Interestingly enough, Google PageSpeed Insights flags Google Analytics in the "Avoid long main-thread tasks" recommendation:
+
+![Google Analytics avoid long main-thread tasks](/uploads/avoid-long-main-thread-tasks.png)
