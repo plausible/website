@@ -1,5 +1,5 @@
-/currency/us.json /currency/uk.json 200 Country=gb
-/currency/us.json /currency/eu.json 200 Country=ad,at,ax,be,bl,cy,de,ee,es,fi,fr,gf,gp,gr,ie,it,lt,lu,lv,mc,me,mf,mq,mt,nl,pm,pt,re,si,sk,sm,tf,va,yt
+/currency/us.json /currency/uk.json 200! Country=gb
+/currency/us.json /currency/eu.json 200! Country=ad,at,ax,be,bl,cy,de,ee,es,fi,fr,gf,gp,gr,ie,it,lt,lu,lv,mc,me,mf,mq,mt,nl,pm,pt,re,si,sk,sm,tf,va,yt
 /docs/* https://competent-benz-12aade.netlify.app/:splat 200
 /feedback https://github.com/plausible/analytics/discussions
 /roadmap https://github.com/plausible/analytics/projects/1
