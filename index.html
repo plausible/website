@@ -198,7 +198,7 @@ layout: default
                   Your price
                 </p>
                 <div class="text-2xl font-extrabold leading-none text-gray-900">
-                  <span x-text="currency">$</span><!---
+                  <span x-show="volumeTier < 8" x-text="currency">$</span><!---
                   --><span x-show="!pricingYearly" x-html="monthlyPriceTiers[volumeTier]">6 / mo</span><!--
                   --><span x-show="pricingYearly" style="display: none;" x-html="yearlyPriceTiers[volumeTier]">60 / yr</span>
                 </div>
