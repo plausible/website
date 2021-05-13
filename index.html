@@ -2,32 +2,32 @@
 layout: default
 ---
 
-  <div class="container relative pb-12 lg:pb-16 xl:pb-20">
-    <div class="px-4 mx-auto mt-10 max-w-screen-xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
-      <div class="text-center">
-        <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 leading-10 sm:text-4xl sm:leading-none md:text-5xl">
-          Simple and privacy-friendly
-          <br class="xl:hidden" />
-          <span class="text-indigo-600">alternative to Google Analytics</span>
-        </h1>
-        <p class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU 🇪🇺
-        </p>
-        <div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
-          <div class="shadow rounded-md">
-            <a href="/register" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-              Get started
-            </a>
-          </div>
-          <div class="mt-3 shadow rounded-md sm:mt-0 sm:ml-3">
-            <a href="/plausible.io" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-              Live demo
-            </a>
-          </div>
+<div class="container relative pb-12 lg:pb-16 xl:pb-20">
+  <div class="px-4 mx-auto mt-10 max-w-screen-xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+    <div class="text-center">
+      <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 leading-10 sm:text-4xl sm:leading-none md:text-5xl">
+        Simple and privacy-friendly
+        <br class="xl:hidden" />
+        <span class="text-indigo-600">alternative to Google Analytics</span>
+      </h1>
+      <p class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+      Plausible is a lightweight and open-source website analytics tool. No cookies and fully compliant with GDPR, CCPA and PECR. Made and hosted in the EU 🇪🇺
+      </p>
+      <div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
+        <div class="shadow rounded-md">
+          <a href="/register" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            Get started
+          </a>
+        </div>
+        <div class="mt-3 shadow rounded-md sm:mt-0 sm:ml-3">
+          <a href="/plausible.io" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            Live demo
+          </a>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <div class="relative">
@@ -175,10 +175,10 @@ layout: default
 
   <script>
     pageviewTiers =   ['10k', '100k', '200k', '500k', '1m', '2m', '5m', '10m', '10m+']
-    monthlyPriceTiers = ['$6 / mo', '$12 / mo', '$18 / mo', '$27 / mo', '$48 / mo', '$69 / mo', '$99 / mo', '$150 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
-    yearlyPriceTiers = ['$4 / mo', '$8 / mo', '$12 / mo', '$18 / mo', '$32 / mo', '$46 / mo', '$66 / mo', '$100 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
+    monthlyPriceTiers = ['6 / mo', '12 / mo', '20 / mo', '30 / mo', '50 / mo', '70 / mo', '100 / mo', '150 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
+    yearlyPriceTiers = ['60 / yr', '120 / yr', '200 / yr', '300 / yr', '500 / yr', '700 / yr', '1000 / yr', '1500 / yr', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
   </script>
-  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{volumeTier: 0, pricingYearly: false}">
+  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{volumeTier: 0, pricingYearly: false, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="relative px-4 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
@@ -198,8 +198,9 @@ layout: default
                   Your price
                 </p>
                 <div class="text-2xl font-extrabold leading-none text-gray-900">
-                  <span x-show="!pricingYearly" x-html="monthlyPriceTiers[volumeTier]">$6 / mo</span>
-                  <span x-show="pricingYearly" style="display: none;" x-html="yearlyPriceTiers[volumeTier]">$48 / yr</span>
+                  <span x-text="currency">$</span><!---
+                  --><span x-show="!pricingYearly" x-html="monthlyPriceTiers[volumeTier]">6 / mo</span><!--
+                  --><span x-show="pricingYearly" style="display: none;" x-html="yearlyPriceTiers[volumeTier]">60 / yr</span>
                 </div>
               </div>
             </div>
@@ -217,7 +218,7 @@ layout: default
               <span class="relative ml-2 text-sm text-gray-700">
                 Yearly billing
                 <span class="absolute r-0 whitespace-no-wrap px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 text-yellow-800">
-                  33% discount
+                  2 months free
                 </span>
               </span>
             </div>
