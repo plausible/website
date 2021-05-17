@@ -8,6 +8,8 @@ description: From the release of the page experience algorithm, there is no
 slug: google-amp
 date: 2021-05-17T11:51:10.548Z
 author: marko-saric
+image: /uploads/google-amp-is-dead.png
+image-alt: Google AMP is dead
 ---
 Google is rolling out a significant change as a part of their page experience ranking algorithm in June 2021.
 
