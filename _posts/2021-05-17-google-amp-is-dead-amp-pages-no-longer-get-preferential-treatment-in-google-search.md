@@ -15,7 +15,7 @@ Google is rolling out a significant change as a part of their page experience ra
 
 From the release of [the Core Web Vitals and the page experience algorithm](https://plausible.io/blog/page-experience-web-vitals), there is no longer any preferential treatment for Accelerated Mobile Pages (AMP) in Google's search results, Top Stories carousel and the Google News. Google will even remove the AMP badge icon from the search results.
 
-## Google AMP pages are no longer required to rank
+## Google AMP is no longer required to rank
 
 Here's what Google [had to say](https://developers.google.com/search/blog/2021/04/more-details-page-experience):
 
@@ -37,7 +37,7 @@ Google's stated intention was to rank sites that load faster but they ended up r
 
 From the page experience algorithm change, Google is giving ranking incentive to sites that are fast instead. This is something that should have been done from the start without even getting into [the whole AMP mess](https://markosaric.com/google-amp/).
 
-Google has been pushing sites to use their AMP pages for years and continues to recommend it as "the majority of the AMP pages achieve great page experiences". But for websites that are optimized for speed, their AMP pages are often slower than the regular pages.
+Google has been pushing sites to use AMP for years and continues to recommend it as "the majority of the AMP pages achieve great page experiences". But for websites that are optimized for speed, their AMP pages are often slower than the regular pages.
 
 ## Why did Google make this change now?
 
