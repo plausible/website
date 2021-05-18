@@ -15,6 +15,8 @@ Google is rolling out a significant change as a part of their page experience ra
 
 From the release of [the Core Web Vitals and the page experience algorithm](https://plausible.io/blog/page-experience-web-vitals), there is no longer any preferential treatment for Accelerated Mobile Pages (AMP) in Google's search results, Top Stories carousel and the Google News. Google will even remove the AMP badge icon from the search results.
 
+You can now safely ignore Google AMP when building a more diverse and more exciting web without any artificial restrictions set by the adtech giant. 
+
 ## Google AMP is no longer required to rank
 
 Here's what Google [had to say](https://developers.google.com/search/blog/2021/04/more-details-page-experience):
@@ -27,7 +29,7 @@ Here's what Google [had to say](https://developers.google.com/search/blog/2021/0
 
 This is an excellent step towards a more independent, open and healthier web. So many websites, particularly news publishers, felt like hostages and were forced to use AMP with the only motivation being the promise of more search traffic.
 
-From this update, you can outrank AMP pages and get more search traffic by creating a faster website with a better user experience. And you now have the choice of technology you want to use to get there. Safely ignore Google AMP when building a more diverse and more exciting web without any artificial restrictions set by the adtech giant. 
+From this update, you can outrank AMP pages and get more search traffic by creating a faster website with a better user experience. 
 
 ## Your site can be faster than AMP without using AMP
 
@@ -45,7 +47,7 @@ Google AMP was never popular. It was controversial from the day it was introduce
 
 There's been a lot of antitrust scrutiny on Google and it may have played a role in this change of heart. AMP put Google in control of the web and of what a website can be. Google put themselves in between the visitor and the site. It took control and independence away from sites that felt forced to use Google AMP. 
 
-Now all the sites have a choice. If you want higher rankings and more traffic from search engines, you need to optimize your site for a better, more performant and faster user experience. 
+Now all the sites have a choice. If you want higher rankings and more traffic from search engines, you need to optimize your site for a better, more performant and faster user experience. And you now have the choice of technology you want to use to get there.
 
 AMP is no longer a Google requirement to create a fast-loading website. You can develop [a lightweight site](https://plausible.io/lightweight-web-analytics) with a great page experience and top Core Web Vitals scores even without using the restricted and Google-controlled way of building a website.
 
