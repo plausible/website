@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "60 Best Google Analytics alternatives: The Complete List for 2020"
+title: "60 Best Google Analytics alternatives: The Complete List"
 description: Are you looking for a Google Analytics alternative? Here's the
-  complete list of all the best website analytics tools you can choose from in
-  2020.
+  complete list of all the best website analytics tools you can choose from.
 slug: google-analytics-alternatives
 date: 2020-04-27T13:30:20.745Z
 author: marko-saric
@@ -20,7 +19,7 @@ Google Analytics is a powerful and useful tool, but [here are some reasons](http
 * They want something **more lightweight to optimize their site speed** and performance
 * They want something that's **open source and/or self-hostable** 
 
-Are you looking for a Google Analytics alternative or a tool to use as an addition to Google Analytics? Here's the complete list of all the best website analytics tools you can choose from in 2020. Let's get started.
+Are you looking for a Google Analytics alternative or a tool to use as an addition to Google Analytics? Here's the complete list of all the best website analytics tools you can choose from. Let's get started.
 
 1. Ordered list
 {:toc}
@@ -31,7 +30,7 @@ Are you looking for a Google Analytics alternative or a tool to use as an additi
 
 We're Plausible Analytics and after using Google Analytics for many years we believe we have created a better alternative for some site owners and some use cases. Plausible Analytics gives you a web analytics tool that is:
 
-* Fully **open source** with the code available on GitHub
+* Fully **open source** with the code available on GitHub and can be self-hosted too
 * **Simple to understand** and get insights from in one minute
 * **A [lightweight script of under 1 KB](https://plausible.io/lightweight-web-analytics)** so your site keeps loading fast
 * **Doesn’t use cookies** so there’s no need for cookie banners
@@ -41,7 +40,7 @@ We're Plausible Analytics and after using Google Analytics for many years we bel
 If this sounds interesting, do [register for a trial](https://plausible.io/register). The script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days, there are no restrictions on the usage and no credit card is required either.
 
 * Website: <https://plausible.io/>
-* Cost: Starts from $4/month
+* Cost: Starts from $6/month and there's a discount when paid annually
 * Trial: 30 day free trial
 * Open-source: Yes. [GitHub](https://github.com/plausible/analytics/)
 * Demo: [Live demo](https://plausible.io/plausible.io)
@@ -145,6 +144,8 @@ Siteimprove's all-in-one software helps you perfect your digital presence and tu
 
 These Google Analytics alternatives are focused on the fact that Google Analytics is too complex and overkill for the majority of site owners. They aim to provide a better curated and [easier-to-understand site metrics](https://plausible.io/simple-web-analytics).
 
+Plausible Analytics is another provider focused on simplicity. You can [read more about us](#plausible-analytics).
+
 ### Simple Analytics
 
 * Website: <https://simpleanalytics.com/>
@@ -225,7 +226,9 @@ Clear dashboards and simple reports you can understand without a manual or train
 
 ![Matomo live demo](/uploads/matomo-live-demo.png "Matomo live demo")
 
-These [open-source Google Analytics alternatives](https://plausible.io/open-source-website-analytics) allow you to download their software, install it and run it from your web server. Some offer premium hosted solutions too.
+These open source web analytics products allow you to download their software, install it and run it from your web server. Some offer premium hosted solutions too.
+
+Plausible Analytics is another [open source Google Analytics alternative]((https://plausible.io/open-source-website-analytics) and we've made Plausible easy to self-host too. You can read about our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics).
 
 ### Matomo
 
@@ -295,7 +298,9 @@ Powerful product analytics for all apps and devices. Understand your customers a
 
 ![GoatCounter live demo](/uploads/goatcounter-live-demo.png "GoatCounter live demo")
 
-These Google Analytics alternatives focus on providing website stats that are useful and that are not privacy-invasive at the same time.
+These Google Analytics alternatives focus on providing website stats that are useful and that are not privacy-invasive at the same time. Here's more on information on what makes these providers [privacy focused web analytics](https://plausible.io/privacy-focused-web-analytics).
+
+Plausible Analytics is another provider focused on privacy. You can [read more about us](#plausible-analytics).
 
 ### Fathom
 
@@ -372,6 +377,8 @@ AWStats is a free powerful and featureful open source tool that generates advanc
 ![Koko Analytics live demo](/uploads/koko-analytics-live-demo.png "Koko Analytics live demo")
 
 More than 35% of all websites on the web use WordPress as the content management system. There are some WordPress exclusive and WordPress native ways to get website analytics. The same is the case for many of the other platforms.
+
+Plausible has a WordPress plugin too. You can [read more here](https://plausible.io/wordpress-analytics-plugin). Here are some of the best [Wordpress analytics plugins](https://plausible.io/blog/best-wordpress-analytics-plugins).
 
 ### Koko Analytics
 
