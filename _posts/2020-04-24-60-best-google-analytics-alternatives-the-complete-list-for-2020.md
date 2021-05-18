@@ -228,7 +228,7 @@ Clear dashboards and simple reports you can understand without a manual or train
 
 These open source web analytics products allow you to download their software, install it and run it from your web server. Some offer premium hosted solutions too.
 
-Plausible Analytics is another [open source Google Analytics alternative]((https://plausible.io/open-source-website-analytics) and we've made Plausible easy to self-host too. You can read about our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics).
+Plausible Analytics is another [open source Google Analytics alternative](https://plausible.io/open-source-website-analytics) and we've made Plausible easy to self-host too. You can read about our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics).
 
 ### Matomo
 
