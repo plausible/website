@@ -6,7 +6,7 @@ description: From the release of the page experience algorithm, there is no
   longer any preferential treatment for AMP in Google's search results, Top
   Stories carousel and the Google News.
 slug: google-amp
-date: 2021-05-17T11:51:10.548Z
+date: 2021-05-18T07:28:10.050Z
 author: marko-saric
 image: /uploads/google-amp-is-dead.png
 image-alt: Google AMP is dead
