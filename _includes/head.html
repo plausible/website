@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/tooltip.css" | relative_url }}">
   <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') window.location.pathname = '/sites'</script>
-  <script async defer type="text/javascript" src="https://plausible.io/js/script.js"></script>
-  <script async defer src="https://testing.plausible.io/js/plausible.js"></script>
+  <script defer src="https://plausible.io/js/script.js"></script>
+  <script defer data-api="https://testing.plausible.io/stats/api/event" src="https://testing.plausible.io/stats/js/script.js"></script>
 
   {%- feed_meta -%}
 </head>
