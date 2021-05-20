@@ -9,5 +9,4 @@
 /js/script.js http://161.35.214.234/js/plausible.js 200
 /staging/* http://167.71.36.78/:splat 200
 /testing/* http://159.65.112.96/:splat 200
-/js/test-script*.js http://161.35.214.234/js/plausible*.js 200
 /* http://161.35.214.234/:splat 200
