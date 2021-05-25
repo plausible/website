@@ -24,9 +24,9 @@ The privacy of our website visitors is important to us so we do not track any in
 - No information is mined and harvested for personal and behavioral trends
 - No information is monetized
 
-We run our own analytics script to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected. 
+We run the Plausible Analytics script to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected. You can view the data we collect in [our live demo](https://plausible.io/plausible.io).
 
-Data collected includes websites that send us traffic, pages on our site that are visited, duration of the visits, information from the devices (device type, operating system, country and browser) used during the visit and more. You can see full details in [our data policy](https://plausible.io/data-policy) and view the data we have access to in [our live demo](https://plausible.io/plausible.io).
+Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can see full details in [our data policy](https://plausible.io/data-policy).
 
 ## As a customer and subscriber of Plausible Analytics
 
@@ -47,7 +47,7 @@ Here's what that means in practice:
 - **All emails are sent using a third-party email provider**. Transactional emails and email reports (should you choose to subscribe to them) are sent using Postmark. We have disabled both open tracking and link tracking on all emails sent. See the [Postmark Privacy Policy](https://postmarkapp.com/eu-privacy) for full details.
 - **When you write to us with a question or to ask for help**. We keep that correspondence, which includes the email address, so that we have a history of past correspondences to reference if you reach out in the future. We use this data solely in connection with answering the queries we receive.
 - **We use CAPTCHA service as a means of spam protection on our account registration form**. hCaptcha is a GDPR-compliant and privacy-friendly captcha. See the [hCaptcha Privacy Policy](https://www.hcaptcha.com/privacy) for full details.
-- **When you choose to subscribe to our blog posts via email**. We use Mailchimp to send those newsletters. We have disabled both open tracking and link tracking on all emails sent. See the [Mailchimp Privacy Policy](https://mailchimp.com/legal/privacy/) for full details.
+- **For our blog readers who choose to receieve our blog posts via email**. We use Mailchimp to send those newsletters. We have disabled both open tracking and link tracking on all emails sent. See the [Mailchimp Privacy Policy](https://mailchimp.com/legal/privacy/) for full details.
 
 ### Retention of data
 
