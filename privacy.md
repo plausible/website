@@ -47,7 +47,7 @@ Here's what that means in practice:
 - **All emails are sent using a third-party email provider**. Transactional emails and email reports (should you choose to subscribe to them) are sent using Postmark. We have disabled both open tracking and link tracking on all emails sent. See the [Postmark Privacy Policy](https://postmarkapp.com/eu-privacy) for full details.
 - **When you write to us with a question or to ask for help**. We keep that correspondence, which includes the email address, so that we have a history of past correspondences to reference if you reach out in the future. We use this data solely in connection with answering the queries we receive.
 - **We use CAPTCHA service as a means of spam protection on our account registration form**. hCaptcha is a GDPR-compliant and privacy-friendly captcha. See the [hCaptcha Privacy Policy](https://www.hcaptcha.com/privacy) for full details.
-- **For our blog readers who choose to receieve our blog posts via email**. We use Mailchimp to send those newsletters. We have disabled both open tracking and link tracking on all emails sent. See the [Mailchimp Privacy Policy](https://mailchimp.com/legal/privacy/) for full details.
+- **For our blog readers who choose the option to receive blog posts via email**. We use Mailchimp to send those blog posts. We have disabled both open tracking and link tracking on all emails sent. See the [Mailchimp Privacy Policy](https://mailchimp.com/legal/privacy/) for full details.
 
 ### Retention of data
 
