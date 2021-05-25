@@ -49,7 +49,7 @@ In our testing, using IP addresses to count visitors is remarkably accurate when
 
 The biggest limitation with this approach is that we cannot do good retention analysis with Plausible. We cannot show stats like _New vs Returning visitors_ because they rely on having a persistent user identifier.
 
-<small>_Disclaimer:_ We're not lawyers. The information in this post is our view on things and it's here to help give you an introduction to the different privacy regulations and how Plausible is built to help you comply with them. We encourage you to discuss specific issues with your lawyer if you have any concerns.</small>
+<small>_Disclaimer:_ This post provides information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.</small>
 
 ## Built and hosted in the EU
 
