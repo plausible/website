@@ -13,12 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
+    - name: Build the site
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-        
+        jekyll/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && npm install && jekyll build --future"
+
     - name: rsync deployment
       uses: burnett01/rsync-deployments@4.1
       with:
