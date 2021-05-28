@@ -3,6 +3,9 @@
 
 - question: How do I get an invoice?
   answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice."
+    
+- question: Do you support any alternative payment methods?
+  answer: "Credit card and PayPal are the only supported payment methods. We cannot accept payments by wire transfer, invoicing or cryptocurrency unfortunately."
 
 - question: What happens if I go over my monthly page views limit?
   answer: "You will never be charged extra for an occasional traffic spike. We will not stop counting your stats and you will keep having access to your dashboard. There are no surprise fees and your card will never be charged unexpectedly. Suppose new higher traffic levels become your new standard and your page views exceed your subscription plan for two consecutive months. In that case, we kindly ask you to upgrade your subscription plan to accommodate your new traffic levels using our self-serve platform."
