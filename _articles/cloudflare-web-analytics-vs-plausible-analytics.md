@@ -106,11 +106,13 @@ Cloudflare Web Analytics is too basic even for the [simple web analytics](https:
 Here are some of the metrics missing on Cloudflare Web Analytics compared to what you can get on Plausible Analytics:
 
 * No live view or live dashboard so you cannot see what's happening on your site right now
-* No visit duration so you cannot figure out how long people stay on your site or judge the quality of a referral source
+* No visit duration and time on page so you cannot figure out how long people stay on your site, on the specific pages or judge the quality of a referral source
 * No bounce rate so you cannot analyze the quality of different pages or referral sources
 * No support for [UTM tags](https://plausible.io/blog/utm-tracking-tags) so you cannot track your marketing campaigns, emails and minimize the dark traffic
 * No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
-* No way to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted
+* No way to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted. To avoid adblockers, you will need to use their premium 
+Cloudflare Analytics tool
+* Cloudflare Web Analytics recently introduced performance metrics for [Core Web Vitals](https://plausible.io/blog/page-experience-web-vitals) and this is something Plausible doesn't support
 
 ## Cloudflare is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
 
