@@ -259,7 +259,7 @@ Open Web Analytics is the free and open source web analytics framework that lets
 
 ### userTrack
 
-* Website: [https://www.usertrack.net/](http://www.openwebanalytics.com/)
+* Website: [https://www.usertrack.net/](https://www.usertrack.net/)
 * Cost: $99 one-time fee
 * Open-source: No
 * Demo: [Live demo](https://www.usertrack.net/demo)
