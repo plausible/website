@@ -92,11 +92,9 @@ You can view your Plausible stats directly in your WordPress dashboard without n
 
 ![Create a shared link in your Plausible account](/docs/img/shared-stats.png)
 
-* In the "Visibility" area of your website settings in your Plausible account there's a "Shared links" section where you can create your shared link. Click on the "+ new link" button to do so. 
+* In the "Visibility" area of your website settings in your Plausible account there's a "Shared links" section where you can create your shared link. Click on the "+ new link" button to do so
 
-* You can optionally password protect the shared link if you want to type in your chosen password first before being able to view the stats in your WordPress admin dashboard
-
-* If you prefer to view your stats without the password protection you can keep the password field blank
+* Keep the password field blank as it's not possible to view password-protected shared links within your WordPress dashboard
 
 * Click the "Create shared link" button and your new shared link will be displayed
 
