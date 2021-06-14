@@ -76,11 +76,13 @@ Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't see
 
 Plausible Analytics filters out the bots and we don't use any type of data sampling at all so all the stats in your dashboard show 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
-## Cloudflare limits you to one website only
+## The number of sites
 
-You can only add one domain name or one website to your Cloudflare Web Analytics account. They have announced that they plan to "add support for multiple analytics properties per account" but this is not currently the case.
+Cloudflare Web Analytics launched with a limit of one domain name per account. They have recently extended that to ten sites and it's possible to increase that [even further](https://developers.cloudflare.com/analytics/faq#can-i-track-more-than-one-website-with-web-analytics):
 
-Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account. Free of charge.
+> Right now there's a soft limit of 10 sites per account, but that can be adjusted by contacting Cloudflare support.
+
+Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account. First 20 websites are included free of charge in any subscription plan.
 
 ## Cloudflare limits you to 15 items on any report
 
@@ -108,7 +110,7 @@ Here are some of the metrics missing on Cloudflare Web Analytics compared to wha
 * No bounce rate so you cannot analyze the quality of different pages or referral sources
 * No support for [UTM tags](https://plausible.io/blog/utm-tracking-tags) so you cannot track your marketing campaigns, emails and minimize the dark traffic
 * No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
-* No way to use a custom domain to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted
+* No way to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted
 
 ## Cloudflare is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
 
