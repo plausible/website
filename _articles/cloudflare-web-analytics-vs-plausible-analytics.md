@@ -120,11 +120,9 @@ Cloudflare Web Analytics JavaScript file that you need to integrate into your si
 
 This is a big improvement compared to the 45.7 KB that Google Analytics integration adds to your page weight but it's still 6 times heavier than the Plausible Analytics default script which is at 0.7 KB. 
 
-Why is Cloudflare Web Analytics script so heavy despite not giving you much data or insights in the dashboard? Looking at the script, they are collecting a lot of data about page loading time, web speed and site performance despite not providing you with any insights into this.
+Why is Cloudflare Web Analytics script so heavy despite not giving you much data or insights in the dashboard? Looking at the script, they are collecting a lot of data about page loading time, web speed and site performance.
 
-These could be insights they plan to add in the future versions of the dashboard but it is also a way for them to gather business intelligence to improve their premium products and services. "Free" is pretty much never free on the web and always comes with some type of cost.
-
-If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice. We are transparent and only collect the data we actually display on your dashboard. We have no other agenda with your traffic.
+If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice. 
 
 ## Different definitions of unique visitor
 
