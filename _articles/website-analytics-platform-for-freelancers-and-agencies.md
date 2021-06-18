@@ -83,6 +83,22 @@ Plausible Analytics is an [open source product](https://plausible.io/open-source
 
 You can add as many clients' websites as you want under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
 
+### Invite team members and collaborate 
+
+Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
+
+You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.  
+
+You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
+
+### Transfer the ownership of a site to your client
+
+With Plausible, you can set up a site, custom events and make sure everything works correctly before transferring the ownership of that site to your client. 
+
+Then, your client, as a new owner of the site, will be responsible for billing and other day-to-day operations. You can still keep access to the stats dashboard and site settings. 
+
+Learn how to [transfer the ownership of a site](https://plausible.io/docs/transfer-ownership).
+
 ### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
 
 ![Plausible public stats](/uploads/plausible-public-stats.png "Plausible public stats")
