@@ -102,6 +102,14 @@ And on and on. All metrics are clickable.
 
 What's even better is the fact that you can mix and match filters. Want to understand visitors coming from Facebook who've visited your home page, are located in the United States and using Chrome as a browser on iOS? You can do that by selecting those filters. Explore this on the [live demo](https://plausible.io/plausible.io).
 
+## Invite team members and collaborate 
+
+Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
+
+You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.  
+
+You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
+
 ## Share your stats via email or unique links
 
 You can share your Plausible Analytics reports and dashboard in multiple ways, both privately and publicly.
@@ -143,7 +151,3 @@ Does all this sound good for your ecommerce or SaaS startup? You can try out Pla
 We don't make money by selling or sharing your visitor data or abusing your visitor's privacy. This is why Plausible Analytics is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism.
 
 As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after being thrilled with what Plausible provides. Enjoy!
-
-
-
-
