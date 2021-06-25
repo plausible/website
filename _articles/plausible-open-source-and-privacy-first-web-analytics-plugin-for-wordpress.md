@@ -191,6 +191,30 @@ By default, our WordPress plugin excludes your own visits from being counted in 
 
 However, if you'd like to count your visits, you can enable this. Switch on the "Track analytics for administrator" feature.
 
+## Troubleshoot conflict with WP Rocket or other performance optimization plugins
+
+You may discover a conflict between the Plausible script and other plugins you are using on your site. 
+
+Especially performance optimization plugins such as WP Rocket may cause conflicts as these plugins try to change and optimize JavaScript files by using minification, caching, lazy loading and other techniques.
+
+Plausible script is optimized for performance by default and there's no reason to use any other tricks and techniques on it.
+
+If you've inserted our script into your site but it's still not tracking correctly, you may be experiencing a plugin conflict. You can try to view the source of your page to see how the Plausible snippet looks like. If the snippet looks different from the one you inserted onto your site, it is likely that a performance optimization plugin has impacted it.
+
+You can try to troubleshoot your installation like this:
+
+* Use our official WordPress plugin to install Plausible on your site instead of manually adding our snippet into the header section of your site. We've made our plugin in a way so that it fixes any potential conflicts with WP Rocket and similar plugins
+
+If you cannot use our official plugin, you can try these:
+
+* Deactivate WP Rocket or another performance optimization plugin that is causing the conflict. Clear the cache. Plausible should then work all fine
+
+* Or you can manually whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized
+
+* Or you could try to use a slightly different Plausible snippet instead of the default one. This one should prevent any conflicts:
+
+```<script data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/plausible.js"></script>```
+
 ## Contribute to the development of our WordPress plugin
 
 Thanks to [Mehul Gohil](https://mehulgohil.com/) for building the Plausible Analytics WordPress plugin and for keeping it up to date.
