@@ -213,7 +213,9 @@ If you cannot use our official plugin, you can try these:
 
 * Or you could try to use a slightly different Plausible snippet instead of the default one. This one should prevent any conflicts:
 
-```<script data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/plausible.js"></script>```
+```
+<script data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/plausible.js"></script>
+```
 
 ## Contribute to the development of our WordPress plugin
 
