@@ -2,5 +2,8 @@
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: interest-cohort=()
 
+/js/plausible.js
+  Access-Control-Allow-Origin: *
+
 /changes.txt
   Access-Control-Allow-Origin: *
