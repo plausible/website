@@ -36,43 +36,39 @@ That sounds pretty much like [what Plausible does too](https://plausible.io/priv
 
 Even though both Plausible and Cloudflare Web Analytics are built to be simple to use, privacy-friendly and lightweight, there are some important differences too. Let's explore them.
 
-## Cloudflare restricts you to 7 days of data
+## Cloudflare has strict data retention limits
 
-The maximum viewable range for your Cloudflare Web Analytics dashboard is 7 days. They are "working on extending the queryable time range to 30 days for Business plan users". The business plan is not free and starts at $200 per month.
+When Cloudflare Web Analytics launched, the maximum viewable range for your  dashboard was set to 7 days. You lost access to everything that happened more than a week ago. It seemed to be deleted as there was no way to retrieve it. 
 
-On the free plan, you lose access to everything that happened more than a week ago. It seems to be deleted as there's no way to retrieve it. 
+They are "working on extending the queryable time range to 30 days for Business plan users" and have recently increased the data retention limits but there's no official announcement on how long the new limit is for. Also note that the business plan is not free and starts at $200 per month.
 
 This is a dealbreaker for many people who use analytics. It is very common to compare larger data sets ranging from a month on month comparison, quarter on quarter or even year on year. 
 
-Limiting data retention is a great way for Cloudflare to reduce their cost when providing a product free of charge but 7 or even 30 days of historical data is not that useful for most site owners.
+Limiting data retention is a great way for Cloudflare to reduce their cost when providing a product free of charge but even 30 days of historical data is not that useful for most site owners.
 
 When using Plausible Analytics, there are no limitations on how much data you can store or retain. You can view any of the data we've counted about your website since you installed the Plausible Analytics script and you can do so at any time that you wish. No data restrictions or limits whatsoever. 
 
 ## Cloudflare dashboard is inaccurate
 
-Some stats that Cloudflare Web Analytics displays are a bit weird and inaccurate. In the past, their dashboard used to have a note that all stats are "based on a 1%-10% sample of requests". 
+Some stats that Cloudflare Web Analytics displays are a bit weird and inaccurate. Their dashboard has a note that all stats are "based on a 10% sample of page load events". 
 
-They've since removed that note from the dashboard but the stats look a bit weird which probably means they're still doing some kind of sampling.
-
-What does that mean? Cloudflare Web Analytics may not show the actual stats from your site. They take a subset of all of the data they collect (1% to 10% of your total traffic), analyze it and display an assumption based on the patterns seen in the sample they analyzed.
+What does that mean? Cloudflare Web Analytics is not showing the actual stats from your site. They take a subset of all of the data they collect (10% of your total traffic), analyze it and display an assumption based on the patterns seen in the sample they analyzed.
 
 This is another great way for them to reduce their running costs for providing this free product but it leads to inaccurate data. 
 
-Just compare these two charts for top pages. Same website and same time period but obviously inaccurate numbers on the Cloudflare dashboard compared to the Plausible dashboard.
+Just compare these two charts for top pages and top sources. Same website and same time period but different numbers on the Cloudflare dashboard compared to the Plausible dashboard.
 
-Cloudflare top pages:
+Cloudflare top pages and top sources:
 
-![Cloudflare Web Analytics top pages](/uploads/cloudflare-top-pages.png)
+![Cloudflare Web Analytics top pages](/uploads/cloudflare-web-analytics-top-sources-pages.png)
 
-Plausible top pages:
+Plausible top pages and top sources:
 
-![Plausible Analytics top pages](/uploads/plausible-top-pages.png)
+![Plausible Analytics top pages](/uploads/plausible-top-pages-sources.png)
 
 Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. In your list of top browsers and top operating systems, you may find "Unknown" having a decent percentage of the market share. This is normally a good sign of bot traffic.
 
-![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os.png)
-
-![Cloudflare Web Analytics top browsers](/uploads/cloudflare-web-analytics-browsers.png)
+![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os-browser.png)
 
 Plausible Analytics filters out the bots and we don't use any type of data sampling at all so all the stats in your dashboard show 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
 
