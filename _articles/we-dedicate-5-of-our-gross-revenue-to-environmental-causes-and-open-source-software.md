@@ -88,8 +88,9 @@ January 2021  | $842
 February 2021  | $954
 March 2021  | $1,549 
 April 2021  | $1,410
-May 2021  | $1,495  
-Total to date | $6,250 
+May 2021  | $1,495
+June 2021  | $1,440 
+Total to date | $7,690 
 
 We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund at the start of 2022. No questions asked.
 
