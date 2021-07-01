@@ -50,7 +50,11 @@ When using Plausible Analytics, there are no limitations on how much data you ca
 
 ## Cloudflare dashboard is inaccurate
 
-Some stats that Cloudflare Web Analytics displays are a bit weird and inaccurate. Their dashboard has a note that all stats are "based on a 10% sample of page load events". 
+Some stats that Cloudflare Web Analytics displays are a bit weird and inaccurate. Here's why.
+
+### Stats are based on a 10% sample
+
+Their dashboard has a note that all stats are "based on a 10% sample of page load events". 
 
 What does that mean? Cloudflare Web Analytics is not showing the actual stats from your site. They take a subset of all of the data they collect (10% of your total traffic), analyze it and display an assumption based on the patterns seen in the sample they analyzed.
 
@@ -66,7 +70,11 @@ Plausible top pages and top sources:
 
 ![Plausible Analytics top pages](/uploads/plausible-top-pages-sources.png)
 
-Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. In your list of top browsers and top operating systems, you may find "Unknown" having a decent percentage of the market share. This is normally a good sign of bot traffic.
+### Bots are not excluded 
+
+Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. 
+
+In your list of top browsers and top operating systems, you may find "Unknown" having a decent percentage of the market share. This is normally a good sign of bot traffic. You will also see obvious bots such as the GoogleBot.
 
 ![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os-browser.png)
 
@@ -78,7 +86,7 @@ Cloudflare Web Analytics launched with a limit of one domain name per account. T
 
 > Right now there's a soft limit of 10 sites per account, but that can be adjusted by contacting Cloudflare support.
 
-Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account. First 20 websites are included free of charge in any subscription plan.
+Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account. First 50 websites are included free of charge in any subscription plan.
 
 ## Cloudflare limits you to 15 items on any report
 
