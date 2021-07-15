@@ -217,6 +217,22 @@ If you cannot use our official plugin, you can try these:
 <script data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/plausible.js"></script>
 ```
 
+### Conflict with SiteGround Optimizer
+
+SiteGround Optimizer is another popular performance optimization plugin. If you have issues with your Plausible installation when using the SiteGround Optimizer, you need to take these steps:
+
+* Install the [Code Snippets Plugin](https://wordpress.org/plugins/code-snippets/). 
+
+* Add the following code:
+
+```
+    add_filter( 'sgo_javascript_combine_excluded_external_paths', 'js_combine_exclude_external_script' );
+    function js_combine_exclude_external_script( $exclude_list ) {
+        $exclude_list[] = 'plausible.io';
+        return $exclude_list;
+    }
+```
+
 ## Contribute to the development of our WordPress plugin
 
 Thanks to [Mehul Gohil](https://mehulgohil.com/) for building the Plausible Analytics WordPress plugin and for keeping it up to date.
