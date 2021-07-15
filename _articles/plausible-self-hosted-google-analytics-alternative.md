@@ -51,7 +51,7 @@ We are not interested in raising funds or taking investment either. Plausible is
 
 If you choose to self-host Plausible you can [become a sponsor](https://github.com/sponsors/plausible) which is a great way to give back to the community and to contribute to the long-term sustainability of the project. Simply put, we treat sponsors like paying customers which means you can receive guaranteed priority support.
 
-Thank you to all of our GitHub sponsors. We appreciate your support. Special mention to [nextchessmove](https://github.com/nextchessmove) and [ItalyPaleAle](https://github.com/ItalyPaleAle) for their generosity.
+Thank you to all of our GitHub sponsors. We appreciate your support. Special mention to [nextchessmove](https://github.com/nextchessmove), [ItalyPaleAle](https://github.com/ItalyPaleAle) and [berlinphilmedia](https://github.com/berlinphilmedia] for their generosity.
 
 For more views on the topic of open source funding, see [how to pay your rent with your open source project](https://plausible.io/blog/open-source-funding).
 
