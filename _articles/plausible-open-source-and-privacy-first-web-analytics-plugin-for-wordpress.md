@@ -155,7 +155,7 @@ Learn more in: "[How to track, identify and fix 404 error pages on your website]
 
 Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your subdomain. 
 
-What's the benefit of doing this? Your site looks like it has no third-party connections. You also get more accurate stats as by running Plausible as a first-party you avoid most of the adblockers.
+What's the benefit of doing this? Your site looks cleaner with no third-party connections. You also get more accurate stats because when running Plausible as a first-party connection adblockers do not block the script.
 
 We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you want.
 
