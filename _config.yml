@@ -1,9 +1,9 @@
 title: Plausible Analytics
-tagline: Simple, privacy-friendly alternative to Google Analytics
+tagline: Simple, privacy-friendly Google Analytics alternative
 permalink: /blog/:title
 highlighter: rouge
 url: https://plausible.io
-description: 'Plausible is a lightweight and open-source web analytics tool. Your website data is 100% yours and the privacy of your visitors is respected.'
+description: 'Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.'
 show_excerpts: true
 css_dir: 'assets/css'
 twitter:
