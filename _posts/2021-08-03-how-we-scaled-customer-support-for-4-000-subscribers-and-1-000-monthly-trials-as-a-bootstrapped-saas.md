@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How we scaled customer support for 4k+ subscribers and 1k+ monthly trials
-  without adding dedicated personnel
+title: How we scaled support for 4,000+ subscribers and 1,000+ monthly trials
+  (without dedicated support personnel)
 description: How we scaled our two-person bootstrapped startup to support 4k+
   subscribers, 1k+ trials per month and a growing open source community before
   looking for any help.
