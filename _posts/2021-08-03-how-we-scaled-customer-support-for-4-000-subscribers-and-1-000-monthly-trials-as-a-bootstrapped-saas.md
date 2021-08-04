@@ -20,7 +20,7 @@ We recently started onboarding a new team member to help us with customer suppor
 
 ## The importance of customer support 
 
-You cannot ignore customer support as a bootstrapped startup. Customer support experience is a significant part of the overall brand experience. Some people may decide not to go with your service if they get poor support. Some may be so annoyed they talk about it on social media and on review sites.
+You cannot ignore customer service as a bootstrapped startup. Customer support experience is a significant part of the overall brand experience. Some people may decide not to go with your service if they get poor support. Some may be so annoyed they talk about it on social media and on review sites.
 
 A fast and personal customer support experience can make people share positive stories about your brand on social media. Plausible [rejects to pay Google and Facebook to do the marketing for us](https://plausible.io/blog/best-marketing-practices) so we rely on word of mouth from people who enjoy our product to help us spread the message.
 
@@ -28,7 +28,7 @@ These are the people who pay our bills and people without whom Plausible wouldn'
 
 While at university, I had a part-time job at an online gaming company doing customer support. This was useful in giving me some real-world experience, providing some cash for my student life and taught me an important lesson.
 
-I believe that every team member, be it a founder, a developer or a marketer should get regular experience dealing with customer support to better understand the product they're working on and the customer they're serving.
+I believe that every team member, be it a founder, a developer or a marketer should get regular experience dealing with customer service to better understand the product they're working on and the customer they're serving.
 
 People that answer customer support questions understand your business the best. They hear from prospects and customers all the time. That's their job after all.
 
@@ -38,11 +38,11 @@ This means that customer support needs to be in very close contact with the rest
 
 Essential insights that should be prioritized and doubled down on will come from customer support. You will not need much market research if you simply listen to what your customers tell your support team.
 
-## Scaling customer support without degrading the experience
+## Scaling customer service without degrading the experience
 
 The vital fact to stress is that we've scaled our customer support to these levels without degrading the customer experience. People still get fast responses from real humans and people get a personal experience too.
 
-I have the habit of skimming a few of the articles that rank on top of search results for every topic that I write about. Best advice for scaling customer support is full of user hostile tips. I'm glad that we don't use any of the "best practices" for scaling customer support:
+I have the habit of skimming a few of the articles that rank on top of search results for every topic that I write about. Top ranking posts for scaling customer service are full of user hostile tips. I'm glad that we don't use any of the "best practices" for scaling customer support:
 
 * We don't use any no-reply email addresses
 * We don't use any automated AI chat bots that engage people
@@ -53,7 +53,7 @@ I have the habit of skimming a few of the articles that rank on top of search re
 
 ## How we deal with customer support
 
-As in every early-stage startup, any role is fluid and you work on what needs to be done. In Plausible, customer support is my responsibility alongside other marketing and communication tasks.
+As in every early-stage startup, any role is fluid and you work on what needs to be done. In Plausible, customer service is my responsibility alongside other marketing and communication tasks.
 
 We allow people to contact us on any platform where we're active. People reach out to us via email, via GitHub, on Twitter and Mastodon too. I aim to answer all emails and messages as soon as possible and pretty much every day I can finish at inbox zero before logging off.
 
@@ -71,7 +71,7 @@ This may be disappointing to some that are used to deal with startups through de
 
 ## All the fancy tools we use for customer support
 
-We use pretty much no specialized CS tools to help us deal with customer support. This is what we do use:
+We use pretty much no specialized CS tools to help us deal with questions from users. This is what we do use:
 
 * We switched to [HEY for Work](https://www.hey.com/work/) to make the process easier and faster when communicating with each other. Before, we were forwarding emails or using messaging apps to discuss specific cases. HEY allows us to talk privately within an email thread instead. This saves us time and makes the process smoother and easier to deal with.
 
@@ -87,7 +87,7 @@ We use pretty much no specialized CS tools to help us deal with customer support
 
 * We also have a self-hosted [Sentry](https://sentry.io) instance that allows people to leave user feedback in app if they encounter any bugs or other errors. We review that feedback and get back to people that need any help.
 
-* I also frequently use [Paddle](https://paddle.com/), our payment processor, their CRM and their customer support team for specific questions about billing, invoicing and payments. We let Paddle deal with all of the payment side of things and it is beneficial to have them handle card issues and similar requests.
+* I also frequently use [Paddle](https://paddle.com/), our payment processor, their CRM and their support team for specific questions about billing, invoicing and payments. We let Paddle deal with all of the payment side of things and it is beneficial to have them handle card issues and similar requests.
 
 ## Common customer questions become a priority 
 
@@ -103,7 +103,7 @@ We may communicate about it better in the app, we may link to the docs or improv
 
 This also leads Plausible development to be focused on fast, simple to use and easy to understand solutions. If we can release a feature that is obvious and it just works, it will lead to a higher level of customer satisfaction and no difference in support volume.
 
-The product itself being minimal and easy to use makes it possible for us to serve thousands of customers and new trials without being overwhelmed with customer support.
+The product itself being minimal and easy to use makes it possible for us to serve thousands of customers and new trials without being overwhelmed with messages.
 
 ## An up-to-date and detailed documentation is a must
 
@@ -147,7 +147,7 @@ We also keep a public [status page](https://plausible.io/status) with any downti
 
 The tasks I spend my time on over the last eight months or so since we got all this traction have completely changed.
 
-When I joined Plausible as a co-founder, I spent 90% of my time writing blog posts and doing marketing outreach trying to get people to talk to us. Now I spend 90% of my time on community management, public relations and customer support talking to people that reach out to us.
+When I joined Plausible as a co-founder, I spent 90% of my time writing blog posts and doing marketing outreach trying to get people to talk to us. Now I spend 90% of my time on community management, public relations and customer service talking to people that reach out to us.
 
 At first, I wasn't sure if it was good to reduce the amount of time I spend on proactive marketing activities and spend that time on the more reactive tasks. Now I see it as a natural part of the journey.
 
@@ -155,7 +155,7 @@ The early efforts were focused on increasing brand awareness and attracting peop
 
 People who try Plausible and have a great and valuable experience transitioning from Google Analytics help drive word of mouth and buzz now. So be flexible and understand that this is normal and your role may change as you progress. 
 
-I can always get back to doing more marketing if we struggle growing or when we have more dedicated customer support resources in place.
+I can always get back to doing more marketing if we struggle to grow or when we have more dedicated customer support resources in place.
 
 ## Self-hosted support should be mutual
 
@@ -179,7 +179,7 @@ The weakest point of our current setup is the fact that it's difficult to take a
 
 Until now, there's never been more work than we could handle for a sustained period of time. There have been some crazy days and weeks but it comes with the territory of being a fast-growing startup. It's clear that our current setup suffers if one of us goes on holiday and cannot check emails at all.
 
-Since I've joined Plausible in March 2020, I have pretty much looked at our customer support inbox every single day including weekends. In my previous jobs, I used to take two weeks off and put an out of office message without worrying about anything. 
+Since I've joined Plausible in March 2020, I have pretty much looked at our email and social media inboxes every single day including weekends. In my previous jobs, I used to take two weeks off and put an out of office message without worrying about anything. 
 
 This is much more challenging in a bootstrapped startup and we're looking to get some help with this. Summer 2020 was easier to skip as we were in full-on lockdown due to the pandemic but we're hoping to get some time off this summer to recharge. This is one of the reasons why we recently started onboarding Robert to help us with customer support among other things.
 
@@ -191,9 +191,9 @@ Short term, after a few weeks of training, Robert can help us offload some custo
 
 We have several options open to us in the future. We may not use them but it is nice to know that there are solutions in case customer support becomes more difficult to handle:
 
-* We could introduce customer support office hours and be transparent about them. I've noticed companies setting up autoresponder saying that you can expect responses during working hours on working days only. I was responding at any time be it in the evening or the weekend. It is nice to be able to set some more regular hours so people contacting us know that we may not respond during the weekend.
+* We could introduce support office hours and be transparent about them. I've noticed companies setting up autoresponder saying that you can expect responses during working hours on working days only. I was responding at any time be it in the evening or the weekend. It is nice to be able to set some more regular hours so people contacting us know that we may not respond during the weekend.
 
-* We could funnel all the customer support queries into one place. We could either use a tool that allows us to deal with email, social media and GitHub in one place or we could say no guarantee for timely responses to questions in social media, only via email. This would help not spread us too thin.
+* We could funnel all the customer service queries into one place. We could either use a tool that allows us to deal with email, social media and GitHub in one place or we could say no guarantee for timely responses to questions in social media, only via email. This would help not spread us too thin.
 
 * A large percentage of our support questions are from people just starting out. The questions are generally about the integration of our snippet into their site. In the line of "I just inserted your script and visited my site but my visit doesn't show in the dashboard". These are routine support questions that require a bit of technical expertise viewing site source or using the browser console to answer. We're looking to further help people troubleshoot this on their own.
 
