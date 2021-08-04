@@ -26,13 +26,17 @@ A fast and personal customer support experience can make people share positive s
 
 These are the people who pay our bills and people without whom Plausible wouldn't exist. Being able to interact with them, accommodate them and make their experience better is very crucial to us.
 
-I believe that every team member, be it a founder, a developer or a marketer should get regular experience dealing with customer support to better understand the product they're working on and the customer they're serving.
-
 While at university, I had a part-time job at an online gaming company doing customer support. This was useful in giving me some real-world experience, providing some cash for my student life and taught me an important lesson.
 
-People that answer customer support questions understand your business the best. They hear from prospects and customers all the time. They know what the frequently requested features are. They are familiar with the annoying bugs people complain about. They understand what competing brands people compare the product against.
+I believe that every team member, be it a founder, a developer or a marketer should get regular experience dealing with customer support to better understand the product they're working on and the customer they're serving.
 
-This means that customer support needs to be in very close contact with the rest of the business if you want to provide an outstanding product and user-friendly experience. Essential insights that should be prioritized and doubled down on will come from customer support.
+People that answer customer support questions understand your business the best. They hear from prospects and customers all the time. That's their job after all.
+
+They know what the frequently requested features are. They are familiar with the annoying bugs people complain about. They understand what competing brands people compare the product against.
+
+This means that customer support needs to be in very close contact with the rest of the business if you want to provide an outstanding product and user-friendly experience. 
+
+Essential insights that should be prioritized and doubled down on will come from customer support. You will not need much market research if you simply listen to what your customers tell your support team.
 
 ## Scaling customer support without degrading the experience
 
@@ -57,9 +61,11 @@ Getting back to people quickly is probably the most important thing you can do w
 
 I respond to most of the messages but sometimes if the question is too technical so that I don't know how to answer it, I get my co-founder Uku involved to answer those questions better. 
 
-We try to offer a great service to all subscribers and not only to important prospects. There are no sales calls and no wining and dining as part of the onboarding process.
+We try to offer a great service to all subscribers and not only to important prospects. There are no sales calls and no wining and dining as part of the onboarding process. 
 
-I have had to politely decline one request for a full day of meetings and a long vetting process with one corporation that was exploring Plausible. We exchanged a few emails, had a quick call and then updated our publicly available documents to make sure all their questions were answered so anyone else could benefit from those answers too.
+I have had to politely decline one request for a full day of meetings and a long vetting process with one corporation that was exploring Plausible. 
+
+We exchanged a few emails, had a quick call and then updated our publicly available documents to make sure all their questions were answered so anyone else could benefit from those answers too.
 
 This may be disappointing to some that are used to deal with startups through demo calls, PowerPoint presentations and sales representatives. Treating everyone fairly and equally is the only way we can manage it as a bootstrapped startup that's limited in resources.
 
@@ -153,7 +159,9 @@ I can always get back to doing more marketing if we struggle growing or when we 
 
 Plausible is [a fully open source product](https://plausible.io/open-source-website-analytics). We have [a self-hosted version](https://plausible.io/self-hosted-web-analytics) which is about giving back to the community. It's completely free to use and it's not some inferior product with "light" features. You get the same dashboard using our cloud product as you do self-hosting it.
 
-Self-hosting does bring a large volume of support questions. Pretty much all of them are highly technical, as managing your server infrastructure is no easy feat. Questions self-hosters ask have no connection to the questions we get from our subscribers. Subscribers mostly ask about the product while self-hosters ask about server configuration, databases, backup and other things that subscribers don't need to worry about.
+Self-hosting does bring a large volume of support questions. Pretty much all of them are highly technical, as managing your server infrastructure is no easy feat. 
+
+Questions self-hosters ask have no connection to the questions we get from our subscribers. Subscribers mostly ask about the product while self-hosters ask about server configuration, databases, backup and other things that subscribers don't need to worry about.
 
 Early on, we tried to deal with self-hosting questions in the same way as questions from our paying subscribers. That turned out to be an impossible task as each self-hosting question highly depended on the individual setup.
 
