@@ -42,14 +42,14 @@ Essential insights that should be prioritized and doubled down on will come from
 
 The vital fact to stress is that we've scaled our customer support to these levels without degrading the customer experience. People still get fast responses from real humans and people get a personal experience too.
 
-We don't use any of the "best practices" for scaling customer support either:
+I have the habit of skimming a few of the articles that rank on top of search results for every topic that I write about. Best advice for scaling customer support is full of user hostile tips. I'm glad that we don't use any of the "best practices" for scaling customer support:
 
 * We don't use any no-reply email addresses
 * We don't use any automated AI chat bots that engage people
-* There are no endless waiting times to hear back from us. Most people writing during working hours European time hear back within minutes
 * We keep all of our contact details easy to find
 * We allow people to contact us wherever they prefer, be it via email, GitHub or social media
 * We don't do any prioritization according to the subscription tier or customer lifetime value. All responses are pretty much first come, first serve
+* There are no endless waiting times to hear back from us. Most people writing during working hours European time hear back within minutes
 
 ## How we deal with customer support
 
@@ -131,9 +131,11 @@ Some frequently asked questions with brief responses are also placed on [our con
 
 It often happens that when I add a new answer to the FAQ section on the contact page, we pretty much never hear about that question again.
 
-## Pick the right technology 
+## Don't give people a reason to have problems with your product
 
-One of the significant decisions Uku made and helped us scale was to pick the right technology. Over a year ago, our dashboard started getting slow even for sites with tens of thousands of visitors so [we switched to ClickHouse as the database](https://plausible.io/blog/may-2020-recap). That has enabled us to grow to where we are now. 
+Couple of main areas that generate massive amounts of support load are product bugs and uptime. We do our best to minimize bugs and any downtime.
+
+One of the significant decisions Uku made that helped us scale was to pick the right technology. Over a year ago, our dashboard started getting slow even for sites with tens of thousands of visitors so [we switched to ClickHouse as the database](https://plausible.io/blog/may-2020-recap). That has enabled us to grow to where we are now. 
 
 [ClickHouse](https://clickhouse.tech/) runs crazy fast, we're counting more than half a billion page views per month and we're serving sites with tens of millions of monthly page views (the top site gets 150 million monthly page views) without any issues. Plausible loads faster for a site with tens of millions of visitors than Google Analytics loads for a site with hundreds of visitors.
 
