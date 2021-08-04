@@ -11,9 +11,9 @@ author: marko-saric
 image: /uploads/scaling-customer-support.png
 image-alt: Scaling customer support as a bootstrapped SaaS
 ---
-We recently started onboarding a new team member to help us with customer support. This is an excellent time to summarize how we scaled our two-person bootstrapped startup to support 4,000+ subscribers, 1,000+ trials per month and a growing open source community before looking for any help.
+We've grown from fewer than 100 subscribers to more than 4,000 subscribers since April 2020. With all this success also comes a growing volume of support requests. 
 
-We've grown from fewer than 100 subscribers to more than 4,000 subscribers since April 2020. With all this success also comes a growing volume of support requests. I was a bit worried about our ability to cope with this without dedicated full-time support personnel but it seems to work. Here's a look at how we deal with customer support.
+We recently started onboarding a new team member to help us with customer support. This is an excellent time to look at how we dealt with this as a two-person bootstrapped startup and managed to support 4,000+ subscribers, 1,000+ trials per month and a growing open source community before looking for any help.
 
 1. Ordered list
 {:toc}
