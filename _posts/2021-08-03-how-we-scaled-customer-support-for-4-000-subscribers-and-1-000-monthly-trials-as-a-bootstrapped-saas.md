@@ -34,7 +34,7 @@ People that answer customer support questions understand your business the best.
 
 They know what the frequently requested features are. They are familiar with the annoying bugs people complain about. They understand what competing brands people compare the product against.
 
-This means that customer support needs to be in very close contact with the rest of the business if you want to provide an outstanding product and user-friendly experience. 
+This means that customer support needs to be in very close contact with the rest of the business if you want to provide an outstanding product and user-friendly experience. Luckily for us, we're a small team so everyone does customer support regularly and there's no disconnect between CS and the rest of the company.
 
 Essential insights that should be prioritized and doubled down on will come from customer support. You will not need much market research if you simply listen to what your customers tell your support team.
 
@@ -42,7 +42,7 @@ Essential insights that should be prioritized and doubled down on will come from
 
 The vital fact to stress is that we've scaled our customer support to these levels without degrading the customer experience. People still get fast responses from real humans and people get a personal experience too.
 
-I have the habit of skimming a few of the articles that rank on top of search results for every topic that I write about. Top ranking posts for scaling customer service are full of user hostile tips. I'm glad that we don't use any of the "best practices" for scaling customer support:
+I have the habit of skimming a few of the articles that rank on top of search results for every blog post that I write. Top ranking posts for scaling customer service are full of user hostile tips. I'm glad that we don't use any of the "best practices" for scaling customer support:
 
 * We don't use any no-reply email addresses
 * We don't use any automated AI chat bots that engage people
@@ -73,17 +73,17 @@ This may be disappointing to some that are used to deal with startups through de
 
 We use pretty much no specialized CS tools to help us deal with questions from users. This is what we do use:
 
-* We switched to [HEY for Work](https://www.hey.com/work/) to make the process easier and faster when communicating with each other. Before, we were forwarding emails or using messaging apps to discuss specific cases. HEY allows us to talk privately within an email thread instead. This saves us time and makes the process smoother and easier to deal with.
+* We switched to [HEY for Work](https://www.hey.com/work/) to make the process easier and faster when communicating with each other. Before, we were forwarding emails or using messaging apps to discuss specific cases. HEY allows us to talk privately within an email thread instead. This saves us time and makes the process smoother and easier to deal with. No one has accidentally sent an internal message as an actual reply until now :)
 
-* HEY makes other things easier for me too. I keep all the emails to respond to in the "Reply Later" section and I keep all the emails for which I require some information before I can respond in "Set Aside". HEY also has this great "Focus & Reply" functionality that allows me to reply to all the "Reply Later" emails on one page without any distractions.
+* HEY makes other things easier for me too. I keep all the emails to respond to in the "Reply Later" section and I keep all the emails for which I require some information before I can respond in "Set Aside". HEY also has this great "Focus & Reply" functionality that allows me to reply to all the "Reply Later" emails on one page without any distractions. And I love the fact that I can bundle say all GitHub messages in one thread.
 
-* I use a clipboard manager on my Linux laptop to track the canned responses to the most frequently asked questions. I have about 50 on my list. This makes it simple to copy the answer and paste it into an email reply. Then, after a moment of work on personalizing the email to the relevant situation, it is ready to be sent. Without this, I would have to retype similar responses often which would slow me down dramatically.
+* I use a clipboard manager on my Linux laptop to track the canned responses to the most frequently asked questions. I have about 50 on my list. This makes it simple to copy the answer and paste it into an email reply. Then, after a moment of work on personalizing the email to the relevant situation, it is ready to be sent. Without this, I would have to retype similar responses often which would slow me down dramatically. We had the same canned responses setup at the gaming company I mentioned earlier.
 
 * I use [TweetDeck](https://tweetdeck.twitter.com/) to deal with all the incoming mentions and other messages on Twitter where we have [a growing audience](https://twitter.com/PlausibleHQ). TweetDeck allows me to get a distraction-free experience in which I can hide any likes and retweets not to get too overwhelmed. I have several columns in there including one for mentions, one for direct messages and another that searches for people talking about Plausible without directly tagging us.
 
 * One trick I use is to search Twitter for people talking about Plausible without @ mentioning us. This way I find people that say Plausible Analytics, plausible.io or share our blog posts. I can then interact with them. I would miss out on these tweets if I just looked at our notifications.
 
-* We have a simple, self-hosted CRM called [Kaffy](https://aesmail.github.io/kaffy/). It gives us the basic info about a subscriber such as when the account was created, the status of the account, the email used to register and sites added to the account. This helps troubleshoot specific questions.
+* We have a simple, self-hosted CRM called [Kaffy](https://aesmail.github.io/kaffy/). It gives us the basic info about a subscriber such as when the account was created, the status of the account, the email used to register and sites added to the account. This helps troubleshoot specific questions. We're privacy-first even in our own analytics needs so have no more data on our subscribers than this.
 
 * We also have a self-hosted [Sentry](https://sentry.io) instance that allows people to leave user feedback in app if they encounter any bugs or other errors. We review that feedback and get back to people that need any help.
 
@@ -130,6 +130,26 @@ We prominently share the link to the docs in the top menu for our logged in user
 Some frequently asked questions with brief responses are also placed on [our contact page](https://plausible.io/contact). If we get a specific question several times, I add a brief answer to the FAQ.
 
 It often happens that when I add a new answer to the FAQ section on the contact page, we pretty much never hear about that question again.
+
+## Teach and share knowledge through your content
+
+I've published a lot of content since I joined Plausible. A lot of that content has been educational in nature focused on the areas that our audience deals with. You will rarely find a post on our blog just talking about how great Plausible is. In most blog posts, the main topic is something else and Plausible only gets a mention.
+
+And this is the type of content that can help site owners (our audience) deal with different areas of running a site. Some examples here:
+
+* When we released UTM tag support, we published a guide on [how to use UTM tags](https://plausible.io/blog/utm-tracking-tags) to better analyse your marketing campaigns
+
+* When we released the feature that [tracks 404 error pages](https://plausible.io/blog/track-404-errors), we published a guide that goes in depth about 404 errors, why they are important to keep track of and how you should fix them
+
+* When we released the feature that [tracks clicks on external links](https://plausible.io/blog/track-outbound-link-clicks), we published a guide on why that is useful
+
+* When all the major browsers made a change to their [referrer policy](https://plausible.io/blog/referrer-policy), we had a guide on how that affects all the different web analytics tool
+
+* We also published a lot of content on the topic of privacy regulations, [GDPR](https://plausible.io/blog/google-analytics-gdpr), [cookies](https://plausible.io/blog/google-analytics-cookies) and [privacy policies](https://plausible.io/blog/privacy-policy-page) 
+
+All these topics are relevant to Plausible and they are relevant to our existing audience and our potential audience too. We now have a lot of links we can share when people ask us about these subjects.
+
+And what's even better is the fact that these educational blog posts now help many people discover Plausible when they're using search engines looking for answers to these questions.
 
 ## Don't give people a reason to have problems with your product
 
@@ -195,10 +215,10 @@ We have several options open to us in the future. We may not use them but it is 
 
 * We could funnel all the customer service queries into one place. We could either use a tool that allows us to deal with email, social media and GitHub in one place or we could say no guarantee for timely responses to questions in social media, only via email. This would help not spread us too thin.
 
-* A large percentage of our support questions are from people just starting out. The questions are generally about the integration of our snippet into their site. In the line of "I just inserted your script and visited my site but my visit doesn't show in the dashboard". These are routine support questions that require a bit of technical expertise viewing site source or using the browser console to answer. We're looking to further help people troubleshoot this on their own.
+* A large percentage of our support questions are from people just starting out creating their first website. The questions are generally about the integration of our snippet into their site. In the line of "I just inserted your script and visited my site but my visit doesn't show in the dashboard". These are routine support questions that require a bit of technical expertise viewing site source or using the browser console to answer. We're looking to further help people troubleshoot this on their own.
 
 * We also often hear questions about invoices. In the line of "I cannot find my invoice from July last year, can you please resend it?". We plan to create a billing section within our account settings that allows people to view and download their historical invoices at any time.
 
-* We get a fair number of feature requests. Until now, I have tried to contact them to inform them that the feature has been released but haven't really followed through 100%. It would be nice to find a way to categorize feature requests so we can contact all people that have asked for something after the feature they requested is live.
+* We get a fair number of feature requests. Until now, I have tried to follow up with them to inform them that the feature has been released but haven't really followed through 100%. It would be nice to find a way to categorize feature requests so we can contact all people that have asked for something after the feature they requested is live.
 
 Growing your brand to get more social media mentions, buzz, signups and MRR leads to more emails and questions. Be prepared for it and think about how you can do customer support more efficiently so you don't get too overwhelmed. I hope our experience helps you a bit with that. Good luck!
