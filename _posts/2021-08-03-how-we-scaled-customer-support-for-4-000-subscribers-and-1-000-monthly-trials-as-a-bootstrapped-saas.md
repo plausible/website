@@ -6,7 +6,7 @@ description: How we scaled our two-person bootstrapped startup to support 4k+
   subscribers, 1k+ trials per month and a growing open source community before
   looking for any help.
 slug: /scaling-customer-support
-date: 2021-08-03T14:52:03.158Z
+date: 2021-08-05T08:10:15.858Z
 author: marko-saric
 image: /uploads/scaling-customer-support.png
 image-alt: Scaling customer support as a bootstrapped SaaS
