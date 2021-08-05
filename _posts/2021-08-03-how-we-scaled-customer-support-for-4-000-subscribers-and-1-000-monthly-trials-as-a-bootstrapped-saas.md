@@ -133,23 +133,23 @@ It often happens that when I add a new answer to the FAQ section on the contact 
 
 ## Teach and share knowledge through your content
 
-I've published a lot of content since I joined Plausible. A lot of that content has been educational in nature focused on the areas that our audience deals with. You will rarely find a post on our blog just talking about how great Plausible is. In most blog posts, the main topic is something else and Plausible only gets a mention.
+I've published a lot of content since I joined Plausible. A lot of that content has been educational in nature focused on our audience's needs. You will rarely find a post on our blog just talking about how great Plausible is. In most blog posts, the main topic is something else and Plausible only gets a mention when it's relevant.
 
-And this is the type of content that can help site owners (our audience) deal with different areas of running a site. Some examples here:
+This is the type of content that can help site owners deal with different areas of running a site. It also makes Plausible more of an authority in our niche. Some examples of educational blog posts that we've published:
 
 * When we released UTM tag support, we published a guide on [how to use UTM tags](https://plausible.io/blog/utm-tracking-tags) to better analyse your marketing campaigns
 
-* When we released the feature that [tracks 404 error pages](https://plausible.io/blog/track-404-errors), we published a guide that goes in depth about 404 errors, why they are important to keep track of and how you should fix them
+* When we released the feature that [tracks 404 error pages](https://plausible.io/blog/track-404-errors), we published a guide that goes in depth on 404 errors, why they are important to track and how you can fix them
 
 * When we released the feature that [tracks clicks on external links](https://plausible.io/blog/track-outbound-link-clicks), we published a guide on why that is useful
 
 * When all the major browsers made a change to their [referrer policy](https://plausible.io/blog/referrer-policy), we had a guide on how that affects all the different web analytics tool
 
-* We also published a lot of content on the topic of privacy regulations, [GDPR](https://plausible.io/blog/google-analytics-gdpr), [cookies](https://plausible.io/blog/google-analytics-cookies) and [privacy policies](https://plausible.io/blog/privacy-policy-page) 
+* We also published a lot of content on the topics of privacy regulations, [GDPR](https://plausible.io/blog/google-analytics-gdpr), [cookies](https://plausible.io/blog/google-analytics-cookies) and [privacy policies](https://plausible.io/blog/privacy-policy-page) 
 
-All these topics are relevant to Plausible and they are relevant to our existing audience and our potential audience too. We now have a lot of links we can share when people ask us about these subjects.
+All these topics are relevant to Plausible, to our existing subscribers and our potential audience too. We now have a lot of links we can share when people ask us about these subjects. In many cases, people don't even need to ask us anything as they find the answers in our posts.
 
-And what's even better is the fact that these educational blog posts now help many people discover Plausible when they're using search engines looking for answers to these questions.
+What's even better is the fact that these educational blog posts now help many people discover Plausible when they're using search engines to look for answers to the problems they want to solve.
 
 ## Don't give people a reason to have problems with your product
 
