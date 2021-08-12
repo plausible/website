@@ -13,7 +13,7 @@ Plausible is trusted by 4,000+ subscribers. The full-time team is based in the E
 
 ## Independent, self-funded and sustainable by the subscription fees our users pay us
 
-Plausible Analytics development started in December 2018 and we launched our product in April 2019. While Plausible is an open source software that you can self-host on your server, we also sell a hosted, plug and play solution as a SaaS.
+Plausible Analytics development started in December 2018, public beta was launched in January 2019 and the subscriptions in April 2019. While Plausible is an open source software that you can self-host on your server, we also sell a hosted, plug and play solution as a SaaS.
 
 We run a [sustainable open source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time. It also enables us to give back [5% of our gross revenue](https://plausible.io/giving-back) to the environmental causes and open source projects that we rely on.
 
