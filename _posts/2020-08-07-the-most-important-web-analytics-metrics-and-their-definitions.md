@@ -163,7 +163,7 @@ So it's worth looking at conversions by referral source too. Looking at our own 
 
 ![Our top referral sources in the last 60 days](/uploads/top-traffic-sources-last-60-days.png)
 
-Hacker News is our top referral source of traffic but far but comes in 10th place for conversions. Google organic search is the third highest source of traffic but comes on the strongest by far in conversions.
+Hacker News is our top referral source of traffic by far but comes in 10th place for conversions. Google organic search is the third highest source of traffic but comes on the strongest by far in conversions.
 
 ![Our top conversion sources](/uploads/top-conversion-sources.png)
 
