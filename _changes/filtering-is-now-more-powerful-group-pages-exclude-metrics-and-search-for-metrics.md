@@ -1,7 +1,6 @@
 ---
 layout: change
-title: Filtering is now more powerful (group pages, exclude metrics and search
-  for metrics)
+title: Filtering is now more powerful
 date: 2021-08-19T09:32:41.751Z
 ---
 There's now the "Add filter" button in the top right of your dashboard that makes filtering even more powerful.
