@@ -27,7 +27,9 @@ But how about a very tech-heavy website with a tech-savvy audience of hackers an
 
 I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics to find out. I looked at a site with a post trending on Hacker News and Reddit with more than a thousand upvotes and more than a thousand comments.
 
-Here's the data Plausible Analytics shows for that site for the three days in late August 2021 when the traffic was arriving from these sources:
+Google Analytics was installed using the default method while Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data and best see the level of blockage. 
+
+Both tools automatically exclude bots and crawlers so the difference would mostly come from people blocking scripts. Here's the data Plausible Analytics shows for that site for the three days in late August 2021 when the traffic was arriving from these sources:
 
 ![Plausible Analytics stats](/uploads/plausible-analytics-stats-hn-post.png)
 
