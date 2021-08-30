@@ -19,17 +19,17 @@ There are many [privacy issues with running Google Analytics](https://plausible.
 
 Several browsers, including Firefox and Safari, interfere with Google Analytics and Google Tag Manager tracking. Google Analytics and Google Tag Manager are blocked by many adblockers too. This makes site owners wonder whether Google Analytics is still useful and whether its stats are accurate.
 
-The level of Google Analytics blockage varies by industry, audience, devices used and the individual website. In [a previous study](https://markosaric.com/google-analytics-blocking/), I've found that less than 10% of visitors block Google Analytics on foodie and lifestyle sites but more than 25% block it on tech-focused sites.
+The level of Google Analytics blockage varies by industry, audience, device used and the individual website. In [a previous study](https://markosaric.com/google-analytics-blocking/), I've found that less than 10% of visitors block Google Analytics on foodie and lifestyle sites but more than 25% block it on tech-focused sites.
 
 But how about a very tech-heavy website with a tech-savvy audience of hackers and developers? How many visitors are websites missing for audiences such as Hacker News or Reddit? Let's find out.
 
-## Google Analytics and Plausible Analytics stat comparison
+## Google Analytics and Plausible Analytics stats comparison
 
-I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics to find out. I looked at a site with a post trending on Hacker News and Reddit with more than a thousand upvotes and more than a thousand comments.
+I looked at analytics of a site which had a post trending on Hacker News and Reddit with more than a thousand upvotes and more than a thousand comments.
 
-Google Analytics was installed using the default method while Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data and best see the level of blockage. 
+I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics. Google Analytics was installed using the default method while Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data on the level of blockage. 
 
-Both tools automatically exclude bots and crawlers so the difference would mostly come from people blocking scripts. Here's the data Plausible Analytics shows for that site for the three days in late August 2021 when the traffic was arriving from these sources:
+Both tools automatically exclude bots and crawlers so the difference in stats would mostly come from people blocking the Google Analytics script. Here's the data Plausible Analytics shows for the site for the three days in late August 2021 when the traffic was arriving from these sources:
 
 ![Plausible Analytics stats](/uploads/plausible-analytics-stats-hn-post.png)
 
@@ -37,9 +37,7 @@ And here's the [Google Analytics](https://plausible.io/vs-google-analytics) data
 
 ![Google Analytics stats](/uploads/google-analytics-stats-hn-post.png)
 
-Tech-heavy audiences use adblockers and privacy-friendly browsers much more than the average web user. Google Analytics is missing out on a lot of data and is underreporting the tech-savvy audiences by almost 60%. 
-
-It turns out 58% of Hacker News readers, Reddit users and other techies block Google Analytics. Let's take a close look at the numbers.
+It turns out 58% of Hacker News readers, Reddit users and other techies block Google Analytics. Tech-heavy audiences use adblockers and privacy-friendly browsers much more than the average web user. Google Analytics is missing out on a lot of data and is underreporting the tech-savvy audiences by almost 60%. Let's take a closer look at the numbers.
 
 ## 58% of visitors block Google Analytics
  
@@ -52,13 +50,13 @@ Metric | Plausible | Google Analytics | Difference
 Visitors | 50,947  | 21,054 | 58.67%	
 Pageviews | 60,731  | 25,275 | 58.38%
 
-Let's take a close look at what segments of users cannot be tracked accurately in Google Analytics.
+Let's take a closer look at what segments of users cannot be tracked accurately in Google Analytics.
 
 ## 68% of laptop and desktop users block Google Analytics
 
 At the device level, laptop and desktop users (68.2%) block Google Analytics more frequently than mobile and tablet users (49.9%). 
 
-This makes sense especially considering how difficult it is to install an adblocker on Chrome, the most popular browser.
+This makes sense especially considering how difficult it is to install an adblocker on Chrome, the most popular browser on mobile devices.
 
 Device | Plausible | Google Analytics | Difference
 | ------ | ------ | ------ | ------
@@ -69,7 +67,7 @@ Laptop/Desktop | 25,725  | 8,181 | 68.2%
 
 Here's a look at the browsers and which browser users block Google Analytics most frequently. 
 
-Surprisingly, Safari users, with [Safari's Intelligent Tracking Protection (ITP)](https://plausible.io/blog/safari-privacy-report), block Google Analytics only in 41.41% of cases while 88.28% of Firefox users block Google Analytics.
+Surprisingly, Safari users with [Safari's Intelligent Tracking Protection (ITP)](https://plausible.io/blog/safari-privacy-report) block Google Analytics only in 41.41% of cases while 88.28% of Firefox users block it.
 
 Browser | Plausible | Google Analytics | Difference
 | ------ | ------ | ------ | ------
@@ -80,7 +78,7 @@ Edge | 1,059 | 301 | 71.58%
 
 ## 82% of Linux users block Google Analytics
 
-Here's a look at the operating systems and which OS users block Google Analytics most frequently. iOS users block Google Analytics least frequently at 41.5% while Linux users block it 82.3% of the time.
+Here's a look at the operating systems and which OS users block Google Analytics most frequently. iOS users block Google Analytics least frequently at 41.5% while 82.3% of Linux users block it.
 
 OS | Plausible | Google Analytics | Difference
 | ------ | ------ | ------ | ------
