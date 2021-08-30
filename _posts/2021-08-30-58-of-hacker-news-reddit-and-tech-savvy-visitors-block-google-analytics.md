@@ -62,11 +62,11 @@ To track unique visitors, [Google Analytics uses cookies](https://plausible.io/b
 
 Plausible doesn't use any long term identifiers as we're a [GDPR compliant web analytics](https://plausible.io/blog/google-analytics-gdpr) tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back a few days later would be seen as another unique visitor.
 
-Google's method is not bulletproof either as visitors using incognito mode would be new unique visitors and those who block or clear cookies too.
+Google's method is not bulletproof either as visitors using incognito mode would be new unique visitors and same for those who block or clear cookies.
 
 For three days, the difference this makes would be minimal. The difference could get larger over a longer period especially on sticky sites where the same people return back daily. The top sources of traffic for this site were Hacker News and Reddit and they are notorious for traffic that bounces quickly and doesn't return.
 
-Because Plausible and Google Analytics measure unique visitors differently, I also looked at the total page view numbers. These should be identical but they show pretty much the same difference as unique visitors.
+Because Plausible and Google Analytics measure unique visitors differently, I also looked at the total pageviews. These should be identical but they show pretty much the same difference as unique visitors.
 
 All in all, the difference in stats would mostly come from people blocking the Google Analytics script.
 
