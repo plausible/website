@@ -7,6 +7,8 @@ description: Is Google Analytics still useful and how accurate are its stats?
 slug: /google-analytics-adblockers-missing-data
 date: 2021-08-30T10:22:15.552Z
 author: marko-saric
+image: /uploads/blocking-google-analytics.png
+image-alt: 58% of Hacker News, Reddit and tech-savvy visitors block Google Analytics
 ---
 There are many [privacy issues with running Google Analytics](https://plausible.io/blog/remove-google-analytics) but there are worries about data accuracy too. How much data is missing from Google Analytics due to adblockers and privacy-friendly browsers?
 
