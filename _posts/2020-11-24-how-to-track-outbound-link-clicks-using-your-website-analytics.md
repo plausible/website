@@ -137,9 +137,9 @@ If you want to track external link clicks in Plausible Analytics, here's what yo
 
 ### Sign up for a Plausible Analytics account 
 
-First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on an unlimited number of sites and with no usage restrictions.
+First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites and with no usage restrictions.
 
-We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed. Plans start at $4/month.
+We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed.
 
 The process below works on all the different content management systems you may use for your website including WordPress, Ghost, Squarespace and Webflow.
 
@@ -149,14 +149,6 @@ Add the Plausible Analytics "outbound link click" script snippet to your site. T
 
 ```html
 <script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-```
-
-Some Plausible Analytics users choose to serve our script from their subdomain [as a first-party connection](https://docs.plausible.io/custom-domain).
-
-In those cases, the new "outbound link click" snippet will look like this (make sure to change the data-domain attribute to the domain you added to Plausible):
-
-```html
-<script async defer data-domain="yourdomain.com" src="https://yoursubdomain.yourdomain.com/js/index.outbound-links.js"></script>
 ```
 
 You need to place this tracking script code into the header (`<head>`) section of your site. Place the tracking script within the `<head> … </head>` tags.
