@@ -53,7 +53,7 @@ To track unique visitors, [Google Analytics uses cookies](https://plausible.io/b
 
 Plausible basically doesn't have any long term identifiers as we're a GDPR compliant analytics tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back few days after would be seen as a new unique visitor. 
 
-For a three day period and considering the source of traffic being Hacker News and reddit, this difference would be minimal. The difference caused by the unique visitors definition could get larger over a longer period of time especially on sticky sites on which same people return back daily.
+For a three day period and considering the source of traffic being Hacker News and Reddit, this difference would be minimal. The difference caused by the unique visitors definition could get larger over a longer period of time especially on sticky sites on which same people return back daily.
 
 So even if there were no blockers at all, slight differences in data between Plausible and Google Analytics were likely to be seen. 
 
