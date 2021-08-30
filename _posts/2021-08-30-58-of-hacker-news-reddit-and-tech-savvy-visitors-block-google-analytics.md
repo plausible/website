@@ -43,17 +43,23 @@ Google Analytics is missing out on a lot of data and is underreporting the tech-
 
 ## Adblockers or bots or something else?
 
-Both Plausible Analytics and Google Analytics automatically exclude bots and crawlers so the difference in stats would mostly come from people blocking the Google Analytics script. 
+Could this difference be caused by anything else other than adblockers? Perhaps Google is ignoring bots and other crawlers? Can you verify that Plausible isn’t over-reporting?
+
+Both Plausible Analytics and Google Analytics automatically exclude bots and crawlers. We are both JavaScript-based tools and exclude any known non-human traffic by default. 
 
 It’s worth noting that it’s rare for the data from two analytics providers to have complete parity. Plausible and Google Analytics have different measurement methodologies and define certain metrics differently.
 
-To track unique visitors, [Google Analytics uses cookies](https://plausible.io/blog/google-analytics-cookies). Plausible is a cookie-free tool and [tracks unique visitors differently](https://plausible.io/data-policy). Plausible basically doesn't have any long term identifiers. 
+To track unique visitors, [Google Analytics uses cookies](https://plausible.io/blog/google-analytics-cookies). Plausible is a cookie-free tool and [tracks unique visitors differently](https://plausible.io/data-policy). 
 
-For a three day period, this difference would be minimal but it could get larger over a longer period of time especially on sticky sites on which same people return back daily.
+Plausible basically doesn't have any long term identifiers as we're a GDPR compliant analytics tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back few days after would be seen as a new unique visitor. 
+
+For a three day period and considering the source of traffic being Hacker News and reddit, this difference would be minimal. The difference caused by the unique visitors definition could get larger over a longer period of time especially on sticky sites on which same people return back daily.
 
 So even if there were no blockers at all, slight differences in data between Plausible and Google Analytics were likely to be seen. 
 
 Considering the fact that Plausible and Google Analytics measure unique visitors in a different way, I also looked at the total page views which should be identical.
+
+But all in all, the difference in stats would mostly come from people blocking the Google Analytics script.
 
 ## 58% of visitors block Google Analytics
  
