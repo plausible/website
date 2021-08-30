@@ -10,7 +10,7 @@ author: marko-saric
 image: /uploads/blocking-google-analytics.png
 image-alt: 58% of Hacker News, Reddit and tech-savvy visitors block Google Analytics
 ---
-There are many [privacy issues with running Google Analytics](https://plausible.io/blog/remove-google-analytics) but there are worries about data accuracy too. How much data is missing from Google Analytics due to adblockers and privacy-friendly browsers?
+There are several [privacy concerns with running Google Analytics](https://plausible.io/blog/remove-google-analytics) but there are worries about data accuracy too. How much data is missing from Google Analytics due to adblockers and privacy-friendly browsers?
 
 1. Ordered list
 {:toc}
@@ -21,13 +21,13 @@ Several browsers, including Firefox, Brave and Safari, interfere with Google Ana
 
 The level of Google Analytics blockage varies by industry, audience, device used and the individual website. In [a previous study](https://markosaric.com/google-analytics-blocking/), I've found that less than 10% of visitors block Google Analytics on foodie and lifestyle sites but more than 25% block it on tech-focused sites.
 
-But how about a very tech-heavy website with a tech-savvy audience of hackers, developers and like? How many visitors are websites missing from referral sources such as Hacker News or Reddit? Let's find out.
+But how about a very tech-heavy website with a tech-savvy audience of hackers, developers and like? How many visitors are sites using Google Analytics missing out on from referral sources such as Hacker News or Reddit? Let's find out.
 
 ## Google Analytics and Plausible Analytics stats comparison
 
 I looked at analytics of a site which had a post trending on Hacker News and Reddit with more than a thousand upvotes and more than a thousand comments.
 
-I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics. Google Analytics was installed using the default method while Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data on the level of blockage. Plausible proxy is only blocked by those visitors who block JavaScript entirely.
+I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics. Google Analytics was installed using the default method while Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data on the level of blockage. Plausible proxy runs as a first-party connection and is only blocked by those visitors who block JavaScript entirely.
 
 Here's the data Plausible Analytics shows for the three days in late August 2021 when the site got a lot of traffic (Plausible allows you to share your dashboard publicly so you can explore [these stats here](https://plausible.io/markosaric.com?period=custom&from=2021-08-26&to=2021-08-28)):
 
