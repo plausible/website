@@ -29,7 +29,7 @@ I looked at analytics of a site which had a post trending on Hacker News and Red
 
 I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics. Google Analytics was installed using the default method while Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data on the level of blockage. 
 
-Here's the data Plausible Analytics shows for the three days in late August 2021 when the site got a lot of traffic:
+Here's the data Plausible Analytics shows for the three days in late August 2021 when the site got a lot of traffic (Plausible allows you to share your dashboard publicly so you can explore [these stats here](https://plausible.io/markosaric.com?period=custom&from=2021-08-26&to=2021-08-28)):
 
 ![Plausible Analytics stats](/uploads/plausible-analytics-stats-hn-post.png)
 
@@ -62,9 +62,11 @@ To track unique visitors, [Google Analytics uses cookies](https://plausible.io/b
 
 Plausible doesn't use any long term identifiers as we're a [GDPR compliant web analytics](https://plausible.io/blog/google-analytics-gdpr) tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back few days later would be seen as another new visitor.
 
-For a three day period and considering the source of traffic being Hacker News and Reddit, the difference this makes would be minimal. The difference could get larger over a longer period of time especially on sticky sites to which same people return back daily. Google's definition is not bulletproof either as visitors using incognito mode would be new visitors and same would those who block or clear cookies.
+Google's method is not bulletproof either as visitors using incognito mode would be new visitors and same would those who block or clear cookies.
 
-Considering the fact that Plausible and Google Analytics measure unique visitors in a different way, I also looked at the total page view numbers which should be identical.
+For a three day period, the difference this makes would be minimal. The difference could get larger over a longer period of time especially on sticky sites to which same people return back daily. The top sources of traffic for this site were Hacker News and Reddit and they are notorious for traffic that bounces quickly and doesn't return.
+
+Considering the fact that Plausible and Google Analytics measure unique visitors in a different way, I also looked at the total page view numbers. These should be identical but they show pretty much the same difference.
 
 But all in all, the difference in stats would mostly come from people blocking the Google Analytics script.
 
