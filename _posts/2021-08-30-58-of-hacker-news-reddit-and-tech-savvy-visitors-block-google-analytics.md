@@ -52,7 +52,7 @@ Let's take a close look at what users exactly cannot be tracked accurately in Go
 
 At the device level, laptop and desktop users (68.2%) block Google Analytics more frequently than mobile and tablet users (49.9%). 
 
-This makes sense especially considering how difficult it is to install an adblocker on the Chrome which is the most popular browser.
+This makes sense especially considering how difficult it is to install an adblocker on Chrome, the most popular browser.
 
 Device | Plausible | Google Analytics | Difference
 | ------ | ------ | ------ | ------
@@ -63,7 +63,7 @@ Laptop/Desktop | 25,725  | 8,181 | 68.2%
 
 Here's a look at the browsers and which browser users block Google Analytics most frequently. 
 
-Safari users, with [Safari's Intelligent Tracking Protection (ITP)](https://plausible.io/blog/safari-privacy-report), block Google Analytics surprisingly only in 41.41% of cases while 88.28% of Firefox users block Google Analytics.
+Surprisingly, Safari users, with [Safari's Intelligent Tracking Protection (ITP)](https://plausible.io/blog/safari-privacy-report), block Google Analytics only in 41.41% of cases while 88.28% of Firefox users block Google Analytics.
 
 Browser | Plausible | Google Analytics | Difference
 | ------ | ------ | ------ | ------
