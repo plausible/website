@@ -87,7 +87,3 @@ Linux | 5,680  | 1,006 | 82.3%
 ## Do adblockers stop Google Analytics?
 
 It is clear that tech-heavy audiences use adblockers and privacy-friendly browsers much more than the average web user. This means that Google Analytics is missing out on a lot of data especially from the audiences of sites such as Hacker News and Reddit.
-
-
-
-
