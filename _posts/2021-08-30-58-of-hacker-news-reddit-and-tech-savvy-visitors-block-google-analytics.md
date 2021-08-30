@@ -25,11 +25,11 @@ I compared stats between [Plausible Analytics](https://plausible.io/) and Google
 
 Here's the data Plausible Analytics shows for that site for the three days in late August 2021 when the traffic was arriving from these sources:
 
-Plausible chart
+![Plausible Analytics stats](/uploads/plausible-analytics-stats-hn-post.png)
 
 And here's the [Google Analytics](https://plausible.io/vs-google-analytics) data for the same site and the same period:
 
-GA chart
+![Google Analytics stats](/uploads/google-analytics-stats-hn-post.png)
 
 Google Analytics is underreporting the tech-savvy audiences by almost 60%. Turns out 58% of Hacker News readers, Reddit users and other techies block Google Analytics. Let's take a close look at the numbers.
 
