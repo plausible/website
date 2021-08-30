@@ -12,14 +12,16 @@ image-alt: 58% of Hacker News, Reddit and tech-savvy visitors block Google Analy
 ---
 There are many [privacy issues with running Google Analytics](https://plausible.io/blog/remove-google-analytics) but there are worries about data accuracy too. How much data is missing from Google Analytics due to adblockers and privacy-friendly browsers?
 
+1. Ordered list
+{:toc}
+
+## Do adblockers stop Google Analytics?
+
 Several browsers, including Firefox and Safari, interfere with Google Analytics and Google Tag Manager tracking. Google Analytics and Google Tag Manager are blocked by many adblockers too. This makes site owners wonder whether Google Analytics is still useful and whether its stats are accurate.
 
 The level of Google Analytics blockage varies by industry, audience, devices used and the individual website. In [a previous study](https://markosaric.com/google-analytics-blocking/), I've found that less than 10% of visitors block Google Analytics on foodie and lifestyle sites but more than 25% block it on tech-focused sites.
 
 But how about a very tech-heavy website with a tech-savvy audience of hackers and developers? How many visitors are websites missing for audiences such as Hacker News or Reddit? Let's find out.
-
-1. Ordered list
-{:toc}
 
 ## Google Analytics and Plausible Analytics stat comparison
 
@@ -33,7 +35,9 @@ And here's the [Google Analytics](https://plausible.io/vs-google-analytics) data
 
 ![Google Analytics stats](/uploads/google-analytics-stats-hn-post.png)
 
-Google Analytics is underreporting the tech-savvy audiences by almost 60%. It turns out 58% of Hacker News readers, Reddit users and other techies block Google Analytics. Let's take a close look at the numbers.
+Tech-heavy audiences use adblockers and privacy-friendly browsers much more than the average web user. Google Analytics is missing out on a lot of data and is underreporting the tech-savvy audiences by almost 60%. 
+
+It turns out 58% of Hacker News readers, Reddit users and other techies block Google Analytics. Let's take a close look at the numbers.
 
 ## 58% of visitors block Google Analytics
  
@@ -83,7 +87,3 @@ iOS | 13,631  | 7,978 | 41.5%
 Android | 10,684  | 4,914 | 54%
 Windows | 6,892  | 1,764 | 74.4%
 Linux | 5,680  | 1,006 | 82.3%
-
-## Do adblockers stop Google Analytics?
-
-Tech-heavy audiences use adblockers and privacy-friendly browsers much more than the average web user. This means that Google Analytics is missing out on a lot of data especially from the audiences of sites such as Hacker News and Reddit.
