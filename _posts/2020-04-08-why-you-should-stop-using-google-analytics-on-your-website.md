@@ -85,7 +85,7 @@ Many people have got enough of banner advertising, retargeting and remarketing m
 
 Google Analytics script is blocked by millions of people who use adblockers such as the [uBlock Origin](https://github.com/gorhill/uBlock) and by users of popular browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Brave](https://brave.com/). Apple Safari has started blocking Google Analytics from cross-site tracking too.
 
-There's no definite answer on how many people block Google Analytics as that depends on the audience of your site, but for a tech audience, you shouldn't be surprised to see 50% or more of the visitors blocking Google Analytics.
+There's no definite answer on how many people block Google Analytics as that depends on the audience of your site, but for a tech audience, you shouldn't be surprised to see 50% or more of the visitors [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data).
 
 Another aspect of Google Analytics data accuracy that some people are concerned with is the fact that it uses data sampling. It's the [practice of](https://support.google.com/analytics/answer/2637192?hl=en) "analyzing a subset of all data in order to uncover the meaningful information in the larger data set". Here's [a deeper look](https://matomo.org/blog/2019/08/what-is-google-analytics-data-sampling-and-whats-so-bad-about-it/) into that issue.
 
