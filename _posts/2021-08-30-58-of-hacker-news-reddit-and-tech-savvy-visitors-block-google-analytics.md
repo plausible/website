@@ -21,19 +21,19 @@ Several browsers, including Firefox, Brave and Safari, interfere with Google Ana
 
 The level of Google Analytics blockage varies by industry, audience, the device used and the individual website. In [a previous study](https://markosaric.com/google-analytics-blocking/), I've found that less than 10% of visitors block Google Analytics on foodie and lifestyle sites but more than 25% block it on tech-focused sites.
 
-But how about a very tech-heavy website with a tech-savvy audience of hackers, developers and the like? How many visitors are sites using Google Analytics missing out on from referral sources such as Hacker News or Reddit? Let's find out.
+But how about a very tech-heavy website with a tech-savvy audience of hackers, developers and the like? How many visitors do sites that use Google Analytics miss out on from referral sources such as Hacker News or Reddit? Let's find out.
 
 ## Google Analytics and Plausible Analytics stats comparison
 
 I looked at analytics of a site that had a post trending on Hacker News and Reddit with more than a thousand upvotes and more than a thousand comments.
 
-I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics. Google Analytics was installed using the default method. Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data on the level of blockage. Plausible proxy runs as a first-party connection and is only blocked by those visitors who block JavaScript entirely.
+I compared stats between [Plausible Analytics](https://plausible.io/) and Google Analytics. Google Analytics was installed using the default method. Plausible was installed [using a proxy](https://plausible.io/docs/proxy/introduction) to get the most accurate data on the level of blockage. Plausible proxy runs as a first-party connection and is only blocked by those visitors who block JavaScript entirely. It is not blocked by any browser or adblocker.
 
-Here's the data Plausible Analytics shows for the three days in late August 2021 when the site got a lot of traffic. Plausible allows you to share your dashboard publicly so you can explore [these stats here](https://plausible.io/markosaric.com?period=custom&from=2021-08-26&to=2021-08-28):
+Here's the data Plausible Analytics shows for the three days in late August 2021 when the site got a lot of traffic. Plausible allows you to share your dashboard publicly so you can explore [these stats here](https://plausible.io/markosaric.com?period=custom&from=2021-08-26&to=2021-08-28).
 
 ![Plausible Analytics stats](/uploads/plausible-analytics-stats-hn-post.png)
 
-And here's the [Google Analytics](https://plausible.io/vs-google-analytics) data for the same site and the same period:
+And here's the [Google Analytics](https://plausible.io/vs-google-analytics) data for the same site and the same period.
 
 ![Google Analytics stats](/uploads/google-analytics-stats-hn-post.png)
 
@@ -52,9 +52,9 @@ Pageviews | 60,731  | 25,275 | 58.38%
 
 ## Adblockers or bots or something else?
 
-Could this difference be caused by anything else other than adblockers? Perhaps Google is ignoring bots and other crawlers? Can you verify that Plausible isn’t over-reporting?
+Could this difference be caused by anything else other than adblockers? Perhaps Google is ignoring bots and other crawlers? Can we verify that Plausible isn’t over-reporting?
 
-Both Plausible Analytics and Google Analytics automatically exclude bots and crawlers. We are both JavaScript-based tools and exclude any known non-human traffic by default. 
+Both Plausible Analytics and Google Analytics automatically exclude bots and crawlers. We are both JavaScript-based tools and exclude any known non-human traffic by default. You can check this study between [Plausible and server logs](https://plausible.io/blog/server-log-analysis) to see the number of bots that Plausible excludes.
 
 It’s worth noting that it’s rare for the data from two analytics providers to have complete parity. Plausible and Google Analytics have different measurement methodologies and define specific metrics differently. Even if there were no blockers at all, slight differences in data between Plausible and Google Analytics were likely to be seen.
 
@@ -62,13 +62,13 @@ To track unique visitors, [Google Analytics uses cookies](https://plausible.io/b
 
 Plausible doesn't use any long term identifiers as we're a [GDPR compliant web analytics](https://plausible.io/blog/google-analytics-gdpr) tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back a few days later would be seen as another unique visitor.
 
-Google's method is not bulletproof either as visitors using incognito mode would be new unique visitors and same for those who block or clear cookies.
+Google's method is not bulletproof either as visitors using incognito mode would be new unique visitors and same would those who block or clear cookies.
 
 For three days, the difference this makes would be minimal. The difference could get larger over a longer period especially on sticky sites where the same people return back daily. The top sources of traffic for this site were Hacker News and Reddit and they are notorious for traffic that bounces quickly and doesn't return.
 
 Because Plausible and Google Analytics measure unique visitors differently, I also looked at the total pageviews. These should be identical but they show pretty much the same difference as unique visitors.
 
-All in all, the difference in stats would mostly come from people blocking the Google Analytics script.
+All in all, the difference in stats would mostly come from people blocking the Google Analytics script. Google Analytics is listed on many blocklists while the Plausible proxy run as a first-party connection is not.
 
 Let's now look at the segments of users that cannot be tracked accurately in Google Analytics.
 
