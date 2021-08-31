@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 58% of Hacker News, Reddit and tech-savvy visitors block Google Analytics
+title: 58% of Hacker News, Reddit and tech-savvy audiences block Google Analytics
 description: Is Google Analytics still useful and how accurate are its stats?
   How much data is missing from Google Analytics due to adblockers and
   privacy-friendly browsers?
@@ -104,4 +104,4 @@ For three days, the difference this makes would be minimal. The difference could
 
 Because Plausible and Google Analytics measure unique visitors differently, I also looked at the total pageviews. These should be identical but they show pretty much the same difference as unique visitors.
 
-All in all, the difference in stats would mostly come from people blocking the Google Analytics script. Google Analytics is listed on many blocklists while the Plausible proxy run as a first-party connection is not.
+All in all, the difference in stats would mostly come from people blocking the Google Analytics script. Google Analytics is listed on many blocklists while the Plausible proxy runs as a first-party connection and is not.
