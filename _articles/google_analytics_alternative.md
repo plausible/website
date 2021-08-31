@@ -81,11 +81,11 @@ Plausible, on the other hand, is not created by one of the largest companies in 
 
 Many people have got enough of banner advertising, retargeting and remarketing messages and behavioral profiling so they choose to block some of these distractions.
 
-Google Analytics script is blocked by many people who use adblockers such as the [uBlock Origin](https://github.com/gorhill/uBlock) and from users of some mainstream browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+Google Analytics script is blocked by many people who use adblockers such as the [uBlock Origin](https://github.com/gorhill/uBlock) and from users of some mainstream browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/). With tech-savvy audiences, the level of people [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data) gets up to 60%.
 
 Plausible is not a part of the adtech industry. It doesn't track any personal data whatsoever, doesn't use cookies and doesn't play any part in the profiling of personal behaviors around the web so we're not usually covered by these blockers either.
 
-You also have the option to [self-host Plausible](https://plausible.io/blog/self-hosted-web-analytics-beta) and even to serve our script from your domain name as a [first party connection](https://docs.plausible.io/custom-domain/).
+You also have the option to [self-host Plausible](https://plausible.io/blog/self-hosted-web-analytics-beta) and even to proxy our script from your domain name as a [first party connection](https://plausible.io/docs/proxy/introduction).
 
 ### A public roadmap driven by the community
 
