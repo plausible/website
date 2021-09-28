@@ -10,3 +10,4 @@ The standard Jekyll commands apply.
 
 - Install dependencies: `bundle` and `npm install`.
 - Run a development server: `bundle exec jekyll server`.
+- The website will be available at `http://127.0.0.1:4000/`
