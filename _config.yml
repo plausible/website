@@ -51,3 +51,6 @@ exclude:
   - tailwind.config.js
   - .gitignore
   - vendor
+  - CONTRIBUTING.md
+  - .npmrc
+  - .tool-versions
