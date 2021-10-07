@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to track, identify and fix 404 error pages on your website
+title: How to find 404 error pages on your website using web analytics
 description: Here's a look at 404 page not found errors and how you can identify
   and fix those broken links using your website analytics.
 slug: track-404-errors
@@ -11,7 +11,7 @@ image-alt: Track and fix 404 error pages on your site
 ---
 Having 404 error pages on your website can lead to a bad user experience, a negative first impression, and even damage your search engine rankings and traffic you get from SEO.
 
-Here's a closer look at 404 page not found errors and how you can identify and fix those broken links.
+Here's a closer look at how to find 404 page not found errors on your website and fix those broken links with the help of your web analytics tool.
 
 1. Ordered list
 {:toc}
@@ -24,7 +24,7 @@ Here's a closer look at 404 page not found errors and how you can identify and f
 
 The error message comes in many shapes and forms, including 404 Not Found, Page Not Found and File Not Found.
 
-## Why do 404 errors happen? 
+## Why do 404 page not found errors happen? 
 
 You might have deleted the page, you might have modified it and changed its URL, or your visitor might have misspelled it and the page never existed. 
 
@@ -56,19 +56,21 @@ Here's what [Google said](https://developers.google.com/search/blog/2011/05/do-4
 
 Another point to consider are the links on other sites pointing to a 404 page on your server. You will not get any SEO benefits for those links. That's why it's useful always to make sure to redirect those broken pages to other relevant sections on your site.
 
-## How do I find and track 404 error pages on my website?
-
-You can track 404 page errors using many tools. Here are some examples:
-
-### Google Search Console
-
-You can also find 404 page errors in your [Google Search Console](https://docs.plausible.io/google-search-console-integration). Go into the "Index" section on the left-hand side menu and click on "Coverage". Then click on "Excluded" and choose "Not found (404)" or "Soft 404" in the list to get the full list of 404 page errors Google has discovered.
-
-### Google Analytics
+## How to find 404 error pages in Google Analytics
 
 In your [Google Analytics](https://plausible.io/vs-google-analytics) dashboard, go into "Behavior" in the left-hand navigation, then choose "Site Content" and click on the "All Pages" report.
 
 Select "Page Title" as the primary dimension and search for 404. This will give you the list of 404 page errors.
+
+Not using Google Analytics? There are more ways you can identify 404 errors.
+
+## What other tools can I use to find and track 404 error pages on my website?
+
+You can track 404 page errors using many other tools. Here are some examples:
+
+### Google Search Console
+
+You can also find 404 page errors in your [Google Search Console](https://docs.plausible.io/google-search-console-integration). Go into the "Index" section on the left-hand side menu and click on "Coverage". Then click on "Excluded" and choose "Not found (404)" or "Soft 404" in the list to get the full list of 404 page errors Google has discovered.
 
 ### Server logs
 
