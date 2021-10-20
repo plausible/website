@@ -26,6 +26,8 @@ We published a blog post on April 8th 2020 and it got the attention of Hacker Ne
 
 The post was titled "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". You can pretty much say that one single blog post [changed the traction of our startup](https://plausible.io/blog/blog-post-changed-my-startup). 
 
+![The traffic to our stop using Google Analytics post](/uploads/one-post-traction.png)
+
 Obviously since then we've put a lot of effort into improving the product, the infrastructure and several other blog posts have helped us along the way, but we wouldn't be where we are today without that first standout post.
 
 ## We don't waste any time obsessing over investors
@@ -50,7 +52,7 @@ Resourcefulness is an advantage to us. We manage our server infrastructure, we d
 
 My co-founder Uku started Plausible as a solo founder and about a year and a half into the project, I joined as a co-founder to focus on the marketing side of things. [This chart](https://microfounder.com/blog/cofounder-in-marketing) tells our progress well:
 
-![Image](/uploads/need-a-cofounder.png)
+![You may need a cofounder](/uploads/marketing-cofounder.png)
 
 Today we're running a business with almost 5,000 paying subscribers. We accomplished all of this with two full-time co-founders and one part-time employee that we recently hired to mainly help us with [customer support](https://plausible.io/blog/scaling-customer-support).
 
@@ -89,6 +91,8 @@ Many startups confuse marketing with spending money on paid advertising on Googl
 We focus our efforts on [content marketing](https://plausible.io/blog/startup-marketing). MRR milestones are cool and get all the attention but my favorite achievements in this journey are blog posts that make a difference. 
 
 Luckily we've published several posts over the last year and a half that have hit a nerve and moved the needle for us. I highly recommend any startup (including the venture funded ones) to publish content, and explore and experiment with organic marketing.
+
+![Our most popular blog posts and their traffic sources to date](/uploads/top-blog-posts-to-date.png)
 
 ## How do you get to the $1M ARR?
 
