@@ -46,15 +46,15 @@ It is easy to get covered by the tech media when you raise money while it is pre
 
 ## We do more with less
 
-Another great benefit of being bootstrapped is that it forces us to be resourceful. We do more with less. Money was tight, resources were tight, time was short. These are the constraints that venture-funded companies don't have so they never learn how to be resourceful and how to use situations like these to their advantage.
+Another great benefit of being bootstrapped is that it forces us to be resourceful. We do more with less. Money was tight, resources were limited, time was short. These are the constraints that venture-funded companies don't have so they never learn how to be resourceful and how to use situations like these to their advantage.
 
 Resourcefulness is an advantage to us. We manage our server infrastructure, we do our own marketing without paying experts or influencers and we speak to the customers and respond to customer enquiries ourselves.
+
+Today we're running a business with almost 5,000 paying subscribers. We accomplished all of this with two full-time co-founders and one part-time employee that we recently hired to mainly help us with [customer support](https://plausible.io/blog/scaling-customer-support).
 
 [My co-founder Uku](https://twitter.com/ukutaht) started Plausible as a solo founder and about a year and a half into the project, I joined as a co-founder to focus on the marketing side of things. [This chart](https://microfounder.com/blog/cofounder-in-marketing) tells our progress well:
 
 ![You may need a cofounder](/uploads/marketing-cofounder.png)
-
-Today we're running a business with almost 5,000 paying subscribers. We accomplished all of this with two full-time co-founders and one part-time employee that we recently hired to mainly help us with [customer support](https://plausible.io/blog/scaling-customer-support).
 
 We are grateful that in a market with hundreds of options including the dominant player Google Analytics that provides web analytics for "free", we were able to carve out a bit of a space in our own niche.
 
@@ -104,6 +104,6 @@ People in the startup world tell you that you need to change your approach as yo
 
 Interestingly enough, we heard similar comments when we made it to $10k. What we've found is that the approach that helped us grow [from 0 to $10k MRR](https://plausible.io/blog/growing-saas-mrr) is the same approach that has now brought us to $500,000 ARR. We haven't changed any of our principles nor any of our marketing strategies.
 
-So we don't plan to change anything for now either. We don't need to force any growth as we don't have to answer to any investors and we don't need to strive to reach their goals. We will continue with the focus on things that have worked well for us and see how it goes. 
+So we don't plan to change anything for now either. We don't need to force any growth as we don't have to answer to any investors and we don't need to strive to reach their goals. We will continue with the focus on things that have worked well for us and see how it goes. It's not a guarantee that things will continue working but we'll do our best.
 
 The best answer I have for how and when we will reach $1M ARR is to simply give it time and be patient. We will get there naturally and organically by taking it one day at a time and by de-Googling one website at a time. We're trying to run a calm company without many meetings, deadlines and world-dominating growth targets.
