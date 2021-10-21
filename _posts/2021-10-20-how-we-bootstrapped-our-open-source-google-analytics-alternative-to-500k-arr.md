@@ -21,9 +21,9 @@ If you're new to Plausible, here's a brief overview of who we are and how we got
 
 ## What happened in April 2020 with that first big spike
 
-Let's get this out of the way first, as we get this question pretty much every time that we share our MRR chart.
+Let's get this out of the way first as we get this question pretty much every time that we share our MRR chart.
 
-We published a blog post on April 8th 2020 and it got the attention of Hacker News with more than 50,000 people reading the post in the few days after being published. 
+We published a blog post on April 8 2020 and it got the attention of Hacker News with more than 50,000 people reading the post in the few days after being published. 
 
 The post was titled "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". You can pretty much say that one single blog post changed the traction of our startup. 
 
@@ -41,11 +41,11 @@ Unlike the more common startup story, we're entirely self-funded and bootstrappe
 
 Last year, we went several months without any salaries living from personal savings while growing Plausible. It was challenging and we were down more than $50,000 in savings between us. Now that we're sustainable, we can pay our bills and salaries directly from Plausible's revenue. It feels great.
 
-I worked at a venture-funded startup before Plausible. Some things are different when you're bootstrapping.
+Both Uku and I worked at venture-funded startups before Plausible. Some things are different when you're bootstrapping.
 
 The best thing about being bootstrapped is that we don't waste any time obsessing over investors and their wants—no calls, meetings, reports, presentations and expectations. Instead, we only obsess about our customers, their needs and about removing Google Analytics from the web.
 
-We do miss out on getting featured in the tech media. TechCrunch published a story about our growth once (this was also thanks to the VCs) but otherwise, we get no coverage that VC-funded startups get. 
+We do miss out on getting featured in the tech media. TechCrunch published a story about our growth once (thanks to the VCs who were sharing a list of fastest growing open source startup) but otherwise, we get no coverage that VC-funded startups get. 
 
 It is easy to get covered by the tech media when you raise money, while it is pretty much impossible to get covered by being a profitable, $500k ARR startup. It feels a bit upside down as having a sustainable and thriving startup is a much more complicated and more noteworthy accomplishment than raising money. 
 
