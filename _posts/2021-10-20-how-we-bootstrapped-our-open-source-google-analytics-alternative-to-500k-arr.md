@@ -105,7 +105,7 @@ Here's a list of our most popular blog posts to date and the referral sources th
 
 Learn more about our marketing approach in "[how we grew our startup from $400 to $2,750 MRR in 135 days without ads](https://plausible.io/blog/startup-marketing)".
 
-## How do we get to the $1M ARR
+## How we'll get to $1M ARR
 
 I've heard this question a few times recently.
 
