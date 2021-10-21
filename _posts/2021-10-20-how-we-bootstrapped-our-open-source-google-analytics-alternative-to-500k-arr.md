@@ -14,7 +14,7 @@ It took us just nine months to go from $400 to $10k MRR and now, ten months afte
 
 It's been an incredible ride for our bootstrapped, open source and privacy-first alternative to Google Analytics. The graph above that shows our MRR growth to date is worth a thousand words.
 
-If you're new to Plausible, here's a brief overview of who we are and how we got here:
+If you're new to Plausible, here's a brief overview of who we are and how we got here.
 
 1. Ordered list
 {:toc}
@@ -67,15 +67,15 @@ We are grateful that in a market with hundreds of options including the dominant
 
 ## Open source and transparency are an advantage to us
 
-Plausible is fully open source and transparent with all of our code and the development being done in public. The open source community has welcomed us with their arms wide open.
+Plausible is fully open source and transparent with all of our code and the development being done in public. The open source community has welcomed us with the arms wide open.
 
-We're really pleased that Plausible is now a sustainable open source project that can [pay our rent](https://plausible.io/blog/open-source-funding) and since the start of this year we were able to allocate [5% of our gross revenue](https://plausible.io/giving-back) that we'll donate to open source projects that we rely on.
+We're really pleased that Plausible is now a sustainable open source project that can [pay our rent](https://plausible.io/blog/open-source-funding) and since the start of this year we are able to allocate [5% of our gross revenue](https://plausible.io/giving-back) that we'll donate to open source projects that we rely on.
 
 In addition to having our code in the public, we share our revenue numbers and website traffic stats too. People ask us whether it's a good idea to be as transparent as we are and whether we're giving our competitors an advantage by revealing everything about our project. I don't think it's a disadvantage at all. On the contrary, I think it's a great advantage to us.
 
-Especially in the privacy-first world, being open source is pretty much a requirement from many people. Being open source adds a new level of trustworthiness that closed source products don't have. We wouldn't have been able to make it to where we are now if we were a proprietary tool.
+Especially in the privacy-first world, being open source is pretty much a requirement from many people. Being open source adds a new level of transparency and trustworthiness that proprietary products don't have. It allows people to verify whether our words match with our actions.
 
-If you're thinking about open sourcing your project, do learn from our experience. Find the [right software license](https://plausible.io/blog/open-source-licenses) and [set the expectations straight](https://plausible.io/blog/building-open-source) with your audience.
+If you're thinking about open sourcing your project, do learn from our experience and a few hiccups we had along the way. Find the [right software license](https://plausible.io/blog/open-source-licenses) and [set the expectations straight](https://plausible.io/blog/building-open-source) with your audience.
 
 ## How did you get first visitors and customers?
 
@@ -95,9 +95,9 @@ We have a $0 paid advertising budget and we don't have an affiliate program eith
 
 Many startups confuse marketing with spending money on paid advertising on Google and Facebook. Marketing is not the same as advertising. It's got nothing to do with it. You can do great marketing and still spend zero on paid ads. 
 
-We focus our efforts on content marketing. MRR milestones are cool and get all the attention but my favorite achievements in this journey are blog posts that make a difference for us. 
+We focus our efforts on content marketing. MRR milestones are cool and get all the attention in social media but my favorite achievements in this journey are blog posts that make a difference for us. 
 
-Luckily we've published several posts over the last year and a half that have hit a nerve and moved the needle. I highly recommend any startup (including the venture funded ones) to publish content, and explore and experiment with organic marketing. 
+Luckily we've published several posts over the last year and a half that have hit a nerve and moved the needle. I highly recommend any startup (including the venture funded ones) to publish content, explore and experiment with organic marketing. 
 
 Here's a list of our most popular blog posts to date and the referral sources that sent us the traffic:
 
@@ -111,10 +111,12 @@ I've heard this question a few times recently.
 
 People in the startup world tell you that you need to change your approach as you grow, that you need to get more aggressive, that you need to invest more money into marketing, advertising and sales resources.
 
-Interestingly enough, we heard similar comments when we made it to $10k. What we've found is that the approach that helped us grow [from 0 to $10k MRR](https://plausible.io/blog/growing-saas-mrr) is the same approach that has now brought us to $500,000 ARR. We haven't changed any of our principles nor any of our marketing strategies.
+Interestingly enough, we heard similar comments when we made it to $10k. What we've found is that the approach that helped us grow from 0 to $10k MRR is the same approach that has now brought us to $500,000 ARR. We haven't changed any of our principles nor any of our marketing strategies.
 
 So we don't plan to change anything for now either. We don't need to force any growth as we don't have to answer to any investors and we don't need to strive to reach their goals. We will continue with the focus on things that have worked well for us and see how it goes. It's not a guarantee that things will continue working as well but we'll do our best.
 
-The best answer I have for how and when we will reach $1M ARR is to simply give it time and be patient. We will get there naturally and organically by taking it one day at a time and by de-Googling one website at a time. We're trying to run a calm company without many meetings, deadlines and world-dominating growth targets with the focus on providing a great product that helps people solve the issues they have with Google Analytics.
+The best answer I have for how and when we will reach $1M ARR is to simply give it time and be patient. We will get there naturally and organically by taking it one day at a time and by de-Googling one website at a time. 
 
-Read more in "[what makes Plausible a great Google Analytics alternative](https://plausible.io/vs-google-analytics)".
+We're trying to run a calm company without world-dominating growth targets and with the focus on having a great product that helps people solve the issues they have with Google Analytics.
+
+Read more in "[What we learned on our journey to $10,000 MRR](https://plausible.io/blog/growing-saas-mrr)".
