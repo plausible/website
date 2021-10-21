@@ -8,11 +8,11 @@ slug: bootstrapping-saas
 date: 2021-10-20T12:16:46.572Z
 author: marko-saric
 ---
-We've had an amazing journey to date. It took us 324 days to reach $400 in monthly recurring revenue (MRR) and 364 days to get to 100 subscribers since we got our first paying subscriber on May 14th 2019.
+We've had an amazing journey to date. It took us 324 days to reach $400 in monthly recurring revenue (MRR) and 364 days to get to 100 subscribers since we got our first paying subscriber on May 14th 2019. Then things got a bit crazy. 
 
-Then things got a bit crazy. It took us just nine months to go from $400 to $10k MRR and now, ten months after the $10k milestone, we're at $500,000 annual recurring revenue (ARR).
+It took us just nine months to go from $400 to $10k MRR and now, ten months after the $10k milestone, we're at $500,000 annual recurring revenue (ARR).
 
-It's been an incredible ride for our bootstrapped, open source and privacy-first alternative to Google Analytics. The picture of our MRR growth to date is worth a thousand words.
+It's been an incredible ride for our bootstrapped, open source and privacy-first alternative to Google Analytics. The graph above that shows our MRR growth to date is worth a thousand words.
 
 If you're new to Plausible, here's a brief overview of who we are and how we got here:
 
