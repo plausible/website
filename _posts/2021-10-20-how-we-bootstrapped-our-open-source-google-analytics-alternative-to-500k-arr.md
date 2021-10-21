@@ -1,17 +1,18 @@
 ---
 layout: post
 title: How we bootstrapped our open source Google Analytics alternative to $500k ARR
-description: It took us just nine months to go from $400 to $10k MRR and now,
-  ten months after the $10k milestone, we're at $500,000 ARR.
+description: It took us a year to reach the first $400 MRR and then it took us
+  nine months to go from $400 to $10k MRR. Now, ten months after the $10k
+  milestone, we're at $500,000 ARR.
 slug: bootstrapping-saas
 date: 2021-10-20T12:16:46.572Z
 author: marko-saric
 ---
-It took us 324 days to reach $400 in monthly recurring revenue (MRR) and 364 days to get to 100 subscribers since we got our first paying subscriber on May 14th 2019.
+We've had an amazing journey to date. It took us 324 days to reach $400 in monthly recurring revenue (MRR) and 364 days to get to 100 subscribers since we got our first paying subscriber on May 14th 2019.
 
-Then things got a bit crazy. It took us just nine months more to go from $400 to $10k MRR and now, ten months after the $10k milestone, we're at $500,000 annual recurring revenue (ARR).
+Then things got a bit crazy. It took us just nine months to go from $400 to $10k MRR and now, ten months after the $10k milestone, we're at $500,000 annual recurring revenue (ARR).
 
-It's been an incredible ride for our bootstrapped, open source and privacy-first alternative to Google Analytics. This picture is worth a thousand words:
+It's been an incredible ride for our bootstrapped, open source and privacy-first alternative to Google Analytics. The picture of our MRR growth to date is worth a thousand words.
 
 If you're new to Plausible, here's a brief overview of who we are and how we got here:
 
@@ -24,17 +25,21 @@ Let's get this out of the way first as we get this question pretty much every ti
 
 We published a blog post on April 8th 2020 and it got the attention of Hacker News with more than 50,000 people reading the post in the few days after being published. 
 
-The post was titled "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". You can pretty much say that one single blog post [changed the traction of our startup](https://plausible.io/blog/blog-post-changed-my-startup). 
+The post was titled "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". You can pretty much say that one single blog post changed the traction of our startup. 
+
+Here's the traffic to that single blog post in April 2020:
 
 ![The traffic to our stop using Google Analytics post](/uploads/one-post-traction.png)
 
-Obviously since then we've put a lot of effort into improving the product, the infrastructure and several other blog posts have helped us along the way, but we wouldn't be where we are today without that first standout post.
+Obviously since then we've put a lot of effort into improving our product, the infrastructure and several other blog posts have helped us along the way, but we wouldn't be where we are today without that first standout post.
+
+Read more about these early days and the steps we took then in "[how one blog post changed the traction for my startup](https://plausible.io/blog/blog-post-changed-my-startup)".
 
 ## We don't waste any time obsessing over investors
 
 Unlike the more common startup story, we're entirely self-funded and bootstrapped. The two of us, as co-founders, completely own Plausible Analytics. We haven't taken anyone's money so we are fully in control of where we take Plausible next.
 
-Last year, we went several months without any salaries while living from personal savings. It was tough and we were down more than $50,000 in savings between us. Now that we're sustainable, we can pay our bills and our salaries directly from Plausible's revenue. It feels great.
+Last year, we went several months without any salaries living from personal savings while trying to grow Plausible. It was tough and we were down more than $50,000 in savings between us. Now that we're sustainable, we can pay our bills and our salaries directly from Plausible's revenue. It feels great.
 
 I worked at a venture-funded startup before Plausible. Some things are different when you're bootstrapping.
 
@@ -43,6 +48,8 @@ The best thing about being bootstrapped is that we don't waste any time obsessin
 One thing we do miss out on by saying no to venture funding is VCs getting us featured in the tech media. TechCrunch published a story about our growth once (this was also thanks to the VCs) but otherwise we get no coverage that VC-funded startups get. 
 
 It is easy to get covered by the tech media when you raise money while it is pretty much impossible to get covered by being a profitable, $500k ARR startup. It feels a bit upside down as having a sustainable and thriving startup is a much harder and more noteworthy accomplishment than raising money. 
+
+Read more about [our values and principles behind Plausible](https://plausible.io/about). 
 
 ## We do more with less
 
@@ -88,7 +95,7 @@ We have a $0 paid advertising budget and we don't have an affiliate program eith
 
 Many startups confuse marketing with spending money on paid advertising on Google and Facebook. Marketing is not the same as advertising. It's got nothing to do with it. You can do great marketing and still spend zero on paid ads. 
 
-We focus our efforts on [content marketing](https://plausible.io/blog/startup-marketing). MRR milestones are cool and get all the attention but my favorite achievements in this journey are blog posts that make a difference for us. 
+We focus our efforts on content marketing. MRR milestones are cool and get all the attention but my favorite achievements in this journey are blog posts that make a difference for us. 
 
 Luckily we've published several posts over the last year and a half that have hit a nerve and moved the needle. I highly recommend any startup (including the venture funded ones) to publish content, and explore and experiment with organic marketing. 
 
@@ -96,14 +103,18 @@ Here's a list of our most popular blog posts to date and the referral sources th
 
 ![Our most popular blog posts and their traffic sources to date](/uploads/top-blog-posts-to-date.png)
 
-## How do you get to the $1M ARR?
+Learn more about our marketing approach in "[how we grew our startup from $400 to $2,750 MRR in 135 days without ads](https://plausible.io/blog/startup-marketing)".
+
+## How will you get to the $1M ARR?
 
 I've heard this question a few times recently.
 
-People in the startup world tell you that you need to change your approach as you grow, that you need to get more aggressive, that you need to invest more money into marketing resources, advertising and sales.
+People in the startup world tell you that you need to change your approach as you grow, that you need to get more aggressive, that you need to invest more money into marketing, advertising and sales resources.
 
 Interestingly enough, we heard similar comments when we made it to $10k. What we've found is that the approach that helped us grow [from 0 to $10k MRR](https://plausible.io/blog/growing-saas-mrr) is the same approach that has now brought us to $500,000 ARR. We haven't changed any of our principles nor any of our marketing strategies.
 
-So we don't plan to change anything for now either. We don't need to force any growth as we don't have to answer to any investors and we don't need to strive to reach their goals. We will continue with the focus on things that have worked well for us and see how it goes. It's not a guarantee that things will continue working but we'll do our best.
+So we don't plan to change anything for now either. We don't need to force any growth as we don't have to answer to any investors and we don't need to strive to reach their goals. We will continue with the focus on things that have worked well for us and see how it goes. It's not a guarantee that things will continue working as well but we'll do our best.
 
-The best answer I have for how and when we will reach $1M ARR is to simply give it time and be patient. We will get there naturally and organically by taking it one day at a time and by de-Googling one website at a time. We're trying to run a calm company without many meetings, deadlines and world-dominating growth targets.
+The best answer I have for how and when we will reach $1M ARR is to simply give it time and be patient. We will get there naturally and organically by taking it one day at a time and by de-Googling one website at a time. We're trying to run a calm company without many meetings, deadlines and world-dominating growth targets with the focus on providing a great product that helps people solve the issues they have with Google Analytics.
+
+Read more in "[what makes Plausible a great Google Analytics alternative](https://plausible.io/vs-google-analytics)".
