@@ -19,7 +19,7 @@ If you're new to Plausible, here's a brief overview of who we are and how we got
 1. Ordered list
 {:toc}
 
-## What happened in April 2020 with that first big spike?
+## What happened in April 2020 with that first big spike
 
 Let's get this out of the way first as we get this question pretty much every time that we share our MRR chart.
 
@@ -77,7 +77,7 @@ Especially in the privacy-first world, being open source is pretty much a requir
 
 If you're thinking about open sourcing your project, do learn from our experience and a few hiccups we had along the way. Find the [right software license](https://plausible.io/blog/open-source-licenses) and [set the expectations straight](https://plausible.io/blog/building-open-source) with your audience.
 
-## How did you get first visitors and customers?
+## How we got our first visitors and customers
 
 This is another one of the frequently asked questions.
 
@@ -105,7 +105,7 @@ Here's a list of our most popular blog posts to date and the referral sources th
 
 Learn more about our marketing approach in "[how we grew our startup from $400 to $2,750 MRR in 135 days without ads](https://plausible.io/blog/startup-marketing)".
 
-## How will you get to the $1M ARR?
+## How do we get to the $1M ARR
 
 I've heard this question a few times recently.
 
