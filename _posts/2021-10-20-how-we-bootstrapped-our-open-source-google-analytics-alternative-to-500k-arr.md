@@ -5,8 +5,10 @@ description: It took us a year to reach the first $400 MRR and then it took us
   nine months to go from $400 to $10k MRR. Now, ten months after the $10k
   milestone, we're at $500,000 ARR.
 slug: bootstrapping-saas
-date: 2021-10-20T12:16:46.572Z
+date: 2021-10-22T07:43:06.185Z
 author: marko-saric
+image: /uploads/500k-arr.png
+image-alt: How we bootstrapped our open source Google Analytics alternative to $500k ARR
 ---
 We've had an amazing journey to date. It took us 324 days to reach $400 in monthly recurring revenue (MRR) since we got our first paying subscriber on May 14 2019. Then things got a bit crazy. 
 
