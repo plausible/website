@@ -14,7 +14,7 @@ Here's a closer look at our data policy, the information that we do collect, wha
 
 We do not track people across their devices and across websites and apps that they visit. All the data is isolated to a single day, single website and single device only. There is no way to know whether the same person visits a site from more than one device or visits another website. See here [the full list of what makes Plausible a privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics).
 
-The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. We don't use cookies, we don't generate any persistent identifiers and we don’t collect or store any personal or identifiable data. All of the data that we do collect is aggregated data only and it has no personal information.
+The goal of Plausible is to track overall trends in your website traffic, it is not to track individual visitors. We don't use cookies, we don't generate any persistent identifiers and we don’t collect or store any personal or identifiable data. All of the data is aggregated data only and it has no personal information.
 
 By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page. Here is the complete list of what we collect and store about your website visitors:
 
@@ -43,7 +43,9 @@ Instead, we generate a daily changing identifier using the visitor's IP address 
 hash(daily_salt + website_domain + ip_address + user_agent)
 ```
 
-This generates a random string of letters and numbers that is used to calculate unique visitor numbers for the day. Old salts are deleted to avoid the possibility of linking visitor information from one day to the next. Forgetting used salts also removes the possibility of the original IP addresses being revealed in a brute-force attack.
+This generates a random string of letters and numbers that is used to calculate unique visitor numbers for the day. The raw data IP address and User-Agent are never stored in our logs, databases or anywhere on disk at all. 
+
+Old salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next. Forgetting used salts also removes the possibility of the original IP addresses being revealed in a brute-force attack. The raw IP address and User Agent are rendered completely inaccessible to anyone, including ourselves. 
 
 In our testing, using IP addresses to count visitors is remarkably accurate when compared to using a cookie. In some cases it might even be more accurate than using a cookie because some visitors block cookies altogether.
 
