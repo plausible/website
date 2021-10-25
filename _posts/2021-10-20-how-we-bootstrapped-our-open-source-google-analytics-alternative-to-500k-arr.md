@@ -5,14 +5,14 @@ description: It took us a year to reach the first $400 MRR and then it took us
   nine months to go from $400 to $10k MRR. Now, ten months after the $10k
   milestone, we're at $500,000 ARR.
 slug: bootstrapping-saas
-date: 2021-10-22T07:43:06.185Z
+date: 2021-10-25T05:40:59.360Z
 author: marko-saric
 image: /uploads/500k-arr.png
 image-alt: How we bootstrapped our open source Google Analytics alternative to $500k ARR
 ---
 We've had an amazing journey to date. It took us 324 days to reach $400 in monthly recurring revenue (MRR) since we got our first paying subscriber on May 14 2019. Then things got a bit crazy. 
 
-It took us just nine months to go from $400 to $10k MRR, and now, ten months after the $10k milestone, we're at $500,000 annual recurring revenue (ARR).
+It took us just nine months to go from $400 to $10k MRR, and now, ten months after the $10k MRR milestone, we're at $500,000 annual recurring revenue (ARR).
 
 It's been an incredible ride for our bootstrapped, open source and privacy-first alternative to Google Analytics. The graph above that shows our MRR growth to date is worth a thousand words.
 
@@ -27,9 +27,11 @@ Let's get this out of the way first as we get this question pretty much every ti
 
 We published a blog post on April 8 2020 and it got the attention of Hacker News with more than 50,000 people reading the post in the few days after being published. 
 
+For some context, we had a total of 27,300 unique visitors in 15 months before publishing that post. We also got 166 new trials in the first week after the post which is more than what we got in four months in total prior to it.
+
 The post was titled "[Why you should stop using Google Analytics on your website](https://plausible.io/blog/remove-google-analytics)". You can pretty much say that one single blog post changed the traction of our startup. 
 
-Here's the traffic to that single blog post in April 2020:
+Here's the traffic to that single blog post [in April 2020](https://plausible.io/plausible.io?page=%2Fblog%2Fremove-google-analytics&period=month&date=2020-04-25):
 
 ![The traffic to our stop using Google Analytics post](/uploads/one-post-traction.png)
 
@@ -43,7 +45,7 @@ Unlike the more common startup story, we're entirely self-funded and bootstrappe
 
 Last year, we went several months without any salaries living from personal savings while growing Plausible. It was challenging and we were down more than $50,000 in savings between us. Now that we're sustainable, we can pay our bills and salaries directly from Plausible's revenue. It feels great.
 
-Both Uku and I worked at venture-funded startups before Plausible. Some things are different when you're bootstrapping.
+Both [my co-founder Uku](https://twitter.com/ukutaht) and I worked at venture-funded startups before Plausible. Some things are different when you're bootstrapping.
 
 The best thing about being bootstrapped is that we don't waste any time obsessing over investors and their wants—no calls, meetings, reports, presentations and expectations. Instead, we only obsess about our customers, their needs and about removing Google Analytics from the web.
 
@@ -61,7 +63,7 @@ Resourcefulness is an advantage to us. We manage our server infrastructure, we d
 
 Today we're running a business with almost 5,000 paying subscribers. We accomplished all of this with two full-time co-founders and one part-time employee that we recently hired to help us with [customer support](https://plausible.io/blog/scaling-customer-support) mainly.
 
-[My co-founder Uku](https://twitter.com/ukutaht) started Plausible as a solo founder and about a year and a half into the project, I joined as a co-founder to focus on the marketing side of things. [This chart](https://microfounder.com/blog/cofounder-in-marketing) tells our progress well:
+Uku started Plausible as a solo founder and about a year and a half into the project, I joined as a co-founder to focus on the marketing side of things. [This chart](https://microfounder.com/blog/cofounder-in-marketing) tells our progress well:
 
 ![You may need a cofounder](/uploads/marketing-cofounder.png)
 
@@ -77,7 +79,7 @@ In addition to having our code in public, we share our revenue numbers and websi
 
 Especially in the privacy-first world, being open source is pretty much a requirement from many people. Being open source adds a new level of transparency and trustworthiness that proprietary products don't have. It allows people to verify whether our words match our actions.
 
-If you're thinking about open sourcing your project, do learn from our experience and a few hiccups we had along the way. Find the [suitable software license](https://plausible.io/blog/open-source-licenses) and [set the expectations straight](https://plausible.io/blog/building-open-source) with your audience.
+If you're thinking about open sourcing your project, do learn from our experience and a few hiccups we had along the way. Find a [suitable software license](https://plausible.io/blog/open-source-licenses) and [set the expectations straight](https://plausible.io/blog/building-open-source) with your audience.
 
 ## How we got our first visitors and customers
 
@@ -91,7 +93,7 @@ Indie Hackers is a great and supportive community and a perfect place to start y
 
 ## Milestones are cool but they're not what's making a difference
 
-If you hear about Plausible these days, it likely comes from one of our nearly 5,000 paying customers. People who use and enjoy using Plausible help us spread the word to even more people.
+If you hear about Plausible these days, it likely comes from one of our 4,802 paying customers. People who use and enjoy using Plausible help us spread the word to even more people.
 
 We have a $0 paid advertising budget and we don't have an affiliate program either. We pretty much ignore all the [best marketing practices](https://plausible.io/blog/best-marketing-practices). 
 
@@ -101,7 +103,7 @@ We focus our efforts on content marketing. MRR milestones are cool and get all t
 
 Luckily we've published several posts over the last year and a half that have hit a nerve and moved the needle. I highly recommend any startup (including the venture-funded ones) to publish content, explore and experiment with organic marketing. 
 
-Here's a list of our most popular blog posts to date and the referral sources that sent us the traffic:
+Here's a list of [our most popular blog posts to date](https://plausible.io/plausible.io?page=%2Fblog**&period=custom&from=2020-04-01&to=2021-10-20) and the referral sources that sent us the traffic:
 
 ![Our most popular blog posts and their traffic sources to date](/uploads/top-blog-posts-to-date.png)
 
