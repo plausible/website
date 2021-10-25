@@ -35,9 +35,11 @@ Counting unique visitors is an integral part of web analytics. Known methods inc
 3. Browser fingerprinting
 4. Abusing the browser cache e.g. [Etag tracking](https://www.futurehosting.com/blog/etags-allow-tracking-without-cookies/)
 
-Each method has its problems and they are all covered by different privacy laws. Plausible attempts to strike a reasonable balance between de-duplicating pageviews and staying respectful of visitor privacy. We do not attempt to generate a device-persistent identifier because they are considered personal data under GDPR.
+Each method has its problems and they are all covered by different privacy laws. Plausible attempts to strike a reasonable balance between de-duplicating pageviews and staying respectful of visitor privacy. 
 
-Instead, we generate a daily changing identifier using the visitor's IP address and User Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt.
+We do not attempt to generate a device-persistent identifier because they are considered personal data under GDPR. We do not use cookies nor the local storage. We do not retrieve nor extract anything from visitor's devices.
+
+Every single HTTP request sends the IP address and the User-Agent to the server so that's what we use. We generate a daily changing identifier using the visitor's IP address and User Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt.
 
 ```
 hash(daily_salt + website_domain + ip_address + user_agent)
