@@ -39,7 +39,7 @@ Each method has its problems and they are all covered by different privacy laws.
 
 We do not attempt to generate a device-persistent identifier because they are considered personal data under GDPR. We do not use cookies nor the local storage. We do not retrieve nor extract anything from visitor's devices.
 
-Every single HTTP request sends the IP address and the User-Agent to the server so that's what we use. We generate a daily changing identifier using the visitor's IP address and User Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt.
+Every single HTTP request sends the IP address and the User-Agent to the server so that's what we use. We generate a daily changing identifier using the visitor's IP address and User-Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt.
 
 ```
 hash(daily_salt + website_domain + ip_address + user_agent)
@@ -47,7 +47,7 @@ hash(daily_salt + website_domain + ip_address + user_agent)
 
 This generates a random string of letters and numbers that is used to calculate unique visitor numbers for the day. The raw data IP address and User-Agent are never stored in our logs, databases or anywhere on disk at all. 
 
-Old salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next. Forgetting used salts also removes the possibility of the original IP addresses being revealed in a brute-force attack. The raw IP address and User Agent are rendered completely inaccessible to anyone, including ourselves. 
+Old salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next. Forgetting used salts also removes the possibility of the original IP addresses being revealed in a brute-force attack. The raw IP address and User-Agent are rendered completely inaccessible to anyone, including ourselves. 
 
 In our testing, using IP addresses to count visitors is remarkably accurate when compared to using a cookie. In some cases it might even be more accurate than using a cookie because some visitors block cookies altogether.
 
@@ -59,7 +59,11 @@ The biggest limitation with this approach is that we cannot do good retention an
 
 [We’re a two person team](https://plausible.io/about) and we’re based in the EU. The legal entity is incorporated in Estonia.
 
-All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered [server in Germany](https://plausible.io/blog/made-in-eu). This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered [server in Frankfurt am Main, Germany](https://plausible.io/blog/made-in-eu). This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+
+For encryption, we use https in transit and the hashing process at rest. We also do regular backups. The backups are stored in the same location, in a redundant site.
+
+We've tried hard to limit external services that we use and none of them have access to any of the data that we do collect. No third party vendors are involved other than the hosting company that owns the servers where the data is stored. You can read more in our [privacy policy](https://plausible.io/privacy).
 
 You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU.
 
@@ -75,6 +79,10 @@ You own all right, title, and interest to your website data. We obtain no rights
 * Your website data is not sent to any third-parties at all.
 * Your website data is not mined and harvested for personal and behavioral trends.
 * Your website data is not monetized.
+
+You can choose to delete your account and delete your site stats at any time. We provide simple no-questions-asked deletion links.
+
+All your stats will be permanently deleted immediately when you delete your Plausible Analytics account or when you delete your site stats. We cannot recover this information once it has been permanently deleted.
 
 ## Why should I trust you?
 
