@@ -9,4 +9,4 @@ You can even export a filtered view. Filter your dashboard by any metric and cli
 
 Want an even more granular way to export your stats? Take a look at our [stats API](https://plausible.io/docs/stats-api).
 
-![Image](https://plausible.io/docs/img/download-website-stats.png)
+![Export your website stats](https://plausible.io/docs/img/download-website-stats.png)
