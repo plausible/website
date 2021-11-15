@@ -8,3 +8,5 @@ Click on the download icon on the top right of your Plausible dashboard. It will
 You can even export a filtered view. Filter your dashboard by any metric and click on the download icon to get an export of that particular view. Segment the dashboard by any goal such as external link clicks, 404 error pages or custom events to download those metrics.
 
 Want an even more granular way to export your stats? Take a look at our [stats API](https://plausible.io/docs/stats-api).
+
+![Image](https://plausible.io/docs/img/download-website-stats.png)
