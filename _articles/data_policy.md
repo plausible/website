@@ -59,7 +59,7 @@ The biggest limitation with this approach is that we cannot do good retention an
 
 [We’re a two person team](https://plausible.io/about) and we’re based in the EU. The legal entity is incorporated in Estonia.
 
-All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered [server in Frankfurt am Main, Germany](https://plausible.io/blog/made-in-eu). This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+All of the data that we do track and collect is kept fully secured, encrypted and hosted on 100% renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
 For encryption, we use https in transit and the hashing process at rest. We also do regular backups. The backups are stored in the same location, in a redundant site.
 
