@@ -61,7 +61,7 @@ The biggest limitation with this approach is that we cannot do good retention an
 
 All of the data that we do track and collect is kept fully secured, encrypted and hosted on 100% renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
-For encryption, we use https in transit and the hashing process at rest. We also do regular backups. The backups are stored in the same location, in a redundant site.
+For encryption, we use https in transit and the hashing process at rest. We also do regular backups. The backups are also stored in the EU, in a redundant site.
 
 We've tried hard to limit external services that we use and none of them have access to any of the data that we do collect. No third party vendors are involved other than the hosting company that owns the servers where the data is stored. You can read more in our [privacy policy](https://plausible.io/privacy).
 
