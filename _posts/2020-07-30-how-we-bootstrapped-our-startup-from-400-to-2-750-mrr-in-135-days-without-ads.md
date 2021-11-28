@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How we bootstrapped our startup from $400 to $2,750 MRR in 135 days without ads
+title: How we grew our startup from $400 to $2,750 MRR in 135 days without ads
 description: How we grow our startup without any paid advertising, affiliate
   marketing and other sponsorships. All the steps we took and our best traffic
   sources are included.

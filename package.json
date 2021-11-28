@@ -2,6 +2,10 @@
   "name": "plausible-website",
   "version": "1.0.0",
   "description": "This is a jekyll static site. The theme started out as Minima, but it's heavily customized to fit the Plausible brand.",
+  "engines": {
+    "node": "^10.24.1",
+    "npm": "^6.14.12"
+  },
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.1.3",
