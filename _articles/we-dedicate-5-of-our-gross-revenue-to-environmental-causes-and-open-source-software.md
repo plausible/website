@@ -94,7 +94,8 @@ July 2021  | $1,448
 August 2021  | $1,663
 September 2021  | $1,784
 October 2021  | $2,017
-Total to date | $14,602
+November 2021  | $2,207
+Total to date | $16,809
 
 We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund at the start of 2022. No questions asked.
 
