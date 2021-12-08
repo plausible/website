@@ -29,17 +29,11 @@ By using Plausible Analytics, all the site measurement is carried out absolutely
 
 ## How we count unique users without cookies
 
-Counting unique visitors is an integral part of web analytics. Known methods include:
-1. Storing a cookie with random identifier on the visitor's device
-2. Counting unique IP addresses (often coupled with User-Agent)
-3. Browser fingerprinting
-4. Abusing the browser cache e.g. [Etag tracking](https://www.futurehosting.com/blog/etags-allow-tracking-without-cookies/)
+Counting unique visitors is an integral part of web analytics. Plausible attempts to strike a reasonable balance between de-duplicating pageviews and staying respectful of visitor privacy. 
 
-Each method has its problems and they are all covered by different privacy laws. Plausible attempts to strike a reasonable balance between de-duplicating pageviews and staying respectful of visitor privacy. 
+We do not attempt to generate a device-persistent identifier because they are considered personal data under GDPR. We do not use cookies, browser cache nor the local storage. We do not store, retrieve nor extract anything from visitor's devices.
 
-We do not attempt to generate a device-persistent identifier because they are considered personal data under GDPR. We do not use cookies nor the local storage. We do not retrieve nor extract anything from visitor's devices.
-
-Every single HTTP request sends the IP address and the User-Agent to the server so that's what we use. We generate a daily changing identifier using the visitor's IP address and User-Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt.
+Every single HTTP request sends the IP address and the User-Agent to the server so that's what we use. We generate a daily changing identifier using the visitor's IP address and User-Agent. To anonymize these datapoints and make them impossible to relate back to the user, we run them through a hash function with a rotating salt.
 
 ```
 hash(daily_salt + website_domain + ip_address + user_agent)
@@ -53,7 +47,9 @@ In our testing, using IP addresses to count visitors is remarkably accurate when
 
 The biggest limitation with this approach is that we cannot do good retention analysis with Plausible. We cannot show stats like _New vs Returning visitors_ because they rely on having a persistent user identifier.
 
-<small>_Disclaimer:_ This post provides information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.</small>
+If the same visitor visits your site five times in one day we will show that as one unique visitor. But if the same visitor visits your site on five different days in a month we would show that as five unique visitors.
+
+We're happy to provide information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
 
 ## Built and hosted in the EU
 
