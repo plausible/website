@@ -10,6 +10,9 @@ Even though the purpose of [Plausible Analytics](https://plausible.io) is to tra
 
 Here's a closer look at our data policy, the information that we do collect, what we use it for and steps we've taken to comply with the cookie law and the privacy regulations such as the GDPR, CCPA and PECR.
 
+1. Ordered list
+{:toc}
+
 ## First thing first: What we collect and what we use it for
 
 We do not track people across their devices and across websites and apps that they visit. All the data is isolated to a single day, single website and single device only. There is no way to know whether the same person visits a site from more than one device or visits another website. See here [the full list of what makes Plausible a privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics).
