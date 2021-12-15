@@ -2,13 +2,13 @@
   answer: "The billing is based on the total number of pageviews between all of the sites you have added to your account. You can see this total number of billable pageviews at any time in your account settings."
 
 - question: How do I get an invoice?
-  answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice."
+  answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice. You can also downlooad your invoices in your Plausible account settings."
     
 - question: Do you support any alternative payment methods?
   answer: "Credit card and PayPal are the only supported payment methods. We cannot accept payments by wire transfer, invoicing or cryptocurrency unfortunately."
 
 - question: What happens if I go over my monthly page views limit?
-  answer: "You will never be charged extra for an occasional traffic spike. We will not stop counting your stats and you will keep having access to your dashboard. There are no surprise fees and your card will never be charged unexpectedly. Suppose new higher traffic levels become your new standard and your page views exceed your subscription plan for two consecutive months. In that case, we kindly ask you to upgrade your subscription plan to accommodate your new traffic levels using our self-serve platform."
+  answer: "You will never be charged extra for an occasional traffic spike. We will not stop counting your stats either. There are no surprise fees and your card will never be charged unexpectedly. Suppose new higher traffic levels become your new standard and your page views exceed your subscription plan for two consecutive months. In that case, we kindly ask you to upgrade your subscription plan to accommodate your new traffic levels using our self-serve platform."
 
 - question: How does the billing work if I upgrade my subscription to a higher tier?
   answer: "Our payment processor Paddle will calculate a pro-rated amount which reflects the amount you have paid on your previous subscription and the amount of time until that subscription was supposed to expire."
@@ -18,3 +18,9 @@
 
 - question: How long are my website stats stored?
   answer: "There are no data retention limits. As long as you have an active subscription, you can view all the stats we've collected from the day you installed Plausible on your site. You can choose to delete all of your site stats in your settings at any time."
+
+- question: Is the 50 sites limit a hard limit?
+  answer: "No. 50 sites is how many sites you can add for free with any subscription. There are no hard limits on the number of sites you can have in your Plausible account. For those with more than 50 sites we have enterprise plans. Do reach out to us for more details."
+  
+- question: Do you have a roll-up view with aggregated stats for several sites?
+  answer: "Yes. We have a lot of flexibility in the way you can track your stats. You can track subdomains and subfolders in one dashboard. You can send stats to multiple dahsboards at the same time. You can have a roll-up view that aggregates stats while keeping them independent at the same time. More details in docs"
