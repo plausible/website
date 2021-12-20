@@ -30,7 +30,7 @@ A solution to minimize dark traffic is to tag links. Website owners use UTM para
 
 When you have UTM tagged links in your emails, social media and other platforms, you can see clicks on these links in your Plausible Analytics dashboard. You can see referral sources of your traffic, even those that would otherwise be listed as "Direct / None": 
 
-* In your "Top Sources" report you can filter by medium, source and campaign tabs which include all the visits to your sites from tagged links.
+* In your "Top Sources" report you can filter by medium, source, campaign, term and content tabs which include all the visits to your sites from tagged links.
 
 * You can click on any of your individual UTM tags to drill down and get a full report based on that specific UTM tag:
 
@@ -93,6 +93,16 @@ You can organize and group `utm_medium` tags within few of your main marketing s
 `utm_campaign`: The name of your individual campaign. Such as "November+newsletter" or "Black+Friday+sale".
 
 `utm_campaign` is the most flexible of all the UTM tags. You can put anything you want. Launches, sales, features, specific topics...
+
+### UTM Term
+
+`utm_term`: The name of the keyword for your paid search ad campaign.
+
+### UTM Content
+
+`utm_content`: The name of the specific link.
+
+In some campaigns, you may be having multiple links pointing to the same location. For instance two different links to your landing page in an email. `utm_content` allows you to differentiate between these two links and see which one performs best.
 
 ## Why are UTM parameters so valuable?
 
