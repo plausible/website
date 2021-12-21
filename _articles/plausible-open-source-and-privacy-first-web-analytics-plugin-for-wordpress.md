@@ -174,7 +174,7 @@ To get started with the custom domain, you need to enable this feature in your P
 
 In most cases, this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain.
 
-The setup is complete and ready to use when your subdomain loads our JavaScript file (yoursubdomain.yourdomain.com/js/index.js).
+The setup is complete and ready to use when your subdomain loads our JavaScript file (`yoursubdomain.yourdomain.com/js/index.js`).
 
 * When your subdomain loads our script, go into your Plausible Analytics WordPress plugin settings
 * Enable the "Custom Domain" section and type in your chosen subdomain
@@ -207,7 +207,7 @@ You can try to troubleshoot your installation by experimenting with these tips:
 
 * Deactivate WP Rocket or another performance optimization plugin that is causing the conflict. Clear the cache. Plausible should then work all fine
 
-* Whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized. You could try and whitelist our domain name (plausible.io) and also the exact URLs of our scripts (https://plausible.io/js/plausible.js and https://plausible.io/js/plausible.outbound-links.js)
+* Whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized. You could try and whitelist our domain name (`plausible.io`) and also the exact URLs of our scripts (`https://plausible.io/js/plausible.js` and `https://plausible.io/js/plausible.outbound-links.js`)
 
 * Disable different settings in WP Rocket such as "Load Javascript Deferred"
 
