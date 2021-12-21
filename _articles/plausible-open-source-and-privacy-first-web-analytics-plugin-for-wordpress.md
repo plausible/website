@@ -201,29 +201,31 @@ Plausible script is optimized for performance by default and there's no reason t
 
 If you've inserted our script into your site but it's still not tracking correctly, you may be experiencing a plugin conflict. You can try to view the source of your page to see how the Plausible snippet looks like. If the snippet looks different from the one you inserted onto your site, it is likely that a performance optimization plugin has impacted it.
 
-You can try to troubleshoot your installation like this:
+You can try to troubleshoot your installation by experimenting with these tips:
 
-* Use our official WordPress plugin to install Plausible on your site instead of manually adding our snippet into the header section of your site. We've made our plugin in a way so that it fixes any potential conflicts with WP Rocket and similar plugins
-
-If you cannot use our official plugin, you can try these:
+* Use our official WordPress plugin to install Plausible on your site instead of manually adding our snippet into the header section of your site. We've made our plugin in a way so that it fixes most potential conflicts with WP Rocket and similar plugins
 
 * Deactivate WP Rocket or another performance optimization plugin that is causing the conflict. Clear the cache. Plausible should then work all fine
 
-* Or you can manually whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized
+* Whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized. You could try and whitelist our domain name (plausible.io) and also the exact URLs of our scripts (https://plausible.io/js/plausible.js and https://plausible.io/js/plausible.outbound-links.js)
 
-* Or you could try to use a slightly different Plausible snippet instead of the default one. This one should prevent any conflicts:
+* Disable different settings in WP Rocket such as "Load Javascript Deferred"
+
+* Use a slightly different Plausible snippet instead of the default one. This one should prevent any conflicts:
 
 ```
 <script data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/plausible.js"></script>
 ```
 
+* Make sure to clear the WordPress cache in order for the changes to take effect
+
 ### Conflict with SiteGround Optimizer
 
 SiteGround Optimizer is another popular performance optimization plugin. If you have issues with your Plausible installation when using the SiteGround Optimizer, you need to take these steps:
 
-* Install the [Code Snippets Plugin](https://wordpress.org/plugins/code-snippets/). 
+* Use our official WordPress plugin instead of manually installing our snippet into your site
 
-* Add the following code:
+* If even our official plugin doesn't work, you can install the [Code Snippets Plugin](https://wordpress.org/plugins/code-snippets/). Then add the following code:
 
 ```
     add_filter( 'sgo_javascript_combine_excluded_external_paths', 'js_combine_exclude_external_script' );
