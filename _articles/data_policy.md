@@ -28,7 +28,7 @@ By using Plausible Analytics, all the site measurement is carried out absolutely
   | **Browser** | _Chrome 86.0_ | We use this to show you what browsers and browser version numbers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
   | **Operating system** | _macOS 10.15_ | We use this to show you what operating systems people use when visiting your website. We show the brand of the operating system and the version number. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
   | **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
-  | **Visitor Country**  | _United Kingdom_ | We look up the visitor's country using their IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
+  | **Visitor country, region, ity**  | _United Kingdom, Englad, London_ | We look up the visitor's location using their IP address. We do not track anything more granular than the city level and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
 
 ## How we count unique users without cookies
 
