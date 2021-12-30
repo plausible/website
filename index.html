@@ -175,8 +175,8 @@ layout: default
 
   <script>
     pageviewTiers =   ['10k', '100k', '200k', '500k', '1m', '2m', '5m', '10m', '10m+']
-    monthlyPriceTiers = ['6 / mo', '12 / mo', '20 / mo', '30 / mo', '50 / mo', '70 / mo', '100 / mo', '150 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
-    yearlyPriceTiers = ['60 / yr', '120 / yr', '200 / yr', '300 / yr', '500 / yr', '700 / yr', '1000 / yr', '1500 / yr', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
+    monthlyPriceTiers = ['9 / mo', '19 / mo', '29 / mo', '49 / mo', '69 / mo', '89 / mo', '129 / mo', '169 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
+    yearlyPriceTiers = ['90 / yr', '190 / yr', '290 / yr', '490 / yr', '690 / yr', '890 / yr', '1290 / yr', '1690 / yr', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
   </script>
   <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{volumeTier: 0, pricingYearly: false, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
     <div class="relative">
