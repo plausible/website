@@ -28,7 +28,7 @@ This is essential in the market of privacy software. Corporations and proprietar
 
 We're a two person team and we're based in the EU. The legal entity is incorporated in Estonia.
 
-All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
+All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU.
 
