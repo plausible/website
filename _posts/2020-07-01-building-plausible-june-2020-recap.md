@@ -14,7 +14,7 @@ June was easily the best month of all time for Plausible. We added some large cu
 
 * 🚀 **Self-hosted Plausible beta launched**.
 * 💰 **New pricing tiers for larger customers**
-* 🤖 **Moved our hosting to Digital Ocean in Germany**
+* 🤖 **Moved our hosting to Germany**
 * 💵 **MRR: 1,882 (+73%)**:  Breaking revenue growth record two months in a row. Huge testament to Marko’s work on getting the word out there about us.
 * 👩 **26k visitors (+3%)***:* We were helped by an [lwn.net article](https://lwn.net/Articles/822568/) hitting #1 on HackerNews. [See our full stats for June](https://plausible.io/plausible.io?period=custom&from=2020-06-01&to=2020-06-30).
 
@@ -38,25 +38,26 @@ For some businesses I would recommend doing direct sales for a long time to figu
 
 Instead of spending too much time in price negotiations with bigger clients, we opted to just come up with some simple math for the pricing curve. Looking at competitors and based on our own gut-feel we thought the ratio should be that for every doubling of traffic we increase the price by 1.5x. With this logic we came up with the following tiers:
 
-| Pageviews | Cost   | w/ Annual Discount (33%)
-|---|---|---|
-|10k       |  $6/mo| $4/mo|
-|100k      |  $12/mo| $8/mo|
-|200k      |  $18/mo| $12/mo|
-|500k      |  $27/mo| $18/mo|
-|1m        |  $48/mo| $32/mo|
-|2m        |  $66/mo| $44/mo|
-|5m        |  $99/mo| $66/mo|
-|10m       | $150/mo| $100/mo|
-
+| Pageviews | Cost    | w/ Annual Discount (33%) |
+| --------- | ------- | ------------------------ |
+| 10k       | $6/mo   | $4/mo                    |
+| 100k      | $12/mo  | $8/mo                    |
+| 200k      | $18/mo  | $12/mo                   |
+| 500k      | $27/mo  | $18/mo                   |
+| 1m        | $48/mo  | $32/mo                   |
+| 2m        | $66/mo  | $44/mo                   |
+| 5m        | $99/mo  | $66/mo                   |
+| 10m       | $150/mo | $100/mo                  |
 
 We don’t have bigger tiers listed yet but figuring out the next tier is not that difficult if you follow the formula. For 20m pageviews per month we’re looking at 150 * 1.50 = $225/mo.
 
 To share some good news, we already have one customer on the 2m monthly pageviews plan and one on 5m. We’re also trialling with a site that will definitely hit 10m monthly pageviews by the end of the trial, potentially even above 20m.
 
-### Hosting Plausible Cloud on Digital Ocean
+### Hosting Plausible Cloud in Germany
 
-After Dockerizing our whole codebase in May, I’ve moved our hosting from Heroku+Aiven over to Digital Ocean. Heroku charges a premium for being very helpful in the build and deploy stages but with the new Docker setup we aren't taking full advantage of it. Digital Ocean is much cheaper and I like that it runs completely on green energy.
+**Update for 2021:** We've since moved our hosting to Hetzner but the servers are still in Germany. [Details here](https://plausible.io/blog/made-in-eu).
+
+After Dockerizing our whole codebase in May, I’ve moved our hosting from Heroku+Aiven over to DO. Heroku charges a premium for being very helpful in the build and deploy stages but with the new Docker setup we aren't taking full advantage of it. DO is much cheaper and I like that it runs completely on green energy.
 
 It might sound surprising but our hosted cloud server is running on a single $10/mo droplet with 1CPU and 2Gb memory. The heavy lifting is done by the Clickhouse database which is running on a $80/mo droplet with 6 CPUs and 16Gb memory. We’re also running the smallest managed Postgres instance at $15/mo. So all together we are hosting the cloud product for $105/mo.
 
