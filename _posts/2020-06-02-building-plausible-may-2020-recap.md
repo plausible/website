@@ -55,7 +55,7 @@ I haven't had a chance to work on the actual analytics dashboard for a while now
 
 Here are my priorities for the next month:
 
-* Consolidate our hosting to Digital Ocean's Frankfurt data center
+* Consolidate our hosting to Frankfurt data center
 * Release alpha version of self-hosted Plausible
 * Deliver at least one new feature for the dashboard (ideally more)
 
