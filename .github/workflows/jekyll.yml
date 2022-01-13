@@ -18,11 +18,11 @@ jobs:
 
     - name: Build
       uses: jerryjvl/jekyll-build-action@v1
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      
+    - name: Deploy to BunnyCDN
+      uses: ayeressian/bunnycdn-storage-deploy@master
       with:
-        server: storage.bunnycdn.com
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./_site/
+        source: "_site"
+        storageZoneName: "${{ secrets.BUNNY_CDN_STORAGE_ZONE }}"
+        accessKey: "${{ secrets.BUNNY_CDN_STORAGE_KEY }}"
+  
