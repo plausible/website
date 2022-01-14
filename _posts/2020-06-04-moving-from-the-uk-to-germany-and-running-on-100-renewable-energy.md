@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving Plausible to Germany and running on 100% renewable energy
+title: Made in the EU, hosted in Germany and running on 100% renewable energy
 description: A look into our server move to Germany. And we're now powered by
   sustainable energy. Plausible is now made in, run from and stored in the EU.
 slug: made-in-eu
@@ -31,9 +31,11 @@ Now we're confident and comfortable with Germany as an integral part of the EU t
 
 ## Moving to being 100% powered by renewable energy
 
-Our server is now hosted with Hetzner and located in a data center in Falkenstein, Germany. 
+Our server is now hosted with Hetzner and located in a data center in Falkenstein, Germany. Hetzner is a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. 
 
-We're now 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
+As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, built and hosted in the EU using only European cloud infrastructure.
+
+We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
 
 If you replace Google Analytics with Plausible Analytics you will reduce your page size by approximately 45 KB for each visitor. With 10,000 monthly visitors that will be a saving of 450,000 KB (0.45 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
 
@@ -56,5 +58,6 @@ After using Google Analytics for many years we believe we have created a better 
 * A lightweight script of under 1 KB so your site keeps loading fast
 * [Doesn’t use cookies](https://plausible.io/blog/google-analytics-cookies) so there’s no need for cookie banners
 * Doesn’t collect personal data so no need for GDPR and CCPA consent prompts
+* All the data is hosted on servers owned by Hetzner (a European company) in Germany. The data never leaves the EU
 
 If this sounds interesting, do [register for a trial](https://plausible.io/register). Our script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days, there are no restrictions on the usage and no credit card is required either.
