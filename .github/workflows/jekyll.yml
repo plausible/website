@@ -22,10 +22,11 @@ jobs:
     - name: Remove HTML extension
       run: ./remove-html.sh
 
-    - name: Deploy to BunnyCDN
-      uses: ayeressian/bunnycdn-storage-deploy@master
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        source: "_site"
-        storageZoneName: "${{ secrets.BUNNY_CDN_STORAGE_ZONE }}"
-        accessKey: "${{ secrets.BUNNY_CDN_STORAGE_KEY }}"
-
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localDir: "_site"
+        options: "--delete --exclude=docs/"
