@@ -27,13 +27,13 @@ Some members of the community raised concern that our database, customer and sit
 
 So now all the data is hosted, stored and processed on a server in Germany that complies with and will continue to comply with strict European Union privacy laws. Germany is not part of the Five Eyes but is part of Fourteen Eyes which should be less bad. But again our priority is to not collect and store anything personal so this is less of a concern.
 
-Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit. Plausible Analytics is now fully made in, run from and stored in the EU!
+Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit.
 
 ## Moving to being 100% powered by renewable energy
 
 Our server is now hosted with Hetzner and located in a data center in Falkenstein, Germany. Hetzner is a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. 
 
-As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, built and hosted in the EU using only European cloud infrastructure.
+As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, made and hosted in the EU using only European cloud infrastructure.
 
 We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
 
