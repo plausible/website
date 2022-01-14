@@ -24,9 +24,8 @@ jobs:
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      working-directory: ./_site/
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./_site/
-        state-name: ../.ftp-deploy-sync-state.json
