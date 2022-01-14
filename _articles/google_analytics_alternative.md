@@ -12,7 +12,7 @@ Here's why you should break the habit of using Google Analytics and consider [Pl
 ![Plausible as a great Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Google Analytics alternative")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Plausible vs Google Analytics comparison: What are the differences?
 
@@ -57,13 +57,19 @@ Lawmakers around the world have realized the severity of the situation and sever
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them.
 
+**January 2022 update:** The Austrian Data Protection Authority has decided that the use of Google Analytics [violates the GDPR](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states. 
+
+All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+
+You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website data never leaves the EU.
+
 ### Compromising the user experience of your website visitors
 
 When you're using Google Analytics, you're making the user experience on your site more inconvenient. To abide by the privacy regulations, you need to compromise the visitor experience by displaying annoying cookie banners and GDPR or CCPA consent notices. You also need to present comprehensive privacy policy in regard to analytics tracking.
 
 By using Plausible, you don't need to have any GDPR, CCPA, PECR or cookie prompts anymore and you don't need a complex privacy policy about analytics either. By using Plausible, you are not using cookies and you are not tracking any personal data after all. Your visitors can enjoy your site without any annoyances and distractions. 
 
-<small>*Disclaimer:* We're not lawyers. The information in this post is here to help give you an introduction to the different privacy regulations and how Plausible is built to help you comply with them. We encourage you to discuss specific issues with your lawyer if you have any concerns.</small>
+We’re happy to provide information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
 
 ### Increasing the page weight and the loading time
 
