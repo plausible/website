@@ -16,7 +16,7 @@ CCPA was signed in June 2018, it went into effect at the start of 2020 and Calif
 1. Ordered list
 {:toc}
 
-Disclaimer: We’re not lawyers. The information in this post is our view on CCPA and it’s here to help give you an introduction to CCPA and how Plausible Analytics is built with privacy in mind. If you have any specific concerns, we encourage you to consult an attorney to ensure you are CCPA compliant.
+The information in this post is our view on CCPA and it’s here to help give you an introduction to CCPA and how Plausible Analytics is built to help you comply with it. We encourage you to discuss specific issues with your lawyer to help you ensure that you fulfill the legal requirements that apply to you.
 
 ## Who does CCPA affect and what are the penalties?
 
