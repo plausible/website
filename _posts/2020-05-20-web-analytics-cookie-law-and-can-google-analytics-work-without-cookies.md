@@ -43,7 +43,7 @@ This is how we would sum up different regulations such as the General Data Prote
 
 > If you track, collect, share or sell personal data or personally identifiable information (PII) by using cookies and other technology, you need to inform the visitor in clear and plain language, ask for and get explicit consent before you take that action.
 
-**Disclaimer:** *We're not lawyers. The information in this post is our view on things and it's here to help give you an introduction to web cookies and how Plausible Analytics is built to help you comply with the cookie laws. We encourage you to discuss specific issues with your lawyer if you have any concerns.*
+The information in this post is our view on things and it's here to help give you an introduction to web cookies and how Plausible Analytics is built to help you comply with the cookie laws. We encourage you to discuss specific issues with your lawyer to help you ensure that you fulfill the legal requirements that apply to you.
 
 ## Does Google Analytics use cookies?
 
