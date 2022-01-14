@@ -12,7 +12,7 @@ Here's why you should break the habit of using Google Analytics and consider [Pl
 ![Plausible as a great Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Google Analytics alternative")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Plausible vs Google Analytics comparison: What are the differences?
 
