@@ -22,11 +22,10 @@ jobs:
     - name: Remove HTML extension
       run: ./remove-html.sh
 
-    - name: Upload ftp
-      uses: sebastianpopp/ftp-action@releases/v2
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        host: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }}
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "_site"
-        options: "--delete --exclude=docs/"
+        local-dir: ./_site/
