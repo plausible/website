@@ -14,7 +14,7 @@ Let's take a look at the meaning of GDPR, how it impacts web analytics, steps yo
 1. Ordered list
 {:toc}
 
-Disclaimer: We’re not lawyers. The information in this post is our view on GDPR and it’s here to help give you an introduction to GDPR and how Plausible Analytics is built to help you comply with it. If you have any specific concerns, we encourage you to consult an attorney to ensure you are GDPR compliant.
+The information in this post is our view on GDPR and it’s here to help give you an introduction to GDPR and how Plausible Analytics is built to help you comply with it. We encourage you to discuss specific issues with your lawyer to help you ensure that you fulfill the legal requirements that apply to you.
 
 ## A brief overview of the GDPR
 
@@ -116,6 +116,8 @@ You must obtain legally valid consent from your website visitors to:
 * the use of cookies or other local storage
 * the collection, sharing, and use of personal data for personalization of ads
  
+**January 2022 update:** The Austrian Data Protection Authority has decided that the use of Google Analytics violates the GDPR. This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
+
 ## How to make Google Analytics GDPR compliant
 
 So what if you don't want to [remove Google Analytics](https://plausible.io/blog/remove-google-analytics) and you don't want to worry about obtaining consent from your visitors but you still do insist on using Google Analytics? You can try to make Google Analytics GDPR compliant. 
@@ -175,5 +177,9 @@ Read more in our post about [Google Analytics and cookies](https://plausible.io/
 We built Plausible Analytics with GDPR and user privacy in mind. This means that we don't use cookies at all and that we don't collect or store any personally identifiable information. Take a look at [our data policy](https://plausible.io/data-policy) for a detailed list on the few things that we do collect and everything else we've done to minimize data collection. 
 
 We also don't use any of the data we do collect for any advertising and behavioral profiling purposes. Our business model has nothing to do with advertising. Our product is not your website data. Our product is the website analytics tool and our business model is focused on hosting this analytics tool and charging a subscription fee for doing that.
+
+All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+
+You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website data never leaves the EU.
 
 If you're curious about trying out our Plausible Analytics on your website, you can register for a [free, unlimited-usage 30-day trial](https://plausible.io/register) with no credit card required. Our analytics script weighs less than 1 KB so you can run it alongside Google Analytics for the trial period and decide for yourself if it works for you.
