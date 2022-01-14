@@ -19,6 +19,9 @@ jobs:
     - name: Build
       uses: jerryjvl/jekyll-build-action@v1
 
+    - name: Remove HTML extension
+      run: ./remove-html
+
     - name: Deploy to BunnyCDN
       uses: ayeressian/bunnycdn-storage-deploy@master
       with:
