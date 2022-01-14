@@ -21,19 +21,13 @@ Our main priority has always been and will continue to be [not to collect and st
 
 Some members of the community raised concern that our database, customer and site data was hosted on a server in the UK. Especially with the concerns about how Brexit will impact GDPR and other privacy laws in the UK, it made sense to move the data to the European Union to ensure being covered by its strict laws on data privacy in the future.
 
-[PrivacyTools.io](https://www.privacytools.io/providers/#ukusa) is a great resource and they have a deep dive into this and have more info on why being hosted in the USA but also in the UK is not the best for data privacy and security purposes. The UK is the founding member and a part of the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes):
+Our server is now hosted with Hetzner and located in a data center in Falkenstein, Germany. Hetzner is a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. 
 
-> "The UKUSA Agreement is an agreement between the United Kingdom, United States, Australia, Canada, and New Zealand to cooperatively collect, analyze, and share intelligence. Members of this group, known as the Five Eyes, focus on gathering and analyzing intelligence from different parts of the world."
-
-So now all the data is hosted, stored and processed on a server in Germany that complies with and will continue to comply with strict European Union privacy laws. Germany is not part of the Five Eyes but is part of Fourteen Eyes which should be less bad. But again our priority is to not collect and store anything personal so this is less of a concern.
+As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, made and hosted in the EU using only European cloud infrastructure.
 
 Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit.
 
 ## Moving to being 100% powered by renewable energy
-
-Our server is now hosted with Hetzner and located in a data center in Falkenstein, Germany. Hetzner is a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. 
-
-As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, made and hosted in the EU using only European cloud infrastructure.
 
 We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
 
