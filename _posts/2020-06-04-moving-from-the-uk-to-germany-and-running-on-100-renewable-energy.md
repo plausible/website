@@ -13,11 +13,11 @@ We have now moved all of the website data from servers in the UK to servers in G
 
 This makes us more comfortable in the long run in terms of data security and privacy especially considering the doubts surrounding Brexit and its impact on the privacy laws in the UK.
 
-And of no less importance, we're now running on 100% renewable energy which should further minimize our impact on the planet. Let's look closer at these details.
+And of no less importance, we're now running on 100% renewable energy, which should further minimize our impact on the planet. Let's look closer at these details.
 
 ## Moving the data to Germany
 
-Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we do store such as your website traffic stats is kept fully secured and encrypted. You can read more about it on [our about page](https://plausible.io/about).
+Our main priority has always been and will continue to be [not to collect and store any personal data](https://plausible.io/data-policy) in the first place. We're private by design and we minimize any data collection in general. Whatever we store, such as your website traffic stats, is kept fully secured and encrypted. You can read more about it on [our about page](https://plausible.io/about).
 
 Some members of the community raised concern that our database, customer and site data was hosted on a server in the UK. Especially with the concerns about how Brexit will impact GDPR and other privacy laws in the UK, it made sense to move the data to the European Union to ensure being covered by its strict laws on data privacy in the future.
 
@@ -25,13 +25,13 @@ Our server is now hosted with Hetzner and located in a data center in Falkenstei
 
 As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, made and hosted in the EU using only European cloud infrastructure.
 
-Now we're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit.
+We're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit.
 
 ## Moving to being 100% powered by renewable energy
 
 We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
 
-If you replace Google Analytics with Plausible Analytics you will reduce your page size by approximately 45 KB for each visitor. With 10,000 monthly visitors that will be a saving of 450,000 KB (0.45 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
+If you replace Google Analytics with Plausible Analytics, you will reduce your page size by approximately 45 KB for each visitor. With 10,000 monthly visitors, that will be a saving of 450,000 KB (0.45 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
 
 That brings us to more than 5 GB of data transfer per year saved. Even a saving of 45 KB in scripts can make a huge difference in reducing the carbon footprint of your website.
 
