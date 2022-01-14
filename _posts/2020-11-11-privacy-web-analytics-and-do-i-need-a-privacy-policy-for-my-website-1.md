@@ -25,8 +25,6 @@ In addition to this, many third-party services commonly used on websites (analyt
 
 ## Do I need a privacy policy on my website?
 
-*Disclaimer: We're not lawyers. The information in this post is here to help give you an introduction to privacy policies. It may not cover all the laws you are subject to. We encourage you to discuss specific issues with your lawyer if you have any concerns, want to determine whether this applies to you and what actions you need to take.*
-
 The chances are that you most probably do need a privacy policy for your website. If your website collects any personal data directly or indirectly using third-party services, you legally need a privacy policy.
 
 Most websites do collect some type of personal data. Sometimes you, as a site owner, may not even be aware that a third-party service you make a call to collects personal data or [places cookies](https://plausible.io/blog/google-analytics-cookies) on the devices of your visitors.
@@ -34,6 +32,8 @@ Most websites do collect some type of personal data. Sometimes you, as a site ow
 This is why it is recommended to add a privacy policy to your website. Even though you may be very careful about what third-party services you use on your site and that you do not collect any personal data, it is still recommended to include a privacy policy. 
 
 If for no other purpose than to explain to your audience the steps you've taken to not intrude on their privacy. This tells your visitors that you are open, transparent and take their privacy and personal data seriously. 
+
+The information in this post is here to help give you an introduction to privacy policies. It may not cover all the laws you are subject to. We encourage you to discuss specific issues with your lawyer if you have any concerns, want to determine whether this applies to you and what actions you need to take.
 
 ### Google Analytics requires you to have a privacy policy 
 
