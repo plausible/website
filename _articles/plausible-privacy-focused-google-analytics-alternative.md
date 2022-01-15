@@ -24,11 +24,13 @@ We are not a black box. There's nothing proprietary or closed source about Plaus
 
 This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you're actually doing what you're saying you're doing.
 
-## Built and hosted in the EU
+## Hosted in the EU powered by European-owned cloud infrastructure
 
 We're a two person team and we're based in the EU. The legal entity is incorporated in Estonia.
 
 All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
+
+We use Bunny (another European-owned provider from Slovenia) for a global CDN and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU.
 
