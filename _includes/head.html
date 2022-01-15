@@ -6,7 +6,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icon/favicon.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon/apple-touch-icon.png">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/tooltip.css" | relative_url }}">
+
+  <link rel="preload" href="{{ "/assets/css/tooltip.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ "/assets/css/tooltip.css" | relative_url }}"></noscript>
+
   <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') window.location.pathname = '/sites'</script>
   <script defer src="https://testing-plausible-io-proxy.uku-taht.workers.dev/qwerty/script.js" data-api="https://testing-plausible-io-proxy.uku-taht.workers.dev/qwerty/event"></script>
   <script defer src="https://plausible.io/js/script.js"></script>
