@@ -24,7 +24,7 @@ We are not a black box. There's nothing proprietary or closed source about Plaus
 
 This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you're actually doing what you're saying you're doing.
 
-## Hosted in the EU powered by European-owned cloud infrastructure
+## Hosted in the EU powered by European-owned cloud infrastructure
 
 We're a two person team and we're based in the EU. The legal entity is incorporated in Estonia.
 
