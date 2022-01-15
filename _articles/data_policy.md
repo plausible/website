@@ -54,11 +54,13 @@ If the same visitor visits your site five times in one day we will show that as 
 
 We're happy to provide information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
 
-## Built and hosted in the EU
+## Hosted in the EU powered by European-owned cloud infrastructure
 
 [We’re a two person team](https://plausible.io/about) and we’re based in the EU. The legal entity is incorporated in Estonia.
 
 All of the data that we do track and collect is kept fully secured, encrypted and hosted on 100% renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+
+We use Bunny (another European-owned provider from Slovenia) for a global CDN and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
 
 For encryption, we use https in transit and the hashing process at rest. We also do regular backups. The backups are also stored in the EU, in a redundant site.
 
