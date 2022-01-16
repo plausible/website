@@ -10,7 +10,7 @@ author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
-TL;DR: Plausible Analytics is incorporated, built and hosted in the EU with all website stats exclusively processed on servers owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
+Plausible Analytics is incorporated, built and hosted in the EU with all website stats exclusively processed on servers owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
 
 1. Ordered list
 {:toc}
