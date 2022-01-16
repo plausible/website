@@ -67,5 +67,6 @@ Feel free to explore Plausible using our trial. We have [a free 30-day trial](ht
 
 We don't do [any paid ads, retargeting and other privacy-intrusive marketing](https://plausible.io/blog/best-marketing-practices). We rely on people like you who enjoy what we do to help us spread the word and de-Google more sites. Thank you for being so supportive!
 
-From 🇪🇺 with ❤️ ,
+From 🇪🇺 with ❤️
+
 [Your Plausible team](https://plausible.io/about)
