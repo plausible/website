@@ -4,9 +4,10 @@ title: Is Google Analytics illegal?
 description: Plausible data is exclusively processed with servers owned and
   operated by European providers. If Google Analytics no longer allows you to
   fulfill the legal requirements that apply to you, do check us out.
-slug: /google-analytics-illegal
+slug: google-analytics-illegal
 date: 2022-01-16T17:10:23.197Z
 author: marko-saric
+image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
 TL;DR: Plausible Analytics is incorporated, built and hosted in the EU with all website stats exclusively processed with servers owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
