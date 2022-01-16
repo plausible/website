@@ -19,11 +19,15 @@ TL;DR: Plausible Analytics is incorporated, built and hosted in the EU with all 
 
 The Austrian Data Protection Authority has decided that the use of Google Analytics [violates the GDPR](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) as it is "subject to surveillance by U.S. intelligence services and can be ordered to disclose data of European citizens to them". This is because [the CLOUD Act](https://en.wikipedia.org/wiki/CLOUD_Act) allows US authorities to demand personal data from Google, Facebook and other US providers, even when they're operating in another jurisdiction.
 
-This is the first DPA decision regarding EEA-US data transfers and it's an exciting development for European privacy-first providers such as Plausible Analytics. According to Max Schrems and the noyb.eu team, this decision is relevant for almost all European websites. Most websites use Google Analytics, Facebook Connect and/or other US-owned cloud services. There were similar recent cases concerning the use of [Stripe](https://noyb.eu/en/edps-sanctions-parliament-over-eu-us-data-transfers-google-and-stripe) and the use of [Cookiebot / Akamai](https://iapp.org/news/a/new-eu-data-blockage-as-german-court-would-ban-many-cookie-management-providers/). 
+This is the first DPA decision regarding EEA-US data transfers and it's an exciting development for European privacy-first providers such as Plausible Analytics. According to Max Schrems and the noyb.eu team, this decision is relevant for almost all European websites. 
+
+Most websites use Google Analytics, Facebook Connect and/or other US-owned cloud services. There were similar recent cases concerning the use of [Stripe](https://noyb.eu/en/edps-sanctions-parliament-over-eu-us-data-transfers-google-and-stripe) and the use of [Cookiebot / Akamai](https://iapp.org/news/a/new-eu-data-blockage-as-german-court-would-ban-many-cookie-management-providers/). 
 
 Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) throughout Europe concerning sites using Google Analytics and Facebook Connect. Similar decisions are now expected to drop in Germany, the Netherlands and other EU member states. You can read a more detailed [legal analysis here](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)).
 
-Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targetting Europeans, you should consider how this affects you and the US-owned services that you're using. We encourage you to discuss Google Analytics and this specific ruling with your lawyer to help you decide whether Google Analytics still allows you to fulfill the legal requirements that apply to you.
+Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this affects you and the US-owned services that you're using. 
+
+We encourage you to discuss Google Analytics and this specific ruling with your lawyer to help you decide whether Google Analytics still allows you to fulfill the legal requirements that apply to you.
 
 ## Plausible Analytics is a genuine European Google Analytics alternative
 
@@ -47,7 +51,7 @@ Last year, we moved to Hetzner, so all of the data we collect is hosted in Germa
 
 * All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. Hetzner, a European company, owns the server. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
 
-* For our CDN and DDoS protection, we use Bunny, another European-owned provider from Slovenia. Using a global CDN means having a fast loading script no matter where your visitors are based. We're proud to have one of the most lightweight Javascript snippets in the analytics industry. Clocking in at [less than 1KB](https://plausible.io/lightweight-web-analytics) (45 times smaller than Google Analytics), our script will not add any bloat to your website or cause any performance issues.
+* For our CDN and DDoS protection, we use Bunny, another European-owned provider from Slovenia. Using a global CDN means having a fast loading script no matter where your visitors are based. We're proud to have one of the most lightweight JavaScript snippets in the analytics industry. Clocking in at [less than 1KB](https://plausible.io/lightweight-web-analytics) (45 times smaller than Google Analytics), our script will not add any bloat to your website or cause any performance issues.
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website data is exclusively processed with servers owned and operated by European companies and it never leaves the EU. You can read more about what makes Plausible a [privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics) and a more technical overview in [our data policy](https://plausible.io/data-policy).
 
@@ -63,5 +67,5 @@ Feel free to explore Plausible using our trial. We have [a free 30-day trial](ht
 
 We don't do [any paid ads, retargeting and other privacy-intrusive marketing](https://plausible.io/blog/best-marketing-practices). We rely on people like you who enjoy what we do to help us spread the word and de-Google more sites. Thank you for being so supportive!
 
-From 🇪🇺 with ❤️ 
+From 🇪🇺 with ❤️ ,
 [Your Plausible team](https://plausible.io/about)
