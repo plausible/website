@@ -32,7 +32,7 @@ All of the data that we do track and collect is kept fully secured, encrypted an
 
 We use Bunny (another European-owned provider from Slovenia) for a global CDN and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
 
-You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU.
+You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data [never leaves the EU](https://plausible.io/blog/google-analytics-illegal).
 
 ## Completely independent, self-funded and bootstrapped
 
