@@ -23,7 +23,7 @@ Some members of the community raised concern that our database, customer and sit
 
 Our server is now hosted with Hetzner and located in a data center in Falkenstein, Germany. Hetzner is a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. 
 
-We use Bunny (another European-owned provider from Slovenia) for a global CDN and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
+We use Bunny (another European-owned provider from Slovenia) for a global CDN and DDoS protection. This ensures that all visitor data we collect is [exclusively processed with servers owned and operated by European companies](https://plausible.io/blog/google-analytics-illegal).
 
 As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, made and hosted in the EU using only European-owned cloud infrastructure.
 
