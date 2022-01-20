@@ -57,9 +57,9 @@ Lawmakers around the world have realized the severity of the situation and sever
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them.
 
-**January 2022 update:** The Austrian Data Protection Authority has decided that the use of Google Analytics [violates the GDPR](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states. 
+**January 2022 update:** The Austrian Data Protection Authority has decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states. 
 
-All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+All of the visitor data that Plausible tracks and collects is exclusively processed on servers and cloud infrastructure owned and operated by European providers. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
 You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website data never leaves the EU.
 
