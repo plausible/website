@@ -148,7 +148,7 @@ This is where our brand-new solution comes in place. With Plausible Analytics we
 3. A **lightweight script of less than 1 KB** so your site keeps loading fast
 4. **Doesn't use cookies** so there's no need for cookie banners
 5. **Doesn't collect personal data** so no need for GDPR and CCPA consent prompts
-6. All the data is hosted on servers owned by Hetzner (a European company) in Germany. **The data never leaves the EU**.
+6. All the data is hosted in Germany and is exclusively processed on servers and cloud infrastructure owned and operated by European providers. **The data never leaves the EU**.
 
 Take a look at [our live demo](https://plausible.io/plausible.io).
 
