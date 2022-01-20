@@ -9,7 +9,7 @@ author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Web Analytics, GDPR and is Google Analytics GDPR compliant?
 ---
-Let's take a look at the meaning of GDPR, how it impacts web analytics, steps you need to take to make Google Analytics GDPR compliant and also explore our [GDPR compliant Google Analytics alternative](https://plausible.io/vs-google-analytics).
+Let's take a look at the meaning of GDPR, how it impacts web analytics, whether you can take any steps to make Google Analytics GDPR compliant and also explore our [GDPR compliant Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
 1. Ordered list
 {:toc}
@@ -116,7 +116,7 @@ You must obtain legally valid consent from your website visitors to:
 * the use of cookies or other local storage
 * the collection, sharing, and use of personal data for personalization of ads
  
-**January 2022 update:** The Austrian Data Protection Authority has decided that the use of Google Analytics violates the GDPR. This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
+**January 2022 update:** The Austrian Data Protection Authority has decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
 
 ## How to make Google Analytics GDPR compliant
 
@@ -126,7 +126,7 @@ According to the GDPR, it is your responsibility as a website owner to ensure th
 
 You are considered a data controller while Google is considered a data processor in this relationship and as such you have several obligations under GDPR.
 
-There are ways you can hack and change Google Analytics to make it GDPR compliant. Go into the "Admin" section of your Google Analytics account.
+There are ways you can hack and change Google Analytics to make it more GDPR compliant. Go into the "Admin" section of your Google Analytics account.
 
 * In "Account Settings", disable all the data sharing options. Stop sharing your visitor data with Google products & services, for Benchmarking purposes, for Technical support, to Account specialists and Google sales experts.
 
@@ -178,7 +178,7 @@ We built Plausible Analytics with GDPR and user privacy in mind. This means that
 
 We also don't use any of the data we do collect for any advertising and behavioral profiling purposes. Our business model has nothing to do with advertising. Our product is not your website data. Our product is the website analytics tool and our business model is focused on hosting this analytics tool and charging a subscription fee for doing that.
 
-All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
+All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. All of the data is exclusively processed on servers and cloud infrastructure owned and operated by European providers. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
 You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website data never leaves the EU.
 
