@@ -71,7 +71,7 @@ On top of the standard site analytics, many Google Analytics users also enable d
 
 Google states that you "must obtain end users’ legally valid consent" to the use of cookies or other local storage where legally required and to the collection, sharing, and use of personal data for personalization of ads.
 
-**January 2022 update**: The Austrian Data Protection Authority has decided that the use of Google Analytics violates the GDPR. This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
+**January 2022 update**: The Austrian Data Protection Authority has decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
 
 ## It uses cookies so you must obtain consent to store cookies
 
@@ -148,7 +148,7 @@ This is where our brand-new solution comes in place. With Plausible Analytics we
 3. A **lightweight script of less than 1 KB** so your site keeps loading fast
 4. **Doesn't use cookies** so there's no need for cookie banners
 5. **Doesn't collect personal data** so no need for GDPR and CCPA consent prompts
-6. All the data is hosted on servers owned by Hetzner (a European company) in Germany. **The data never leaves the EU**.
+6. All the data is hosted in Germany and is exclusively processed on servers and cloud infrastructure owned and operated by European providers. **The data never leaves the EU**.
 
 Take a look at [our live demo](https://plausible.io/plausible.io).
 
