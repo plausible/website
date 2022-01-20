@@ -71,7 +71,7 @@ On top of the standard site analytics, many Google Analytics users also enable d
 
 Google states that you "must obtain end users’ legally valid consent" to the use of cookies or other local storage where legally required and to the collection, sharing, and use of personal data for personalization of ads.
 
-**January 2022 update**: The Austrian Data Protection Authority has decided that the use of Google Analytics violates the GDPR. This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
+**January 2022 update**: The Austrian Data Protection Authority has decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
 
 ## It uses cookies so you must obtain consent to store cookies
 
