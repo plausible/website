@@ -191,7 +191,7 @@ By default, our WordPress plugin excludes your own visits from being counted in 
 
 However, if you'd like to count your visits, you can enable this. Switch on the "Track analytics for administrator" feature.
 
-## Troubleshoot conflict with WP Rocket or other performance optimization plugins
+## I've installed Plausible but stats don't track
 
 You may discover a conflict between the Plausible script and other plugins you are using on your site. 
 
@@ -200,6 +200,8 @@ Especially performance optimization plugins such as WP Rocket may cause conflict
 Plausible script is optimized for performance by default and there's no reason to use any other tricks and techniques on it.
 
 If you've inserted our script into your site but it's still not tracking correctly, you may be experiencing a plugin conflict. You can try to view the source of your page to see how the Plausible snippet looks like. If the snippet looks different from the one you inserted onto your site, it is likely that a performance optimization plugin has impacted it.
+
+### Troubleshoot conflicts with WP Rocket
 
 You can try to troubleshoot your installation by experimenting with these tips:
 
@@ -219,13 +221,15 @@ You can try to troubleshoot your installation by experimenting with these tips:
 
 * Make sure to clear the WordPress cache in order for the changes to take effect
 
-### Conflict with SiteGround Optimizer
+### Troubleshoot conflicts with SiteGround Optimizer
 
-SiteGround Optimizer is another popular performance optimization plugin. If you have issues with your Plausible installation when using the SiteGround Optimizer, you need to take these steps:
+SiteGround Optimizer is another popular performance optimization plugin. If you have issues with your Plausible installation when using the SiteGround Optimizer, you can try one of the following steps:
 
 * Use our official WordPress plugin instead of manually installing our snippet into your site
 
-* If even our official plugin doesn't work, you can install the [Code Snippets Plugin](https://wordpress.org/plugins/code-snippets/). Then add the following code:
+* Turn off the "combine Javascript" setting in SiteGround Optimizer
+
+* You can install the [Code Snippets Plugin](https://wordpress.org/plugins/code-snippets/). Then add the following code:
 
 ```
     add_filter( 'sgo_javascript_combine_excluded_external_paths', 'js_combine_exclude_external_script' );
