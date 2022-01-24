@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Create goals for dynamic URLs without using custom events
 date: 2021-03-03T08:05:21.131Z
 ---

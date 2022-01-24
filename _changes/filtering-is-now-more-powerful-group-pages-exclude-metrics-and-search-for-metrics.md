@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Filtering is now more powerful
 date: 2021-08-19T09:32:41.751Z
 ---

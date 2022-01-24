@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Sticky header is here for easier filtering
 date: 2020-12-29
 ---

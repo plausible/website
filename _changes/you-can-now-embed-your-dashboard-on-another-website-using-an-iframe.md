@@ -1,5 +1,4 @@
 ---
-layout: change
 title: You can now embed your dashboard on another website using an iFrame
 date: 2021-03-17T08:53:42.162Z
 ---

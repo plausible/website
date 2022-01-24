@@ -1,5 +1,4 @@
 ---
-layout: change
 title: You can now export all of your stats in a CSV format
 date: 2021-11-15T11:38:58.129Z
 ---

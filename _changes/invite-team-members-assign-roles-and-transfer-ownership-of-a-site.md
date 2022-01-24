@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Invite team members, assign roles and transfer ownership of a site
 date: 2021-06-17T07:04:42.543Z
 ---

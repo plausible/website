@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Get traffic spike notifications via email or Slack
 date: 2020-12-15
 ---

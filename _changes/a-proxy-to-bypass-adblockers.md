@@ -1,5 +1,4 @@
 ---
-layout: change
 title: A proxy to bypass adblockers
 date: 2021-05-25T07:52:22.873Z
 ---

@@ -5,10 +5,10 @@
   {%- seo -%}
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icon/favicon.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon/apple-touch-icon.png">
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.time | date:'%s' }}">
 
-  <link rel="preload" href="{{ "/assets/css/tooltip.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ "/assets/css/tooltip.css" | relative_url }}"></noscript>
+  <link rel="preload" href="{{ "/assets/css/tooltip.css" | relative_url }}?v={{ site.time | date:'%s' }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ "/assets/css/tooltip.css" | relative_url }}?v={{ site.time | date:'%s' }};"></noscript>
 
   <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') window.location.pathname = '/sites'</script>
   <script defer src="https://bunny.plausible.io/test/js/script.js" data-api="https://bunny.plausible.io/test/api/event"></script>

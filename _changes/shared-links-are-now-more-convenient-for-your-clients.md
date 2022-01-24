@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Shared links are now more convenient for your clients
 date: 2021-03-03T08:04:05.612Z
 ---

@@ -1,5 +1,4 @@
 ---
-layout: change
 title: We've joined the dark side
 date: 2020-12-17
 ---

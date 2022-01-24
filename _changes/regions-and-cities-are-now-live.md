@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Regions and cities are now live
 date: 2022-01-04T10:28:24.744Z
 ---

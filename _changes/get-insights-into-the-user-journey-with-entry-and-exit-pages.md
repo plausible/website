@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Get insights into the user journey with entry and exit pages
 date: 2021-03-03T08:06:14.421Z
 ---

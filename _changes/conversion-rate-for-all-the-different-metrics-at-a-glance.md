@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Conversion rate for all the different metrics at a glance
 date: 2021-09-30T09:56:28.165Z
 ---

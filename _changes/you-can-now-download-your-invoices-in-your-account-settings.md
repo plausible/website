@@ -1,5 +1,4 @@
 ---
-layout: change
 title: You can now download your invoices in your account settings
 date: 2021-12-16T08:02:31.653Z
 ---

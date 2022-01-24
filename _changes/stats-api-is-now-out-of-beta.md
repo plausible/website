@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Stats API is now out of beta
 date: 2021-04-14T08:25:51.668Z
 ---

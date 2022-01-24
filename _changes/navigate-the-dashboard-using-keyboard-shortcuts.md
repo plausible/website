@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Navigate the dashboard using keyboard shortcuts
 date: 2021-01-27
 ---

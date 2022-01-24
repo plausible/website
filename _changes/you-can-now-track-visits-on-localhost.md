@@ -1,5 +1,4 @@
 ---
-layout: change
 title: You can now track visits on localhost
 date: 2021-08-19T09:29:04.978Z
 ---

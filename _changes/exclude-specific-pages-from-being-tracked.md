@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Exclude specific pages from being tracked
 date: 2021-01-27
 ---

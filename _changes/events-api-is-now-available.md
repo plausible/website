@@ -1,5 +1,4 @@
 ---
-layout: change
 title: Events API is now available
 date: 2021-09-08T05:32:36.270Z
 ---
