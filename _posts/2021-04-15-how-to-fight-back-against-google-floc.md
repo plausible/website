@@ -17,6 +17,12 @@ Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative
 1. Ordered list
 {:toc}
 
+## Google has killed FLoC
+
+*January 2022 update:* Google has decided to scrap FLoC after "a bunch of great feedback from the community, as I’m sure you know". The new proposal is called "Topics". Here's [how it works](https://blog.google/products/chrome/get-know-new-topics-api-privacy-sandbox/): 
+
+> "Your browser determines a handful of topics, like “Fitness” or “Travel & Transportation,” that represent your top interests for that week based on your browsing history. Topics are kept for only three weeks and old topics are deleted. Topics are selected entirely on your device without involving any external servers, including Google servers. When you visit a participating site, Topics picks just three topics, one topic from each of the past three weeks, to share with the site and its advertising partners.
+
 ## Google's business model is a privacy violation
 
 The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect their users' privacy.
