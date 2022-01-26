@@ -9,3 +9,4 @@
 /staging/* http://167.71.36.78/:splat 200
 /testing/* http://159.65.112.96/:splat 200
 /* http://165.22.82.21/:splat 200
+/docs/custom-domain https://plausible.io/docs/proxy/introduction
