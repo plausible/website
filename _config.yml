@@ -27,10 +27,6 @@ collections:
     output: true
   changes:
 
-include:
-  - _redirects
-  - _headers
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag

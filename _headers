@@ -1,6 +1,0 @@
-/*
-  X-Frame-Options: SAMEORIGIN
-  Permissions-Policy: interest-cohort=()
-
-/changes.txt
-  Access-Control-Allow-Origin: *
