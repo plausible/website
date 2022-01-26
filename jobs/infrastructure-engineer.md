@@ -51,7 +51,7 @@ As a small remote company we can accommodate a wide range of working hours, vaca
 
 ### Application process
 
-1. Send your application to careers@plausible.io. Include any previous work experience, skills you've acquired and technologies you've worked with.
+1. Send your application to jobs@plausible.io. Include any previous work experience, skills you've acquired and technologies you've worked with.
 2. Technical interview with Uku
 3. Interview with Uku & Marko to negotiate and finalize working arrangements: compensation, working hours, vacation time, etc.
 4. Onboarding
