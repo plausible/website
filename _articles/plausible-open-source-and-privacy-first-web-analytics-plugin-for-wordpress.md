@@ -153,37 +153,15 @@ Learn more in: "[How to track, identify and fix 404 error pages on your website]
 
 ## Serve the script as a first-party connection from your domain name
 
-Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your subdomain. 
+Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your domain name be it from a subdomain, subfolder or from a random file. 
 
 What's the benefit of doing this? Your site looks cleaner with no third-party connections. You also get more accurate stats because when running Plausible as a first-party connection adblockers do not block the script.
 
-We recommend using a subdomain of the website you're running Plausible Analytics on. If your site is on yourdomain.com you can use plausible.yourdomain.com or stats.yourdomain.com. The name of the subdomain can be anything that you want.
+The custom domain setting you see in the current version of our plugin is no longer recommended as adblockers have started crawling the web looking for them. 
 
-To get started with the custom domain, you need to enable this feature in your Plausible Analytics account. Here's how:
+We recommend you [set up a proxy](https://plausible.io/docs/proxy/introduction) instead as it's a far more superior option. Our instructions for the [Cloudflare proxy](https://plausible.io/docs/proxy/guides/cloudflare) are simple and easy to set up in a few minutes even without any tech know-how.
 
-* Click on the "Add custom domain" button in the "Custom domain" section of your website settings to get started
-
-![Add custom domain](/docs/img/custom-domain.png)
-
-* Type in your subdomain in the "Domain" field and click on the "DNS setup" button
-
-![Add custom domain](/docs/img/setup-custom-domain.png)
-
-* Next, you need to go to your DNS provider’s website and create a new CNAME record for your chosen subdomain. Please check with your DNS provider's documentation on how you can create a new CNAME record
-* Point the CNAME record to **custom.plausible.io.** (including the last dot) and then click on the "Done" button on the Plausible Analytics website
-
-In most cases, this process takes a few minutes but it may take up to 4 hours for the DNS changes to propagate and for us to obtain an SSL certificate for your subdomain.
-
-The setup is complete and ready to use when your subdomain loads our JavaScript file (`yoursubdomain.yourdomain.com/js/index.js`).
-
-* When your subdomain loads our script, go into your Plausible Analytics WordPress plugin settings
-* Enable the "Custom Domain" section and type in your chosen subdomain
-* Click on the "Save Changes" button
-* If you have a cache plugin activated, do purge the cache just in case
-
-That's it! You are now counting your visitors using the Plausible Analytics script which is loading as a first-party connection from your domain name.
-
-See more on how to "[Serve the script from your domain as a first-party connection](https://plausible.io/docs/custom-domain)"
+We aim to release the proxy by default in the next version of our plugin. Stay tuned!
 
 ## How to exclude admins from being tracked
 
