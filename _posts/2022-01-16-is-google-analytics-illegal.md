@@ -15,7 +15,7 @@ Plausible Analytics is incorporated, built and hosted in the EU with all visitor
 1. Ordered list
 {:toc}
 
-## Google Analytics is illegal according to the Austrian DPA
+## Google Analytics is illegal according to the Austrian and French DPAs
 
 The Austrian Data Protection Authority has decided that the use of Google Analytics [violates the GDPR](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) as it is "subject to surveillance by U.S. intelligence services and can be ordered to disclose data of European citizens to them". 
 
