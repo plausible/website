@@ -27,7 +27,7 @@ Most websites use Google Analytics, Facebook Connect and/or other US-owned cloud
 
 Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) throughout Europe concerning sites using Google Analytics and Facebook Connect. Similar decisions are now expected to drop in Germany, the Netherlands and other EU member states. You can read a more detailed [legal analysis here](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)).
 
-**Update February 10th 2022:** The French Data Protection Authority CNIL has now ruled the same as the Austrian DPA. The EU-US data transfer to Google Analytics is illegal. CNIL has ordered the French websites to comply with the GDPR. [More details here](https://noyb.eu/en/update-cnil-decides-eu-us-data-transfer-google-analytics-illegal).
+**Update February 10th 2022:** The French Data Protection Authority CNIL has now ruled the same as the Austrian DPA. The EU-US data transfer to Google Analytics is illegal. CNIL has ordered the French websites to comply with the GDPR. [More details here](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply).
 
 Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this ruling affects you and the US-owned services that you're using. 
 
