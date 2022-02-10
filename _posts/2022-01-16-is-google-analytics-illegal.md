@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is Google Analytics illegal?
+title: Is Google Analytics illegal? Austrian and French DPAs say so
 description: Plausible data is exclusively processed with servers owned and
   operated by European providers. If Google Analytics no longer allows you to
   fulfill the legal requirements that apply to you, do check us out.
@@ -26,6 +26,8 @@ This is the first DPA decision regarding EEA-US data transfers and it's an excit
 Most websites use Google Analytics, Facebook Connect and/or other US-owned cloud services. There were similar recent cases concerning the use of [Stripe](https://noyb.eu/en/edps-sanctions-parliament-over-eu-us-data-transfers-google-and-stripe) and the use of [Cookiebot / Akamai](https://iapp.org/news/a/new-eu-data-blockage-as-german-court-would-ban-many-cookie-management-providers/). 
 
 Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) throughout Europe concerning sites using Google Analytics and Facebook Connect. Similar decisions are now expected to drop in Germany, the Netherlands and other EU member states. You can read a more detailed [legal analysis here](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)).
+
+**Update February 10th 2022:** The French Data Protection Authority CNIL has now ruled the same as the Austrian DPA. The EU-US data transfer to Google Analytics is illegal. CNIL has ordered the French websites to comply with the GDPR. [More details here](https://noyb.eu/en/update-cnil-decides-eu-us-data-transfer-google-analytics-illegal).
 
 Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this ruling affects you and the US-owned services that you're using. 
 
