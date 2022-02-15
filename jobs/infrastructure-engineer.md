@@ -11,6 +11,8 @@ Location: Remote (worldwide)<br />
 Hours: 20-40hrs / week<br />
 Compensation: €60-100k / year (assuming full-time)<br />
 
+**Thanks for your interest. This position has now been filled. Do follow us on [Twitter](https://twitter.com/plausiblehq) or [Mastodon](https://fosstodon.org/@plausible) to hear about any new job openings in the future.**
+
 ### Who we are
 
 Plausible Analytics is an open-source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn’t come from the AdTech world.
@@ -50,6 +52,8 @@ We work remotely and flexibly. There won’t be more than one meeting per week. 
 As a small remote company we can accommodate a wide range of working hours, vacation time and other working arrangements.
 
 ### Application process
+
+**Thanks for your interest. This position has now been filled. Do follow us on [Twitter](https://twitter.com/plausiblehq) or [Mastodon](https://fosstodon.org/@plausible) to hear about any new job openings in the future.**
 
 1. Send your application to jobs@plausible.io. Include any previous work experience, skills you've acquired and technologies you've worked with.
 2. Technical interview with Uku
