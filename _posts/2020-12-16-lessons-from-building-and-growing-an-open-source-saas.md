@@ -107,8 +107,6 @@ This brings me to the self-hostable aspects of open source. The self-hosted offe
 
 We are happy to offer people the option to [self-host our web analytics product](https://plausible.io/self-hosted-web-analytics) and be in even better control of their experience. It is completely free (as in beer) to use and it's not some inferior product with "light" features. You get the exact same dashboard using our cloud product as you do self-hosting it.
 
-The donations are an entirely voluntary way for self-hosters to contribute to the continuous development of the project.
-
 Self-hosting does bring a large volume of support inquiries. This means that we need to be better at balancing our limited time between reactive tasks such as troubleshooting issues from self-hosters and proactive ones such as delivering new features and support to the customers that do support us.
 
 To provide a better service and experience to people who actually pay our bills, we're making a change. 
@@ -119,9 +117,7 @@ If you want a nice, easy and convenient experience, and want to know that you're
 
 If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues, [read our documentation](https://docs.plausible.io/) or get community support in the forum.
 
-If you donate to Plausible Analytics as a self-hoster, you help us make Plausible sustainable, and you can still [reach out to us](https://plausible.io/contact) and expect to get equal support and help as all the other paying customers of our cloud version.
-
-Donations are made on GitHub and are very appreciated. See [how you can become a sponsor of Plausible](https://github.com/sponsors/plausible).
+The donations are an entirely voluntary way for self-hosters to contribute to the continuous development of the project. If you donate to Plausible Analytics as a self-hoster, you help us make Plausible sustainable. Donations are made on GitHub and are very appreciated. See [how you can become a sponsor of Plausible](https://github.com/sponsors/plausible).
 
 We're hoping to see the user support for self-hosted analytics becomes more mutual. Our community of many self-hosters should actively take part in helping troubleshoot issues for new self-hosting users.
 
