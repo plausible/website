@@ -36,7 +36,7 @@ Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 | **Raw data** | You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. You can only see the stats aggregated in the dashboard. | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
 | **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. | You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.|
 | **Support** | Premium support is available via email. | Community support only.|
-| **Releases** | Continuously developed and improved with new features and frequent updates multiple times per week. | [It's a long term release](https://plausible.io/blog/building-open-source) published twice per year so latest features won't be immediately available as they're battled-tested in the cloud before released to self-hosted.|
+| **Releases** | Continuously developed and improved with new features and updates multiple times per week. | [It's a long term release](https://plausible.io/blog/building-open-source) published twice per year so latest features won't be immediately available as they're battled-tested in the cloud first.|
 
 ## How can you be sustainable if you're giving your software for free?
 
