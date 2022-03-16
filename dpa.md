@@ -39,9 +39,17 @@ You own all right, title, and interest to your website data. We obtain no rights
 
 Even though the purpose of Plausible Analytics is to track the usage of a website, this can still be done without tracking, collecting or storing any personal data or personally identifiable information (PII), without using cookies and while respecting the privacy of your website visitors.
 
-By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. Cookies are not set and no personal data is collected. We do not generate any persistent device identifiers. We never store IP addresses in our database or logs. The data we process cannot be used to identify any single individual.
+By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. We minimize data collection in general. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page.
 
-We minimize data collection in general. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page.
+We do not attempt to generate a device-persistent identifier because they are considered personal data under GDPR. We do not use cookies, browser cache nor the local storage. We do not store, retrieve nor extract anything from visitor’s devices. The data we process cannot be used to identify any single individual.
+
+Every single HTTP request sends the IP address and the User-Agent to the server so that’s what we use. We generate a daily changing identifier using the visitor’s IP address and User-Agent. To anonymize these datapoints and make them impossible to relate back to the user, we run them through a hash function with a rotating salt.
+
+> hash(daily_salt + website_domain + ip_address + user_agent)
+
+This generates a random string of letters and numbers that is used to calculate unique visitor numbers for the day. The raw data IP address and User-Agent are never stored in our logs, databases or anywhere on disk at all.
+
+Old salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next. Forgetting used salts also removes the possibility of the original IP addresses being revealed in a brute-force attack. The raw IP address and User-Agent are rendered completely inaccessible to anyone, including ourselves.
 
 All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU and EU-owned cloud infrastructure. For encryption, we use https in transit and the hashing process at rest.
 
