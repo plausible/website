@@ -43,7 +43,7 @@ By using Plausible Analytics, all the site measurement is carried out absolutely
 
 We minimize data collection in general. We measure only the most essential data points and nothing else. All the metrics we do collect fit on one single page.
 
-All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU.
+All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU and EU-owned cloud infrastructure. For encryption, we use https in transit and the hashing process at rest.
 
 Plausible Analytics is fully open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
 
@@ -63,11 +63,15 @@ You can find more information about our processing of your visitor data and what
 
 * Plausible Analytics shall implement and maintain appropriate technical and organisational security measures designed to protect the visitor data against unauthorised or unlawful processing and against accidental loss, destruction, damage, theft, alteration or disclosure. These measures shall be appropriate to the harm which might result from any unauthorised or unlawful processing, accidental loss, destruction, damage or theft of the visitor data and having regard to the nature of the visitor data which is to be protected.
 
-* We do work with sub-processors. We've listed links to our current sub-processors in our [privacy policy](https://plausible.io/privacy). With each vendor, we assess their commitment to privacy and we sign a data processing agreement with them that include the controller-processor Standard Contractual Clauses. Any such subcontractors will be permitted to process data only to deliver the services Plausible Analytics has retained them to provide, and they shall be prohibited from using data for any other purpose. 
+* We do work with sub-processors. With each vendor, we assess their commitment to privacy and we sign a data processing agreement with them that include the controller-processor Standard Contractual Clauses. Any such subcontractors will be permitted to process data only to deliver the services Plausible Analytics has retained them to provide, and they shall be prohibited from using data for any other purpose. Plausible Analytics shall notify the controller when modifying the list of subprocessors. The controller is able to legitimately object and may terminate the agreement.
+
+* The only two subcontractors that come in touch with your site data are BunnyWay d.o.o. (Slovenian owned for our CDN) and Hetzner Online GmbH (German owned for our servers). All of your site data is securely stored in the EU on EU-owned server infrastructure and it neves leaves the EU. You can find the list of other third party services that we use in our [privacy policy](https://plausible.io/privacy). 
 
 * If Plausible Analytics becomes aware of any accidental, unauthorised or unlawful security breach, destruction, loss, alteration, or disclosure of the personal data that is processed by Plausible Analytics in the course of providing the service, it shall without undue delay (not later than 48 hours after having become aware of it), notify customer by email and provide customer with a description of the incident as well as periodic updates to information about the incident, including its impact on customer content. Plausible Analytics shall additionally take action to investigate the incident and reasonably prevent or mitigate the effects of the incident.
 
 * Plausible Analytics shall not on its own authority rectify, erase or restrict the processing of visitor data that is being processed on behalf of the controller (unless this is required by law or the Processor Terms of Service), but shall only do so on documented instructions from the controller and in accordance to the data retention rules associated to the controller subscription plan.
+
+* Plausible Analytics shall assist the controller in complying with the obligations concerning the security of personal data. Where a data subject asserts their rights as a data subject, this request will be forwarded to the controller without delay.
 
 ## How we handle delete instructions
 
@@ -117,4 +121,6 @@ No. You are not required to notify us or any third party upon accepting our DPA 
 
 If you have a question about the Data Processing Agreement (DPA), please [contact us](https://plausible.io/contact).
 
-Last updated: October 21, 2020
+If you have any questions or concerns regarding your information, please contact our data protection officer at [privacy@plausible.io](mailto:privacy@plausible.io).
+
+Last updated: March 16, 2022
