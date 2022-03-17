@@ -51,13 +51,19 @@ This generates a random string of letters and numbers that is used to calculate 
 
 Old salts are deleted every 24 hours to avoid the possibility of linking visitor information from one day to the next. Forgetting used salts also removes the possibility of the original IP addresses being revealed in a brute-force attack. The raw IP address and User-Agent are rendered completely inaccessible to anyone, including ourselves.
 
-All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU and EU-owned cloud infrastructure. For encryption, we use https in transit and the hashing process at rest.
-
-Plausible Analytics is fully open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
-
 The group of data subjects affected by the processing of their data under this agreement includes end-users of the controller’s websites which make use of the service provided by the processor.
 
 You can find more information about our processing of your visitor data and what types/categories of data we collect on your behalf in our publicly available [data policy](https://plausible.io/data-policy).
+
+## Organizational and technical security measures
+
+All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU and EU-owned cloud infrastructure. 
+
+For encryption, we use https in transit and the hashing process at rest. Our hashing process is much stronger than encryption. Encryption implies that there's a key that can decrypt and reveal the raw data. In our database the raw IP address and User Agent are rendered completely inaccessible to anyone, including ourselves. 
+
+Plausible Analytics is fully open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. 
+
+With more than 10,000 GitHub stars, there are a lot of eyes on our code and it is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products. Our software is updated several times per week and on our GitHub page we also have a way for people to report any security vulnerabilities.
      
 ## Processor’s obligations with respect to the controller
 
@@ -67,13 +73,13 @@ You can find more information about our processing of your visitor data and what
 
 * Plausible Analytics shall guarantee the confidentiality of visitor data processed hereunder.
 
-* We as humans can access your data to help you with support requests you make and to maintain and safeguard Plausible Analytics to ensure the security of your data and the service as a whole. Plausible Analytics shall ensure that all Plausible Analytics personnel required to access the visitor data are informed of the confidential nature of the data and comply with the obligations sets out in this agreement.
+* We as humans can access your data to help you with support requests you make and to maintain and safeguard Plausible Analytics to ensure the security of your data and the service as a whole. Plausible Analytics shall ensure that all Plausible Analytics personnel required to access the visitor data are trained in GDPR and data privacy, informed of the confidential nature of the data and comply with the obligations sets out in this agreement.
 
 * Plausible Analytics shall implement and maintain appropriate technical and organisational security measures designed to protect the visitor data against unauthorised or unlawful processing and against accidental loss, destruction, damage, theft, alteration or disclosure. These measures shall be appropriate to the harm which might result from any unauthorised or unlawful processing, accidental loss, destruction, damage or theft of the visitor data and having regard to the nature of the visitor data which is to be protected.
 
-* We do work with sub-processors. With each vendor, we assess their commitment to privacy and we sign a data processing agreement with them that include the controller-processor Standard Contractual Clauses. Any such subcontractors will be permitted to process data only to deliver the services Plausible Analytics has retained them to provide, and they shall be prohibited from using data for any other purpose. Plausible Analytics shall notify the controller when modifying the list of subprocessors. The controller is able to legitimately object and may terminate the agreement.
+* We do work with sub-processors. With each vendor, we assess their commitment to privacy and we sign a data processing agreement with them that include the controller-processor Standard Contractual Clauses. Any such subcontractors will be permitted to process data only to deliver the services Plausible Analytics has retained them to provide, and they shall be prohibited from using data for any other purpose. Plausible Analytics shall notify the controller when modifying the list of subprocessors using our in-app notifications, email and/or blog. The controller is able to legitimately object and may terminate the agreement.
 
-* The only two subcontractors that come in touch with your site data are BunnyWay d.o.o. (Slovenian owned for our CDN) and Hetzner Online GmbH (German owned for our servers). All of your site data is securely stored in the EU on EU-owned server infrastructure and it neves leaves the EU. You can find the list of other third party services that we use in our [privacy policy](https://plausible.io/privacy). 
+* The only two cloud services we use as subcontractors that come in touch with your site data are BunnyWay d.o.o. (Slovenian owned for our CDN) and Hetzner Online GmbH (German owned for our servers). All of your site data is securely stored in the EU on EU-owned server infrastructure and it never leaves the EU. You can find the list of other cloud services and third party services that we use in our [privacy policy](https://plausible.io/privacy). 
 
 * If Plausible Analytics becomes aware of any accidental, unauthorised or unlawful security breach, destruction, loss, alteration, or disclosure of the personal data that is processed by Plausible Analytics in the course of providing the service, it shall without undue delay (not later than 48 hours after having become aware of it), notify customer by email and provide customer with a description of the incident as well as periodic updates to information about the incident, including its impact on customer content. Plausible Analytics shall additionally take action to investigate the incident and reasonably prevent or mitigate the effects of the incident.
 
