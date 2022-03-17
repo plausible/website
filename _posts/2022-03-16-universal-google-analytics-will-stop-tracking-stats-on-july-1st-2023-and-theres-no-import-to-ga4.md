@@ -25,7 +25,7 @@ Here's [the full announcement post by Google](https://blog.google/products/marke
 
 Google is not only killing the universal Google Analytics but they've also announced that people will not be able to continue viewing their historical stats. You'll be able to access the previously collected data in Universal Analytics for at least six months.
 
-Google will soon "provide a future date for when existing Universal Analytics properties will no longer be available". After that, you'll lose access to your historical stats. Do make sure to export your data before this. 
+Google will soon "provide a future date for when existing Universal Analytics properties will no longer be available". After that, you'll lose access to your historical stats. Do make sure to export your data before this. Google has published the different ways you can [export the data](https://support.google.com/analytics/answer/11583528#export).
 
 And the third big shock is that there's no way to import your historical Universal Google Analytics stats into the new Google Analytics 4 edition. Google is encouraging people to "make the switch to Google Analytics 4 as soon as possible" in order to "build the necessary historical data" in the new GA4.
 
@@ -74,5 +74,7 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 7. Plausible is fully [open source web analytics](https://plausible.io/open-source-website-analytics). Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure.
 
 8. Plausible is growing fast. We now have more than 6,000 paying subscribers, we're tracking stats on more than 37,000 websites and we're counting more than one billion pageviews per month.
+
+9. Plausible plans to allow you to import your historical stats from the Universal Analytics into your Plausible dashboard. Our GA import tool [has been completed](https://github.com/plausible/analytics/pull/1753) and we're now waiting for Google to approve the changes to the way we want to use their API. Stay tuned!
  
 Are you not happy with Google's plans and are not ready to switch to Google Analytics 4? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
