@@ -137,4 +137,4 @@ If you have a question about the Data Processing Agreement (DPA), please [contac
 
 If you have any questions or concerns regarding your information, please contact our data protection officer at [privacy@plausible.io](mailto:privacy@plausible.io).
 
-Last updated: March 16, 2022
+Last updated: March 17, 2022
