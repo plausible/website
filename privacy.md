@@ -62,6 +62,6 @@ You can choose to [delete your Plausible Analytics account at any time](https://
 
 We may update this policy as needed to comply with relevant regulations and reflect any new practices. Whenever we make a significant change to our policies, we will also announce them on our company blog or social media profiles.
 
-[Contact us](https://plausible.io/contact) if you have any questions, comments, or concerns about this privacy policy, your data, or your rights with respect to your information.
+Contact us at [privacy@plausible.io](mailto:privacy@plausible.io) if you have any questions, comments, or concerns about this privacy policy, your data, or your rights with respect to your information.
 
-Last updated: January 15th, 2022
+Last updated: March 18th, 2022
