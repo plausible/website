@@ -85,7 +85,7 @@ With more than 10,000 GitHub stars, there are a lot of eyes on our code and it i
 
 * Plausible Analytics shall not on its own authority rectify, erase or restrict the processing of visitor data that is being processed on behalf of the controller (unless this is required by law or the Processor Terms of Service), but shall only do so on documented instructions from the controller and in accordance to the data retention rules associated to the controller subscription plan.
 
-* Plausible Analytics shall assist the controller in complying with the obligations concerning the security of personal data. Where a data subject asserts their rights as a data subject, this request will be forwarded to the controller without delay.
+* Plausible Analytics shall assist the controller in complying with the obligations concerning the security of personal data. Plausible will also provide assistance to the controller for DPIAs. Where a data subject asserts their rights as a data subject, this request will be forwarded to the controller without delay.
 
 ## How we handle delete instructions
 
@@ -135,6 +135,6 @@ No. You are not required to notify us or any third party upon accepting our DPA 
 
 If you have a question about the Data Processing Agreement (DPA), please [contact us](https://plausible.io/contact).
 
-If you have any questions or concerns regarding your information, please contact our data protection officer at [privacy@plausible.io](mailto:privacy@plausible.io).
+If you have any questions or concerns regarding your information and personal data, please contact us at [privacy@plausible.io](mailto:privacy@plausible.io).
 
-Last updated: March 17, 2022
+Last updated: March 18, 2022
