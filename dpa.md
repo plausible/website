@@ -57,9 +57,9 @@ You can find more information about our processing of your visitor data and what
 
 ## Organizational and technical security measures
 
-All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU and EU-owned cloud infrastructure. 
+All of the data that we do track is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU and EU-owned cloud infrastructure. You can read about Hetzner and their server security certifications [here](https://www.hetzner.com/unternehmen/zertifizierung/).
 
-For encryption, we use https in transit and the hashing process at rest. Our hashing process is much stronger than encryption. Encryption implies that there's a key that can decrypt and reveal the raw data. In our database the raw IP address and User Agent are rendered completely inaccessible to anyone, including ourselves. 
+For encryption, we use https in transit and the hashing process at rest. Our hashing process is much stronger than encryption. Encryption implies that there's a key that can decrypt and reveal the raw data. In our database the raw IP address and User Agent are rendered completely inaccessible to anyone, including ourselves. In addition to this, we use strict firewall rules and private encrypted networking. We keep offsite backups with replication including strong bcrypt passwords.
 
 Plausible Analytics is fully open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. 
 
