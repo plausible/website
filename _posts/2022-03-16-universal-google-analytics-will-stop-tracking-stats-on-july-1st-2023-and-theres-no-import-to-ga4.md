@@ -75,6 +75,6 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 
 8. Plausible is growing fast. We now have more than 6,000 paying subscribers, we're tracking stats on more than 37,000 websites and we're counting more than one billion pageviews per month.
 
-9. Plausible plans to allow you to import your historical stats from the Universal Analytics into your Plausible dashboard. Our GA import tool [has been completed](https://github.com/plausible/analytics/pull/1753) and we're now waiting for Google to approve the changes to the way we want to use their API. Stay tuned!
+9. Plausible allows you to import your historical stats from the Universal Analytics into your Plausible dashboard. Here are the instructions for our [Google Analytics import tool](https://plausible.io/docs/google-analytics-import).
  
 Are you not happy with Google's plans and are not ready to switch to Google Analytics 4? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
