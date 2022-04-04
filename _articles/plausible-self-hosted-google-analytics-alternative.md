@@ -9,7 +9,9 @@ Plausible Analytics is a 100% open source web analytics tool. Our mission is to 
 
 The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
 
-We offer [Plausible Analytics as a managed service in the cloud](https://plausible.io) but if you're happy to manage your own infrastructure, you can also self-host Plausible on your server.
+The easiest way to get started with Plausible is with our [official managed service in the cloud](https://plausible.io) but if you're happy to manage your own infrastructure, you can also self-host Plausible on your server.
+
+Our managed hosting can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of Plausible. So you’ll be supporting open source software and getting a great service!
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://plausible.io/docs/self-hosting" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Installation docs</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"> Live demo </a> </div> </div>
 
@@ -31,11 +33,11 @@ Here are the differences between Plausible Cloud and Plausible Self-Hosted:
 
 | | Cloud | Self-hosted |
 |---|---|---|---|---|
-| **Hosting** | Easy and convenient. We manage everything for you so you don’t have to worry about anything. We take care of the installation, upgrades, server, security, maintenance, uptime, stability, consistency, loading time and so on. | You do it all yourself. You need to get a server and you need to install, maintain and manage Plausible on that server. You are  responsible for installation, maintenance, upgrades, server capacity, uptime, backup and so on. |
-| **Storage** | We keep your site data on a secure, encrypted and green energy powered server in Germany. A server that ensures that your site data is protected by the strict European Union data privacy laws. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want.|
+| **Hosting** | Easy and convenient. It takes 2 minutes to start counting your stats with a worldwide CDN, high availability, backups, security and maintenance all done for you by us. We manage everything for you so you don’t have to worry about anything. | You do it all yourself. You need to get a server and you need to manage your infrastructure. You are responsible for installation, maintenance, upgrades, server capacity, uptime, backup, security, stability, consistency, loading time and so on. |
+| **Storage** | All visitor data is exclusively processed on EU-owned cloud infrastructure. We keep your site data on a secure, encrypted and green energy powered server in Germany. This ensures that your site data is protected by the strict European Union data privacy laws and ensures compliance with GDPR. Your website data never leaves the EU. | You have full control and can host your Plausible Analytics on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want, even those that are not GDPR compliant.|
 | **Raw data** | You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. You can only see the stats aggregated in the dashboard. | Are you an analyst and want access to the raw data? Hosting Plausible yourself gives you that option. Take the data directly from the ClickHouse database and import it to a data analysis tool of your choice. |
 | **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. | You only need to pay for your server and whatever cost there is associated with running a server. You never have to pay any fees to us, only to your cloud provider.|
-| **Support** | Premium support is available via email. | Community support only.|
+| **Premium Support** | Real support delivered by real human beings who build and maintain Plausible. | Premium support is not included. Self-hosted release is community supported only.|
 | **Releases** | Continuously developed and improved with new features and updates multiple times per week. | [It's a long term release](https://plausible.io/blog/building-open-source) published twice per year so latest features won't be immediately available as they're battled-tested in the cloud first.|
 
 ## How can you be sustainable if you're giving your software for free?
@@ -44,7 +46,7 @@ Funding is a big topic in the world of open source software. Many open source pr
 
 We believe that no financial sacrifice should be required to work on open source. Making open source sustainable is something we're passionate about. To build competitive privacy-first and open-source alternatives to popular proprietary tools, we need more people to be able to commit to open source full time.
 
-While Plausible Analytics is an open source software that you can self-host for free, we also sell a hosted, plug and play solution as a SaaS. We're growing a sustainable open source project funded solely by the fees that our subscribers pay us.
+While Plausible Analytics is an open source software that you can self-host for free, we also sell a hosted, plug and play solution as a SaaS. This is our only source of funding. We're growing a sustainable open source project funded solely by the fees that our subscribers pay us.
 
 [Our business model](https://plausible.io/about) has nothing to do with collecting and analyzing huge amounts of personal information from your visitors and using these behavioral insights to sell advertisements. We don't make money by selling or sharing your data, or abusing your visitor's privacy.
 
