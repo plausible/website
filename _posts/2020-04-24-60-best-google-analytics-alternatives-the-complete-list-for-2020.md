@@ -53,7 +53,7 @@ These Google Analytics alternatives are designed to be more powerful, full-blown
 
 ### Adobe Analytics
 
-* Website: <https://www.adobe.com/analytics/web-analytics.html>
+* Website: <https://business.adobe.com/products/analytics/web-analytics.html>
 * Cost: Undisclosed
 * Trial: Undisclosed 
 * Open-source: No
