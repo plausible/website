@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Universal Google Analytics will stop tracking stats on July 1st 2023 (and
-  there's no import to GA4)
+title: Google Analytics will stop tracking stats on July 1st 2023 (and there's
+  no import to GA4)
 description: "Universal Google Analytics, the current version of Google
   Analytics, will stop counting stats on July 1st 2023. The new Google Analytics
   4 will be replacing Universal Analytics. "
@@ -27,7 +27,11 @@ Google is not only killing the universal Google Analytics but they've also annou
 
 Google will soon "provide a future date for when existing Universal Analytics properties will no longer be available". After that, you'll lose access to your historical stats. Do make sure to export your data before this. Google has published the different ways you can [export the data](https://support.google.com/analytics/answer/11583528#export).
 
-And the third big shock is that there's no way to import your historical Universal Google Analytics stats into the new Google Analytics 4 edition. Google is encouraging people to "make the switch to Google Analytics 4 as soon as possible" in order to "build the necessary historical data" in the new GA4.
+## How to import Universal Analytics stats to GA4
+
+The third big shock is that there's no way to import your historical Universal Google Analytics stats into the new Google Analytics 4 edition. Google is encouraging people to "make the switch to Google Analytics 4 as soon as possible" in order to "build the necessary historical data" in the new GA4.
+
+Google doesn't want to give you an option to import your historical stats to GA4 so we've put a lot of effort into making a Google Analytics stats import tool ourselves. See the instructions further down this post.
 
 ## Why the forced move to Google Analytics 4?
 
@@ -77,4 +81,20 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 
 9. Plausible allows you to import your historical stats from the Universal Analytics into your Plausible dashboard. Here are the instructions for our [Google Analytics import tool](https://plausible.io/docs/google-analytics-import).
  
-Are you not happy with Google's plans and are not ready to switch to Google Analytics 4? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
+## How to import Google Analytics stats to Plausible Analytics 
+
+Here's how to import your historical Google Analytics (Universal Analytics) stats into your Plausible Analytics account.
+
+1. Go to the Plausible Analytics site settings for the website you'd like to import the data for.
+
+2. In the "General" tab, find the "Data Import from Google Analytics" panel. You can link your Google account to your Plausible account by clicking on the "Continue With Google" button.
+
+3. You will now see a drop-down selection menu listing Google Analytics properties associated with your Google account. Select the appropriate property. This will generally be the property with the same domain name as your Plausible site. Then click on the "Continue" button.
+
+4. On the next screen, you can click on the "Confirm import" button to start the data import process. Depending on the amount of data you have, this may take some time. This is run in the background, so you will receive an email when the import has been completed. It should take no more than a couple of minutes for most sites.
+
+5. Once you have received the email, the imported data will be visible in your Plausible dashboard. 
+
+## Try out Plausible
+
+Are you not happy with Google's plans and are not ready to switch to Google Analytics 4? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard. And keep your Google Analytics data.
