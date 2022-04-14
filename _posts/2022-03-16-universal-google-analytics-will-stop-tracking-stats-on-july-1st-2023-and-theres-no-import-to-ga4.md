@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Universal Google Analytics will stop tracking stats on July 1st 2023 (and
-  there's no import to GA4)
+title: Google Analytics will stop tracking stats on July 1st 2023 (and there's
+  no import to GA4)
 description: "Universal Google Analytics, the current version of Google
   Analytics, will stop counting stats on July 1st 2023. The new Google Analytics
   4 will be replacing Universal Analytics. "
