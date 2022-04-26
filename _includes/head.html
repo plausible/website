@@ -13,9 +13,14 @@
   <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') window.location.pathname = '/sites'</script>
   <script
     defer
-    {% if page.author %} event-author="{{ page.author }}" {% endif %}
-    src="https://plausible.io/js/script.dimensions.js"
+
+    src="https://plausible.io/js/script.manual.js"
   ></script>
+  <script>
+    window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) };
+    var props = {% if page.author %} {author: "{{ page.author }}"} {% else %} {} {% endif %};
+    window.plausible('pageview', {props: props});
+  </script>
 
 
   {%- feed_meta -%}
