@@ -11,3 +11,5 @@ group :jekyll_plugins do
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
 end
+
+gem "webrick", "~> 1.7"

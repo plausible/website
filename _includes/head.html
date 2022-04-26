@@ -11,8 +11,12 @@
   <noscript><link rel="stylesheet" href="{{ "/assets/css/tooltip.css" | relative_url }}?v={{ site.time | date:'%s' }};"></noscript>
 
   <script> if (document.cookie.includes('logged_in=true') && window.location.href == 'https://plausible.io/') window.location.pathname = '/sites'</script>
-  <script defer src="https://plausible.io/test/js/script.beacon.js" data-api="https://plausible.io/test/api/event"></script>
-  <script defer src="https://plausible.io/js/script.js"></script>
+  <script
+    defer
+    {% if page.author %} event-author="{{ page.author }}" {% endif %}
+    src="https://plausible.io/js/script.dimensions.js"
+  ></script>
+
 
   {%- feed_meta -%}
 </head>
