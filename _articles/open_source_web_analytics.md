@@ -82,3 +82,5 @@ Do you have a website or a blog? Give Plausible a chance.
 [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our open source site analytics dashboard. You don't even need to remove your current analytics provider until you've tested Plausible and figured out if you like our product.
 
 Plausible is simple to set up and integrate into your website no matter which CMS you use or how you've built your site. You simply insert our one-line JavaScript snippet into the `<head>` section of the pages you'd like to keep an eye on and the numbers will start rolling in.
+
+You can even [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
