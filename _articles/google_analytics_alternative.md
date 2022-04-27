@@ -57,7 +57,7 @@ Lawmakers around the world have realized the severity of the situation and sever
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them.
 
-**January 2022 update:** The Austrian Data Protection Authority has decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states. 
+**January 2022 update:** The Austrian and French Data Protection Authorities have decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). These decisions are the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in other EU member states. 
 
 All of the visitor data that Plausible tracks and collects is exclusively processed on servers and cloud infrastructure owned and operated by European providers. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
@@ -116,3 +116,5 @@ Plausible is a simple and privacy-friendly alternative to Google Analytics. It i
 Plausible is here to provide you all the valuable website traffic insights at a glance while respecting the privacy of your visitors, being compliant with GDPR, CCPA and other privacy regulations, and without compromising the user experience.
 
 Do you have a website or a blog? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
+
+You can even [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
