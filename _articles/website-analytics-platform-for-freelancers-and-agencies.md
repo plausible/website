@@ -99,6 +99,10 @@ Then, your client, as a new owner of the site, will be responsible for billing a
 
 Learn how to [transfer the ownership of a site](https://plausible.io/docs/transfer-ownership).
 
+### You can also import historical Google Analytics stats
+
+Google doesn't provide an option to import historical stats from Universal Analytics into the new Google Analytics 4 tool so we’ve put a lot of effort into making a Google Analytics stats import tool ourselves. See [how to import historical GA stats into Plausible](https://plausible.io/docs/google-analytics-import).
+
 ### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
 
 ![Plausible public stats](/uploads/plausible-public-stats.png "Plausible public stats")
