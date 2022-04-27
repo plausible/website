@@ -141,3 +141,5 @@ Turns out, counting IP addresses is not much less accurate than using cookies. A
 Do you prefer not to use cookies in your web statistics and not to need to display cookie prompts and get cookie consent from your visitors? Try our cookie-free solution. By using Plausible, you will not place any cookies to the browsers of your visitors. No need for cookie prompts and cookie consent.
 
 You can sign up for a [free 30-day trial here](https://plausible.io/register). By using Plausible Analytics you can keep your website fast loading and your visitor experience free from distractions and annoying prompts.
+
+You can even [import your historical stats from Google Analytics](https://plausible.io/docs/google-analytics-import).
