@@ -69,7 +69,7 @@ Google Analytics is the most widely used tracking script on the web. This makes 
 
 These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 40% or even more of the audience on a tech website blocking Google Analytics.
 
-Plausible Analytics is a new player on this market and it's privacy-friendly by default, so it doesn't see the same level of blockage. You may very well see more accurate (and higher) visitor numbers.
+Plausible Analytics is a new player on this market and it's privacy-friendly by default, so it doesn't see the same level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see more accurate (and higher) visitor numbers.
 
 ## Give Plausible Analytics a chance
 
