@@ -73,4 +73,8 @@ Plausible Analytics is a new player on this market and it's privacy-friendly by 
 
 ## Give Plausible Analytics a chance
 
-Register for a [free 30-day trial](https://plausible.io/register) account to test Plausible Analytics on your site. It's so lightweight that you can run it alongside Google Analytics without any impact on your site loading time. The 30 days of the free trial should give you enough time to explore Plausible Analytics and figure out how it fits with your needs and your workflow compared to Google Analytics.
+Register for a [free 30-day trial](https://plausible.io/register) account to test Plausible Analytics on your site. It's so lightweight that you can run it alongside Google Analytics without any impact on your site loading time. 
+
+The 30 days of the free trial should give you enough time to explore Plausible Analytics and figure out how it fits with your needs and your workflow compared to Google Analytics.
+
+You can even bring your old Google Analytics stats to Plausible with our [Google Analytics importer](https://plausible.io/docs/google-analytics-import).
