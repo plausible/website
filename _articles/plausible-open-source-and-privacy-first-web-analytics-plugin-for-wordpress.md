@@ -8,16 +8,6 @@ permalink: /wordpress-analytics-plugin
 ---
 Plausible Analytics is an open source web analytics plugin for WordPress that is a simple to use, lightweight (< 1 KB) and privacy-friendly Google Analytics alternative.
 
-## Status update
-
-It's unfortunately not possible to install our WordPress plugin at the moment. We're working on a fix and you can [learn more here](https://github.com/plausible/wordpress/issues/64). While we're fixing the plugin, you can either:
-
-1. Manually install Plausible by putting [our snippet into the header.php file](https://plausible.io/docs/plausible-script) of your WordPress. To do this, go into "Appearance" in the WordPress left side menu, click "Theme File Editor" and then find the "header.php" file.
-
-2. Or if you prefer to use a plugin, you can use an alternative plugin that makes it easy to insert snippets into the site header such as [this one](https://wordpress.org/plugins/insert-headers-and-footers/). 
-
-Thanks!
-
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
 ![Plausible Analytics WordPress plugin](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics WordPress plugin")
