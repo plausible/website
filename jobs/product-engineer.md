@@ -71,8 +71,8 @@ As a small remote company, we can accommodate a wide range of working hours, vac
 
 ### Application process
 
-* Send your application to jobs@plausible.io. Include any previous work experience, skills you've acquired and technologies you've worked with.
-* We will be accepting applications until the 15th of June 2022.
+* Send your application to [jobs@plausible.io](mailto:jobs@plausible.io). Include any previous work experience, skills you've acquired and technologies you've worked with
+* We will be accepting applications until the 15th of June 2022
 * Short introductory interview with Uku
 * Pair programming session with Uku
 * Final interview with Uku & Marko
