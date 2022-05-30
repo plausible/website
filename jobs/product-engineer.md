@@ -5,15 +5,15 @@ description: Plausible Analytics is looking for a product engineer. Apply now.
 permalink: /jobs/product-engineer
 ---
 
-Position: Product engineer
-Level: Mid to senior
-Location: Remote (worldwide)
-Hours: 20-40 hrs/week
-Salary: €40-50/hour
+Position: Product engineer<br />
+Level: Mid to senior<br />
+Location: Remote (worldwide)<br />
+Hours: 20-40 hrs/week<br />
+Salary: €40-50/hour<br />
 
 ### Who we are
 
-Plausible Analytics is an open-source alternative to Google Analytics. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool that doesn't come from the AdTech world. To learn more, you can check out the [live demo](https://plausible.io/plausible.io) of our product and read more [about us](https://plausible.io/about).
+Plausible Analytics is an open source alternative to Google Analytics. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool that doesn't come from the AdTech world. To learn more, you can check out the [live demo](https://plausible.io/plausible.io) of our product and read more [about us](https://plausible.io/about).
 
 Plausible is trusted by 6,800+ subscribers including [Ghost](http://ghost.org/), [Basecamp](http://basecamp.com/), [elementary OS](https://elementary.io/) and [System76](https://elementary.io/). The full-time team is four people in different corners of the EU, although we're happy to work with people from around the world. We are completely independent (no VC money) and profitable on a steady growth path.
 
@@ -51,13 +51,13 @@ You should feel comfortable with our current tech stack or be confident that you
 * Elixir+Phoenix
 * HTML/CSS/JS + React
 * PostgreSQL for relational data
-* Clickhouse for analytical data
-* Github Actions + Docker for CI and builds
+* ClickHouse for analytical data
+* GitHub Actions + Docker for CI and builds
 * Terraform + Ansible for production deployments
 
 ### Working with us
 
-We work remotely and flexibly. There won't be more than one meeting per week. We communicate mainly around Github threads and Basecamp. Email is not used for internal communication, only if we need to communicate with customers or external partners.
+We work remotely and flexibly. There won't be more than one meeting per week. We communicate mainly around GitHub threads and Basecamp. Email is not used for internal communication, only if we need to communicate with customers or external partners.
 
 You will be working closely with the current team:
 
