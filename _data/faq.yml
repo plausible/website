@@ -1,3 +1,6 @@
+- question: Where are your servers located and where is the data stored?
+  answer: "We exclusively use EU-owned cloud infrastructure. The site data we collect is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data never leaves the EU and EU owned infrastructure."
+
 - question: Is the billing based per account or per website?
   answer: "The billing is based on the total number of pageviews between all of the sites you have added to your account. You can see this total number of billable pageviews at any time in your account settings."
 
@@ -24,3 +27,6 @@
   
 - question: Do you have a roll-up view with aggregated stats for several sites?
   answer: "Yes. We have a lot of flexibility in the way you can track your stats. You can track subdomains and subfolders in one dashboard. You can send stats to multiple dashboards at the same time. You can have a roll-up view that aggregates stats while keeping them independent at the same time. More details in docs"
+  
+- question: Do you have a free plan?
+  answer: "We don't have a free plan unfortunately. Plausible is independent and funded solely by the fees that our subscribers pay us. We're not monetizing the data we collect so a subscription fee is needed to cover our costs and salaries. Thanks for understanding!"
