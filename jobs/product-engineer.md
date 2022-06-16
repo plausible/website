@@ -11,6 +11,9 @@ Location: Remote (worldwide)<br />
 Hours: 20-40 hrs/week<br />
 Salary: €40-50/hour<br />
 
+
+**Thanks for your interest. The deadline to apply is now closed. Do follow us on [Twitter](https://twitter.com/plausiblehq) or [Mastodon](https://fosstodon.org/@plausible) to hear about any new job openings in the future.**
+
 ### Who we are
 
 Plausible Analytics is an open source alternative to Google Analytics. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool that doesn't come from the AdTech world. To learn more, you can check out the [live demo](https://plausible.io/plausible.io) of our product and read more [about us](https://plausible.io/about).
@@ -70,6 +73,8 @@ You will be working closely with the current team:
 As a small remote company, we can accommodate a wide range of working hours, vacation time and other working arrangements.
 
 ### Application process
+
+**Thanks for your interest. The deadline to apply is now closed. Do follow us on [Twitter](https://twitter.com/plausiblehq) or [Mastodon](https://fosstodon.org/@plausible) to hear about any new job openings in the future.**
 
 * Send your application to jobs@plausible.io. Include any previous work experience, skills you've acquired and technologies you've worked with
 * We will be accepting applications until the 15th of June 2022
