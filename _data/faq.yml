@@ -1,11 +1,14 @@
+- question: I have just integrated Plausible into my website. How do I check if I have done to it correctly?
+  answer: "We have instructions on instructions on how you can <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>check your Plausible integration and troubleshoot any possible issues<a>."
+
 - question: Where are your servers located and where is the data stored?
-  answer: "We exclusively use EU-owned cloud infrastructure. The site data we collect is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data never leaves the EU and EU owned infrastructure."
+  answer: "We exclusively use EU-owned cloud infrastructure. The site data we collect is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data <a class='text-indigo-600' href='https://plausible.io/blog/google-analytics-illegal'>never leaves the EU and EU owned infrastructure<a>."
 
 - question: Is the billing based per account or per website?
   answer: "The billing is based on the total number of pageviews between all of the sites you have added to your account. You can see this total number of billable pageviews at any time in your account settings."
 
 - question: How do I get an invoice?
-  answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice. You can also download your invoices in your Plausible account settings."
+  answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>download your invoices<a> in your Plausible account settings."
     
 - question: Do you support any alternative payment methods?
   answer: "Credit card and PayPal are the only supported payment methods. We cannot accept payments by wire transfer, invoicing or cryptocurrency unfortunately."
@@ -17,16 +20,19 @@
   answer: "Our payment processor Paddle will calculate a pro-rated amount which reflects the amount you have paid on your previous subscription and the amount of time until that subscription was supposed to expire."
 
 - question: Can I give someone access to my stats without making the dashboard public?
-  answer: "You can invite team members and assign user roles in your site settings. Or you can use our private and secure shared links. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
+  answer: "You can <a class='text-indigo-600' href='https://plausible.io/docs/users-roles'>invite team members and assign user roles<a> in your site settings. Or you can use our <a class='text-indigo-600' href='https://plausible.io/docs/shared-links'>private and secure shared links<a>. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
 
 - question: How long are my website stats stored?
-  answer: "There are no data retention limits. As long as you have an active subscription, you can view all the stats we've collected from the day you installed Plausible on your site. You can choose to delete all of your site stats in your settings at any time."
+  answer: "There are no data retention limits. As long as you have an active subscription, you can view all the stats we've collected from the day you installed Plausible on your site. You can choose to <a class='text-indigo-600' href='https://plausible.io/docs/delete-site-data'>delete all of your site stats<a> in your settings at any time."
 
 - question: Is the 50 sites limit a hard limit?
   answer: "No. 50 sites is how many sites you can add for free with any subscription. There are no hard limits on the number of sites you can have in your Plausible account. For those with more than 50 sites we have enterprise plans. Do reach out to us for more details."
   
 - question: Do you have a roll-up view with aggregated stats for several sites?
-  answer: "Yes. We have a lot of flexibility in the way you can track your stats. You can track subdomains and subfolders in one dashboard. You can send stats to multiple dashboards at the same time. You can have a roll-up view that aggregates stats while keeping them independent at the same time. More details in docs"
+  answer: "Yes. We have a lot of flexibility in the way you can track your stats. You can track subdomains and subfolders in one dashboard. You can send stats to multiple dashboards at the same time. You can have a roll-up view that aggregates stats while keeping them independent at the same time. <a class='text-indigo-600' href='https://plausible.io/docs/plausible-script'>More details here<a>."
+  
+- question: Does Plausible get blocked by adblockers and how do I avoid that?
+  answer: "We're not blocked to the same extent as Google Analytics (neither Firefox, Chrome nor Safari blocks Plausible out of the box) but we're blocked by some adblock browser extensions. You can use <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy<a> if you want to count visitors that use adblockers too."
   
 - question: Do you have a free plan?
   answer: "We don't have a free plan unfortunately. Plausible is independent and funded solely by the fees that our subscribers pay us. We're not monetizing the data we collect so a subscription fee is needed to cover our costs and salaries. Thanks for understanding!"
