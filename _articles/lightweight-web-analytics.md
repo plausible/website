@@ -119,7 +119,7 @@ Plausible aims to focus on the essential metrics only which makes our script lig
 
 This also makes our [simple web analytics](https://plausible.io/simple-web-analytics) easy to use and get useful insights from. No education or prior experience is required. There are also other reasons why we believe Plausible is a great [Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
-## What else can I do reduce the size and have a fast loading website?
+## What else can I do to reduce the size and have a fast loading website?
 
 Here are some of the actions you can take to speed up your website:
 
