@@ -16,7 +16,7 @@ We're a completely independent, self-funded and bootstrapped team of four. We're
 
 Our growth comes organically from word of mouth. We've never paid to advertise for Plausible.
 
-It's time to reflect a bit on how we got to where we are now. This post is a recap of how we built a $1M ARR open source SaaS.
+It's time to reflect on how we got to where we are now. This recap summarizes how we built a $1M ARR open source SaaS.
 
 1. Ordered list
 {:toc}
@@ -29,7 +29,7 @@ We've had a wild, roller-coaster ride. It took us 324 days to reach the first $4
 
 Then we got some momentum thanks to a few blog posts that got a lot of traffic. It took us nine months to go from $400 to $10,000 MRR. Then it took ten months to get to $500,000 ARR, and now eight months later, we're at the $1 million ARR milestone.
 
-We've open sourced our code but we've also been transparent about our traffic since the beginning, so looking at [our public website stats](https://plausible.io/plausible.io) is a nice way to get an overview of our incredible journey to date.
+We've open sourced our code, but we've also been transparent about our traffic since the beginning, so looking at [our public website stats](https://plausible.io/plausible.io) is a nice way to get an overview of our incredible journey to date.
 
 ![Plausible traffic all time](/uploads/plausible-traffic-all-time.png)
 
@@ -57,7 +57,7 @@ Indie Hackers is a wonderful, supportive community and a perfect place to start 
 
 We launched our paid subscription plans. A piece of widespread startup advice is to always charge more. An important consideration for us was that Google Analytics is free of charge, and people are not used to paying for web analytics. The paid alternatives on the market started at high rates.
 
-To incentivize more site owners to ditch Google Analytics, we wanted to offer fair and affordable prices. And so we kicked off with a reasonably priced entry point to give owners of smaller sites a chance to de-Google too.
+We wanted to offer fair and affordable prices to incentivize more site owners to ditch Google Analytics. And so we kicked off with a reasonably priced entry point to give owners of smaller sites a chance to de-Google.
 
 We had 60 active beta users at this point, and some decided to stick around and pay for our service too. We ended the month with our first paying subscribers and $64 MRR.
 
@@ -69,11 +69,11 @@ Read more: [I'm launching Plausible](https://plausible.io/blog/launching-plausib
 
 We had our first traffic spike by getting more than 2,500 visitors in one day. It was thanks to the "[You probably don't need a single-page application](https://plausible.io/blog/you-probably-dont-need-a-single-page-app)" blog post making it to the front page of Hacker News.
 
-The post was not exactly related to our product and niche, so the long-term benefits were not that great, but it was still lovely to get a spike in traffic. This was our first venture into content marketing and going "viral".
+The post was not strictly related to our product and niche, so the long-term benefits were not that great, but it was still lovely to get a spike in traffic. This was our first venture into content marketing and going "viral".
 
-We're bootstrapped without any advertising budget, so trying to get heard by writing blog posts was the obvious way to go. With content marketing, we get the word out to more people, we increase the brand awareness, we get links and social media mentions, and all this eventually also results in higher rankings in search results. 
+We're bootstrapped without any advertising budget, so trying to get heard by writing blog posts was the obvious way to go. With content marketing, we get the word out to more people, increase brand awareness, get links and social media mentions, all which eventually results in higher rankings in search results.
 
-Content marketing and Hacker News continue to be essential to our growth to this day. Most people that hear about Plausible hear about us thanks to some of the content we've published and personal recommendations through social media and niche communities.
+Content marketing and Hacker News are essential to our growth to this day. Most people who hear about Plausible hear about us thanks to some of our published content and personal recommendations through social media and niche communities.
 
 ### August ($142 MRR)
 
@@ -101,9 +101,9 @@ Read more: [Plausible is going open-source](https://plausible.io/blog/plausible-
 
 After a few months of stagnant growth, [Uku announced](https://plausible.io/blog/february-2020-recap) that he's "been looking for a partner on Plausible since the very beginning of the project. I'm super happy I've found someone whose values are very much aligned with the spirit of what I'm trying to accomplish".
 
-This other person was [me](https://twitter.com/markosaric) and I'm a marketer. Uku cold-emailed me after reading a blog post I published about [how to degoogle a website](https://markosaric.com/degoogleify/). I thought he built a great product with great potential in a market I was familiar with, so I was up for the challenge.
+This other person was [me](https://twitter.com/markosaric), and I'm a marketer. Uku cold-emailed me after reading a blog post I published about [how to degoogle a website](https://markosaric.com/degoogleify/). I thought he built a great product with great potential in a market I was familiar with, so I was up for the challenge.
 
-Running, developing and growing a startup in a competitive market such as web analytics is not easy. Uku could now focus entirely on the design and development of the product, while I could take care of the marketing, community management and customer support.
+Running, developing and growing a startup in a competitive market such as web analytics is complicated. Uku could now focus entirely on the design and development of the product, while I could take care of the marketing, community management and customer support.
 
 And with the two of us focused on different but equally essential tasks (development and marketing), we could make so much more progress than anyone can do on their own.
 
@@ -111,25 +111,23 @@ And with the two of us focused on different but equally essential tasks (develop
 
 I joined Uku on March 16th, 2020, to focus on marketing and communication.
 
-I remember looking at the stats on our Plausible dashboard; we had 49 visitors in total, and 0 from Google search the day before I joined. I'm a big fan of setting small but realistic goals so my first tiny goal was to consistently get ten organic visitors from Google search per day.
+I remember looking at the stats on our Plausible dashboard; we had 49 visitors in total, and 0 from Google search the day before I joined. I'm a big fan of setting small but realistic goals, so my first tiny goal was to consistently get ten organic visitors from Google search per day.
 
-We may be going against Google Analytics, but Google search is still what most people use to search the web, so we needed to start having a presence in the relevant search result pages for Plausible to grow organically. That was my priority.
-
-In order to achieve this, our first few weeks were spent on:
+We may be going against Google Analytics, but Google search is still what most people use to search the web, so we needed to start having a presence in the relevant search result pages for Plausible to grow organically. That was my priority. To achieve this, our first few weeks were spent on:
 
 * Product relaunch (one example being that the early version of Plausible used cookies)
 * New brand positioning (simple, lightweight, open source and privacy-first Google Analytics alternative)
-* Streamlining the communication to send a consistent message everywhere (as an example, previously, we used the name Plausible Insights some places and Plausible Analytics other places)
+* Streamlining the communication to send a consistent message everywhere (as an example, previously, we used the name Plausible Insights in some places and Plausible Analytics in other places)
 * Improving the site structure (we used to have two different sections for content, one titled "journal" and the other "blog", so we redirected the journal to the blog)
 * Adding a lot of new product-related content (each main focus of our positioning got one article, we published a comparison with Google Analytics and much more)
 
-There's a more detailed overview of this period and the actions I took in [this post](https://plausible.io/blog/blog-post-changed-my-startup).
+There's a more detailed overview of this period and my actions in [this post](https://plausible.io/blog/blog-post-changed-my-startup).
 
 ### April: Picking up a fight and going viral ($607 MRR)
 
 On April 8th, I published my first Plausible blog post. Our new positioning was based on how different we are compared to Google Analytics, so we decided to pick a fight.
 
-The post went to the top of Hacker News, and it helped us spread the word about Plausible to more people than ever before. I submitted the post myself, didn't do any tricks to game the system and we immediately got lucky that so many people found it interesting.
+The post went to the top of Hacker News, and it helped us spread the word about Plausible to more people than ever before. I submitted the post myself, didn't do any tricks to game the system, and we immediately got lucky that so many people found it interesting.
 
 More than 25,000 people visited our site on the day we published the post. We broke all our records in April: the most traffic, trials and the biggest MRR increase.
 
@@ -139,17 +137,17 @@ The post that changed our traction was: [Why you should stop using Google Analyt
 
 May started great as we were featured on OpenSource.com as [a transparent and open source alternative to Google Analytics](https://opensource.com/article/20/5/plausible-analytics). We got 94 new trials on May 2nd, which is still our best day for the number of new trial signups.
 
-This opportunity came as part of the outreach we did to different influential websites. Most sites ended up ignoring our messages. It isn't easy to send so many emails and hear nothing back, but this one outstanding mention was worth all that silence.
+This opportunity came as part of our outreach to different influential websites. Most sites ended up ignoring our messages. It isn't easy to send so many emails and hear nothing back, but this one fabulous mention was worth all that silence.
 
-We also posted [our first tweet](https://twitter.com/PlausibleHQ/status/1262317156697546752) on May 18th with the message that "Friends don't let friends use Google Analytics".
+We also posted [our first tweet](https://twitter.com/PlausibleHQ/status/1262317156697546752) on May 18th with the message, "Friends don't let friends use Google Analytics".
 
 We have a 30-day free trial, so it took some time to see the results from April's viral post in our MRR. We doubled our MRR during the month and ended the month on $1,055 MRR.
 
 ### June: Moving the database to ClickHouse ($1,767 MRR)
 
-With all the new trials and customers, and an increase in larger websites using our service, Plausible became much slower to use. To continue our growth, we needed to improve the technology that we use.
+With all the new trials and customers, and an increase in larger websites using our service, Plausible became much slower to use. To continue our growth, we needed to improve our technology.
 
-We [moved from our PostgreSQL database to ClickHouse](https://plausible.io/blog/may-2020-recap) to make the app much faster and handle much bigger websites. Moving to ClickHouse was the best technical decision we've made, and we're now counting more than one billion page views per month while still being able to provide a very fast-loading dashboard.
+We [moved from our PostgreSQL database to ClickHouse](https://plausible.io/blog/may-2020-recap) to make the app much faster and handle much bigger websites. Moving to ClickHouse was the best technical decision we've made, and we're now counting more than one billion page views per month while still providing a very fast-loading dashboard.
 
 ### July: Once again on the top of Hacker News ($2,844 MRR)
 
@@ -165,7 +163,7 @@ We launched on Product Hunt. This is typically a big event for new startups. Pro
 
 Launching on community sites gives your project a spotlight for a few days, but it's not a sustainable channel to acquire customers in the long term. It brings that famous spike of hope after which follows the flat line of nope. 
 
-We got more than 1,000 visitors and 15 trial signups from Product Hunt on the launch day but only a few days later we were getting fewer than 20 visitors from there. As far as we're concerned, launches like this are nice, but they don't mean much for your continued growth. 
+We got more than 1,000 visitors and 15 trial signups from Product Hunt on the launch day, but only a few days later, we were getting fewer than 20 visitors from there. As far as we're concerned, launches like this are nice, but they don't mean much for your continued growth. 
 
 Here's [how not to launch on Product Hunt (and lessons from our successful launch)](https://plausible.io/blog/product-hunt-launch).
 
@@ -177,7 +175,7 @@ On September 10th, we paid the first salaries for the two of us. Even though our
 
 Due to our increased reach, we became aware of the risks associated with a permissive open source license and of the corporations happy to take advantage of this.
 
-We needed to research the different licenses to find one that best fits our needs. I'm pretty new to the world of open source licensing, so I ended up learning about AGPL only a few days before we officially made the switch.
+We needed to research the different licenses to find the best fit for our needs. I'm pretty new to the world of open source licensing, so I ended up learning about AGPL only a few days before we officially made the switch.
 
 Read more: [Why we're changing Plausible to the AGPL license](https://plausible.io/blog/open-source-licenses).
 
@@ -187,7 +185,7 @@ Read more: [Why we're changing Plausible to the AGPL license](https://plausible.
 
 We shared our lessons learned about running an open source SaaS. One lesson was that donations are not a viable monetization method. We've been accepting donations for about six months and had six donations of $5 each. At the same time, our cloud product has grown from $400 MRR to more than $8,500 MRR.
 
-Running a premium managed service in the cloud while keeping the code open for self-hosting seems to be a much better model for particular open source projects. A better monetization method means that more people will be able to focus their time on working on projects that they truly believe in. This will make the open source software ecosystem much healthier and provide even better alternatives to the proprietary and closed source products.
+Running a premium managed service in the cloud while keeping the code open for self-hosting seems to be a much better model for particular open source projects. A better monetization method means that more people will be able to focus their time on working on projects that they truly believe in. This will make the open source software ecosystem much healthier and provide even better alternatives to proprietary and closed source products.
 
 Read more: [Lessons from building and growing an open source SaaS](https://plausible.io/blog/building-open-source).
 
@@ -211,7 +209,7 @@ We managed to collect $20,000 in total in the year 2021. At the start of 2022, w
 
 ### March: Scaling our support ($17,550 MRR)
 
-With the increase in interest came an increase in the number of emails and questions coming our way. In the first few months working with Plausible, I spent most of my time reaching out to people, while these days, I spend most of my time responding to people trying to contact us.
+With the increase in interest came a rise in the number of emails and questions coming our way. In the first few months working with Plausible, I spent most of my time reaching out to people, while these days, I spend most of my time responding to people trying to contact us.
 
 We work hard on fixing, automating and eliminating issues that people encounter frequently. This reduces the number of customer support requests we're getting.
 
