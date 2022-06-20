@@ -14,6 +14,9 @@ We're a completely independent, self-funded and bootstrapped team of four. We're
 
 This post is a recap of how we got to this point.
 
+1. Ordered list
+{:toc}
+
 ## How we got to $1M ARR
 
 First, a TL;DR overview:
