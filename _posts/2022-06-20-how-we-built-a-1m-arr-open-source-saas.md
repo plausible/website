@@ -7,6 +7,8 @@ description: We've reached a significant milestone of $1 million in annual
 slug: /1m-arr-open-source-saas
 date: 2022-06-20T10:09:28.648Z
 author: marko-saric
+image: /uploads/1m-arr-open-source-saas.png
+image-alt: How we built a $1M ARR open source SaaS
 ---
 We've reached a significant milestone of $1 million in annual recurring revenue (ARR) with Plausible Analytics, a simple, lightweight, open source and privacy-friendly [alternative to Google Analytics](https://plausible.io/vs-google-analytics).
 
@@ -25,7 +27,11 @@ We've had a wild, roller-coaster journey. It took us 324 days to reach the first
 
 Then we got some momentum. It took us nine months to go from $400 to $10,000 MRR. Then it took ten months to get to $500,000 ARR, and now eight months later, we're at the $1 million ARR milestone.
 
-We've been transparent since the beginning, so looking at [our public website stats](https://plausible.io/plausible.io) is a nice way to follow our journey to date. It's been an incredible ride. Here's a bit more detailed summary:
+We've been transparent since the beginning, so looking at [our public website stats](https://plausible.io/plausible.io) is a nice way to follow our journey to date.
+
+![Plausible traffic all time](/uploads/plausible-traffic-all-time.png)
+
+It's been an incredible ride. Here's a bit more detailed summary:
 
 ## 2018
 
