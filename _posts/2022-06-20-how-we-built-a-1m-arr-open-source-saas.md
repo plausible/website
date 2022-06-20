@@ -12,7 +12,9 @@ image-alt: How we built a $1M ARR open source SaaS
 ---
 We've reached a significant milestone of $1 million in annual recurring revenue (ARR) with Plausible Analytics, a simple, lightweight, open source and privacy-friendly [alternative to Google Analytics](https://plausible.io/vs-google-analytics).
 
-We're a completely independent, self-funded and bootstrapped team of four. We're intentionally small, profitable and sustainable. Our growth comes organically from word of mouth. We've never paid to advertise for Plausible. 
+We're a completely independent, self-funded and bootstrapped team of four. We're intentionally small, profitable and sustainable. More than 7,000 paying subscribers trust us, and we're actively counting stats on more than 50,000 websites with more than a billion monthly pageviews between them.
+
+Our growth comes organically from word of mouth. We've never paid to advertise for Plausible.
 
 This post is a recap of how we built a $1M ARR open source SaaS.
 
@@ -27,11 +29,9 @@ We've had a wild, roller-coaster ride. It took us 324 days to reach the first $4
 
 Then we got some momentum thanks to a few blog posts that got a lot of traffic. It took us nine months to go from $400 to $10,000 MRR. Then it took ten months to get to $500,000 ARR, and now eight months later, we're at the $1 million ARR milestone.
 
-We've been transparent since the beginning, so looking at [our public website stats](https://plausible.io/plausible.io) is a nice way to follow our journey to date.
+We're open source but we've also been transparent about our traffic since the beginning, so looking at [our public website stats](https://plausible.io/plausible.io) is a nice way to get an overview of our incredible journey to date.
 
 ![Plausible traffic all time](/uploads/plausible-traffic-all-time.png)
-
-It's been an incredible journey to date. Here's a bit more detailed overview:
 
 ## 2018
 
@@ -57,7 +57,7 @@ Indie Hackers is a wonderful, supportive community and a perfect place to start 
 
 We launched our paid subscription plans. A piece of widespread startup advice is to always charge more. An important consideration for us was that Google Analytics is free of charge, and people are not used to paying for web analytics. The paid alternatives on the market started at high rates.
 
-To incentivize more site owners to ditch Google Analytics, we wanted to offer fair and affordable prices. And so we kicked off with a reasonably priced entry point to give owners of smaller sites a chance to de-Google.
+To incentivize more site owners to ditch Google Analytics, we wanted to offer fair and affordable prices. And so we kicked off with a reasonably priced entry point to give owners of smaller sites a chance to de-Google too.
 
 We had 60 active beta users at this point, and some decided to stick around and pay for our service too. We ended the month with our first paying subscribers and $64 MRR.
 
@@ -73,7 +73,7 @@ The post was not exactly related to our product and niche, so the long-term bene
 
 We're bootstrapped without any advertising budget, so trying to get heard by writing blog posts was the obvious way to go. With content marketing, we get the word out to more people, we increase the brand awareness, we get more links and social media mentions, and all this eventually also results in higher rankings in search results. 
 
-Content marketing and Hacker News continue to be essential to our growth to this day. Most people that hear about Plausible hear about us thanks to some of the content we've published and personal recommendations through social media and different communities.
+Content marketing and Hacker News continue to be essential to our growth to this day. Most people that hear about Plausible hear about us thanks to some of the content we've published and personal recommendations through social media and niche communities.
 
 ### August ($142 MRR)
 
@@ -121,7 +121,7 @@ In order to achieve this, my first few weeks were spent on:
 * New brand positioning (simple, lightweight, open source and privacy-first Google Analytics alternative)
 * Streamlining the communication to send a consistent message everywhere (as an example, previously, we used the name Plausible Insights some places and Plausible Analytics other places)
 * Improving the site structure (we used to have two different sections for articles, one titled "journal" and the other "blog", so we redirected the journal to the blog)
-* Adding a lot of new product-related content (each main area of our positioning got one article, we published a comparison with Google Analytics and much more)
+* Adding a lot of new product-related content (each main focus of our positioning got one article, we published a comparison with Google Analytics and much more)
 
 There's a more detailed overview of this period and the actions I took in [this post](https://plausible.io/blog/blog-post-changed-my-startup).
 
@@ -163,7 +163,7 @@ We launched on Product Hunt. This is typically a big event for new startups. Pro
 
 Launching on community sites gives your project a spotlight for a few days, but it's not a sustainable channel to acquire customers in the long term— it brings that famous spike of hope after which follows the flat line of nope. 
 
-We got more than 1,000 visitors and 15 trial signups from Product Hunt on the launch day but only a few days after we were getting fewer than 20 visitors from there. As far as we're concerned, launches like this are nice, but they're not necessary for continued growth. 
+We got more than 1,000 visitors and 15 trial signups from Product Hunt on the launch day but only a few days later we were getting fewer than 20 visitors from there. As far as we're concerned, launches like this are nice, but they're not necessary for continued growth. 
 
 Here's [how not to launch on Product Hunt (and lessons from our successful launch)](https://plausible.io/blog/product-hunt-launch).
 
@@ -185,31 +185,33 @@ Read more: [Why we're changing Plausible to the AGPL license](https://plausible.
 
 We shared our lessons learned about running an open source SaaS. One lesson was that donations are not a viable monetization method. We've been accepting donations for about six months and had six donations of $5 each. At the same time, our cloud product has grown from $400 MRR to more than $8,500 MRR.
 
-We're delighted we made it to this point while still being fully open source software. Free and open source software can be sustainable and can pay your rent so you can focus on working on projects that you believe in.
+Running a managed service in the cloud while keeping the code open for self-hosting seems to be a much better model for particular open source projects. There are so many good teams and projects fighting for the open web, and we hope many of them can succeed.
 
-Financial sacrifice should not be required to work on open source. This will make the free and open source software ecosystem much healthier and provide even better alternatives to the proprietary and closed source products. There are so many good teams and projects fighting for the open web, and we hope many of them can succeed.
-
-Running a managed service in the cloud while keeping the code open for self-hosting seems to be a much better model for particular open source projects. Read more: [Lessons from building and growing an open source SaaS](https://plausible.io/blog/building-open-source).
+Read more: [Lessons from building and growing an open source SaaS](https://plausible.io/blog/building-open-source).
 
 ## 2021
 
 ### January: Finally sustainable ($11,303)
 
-This was a significant milestone. Until this point, between the two of us, we were down more than $50,000 in personal savings since we started working on Plausible.
+This was a significant milestone. Until this point, between the two of us, we were down more than $50,000 in personal savings since we started working on Plausible. When we reached $10,000 MRR, we could finally cover our costs and slowly start recovering some of the savings lost.
 
-When we reached $10,000 MRR, we could finally cover our costs and slowly start recovering some of the savings lost. We also [decided to start giving back 5% of our gross revenue](https://plausible.io/giving-back) to environmental causes and open source. 
+We're delighted we made it to this point while still being fully open source software. Free and open source software can be sustainable and can pay your rent. Financial sacrifice is not required to work on open source. 
 
-We managed to collect $20,000 in total for the year 2021. At the start of 2022, we donated 50% of that to Red Cross for their Ukrainian collection as it was an urgent cause. The rest we donated to the Erlang Ecosystem Foundation, the Sea Shepherd and the Ocean Cleanup.
+A better monetization method means that more people will be able to focus their time on working on projects that they truly believe in. This will make the open source software ecosystem much healthier and provide even better alternatives to the proprietary and closed source products.
 
 Read more: [What we learned on our journey to $10,000 MRR](https://plausible.io/blog/growing-saas-mrr).
 
-### February ($13,576 MRR)
+### February: Giving back 5% of our gross revenue ($13,576 MRR)
+
+We [decided to start giving back 5% of our gross revenue](https://plausible.io/giving-back) to environmental causes and open source. 
+
+We managed to collect $20,000 in total in the year 2021. At the start of 2022, we donated half of that to Red Cross for their Ukrainian collection as it was an urgent cause. The rest we donated to the Erlang Ecosystem Foundation, the Sea Shepherd and the Ocean Cleanup.
 
 ### March: Scaling our support ($17,550 MRR)
 
-With the increase in interest comes an increase in the number of emails and questions coming our way. In the first few months working with Plausible, I spent most of my time reaching out to people, while these days, I spend most of my time responding to people trying to contact us.
+With the increase in interest came an increase in the number of emails and questions coming our way. In the first few months working with Plausible, I spent most of my time reaching out to people, while these days, I spend most of my time responding to people trying to contact us.
 
-To this day, we put a lot of effort into our docs, spend a lot of time on them and keep them up to date, answering any new questions we are getting. It has helped us scale our support to handle thousands of customers and trials without a dedicated support team.
+We work hard on fixing, automating and eliminating issues that people encounter frequently. We put a lot of effort into our docs, spend a lot of time on them and keep them up to date, answering any new questions we are getting. It has helped us scale our support to handle thousands of customers and trials without a dedicated support team.
 
 Read more: [How we scaled support for 4,000+ subscribers and 1,000+ monthly trials (without dedicated support personnel)](https://plausible.io/blog/scaling-customer-support).
 
@@ -233,9 +235,13 @@ Google is infamous for not having any customer support so we're doing our best t
 
 ### September ($39,373 MRR)
 
-### October ($42,624 MRR)
+### October: We've made it to $500k ARR ($42,624 MRR)
 
-We made it to the $41,600 MRR ($500k ARR). Learn more: [How we bootstrapped our open source Google Analytics alternative to $500k ARR](https://plausible.io/blog/bootstrapping-saas).
+We've made it to $41,600 MRR ($500k ARR). The day to day life at a startup in these days is more calm without too many major milestones or significant highlights. We grow surely and steadily. There's a rhythm to things.
+
+There's a lot of hard work behind the scenes to make it all running smoothly. We fix bugs. We engage with our community. We respond to people reaching out to us. We build new features. We work on our infrastructure in order to handle the demand. 
+
+Learn more: [How we bootstrapped our open source Google Analytics alternative to $500k ARR](https://plausible.io/blog/bootstrapping-saas).
 
 ### November ($46,426 MRR)
 
@@ -245,11 +251,11 @@ We made it to the $41,600 MRR ($500k ARR). Learn more: [How we bootstrapped our 
 
 ### January: "Google Analytics violates GDPR" ($55,411 MRR)
 
-We do our best, but sometimes you need to be lucky to be at the right place at the right time.
+We do our best, but sometimes you need to be lucky to be at the right place at the right time. That's is how I would summarize the first half of 2022.
 
-The year 2022 has started very strong for us thanks to external circumstances. Austrian Data Protection Authority (DPA) decided that using Google Analytics violates the GDPR.
+The year 2022 started very strong for us thanks to external circumstances. Austrian Data Protection Authority (DPA) decided that the use of Google Analytics violates the GDPR.
 
-Plausible is well positioned in this market, so immediately after this announcement, we saw an increase in interest in our product and service.
+Plausible was well positioned in this market, so immediately after this announcement, we saw an increase in interest in our product and service.
 
 ### February: Cenk joins us as the fourth team member ($62,769 MRR)
 
@@ -257,7 +263,7 @@ February brought us even more great news. The French DPA agreed with the Austria
 
 It's exciting times to be a European, privacy-first web analytics project. Plausible exclusively uses EU-owned cloud infrastructure, which made us a good fit for those organizations where Google Analytics no longer allowed them to fulfill the legal requirements that apply to them.
 
-We also became a team of four, with Cenk joining us to help scale our infrastructure to deal with this increased demand. A lot of our efforts are now spent on expanding the capacity of traffic that we can handle, improving Plausible's stability, security, speed and uptime.
+We also became a team of four, with Cenk joining us to help scale our infrastructure to deal with this increased demand. A lot of our effort is now spent on expanding the capacity of traffic that we can handle, improving Plausible's stability, security, speed and uptime.
 
 Read more: [Is Google Analytics illegal? Austrian and French DPAs say so](https://plausible.io/blog/google-analytics-illegal).
 
@@ -265,17 +271,17 @@ Read more: [Is Google Analytics illegal? Austrian and French DPAs say so](https:
 
 It's not only the news from European data protection authorities that were great for us. Google tried to help push alternative solutions to Google Analytics as well.
 
-Google announced they will kill Universal Analytics and that there's no way to import historical stats to their new GA4 version. We've experienced an immediate increase in interest in Plausible following this news. March was our best month yet, with $8,247 in net MRR growth.
+They announced that they will kill Universal Analytics and that there's no way to import historical stats to their new GA4 version. We've experienced an immediate increase in interest in Plausible following this news. March was our best month yet, with $8,247 in net MRR growth.
 
 Read more: [Google Analytics will stop tracking stats on July 1st, 2023 (and there's no import to GA4)](https://plausible.io/blog/universal-google-analytics-is-dead).
 
 ### April: Import from Google Analytics ($76,312 MRR)
 
-We have tried our best to seize the opportunities that presented themselves to us. We worked hard to be the well-positioned alternative to Google Analytics both from the privacy and Universal Analytics/GA4 perspectives.
+We have tried our best to seize these opportunities that presented themselves to us. We worked hard to be the well-positioned alternative to Google Analytics both from the privacy and Universal Analytics/GA4 perspectives.
 
-We introduced [an import tool that allows you to bring your old Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible. Google may not want you to import your old stats into their new product, but we're happy to facilitate this.
+We introduced [an import tool that allows people to bring their old Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible. Google may not want you to import your old stats into their new product, but we're happy to help facilitate this.
 
-We also have a realtime dashboard and a landing page report which many Google Analytics users are unhappy about with their Google Analytics experience. This has helped position us as an excellent alternative to an increasing number of sites unhappy with Google's approach.
+We also have a realtime dashboard and a landing page report which many Google Analytics users are unhappy about with their Google Analytics experience. This has helped make Plausible an excellent alternative to an increasing number of sites unhappy with Google's approach.
 
 ### May ($81,823 MRR)
 
@@ -308,12 +314,12 @@ This is how we plan to continue from here on as well. Trying to be as ethical as
 * We don't use a chat bot to engage you or convert you
 * We don't participate in any link buying for SEO purposes
 
-In addition to this, we make it very easy to cancel a subscription at any time. No need to contact ask. No questions are asked. 
+In addition to this, we make it very easy to cancel a subscription at any time. No need to contact us. No questions are asked. 
 
 We also inform people in advance a few days before their annual subscription is up for renewal to give them a chance to cancel in case they no longer find Plausible useful. There are also no surprise fees, and we never charge anyone unexpectedly.
 
 We're not interested in venture capitalism, in the chase for the endless hyper-growth, or in building a unicorn. We don't have any goals about world domination.
 
-We aim to continue building a sustainable business that helps us remain true to our mission of removing Google Analytics from as many websites as possible and bringing open source software to more people.
+We aim to continue building a sustainable business that helps us remain true to our mission of removing Google Analytics from as many websites as possible and bringing privacy-first, open source software to more people.
 
 Thank you for your trust and support!
