@@ -63,8 +63,6 @@ We had 60 active beta users at this point, and some decided to stick around and 
 
 Read more: [I'm launching Plausible](https://plausible.io/blog/launching-plausible).
 
-### June ($90 MRR)
-
 ### July: First traffic spike ($118 MRR)
 
 We had our first traffic spike by getting more than 2,500 visitors in one day. It was thanks to the "[You probably don't need a single-page application](https://plausible.io/blog/you-probably-dont-need-a-single-page-app)" blog post making it to the front page of Hacker News.
@@ -74,8 +72,6 @@ The post was not strictly related to our product and niche, so the long-term ben
 We're bootstrapped without any advertising budget, so trying to get heard by writing blog posts was the obvious way to go. With content marketing, we get the word out to more people, increase brand awareness, get links and social media mentions, all which eventually results in higher rankings in search results.
 
 Content marketing and Hacker News are essential to our growth to this day. Most people who hear about Plausible hear about us thanks to some of our published content and personal recommendations through social media and niche communities.
-
-### August ($142 MRR)
 
 ### September: Embracing the open source world ($178 MRR)
 
@@ -87,15 +83,7 @@ Plausible continues being fully open source software, and we've since made it po
 
 Read more: [Plausible is going open-source](https://plausible.io/blog/plausible-is-going-open-source).
 
-### October ($253 MRR)
-
-### November ($301 MRR)
-
-### December ($337 MRR)
-
 ## 2020
-
-### January ($355 MRR)
 
 ### February: Looking for a marketing co-founder ($403 MRR)
 
@@ -179,8 +167,6 @@ We needed to research the different licenses to find the best fit for our needs.
 
 Read more: [Why we're changing Plausible to the AGPL license](https://plausible.io/blog/open-source-licenses).
 
-### November ($7,598 MRR)
-
 ### December: Open source needs a better funding model ($8,999 MRR)
 
 We shared our lessons learned about running an open source SaaS. One lesson was that donations are not a viable monetization method. We've been accepting donations for about six months and had six donations of $5 each. At the same time, our cloud product has grown from $400 MRR to more than $8,500 MRR.
@@ -217,10 +203,6 @@ We put a lot of effort into our docs, spend a lot of time on them and keep them 
 
 Read more: [How we scaled support for 4,000+ subscribers and 1,000+ monthly trials (without dedicated support personnel)](https://plausible.io/blog/scaling-customer-support).
 
-### April ($22,290 MRR)
-
-### May ($26,422 MRR)
-
 ### June: Robert joins us as the third team member ($29,285 MRR)
 
 Robert joined us part-time while finishing his computer science degree as the third team member. Robert started helping us with the technical customer support, and he's getting familiar with the Plausible code base to help us with development too.
@@ -231,12 +213,6 @@ We struggled to timely cover all the customer support questions, especially the 
 
 Google is infamous for not having any customer support so we're doing our best to give people that contact us, a friendly, timely and helpful response. Everyone does support at Plausible and we don't have any plans for dedicated support personnel.
 
-### July ($33,307 MRR)
-
-### August ($35,713 MRR)
-
-### September ($39,373 MRR)
-
 ### October: We've made it to $500k ARR ($42,624 MRR)
 
 We've made it to $41,600 MRR ($500k ARR). At this stage, we've settled in to a new way of working. The day to day life at our startup in these days is more calm without too many dramatic changes or significant highlights. At some point, you find that product-market fit, that stable base where the roadmap becomes clear and there's a lot of work to do maintaining it all.
@@ -244,10 +220,6 @@ We've made it to $41,600 MRR ($500k ARR). At this stage, we've settled in to a n
 There's a rhythm to things. We grow surely and steadily. But there's a lot of hard work behind the scenes to make it all run smoothly. We fix bugs. We engage with our community. We build new features. We respond to people reaching out to us. We work on our infrastructure in order to handle the demand. We think long-term, optimize what needs to be tweaked and carefully organize things in order to stay stable.
 
 Learn more: [How we bootstrapped our open source Google Analytics alternative to $500k ARR](https://plausible.io/blog/bootstrapping-saas).
-
-### November ($46,426 MRR)
-
-### December ($51,499 MRR)
 
 ## 2022
 
@@ -284,8 +256,6 @@ We have tried our best to seize these opportunities that presented themselves to
 We introduced [an import tool that allows people to bring their old Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible. Google may not want you to import your old stats into their new product, but we're happy to help facilitate this.
 
 We also have a realtime dashboard and a landing page report which many Google Analytics users are unhappy about with their Google Analytics experience. This has helped make Plausible an excellent alternative to an increasing number of sites unhappy with Google's approach.
-
-### May ($81,823 MRR)
 
 ### June 2nd: $1M ARR ($83,637 MRR)
 
