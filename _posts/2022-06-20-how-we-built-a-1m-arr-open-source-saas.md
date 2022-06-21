@@ -171,7 +171,9 @@ Read more: [Why we're changing Plausible to the AGPL license](https://plausible.
 
 We shared our lessons learned about running an open source SaaS. One lesson was that donations are not a viable monetization method. We've been accepting donations for about six months and had six donations of $5 each. At the same time, our cloud product has grown from $400 MRR to more than $8,500 MRR.
 
-Running a premium managed service in the cloud while keeping the code open for self-hosting seems to be a better model for particular open source projects. A better monetization method means that more people will be able to focus their time on working on projects that they truly believe in. This will make the open source software ecosystem much healthier and provide even better alternatives to proprietary and closed source products.
+Running a premium managed service in the cloud while keeping the code open for self-hosting seems to be a better model for particular open source projects. 
+
+A better monetization method means that more people will be able to focus their time on working on projects that they truly believe in. This will make the open source software ecosystem much healthier and provide even better alternatives to proprietary and closed source products.
 
 Read more: [Lessons from building and growing an open source SaaS](https://plausible.io/blog/building-open-source).
 
@@ -209,7 +211,9 @@ Google announced their FLoC initiative which is a topic we have a lot of thought
 
 More than 16,000 people read the post during the month, and we got a lot of attention. This is a good example of a different way to look at content marketing. 
 
-It doesn't always have to be based on keyword research and what people search for. If there are some news and happenings that you and your potential audience care about, do a post about it. Don't just repeat the information everyone else is reporting but put your personal spin and point of view into it. Add something unique, informative and/or entertaining.
+It doesn't always have to be based on keyword research and what people search for. If there are some news and happenings that you and your potential audience care about, do a post about it. 
+
+Don't just repeat the information everyone else is reporting but put your personal spin and point of view into it. Add something unique, informative and/or entertaining.
 
 ### May: More success with Google-related content ($26,422 MRR)
 
@@ -243,9 +247,13 @@ It's another example of how content marketing can drive your product's awareness
 
 ### October: We've made it to $500k ARR ($42,624 MRR)
 
-We've made it to $41,600 MRR ($500k ARR). At this stage, we've settled into a new way of working. Our startup's day-to-day life is calmer without too many dramatic changes or significant highlights. At some point, you find that product-market fit, that stable base where the roadmap becomes clear, and there's much work to do to maintain it all.
+We've made it to $41,600 MRR ($500k ARR). At this stage, we've settled into a new way of working. Our startup's day-to-day life is calmer without too many dramatic changes or significant highlights. 
 
-There's a rhythm to things. We grow surely and steadily. But there's a lot of hard work behind the scenes to make it all run smoothly. We fix bugs. We engage with our community. We build new features. We respond to people reaching out to us. We work on our infrastructure to handle the demand. We think long-term, optimize what needs to be tweaked and carefully organize things to stay stable.
+At some point, you find that product-market fit, that stable base where the roadmap becomes clear, and there's much work to do to maintain it all.
+
+There's a rhythm to things. We grow surely and steadily. But there's a lot of hard work behind the scenes to make it all run smoothly. 
+
+We fix bugs. We engage with our community. We build new features. We respond to people reaching out to us. We work on our infrastructure to handle the demand. We think long-term, optimize what needs to be tweaked and carefully organize things to stay stable.
 
 Learn more: [How we bootstrapped our open source Google Analytics alternative to $500k ARR](https://plausible.io/blog/bootstrapping-saas).
 
