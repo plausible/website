@@ -5,7 +5,7 @@ description: We've reached a significant milestone of $1 million in annual
   recurring revenue (ARR) with Plausible Analytics. This post is a recap of how
   we got to this point.
 slug: open-source-saas
-date: 2022-06-20T10:09:28.648Z
+date: 2022-06-22T06:44:11.860Z
 author: marko-saric
 image: /uploads/1m-arr-open-source-saas.png
 image-alt: How we built a $1M ARR open source SaaS
