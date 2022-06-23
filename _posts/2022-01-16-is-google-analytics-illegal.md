@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is Google Analytics illegal? Austrian and French DPAs say so
+title: Is Google Analytics illegal? Austrian, French and Italian DPAs say so
 description: Plausible data is exclusively processed with servers owned and
   operated by European providers. If Google Analytics no longer allows you to
   fulfill the legal requirements that apply to you, do check us out.
@@ -15,7 +15,7 @@ Plausible Analytics is incorporated, built and hosted in the EU with all visitor
 1. Ordered list
 {:toc}
 
-## Google Analytics is illegal according to the Austrian and French DPAs
+## Google Analytics is illegal say Austrian, French and Italian DPAs
 
 The Austrian Data Protection Authority has decided that the use of Google Analytics [violates the GDPR](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) as it is "subject to surveillance by U.S. intelligence services and can be ordered to disclose data of European citizens to them". 
 
@@ -29,17 +29,21 @@ Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfer
 
 **Update February 10th 2022:** The French Data Protection Authority CNIL has now ruled the same as the Austrian DPA. The EU-US data transfer to Google Analytics is illegal. CNIL has ordered the French websites to comply with the GDPR. [More details here](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply).
 
+**Update June 23rd 2022:** Italian Data Protection Authority Garante has now agreed with Austrian and French DPAs: "The Italian SA wishes to draw the attention of all the Italian website operators, both public and private, to the unlawfulness of the data transfers to the USA as resulting from the use of GA". Garante has ordered Italian websites to comply with the GDPR. [Details here](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9782874).
+
 Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this ruling affects you and the US-owned services that you're using. 
 
 We encourage you to discuss Google Analytics and this specific ruling with your lawyer to help you decide whether Google Analytics still allows you to fulfill the legal requirements that apply to you.
 
 ## Plausible Analytics is a genuine European Google Analytics alternative
 
-If you are looking for a genuine EU alternative to Google Analytics, do give Plausible a chance. We're an independent and bootstrapped project incorporated in Estonia. Our team is based in Estonia and Belgium. All visitor data we collect is hosted in Germany on servers owned by a German company (Hetzner). We use a Slovenian-owned provider for our global CDN (Bunny).
+If you are looking for a genuine EU alternative to Google Analytics, do give Plausible a chance. We're an independent and bootstrapped project incorporated in Estonia. Our team is based in Estonia, Germany and Belgium. All visitor data we collect is hosted in Germany on servers owned by a German company (Hetzner). We use a Slovenian-owned provider for our global CDN (Bunny).
 
 This ruling makes Plausible an even more interesting [Google Analytics alternative](https://plausible.io/vs-google-analytics) to an even more significant number of sites. Thousands of sites, startups and some of the world's leading brands have already switched from Google Analytics and other services. Plausible is built for scale and can serve sites with hundreds of millions of monthly visitors.
 
-We're a profitable and sustainable open source project with more than 5,500 paying subscribers. Currently, 30,654 different websites use Plausible and we're counting more than one billion pageviews per month. We've put together [a list of people tweeting about using Plausible](https://twitter.com/PlausibleHQ/timelines/1311218983912308736) if that helps you.
+We're a profitable and sustainable open source project with more than 7,000 paying subscribers. More than 50,000 different websites use Plausible and we're counting more than one billion pageviews per month. We've put together [a list of people tweeting about using Plausible](https://twitter.com/PlausibleHQ/timelines/1311218983912308736) if that helps you.
+
+We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import you historical stats from Google to Plausible.
 
 ## Privacy-first web analytics
 
