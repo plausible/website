@@ -100,4 +100,6 @@ Total for 2021 | $19,356
 
 We've started this commitment on January 1st, 2021 and we pledge to donate 100% of this fund at the start of 2022. No questions asked.
 
+**Update 2022**: We've rounded up our donation fund for the year 2021 to $20,000. We donated half of that to the Red Cross for their Ukrainian collection. The rest we donated to the Erlang Ecosystem Foundation, the Sea Shepherd and the Ocean Cleanup. Our 5% donation fund is continuing in the year 2022.
+
 Every Plausible Analytics subscriber contributes to our fund. Thank you for supporting us and for helping us make a bit of a difference!
