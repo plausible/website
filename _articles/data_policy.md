@@ -56,7 +56,7 @@ We're happy to provide information on how Plausible is built to help you comply 
 
 ## Hosted in the EU powered by European-owned cloud infrastructure
 
-[We’re a two person team](https://plausible.io/about) and we’re based in the EU. The legal entity is incorporated in Estonia.
+[We’re a small team](https://plausible.io/about) based in the EU. The legal entity is incorporated in Estonia.
 
 All of the data that we do track and collect is kept fully secured, encrypted and hosted on 100% renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
