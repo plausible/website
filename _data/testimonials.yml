@@ -15,8 +15,6 @@
   author_img: /assets/images/twitter/robhope.jpg
   text: "Just replaced my full network's Google Analytics with <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> - I can't remember when last I was this impressed by a SaaS UX + design 💯 <br/> 
   <br/>
- All site scripts integrated with CNAME domains <1hr.<br/>
-  <br/>
  Became a paying customer within 1hr of the 30-day trial."
   url: https://twitter.com/robhope/status/1351465826109558784
   
@@ -26,11 +24,14 @@
   text: "Been a very happy customer of Plausible at Basecamp. Wonderful to see domains like web stats that were once a wasteland due to monopoly weight spring new, better options ❤️"
   url: https://twitter.com/dhh/status/1438785402576506884
 
-- author_name: Christina Warren
-  author_handle: film_girl
-  author_img: /assets/images/twitter/film_girl.jpg
-  text: "OMG <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a> looks like it really will be the thing that finally replaces the dearly departed Mint as my Google-free analytics program of choice! The team outbound link click tracking at the request of me and a few others and the docs are fab."
-  url: https://twitter.com/film_girl/status/1324825768778559488
+- author_name: Prezly
+  author_handle: Prezly
+  author_img: /assets/images/twitter/Prezly.jpg
+  text: "We are super excited to announce that Prezly now has analytics! Thanks to <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>, our users can access simple, privacy-minded, and lightweight data right from the dashboard.<br/> 
+  <br/>
+We’ve been a fan of Plausible for a long time, so this collab is a dream 🤩
+<a target=\"_blank\" href=\"https://www.prezly.com/help/analytics-dashboard\">prezly.com/help/analytics-dashboard</a>""
+  url: https://twitter.com/Prezly/status/1566772185712267266
 
 - author_name: Erlang Ecosystem Foundation
   author_handle: TheErlef
