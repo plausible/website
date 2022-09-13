@@ -54,16 +54,6 @@ Individual parameters are separated by the ampersand (`&`) symbol.
 
 You can tag all your links manually or you can use the UTM tag builder tool that makes this easy for you.
 
-## Plausible UTM Tag Builder tool
-
-For an easy way to create your UTM tagged links, you can use the Plausible UTM Tag Builder tool. 
-
-Just insert the URL of your page, enter the UTM tags that you want to use and you'll have the final URL ready for you to use in your emails, in social media or in your paid campaigns. 
-
-Thanks to [Abhijit Kar](https://www.abhijit-kar.com/) for building this tool. 
-
-<iframe src="https://www.abhijit-kar.com/plausible-utm-builder/" title="Plausible UTM Tag Builder by DerpyCoder" style="width: 100%;height: 360px;" frameborder="0" loading="lazy" allowfullscreen="true"></iframe>
-
 ## Types of UTM parameters
 
 UTM parameters consist of:
