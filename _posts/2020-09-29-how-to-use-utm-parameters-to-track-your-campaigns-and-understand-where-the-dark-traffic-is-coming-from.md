@@ -54,6 +54,10 @@ Individual parameters are separated by the ampersand (`&`) symbol.
 
 You can tag all your links manually or you can use the UTM tag builder tool that makes this easy for you.
 
+## Plausible UTM Tag Builder tool
+
+Our UTM tag builder is currently offline. We apologize for the inconvenience. Please use a different UTM tag builder tool such as [this one](https://utmbuilder.net/) or [another one](https://www.utmtagbuilder.com/) in the meanwhile. Thanks!
+
 ## Types of UTM parameters
 
 UTM parameters consist of:
