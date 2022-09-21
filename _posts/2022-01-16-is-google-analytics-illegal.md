@@ -33,7 +33,7 @@ Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfer
 
 **Update June 23rd 2022:** Italian Data Protection Authority Garante has now agreed with Austrian and French DPAs: "The Italian SA wishes to draw the attention of all the Italian website operators, both public and private, to the unlawfulness of the data transfers to the USA as resulting from the use of GA". Garante has ordered Italian websites to comply with the GDPR. [Details here](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9782874).
 
-**Update September 21st 2022:** Danish Data Protection Authority Datatilsynet has now ruled Google Analytics as illegal as well. [Details here](https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2022/sep/brug-af-google-analytics-til-webstatistik).
+**Update September 21st 2022:** Danish Data Protection Authority Datatilsynet has now ruled Google Analytics as illegal as well recommending: "If it is not possible to implement effective supplementary measures, you must stop using the tool and, if necessary, find another tool that can provide web analytics and allows for compliance with data protection law, for example by not transferring personal data about visitors to “unsafe” third countries". [Details here](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics).
 
 Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this ruling affects you and the US-owned services that you're using. 
 
