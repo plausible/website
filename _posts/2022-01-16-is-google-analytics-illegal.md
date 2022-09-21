@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Is Google Analytics illegal? Austrian, French, Italian and Danish DPAs say so
-description: "Is Google Analytics illegal? Yes, say the Austrian, French,
-  Italian and Danish Data Protection Authorities. "
+description: "Google Analytics is illegal say the Austrian, French, Italian and
+  Danish Data Protection Authorities. "
 slug: google-analytics-illegal
 date: 2022-01-17T05:22:22.464Z
 author: marko-saric
