@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is Google Analytics illegal? Austrian, French and Italian DPAs say so
+title: Is Google Analytics illegal? Austrian, French, Italian and Danish DPAs say so
 description: Plausible data is exclusively processed with servers owned and
   operated by European providers. If Google Analytics no longer allows you to
   fulfill the legal requirements that apply to you, do check us out.
@@ -10,12 +10,14 @@ author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
+Is Google Analytics illegal? Yes, say the Austrian, French, Italian and Danish Data Protection Authorities. Read more in the post below.
+
 Plausible Analytics is incorporated, built and hosted in the EU with all visitor data exclusively processed on servers and cloud infrastructure owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
 
 1. Ordered list
 {:toc}
 
-## Google Analytics is illegal say Austrian, French and Italian DPAs
+## Google Analytics is illegal say Austrian, French, Italian and Danish DPAs
 
 The Austrian Data Protection Authority has decided that the use of Google Analytics [violates the GDPR](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) as it is "subject to surveillance by U.S. intelligence services and can be ordered to disclose data of European citizens to them". 
 
@@ -30,6 +32,8 @@ Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfer
 **Update February 10th 2022:** The French Data Protection Authority CNIL has now ruled the same as the Austrian DPA. The EU-US data transfer to Google Analytics is illegal. CNIL has ordered the French websites to comply with the GDPR. [More details here](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply).
 
 **Update June 23rd 2022:** Italian Data Protection Authority Garante has now agreed with Austrian and French DPAs: "The Italian SA wishes to draw the attention of all the Italian website operators, both public and private, to the unlawfulness of the data transfers to the USA as resulting from the use of GA". Garante has ordered Italian websites to comply with the GDPR. [Details here](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9782874).
+
+**Update September 21st 2022:** Danish Data Protection Authority Datatilsynet has now ruled Google Analytics as illegal as well. [Details here](https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2022/sep/brug-af-google-analytics-til-webstatistik).
 
 Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this ruling affects you and the US-owned services that you're using. 
 
