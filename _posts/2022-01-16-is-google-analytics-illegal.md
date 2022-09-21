@@ -1,18 +1,15 @@
 ---
 layout: post
 title: Is Google Analytics illegal? Austrian, French, Italian and Danish DPAs say so
-description: Plausible data is exclusively processed with servers owned and
-  operated by European providers. If Google Analytics no longer allows you to
-  fulfill the legal requirements that apply to you, do check us out.
+description: "Is Google Analytics illegal? Yes, say the Austrian, French,
+  Italian and Danish Data Protection Authorities. "
 slug: google-analytics-illegal
 date: 2022-01-17T05:22:22.464Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
-Is Google Analytics illegal? Yes, say the Austrian, French, Italian and Danish Data Protection Authorities. Read more in the post below.
-
-Plausible Analytics is incorporated, built and hosted in the EU with all visitor data exclusively processed on servers and cloud infrastructure owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
+Is Google Analytics illegal? Yes, say the Austrian, French, Italian and Danish Data Protection Authorities. Here's why.
 
 1. Ordered list
 {:toc}
@@ -38,6 +35,8 @@ Noyb has [filed 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfer
 Before this ruling, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). This ruling is just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how this ruling affects you and the US-owned services that you're using. 
 
 We encourage you to discuss Google Analytics and this specific ruling with your lawyer to help you decide whether Google Analytics still allows you to fulfill the legal requirements that apply to you.
+
+Plausible Analytics is incorporated, built and hosted in the EU with all visitor data exclusively processed on servers and cloud infrastructure owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
 
 ## Plausible Analytics is a genuine European Google Analytics alternative
 
