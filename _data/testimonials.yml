@@ -27,10 +27,7 @@
 - author_name: Prezly
   author_handle: Prezly
   author_img: /assets/images/twitter/Prezly.jpg
-  text: "We are super excited to announce that Prezly now has analytics! Thanks to <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>, our users can access simple, privacy-minded, and lightweight data right from the dashboard.<br/> 
-  <br/>
-We’ve been a fan of Plausible for a long time, so this collab is a dream 🤩
-<a target=\"_blank\" href=\"https://www.prezly.com/help/analytics-dashboard\">prezly.com/help/analytics-dashboard</a>"
+  text: "We are super excited to announce that Prezly now has analytics! Thanks to <a target=\"_blank\" href=\"https://twitter.com/PlausibleHQ\">@PlausibleHQ</a>, our users can access simple, privacy-minded, and lightweight data right from the dashboard. <a target=\"_blank\" href=\"https://www.prezly.com/help/analytics-dashboard\">prezly.com/help/analytics-dashboard</a>"
   url: https://twitter.com/Prezly/status/1566772185712267266
 
 - author_name: Erlang Ecosystem Foundation
