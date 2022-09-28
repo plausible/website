@@ -7,6 +7,6 @@ We've improved the way we handle international sites:
 
 * Umlauts and other special characters (including numbers, dots and slashes) are supported so you can now add international domain names to Plausible
 * We now automatically display the time format (24-hour or 12-hour am/pm) for the top graph timeline based on your browser's defined language
-* We've improved how we deal with international time zones and time changes
+* We've improved how we deal with international time zones and Daylight Saving Time
 
 P.S. We've [reached $1M ARR](https://plausible.io/blog/open-source-saas) and are counting stats on more than 66,000 sites with 2 billion page views per month between them. We're now a team of eight solely funded by our 8,000+ subscribers. Thank you for your support! ❤️
