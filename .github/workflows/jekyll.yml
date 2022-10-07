@@ -10,9 +10,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Read .tool-versions
+      uses: marocchino/tool-versions-action@v1
+      id: versions
+
     - uses: actions/setup-node@v3
       with:
-        node-version: '10'
+        node-version: ${{steps.versions.outputs.nodejs}}
         cache: 'npm'
     - run: npm install
 
