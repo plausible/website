@@ -187,7 +187,7 @@ You can try to troubleshoot your installation by experimenting with these tips:
 
 * Deactivate WP Rocket or another performance optimization plugin that is causing the conflict. Clear the cache. Plausible should then work all fine
 
-* Whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized. You could try and whitelist our domain name (`plausible.io`) and also the exact URLs of our scripts (`https://plausible.io/js/plausible.js` and `https://plausible.io/js/plausible.outbound-links.js`)
+* Whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized. You could try and whitelist our domain name (`plausible.io`), the exact URLs of our scripts (`https://plausible.io/js/plausible.js` and `https://plausible.io/js/plausible.outbound-links.js`) and also the new URLs that WP Rocket places our script on (`/wp-content/cache/min/1/js/plausible.outbound-links.js` and (`/wp-content/cache/min/1/js/plausible.js`)
 
 * Disable different settings in WP Rocket such as "Load Javascript Deferred"
 
