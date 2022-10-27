@@ -194,7 +194,7 @@ You can try to troubleshoot your installation by experimenting with these tips:
 * Use a slightly different Plausible snippet instead of the default one. This one should prevent any conflicts:
 
 ```
-<script data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/plausible.js"></script>
+<script defer data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/script.js"></script>
 ```
 
 * Make sure to clear the WordPress cache in order for the changes to take effect
