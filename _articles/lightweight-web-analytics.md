@@ -91,7 +91,7 @@ Even if a site owner figures out that there's a way to load Google Analytics scr
 Plausible script you need to integrate into your site looks like this:
 
     <script defer data-domain="domain.com"
-    src="https://plausible.io/js/plausible.js"></script>
+    src="https://plausible.io/js/script.js"></script>
 
 ## How can I test my website speed and the script size of my analytics provider?
 
