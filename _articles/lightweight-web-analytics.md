@@ -31,7 +31,7 @@ Web analytics like any other website element add extra page weight and extra loa
 * **Google Tag Manager** https://www.googletagmanager.com/gtag/js **28 KB**
 * **Google Analytics** https://www.google-analytics.com/analytics.js **17.7 KB**
 * **Matomo** https://example.org/matomo.js **22.8 KB**
-* **Plausible** https://plausible.io/js/plausible.js **<1 KB**
+* **Plausible** https://plausible.io/js/script.js **<1 KB**
 
 ### Does Google Analytics slow down my website?
 
@@ -101,7 +101,7 @@ Another interesting report within GTmetrix is the Waterfall chart. It presents y
 
 You'll see your CSS in here, your images and other media elements and you'll see any JavaScript as well. Identify the script(s) from your analytics provider to see what page weight they add to your site.
 
-This is how the waterfall chart looks for the Plausible home page. In this list, you can see the plausible.js which is our tracking script, the same scripts that our users use too.
+This is how the waterfall chart looks for the Plausible home page. In this list, you can see the script.js which is our tracking script, the same scripts that our users use too.
 
 ![Plausible home page elements, loading time and the script size](/uploads/plausible-script-size-test.png "Plausible home page elements, loading time and the script size")
 
