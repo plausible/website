@@ -72,7 +72,7 @@ Web analytics scripts like any other website element add extra page weight and e
 Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) that is built with speed and performance in mind. Plausible script weighs under 1 KB. That's more than 22 times smaller than the Matomo script which weighs 22.8 KB.
 
 * **Matomo** https://example.org/matomo.js **22.8 KB**
-* **Plausible** https://plausible.io/js/plausible.js **<1 KB**
+* **Plausible** https://plausible.io/js/script.js **<1 KB**
 
 Plausible Analytics script you need to integrate into your site looks like this:
 
