@@ -76,8 +76,8 @@ Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/l
 
 Plausible Analytics script you need to integrate into your site looks like this:
 
-    <script async defer data-domain="domain.com"
-    src="https://plausible.io/js/plausible.js"></script>
+    <script defer data-domain="domain.com"
+    src="https://plausible.io/js/script.js"></script>
 
 While the Matomo script looks like this:
 
