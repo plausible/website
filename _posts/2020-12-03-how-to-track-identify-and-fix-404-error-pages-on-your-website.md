@@ -113,7 +113,7 @@ The process below works on all the different content management systems you may 
 Add the Plausible script snippet to your site and make sure your tracking setup includes the second script as shown below:
 
 ```html
-<script async defer data-domain="<yourdomain.com>" src="https://plausible.io/js/plausible.js"></script>
+<script defer data-domain="<yourdomain.com>" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 ```
 
