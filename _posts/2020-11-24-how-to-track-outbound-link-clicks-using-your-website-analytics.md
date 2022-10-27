@@ -148,7 +148,7 @@ The process below works on all the different content management systems you may 
 Add the Plausible Analytics "outbound link click" script snippet to your site. The outbound link click snippet will look like this (make sure to change the data-domain attribute to the domain you added to your Plausible account):
 
 ```html
-<script async defer data-domain="yourdomain.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+<script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.outbound-links.js"></script>
 ```
 
 You need to place this tracking script code into the header (`<head>`) section of your site. Place the tracking script within the `<head> … </head>` tags.
@@ -159,11 +159,11 @@ Create one general goal for all external link clicks to start showing up in your
 
 To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
 
-![Image](https://docs.plausible.io/img/goal-conversions.png)
+![Image](https://plausible.io/docs/img/goal-conversions.png)
 
 Click on the "+ Add goal" button to go to the goal creation form. Select `Custom event` as the goal trigger and enter this exact name: `Outbound Link: Click`.
 
-![Image](https://docs.plausible.io/img/outbound-link-click-goal.png)
+![Image](https://plausible.io/docs/img/outbound-link-click-goal.png)
 
 Next, click on the "Add goal" button and you'll be taken back to the Goals page.
 
