@@ -6,9 +6,9 @@ description: Plausible Analytics helps ecommerce and SaaS startups get some
   with the privacy regulations.
 permalink: /for-ecommerce-saas
 ---
-[Plausible Analytics](https://plausible.io/) helps ecommerce and SaaS startups get some actionable data so that they can make better decisions. At the same time, their visitors keep having a privacy-friendly and enjoyable experience.
+[Plausible Analytics](https://plausible.io/) helps ecommerce and SaaS startups get some actionable data to make better decisions. At the same time, their visitors keep having a privacy-friendly and enjoyable experience.
 
-Plausible Analytics is compliant with the different privacy regulations so you don't need to worry about getting GDPR consent from your visitors. We keep it simple by minimizing data collection and focusing on 20% of Google Analytics metrics that 80% of analytics users find most useful.
+Plausible Analytics is compliant with different privacy regulations so you don't need to worry about getting GDPR consent from your visitors. We keep it simple by minimizing data collection and focusing on 20% of Google Analytics metrics that 80% of analytics users find most useful.
 
 ![Website analytics for ecommerce and SaaS](/uploads/google-analytics-alternatives.png "Website analytics for ecommerce and SaaS")
 
@@ -63,18 +63,18 @@ Goals can be any action that you want your users to take: visit a specific page 
 
 With goals and events, you can track the number of goals completed, conversion rates and other useful insights, including referrer sources driving conversions.
 
-Here are the instructions on [how to get started with goals and events](https://docs.plausible.io/custom-event-goals).
+Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
 
 ## Add properties to an event to create your custom metrics
 
 You can create your custom metrics in Plausible Analytics. You do this by adding properties to your events to collect and analyze data that Plausible Analytics doesn't automatically track. When sending an event, you can attach arbitrary metadata to it. This helps you:
 
 * Compare different website elements
-* [Track the number of clicks on outbound links](https://docs.plausible.io/outbound-link-click-tracking)
-* Track the number of file downloads
+* [Track the number of clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)
+* [Track the number of file downloads](https://plausible.io/docs/file-downloads-tracking)
 * Do A/B testing
 
-And anything else that you wish. The number of properties you can add per event is unlimited. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more about custom properties here](https://docs.plausible.io/custom-event-goals#using-custom-props).
+And anything else that you wish. The number of properties you can add per event is unlimited. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more about custom properties here](https://plausible.io/docs/custom-event-goals#using-custom-props).
 
 Note that you must ensure that no personally identifiable information (PII) is sent to Plausible Analytics when you collect the metadata. PII is information that could be used on its own to identify, contact, or precisely locate an individual. This includes:
 
@@ -114,11 +114,11 @@ You can learn more about [user accounts and levels](https://plausible.io/docs/us
 
 You can share your Plausible Analytics reports and dashboard in multiple ways, both privately and publicly.
 
-[Email reports](https://docs.plausible.io/email-reports) can be sent to multiple recipients and scheduled weekly (every Monday) or monthly (every 1st of the month). All the stats are embedded directly in the email and there's no need to go to any website. There are no attachments, no PDFs and no links to click on. No friction.
+[Email reports](https://plausible.io/docs/email-reports) can be sent to multiple recipients and scheduled weekly (every Monday) or monthly (every 1st of the month). All the stats are embedded directly in the email and there's no need to go to any website. There are no attachments, no PDFs and no links to click on. No friction.
 
-You can also share your website dashboard privately and securely by [generating a unique shared link](https://docs.plausible.io/shared-links). This link is impossible to guess, so only people you send it to will have access to it. No need to log in, no need for accounts and passwords either. You do have the option to password protect the link for extra security.
+You can also share your website dashboard privately and securely by [generating a unique shared link](https://plausible.io/docs/shared-links). This link is impossible to guess, so only people you send it to will have access to it. No need to log in, no need for accounts and passwords either. You do have the option to password protect the link for extra security.
 
-You can even open up your Plausible Analytics dashboard [to the public](https://docs.plausible.io/visibility) and proudly share it with the world like we're sharing our stats in the live demo.
+You can even open up your Plausible Analytics dashboard [to the public](https://plausible.io/docs/visibility) and proudly share it with the world like we're sharing our stats in the live demo.
 
 ## Simplified compliance with the privacy regulations
 
@@ -142,7 +142,7 @@ Browsers such as Firefox block the most popular analytics tools and so do the di
 
 These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 30% or even more of the audience on a website blocking Google Analytics.
 
-Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. You may very well see more accurate (and higher) visitor numbers.
+Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a way for you to [proxy our script as a first-party connection](https://plausible.io/docs/proxy/introduction). You may very well see more accurate (and higher) visitor numbers.
 
 ## Try Plausible Analytics
 
