@@ -56,7 +56,7 @@ We will retain your information as long as your account is active, as necessary 
 
 We will also retain and use this information as necessary for the purposes set out in this policy and to the extent necessary to comply with our legal obligations, resolve disputes, enforce our agreements and protect Plausible’s legal rights.
 
-You can choose to [delete your Plausible Analytics account at any time](https://docs.plausible.io/delete-account). All your data will be permanently deleted immediately when you delete your account.
+You can choose to [delete your Plausible Analytics account at any time](https://plausible.io/docs/delete-account). All your data will be permanently deleted immediately when you delete your account.
 
 ## Changes and questions
 
