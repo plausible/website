@@ -108,7 +108,7 @@ The overall level of traffic from Google search (or other search engine that dri
 
 #### Search queries people find your site with
 
-Plausible Analytics allows you to [integrate your Google Search Console account](https://docs.plausible.io/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
+Plausible Analytics allows you to [integrate your Google Search Console account](https://plausible.io/docs/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
 
 ![Our top search queries from Google](/uploads/top-google-search-queries.png)
 
@@ -147,7 +147,7 @@ As mentioned earlier, day to day fluctuations in visits to a specific page are n
 
 ### Goals
 
-You can use goals to track desired actions people take on your site. Goals can be based on people [visiting a particular page](https://docs.plausible.io/pageview-goals/) or [triggering a particular event](https://docs.plausible.io/custom-event-goals/) such as subscribing to a newsletter or signing up for an account.
+You can use goals to track desired actions people take on your site. Goals can be based on people [visiting a particular page](https://plausible.io/docs/pageview-goals/) or [triggering a particular event](https://plausible.io/docs/custom-event-goals/) such as subscribing to a newsletter or signing up for an account.
 
 For our own needs, we have set up three different goals:
 
@@ -213,7 +213,7 @@ This referral source includes visitors who typed your URL into their browser, cl
 
 #### How to minimize the amount of traffic without referrals 
 
-To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://docs.plausible.io/manual-link-tagging/). Plausible Analytics supports the following parameters:
+To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://plausible.io/docs/manual-link-tagging/). Plausible Analytics supports the following parameters:
 
 * yourdomain.com?ref=Newsletter
 * yourdomain.com?source=Newsletter
