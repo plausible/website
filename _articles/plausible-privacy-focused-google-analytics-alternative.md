@@ -26,7 +26,7 @@ This is essential in the market of privacy software. Corporations and proprietar
 
 ## Hosted in the EU powered by European-owned cloud infrastructure
 
-We're a two person team and we're based in the EU. The legal entity is incorporated in Estonia.
+We're a small team and we're based in the EU. The legal entity is incorporated in Estonia.
 
 All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
 
@@ -36,7 +36,7 @@ You don't have to worry about Schrems II and that it invalidates the EU-US Priva
 
 ## Completely independent, self-funded and bootstrapped
 
-There are no investors behind Plausible Analytics and no big corporations with a different agenda or big plans. It's just the two of us. We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. We ignore all such requests.
+There are no investors behind Plausible Analytics and no big corporations with a different agenda or big plans. We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. We ignore all such requests. We're solely funded by our subscribers. 
 
 ## We minimize data collection
 
@@ -46,7 +46,7 @@ Other analytics tools such as the market leader Google Analytics collect and pro
 
 All the metrics we do collect fit on one single page. The benefits of minimizing data collection go beyond privacy. Plausible Analytics is much easier and simpler to use and understand. It's also [45 times lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site and reduces your carbon footprint. 
 
-You can view all the data we collect in [our live demo dashboard](https://plausible.io/plausible.io). It features our own website stats.
+You can view all the data we collect in [our live demo dashboard](https://plausible.io/plausible.io). It features our own website stats.
 
 ## No personal data is collected
 
@@ -90,7 +90,7 @@ You can delete everything that we have collected about your site any time that y
 
 ## Your data is not sent to, shared with or sold to any third-parties
 
-We do not share, sell or send your website data to any advertising companies or any other third-parties in general. Your website data is not monetized, mined and harvested for personal and behavioral trends. That is not our business model.
+We do not share, sell or send your website data to any advertising companies or any other third-parties in general. Your website data is not monetized, mined and harvested for personal and behavioral trends. That is not our business model.
 
 ## We have nothing to do with surveillance capitalism
 
@@ -102,9 +102,9 @@ Revenue from our paid subscribers helps keep the project development going, help
 
 ## You can open up your stats and share them with your visitors
 
-We have an in-built feature that we recommend all website owners use to [open up their stats to the public](https://docs.plausible.io/visibility/). Then you can share your stats on your site to be fully transparent so your visitors and anyone else can view the data that you yourself have access to. 
+We have an in-built feature that we recommend all website owners use to [open up their stats to the public](https://plausible.io/docs/visibility/). Then you can share your stats on your site to be fully transparent so your visitors and anyone else can view the data that you yourself have access to. 
 
-Many of sites using Plausible have chosen to do so. Then they share a link to their public stats dashboard in their footer, in their privacy policy or on their about page.
+Many of sites using Plausible have chosen to do so. Then they share a link to their public stats dashboard in their footer, in their privacy policy or on their about page. You can even [embed our dashboard](https://plausible.io/docs/embed-dashboard) into your site.
 
 ## You can self-host Plausible Analytics
 
@@ -114,6 +114,6 @@ The difference is that the Self-Hosted version you need to install, maintain and
 
 ## Sounds like an interesting alternative to you? 
 
-If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free and unlimited usage 30-day trial. No credit card required either. You can [start your free trial here](https://plausible.io/register). 
+If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free and unlimited usage 30-day trial. No credit card required either. You can [start your free trial here](https://plausible.io/register).
 
 As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
