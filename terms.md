@@ -41,7 +41,7 @@ The number of pageviews purchased in the paid plan must be used during the appli
 
 You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly. In the event the usage of pageviews exceeds the paid plan you selected for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have two weeks to make a decision. You can decide to continue with a higher plan or to cancel your account at that point.
 
-You can [upgrade or downgrade in plan level](https://docs.plausible.io/change-plan) at any time within your account settings. Downgrading your plan may cause the loss of features or capacity of your account. Plausible Analytics does not accept any liability for such loss.
+You can [upgrade or downgrade in plan level](https://plausible.io/docs/change-plan) at any time within your account settings. Downgrading your plan may cause the loss of features or capacity of your account. Plausible Analytics does not accept any liability for such loss.
 
 Our payment process is conducted by our payment processor Paddle. Paddle provides customer service inquiries and handles returns. All fees are inclusive of all taxes, levies, or duties imposed by taxing authorities. Paddle will collect those taxes on behalf of taxing authority and remit those taxes to taxing authorities. See [Paddle's Terms of Use](https://paddle.com/legal/) for details.
 
@@ -49,11 +49,11 @@ Fees paid hereunder are non-refundable.
 
 ## Cancellation and termination
 
-You are solely responsible for properly canceling your account. An email to cancel your account is not considered cancellation. You can find instructions for [how to cancel your account here](https://docs.plausible.io/cancel-subscription). We provide a simple no-questions-asked cancellation link.
+You are solely responsible for properly canceling your account. An email to cancel your account is not considered cancellation. You can find instructions for [how to cancel your account here](https://plausible.io/docs/cancel-subscription). We provide a simple no-questions-asked cancellation link.
 
 If you cancel the service before the end of your current paid up period, your cancellation will take effect at the end of the current billing cycle, and you will not be charged again. All of your stats will be inaccessible from the service after the time you paid for expires. Within 60 days of that, all stats will be permanently deleted from our backups. We cannot recover this information once it has been permanently deleted. 
 
-You can choose to [delete your account](https://docs.plausible.io/delete-account) and all your site stats at any time. All your stats will be permanently deleted immediately when you delete your Plausible Analytics account. 
+You can choose to [delete your account](https://plausible.io/docs/delete-account) and all your site stats at any time. All your stats will be permanently deleted immediately when you delete your Plausible Analytics account. 
 
 We reserve the right to suspend or terminate your account and refuse any and all current or future use of the service for any reason at any time. Such termination of the service will result in the deactivation or deletion of your account or your access to your account and site stats. Plausible Analytics reserves the right to refuse service to anyone for any reason at any time. We have this clause because statistically speaking, out of the thousands of sites on our service, there may be at least one doing something nefarious.
 
