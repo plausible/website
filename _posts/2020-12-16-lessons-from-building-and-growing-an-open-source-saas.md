@@ -115,7 +115,7 @@ There's no longer any guarantee that, we as creators of Plausible, will be able 
 
 If you want a nice, easy and convenient experience, and want to know that you're helping us make this project sustainable, do sign up for [our cloud version](https://plausible.io) where everything works out of the box. 
 
-If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues, [read our documentation](https://docs.plausible.io/) or get community support in the forum.
+If you want to manage your own infrastructure, do use the self-hosted version but be prepared to troubleshoot your issues, [read our documentation](https://plausible.io/docs) or get community support in the forum.
 
 The donations are an entirely voluntary way for self-hosters to contribute to the continuous development of the project. If you donate to Plausible Analytics as a self-hoster, you help us make Plausible sustainable. Donations are made on GitHub and are very appreciated. See [how you can become a sponsor of Plausible](https://github.com/sponsors/plausible).
 
