@@ -94,9 +94,9 @@ Dark traffic covers all the traffic where the referrer is not passed. There are 
 
 * Facebook referrer only includes the fact that the visitor came from Facebook. Facebook never sends the post or comment ID where someone clicked.
 
-* Twitter sets the referrer to their link shortener so you can see the shortened link but not the actual tweet that brought the traffic. Plausible Analytics makes the best effort to find the relevant tweet that the visitor came from [using the Twitter API](https://docs.plausible.io/twitter/).
+* Twitter sets the referrer to their link shortener so you can see the shortened link but not the actual tweet that brought the traffic.
     
-* Google does not include the search keywords in the referrer so you can see that the visitor is coming from Google search but you cannot see which keyword phrase they used to find you. In Plausible Analytics, you can [integrate your Search Console data to see these search queries](https://docs.plausible.io/google-search-console-integration/).
+* Google does not include the search keywords in the referrer so you can see that the visitor is coming from Google search but you cannot see which keyword phrase they used to find you. In Plausible Analytics, you can [integrate your Search Console data to see these search queries](https://plausible.io/docs/google-search-console-integration/).
 
 Chrome's latest change won't make a difference in the amount of dark traffic that you see but it will create additional "dark traffic" within the specific referrer as you won't be able to see the exact page the other site is linking to you from.
 
