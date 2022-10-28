@@ -70,7 +70,7 @@ You can track 404 page errors using many other tools. Here are some examples:
 
 ### Google Search Console
 
-You can also find 404 page errors in your [Google Search Console](https://docs.plausible.io/google-search-console-integration). Go into the "Index" section on the left-hand side menu and click on "Coverage". Then click on "Excluded" and choose "Not found (404)" or "Soft 404" in the list to get the full list of 404 page errors Google has discovered.
+You can also find 404 page errors in your [Google Search Console](https://plausible.io/docs/google-search-console-integration). Go into the "Index" section on the left-hand side menu and click on "Coverage". Then click on "Excluded" and choose "Not found (404)" or "Soft 404" in the list to get the full list of 404 page errors Google has discovered.
 
 ### Server logs
 
