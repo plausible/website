@@ -29,7 +29,7 @@ It’s worth noting that for now, there's no explicit support for self-hosting P
 
 ### What's next?
 
-Please check out the [public roadmap and feedback board](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc) to see which features are planned in the near future.
+Please check out the [public roadmap and feedback board](https://plausible.io/roadmap) to see which features are planned in the near future.
 
 I think it's also worth talking about ways to raise the standard of trust and transparency even more. No matter how open we are or how much effort we put into making the data anonymous, there are still no guarantees that analytics companies don't turn around and sell their data to advertisers.
 
