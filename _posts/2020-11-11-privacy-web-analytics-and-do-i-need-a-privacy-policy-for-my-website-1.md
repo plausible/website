@@ -49,7 +49,7 @@ If you're not collecting or processing any personal data and if you're not using
 
 Still, we recommend you have a privacy policy on your site and add a note about your use of Plausible Analytics to it. You can explain how you use Plausible and what data Plausible gathers about your visitors on your behalf. You could link to our [data policy](https://plausible.io/data-policy) page or take the information from our data policy.
 
-You could even [open up your Plausible dashboard to the public](https://docs.plausible.io/visibility) and link to it from your privacy policy page or another location on your site. This way your site visitors will have access to all the same data that you have.
+You could even [open up your Plausible dashboard to the public](https://plausible.io/docs/visibility) and link to it from your privacy policy page or another location on your site. This way your site visitors will have access to all the same data that you have.
  
 ## How do I create a privacy policy for my website? 
  
@@ -114,4 +114,4 @@ Here is an alternative way to disclose your usage of Plausible Analytics. A "How
 
 Basecamp has been kind enough to open source [its privacy policy](https://github.com/basecamp/policies/blob/master/privacy/index.md), terms of use and [other legal documents](https://github.com/basecamp/policies). 
 
-You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
+You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
