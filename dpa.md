@@ -89,7 +89,7 @@ With more than 10,000 GitHub stars, there are a lot of eyes on our code and it i
 
 ## How we handle delete instructions
 
-You can choose to [delete your account](https://docs.plausible.io/delete-account) and [delete your site stats](https://docs.plausible.io/delete-site-data) at any time. We provide simple no-questions-asked deletion links. 
+You can choose to [delete your account](https://plausible.io/docs/delete-account) and [delete your site stats](https://plausible.io/docs/delete-site-data) at any time. We provide simple no-questions-asked deletion links. 
 
 All your stats will be permanently deleted immediately when you delete your Plausible Analytics account or when you delete your site stats. We cannot recover this information once it has been permanently deleted.
 
