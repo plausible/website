@@ -41,7 +41,7 @@ Running a startup is about releasing new features and building a better product,
 
 ### Latest Plausible Analytics product update
 
-As the first step, we released the latest update to the Plausible Analytics product. It was a popular feature request on [our public roadmap](https://github.com/plausible/analytics/issues?q=is%3Aopen+is%3Aissue+label%3A%22on+the+roadmap%22+sort%3Areactions-%2B1-desc). Plausible Analytics now works without cookies out of the box. You no longer need to have the cookie banner and you no longer need to obtain consent to store cookies if you use Plausible Analytics.
+As the first step, we released the latest update to the Plausible Analytics product. It was a popular feature request on [our public roadmap](https://plausible.io/roadmap). Plausible Analytics now works without cookies out of the box. You no longer need to have the cookie banner and you no longer need to obtain consent to store cookies if you use Plausible Analytics.
 
 ### New Plausible Analytics website
 
