@@ -16,13 +16,13 @@ We experienced big growth in October, breaking our traffic and signup records on
 * 📝 **Relicensed Plausible as AGPL**
 * 🚀 **Additional filters in the dashboard**
 * 💵 **MRR: $6226 (+16%) and more than 1000 paying subscribers**
-* 👩 **71.6k visitors (+148%)**: Most of the traffic came from Hacker News.  [See our full stats for October](https://plausible.io/plausible.io?period=month&date=2020-10-01)
+* 👩 **71.6k visitors (+148%)**: Most of the traffic came from Hacker News. [See our full stats for October](https://plausible.io/plausible.io?period=month&date=2020-10-01)
 
 ### The v1 release of Plausible Self Hosted
 
 A lot of my time in October was spent on the v1 release of [Plausible Self Hosted](https://plausible.io/self-hosted-web-analytics). It is my first time managing an open-source project of this magnitude so there’s tons to learn.
 
-In preparation for this release I started keeping a [changelog](https://github.com/plausible/analytics/blob/master/CHANGELOG.md) and learned about how release tagging works in Github and DockerHub. I wrote [official docs](https://docs.plausible.io/self-hosting/) for self-hosting and created a [hosting repo](https://github.com/plausible/hosting) with example docker-compose setups. Most of the work was just consolidating existing community contributions, so big thanks to beta users who sent feedback and improvements.
+In preparation for this release I started keeping a [changelog](https://github.com/plausible/analytics/blob/master/CHANGELOG.md) and learned about how release tagging works in Github and DockerHub. I wrote [official docs](https://plausible.io/docs/self-hosting/) for self-hosting and created a [hosting repo](https://github.com/plausible/hosting) with example docker-compose setups. Most of the work was just consolidating existing community contributions, so big thanks to beta users who sent feedback and improvements.
 
 I also learned a painful lesson about security. The docker-compose setup I recommended for self-hosting Plausible would expose ports of each container to the public internet. Combine this with the fact that the Postgres database was configured with the default username/password combination (`postgres:postgres`) and what you get is a huge vulnerability.
 
