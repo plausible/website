@@ -39,7 +39,7 @@ The goal of the AGPL license is to maximize user freedom and to encourage compan
 
 Yes, you can self-host Plausible Analytics. Plausible Analytics Self-Hosted is our free as in beer and free as in speech version. It’s exactly the same product as our Plausible Analytics Cloud solution, only the self-hosted version you have to install, host and manage yourself. 
 
-We're fully open source and all our code is available on GitHub. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) solution and read here the [installation instructions](https://docs.plausible.io/self-hosting).
+We're fully open source and all our code is available on GitHub. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) solution and read here the [installation instructions](https://plausible.io/docs/self-hosting).
 
 ## Plausible is open in other ways too
 
