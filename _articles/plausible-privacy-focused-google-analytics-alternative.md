@@ -116,4 +116,4 @@ The difference is that the Self-Hosted version you need to install, maintain and
 
 If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free and unlimited usage 30-day trial. No credit card required either. You can [start your free trial here](https://plausible.io/register).
 
-As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
+As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
