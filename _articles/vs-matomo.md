@@ -6,9 +6,9 @@ description: Plausible and Matomo are open-source website analytics tools. What
   Analytics?
 permalink: /vs-matomo
 ---
-Matomo, formerly known as Piwik, was founded in 2007 and has long been the most well known open-source alternative to Google Analytics.
+Matomo, formerly known as Piwik, was founded in 2007 and has long been the most well known open source alternative to Google Analytics. Matomo is installed on 1.9% of all websites and this is an amazing success for a great open source web analytics project.
 
-[Plausible Analytics](https://plausible.io) is a new player on this market launched in 2019. So what are the differences between the two and why should you consider Plausible as a Matomo alternative? Let's take a look.
+[Plausible Analytics](https://plausible.io) is a newer player on this market launched in 2019. So what are the differences between the two and why should you consider Plausible as a Matomo alternative? Let's take a look.
 
 ![Plausible as a great Matomo alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Matomo alternative")
 
@@ -79,25 +79,6 @@ Plausible Analytics script you need to integrate into your site looks like this:
     <script defer data-domain="domain.com"
     src="https://plausible.io/js/script.js"></script>
 
-While the Matomo script looks like this:
-
-    <!-- Matomo -->
-    <script type="text/javascript">
-    var _paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-    var u="//{$MATOMO_URL}/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', {$IDSITE}]);
-    var d=document, g=d.createElement('script'),
-    s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true;
-    g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-    </script>
-    <!-- End Matomo Code -->
-
 ## Privacy regulations and the need for cookie notices and GDPR or CCPA consent
 
 By being a more simple and more lightweight alternative, it means that Plausible also tracks and collects fewer data points by default. We are built as a [privacy-first analytics tool](https://plausible.io/privacy-focused-web-analytics).
@@ -117,12 +98,6 @@ Without taking the above steps, you would need to compromise the visitor experie
 
 Plausible doesn't use any cookies and we don't collect any personal data so by using Plausible you don't need to obtain a [cookie consent or the GDPR consent](https://plausible.io/data-policy) at all.
 
-## One of the largest web analytics platforms on the web versus a brand new startup
-
-Matomo is one of the most popular website analytics providers. It is installed on 1.5% of all the websites that use a known traffic analysis tool. This means that Matomo is used on [1% of all websites](https://w3techs.com/technologies/details/ta-piwik) on the web. It's a great success for a great open-source web analytics project.
-
-Plausible is an independently developed project. We're a small team and we're self-funded. By using Plausible, you will support indie-developers, indie-businesses and the independent web. You can read more [about us](https://plausible.io/about).
-
 ## Sign up for a free Plausible trial
 
-[Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard while getting a faster website that doesn't require you to annoy your visitors with the different cookie and privacy regulation prompts and notices.
+[Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard that is privacy-friendly out of the box and that helps you get a faster-loading website.
