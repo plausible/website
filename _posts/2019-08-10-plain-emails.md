@@ -25,5 +25,4 @@ HMTL elements and images have a negative effect on deliverability because they t
 
 Plain emails get more responses because they feel much more personal than HTML emails. People associate designed emails with marketing and one-way mass communication. On the other hand, plain emails look like the emails you get from a coworker or a friend. It feels more natural to hit 'reply' on them.
 
-This is why plain emails are a win-win: not only do they simplify the development process but they also reach more people. My takeaway is that we should only get into complex HTML templates if they are completely necessary to enhance the user experience. We should accept that using them sacrifices deliverability, open rates, and development time. The upside of using email designs must be huge to outweight
-outweigh the negative consequences of using them.
+This is why plain emails are a win-win: not only do they simplify the development process but they also reach more people. My takeaway is that we should only get into complex HTML templates if they are completely necessary to enhance the user experience. We should accept that using them sacrifices deliverability, open rates, and development time. The upside of using email designs must be huge to outweigh the negative consequences of using them.

@@ -42,7 +42,7 @@ paying with our personal privacy. This is well documented.
 Besides the costs to our personal privacy, I'd say the much bigger scandal lies in how targeted
 advertising affects civil society. Political campaigns are now able to discern with amazing
 accuracy which voters to target with their advertising. Instead of debating issues in the public
-and broadcasting ads to everbody, campaigns can target voters on an individual basis. This contributes
+and broadcasting ads to everybody, campaigns can target voters on an individual basis. This contributes
 to filter bubbles, disinformation, radicalization, and a general breakdown of democracy.
 
 This is what the Cambridge Analytica scandal was about. The company was built to use online
