@@ -1,3 +1,3 @@
 Contact: security@plausible.io
 Preferred-Languages: en
-Policy: https://plausible.io/
+Policy: https://plausible.io/vulnerability-disclosure-program
