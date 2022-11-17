@@ -13,7 +13,7 @@ The easiest way to get started with Plausible is with our [official managed serv
 
 Our managed hosting can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of Plausible. So you’ll be supporting open source software and getting a great service!
 
-![Plausible: Self-hosted Google Analytics alternative](/uploads/google-analytics-alternatives.png Plausible: Self-hosted Google Analytics alternative")
+![Plausible: Self-hosted Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Self-hosted Google Analytics alternative")
 
 ## What's the difference between Plausible Cloud and self-hosting?
 
