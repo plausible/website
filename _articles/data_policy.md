@@ -23,11 +23,11 @@ By using Plausible Analytics, all the site measurement is carried out absolutely
 
   | Data point | Example | Comment |
   |---|---|---|---|---|
-  | **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=`, `utm_source=`, `utm_medium=` and `utm_campaign=`. |
+  | **Page URL** | _https://yoursite.com/pricing_ | We track the page URL of each page view on your website. We use this to show you which pages have been viewed and how many times a particular page has been viewed. <br /><br />The hostname and path are collected. Query parameters are discarded, except for these special query parameters: `ref=`, `source=`, `utm_source=`, `utm_medium=`, `utm_campaign=`, `utm_content=` and `utm_term=`. |
   | **HTTP Referer** | _https://facebook.com_ | We use the referrer string to show you the number of visitors referred to your website from links on other sites. |
   | **Browser** | _Chrome 86.0_ | We use this to show you what browsers and browser version numbers people use when visiting your website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
   | **Operating system** | _macOS 10.15_ | We use this to show you what operating systems people use when visiting your website. We show the brand of the operating system and the version number. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
-  | **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. |
+  | **Device type**  | _Desktop_ | We use this to show you what devices people use when visiting your website. Devices are categorized into desktop, mobile or tablet. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. |
   | **Country, region, city**  | _United Kingdom, England, London_ | We look up the visitor's location using their IP address. We do not track anything more granular than the city level and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. |
 
 ## How we count unique users without cookies
