@@ -26,7 +26,9 @@ An unfortunate number of these comparisons have focused on what people think is 
 
 In my opinion, these kinds of comparisons were never particularly useful — and they are totally pointless now that anyone still using UA needs to be actively working on their transition.
 
-In this comparison we're going to take a practical look at the question, "how can I get the most out of GA4?". This requires comparisons to UA, but with a focus on moving forward to GA4. At first glance UA/GA3 to GA4 sounds like a simple version upgrade, but I consider it the biggest change in web analytics since the launch of GTM over 10 years ago.
+In this comparison we're going to take a practical look at the question, "how can I get the most out of GA4?". This requires comparisons to UA, but with a focus on moving forward to GA4. 
+
+At first glance UA/GA3 to GA4 sounds like a simple version upgrade, but I consider it the biggest change in web analytics since the launch of GTM over 10 years ago.
 
 ## Differences between UA and GA4
 
@@ -51,7 +53,9 @@ To better understand the reality of this change I've broken down the differences
 
 ## Mindset Changes
 
-The world of analytics has obviously changed in many ways since UA first launched in 2005, and our mindset needs to change as well. To best take advantage of GA4 it helps to understand how Google views these changes and where tracking is headed. Both UA and GA4 are designed to be general purpose tools, but the purpose they are fit for is not the same.
+The world of analytics has obviously changed in many ways since UA first launched in 2005, and our mindset needs to change as well. To best take advantage of GA4 it helps to understand how Google views these changes and where tracking is headed.
+
+Both UA and GA4 are designed to be general purpose tools, but the purpose they are fit for is not the same.
 
 ### Everything is an event
 
@@ -61,7 +65,9 @@ Google talks about [their vision of a user- and event-based measurement here](ht
 
 ### GA4 is for data collection, not data transformation
 
-In UA, it's common practice to transform the data before it is stored. For example: removing query strings, rewriting URLs, or creating views that exclude or include certain types of traffic. In GA4 these transformations need to be done either before the data is collected (like via a rule in GTM) or at the time the data is presented (like with segments, or filtering in Looker Studio). The advantage of this approach is that there's only one version of the data and it is designed to be close to the raw data. 
+In UA, it's common practice to transform the data before it is stored. For example: removing query strings, rewriting URLs, or creating views that exclude or include certain types of traffic. 
+
+In GA4 these transformations need to be done either before the data is collected (like via a rule in GTM) or at the time the data is presented (like with segments, or filtering in Looker Studio). The advantage of this approach is that there's only one version of the data and it is designed to be close to the raw data. 
 
 Think of your GA4 property as your database of traffic data. You want one database to report from, not many different ones. Some cleaning can be done before storing the data, and other transformations done when the data is queried.
 
@@ -116,7 +122,9 @@ GA4 was initially piloted as "App + Web" properties in GA starting in 2019, sett
 
 ### Much more customization in reporting
 
-As with BigQuery, the "Explore" section of GA4 is something that was previously only available to paying users of UA360 (as Advanced Analysis) but is now free for everyone. This section allows you to do deep-dives into the data that previously would have required a 3rd party tool and use of the UA API. As we'll discuss in the next section, the downside is that the limited data retention means you can only explore fairly recent data.
+As with BigQuery, the "Explore" section of GA4 is something that was previously only available to paying users of UA360 (as Advanced Analysis) but is now free for everyone. 
+
+This section allows you to do deep-dives into the data that previously would have required a 3rd party tool and use of the UA API. As we'll discuss in the next section, the downside is that the limited data retention means you can only explore fairly recent data.
 
 ## Biggest Gotchas
 
@@ -124,7 +132,9 @@ We're all aware of the griping out there around GA4. It was probably inevitable 
 
 ### Quotas exceeded with Looker Studio
 
-GA4's API has relatively low limits on how many queries can be made against it. If you have a significant number of Looker Studio dashboards or complex reports you can run up against these quotas quite easily. These are limits in the GA4 API so in theory they could affect any BI tool or API connection to GA4, though so far these issues have appeared mostly with Looker Studio.
+GA4's API has relatively low limits on how many queries can be made against it. If you have a significant number of Looker Studio dashboards or complex reports you can run up against these quotas quite easily. 
+
+These are limits in the GA4 API so in theory they could affect any BI tool or API connection to GA4, though so far these issues have appeared mostly with Looker Studio.
 
 The work-around for this is to have something in between your BI dashboard and the GA4 API that stores the data. Most typically this is BigQuery, but it could be a data extractor, a third-party data hub/ETL system, or simply to use an "Extract Data" datasource type in Looker Studio to pre-specify which GA4 fields you want to use.
 
@@ -138,15 +148,21 @@ If you can't build what you need by customizing an existing standard report then
 
 As we mentioned in the "mindset" section, GA4 does a great job at collecting data, but it doesn't have many in-built tools for transforming data. In general, the best work-around for this will either be to modify the data before it is ever recorded (like via rules in GTM) or after the fact within custom reporting (like in Looker Studio or your BI tool of choice).
 
-Whether it makes more sense to transform the data before or after collection depends upon the type of data and your own preferences and internal practices. For example, if in UA you had a filter that downcased all query strings to normalize that data, or a filter that removed things like session ids from the query strings that type of cleanup would probably be better to do within GTM. Alternatively if you were using a filter to split out your blog subdirectory into its own view for reporting, that would likely be better handled by creating a Looker Studio report for just that blog data. 
+Whether it makes more sense to transform the data before or after collection depends upon the type of data and your own preferences and internal practices. For example, if in UA you had a filter that downcased all query strings to normalize that data, or a filter that removed things like session ids from the query strings that type of cleanup would probably be better to do within GTM. 
+
+Alternatively if you were using a filter to split out your blog subdirectory into its own view for reporting, that would likely be better handled by creating a Looker Studio report for just that blog data. 
 
 In some cases having a separate property could also be the solution, like a dev domain vs. a production domain that were previously on the same property but separated by filters + views. However using multiple properties on the same page to replicate UA view functionality is not typically a good idea.
 
 ### Default 2 months of event data, max of 14 months
 
-Whenever a new property is created, it's typically a good idea to change the default event data retention period to from 2 months to 14 months (this need should be balanced against privacy concerns however). This allows Explore reports to be used in the context of year-over-year data. This limitation does not affect Standard reports, but there are many cases where the data you need may not be available within the Standard reports.
+Whenever a new property is created, it's typically a good idea to change the default event data retention period to from 2 months to 14 months (this need should be balanced against privacy concerns however). 
 
-The increased retention of 14 months helps, but without paying for GA4 360 there is no way to extend this further within GA4 itself. BigQuery may be a solution here too, as you can retain exported data in BigQuery as long as you'd like to. You'll have to pay once you have more than 1TB stored, but the storage is quite inexpensive ($5 per TB). With larger sites that BigQuery bill can become significant over time, so choosing what you want to store and how long you want to store at the beginning is ideal.
+This allows Explore reports to be used in the context of year-over-year data. This limitation does not affect Standard reports, but there are many cases where the data you need may not be available within the Standard reports.
+
+The increased retention of 14 months helps, but without paying for GA4 360 there is no way to extend this further within GA4 itself. BigQuery may be a solution here too, as you can retain exported data in BigQuery as long as you'd like to. 
+
+You'll have to pay once you have more than 1TB stored, but the storage is quite inexpensive ($5 per TB). With larger sites that BigQuery bill can become significant over time, so choosing what you want to store and how long you want to store at the beginning is ideal.
 
 The GA4 reporting interface cannot access that stored historical data, so you'll need some other way to look at it like Looker Studio.
 
@@ -192,7 +208,9 @@ Before Google Signals this was handled in UA with the "advertising features" fun
 
 ### Less data, easier to delete things.
 
-We've talked about the decreased length of data storage already, but it's worth noting that the indefinite storage of data with UA (the old default) could be problematic. It is especially problematic because it's so hard to delete old data. For example if you found PII in your UA data but weren't able to figure out what individual client ID it belonged to you couldn't delete it. GA4 fixes these issues with a much better deletion interface.
+We've talked about the decreased length of data storage already, but it's worth noting that the indefinite storage of data with UA (the old default) could be problematic. 
+
+It is especially problematic because it's so hard to delete old data. For example if you found PII in your UA data but weren't able to figure out what individual client ID it belonged to you couldn't delete it. GA4 fixes these issues with a much better deletion interface.
 
 ---
 
