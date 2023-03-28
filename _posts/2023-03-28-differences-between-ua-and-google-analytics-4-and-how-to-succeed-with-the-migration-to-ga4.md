@@ -196,7 +196,7 @@ GA4 also allows Google Signals to be disabled per country. So you can enable Sig
 
 GA4 sets first-party cookies similarly to UA. When people talk about "[cookieless tracking](https://plausible.io/blog/google-analytics-cookies)" with respect to GA4, they are talking about GA4's ability to use statistical modeling to estimate things like conversion for users that are unable to be tracked via cookies. This is not using some other method of tracking, this is inferring activity from untracked users with machine learning.
 
-This functionality requires use of GA consent mode and at least 1,000 daily users. It also may function better if Google Signals is enabled.
+This functionality requires use of GA consent mode and at least 1,000 daily users.
 
 This is much different than a tool like Plausible, which does not use cookies at all and only reports on data that it has directly measured.
 
