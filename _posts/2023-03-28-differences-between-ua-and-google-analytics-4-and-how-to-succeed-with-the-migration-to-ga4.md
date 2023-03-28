@@ -6,16 +6,16 @@ description: With under 100 days left until UA stops recording new traffic,
   sites need to move quickly onto a new platform. Here's what you should know on
   how to succeed with GA4.
 slug: ua-vs-ga4
-date: 2023-03-28T18:07:11.452Z
+date: 2023-03-28T21:48:07.573Z
 author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Differences between UA and Google Analytics 4
 ---
-As an [alternative to Google Analytics](https://plausible.io), many people share their opinion with us on the "forced" migration from UA to GA4.
+Are you considering migrating from Universal Analytics to Google Analytics 4 but are unsure about the differences between the two and how to succeed with the transition?
 
-I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
+As an [alternative to Google Analytics](https://plausible.io), many people share their opinions with us on the "forced" migration from UA to GA4. I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
 
-So who better to enlighten us than the person that actually wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog besides my co-founder and I.
+So I thought it would be helpful to bring in an expert. And who better to enlighten us than the person who wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog besides my co-founder and me.
 
 1. Ordered list
 {:toc}
@@ -217,9 +217,9 @@ It is especially problematic because it's so hard to delete old data. For exampl
 
 ---
 
-Thanks for sharing your insights Jason! I've certainly learned a thing or two and hope our readers have done the same. If you'd like to learn more, check out Jason's book on Google Analytics and its alternatives on [Gumroad](https://quantable.gumroad.com/l/ga-alternatives) and [Amazon](https://www.amazon.com/Google-Analytics-Alternatives-Navigating-Options/dp/B0BKRZM5MG).
+I'm grateful to have Jason share his insights with us and our readers. If you'd like to learn more, check out Jason's book on Google Analytics and its alternatives on [Gumroad](https://quantable.gumroad.com/l/ga-alternatives) and [Amazon](https://www.amazon.com/Google-Analytics-Alternatives-Navigating-Options/dp/B0BKRZM5MG).
 
-If you still haven't made your decision on what to do concerning the migration from Universal Analytics to GA4, and are looking for alternative solutions, do give Plausible Analytics a chance:
+If you're still deciding whether to migrate to GA4 and are considering alternative solutions, do give Plausible Analytics a chance:
 
 * Cookieless and privacy-focused
 * Intuitive and lightweight
@@ -228,3 +228,5 @@ If you still haven't made your decision on what to do concerning the migration f
 * Integrations with Search Console, Looker Studio and more 
 * You can even import your historical UA stats
 * Check out [our ready-made dashboard](https://plausible.io/plausible.io) and try it out on your site with [a free trial](https://plausible.io/register)
+
+We believe that choosing a web analytics tool should not only be about data collection but also about respecting visitors' privacy. That's why we built Plausible. Plausible provides valuable insights while prioritizing data privacy and user experience.
