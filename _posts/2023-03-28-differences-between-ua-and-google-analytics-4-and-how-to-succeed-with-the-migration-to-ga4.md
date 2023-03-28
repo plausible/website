@@ -3,18 +3,22 @@ layout: post
 title: Differences between UA and Google Analytics 4 (and how to succeed with
   the migration to GA4)
 description: With under 100 days left until UA stops recording new traffic,
-  sites that are still using UA as their primary source of analytics need to
-  move quickly onto a new platform. Here are the things you should know to
-  succeed with GA4.
-slug: /ua-vs-ga4
+  sites need to move quickly onto a new platform. Here's what you should know on
+  how to succeed with GA4.
+slug: ua-vs-ga4
 date: 2023-03-28T18:07:11.452Z
 author: marko-saric
+image: /uploads/remove-google-analytics.png
+image-alt: Differences between UA and Google Analytics 4
 ---
-As an [alternative to Google Analytics](https://plausible.io), many people share their opinion with us on the "forced" migration from UA to GA4. 
+As an [alternative to Google Analytics](https://plausible.io), many people share their opinion with us on the "forced" migration from UA to GA4.
 
-I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it. 
+I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
 
-So who better to enlighten us than the person that actually wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog other than my co-founder and me.
+So who better to enlighten us than the person that actually wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog besides my co-founder and I.
+
+1. Ordered list
+{:toc}
 
 ## 20 things you should know to succeed with GA4
 
@@ -40,16 +44,13 @@ I'm not entirely sure what that description means, and I wrote it! If that's the
 
 To better understand the reality of this change I've broken down the differences into 4 sections:
 
-* Mindset Changes: how we should change our thinking about analytics to better understand where GA4 is coming from?
+* **Mindset Changes**: how we should change our thinking about analytics to better understand where GA4 is coming from?
 
-* Biggest Improvements in GA4: analytics tech has come a long way in the 18+ years since UA was designed, how does GA4 take advantage of these changes?
+* **Biggest Improvements in GA4**: analytics tech has come a long way in the 18+ years since UA was designed, how does GA4 take advantage of these changes?
 
-* Biggest Gotchas: even GA4's biggest supporters wouldn't deny there's still a lot to be improved in the platform, here I list some of the most common issues and how to deal with them.
+* **Biggest Gotchas**: even GA4's biggest supporters wouldn't deny there's still a lot to be improved in the platform, here I list some of the most common issues and how to deal with them.
 
-* Privacy Differences: privacy and compliance is critical in a modern analytics setup. GA4 has some big differences with UA, but perhaps more in common than you might think. 
-
-1. Ordered list
-{:toc}
+* **Privacy Differences**: privacy and compliance is critical in a modern analytics setup. GA4 has some big differences with UA, but perhaps more in common than you might think. 
 
 ## Mindset Changes
 
@@ -170,7 +171,9 @@ The GA4 reporting interface cannot access that stored historical data, so you'll
 
 Google provides no way to import UA data into GA4 or backup your old data. [The UA interface may shut down](https://plausible.io/blog/universal-google-analytics-is-dead) as soon as January 1, 2024 — taking away all access to your historical UA reports.
 
-If you have UA360 and the BigQuery data from it you have more options, but for free UA users there is no way to get raw row-level data out of the system. The best solution here is to have GA4 data from July 1, 2022 so you can do year-over-year comparisons as soon as the switchover happens, but unless you've already done that you'll need to find some other workaround to avoid having to say, "sorry, we just we can't do that".
+If you have UA360 and the BigQuery data from it you have more options, but for free UA users there is no way to get raw row-level data out of the system. 
+
+The best solution here is to have GA4 data from July 1, 2022 so you can do year-over-year comparisons as soon as the switchover happens, but unless you've already done that you'll need to find some other workaround to avoid having to say, "sorry, we just we can't do that".
 
 There are several 3rd party systems that are exporting the aggregate UA data via the UA API into an external datastore like BigQuery, but it's important to remember that even if you do export that data you'll need some way to use that data and report on it. Having a backup that isn't tested or usable is only marginally better than having no backup at all.
 
@@ -214,14 +217,14 @@ It is especially problematic because it's so hard to delete old data. For exampl
 
 ---
 
-Thanks for sharing your insights Jason! I've certainly learned a thing or two and hope other readers have done too. If you'd like to learn more, check out Jason's book on Google Analytics and its alternatives on [Gumroad](https://quantable.gumroad.com/l/ga-alternatives) and [Amazon](https://www.amazon.com/Google-Analytics-Alternatives-Navigating-Options/dp/B0BKRZM5MG).
+Thanks for sharing your insights Jason! I've certainly learned a thing or two and hope our readers have done the same. If you'd like to learn more, check out Jason's book on Google Analytics and its alternatives on [Gumroad](https://quantable.gumroad.com/l/ga-alternatives) and [Amazon](https://www.amazon.com/Google-Analytics-Alternatives-Navigating-Options/dp/B0BKRZM5MG).
 
-If you still haven't made your decision on what to do with regards to the migration from UA to GA4, and are looking for alternative solutions, do give a chance to Plausible Analytics:
+If you still haven't made your decision on what to do concerning the migration from Universal Analytics to GA4, and are looking for alternative solutions, do give Plausible Analytics a chance:
 
-* Session-based
-* Ready-made dashboard
 * Cookieless and privacy-focused
+* Intuitive and lightweight
 * Powered by EU-owned infrastructure
 * Funded directly by subscribers
-* Import your historical UA stats
-* Check out [the live demo](https://plausible.io/plausible.io) and try it out using [a free trial](https://plausible.io/register)
+* Integrations with Search Console, Looker Studio and more 
+* You can even import your historical UA stats
+* Check out [our ready-made dashboard](https://plausible.io/plausible.io) and try it out on your site with [a free trial](https://plausible.io/register)
