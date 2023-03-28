@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Differences between UA and Google Analytics 4 (and how to succeed with
-  the migration to GA4)
+title: "Key differences between UA and GA4: A guide to a smooth migration"
 description: With under 100 days left until UA stops recording new traffic,
   sites need to move quickly onto a new platform. Here's what you should know on
-  how to succeed with GA4.
+  how to succeed with the GA4 migration.
 slug: ua-vs-ga4
 date: 2023-03-28T21:48:07.573Z
 author: marko-saric
@@ -217,7 +216,7 @@ It is especially problematic because it's so hard to delete old data. For exampl
 
 ---
 
-I'm grateful to have Jason share his insights with us and our readers. If you'd like to learn more, check out Jason's book on Google Analytics and its alternatives on [Gumroad](https://quantable.gumroad.com/l/ga-alternatives) and [Amazon](https://www.amazon.com/Google-Analytics-Alternatives-Navigating-Options/dp/B0BKRZM5MG).
+I'm grateful to have Jason share his insights. If you'd like to learn more, check out Jason's book on Google Analytics and its alternatives on [Gumroad](https://quantable.gumroad.com/l/ga-alternatives) and [Amazon](https://www.amazon.com/Google-Analytics-Alternatives-Navigating-Options/dp/B0BKRZM5MG).
 
 If you're still deciding whether to migrate to GA4 and are considering alternative solutions, do give Plausible Analytics a chance:
 
