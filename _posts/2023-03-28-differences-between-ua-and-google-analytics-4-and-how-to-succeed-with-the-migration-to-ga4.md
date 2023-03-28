@@ -5,7 +5,7 @@ description: With under 100 days left until UA stops recording new traffic,
   sites need to move quickly onto a new platform. Here's what you should know on
   how to succeed with the GA4 migration.
 slug: ua-vs-ga4
-date: 2023-03-28T21:48:07.573Z
+date: 2023-03-28T22:06:55.576Z
 author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Differences between UA and Google Analytics 4
