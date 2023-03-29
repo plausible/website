@@ -87,10 +87,10 @@ They are saying that in an era where individual users switch between devices mor
 
 How does GA4 identify users? It utilizes (in order): 
 
-1. customer-supplied IDs (user logs into your site, and you provide that info to GA)
+1. Customer-supplied IDs (user logs into your site, and you provide that info to GA)
 2. Google Signals (uses Google login to ID user)
 3. Device ID (client cookie or app instance ID)
-4. statistical modeling (infer information based upon other similar users)
+4. Statistical modeling (infer information based upon other similar users)
 
 In UA there were user ID-based views, but they were problematic and not widely used, whereas in GA4 this user ID-first approach is a core part of the tool.
 
@@ -166,7 +166,7 @@ You'll have to pay once you have more than 1TB stored, but the storage is quite 
 
 The GA4 reporting interface cannot access that stored historical data, so you'll need some other way to look at it like Looker Studio.
 
-### No backup or import of UA data.
+### No backup or import of UA data
 
 Google provides no way to import UA data into GA4 or backup your old data. [The UA interface may shut down](https://plausible.io/blog/universal-google-analytics-is-dead) as soon as January 1, 2024 — taking away all access to your historical UA reports.
 
@@ -202,13 +202,13 @@ This functionality requires use of GA consent mode and at least 1,000 daily user
 
 This is much different than a tool like Plausible, which does not use cookies at all and only reports on data that it has directly measured.
 
-### Google Signals is more tightly coupled with GA4.
+### Google Signals is more tightly coupled with GA4
 
 Google Signals has been part of UA for some time, but it has been integrated more deeply into GA4. Google Signals is not enabled by default, but is required for advertising features, demographics reporting, cross-device reporting, and better user modeling. 
 
 Before Google Signals this was handled in UA with the "advertising features" functionality, which used the DoubleClick 3rd party cookie. With the eventual demise of 3rd party cookies, Signals is the replacement for that functionality but comes with its own privacy considerations.
 
-### Less data, easier to delete things.
+### Less data, easier to delete things
 
 We've talked about the decreased length of data storage already, but it's worth noting that the indefinite storage of data with UA (the old default) could be problematic. 
 
