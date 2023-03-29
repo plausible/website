@@ -5,14 +5,14 @@ description: With under 100 days left until UA stops recording new traffic,
   sites need to move quickly onto a new platform. Here's what you should know to
   succeed with the GA4 migration.
 slug: ua-vs-ga4
-date: 2023-03-29T11:45:01.916Z
+date: 2023-03-29T13:58:13.262Z
 author: marko-saric
 image: /uploads/ua-to-ga4-transition.png
 image-alt: Differences between UA and Google Analytics 4
 ---
 Are you considering migrating from Universal Analytics to Google Analytics 4 but are unsure about the differences between the two and how to succeed with the transition?
 
-We're an [alternative to Google Analytics](https://plausible.io) so many people share their opinions with us on the "forced" migration from UA to GA4. I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
+We're an [alternative to Google Analytics](https://plausible.io) and many people share their opinions with us on the "forced" migration from UA to GA4. I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
 
 So I thought it would be helpful to bring in an expert. And who better to enlighten us than the person who wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog besides my co-founder and me.
 
