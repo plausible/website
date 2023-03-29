@@ -2,8 +2,8 @@
 layout: post
 title: "Key differences between UA and GA4: A guide to a smooth migration"
 description: With under 100 days left until UA stops recording new traffic,
-  sites need to move quickly onto a new platform. Here's what you should know on
-  how to succeed with the GA4 migration.
+  sites need to move quickly onto a new platform. Here's what you should know to
+  succeed with the GA4 migration.
 slug: ua-vs-ga4
 date: 2023-03-29T11:45:01.916Z
 author: marko-saric
@@ -12,7 +12,7 @@ image-alt: Differences between UA and Google Analytics 4
 ---
 Are you considering migrating from Universal Analytics to Google Analytics 4 but are unsure about the differences between the two and how to succeed with the transition?
 
-As an [alternative to Google Analytics](https://plausible.io), many people share their opinions with us on the "forced" migration from UA to GA4. I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
+We're an [alternative to Google Analytics](https://plausible.io) so many people share their opinions with us on the "forced" migration from UA to GA4. I wanted to cover this topic on our blog in more detail but I've never run GA4 on a big site and don't have much experience with it.
 
 So I thought it would be helpful to bring in an expert. And who better to enlighten us than the person who wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog besides my co-founder and me.
 
@@ -225,6 +225,8 @@ If you're still deciding whether to migrate to GA4 and are considering alternati
 * Powered by EU-owned infrastructure
 * Funded directly by subscribers
 * Integrations with Search Console, Looker Studio and more 
+* Automated tracking of external link clicks, file downloads and 404 error pages
+* Easy setup of custom events using CSS class names
 * You can even import your historical UA stats
 * Check out [our ready-made dashboard](https://plausible.io/plausible.io) and try it out on your site with [a free trial](https://plausible.io/register)
 
