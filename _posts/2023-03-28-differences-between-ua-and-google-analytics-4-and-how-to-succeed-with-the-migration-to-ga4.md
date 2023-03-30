@@ -25,7 +25,7 @@ With under 100 days left until UA stops recording new traffic, sites that are st
 
 In the couple years that GA4 has been around, there's been a lot of ink spilled about the many differences between Universal Analytics (UA) and Google Analytics 4 (GA4).
 
-An unfortunate number of these comparisons have focused on what people think is missing from GA4 or what they don't like about GA4. Many times the hidden uncurrent of these articles is something along the lines of, "if Google just would understand the situation, they'd give us more time".
+An unfortunate number of these comparisons have focused on what people think is missing from GA4 or what they don't like about GA4. Many times the hidden undercurrent of these articles is something along the lines of, "if Google just would understand the situation, they'd give us more time".
 
 In my opinion, these kinds of comparisons were never particularly useful — and they are totally pointless now that anyone still using UA needs to be actively working on their transition.
 
