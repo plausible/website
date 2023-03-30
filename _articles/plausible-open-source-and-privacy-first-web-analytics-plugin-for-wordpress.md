@@ -206,7 +206,7 @@ Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specifi
 
 Normally the hash part of the URL is discarded in your Plausible dashboard but you can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats so you can see the different pages your visitors have viewed.
 
-## How to enabled track visitors who use the Internet Explorer browser
+## How to track visitors who use Internet Explorer
 
 The default Plausible script won't work on Internet Explorer because it uses the document.currentScript API to read configuration options. But you can enabled the "IE compatibility" mode in your Plausible WordPress plugin settings to count visitors who use the Internet Explorer browser.
 
