@@ -36,7 +36,8 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * Our WordPress plugin excludes your visits to your website from being counted in your analytics by default
 * We make it easy to track 404 error pages that people visit so you can fix them and redirect them to more appropriate pages
 * We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
-* We make it easy for you to serve our script as a first-party connection from a subdomain such as stats.yoursite.com or plausible.yoursite.com. This makes your stats more accurate as it avoids the adblockers
+* We make it easy to track file downloads so you can see which of your documents are more popular than others
+* We make it easy to setup goals and custom events using CSS class names so you can track conversions and analyze conversion attribution
 * You can check your stats directly in your WordPress dashboard
  
 ## How to get started with Plausible Analytics
@@ -104,6 +105,48 @@ You can view your Plausible stats directly in your WordPress dashboard without n
 
 * You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard
 
+## How to setup custom events to track goal conversions
+
+Plausible Analytics plugin makes it ease to setup custom events and track actions such as purchases, signups, button clicks or form submissions.
+
+You simply need to tag the site element you want to track with a CSS class name directly in your WordPress editor. 
+
+* You can click on any block element you want to track such as a button or a form. This will open up the block menu on the right-hand side of your screen.
+
+![Click on any block element you want to track](/docs/img/wordpress-button-css-class-name.png)
+
+* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track form submissions on your contact form, you could use: `plausible-event-name=Form+Submit`.
+
+![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png)
+
+Custom events won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
+
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form 
+* Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard. So in our example where you added a CSS class name `plausible-event-name=Form+Submit`, the goal to add to your Plausible account is `Form Submit` (plus is replaced by a space).
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
+
+When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard and will appear as soon as the first conversion has been tracked.
+
+## How to track file downloads
+
+File downloads tracking is essential for many site owners and Plausible helps you automate this process. Plausible Analytics plugin can capture a file download event each time a link is clicked and that link contains a file extension. 
+
+Our "File Downloads Tracking" captures a file download event each time a link is clicked with a document, presentation, text file, compressed file, video, audio or other common file type. Both internal and external files downloads are tracked. These file extensions are tracked by default:
+
+`.pdf, .xlsx, .docx, .txt, .rtf, .csv, .exe, .key, .pps, .ppt, .pptx, .7z, .pkg, .rar, .gz, .zip, .avi, .mov, .mp4, .mpeg, .wmv, .midi, .mp3, .wav, .wma`
+
+File downloads won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
+
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
+* Select Custom event as the goal trigger and enter this exact name: **File Download**
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
+
+After you've completed this process, all the file downloads will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see "File Download" goal as soon as the first link that leads to a file has been tracked.
+
 ## How to track external link clicks 
 
 Outbound links play a significant role on the open web, but how do you track clicks on outbound links using your WordPress analytics? Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
@@ -151,23 +194,21 @@ Click on a particular error page URL to filter the dashboard by those clicks onl
 
 Learn more in: "[How to track, identify and fix 404 error pages on your website](https://plausible.io/blog/track-404-errors)"
 
-## Serve the script as a first-party connection from your domain name
+## How to exclude admins and other roles from being tracked
 
-Plausible Analytics gives you a quick and easy way to serve our script as a first party connection from your domain name be it from a subdomain, subfolder or from a random file. 
-
-What's the benefit of doing this? Your site looks cleaner with no third-party connections. You also get more accurate stats because when running Plausible as a first-party connection adblockers do not block the script.
-
-The custom domain setting you see in the current version of our plugin is no longer recommended as adblockers have started crawling the web looking for them. 
-
-We recommend you [set up a proxy](https://plausible.io/docs/proxy/introduction) instead as it's a far more superior option. Our instructions for the [Cloudflare proxy](https://plausible.io/docs/proxy/guides/cloudflare) are simple and easy to set up in a few minutes even without any tech know-how.
-
-We aim to release the proxy by default in the next version of our plugin. Stay tuned!
-
-## How to exclude admins from being tracked
-
-By default, our WordPress plugin excludes your own visits from being counted in the stats. 
+By default, our WordPress plugin excludes your own visits from being counted in the stats. You can optionally choose to exclude visits from being counted for other user roles too.
 
 However, if you'd like to count your visits, you can enable this. Switch on the "Track analytics for administrator" feature.
+
+## How to enable hash-based URL tracking
+
+Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specific-subheading` or `yourdomain.com/#contact`?
+
+Normally the hash part of the URL is discarded in your Plausible dashboard but you can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats so you can see the different pages your visitors have viewed.
+
+## How to enabled track visitors who use the Internet Explorer browser
+
+The default Plausible script won't work on Internet Explorer because it uses the document.currentScript API to read configuration options. But you can enabled the "IE compatibility" mode in your Plausible WordPress plugin settings to count visitors who use the Internet Explorer browser.
 
 ## I've installed Plausible but stats don't track
 
