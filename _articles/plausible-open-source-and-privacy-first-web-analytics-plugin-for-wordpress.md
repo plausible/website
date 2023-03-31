@@ -6,7 +6,7 @@ description: Plausible Analytics is an open source web analytics plugin for
   Google Analytics alternative.
 permalink: /wordpress-analytics-plugin
 ---
-Plausible Analytics is an open source web analytics plugin for WordPress that is a simple to use, lightweight (< 1 KB) and privacy-friendly Google Analytics alternative.
+Plausible Analytics is an open source web analytics plugin for WordPress that is a easy to use, lightweight (< 1 KB) and privacy-friendly Google Analytics alternative.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
@@ -25,11 +25,11 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions
 
-* Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can review our code and contribute to the development. You can even self-host Plausible on your server and manage your infrastructure
+* Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
 
 * Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism
 
-* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can subscribe. The plans start at $6/month or $4/month when billed annually and are based on the number of page views your sites have
+* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9/month or $7.5/month when billed annually and are based on the number of page views your sites have
 
 ## What are the other features of Plausible Analytics for WordPress?
 
@@ -38,7 +38,8 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
 * We make it easy to track file downloads so you can see which of your documents are more popular than others
 * We make it easy to setup goals and custom events using CSS class names so you can track conversions and analyze conversion attribution
-* You can check your stats directly in your WordPress dashboard
+* We make it easy for you to exclude specific pages from being tracked
+* You can check your Plausible stats directly in your WordPress dashboard
  
 ## How to get started with Plausible Analytics
 
@@ -83,7 +84,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 
 That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
 
-There are some optional Plausible features that we recommend you enable too. Here's a look at those.
+There are some optional features that you enable in the plugin settings. Here's a look at those.
 
 ## How to view your stats directly in your WordPress dashboard
 
@@ -99,7 +100,7 @@ You can view your Plausible stats directly in your WordPress dashboard without n
 
 * Click the "Create shared link" button and your new shared link will be displayed
 
-* Enable the "View your stats in your WordPress dashboard" setting in our WordPress plugin and paste your shared link 
+* Enable the "View your stats in your WordPress dashboard" setting in our WordPress plugin settings and paste your shared link 
 
 * Click on the "Save Changes" button to save it and to enable you to view your stats in your WordPress dashboard
 
@@ -109,22 +110,22 @@ You can view your Plausible stats directly in your WordPress dashboard without n
 
 Plausible Analytics plugin makes it ease to setup custom events and track actions such as purchases, signups, button clicks or form submissions.
 
-You simply need to tag the site element you want to track with a CSS class name directly in your WordPress editor. 
+You need to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
 
-* You can click on any block element you want to track such as a button or a form. This will open up the block menu on the right-hand side of your screen.
+* You can click on any block element you want to track such as a button or a form. This will open up the block menu on the right-hand side of your screen
 
 ![Click on any block element you want to track](/docs/img/wordpress-button-css-class-name.png)
 
-* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track form submissions on your contact form, you could use: `plausible-event-name=Form+Submit`.
+* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track form submissions on your contact form, you could use: `plausible-event-name=Form+Submit`
 
 ![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png)
 
-Custom events won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
+Custom events won't show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
 
-* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
+* To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section
 * You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form 
 * Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard. So in our example where you added a CSS class name `plausible-event-name=Form+Submit`, the goal to add to your Plausible account is `Form Submit` (plus is replaced by a space).
-* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
+* Next, click on the "Add goal" button and you'll be taken back to the Goals page
 
 When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard and will appear as soon as the first conversion has been tracked.
 
@@ -136,7 +137,7 @@ Our "File Downloads Tracking" captures a file download event each time a link is
 
 `.pdf, .xlsx, .docx, .txt, .rtf, .csv, .exe, .key, .pps, .ppt, .pptx, .7z, .pkg, .rar, .gz, .zip, .avi, .mov, .mp4, .mpeg, .wmv, .midi, .mp3, .wav, .wma`
 
-File downloads won’t show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
+File downloads won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up. Here's how:
 
 * To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
 * You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
@@ -214,31 +215,19 @@ The default Plausible script won't work on Internet Explorer because it uses the
 
 You may discover a conflict between the Plausible script and other plugins you are using on your site. 
 
-Especially performance optimization plugins such as WP Rocket may cause conflicts as these plugins try to change and optimize JavaScript files by using minification, caching, lazy loading and other techniques.
+Especially performance optimization plugins may cause conflicts as these plugins try to change and optimize JavaScript files by using minification, caching, lazy loading and other techniques.
 
 Plausible script is optimized for performance by default and there's no reason to use any other tricks and techniques on it.
 
-If you've inserted our script into your site but it's still not tracking correctly, you may be experiencing a plugin conflict. You can try to view the source of your page to see how the Plausible snippet looks like. If the snippet looks different from the one you inserted onto your site, it is likely that a performance optimization plugin has impacted it.
+We've built our plugin so it avoids most potential conflicts with performance optimization plugins so we recommend you to use our plugin rather than manually insert our script.
 
 ### Troubleshoot conflicts with WP Rocket
 
 You can try to troubleshoot your installation by experimenting with these tips:
 
-* Use our official WordPress plugin to install Plausible on your site instead of manually adding our snippet into the header section of your site. We've made our plugin in a way so that it fixes most potential conflicts with WP Rocket and similar plugins
+* Use our official WordPress plugin to install Plausible on your site instead of manually adding our snippet into the header section of your site
 
-* Deactivate WP Rocket or another performance optimization plugin that is causing the conflict. Clear the cache. Plausible should then work all fine
-
-* Whitelist our script in the WP Rocket settings. WP Rocket is aware that their performance optimization may negatively affect some scripts so they allow you [to whitelist and exclude](https://docs.wp-rocket.me/article/39-excluding-external-js-from-concatenation) certain scripts from being optimized. You could try and whitelist our domain name (`plausible.io`), the exact URLs of our scripts (`https://plausible.io/js/plausible.js` and `https://plausible.io/js/plausible.outbound-links.js`) and also the new URLs that WP Rocket places our script on (`/wp-content/cache/min/1/js/plausible.outbound-links.js` and (`/wp-content/cache/min/1/js/plausible.js`)
-
-* Disable different settings in WP Rocket such as "Load Javascript Deferred"
-
-* Use a slightly different Plausible snippet instead of the default one. This one should prevent any conflicts:
-
-```
-<script defer data-domain="yourdomain.com" data-api='https://plausible.io/api/event' src="https://plausible.io/js/script.js"></script>
-```
-
-* Make sure to clear the WordPress cache in order for the changes to take effect
+* Disable the "Combine JavaScript Files" settings in WP Rocket
 
 ### Troubleshoot conflicts with SiteGround Optimizer
 
@@ -246,21 +235,9 @@ SiteGround Optimizer is another popular performance optimization plugin. If you 
 
 * Use our official WordPress plugin instead of manually installing our snippet into your site
 
-* Turn off the "combine Javascript" setting in SiteGround Optimizer
-
-* You can install the [Code Snippets Plugin](https://wordpress.org/plugins/code-snippets/). Then add the following code:
-
-```
-    add_filter( 'sgo_javascript_combine_excluded_external_paths', 'js_combine_exclude_external_script' );
-    function js_combine_exclude_external_script( $exclude_list ) {
-        $exclude_list[] = 'plausible.io';
-        return $exclude_list;
-    }
-```
+* Turn off the "combine JavaScript" setting in SiteGround Optimizer
 
 ## Contribute to the development of our WordPress plugin
-
-Thanks to [Mehul Gohil](https://mehulgohil.com/) for building the Plausible Analytics WordPress plugin and for keeping it up to date.
 
 You can contribute to our WordPress plugin too. Add your feature requests, upvote existing request or even contribute with your code. Here's [our main GitHub repo](https://github.com/plausible/analytics) and [our WordPress plugin repo](https://github.com/plausible/wordpress).
 
