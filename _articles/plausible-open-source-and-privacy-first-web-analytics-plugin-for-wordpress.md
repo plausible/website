@@ -19,7 +19,7 @@ Plausible Analytics is an open source web analytics plugin for WordPress that is
 
 Plausible Analytics is built to be a more modern [alternative to Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics solutions. Here's what makes us different:
 
-* Plausible, unlike Google Analytics, doesn't use cookies and doesn't track any personal data. You don't need to bother your visitors with GDPR consent banners. Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
+* Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any other long term identifers and doesn't track any personal data. We're also exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
 
 * Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Our script is under 1 KB in size, which is 45 times more lightweight than the Google Analytics script. Plausible will not slow down your site
 
@@ -27,19 +27,19 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
 
-* Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism
+* Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell or share your site data and we don't use it for any other purpose. We choose the subscription business model rather than surveillance capitalism. We're solely funded by the fees our subscribers pay us
 
-* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9/month or $7.5/month when billed annually and are based on the number of page views your sites have
+* There's a 30 day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9/month or $7.5/month when billed annually and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing)
 
 ## What are the other features of Plausible Analytics for WordPress?
 
-* Our WordPress plugin excludes your visits to your website from being counted in your analytics by default
-* We make it easy to track 404 error pages that people visit so you can fix them and redirect them to more appropriate pages
-* We make it easy to track clicks on external links so you can see which of your affiliate links are more popular than others
-* We make it easy to track file downloads so you can see which of your documents are more popular than others
-* We make it easy to setup goals and custom events using CSS class names so you can track conversions and analyze conversion attribution
-* We make it easy for you to exclude specific pages from being tracked
-* You can check your Plausible stats directly in your WordPress dashboard
+* Our WordPress plugin excludes your own visits to your website from being counted in your analytics by default. You can also optionally exclude other user roles
+* Track 404 error pages that people visit so you can fix them and redirect them to more appropriate pages
+* Track clicks on external links so you can see which of your affiliate links are more popular than others
+* Track file downloads so you can see which of your documents are more popular than others
+* Setup goals and custom events using CSS class names so you can track conversions and analyze conversion attribution
+* Exclude specific pages from being tracked
+* Check your Plausible stats directly in your WordPress dashboard
  
 ## How to get started with Plausible Analytics
 
@@ -51,11 +51,11 @@ To use Plausible Analytics, you need to register an account. To explore the prod
 
 After you verify your email address, you need to enter the domain name of the website you want to track. 
 
-Please, remove https and www from the URL, just keep the hostname (yourdomain.com). For example, if your site is https://www.yourdomain.com then the part to enter in the "Domain" field is yourdomain.com.
+Please, remove https and www from the URL, just keep the hostname (`yourdomain.com`). For example, if your site is `https://www.yourdomain.com` then the part to enter in the "Domain" field is `yourdomain.com`.
 
-If you would like to track a subdomain such as blog.yourdomain.com then please include the subdomain. Plausible Analytics essentially sees different subdomains as different sites.
+If you would like to track a subdomain such as `blog.yourdomain.com` then please include the subdomain. Plausible Analytics essentially sees different subdomains as different sites.
 
-For example, if your subdomain is https://blog.yourdomain.com then the part to enter in the "Domain" field is blog.yourdomain.com.
+For example, if your subdomain is `https://blog.yourdomain.com` then the part to enter in the "Domain" field is `blog.yourdomain.com`.
 
 ![Enter the domain name of the website you want to track](/docs/img/website-details.png)
 
@@ -77,8 +77,8 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 ![Activate our WordPress plugin](/uploads/activate-our-wordpress-plugin.png)
 
 * "Plausible Analytics" entry will now show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the various options available
-* Select the options that you want and click on the "Save Changes" button
-* If you have a cache plugin activated, do purge the cache just in case
+* Select the options and features that you want to enable and click on the "Save Changes" button
+* If you have a caching plugin activated, do purge the cache just in case
 
 ![Plausible Analytics WordPress plugin settings](/uploads/plausible-analytics-wordpress-plugin-settings.png)
 
@@ -108,7 +108,7 @@ You can view your Plausible stats directly in your WordPress dashboard without n
 
 ## How to setup custom events to track goal conversions
 
-Plausible Analytics plugin makes it ease to setup custom events and track actions such as purchases, signups, button clicks or form submissions.
+Plausible Analytics plugin makes it easy to setup custom events and track actions such as purchases, signups, button clicks or form submissions.
 
 You need to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
 
@@ -124,7 +124,7 @@ Custom events won't show up automatically in your Plausible dashboard. You’ll 
 
 * To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section
 * You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form 
-* Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard. So in our example where you added a CSS class name `plausible-event-name=Form+Submit`, the goal to add to your Plausible account is `Form Submit` (plus is replaced by a space).
+* Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard. So in our example where you added a CSS class name `plausible-event-name=Form+Submit`, the goal to add to your Plausible account is `Form Submit` (plus is replaced by a space)
 * Next, click on the "Add goal" button and you'll be taken back to the Goals page
 
 When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard and will appear as soon as the first conversion has been tracked.
