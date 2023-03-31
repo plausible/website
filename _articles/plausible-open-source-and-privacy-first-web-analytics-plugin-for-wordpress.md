@@ -207,19 +207,38 @@ Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specifi
 
 Normally the hash part of the URL is discarded in your Plausible dashboard but you can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats so you can see the different pages your visitors have viewed.
 
+## How to exclude specific pages from being tracked
+
+In the "Exclude specific pages from being tracked" section of our WordPress plugin settings, you can add a list of page paths that you don't want to be counted in your website analytics.
+
+Any pages you list should be comma-separated, with asterisks to indicate unspecified regions of the pathname. All entries must begin with a `/`, and should not include the trailing slash as we account for this automatically.
+
+* Asterisks (*) expand to any stretch (of length >=0) of the page path and can be on either end or in the middle of any entry, but can't be in the place of slashes.
+* Double asterisks (**) expand to any stretch (of length >=0) of the page path, can be on either end or in the middle of any entry, and can represent any characters, even slashes.
+
+Here are some common use cases and examples for how to exclude pages:
+
+| exclusion rule | pages that will match |
+| ------------- | ------------- |
+| `/blog4` | `/blog4` and exactly `/blog4` with nothing before or after it, so not `/blog45` nor `/blog4/new` nor `/blog` |
+| `/rule/*` | `/rule/<anything>`, with `<anything>` being any set of characters (length >=0), but not a forward slash - for example, both `/rule/1` as well as `/rule/general-rule-14`, but not `/rule/4/details` nor `/rules` |
+| `/how-to-*` | `/how-to-<anything>` - for example, `/how-to-play` or `/how-to-succeed`, but not `how-to-/blog` |
+| `/*/admin` | `/<anything>/admin` - for example, `/sites/admin`, but not `/sites/admin/page-2` nor `/sites/2/admin` nor `/admin` |
+| `/*/priv/*` | `/<anything>/priv/<anything>` - for example, `/admin/priv/sites`, but not `/priv` nor `/priv/page` nor `/admin/priv` |
+| `/rule/*/*` | `/rule/<anything>/<anything>` - for example, `/rule/4/new/` or `/rule/10/edit`, but not `/rule` nor `/rule/10/new/save` |
+| `/wp/**` | `/wp<anything, even slashes>` - for example, `/wp/assets/subdirectory/another/image.png` or `/wp/admin`, and everything in between, but not `/page/wp`
+
 ## How to track visitors who use Internet Explorer
 
 The default Plausible script won't work on Internet Explorer because it uses the document.currentScript API to read configuration options. But you can enabled the "IE compatibility" mode in your Plausible WordPress plugin settings to count visitors who use the Internet Explorer browser.
 
 ## I've installed Plausible but stats don't track
 
-You may discover a conflict between the Plausible script and other plugins you are using on your site. 
-
-Especially performance optimization plugins may cause conflicts as these plugins try to change and optimize JavaScript files by using minification, caching, lazy loading and other techniques.
+You may discover a conflict between the Plausible script and other plugins you are using on your site. Especially performance optimization plugins may cause conflicts.
 
 Plausible script is optimized for performance by default and there's no reason to use any other tricks and techniques on it.
 
-We've built our plugin so it avoids most potential conflicts with performance optimization plugins so we recommend you to use our plugin rather than manually insert our script.
+We've built our plugin so it avoids most potential conflicts with performance optimization plugins so we recommend you to use our plugin rather than manually insert our script in order to avoid these issues.
 
 ### Troubleshoot conflicts with WP Rocket
 
