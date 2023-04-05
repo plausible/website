@@ -41,7 +41,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * **Exclude specific pages from being tracked**
 * **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too
 * **Allow specific user roles (editors, authors or contributors) to access the stats dashboard**
-* See a **post stats link in the toolbar** while browsing your site
+* See a **link to the post stats in the toolbar** while browsing your site
  
 ## How to get started with Plausible Analytics
 
@@ -191,6 +191,8 @@ In addition to tracking submissions, you might want to know which section of you
 `plausible-event-name=Form+Submit plausible-event-position=footer`
 
 You can add as many of these classes as you want. And the names can be anything that you want. Custom properties will show up automatically on your dashboard as long as you've added the goal itself. You don't need to manually add them in your settings.
+
+For more details on custom events and custom properties, please check out [this documentation page](https://plausible.io/docs/custom-event-goals).
 
 ## How to track 404 error pages
 
