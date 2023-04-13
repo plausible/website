@@ -12,6 +12,11 @@ Many SaaS startups already offer web analytics to their customers using Plausibl
 
 Prezly is providing Plausible Analytics powered web analytics to thousands of their customers, including Shopify, Sennheiser and many other international brands. Read more [in their announcement](https://www.prezly.com/help/analytics-dashboard).
 
+![How to offer a white label web analytics dashboard powered by Plausible](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
+
+1. Ordered list
+{:toc}
+
 ## What is Plausible Analytics?
 
 Plausible Analytics provides easy to use, intuitive, lightweight (< 1 KB) and privacy-first web analytics. We don't collect personal data, we don't use cookies or other long-term identifiers. We exclusively use EU-owned infrastructure, ensuring visitor stats never leave the EU.
