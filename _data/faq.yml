@@ -28,6 +28,9 @@
 - question: Is the 50 sites limit a hard limit?
   answer: "No. 50 sites is how many sites you can add for free with any subscription. There are no hard limits on the number of sites you can have in your Plausible account. For those with more than 50 sites we have enterprise plans. Do reach out to us for more details."
   
+- question: Can I integrate your dashboard into my UI and offer it to my customers?
+  answer: "Yes. We have built several features to make it easy to integrate web analytics powered by Plausible (but without our branding) directly into your user interface. <a class='text-indigo-600' href='https://plausible.io/white-label-web-analytics'>See more here</a>."
+  
 - question: Do you have a roll-up view with aggregated stats for several sites?
   answer: "Yes. We have a lot of flexibility in the way you can track your stats. You can track subdomains and subfolders in one dashboard. You can send stats to multiple dashboards at the same time. You can have a roll-up view that aggregates stats while keeping them independent at the same time. <a class='text-indigo-600' href='https://plausible.io/docs/plausible-script'>More details here</a>."
   
