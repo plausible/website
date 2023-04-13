@@ -29,7 +29,7 @@ Plausible is trusted by thousands of paying subscribers. We're a completely inde
 
 Here are the features we've built to help you resell or provide a white label analytics dashboard powered by Plausible to your customers:
 
-## Sites API
+## Sites API to manage a large number of sites programmatically
 
 Sites API allows you to add and manage a large number of sites programmatically. You can add sites, delete sites or change domain names using the sites API.
 
@@ -43,7 +43,7 @@ The sites API also allows you to create shared links, which you then use to embe
 
 See our [sites API documentation](https://plausible.io/docs/sites-api).
 
-## Embed dashboard 
+## Embed dashboard to integrate our stats into your user interface
 
 Embed dashboard allows you to embed our default dashboard (without Plausible branding) into your user interface. You get our modern, fast-loading and fully featured web analytics without any need for you to build a dashboard yourself.
 
@@ -53,7 +53,7 @@ You can also apply filters to the embed dashboard to segment the audience. These
 
 Learn more about [the embed dashboard functionality here](https://plausible.io/docs/embed-dashboard).
 
-## Stats API
+## Stats API for complete flexibility 
 
 Stats API allows you to take individual metrics and create a custom-built dashboard within your user interface in whichever shape or form you want. Show one particular metric only or build a fully featured dashboard from scratch. It's all possible. 
 
@@ -63,7 +63,7 @@ Do you prefer to offer a fully featured dashboard but also display specific metr
 
 See our [stats API documentation](https://plausible.io/docs/stats-api).
 
-## Proxy
+## Proxy to eliminate third-party calls
 
 Proxy allows you to run our lightweight web analytics script as a first-party connection from your domain name eliminating third-party calls. Another benefit of this approach is that you'll be getting more accurate stats, as content blockers don't typically block first-party scripts.
 
