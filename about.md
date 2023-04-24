@@ -1,25 +1,25 @@
 ---
 layout: article
 title: About Plausible Analytics
-description: Plausible Analytics is an open-source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn’t come from the AdTech world. Learn more about us.
+description: Plausible Analytics is an open source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world. Learn more about us.
 permalink: /about
 ---
 
-Plausible Analytics is an open-source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world.
+Plausible Analytics is an open source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world.
 
-Plausible is trusted by thousands of paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
+Plausible is trusted by 10,000+ paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
 
 ![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
 
 ## Independent, self-funded and sustainable by the subscription fees our users pay us
 
-Plausible Analytics development started in December 2018, public beta was launched in January 2019 and the subscriptions in April 2019. While Plausible is an open source software that you can self-host on your server, we also sell a hosted, plug and play solution as a SaaS.
+Plausible Analytics development started in December 2018, public beta was launched in January 2019 and the subscriptions in May 2019. You can read more about our progress [over years here](https://plausible.io/blog/open-source-saas).
 
 We run a [sustainable open source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time. It also enables us to give back [5% of our gross revenue](https://plausible.io/giving-back) to the environmental causes and open source projects that we rely on.
 
 We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. 
 
-We don’t make money by selling or sharing your data, or abusing your visitor’s privacy. When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
+We don't make money by selling or sharing your data, or abusing your visitor's privacy. When using Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
 
 Since we don't make money from advertising, we need to charge a fee to keep the project going. This is why Plausible Analytics is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism. 
 
