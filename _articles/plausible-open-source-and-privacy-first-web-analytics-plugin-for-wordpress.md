@@ -110,6 +110,8 @@ To do so, you need to create a private shared link in your Plausible account fir
 
 * The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show the stats dashboard to specific user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
 
+## How to enable a proxy to get more accurate stats
+
 ## How to track external link clicks 
 
 Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
