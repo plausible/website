@@ -112,6 +112,16 @@ To do so, you need to create a private shared link in your Plausible account fir
 
 ## How to enable a proxy to get more accurate stats
 
+Plausible script is not blocked to the same extent as Google Analytics but we're blocked by some blocklist maintainers who have taken the stance that they want to block every tracking script and don't want to have the responsibility to judge what's good and what's bad.
+
+Site owners feel unfairly targeted and an innocent casualty of this arms race between blocklist maintainers and the adtech industry. Site owners want some data to figure out what's going on and learn what they can do to improve. It's unfortunate for them to lose valuable, privacy-friendly insights that help them create a better user experience.
+
+We've introduced a proxy feature after hearing from so many site owners who expect privacy-first analytics not to be blocked. We wanted to give a choice to people that use Plausible Analytics.
+
+* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%.
+
+* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin. In the "Avoid adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button. This will give you more accurate stats as our script will run as a first-party connection from your domain name.
+
 ## How to track external link clicks 
 
 Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
