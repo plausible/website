@@ -64,4 +64,4 @@ We may update this policy as needed to comply with relevant regulations and refl
 
 Contact us at [privacy@plausible.io](mailto:privacy@plausible.io) if you have any questions, comments, or concerns about this privacy policy, your data, or your rights with respect to your information.
 
-Last updated: March 18th, 2022
+Last updated: May 3rd, 2023
