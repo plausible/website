@@ -118,9 +118,19 @@ Site owners feel unfairly targeted and an innocent casualty of this arms race be
 
 We've introduced a proxy feature after hearing from so many site owners who expect privacy-first analytics not to be blocked. We wanted to give a choice to people that use Plausible Analytics.
 
-* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%.
+* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%
 
-* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin. In the "Avoid adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button. This will give you more accurate stats as our script will run as a first-party connection from your domain name.
+* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin. In the "Bypass adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button 
+
+* Enabling the proxy will give you more accurate stats as our script will run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json`
+
+### If the proxy script is slow
+
+If the proxy takes too long (>500ms) to send pageviews than this probably means the speed module failed to install automatically. To resolve this:
+
+* Access your server using (S)FTP, SSH or your host
+* Navigate to the directory of the Plausible plugin, usually `wp-content/plugins/plausible-analytics`
+* Open the `mu-plugin` directory withing the plugin directory and copy the `plausible-proxy-speed-module.php` file to the `wp-content/mu-plugins` folder (if the `mu-plugins` folder doesn't exist within `wp-content`, create it before copying the file)
 
 ## How to track external link clicks 
 
