@@ -126,7 +126,7 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 ### If the proxy script is slow
 
-If the proxy takes too long (>500ms) to send pageviews than this probably means the speed module failed to install automatically. To resolve this:
+We will send you a notification if the proxy takes too long (>500ms) to send pageviews. This probably means the speed module failed to install automatically. To resolve this:
 
 * Access your server using (S)FTP, SSH or your host
 * Navigate to the directory of the Plausible plugin, usually `wp-content/plugins/plausible-analytics`
