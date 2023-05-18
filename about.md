@@ -15,7 +15,7 @@ Plausible is trusted by 10,000+ paying subscribers. We are completely independen
 
 Plausible Analytics development started in December 2018, public beta was launched in January 2019 and the subscriptions in May 2019. You can read more about our progress [over years here](https://plausible.io/blog/open-source-saas).
 
-We run a [sustainable open source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time. It also enables us to give back [5% of our gross revenue](https://plausible.io/giving-back) to the environmental causes and open source projects that we rely on.
+We run a [sustainable open source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
 
 We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. 
 
