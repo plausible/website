@@ -124,6 +124,12 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 * Enabling the proxy will give you more accurate stats as our script will run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json`
 
+### Stats not being recorded after enabling the proxy?
+
+We've put a lot of effort to ensure that the proxy works smoothly and have taken measures to prevent conflicts with popular performance optimization and caching plugins such as the WP Rocket, SG Optimizer, WP Optimize and LiteSpeed Cache. However, sometimes things might not go as planned.
+
+In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration [a quick double-check](https://plausible.io/docs/troubleshoot-integration) after you enable the proxy to make sure the stats are being recorded. And if you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
+
 ### If the proxy script is slow
 
 We will send you a notification if the proxy takes too long (>500ms) to send pageviews. This probably means the speed module failed to install automatically. To resolve this:
@@ -131,12 +137,6 @@ We will send you a notification if the proxy takes too long (>500ms) to send pag
 * Access your server using (S)FTP, SSH or your host
 * Navigate to the directory of the Plausible plugin, usually `wp-content/plugins/plausible-analytics`
 * Open the `mu-plugin` directory withing the plugin directory and copy the `plausible-proxy-speed-module.php` file to the `wp-content/mu-plugins` folder (if the `mu-plugins` folder doesn't exist within `wp-content`, create it before copying the file)
-
-### Stats not being recorded after enabling the proxy?
-
-We've put a lot of effort to ensure that the proxy works smoothly and have taken measures to prevent conflicts with popular performance optimization and caching plugins such as the WP Rocket, SG Optimizer, WP Optimize and LiteSpeed Cache. However, sometimes things might not go as planned.
-
-In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration [a quick double-check](https://plausible.io/docs/troubleshoot-integration) after you enable the proxy to make sure the stats are being recorded. And if you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
 
 ## How to track external link clicks 
 
