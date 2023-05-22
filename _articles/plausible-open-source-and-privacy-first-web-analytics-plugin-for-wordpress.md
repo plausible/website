@@ -124,7 +124,7 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 * In the "Bypass adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button 
 
-![Enable proxy in our WordPress plugin](/docs/img/plausible.png)
+![Enable proxy in our WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
 
 * If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect
 
