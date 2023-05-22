@@ -124,6 +124,8 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 * In the "Bypass adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button 
 
+![Enable proxy in our WordPress plugin](/docs/img/plausible.png)
+
 * If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect
 
 * Enabling the proxy will give you more accurate stats as our script will run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json`
