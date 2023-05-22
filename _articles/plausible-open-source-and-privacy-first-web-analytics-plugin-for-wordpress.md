@@ -120,7 +120,11 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 * **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%
 
-* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin. In the "Bypass adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button 
+* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin. 
+
+* In the "Bypass adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button 
+
+* If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect
 
 * Enabling the proxy will give you more accurate stats as our script will run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json`
 
