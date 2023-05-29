@@ -1,4 +1,4 @@
-- question: I've integrated Plausible into my site. How do I check if I've done to it correctly?
+- question: I've integrated Plausible into my site. How do I check if I've done it correctly?
   answer: "We have instructions on how you can <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>check your Plausible integration and troubleshoot any possible issues</a>."
 
 - question: Where are your servers located and where is the data stored?
