@@ -65,16 +65,24 @@ With goals and events, you can track the number of goals completed, conversion r
 
 Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
 
-## Add properties to an event to create your custom metrics
+## Send monetary values to track your ecommerce revenue
 
-You can create your custom metrics in Plausible Analytics. You do this by adding properties to your events to collect and analyze data that Plausible Analytics doesn't automatically track. When sending an event, you can attach arbitrary metadata to it. This helps you:
+You can send dynamic monetary values alongside custom events to [track revenue for your ecommerce store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue. 
+
+Our revenue tracking supports multi-currencies too. You'll be able to see total revenue and average order revenue in your dashboard:
+
+The revenue metrics are fully filterable. For instance, you can see the total or average revenue for a particular custom event per any dimension such as a specific date, referral source, marketing campaign, entry page, country or device.
+
+## Add properties to an event or pageview to create custom metrics
+
+You can create your custom metrics in Plausible Analytics. You do this by adding properties to your events or pageviews to collect and analyze data that Plausible Analytics doesn't automatically track. When sending an event, you can attach arbitrary metadata to it. This helps you:
 
 * Compare different website elements
 * [Track the number of clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)
 * [Track the number of file downloads](https://plausible.io/docs/file-downloads-tracking)
 * Do A/B testing
 
-And anything else that you wish. The number of properties you can add per event is unlimited. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more about custom properties here](https://plausible.io/docs/custom-event-goals#using-custom-props).
+And anything else that you wish. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more about custom properties for events here](https://plausible.io/docs/custom-event-goals#using-custom-props). And [custom properties for pageviews here](https://plausible.io/docs/custom-pageview-props).
 
 Note that you must ensure that no personally identifiable information (PII) is sent to Plausible Analytics when you collect the metadata. PII is information that could be used on its own to identify, contact, or precisely locate an individual. This includes:
 
@@ -100,7 +108,11 @@ The way you can dig more in-depth and get further insights is by filtering. Clic
 
 And on and on. All metrics are clickable.
 
-What's even better is the fact that you can mix and match filters. Want to understand visitors coming from Facebook who've visited your home page, are located in the United States and using Chrome as a browser on iOS? You can do that by selecting those filters. Explore this on the [live demo](https://plausible.io/plausible.io).
+What's even better is the fact that you can mix and match filters. Want to understand visitors coming from Facebook who've visited your home page, are located in the United States and using Chrome as a browser on iOS? You can do that by selecting those filters. 
+
+You can add multiple filters to create audience segments too. This allows you to see the conversions and revenue from for instance the audience segment that's located in Germany, Austria and Switzerland, that were referred by a particular UTM campaign and are using Mac OS.
+
+Explore this on the [live demo](https://plausible.io/plausible.io).
 
 ## Invite team members and collaborate 
 
