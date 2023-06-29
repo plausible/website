@@ -47,11 +47,11 @@ There is no navigational menu. There are no additional sub-menus. There is no ne
 
 It is easy to use and understand with no training or prior experience. Everything you need to know about your website traffic is on one page:
 
-1. Choose the time range that you want to analyze. The visitor numbers are automatically presented on an hourly, daily or monthly graph. The default time frame is set at the last 30 days.
-2. See the number of unique visitors, total page views, the bounce rate and visit duration. These metrics include a percentage comparison to the previous time period so you understand if the trends are going up or down.
-3. Right below that you see all the top referral sources of traffic and all the most visited pages on your site. Bounce rates of the individual referrals and pages are included too.
-4. Underneath the referral sources and the most visited pages, you see the list of countries your traffic is coming from. You can also see the device, browser and operating system your visitors are using.
-5. Last but not least, you can even track events and goals to identify the number of converted visitors, conversion rate, to understand who is converting and the referral sites that send the traffic that converts the best.
+1. Choose the time range that you want to analyze. The visitor numbers are automatically presented on an hourly, daily or monthly graph but you can also change to a different interval. The default time frame is set at the last 30 days.
+2. See the number of unique visitors, total visits (sessions), total pageviews, views per visit, bounce rate and visit duration. Click to display the individual metric in the top graph. These metrics include a percentage comparison to the previous time period so you understand if the trends are going up or down. There's also a full comparison more for even more insights.
+3. Right below that you see all the top referral sources of traffic (including paid marketing campaigns) and all the most visited pages on your site (including entry and exit pages). Click on the "Details" button to see the complete list with further information.
+4. Underneath the referral sources and the most visited pages, you see the list of countries, regions and cities your traffic is coming from. You can also see the device, browser and operating system your visitors are using. Click on a particular browser or OS to see the list of versions too.
+5. Last but not least, you can even track events and goals to identify the number of converted visitors, conversion rate, to understand who is converting and the referral sites that send the traffic that converts the best. You can send custom properties, you can track revenue and you can create funnels too.
 
 With Plausible, you get all the important web analytics at a glance so you can focus on creating a better site.
 
@@ -85,7 +85,7 @@ Plausible is simple to set up and integrate into your website no matter which CM
 
 **5. Created by an independent developer**
 
-Plausible is not created by one of the largest companies in the world and is not run by a huge team. Plausible has been created by an independent developer with no big team and no external funding. By using Plausible, you will support indie-developers, indie-businesses and an independent web.
+Plausible is not created by one of the largest companies in the world and is not run by a huge team. Plausible is created by a small independent team and no external funding. By using Plausible, you will support indie-developers, indie-businesses and an independent web.
 
 ## Give Plausible a chance with a 30-day free trial
 
