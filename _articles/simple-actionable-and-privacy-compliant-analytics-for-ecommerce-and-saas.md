@@ -65,6 +65,10 @@ With goals and events, you can track the number of goals completed, conversion r
 
 Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
 
+### Build sales and marketing funnels
+
+After you have your custom events in place, you can also start building sales and marketing funnels. The insights from the sales funnel allow you to uncover possible issues, optimize your site and increase the conversion rate. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
+
 ## Send monetary values to track your ecommerce revenue
 
 You can send dynamic monetary values alongside custom events to [track revenue for your ecommerce store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue. 
