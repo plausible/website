@@ -1,6 +1,7 @@
 ---
 layout: article
-title: Easy to use, actionable and privacy-compliant analytics for ecommerce and SaaS
+title: Easy to use, actionable and privacy-compliant analytics for ecommerce and
+  startups
 description: Plausible Analytics helps ecommerce and SaaS startups get some
   actionable data so that they can make better decisions while being compliant
   with the privacy regulations.
