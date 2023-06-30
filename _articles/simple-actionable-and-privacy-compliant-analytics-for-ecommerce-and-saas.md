@@ -1,6 +1,7 @@
 ---
 layout: article
-title: Simple, actionable and privacy-compliant analytics for ecommerce and SaaS
+title: Easy to use, actionable and privacy-compliant analytics for ecommerce and
+  startups
 description: Plausible Analytics helps ecommerce and SaaS startups get some
   actionable data so that they can make better decisions while being compliant
   with the privacy regulations.
@@ -64,6 +65,10 @@ Goals can be any action that you want your users to take: visit a specific page 
 With goals and events, you can track the number of goals completed, conversion rates and other useful insights, including referrer sources driving conversions.
 
 Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
+
+### Build sales and marketing funnels
+
+After you have your custom events in place, you can also start building sales and marketing funnels. The insights from the sales funnel allow you to uncover possible issues, optimize your site and increase the conversion rate. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
 ## Send monetary values to track your ecommerce revenue
 
