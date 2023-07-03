@@ -3,15 +3,15 @@ layout: post
 title: Is Google Analytics illegal? Several European Data Protection Authorities
   say so
 description: "Google Analytics is illegal according to the Austrian, French,
-  Italian, Danish, Finnish, Norwegian and other European Data Protection
-  Authorities. "
+  Italian, Danish, Finnish, Norwegian, Swedish and other European Data
+  Protection Authorities. "
 slug: google-analytics-illegal
 date: 2023-03-06T05:22:22.464Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
-Is Google Analytics illegal? Yes, say the Austrian, French, Italian, Danish, Finnish, Norwegian and other European Data Protection Authorities. Here's why.
+Is Google Analytics illegal? Yes, say the Austrian, French, Italian, Danish, Finnish, Norwegian, Swedish and other European Data Protection Authorities. Here's why.
 
 1. Ordered list
 {:toc}
@@ -39,6 +39,8 @@ You can read a more detailed [legal analysis here](https://gdprhub.eu/index.php?
 **Update January 17th 2023:** Finnish Deputy Data Protection Ombudsman has also ruled that using Google Analytics and Google Tag Manager is in violation of privacy regulations. [Details here](https://tietosuoja.fi/-/apulaistietosuojavaltuutettu-antoi-huomautuksen-kirjastojen-aineistohakutietojen-valittymisesta-yhdysvaltalaisyritys-googlelle?languageId=en_US).
 
 **Update March 6th 2023:** Norwegian Data Protection Authority Datatilsynet has now also ruled that Google Analytics is in violation of privacy regulations. They're now recommending Norwegian websites "to explore alternatives to Google Analytics". And they also added that "as far as we can see, [Google Analytics 4](https://plausible.io/blog/universal-google-analytics-is-dead) will not necessarily correct the problems we have just identified". [Details here](https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2023/varsel-om-vedtak-i-google-analytics-saken/).
+
+**Update July 3rd 2023:** Swedish Authority for Privacy Protection (IMY) has issued the first major fine (€1 million) for using Google Analytics declaring "companies must stop using Google Analytics". [Details here](https://www.imy.se/en/news/companies-must-stop-using-google-analytics/).
 
 Before these rulings, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). These rulings are just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how these rulings affect you and the US-owned services that you're using. 
 
