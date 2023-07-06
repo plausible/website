@@ -6,7 +6,7 @@ description: "Google Analytics is illegal according to the Austrian, French,
   Italian, Danish, Finnish, Norwegian, Swedish and other European Data
   Protection Authorities. "
 slug: google-analytics-illegal
-date: 2023-03-06T05:22:22.464Z
+date: 2023-07-06T05:06:21.605Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
