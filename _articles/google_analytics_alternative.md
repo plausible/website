@@ -16,13 +16,15 @@ Here's why you should break the habit of using Google Analytics and consider [Pl
 
 ## Plausible vs Google Analytics comparison: What are the differences?
 
-### Simple vs complex web analytics
+### Easy to use vs complex web analytics
 
 [Google Analytics](https://analytics.google.com/analytics/web/) is overkill for most website owners. It’s a powerful but complex tool that takes time to understand and requires training. Google Analytics collects way too many data points and most people find real and regular use for only a fraction of the data it measures.
 
-Plausible is easy to use and understand with no training or prior experience necessary. Plausible cuts through the noise by presenting all the important website traffic insights and metrics on one single page.
+Plausible is easy to use and understand with no training or prior experience necessary. Plausible cuts through the noise by presenting all the important website traffic and business insights on an intuitive dashboard.
 
-There are no layers of navigational menus, there is no need to create custom reports. You get all the important web analytics at a glance so you can focus on creating a better site. Take a look at our [live demo](https://plausible.io/plausible.io).
+There are no layers of navigational menus, there is no need to create custom reports. You get all the important web analytics at a glance so you can focus on creating a better site and a better business. 
+
+You can invite team members, you can integrate with Search Console and you can import your historical Google Analytics stats. There's a realtime dashboard, a landing pages report, you can track conversion and revenue attribution, you can optimize your conversion rate using sales funnels and much more. All on one single page. Take a look at our [live demo](https://plausible.io/plausible.io).
 
 ### Data ownership of your web analytics
 
@@ -57,7 +59,7 @@ Lawmakers around the world have realized the severity of the situation and sever
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them.
 
-**January 2022 update:** The Austrian and French Data Protection Authorities have decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). These decisions are the first DPA decisions regarding EEA-US data transfers. Similar decisions are expected to drop in other EU member states. 
+Since January 2022, several European Data Protection Authorities have decided that the use of [Google Analytics violates GDPR](https://plausible.io/blog/google-analytics-illegal). These include Austria, France, Italy, Denmark, Finland, Norway and Sweden. These decisions are regarding EEA-US data transfers.
 
 All of the visitor data that Plausible tracks and collects is exclusively processed on servers and cloud infrastructure owned and operated by European providers. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
 
@@ -115,6 +117,6 @@ Plausible is a simple and privacy-friendly alternative to Google Analytics. It i
 
 Plausible is here to provide you all the valuable website traffic insights at a glance while respecting the privacy of your visitors, being compliant with GDPR, CCPA and other privacy regulations, and without compromising the user experience.
 
-Do you have a website or a blog? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
+Do you have a website or a business? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
 
 You can even [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
