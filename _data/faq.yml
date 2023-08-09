@@ -7,6 +7,9 @@
 - question: Is the billing based per account or per website?
   answer: "The billing is based on the total number of pageviews between all of the sites you have added to your account. You can see this total number of billable pageviews at any time in your account settings."
 
+- question: How do I add my business details and the VAT number?
+  answer: "You can add your company address and VAT number on the payment screen during the upgrade process. You can also open any of your previous invoices and click on the Add address & VAT Number link to do so."
+    
 - question: How do I get an invoice?
   answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>download your invoices</a> in your Plausible account settings."
     
