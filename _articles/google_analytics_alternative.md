@@ -7,7 +7,7 @@ permalink: /vs-google-analytics
 ---
 Many site owners have the habit of installing the Google Analytics tracking script on their sites as one of the first actions they take after the launch.
 
-Here's why you should break the habit of using Google Analytics and consider [Plausible Analytics](https://plausible.io/) as a simple, lightweight, ethical, open-source and privacy-friendly Google Analytics alternative.
+Here's why you should break the habit of using Google Analytics and consider [Plausible Analytics](https://plausible.io/) as a simple, lightweight, ethical, open source and privacy-friendly Google Analytics alternative.
 
 ![Plausible as a great Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Google Analytics alternative")
 
@@ -39,7 +39,7 @@ That is not necessarily the case with Google Analytics, a tool that is created, 
 
 ### Open source vs closed source web analytics
 
-Plausible is a fully [open-source web analytics tool](https://plausible.io/open-source-website-analytics). Our [source code](https://github.com/plausible/analytics/) is available and accessible on Github so anyone can read it and review it to ensure it keeps the data private and secure.
+Plausible is an [open source web analytics tool](https://plausible.io/open-source-website-analytics). Our [source code](https://github.com/plausible/analytics/) is available and accessible on Github so anyone can read it and review it to ensure it keeps the data private and secure.
 
 This is not the case with Google Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Google Analytics script. You have to put your trust in Google.
 
@@ -113,7 +113,7 @@ Plausible is independently owned and developed. To keep the project going and to
 
 ## Why is Plausible a great Google Analytics alternative?
 
-Plausible is a simple and privacy-friendly alternative to Google Analytics. It is an independent, open-source and transparent analytics tool.
+Plausible is a simple and privacy-friendly alternative to Google Analytics. It is an independent, open source and transparent analytics tool.
 
 Plausible is here to provide you all the valuable website traffic insights at a glance while respecting the privacy of your visitors, being compliant with GDPR, CCPA and other privacy regulations, and without compromising the user experience.
 
