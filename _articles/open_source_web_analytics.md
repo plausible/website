@@ -6,7 +6,7 @@ description: Plausible is an open source analytics tool you can use to check web
   alternative.
 permalink: /open-source-website-analytics
 ---
-Plausible Analytics is an open source, simple, lightweight and privacy-friendly Google Analytics alternative. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is fully open-source software. Let's take a look at what that means exactly.
+Plausible Analytics is an open source, simple, lightweight and privacy-friendly Google Analytics alternative. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is open source software. Let's take a look at what that means exactly.
 
 ![Plausible: Open source Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Open source Google Analytics alternative")
 
@@ -31,7 +31,7 @@ You can even download Plausible Analytics, install and run it on your own server
 
 ## What license is Plausible released under?
 
-Plausible is open-source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/plausible/analytics/blob/master/LICENSE.md).
+Plausible is open source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/plausible/analytics/blob/master/LICENSE.md).
 
 The goal of the AGPL license is to maximize user freedom and to encourage companies to contribute to open source. You can read more about [why we chose the AGPL license for our startup](https://plausible.io/blog/open-source-licenses).
 
