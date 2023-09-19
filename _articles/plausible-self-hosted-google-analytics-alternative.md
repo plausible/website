@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Plausible: Self-Hosted Google Analytics alternative"
-description: Plausible Analytics is a privacy-friendly and open-source Google
+description: Plausible Analytics is a privacy-friendly and open source Google
   Analytics alternative that you can install and self-host on your server.
 permalink: /self-hosted-web-analytics
 ---
@@ -23,7 +23,7 @@ Here are the differences between Plausible Analytics managed hosting in the clou
 |---|---|---|---|---|
 | **Hosting** | Easy and convenient. It takes 2 minutes to start counting your stats with a worldwide CDN, high availability, backups, security and maintenance all done for you by us. We manage everything so you don’t have to worry about anything and can focus on your stats. | You do it all yourself. You need to get a server and you need to manage your infrastructure. You are responsible for installation, maintenance, upgrades, server capacity, uptime, backup, security, stability, consistency, loading time and so on. |
 | **Storage** | All visitor data is exclusively processed on EU-owned cloud infrastructure. We keep your site data on a secure, encrypted and green energy powered server in Germany. This ensures that your site data is protected by the strict European Union data privacy laws and ensures compliance with GDPR. Your website data never leaves the EU. | You have full control and can host your instance on any server in any country that you wish. Host it on a server in your basement or host it with any cloud provider wherever you want, even those that are not GDPR compliant.|
-| **Releases** | Continuously developed and improved with new features and updates multiple times per week. | [It's a long term release](https://plausible.io/blog/building-open-source) published approximately twice per year so latest features won't be immediately available.|
+| **Releases** | Continuously developed and improved with new features and updates multiple times per week. | [It's a long term release](https://plausible.io/blog/building-open-source) published twice per year. Selected enterprise features are not available as we aim to ensure a protective barrier around our cloud offering.|
 | **Raw data** | You see all your site stats and metrics on our modern-looking, simple to use and fast loading dashboard. You can only see the stats aggregated in the dashboard. You can download the stats using the [CSV export](https://plausible.io/docs/export-stats), [stats API](https://plausible.io/docs/stats-api) or tools such as the [Data Studio Connector](https://plausible.io/docs/integration-guides#google-data-studio). | Do you want access to the raw data? Self-hosting gives you that option. You can take the data directly from the ClickHouse database. |
 | **Premium Support** | Real support delivered by real human beings who build and maintain Plausible. | Premium support is not included. Self-hosting is community supported only.|
 | **Costs** | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. Your money funds further development of Plausible. | You need to pay for your server, CDN, backups and whatever other cost there is associated with running the infrastructure. You never have to pay any fees to us. Your money goes to 3rd party companies with no connection to us.|
