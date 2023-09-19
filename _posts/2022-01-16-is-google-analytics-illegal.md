@@ -96,7 +96,7 @@ In 2021, we moved to Hetzner, so all of the data we collect is hosted in Germany
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website and visitor data is exclusively processed with servers and cloud infrastructure owned and operated by European companies.
 
-As always with Plausible, we're fully transparent and open source. Don't like the European Union and the European-owned cloud providers we use for our infrastructure? You can [self-host our analytics](https://plausible.io/self-hosted-web-analytics) with any cloud provider and in any country you wish. Even in the USA.
+As always with Plausible, we're transparent and open source. Don't like the European Union and the European-owned cloud providers we use for our infrastructure? You can [self-host our analytics](https://plausible.io/self-hosted-web-analytics) with any cloud provider and in any country you wish. Even in the USA.
 
 You can read more about what makes Plausible a [privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics) and a more technical overview in [our data policy](https://plausible.io/data-policy).
 
