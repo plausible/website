@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Plausible: Open source and privacy-first web analytics plugin for WordPress"
-description: Plausible Analytics is an open source web analytics plugin for
-  WordPress that is a simple to use, lightweight (< 1 KB) and privacy-friendly
-  Google Analytics alternative.
+title: "Plausible: Privacy-first web analytics plugin for WordPress"
+description: Plausible Analytics is a web analytics plugin for WordPress that is
+  a simple to use, lightweight (< 1 KB) and privacy-friendly Google Analytics
+  alternative.
 permalink: /wordpress-analytics-plugin
 ---
 Plausible Analytics is an open source web analytics plugin for WordPress that is an easy to use, lightweight (< 1 KB) and privacy-friendly Google Analytics alternative.
@@ -25,7 +25,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions
 
-* Plausible like WordPress but unlike Google Analytics is [fully open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
+* Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
 
 * Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell or share your site data to anyone. We choose the subscription business model rather than surveillance capitalism and are solely funded by the fees our subscribers pay us
 
