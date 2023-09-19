@@ -71,11 +71,9 @@ We are grateful that in a market with hundreds of options, including the dominan
 
 ## Open source and transparency are an advantage to us
 
-Plausible is fully open source and transparent with all of our code and the development being done in public. The open source community has welcomed us with its arms wide open.
+Plausible is open source and transparent with our code and the development being done in public. The open source community has welcomed us with its arms wide open. We're really pleased that Plausible is now a sustainable open source project that can [pay our rent](https://plausible.io/blog/open-source-funding).
 
-We're really pleased that Plausible is now a sustainable open source project that can [pay our rent](https://plausible.io/blog/open-source-funding) and since the start of this year, we can allocate [5% of our gross revenue](https://plausible.io/giving-back) that we'll donate to open source projects that we rely on.
-
-In addition to having our code in public, we share our revenue numbers and website traffic stats. People ask whether it's a good idea to be as transparent as we are and whether we're giving our competitors an advantage by revealing everything about our project. I don't think it's a disadvantage at all. On the contrary, I think it's a great advantage to us.
+People ask whether it's a good idea to be as transparent as we are and whether we're giving our competitors an advantage by revealing everything about our project. I don't think it's a disadvantage at all. On the contrary, I think it's a great advantage to us.
 
 Especially in the privacy-first world, being open source is pretty much a requirement from many people. Being open source adds a new level of transparency and trustworthiness that proprietary products don't have. It allows people to verify whether our words match our actions.
 
