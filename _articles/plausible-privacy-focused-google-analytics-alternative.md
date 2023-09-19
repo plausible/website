@@ -16,11 +16,11 @@ Here's a look at what makes Plausible Analytics a privacy-friendly Google Analyt
 1. Ordered list
 {:toc}
 
-## It's a fully open source web analytics software
+## It's an open source web analytics software
 
-Plausible Analytics is completely [open source software](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/).
+Plausible Analytics is [open source software](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/).
 
-We are not a black box. There's nothing proprietary or closed source about Plausible Analytics. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
+We are not a black box. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
 
 This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you're actually doing what you're saying you're doing.
 
