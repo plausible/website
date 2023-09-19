@@ -7,7 +7,7 @@ permalink: /about
 
 Plausible Analytics is an open source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world.
 
-Plausible is trusted by 10,000+ paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
+Plausible is trusted by 11,000+ paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
 
 ![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
 
@@ -15,7 +15,7 @@ Plausible is trusted by 10,000+ paying subscribers. We are completely independen
 
 Plausible Analytics development started in December 2018, public beta was launched in January 2019 and the subscriptions in May 2019. You can read more about our progress [over years here](https://plausible.io/blog/open-source-saas).
 
-We run a [sustainable open source project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
+We run a [sustainable project](https://plausible.io/blog/open-source-funding) funded solely by the fees that our subscribers pay us. Revenue from subscriptions is used to pay our rent, further develop Plausible and allow us to commit to Plausible and open source full time.
 
 We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. 
 
@@ -36,7 +36,7 @@ Our goal is to reduce the number of websites and businesses online that run prop
 
 ## What makes Plausible Analytics a more privacy-friendly alternative to the average web analytics tool?
 
-* We are completely open source so anyone can view, review and inspect the code we're running to verify whether our actions match with our words
+* We are open and transparent so anyone can view, review and inspect the code we're running to verify whether our actions match with our words
 
 * We minimize any data collection in general and whatever we do track is kept fully secured, encrypted and hosted on a server in the European Union to ensure it is being covered by the strict laws on data privacy
 
@@ -58,11 +58,11 @@ See our [data policy](https://plausible.io/data-policy) for the full list of dat
 
 ## How do you prevent Plausible Analytics from going from "Don't be evil" to "Be evil"?
 
-Plausible Analytics is a fully libre and open source startup. Our code is [free and open source](https://github.com/plausible/analytics/) under the GNU Affero General Public License Version 3 (AGPLv3) or any later version.
+Plausible Analytics is an open source project. Our core is [free and open source](https://github.com/plausible/analytics/) under the GNU Affero General Public License Version 3 (AGPLv3) or any later version.
 
-Good intentions are not always enough and being open source is the best way to prevent us from going from "Don't be evil" to "Be evil". Our code is not proprietary and our users are not locked down so we have to be the best business running this codebase. The threat of forking is a real threat and if we make some evil choices or sell out to some evil corp, you can take the code and have your own Plausible Analytics. This keeps us honest.
+Good intentions are not always enough and being open source is the best way to prevent us from going from "Don't be evil" to "Be evil". Our core is not proprietary and our users are not locked down so we have to be the best business running this codebase. The threat of forking is a real threat and if we make some evil choices or sell out to some evil corp, you can take the code and have your own Plausible. This keeps us honest.
 
-Imagine if you had the same choice with your favorite proprietary and closed source app so if they decided to change the strategy, to make user-hostile decisions or to sell out to a corporation with different beliefs, the community could simply take over and keep alive the product that they love while ignoring the new development. You can do that with Plausible Analytics.
+Imagine if you had the same choice with your favorite proprietary and closed source app so if they decided to change the strategy, to make user-hostile decisions or to sell out to a corporation with different beliefs, the community could simply take over and keep alive the product that they love while ignoring the new development. You can do that with Plausible.
 
 ## Is there an ethical way to do marketing for a startup?
 
