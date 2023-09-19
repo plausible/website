@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How we bootstrapped our open source Google Analytics alternative to $500k ARR
+title: How we bootstrapped our Google Analytics alternative to $500k ARR
 description: It took us a year to reach the first $400 MRR and then it took us
   nine months to go from $400 to $10k MRR. Now, ten months after the $10k
   milestone, we're at $500,000 ARR.
