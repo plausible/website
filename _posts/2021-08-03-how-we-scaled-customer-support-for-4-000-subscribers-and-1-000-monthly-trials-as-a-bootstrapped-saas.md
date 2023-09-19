@@ -179,7 +179,7 @@ I can always get back to doing more marketing if we struggle to grow or when we 
 
 ## Self-hosted support should be mutual
 
-Plausible is [a fully open source product](https://plausible.io/open-source-website-analytics). We have [a self-hosted version](https://plausible.io/self-hosted-web-analytics) which is about giving back to the community. It's completely free to use and it's not some inferior product with "light" features. You get the same dashboard using our cloud product as you do self-hosting it.
+Plausible is [an open source product](https://plausible.io/open-source-website-analytics). We have [a self-hosted version](https://plausible.io/self-hosted-web-analytics) which is about giving back to the community. It's completely free to use.
 
 Self-hosting does bring a large volume of support questions. Pretty much all of them are highly technical, as managing your server infrastructure is no easy feat. 
 
