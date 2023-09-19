@@ -103,7 +103,7 @@ Now it's up to you to verify that or to trust that. I personally don't use Googl
 
 If you're interested in trying out our way of thinking about website statistics, do register for a [free 30-day trial](https://plausible.io/register). We're different from Google Analytics in several ways:
 
-* We're **fully open source** with our code available for anyone to see [at GitHub](https://github.com/plausible/analytics/)
+* We're **open source** with our code available for anyone to see [at GitHub](https://github.com/plausible/analytics/)
 * We're a [lightweight solution](https://plausible.io/lightweight-web-analytics) with **our script being smaller than 1 KB**
 * **We don't use cookies and we don't collect any personal data** so you don't need to display [cookie banners or ask for GDPR consent](https://plausible.io/data-policy)
 
