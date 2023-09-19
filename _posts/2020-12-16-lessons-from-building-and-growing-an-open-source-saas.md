@@ -105,7 +105,7 @@ Read more about the topic of open source business models in: "[How to pay your r
 
 This brings me to the self-hostable aspects of open source. The self-hosted offering is about giving back to the community. Think of it rather as a voluntary service for the public good.
 
-We are happy to offer people the option to [self-host our web analytics product](https://plausible.io/self-hosted-web-analytics) and be in even better control of their experience. It is completely free (as in beer) to use and it's not some inferior product with "light" features. You get the exact same dashboard using our cloud product as you do self-hosting it.
+We are happy to offer people the option to [self-host our web analytics product](https://plausible.io/self-hosted-web-analytics) and be in even better control of their experience. It is completely free (as in beer) to use.
 
 Self-hosting does bring a large volume of support inquiries. This means that we need to be better at balancing our limited time between reactive tasks such as troubleshooting issues from self-hosters and proactive ones such as delivering new features and support to the customers that do support us.
 
