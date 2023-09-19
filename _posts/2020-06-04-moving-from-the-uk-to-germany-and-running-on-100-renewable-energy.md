@@ -49,7 +49,7 @@ These numbers are all estimates but you can imagine if millions of website owner
 
 After using Google Analytics for many years we believe we have created a better alternative for some site owners and some use cases. Plausible Analytics gives you a web analytics tool that is:
 
-* [Fully open source](https://plausible.io/open-source-website-analytics) with the code available on GitHub
+* [Open source](https://plausible.io/open-source-website-analytics) with the code available on GitHub
 * Simple to understand and get insights from in one minute
 * A lightweight script of under 1 KB so your site keeps loading fast
 * [Doesn’t use cookies](https://plausible.io/blog/google-analytics-cookies) so there’s no need for cookie banners
