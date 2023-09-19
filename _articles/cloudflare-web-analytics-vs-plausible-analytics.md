@@ -146,7 +146,7 @@ Instead, we generate a daily changing identifier using the visitor’s IP addres
 
 ## Open source vs closed source web analytics
 
-Plausible Analytics is a fully [open-source web analytics](https://plausible.io/open-source-website-analytics) tool. Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure. Plausible can even be self-hosted for those who want to manage their own server infrastructure.
+Plausible Analytics is an [open source web analytics](https://plausible.io/open-source-website-analytics) tool. Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure. Plausible can even be self-hosted for those who want to manage their own server infrastructure.
 
 This is not the case with Cloudflare Web Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Cloudflare script.
 
