@@ -30,7 +30,7 @@ Are you looking for a Google Analytics alternative or a tool to use as an additi
 
 We're Plausible Analytics and after using Google Analytics for many years we believe we have created a better alternative for some site owners and some use cases. Plausible Analytics gives you a web analytics tool that is:
 
-* Fully **open source** with the code available on GitHub and can be self-hosted too
+* **Open source** with the code available on GitHub and can be self-hosted too
 * **Simple to understand** and get insights from in one minute
 * **A [lightweight script of under 1 KB](https://plausible.io/lightweight-web-analytics)** so your site keeps loading fast
 * **Doesn’t use cookies** so there’s no need for cookie banners
