@@ -14,7 +14,7 @@ We've made it to $10,000 MRR with Plausible! Several people asked about our less
 
 A brief introduction: [Plausible Analytics](https://plausible.io/) is a simple, lightweight and privacy-first alternative to Google Analytics. We're a completely independent and bootstrapped team of two. 
 
-As we say no to the adtech and surveillance capitalism, we also don't use Facebook and Google ads to grow Plausible. In addition to this, we're a 100% open source project that is transparent in everything we do.
+As we say no to the adtech and surveillance capitalism, we also don't use Facebook and Google ads to grow Plausible. In addition to this, we're an open source project that is transparent in everything we do.
 
 Here are some of the lessons we learned on our journey to $10,000 monthly recurring revenue.
 
