@@ -87,9 +87,9 @@ All your stats will be permanently deleted immediately when you delete your Plau
 
 ## Why should I trust you?
 
-Plausible is a fully [open-source website analytics tool](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/) so you can read it and review it to ensure our code does what we say.
+Plausible is an [open source website analytics tool](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/) so you can read it and review it to ensure our code does what we say.
 
-We are not a black box. There’s nothing proprietary or closed source about Plausible Analytics. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
+We are not a black box. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
 
 This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you’re actually doing what you’re saying you’re doing.
 
