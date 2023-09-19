@@ -75,7 +75,7 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 
 6. Plausible is not a part of the surveillance capitalism. Google Analytics is free because Google has built their company and their wealth by collecting and analyzing huge amounts of personal information from web users and using these personal and behavioral insights to sell advertisements. We choose the subscription business model rather than surveillance capitalism. We're operating a sustainable project funded solely by the fees that our subscribers pay us.
 
-7. Plausible is fully [open source web analytics](https://plausible.io/open-source-website-analytics). Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure.
+7. Plausible is [open source web analytics](https://plausible.io/open-source-website-analytics). Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure.
 
 8. Plausible is growing fast. We now have more than 6,000 paying subscribers, we're tracking stats on more than 37,000 websites and we're counting more than one billion pageviews per month.
 
