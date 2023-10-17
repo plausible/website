@@ -46,6 +46,8 @@ Here's what that means in practice:
 - We use Bunny (another European-owned provider from Slovenia) for a global CDN, DNS and DDoS protection. This ensures that **all visitor data we collect is exclusively processed with servers owned and operated by European companies**. See Bunny [privacy and data policy](https://bunny.net/privacy) for full details.
 - **The payment process is handled by a third-party payment provider**. If you choose to upgrade to a Plausible Analytics paid plan, the billing information and the payment process is handled by Paddle. See the [Paddle Privacy Policy](https://paddle.com/privacy-buyers/) for full details.
 - **All emails are sent using a third-party email provider**. Transactional emails and email reports (should you choose to subscribe to them) are sent using Postmark. We have disabled both open tracking and link tracking on all emails sent. See the [Postmark Privacy Policy](https://postmarkapp.com/eu-privacy) for full details.
+- **We use Gravatar to get your account profile picture**. We use a proxy for this request to ensure no information is exposed to third parties. This method prevents the IP address, user agent and referrer header from being sent. See the [Gravatar Privacy Policy](https://support.gravatar.com/account/data-privacy/) for more details.
+- **We use DuckDuckGo to get your your site favicon**. We use a proxy for this request to ensure no information is exposed to third parties. This method prevents the IP address, user agent and referrer header from being sent. See the [DuckDuckGo Privacy Policy](https://duckduckgo.com/privacy) for more details.
 - **When you write to us with a question or to ask for help**. We keep that correspondence, which includes the email address, so that we have a history of past correspondences to reference if you reach out in the future. We use this data solely in connection with answering the queries we receive. We use Help Scout ([privacy policy](https://www.helpscout.com/company/legal/privacy/)) as our help desk software.
 - **When you submit feedback or feature requests**. We keep that feedback which includes the email address. We use this to understand the popularity of requests and to send you a notification when the feature you requested has been released. We use Nolt ([privacy policy](https://nolt.io/help/privacy)) as our feedback board.
 - **We use CAPTCHA service as a means of spam protection on our account registration form**. hCaptcha is a GDPR-compliant and privacy-friendly captcha. See the [hCaptcha Privacy Policy](https://www.hcaptcha.com/privacy) for full details.
@@ -65,4 +67,4 @@ We may update this policy as needed to comply with relevant regulations and refl
 
 Contact us at [privacy@plausible.io](mailto:privacy@plausible.io) if you have any questions, comments, or concerns about this privacy policy, your data, or your rights with respect to your information.
 
-Last updated: October 5, 2023
+Last updated: October 17, 2023
