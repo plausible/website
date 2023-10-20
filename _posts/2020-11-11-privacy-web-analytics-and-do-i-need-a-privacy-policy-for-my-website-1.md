@@ -68,7 +68,15 @@ Here's how System76 [discloses](https://system76.com/privacy-2021) their use of 
 
 And how the Steve Jobs Archives website [does it](https://stevejobsarchive.com/privacy): 
 
-> Analytics Partners. We use analytics services such as Plausible Analytics to collect and process certain analytics data. To help us understand how you use our Services and to help us improve them, we automatically receive information about your interactions with our Services,like the pages or other content you view and the dates and times of your visits.
+> Analytics Partners. We use analytics services such as Plausible Analytics to collect and process certain analytics data. To help us understand how you use our Services and to help us improve them, we automatically receive information about your interactions with our Services, like the pages or other content you view and the dates and times of your visits.
+
+And an example from the privacy policy of [The Scottish Government](https://www.mygov.scot/privacy):
+
+> Additionally, we use Plausible Analytics on this site to collect some anonymous usage data for statistical purposes. This is to track overall trends in our website traffic, not to track individual visitors.
+
+And The Rails Foundation in their [privacy policy](https://rubyonrails.org/foundation/privacy):
+
+> The Rails Foundation is committed to ensuring the privacy of our website visitors. To achieve this, we use Plausible as our web analytics tool.
 
 Another example from [elementary OS](https://elementary.io/privacy): 
 
