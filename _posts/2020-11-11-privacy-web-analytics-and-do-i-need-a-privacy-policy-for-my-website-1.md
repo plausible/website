@@ -57,6 +57,11 @@ You could even [open up your Plausible dashboard to the public](https://plausibl
 
 Here are some examples of Plausible Analytics customers who've mentioned their use of Plausible in their privacy policies.
 
+Here's how Oatly [mentions](https://www.oatly.com/en-us/cookie-policy) us:
+
+> All users visiting our website - including visitors clicking ”No thanks"
+Anonymous analytical data will be stored to Plausible, in order to track the usage of a website without collecting any personal data or personally identifiable information. Cookies are not set and all data is in aggregate only.
+
 Here's how System76 [discloses](https://system76.com/privacy-2021) their use of Plausible: 
 
 > Our website uses Plausible Analytics to help us understand visitor trends and the effectiveness of our marketing outreach. We chose Plausible Analytics because it is a privacy-focused company and platform that eschews personally identifiable information in favor of anonymous aggregate data. See the Plausible Analytics Data Policy.
