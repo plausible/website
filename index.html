@@ -171,7 +171,50 @@ layout: default
     </div>
   </div>
 
-  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false}">
+  <script>
+    const contactLink = "<a class='underline' href='/contact'>Contact us</a>"
+
+    let currency = '$'
+    fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)
+
+    const plans = [
+      {volume: '10k', growth: 9, business: 19},
+      {volume: '100k', growth: 19, business: 39},
+      {volume: '200k', growth: 29, business: 59},
+      {volume: '500k', growth: 49, business: 99},
+      {volume: '1m', growth: 69, business: 139},
+      {volume: '2m', growth: 89, business: 179},
+      {volume: '5m', growth: 129, business: 259},
+      {volume: '10m', growth: 169, business: 339},
+    ]
+
+    function volume(index) {
+      index = parseInt(index)
+      if (index === plans.length) {
+        return '10m+'
+      } else {
+        return plans[index].volume
+      }
+    }
+
+    function price(index, tier, yearlyBilling, withoutDiscount = false) {
+      index = parseInt(index)
+      if (index === plans.length) { return contactLink }
+
+      let price
+
+      if (yearlyBilling && withoutDiscount) {
+        price = plans[index][tier] * 12
+      } else if (yearlyBilling) {
+        price = plans[index][tier] * 10
+      } else {
+        price = plans[index][tier]
+      }
+
+      return currency + price.toString()
+    }
+  </script>
+  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0}">
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
@@ -189,20 +232,23 @@ layout: default
               class="w-max px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 text-yellow-700">
               2 months free</p>
           </div>
-          <p class="w-max font-medium leading-6 text-gray-600 mt-6 lg:mt-0">
-            <b class="text-xl text-gray-900 ">10k</b> monthly pageviews
-          </p>
+          <div class="flex gap-x-1 w-max font-medium leading-6 text-gray-600 mt-6 lg:mt-0">
+            <p x-show="volumeIndex < plans.length">Up to</p>
+            <b class="text-xl text-gray-900" x-text="volume(volumeIndex)"></b>
+            <p>monthly pageviews</p>
+          </div>
         </div>
         <div class="mx-auto max-w-md lg:mx-0 lg:max-w-none">
-          <input class="shadow" type="range" value="0" min="0" max="8" step="1" />
+          <input class="shadow" type="range" min="0" max="8" step="1" x-model="volumeIndex"/>
         </div>
         <div class="mt-6 isolate mx-auto grid max-w-md grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <!-- GROWTH BOX -->
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Growth</h3>
             <p class="mt-6 flex items-baseline gap-x-1">
-              <span class="text-4xl font-bold tracking-tight text-gray-900">9$</span>
-              <span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"></span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(volumeIndex, 'growth', yearlyBilling)"></span>
+              <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
             <ul class="mt-8 space-y-3 text-sm leading-6 xl:mt-10 text-gray-600">
               <li class="flex gap-x-3">
@@ -259,8 +305,9 @@ layout: default
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Business</h3>
             <p class="mt-6 flex items-baseline gap-x-1">
-              <span class="text-4xl font-bold tracking-tight text-gray-900">19$</span>
-              <span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"></span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(volumeIndex, 'business', yearlyBilling)"></span>
+              <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
             <ul class="mt-8 space-y-3 text-sm leading-6 xl:mt-10 text-gray-600">
               <li class="flex gap-x-3">
@@ -333,9 +380,7 @@ layout: default
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Enterprise</h3>
             <p class="mt-6 flex items-baseline gap-x-1">
-              <span class="text-4xl font-bold tracking-tight text-gray-900">
-                <a class="underline" href="/contact">Contact us</a>
-              </span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="contactLink"></span>
             </p>
             <ul class="mt-8 space-y-3 text-sm leading-6 xl:mt-10 text-gray-600">
               <li class="flex gap-x-3">
