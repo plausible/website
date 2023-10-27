@@ -162,7 +162,7 @@ layout: default
     <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-3xl font-extrabold text-gray-900 leading-9 sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-          Simple, traffic-based pricing
+          Traffic based plans that match your growth
         </h2>
         <p class="mt-4 text-xl text-gray-600 leading-7">
           Sign up for 30-day unlimited trial. No credit card required.
@@ -172,8 +172,6 @@ layout: default
   </div>
 
   <script>
-    const contactLink = "<a class='underline' href='/contact'>Contact us</a>"
-
     let currency = '$'
     fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)
 
@@ -199,7 +197,7 @@ layout: default
 
     function price(index, tier, yearlyBilling, withoutDiscount = false) {
       index = parseInt(index)
-      if (index === plans.length) { return contactLink }
+      if (index === plans.length) { return "Custom" }
 
       let price
 
@@ -245,12 +243,13 @@ layout: default
           <!-- GROWTH BOX -->
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Growth</h3>
-            <p class="mt-6 flex items-baseline gap-x-1">
+            <p class="mt-4 flex items-baseline gap-x-1">
               <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"></span>
               <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(volumeIndex, 'growth', yearlyBilling)"></span>
               <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
-            <ul class="mt-8 space-y-3 text-sm leading-6 xl:mt-10 text-gray-600">
+            <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
+            <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
               <li class="flex gap-x-3">
                 <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
                   aria-hidden="true">
@@ -304,12 +303,13 @@ layout: default
           <!-- BUSINESS BOX -->
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Business</h3>
-            <p class="mt-6 flex items-baseline gap-x-1">
+            <p class="mt-4 flex items-baseline gap-x-1">
               <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"></span>
               <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(volumeIndex, 'business', yearlyBilling)"></span>
               <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
-            <ul class="mt-8 space-y-3 text-sm leading-6 xl:mt-10 text-gray-600">
+            <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
+            <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
               <li class="flex gap-x-3">
                 <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
                   aria-hidden="true">
@@ -379,10 +379,13 @@ layout: default
           <!-- ENTERPRISE BOX -->
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Enterprise</h3>
-            <p class="mt-6 flex items-baseline gap-x-1">
-              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="contactLink"></span>
+            <p class="mt-4 flex items-baseline gap-x-1">
+              <span class="text-4xl font-bold tracking-tight text-gray-900">Custom</span>
             </p>
-            <ul class="mt-8 space-y-3 text-sm leading-6 xl:mt-10 text-gray-600">
+            <a href="/contact" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out">
+              contact us
+            </a>
+            <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
               <li class="flex gap-x-3">
                 <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
                   aria-hidden="true">
@@ -430,18 +433,12 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="mt-12 text-center">
-        <a href="/register"
-          class="px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent leading-6 rounded-md hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-          Start your free trial
-        </a>
-      </div>
     </div>
   </div>
 </div>
 
 <div class="bg-white">
-  <div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:py-24 lg:px-8">
+  <div class="px-4 pb-16 mx-auto max-w-screen-xl sm:px-6 lg:pb-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-extrabold text-gray-900 leading-9">Why use Plausible Analytics?</h2>
       <p class="mt-4 text-lg text-gray-500 leading-7">Google Analytics is overkill for most site owners. Plausible is easy to use and understand with no training or prior experience. You can import your historical GA stats too. </p>
