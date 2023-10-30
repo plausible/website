@@ -172,9 +172,6 @@ layout: default
   </div>
 
   <script>
-    let currency = '$'
-    fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)
-
     const plans = [
       {volume: '10k', growth: 9, business: 19},
       {volume: '100k', growth: 19, business: 39},
@@ -195,7 +192,7 @@ layout: default
       }
     }
 
-    function price(index, tier, yearlyBilling, withoutDiscount = false) {
+    function price(currency, index, tier, yearlyBilling, withoutDiscount = false) {
       index = parseInt(index)
       if (index === plans.length) { return "Custom" }
 
@@ -212,7 +209,7 @@ layout: default
       return currency + price.toString()
     }
   </script>
-  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0}">
+  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
@@ -244,8 +241,8 @@ layout: default
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Growth</h3>
             <p class="mt-4 flex items-baseline gap-x-1">
-              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"></span>
-              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(volumeIndex, 'growth', yearlyBilling)"></span>
+              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(currency, volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"></span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(currency, volumeIndex, 'growth', yearlyBilling)"></span>
               <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
             <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
@@ -304,8 +301,8 @@ layout: default
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Business</h3>
             <p class="mt-4 flex items-baseline gap-x-1">
-              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"></span>
-              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(volumeIndex, 'business', yearlyBilling)"></span>
+              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(currency, volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"></span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(currency, volumeIndex, 'business', yearlyBilling)"></span>
               <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
             <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
