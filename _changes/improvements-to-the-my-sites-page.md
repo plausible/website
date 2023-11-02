@@ -9,4 +9,4 @@ We’ve made some improvements to the “My Sites” page:
 * There’s a graph for an overview of the traffic 
 * And a comparison to the previous period so you can see the trend
 
-[Take a look](https://plausible.io/sites) and have fun exploring!
+[Take a look](https://plausible.io/sites). Have fun exploring!
