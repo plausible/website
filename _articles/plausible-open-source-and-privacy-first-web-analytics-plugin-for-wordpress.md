@@ -248,6 +248,23 @@ After you've completed this process, all the 404 error pages will start being tr
 
 You'll see "404" goal as soon as the first visit on an error page has been tracked. 
 
+## How to track ecommerce revenue
+
+You can assign dynamic monetary values to goals and custom events to track revenue attribution. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+
+When you create a new custom event, you can now optionally assign a monetary value to it. Our revenue tracking supports multi-currencies too. You can send data in any local currency that the purchase is made in. 
+
+In the "Enhanced measurements" section of our WordPress plugin settings, tick the "Ecommerce revenue" and click on the "Save Changes" button.
+
+Ecommerce revenue won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up. Here's how:
+
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
+* Select "Custom event" as the goal trigger, enter the goal name in the "Event name" field, tick to "Enable Revenue Tracking" and set the currency of your choice
+* This currency will be used for total and average revenue metrics in the dashboard. Note that the currency for a specific event cannot be changed later.
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
+* You can now start sending revenue data from your site alongside custom events. Here's a guide on [how to do that](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site)
+
 ## How to enable hash-based URL tracking
 
 Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specific-subheading` or `yourdomain.com/#contact`?
