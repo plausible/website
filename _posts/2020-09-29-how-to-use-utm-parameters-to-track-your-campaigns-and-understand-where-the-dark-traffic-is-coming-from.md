@@ -213,4 +213,4 @@ Note that in Plausible Analytics the referral sources are counted only when they
 
 ## Explore our fast, simple and easy to understand UTM campaign dashboard
 
-Plausible Analytics features a fast-loading, easy to use and easy to understand UTM campaign dashboard. We have a completely free 30 day trial with unlimited usage so you can test everything before you make a decision. No credit card is required either. [Register your trial here](https://plausible.io/register).
+Plausible Analytics features a fast-loading, easy to use and easy to understand UTM campaign dashboard. We have a completely free 30 day trial so you can test everything before you make a decision. No credit card is required. [Register your trial here](https://plausible.io/register).
