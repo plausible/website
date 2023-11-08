@@ -78,15 +78,7 @@ In your list of top browsers and top operating systems, you may find "Unknown" h
 
 ![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os-browser.png)
 
-Plausible Analytics filters out the bots and we don't use any type of data sampling at all so all the stats in your dashboard show 100% accurate data of what happens on your site. No data sampling means that you can make your decisions based on 100% accurate real-world stats.
-
-## The number of sites
-
-Cloudflare Web Analytics launched with a limit of one domain name per account. They have recently extended that to ten sites and it's possible to increase that [even further](https://developers.cloudflare.com/analytics/faq#can-i-track-more-than-one-website-with-web-analytics):
-
-> Right now there's a soft limit of 10 sites per account, but that can be adjusted by contacting Cloudflare support.
-
-Plausible Analytics doesn't have any limits on the number of websites you can add to your account. Add as many websites as you want and get access to all of them from the same account. First 50 websites are included free of charge in any subscription plan.
+Plausible Analytics filters out the bots and our stats are based on the accurate data of what happens on your site.
 
 ## Cloudflare limits you to 15 items on any report
 
@@ -164,4 +156,4 @@ It costs time and money to develop, manage and maintain a web analytics service.
  
 Cloudflare chooses to make their web analytics a free product but they cut the costs of running that free service by using aggressive data sampling and strict data history limitations.
 
-If you're curious about Plausible Analytics, we have a 30-day free trial you can use without any restrictions or limitations. There's also no credit card required to sign up for the trial. [Learn more here](https://plausible.io/register).
+If you're curious about Plausible Analytics, we have a 30-day free trial. There's no credit card required to sign up for the trial. [Learn more here](https://plausible.io/register).
