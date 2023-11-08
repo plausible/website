@@ -93,7 +93,7 @@ Google Analytics script is blocked by many people who use adblockers such as the
 
 Plausible is not a part of the adtech industry. It doesn't track any personal data whatsoever, doesn't use cookies and doesn't play any part in the profiling of personal behaviors around the web so we're not usually covered by these blockers either.
 
-You also have the option to [self-host Plausible](https://plausible.io/blog/self-hosted-web-analytics-beta) and even to proxy our script from your domain name as a [first party connection](https://plausible.io/docs/proxy/introduction).
+You also have the option to proxy our script from your domain name as a [first party connection](https://plausible.io/docs/proxy/introduction).
 
 ### A public roadmap driven by the community
 
@@ -117,6 +117,6 @@ Plausible is a simple and privacy-friendly alternative to Google Analytics. It i
 
 Plausible is here to provide you all the valuable website traffic insights at a glance while respecting the privacy of your visitors, being compliant with GDPR, CCPA and other privacy regulations, and without compromising the user experience.
 
-Do you have a website or a business? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
+Do you have a website or a business? Give Plausible a chance. [Sign up for a 30-day free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
 
 You can even [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
