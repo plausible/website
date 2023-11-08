@@ -30,7 +30,7 @@ We're a small team and we're based in the EU. The legal entity is incorporated i
 
 All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
 
-We use Bunny (another European-owned provider from Slovenia) for a global CDN and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
+We use Bunny (another European-owned provider from Slovenia) for a global CDN, DNS and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data [never leaves the EU](https://plausible.io/blog/google-analytics-illegal).
 
@@ -86,7 +86,7 @@ By not using cookies you do not need to obtain consent from the visitors to stor
 
 When using Plausible Analytics, you 100% own and control all of your website data. Although when using our hosted service, your site analytics are stored on our server in the cloud, you remain completely in control of your site data and you fully own all of your data too.
 
-You can delete everything that we have collected about your site any time that you want and you can even self-host Plausible so all the data always stays on the server that you own and control.
+You can delete everything that we have collected about your site any time that you want.
 
 ## Your data is not sent to, shared with or sold to any third-parties
 
@@ -108,12 +108,12 @@ Many of sites using Plausible have chosen to do so. Then they share a link to th
 
 ## You can self-host Plausible Analytics
 
-Plausible Analytics is open-source and you can [self-host it on your own server](https://plausible.io/blog/self-hosted-web-analytics-beta). Both our Cloud and our Self-Hosted products are completely equal. There's no special paid commercial version with better or more complete features.
+Plausible Analytics is open source and you can self-host it on your own server.
 
-The difference is that the Self-Hosted version you need to install, maintain and manage on your own server while the Cloud version we manage for you so you don't have to worry about anything.
+The main difference between Plausible Analytics in the cloud and the self-hosted version is that the self-hosted version you need to install, maintain and manage on your own server while the cloud version we manage for you so you don't have to worry about anything. You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
 
 ## Sounds like an interesting alternative to you? 
 
-If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free and unlimited usage 30-day trial. No credit card required either. You can [start your free trial here](https://plausible.io/register).
+If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register).
 
 As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
