@@ -74,7 +74,7 @@ If you are looking for a genuine EU alternative to Google Analytics, do give Pla
 
 These rulings make Plausible an even more interesting [Google Analytics alternative](https://plausible.io/vs-google-analytics) to an even more significant number of sites. Thousands of sites, startups and some of the world's leading brands have already switched from Google Analytics and other services. Plausible is built for scale and can serve sites with hundreds of millions of monthly visitors.
 
-We're a profitable and sustainable open source project with more than 10,000 paying subscribers. More than 100,000 different websites use Plausible and we're counting more than two billion pageviews per month. We've put together [a list of people tweeting about using Plausible](https://twitter.com/PlausibleHQ/timelines/1311218983912308736) if that helps you.
+We're a profitable and sustainable open source project with more than 12,000 paying subscribers. More than 200,000 different websites use Plausible and we're counting four billion pageviews per month. We've put together [a list of people tweeting about using Plausible](https://twitter.com/PlausibleHQ/timelines/1311218983912308736) if that helps you.
 
 We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import you historical stats from Google's Universal Analytics to Plausible.
 
@@ -106,7 +106,7 @@ Plausible Analytics is not free unlike Google Analytics. Plausible is not collec
 
 We choose the subscription business model rather than the business model of surveillance capitalism. To keep the project development going, stay in business, continue putting effort into building a better product and cover our costs, we need to charge a fee.
 
-Feel free to explore Plausible using our trial. We have [a free 30-day trial](https://plausible.io/register) with no credit card required and no other restrictions. You can use Plausible the same way as if you had an active paid subscription during the trial. It should give you enough time to test the features you're interested in. This will give you a better idea of how it all works and whether Plausible is the right solution for your needs.
+Feel free to explore Plausible using our trial. We have [a free 30-day trial](https://plausible.io/register) with no credit card required. It should give you enough time to test the features you're interested in. This will give you a better idea of how it all works and whether Plausible is the right solution for your needs.
 
 We don't do [any paid ads, retargeting and other privacy-intrusive marketing](https://plausible.io/blog/best-marketing-practices). We rely on people like you who enjoy what we do to help us spread the word and de-Google more sites. Thank you for being so supportive!
 
