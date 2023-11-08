@@ -28,8 +28,8 @@
 - question: How long are my website stats stored?
   answer: "There are no data retention limits. As long as you have an active subscription, you can view all the stats we've collected from the day you installed Plausible on your site. You can choose to <a class='text-indigo-600' href='https://plausible.io/docs/delete-site-data'>delete all of your site stats</a> in your settings at any time."
 
-- question: Is the 50 sites limit a hard limit?
-  answer: "No. 50 sites is how many sites you can add for free with any subscription. There are no hard limits on the number of sites you can have in your Plausible account. For those with more than 50 sites we have enterprise plans. Do reach out to us for more details."
+- question: Is there a hard limit on the number of sites, team members or API requests per hour?
+  answer: "No. There are no hard limits on the number of sites, the number of team members or the number of API requests per hour that you can have in your Plausible account. To modify the limits of your plan, please contact us. We're here to help tailor your subscription plan to your needs."
   
 - question: Can I integrate your dashboard into my UI and offer it to my customers?
   answer: "Yes. We have built several features to make it easy to integrate web analytics powered by Plausible (but without our branding) directly into your user interface. <a class='text-indigo-600' href='https://plausible.io/white-label-web-analytics'>See more here</a>."
