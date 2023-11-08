@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Google Analytics will stop tracking stats on July 1st 2023 (and there's
-  no import to GA4)
-description: "Universal Google Analytics, the current version of Google
-  Analytics, will stop counting stats on July 1st 2023. The new Google Analytics
-  4 will be replacing Universal Analytics. "
+title: Google's Universal Analytics has stopped tracking stats on July 1st 2023
+  (and there's no import to GA4)
+description: "Universal Google Analytics, the third version of Google Analytics,
+  has stopped counting stats on July 1st 2023. The new Google Analytics 4 has
+  replaced Universal Analytics. "
 slug: /universal-google-analytics-is-dead
 date: 2022-03-16T17:13:33.247Z
 author: marko-saric
 image: /uploads/universal-google-analytics-is-dead.png
-image-alt: Universal Google Analytics will stop tracking stats on July 1st 2023
-  and there's no import to GA4
+image-alt: Universal Google Analytics has stopped tracking stats on July 1st
+  2023 and there's no import to GA4
 ---
 Google just dropped big news on the business and marketing world! Universal Google Analytics, the current version of Google Analytics, will be sunset and will stop counting stats on July 1st 2023. The new Google Analytics 4 will be replacing Universal Analytics.
 
@@ -87,7 +87,7 @@ Here's how to import your historical Google Analytics (Universal Analytics) stat
 
 1. Go to the Plausible Analytics site settings for the website you'd like to import the data for.
 
-2. In the "General" tab, find the "Data Import from Google Analytics" panel. You can link your Google account to your Plausible account by clicking on the "Continue With Google" button.
+2. In the "Integrations" tab, find the "Google Analytics Data Import" panel. You can link your Google account to your Plausible account by clicking on the "Continue with Google" button.
 
 3. You will now see a drop-down selection menu listing Google Analytics properties associated with your Google account. Select the appropriate property. This will generally be the property with the same domain name as your Plausible site. Then click on the "Continue" button.
 
@@ -97,4 +97,4 @@ Here's how to import your historical Google Analytics (Universal Analytics) stat
 
 ## Try out Plausible
 
-Are you not happy with Google's plans and are not ready to switch to Google Analytics 4? Give Plausible a chance. [Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard. And keep your Google Analytics data.
+Are you not happy with Google's plans and are not ready to switch to Google Analytics 4? Give Plausible a chance. [Sign up for a 30-day free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard. And keep your Google Analytics data.
