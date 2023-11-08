@@ -102,9 +102,9 @@ If you want to track and identify 404 error pages on your site, here's what you 
 
 ### Sign up for an account 
 
-First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on an unlimited number of sites and with no usage restrictions.
+First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for free for 30 days. No credit card is required. 
 
-We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed. Plans start at $4/month.
+We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed. Plans start at $9/month.
 
 The process below works on all the different content management systems you may use for your website, including WordPress, Ghost, Squarespace and Webflow.
 
@@ -124,10 +124,12 @@ You need to place your Plausible Analytics tracking script code into the Header 
 Add this code to your 404 page. For instance, if you're using WordPress, your 404 page template will be called 404.php. It will be located within your theme files.
 
 ```html
-<script>plausible("404",{ props: { path: document.location.pathname } });</script>
+<script>document.addEventListener('DOMContentLoaded', function () { plausible('404', { props: { path: document.location.pathname } }); });</script>
 ```
 
 You need to place this code on your 404 page below the header section. Put it somewhere after the closing `</head>` tag.
+
+If you're on WordPress, you can easily enable 404 error page tracking using [our WordPress plugin](https://plausible.io/wordpress-analytics-plugin).
 
 ### Create a custom event goal in your account
 
