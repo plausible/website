@@ -162,7 +162,7 @@ layout: default
     <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-3xl font-extrabold text-gray-900 leading-9 sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-          Simple, traffic-based pricing
+          Traffic based plans that match your growth
         </h2>
         <p class="mt-4 text-xl text-gray-600 leading-7">
           Sign up for 30-day unlimited trial. No credit card required.
@@ -172,134 +172,262 @@ layout: default
   </div>
 
   <script>
-    pageviewTiers =   ['10k', '100k', '200k', '500k', '1m', '2m', '5m', '10m', '10m+']
-    monthlyPriceTiers = ['9 / mo', '19 / mo', '29 / mo', '49 / mo', '69 / mo', '89 / mo', '129 / mo', '169 / mo', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
-    yearlyPriceTiers = ['90 / yr', '190 / yr', '290 / yr', '490 / yr', '690 / yr', '890 / yr', '1290 / yr', '1690 / yr', "<a class='underline' href='mailto:hello@plausible.io'>Contact us</a>"]
+    const plans = [
+      {volume: '10k', growth: 9, business: 19},
+      {volume: '100k', growth: 19, business: 39},
+      {volume: '200k', growth: 29, business: 59},
+      {volume: '500k', growth: 49, business: 99},
+      {volume: '1m', growth: 69, business: 139},
+      {volume: '2m', growth: 89, business: 179},
+      {volume: '5m', growth: 129, business: 259},
+      {volume: '10m', growth: 169, business: 339},
+    ]
+
+    function volume(index) {
+      index = parseInt(index)
+      if (index === plans.length) {
+        return '10m+'
+      } else {
+        return plans[index].volume
+      }
+    }
+
+    function price(currency, index, tier, yearlyBilling, withoutDiscount = false) {
+      index = parseInt(index)
+      if (index === plans.length) { return "Custom" }
+
+      let price
+
+      if (yearlyBilling && withoutDiscount) {
+        price = plans[index][tier] * 12
+      } else if (yearlyBilling) {
+        price = plans[index][tier] * 10
+      } else {
+        price = plans[index][tier]
+      }
+
+      return currency + price.toString()
+    }
   </script>
-  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{volumeTier: 0, pricingYearly: false, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
+  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
-      <div class="relative px-4 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
-        <div class="max-w-lg mx-auto rounded-lg shadow-lg lg:max-w-none">
-          <div class="px-6 py-8 bg-white lg:p-12">
-            <div class="flex justify-between w-full">
-              <div>
-                <p class="text-sm font-medium tracking-wider text-gray-500 uppercase leading-6">
-                  Monthly pageviews
-                </p>
-                <div class="text-2xl font-extrabold leading-none text-gray-900" x-text="pageviewTiers[volumeTier]">
-                  10k
-                </div>
-              </div>
-              <div class="text-right">
-                <p class="text-sm font-medium tracking-wider text-gray-500 uppercase leading-6">
-                  Your price
-                </p>
-                <div class="text-2xl font-extrabold leading-none text-gray-900">
-                  <span x-show="volumeTier < 8" x-text="currency">$</span><!---
-                  --><span x-show="!pricingYearly" x-html="monthlyPriceTiers[volumeTier]">9 / mo</span><!--
-                  --><span x-show="pricingYearly" style="display: none;" x-html="yearlyPriceTiers[volumeTier]">90 / yr</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-8">
-              <input type="range" name="volume" min="0" max="8" x-model="volumeTier">
-            </div>
-
-            <div class="flex items-center justify-center gap-4 text-center mt-10">
-              <span class="mr-2 text-sm text-gray-700">Monthly billing</span>
-              <span role="checkbox" @click="pricingYearly = !pricingYearly" class="relative inline-flex items-center justify-center flex-shrink-0 w-10 h-5 cursor-pointer group focus:outline-none">
-                <span aria-hidden="true" :class="{'bg-indigo-600': pricingYearly, 'bg-gray-200': !pricingYearly}" class="absolute h-4 mx-auto bg-gray-200 rounded-full w-9 transition-colors ease-in-out duration-200"></span>
-                <span aria-hidden="true" :class="{'translate-x-5': pricingYearly, 'translate-x-0': !pricingYearly}" class="absolute left-0 inline-block w-5 h-5 bg-white border border-gray-200 rounded-full shadow translate-x-0 transform group-focus:shadow-outline group-focus:border-blue-300 transition-transform ease-in-out duration-200"></span>
-              </span>
-              <span class="relative ml-2 text-sm text-gray-700">
-                Yearly billing
-                <span class="block lg:inline-block lg:absolute lg:r-0 whitespace-no-wrap px-2.5 mx-2 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 text-yellow-800">
-                  2 months free
-                </span>
-              </span>
-            </div>
-
-            <div class="mt-8">
-              <div class="flex items-center">
-                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold tracking-wider text-indigo-600 uppercase bg-white leading-5">
-                  What's included
-                </h4>
-                <div class="flex-1 border-t-2 border-gray-200"></div>
-              </div>
-              <ul class="mt-8 lg:grid lg:grid-cols-3 lg:col-gap-8 lg:row-gap-5">
-                <li class="flex items-start lg:col-span-1">
-                  <div class="flex-shrink-0">
-                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                  </div>
-                  <p aria-label="Have more sites? Contact us" data-microtip-position="top-right" role="tooltip" class="inline-flex items-center ml-3 text-sm text-gray-700 leading-5">
-                    50 websites
-                    <svg class="w-4 h-4 ml-1 mb-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                  </p>
-                </li>
-                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
-                  <div class="flex-shrink-0">
-                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-sm text-gray-700 leading-5">
-                    Email/Slack reports
-                  </p>
-                </li>
-                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
-                  <div class="flex-shrink-0">
-                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-sm text-gray-700 leading-5">
-                    100% data ownership
-                  </p>
-                </li>
-                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
-                  <div class="flex-shrink-0">
-                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                  </div>
-                  <p aria-label="Custom events count towards your billable monthly pageviews" data-microtip-position="top-right" data-microtip-size="large" role="tooltip" class="inline-flex items-center ml-3 text-sm text-gray-700 leading-5">
-                    Custom events
-                    <svg class="w-4 h-4 ml-1 mb-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
-                  </p>
-                </li>
-                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
-                  <div class="flex-shrink-0">
-                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-sm text-gray-700 leading-5">
-                    Unlimited data retention
-                  </p>
-                </li>
-                <li class="flex items-start mt-5 lg:col-span-1 lg:mt-0">
-                  <div class="flex-shrink-0">
-                    <svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                  </div>
-                  <p class="ml-3 text-sm text-gray-700 leading-5">
-                    Unlimited team members
-                  </p>
-                </li>
-              </ul>
-            </div>
+      <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
+        <div class="lg:mb-6 max-w-md lg:max-w-none mx-auto flex flex-col lg:flex-row-reverse justify-between items-center lg:items-start">
+          <div class="flex gap-x-3 items-center">
+            <p class="font-medium leading-6 text-gray-600">Yearly billing</p>
+            <span role="checkbox" @click="yearlyBilling = !yearlyBilling"
+              class="relative inline-flex items-center justify-center flex-shrink-0 w-10 h-5 cursor-pointer group focus:outline-none">
+              <span aria-hidden="true" :class="{'bg-indigo-600': yearlyBilling, 'bg-gray-200': !yearlyBilling}"
+                class="absolute h-4 mx-auto rounded-full w-9 transition-colors ease-in-out duration-200 bg-indigo-600"></span>
+              <span aria-hidden="true" :class="{'translate-x-5': yearlyBilling, 'translate-x-0': !yearlyBilling}"
+                class="absolute left-0 inline-block w-5 h-5 bg-white border border-gray-200 rounded-full shadow translate-x-0 transform group-focus:shadow-outline group-focus:border-blue-300 transition-transform ease-in-out duration-200"></span>
+            </span>
+            <p
+              class="w-max px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 text-yellow-700">
+              2 months free</p>
           </div>
-
+          <div class="flex gap-x-1 w-max font-medium leading-6 text-gray-600 mt-6 lg:mt-0">
+            <p x-show="volumeIndex < plans.length">Up to</p>
+            <b class="text-xl text-gray-900" x-text="volume(volumeIndex)"></b>
+            <p>monthly pageviews</p>
+          </div>
         </div>
-        <div class="mt-12 text-center">
-          <a href="/register" class="px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent leading-6 rounded-md hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-            Start your free trial
-          </a>
+        <div class="mx-auto max-w-md lg:mx-0 lg:max-w-none">
+          <input class="shadow" type="range" min="0" max="8" step="1" x-model="volumeIndex"/>
+        </div>
+        <div class="mt-6 isolate mx-auto grid max-w-md grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <!-- GROWTH BOX -->
+          <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
+            <h3 class="text-lg font-semibold leading-8 text-gray-900">Growth</h3>
+            <p class="mt-4 flex items-baseline gap-x-1">
+              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(currency, volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"></span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(currency, volumeIndex, 'growth', yearlyBilling)"></span>
+              <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
+            </p>
+            <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
+            <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Up to 3 team members
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Up to 10 sites
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Intuitive, fast and privacy-friendly dashboard
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Email/Slack reports
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Google Analytics import
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Goals and custom events
+              </li>
+            </ul>
+          </div>
+          <!-- BUSINESS BOX -->
+          <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
+            <h3 class="text-lg font-semibold leading-8 text-gray-900">Business</h3>
+            <p class="mt-4 flex items-baseline gap-x-1">
+              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(currency, volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"></span>
+              <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(currency, volumeIndex, 'business', yearlyBilling)"></span>
+              <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
+            </p>
+            <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
+            <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Everything in Growth
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Up to 10 team members
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Up to 50 sites
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Stats API
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Custom Properties
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Funnels
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Ecommerce revenue attribution
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Priority support
+              </li>
+            </ul>
+          </div>
+          <!-- ENTERPRISE BOX -->
+          <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
+            <h3 class="text-lg font-semibold leading-8 text-gray-900">Enterprise</h3>
+            <p class="mt-4 flex items-baseline gap-x-1">
+              <span class="text-4xl font-bold tracking-tight text-gray-900">Custom</span>
+            </p>
+            <a href="/contact" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out">
+              contact us
+            </a>
+            <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Everything in Business
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                10+ team members
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                50+ sites
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                <p>
+                  Sites API access for <a class="text-indigo-600 hover:underline"
+                    href="/white-label-web-analytics">reselling</a>
+                </p>
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                </svg>
+                Technical onboarding
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -307,7 +435,7 @@ layout: default
 </div>
 
 <div class="bg-white">
-  <div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:py-24 lg:px-8">
+  <div class="px-4 pb-16 mx-auto max-w-screen-xl sm:px-6 lg:pb-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-extrabold text-gray-900 leading-9">Why use Plausible Analytics?</h2>
       <p class="mt-4 text-lg text-gray-500 leading-7">Google Analytics is overkill for most site owners. Plausible is easy to use and understand with no training or prior experience. You can import your historical GA stats too. </p>
