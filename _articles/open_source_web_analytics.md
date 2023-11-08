@@ -39,13 +39,13 @@ The goal of the AGPL license is to maximize user freedom and to encourage compan
 
 Yes, you can self-host Plausible. Plausible Self-Hosted is our free as in beer and free as in speech version that you have to install, host and manage yourself. 
 
-We're open source and all our code is available on GitHub. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) solution and read here the [installation instructions](https://plausible.io/docs/self-hosting).
+We're open source and all our code is available on GitHub. Take a look at the full details of our [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) solution.
 
 ## Plausible is open in other ways too
 
 #### Open to community feedback with a public roadmap
 
-We welcome feedback from our community. We have a [public roadmap](https://plausible.io/roadmap) driven by the features suggested by the community members and we are available to you via email or GitHub if you have any questions or need any help.
+We welcome feedback from our community. We have a [public roadmap](https://plausible.io/roadmap) driven by the features suggested by the community members and we are available to you via email if you have any questions or need any help.
 
 #### You can open your website analytics and make the stats publicly-viewable too
 
@@ -79,7 +79,7 @@ We choose the subscription business model rather than the business model of surv
 
 Do you have a website or a blog? Give Plausible a chance.
 
-[Sign up for a 30-day unlimited-use free trial](https://plausible.io/register) with no obligations and explore our open source site analytics dashboard. You don't even need to remove your current analytics provider until you've tested Plausible and figured out if you like our product.
+[Sign up for a 30-day free trial](https://plausible.io/register) with no obligations and explore our open source site analytics dashboard. You don't even need to remove your current analytics provider until you've tested Plausible and figured out if you like our product.
 
 Plausible is simple to set up and integrate into your website no matter which CMS you use or how you've built your site. You simply insert our one-line JavaScript snippet into the `<head>` section of the pages you'd like to keep an eye on and the numbers will start rolling in.
 
