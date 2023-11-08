@@ -142,4 +142,4 @@ It's important to have realistic expectations when trying to promote a company u
 
 In the meanwhile, if you're looking for an alternative to Google Analytics for your own website, do [register for a 30 day Plausible Analytics trial](https://plausible.io/register). 
 
-It's free, you can use it unlimited, no credit card is required and it's so lightweight you can easily run it alongside Google Analytics without any impact on your page speed. Test it and decide if Plausible Analytics is something worth removing Google Analytics for.
+It's free, no credit card is required and it's so lightweight you can easily run it alongside Google Analytics without any impact on your page speed. Test it and decide if Plausible Analytics is something worth removing Google Analytics for.
