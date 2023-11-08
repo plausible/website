@@ -163,7 +163,7 @@ Plausible Analytics is privacy-friendly by default, so it doesn't see the same l
 
 ## Try Plausible Analytics
 
-Does all this sound good for your ecommerce or SaaS startup? You can try out Plausible Analytics on your website for free. We have a completely free and unlimited usage 30-day trial. No credit card is required either. You can [start your free trial here](https://plausible.io/register).
+Does all this sound good for your ecommerce or SaaS startup? You can try out Plausible Analytics on your website for free. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register).
 
 We don't make money by selling or sharing your visitor data or abusing your visitor's privacy. This is why Plausible Analytics is not free as in beer. We choose the subscription business model rather than the business model of surveillance capitalism.
 
