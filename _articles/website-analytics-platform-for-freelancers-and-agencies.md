@@ -119,6 +119,6 @@ Unlike Google Analytics, Plausible Analytics is not free to use.
 
 Google Analytics is free because Google has built their company and their wealth by collecting and analyzing huge amounts of personal information from web users and using these personal and behavioral insights to sell advertisements.
 
-Since we don't make money from targeted advertisements, we must ask for a small fee to keep the servers running and to keep improving the product.
+Since we don't make money from targeted advertisements, we must ask for a fee to keep the servers running and to keep improving the product.
 
-[You can try Plausible Analytics for free](https://plausible.io/register) with our 30 days, unlimited usage trial. No credit card is required to sign up for a trial either. You could even run Plausible Analytics alongside Google Analytics to see what difference it makes in your workflow and in the experience of your clients before making a more long-term decision.
+[You can try Plausible Analytics for free](https://plausible.io/register) with our 30 days trial. No credit card is required to sign up for a trial. You could even run Plausible Analytics alongside Google Analytics to see what difference it makes in your workflow and in the experience of your clients before making a more long-term decision.
