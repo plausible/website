@@ -37,10 +37,10 @@ We're Plausible Analytics and after using Google Analytics for many years we bel
 * **Doesn’t collect personal data** so no need for GDPR and CCPA consent prompts
 * See more details on the [differences between Plausible Analytics and Google Analytics](https://plausible.io/vs-google-analytics).
 
-If this sounds interesting, do [register for a trial](https://plausible.io/register). The script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days, there are no restrictions on the usage and no credit card is required either.
+If this sounds interesting, do [register for a trial](https://plausible.io/register). The script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days and no credit card is required either.
 
 * Website: <https://plausible.io/>
-* Cost: Starts from $6/month and there's a discount when paid annually
+* Cost: Starts from $9/month and there's a discount when paid annually
 * Trial: 30 day free trial
 * Open-source: Yes. [GitHub](https://github.com/plausible/analytics/)
 * Demo: [Live demo](https://plausible.io/plausible.io)
