@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plausible is going open-source
+title: Plausible is going open source
 description: Today I'm happy to announce that Plausible is open source with the
   code being available on Github.
 slug: plausible-is-going-open-source
@@ -25,7 +25,7 @@ I chose to follow the example of Ghost here. Plausible is open-sourced under the
 
 It’s worth noting that for now, there's no explicit support for self-hosting Plausible. The project is still evolving quickly and maintaining a self-hosted solution would slow product development down considerably. I would love to offer a self-hosted solution in the future once the product and the business are more stable.
 
-**Update**: [Plausible Analytics Self-Hosted solution](https://plausible.io/blog/self-hosted-web-analytics-beta) is now available.
+**Update**: [Plausible Analytics Self-Hosted solution](https://plausible.io/self-hosted-web-analytics) is now available.
 
 ### What's next?
 
