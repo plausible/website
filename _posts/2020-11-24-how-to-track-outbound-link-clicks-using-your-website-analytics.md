@@ -137,7 +137,7 @@ If you want to track external link clicks in Plausible Analytics, here's what yo
 
 ### Sign up for a Plausible Analytics account 
 
-First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites and with no usage restrictions.
+First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites.
 
 We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed.
 
