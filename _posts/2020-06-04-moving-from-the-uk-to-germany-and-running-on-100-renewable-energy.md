@@ -56,4 +56,4 @@ After using Google Analytics for many years we believe we have created a better 
 * Doesn’t collect personal data so no need for GDPR and CCPA consent prompts
 * All the data is hosted on servers owned by Hetzner (a European company) in Germany. The data never leaves the EU
 
-If this sounds interesting, do [register for a trial](https://plausible.io/register). Our script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days, there are no restrictions on the usage and no credit card is required either.
+If this sounds interesting, do [register for a trial](https://plausible.io/register). Our script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days and no credit card is required.
