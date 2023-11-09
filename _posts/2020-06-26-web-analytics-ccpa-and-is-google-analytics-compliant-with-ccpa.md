@@ -118,6 +118,6 @@ We've built Plausible Analytics with simplicity and privacy in mind. We don't co
 
 We don't collect nor store any personal data at all. We're cookie-free too. Our business model has nothing to do with personalized advertising and integration with a wider marketing ecosystem so we have no interest in any of data collection for the purpose of behavioral analysis and no interest in sharing your website data with third-parties. You 100% control and own all of your web visitor data.
 
-If you'd like to explore Plausible Analytics in more detail, you can [sign up for a free 30-day trial](https://plausible.io/register). No credit card is required and you can use Plausible Analytics without any restrictions in those 30 days.
+If you'd like to explore Plausible Analytics in more detail, you can [sign up for a free 30-day trial](https://plausible.io/register). No credit card is required and you can use Plausible Analytics for free in those 30 days.
 
 You can also [import your old Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
