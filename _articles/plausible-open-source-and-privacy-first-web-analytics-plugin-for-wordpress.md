@@ -214,9 +214,27 @@ Custom events won't show up automatically in your Plausible dashboard. You’ll 
 
 When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard in the "Goal Conversions" section. Your custom event will appear there as soon as the first conversion has been recorded.
 
-### Custom properties can be attached to events
+For more details on custom events, please check out [this documentation page](https://plausible.io/docs/custom-event-goals).
 
-Custom properties can be attached to events to capture dynamic elements and to further break down goal conversions. Let's say you have a contact form both in the header and footer of your site. 
+## How to send custom properties
+
+You can attach custom properties when sending pageviews or custom events to create custom metrics. Custom properties allow you to collect and analyze metrics that we don't track automatically.
+
+For example, say you want to track your blog posts by `author`. Every time a visitor lands on one of the posts, you can send a pageview with the property `author=...`. You can then filter your Plausible dashboard by a specific author to see all the relevant stats for the posts published by that particular writer.
+
+Some other examples of stats you can get by sending custom properties:
+
+* Filter content by the publication date, page type, ID, tag or category
+* Filter visitors by login status or user role
+* Filter visitors by language they're viewing your website in
+* Filter visitors by how many prefer or use the dark mode
+* Filter by the segment that saw a particular variation of your site which is useful for A/B testing
+
+Here's how to use custom properties:
+
+### Custom properties for custom events
+
+Let's say you have a contact form both in the header and footer of your site. 
 
 In addition to tracking submissions, you might want to know which section of your site the form was submitted on. Instead of creating separate goals for each form, you can send a custom property instead:
 
@@ -227,6 +245,35 @@ In addition to tracking submissions, you might want to know which section of you
 You can add as many of these classes as you want. And the names can be anything that you want. Custom properties will show up automatically on your dashboard as long as you've added the goal itself. You don't need to manually add them in your settings.
 
 For more details on custom events and custom properties, please check out [this documentation page](https://plausible.io/docs/custom-event-goals).
+
+### Custom properties for pageviews
+
+In the "Enhanced measurements" section of our WordPress plugin settings, tick the "Pageview properties" and click on the "Save Changes" button.
+
+Pageview properties won't show up automatically in your Plausible dashboard. You'll have to configure them on your site.
+
+For more details on custom properties for pageviews, please check out [this documentation page](https://plausible.io/docs/custom-props/for-pageviews#2-add-your-custom-properties-to-your-plausible-snippet).
+
+## How to track ecommerce revenue
+
+You can assign dynamic monetary values to goals and custom events to track revenue attribution. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+
+When you create a new custom event, you can now optionally assign a monetary value to it. Our revenue tracking supports multi-currencies too. You can send data in any local currency that the purchase is made in. 
+
+In the "Enhanced measurements" section of our WordPress plugin settings, tick the "Ecommerce revenue" and click on the "Save Changes" button.
+
+Ecommerce revenue won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up. Here's how:
+
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
+* Select "Custom event" as the goal trigger, enter the goal name in the "Event name" field, tick to "Enable Revenue Tracking" and set the currency of your choice
+* This currency will be used for total and average revenue metrics in the dashboard. Note that the currency for a specific event cannot be changed later.
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
+* You can now start sending revenue data from your site alongside custom events using JavaScript or the CSS class name approach:
+
+`plausible-event-name=Purchase plausible-revenue-amount=10.29 plausible-revenue-currency=EUR`
+
+For full details on sending revenue data, [take a look here](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site).
 
 ## How to track 404 error pages
 
