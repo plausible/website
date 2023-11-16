@@ -10,7 +10,7 @@
   text: "We've completely left Google Analytics behind in favor of @PlausibleHQ. Google's incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that. \n\n <a target=\"_blank\" href=\"https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/\">blog.elementary.io/leaving-google…</a>"
   url: https://twitter.com/elementary/status/1283851023568850947
 
-- author_name: Rob Hope 🇿🇦
+- author_name: Rob Hope
   author_handle: robhope
   author_img: /assets/images/twitter/robhope.jpg
   text: "Just replaced my full network's Google Analytics with @PlausibleHQ - I can't remember when last I was this impressed by a SaaS UX + design 💯<br/><br/>Became a paying customer within 1hr of the 30-day trial."
@@ -28,8 +28,8 @@
   text: "We are super excited to announce that Prezly now has analytics! Thanks to @PlausibleHQ, our users can access simple, privacy-minded, and lightweight data right from the dashboard. <a target=\"_blank\" href=\"https://www.prezly.com/help/analytics-dashboard\">prezly.com/help/analytics-dashboard</a>"
   url: https://twitter.com/Prezly/status/1566772185712267266
 
-- author_name: Erlang Ecosystem Foundation
-  author_handle: TheErlef
-  author_img: /assets/images/twitter/TheErlef.jpg
-  text: "We're very excited to announce that we're switching to @PlausibleHQ! 📈🚀"
-  url: https://twitter.com/TheErlef/status/1369689461886496771
+- author_name: John O'Nolan
+  author_handle: JohnONolan
+  author_img: /assets/images/twitter/JohnONolan.jpg
+  text: "Check out @PlausibleHQ if you haven't yet — fantastic product, $190/mo for 5M views, or less when paid annually. We switched over everything from GA"
+  url: https://twitter.com/JohnONolan/status/1488921946062569480
