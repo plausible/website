@@ -7,7 +7,7 @@ permalink: /about
 
 Plausible Analytics is an open source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world.
 
-Plausible is trusted by 12,000+ paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
+Plausible is trusted by thousands of paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
 
 ![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
 
