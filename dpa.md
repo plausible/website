@@ -61,7 +61,9 @@ For encryption, we use https in transit and the hashing process at rest. Our has
 
 Plausible Analytics is open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. 
 
-With more than 15,000 GitHub stars, there are a lot of eyes on our code and it is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products. Our software is updated several times per week and we also have a way for people to report [any security vulnerabilities](https://plausible.io/security).
+With more than 15,000 GitHub stars, there are a lot of eyes on our code and it is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products. Our software is updated several times per week and we also have a way for people to report [any security vulnerabilities](https://plausible.io/vulnerability-disclosure-program).
+
+A more detailed overview about our security practices can be found on [plausible.io/security](https://plausible.io/security).
      
 ## Processor’s obligations with respect to the controller
 
