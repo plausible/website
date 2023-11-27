@@ -7,8 +7,6 @@ permalink: "/dpa"
 
 Thank you for using Plausible Analytics!
 
-Note: The following DPA applies to Plausible Analytics Cloud only and not to self-hosted which would be hosted on your own servers and therefore the DPA isn’t needed.
-
 Plausible Analytics is a European company and our data infrastructure is based in Germany covered by the EU's strong data privacy laws. Processing and storing data in a secure, fair, and transparent way is extremely important to us. 
 
 This Data Processing Agreement (“DPA”) is an addendum to the [Terms of Service](https://plausible.io/terms) between Plausible Analytics and the customer. 
@@ -61,9 +59,9 @@ All of the data that we do track is kept fully secured, encrypted and hosted on 
 
 For encryption, we use https in transit and the hashing process at rest. Our hashing process is much stronger than encryption. Encryption implies that there's a key that can decrypt and reveal the raw data. In our database the raw IP address and User Agent are rendered completely inaccessible to anyone, including ourselves. In addition to this, we use strict firewall rules and private encrypted networking. We keep offsite backups with replication including strong bcrypt passwords.
 
-Plausible Analytics is fully open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. 
+Plausible Analytics is open source software which means that our source code is available and accessible on GitHub so anyone can check it out and audit it. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure. This gives you and everyone else full transparency on how we handle the website traffic data. 
 
-With more than 10,000 GitHub stars, there are a lot of eyes on our code and it is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products. Our software is updated several times per week and on our GitHub page we also have a way for people to report any security vulnerabilities.
+With more than 15,000 GitHub stars, there are a lot of eyes on our code and it is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products. Our software is updated several times per week and we also have a way for people to report [any security vulnerabilities](https://plausible.io/security).
      
 ## Processor’s obligations with respect to the controller
 
@@ -137,4 +135,4 @@ If you have a question about the Data Processing Agreement (DPA), please [contac
 
 If you have any questions or concerns regarding your information and personal data, please contact us at [privacy@plausible.io](mailto:privacy@plausible.io).
 
-Last updated: March 21, 2022
+Last updated: November 27, 2023
