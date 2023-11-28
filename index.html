@@ -221,13 +221,13 @@ layout: default
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
-        <div class="mt-5 flex flex-col lg:flex-row gap-8 items-center lg:items-baseline">
-          <p class="w-46 font-medium leading-6 text-gray-600">
+        <div class="mt-5 flex flex-col gap-8 lg:flex-row items-center lg:items-baseline">
+          <p class="lg:w-1/4 font-medium text-gray-600">
             <span x-show="volumeIndex < plans.length">Up to</span>
             <b class="text-gray-900" x-text="volume(volumeIndex)"></b>
             <span>monthly pageviews</span>
           </p>
-          <div class="flex-1 flex w-full items-baseline space-x-2">
+          <div class="w-full lg:w-1/2 flex items-baseline space-x-2">
             <span class="text-xs font-medium text-gray-600">10k</span>
             <div class="flex-1 relative">
               <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" x-model="volumeIndex" />
@@ -235,7 +235,7 @@ layout: default
             </div>
             <span class="text-xs font-medium text-gray-600">10m+</span>
           </div>
-          <div class="flex">
+          <div class="lg:flex-1 lg:justify-end flex">
             <div class="relative">
               <span class="absolute whitespace-no-wrap w-max px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 border border-yellow-300 text-yellow-700" style="right: -20px; top: -15px;">
                 2 months free
