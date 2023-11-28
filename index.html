@@ -221,21 +221,8 @@ layout: default
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
-        <div class="mt-5 flex flex-col gap-8 lg:flex-row items-center lg:items-baseline">
-          <p class="lg:w-1/4 font-medium text-gray-600">
-            <span x-show="volumeIndex < plans.length">Up to</span>
-            <b class="text-gray-900" x-text="volume(volumeIndex)"></b>
-            <span>monthly pageviews</span>
-          </p>
-          <div class="w-full lg:w-1/2 flex items-baseline space-x-2">
-            <span class="text-xs font-medium text-gray-600">10k</span>
-            <div class="flex-1 relative">
-              <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" x-model="volumeIndex" />
-              <output class="bubble text-xs font-medium" x-text="volume(volumeIndex)" x-bind:style="`${calculateBubblePosition(volumeIndex)}`" />
-            </div>
-            <span class="text-xs font-medium text-gray-600">10m+</span>
-          </div>
-          <div class="lg:flex-1 lg:justify-end flex">
+        <div class="mt-5 flex flex-col gap-4 lg:flex-row lg:gap-8 items-center lg:items-baseline">
+          <div class="lg:flex-1 lg:order-3 lg:justify-end flex">
             <div class="relative">
               <span class="absolute whitespace-no-wrap w-max px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 border border-yellow-300 text-yellow-700" style="right: -20px; top: -15px;">
                 2 months free
@@ -251,6 +238,19 @@ layout: default
                 </label>
               </div>
             </div>
+          </div>
+          <p class="lg:w-1/4 lg:order-1 font-medium text-gray-600">
+            <span x-show="volumeIndex < plans.length">Up to</span>
+            <b class="text-gray-900" x-text="volume(volumeIndex)"></b>
+            <span>monthly pageviews</span>
+          </p>
+          <div class="w-full mt-6 lg:w-1/2 lg:order-2 flex items-baseline space-x-2">
+            <span class="text-xs font-medium text-gray-600">10k</span>
+            <div class="flex-1 relative">
+              <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" x-model="volumeIndex" />
+              <output class="bubble text-xs font-medium" x-text="volume(volumeIndex)" x-bind:style="`${calculateBubblePosition(volumeIndex)}`" />
+            </div>
+            <span class="text-xs font-medium text-gray-600">10m+</span>
           </div>
         </div>
         <div class="mt-6 isolate mx-auto grid max-w-md grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3">
