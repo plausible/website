@@ -214,7 +214,7 @@ layout: default
     function calculateBubblePosition(volumeIndex) {
       const range = document.getElementById("volume")
       const newVal = Number((volumeIndex / range.max) * 100)
-      return `left: calc(${newVal}% + (${8 - newVal * 0.15}px))`
+      return `left: calc(${newVal}% + (${13.87 - newVal * 0.26}px))`
     }
   </script>
   <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
