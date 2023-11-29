@@ -173,20 +173,20 @@ layout: default
 
   <script>
     const plans = [
-      {volume: '10k', growth: 9, business: 19},
-      {volume: '100k', growth: 19, business: 39},
-      {volume: '200k', growth: 29, business: 59},
-      {volume: '500k', growth: 49, business: 99},
-      {volume: '1m', growth: 69, business: 139},
-      {volume: '2m', growth: 89, business: 179},
-      {volume: '5m', growth: 129, business: 259},
-      {volume: '10m', growth: 169, business: 339},
+      { volume: "10k", growth: 9, business: 19 },
+      { volume: "100k", growth: 19, business: 39 },
+      { volume: "200k", growth: 29, business: 59 },
+      { volume: "500k", growth: 49, business: 99 },
+      { volume: "1m", growth: 69, business: 139 },
+      { volume: "2m", growth: 89, business: 179 },
+      { volume: "5m", growth: 129, business: 259 },
+      { volume: "10m", growth: 169, business: 339 },
     ]
 
     function volume(index) {
       index = parseInt(index)
       if (index === plans.length) {
-        return '10m+'
+        return "10m+"
       } else {
         return plans[index].volume
       }
@@ -194,7 +194,9 @@ layout: default
 
     function price(currency, index, tier, yearlyBilling, withoutDiscount = false) {
       index = parseInt(index)
-      if (index === plans.length) { return "Custom" }
+      if (index === plans.length) {
+        return "Custom"
+      }
 
       let price
 
@@ -208,90 +210,101 @@ layout: default
 
       return currency + price.toString()
     }
+
+    function calculateBubblePosition(volumeIndex) {
+      const range = document.getElementById("volume")
+      const newVal = Number((volumeIndex / range.max) * 100)
+      return `left: calc(${newVal}% + (${13.87 - newVal * 0.26}px))`
+    }
   </script>
   <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
-        <div class="lg:mb-6 max-w-md lg:max-w-none mx-auto flex flex-col lg:flex-row-reverse justify-between items-center lg:items-start">
-          <div class="flex gap-x-3 items-center">
-            <p class="font-medium leading-6 text-gray-600">Yearly billing</p>
-            <span role="checkbox" @click="yearlyBilling = !yearlyBilling"
-              class="relative inline-flex items-center justify-center flex-shrink-0 w-10 h-5 cursor-pointer group focus:outline-none">
-              <span aria-hidden="true" :class="{'bg-indigo-600': yearlyBilling, 'bg-gray-200': !yearlyBilling}"
-                class="absolute h-4 mx-auto rounded-full w-9 transition-colors ease-in-out duration-200 bg-indigo-600"></span>
-              <span aria-hidden="true" :class="{'translate-x-5': yearlyBilling, 'translate-x-0': !yearlyBilling}"
-                class="absolute left-0 inline-block w-5 h-5 bg-white border border-gray-200 rounded-full shadow translate-x-0 transform group-focus:shadow-outline group-focus:border-blue-300 transition-transform ease-in-out duration-200"></span>
-            </span>
-            <p
-              class="w-max px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 text-yellow-700">
-              2 months free</p>
+        <div class="mt-5 lg:mt-0 flex flex-col gap-4 lg:flex-row lg:gap-8 items-center lg:items-baseline">
+          <div class="lg:flex-1 lg:order-3 lg:justify-end flex">
+            <div class="relative">
+              <span class="absolute whitespace-no-wrap w-max px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-yellow-100 border border-yellow-300 text-yellow-700" style="right: -20px; top: -15px;">
+                2 months free
+              </span>
+              <div class="grid grid-cols-2 gap-x-1 rounded-full bg-white p-1 text-center text-sm font-semibold leading-5 border border-gray-200">
+                <label class="cursor-pointer rounded-full px-2.5 py-1 transition-colors ease-in-out duration-200" :class="yearlyBilling ? 'text-gray-900 bg-white' : 'text-white bg-indigo-600'" @click="yearlyBilling = false">
+                  <input type="radio" name="frequency" value="monthly" class="sr-only" />
+                  <span>Monthly</span>
+                </label>
+                <label class="cursor-pointer rounded-full px-2.5 py-1 transition-colors ease-in-out duration-200" :class="yearlyBilling ? 'text-white bg-indigo-600' : 'text-gray-900 bg-white'" @click="yearlyBilling = true">
+                  <input type="radio" name="frequency" value="yearly" class="sr-only" />
+                  <span>Yearly</span>
+                </label>
+              </div>
+            </div>
           </div>
-          <div class="flex gap-x-1 w-max font-medium leading-6 text-gray-600 mt-6 lg:mt-0">
-            <p x-show="volumeIndex < plans.length">Up to</p>
-            <b class="text-xl text-gray-900" x-text="volume(volumeIndex)"></b>
-            <p>monthly pageviews</p>
+          <p class="lg:w-1/4 lg:order-1 font-medium text-gray-600">
+            <span x-show="volumeIndex < plans.length">Up to</span>
+            <b class="text-gray-900" x-text="volume(volumeIndex)"></b>
+            <span>monthly pageviews</span>
+          </p>
+          <div class="max-w-md lg:max-w-none w-full mt-6 lg:w-1/2 lg:order-2 flex items-baseline space-x-2">
+            <span class="text-xs font-medium text-gray-600">10k</span>
+            <div class="flex-1 relative">
+              <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" x-model="volumeIndex" />
+              <output class="bubble text-xs font-medium" x-text="volume(volumeIndex)" x-bind:style="`${calculateBubblePosition(volumeIndex)}`" />
+            </div>
+            <span class="text-xs font-medium text-gray-600">10m+</span>
           </div>
-        </div>
-        <div class="mx-auto max-w-md lg:mx-0 lg:max-w-none">
-          <input class="shadow" type="range" min="0" max="8" step="1" x-model="volumeIndex"/>
         </div>
         <div class="mt-6 isolate mx-auto grid max-w-md grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <!-- GROWTH BOX -->
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Growth</h3>
             <p class="mt-4 flex items-baseline gap-x-1">
-              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(currency, volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"></span>
+              <span
+                class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1"
+                x-show="yearlyBilling && volumeIndex < plans.length"
+                x-html="price(currency, volumeIndex, 'growth', yearlyBilling, withoutDiscount = true)"
+              ></span>
               <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(currency, volumeIndex, 'growth', yearlyBilling)"></span>
               <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
-            <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
+            <a
+              :href="volumeIndex < plans.length && '/register' || '/contact'"
+              x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'"
+              class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"
+            ></a>
             <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Up to 3 team members
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Up to 10 sites
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Intuitive, fast and privacy-friendly dashboard
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Email/Slack reports
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Google Analytics import
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Goals and custom events
               </li>
@@ -301,73 +314,65 @@ layout: default
           <div class="rounded-3xl px-6 sm:px-8 py-4 sm:py-6 bg-white border border-gray-200 shadow-md">
             <h3 class="text-lg font-semibold leading-8 text-gray-900">Business</h3>
             <p class="mt-4 flex items-baseline gap-x-1">
-              <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1" x-show="yearlyBilling && volumeIndex < plans.length" x-html="price(currency, volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"></span>
+              <span
+                class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1"
+                x-show="yearlyBilling && volumeIndex < plans.length"
+                x-html="price(currency, volumeIndex, 'business', yearlyBilling, withoutDiscount = true)"
+              ></span>
               <span class="text-4xl font-bold tracking-tight text-gray-900" x-html="price(currency, volumeIndex, 'business', yearlyBilling)"></span>
               <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < plans.length" x-text="yearlyBilling && '/year' || '/month'"></span>
             </p>
-            <a :href="volumeIndex < plans.length && '/register' || '/contact'" x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'" class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"></a>
+            <a
+              :href="volumeIndex < plans.length && '/register' || '/contact'"
+              x-text="volumeIndex < plans.length && 'Start your free trial' || 'Contact us'"
+              class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out"
+            ></a>
             <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Everything in Growth
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Up to 10 team members
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Up to 50 sites
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Stats API (600 requests per hour)
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Custom Properties
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Funnels
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Ecommerce revenue attribution
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Priority support
               </li>
@@ -384,53 +389,38 @@ layout: default
             </a>
             <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Everything in Business
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 10+ team members
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 50+ sites
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 600+ Stats API requests per hour
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
-                <p>
-                  Sites API access for <a class="text-indigo-600 hover:underline"
-                    href="/white-label-web-analytics">reselling</a>
-                </p>
+                <p>Sites API access for <a class="text-indigo-600 hover:underline" href="/white-label-web-analytics">reselling</a></p>
               </li>
               <li class="flex gap-x-3">
-                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
-                  aria-hidden="true">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
+                <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" />
                 </svg>
                 Technical onboarding
               </li>

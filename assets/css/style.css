@@ -71,7 +71,13 @@ input[type="range"] {
   margin-top: 15px;
   margin-bottom: 15px;
   outline: none;
+  cursor: grab;
 }
+
+input[type="range"]:active {
+  cursor: grabbing;
+}
+
 input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   -webkit-appearance: none;
@@ -81,9 +87,8 @@ input[type="range"]::-webkit-slider-thumb {
   background-repeat: no-repeat;
   border: 0;
   border-radius: 50%;
-  cursor: pointer;
-  height: 36px;
-  width: 36px;
+  height: 26px;
+  width: 26px;
 }
 input[type="range"]::-moz-range-thumb {
   background-color: #5f48ff;
@@ -93,9 +98,8 @@ input[type="range"]::-moz-range-thumb {
   border: 0;
   border: none;
   border-radius: 50%;
-  cursor: pointer;
-  height: 36px;
-  width: 36px;
+  height: 26px;
+  width: 26px;
 }
 input[type="range"]::-ms-thumb {
   background-color: #5f48ff;
@@ -104,12 +108,21 @@ input[type="range"]::-ms-thumb {
   background-repeat: no-repeat;
   border: 0;
   border-radius: 50%;
-  cursor: pointer;
-  height: 36px;
-  width: 36px;
+  height: 26px;
+  width: 26px;
 }
 input[type="range"]::-moz-focus-outer {
   border: 0;
+}
+
+.bubble {
+  background: #5f48ff;
+  color: white;
+  position: absolute;
+  border-radius: 4px;
+  bottom: 35px;
+  padding: 4px 12px;
+  transform: translateX(-50%);
 }
 
 .twitter-icon {
