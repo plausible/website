@@ -177,16 +177,16 @@ layout: default
       { volume: "100k", growth: 19, business: 39 },
       { volume: "200k", growth: 29, business: 59 },
       { volume: "500k", growth: 49, business: 99 },
-      { volume: "1m", growth: 69, business: 139 },
-      { volume: "2m", growth: 89, business: 179 },
-      { volume: "5m", growth: 129, business: 259 },
-      { volume: "10m", growth: 169, business: 339 },
+      { volume: "1M", growth: 69, business: 139 },
+      { volume: "2M", growth: 89, business: 179 },
+      { volume: "5M", growth: 129, business: 259 },
+      { volume: "10M", growth: 169, business: 339 },
     ]
 
     function volume(index) {
       index = parseInt(index)
       if (index === plans.length) {
-        return "10m+"
+        return "10M+"
       } else {
         return plans[index].volume
       }
@@ -208,7 +208,7 @@ layout: default
         price = plans[index][tier]
       }
 
-      return currency + price.toString()
+      return currency + price.toLocaleString("en-US")
     }
 
     function calculateBubblePosition(volumeIndex) {
@@ -250,7 +250,7 @@ layout: default
               <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" x-model="volumeIndex" />
               <output class="bubble text-xs font-medium" x-text="volume(volumeIndex)" x-bind:style="`${calculateBubblePosition(volumeIndex)}`" />
             </div>
-            <span class="text-xs font-medium text-gray-600">10m+</span>
+            <span class="text-xs font-medium text-gray-600">10M+</span>
           </div>
         </div>
         <div class="mt-6 isolate mx-auto grid max-w-md grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3">
