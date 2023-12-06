@@ -74,7 +74,7 @@ You are fully in control of any of the website stats we collect on your behalf. 
 
 ## User identification and authorization
 
-Passwords for signing in are hashed and salted. 
+Passwords for signing in are hashed and salted. You can [enable two-factor authentication (2FA)](https://plausible.io/docs/2fa) as an extra security layer for your Plausible account.
 
 ## Data sharability 
 
