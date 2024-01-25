@@ -29,7 +29,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are solely funded by the fees our subscribers pay us
 
-* There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9/month or $7.5/month when billed annually and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing)
+* There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing)
 
 ## What are the other features of Plausible Analytics for WordPress?
 
@@ -39,7 +39,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * Check your Plausible **stats dashboard directly in your WordPress** dashboard
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
 * Send **custom properties alongside pageviews or custom events**
-* Track **ecommerce revenue for your store**
+* Track **purchases and revenue for your ecommerce store**
 * **Exclude specific pages from being tracked**
 * **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too
 * **Allow specific user roles (editors, authors or contributors) to access the stats dashboard**
@@ -56,10 +56,6 @@ To use Plausible Analytics, you need to register an account. To explore the prod
 After you verify your email address, you need to enter the domain name of the website you want to track. 
 
 Please, remove `https` and `www` from the URL, just keep the hostname (`yourdomain.com`). For example, if your site is `https://www.yourdomain.com` then the part to enter in the "Domain" field is `yourdomain.com`.
-
-If you would like to track a subdomain such as `blog.yourdomain.com` then please include the subdomain. Plausible Analytics essentially sees different subdomains as different sites.
-
-For example, if your subdomain is `https://blog.yourdomain.com` then the part to enter in the "Domain" field is `blog.yourdomain.com`.
 
 ![Enter the domain name of the website you want to track](/docs/img/website-details.png)
 
@@ -80,7 +76,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 
 ![Activate our WordPress plugin](/uploads/activate-our-wordpress-plugin.png)
 
-* You will then be taken to our "Getting Started Guide" that will take you through the process of setting up the plugin and the different options
+* You will then be taken through our get started guide to set up the plugin and the different options
 * "Plausible Analytics" entry will also show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to further explore the various options available
 
 ![Plausible Analytics WordPress plugin settings](/uploads/plausible-analytics-wordpress-plugin-settings.png)
@@ -91,17 +87,21 @@ There are some features that you can enable in the plugin. Here's a look at thos
 
 ## Insert your domain name and API token
 
+In the "Domain Name" field, make sure you use the same domain name as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
+
+To automate the plugin setup, you need to generate an API token in your Plausible site settings and paste it into the "API Token" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
+
+You'll be able to see a list of all your plugin API tokens in your Plausible site settings in the "Integrations" section at any time.
+
 ## How to view your stats directly in your WordPress dashboard
 
 You can view your Plausible stats dashboard directly in your WordPress dashboard without needing to visit our website.
 
-"View your stats in your WordPress dashboard" section
+In the "View your stats in your WordPress dashboard" section of the plugin settings, enable the "View stats in WordPress" option.
 
-to enable you to view your stats in your WordPress dashboard
+You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard.
 
-You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard
-
-The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show the stats dashboard to specific user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
+The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show stats dashboard to additional user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
 
 ## How to enable a proxy to get more accurate stats
 
@@ -113,9 +113,9 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 * **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%
 
-* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin. 
+* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin
 
-* In the "Bypass adblockers" section of our WordPress plugin settings, tick the "Enable proxy" and click on the "Save Changes" button 
+* In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option
 
 ![Enable proxy in our WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
 
@@ -266,7 +266,7 @@ Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specifi
 
 Normally the hash part of the URL is discarded in your Plausible dashboard. You can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats and see the different pages your visitors have viewed.
 
-In the "Enhanced measurements" section of the Plausible WordPress plugin settings, tick "Hash-based routing" and then click on the "Save Changes" button.
+In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option.
 
 ## How to track visitors who use Internet Explorer
 
@@ -286,7 +286,7 @@ You can use an asterisk (`*`) to match patterns in your page path URLs. Asterisk
 
 By default, our WordPress plugin excludes your own "administrator" visits from being counted in the stats. You can optionally choose to exclude visits from being counted for other user roles too including authors, editors and contributors. Go to the "Track analytics for user roles" section of our WordPress plugin to do so.
 
-If you'd like to count your visits, you can do so as well. Simply tick off the user role that you prefer to track and click on the "Save Changes" button.
+If you'd like to count your visits, you can do so as well. Simply enable the user role that you prefer to track.
 
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
