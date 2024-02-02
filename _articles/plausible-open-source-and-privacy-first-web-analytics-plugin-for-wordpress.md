@@ -38,6 +38,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * **Setup goals and custom events using CSS class names** so you can track conversions and analyze conversion attribution
 * Check your Plausible **stats dashboard directly in your WordPress** dashboard
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
+* Track **post authors and categories**
 * Send **custom properties alongside pageviews or custom events**
 * Track **purchases and revenue for your ecommerce store**
 * **Exclude specific pages from being tracked**
@@ -91,7 +92,9 @@ In the "Domain Name" field, make sure you use the same domain name as you've add
 
 To automate the plugin setup, you need to generate an API token in your Plausible site settings and paste it into the "API Token" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
 
-You'll be able to see a list of all your plugin API tokens in your Plausible site settings in the "Integrations" section at any time.
+You'll find a link to where to go to generate the token directly in the plugin itself.
+
+After you generate a token, you'll be able to see a list of all your plugin API tokens in your Plausible site settings in the "Integrations" section at any time.
 
 ## How to view your stats directly in your WordPress dashboard
 
@@ -193,17 +196,11 @@ For more details on custom events, please check out [this documentation page](ht
 
 You can attach custom properties when sending pageviews or custom events to create custom metrics. Custom properties allow you to collect and analyze metrics that we don't track automatically.
 
-For example, say you want to track your blog posts by `author`. Every time a visitor lands on one of the posts, you can send a pageview with the property `author=...`. You can then filter your Plausible dashboard by a specific author to see all the relevant stats for the posts published by that particular writer.
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Authors and categories" option to do so.
 
-Some other examples of stats you can get by sending custom properties:
+This will then start sending your post author names and post categories as custom properties alongside pageviews. You can then filter your Plausible dashboard by a specific author to see all the relevant stats for the posts published by that particular writer or a specific category to see the popularity of a category.
 
-* Filter content by the publication date, page type, ID, tag or category
-* Filter visitors by login status or user role
-* Filter visitors by language they're viewing your website in
-* Filter visitors by how many prefer or use the dark mode
-* Filter by the segment that saw a particular variation of your site which is useful for A/B testing
-
-Here's how to use custom properties:
+Authors and categories work out of the box as soon as they're enabled, but if you prefer you can manually send additional custom properties alongside custom events or pageviews. Here's how to do so:
 
 ### Custom properties for custom events
 
@@ -221,11 +218,9 @@ For more details on custom events and custom properties, please check out [this 
 
 ### Custom properties for pageviews
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Pageview properties" option.
+Post authors and categories are tracked out of the box as soon as the "Authors and categories" option is enabled in the "Enhanced measurements" section of our WordPress plugin settings.
 
-Pageview properties won't show up automatically in your Plausible dashboard. You'll have to configure them on your site.
-
-For more details on custom properties for pageviews, please check out [this documentation page](https://plausible.io/docs/custom-props/for-pageviews#2-add-your-custom-properties-to-your-plausible-snippet).
+For more details on how to send other custom properties for pageviews, please check out [this documentation page](https://plausible.io/docs/custom-props/for-pageviews#2-add-your-custom-properties-to-your-plausible-snippet).
 
 ## How to track ecommerce revenue
 
