@@ -3,7 +3,7 @@ layout: change
 title: Segment by multiple custom properties
 date: 2024-02-12T11:58:59.496Z
 ---
-Do you record [custom properties](https://plausible.io/docs/custom-props/introduction) alongside pageviews and/or custom events?
+Do you send [custom properties](https://plausible.io/docs/custom-props/introduction) alongside pageviews and/or custom events?
 
 You can now segment your audience by multiple custom properties. Just keep selecting additional custom properties in your dashboard as you’re filtering. 
 
