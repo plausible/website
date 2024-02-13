@@ -1,7 +1,7 @@
 ---
 layout: change
 title: Segment by multiple custom properties
-date: 2024-02-12T11:58:59.496Z
+date: 2024-02-13T11:58:59.496Z
 ---
 Do you send [custom properties](https://plausible.io/docs/custom-props/introduction) alongside pageviews and custom events?
 
