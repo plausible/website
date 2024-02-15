@@ -134,7 +134,7 @@ In case plugin conflicts arise with your WordPress, it might cause the stats not
 
 Some of the common issues that prevent the proxy from being setup correctly are:
 
-* In your WordPress general settings, make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields
+* If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields
 
 * Do you have any firewall or other security plugin activated that may affect the ability for WordPress to create files?
 
