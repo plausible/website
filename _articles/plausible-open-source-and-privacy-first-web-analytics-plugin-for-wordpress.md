@@ -130,7 +130,19 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 We've put a lot of effort to ensure that the proxy works smoothly and have taken measures to prevent conflicts with popular performance optimization and caching plugins such as the WP Rocket, SG Optimizer, WP Optimize and LiteSpeed Cache. However, sometimes things might not go as planned.
 
-In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration [a quick double-check](https://plausible.io/docs/troubleshoot-integration) after you enable the proxy to make sure the stats are being recorded. And if you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
+In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration [a quick double-check](https://plausible.io/docs/troubleshoot-integration) after you enable the proxy to make sure the stats are being recorded. 
+
+Some of the common issues that prevent the proxy from being setup correctly are:
+
+* In your WordPress general settings, make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields
+
+* Do you have any firewall or other security plugin activated that may affect the ability for WordPress to create files?
+
+* Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
+
+* Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches
+
+If you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
 
 ### If the proxy script is slow
 
