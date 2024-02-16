@@ -81,7 +81,9 @@ Plausible Analytics is an [open source product](https://plausible.io/open-source
 
 ### You can use one Plausible Analytics account for multiple clients
 
-You can add as many clients' websites as you want under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
+You can add as many clients' websites as you want, under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
+
+Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
 
 ### Invite team members and collaborate 
 
