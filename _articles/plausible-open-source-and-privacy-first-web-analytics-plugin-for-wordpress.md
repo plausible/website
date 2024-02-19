@@ -94,6 +94,8 @@ To automate the plugin setup, you need to generate an API token in your Plausibl
 
 You'll find a link to where to go to generate the token directly in the plugin itself.
 
+![Create API Token](/docs/img/plausible-plugin-api-token.png)
+
 After you generate a token, you'll be able to see a list of all your plugin API tokens in your Plausible site settings in the "Integrations" section at any time.
 
 ## How to view your stats directly in your WordPress dashboard
