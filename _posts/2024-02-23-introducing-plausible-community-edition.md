@@ -19,7 +19,7 @@ As mentioned at the time, we wanted a “don’t be evil” license. Here’s th
 > - We want to prevent corporations from offering Plausible as a service without contributing to the open source project
 > - We want to prevent corporations from confusing people and making them think that the service they sell is in any shape or form approved by the original team
 >
-> And we don’t want this to in any way impact the actual use case Plausible is built for. A completely open source and self-hostable web analytics tool that helps > people de-Googlify their sites and respect the privacy of their visitors.
+> And we don’t want this to in any way impact the actual use case Plausible is built for. A completely open source and self-hostable web analytics tool that helps people de-Googlify their sites and respect the privacy of their visitors.
 
 That license change has helped us build [a sustainable open source project](https://plausible.io/blog/open-source-saas) with 8 core team members and several paid external contributors at the time of writing. We don’t have any investors, so all this is solely funded by the fees our 12,000+ subscribers pay us.
 
