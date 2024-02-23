@@ -82,7 +82,7 @@ The code for all these features is still available to the public so it can be re
 
 This change also means that if you want to contribute to our codebase in the future as an external contributor, you’ll need to sign a Contributor License Agreement (CLA). 
 
-To provide a better service and experience to people who pay our bills, Plausible CE will continue to be [community-supported only](https://plausible.io/blog/building-open-source). 
+To provide a better service and experience to people who pay our bills, Plausible CE will continue to not have any premium customer support and is [community-supported only](https://plausible.io/blog/building-open-source).
 
 This open core model is something that GitLab and other open source projects have championed and we believe it’s the best and most open source friendly approach for the situation we’re in.
 
