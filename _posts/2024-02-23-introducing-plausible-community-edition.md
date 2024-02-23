@@ -15,11 +15,11 @@ In October 2020, we changed [from the MIT to the AGPL license](https://plausible
 
 As mentioned at the time, we wanted a “don’t be evil” license. Here’s the quote of what we wrote more than three years ago on what we were trying to accomplish with the license change:
 
-“ * We want to prevent corporations from taking our code and using it as part of their closed-source proprietary products
-* We want to prevent corporations from offering Plausible as a service without contributing to the open source project
-* We want to prevent corporations from confusing people and making them think that the service they sell is in any shape or form approved by the original team
-
-And we don’t want this to in any way impact the actual use case Plausible is built for. A completely open source and self-hostable web analytics tool that helps people de-Googlify their sites and respect the privacy of their visitors.“
+> - We want to prevent corporations from taking our code and using it as part of their closed-source proprietary products
+> - We want to prevent corporations from offering Plausible as a service without contributing to the open source project
+> - We want to prevent corporations from confusing people and making them think that the service they sell is in any shape or form approved by the original team
+>
+> And we don’t want this to in any way impact the actual use case Plausible is built for. A completely open source and self-hostable web analytics tool that helps > people de-Googlify their sites and respect the privacy of their visitors.
 
 That license change has helped us build [a sustainable open source project](https://plausible.io/blog/open-source-saas) with 8 core team members and several paid external contributors at the time of writing. We don’t have any investors, so all this is solely funded by the fees our 12,000+ subscribers pay us.
 
@@ -28,6 +28,9 @@ As we’ve progressed in our journey, we’ve become aware that despite its adva
 If you have a blog, a personal site or a business site, we want you to be able to self-host our code on your servers without needing to pay us any fees if that’s your preference. Nothing changes about this either. Our self-hosted code continues being AGPL-licensed, “free as in beer” and is the same code running in the production on our Plausible Analytics managed hosting in the cloud. 
 
 Here’s more on what’s being changed and why.
+
+1. Ordered list
+{:toc}
 
 ## Threats we’re facing
 
@@ -102,4 +105,4 @@ With the change of our self-hosted release name and logo, the registration of ou
 * Complete overview of differences [between Plausible Analytics Cloud and Plausible CE](https://plausible.io/self-hosted-web-analytics)
 * [Plausible CE release notes and installation instructions](https://github.com/plausible/analytics/discussions/categories/self-hosted-support)
 * [Plausible CE support forum on GitHub](https://github.com/plausible/analytics/discussions/categories/self-hosted-support)
-* [Plausible Analytics managed hosting in the cloud](https://plausible.io/self-hosted-web-analytics)
+* [Plausible Analytics managed hosting](https://plausible.io)
