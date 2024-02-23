@@ -62,7 +62,7 @@ These licenses are [not approved nor recognized by the Open Source Initiative (O
 
 ## Changes we’re making to our self-hosted release
 
-Here’s how we’ll proceed with our self-hosted release. These changes will go live with the next version of our self-hosted release. [Installation instructions are here](https://github.com/plausible/community-edition/).
+Here’s how we’ll proceed with our self-hosted release. These changes will go live with the next version of our self-hosted release (2.1.0). [Release notes are here](https://github.com/plausible/analytics/releases/tag/v2.1.0-rc.0).
 
 ### Our self-hosted release will be called Plausible Community Edition
 
@@ -103,4 +103,5 @@ Many indie hackers that contact us about our experience of running an open sourc
 With the change of our self-hosted release name and logo, the registration of our trademarks and the exclusive availability of certain enterprise features to our managed cloud hosting, we aim to better ensure the sustainability of Plausible Analytics in the face of external threats in the future. Thank you for your support!
 
 * [Plausible CE installation instructions](https://github.com/plausible/community-edition/)
+* [Plausible CE 2.1.0 release notes](https://github.com/plausible/analytics/releases/tag/v2.1.0-rc.0).
 * Complete overview of differences [between Plausible Analytics Cloud and Plausible CE](https://plausible.io/self-hosted-web-analytics)
