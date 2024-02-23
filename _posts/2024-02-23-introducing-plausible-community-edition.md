@@ -4,7 +4,7 @@ title: Introducing Plausible Community Edition
 description: We’re introducing the "free as in beer", self-hosted and
   AGPL-licensed Plausible Community Edition (CE).
 slug: community-edition
-date: 2024-02-23T07:28:39.233Z
+date: 2024-02-23T12:00:30.534Z
 author: marko-saric
 image: /uploads/plausible-community-edition.png
 image-alt: Plausible Community Edition (CE)
@@ -44,7 +44,7 @@ We face threats both from single-tenant and multi-tenant hosts and resellers. Th
 * Having a bad user experience with under provisioned servers, slow loading time, frequent downtime and no support 
 * Running paid advertising on Google and paying referral fees for people to promote them. Both marketing tactics that [we say no to ourselves](https://plausible.io/blog/best-marketing-practices)
 
-These use cases were never the intention behind our self-hosted release. We wanted to give site owners a way to de-Google their sites even if they didn’t want to or couldn’t use our managed service. Now, we’re facing situations where companies much larger than us with much bigger resources use our brand to compete against us and gain a business advantage. 
+These use cases were never the intention behind our self-hosted release. We wanted to give site owners a way to de-Google their sites even if they didn’t want to or couldn’t use our managed service. Now, we’re facing situations where companies much larger than us with much bigger resources use our brand to compete against us and gain a business advantage.
 
 It’s telling that these entities rarely decide to build their brand on top of our code. They prefer to use the brand we’ve built instead as it gives them a better and easier starting point. These actions not only threaten our sustainability but also mislead people who trust the Plausible Analytics name. We want to ensure that anyone using or considering our services knows precisely what they're getting, without confusion or misrepresentation.
 
@@ -56,7 +56,7 @@ We believe this would not only hurt us as people but also all of the users of th
 
 We’ve learned that being open source and transparent has costs. Dealing with these threats is an incredibly taxing and time-consuming distraction for our small team. It’s something our proprietary competitors never even have to think about.
 
-Several popular projects have shifted away from open source models in the last few years because of similar threats that we’re facing. They’re using licenses such as the Business Source License or the Server Side Public License because those licenses directly address the threats from resellers and hosting companies.
+Several popular open source projects have shifted away from traditional models in the last few years because of similar threats that we’re facing. They’re adopting licenses such as the Business Source License (BSL) or the Server Side Public License (SSPL) as these licenses more directly address the concerns about resellers and hosting companies.
 
 These licenses are [not approved nor recognized by the Open Source Initiative (OSI)](https://opensource.org/licenses/), which is why we’re not interested in switching to them. We want to stay open source to continue providing a transparent and privacy-friendly web analytics tool with a “free as in beer” self-hosted release.
 
@@ -68,17 +68,17 @@ Here’s how we’ll proceed with our self-hosted release. These changes will go
 
 Our self-hosted release will be renamed Plausible Community Edition (or Plausible CE). Plausible CE will also have a different logo from the Plausible Analytics managed hosting in the cloud. This is the main change you’ll see if you’re running our self-hosted code on your server. 
 
-Plausible CE continues to be AGPL-licensed and “free as in beer”. It continues to be the same code running in the production on our managed hosting. As we’ve done so far, we’ll keep maintaining, improving and adding new features to the Plausible CE with new releases twice annually.
+Plausible CE continues to be AGPL-licensed and “free as in beer”. It continues to be the same code running in the production on our managed hosting. As we’ve done so far, we’ll keep maintaining, improving and adding features to the Plausible CE with new releases twice annually.
 
 To further protect our brand from threats, we’ve registered trademarks for Plausible Analytics on both sides of the Atlantic. 
 
 ### A stronger moat for our official managed hosting
 
-We’re excluding features we use to manage Plausible Analytics at scale, such as the sites API and customer relationship management system, from Plausible CE. As a self-hoster, you likely haven’t noticed these features, as they’ve been undocumented in our self-hosted release and are primarily helpful when providing web analytics as a service.
+We’re excluding features we use to manage Plausible Analytics at scale, such as the sites API and customer relationship management system, from Plausible CE. As a self-hoster, you likely haven’t noticed these features, as they’ve been undocumented and are primarily helpful when providing web analytics as a service.
 
 We’re also keeping some of the newly released business and enterprise features ([funnels](https://plausible.io/docs/funnel-analysis) and [ecommerce revenue metrics](https://plausible.io/docs/ecommerce-revenue-tracking) at the time of being) exclusive to the business plan subscribers on our Plausible Analytics managed hosting. 
 
-The code for all these features is still available to the public so it can be reviewed and inspected, but these features will not be a part of Plausible CE and they’ll have a different license. 
+The code for all these features is still available to the public so it can be reviewed and inspected, but these features will not be a part of Plausible CE and they’ll have a different license.
 
 This change also means that if you want to contribute to our codebase in the future as an external contributor, you’ll need to sign a Contributor License Agreement (CLA). 
 
