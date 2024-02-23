@@ -6,6 +6,8 @@ description: We’re introducing the "free as in beer", self-hosted and
 slug: community-edition
 date: 2024-02-23T07:28:39.233Z
 author: marko-saric
+image: /uploads/plausible-community-edition.png
+image-alt: Plausible Community Edition (CE)
 ---
 **TL;DR**: We're introducing the "free as in beer", self-hosted and AGPL-licensed Plausible Community Edition (CE). [Installation instructions are here](https://github.com/plausible/analytics/discussions/categories/self-hosted-support).
 
