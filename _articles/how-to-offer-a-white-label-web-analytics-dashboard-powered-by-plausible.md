@@ -75,4 +75,6 @@ Learn more about [the proxy functionality](https://plausible.io/docs/proxy/intro
 
 You can explore Plausible using [our free trial](https://plausible.io/register). We have a 30-day free trial with no credit card required. These 30 days allow you to explore Plausible, our dashboard and integration into your user interface.
 
+Stats API, embed dashboard and the proxy are all available during the trial. If you also require access to the sites API and need more than 50 websites (which is the limit of our regular Business plan), please do contact us to discuss an enterprise plan. 
+
 [Contact us](https://plausible.io/contact) if you have any questions about a possible integration of Plausible Analytics into your product.
