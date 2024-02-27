@@ -25,9 +25,6 @@
 - question: Can I give someone access to my stats without making the dashboard public?
   answer: "You can <a class='text-indigo-600' href='https://plausible.io/docs/users-roles'>invite team members and assign user roles</a> in your site settings. Or you can use our <a class='text-indigo-600' href='https://plausible.io/docs/shared-links'>private and secure shared links</a>. These can be password protected too. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
 
-- question: How long are my website stats stored?
-  answer: "There are no data retention limits. As long as you have an active subscription, you can view all the stats we've collected from the day you installed Plausible on your site. You can choose to <a class='text-indigo-600' href='https://plausible.io/docs/delete-site-data'>delete all of your site stats</a> in your settings at any time."
-
 - question: Is there a hard limit on the number of sites, team members or API requests per hour?
   answer: "No. There are no hard limits on the number of sites, the number of team members or the number of API requests per hour that you can have in your Plausible account. To modify the limits of your plan, please contact us. We're here to help tailor your subscription plan to your needs."
   
