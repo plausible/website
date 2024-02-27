@@ -8,6 +8,6 @@ We've improved the accuracy of the "Locations" report. Visitors that use VPN ser
 
 On a related note, it’s now possible to block traffic from particular countries from being recorded in your dashboard. This is a more permanent option compared to our filtering which allows you to temporarily exclude traffic from some countries when doing reporting. [See more here](https://plausible.io/docs/countries#how-to-block-traffic-from-specific-countries).
 
-P.S. January not only marked our 5th anniversary but it was also our best month yet in terms of MRR growth! We’re celebrating these milestones with our first logo redesign in all this time. Hope you like it!
+P.S. January not only marked our 5th anniversary but it was also our best month yet in terms of MRR growth! We’re celebrating these milestones with our first logo redesign in all this time.
 
 ![Plausible Analytics new logo](/uploads/plausible-analytics-new-logo.png "Plausible Analytics new logo")
