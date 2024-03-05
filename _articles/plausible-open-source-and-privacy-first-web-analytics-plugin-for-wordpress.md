@@ -138,11 +138,11 @@ Some of the common issues that prevent the proxy from being setup correctly are:
 
 * If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields
 
-* Do you have any firewall or other security plugin activated that may affect the ability for WordPress to create files?
-
-* Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
+* Do you have any firewall or other security plugin activated that may affect the ability for WordPress to create files? Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
 
 * Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches
+
+* If this doesn't help, then please disable the proxy and clear all your caches. Then try to enable the proxy once again and clear all your caches once again
 
 If you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
 
