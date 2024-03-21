@@ -116,6 +116,8 @@ You must obtain legally valid consent from your website visitors to:
 * the use of cookies or other local storage
 * the collection, sharing, and use of personal data for personalization of ads
  
+Here's an independent [legal assessment on Google Analytics and GDPR-compliance](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
 **January 2022 update:** The Austrian Data Protection Authority has decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). This decision is the first DPA decision regarding EEA-US data transfers. Similar decisions are expected to drop in most EU member states.
 
 ## How to make Google Analytics GDPR compliant
