@@ -10,6 +10,7 @@ author: marko-saric
 image: /uploads/plausible-october-traffic.png
 image-alt: Do I need a privacy policy for my website?
 ---
+
 TL;DR: A privacy policy is recommended for all sites if you want to be transparent and open to your visitors. If you're not collecting or processing any personal data and not using cookies, you may not legally need a privacy policy. For all other use cases, a privacy policy is legally required.
 
 1. Ordered list
@@ -52,8 +53,6 @@ Still, we recommend you have a privacy policy on your site and add a note about 
 You could link to our [data policy](https://plausible.io/data-policy) page or take any of the information from our data policy.
 
 You could even [open up your Plausible dashboard to the public](https://plausible.io/docs/visibility) and link to it from your privacy policy page or another location on your site. This way your site visitors will have access to all the same data that you have.
-
-Here's an independent [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
 
 ### Privacy policy examples
 
