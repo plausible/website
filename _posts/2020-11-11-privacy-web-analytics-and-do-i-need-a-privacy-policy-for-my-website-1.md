@@ -53,6 +53,8 @@ You could link to our [data policy](https://plausible.io/data-policy) page or ta
 
 You could even [open up your Plausible dashboard to the public](https://plausible.io/docs/visibility) and link to it from your privacy policy page or another location on your site. This way your site visitors will have access to all the same data that you have.
 
+Here's an independent [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
 ### Privacy policy examples
 
 Here are some examples of Plausible Analytics customers who've mentioned their use of Plausible in their privacy policies.
@@ -131,10 +133,10 @@ Privacy policy written in a straightforward and human-friendly way builds trust.
 * easily accessible
 * in clear and plain language
 * delivered in a timely manner
-* free of charge
+* free of charge
 
 ### Privacy policy template
 
 Basecamp has been kind enough to open source [its privacy policy](https://github.com/basecamp/policies/blob/master/privacy/index.md), terms of use and [other legal documents](https://github.com/basecamp/policies). 
 
-You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
+You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
