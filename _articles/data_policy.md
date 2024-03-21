@@ -52,10 +52,6 @@ The biggest limitation with this approach is that we cannot do good retention an
 
 If the same visitor visits your site five times in one day we will show that as one unique visitor. But if the same visitor visits your site on five different days in a month we would show that as five unique visitors.
 
-Here's an independent [legal assessment on GDPR-compliance of Plausible Analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
-
-We're happy to provide information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
-
 ## Hosted in the EU powered by European-owned cloud infrastructure
 
 [We’re a small team](https://plausible.io/about) based in the EU. The legal entity is incorporated in Estonia.
@@ -94,6 +90,12 @@ Plausible is an [open source website analytics tool](https://plausible.io/open-s
 We are not a black box. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
 
 This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you’re actually doing what you’re saying you’re doing.
+
+We're happy to provide information on how Plausible is built to help you comply with the different privacy regulations. 
+
+Here's also an independent [legal assessment on GDPR-compliance of Plausible Analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
+We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
 
 ## GDPR, CCPA and PECR compliant web analytics
 
