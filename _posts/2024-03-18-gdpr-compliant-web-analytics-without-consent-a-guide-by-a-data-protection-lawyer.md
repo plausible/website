@@ -6,7 +6,7 @@ description: An experienced data protection expert and lawyer explains how web
   analytics can be implemented in accordance with the strict requirements of
   ePrivacy Directive and the GDPR.
 slug: legal-assessment-gdpr-eprivacy
-date: 2024-03-21T08:40:16.188Z
+date: 2024-03-21T08:41:23.810Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Web analytics, ePrivacy Directive and GDPR
@@ -24,6 +24,10 @@ But many operators only aim to collect basic statistics on their website ("reach
  The article provides a practical guide to data protection-compliant web tracking without the need for consent or cookie banners and at the same time presents feasible approaches for legally compliant implementation. 
 
 It illustrates how website operators can establish tracking methods that both achieve their business objectives and protect the privacy of their users.
+
+ This article originated from our own search for a privacy-friendly analytics tool at Simpliant, which led us to discover Plausible Analytics. Written independently, its purpose is to offer guidance on the use of web statistics tools in adherence to data protection regulations.
+
+Having selected Plausible for our law firm, which specializes in GDPR compliance, I composed this article to impart our findings and perspectives. Plausible consented to its publication. Neither Plausible paid us for this article, nor did we pay Plausible for featuring this content on their website.
 
 1. Ordered list
 {:toc}
@@ -147,6 +151,8 @@ Plausible Analytics focuses on data protection and processes data in a way that 
 
 Furthermore, since Plausible Analytics [does not collect personal data for advertising purposes or similar](https://plausible.io/privacy-focused-web-analytics), this practice can be regarded as a legitimate interest of the website operator (Art. 6 (1) (f) GDPR). 
 
+In this case, no explicit consent of the users is required, as the processing is carried out in a manner that does not unreasonably prejudice the rights of the users.
+
 This perspective aligns with the views of the French data protection authority, CNIL, as detailed [in their guidelines](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) on the use of analytics in websites and applications.
 
 ### Legal assessment of Google Analytics 4
@@ -199,10 +205,4 @@ By taking these recommendations into account, website operators can not only com
 
 ---
 
- This article originated from our own search for a privacy-friendly analytics tool at Simpliant, which led us to discover Plausible Analytics. Written independently, its purpose is to offer guidance on the use of web statistics tools in adherence to data protection regulations. 
-
-Having selected Plausible for our law firm, which specializes in GDPR compliance, I composed this article to impart our findings and perspectives. 
-
-Plausible consented to its publication. Neither Plausible paid us for this article, nor did we pay Plausible for featuring this content on their website.
-
- For more information about the author and Simpliant, including up-to-date information and contact details, [please visit our website](https://www.simpliant.eu).
+ For more information about Steffen Gross and Simpliant, including up-to-date information and contact details, [please visit the Simpliant website](https://www.simpliant.eu).
