@@ -33,9 +33,9 @@ Having selected Plausible for our law firm, which specializes in GDPR compliance
 {:toc}
 
 ## Objectives and purposes of web tracking
- 
+
 The methods and purposes for which web analysis and tracking are used are diverse and require a differentiated approach depending on the intended use and with regard to the legal requirements and the necessary data protection measures.
- 
+
 The most common purposes for web analytics include:
 
 1. **Reach measurement and website optimization**: Recording user behavior on a website in order to improve user-friendliness and the user experience. This includes analyzing how users navigate through the website, which pages are visited most frequently and where users may have problems using the website.
@@ -45,7 +45,7 @@ The most common purposes for web analytics include:
 3. **Retargeting**: Identifying users who have visited a website but have not made a purchase or performed a desired action in order to show them targeted advertising on other websites or platforms. The aim is to bring these users back and encourage them to convert.
 
 4. **Cross-device tracking**: Tracking a user's activities across different devices to obtain a comprehensive picture of user behavior and interests. This is used to optimize the advertising approach across different devices and platforms and to create consistent user experiences.
- 
+
 While reach measurement and web offer optimization generally aim to aggregate anonymized data and do not require direct personal identifiability, advertising measures and retargeting require detailed usage profiles. Web analysis therefore differs depending on the purpose and the technical means used. 
 
 This can be summarized as follows:
@@ -65,7 +65,7 @@ This can be summarized as follows:
 * **Methodology**: Use of technologies such as cookies, tracking pixels, canvas fingerprints and ad IDs for the tracking of user activities and preferences.
 
 * **Data protection**: Requires transparent and voluntary consent from website visitors, communication about the use of data and the collection of user consents in accordance with the statutory data protection requirements such as the GDPR.
- 
+
 The implementation of web analytics and tracking technologies requires careful planning to ensure compliance with legal data protection regulations, in particular the General Data Protection Regulation (GDPR) and the ePrivacy Directive.
 
 This article focuses exclusively on web analytics for reach measurement (purpose 1), which can be carried out without the need for consent, and excludes web analytics for advertising purposes and retargeting (purposes 2-4). The latter usually require explicit consent.
@@ -101,9 +101,9 @@ They are characterized by simple setup and extensive analysis functions, but req
 * **Disadvantages**: Requires extensive data protection measures, requires consent and harbors data protection risks due to data transfer to third parties and lack of transparency.
 
 ## Presentation of the analytics tools
- 
+
 ### Google Analytics
- 
+
 Google Analytics is a widely used service that offers website operators comprehensive analyses of visitor behavior. It collects a wide range of data such as page views, dwell time, bounce rates, geographical origin and conversion rates to provide deep insights into the performance of websites. 
 
 The basis for this is a JavaScript tracking code that is embedded in websites and transmits data to Google Analytics with every visit. This data not only provides basic information, but also detailed insights into user paths, marketing effectiveness and behavior on specific pages.
@@ -117,7 +117,7 @@ In response to these concerns, Google offers functions such as IP anonymization,
 Nevertheless, the use of Google Analytics requires a careful approach to meet legal requirements, including a data processing agreement with Google, a transparent privacy policy and an opt-out option for users. In addition, it is necessary to obtain consent via a cookie banner for data protection-compliant use.
 
 ### Plausible Analytics
- 
+
 Plausible Analytics does not use cross-platform tracking and does not pass on data to third parties. It primarily uses data that is recorded by default in server logs, such as requested URLs, access times, HTTP status codes and transferred data volumes. This information is used to analyze website traffic in accordance with the data protection principles of data minimization and data economy.
 
 Data processing at Plausible takes place in two steps:
@@ -159,10 +159,10 @@ This perspective aligns with the views of the French data protection authority, 
 
 In contrast, Google Analytics 4 collects detailed data on user behavior, which can also be used for advertising purposes. 
 
-Due to this extensive data collection and the potential risks to users' privacy, it is necessary to obtain explicit consent from users (Art. 6 (1) (a) GDPR). This means that website operators using Google Analytics 4 must ensure that [they obtain clear and informed consent](https://plausible.io/blog/google-analytics-gdpr) from their users before collecting and processing personal data. 
+Due to this extensive data collection and the potential risks to users' privacy, it is necessary to obtain explicit consent from users (Art. 6 (1) (a) GDPR). This means that website operators using Google Analytics 4 must ensure that [they obtain clear and informed consent](https://plausible.io/blog/google-analytics-gdpr) from their users before collecting and processing personal data.
 
-## ePrivacy Directive legal assessment 
- 
+## ePrivacy Directive legal assessment
+
 The ePrivacy Directive regulates, among other things, the use of cookies and similar technologies to store or access information on a user's device. 
 
 It requires that the storage of information on a user's device or access to information already stored is only permitted if the user has given their consent after being clearly and comprehensively informed about the purposes of use (Art. 5 (3) of the ePrivacy Directive in conjunction with the respective national transposition law).
@@ -180,7 +180,7 @@ Google Analytics 4, on the other hand, uses cookies and similar technologies to 
 According to Article 5(3) of the ePrivacy Directive, this requires users to give their informed consent before such technologies can be used. Therefore, the ePrivacy Directive also requires consent for the use of Google Analytics 4.
 
 ## Conclusion and recommendations for action
- 
+
 The analysis of web behavior has become indispensable for most website operators in order to understand and optimize the performance of websites. However, with the growing importance of data privacy, website operators need to choose their web tracking approaches carefully.
 
 ### Key findings
@@ -195,11 +195,11 @@ The analysis of web behavior has become indispensable for most website operators
 
 In view of these findings, website operators should:
 
-* Define your goals for web tracking precisely and weigh up what information is necessary.
+* **Define your goals for web tracking** precisely and weigh up what information is necessary.
 
-* Prioritize tools that enable data protection-compliant web analysis by avoiding unnecessary data collection and thus reducing the need for consent.
+* **Prioritize tools that enable data protection-compliant web analysis** by avoiding unnecessary data collection and thus reducing the need for consent.
 
-* Consider Plausible Analytics or similar tools to simplify compliance with data protection regulations such as the GDPR and ePrivacy Directive and increase user trust.
+* **Consider Plausible Analytics or similar tools** to simplify compliance with data protection regulations such as the GDPR and ePrivacy Directive and increase user trust.
 
 By taking these recommendations into account, website operators can not only comply with legal requirements, but also create a positive user experience that is characterized by respect for privacy.
 
