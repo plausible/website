@@ -6,28 +6,24 @@ description: An experienced data protection expert and lawyer explains how web
   analytics can be implemented in accordance with the strict requirements of
   ePrivacy Directive and the GDPR.
 slug: legal-assessment-gdpr-eprivacy
-date: 2024-03-18T13:03:44.305Z
+date: 2024-03-21T08:40:16.188Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Web analytics, ePrivacy Directive and GDPR
 ---
-*In this article, [Steffen Groß](https://simpliant.eu/why-simpliant), an experienced data protection expert and lawyer at Simpliant Legal PartG mbB and external data protection officer at Simpliant GmbH, explains how web analytics can be implemented in accordance with the strict requirements of the ePrivacy Directive and the GDPR.*
+*In this article, Steffen Gross, an experienced data protection expert and lawyer at Simpliant Legal PartG mbB and external data protection officer at Simpliant GmbH, explains how web analytics can be implemented in accordance with the strict requirements of the ePrivacy Directive and the GDPR.*
 
 Web tracking is crucial for understanding user behavior on websites and plays a central role in optimizing digital presences. 
 
-It gives website operators the opportunity to gain valuable insights: How many visitors are navigating to their site, what are their motivations and what parts of the world are they coming from? 
+It gives website operators the opportunity to gain valuable insights: How many visitors are navigating to their site, what are their motivations and what parts of the world are they coming from? Careful analysis of this data makes it possible to identify the most visited areas and to adapt and improve your website accordingly.
 
-Careful analysis of this data makes it possible to identify the most visited areas and to adapt and improve your website accordingly.
+However, traditional web tracking methods, often coupled with the use of cookies and the display of consent banners (e.g. [Google Analytics 4](https://plausible.io/blog/ua-vs-ga4)), raise questions about data protection, especially when they are used for advertising purposes. 
 
-Traditional web tracking methods, often coupled with the use of cookies and the display of consent banners (e.g. [Google Analytics 4](https://plausible.io/blog/ua-vs-ga4)), raise questions about data protection, especially when they are used for advertising purposes. 
-
-However, many operators only aim to collect basic statistics on their website ("reach measurement") without having to rely on complex retargeting techniques or direct advertising measures. A little-known fact: the collection of this data is also possible without cookie banners and direct user consent.
+But many operators only aim to collect basic statistics on their website ("reach measurement") without having to rely on complex retargeting techniques or direct advertising measures. A little-known fact: the collection of this data is also possible without cookie banners and direct user consent.
 
  The article provides a practical guide to data protection-compliant web tracking without the need for consent or cookie banners and at the same time presents feasible approaches for legally compliant implementation. 
 
 It illustrates how website operators can establish tracking methods that both achieve their business objectives and protect the privacy of their users.
-
-*Despite being written by a data protection expert and lawyer, this article is not legal advice. We encourage you to discuss specific issues with your lawyer to help you decide the legal requirements that apply to you.*
 
 1. Ordered list
 {:toc}
@@ -56,7 +52,7 @@ This can be summarized as follows:
 
 * **Methodology**: Statistical analysis based on general characteristics such as device type, operating system, model, language and country settings, average session duration and origin of the traffics. Re-identification may not be possible.
 
-* **Data protection**: Focused on aggregation of data to avoid direct personal identifiability. Can be carried out without the website visitor's consent if implemented correctly (Art. 6 f) GDPR and provisions of the ePrivacy Regulation.
+* **Data protection**: Focused on aggregation of data to avoid direct personal identifiability. Can be carried out without the website visitor's consent if implemented correctly (Art. 6 f) GDPR and provisions of the ePrivacy Directive.
 
 ### Purposes 2-4: Advertising and retargeting
 
@@ -70,7 +66,7 @@ The implementation of web analytics and tracking technologies requires careful p
 
 This article focuses exclusively on web analytics for reach measurement (purpose 1), which can be carried out without the need for consent, and excludes web analytics for advertising purposes and retargeting (purposes 2-4). The latter usually require explicit consent.
 
-## Methods for carrying out website reach analyses
+## Methods for carrying out website reach analysis
 
 Website operators can use various methods and tools to measure the reach of a website and learn more about its visitors. From the direct analysis of server logs, which provide basic access data, to sophisticated web analytics tools that offer deeper insights into user behavior. An overview of the various methods is presented below.
 
@@ -108,13 +104,15 @@ Google Analytics is a widely used service that offers website operators comprehe
 
 The basis for this is a JavaScript tracking code that is embedded in websites and transmits data to Google Analytics with every visit. This data not only provides basic information, but also detailed insights into user paths, marketing effectiveness and behavior on specific pages.
 
-However, the comprehensive data collection of Google Analytics raises data protection concerns. Critical points include the transfer of data to the USA, the assignment of IP addresses to registered Google users and the potential use of this data by Google. In some cases, data protection authorities have assessed the use of Google Analytics as [non-compliant with data protection law](https://plausible.io/blog/google-analytics-illegal).
+However, the comprehensive data collection of Google Analytics raises data protection concerns. Critical points include the transfer of data to the USA, the assignment of IP addresses to registered Google users and the potential use of this data by Google. 
+
+In some cases, data protection authorities have assessed the use of Google Analytics as [non-compliant with data protection law](https://plausible.io/blog/google-analytics-illegal).
 
 In response to these concerns, Google offers functions such as IP anonymization, which is intended to reduce the identifiability of users by processing shortened IP addresses. 
 
 Nevertheless, the use of Google Analytics requires a careful approach to meet legal requirements, including a data processing agreement with Google, a transparent privacy policy and an opt-out option for users. In addition, it is necessary to obtain consent via a cookie banner for data protection-compliant use.
 
-### Plausible analytics
+### Plausible Analytics
  
 Plausible Analytics does not use cross-platform tracking and does not pass on data to third parties. It primarily uses data that is recorded by default in server logs, such as requested URLs, access times, HTTP status codes and transferred data volumes. This information is used to analyze website traffic in accordance with the data protection principles of data minimization and data economy.
 
@@ -149,7 +147,7 @@ Plausible Analytics focuses on data protection and processes data in a way that 
 
 Furthermore, since Plausible Analytics [does not collect personal data for advertising purposes or similar](https://plausible.io/privacy-focused-web-analytics), this practice can be regarded as a legitimate interest of the website operator (Art. 6 (1) (f) GDPR). 
 
-In this case, no explicit consent of the users is required, as the processing is carried out in a manner that does not unreasonably prejudice the rights of the users.
+This perspective aligns with the views of the French data protection authority, CNIL, as detailed [in their guidelines](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) on the use of analytics in websites and applications.
 
 ### Legal assessment of Google Analytics 4
 
@@ -191,7 +189,7 @@ The analysis of web behavior has become indispensable for most website operators
 
 In view of these findings, website operators should:
 
-* Define your goals for web tracking precisely and weigh up what information is really necessary.
+* Define your goals for web tracking precisely and weigh up what information is necessary.
 
 * Prioritize tools that enable data protection-compliant web analysis by avoiding unnecessary data collection and thus reducing the need for consent.
 
@@ -201,4 +199,10 @@ By taking these recommendations into account, website operators can not only com
 
 ---
 
- Steffen Groß is an experienced data protection expert and lawyer at Simpliant Legal PartG mbB and external data protection officer at Simpliant GmbH. For more information about Steffen and Simpliant, including up-to-date information and contact details, please visit [the website](https://simpliant.eu).
+ This article originated from our own search for a privacy-friendly analytics tool at Simpliant, which led us to discover Plausible Analytics. Written independently, its purpose is to offer guidance on the use of web statistics tools in adherence to data protection regulations. 
+
+Having selected Plausible for our law firm, which specializes in GDPR compliance, I composed this article to impart our findings and perspectives. 
+
+Plausible consented to its publication. Neither Plausible paid us for this article, nor did we pay Plausible for featuring this content on their website.
+
+ For more information about the author and Simpliant, including up-to-date information and contact details, [please visit our website](https://www.simpliant.eu).
