@@ -6,7 +6,7 @@ description: An experienced data protection expert and lawyer explains how web
   analytics can be implemented in accordance with the strict requirements of
   ePrivacy Directive and the GDPR.
 slug: legal-assessment-gdpr-eprivacy
-date: 2024-03-21T08:41:23.810Z
+date: 2024-03-21T08:56:38.058Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Web analytics, ePrivacy Directive and GDPR
