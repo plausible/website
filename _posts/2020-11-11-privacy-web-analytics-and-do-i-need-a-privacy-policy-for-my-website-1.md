@@ -54,6 +54,8 @@ You could link to our [data policy](https://plausible.io/data-policy) page or ta
 
 You could even [open up your Plausible dashboard to the public](https://plausible.io/docs/visibility) and link to it from your privacy policy page or another location on your site. This way your site visitors will have access to all the same data that you have.
 
+Here's an independent [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
 ### Privacy policy examples
 
 Here are some examples of Plausible Analytics customers who've mentioned their use of Plausible in their privacy policies.
