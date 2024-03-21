@@ -80,6 +80,8 @@ We do not generate any persistent identifiers either. We generate a random strin
 
 This makes us compliant with the different cookie laws and [privacy regulations such as GDPR](https://plausible.io/blog/google-analytics-gdpr) and PECR.
 
+Here's an independent [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
 By not using cookies you do not need to obtain consent from the visitors to store and retrieve data from their devices. It's one less thing to worry about and annoy your visitors with. 
 
 ## You 100% own your website data
