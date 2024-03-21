@@ -59,6 +59,8 @@ Lawmakers around the world have realized the severity of the situation and sever
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them.
 
+Here's an independent [legal assessment on GDPR-compliance of Plausible and Google Analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
 Since January 2022, several European Data Protection Authorities have decided that the use of [Google Analytics violates GDPR](https://plausible.io/blog/google-analytics-illegal). These include Austria, France, Italy, Denmark, Finland, Norway and Sweden. These decisions are regarding EEA-US data transfers.
 
 All of the visitor data that Plausible tracks and collects is exclusively processed on servers and cloud infrastructure owned and operated by European providers. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy.
