@@ -52,6 +52,8 @@ The biggest limitation with this approach is that we cannot do good retention an
 
 If the same visitor visits your site five times in one day we will show that as one unique visitor. But if the same visitor visits your site on five different days in a month we would show that as five unique visitors.
 
+Here's an independent [legal assessment on GDPR-compliance of Plausible Analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
+
 We're happy to provide information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
 
 ## Hosted in the EU powered by European-owned cloud infrastructure
