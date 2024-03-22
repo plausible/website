@@ -112,7 +112,11 @@ You can set the new referrer policy with a ``<meta>`` referrer tag which should 
 
 ## Increased importance of tagging the links you can control
 
-The reduced granularity in the referral sources data and the rise of dark traffic increases the importance of tagging the links that you can control.
+By default, Plausible Analytics attempts to uncover traffic originating from Android apps which is traditionally categorized as direct traffic in Google Analytics and other analytics tools. 
+
+The volume of "android-app" entries in your Plausible "Top Sources" report will vary based on your site and audience. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram.
+
+This reduced granularity in the referral sources data and the rise of dark traffic increases the importance of tagging the links that you can control.
 
 To minimize the amount of traffic that falls within the "no referrer" category, you can add special query parameters such as UTM tags to your links. 
 
