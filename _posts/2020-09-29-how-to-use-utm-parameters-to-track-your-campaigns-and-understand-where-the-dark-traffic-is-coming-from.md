@@ -22,9 +22,13 @@ UTM parameters are a useful tool for business owners. They can help you get more
 
 A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "Direct / None" in your Plausible Analytics dashboard.
 
-Dark traffic includes clicks from emails, clicks from documents, clicks from mobile messengers, bookmarks, people typing in the URL directly into the browser and many other mechanisms. Site owners cannot see which referrer sources are sending that traffic. 
+Dark traffic includes clicks from emails, clicks from documents, clicks from mobile messengers, bookmarks, people typing in the URL directly into the browser and many other mechanisms. Site owners cannot see which referrer sources are sending that traffic.
 
-A solution to minimize dark traffic is to tag links. Website owners use UTM parameters (Urchin Tracking Modules) to help them understand where their site traffic is coming from. Urchin was the analytics company that Google acquired in 2005 and turned it into [Google Analytics](https://plausible.io/vs-google-analytics).
+By default, Plausible Analytics attempts to uncover traffic originating from Android apps which is traditionally categorized as direct traffic in Google Analytics and other analytics tools. 
+
+The volume of "android-app" entries in your Plausible "Top Sources" report will vary based on your site and audience. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram.
+
+A solution to minimize dark traffic even further is to tag links. Website owners use UTM parameters (Urchin Tracking Modules) to help them understand where their site traffic is coming from. Urchin was the analytics company that Google acquired in 2005 and turned it into [Google Analytics](https://plausible.io/vs-google-analytics).
 
 ## How do I see UTM campaign stats in Plausible Analytics?
 
@@ -54,9 +58,9 @@ Individual parameters are separated by the ampersand (`&`) symbol.
 
 You can tag all your links manually or you can use the UTM tag builder tool that makes this easy for you.
 
-## Plausible UTM Tag Builder tool
+## UTM Tag Builder tools
 
-Our UTM tag builder is currently offline. We apologize for the inconvenience. Please use a different UTM tag builder tool such as [this one](https://utmbuilder.net/) or [another one](https://www.utmtagbuilder.com/) in the meanwhile. Thanks!
+You can use UTM tag builder tools such as [this one](https://utmbuilder.net/) or [another one](https://www.utmtagbuilder.com/) to help you tag your links.
 
 ## Types of UTM parameters
 
