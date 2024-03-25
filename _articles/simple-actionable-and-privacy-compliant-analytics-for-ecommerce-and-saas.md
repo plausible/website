@@ -155,11 +155,17 @@ By using Plausible Analytics, your site will keep loading fast and your visitors
 
 ## Get accurate data
 
-Browsers such as Firefox block the most popular analytics tools and so do the different ad-blocking extensions.
+Plausible Analytics takes several steps out of the box to elevate the accuracy of your stats:
 
-These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 30% or even more of the audience on a website blocking Google Analytics.
+* Known referrer spam domains and traffic originating from data centers is filtered out
 
-Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a way for you to [proxy our script as a first-party connection](https://plausible.io/docs/proxy/introduction). You may very well see more accurate (and higher) visitor numbers.
+* Traffic originating from Android apps (traditionally categorized as "Direct / None" in analytics tools) is uncovered. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
+
+* Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry to eliminate the noise that VPNs add to the locations reports
+
+In addition to this, browsers such as Firefox block the most popular analytics tools and so do the different ad-blocking extensions. These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 30% or even more of the audience on a website blocking Google Analytics. 
+
+Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a way for you to [proxy our script as a first-party connection](https://plausible.io/docs/proxy/introduction).
 
 ## Try Plausible Analytics
 
