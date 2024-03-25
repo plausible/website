@@ -75,33 +75,43 @@ By using Plausible, you don't need to have any GDPR, CCPA, PECR or cookie prompt
 
 We’re happy to provide information on how Plausible is built to help you comply with the different privacy regulations. We encourage you to discuss specific issues with your lawyer to help you decide whether our service allows you to fulfill the legal requirements that apply to you.
 
+### Improved data accuracy
+
+With Plausible, you not only count visitors who reject the GDPR consent banner but you also gain the advantage of several built-in measures designed to improve the accuracy of your statistics:
+
+* Known referrer spam domains and traffic originating from data centers is filtered out
+
+* We attempt to uncover traffic originating from Android apps which is traditionally categorized as "Direct / None" in Google Analytics. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
+
+* Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry in the Countries list to eliminate the noise that these services add to the locations report
+
+### Avoiding the adblockers
+
+Many people have got enough of banner advertising, retargeting and remarketing messages and behavioral profiling so they choose to block some of these distractions.
+
+Google Analytics script is impacted by browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Safari](https://plausible.io/blog/safari-privacy-report). With tech-savvy audiences, the level of people [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data) gets up to 60%.
+
+Plausible is not a part of the adtech industry. It doesn't track any personal data whatsoever, doesn't use cookies and doesn't play any part in the profiling of personal behaviors around the web so we're not usually blocked by the browsers.
+
+You also have the option to proxy our script from your domain name as a [first party connection](https://plausible.io/docs/proxy/introduction) to bypass any adblockers.
+
 ### Increasing the page weight and the loading time
 
 Analytics scripts have a performance impact on the page weight and the loading time speed of a website. Plausible Analytics is a [lightweight web analytics](https://plausible.io/lightweight-web-analytics) tool that aims to provide you with all the essential website traffic insights without a negative impact on the web speed.
 
 Plausible Analytics script is more than 17 times smaller than the Google Analytics script and more than 45 times smaller than the recommended Google Analytics integration using the Google Tag Manager. By using Plausible Analytics, you will reduce your page weight and your site will load faster too.
 
-### David vs Goliath
-
-Google Analytics is installed on and is tracking website traffic on [85% of all websites](https://w3techs.com/technologies/history_overview/traffic_analysis). A majority of web traffic is tracked by a single company. And that one company is also the largest advertising company in the world. What could possibly go wrong?
-
-Plausible, on the other hand, is not created by one of the largest companies in the world and is not run by a huge team. By using Plausible, you will support indie-developers, indie-businesses and the independent web. You can learn more [about us](https://plausible.io/about).
-
-### Avoiding the adblockers
-
-Many people have got enough of banner advertising, retargeting and remarketing messages and behavioral profiling so they choose to block some of these distractions.
-
-Google Analytics script is blocked by many people who use adblockers such as the [uBlock Origin](https://github.com/gorhill/uBlock) and from users of some mainstream browsers such as [Firefox](https://www.mozilla.org/en-US/firefox/new/). With tech-savvy audiences, the level of people [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data) gets up to 60%.
-
-Plausible is not a part of the adtech industry. It doesn't track any personal data whatsoever, doesn't use cookies and doesn't play any part in the profiling of personal behaviors around the web so we're not usually covered by these blockers either.
-
-You also have the option to proxy our script from your domain name as a [first party connection](https://plausible.io/docs/proxy/introduction).
-
 ### A public roadmap driven by the community
 
 With Plausible you can be a part of the development. Take a look at our [public roadmap](https://plausible.io/roadmap) which itself is defined by our community. You can leave your feedback and have your say on metrics and features we should be adding next to the product.
 
 Google, on the other hand, is notorious for not listening to their users, not providing any way to reach the customer support to get help and even by shutting down products that millions of people love.
+
+### David vs Goliath
+
+Google Analytics is installed on and is tracking website traffic on [85% of all websites](https://w3techs.com/technologies/history_overview/traffic_analysis). A majority of web traffic is tracked by a single company. And that one company is also the largest advertising company in the world. What could possibly go wrong?
+
+Plausible, on the other hand, is not created by one of the largest companies in the world and is not run by a huge team. By using Plausible, you will support indie-developers, indie-businesses and the independent web. You can learn more [about us](https://plausible.io/about).
 
 ## Why isn’t Plausible free while Google Analytics is free?
 
