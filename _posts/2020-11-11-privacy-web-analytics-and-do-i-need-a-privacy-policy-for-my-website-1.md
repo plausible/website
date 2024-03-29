@@ -10,7 +10,6 @@ author: marko-saric
 image: /uploads/plausible-october-traffic.png
 image-alt: Do I need a privacy policy for my website?
 ---
-
 TL;DR: A privacy policy is recommended for all sites if you want to be transparent and open to your visitors. If you're not collecting or processing any personal data and not using cookies, you may not legally need a privacy policy. For all other use cases, a privacy policy is legally required.
 
 1. Ordered list
