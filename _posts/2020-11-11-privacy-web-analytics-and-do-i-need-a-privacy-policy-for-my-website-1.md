@@ -139,4 +139,4 @@ Privacy policy written in a straightforward and human-friendly way builds trust.
 
 Basecamp has been kind enough to open source [its privacy policy](https://github.com/basecamp/policies/blob/master/privacy/index.md), terms of use and [other legal documents](https://github.com/basecamp/policies). 
 
-You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
+You're free to use their policies for your purpose under the Creative Commons Attribution license. That could be the privacy policy template you start with and then you would need to edit and adapt it to your needs.
