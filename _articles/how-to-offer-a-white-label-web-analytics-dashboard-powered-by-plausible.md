@@ -33,7 +33,9 @@ Here are the features we've built to help you resell or provide a white label an
 
 Sites API allows you to add and manage a large number of sites programmatically. You can add sites, delete sites or change domain names using the sites API.
 
-You can add or delete goals and custom events using the sites API as well. Goals and custom events allow you track actions that you want visitors to take on a site. 
+Note also that you don't necessarily need to install our snippet on the same domain as the domain you have added to your Plausible account. Think of the domain in Plausible more like a site ID rather than an exact match. This allows you more flexibility in your setup all depending on your situation.
+
+Using the sites API, you can also add or delete goals and custom events. Goals and custom events allow you track actions that you want visitors to take on a site. 
 
 Actions such as signing up to a newsletter, clicking on a "Download" button, registering for an account, purchasing a product, clicking on an external link, downloading a file or completing a checkout form of an ecommerce store.
 
