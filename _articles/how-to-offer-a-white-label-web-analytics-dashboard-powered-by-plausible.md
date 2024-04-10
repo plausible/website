@@ -73,6 +73,14 @@ You can proxy requests to Plausible in various ways, all depending on how you've
 
 Learn more about [the proxy functionality](https://plausible.io/docs/proxy/introduction).
 
+## Rollup view for your internal reporting 
+
+We also have the rollup reporting feature. It allows you to aggregate stats from multiple sites and see them in one combined dashboard while keeping the individual site stats on their own separate dashboards. 
+
+This way you get detailed insights into individual site performance and a holistic view of your whole network too. It allows you to keep all your global traffic in one dashboard for internal purposes but also share the traffic from individual tenant sites with the particular client only.
+
+Learn more [about rollup reporting](https://plausible.io/docs/plausible-script#is-there-a-roll-up-view).
+
 ## How to explore the white label analytics dashboard powered by Plausible
 
 You can explore Plausible using [our free trial](https://plausible.io/register). We have a 30-day free trial with no credit card required. These 30 days allow you to explore Plausible, our dashboard and integration into your user interface.
