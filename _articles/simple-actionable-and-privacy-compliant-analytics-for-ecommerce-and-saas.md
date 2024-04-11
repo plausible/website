@@ -70,6 +70,18 @@ Here are the instructions on [how to get started with goals and events](https://
 
 After you have your custom events in place, you can also start building sales and marketing funnels. The insights from the sales funnel allow you to uncover possible issues, optimize your site and increase the conversion rate. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
+### Seamless cross-subdomain tracking
+
+Does your business operate on a single domain name with multiple subdomains such as `docs.yourdomain.com`, `app.yourdomain.com` and `www.yourdomain.com`?
+
+Plausible helps you simplify cross-subdomain tracking. You can view the visitor journey end-to-end from the landing on your primary domain name to a conversion on the subdomain. 
+
+The original referral source will stay attributed to that visitor even when the visitor moves from one of your subdomains to another.
+
+Any conversions that happen on your subdomains will be attributed to the original referral source that brought the visitor to your main domain. There's no need to filter out internal referral sources as this eliminates the issue where you might see your subdomains as a major source of traffic.
+
+See more on our [hostname or subdomain tracking](https://plausible.io/docs/subdomain-hostname-filter).
+
 ## Send monetary values to track your ecommerce revenue
 
 You can send dynamic monetary values alongside custom events to [track revenue for your ecommerce store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue. 
