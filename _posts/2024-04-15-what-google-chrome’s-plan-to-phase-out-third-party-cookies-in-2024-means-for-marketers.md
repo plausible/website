@@ -50,7 +50,7 @@ So this is how Google’s tools for digital marketers –– like Google Ads and
 
 So what went wrong?
 
-## Why is Google phasing out third-party cookies? 🪂
+## Why is Google phasing out third-party cookies?
 
 Short answer: It’s because of the privacy concerns arising around the web, and Google platforms receiving constant pressure from regulatory bodies to adopt more privacy-friendly practices. 
 
