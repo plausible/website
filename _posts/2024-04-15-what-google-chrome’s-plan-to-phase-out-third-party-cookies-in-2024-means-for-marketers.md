@@ -6,7 +6,7 @@ description: After being taken down by other browsers like Firefox and Safari,
   third-party cookies are now being phased out by marketers’ favorite – Google
   Chrome. Here's what that means.
 slug: chrome-third-party-cookies
-date: 2024-04-15T09:03:33.078Z
+date: 2024-04-15T10:11:15.235Z
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Google Chrome is phasing out third-party cookies
