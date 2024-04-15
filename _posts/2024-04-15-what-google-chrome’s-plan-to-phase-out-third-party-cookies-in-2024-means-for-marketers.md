@@ -64,7 +64,7 @@ This insight is used to predict business outcomes better. In other words, Google
 
 [Google’s extensive usage of third-party cookies](https://plausible.io/blog/google-analytics-cookies) has been one of the biggest enablers of surveillance capitalism. And the governments, regulatory bodies, as well as digital privacy advocates are demanding a safer internet space for all. Here’s a quote from Google itself:
 
-> “We’re developing techniques to detect and mitigate covert tracking and workarounds by launching new anti-fingerprinting measures to discourage these kinds > of **deceptive and intrusive techniques**.”
+> We’re developing techniques to detect and mitigate covert tracking and workarounds by launching new anti-fingerprinting measures to discourage these kinds > of **deceptive and intrusive techniques**.
 > 
 > ~ [Said Google itself](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html).
 
