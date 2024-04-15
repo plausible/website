@@ -25,6 +25,9 @@ Chrome stands for ~65% of the global browser traffic and, in January 2024, it st
 
 This signals towards information loss (loss of audience context), requiring digital marketers to look at newer ways of advertising and marketing. The mountains of information –– sourced through Google –– that’s been the digital marketer’s dearest asset is slowly taking a hit, and it’s the right time to respond and adjust. Let’s explore.
 
+1. Ordered list
+{:toc}
+
 ## What are third-party cookies?
 
 When you visit a website that uses third-party advertising or tracking services (like Google Analytics) or has a third-party embed (like a YouTube video), they set a cookie (bits of tracking code) on your browser with a unique tracking ID. 
