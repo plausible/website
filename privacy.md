@@ -44,6 +44,7 @@ Here's what that means in practice:
 - **A persistent first-party cookie is stored to remember you're logged in**. If you log in to your Plausible account, you give us permission to use cookies so you don't have to log in on each returning session. This makes it easier for you to use our product. A cookie is a piece of text stored by your browser. You can adjust cookie retention settings in your own browser. Cookies that are already stored may be deleted at any time.
 - All of the data that we collect is **kept fully secured, encrypted and hosted on 100% renewable energy powered server in Falkenstein, Germany**. The server is owned by Hetzner, a European company. This ensures that all of the site data is being covered by the European Union’s strict laws on data privacy. Your site data never leaves the EU. See [Hetzner privacy policy](https://www.hetzner.com/legal/privacy-policy) for full details.
 - We use Bunny (another European-owned provider from Slovenia) for a global CDN, DNS and DDoS protection. This ensures that **all visitor data we collect is exclusively processed with servers owned and operated by European companies**. See Bunny [privacy and data policy](https://bunny.net/privacy) for full details.
+- We use UpCloud (also European-owned provider based in Finland) for **database hosting and storage of data exports**. See UpCloud [security and privacy policy](https://upcloud.com/security-privacy) for full details.
 - **The payment process is handled by a third-party payment provider**. If you choose to upgrade to a Plausible Analytics paid plan, the billing information and the payment process is handled by Paddle. See the [Paddle Privacy Policy](https://paddle.com/privacy-buyers/) for full details.
 - **All emails are sent using a third-party email provider**. Transactional emails and email reports (should you choose to subscribe to them) are sent using Postmark. We have disabled both open tracking and link tracking on all emails sent. See the [Postmark Privacy Policy](https://postmarkapp.com/eu-privacy) for full details.
 - **We use Gravatar to get your account profile picture**. We use a proxy for this request to ensure no information is exposed to third parties. This method prevents the IP address, user agent and referrer header from being sent. See the [Gravatar Privacy Policy](https://support.gravatar.com/account/data-privacy/) for more details.
@@ -67,4 +68,4 @@ We may update this policy as needed to comply with relevant regulations and refl
 
 Contact us at [privacy@plausible.io](mailto:privacy@plausible.io) if you have any questions, comments, or concerns about this privacy policy, your data, or your rights with respect to your information.
 
-Last updated: October 17, 2023
+Last updated: April 16, 2024
