@@ -7,7 +7,7 @@ description: After being taken down by other browsers like Firefox and Safari,
   Chrome. Here's what that means.
 slug: chrome-third-party-cookies
 date: 2024-04-15T10:11:15.235Z
-author: marko-saric
+author: hricha-shandily
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Google Chrome is phasing out third-party cookies
 ---
