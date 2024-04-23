@@ -79,15 +79,15 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 
 8. Plausible is growing fast. We now have more than 6,000 paying subscribers, we're tracking stats on more than 37,000 websites and we're counting more than one billion pageviews per month.
 
-9. Plausible allows you to import your historical stats from the Universal Analytics into your Plausible dashboard. Here are the instructions for our [Google Analytics import tool](https://plausible.io/docs/google-analytics-import).
+9. Plausible allows you to import your historical stats from Google Analytics into your Plausible dashboard. Here are the instructions for our [Google Analytics import tool](https://plausible.io/docs/google-analytics-import).
  
 ## How to import Google Analytics stats to Plausible Analytics 
 
-Here's how to import your historical Google Analytics (Universal Analytics) stats into your Plausible Analytics account.
+Here's how to import your historical Google Analytics stats into your Plausible Analytics account.
 
 1. Go to the Plausible Analytics site settings for the website you'd like to import the data for.
 
-2. In the "Integrations" tab, find the "Google Analytics Data Import" panel. You can link your Google account to your Plausible account by clicking on the "Continue with Google" button.
+2. In the "Imports" tab, find the "Google Analytics" option to link your Google account to your Plausible account.
 
 3. You will now see a drop-down selection menu listing Google Analytics properties associated with your Google account. Select the appropriate property. This will generally be the property with the same domain name as your Plausible site. Then click on the "Continue" button.
 
