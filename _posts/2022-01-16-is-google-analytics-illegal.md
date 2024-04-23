@@ -78,7 +78,7 @@ These rulings make Plausible an even more interesting [Google Analytics alternat
 
 We're a profitable and sustainable open source project with more than 12,000 paying subscribers. More than 200,000 different websites use Plausible and we're counting four billion pageviews per month. We've put together [a list of people tweeting about using Plausible](https://twitter.com/PlausibleHQ/timelines/1311218983912308736) if that helps you.
 
-We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import you historical stats from Google's Universal Analytics to Plausible.
+We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import you historical stats from Google's Universal Analytics and GA4 to Plausible.
 
 ## Privacy-first web analytics
 
