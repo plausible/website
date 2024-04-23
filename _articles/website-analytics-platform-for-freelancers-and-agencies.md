@@ -103,7 +103,7 @@ Learn how to [transfer the ownership of a site](https://plausible.io/docs/transf
 
 ### You can also import historical Google Analytics stats
 
-Google doesn't provide an option to import historical stats from Universal Analytics into the new Google Analytics 4 tool so we’ve put a lot of effort into making a Google Analytics stats import tool ourselves. See [how to import historical GA stats into Plausible](https://plausible.io/docs/google-analytics-import).
+We’ve put a lot of effort into making a Google Analytics stats import tool. It allows you to import multiple Google Analytics properties into to the same Plausible dashboard. And it automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data. See [how to import historical GA stats into Plausible](https://plausible.io/docs/google-analytics-import).
 
 ### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
 
