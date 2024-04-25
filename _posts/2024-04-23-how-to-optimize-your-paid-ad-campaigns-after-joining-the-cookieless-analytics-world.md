@@ -6,7 +6,7 @@ description: Let’s explore what we can do as digital advertisers to stay
   relevant, while respecting user-privacy and staying compliant with
   privacy-preserving regulatory bodies.
 slug: paid-ads-cookieless-analytics
-date: 2024-04-23T08:42:17.477Z
+date: 2024-04-25T15:16:05.303Z
 author: hricha-shandily
 image: /uploads/is-google-analytics-illegal.png
 image-alt: How to optimize your paid ads after joining the cookieless analytics world
