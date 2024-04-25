@@ -50,7 +50,7 @@ For this privacy-intrusive nature of third-party cookies, they have been activel
 
 We explain more in depth about third-party cookies, the role of Google in surveillance capitalism, why Chrome is having to phase them out, and what it means for digital marketers in [this article](https://plausible.io/blog/chrome-third-party-cookies).
 
-All in all, if you use Google's advertising services — such as on Google Search, YouTube, Google Display Network, Google Shopping, Google Play, and Local Services — and especially rely on remarketing ads to convert sign-ups or other actions, you need to revisit your advertising strategy because Google Chrome has already started [phasing out](https://blog.google/products/chrome/privacy-sandbox-tracking-protection/) third-party cookies in 2024.
+All in all, if you use Google's advertising services — such as on Google Search, YouTube, Google Display Network, Google Shopping, Google Play, and Local Services — and especially rely on remarketing ads to convert sign-ups or other actions, you may need to revisit your advertising strategy because Google Chrome has slowly started phasing out third-party cookies and plans to [complete the process in early 2025](https://privacysandbox.com/intl/en_us/news/update-on-the-plan-for-phase-out-of-third-party-cookies-on-chrome/).
 
 ## Replacements of third-party cookies
 
@@ -72,17 +72,23 @@ In short, the approach followed by them prioritizes concealing personal data poi
 
 **Protected Audience API**
 
-[This proposal](https://developers.google.com/privacy-sandbox/relevance/protected-audience) essentially shifts the power to see ads into the hands of the end user’s browser. Here’s how it works: When a Chrome-user visits a website that sells products, like an online chocolate store, a piece of JavaScript code on the site notes your interests based on what you look at — for example, milk-based chocolates.
+[This proposal](https://developers.google.com/privacy-sandbox/relevance/protected-audience) essentially shifts the power to see ads into the hands of the end user’s browser. 
+
+Here’s how it works: When a Chrome-user visits a website that sells products, like an online chocolate store, a piece of JavaScript code on the site notes your interests based on what you look at — for example, milk-based chocolates.
 
 This preference is “securely” stored in your browser, not on any external server. Then, when you visit another website that displays ads, the system uses the preferences stored in your browser to show you ads that match your interests, like those for milk-based chocolates.
 
 **Private aggregated API**
 
-[This API](https://developers.google.com/privacy-sandbox/relevance/private-aggregation) collects data about what pages you visit and what items you are interested in, when you visit different websites on Chrome. Instead of keeping specific notes that could identify you personally, it mixes your activities with data from lots of other people. This way, the participating websites get a big picture of what's popular or not –– the “aggregated data” –– without knowing specifically who likes what.
+[This API](https://developers.google.com/privacy-sandbox/relevance/private-aggregation) collects data about what pages you visit and what items you are interested in, when you visit different websites on Chrome. 
+
+Instead of keeping specific notes that could identify you personally, it mixes your activities with data from lots of other people. This way, the participating websites get a big picture of what's popular or not –– the “aggregated data” –– without knowing specifically who likes what.
 
 **Attribution Reporting API**
 
-[This API](https://support.google.com/admanager/answer/13591683?hl=en) supports conversion measurement for Google Ads. Advertisers would need to embed specific tracking information within their ads. When these ads are displayed on publisher sites, any engagements (clicks or views) would be logged by the user's browser. If the user ends up performing a conversion action on the advertiser’s site, the browser matches this activity with the ad interaction to attribute the conversion accurately.
+[This API](https://support.google.com/admanager/answer/13591683?hl=en) supports conversion measurement for Google Ads. Advertisers would need to embed specific tracking information within their ads. 
+
+When these ads are displayed on publisher sites, any engagements (clicks or views) would be logged by the user's browser. If the user ends up performing a conversion action on the advertiser’s site, the browser matches this activity with the ad interaction to attribute the conversion accurately.
 
 ##### Concerns with these APIs
 
@@ -100,7 +106,9 @@ These proposals still don't meet the ask of Chrome users to not be covertly trac
 
 **Too volatile for advertisers**
 
-Even for advertisers, the APIs don't present very lucrative alternatives to third-party cookies because of their inability to meaningfully understand an end user's nuanced interests and rightfully balance effective advertising with user privacy. Moreover, if the new APIs aren't widely adopted by advertisers, or if adoption rates vary significantly, it could lead to a fragmented market where different parts of the internet measure and value ads differently.
+Even for advertisers, the APIs don't present very lucrative alternatives to third-party cookies because of their inability to meaningfully understand an end user's nuanced interests and rightfully balance effective advertising with user privacy. 
+
+Moreover, if the new APIs aren't widely adopted by advertisers, or if adoption rates vary significantly, it could lead to a fragmented market where different parts of the internet measure and value ads differently.
 
 IMHO, if these proposals were to be implemented with privacy-by-design principles, the functionality in Chrome to automatically track its users’ browsing habits would have been turned off by default. This’d give users the choice to opt-in to being tracked and shown relevant ads, rather than requiring them to discover these practices themselves and opt-out later. 
 
@@ -195,7 +203,9 @@ To control the access of your customers’ data while being able to retarget the
 
 #### Privacy Sandbox APIs
 
-To effectively adopt Privacy Sandbox APIs (as explained above) into your advertising strategy, start by learning their intricacies to understand how they can really help your strategy. You can also participate in Google’s origin trials to get first-hand information and experience with using these APIs and other privacy-compliant advertising solutions that Google continues experimenting with.
+To effectively adopt Privacy Sandbox APIs (as explained above) into your advertising strategy, start by learning their intricacies to understand how they can really help your strategy. 
+
+You can also participate in Google’s origin trials to get first-hand information and experience with using these APIs and other privacy-compliant advertising solutions that Google continues experimenting with.
 
 You would need to implement these Privacy Sandbox APIs actively; they are not automatically integrated by Google Chrome, Google Analytics 4 (GA4), or Google Ads. It's up to you to incorporate these APIs into your systems and strategies according to your specific needs.
 
@@ -203,7 +213,9 @@ You would need to implement these Privacy Sandbox APIs actively; they are not au
 
 #### Social media advertising
 
-Social media platforms remain potent for targeted campaigns due to their vast first-party user data. While many platforms like Meta and Amazon also come under scrutiny for digital surveillance and behavior modification, as long as you navigate these platforms with a clear understanding of their data use policies and maintain transparency with your audience, social media could be an effective place to advertise.
+Social media platforms remain potent for targeted campaigns due to their vast first-party user data. 
+
+While many platforms like Meta and Amazon also come under scrutiny for digital surveillance and behavior modification, as long as you navigate these platforms with a clear understanding of their data use policies and maintain transparency with your audience, social media could be an effective place to advertise.
 
 #### Contextual Advertising
 
@@ -213,11 +225,15 @@ You can find multiple platforms that help run ads based on keywords, website the
 
 #### Newsletter advertising
 
-You can advertise your product or brand in popular industry newsletters. This is a very effective and problem-free alternative because it doesn’t depend on tracking your own users or Chrome users at all. Generally, popular industry newsletters have a highly active and interested subscriber base that can not only get you some high-intent traffic and leads, but also improve your product’s popularity.
+You can advertise your product or brand in popular industry newsletters. This is a very effective and problem-free alternative because it doesn’t depend on tracking your own users or Chrome users at all. 
+
+Generally, popular industry newsletters have a highly active and interested subscriber base that can not only get you some high-intent traffic and leads, but also improve your product’s popularity.
 
 #### Private Marketplace Deals (PMP)
 
-With PMPs, you can buy ad spaces that are not available on open exchanges. These are highly relevant and contextual, closed market spaces that happen to be highly reputable sites. If you have something valuable to advertise yourself, you can probably get a piece of this cake. You can also select where your ads would be placed, get a priority over competition, and create a premium brand.
+With PMPs, you can buy ad spaces that are not available on open exchanges. These are highly relevant and contextual, closed market spaces that happen to be highly reputable sites. 
+
+If you have something valuable to advertise yourself, you can probably get a piece of this cake. You can also select where your ads would be placed, get a priority over competition, and create a premium brand.
 
 #### Other browsers based advertising
 
@@ -256,15 +272,21 @@ These tools are good with providing metrics that are [sufficient](https://plausi
 
 ### Spread your assets
 
-It’s crucial to consider other forms of marketing and eventually steer away from advertising, especially the intrusive kind. The costs of paid advertising have constantly risen, and average ROAS constantly fallen. On top of it, people are annoyed and have ad blockers in place, while attention spans continue to be too scarce –– which ironically happened because of behavior modification from surveillance capitalism itself.
+It’s crucial to consider other forms of marketing and eventually steer away from advertising, especially the intrusive kind. The costs of paid advertising have constantly risen, and average ROAS constantly fallen. 
+
+On top of it, people are annoyed and have ad blockers in place, while attention spans continue to be too scarce –– which ironically happened because of behavior modification from surveillance capitalism itself.
 
 It just doesn't make it sustainable to build a business on advertising itself. Advertising can be good for spreading the word for a newer business, or for an e-commerce business, for example. But it’s equally important to gradually utilize other forms of marketing and branding in the longer run.
 
-The same insights that you collect about your customers could also be used to improve your brand narratives, product marketing, and personalized email marketing, content recommendations, or tailored promotions. While you are at it, maximize the use of owned distribution channels like a community, to engage directly with your audience and lower the dependency on third-parties as much as possible.
+The same insights that you collect about your customers could also be used to improve your brand narratives, product marketing, and personalized email marketing, content recommendations, or tailored promotions. 
+
+While you are at it, maximize the use of owned distribution channels like a community, to engage directly with your audience and lower the dependency on third-parties as much as possible.
 
 ## From Mad-vertising to Advertising
 
-We have been shown ads left right and center, and it’s gotten under the people’s skin now. The level of intrusion and at this scale, has been unparalleled. As a result, normalized advertising practices are coming under scrutiny. Now is the time to assimilate, adjust, upgrade. While we plan for technical adjustments, it’s a good opportunity to revisit the evergreens of advertising.
+We have been shown ads left right and center, and it’s gotten under the people’s skin now. The level of intrusion and at this scale, has been unparalleled. As a result, normalized advertising practices are coming under scrutiny. 
+
+Now is the time to assimilate, adjust, upgrade. While we plan for technical adjustments, it’s a good opportunity to revisit the evergreens of advertising.
 
 ### Connecting > Snooping
 
@@ -290,4 +312,6 @@ So take time to understand your customers’ needs, understand the very values y
 
 ## Parting words
 
-There was a time when we saw a transition from Madison Avenue–style advertising to digital advertising breakthroughs. We are now receding back to more traditional styles of advertising, but within a digital environment. That is both an opportunity and a challenge for modern digital advertisers. By combining the strengths of traditional advertising, like storytelling and emotional connections, with the capabilities of the digital ecosystem, we can create huge impacts.
+There was a time when we saw a transition from Madison Avenue–style advertising to digital advertising breakthroughs. We are now receding back to more traditional styles of advertising, but within a digital environment. That is both an opportunity and a challenge for modern digital advertisers. 
+
+By combining the strengths of traditional advertising, like storytelling and emotional connections, with the capabilities of the digital ecosystem, we can create huge impacts.
