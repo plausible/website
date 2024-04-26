@@ -292,7 +292,7 @@ Now is the time to assimilate, adjust, upgrade. While we plan for technical adju
 
 One of the most fundamental lessons in marketing is market research. But we stop at getting a few high level data points, and compensate for the rest with employing covert tracking. We do market research or tracking, but don’t do a great job in understanding customers.
 
-If a business can meaningfully connect with customers (through customer service or sales calls) and understand them and their needs better, then it opens doors to making emotional relationships as a brand. This encourages repeat purchases, which is proved to be based on subconscious decisions more than on rationalizations).
+If a business can meaningfully connect with customers (through customer service or sales calls) and understand them and their needs better, then it opens doors to making emotional relationships as a brand. This encourages repeat purchases, which is proved to be based on subconscious decisions more than on rationalizations.
 
 So if modern ads can leverage insights unlocked through such meaningful connections (not covert tracking) and appeal emotionally, then they have better odds of success.
 
