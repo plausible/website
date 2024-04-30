@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Google Chrome’s plan to phase out third-party cookies in 2024 means
+title: What Google Chrome’s plan to phase out third-party cookies in 2025 means
   for marketers
 description: After being taken down by other browsers like Firefox and Safari,
   third-party cookies are now being phased out by marketers’ favorite – Google
@@ -21,7 +21,7 @@ Technology is our biggest hand-holder in making highly personalized levels of di
 
 However, there are a ton of issues with these third-party cookies which have been operating at the price of privacy and the world has been reacting since a long time. After being taken down by other browsers like Firefox and Safari, they are now being phased out by marketers’ favorite – Google Chrome. 
 
-Chrome stands for ~65% of the global browser traffic and, in January 2024, it stopped using third-party cookies for 1% of Chrome users completely. This portion is expected to grow to 100% throughout the rest of the year.
+Chrome stands for ~65% of the global browser traffic and, in January 2024, it stopped using third-party cookies for 1% of Chrome users completely. This portion is expected to grow to 100% early next year.
 
 This signals towards information loss (loss of audience context), requiring digital marketers to look at newer ways of advertising and marketing. The mountains of information –– sourced through Google –– that’s been the digital marketer’s dearest asset is slowly taking a hit, and it’s the right time to respond and adjust. Let’s explore.
 
@@ -56,7 +56,7 @@ Short answer: It’s because of the privacy concerns arising around the web, and
 
 Regulatory bodies like [GDPR (General Data Protection Regulation)](https://plausible.io/blog/google-analytics-gdpr) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa) work to protect individual privacy by regulating the collection, processing, and usage of personal information by online businesses.
 
-Long answer: In 2020, Google [announced](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html) that it’s working towards making third-party cookies obsolete. In late 2023, it [announced](https://blog.google/products/chrome/privacy-sandbox-tracking-protection/) that the phase-out has begun with it testing the new changes with 1% of Chrome users. They’re on track to phase it all out by the second half of 2024.
+Long answer: In 2020, Google [announced](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html) that it’s working towards making third-party cookies obsolete. In late 2023, it [announced](https://blog.google/products/chrome/privacy-sandbox-tracking-protection/) that the phase-out has begun with it testing the new changes with 1% of Chrome users. They’re on track to phase it all out by early 2025.
 
 Some quick background: This radical shift is the result of a larger movement against “surveillance capitalism”. It is a concept that talks about incursive and unconsented tracking of people’s personal experiences to be used as raw materials in creating behavioral data. This data gives an understanding of how a certain set of people behave, and gives a fair prediction of their future behaviors as well. 
 
