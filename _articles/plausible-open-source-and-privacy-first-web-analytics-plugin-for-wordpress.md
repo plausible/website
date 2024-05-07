@@ -88,15 +88,25 @@ There are some features that you can enable in the plugin. Here's a look at thos
 
 ## Insert your domain name and API token
 
-In the "Domain Name" field, make sure you use the same domain name as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
+In the "**Domain Name**" field, make sure you use the same domain name as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
 
-To automate the plugin setup, you need to generate an API token in your Plausible site settings and paste it into the "API Token" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
+To automate the plugin setup, you need to generate an API token in your Plausible site settings and paste it into the "**API Token**" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
 
 You'll find a link to where to go to generate the token directly in the plugin itself.
 
 ![Create API Token](/docs/img/plausible-plugin-api-token.png)
 
-After you generate a token, you'll be able to see a list of all your plugin API tokens in your Plausible site settings in the "Integrations" section at any time.
+After you generate a token, you'll be able to see a list of all your plugin API tokens in your Plausible site settings in the "**Integrations**" section at any time.
+
+### Oops! The API token you used is invalid
+
+Are you seeing the "**Oops! The API token you used is invalid**" error message after trying to connect your plugin token? 
+
+Here are the most common causes of that error:
+
+* Do make sure that you're inserting the plugin token and not some other key. The plugin token is always in this format: `plausible-plugin-xxxxxxxxxxxx`. 
+
+* Do make sure to create the plugin token for the exact site that you're trying to connect to as plugin tokens are site specific.
 
 ## How to view your stats directly in your WordPress dashboard
 
