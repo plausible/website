@@ -26,6 +26,9 @@ In a nutshell, funnel optimization is the constant process of engineering the cl
 
 Because funnels come with a lot of nuances, and are non-linear and non-time-bound in nature, every business/marketing needs to find its own unique funnels.
 
+1. Ordered list
+{:toc}
+
 ## How to build a marketing funnel?
 
 Understanding the anatomy of basic funnels can help with creating the one that suits you. There are a few basic frameworks like AIDA (Awareness-Interest-Desire-Action), or the “Curiosity-Enlightenment-Commitment” that you can get started with.
