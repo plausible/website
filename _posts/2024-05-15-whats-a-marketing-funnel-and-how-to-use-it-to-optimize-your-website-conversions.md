@@ -7,7 +7,7 @@ description: In a nutshell, funnel optimization is the constant process of
   preferred buying journey and the journey (funnel) a business would typically
   want them to take.
 slug: funnels-conversion-optimization
-date: 2024-05-15T10:03:26.190Z
+date: 2024-05-15T19:00:03.647Z
 author: hricha-shandily
 image: /uploads/marketing-funnel-example.png
 image-alt: Marketing funnel optimization example
