@@ -110,9 +110,11 @@ This gives enough data to conduct qualitative analysis, understand buyer persona
 
 You can [create your funnels](https://plausible.io/docs/funnel-analysis) in seconds in privacy-first and simple-to-use web analytics tools. The biggest advantage is that the data you can get with a privacy-centric tool like Plausible is more truthful because we don’t use ML to model presumed analytics to fill in data gaps that stem from cookie consent banner declines.
 
-For eg. One of the funnel goals we track at Plausible is how many website visitors complete the entire sign up flow. This starts with clicking the “Start Free Trial” or “Get Started” button on the website and landing on the registration page, followed by submitting contact information, followed by activating the account with OTP verification, and finally adding the specific website’s URL that needs to be tracked.
+For eg. one of the funnel goals we track at Plausible is how many website visitors complete the entire sign up flow. This starts with clicking the “Start Free Trial” or “Get Started” button on the website and landing on the registration page, followed by submitting contact information, followed by activating the account with OTP verification, and finally adding the specific website’s URL that needs to be tracked.
 
 You can see how this simple four-step funnel is visualized within the [live Plausible dashboard](https://plausible.io/plausible.io), and that it has a final conversion rate of 26.23% for the last 30 days. It also shows the respective drop offs and conversion rates for each stage of the funnel on hovering.
+
+![Plausible registration completion funnel](/uploads/registration-completion-funnel-example.png “Plausible registration completion funnel”)
 
 We have been using this insight to optimize our sign up flow (funnel). Notice how the second stage of the funnel appears to be the most leaky one, presenting an important insight and opportunity that something needs to be fixed on the page that collects contact information.
 
