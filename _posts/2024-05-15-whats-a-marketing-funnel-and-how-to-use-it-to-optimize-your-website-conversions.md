@@ -114,7 +114,7 @@ For eg. one of the funnel goals we track at Plausible is how many website visito
 
 You can see how this simple four-step funnel is visualized within the [live Plausible dashboard](https://plausible.io/plausible.io), and that it has a final conversion rate of 26.23% for the last 30 days. It also shows the respective drop offs and conversion rates for each stage of the funnel on hovering.
 
-![Plausible registration completion funnel](/uploads/registration-completion-funnel-example.png “Plausible registration completion funnel”)
+![Plausible registration completion funnel](https://plausible.io/uploads/registration-completion-funnel-example.png “Plausible registration completion funnel”)
 
 We have been using this insight to optimize our sign up flow (funnel). Notice how the second stage of the funnel appears to be the most leaky one, presenting an important insight and opportunity that something needs to be fixed on the page that collects contact information.
 
