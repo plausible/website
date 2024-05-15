@@ -9,8 +9,8 @@ description: In a nutshell, funnel optimization is the constant process of
 slug: funnels-conversion-optimization
 date: 2024-05-15T10:03:26.190Z
 author: hricha-shandily
-image: /uploads/registration-completion-funnel-example.png
-image-alt: Funnel conversion optimization example
+image: /uploads/marketing-funnel-example.png
+image-alt: Marketing funnel optimization example
 ---
 Funnels have been around ever since digital marketing wasn’t even a thing. Earlier developed as a technique for door-to-door salespersons to describe their product, it evolved to become many things, and even changed shapes in response to the evolving customer journeys.
 
