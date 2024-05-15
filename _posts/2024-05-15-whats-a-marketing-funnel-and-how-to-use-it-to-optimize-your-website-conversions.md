@@ -9,6 +9,8 @@ description: In a nutshell, funnel optimization is the constant process of
 slug: funnels-conversion-optimization
 date: 2024-05-15T10:03:26.190Z
 author: hricha-shandily
+image: /uploads/registration-completion-funnel-example.png
+image-alt: Funnel conversion optimization example
 ---
 Funnels have been around ever since digital marketing wasn’t even a thing. Earlier developed as a technique for door-to-door salespersons to describe their product, it evolved to become many things, and even changed shapes in response to the evolving customer journeys.
 
@@ -35,21 +37,21 @@ Understanding the anatomy of basic funnels can help with creating the one that s
 
 All of such frameworks essentially outline the same process:
 
-- Create brand/product awareness by inciting curiosity through helpful content and valuable campaigns.
-- Nurture prospective customers by educating deeper about the subject/solution in question and building relationships.
-- Close the deal, where specific offers may or may not play a role.
+* Create brand/product awareness by inciting curiosity through helpful content and valuable campaigns.
+* Nurture prospective customers by educating deeper about the subject/solution in question and building relationships.
+* Close the deal, where specific offers may or may not play a role.
 
 The most all-encompassing way to visualize any funnel is the classic three-step funnel:
 
-**Top-of-the-funnel**
+### Top-of-the-funnel
 
 TOFU is where prospects enter your funnel. It gets triggered with all the awareness and attention-earning initiatives you undertake like social media posts, search engine optimization, and content marketing.
 
-**Middle-of-the-funnel**
+### Middle-of-the-funnel
 
 Some percentage of people out of those entered in the TOFU continue down the funnel into the MOFU stage. Since the people at this stage are presumed to know at least something about the brand or product, they are essentially in the consideration stages and the focus shifts to "lead nurturing" and guiding them through decision-making processes.
 
-**Bottom-of-the-funnel**
+### Bottom-of-the-funnel
 
 At the BOFU, potential customers are ready to make a purchase decision, and are actively seeking information on pricing, features, and implementation. Marketers usually employ special offers, sales countdown, sales consultations, etc. to give those final pushes and ensure conversions.
 
@@ -63,22 +65,22 @@ When mapping your funnel, it is best to use names that you use internally. For e
 
 To make your funnel, you can get started with a spreadsheet, or create a flowchart in a design tool you prefer.
 
-There are even funnel-specific tools (now AI-driven) you can easily find that let you create web pages, forms, email campaigns, etc. and model them all into a funnel-like flow for automatic tracking and optimization. However, if going with such alternatives, be sure to check how they use your customers’ data and if they employ any [third-party cookies](https://plausible.io/blog/chrome-third-party-cookies).
+There are even funnel-specific tools you can easily find that let you create web pages, forms, email campaigns, etc. and model them all into a funnel-like flow for automatic tracking and optimization.
 
 ### Some examples to get you started
 
 As mentioned earlier, a funnel can track the path taken towards any small and big goal throughout your brand assets. Here are some examples to help you see what different funnels can be like.
 
-- Landing Page -> Product Page -> Add to Cart -> Checkout
-- Homepage -> Product Category Page -> Product Page -> Wishlist
-- Blog Post -> Related Content/Resource Page -> Lead Magnet/Opt-in Form -> Thank You Page
-- Social Media Ad -> Landing Page -> Lead Magnet/Opt-in Form -> Thank You Page
-- Email Newsletter -> Blog Post -> Feature Page -> Pricing Page
-- Free Trial Sign-up -> Onboarding Sequence -> Purchase Page
-- Event Registration Page -> Confirmation Page -> Follow-up Email Sequence
-- Webinar Registration Page -> Reminder Emails -> Live Webinar -> Follow-up Email Sequence
-- Contact Form Submission -> Follow-up Email Sequence -> Sales Call/Consultation
-- Product Demo Request -> Demo Confirmation Page -> Sales Follow-up
+* Landing Page -> Product Page -> Add to Cart -> Checkout
+* Homepage -> Product Category Page -> Product Page -> Wishlist
+* Blog Post -> Related Content/Resource Page -> Lead Magnet/Opt-in Form -> Thank You Page
+* Social Media Ad -> Landing Page -> Lead Magnet/Opt-in Form -> Thank You Page
+* Email Newsletter -> Blog Post -> Feature Page -> Pricing Page
+* Free Trial Sign-up -> Onboarding Sequence -> Purchase Page
+* Event Registration Page -> Confirmation Page -> Follow-up Email Sequence
+* Webinar Registration Page -> Reminder Emails -> Live Webinar -> Follow-up Email Sequence
+* Contact Form Submission -> Follow-up Email Sequence -> Sales Call/Consultation
+* Product Demo Request -> Demo Confirmation Page -> Sales Follow-up
 
 ### The funnel dilemma
 
@@ -106,7 +108,7 @@ You can mark such events as goals, and simply weave those goals into specific fu
 
 This gives enough data to conduct qualitative analysis, understand buyer personas better, conduct A/B tests and other marketing experiments to optimize the funnel in question.
 
-You can [create your funnels](https://plausible.io/docs/funnel-analysis) in seconds in privacy-first and simple-to-use web analytics tools. The biggest advantage is that the data you can get with a privacy-centric tool like [Plausible](https://plausible.io/privacy-focused-web-analytics) is more truthful because we don’t use ML to model presumed analytics to fill in data gaps that stem from cookie consent banner declines.
+You can [create your funnels](https://plausible.io/docs/funnel-analysis) in seconds in privacy-first and simple-to-use web analytics tools. The biggest advantage is that the data you can get with a privacy-centric tool like Plausible is more truthful because we don’t use ML to model presumed analytics to fill in data gaps that stem from cookie consent banner declines.
 
 For eg. One of the funnel goals we track at Plausible is how many website visitors complete the entire sign up flow. This starts with clicking the “Start Free Trial” or “Get Started” button on the website and landing on the registration page, followed by submitting contact information, followed by activating the account with OTP verification, and finally adding the specific website’s URL that needs to be tracked.
 
@@ -116,9 +118,9 @@ We have been using this insight to optimize our sign up flow (funnel). Notice ho
 
 There are other dedicated tools that not only help with tracking a funnel, but also natively building the associated web pages, email campaigns, forms, etc. with it. While they are convenient, you’ll need to put all your eggs in one basket as you will be building web pages, email campaigns, and doing analytics, etc. from the same platform. And most likely compromise the privacy of your customers as well. Research well and use them accordingly.
 
-Tip: Don’t forget to assign monetary values to revenue-relevant goals, within the tool you are using.
+Tip: Don’t forget to [assign monetary values to revenue-relevant goals](https://plausible.io/docs/ecommerce-revenue-tracking), within the tool you are using.
 
-No matter what you pick to build and analyze your funnels, our best tip would be to maintain your personal spreadsheet on the side. That’s where you can sync goals and strategies with different funnels, conduct your qualitative analyses, maintain historical data, connect other marketing data points, get a comprehensive view and understanding of marketing, sales, and product strategies, and take sidenotes.
+No matter what you pick to build and analyze your funnels, our tip would be to maintain your personal spreadsheet on the side. That’s where you can sync goals and strategies with different funnels, conduct your qualitative analyses, maintain historical data, connect other marketing data points, get a comprehensive view and understanding of marketing, sales, and product strategies, and take sidenotes.
 
 ## How to optimize marketing funnels?
 
@@ -138,44 +140,44 @@ Having this clarity helps in determining how successfully a particular funnel is
 
 ### Assign a strategy to each stage of the funnel
 
-**TOFU Marketing**
+#### TOFU Marketing
 
 Since the top stages of the funnel focus on filling their cup, it makes sense to create marketing strategies that have a larger and valuable appeal. This generally includes defining your target audience, and matching it with your brand awareness and inbound strategies.
 
 Here are some typical TOFU marketing approaches to consider:
 
-- Draw an ideal customer profile, even if it happens to be a vague one for now. Understand their psychographics, demographics, and pain points to start creating relevant content for them.
-- Do some keyword research to understand what people are searching for on search engines related to your subject of relevance. Club this with a solid content plan.
-- Determine which form of content resonates best with your personas – video, podcast, long-form content, short-form content, or memes.
-- Collaborate with complementary brands to find exposure to newer and more audiences.
-- Find your voice on social media, and be consistent with it.
-- Try [paid advertising](https://plausible.io/blog/paid-ads-cookieless-analytics), but don’t depend on it in the long-term since it is not efficient and sustainable in many cases. However, it works well for some exceptions like e-commerce brands.
+* Draw an ideal customer profile, even if it happens to be a vague one for now. Understand their psychographics, demographics, and pain points to start creating relevant content for them.
+* Do some keyword research to understand what people are searching for on search engines related to your subject of relevance. Club this with a solid content plan.
+* Determine which form of content resonates best with your personas – video, podcast, long-form content, short-form content, or memes.
+* Collaborate with complementary brands to find exposure to newer and more audiences.
+* Find your voice on social media, and be consistent with it.
+* Try [paid advertising](https://plausible.io/blog/paid-ads-cookieless-analytics), but don’t depend on it in the long-term since it is not efficient and sustainable in many cases. However, it works well for some exceptions like e-commerce brands.
 
-**MOFU Marketing**
+#### MOFU Marketing
 
 The middle stages of a funnel generally focus on nurturing trust and relationships with potential customers. More specific and solutions-oriented or technical content (highlighting specifications or features) and landing pages could work best here.
 
 Here are some typical MOFU marketing approaches to consider:
 
-- Choose among formats like how-to guides, checklists, templates, research studies, product trials, e-books, webinars, etc. to create more focused and educational content.
-- Nurture relationships with marketing qualified leads through email campaigns (where you could even share the type of content chosen from the point above), and be sure to be consistent with your social media presence and content marketing efforts.
-- Do another round of keyword research but with long-tail variations to keep them relevant to more MOFU-type content.
-- Do some reputation management by showcasing encouraging reviews, and case studies.
+* Choose among formats like how-to guides, checklists, templates, research studies, product trials, e-books, webinars, etc. to create more focused and educational content.
+* Nurture relationships with marketing qualified leads through email campaigns (where you could even share the type of content chosen from the point above), and be sure to be consistent with your social media presence and content marketing efforts.
+* Do another round of keyword research but with long-tail variations to keep them relevant to more MOFU-type content.
+* Do some reputation management by showcasing encouraging reviews, and case studies.
 
-**BOFU Marketing**
+#### BOFU Marketing
 
 The bottom stages in a funnel are mostly about giving a final nudge to your leads.
 
 Here are some typical BOFU marketing approaches to consider:
 
-- In a product-led GTM motion, optimize the free trials. In a sales-led GTM motion, optimize the demo-booking forms. In a content-led GTM motion, optimize the thought leadership content.
-- Create content or landing pages comparing features in your product with that of an alternative product.
-- Experiment with promotional offers, pricing models, and even payment options.
-- Include encouraging reviews and case studies throughout your website.
-- Take a peek at what works for your competitors and apply the learnings to your situation.
-- Create strong-worded and crystal clear, compelling calls to action.
+* In a product-led GTM motion, optimize the free trials. In a sales-led GTM motion, optimize the demo-booking forms. In a content-led GTM motion, optimize the thought leadership content.
+* Create content or landing pages comparing features in your product with that of an alternative product.
+* Experiment with promotional offers, pricing models, and even payment options.
+* Include encouraging reviews and case studies throughout your website.
+* Take a peek at what works for your competitors and apply the learnings to your situation.
+* Create strong-worded and crystal clear, compelling calls to action.
 
-**Post-BOFU Marketing**
+#### Post-BOFU Marketing
 
 Keep nurturing existing customers to maintain good retention and eventually create brand promoters. This is where customer success related content and initiatives are needed the most. This is also where you can experiment with upsell prompts, loyalty programs, building exclusive communities, personalizing emails on product tips, push notifications, giving out special discounts, and similar strategies.
 
@@ -201,15 +203,15 @@ Similarly audit and experiment with different email flows, subject lines, advert
 
 ### Other tips
 
-- When analyzing a funnel, pay special attention to the steps with the most abandonment rates. They are the biggest red flags and hence the biggest opportunities.
-- Skip irrelevant parts when making or optimizing a funnel. For eg. You may not need to include your team’s About page within a Conversion Funnel.
-- Don’t add too many steps in the funnel.
-- Focus efforts on customer-centric strategies and not sales-centric, even if that is the funnel’s goal.
-- Create a feedback loop with your audiences to understand their wants, preferences, psychology, likes, dislikes, etc. This will come in handy while doing the qualitative analysis.
-- Keep your CTAs action-oriented and strong-worded, unless that goes against your brand values.
-- Follow up with leads, but don’t be spammy.
-- If you have limited budgets, prioritize the most impactful and efficient channels and initiatives.
-- Lastly, understand that many of these strategies span across different stages of the funnel and are not defined with clear boundaries. A buyer can move around the funnel in multiple ways, repeating their engagement with the same channels and strategies over and over again, but the depth and purpose of these strategies change.
+* When analyzing a funnel, pay special attention to the steps with the most abandonment rates. They are the biggest red flags and hence the biggest opportunities.
+* Skip irrelevant parts when making or optimizing a funnel. For eg. You may not need to include your team’s About page within a Conversion Funnel.
+* Don’t add too many steps in the funnel.
+* Focus efforts on customer-centric strategies and not sales-centric, even if that is the funnel’s goal.
+* Create a feedback loop with your audiences to understand their wants, preferences, psychology, likes, dislikes, etc. This will come in handy while doing the qualitative analysis.
+* Keep your CTAs action-oriented and strong-worded, unless that goes against your brand values.
+* Follow up with leads, but don’t be spammy.
+* If you have limited budgets, prioritize the most impactful and efficient channels and initiatives.
+* Lastly, understand that many of these strategies span across different stages of the funnel and are not defined with clear boundaries. A buyer can move around the funnel in multiple ways, repeating their engagement with the same channels and strategies over and over again, but the depth and purpose of these strategies change.
 
 ## Conclusion
 
