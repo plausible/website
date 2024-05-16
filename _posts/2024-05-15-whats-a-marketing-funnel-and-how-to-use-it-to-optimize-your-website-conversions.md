@@ -92,7 +92,9 @@ Moreover, many businesses might want to track the user journey beyond a goal com
 
 Therefore, it is important to consider all these factors and realize that while the TOFU-MOFU-BOFU funnel makes sense, it paints only part of the full picture that you should want to know. It’s best to visualize a so-called funnel as a bar graph or a flow chart instead, and not get hung up on the shape of a typical funnel.
 
-This would give you a much more real view of how actual business and buyer journeys are intertwined, taking all parts of the potential customer touch points like brand marketing, customer success, sales, etc. into consideration.
+This would give you a much more real view of how actual business and buyer journeys are intertwined, taking all parts of the potential customer touch points like brand marketing, customer success, sales, etc. into consideration. Here's an example:
+
+![An example of a realistic user journey](https://plausible.io/uploads/example-realistic-user-journey.png)
 
 But don’t get overwhelmed if you are still starting out. Start by identifying which goals are important for you to track, map out your existing customers’ journey as much as you know, start with a handful of basic funnels, analyze them regularly, connect the dots, improve the funnel further, while working out which strategies work best for each part of the funnel.
 
