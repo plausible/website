@@ -79,11 +79,19 @@ With Plausible Analytics, you 100% own and control all of your website data. Thi
 
 Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
 
-### You can use one Plausible Analytics account for multiple clients
+### You can use one Plausible Analytics account for all your clients
 
 You can add as many clients' websites as you want, under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
 
 Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
+
+### You can have a holistic view of your whole network in one dashboard
+
+Plausible Analytics rollup reporting allows you to aggregate stats from all your clients' sites and see them in one combined dashboard while keeping the individual site stats on their own separate dashboards too. 
+
+This allows you to get a holistic view of your whole network in one dashboard for your internal purposes but also share the traffic from individual clients' sites with the particular client only.
+
+See [how rollup reporting works](https://plausible.io/docs/plausible-script#is-there-a-roll-up-view).
 
 ### Invite team members and collaborate 
 
