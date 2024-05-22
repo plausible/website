@@ -4,11 +4,11 @@
   text: "Using GA4 + simultaneously testing several \"simpler\" alternatives. 100% favorite so far is Plausible.<br/><br/>Not free/not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. Good solution for ~70% of websites that have trouble with GA4."
   url: https://twitter.com/cyrusshepard/status/1714380470862131344
   
-- author_name: elementary
-  author_handle: elementary
-  author_img: /assets/images/twitter/elementary.jpg
-  text: "We've completely left Google Analytics behind in favor of Plausible. Google's incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that. \n\n <a target=\"_blank\" href=\"https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/\">blog.elementary.io/leaving-google…</a>"
-  url: https://twitter.com/elementary/status/1283851023568850947
+- author_name: Laura Roeder
+  author_handle: lkr
+  author_img: /assets/images/twitter/lkr.jpg
+  text: "I've been super happy with Plausible. All the conversion tracking we need, it has every report we use."
+  url: https://x.com/lkr/status/1792637010567385355
 
 - author_name: Rob Hope
   author_handle: robhope
