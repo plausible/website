@@ -7,6 +7,8 @@ description: If your website has downloadable content or software, track how
 slug: track-file-downloads-in-web-analytics
 date: 2024-05-22T15:07:57.452Z
 author: hricha-shandily
+image: /uploads/track-file-downloads.png
+image-alt: How to track file downloads in your analytics
 ---
 If you have a website with downloadable resources like content or software, it’s a good practice to track how they are performing for your audience and business/marketing. Staying in sight of this information reveals interesting insight into how valuable a resource is to your audience, how effective is your distribution strategy and what improvements can be made to these two.
 
