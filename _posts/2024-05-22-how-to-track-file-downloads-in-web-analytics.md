@@ -12,6 +12,9 @@ If you have a website with downloadable resources like content or software, it�
 
 It is therefore a direct reflection of the degree of value a business or marketing is generating for its audience, and could offer deeper analysis into a business’ core strategy itself. Let’s see what a file download is, and how to keep in touch to improve your marketing and distribution strategies.
 
+1. Ordered list
+{:toc}
+
 ## What is a file download?
 
 A downloadable file on a website can be any of the following:
@@ -95,4 +98,4 @@ Keep an eye on metrics such as download counts, conversion rates, and referral s
 
 ## Before you go…
 
-We're creating a series on Web Analytics features, like this one, to help you learn and apply web analytics with ease. If you have specific topics you'd like us to cover, let us know at [reading@plausible.io](mailto:marketing@plausible.io). We're listening!
+We're creating a series on Web Analytics features, like this one, to help you learn and apply web analytics with ease. If you have specific topics you'd like us to cover, let us know at [reading@plausible.io](mailto:reading@plausible.io). We're listening!
