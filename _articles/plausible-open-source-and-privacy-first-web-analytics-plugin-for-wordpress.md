@@ -98,15 +98,17 @@ You'll find a link to where to go to generate the token directly in the plugin i
 
 After you generate a token, you'll be able to see a list of all your plugin tokens in your Plausible site settings in the "**Integrations**" section at any time.
 
-### Oops! The plugin token you used is invalid
+### Oops! The token you used is invalid
 
-Are you seeing the "**Oops! The plugin token you used is invalid**" error message after trying to connect your plugin token? 
+Are you seeing the "**Oops! The Plugin Token you used is invalid**" error message after trying to connect your plugin token? 
 
 Here are the most common causes of that error:
 
 * Do make sure that you're inserting the plugin token and not some other key. The plugin token is always in this format: `plausible-plugin-xxxxxxxxxxxx`. 
 
-* Do make sure to create the plugin token for the exact site that you're trying to connect to as plugin tokens are site specific.
+* Do make sure to create the plugin token for the exact site that you're trying to connect to as plugin tokens are site specific
+
+* If both of these are fine, then please create a new plugin token and then try to connect it to the plugin once again
 
 ## How to view your stats directly in your WordPress dashboard
 
