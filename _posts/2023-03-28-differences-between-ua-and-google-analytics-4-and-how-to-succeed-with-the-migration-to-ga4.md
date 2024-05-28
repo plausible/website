@@ -225,7 +225,7 @@ If you're still deciding whether to migrate to GA4 and are considering alternati
 * Powered by EU-owned infrastructure
 * Funded directly by subscribers
 * Integrations with Search Console, Looker Studio and more 
-* Automated tracking of external link clicks, file downloads and 404 error pages
+* Automated tracking of external link clicks, [file downloads](https://plausible.io/blog/track-file-downloads-in-web-analytics) and 404 error pages
 * Easy setup of custom events using CSS class names
 * You can even import your historical UA stats
 * Check out [our ready-made dashboard](https://plausible.io/plausible.io) and try it out on your site with [a free trial](https://plausible.io/register)
