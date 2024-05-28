@@ -13,7 +13,7 @@ Google Analytics is the largest web analytics platform. 84% of sites that use a 
 
 Google Analytics is a powerful and useful tool, but [here are some reasons](https://plausible.io/blog/remove-google-analytics) why some people look for alternatives:
 
-* They want something **more niche and specialized in different areas** such as product analytics, funnels or heat maps
+* They want something **more niche and specialized in different areas** such as product analytics, [funnels](https://plausible.io/blog/funnels-conversion-optimization) or heat maps
 * They want something **easier to understand and get insights from** without needing to be an expert or without taking a lot of time
 * They want something **compliant with the different privacy regulations** to [avoid cookies banners and other consent prompts](https://plausible.io/data-policy) 
 * They want something **more lightweight to optimize their site speed** and performance
