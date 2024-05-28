@@ -1,5 +1,5 @@
 - question: I've integrated Plausible into my site. How do I check if I've done it correctly?
-  answer: "We have instructions on how you can <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>check your Plausible integration and troubleshoot any possible issues</a>."
+  answer: "We have a testing tool that you can try directly from your <a class='text-indigo-600' href='https://plausible.io/docs/website-settings'>site settings</a>. It will send some traffic to your site to ensure that everything is working correctly. If we encounter an issue with your integration, we’ll provide some tips on how to fix it. <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>Learn more</a>."
 
 - question: Where are your servers located and where is the data stored?
   answer: "We exclusively use EU-owned cloud infrastructure. The site data we collect is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data <a class='text-indigo-600' href='https://plausible.io/blog/google-analytics-illegal'>never leaves the EU and EU owned infrastructure</a>."
