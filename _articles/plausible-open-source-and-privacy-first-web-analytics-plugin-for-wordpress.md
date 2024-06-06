@@ -38,9 +38,11 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * **Setup goals and custom events using CSS class names** so you can track conversions and analyze conversion attribution
 * Check your Plausible **stats dashboard directly in your WordPress** dashboard
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
-* Track **post authors and categories**
+* Track **post authors, categories and custom taxonomies**
 * Send **custom properties alongside pageviews or custom events**
 * Track **purchases and revenue for your ecommerce store**
+* Track **WooCommerce sales** with automatic events such as add to cart, checkout and the purchase funnel
+* Track *site search terms*
 * **Exclude specific pages from being tracked**
 * **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too
 * **Allow specific user roles (editors, authors or contributors) to access the stats dashboard**
@@ -224,9 +226,9 @@ You can attach custom properties when sending pageviews or custom events to crea
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Authors and categories" option to do so.
 
-This will then start sending your post author names and post categories as custom properties alongside pageviews. You can then filter your Plausible dashboard by a specific author to see all the relevant stats for the posts published by that particular writer or a specific category to see the popularity of a category.
+This will then start sending your post author names, post categories and custom taxonomies as custom properties alongside pageviews. You can then filter your Plausible dashboard by a specific author to see all the relevant stats for the posts published by that particular writer or a specific category to see the popularity of a category.
 
-Authors and categories work out of the box as soon as they're enabled, but if you prefer you can manually send additional custom properties alongside custom events or pageviews. Here's how to do so:
+Authors, categories and custom taxonomies work out of the box as soon as they're enabled, but if you prefer you can manually send additional custom properties alongside custom events or pageviews. Here's how to do so:
 
 ### Custom properties for custom events
 
@@ -244,19 +246,48 @@ For more details on custom events and custom properties, please check out [this 
 
 ### Custom properties for pageviews
 
-Post authors and categories are tracked out of the box as soon as the "Authors and categories" option is enabled in the "Enhanced measurements" section of our WordPress plugin settings.
+Post authors, categories and custom taxonomies are tracked out of the box as soon as the "Authors and categories" option is enabled in the "Enhanced measurements" section of our WordPress plugin settings.
 
 For more details on how to send other custom properties for pageviews, please check out [this documentation page](https://plausible.io/docs/custom-props/for-pageviews#2-add-your-custom-properties-to-your-plausible-snippet).
 
 ## How to track ecommerce revenue
 
-You can assign dynamic monetary values to goals and custom events to track [revenue attribution](https://plausible.io/blog/ecommerce-revenue-attribution). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+Plausible Analytics plugin has an built-in support for tracking of WooCommerce store activity. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
 
-When you create a new custom event, you can now optionally assign a monetary value to it. Our revenue tracking supports multi-currencies too. You can send data in any local currency that the purchase is made in. 
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automate the setup of your WooCommerce custom events including:
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option.
+* Add to Cart
+* Remove from Cart
+* Start Checkout
+* Complete Purchase
 
-Ecommerce revenue won't show up automatically in your Plausible dashboard. You'll have to configure the goal for them to show up. Here's how:
+We're also sending several different custom properties (also known as custom dimensions in Google Analytics) for further analysis:
+
+* product_type
+* product_cat
+* pa_color
+* tax
+* cart_total
+* cart_total_items
+* price
+* product_id
+* product_name
+* quantity 
+* shipping
+* subtotal
+* subtotal_tax
+* tax_class
+* total
+* total_tax
+* variation_id
+
+And we'll also automatically set up a puchase funnel for you looking at the user journey all the way from viewing a product to completing a purchase. This will help you see the drop-off rates between the different steps and understand your cart abandonment rate.
+
+All this is done automatically for you and you don't need to manually set up any custom events.
+
+### If you're not using WooCommerce for your store
+
+You can manually configure the actions you want to track regardless of the technology you use to power your store. Here's how:
 
 * To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
 * You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
@@ -280,6 +311,16 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 All the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
 You'll see "404" goal as soon as the first visit on an error page has been tracked. 
+
+## How to enable site search tracking
+
+Plausible Analytics plugin can help you understand the activity on your search form and identify what search terms your visitors are searching for. It can also help you know how many listings your search results show for the different search terms. 
+
+All this can help you better understand the needs of your audience enabling you to create a better website or more relevant content that answers questions people have.
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Search queries" option.
+
+All the search activity will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
 ## How to enable hash-based URL tracking
 
