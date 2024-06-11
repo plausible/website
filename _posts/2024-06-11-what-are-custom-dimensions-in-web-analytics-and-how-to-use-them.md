@@ -1,20 +1,25 @@
 ---
 layout: post
 title: What are custom dimensions in web analytics and how to use them?
-description: Custom dimensions bridge the gap between the data that a std
-  website performance report offers and what you would like to specifically know
-  about your website.
+description: Custom dimensions bridge the gap between the data that a website
+  performance report offers and what you would like to specifically know about
+  your website.
 slug: custom-dimensions-analytics
 date: 2024-06-11T20:40:03.346Z
 author: hricha-shandily
+image: /uploads/custom-dimensions-in-web-analytics.png
+image-alt: What are custom dimensions in analytics
 ---
-Most web analytics tools are good at providing standard insights, but they cannot automatically capture everything you need to know. Marketers usually spend a lot of time with website performance reports. Such reports are a good source of truth about the quality and effectiveness of marketing efforts, communications, audience engagement, and other business and branding activities.
+Most web analytics tools are good at providing standard insights but they cannot automatically capture everything you need to know. Marketers usually spend a lot of time with website performance reports. Such reports are a good source of truth about the quality and effectiveness of marketing efforts, communications, audience engagement and other business and branding activities.
 
 Ensuring that your web analytics setup is spot on and aligns with business growth and goals becomes increasingly important over time. Therefore, custom dimensions come into play which are nothing but custom entries in your reports.
 
 In a nutshell, custom dimensions bridge the gap between the data that a standard website performance report offers and what you would like to specifically know about your website.
 
 The more robust you want your website performance report to be, the more customized it usually needs to be. Let’s see.
+
+1. Ordered list
+{:toc}
 
 ## What are custom dimensions?
 
@@ -57,11 +62,7 @@ Let’s say a website event you track is “[file downloads](https://plausible.i
 
 And metrics? When you eventually see reports in your web analytics dashboard, you can see such attributes as particulars/values of those attributes and judge their performance with the help of associated metrics data available.
 
-Here is an example from our [live dashboard](https://plausible.io/plausible.io), where we track our visitors’ browser language:
-
-
-![Custom properties in Plausible dashboard](./custom-properties-in-plausible.png)
-
+There is an example from our [live dashboard](https://plausible.io/plausible.io), where we track our visitors’ browser language.
 
 ### A stupidly simple analogy
 
