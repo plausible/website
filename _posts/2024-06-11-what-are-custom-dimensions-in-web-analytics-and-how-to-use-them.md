@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What are custom dimensions in web analytics and how to use them?
+title: What are custom dimensions in web analytics and how to use them
 description: Custom dimensions bridge the gap between the data that a website
   performance report offers and what you would like to specifically know about
   your website.
