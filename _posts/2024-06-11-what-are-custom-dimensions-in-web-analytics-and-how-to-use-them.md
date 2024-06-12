@@ -62,7 +62,9 @@ Let’s say a website event you track is “[file downloads](https://plausible.i
 
 And metrics? When you eventually see reports in your web analytics dashboard, you can see such attributes as particulars/values of those attributes and judge their performance with the help of associated metrics data available.
 
-There is an example from our [live dashboard](https://plausible.io/plausible.io), where we track our visitors’ browser language.
+Here is an example from our [live dashboard](https://plausible.io/plausible.io), where we track our visitors’ browser language:
+
+![An example of custom dimensions from the analytics dashboard](https://plausible.io/uploads/custom-dimensions-in-web-analytics.png)
 
 ### A stupidly simple analogy
 
