@@ -5,7 +5,7 @@ description: Custom dimensions bridge the gap between the data that a website
   performance report offers and what you would like to specifically know about
   your website.
 slug: custom-dimensions-analytics
-date: 2024-06-11T20:40:03.346Z
+date: 2024-06-12T09:56:42.495Z
 author: hricha-shandily
 image: /uploads/custom-dimensions-plausible.png
 image-alt: What are custom dimensions in analytics
