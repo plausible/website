@@ -7,7 +7,7 @@ description: Custom dimensions bridge the gap between the data that a website
 slug: custom-dimensions-analytics
 date: 2024-06-11T20:40:03.346Z
 author: hricha-shandily
-image: /uploads/custom-dimensions-in-web-analytics.png
+image: /uploads/custom-dimensions-plausible.png
 image-alt: What are custom dimensions in analytics
 ---
 Most web analytics tools are good at providing standard insights but they cannot automatically capture everything you need to know. Marketers usually spend a lot of time with website performance reports. Such reports are a good source of truth about the quality and effectiveness of marketing efforts, communications, audience engagement and other business and branding activities.
