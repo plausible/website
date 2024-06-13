@@ -217,7 +217,7 @@ layout: default
       return `left: calc(${newVal}% + (${13.87 - newVal * 0.26}px))`
     }
   </script>
-  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}" x-init="fetch('/currency/us.json').then(response => response.json()).then(data => currency = data.currency)">
+  <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-28" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}" x-init="fetch('/api/paddle/currency').then(response => response.json()).then(data => currency = data.currency)">
     <div class="relative">
       <div class="absolute inset-0 bg-gray-100 h-1/2"></div>
       <div class="bg-white shadow-lg rounded-none md:rounded-lg relative px-4 sm:px-7 py-7 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
