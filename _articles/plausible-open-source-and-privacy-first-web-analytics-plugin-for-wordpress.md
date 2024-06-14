@@ -184,7 +184,7 @@ File downloads tracking is essential for many site owners and Plausible helps yo
 
 Both internal and external files downloads are tracked. These file extensions are tracked:
 
-`.pdf, .xlsx, .docx, .txt, .rtf, .csv, .exe, .key, .pps, .ppt, .pptx, .7z, .pkg, .rar, .gz, .zip, .avi, .mov, .mp4, .mpeg, .wmv, .midi, .mp3, .wav, .wma`
+`.pdf, .xlsx, .docx, .txt, .rtf, .csv, .exe, .key, .pps, .ppt, .pptx, .7z, .pkg, .rar, .gz, .zip, .avi, .mov, .mp4, .mpeg, .wmv, .midi, .mp3, .wav, .wma, .dmg`
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "File downloads" option.
 
@@ -252,16 +252,16 @@ For more details on how to send other custom properties for pageviews, please ch
 
 ## How to track ecommerce revenue
 
-Plausible Analytics plugin has an built-in support for tracking of WooCommerce store activity. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+Plausible Analytics plugin has a built-in support for tracking of WooCommerce store activity. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automate the setup of your WooCommerce custom events including:
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automatically set up and start tracking several WooCommerce custom events:
 
 * Add to Cart
 * Remove from Cart
 * Start Checkout
 * Complete Purchase
 
-We're also sending several different custom properties (also known as custom dimensions in Google Analytics) for further analysis:
+Several custom properties ([also known as custom dimensions in Google Analytics](https://plausible.io/blog/custom-dimensions-analytics)) will start being recorded as well for further analysis:
 
 * product_type
 * product_cat
@@ -281,9 +281,9 @@ We're also sending several different custom properties (also known as custom dim
 * total_tax
 * variation_id
 
-And we'll also automatically set up a puchase funnel for you looking at the user journey all the way from viewing a product to completing a purchase. This will help you see the drop-off rates between the different steps and understand your cart abandonment rate.
+A purchase funnel will be created as well looking at the user journey all the way from viewing a product to completing a purchase. This will help you see the drop-off rates between the different steps and understand your cart abandonment rate.
 
-All this is done automatically for you and you don't need to manually set up any custom events.
+All this is done automatically for you and you don't need to manually set up any custom events nor make any changes to your code.
 
 ### If you're not using WooCommerce for your store
 
@@ -314,13 +314,15 @@ You'll see "404" goal as soon as the first visit on an error page has been track
 
 ## How to enable site search tracking
 
-Plausible Analytics plugin can help you understand the activity on your search form and identify what search terms your visitors are searching for. It can also help you know how many listings your search results show for the different search terms. 
+Plausible Analytics plugin can help you understand the activity on your search form and identify the search terms your visitors are searching for. It can also help you know how many results your search results show for the different search terms. 
 
-All this can help you better understand the needs of your audience enabling you to create a better website or more relevant content that answers questions people have.
+All this can help you better understand the needs of your audience enabling you to create a better website and more relevant content that answers questions people have.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Search queries" option.
 
 All the search activity will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see the "Search" goal as soon as the first search has been recorded. 
 
 ## How to enable hash-based URL tracking
 
