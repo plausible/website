@@ -125,7 +125,7 @@ Start by setting up some [event-goals](https://plausible.io/docs/custom-event-go
 
 Once everything is set up and you have started receiving data, use your dashboard to simply filter your traffic by such goals and/or properties in the dashboard. Here is an example:
 
-![plausible-ecommerce-dashboard](./plausible-revenue-attribution-ecommerce.png)
+![Plausible dashboard with ecommerce revenue attribution](https://plausible.io/uploads/plausible-revenue-attribution-ecommerce.png)
 
 In this example, the user has their dashboard filtered by “All time” data, the goal of “complete purchase” and the property of “product category is hoodies”. So every metric they see on this single-page report is directly related to the session in which the conversions (hoodie sales) occurred.
 
