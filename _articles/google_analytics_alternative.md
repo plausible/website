@@ -24,7 +24,7 @@ Plausible is easy to use and understand with no training or prior experience nec
 
 There are no layers of navigational menus, there is no need to create custom reports. You get all the important web analytics at a glance so you can focus on creating a better site and a better business. 
 
-You can invite team members, you can integrate with Search Console and you can import your historical Google Analytics stats. There's a realtime dashboard, a landing pages report, you can track conversion and revenue attribution, you can optimize your conversion rate using sales funnels and much more. All on one single page. Take a look at our [live demo](https://plausible.io/plausible.io).
+You can invite team members, you can integrate with Search Console and you can import your historical Google Analytics stats. There's a realtime dashboard, a landing pages report, you can [track conversion and revenue attribution](https://plausible.io/blog/ecommerce-revenue-attribution), you can optimize your conversion rate using sales funnels and much more. All on one single page. Take a look at our [live demo](https://plausible.io/plausible.io).
 
 ### Data ownership of your web analytics
 
