@@ -8,7 +8,10 @@ slug: ecommerce-revenue-attribution
 date: 2024-06-20T11:16:27.665Z
 author: hricha-shandily
 ---
-An e-commerce website has various ways of earning sales. Customers can find you through your ads, email campaigns, social campaigns, SEO, directly visiting your website, or any other way. The process of understanding which channels are the most effective for your e-commerce store to generate sales is known as revenue attribution.
+An e-commerce website has various ways of earning sales. Customers can find you through your ads, email campaigns, social campaigns, SEO, directly visiting your website are more. The process of understanding which channels are the most effective for your e-commerce store to generate sales is known as revenue attribution.
+
+1. Ordered list
+{:toc}
 
 ## What is revenue attribution in web analytics?
 
