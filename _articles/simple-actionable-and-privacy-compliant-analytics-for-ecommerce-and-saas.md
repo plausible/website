@@ -90,6 +90,8 @@ Our revenue tracking supports multi-currencies too. You'll be able to see total 
 
 The revenue metrics are fully filterable. For instance, you can see the total or average revenue for a particular custom event per any dimension such as a specific date, referral source, marketing campaign, entry page, country or device.
 
+Also see: [How to boost ecommerce sales by tracking revenue attribution in web analytics](https://plausible.io/blog/ecommerce-revenue-attribution)
+
 ## Add properties to an event or pageview to create custom metrics
 
 You can create your custom metrics in Plausible Analytics. You do this by adding properties to your events or pageviews to collect and analyze data that Plausible Analytics doesn't automatically track. When sending an event, you can attach arbitrary metadata to it. This helps you:
