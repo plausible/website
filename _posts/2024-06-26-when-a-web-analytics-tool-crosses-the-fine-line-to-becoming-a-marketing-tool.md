@@ -7,7 +7,7 @@ description: "Web analytics are providing more than just analytics – they're
 slug: web-analytics-or-marketing-tool
 date: 2024-06-26T10:35:44.849Z
 author: hricha-shandily
-image: /uploads/GA4-dashboard.png
+image: /uploads/ga4-dashboard.png
 image-alt: When a web analytics tool crosses the fine line to becoming a marketing tool
 ---
 Web analytics, as the name suggests, came around for helping website-owners visualize data about different elements of their website. This’d help them optimize web usage.
