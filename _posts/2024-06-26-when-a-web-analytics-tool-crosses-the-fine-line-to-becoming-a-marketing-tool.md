@@ -5,7 +5,7 @@ description: "Web analytics are providing more than just analytics – they're
   capitalizing on marketers' insecurities. What does that mean for its accuracy
   and sanctity? "
 slug: web-analytics-or-marketing-tool
-date: 2024-06-26T10:10:09.639Z
+date: 2024-06-26T10:35:44.849Z
 author: hricha-shandily
 image: /uploads/GA4-dashboard.png
 image-alt: When a web analytics tool crosses the fine line to becoming a marketing tool
