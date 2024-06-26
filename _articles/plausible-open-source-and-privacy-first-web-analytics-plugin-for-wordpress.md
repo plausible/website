@@ -322,7 +322,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the search activity will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see the "Search" goal as soon as the first search has been recorded. 
+You'll see the "WP Search Queries" goal as soon as the first search has been recorded. 
 
 ## How to enable hash-based URL tracking
 
