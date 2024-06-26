@@ -9,7 +9,7 @@ author: hricha-shandily
 image: /uploads/GA4-dashboard.png
 image-alt: 4 things I hate about GA4
 ---
-Navigating a Google Analytics account gives me tiny shots of anxiety. It makes me think “What if I do something wrong?” “What if I end up changing a setting?” “How do I apply a metric to this report now?” The sheer number of features and customizations available are too much to take.
+Navigating a Google Analytics account gives me tiny shots of anxiety. It makes me think “What if I do something wrong?”, “What if I end up changing a setting?” or “How do I apply a metric to this report now?”. The sheer number of features and customizations available are too much to take.
 
 You are either an expert in using GA4 or you are not. There’s no in between. If I could afford it, I would have preferred a five-star concierge service for navigating GA insights. Just tell the person what I want to know today, and they would serve me the million-dollar answer.
 
@@ -48,7 +48,7 @@ And that even after all the privacy-related commotion ‘round the globe, and a 
 
 Getting back to the course: I still haven’t completed even 60% of it. The energy-loss that comes from having to command an unnecessarily complicated tool, takes away from the eagerness to use it in the first place.
 
-If the tool was cutting-edge and solved a complex humanity problem, I wouldn’t have complained. But this is web analytics, and tools like [Plausible](https://plausible.io/vs-google-analytics) and Matomo have proved that web analytics doesn’t have to be rocket science. C’mon, GA – you had one job!
+If the tool was cutting-edge and solved a complex humanity problem, I wouldn’t have complained. But this is web analytics, and tools like [Plausible](https://plausible.io/vs-google-analytics) have proved that web analytics doesn’t have to be rocket science. C’mon, GA – you had one job!
 
 ## II. They cleverly shift the onus of ensuring privacy in THEIR tool onto us
 
@@ -108,7 +108,7 @@ Especially when it is known that your customers’ sensitive data is likely to b
 
 I quote Dr. Shoshana Zuboff from her book, “The Age of Surveillance Capitalism” –
 
-“Surveillance capitalism unilaterally claims human experience as free raw material for translation into behavioral data. Although some of these data are applied to product or service improvement, the rest are declared as a proprietary behavioral surplus, fed into advanced manufacturing processes known as “machine intelligence,” and fabricated into prediction products that anticipate what you will do now, soon, and later. ”
+> Surveillance capitalism unilaterally claims human experience as free raw material for translation into behavioral data. Although some of these data are applied to product or service improvement, the rest are declared as a proprietary behavioral surplus, fed into advanced manufacturing processes known as “machine intelligence,” and fabricated into prediction products that anticipate what you will do now, soon, and later.
 
 Using Google Analytics is more than just using Google Analytics. It is, unknowingly and involuntarily, enabling a vast system of surveillance capitalism, by putting customers’ data, privacy, and trust at risk.
 
