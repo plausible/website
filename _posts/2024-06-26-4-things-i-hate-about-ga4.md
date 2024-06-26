@@ -6,6 +6,8 @@ description: Google Analytics 4 is rapidly evolving in features, but failing in
 slug: things-i-hate-about-GA4
 date: 2024-06-26T10:08:17.097Z
 author: hricha-shandily
+image: /uploads/GA4-dashboard.png
+image-alt: 4 things I hate about GA4
 ---
 Navigating a Google Analytics account gives me tiny shots of anxiety. It makes me think “What if I do something wrong?” “What if I end up changing a setting?” “How do I apply a metric to this report now?” The sheer number of features and customizations available are too much to take.
 
