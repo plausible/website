@@ -15,6 +15,9 @@ You are either an expert in using GA4 or you are not. There’s no in between. I
 
 But I did take a $500 course for learning GA4 (Thank you to my employer at the time, who paid for it). That brings me to the first thing I quite don’t like, understand, digest, and accept about GA.
 
+1. Ordered list
+{:toc}
+
 ## I. I had to spend hours in a course
 
 Imagine having a tool so complex, you need to start training on the weekends. That too, in an era where user-friendliness is a core thing that’s taught to UI/UX designers.
