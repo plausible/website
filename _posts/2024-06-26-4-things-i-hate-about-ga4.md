@@ -4,7 +4,7 @@ title: 4 things I hate about GA4
 description: Google Analytics 4 is rapidly evolving in features, but failing in
   these core areas.
 slug: things-i-hate-about-GA4
-date: 2024-06-26T10:08:17.097Z
+date: 2024-07-02T12:40:14.828Z
 author: hricha-shandily
 image: /uploads/ga4-dashboard.png
 image-alt: 4 things I hate about GA4
