@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Every possible way to ensure your web analytics is working correctly
+title: How to ensure that your web analytics is tracking correctly
 description: Check if your website tracking is working right, with an
   all-encompassing process to spot and solve problems.
 slug: is-analytics-working-correctly
 date: 2024-07-17T10:44:38.667Z
 author: hricha-shandily
+image: /uploads/devtools-check-analytics-status.png
+image-alt: How to ensure that your web analytics is working correctly
 ---
 Whether you've recently added a new tracking snippet to your site or have reasons to believe that your web analytics might not be functioning properly, it's a good idea to verify if your analytics setup is correctly installed.
 
@@ -38,7 +40,7 @@ This is where you can get the full picture of whether your tracking code is work
 
 Locate the file and check if it is loading. For example, If I do this activity for Plausible’s blog page, then this is what I should see:
 
-![network-tab](./browser-console-tag-check.png)
+![Checking your analytics through the browser console network tab](https://plausible.io/uploads/browser-console-tag-check.png)
 
 The green dot with “200 OK” here indicates that the tracking script is loading fine on this webpage. For some scripts, this number might not always be 200. As long as it's in the 200-299 range, the loading is successful.
 
@@ -68,8 +70,7 @@ Generally, subdomains are included by default. You can check your analytics app 
 5. **Check if the script needs to be manually initialized after loading.** Some tracking codes (although not common with web analytic tracking tools) need to be manually initialized after loading to start collecting visitor data and sending it to analytic tool’s servers. Check your tool’s documentation to see if the script needs to be manually initialized and follow the necessary steps.
 6. **Check for errors in the JS console.** If you see an error in your JS console, then you need to contact either your dev team or your web analytic tool’s support team. A JS Console error looks similar to the following screenshot, although not exact. 
 
-![browser-error](./browser-error.png)
-
+![Checking for errors related to your analytics in the browser console](https://plausible.io/uploads/browser-error.png)
 
 ### Contact the Support team
 
