@@ -4,7 +4,7 @@ title: How to ensure that your web analytics is tracking correctly
 description: Check if your website tracking is working right, with an
   all-encompassing process to spot and solve problems.
 slug: is-analytics-working-correctly
-date: 2024-07-17T10:44:38.667Z
+date: 2024-07-18T05:16:03.377Z
 author: hricha-shandily
 image: /uploads/devtools-check-analytics-status.png
 image-alt: How to ensure that your web analytics is working correctly
