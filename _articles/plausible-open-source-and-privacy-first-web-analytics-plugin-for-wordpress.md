@@ -259,7 +259,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 * Add to Cart
 * Remove from Cart
 * Start Checkout
-* Complete Purchase
+* Complete Purchase (including revenue)
 
 Several custom properties ([also known as custom dimensions in Google Analytics](https://plausible.io/blog/custom-dimensions-analytics)) will start being recorded as well for further analysis:
 
