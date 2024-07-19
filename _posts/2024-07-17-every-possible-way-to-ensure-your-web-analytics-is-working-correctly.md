@@ -24,6 +24,8 @@ Web analytic tracking codes are typically JavaScript snippets. When installed on
 
 This is a general guide for checking for possible analytics installation issues that can be applied to most web analytic tracking tools.
 
+![How to debug web analytics script](https://plausible.io/uploads/framework-web-analytics-script-debug.png)
+
 ### Start by checking your Real Time and/or Landing Pages data
 
 The best way to quickly verify that your analytics script is working is to check the real-time data. If the data is showing up correctly, it means your script is functioning properly. If your analytic tool does not have Real Time reports, wait for a few minutes to see if data shows up in standard reports.
