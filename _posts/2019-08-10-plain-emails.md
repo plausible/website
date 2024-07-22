@@ -21,7 +21,7 @@ However, most transactional emails don't require design. No fuss, straight to th
 
 Avoiding the complexity of HTML templates can save a lot of time in design and development. An even greater win is that plain emails also have [better deliverability and response rates](https://blog.hubspot.com/marketing/plain-text-vs-html-emails-data).
 
-HMTL elements and images have a negative effect on deliverability because they tend to trigger spam filters. Over-designed emails can definitely feel spammy to the reader as well, not just the AI. I'm guessing it's due to the ridiculous amount of unsolicited marketing emails that we all receive on a daily basis. They are almost exclusively complex HTML templates with loads of images.
+HTML elements and images have a negative effect on deliverability because they tend to trigger spam filters. Over-designed emails can definitely feel spammy to the reader as well, not just the AI. I'm guessing it's due to the ridiculous amount of unsolicited marketing emails that we all receive on a daily basis. They are almost exclusively complex HTML templates with loads of images.
 
 Plain emails get more responses because they feel much more personal than HTML emails. People associate designed emails with marketing and one-way mass communication. On the other hand, plain emails look like the emails you get from a coworker or a friend. It feels more natural to hit 'reply' on them.
 

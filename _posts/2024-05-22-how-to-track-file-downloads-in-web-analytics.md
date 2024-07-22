@@ -50,7 +50,7 @@ Moreover, analyzing download data alongside other metrics like demographics and 
 
 ### Your campaigns
 
-If your downloadable resources are a part of a marketing campaign or a [funnel](https://plausible.io/blog/funnels-conversion-optimization), tracking them also gives a good indicator about the health of the campaign. By quantifying downloads and comparing them to costs, you can calculate the campaign's ROI, opening up opportunities for refining strategy and assiging resources.
+If your downloadable resources are a part of a marketing campaign or a [funnel](https://plausible.io/blog/funnels-conversion-optimization), tracking them also gives a good indicator about the health of the campaign. By quantifying downloads and comparing them to costs, you can calculate the campaign's ROI, opening up opportunities for refining strategy and assigning resources.
 
 ### Lead generation
 

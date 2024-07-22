@@ -80,7 +80,7 @@ You’ll only have to adjust to a more privacy-friendly approach. If you still w
 
 ### The quality bar is rising higher
 
-Lower dependance on hyper targeted and remarketing campaigns means a higher pressure on standing out as a brand, and building stronger and sustainable relationships with customers.
+Lower dependence on hyper targeted and remarketing campaigns means a higher pressure on standing out as a brand, and building stronger and sustainable relationships with customers.
 
 ### Reliance on inbound marketing is increasing
 
