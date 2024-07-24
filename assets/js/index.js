@@ -13,6 +13,11 @@ if (newsletterForm) {
       }
     }
 
-    plausible('Newsletter signup', {callback: submitForm});
+    plausible('Newsletter signup', {
+      callback: submitForm,
+      props: {
+        browser_language: navigator.language || navigator.userLanguage
+      }
+    });
   })
 }
