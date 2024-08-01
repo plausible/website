@@ -23,7 +23,7 @@
     window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) };
     var props = {
       {% if page.author %}author: "{{ page.author }}",{% endif %}
-      browser_language: navigator.language || navigator.userLanguag
+      browser_language: navigator.language || navigator.userLanguage
     };
     window.plausible('pageview', {props: props});
   </script>

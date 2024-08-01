@@ -132,7 +132,7 @@ Great place to check your Core Web Vitals and get your real-world measurement sc
 
 ### Google Search Console 
 
-![Page experience scores in Google Search Console](/uploads/page-exprience-signals.png)
+![Page experience scores in Google Search Console](/uploads/page-experience-signals.png)
 
 Google Search Console scores your pages with "Good", "Needs Improvement" or "Poor" based on the real-world data. It identifies pages that are not meeting the Core Web Vitals benchmarks and that require your attention.
 

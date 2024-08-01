@@ -89,7 +89,7 @@ John Mueller, who's another Google Webmaster Trends Analyst answered this in [th
 <div class="my-6">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GA can give you lots of insights about your site &amp; how users enjoy it, but it&#39;s not required for search.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1012276593660780544?ref_src=twsrc%5Etfw">June 28, 2018</a></blockquote></div> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Correct. We definintely don&#39;t use GA for indexing.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1255795552463323136?ref_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Correct. We definitely don&#39;t use GA for indexing.</p>&mdash; 🍌 John 🍌 (@JohnMu) <a href="https://twitter.com/JohnMu/status/1255795552463323136?ref_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Our conclusion
 
