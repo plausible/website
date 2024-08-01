@@ -44,7 +44,7 @@ We minimize data collection in general. We measure only the most essential data 
 
 Other analytics tools such as the market leader Google Analytics collect and provide [hundreds of different reports with hundreds of different metrics](https://plausible.io/simple-web-analytics). This vast data collection is unnecessary, it is violating the privacy of web users and it is overkill for most website owners.
 
-All the metrics we do collect fit on one single page. The benefits of minimizing data collection go beyond privacy. Plausible Analytics is much easier and simpler to use and understand. It's also [45 times lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site and reduces your carbon footprint. 
+All the metrics we do collect fit on one single page. The benefits of minimizing data collection go beyond privacy. Plausible Analytics is much easier and simpler to use and understand. It's also [75 times lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site and reduces your carbon footprint. 
 
 You can view all the data we collect in [our live demo dashboard](https://plausible.io/plausible.io). It features our own website stats.
 
@@ -112,10 +112,11 @@ Many of sites using Plausible have chosen to do so. Then they share a link to th
 
 Plausible Analytics is open source and you can self-host it on your own server.
 
-The main difference between Plausible Analytics in the cloud and the self-hosted version is that the self-hosted version you need to install, maintain and manage on your own server while the cloud version we manage for you so you don't have to worry about anything. You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
+The main difference between Plausible Analytics in the cloud and the self-hosted version is that the self-hosted version you need to install, maintain and manage on your own server while the cloud version we manage for you so you don't have to worry about anything.
+ You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
 
 ## Sounds like an interesting alternative to you? 
 
 If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register).
 
-As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
+As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
