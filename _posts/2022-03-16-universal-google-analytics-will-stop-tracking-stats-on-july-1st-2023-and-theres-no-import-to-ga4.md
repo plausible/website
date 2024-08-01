@@ -69,7 +69,7 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 
 3. Plausible has built-in compliance with the different [privacy regulations](https://plausible.io/privacy-focused-web-analytics). We don't use cookies, we have no cross-site or cross-device tracking and we don't use any long term identifiers either. Plausible is also a European startup exclusively using EU-owned cloud infrastructure which helps with [Schrems II compliance](https://plausible.io/blog/google-analytics-illegal). 
 
-4. Plausible keeps your [site loading fast](https://plausible.io/lightweight-web-analytics). Our script is more than 17 times smaller than the Google Analytics script and more than 75 times smaller than the recommended Google Analytics integration using the Google Tag Manager. 
+4. Plausible keeps your [site loading fast](https://plausible.io/lightweight-web-analytics). Our script is more than 75 times smaller than a typical Google Analytics script. By using Plausible Analytics, you will reduce your page weight and your site will load faster too.
 
 5. Google Analytics script is blocked by many people. With tech-savvy audiences, the level of blocking [gets up to 60%](https://plausible.io/blog/google-analytics-adblockers-missing-data). Plausible doesn't need machine learning to predict what happens on your site. We can show what actually happens as we don't see the same level of blockage. 
 
