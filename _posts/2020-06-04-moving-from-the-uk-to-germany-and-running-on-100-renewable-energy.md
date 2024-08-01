@@ -31,7 +31,7 @@ We're confident and comfortable with Germany as an integral part of the EU that 
 
 ## Moving to being 100% powered by renewable energy
 
-We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 45 times smaller than the recommended Google Analytics Global Site Tag implementation.
+We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 75 times smaller than the recommended Google Analytics Global Site Tag implementation.
 
 If you replace Google Analytics with Plausible Analytics, you will reduce your page size by approximately 45 KB for each visitor. With 10,000 monthly visitors, that will be a saving of 450,000 KB (0.45 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
 

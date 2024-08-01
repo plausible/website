@@ -6,7 +6,7 @@ description: Replacing Google Analytics with a lightweight web analytics tool
   can have a significant effect on the page load time of your website.
 permalink: /lightweight-web-analytics
 ---
-Plausible Analytics script weighs less than 1 KB. That's 45 times smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will stop your site from loading slow.
+Plausible Analytics script weighs less than 1 KB. That's 75 times smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will stop your site from loading slow.
 
 Having a fast loading website is one of the key elements of modern web development. Replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time and the carbon footprint too. Let's take a closer look.
 
@@ -84,7 +84,7 @@ This matomo.js script adds 22.8 KB to the page size of your website.
 
 Every KB matters when you want to keep your site fast to load. Plausible is built with simplicity, speed and performance in mind. Plausible is also running on 100% renewable energy which should further minimize our impact on the planet. 
 
-**Plausible script weighs less than 1 KB. That's more than 22 times smaller than the Matomo script and more than 45 times smaller than the Google Analytics Global Site Tag.**
+**Plausible script weighs less than 1 KB. That's more than 22 times smaller than the Matomo script and more than 75 times smaller than the Google Analytics Global Site Tag.**
 
 Even if a site owner figures out that there's a way to load Google Analytics script without using the Global Site Tag, Plausible is still more than 17 times lighter.
 
@@ -157,6 +157,6 @@ These numbers are all estimates but you can imagine if millions of website owner
 
 ## Give Plausible a try as your lightweight web analytics tool
 
-Plausible is a simple, open-source and lightweight site analytics tool. At under 1 KB, our analytics script is 22 times smaller than the Matomo script and 45 times smaller than the Google Analytics Global Site Tag. On top of that, we're also running on 100% green energy. 
+Plausible is a simple, open-source and lightweight site analytics tool. At under 1 KB, our analytics script is 22 times smaller than the Matomo script and 75 times smaller than the Google Analytics Global Site Tag. On top of that, we're also running on 100% green energy. 
 
 [Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard while getting a faster website that produces less carbon emissions.

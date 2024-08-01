@@ -48,7 +48,7 @@ It is much easier to promote a product if it rides a wave of a growing market in
 
 * Having a fast loading and speedy website makes the user experience much better especially on mobile phones and it is even a signal for search engine algorithms
 
-Plausible Analytics provides a great and simple solution for all of the above. It is privacy-first, compliant with the different regulations and 45 times lighter than the market leader.
+Plausible Analytics provides a great and simple solution for all of the above. It is privacy-first, compliant with the different regulations and 75 times lighter than the market leader.
 
 ## Main marketing decision is about which options to say no to
 
