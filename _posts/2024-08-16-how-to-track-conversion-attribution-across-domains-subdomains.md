@@ -6,6 +6,7 @@ description: How to track pageviews, events, and conversions across your main
 slug: conversion-attribution-across-domains-subdomains
 date: 2024-08-16T14:43:22.371Z
 author: hricha-shandily
+image: ""
 ---
 As a business with an online presence, you’ll almost definitely have, at least one of, a SaaS application, a blog, an online store, product documentation, or anything table stakes such as these.
 
@@ -19,7 +20,7 @@ This is an important question because subdomain tracking is generally confused w
 
 **Domain**
 
-A domain is like the identity of a URL. For eg. in `[www.plausible.io](http://www.plausible.io)\`, \`plausible.io` is the domain.
+A domain is like the identity of a URL. For eg. in `[www.plausible.io](http://www.plausible.io)\`, \`plausible.io\` is the domain.
 
 **Subdomain**
 
@@ -31,19 +32,21 @@ Hostname is that part of the URL that comes after the protocol (https://) and be
 
 ## \[Anatomy] How a user travels from a place on the internet to converting on your site
 
-Think of it from the perspective of the tracking JavaScript snippet provided by your web analytics tool. Take a moment to look at the following representation of the user journey:
+Think of it from the perspective of the [tracking JavaScript snippet](https://plausible.io/docs/plausible-script) provided by your web analytics tool. Take a moment to look at the following representation of the user journey:
 
 ![How a user travels from a place on the internet to converting on your site](/uploads/anatomy-user-journey.png "How a user travels from a place on the internet to converting on your site")
 
 So from the perspective of the JavaScript (JS) snippet, when a visitor comes to your site through a [referral link](https://plausible.io/docs/top-referrers#1-automatic-by-the-referer-header), the JavaScript (JS) code checks for any referral or UTM values.
 
-It then records where the session came from. This, by the way, is how our [Top Sources report](https://plausible.io/docs/top-referrers) is made. For example, if someone clicks on a link from a social media post with utm_source=facebook, the JS code will note 'Facebook' as the source of that visit.
+So, it is able to record where the session came from. This, by the way, is how our [Top Sources report](https://plausible.io/docs/top-referrers) is made. For example, if someone clicks on a link from a social media post with utm_source=facebook, the JS code will note 'Facebook' as the source of that visit.
 
 Then as the user interacts with your site, the JS snippet keeps recording such interactions in the form of [pageviews](https://plausible.io/docs/top-pages), button clicks, or any custom events for that matter.
 
 Let’s say, the user now goes to \`app.subdomain.com\`, where you have a sign-up button tied to a key business or marketing goal. The JS snippet continues to monitor their actions.
 
-This approach ensures that the visitor’s session remains active across your main site and its subdomains. You can set up [custom events](https://plausible.io/docs/custom-event-goals) or [pageview goals](https://plausible.io/docs/pageview-goals) in Plausible to track specific actions and even create a [funnel](https://plausible.io/docs/funnel-analysis) to follow the user’s journey across different domains or subdomains. Importantly, any conversions on subdomains, such as signing up, will be attributed back to the original referral source from the main domain.
+This approach ensures that the visitor’s session remains active across your main site and its subdomains. You can set up [custom events](https://plausible.io/docs/custom-event-goals) or [pageview goals](https://plausible.io/docs/pageview-goals) in Plausible to track specific actions and even create a [funnel](https://plausible.io/docs/funnel-analysis) to follow the user’s journey across different domains or subdomains. 
+
+Importantly, any conversions on subdomains, such as signing up, will be attributed back to the original referral source from the main domain.
 
 ## Zooming out
 
@@ -67,8 +70,6 @@ To actually “attribute” the conversions, you would need to filter your dashb
 
 ![segment of the traffic from a particular source that converted](/uploads/filtered-plausible-dashboard.png "segment of the traffic from a particular source that converted")
 
-
-
 This way, you will only see the segment of the traffic from a particular source that converted, along with the conversion rate.
 
 This data is regardless of the hostname. That is, the data is a holistic representation of the user journey that has already taken into account any subdomain tracking required in the backend. 
@@ -78,8 +79,6 @@ However, you can also refine your analysis by filtering your dashboard by hostna
 But filtering by a specific subdomain helps you segment your traffic and focus on data from a particular subdomain.
 
 ![segment your traffic by hostname on plausible dashboard](/uploads/filter-by-hostname.png "segment your traffic by hostname on plausible dashboard")
-
-
 
 P.S. Filtering by hostname is also beneficial when you have pages with identical paths on different sites. For example, if you have a page path like /best-page/ on both yourdomain.com and docs.yourdomain.com, these identical paths will be consolidated into a single entry in the "Top Pages" report on your global dashboard, with combined statistics.
 
