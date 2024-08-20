@@ -16,7 +16,7 @@ And, you’ll have some important business/marketing goals like a product signup
 Usually, development teams create subdomains for easily organizing and managing these pages/apps/store. This raises the question: How to track pageviews, events, and conversions across your main domain and subdomains?
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What even is a subdomain?
 
@@ -42,13 +42,13 @@ Think of it from the perspective of the [tracking JavaScript snippet](https://pl
 
 So from the perspective of the JavaScript (JS) snippet, when a visitor comes to your site through a [referral link](https://plausible.io/docs/top-referrers#1-automatic-by-the-referer-header), the JavaScript (JS) code checks for any referral or UTM values.
 
-So, it is able to record where the session came from. This, by the way, is how our [Top Sources report](https://plausible.io/docs/top-referrers) is made. For example, if someone clicks on a link from a social media post with utm_source=facebook, the JS code will note 'Facebook' as the source of that visit.
+So, it is able to record where the session came from. This, by the way, is how our [Top Sources report](https://plausible.io/docs/top-referrers) is made. For example, if someone clicks on a link from a social media post with utm_source=facebook, the JS code will note 'facebook' as the source of that visit.
 
 Then as the user interacts with your site, the JS snippet keeps recording such interactions in the form of [pageviews](https://plausible.io/docs/top-pages), button clicks, or any custom events for that matter.
 
 Let’s say, the user now goes to \`app.subdomain.com\`, where you have a sign-up button tied to a key business or marketing goal. The JS snippet continues to monitor their actions.
 
-This approach ensures that the visitor’s session remains active across your main site and its subdomains. You can set up [custom events](https://plausible.io/docs/custom-event-goals) or [pageview goals](https://plausible.io/docs/pageview-goals) in Plausible to track specific actions and even create a [funnel](https://plausible.io/docs/funnel-analysis) to follow the user’s journey across different domains or subdomains. 
+This approach ensures that the visitor’s session remains active across your main site and its subdomains. You can set up [custom events](https://plausible.io/docs/custom-event-goals) or [pageview goals](https://plausible.io/docs/pageview-goals) in Plausible to track specific actions and even create a [funnel](https://plausible.io/docs/funnel-analysis) to follow the user’s journey across a domain and its subdomains.
 
 Importantly, any conversions on subdomains, such as signing up, will be attributed back to the original referral source from the main domain.
 
