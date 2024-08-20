@@ -130,13 +130,17 @@ If you include your tracking script on a different domain, this’d help the web
 
 You may need this in cases where say a customer browses your website, and clicks a link to your billing page which is hosted on a different domain altogether.
 
-Please note that as long as your tracking script is a part of a different domain, Plausible will start tracking it as desired and no additional action is required. That is not the case with Google Analytics 4 though.
+Tools like Google Analytics 4 require some additional setup for tracking users beyond your own domains but can help you profile users and map their full journeys even beyond your domain.
+
+In the case of Plausible, you can simply include your tracking script on a completely different domain (not subdomain), with no additional setup.
+
+However, with Plausible, the same user session will not continue between these different domains, to prevent user profiling and be [GDPR compliant by design](https://plausible.io/privacy-focused-web-analytics), and it is better to track domain-exits as [outbound link clicks](https://plausible.io/docs/outbound-link-click-tracking).
 
 ### Common mistakes to avoid
 
 * You don’t need to add a new site or account on Plausible for tracking different hostnames/subdomains. Same is true for the properties in GA4. But you can do so if you prefer.
 * Sometimes, unexpected hostnames appear that can pollute your data. You can easily [allow only specific hostnames](https://plausible.io/docs/subdomain-hostname-filter#block-traffic-from-unwanted-hostnames) from your Plausible settings.
-* In case you have multiple dashboards for different subdomains/domains, you don’t need to switch dashboards every now and then. Just use one [combined dashboard](https://plausible.io/docs/subdomain-hostname-filter#roll-up-reporting). But, don’t mistake it for a singular user journey. Since a unique user’s session is only maintained between the same script amongst subdomains, having multiple different domains on the dashboard may cause confusion.
+* In case you have multiple dashboards for different subdomains/domains, you don’t need to switch dashboards every now and then. Just use one [combined dashboard](https://plausible.io/docs/subdomain-hostname-filter#roll-up-reporting). However, keep in mind that this doesn’t represent a single, continuous user journey. Since a unique user session is only tracked across subdomains using the same script, including multiple different domains in one dashboard could lead to confusion.
 
 ## Winding up
 
