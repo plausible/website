@@ -86,7 +86,7 @@ By applying a hostname filter, you can differentiate between the performance of 
 
 ## Example: Tracking signups to your SaaS app across domain and subdomains
 
-Imagine you're running a SaaS business with the following setup:
+Let’s say you're running a SaaS business with the following setup:
 
 Main website: `www.yoursaas.com`
 
@@ -98,9 +98,11 @@ Your primary goal is to track how users move from your main website (www.yoursaa
 
 ### Steps to track signups across domain/subdomains
 
-**1. Add the Tracking Script.** Ensure the same [JavaScript tracking snippet](https://plausible.io/docs/plausible-script) provided by your web analytics tool (like Plausible, Google Analytics, Matomo) is added to the header of every page across all domains and subdomains: \`www.yoursaas.com\`, \`blog.yoursaas.com\`, and \`app.yoursaas.com\`.
+**1. Add the Tracking Script.** Ensure the same JavaScript tracking snippet provided by your web analytics tool (like Plausible, Google Analytics, Matomo) is added to the header of every page across all domains and subdomains: \`www.yoursaas.com\`, \`blog.yoursaas.com\`, and \`app.yoursaas.com\`.
 
-**2. Set up a goal for signups.** In your web analytics tool, define a custom event or pageview goal for the signup completion. For example, if your signup form redirects users to \`app.yoursaas.com/thank-you\`, you can set a pageview goal for that specific URL.
+**2. Set up a goal for signups.** In your web analytics tool, define a custom event or pageview goal for the signup completion.
+
+For example, if your signup form redirects users to \`app.yoursaas.com/thank-you\`, you can set a pageview goal for that specific URL path.
 
 **3. Monitor the user journey.** The tracking script will monitor the user's journey from the main domain or blog to the app. If a user lands on \`www.yoursaas.com\`, reads a blog post on \`blog.yoursaas.com\`, and then clicks a "Sign Up" button that redirects them to \`app.yoursaas.com/signup\`, their journey will be recorded as a single session.
 
@@ -110,7 +112,9 @@ If the user signs up successfully, the conversion will be attributed to the orig
 
 In Plausible, you can further filter by hostnames as well.
 
-**5. Analyze the data.** Look at the Top Sources report (basically channel acquisition reports) to understand where your converting users are coming from. Use the funnel visualization (if available in your analytics tool) to track the step-by-step process users take from their initial visit to signup, across different domains and subdomains.
+**5. Analyze the data.** Look at the Top Sources report (which are basically channel-acquisition reports) to understand where your converting users are coming from.
+
+Use the funnel visualization (if available in your analytics tool) to track the step-by-step process users take from their initial visit to signup, across different domains and subdomains.
 
 Congrats! You're effectively tracking and attributing signups across different domains and subdomains, giving you a clear picture of your user journey and conversion sources.
 
