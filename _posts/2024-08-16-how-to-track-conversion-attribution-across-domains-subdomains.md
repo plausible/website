@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How to track conversion attribution across domains and subdomains?
+title: How to track conversion attribution across your domain and subdomains?
 description: How to track pageviews, events, and conversions across your main
   domain and subdomains?
-slug: conversion-attribution-across-domains-subdomains
-date: 2024-08-16T14:43:22.371Z
+slug: conversion-attribution-across-domain-subdomains
+date: 2024-08-20T14:09:22.371Z
 author: hricha-shandily
 image: uploads/conversion-attribution-across-subdomains.png
-image-alt: How to track conversion attribution across domains and subdomains?
+image-alt: How to track conversion attribution across your domain and subdomains?
 ---
 As a business with an online presence, you’ll almost definitely have, at least one of, a SaaS application, a blog, an online store, product documentation, or anything table stakes such as these.
 
