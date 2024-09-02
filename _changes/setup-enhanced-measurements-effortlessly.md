@@ -7,6 +7,6 @@ It is now easier than ever to implement [enhanced measurements](https://plausibl
 
 We’ll provide an updated code snippet, so you won’t need to handle the code yourself. 
 
-You can also update these settings anytime by clicking "Review Installation" on the General page of your Site Settings.
+You can also update these settings anytime by clicking "Review Installation" on the General page of your "Site Settings".
 
 ![Setting up enhanced measurements in Plausible with a simple checklist](/uploads/plausible-enable-optional-measurements.png "Setting up enhanced measurements in Plausible with a simple checklist")
