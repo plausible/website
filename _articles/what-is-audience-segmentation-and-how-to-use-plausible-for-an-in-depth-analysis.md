@@ -2,12 +2,11 @@
 layout: article
 title: What is audience segmentation and how to use Plausible for an in-depth
   analysis?
-description: mm
-permalink: mm
+description: Audience segmentation helps you find useful insights by breaking
+  down your audience data. Plausible makes this easy and privacy-friendly.
+permalink: /audience-segmentation
 ---
-The one thing that has always helped Plausible grow is sticking to the needs of a specific set of audience. 
-
-When we started as a simple-enough and privacy-first way of tracking website traffic, we automatically started appealing to individual creators.
+The one thing that has always helped Plausible grow is sticking to the needs of a specific set of audience. When we started as a simple-enough and privacy-first way of tracking website traffic, we automatically started appealing to individual creators.
 
 As we grew and improved our tech and product, and stuck with our philosophy of rejecting surveillance capitalism while providing a really easy, but useful, tool to use –– we noticed an uptick in the customer base that were small startups and tech founders.
 
@@ -32,7 +31,7 @@ The interesting thing to note is that if you are in business, you’d definitely
 So, let’s understand how and what a web analytics tool can tell you about your segments of audiences.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What a web analytics tool can reveal about audience segmentation
 
@@ -83,13 +82,13 @@ Looking at active users (filtered using a custom property) who viewed the Goals 
 
 This way, we can improve the user experience and tailor marketing strategies.
 
-![](/uploads/plausible-segment-loggedin-users-viewing-goal-settings.png)
+![Example of a segment of audience that was logged in and viewed the Goal Settings page](/uploads/plausible-segment-loggedin-users-viewing-goal-settings.png "Example of a segment of audience that was logged in and viewed the Goal Settings page")
 
 ### Example: UK users who upgraded to paid subscription, in the year so far  
 
 This segment tells us how many paid subscriptions (a custom goal) we have got from the United Kingdom (a location) in the year so far, and what the conversion rate looks like.
 
-![](/uploads/plausible-segment-uk-paid-subscribers.png)
+![Example of a segment of audience from the United Kingdom who upgraded](/uploads/plausible-segment-uk-paid-subscribers.png "Example of a segment of audience from the United Kingdom who upgraded")
 
 By analyzing this report further, valuable decisions can be made. For eg. We can see that England contributed to the most amount of conversions from the United Kingdom, and that Chrome has been the most popular browser.
 
@@ -99,15 +98,11 @@ This way, if we wanted to run an ad campaign, we could have easily segmented the
 
 Another, fairly simpler, use case for creating an audience segment can be to understand which of your blog authors (custom property) generate how many page views and on which blog posts. This can be helpful in understanding the effectiveness of their writing.
 
-![](/uploads/plausible-segment-author.png)
+![Example of a segment of audience that visited blog pages written by a specific author](/uploads/plausible-segment-author.png "Example of a segment of audience that visited blog pages written by a specific author")
 
 Similarly, you could have simply understood which pages rank for which keywords from Google. This brings us to the next section –– making the most of Plausible.
 
- 
-
 Since tracking additional stuff like the interactions happening on your site, the contribution of marketing campaigns in acquiring visitors, the role of SEO in it, etc. is not something we can track by default (since it is all personalized to your use case), some additional steps are required.
-
- 
 
 Hence, there are certain best practices that we recommend considering to make audience segmentation a piece of cake. Let’s explore below.
 
@@ -121,19 +116,11 @@ You don’t have to guess that in one go, though. We offer a 30-day free trial (
 
 Plausible provides clear insights into where your audiences are coming from. Whether they arrive from social media, search engines, direct visits, other websites, or any other source –– referral source data helps you segment your audience by how they found your site.
 
- 
-
 When posting links (from your site) to other platforms like social media, paid ads, newsletters, etc., make sure to [tag them](https://plausible.io/docs/manual-link-tagging) with special query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
-
- 
 
 Plausible automatically captures these parameters, and you can view the segmented data under the "[Top Sources](https://plausible.io/docs/top-referrers)" section.
 
- 
-
 You can also click on any of these items to filter the entire dashboard by a traffic acquisition source so you can view data only about sessions acquired from that particular source (or sources) in a specified timeframe.
-
- 
 
 This also comes in handy for analyzing the performance of different marketing campaigns or understanding which channels drive the most valuable traffic.
 
@@ -141,33 +128,19 @@ This also comes in handy for analyzing the performance of different marketing ca
 
 Another powerful way to segment your audience is by setting up custom events. With events, you can track specific actions visitors take on your site, such as signing up for a newsletter, clicking a call-to-action button, or downloading an ebook.
 
- 
-
 By capturing site interactions, you can identify different audience segments based on their behavior.
-
- 
 
 There are various [methods](https://plausible.io/docs/goal-conversions) in Plausible to track such events (some not even requiring code edits) like enhanced measurements, pageview goals, and custom event goals.
 
- 
-
-You can also collect additional, contextual data about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics. And later, you can also compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to get a broader overview of entire customer journeys.
-
- 
+You can also collect additional, contextual data about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics. And later, you can also compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to get a broader overview of entire customer journeys. 
 
 This also comes in handy in understanding which actions your audience is taking and which of them lead to conversions, helping you better target your marketing efforts.
 
-
-
 ### For segmenting based on SEO performance: integrate with Google Search Console  
 
-We offer an [integration with Google Search Console](https://plausible.io/docs/google-search-console-integration) to help you understand the search terms that led visitors to your site. This data is directly in your Plausible dashboard. This makes it easier to understand which keywords are driving real traffic.
+We offer an [integration with Google Search Console](https://plausible.io/docs/google-search-console-integration) to help you understand the search terms that led visitors to your site. This data is directly in your Plausible dashboard. This makes it easier to understand which keywords are driving real traffic. 
 
- 
-
-You can segment this data by filtering your dashboard with the “Google” traffic source entry. This gives a deeper insight into the clicks originating from Google search results.
-
- 
+You can segment this data by filtering your dashboard with the “Google” traffic source entry. This gives a deeper insight into the clicks originating from Google search results. 
 
 The best part? This integration is privacy-friendly and requires no additional Google code on your site. Google simply shares the search data they've already collected, ensuring your site's privacy remains intact.
 
@@ -193,22 +166,12 @@ We also filter out referrer spam, data center traffic, and accurately attribute 
 
 Google Analytics 4 is a default choice for many site owners. When it comes to audience segmentation and analysis, “Audiences” begins as a setting in a complex settings panel and ends up in the “Free Form” reports.
 
- 
-
-In Google Analytics 4, you can create different audience groups based on user behavior. These groups let you organize users who visit your site in specific ways. You can then use these audience groups for things like retargeting ads in Google Ads.
-
- 
+In Google Analytics 4, you can create different audience groups based on user behavior. These groups let you organize users who visit your site in specific ways. You can then use these audience groups for things like retargeting ads in Google Ads. 
 
 The issue with that is that the phasing out of third-party cookies has rendered the whole process very inefficient. Even though the phase-out has been delayed, most users still reject cookies, which keeps this problem very much alive. We've covered these issues in more detail in another [article](https://plausible.io/blog/paid-ads-cookieless-analytics).
 
- 
-
 Moreover, [recent independent studies](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) have shown that the data tracked in Google Analytics is not accurate, missing as much as 55% data in comparison to Plausible!
 
- 
-
 And, GA4 is not GDPR-compliant, is known to profile your users and sell their data, requires a learning curve and compromises your web users’ experience. We explain such things and the differences between Plausible and Google Analytics in detail [here](https://plausible.io/vs-google-analytics).
-
- 
 
 Do you have a website? We encourage you to sign up for a 30-day[ free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
