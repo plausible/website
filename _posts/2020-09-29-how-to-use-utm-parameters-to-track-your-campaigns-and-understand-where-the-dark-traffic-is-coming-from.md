@@ -164,26 +164,19 @@ Simply tag all the links in the different guest posts and other syndication acti
 
 ### UTM tags are case-sensitive
 
-UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` will show separately in your analytics dashboard. Be consistent in your UTM naming practices. Keep all the tag names consistent to keep your dashboard clean and tidy and make it easier to analyze results.
+UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` will show separately in the "UTM Source" tab within the "Campaigns" section in the "Top Sources" report of your Plausible dashboard. 
+
+Be consistent in your UTM naming practices. Keep all the tag names consistent to keep your dashboard clean and tidy and make it easier to analyze results.
 
 ### Plausible merges UTM tags that are identical to referral sources
 
 We merge all identical sources in the "All" tab of the "Top Sources" report in your Plausible Analytics dashboard.
 
-For instance, clicks that you get from Twitter which are not tagged by UTMs are labeled with a referral source Twitter by Twitter itself. If you tag some links that you share on Twitter with the `utm_source=Twitter`, clicks on those we will merge alongside other Twitter clicks in the "All" tab. 
+For instance, clicks that you get from Twitter which are not tagged by UTMs are labeled with a referral source Twitter by Twitter itself. If you tag some links that you share on Twitter with the `utm_source=Twitter` or `utm_source=twitter`, clicks on those we will merge alongside other Twitter clicks in the "All" tab. 
 
-This is in order to make it easier for you to keep track and get a combined overview of all the clicks from Twitter. When you click on the "Source" tab, we only show those clicks coming from `utm_source=Twitter` itself. 
+This is in order to make it easier for you to keep track and get a combined overview of all the clicks from Twitter. 
 
-And note again that UTM tags are case-sensitive so `utm_source=twitter` with lowercase t doesn't get merged with Twitter with uppercase T.
-
-Here are the referral header names for other popular websites so do aim to name your utm_source with identical names:
-
-* Facebook
-* GitHub
-* Twitter
-* LinkedIn
-* Reddit
-* Google
+If you want to isolate your UTM tagged clicks from the organic clicks, you can click on the "UTM Source" tab within the "Campaigns" section of your "Top Sources" report, where we only show those clicks coming from your UTM tagged links. 
 
 ### You cannot use spaces in UTM tags
 
