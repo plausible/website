@@ -28,7 +28,7 @@ Naturally, internet-users and governments are unhappy and this made Chrome take 
 Let’s explore what we can do as digital advertisers to stay relevant, while respecting user-privacy and staying compliant with privacy-preserving regulatory bodies.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What’s this babel about third-party cookies affecting advertisers?
 
@@ -118,10 +118,10 @@ Such an approach could have truly empowered users, providing them with more cont
 
 Ad publishers or sellers are the websites that display ads of an ad buyer, to the end user. They usually have access to their visitors’ logged in data and site usage patterns. Some examples include site registrations, subscription forms, user interactions, and other first-party data.
 
-Such data can prove to be valuable for helping with audience segmentation and targeting features in Google Ads. Any personally identifiable information, like names, emails, addresses, needs to be hashed. Here are a couple of examples of such features from Google Ads:
+Such data can prove to be valuable for helping with [audience segmentation](https://plausible.io/audience-segmentation) and targeting features in Google Ads. Any personally identifiable information, like names, emails, addresses, needs to be hashed. Here are a couple of examples of such features from Google Ads:
 
-- [Publisher Provided Identifiers](https://support.google.com/admanager/answer/2880055?hl=en), to provide unique identifiers collected by the publishers.
-- [Publisher Provided Signals](https://support.google.com/admanager/answer/12451124), to provide user insights collected by publishers, such as user behavior or preferences.
+* [Publisher Provided Identifiers](https://support.google.com/admanager/answer/2880055?hl=en), to provide unique identifiers collected by the publishers.
+* [Publisher Provided Signals](https://support.google.com/admanager/answer/12451124), to provide user insights collected by publishers, such as user behavior or preferences.
 
 ### Server-Side Tracking
 
@@ -133,11 +133,11 @@ You can utilize Google Tag Manager’s server side tags to make use of this func
 
 If you decide to do this, be sure to:
 
-- Disclose how you collect, process and use your customers’ data to them. Put user consent forms into place.
-- Be extremely careful with handling sensitive data and make sure that it is properly hashed before being sent to any third party.
-- Put security measures in place for protecting the data from breaches and leaks.
-- Carefully check for any other compliance-requirements with regulatory bodies like the GDPR, CCPA. Get a lawyer’s word, if it helps.
-- Lastly, don’t rely on hyper targeting your users and being creepy on them. Show your commitment to providing a secure and nice customer experience.
+* Disclose how you collect, process and use your customers’ data to them. Put user consent forms into place.
+* Be extremely careful with handling sensitive data and make sure that it is properly hashed before being sent to any third party.
+* Put security measures in place for protecting the data from breaches and leaks.
+* Carefully check for any other compliance-requirements with regulatory bodies like the GDPR, CCPA. Get a lawyer’s word, if it helps.
+* Lastly, don’t rely on hyper targeting your users and being creepy on them. Show your commitment to providing a secure and nice customer experience.
 
 ### Fingerprinting
 
@@ -263,12 +263,12 @@ These tools are good with providing metrics that are [sufficient](https://plausi
 
 ### Other important things to keep in mind
 
-- For user-consent management and other ways to optimize your GA4 account for privacy-compliance, check out their [documentation](https://support.google.com/analytics/answer/14312209?hl=en).
-- Update your Privacy Policies and User Agreements to reflect any changes you make in how you collect and process user data.
-- Closely monitor the performance of your campaigns to adjust strategies based on the new kinds of data and reporting available.
-- Keep active with the latest developments, since all the newer tech and tools are constantly evolving themselves. Stay flexible.
-- Stick to the basics. Even with evolving technologies and strategies, the fundamentals of advertising remain the same. Like, with search engine advertising, your ad position continues to be determined by a combination of quality score and CPC bids.
-- Stick to UTM tracking to track and attribute conversions to specific campaigns, channels, or ads. This is a transparent way to precisely monitor the performance of your paid campaigns.
+* For user-consent management and other ways to optimize your GA4 account for privacy-compliance, check out their [documentation](https://support.google.com/analytics/answer/14312209?hl=en).
+* Update your Privacy Policies and User Agreements to reflect any changes you make in how you collect and process user data.
+* Closely monitor the performance of your campaigns to adjust strategies based on the new kinds of data and reporting available.
+* Keep active with the latest developments, since all the newer tech and tools are constantly evolving themselves. Stay flexible.
+* Stick to the basics. Even with evolving technologies and strategies, the fundamentals of advertising remain the same. Like, with search engine advertising, your ad position continues to be determined by a combination of quality score and CPC bids.
+* Stick to UTM tracking to track and attribute conversions to specific campaigns, channels, or ads. This is a transparent way to precisely monitor the performance of your paid campaigns.
 
 ### Spread your assets
 
