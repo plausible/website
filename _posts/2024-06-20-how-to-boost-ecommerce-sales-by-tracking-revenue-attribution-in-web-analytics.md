@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to boost ecommerce sales by tracking revenue attribution in web analytics
+title: Using website analytics for ecommerce revenue attribution and boosting sales
 description: Use web analytics to track and attribute revenue across different
   marketing channels like ads, search, social, email, etc. to grow your
   ecommerce sales.
@@ -10,12 +10,12 @@ author: hricha-shandily
 image: /uploads/plausible-ecommerce-revenue-goal.png
 image-alt: How to track ecommerce revenue attribution
 ---
-An e-commerce website has various ways of earning sales. Customers can find you through your ads, email campaigns, social campaigns, SEO, directly visiting your website are more. The process of understanding which channels are the most effective for your e-commerce store to generate sales is known as revenue attribution.
+An e-commerce website has various ways of earning sales. Customers can find you through your ads, email campaigns, social campaigns, SEO, directly visiting your website and more. The process of understanding which channels are the most effective for your e-commerce store to generate sales is known as ecommerce revenue attribution.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
-## What is revenue attribution in web analytics?
+## What is ecommerce revenue attribution in website analytics?
 
 Website analytics help get a birds eye view of the marketing channels, marketing campaigns, website assets, and/or any touchpoints in the [buyer’s journey](https://plausible.io/blog/funnels-conversion-optimization) that contribute to a sale on your online store.
 
@@ -102,12 +102,12 @@ Google Analytics’ AI and ML proactively study all the customer journey paths a
 
 However, you are almost always guaranteed to get half-baked and inaccurate data due to the following reasons:
 
-- Various privacy regulations, especially from the European Union and the USA, require GA users to ask for website visitors’ consent before collecting and processing their data. Naturally, many visitors decline such requests, while your website experience gets downgraded for everyone.
-- Many privacy-first systems like Apple prevent user tracking by default. This means a huge loss of data.
-- A wide variety of users use Ad blockers these days, which prevents a Google Analytics script from loading at all.
-- These attribution models depend on first-party cookies that expire, or can easily be deleted by a user. And any model remotely depending on third-party cookies is [bound to die](https://plausible.io/blog/chrome-third-party-cookies) within this year.
-- The sheer randomness of user behaviors makes it just not possible to track every single touchpoint. For eg. You cannot really ever know if a buyer came to you because of seeing a billboard, from word-of-mouth, or if they switched browsers and devices while interacting with your site a dozen times. So even meticulously built reports can mislead you, rendering the whole process worthless.
-- This model keeps you in the dark because you have no idea what exactly is happening in the background, and have no control over it.
+* Various privacy regulations, especially from the European Union and the USA, require GA users to ask for website visitors’ consent before collecting and processing their data. Naturally, many visitors decline such requests, while your website experience gets downgraded for everyone.
+* Many privacy-first systems like Apple prevent user tracking by default. This means a huge loss of data.
+* A wide variety of users use Ad blockers these days, which prevents a Google Analytics script from loading at all.
+* These attribution models depend on first-party cookies that expire, or can easily be deleted by a user. And any model remotely depending on third-party cookies is [bound to die](https://plausible.io/blog/chrome-third-party-cookies) within this year.
+* The sheer randomness of user behaviors makes it just not possible to track every single touchpoint. For eg. You cannot really ever know if a buyer came to you because of seeing a billboard, from word-of-mouth, or if they switched browsers and devices while interacting with your site a dozen times. So even meticulously built reports can mislead you, rendering the whole process worthless.
+* This model keeps you in the dark because you have no idea what exactly is happening in the background, and have no control over it.
 
 That leaves a single logical choice for tracking accurate revenue attributions: the last-touch model; with a tool that is privacy-compliant and doesn’t use cookies either. Here’s how we do it with Plausible. ⬇️
 
@@ -117,10 +117,10 @@ In Plausible, website traffic is tracked based on sessions, and we don’t remem
 
 Plus:
 
-- You can get [simple and quick](https://plausible.io/simple-web-analytics) answers at a glance.
-- You don’t need to employ any consent banners on your website. This is because we are built in the EU, and are privacy-first and [open-source](https://plausible.io/open-source-website-analytics) by principle.
-- You don’t have to worry about cookies-related issues because we use a [cookie-less mechanism](https://plausible.io/blog/google-analytics-cookies) to track website data.
-- You can also count data from the users who use ad blockers, by using a [proxy](https://plausible.io/docs/proxy/introduction).
+* You can get [simple and quick](https://plausible.io/simple-web-analytics) answers at a glance.
+* You don’t need to employ any consent banners on your website. This is because we are built in the EU, and are privacy-first and [open-source](https://plausible.io/open-source-website-analytics) by principle.
+* You don’t have to worry about cookies-related issues because we use a [cookie-less mechanism](https://plausible.io/blog/google-analytics-cookies) to track website data.
+* You can also count data from the users who use ad blockers, by using a [proxy](https://plausible.io/docs/proxy/introduction).
 
 You can simply filter your traffic by a revenue-marked goal, and see an overview of the sources (channels + campaigns) that brought in those sessions, the pages that received those sessions, and the devices, browsers, operating systems on which the sessions were conducted.
 
@@ -142,11 +142,11 @@ You can also do a ton of other stuff to understand your revenue attributions:
 
 #### Making the most of Plausible
 
-[**Tag your URLs**](https://plausible.io/docs/manual-link-tagging#how-to-utm-tag-links-in-your-marketing-campaigns) with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This will keep your traffic from getting shown in the Direct/Unknown category, and give you a better view of the traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
+**[Tag your URLs](https://plausible.io/docs/manual-link-tagging#how-to-utm-tag-links-in-your-marketing-campaigns)** with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This will keep your traffic from getting shown in the Direct/Unknown category, and give you a better view of the traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
 
-[**Connect Plausible with your Google Search Console**](https://plausible.io/docs/google-search-console-integration) account to get an overview of the top performing keywords that bring your traffic from Google. This will help you understand how well your content and SEO contribute to sales.
+**[Connect Plausible with your Google Search Console](https://plausible.io/docs/google-search-console-integration)** account to get an overview of the top performing keywords that bring your traffic from Google. This will help you understand how well your content and SEO contribute to sales.
 
-[**Create funnels**](https://plausible.io/docs/funnel-analysis) to understand the customer journey from landing on your site to making a purchase (during a session). The most common type of sales funnel used by e-commerce brands is “visits */product* -> adds to cart -> starts checkout -> completes checkout”.
+**[Create funnels](https://plausible.io/docs/funnel-analysis)** to understand the customer journey from landing on your site to making a purchase (during a session). The most common type of sales funnel used by e-commerce brands is “visits */product* -> adds to cart -> starts checkout -> completes checkout”.
 
 ## How to boost ecommerce sales using revenue attribution data?
 
