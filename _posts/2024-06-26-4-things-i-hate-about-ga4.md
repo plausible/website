@@ -9,14 +9,16 @@ author: hricha-shandily
 image: /uploads/ga4-dashboard.png
 image-alt: 4 things I hate about GA4
 ---
-Navigating a Google Analytics account gives me tiny shots of anxiety. It makes me think “What if I do something wrong?”, “What if I end up changing a setting?” or “How do I apply a metric to this report now?”. The sheer number of features and customizations available are too much to take.
+Navigating a Google Analytics account gives me tiny shots of anxiety. The sentiment is always: "Why is GA4 so bad?" It makes me think “What if I do something wrong?”, “What if I end up changing a setting?” or “How do I apply a metric to this report now?”. 
 
-You are either an expert in using GA4 or you are not. There’s no in between. If I could afford it, I would have preferred a five-star concierge service for navigating GA insights. Just tell the person what I want to know today, and they would serve me the million-dollar answer.
+The sheer number of features and customizations available are too much to take. You are either an expert in using GA4 or you are not. There’s no in between. 
+
+If I could afford it, I would have preferred a five-star concierge service for navigating GA insights. Just tell the person what I want to know today, and they would serve me the million-dollar answer.
 
 But I did take a $500 course for learning GA4 (Thank you to my employer at the time, who paid for it). That brings me to the first thing I quite don’t like, understand, digest, and accept about GA.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## I. I had to spend hours in a course
 
@@ -56,9 +58,9 @@ Ever since Austria set the ball rolling on digital privacy matters by declaring 
 
 GA4 solves the “[privacy problem](https://plausible.io/privacy-focused-web-analytics)” by providing a bunch of measures and settings that the users are supposed to figure out on their own. Let’s explore a few such:
 
-### IP anonymization
+### IP anonymization in GA4
 
-IP addresses are considered Personally Identifiable Information (PII) and a business is not supposed to have access to them. By default, GA anonymizes IP addresses across the globe by changing the last digit of the address to zero when these addresses are sent to the GA4 servers in the US. So, city reports inside GA are inaccurate.
+IP addresses are considered Personally Identifiable Information (PII) and a business is not supposed to have access to them. By default, GA4 anonymizes IP addresses across the globe by changing the last digit of the address to zero when these addresses are sent to the GA4 servers in the US. So, city reports inside GA4 are inaccurate.
 
 But the process looks different for the European Union. If a visitor from the EU browses your website, the data is first sent to EU servers where the IP addresses are anonymized before getting sent to the US servers.
 
@@ -122,17 +124,17 @@ It’s an ever-evolving maze in there. And the GA4 docs that are supposed to hel
 
 Here are a few reasons I say this:
 
-- They have their own terminologies that you gotta have a command on first. And they keep changing it every now and then. [Latest example](https://support.google.com/analytics/answer/9267568?hl=en).
-- Multiple reports are hidden beneath layers of menus that aren’t titled in a straight-forward way. There is no way you can figure out or guess the meaning of each thing on your own.
-- Setting up important stuff like events, [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics), key events, etc. is complex. This is a significant hurdle for non-technical users, but also unnecessary and frustrating for technically-sound users.
-- There have been many reported instances of reports being simply inaccessible, even after the exported source data showing that information had been collected.
-- There are countless threads all over the internet from frustrated users about GA4’s issues on cardinality, thresholding, chart breakdowns, date-grouping, and whatnot.
-- The UX is a downgrade from GA3, according to multiple power users.
+* They have their own terminologies that you gotta have a command on first. And they keep changing it every now and then. [Latest example](https://support.google.com/analytics/answer/9267568?hl=en).
+* Multiple reports are hidden beneath layers of menus that aren’t titled in a straight-forward way. There is no way you can figure out or guess the meaning of each thing on your own.
+* Setting up important stuff like events, [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics), key events, etc. is complex. This is a significant hurdle for non-technical users, but also unnecessary and frustrating for technically-sound users.
+* There have been many reported instances of reports being simply inaccessible, even after the exported source data showing that information had been collected.
+* There are countless threads all over the internet from frustrated users about GA4’s issues on cardinality, thresholding, chart breakdowns, date-grouping, and whatnot.
+* The UX is a downgrade from GA3, according to multiple power users.
 
 When I work, I spend most of my energy tackling the toughest problems that directly affect my work. After solving those, I focus on executing the solutions. The tools I use should make the process smoother (that's why they are "tools"?) and not divert my energy from the main tasks.
 
 So that’s about GA. Their product-market-fit is maaad. GA stands for web analytics, and web analytics is interchangeable for GA. But since they refuse to change, the privacy-caring alternatives are slowly and steadily taking the wheel.
 
----
+- - -
 
 Do you genuinely enjoy using GA4? If yes, I want to know your perspective, and what is it that you do differently to make it all worth it. Write in at [hricha@plausible.io](mailto:hricha@plausible.io).
