@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to optimize your paid ad campaigns after joining the cookieless
-  analytics world
+title: Optimizing paid ad campaigns with cookieless tracking in a
+  post-third-party cookie world
 description: Let’s explore what we can do as digital advertisers to stay
   relevant, while respecting user-privacy and staying compliant with
   privacy-preserving regulatory bodies.
@@ -11,6 +11,8 @@ author: hricha-shandily
 image: /uploads/is-google-analytics-illegal.png
 image-alt: How to optimize your paid ads after joining the cookieless analytics world
 ---
+Q﻿uick update: Google [announced](https://privacysandbox.com/intl/en_us/news/update-on-the-plan-for-phase-out-of-third-party-cookies-on-chrome/) recently that they are delaying the phasing out of third-party cookies. This is an effort to buy time to balance out the advertising industry's needs and that of privacy advocates. This buys advertisers some time, but the phase-out (in whatever shape it comes) is still around the corner. It's useful to prepare for this eventuality. Let's see how, below.
+
 Advertising has evolved from mass broadcasts to individualized targeting. Earlier, advertising success used to come easier with limited media channels like early TV and radio, because of their sheer novelty and lower competition rates.
 
 As newer digital mediums came, they also brought an overload of choices –– for both consumers and advertisers. Eventually, the mediums became more sophisticated and more fragmented, transitioning our behaviors from being more mass-oriented to more individualized.
