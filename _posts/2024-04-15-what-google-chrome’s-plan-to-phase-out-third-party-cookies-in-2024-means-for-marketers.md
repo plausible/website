@@ -1,7 +1,6 @@
 ---
 layout: post
-title: What Google Chrome’s plan to phase out third-party cookies in 2025 means
-  for marketers
+title: What Google phasing out third-party cookies in 2025 means for marketers?
 description: After being taken down by other browsers like Firefox and Safari,
   third-party cookies are now being phased out by marketers’ favorite – Google
   Chrome. Here's what that means.
@@ -11,6 +10,8 @@ author: hricha-shandily
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Google Chrome is phasing out third-party cookies
 ---
+Q﻿uick update: Google [announced](https://privacysandbox.com/intl/en_us/news/update-on-the-plan-for-phase-out-of-third-party-cookies-on-chrome/) recently that they are delaying the phasing out of third-party cookies. This is an effort to buy time to balance out the advertising industry's needs and that of privacy advocates. This buys marketers some time, but the phase-out (in whatever shape it comes) is still around the corner. It's useful to prepare for this eventuality. Let's see how, below.
+
 Audience insight is a digital marketer’s biggest ammunition. The right set of information enables us to show the right messages to the right people at the right time.
 
 It’s 2024, and we have multiple tools at our disposal to bring our visions to life, and secure quick leads, conversions, and sales. Google has built a lucrative playground for digital marketers after decades of carefully constructing a system of extracting valuable information from its widespread users on one hand and monetizing it through digital marketers on the other hand. 
@@ -19,14 +20,14 @@ For a long time, us digital marketers haven’t had to do a lot of heavy lifting
 
 Technology is our biggest hand-holder in making highly personalized levels of digital marketing possible. When you see a highly personalized or retargeted ad chasing you across multiple web pages and devices –– probably from a shoe you left behind in a shopping cart –– it is the result of a vast system of observing, tracking, and information passing. And it is all made possible with something called the third-party cookies.
 
-However, there are a ton of issues with these third-party cookies which have been operating at the price of privacy and the world has been reacting since a long time. After being taken down by other browsers like Firefox and Safari, they are now being phased out by marketers’ favorite – Google Chrome. 
+However, there are a ton of issues with these third-party cookies which have been operating at the price of privacy and the world has been reacting since a long time. After being taken down by other browsers like Firefox and Safari, third-party cookies are now being phased out by marketers’ favorite – Google Chrome.
 
 Chrome stands for ~65% of the global browser traffic and, in January 2024, it stopped using third-party cookies for 1% of Chrome users completely. This portion is expected to grow to 100% early next year.
 
 This signals towards information loss (loss of audience context), requiring digital marketers to look at newer ways of advertising and marketing. The mountains of information –– sourced through Google –– that’s been the digital marketer’s dearest asset is slowly taking a hit, and it’s the right time to respond and adjust. Let’s explore.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What are third-party cookies?
 
@@ -56,7 +57,7 @@ Short answer: It’s because of the privacy concerns arising around the web, and
 
 Regulatory bodies like [GDPR (General Data Protection Regulation)](https://plausible.io/blog/google-analytics-gdpr) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa) work to protect individual privacy by regulating the collection, processing, and usage of personal information by online businesses.
 
-Long answer: In 2020, Google [announced](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html) that it’s working towards making third-party cookies obsolete. In late 2023, it [announced](https://blog.google/products/chrome/privacy-sandbox-tracking-protection/) that the phase-out has begun with it testing the new changes with 1% of Chrome users. They’re on track to phase it all out by early 2025.
+Long answer: In 2020, Google [announced](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html) that it’s working towards phasing out third-party cookies. In late 2023, it [announced](https://blog.google/products/chrome/privacy-sandbox-tracking-protection/) that the phase-out has begun with it testing the new changes with 1% of Chrome users. They’re on track to phase it all out by 2025.
 
 Some quick background: This radical shift is the result of a larger movement against “surveillance capitalism”. It is a concept that talks about incursive and unconsented tracking of people’s personal experiences to be used as raw materials in creating behavioral data. This data gives an understanding of how a certain set of people behave, and gives a fair prediction of their future behaviors as well. 
 
@@ -65,12 +66,12 @@ This insight is used to predict business outcomes better. In other words, Google
 [Google’s extensive usage of third-party cookies](https://plausible.io/blog/google-analytics-cookies) has been one of the biggest enablers of surveillance capitalism. And the governments, regulatory bodies, as well as digital privacy advocates are demanding a safer internet space for all. Here’s a quote from Google itself:
 
 > We’re developing techniques to detect and mitigate covert tracking and workarounds by launching new anti-fingerprinting measures to discourage these kinds > of **deceptive and intrusive techniques**.
-> 
+>
 > ~ [Said Google itself](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html).
 
 Hence, Google Chrome is pulling up its socks in an attempt to emerge as a more privacy-friendly browsing space for everyone. Therefore, digital marketers are left with no choice but to pull up their socks as well. And it has to be done now.
 
-## What does this mean for digital marketers?
+## What does this really mean for digital marketers?
 
 It means that it’s time to change up the usual approach and step out of our set ways. Here are some quick pointers to note:
 
@@ -86,7 +87,7 @@ Lower dependence on hyper targeted and remarketing campaigns means a higher pres
 
 We’ll need to lean more towards inbound marketing as it becomes crucial to attract customers through content they find valuable and brand values they find relatable.
 
-## How to tackle this as digital marketers?
+## How to tackle the phase out of third-party cookies as digital marketers?
 
 Firstly, it’s crucial to acknowledge that exponentially more and more users are becoming privacy-sensitive and aware and may not be very merry about any sorts of privacy-invasive techniques that a brand associates itself with.
 
@@ -205,6 +206,6 @@ Being data-oriented and customer-centric as a marketer is extremely important. B
 
 As marketers, we must ask better questions about what would create a sustainable brand, and build and protect customer trust like anything. We must rely more on relationships with customers and less on technology that offers shortcuts to short-term success.
 
----
+- - -
 
 This article was written by [Hricha Shandily](https://www.hricha.me), an experienced digital marketer and founding marketer at a Y Combinator startup.
