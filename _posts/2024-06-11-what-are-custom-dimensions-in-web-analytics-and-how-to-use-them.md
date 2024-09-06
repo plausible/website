@@ -10,16 +10,18 @@ author: hricha-shandily
 image: /uploads/custom-dimensions-plausible.png
 image-alt: What are custom dimensions in analytics
 ---
-Most web analytics tools are good at providing standard insights but they cannot automatically capture everything you need to know. Marketers usually spend a lot of time with website performance reports. Such reports are a good source of truth about the quality and effectiveness of marketing efforts, communications, audience engagement and other business and branding activities.
+Web analytics tools like Google Analytics or Plausible provide basic information, but they can't automatically track everything you need. Custom dimensions allow you to capture specific data that goes beyond standard metrics.
 
-Ensuring that your web analytics setup is spot on and aligns with business growth and goals becomes increasingly important over time. Therefore, custom dimensions come into play which are nothing but custom entries in your reports.
+Marketers usually spend a lot of time with website performance reports, which help you see how well your marketing, communications, and other business activities are working.
+
+Ensuring that your analytics setup is spot on and aligns with business growth and goals becomes increasingly important over time. Custom dimensions (which are nothing but custom entries in your reports) help with this by letting you track additional details relevant to you.
 
 In a nutshell, custom dimensions bridge the gap between the data that a standard website performance report offers and what you would like to specifically know about your website.
 
 The more robust you want your website performance report to be, the more customized it usually needs to be. Let’s see.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What are custom dimensions?
 
@@ -45,20 +47,20 @@ Some examples are event-count, conversions, engagement rate, open rate, revenue 
 
 A dimension is an attribute about something tracked on your website. In Google Analytics 4, custom dimensions are categorized as three types:
 
-- Event-scoped: Attributes about events happening on your site.
-- Item-scoped: Attributes about products (like product ID, color, name, quantity, price, etc.), useful if you are running an e-commerce store.
-- User-scoped: Tracking attributes about your visitors or users. Plausible doesn’t do user-scoped tracking because [we are privacy-friendly](https://plausible.io/privacy-focused-web-analytics).
+* Event-scoped: Attributes about events happening on your site.
+* Item-scoped: Attributes about products (like product ID, color, name, quantity, price, etc.), useful if you are running an e-commerce store.
+* User-scoped: Tracking attributes about your visitors or users. Plausible doesn’t do user-scoped tracking because [we are privacy-friendly](https://plausible.io/privacy-focused-web-analytics).
 
 We will keep the scope of this article mostly to event-scoped dimensions.
 
 Let’s say a website event you track is “[file downloads](https://plausible.io/blog/track-file-downloads-in-web-analytics)”, the following can be dimensions/attributes you might want to track about this event:
 
-- File extension (like PDF, docx, pptx, etc.)
-- File name
-- Link classes
-- Link ID
-- Link text
-- Link URL
+* File extension (like PDF, docx, pptx, etc.)
+* File name
+* Link classes
+* Link ID
+* Link text
+* Link URL
 
 And metrics? When you eventually see reports in your web analytics dashboard, you can see such attributes as particulars/values of those attributes and judge their performance with the help of associated metrics data available.
 
@@ -98,9 +100,9 @@ Later, when you see your reports, you can learn stuff like which author or conte
 
 **Other tips**:
 
-- You will most likely have more than one objective. And different teams have different KPIs. It is alright to track these together from a single dashboard, as long as different teams have clarity on what is their core metric to be looked at.
-- For a complete visualization of how visitors interact with your website, try incorporating your events and goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization).
-- Regularly review and adjust your events and custom dimensions as and when you notice any changes in your goals or user behavior. This could happen monthly, half-yearly, or yearly, depending on the stage of the volatility of growth.
+* You will most likely have more than one objective. And different teams have different KPIs. It is alright to track these together from a single dashboard, as long as different teams have clarity on what is their core metric to be looked at.
+* For a complete visualization of how visitors interact with your website, try incorporating your events and goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization).
+* Regularly review and adjust your events and custom dimensions as and when you notice any changes in your goals or user behavior. This could happen monthly, half-yearly, or yearly, depending on the stage of the volatility of growth.
 
 ### Setting up custom dimensions
 
@@ -111,7 +113,7 @@ The other important part is understanding your options and how to set up custom 
 We, at Plausible, take special care in keeping your analytics setup and your dashboard [confusion-free](https://plausible.io/simple-web-analytics). To set up custom properties (same thing as custom dimensions in GA4) in your Plausible account, all you need to do is two things:
 
 1. **Set some custom events/goals.** There are two ways to [track any event](https://plausible.io/docs/custom-event-goals) in Plausible: track pageviews (doesn’t require code editing), or track custom events (requires code editing).
-Secondly, add these custom events as goals to your Plausible dashboard easily. So there’s no distinction/confusion between custom events and custom goals.
+   Secondly, add these custom events as goals to your Plausible dashboard easily. So there’s no distinction/confusion between custom events and custom goals.
 2. **Mark which properties you want tracked**. Once you know which custom event-goals you are tracking, simply edit the JS snippet to let it know which [properties to track](https://plausible.io/docs/custom-props/introduction) as well.
 
 Then, you will be able to add all the properties that your JS snippet is sending to your dashboard in one click.
@@ -123,20 +125,20 @@ Once this is set up, you will be able to filter and segment your traffic based o
 Setting up custom dimensions in GA4 requires a more complex setup. Here’s a gist:
 
 1. **Setting events**
-Firstly, you need to determine with the help of GA’s documentation which events are not being tracked automatically or with the help of GA’s Enhanced Conversions set of events. If the event you want to track is not a part of either of those categories, then see if it’s a “Recommended event.”
-If yes, then many cases require you to follow Google’s naming convention to set these events for yourself. And if it is not a “Recommended event”, then create a [custom event](https://support.google.com/analytics/answer/12229021?hl=en&ref_topic=13367566&sjid=12208603896311330242-AP).
-Later, you can mark some events as “Key events” within your GA4 dashboard. Key events is GA4’s new name for what was earlier called “conversions”, and what we call “goals”.
+   Firstly, you need to determine with the help of GA’s documentation which events are not being tracked automatically or with the help of GA’s Enhanced Conversions set of events. If the event you want to track is not a part of either of those categories, then see if it’s a “Recommended event.”
+   If yes, then many cases require you to follow Google’s naming convention to set these events for yourself. And if it is not a “Recommended event”, then create a [custom event](https://support.google.com/analytics/answer/12229021?hl=en&ref_topic=13367566&sjid=12208603896311330242-AP).
+   Later, you can mark some events as “Key events” within your GA4 dashboard. Key events is GA4’s new name for what was earlier called “conversions”, and what we call “goals”.
 2. **Parameters**
-Parameters are like a precursor to custom dimensions. They tell the script what additional context to gather about an event.
-You need to set up textual parameters (so they can be converted to custom dimensions) and numerical parameters (so they can be converted to custom metrics).
-So they are pretty much like custom dimensions and custom metrics, but not quite. They only gather additional data about events in the backend, but can’t be directly used in reports.
-Plus: You need to make sure that you don’t create custom dimensions before seeing if there is already a predefined dimension or metric. And do check the limits on creating the number of custom dimensions and metrics of each type.
-P.S. In all cases of creating custom events or parameters, you would require some additional Google Tag Manager and DebugView skills as well.
+   Parameters are like a precursor to custom dimensions. They tell the script what additional context to gather about an event.
+   You need to set up textual parameters (so they can be converted to custom dimensions) and numerical parameters (so they can be converted to custom metrics).
+   So they are pretty much like custom dimensions and custom metrics, but not quite. They only gather additional data about events in the backend, but can’t be directly used in reports.
+   Plus: You need to make sure that you don’t create custom dimensions before seeing if there is already a predefined dimension or metric. And do check the limits on creating the number of custom dimensions and metrics of each type.
+   P.S. In all cases of creating custom events or parameters, you would require some additional Google Tag Manager and DebugView skills as well.
 3. **Custom dimensions and metrics**
-Once your backend setup is complete, open your GA4 dashboard, ensure if data is being collected correctly using the DebugView. Then proceed to add [custom dimensions](https://support.google.com/analytics/answer/14240153?hl=en&ref_topic=11151952&sjid=12208603896311330242-AP) and metrics to be displayed on your reports.
-For this, you can name the custom dimension or metrics something different from the parameters collecting the respective data, while adding additional information like unit of measurement, scope, and description.
+   Once your backend setup is complete, open your GA4 dashboard, ensure if data is being collected correctly using the DebugView. Then proceed to add [custom dimensions](https://support.google.com/analytics/answer/14240153?hl=en&ref_topic=11151952&sjid=12208603896311330242-AP) and metrics to be displayed on your reports.
+   For this, you can name the custom dimension or metrics something different from the parameters collecting the respective data, while adding additional information like unit of measurement, scope, and description.
 4. **Reports**
-While creating your free form or funnel exploration reports, remember to ensure configuring relevant dimensions and metrics therein.
+   While creating your free form or funnel exploration reports, remember to ensure configuring relevant dimensions and metrics therein.
 
 **Our two cents on which tool to use**
 
@@ -148,8 +150,8 @@ All in all, Google Analytics 4 might be an overkill for you if you are a startup
 
 ## Parting tips
 
-- Next time you open your reports, decide on a specific purpose (no matter how small) to see them beforehand. This will reduce randomness from your analytic-viewing time and give you an anchor to make better decisions.
-- Even if you have less data, or missing data points, it is alright. Try looking for patterns instead.
-- If something can be achieved without customization in the tool of your choice, choose the former approach. It’ll keep your setup much more clean and manageable in the long run.
+* Next time you open your reports, decide on a specific purpose (no matter how small) to see them beforehand. This will reduce randomness from your analytic-viewing time and give you an anchor to make better decisions.
+* Even if you have less data, or missing data points, it is alright. Try looking for patterns instead.
+* If something can be achieved without customization in the tool of your choice, choose the former approach. It’ll keep your setup much more clean and manageable in the long run.
 
 P.S. We’re creating a series on Web Analytics features, like this one, to help you learn and apply web analytics with ease. If you have specific topics you’d like us to cover, let us know at `reading@plausible.io`. We’re listening!
