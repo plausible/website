@@ -6,7 +6,7 @@ description: Replacing Google Analytics with a lightweight web analytics tool
   can have a significant effect on the page load time of your website.
 permalink: /lightweight-web-analytics
 ---
-Plausible Analytics script weighs less than 1 KB. That's 75 times smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will stop your site from loading slow.
+Plausible Analytics script weighs less than 1 KB. That's at least 75 times smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will prevent your site from loading slow.
 
 Having a fast loading website is one of the key elements of modern web development. Replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time and the carbon footprint too. Let's take a closer look.
 
@@ -28,8 +28,8 @@ What are the benefits of a fast loading website and why is site speed an importa
 
 Web analytics like any other website element add extra page weight and extra loading time to your website. Here's the brief overview of Plausible and a couple of the most popular providers:
 
-* **Google Tag Manager** https://www.googletagmanager.com/gtag/js **28 KB**
-* **Google Analytics** https://www.google-analytics.com/analytics.js **17.7 KB**
+* **Google Tag Manager** https://www.googletagmanager.com/gtag/js **~75 KB**
+* **Google Analytics** https://www.google-analytics.com/analytics.js **~100 KB**
 * **Matomo** https://example.org/matomo.js **22.8 KB**
 * **Plausible** https://plausible.io/js/script.js **<1 KB**
 
