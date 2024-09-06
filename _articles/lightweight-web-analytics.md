@@ -48,7 +48,7 @@ Google Analytics script you need to integrate into your site looks like this:
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-XXXXXXX-XX');
+    gtag('config', 'G-XXXXXXXXXX');
     </script>
 
 https://www.googletagmanager.com/gtag/js weighs ~75 KB and this script downloads another JavaScript file called the Google Analytics tag (https://www.google-analytics.com/analytics.js) which adds an additional ~100 KB to your page size.
