@@ -41,7 +41,7 @@ Google Analytics script you need to integrate into your site looks like this:
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async
-    src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-XX">
+    src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX">
     </script>
     <script>
     window.dataLayer = window.dataLayer || [];
