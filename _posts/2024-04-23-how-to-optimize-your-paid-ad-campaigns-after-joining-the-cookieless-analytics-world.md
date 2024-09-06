@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to optimize your paid ad campaigns after joining the cookieless
-  analytics world?
+title: Optimizing paid ad campaigns with cookieless tracking in a
+  post-third-party cookie world
 description: Let’s explore what we can do as digital advertisers to stay
   relevant, while respecting user-privacy and staying compliant with
   privacy-preserving regulatory bodies.
