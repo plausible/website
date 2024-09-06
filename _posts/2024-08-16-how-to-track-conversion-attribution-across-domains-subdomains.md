@@ -16,7 +16,7 @@ And, you’ll have some important business/marketing goals like a product signup
 Usually, development teams create subdomains for easily organizing and managing these pages/apps/store. This raises the question: How to track pageviews, events, and conversions across your main domain and subdomains?
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What even is a subdomain?
 
