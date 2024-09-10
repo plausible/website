@@ -81,6 +81,8 @@ And all the privacy regulations have a say about cookies too. PECR, for instance
 
 [According to PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you "need to tell people about analytics cookies and gain consent for their use". If you use cookies you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
+With Plausible, you can count visitors who reject the consent banner which leads to a much higher accuracy in your stats. [An independent study on GA4’s data accuracy](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that when consent banners are displayed, GA4 fails to capture an average of 55.6% of the traffic compared to Plausible.
+
 ## It's blocked by many plugins and browsers so the data is not very accurate
 
 Many people have got enough of banner advertising, retargeting and remarketing messages, and behavioral profiling so they choose to block some of these distractions.
