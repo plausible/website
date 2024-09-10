@@ -13,7 +13,7 @@ Having a fast loading website is one of the key elements of modern web developme
 ![Plausible: A lightweight web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Why should I care about my website speed?
 
@@ -39,19 +39,21 @@ Google Analytics is the most popular web analytics solution that is installed on
 
 Google Analytics script you need to integrate into your site looks like this:
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async
-    src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX">
-    </script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+```
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX">
+</script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-    gtag('config', 'G-XXXXXXXXXX');
-    </script>
+gtag('config', 'G-XXXXXXXXXX');
+</script>
+```
 
-https://www.googletagmanager.com/gtag/js weighs ~75 KB and this script downloads another JavaScript file called the Google Analytics tag (https://www.google-analytics.com/analytics.js) which adds an additional ~100 KB to your page size.
+https://www.googletagmanager.com/gtag/js weighs \~75 KB and this script downloads another JavaScript file called the Google Analytics tag (https://www.google-analytics.com/analytics.js) which adds an additional \~100 KB to your page size.
 
 **These two tracking scripts combined add ~175 KB of page weight to each and every page load**.
 
@@ -61,22 +63,24 @@ A popular open-source alternative to Google Analytics is [Matomo (formerly known
 
 To track your website traffic using Matomo, you need to integrate the matomo.js script to your pages. It looks like this:
 
-    <!-- Matomo -->
-    <script type="text/javascript">
-    var _paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-    var u="//{$MATOMO_URL}/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', {$IDSITE}]);
-    var d=document, g=d.createElement('script'),
-    s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true;
-    g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-    </script>
-    <!-- End Matomo Code -->
+```
+<!-- Matomo -->
+<script type="text/javascript">
+var _paq = window._paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+var u="//{$MATOMO_URL}/";
+_paq.push(['setTrackerUrl', u+'matomo.php']);
+_paq.push(['setSiteId', {$IDSITE}]);
+var d=document, g=d.createElement('script'),
+s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true;
+g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<!-- End Matomo Code -->
+```
 
 This matomo.js script adds 22.8 KB to the page size of your website.
 
@@ -90,8 +94,10 @@ Even if a site owner figures out that there's a way to load Google Analytics scr
 
 Plausible script you need to integrate into your site looks like this:
 
-    <script defer data-domain="domain.com"
-    src="https://plausible.io/js/script.js"></script>
+```
+<script defer data-domain="domain.com"
+src="https://plausible.io/js/script.js"></script>
+```
 
 ## How can I test my website speed and the script size of my analytics provider?
 
@@ -139,19 +145,19 @@ Let's do a bit of a calculation. The Google Tag Manager way of integrating Googl
 
 Plausible script itself is under 1 KB. **If you replace Google Analytics with Plausible you will reduce your page size by 74 KB for each visitor**.
 
-With 10,000 monthly visitors that will be a saving of 740,000 KB (0.74 GB) per month. Almost a GB less of data will be transferred per month for every 10,000 visitors.
+With 100K monthly visitors, that will be a saving of 74,00,000 KB (7 GB) per month. 7 GB less of data will be transferred per month for every 100K visitors.
 
-That brings us to 8.8 GB of data transfer per year saved. Even a saving of 74 KB in scripts can really make a huge difference in reducing the carbon footprint of your website.
+That brings us to 84 GB of data transfer per year saved. Even a saving of 74 KB in scripts can really make a huge difference in reducing the carbon footprint of your website.
 
-The estimated numbers [vary a lot from study to study](https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630) and by which type of network is used, but Website Carbon Calculator has set the energy usage at 1.8 kWh (kilowatt‐hours) for every GB of data transfer.
+The estimated numbers [vary a lot from study to study](https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630) and by which type of network is used, but Website Carbon Calculator has set the energy usage at 0.2 kWh (kilowatt‐hours) for every GB of data transfer.
 
-**That would result in almost 16 kWh saved per year for one website of 10,000 monthly visitors only by reducing one analytics script**.
+**That would result in almost 16.8 kWh saved per year for one website of 100K monthly visitors only by reducing one analytics script**.
 
-Another number that is not easy to get a definitive answer to is the [carbon intensity of the electricity generation](https://www.eea.europa.eu/data-and-maps/indicators/overview-of-the-electricity-production-2/assessment-4). Website Carbon Calculator sets this at 475 g CO2 per kWh.
+Another number that is not easy to get a definitive answer to is the [carbon intensity of the electricity generation](https://www.eea.europa.eu/data-and-maps/indicators/overview-of-the-electricity-production-2/assessment-4). Website Carbon Calculator sets this at 494 g CO2 per kWh.
 
-This means that the almost 16 kWh saved per year for one single website of 10,000 monthly visitors ends up saving more than 7.6 kg of CO2 emissions.
+This means that the 16.8 kWh saved per year for one single website of 100K monthly visitors ends up saving  8.2 kg of CO2 emissions.
 
-**So almost eight kilograms in the yearly reduction of CO2 emissions for one website of 10,000 monthly visitors alone from a saving of 74 KB in JavaScript**.
+**So eight kilograms in the yearly reduction of CO2 emissions for one website of 100K monthly visitors alone from a saving of 74 KB in JavaScript**.
 
 These numbers are all estimates but you can imagine if millions of website owners and Google Analytics users end up making a similar reduction in their website size too. The total reduction in the carbon footprint of the web would be immense.
 
