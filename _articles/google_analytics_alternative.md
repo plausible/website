@@ -95,6 +95,8 @@ Plausible is not a part of the adtech industry. It doesn't track any personal da
 
 You also have the option to proxy our script from your domain name as a [first party connection](https://plausible.io/docs/proxy/introduction) to bypass any adblockers.
 
+With Plausible, you can count visitors who reject the GDPR consent banner and those who use adblockers which leads to a much higher accuracy in your stats. [An independent study on GA4’s data accuracy](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that when consent banners are displayed, GA4 fails to capture an average of 55.6% of the traffic compared to Plausible.
+
 ### Increasing the page weight and the loading time
 
 Analytics scripts have a performance impact on the page weight and the loading time speed of a website. Plausible Analytics is a [lightweight web analytics](https://plausible.io/lightweight-web-analytics) tool that aims to provide you with all the essential website traffic insights without a negative impact on the web speed.
