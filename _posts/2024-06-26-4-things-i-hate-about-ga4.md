@@ -18,7 +18,7 @@ If I could afford it, I would have preferred a five-star concierge service for n
 But I did take a $500 course for learning GA4 (Thank you to my employer at the time, who paid for it). That brings me to the first thing I quite don’t like, understand, digest, and accept about GA.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## I. I had to spend hours in a course
 
