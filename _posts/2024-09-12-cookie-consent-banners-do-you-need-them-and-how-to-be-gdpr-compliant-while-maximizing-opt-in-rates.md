@@ -8,7 +8,8 @@ description: The essentials of cookie consent, legal requirements, and
 slug: cookie-consent-banners
 date: 2024-09-12T12:30:37.294Z
 author: hricha-shandily
-image: uploads/conversion-attribution-across-subdomains.png
+image: uploads/cookie-consent-banner-example.png
+image-alt: Example of a cookie consent banner
 ---
 You've probably seen those pop-ups on websites, sweetly offering you cookies. Those are cookie consent banners.
 
