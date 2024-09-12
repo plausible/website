@@ -13,20 +13,16 @@ image-alt: Example of a cookie consent banner
 ---
 You've probably seen those pop-ups on websites, sweetly offering you cookies. Those are cookie consent banners.
 
-
 Cookies are small data files stored on your device or browser by websites or third parties (such as Google Analytics) to remember information about you. They can track details like your behavior, preferences, activities, shopping cart contents, login information, etc.
-
 
 Some cookies are persistent and can also track visitor’s activity across different sessions, websites, and devices. While some cookies are considered essential for the functioning of the website, others are for marketing or retargeting purposes.
 
-
 The consent banner appears to inform you about the use of all such types of cookies and to request your permission before these cookies are set, ensuring compliance with various privacy regulations.
-
 
 These banners give users the choice to accept, reject, or customize the cookies being used on the site. The main purpose is to inform users and allow them control over their data, ensuring transparency and compliance with various privacy laws.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Do you need a cookie consent banner on your website?
 
@@ -56,13 +52,15 @@ Any website that collects data from users residing in regions where GDPR or CCPA
 
 The one thing website-owners don’t realize is that consent banners became necessary because several European Data Protection Authorities found out how [Google Analytics has been in violation](https://plausible.io/blog/google-analytics-illegal) of privacy laws.
 
-The responsibility of being privacy-friendly, in many ways, is cleverly being passed from Google Analytics to its users. If you were to dissociate with Google Analytics, many websites will find that they don’t need to use annoying consent banners anymore. 
+The responsibility of being privacy-friendly, in many ways, is cleverly being passed from Google Analytics to its users. If you were to dissociate with Google Analytics, many websites will find that they don’t need to use annoying consent banners anymore.
 
-The ePrivacy Directive regulates the use of cookies and similar technologies to store or access data on a user’s device. It requires users to provide informed consent before such technologies are used (Art. 5(3)).
+According to a [guide by a data protection lawyer](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) 
 
-Google Analytics 4 relies on cookies and similar technologies to track detailed user behavior. These technologies require access to the user’s device to store or retrieve data, which means, under Article 5(3) of the ePrivacy Directive, Google Analytics 4 must obtain user consent before use.
+* the ePrivacy Directive regulates the use of cookies and similar technologies to store or access data on a user’s device. It requires users to provide informed consent before such technologies are used (Art. 5(3)). 
+* Google Analytics 4 relies on cookies and similar technologies to track detailed user behavior. These technologies require access to the user’s device to store or retrieve data, which means, under Article 5(3) of the ePrivacy Directive, Google Analytics 4 must obtain user consent before use.
+* Whereas, Plausible Analytics does not use cookies or similar technologies that store data on the user’s device. It analyzes aggregate data without accessing or storing anything on the device, so no consent is required under Article 5(3).
 
-Whereas, Plausible Analytics does not use cookies or similar technologies that store data on the user’s device. It analyzes aggregate data without accessing or storing anything on the device, so no consent is required under Article 5(3).
+P﻿.S. This is not official legal advise.
 
 Plausible is [GDPR-compliant out of the box](https://plausible.io/privacy-focused-web-analytics). So you can actually ditch consent banners altogether, which not only annoy your visitors, but also cause about [55% data loss](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/), and eventually, business loss.
 
@@ -102,70 +100,76 @@ Most consent management providers have deceptive designs built into their produc
 
 **Why should you care?**
 
-* Many such practices are not GDPR and/or CCPA compliant. All this hard work to still stay legally evasive?
+* Many such practices are not GDPR and/or CCPA compliant. All this hard work to still stay legally evasive doesn't make sense.
 * They breach customer trust.
 * They point to bad user experience. Your website is your online identity. Creating friction for people to browse it is counter-productive.
 * They are not true to the intent of privacy.
 
-Even those that provide a user-friendly design as the default allow you with a click or two to configure the banner. Then you go from a friendly GDPR-compliant notice to a user-hostile mess that maximizes opt-in rates.
+Even those that provide a user-friendly design as the default allow you with a click or two to configure the banner.
 
-Here are some of the best tips and tricks some websites use to get higher opt-in rates for cookie consent banners (and that you should avoid):
+Here are some of the tricks some websites use to get higher opt-in rates for cookie consent banners (and that you should avoid):
 
 ### Hiding the reject button behind layers of options
 
-Seen those banners with only the “Accept” and “Customize” options? Nobody wants Google and Facebook to track them across the websites they visit. 
+You've likely encountered banners that only show options like “Accept” or “Customize,” making it difficult for users to reject cookies. 
 
-If you give your visitors the chance to reject all your cookies and other tracking for advertising purposes, most of them will do so. So the tactic is to not easily show them the option to reject it in the first place.
+Many people don’t want to be tracked across the web by companies like Google or Facebook, but this tactic hides the “Reject” option deep within customization settings, forcing users to manually opt out of every third-party tracker.
 
-Instead the granularity of choices is given in the “customization” options, allowing your visitors to pick and choose by hand which of the thousands of your closest partners they'd like to be tracked by.
+This method counts on the fact that most visitors won’t take the time to customize settings. Most people just interact with the first layer of the banner and click "Accept," especially when told it will “ensure the best experience.” 
 
-How many times during a day have you really done manual adjustments? Most folks only interact with the first layer of the consent banner. Telling them that the website uses cookies to ensure THEY get the best experience.
+Misleading, right? Avoid this practice.
 
-### Nudging the users to click accept by making accept the most prominent button
+### Nudging the users to click Accept by making it the most prominent button
 
-Does your legal team insist that you include the "Reject" option in your cookie banner? So what!
+Even if you're required to include a "Reject" button, some sites try to make it nearly invisible—small, bland, and easy to miss. Meanwhile, the "Accept All" button is big, colorful, and designed to grab attention.
 
-You could make the reject button hard to see and hard to read. Make it smaller, less prominent and less exciting than the big, shiny and colorful "Accept all" button.
+On top of this, some sites use copywriting that nudges users to think accepting cookies is the best choice, using positive, friendly language to suggest rejecting cookies is a bad move. 
 
-If that’s not enough, copywriters are hired to write the cookie banner message. They use a friendly tone that includes terms with positive connotations convincing people that rejecting cookies is bad and accepting them is good.
+Such deceptive design should be avoided at all costs.
 
 ### “Helping” visitors by pre-selecting the choices that work best for them
 
-It’s as if everyone wants to have their personal data sent to hundreds of your closest partners in the surveillance capitalism industry, that all of these options are preselected to help your visitor be more efficient and “save time”.
+Some websites pre-select cookie consent options that allow maximum tracking, making it seem like the default or best choice. 
 
-### A persisting consent wall to force the visitor to interact with the banner 
+The user is led to believe that these settings will "save them time," when in reality, they are giving away personal data without a second thought.
 
-The greatest danger lies in people clicking on the back button and leaving your site before interacting with your consent banner.
+This practice is misleading and should not be implemented. Respect users' right to make informed decisions.
 
-To avoid this, visitors are forced to interact with the consent banner immediately as they land on your site. Hiding content behind a consent wall is a classic trick in the book. Moreover, it is ensured that there is no option to close the consent wall.
+### A persisting consent wall to force the visitor to interact with the banner
+
+A consent wall can block access to content until a user interacts with it, pressuring them to either accept tracking or leave the site. Some websites prevent users from closing the consent wall, leaving them with no option but to engage.
+
+This practice traps users into making decisions under duress, and it's not ethical. Always offer a clear, transparent way to manage cookie preferences without blocking content.
 
 ### Accept by scrolling
 
-Doesn't your legal team allow you to put the consent banner in a prominent position that covers your content? Do they insist you allow visitors to read and watch content before considering whether to consent you to track them or not?
+Some sites implement a tactic where simply scrolling through the page or interacting with content is considered as consent to track users. This silent consent is misleading and takes advantage of users who might not even realize they've given permission.
 
-Don’t make your visitors accept having their personal data processed for advertising purposes, just because they scrolled or engaged with your content.
+Consent should always be explicit and informed—scrolling or engaging with content should never count as consent.
 
 ### Combining the GDPR consent with location or camera prompts
 
-When users want to access specific features on your site or app, it’s reasonable to prompt them again for consent if they’ve previously declined tracking. You can then get the consent retrospectively and increase your overall opt-in rate. 
+When users try to access certain features, like camera or location services, some websites sneak in GDPR cookie consent requests. The hope is that users won’t notice they are also consenting to being tracked.
 
-So the trick is to slip in GDPR consent too, when asking people to accept browser notifications, access to their location or camera. Beware of this and don’t deceive your users!
+This method is underhanded and combines unrelated permissions in a way that confuses users. Always keep consent requests clear and separate from other prompts.
 
 ### Blocking video embeds from playing until visitors say yes to tracking
 
-Consent banners are placed behind a prompt for displaying embedded content, like a YouTube video. A subtle overlay is used to inform them that they won’t be able to watch the exciting video unless they give consent for tracking. 
+Some sites prevent videos or other embedded content from playing unless users give consent to be tracked. This forces visitors into an uncomfortable choice: either give up their privacy or miss out on content.
 
-And, of course, it is ensured that consenting to viewing the embedded content also covers all relevant advertising partners.
+Avoid holding content hostage to force consent.
 
 ### Nudging the user again on the next visit after they rejected to give you consent
 
-One No is never enough. When the visitors return to your site, asking them again to provide you with consent is also a tactic.
+Some websites don’t take “no” for an answer. If a user rejects consent, they’re asked again the next time they visit. This constant nagging is designed to wear users down, hoping they eventually give in.
 
-### Not giving people the option to withdraw their consent 
+Respect users' decisions—if they say no, don’t keep asking.
 
-For people that have given their consent, it is made sure they never again see anything about GDPR or privacy on the site.
+### Not giving the option to withdraw consent 
 
-This prevents them in any way from reconsidering their decision. Chances are they might regret and withdraw their consent, so best to hide it all.
+After users give consent, some sites deliberately hide any option to withdraw it. This makes it difficult for people to change their minds and opt-out later.
+
+This is deceptive and against the spirit of privacy regulations. Always provide a clear and easy way for users to withdraw their consent if they choose to do so.
 
 ## How to design a GDPR-compliant consent banner?
 
