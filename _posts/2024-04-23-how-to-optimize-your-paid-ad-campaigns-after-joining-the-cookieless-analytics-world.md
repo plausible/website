@@ -261,7 +261,7 @@ Although we don’t support any tools and tech that intrude on an individual’s
 
 There are many open-source, private-by-design, [alternatives](https://plausible.io/open-source-website-analytics) to Google Analytics. They are good enough to track essential web metrics like pageviews, bounce rates, traffic sources, exit pages, etc. that do not ever covertly track a user beyond your website.
 
-These tools are good with providing metrics that are [sufficient](https://plausible.io/simple-web-analytics) to optimize your web and brand experience, and also offer a cleaner UI. And they would never need you to be worried about compliances, degrading your web experience with consent banners, and putting user trust at risk.
+These tools are good with providing metrics that are [sufficient](https://plausible.io/simple-web-analytics) to optimize your web and brand experience, and also offer a cleaner UI. And they would never need you to be worried about compliances, degrading your web experience with [consent banners] (https://plausible.io/blog/cookie-consent-banners), and putting user trust at risk.
 
 ### Other important things to keep in mind
 
