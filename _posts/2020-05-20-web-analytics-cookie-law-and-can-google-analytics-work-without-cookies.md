@@ -13,7 +13,7 @@ image-alt: Cookieless web analytics and the cookie consent
 Are you confused about using Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? And can you have a cookieless web analytics alternative to Google Analytics? This post is here to figure it all out. Let's get started.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What are web cookies?
 
@@ -134,7 +134,7 @@ In our testing, using IP addresses to count visitors is remarkably accurate when
 
 Overall, we're happy with this approach because we expected bigger inaccuracy. In some cases, it might even be more accurate than using a cookie because some audiences such as tech-savvy audiences block cookies altogether. 
 
-Turns out, counting IP addresses is not much less accurate than using cookies. And not having to show a cookie banner is a worthwhile trade off for many sites.
+Turns out, counting IP addresses is not much less accurate than using cookies. And [not having to show a cookie banner](https://plausible.io/blog/cookie-consent-banners#do-you-need-a-cookie-consent-banner-on-your-website) is a worthwhile trade off for many sites.
 
 ## Try Plausible Analytics for cookie free analytics
 
