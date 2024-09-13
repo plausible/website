@@ -27,7 +27,7 @@ Chrome stands for ~65% of the global browser traffic and, in January 2024, it st
 This signals towards information loss (loss of audience context), requiring digital marketers to look at newer ways of advertising and marketing. The mountains of information –– sourced through Google –– that’s been the digital marketer’s dearest asset is slowly taking a hit, and it’s the right time to respond and adjust. Let’s explore.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What are third-party cookies?
 
