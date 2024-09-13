@@ -18,7 +18,7 @@ If I could afford it, I would have preferred a five-star concierge service for n
 But I did take a $500 course for learning GA4 (Thank you to my employer at the time, who paid for it). That brings me to the first thing I quite don’t like, understand, digest, and accept about GA.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## I. I had to spend hours in a course
 
@@ -44,7 +44,7 @@ Then, configure it with multiple layers of settings and parameters in GTM, follo
 
 ### The consent banners aren’t telling the full story
 
-Before getting deep into the subject, my impression was that consent banners were a standard practice that every online business needed to do. But the course showed me how GA4 has almost never been [privacy-friendly](https://plausible.io/blog/google-analytics-gdpr).
+Before getting deep into the subject, my impression was that [consent banners](https://plausible.io/blog/cookie-consent-banners) were a standard practice that every online business needed to do. But the course showed me how GA4 has almost never been [privacy-friendly](https://plausible.io/blog/google-analytics-gdpr).
 
 And that even after all the privacy-related commotion ‘round the globe, and a bunch of privacy-controlling measures and settings, it still falls in the legally gray zone. I discuss this in depth in the next point.
 
