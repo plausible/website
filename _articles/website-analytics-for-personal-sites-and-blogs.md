@@ -15,7 +15,7 @@ Others like to understand the impact that their efforts have on the world, which
 ![Website analytics for bloggers and content creators](/uploads/google-analytics-alternatives.png "Website analytics for bloggers and content creators")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Web analytics give you a strong signal
 
