@@ -15,7 +15,7 @@ Others like to understand the impact that their efforts have on the world, which
 ![Website analytics for bloggers and content creators](/uploads/google-analytics-alternatives.png "Website analytics for bloggers and content creators")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Web analytics give you a strong signal
 
@@ -51,7 +51,7 @@ On top of this, Google Analytics places [multiple cookies](https://developers.go
 
 These are things that many site owners and bloggers simply don't want to nor have the time or capacity to deal with. And the value that Google Analytics provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent.
 
-Plausible Analytics is compatible with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a cookie banner nor ask to get consent from your visitors.
+Plausible Analytics is compatible with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
 
 You keep your site simple, clean and optimized for your visitors. No need to put any time and effort into legal aspects. You can focus on the more creative side of things.
 
