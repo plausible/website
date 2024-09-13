@@ -12,7 +12,7 @@ Here's why you should break the habit of using Google Analytics and consider [Pl
 ![Plausible as a great Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Google Analytics alternative")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Plausible vs Google Analytics comparison: What are the differences?
 
@@ -69,7 +69,7 @@ You don’t have to worry about Schrems II and that it invalidates the EU-US Pri
 
 ### Compromising the user experience of your website visitors
 
-When you're using Google Analytics, you're making the user experience on your site more inconvenient. To abide by the privacy regulations, you need to compromise the visitor experience by displaying annoying cookie banners and GDPR or CCPA consent notices. You also need to present comprehensive privacy policy in regard to analytics tracking.
+When you're using Google Analytics, you're making the user experience on your site more inconvenient. To abide by the privacy regulations, you need to compromise the visitor experience by displaying annoying [cookie banners](https://plausible.io/blog/cookie-consent-banners) and GDPR or CCPA consent notices. You also need to present comprehensive privacy policy in regard to analytics tracking.
 
 By using Plausible, you don't need to have any GDPR, CCPA, PECR or cookie prompts anymore and you don't need a complex privacy policy about analytics either. By using Plausible, you are not using cookies and you are not tracking any personal data after all. Your visitors can enjoy your site without any annoyances and distractions. 
 
@@ -80,9 +80,7 @@ We’re happy to provide information on how Plausible is built to help you compl
 With Plausible, you not only count visitors who reject the GDPR consent banner but you also gain the advantage of several built-in measures designed to improve the accuracy of your statistics:
 
 * Known referrer spam domains and traffic originating from data centers is filtered out
-
 * We attempt to uncover traffic originating from Android apps which is traditionally categorized as "Direct / None" in Google Analytics. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
-
 * Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry in the Countries list to eliminate the noise that these services add to the locations report
 
 ### Avoiding the adblockers
