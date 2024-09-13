@@ -30,7 +30,7 @@ Naturally, internet-users and governments are unhappy and this made Chrome take 
 Let’s explore what we can do as digital advertisers to stay relevant, while respecting user-privacy and staying compliant with privacy-preserving regulatory bodies.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What’s this babel about third-party cookies affecting advertisers?
 
