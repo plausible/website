@@ -8,7 +8,7 @@ description: The essentials of cookie consent, legal requirements, and
 slug: cookie-consent-banners
 date: 2024-09-12T12:30:37.294Z
 author: hricha-shandily
-image: uploads/cookie-consent-banner-example.png
+image: /uploads/cookie-consent-banner-example.png
 image-alt: Example of a cookie consent banner
 ---
 You've probably seen those pop-ups on websites, sweetly offering you cookies. Those are cookie consent banners.
@@ -22,7 +22,7 @@ The consent banner appears to inform you about the use of all such types of cook
 These banners give users the choice to accept, reject, or customize the cookies being used on the site. The main purpose is to inform users and allow them control over their data, ensuring transparency and compliance with various privacy laws.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Do you need a cookie consent banner on your website?
 
