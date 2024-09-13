@@ -77,7 +77,7 @@ There is no need for you to have a complex privacy policy because of the Plausib
 
 Plausible is built as a [privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics). By using Plausible, you don't need to compromise the user experience of your website. You don't need to have any prompts to obtain consent for GDPR, CCPA or PECR.
 
-You don't need to show any cookie banners either. You can focus on creating a pure web experience instead and your visitors can enjoy your site without any annoyances and distractions.
+You don't need to show any [cookie banners] (https://plausible.io/blog/cookie-consent-banners) either. You can focus on creating a pure web experience instead and your visitors can enjoy your site without any annoyances and distractions.
 
 **4. Simple to set up and integrate into your website**
 
