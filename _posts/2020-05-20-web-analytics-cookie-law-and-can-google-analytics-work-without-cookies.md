@@ -13,7 +13,7 @@ image-alt: Cookieless web analytics and the cookie consent
 Are you confused about using Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? And can you have a cookieless web analytics alternative to Google Analytics? This post is here to figure it all out. Let's get started.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What are web cookies?
 
