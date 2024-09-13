@@ -156,7 +156,7 @@ We have designed Plausible keeping in mind the way web analytics should have alw
 
 Plausible’s [private-by-design](https://plausible.io/privacy-focused-web-analytics) solution is fully compliant with GDPR, CCPA, and PECR regulations. We operate without using cookies/persistent identifiers and don’t collect personally identifiable information. We ensure you maintain 100% ownership and control over your website data.
 
-Unlike other analytics tools, Plausible does not track or sell user behavior, so you can skip cookie banners. This provides a smoother experience for your visitors and less headache for site owners.
+Unlike other analytics tools, Plausible does not track or sell user behavior, so you can skip [cookie banners] (https://plausible.io/blog/cookie-consent-banners). This provides a smoother experience for your visitors and less headache for site owners.
 
 Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics), at less than 1 KB, and is over 75 times smaller than Google Analytics script. This helps prevent website slowdowns often caused by larger scripts and ensures a great experience for your customer base (also great for SEO). 
 
