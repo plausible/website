@@ -69,7 +69,7 @@ The Plausible Analytics script is more than 75 times smaller than the Google Tag
 
 Plausible does not use cookies and is [fully compliant with GDPR, CCPA, PECR](https://plausible.io/data-policy) and other privacy regulations out of the box. 
 
-This means that you and your clients do not need to add cookie banners and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
+This means that you and your clients do not need to add [cookie banners] (https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
 
 This makes websites nicer, easier to use and more visitor-friendly.
 
