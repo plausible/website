@@ -21,7 +21,7 @@ In a nutshell, custom dimensions bridge the gap between the data that a standard
 The more robust you want your website performance report to be, the more customized it usually needs to be. Let’s see.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What are custom dimensions?
 
