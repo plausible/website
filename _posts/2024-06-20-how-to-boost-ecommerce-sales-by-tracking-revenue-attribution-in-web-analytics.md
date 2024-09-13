@@ -13,7 +13,7 @@ image-alt: How to track ecommerce revenue attribution
 An e-commerce website has various ways of earning sales. Customers can find you through your ads, email campaigns, social campaigns, SEO, directly visiting your website and more. The process of understanding which channels are the most effective for your e-commerce store to generate sales is known as ecommerce revenue attribution.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is ecommerce revenue attribution in website analytics?
 
