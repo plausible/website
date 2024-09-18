@@ -7,7 +7,7 @@ permalink: /about
 
 Plausible Analytics is an open source project dedicated to making web analytics more privacy-friendly. Our mission is to reduce corporate surveillance by providing an alternative web analytics tool which doesn't come from the AdTech world.
 
-Plausible is trusted by thousands of paying subscribers. We are completely independent, self-funded and bootstrapped. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
+Plausible is trusted by thousands of paying subscribers. We are completely independent, self-funded and bootstrapped team of 10 core members. The legal entity is incorporated in Estonia, while [our team](https://plausible.io/docs/authors) works remotely and flexibly.
 
 ![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
 
@@ -64,24 +64,14 @@ Good intentions are not always enough and being open source is the best way to p
 
 Imagine if you had the same choice with your favorite proprietary and closed source app so if they decided to change the strategy, to make user-hostile decisions or to sell out to a corporation with different beliefs, the community could simply take over and keep alive the product that they love while ignoring the new development. You can do that with Plausible.
 
-## Is there an ethical way to do marketing for a startup?
+## Growing thanks to word of mouth
 
-Our main marketing strategy is content marketing. We simply publish posts that we think people may find interesting and useful. Then we share that content on our social media channels. We also share this content in the different niche communities and aggregators that we are a part of.
+We generally say no to most of the best marketing practices. Our main marketing strategy is to share interesting content: we publish posts that we think people may find interesting and useful. We share these on our blog, social media channels and various niche communities that we are a part of.
 
-Some of the people that discover our content and find it valuable end up signing up for a Plausible Analytics account too. Read more about how we do [startup marketing](https://plausible.io/blog/startup-marketing).
+Some of the people who discover our content and find it valuable end up signing up for a Plausible Analytics account too. Read more about how we do [startup marketing](https://plausible.io/blog/startup-marketing).
 
-Here's what we don't do:
+We focus most of our time on creating a great product experience with accurate stats, powerful insights and an easy-to-understand dashboard. We achieve this by [listening to feedback](https://feedback.plausible.io).
 
-* We don't do any paid advertising or paid marketing campaigns on social media, on search engines and anywhere else. There is nothing inherently wrong with advertising if people give their proper consent to it or if it is contextual only without any personalization, we just don't do it.
-
-* We don't pay anyone to recommend Plausible Analytics to their audience be it via referral programs, affiliate programs or other types of sponsorships. There is nothing inherently wrong with affiliate marketing as long as it is always prominently and clearly disclosed to the people, we just don't do it.
-
-* We do not participate in any link buying or link selling to game the search engines to send us more traffic
-
-* We ignore all unethical proposals such as those that offer us to buy contact lists of customers of other web analytics products
-
-* Here's a full list of all the [best marketing practices that we say no to](https://plausible.io/blog/best-marketing-practices).
-
-A large percentage of our growth can be attributed to website and business owners who love to use Plausible Analytics and decide to share their Plausible Analytics experience with the world.
+A significant portion of our growth comes from website and business owners who love to use Plausible Analytics and decide to share their Plausible Analytics experience with the world.
 
 We are grateful to everyone who shares Plausible Analytics as without people spreading the word about us it would be difficult for us to grow and achieve our goal. Thank you!
