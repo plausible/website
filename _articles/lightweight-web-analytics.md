@@ -13,7 +13,7 @@ Having a fast loading website is one of the key elements of modern web developme
 ![Plausible: A lightweight web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Why should I care about my website speed?
 
