@@ -125,7 +125,7 @@ We anticipated this requirement of ecommerce store owners and did all that by de
 
 It’s smooth as butter and takes less than 30 seconds:
 
-![]()
+![Demonstrating one-click setup of woocommerce tracking with Plausible](/uploads/plausible-one-click-ecommerce-tracking-for-woocommerce.gif "Demonstrating one-click setup of woocommerce tracking with Plausible")
 
 With this feature, you can track the following custom events automatically:
 
