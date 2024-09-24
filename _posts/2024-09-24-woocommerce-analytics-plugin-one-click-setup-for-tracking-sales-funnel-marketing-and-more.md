@@ -8,7 +8,7 @@ slug: woocommerce-analytics-plugin
 date: 2024-09-24T12:08:43.886Z
 author: hricha-shandily
 image: /uploads/woocommerce-funnel-one-click-setup-in-plausible.png
-image-alt: WooCommerce funnel in Plausible
+image-alt: WooCommerce funnel in the Plausible dashboard
 ---
 Tracking the performance of your WooCommerce store doesn't have to be complicated. In fact, it's incredibly straightforward with the Plausible plugin for WordPress, allowing you to set up end-to-end ecommerce site monitoring with just one click.
 
@@ -35,7 +35,7 @@ Or in other words, they help you get a birds-eye view of all the possible data t
 P.S. You can take a quick look at [Plausible’s live demo](https://plausible.io/plausible.io), where we show our own website’s real stats, to see what you’ll get in an active Plausible dashboard.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## How does Plausible Analytics compare to Google Analytics for WooCommerce tracking?
 
@@ -127,17 +127,19 @@ It’s smooth as butter and takes less than 30 seconds:
 
 ![Demonstrating one-click setup of woocommerce tracking with Plausible](/uploads/plausible-one-click-ecommerce-tracking-for-woocommerce.gif "Demonstrating one-click setup of woocommerce tracking with Plausible")
 
-With this feature, you can track the following custom events automatically:
+With this feature, you can track the **following custom events automatically**:
 
-* Complete Purchase: Records a conversion along with its revenue earned in Plausible whenever a purchase is completed on your WooCommerce store.
-* Start Checkout: Records an event whenever someone starts a checkout, regardless of whether they complete it or not (helps with understanding checkout abandonment rates).
-* Add to Cart: Records an event whenever someone adds an item to their cart (helps with understanding cart filling and abandonment rates).
-* Visit /product*: WooCommerce stores generally have their product pages on the path: \`URL/product/example product\`. This kind of a pageview goal helps in tracking product views and their related metrics.
-* Remove from Cart: Records an event whenever someone removes an item from their cart.
+* **Complete Purchase**: Records a conversion along with its revenue earned in Plausible whenever a purchase is completed on your WooCommerce store.
+* **Start Checkout**: Records an event whenever someone starts a checkout, regardless of whether they complete it or not (helps with understanding checkout abandonment rates).
+* **Add to Cart**: Records an event whenever someone adds an item to their cart (helps with understanding cart filling and abandonment rates).
+* **Visit /product***: WooCommerce stores generally have their product pages on the path: \`URL/product/example product\`. This kind of a pageview goal helps in tracking product views and their related metrics.
+* **Remove from Cart**: Records an event whenever someone removes an item from their cart.
 
-Secondly, you can track the following custom properties automatically. 
+Secondly, you can track the **following custom properties automatically**. 
 
-For context, [custom properties](https://plausible.io/blog/custom-dimensions-analytics#what-are-custom-dimensions) are additional contextual information about custom events. For eg. If “Add to cart” is an event, then “product name” and “quantity” can be its custom properties. This helps build a complete picture of what was added to the cart.
+For context, [custom properties](https://plausible.io/blog/custom-dimensions-analytics#what-are-custom-dimensions) are additional contextual information about custom events. 
+
+For eg. If “Add to cart” is an event, then “product name” and “quantity” can be its custom properties. This helps build a complete picture of what was added to the cart.
 
 * cart_total
 * cart_total_items
