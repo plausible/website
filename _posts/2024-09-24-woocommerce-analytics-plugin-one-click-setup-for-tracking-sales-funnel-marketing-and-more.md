@@ -10,7 +10,7 @@ author: hricha-shandily
 image: /uploads/woocommerce-funnel-one-click-setup-in-plausible.png
 image-alt: WooCommerce funnel in the Plausible dashboard
 ---
-Tracking the performance of your WooCommerce store doesn't have to be complicated. In fact, it's incredibly straightforward with the Plausible plugin for WordPress, allowing you to set up end-to-end ecommerce site monitoring with just one click.
+Tracking the performance of your WooCommerce store doesn't have to be complicated. In fact, it's incredibly straightforward with the [Plausible plugin](https://wordpress.org/plugins/plausible-analytics/) for WordPress, allowing you to set up end-to-end ecommerce site monitoring with just one click.
 
 You will be able to track most ecommerce analytics, right on your WordPress dashboard (or Plausible dashboard, if you prefer). Analytics like:
 
@@ -273,4 +273,4 @@ Unlike Google Analytics, Plausible is super simple to set up and use, is GDPR-co
 
 With built-in ecommerce event tracking and an intuitive dashboard, Plausible helps you optimize customer journeys, improve product performance, and scale your marketing efforts — all in just a few clicks.
 
-You could have your ecommerce funnel ready in the next 10 minutes. [Try Plausible for free](https://plausible.io/register)!
+You could have your ecommerce funnel ready in the next 10 minutes. **[Try the Plausible for WordPress plugin for free](https://wordpress.org/plugins/plausible-analytics/)**.
