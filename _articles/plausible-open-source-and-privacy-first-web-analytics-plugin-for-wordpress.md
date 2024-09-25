@@ -20,15 +20,10 @@ Plausible Analytics is an open source web analytics plugin for WordPress that is
 Plausible Analytics is built to be a more modern [alternative to Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics solutions. Here's what makes us different:
 
 * Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any long-term identifiers and doesn't track any personal data. We're exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
-
 * Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Our script is under 1 KB in size, which is 75 times more lightweight than the Google Analytics script. Plausible will not slow down your site
-
 * Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions
-
 * Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
-
 * Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are solely funded by the fees our subscribers pay us
-
 * There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing)
 
 ## What are the other features of Plausible Analytics for WordPress?
@@ -47,7 +42,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too
 * **Allow specific user roles (editors, authors or contributors) to access the stats dashboard**
 * See a **link to the post stats in the toolbar** while browsing your site
- 
+
 ## How to get started with Plausible Analytics
 
 To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial. No credit card is required to sign up.
@@ -107,9 +102,7 @@ Are you seeing the "**Oops! The Plugin Token you used is invalid**" error messag
 Here are the most common causes of that error:
 
 * Do make sure that you're inserting the plugin token and not some other key. The plugin token is always in this format: `plausible-plugin-xxxxxxxxxxxx`. 
-
 * Do make sure to create the plugin token for the exact site that you're trying to connect to as plugin tokens are site specific
-
 * If both of these are fine, then please create a new plugin token and then try to connect it to the plugin once again
 
 ## How to view your stats directly in your WordPress dashboard
@@ -131,15 +124,12 @@ Site owners feel unfairly targeted and an innocent casualty of this arms race be
 We've introduced a proxy feature after hearing from so many site owners who expect privacy-first analytics not to be blocked. We wanted to give a choice to people that use Plausible Analytics.
 
 * **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%
-
 * **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin
-
 * In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option
 
 ![Enable proxy in our WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
 
 * If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect
-
 * Enabling the proxy will make our script run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json` and it creates a randomly named folder and file in the `/wp-content/uploads/` directory
 
 ### Stats not being recorded after enabling the proxy?
@@ -151,11 +141,8 @@ In case plugin conflicts arise with your WordPress, it might cause the stats not
 Some of the common issues that prevent the proxy from being setup correctly are:
 
 * If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields
-
 * Do you have any firewall or other security plugin activated that may affect the ability for WordPress to create files? Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
-
 * Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches
-
 * If this doesn't help, then please disable the proxy and clear all your caches. Then try to enable the proxy once again and clear all your caches once again
 
 If you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
@@ -168,12 +155,12 @@ We will send you a notification if the proxy takes too long (>500ms) to send pag
 * Navigate to the directory of the Plausible plugin, usually `wp-content/plugins/plausible-analytics`
 * Open the `mu-plugin` directory within the plugin directory and copy the `plausible-proxy-speed-module.php` file to the `wp-content/mu-plugins` folder (if the `mu-plugins` folder doesn't exist within `wp-content`, create it before copying the file)
 
-## How to track external link clicks 
+## How to track external link clicks
 
 Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Outbound links" option.
- 
+
 All the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
 You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
@@ -252,7 +239,7 @@ For more details on how to send other custom properties for pageviews, please ch
 
 ## How to track ecommerce revenue
 
-Plausible Analytics plugin has a built-in support for tracking of WooCommerce store activity. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+Plausible Analytics plugin has a built-in support for [tracking of WooCommerce store activity](https://plausible.io/blog/woocommerce-analytics-plugin). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automatically set up and start tracking several WooCommerce custom events:
 
@@ -260,6 +247,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 * Remove from Cart
 * Start Checkout
 * Complete Purchase (including revenue)
+* Visit /product*
 
 Several custom properties ([also known as custom dimensions in Google Analytics](https://plausible.io/blog/custom-dimensions-analytics)) will start being recorded as well for further analysis:
 
