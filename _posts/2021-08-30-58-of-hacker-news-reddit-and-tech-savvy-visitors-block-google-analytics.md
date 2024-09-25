@@ -90,7 +90,7 @@ Linux | 5,680  | 1,006 | 82.3%
 
 Could this difference be caused by anything else other than adblockers? Perhaps Google is ignoring bots and other crawlers? Can we verify that Plausible isn’t over-reporting?
 
-Both Plausible Analytics and Google Analytics automatically exclude bots and crawlers. We are both JavaScript-based tools and exclude any known non-human traffic by default. You can check this study between [Plausible and server logs](https://plausible.io/blog/server-log-analysis) to see the number of bots that Plausible excludes.
+Both Plausible Analytics and Google Analytics automatically exclude bots and crawlers. We are both JavaScript-based tools and exclude any known non-human traffic by default. Although, Plausible does a better job by exluding ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default. Google Analytics still requires a lot of manual exclusions. You can check this study between [Plausible and server logs](https://plausible.io/blog/server-log-analysis) to see the number of bots that Plausible excludes.
 
 It’s worth noting that it’s rare for the data from two analytics providers to have complete parity. Plausible and Google Analytics have different measurement methodologies and define specific metrics differently. Even if there were no blockers at all, slight differences in data between Plausible and Google Analytics were likely to be seen.
 
