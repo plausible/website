@@ -124,6 +124,8 @@ Plus:
 
 You can simply filter your traffic by a revenue-marked goal, and see an overview of the sources (channels + campaigns) that brought in those sessions, the pages that received those sessions, and the devices, browsers, operating systems on which the sessions were conducted.
 
+*P﻿.S.* If you have an e-commerce store powered by WooCommerce, you should check out [our plugin for implementing a full e-commerce tracking setup in literally one-click](https://plausible.io/blog/woocommerce-analytics-plugin).
+
 Assume a situation where you have an ecommerce store on Shopify that sells hoodies and beanies. For marketing, you run Google ads, post daily on Instagram, and have some referral links from other domains. This is how you can understand which channels, campaigns, and other factors work best for your sales:
 
 Start by setting up some [event-goals](https://plausible.io/docs/custom-event-goals), including revenue-marked purchase goals. In this case, your event-goals can be “complete purchase” (a revenue-marked goal), “start checkout”, “remove from cart”, “add to cart”, “add to wishlist”, etc. Along with such events, you can send some custom properties like product category, product name, product color, product size, etc.
