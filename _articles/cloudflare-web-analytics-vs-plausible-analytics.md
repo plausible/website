@@ -78,7 +78,7 @@ In your list of top browsers and top operating systems, you may find "Unknown" h
 
 ![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os-browser.png)
 
-Plausible Analytics filters out the bots and our stats are based on the accurate data of what happens on your site.
+Plausible Analytics filters out known referrer spam domains and traffic originating from data centers, out-of-the-box. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats.
 
 ## Cloudflare limits you to 15 items on any report
 
