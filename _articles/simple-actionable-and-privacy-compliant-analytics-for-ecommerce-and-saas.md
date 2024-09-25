@@ -171,7 +171,7 @@ By using Plausible Analytics, your site will keep loading fast and your visitors
 
 Plausible Analytics takes several steps out of the box to elevate the accuracy of your stats:
 
-* Known referrer spam domains and traffic originating from data centers is filtered out
+* Known referrer spam domains and traffic originating from data centers is filtered out. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats. For eg., Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar instances, but Plausible handles them all automatically for you.
 
 * Traffic originating from Android apps (traditionally categorized as "Direct / None" in analytics tools) is uncovered. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
 
