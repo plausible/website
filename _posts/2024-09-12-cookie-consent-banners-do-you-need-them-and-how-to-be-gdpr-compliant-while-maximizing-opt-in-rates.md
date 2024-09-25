@@ -187,7 +187,7 @@ Not getting entangled with sales messages of consent management providers can pr
 
 ## Web users are already smart at escaping the wild west of cookie banners
 
-Many internet users are aware of their GDPR and CCPA rights. Especially with privacy-respective solutions on the web, they are being more and more preferred. Trying to deceive them with jargon and manipulation is not going to look good on a brand.
+Many internet users are aware of their GDPR, CCPA, and other legal rights. Especially with privacy-respecting solutions on the web, they are being more and more preferred. Trying to deceive them with jargon and manipulation is not going to look good on a brand.
 
 For eg. Browsers like Safari and Firefox protect you from the most annoying website elements and it also "confines cookies to the site where they were created, which prevents tracking companies from using these cookies to track your browsing from site to site."
 
