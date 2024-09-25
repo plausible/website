@@ -160,7 +160,11 @@ Unlike other analytics tools, Plausible does not track or sell user behavior, so
 
 Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics), at less than 1 KB, and is over 75 times smaller than Google Analytics script. This helps prevent website slowdowns often caused by larger scripts and ensures a great experience for your customer base (also great for SEO). 
 
-We also filter out referrer spam, data center traffic, and accurately attribute mobile traffic from apps like Gmail and Slack. We are also not blocked by a lot of ad blockers and privacy-focused browsers like Safari and Firefox.
+We also filter out referrer spam, data center traffic, and accurately attribute mobile traffic from apps like Gmail and Slack. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats.
+
+For eg., Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar instances, but Plausible handles them all automatically for you.
+
+We are also not blocked by a lot of ad blockers and privacy-focused browsers like Safari and Firefox.
 
 ### Google Analytics is not what you think it is.  
 
