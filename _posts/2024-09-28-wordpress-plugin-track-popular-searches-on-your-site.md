@@ -317,7 +317,7 @@ Google Analytics 4 also offers site search tracking as an enhanced measurement. 
 
 #### Showing the number of search results generated
 
-Plausible Analytics plugin can show you how many search results are generated for each search term your visitors use. For eg., If a visitor searches for "paid ads guide" on your top marketing articles compilation site, the plugin can tell you that the search returned **20** results.
+Plausible Analytics plugin can show you how many search results are generated for each search term your visitors use. For eg., If a visitor searches for "paid ads guide" on your top marketing articles compilation site, the plugin can tell you that the search returned 20 results.
 
 GA4 does not have this capability.
 
