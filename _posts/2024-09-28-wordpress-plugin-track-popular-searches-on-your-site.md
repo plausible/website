@@ -17,7 +17,7 @@ image-alt: Wordpress search queries tracking with Plausible plugin
 * GDPR-compliant, user-friendly, WordPress plugin
 * No consent banner required
 
-Having a search experience built in your WordPress website is many times a major expectation from your visitors. This is especially true if you run an e-commerce store, a publication or a blog, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc.
+Having a search experience built in your WordPress website is many times a major expectation from your visitors. This is especially true if you run an e-commerce store, a publication or a blog, a knowledge-base, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc. 
 
 While an on-site search feature is great for user-experience, it is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferencs, current trends, stock-up requirements, etc.
 
