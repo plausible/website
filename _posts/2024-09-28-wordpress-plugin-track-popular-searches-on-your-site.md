@@ -141,7 +141,147 @@ Things to consider:
 * Costlier than its alternatives.
 * No real-time Ajax search, which may be a drawback for users wanting instant results. Although, Relevanssi offers that option as a [separate plugin](https://wordpress.org/plugins/relevanssi-live-ajax-search/).
 
+### Ajax Search Lite
 
+[Ajax Search Lite](https://wordpress.org/plugins/ajax-search-lite/) plugin delivers real-time search results with customizable layout options and filtering by categories or tags. It integrates easily into most themes and supports image-based search results. More suitable for small to medium-sized sites.
+
+Key features include:
+
+* Provides real-time results as users type.
+* Flexible styles and layout options to match site design.
+* Filters search results by content type (posts, pages, custom types).
+* Allows searching within specific categories and tags.
+* Responsive design: Optimized for mobile devices.
+* Keyword suggestions: Auto-suggestions for better search accuracy.
+* Displays images in search results for visual engagement.
+* Offers custom results layout. Modify result display (list or grid format).
+* Shortcode integration: Easy to add to posts, pages, or widgets.
+* Compatible with most WordPress themes without major changes.
+
+Things to consider:
+
+* Lacks advanced analytics or search tracking, limiting insights into user search behavior.
+* More suitable for smaller or mid-sized sites; large sites may find performance limitations.
+* Limited integration with eCommerce platforms, making it less ideal for product-heavy sites. Has basic support for WooCommerce.
+
+### Jetpack Search
+
+[Jetpack Search](https://wordpress.org/plugins/jetpack-search/) plugin offers fast, scalable, and real-time search results with advanced language support and relevance algorithms, making it a considerable choice for large, multilingual websites.
+
+Key features include:
+
+* Provides real-time search results without page reloads.
+* Allows users to filter by categories, tags, dates, and custom taxonomies.
+* Customizable design.
+* Updates the search index within minutes of site changes.
+* Supports eCommerce product searches.
+* Handles advanced language analysis for 38 languages.
+* Spelling correction: Fast and accurate correction of search queries.
+* Modern ranking algorithms: Ensures highly relevant search results based on user behavior.
+
+Things to consider:
+
+* Jetpack's overall plugin can be resource-intensive and may slow down smaller sites.
+* Lacks analytics.
+* Customization options for search display are not as advanced as some other plugins.
+
+### Better Search
+
+[Better Search – Relevant search results for WordPress](https://wordpress.org/plugins/better-search/) plugin is simple and open-sourced.
+
+Key features include:
+
+* Prioritizes relevance-based search, not date-based.
+* Allows template customization for tailored search result displays.
+* Search heatmaps: Tracks popular search terms to understand user behavior.
+* Supports custom post types, extends search capabilities beyond posts and pages.
+* Works with popular caching plugins to ensure performance.
+* Easy to install and configure without requiring advanced technical knowledge.
+
+Things to consider:
+
+* Lacks real-time search or Ajax functionality, which can feel slower.
+* Customization options for the appearance of search results are limited compared to other plugins.
+* Analytics and tracking features are not as detailed as some alternatives.
+
+### Search & Filter
+
+[Search & Filter](https://wordpress.org/plugins/search-filter/) plugin refines your content discovery with filtering options. Narrow down results using Categories, Tags, Custom Taxonomies, Post Types, and Publication Dates –– or combine these criteria for precision. This system can replace traditional search boxes, allowing users to filter posts and pages effortlessly. 
+
+Key features include:
+
+* Custom search and filtering by categories, tags, custom taxonomies, and post types
+* Flexible input types including dropdowns, checkboxes, and radio buttons
+* Ajax functionality for results without page reloads
+* Result ordering by criteria like date and title
+* Drag & drop editor for easy form customization
+* eCommerce compatibility
+* Shortcode and widget support for placing search forms anywhere
+* Multilingual support compatible with WPML
+
+Things to consider:
+
+* No built-in auto-suggestion features, which could limit user experience.
+* Lacks analytics and search query tracking.
+
+### WP Search with Algolia
+
+[WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) plugin integrates Algolia’s fast and scalable infrastructure for real-time search results, considerable for large sites with high traffic and developers needing advanced customization.
+
+Key features include:
+
+* Integrates the search tool Algolia directly into a WordPress website, using API keys.
+* Instant search results: Provides real-time results as users type.
+* Autocomplete suggestions: Enhances user experience with predictive text suggestions.
+* Customizable search: Allows full customization of search behavior and display.
+* Supports multiple content types: Indexes posts, pages, and custom post types.
+* Scalable performance: Leverages Algolia’s infrastructure for fast and efficient search, even on large sites.
+* Developer-friendly: Offers hooks and filters for further customization.
+
+Things to consider:
+
+* Requires an Algolia account.
+* Initial setup might be complex for users without technical knowledge, as it involves API key integration​.
+
+### WP Extended Search
+
+[WP Extended Search](https://wordpress.org/plugins/wp-extended-search/) plugin is free and open-source. It adds advanced search filters for post titles, content, categories, tags, and metadata. The setup is user-friendly, and the plugin is lightweight, making it suitable for most WordPress sites.
+
+Key features include:
+
+* Advanced search filters: Customize searches across post titles, content, excerpts, metadata, categories, and tags.
+* Multiple search combinations: Allows for flexible search criteria configurations.
+* Custom post type support: Enables searching across custom content types.
+* Exclusion options: Exclude specific content types or posts from search results.
+* Easy setup: User-friendly interface for quick configuration.
+* Lightweight and fast: Minimal performance impact on site speed.
+
+Things to consider:
+
+* Doesn’t offer real-time or Ajax-based search, limiting responsiveness.
+* Limited design customization options for search results display.
+* Lacks analytics or search term tracking.
+
+### FiboSearch – Ajax Search for WooCommerce
+
+[FiboSearch – Ajax Search for WooCommerce](https://wordpress.org/plugins/ajax-search-for-woocommerce/) plugin provides instant product search results with product previews (images, prices, and descriptions) and supports searching by SKU and product attributes.
+
+Key features include:
+
+* Instant product search results: Shows live search results as users type.
+* Detailed product previews: Displays product images, prices, and descriptions directly in search results.
+* Allows searches by SKU and other WooCommerce product attributes.
+* Customizable search box and results: Offers design options to match your site's styling.
+* Filters search results by product categories.
+* Mobile optimization: Ensures smooth functionality on mobile devices.
+* Tracks and displays search queries data, for insights.
+
+Things to consider:
+
+* Its focus on WooCommerce means it is not that suitable for non-eCommerce websites.
+* Analytics are basic compared to more detailed search behavior tracking offered by some of its alternatives.
+
+*Side note*: These lists are purely informational, based on the available information in October 2024. We do not endorse either of the above mentioned plugins.
 
 ## Site search plugins lack analytics
 
