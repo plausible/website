@@ -26,7 +26,7 @@ Tracking what your customers are looking for when they land on your website can 
 1. Find what they were looking for, i.e. do you even offer what they are searching for?
 2. Convert or not, when they found what they were searching for?
 
-Both these answers open doors to relevant actions that will improve your business. To illustrate, assume you sell socks on an eCommerce store.
+Both these answers open doors to relevant actions that will improve your business. To illustrate, assume you sell socks in an eCommerce store.
 
 With site search terms data, you find out that visitors were searching for “red Christmas ankle socks” but it not something you currently sell. If there are enough searches for the same, maybe you should stock these socks up.
 
@@ -54,7 +54,7 @@ It provides you with all the necessary information –– an end-to-end view fro
 In this article, we are sharing how you can implement this end-to-end tracking, i.e. from site search term data to conversion data.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Implementing site search in WordPress
 
@@ -81,9 +81,22 @@ Typically, you’ll have the ability to:
 * Quickly monitor search activity using a dashboard.
 * Enjoy multisite compatibility.
 
-A few plugins allow you to filter search statistics by time period, whether results were found, specific search strings and substrings, etc.
+Here is a quick, high-level overview of some popular plugins that you can check out, followed by a list of features.
 
-### Site search plugins lack analytics
+| **Plugin name**                          | **Pricing options**                          | **Rating** | **Active installations** |
+| ---------------------------------------- | -------------------------------------------- | ---------- | ------------------------ |
+| SearchWP Live Ajax Search                | Free; paid plans starting $99/year           | 4.9        | 50,000+                  |
+| Ivory Search                             | Free; paid plans starting $19.99/year        | 4.9        | 100,000+                 |
+| Relevanssi                               | Free; paid plans starting $131/year          | 4.8        | 100,000+                 |
+| Ajax Search Lite                         | Free; $39 for a regular license              | 4.7        | 80,000+                  |
+| Jetpack Search                           | Free; paid plans starting $70/year           | 4.4        | 5,000+                   |
+| Better Search                            | Free & open source; pro license available    | 4.5        | 7,000+                   |
+| Search & Filter                          | Free; paid plans starting $25/year           | 4.6        | 50,000+                  |
+| WP Search with Algolia                   | Free; paid plans starting with pay-as-you-go | 4.5        | 7,000+                   |
+| WP Extended Search                       | Free & open-source                           | 4.9        | 20,000+                  |
+| FiboSearch – Ajax Search for WooCommerce | Free; paid plans starting $49/year           | 4.9        | 100,000+                 |
+
+
 
 One thing all site search plugins lack is granular insights into the search term data, like listed above. To reinstate, site owners need supporting data along with basic site search terms data to be able to draw a complete picture of the user journey––from searching to converting––and make real business decisions.
 
@@ -134,8 +147,6 @@ In Google Analytics, if you want to compare total sessions with the ones that ha
 To be able to see a simple site search report, you need to first build a complex Free Form report, understanding and choosing from different dimensions and adding them correctly.
 
 ![building a free form report in GA4](/uploads/building-free-form-report-in-ga4.jpg "building a free form report in GA4")
-
-
 
 Similarly, joining site search data with other useful data like conversion data, landing pages visited data, or SEO data is more cumbersome in Google Analytics 4, requiring either creating an even more unnecessarily complex Free Form report from scratch, or switching between this Free Form report and Traffic and User Acquisition reports, hidden beneath layers of menus.
 
