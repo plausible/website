@@ -11,14 +11,14 @@ image-alt: Wordpress search queries tracking with Plausible plugin
 ---
 **TL;DR:**
 
-* Overview of useful WordPress plugins for implementing and optimizing site search forms.
-* Track accurate site search analytics with one-click.
+* Overview of useful WordPress plugins for implementing site search forms and displaying customizable search results.
+* Track accurate, advanced site search analytics with one-click.
 * Combine search analytics with purchase data, along with other metrics like pages visited and geographies, to create a comprehensive purchase journey analysis.
 * GDPR-compliant, user-friendly, WordPress plugin. No consent banner required.
 
 Having a search experience built in your WordPress website is many times a major expectation from your visitors. This is especially true if you run an e-commerce store, a publication or a blog, a knowledge-base, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc. 
 
-While an on-site search feature is great for user-experience, it is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferencs, current trends, stock-up requirements, etc.
+An on-site search feature is great for user-experience by instantly matching them to what they are looking for. It is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferences, sales opportunities, current trends, stock-up requirements, etc.
 
 Tracking what your customers are looking for when they land on your website can help understand if they:
 
@@ -50,37 +50,16 @@ Site search data coupled with other important data, like:
 
 It provides you with all the necessary information –– an end-to-end view from search terms to conversions –– to make important business decisions. It’s like SEO, but internally for your site.
 
-In this article, we are sharing how you can implement this end-to-end tracking, i.e. from site search term data to conversion data.
+In this article, we are sharing how you can implement an end-to-end search tracking –– right from getting the search functionality up in your site to mapping it to other relevant business analytics, so you can make data-informed business decisions.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Implementing site search in WordPress
 
-The default WordPress search function is an option, but it is usually considered basic. If you need more advanced features, there are some plugins like JetPack Search, SearchWP, Ajax Search, Ivory Search, etc., you can check out for building the site search feature on your WordPress site.
+The default WordPress search function is an option, but it is usually considered basic. 
 
-### Features in a typical site search plugin
-
-When visitors type a search query into the search field on a WordPress site, the plugin (depending on the available features) typically looks for those keywords in your:
-
-* Page titles
-* Page content
-* Image titles and captions
-* Image alt text
-* File names
-
-Typically, you’ll have the ability to:
-
-* Manage which user roles are allowed to view search statistics.
-* Exclude duplicate searches or those from specific user roles or IP addresses.
-* Control the order of search results. 
-* Highlight or hide certain results.
-* Easily delete individual search terms from the history or erase all data for a full reset when needed.
-* Erase search history older than a set time for a general cleanup.
-* Quickly monitor search activity using a dashboard.
-* Enjoy multisite compatibility.
-
-Here is a quick, high-level overview of some popular plugins that you can check out, followed by a list of features.
+Here is a quick, high-level overview of some popular plugins that you can check out, followed by a deeper analysis of features.
 
 | **Plugin name**                          | **Pricing options**                          | **Rating** | **Active installations** |
 | ---------------------------------------- | -------------------------------------------- | ---------- | ------------------------ |
@@ -97,7 +76,78 @@ Here is a quick, high-level overview of some popular plugins that you can check 
 
 
 
-One thing all site search plugins lack is granular insights into the search term data, like listed above. To reinstate, site owners need supporting data along with basic site search terms data to be able to draw a complete picture of the user journey––from searching to converting––and make real business decisions.
+Let’s explore each option in more depth.
+
+### SearchWP Live Ajax Search
+
+[SearchWP](https://wordpress.org/plugins/searchwp-live-ajax-search/) plugin provides real-time, Ajax-powered search results with indexing capabilities. One of the most popular plugins for this purpose, it constantly offers thoughtful, newer and powerful features. Usually suitable for websites with diverse content types requiring flexible search customization.
+
+Key features include:
+
+* Real-time Ajax search for instant results.
+* Templates to make custom, embeddable search forms.
+* Indexes, extracts, searches and presents various content types like custom post types, fields, taxonomies, PDF/Office documents, and more.
+* Search results support Boolean search and keyword stemming.
+* Integrates with Multisite, WPML, eCommerce platforms, and more.
+* Analytics on search queries, visitor clicks, click-through-rates.
+* Customizable search result ordering for better relevance.
+
+Things to consider:
+
+* Might be an overkill for smaller websites that don’t need complex indexing.
+* Requires some technical setup for users unfamiliar with advanced search customization.
+* Paid versions can be expensive for smaller budgets.
+
+
+
+### Ivory Search
+
+[Ivory Search – WordPress Search Plugin](https://wordpress.org/plugins/add-search-to-menu/) is another preferred one. It helps you display custom search forms in various areas of your site, including the header, footer, sidebar, widget areas, navigation menu, or within posts, pages, and custom post types. You can embed these forms using shortcodes.
+
+Key features include:
+
+* Searches WooCommerce products, including SKU and attributes, with customizable results.
+* Indexes media files (images, audio, video, PDFs) by title, caption, and description.
+* Creates unlimited search forms tailored for specific content types.
+* Displays search forms in headers, footers, navigation menus, or anywhere using shortcodes.
+* Highlights searched terms and supports fuzzy matching and keyword stemming.
+* Controls the display order of search results based on multiple criteria.
+* Excludes specific content types from search results.
+
+Things to consider:
+
+* Can be challenging for beginners to configure the unlimited search form options without proper guidance.
+* Lacks advanced search filtering options like Boolean search or keyword stemming.
+
+### Relevanssi
+
+[Relevanssi](https://wordpress.org/plugins/relevanssi/) is another powerful plugin that enhances WordPress search by prioritizing relevance in search results and supporting partial word matching, fuzzy matching, and customizable excerpts.
+
+Key features include:
+
+* Search results sorted by relevance rather than date.
+* Fuzzy Matching, i.e. supports partial word matching for flexible searches.
+* Custom Excerpts, i.e. highlights search terms within results for better visibility.
+* Searches comments, tags, categories, and custom fields.
+* Allows for AND/OR searches and phrase searching.
+* Tracks search queries, popular searches, and queries with no results.
+* Compatible with WordPress multisite installations.
+* Includes the ability to index custom content types and taxonomies.
+
+Things to consider:
+
+* Can be resource-heavy, especially on large sites with lots of content.
+* Setting up custom excerpts or configuring advanced search options may require technical knowledge.
+* Costlier than its alternatives.
+* No real-time Ajax search, which may be a drawback for users wanting instant results. Although, Relevanssi offers that option as a [separate plugin](https://wordpress.org/plugins/relevanssi-live-ajax-search/).
+
+
+
+## Site search plugins lack analytics
+
+A few plugins allow you to filter search statistics by time period, whether results were found, specific search strings and substrings, etc.
+
+But what all site search plugins lack is granular insights into the search term data, like listed above. To reinstate, site owners need supporting data along with basic site search terms data to be able to draw a complete picture of the user journey––from searching to converting––and make real business decisions.
 
 Many plugins don’t even offer basic analytic data, since the main focus of these plugins is to help WordPress site owners implement the search feature.
 
