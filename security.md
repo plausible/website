@@ -76,6 +76,8 @@ You are fully in control of any of the website stats we collect on your behalf. 
 
 Passwords for signing in are hashed and salted. You can [enable two-factor authentication (2FA)](https://plausible.io/docs/2fa) as an extra security layer for your Plausible account.
 
+We list your active logged-in sessions in your account settings where we also allow you to remotely [log out of your account on other devices](https://plausible.io/docs/login-management). All logged-in sessions automatically expire after 14 days of inactivity. If you [change your account password](https://plausible.io/docs/reset-password), we automatically log out any of your sessions on your other devices.
+
 ## Data sharability 
 
 We give you complete control over how you choose to share the data you collect. Only you can [invite and remove users](https://plausible.io/docs/users-roles) and apply permission levels in your account. Only you can choose to create [shared links](https://plausible.io/docs/shared-links), select [email recipients](https://plausible.io/docs/email-reports) or make your dashboards [open to the public](https://plausible.io/docs/visibility).
@@ -140,4 +142,4 @@ We’re incredibly thankful for people who take the time to share their findings
 
 If you have any questions or concerns regarding our security practices, please [contact us](https://plausible.io/contact).
 
-Last updated: November 21, 2023
+Last updated: September 30, 2024
