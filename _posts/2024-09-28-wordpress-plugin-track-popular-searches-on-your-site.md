@@ -18,7 +18,7 @@ image-alt: Wordpress search queries tracking with Plausible plugin
 
 Having a search experience built in your WordPress website is many times a major expectation from your visitors. This is especially true if you run an e-commerce store, a publication or a blog, a knowledge-base, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc. 
 
-An on-site search feature is great for user-experience by instantly matching them to what they are looking for. It is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferences, sales opportunities, current trends, stock-up requirements, etc.
+An on-site search bar is great for user-experience by instantly matching them to what they are looking for. It is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferences, sales opportunities, current trends, stock-up requirements, etc.
 
 Tracking what your customers are looking for when they land on your website can help understand if they:
 
@@ -38,7 +38,7 @@ Or say, you run a blog on B2B marketing. If you find out about the topics your r
 In this article, we are sharing how you can implement an end-to-end search tracking –– right from getting the search functionality up in your site to mapping it to other relevant business analytics, so you can make data-informed business decisions.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Implementing site search in WordPress
 
@@ -59,8 +59,6 @@ Here is a quick, high-level overview of some popular plugins that you can check 
 | WP Extended Search                       | Free & open-source                           | 4.9        | 20,000+                  |
 | FiboSearch – Ajax Search for WooCommerce | Free; paid plans starting $49/year           | 4.9        | 100,000+                 |
 
-
-
 Let’s explore each option in more depth.
 
 ### SearchWP Live Ajax Search
@@ -71,7 +69,7 @@ Key features include:
 
 * Real-time Ajax search for instant results.
 * Templates to make custom, embeddable search forms.
-* Indexes, extracts, searches and presents various content types like custom post types, fields, taxonomies, PDF/Office documents, and more.
+* Indexes, extracts, searches and presents various content types like custom post types, custom fields, taxonomies, PDF/Office documents, and more.
 * Search results support Boolean search and keyword stemming.
 * Integrates with Multisite, WPML, eCommerce platforms, and more.
 * Analytics on search queries, visitor clicks, click-through-rates.
@@ -82,8 +80,6 @@ Things to consider:
 * Might be an overkill for smaller websites that don’t need complex indexing.
 * Requires some technical setup for users unfamiliar with advanced search customization.
 * Paid versions can be expensive for smaller budgets.
-
-
 
 ### Ivory Search
 
@@ -270,7 +266,7 @@ Things to consider:
 
 ## Site search plugins lack analytics
 
-As illustrated above, many plugins don’t even offer basic analytic data, since the main focus of these plugins is to help WordPress site owners implement the search feature.
+As illustrated above, many plugins don’t even offer basic analytic data, since the main focus of these plugins is to help WordPress site owners implement the search widget and relevant results.
 
 For eg., The JetPack Search [FAQ](https://jetpack.com/support/search/frequently-asked-questions/) clearly states that “The dashboard does not record the terms your readers use when using the Jetpack Search form on your site (or any other search forms on your site).”
 
