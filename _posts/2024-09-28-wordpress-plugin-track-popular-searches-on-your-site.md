@@ -402,11 +402,11 @@ How to read this report?
 
 In the year so far, we had 32 unique visitors, out of which 3 visitors searched for something on the site 8 times. They all came from Direct sources. They exited the website from different pages (details mentioned). They came from the mentioned cities and used the mentioned browsers. They searched for “tshirt”, “Hoodie” and “hoodie.”
 
-That’s the basic insight you get in an instant. Furthermore, you can go as deep as needed by clicking on any entry in this report. Let’s say you want to see the specific data for the search term: “tshirt.”
+That’s the insight you get in an instant. Furthermore, you can go as deep as needed by clicking on any entry in this report. Let’s say you want to see the specific data for the search term: “tshirt.”
 
 ### See related analytics for a particular search term
 
-Now you can simply click on the entry “tshirt”, or use the Filter feature. This way, all the data in the report will be related to “tshirts” searches only: the marketing acquisition channels, the geographical data, the top/entry/exit pages, and everything else.
+Now you can simply click on the entry “tshirt”, or use the Filter feature. This way, all the data in the report will be related to “tshirts” searches only: the marketing acquisition channels, the geographical data, the top/entry/exit pages, and everything else. 
 
 If you want to see if tshirts lead to an actual purchase on the site, you can visualize that with the help of [funnels](https://plausible.io/docs/funnel-analysis).
 
