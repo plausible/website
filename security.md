@@ -142,4 +142,4 @@ We’re incredibly thankful for people who take the time to share their findings
 
 If you have any questions or concerns regarding our security practices, please [contact us](https://plausible.io/contact).
 
-Last updated: September 18, 2024
+Last updated: September 30, 2024
