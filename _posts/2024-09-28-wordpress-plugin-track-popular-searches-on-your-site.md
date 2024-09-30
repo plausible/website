@@ -35,21 +35,6 @@ Alternatively, let’s say you already sell “red Christmas ankle socks” and 
 
 Or say, you run a blog on B2B marketing. If you find out about the topics your readers typically search for, you can prioritize those articles.
 
-Site search data coupled with other important data, like:
-
-* Geographical data (where particular searches came from) 
-* Conversion data (whether a search resulted in a purchase/add-to-cart/wishlist or not)
-* Total traffic data
-* Visit duration data
-* Landing pages visited data
-* Entry and Exit pages data
-* Devices, operating systems, browsers data
-* etc.,
-
-…is the best kind of data. 
-
-It provides you with all the necessary information –– an end-to-end view from search terms to conversions –– to make important business decisions. It’s like SEO, but internally for your site.
-
 In this article, we are sharing how you can implement an end-to-end search tracking –– right from getting the search functionality up in your site to mapping it to other relevant business analytics, so you can make data-informed business decisions.
 
 1. Ordered list
@@ -285,13 +270,28 @@ Things to consider:
 
 ## Site search plugins lack analytics
 
-A few plugins allow you to filter search statistics by time period, whether results were found, specific search strings and substrings, etc.
-
-But what all site search plugins lack is granular insights into the search term data, like listed above. To reinstate, site owners need supporting data along with basic site search terms data to be able to draw a complete picture of the user journey––from searching to converting––and make real business decisions.
-
-Many plugins don’t even offer basic analytic data, since the main focus of these plugins is to help WordPress site owners implement the search feature.
+As illustrated above, many plugins don’t even offer basic analytic data, since the main focus of these plugins is to help WordPress site owners implement the search feature.
 
 For eg., The JetPack Search [FAQ](https://jetpack.com/support/search/frequently-asked-questions/) clearly states that “The dashboard does not record the terms your readers use when using the Jetpack Search form on your site (or any other search forms on your site).”
+
+Only a few plugins allow you to track and filter basic search statistics by time period, whether results were found, specific search strings and substrings, etc. No plugins offer granular insights.
+
+Site owners need supporting data along with basic site search analytics to be able to draw a complete picture of the user journey––from searching to converting––and make real business decisions.
+
+Site search data coupled with other important data, like:
+
+* Geographical data (where particular searches came from) 
+* Conversion data (whether a search resulted in a purchase/add-to-cart/wishlist or not)
+* Total traffic data
+* Visit duration data
+* Landing pages visited data
+* Entry and Exit pages data
+* Devices, operating systems, browsers data
+* etc.,
+
+…is the best kind of data. 
+
+It provides you with all the necessary information –– an end-to-end view from search terms to conversions –– to make important business decisions. It’s like SEO, but internally for your site.
 
 Therefore, you need a analytics plugin in your WordPress toolkit.
 
