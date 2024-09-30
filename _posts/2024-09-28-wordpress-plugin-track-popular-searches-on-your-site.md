@@ -53,7 +53,7 @@ It provides you with all the necessary information –– an end-to-end view fro
 In this article, we are sharing how you can implement this end-to-end tracking, i.e. from site search term data to conversion data.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Implementing site search in WordPress
 
