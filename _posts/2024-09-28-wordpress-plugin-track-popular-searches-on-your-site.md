@@ -352,13 +352,13 @@ Plausible Analytics is a [simpler alternative](https://plausible.io/simple-web-a
 * Are more accurate
 * Are [lightweight](https://plausible.io/lightweight-web-analytics)
 * Block bot traffic by default
-* Are less blocked by ad blockers and privacy-first browsers, 
-* have compliances in-built, no consent banner needed, 
-* Are open-source and privacy-first, and more accepted by aware customers
+* Are less blocked by ad blockers and privacy-first browsers
+* have compliances in-built, no consent banner needed
+* Are open-source and privacy-first, and more accepted by aware end-users
 
 ## Getting started with the Plausible plugin
 
-Get started with Plausible Analytics by [creating a free account](https://plausible.io/register). Test all features with a 30-day trial, with no credit card required. Just sign up with your name and email—it’s quick and easy.
+Get started with Plausible Analytics by [creating a free account](https://plausible.io/register). You can test all features with a 30-day trial, with no credit card required. Just sign up with your name and email—it’s quick and easy.
 
 While this account can be used on any website, we recommend using our [official WordPress plugin](https://wordpress.org/plugins/plausible-analytics/) for a much easier and quicker installation. For doing so, head over to your WordPress dashboard and follow the following steps.
 
@@ -384,7 +384,7 @@ That’s it. Your site search tracking is activated, with no additional action r
 
 Feel the Plausible experience by visiting our [live demo link](https://plausible.io/plausible.io), where our website’s statistics are completely, publicly available.
 
-Let’s understand how to use your Plausible dashboard for understanding the site search data. You can also have a look at our [list](https://plausible.io/blog/woocommerce-analytics-plugin#best-practices-for-using-plausible-analytics-for-woocommerce) of best practices to ensure a fully functioning Plausible dashboard.
+Next, let’s understand how to use your Plausible dashboard for understanding the site search data. You can also have a look at our [list](https://plausible.io/blog/woocommerce-analytics-plugin#best-practices-for-using-plausible-analytics-for-woocommerce) of best practices to ensure a fully functioning Plausible dashboard.
 
 ### Filter Plausible dashboard by “Goal is WP Search Queries”
 
