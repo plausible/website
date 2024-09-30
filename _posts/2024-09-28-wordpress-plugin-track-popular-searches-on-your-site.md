@@ -11,11 +11,10 @@ image-alt: Wordpress search queries tracking with Plausible plugin
 ---
 **TL;DR:**
 
-* Track accurate site search data with one-click
-* Couple the data with purchase data for a full purchase journey analysis
-* Couple the data with any other analytic data like pages visited, geographies, etc. for a deeper analysis
-* GDPR-compliant, user-friendly, WordPress plugin
-* No consent banner required
+* Overview of useful WordPress plugins for implementing and optimizing site search forms.
+* Track accurate site search analytics with one-click.
+* Combine search analytics with purchase data, along with other metrics like pages visited and geographies, to create a comprehensive purchase journey analysis.
+* GDPR-compliant, user-friendly, WordPress plugin. No consent banner required.
 
 Having a search experience built in your WordPress website is many times a major expectation from your visitors. This is especially true if you run an e-commerce store, a publication or a blog, a knowledge-base, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc. 
 
