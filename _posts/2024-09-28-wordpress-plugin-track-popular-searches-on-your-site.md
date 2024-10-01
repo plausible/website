@@ -40,7 +40,7 @@ Or say, you run a blog on B2B marketing. If you find out about the topics your r
 In this article, we are sharing how you can implement an end-to-end search tracking –– right from getting the search functionality up in your site to mapping it to other relevant business analytics, so you can make data-informed business decisions.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Implementing site search in WordPress
 
