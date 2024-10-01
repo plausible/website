@@ -144,3 +144,5 @@ In the "Appearance" section in the left-hand side navigation within your WordPre
 Paste your analytics tracking code between ```<head>...</head>``` tags and click on the "Update File". This method works for Google Analytics, Plausible Analytics and most of the other web analytics tools.
 
 Note that you will need to do this process every time you update your theme unless you create a child theme.
+
+P﻿.S. Check out our [compilation] (https://plausible.io/blog/wordpress-search-tracking#implementing-site-search-in-wordpress) of WordPress plugins for implementing on-site search.
