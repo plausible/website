@@ -12,13 +12,15 @@ image-alt: Wordpress search queries tracking with Plausible plugin
 **TL;DR:**
 
 * Overview of useful WordPress plugins for implementing site search forms and displaying customizable search results.
-* Track accurate, advanced site search analytics with one-click.
-* Combine search analytics with purchase data, along with other metrics like pages visited and geographies, to create a comprehensive purchase journey analysis.
+* Tracking accurate, advanced site search analytics with one-click.
+* Combining search analytics with purchase data, along with other metrics like pages visited and geographies, to create a comprehensive purchase journey analysis.
 * GDPR-compliant, user-friendly, WordPress plugin. No consent banner required.
 
-Having a search experience built in your WordPress website is many times a major expectation from your visitors. This is especially true if you run an e-commerce store, a publication or a blog, a knowledge-base, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc. 
+Having a search experience built in your WordPress website is many times a major expectation from your visitors. 
 
-An on-site search bar is great for user-experience by instantly matching them to what they are looking for. It is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferences, sales opportunities, current trends, stock-up requirements, etc.
+This is especially true if you run an e-commerce store, a publication or a blog, a knowledge-base, an aggregator website like one for booking buses/hotels/flights, matching job profiles or dating profiles, a books/songs library, etc. 
+
+An on-site search bar is great for user-experience as it instantly matches them to what they are looking for. It is also a fantastic way of getting customer insights directly from the horse’s mouth: knowing about their demands, preferences, sales opportunities, current trends, stock-up requirements, etc.
 
 Tracking what your customers are looking for when they land on your website can help understand if they:
 
@@ -27,7 +29,7 @@ Tracking what your customers are looking for when they land on your website can 
 
 Both these answers open doors to relevant actions that will improve your business. To illustrate, assume you sell socks in an eCommerce store.
 
-With site search terms data, you find out that visitors were searching for “red Christmas ankle socks” but it not something you currently sell. If there are enough searches for the same, maybe you should stock these socks up.
+With site search terms data, you find out that visitors were searching for “red Christmas ankle socks” but it is not something you currently sell. If there are enough searches for the same, maybe you should stock these socks up.
 
 Or maybe, you should not stock them up in case you don’t cater to seasonal searches or cannot ship to the country where these searches came from.
 
@@ -59,11 +61,15 @@ Here is a quick, high-level overview of some popular plugins that you can check 
 | WP Extended Search                       | Free & open-source                           | 4.9        | 20,000+                  |
 | FiboSearch – Ajax Search for WooCommerce | Free; paid plans starting $49/year           | 4.9        | 100,000+                 |
 
+
+
 Let’s explore each option in more depth.
 
 ### SearchWP Live Ajax Search
 
-[SearchWP](https://wordpress.org/plugins/searchwp-live-ajax-search/) plugin provides real-time, Ajax-powered search results with indexing capabilities. One of the most popular plugins for this purpose, it constantly offers thoughtful, newer and powerful features. Usually suitable for websites with diverse content types requiring flexible search customization.
+[SearchWP](https://wordpress.org/plugins/searchwp-live-ajax-search/) plugin provides real-time, Ajax-powered search results with indexing capabilities. One of the most popular plugins for this purpose, it constantly offers thoughtful, newer and powerful features.
+
+Usually suitable for websites with diverse content types requiring flexible search customization.
 
 Key features include:
 
@@ -266,11 +272,13 @@ Things to consider:
 
 ## Site search plugins lack analytics
 
-As illustrated above, many plugins don’t even offer basic analytic data, since the main focus of these plugins is to help WordPress site owners implement the search widget and relevant results.
+As illustrated above, many plugins don’t even offer basic analytic data, since their main focus is to help WordPress site owners implement the search widget and relevant results.
 
 For eg., The JetPack Search [FAQ](https://jetpack.com/support/search/frequently-asked-questions/) clearly states that “The dashboard does not record the terms your readers use when using the Jetpack Search form on your site (or any other search forms on your site).”
 
-Only a few plugins allow you to track and filter basic search statistics by time period, whether results were found, specific search strings and substrings, etc. No plugins offer granular insights.
+Only a few plugins allow you to track and filter basic search statistics by time period, whether results were found, specific search strings and substrings, etc. 
+
+No plugins offer granular insights.
 
 Site owners need supporting data along with basic site search analytics to be able to draw a complete picture of the user journey––from searching to converting––and make real business decisions.
 
@@ -368,17 +376,21 @@ While this account can be used on any website, we recommend using our [official 
 
 We explain these steps, along with other useful settings than just site search tracking, in more detail in our [official WordPress plugin guide](https://plausible.io/wordpress-analytics-plugin).
 
+T﻿his way, you will ensure that the supporting data, like conversion data, effective marketing channels, traffic, geographies, etc., start collecting. Meanwhile, turn on site search tracking.
+
 ### Enable site search tracking with a switch
 
 In the “Enhanced measurements” section of the Plausible WordPress plugin settings, enable the “Search queries” option.
 
 ![enable search queries setting in plausible plugin for wordpress](/uploads/search-queries-wp-plugin-setting.png "enable search queries setting in plausible plugin for wordpress")
 
-That’s it. Your site search tracking is activated, with no additional action required.
+That’s it. Your site search tracking is activated, with no additional action required. 
+
+N﻿ow, whenever a search takes place in your site, it will be visible in your Plausible and WordPress dashboard along with the data on what was searched, how many times out of total traffic, how many results were displayed, conversion rate, etc. Let's explore this in more detail below.
 
 ## Plausible in action
 
-Feel the Plausible experience by visiting our [live demo link](https://plausible.io/plausible.io), where our website’s statistics are completely, publicly available.
+You can feel the Plausible experience by visiting our [live demo link](https://plausible.io/plausible.io), where our website’s statistics are completely, publicly available.
 
 Next, let’s understand how to use your Plausible dashboard for understanding the site search data. You can also have a look at our [list](https://plausible.io/blog/woocommerce-analytics-plugin#best-practices-for-using-plausible-analytics-for-woocommerce) of best practices to ensure a fully functioning Plausible dashboard.
 
