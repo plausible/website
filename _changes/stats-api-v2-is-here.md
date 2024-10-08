@@ -8,12 +8,11 @@ W﻿e have made significant improvements to the [Stats API](https://plausible.io
 Q﻿uick overview of the new capabilities:
 
 * Unified endpoint (/api/v2/query) handles all query types, simplifying data requests.
-* Queries are sent as structured JSON.
-* Supports fully customizable date and time ranges using ISO 8601 format.
-* Expanded metrics & dimensions
-* Complex filters with logical operators (and, or, not) and regex support.
+* Fully customizable date and time ranges, using ISO 8601 format.
+* Expanded metrics & dimensions.
+* Complex filters with logical operators and regex support.
 * Pagination, default: `{ "limit": 10000, "offset: 0 }`
-* Group data by different time units (hour, day, etc.) directly within queries.
 * Advanced import options with detailed feedback in query results.
 * Query responses include extra meta details like time labels and import statuses for clearer debugging.
-* Fully JSON-Based.
+
+P﻿.S. Try out the [playground](https://plausible.io/docs/stats-api-playground) for building queries for Stats API v2, for your own data!
