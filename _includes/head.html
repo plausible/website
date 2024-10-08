@@ -26,6 +26,11 @@
       browser_language: navigator.language || navigator.userLanguage
     };
     window.plausible('pageview', {props: props});
+    window.addEventListener('pageshow', function(event) {
+      if (event.persisted) {
+        window.plausible('pageview', {props: props});
+      }
+    });
   </script>
 
 
