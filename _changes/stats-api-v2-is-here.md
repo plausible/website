@@ -13,6 +13,6 @@ Q﻿uick overview of the new capabilities:
 * Complex filters with logical operators and regex support.
 * Pagination, default: `{ "limit": 10000, "offset: 0 }`
 * Advanced import options with detailed feedback in query results.
-* Query responses include extra meta details like time labels and import statuses for clearer debugging.
+* Query responses include extra meta data like time labels and import statuses for clearer debugging.
 
 P﻿.S. Try out the [playground](https://plausible.io/docs/stats-api-playground) for building queries for Stats API v2, for your own data!
