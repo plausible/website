@@ -1,7 +1,7 @@
 ---
 layout: change
-title: Stats API V2 is here.
-date: 2024-10-08T18:13:10.100Z
+title: Stats API V2 is here
+date: 2024-10-09T18:13:10.100Z
 ---
 W﻿e have made significant improvements to the Stats API: a way to retrieve your stats programmatically. The [new V2](https://plausible.io/docs/stats-api) offers simpler querying, more flexibility with custom metrics, filters, and time ranges, and better performance when handling complex queries and large datasets.
 
