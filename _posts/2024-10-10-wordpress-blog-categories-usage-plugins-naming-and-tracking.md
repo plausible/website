@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "WordPress blog categories: usage, plugins, naming, and tracking"
+title: "WordPress blog categories: how to use, advanced plugins, and performance
+  tracking"
 description: What are categories in WordPress posts, difference from tags, how
   to use, list of plugins, & how to optimize.
 slug: wordpress-blog-categories
 date: 2024-10-10T09:38:52.038Z
 author: hricha-shandily
+image: /uploads/wordpress-post-categories.png
+image-alt: "using categories in wordpress "
 ---
 Most of the time, we visit a site or a blog with a goal (or at least intent) in mind. Imagine you're searching for home workout ideas and land on a fitness blog with hundreds of unorganized posts. You were likely looking for something specific, like "yoga for beginners" or "quick cardio routines."
 
