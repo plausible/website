@@ -66,12 +66,8 @@ Imagine if you had the same choice with your favorite proprietary and closed sou
 
 ## Growing thanks to word of mouth
 
-We generally say no to most of the best marketing practices. Our main marketing strategy is to share interesting content: we publish posts that we think people may find interesting and useful. We share these on our blog, social media channels and various niche communities that we are a part of.
+Plausible Analytics is made with care, designed with love and built to last. We [avoid most traditional marketing practices](https://plausible.io/blog/startup-marketing) and instead focus on creating a great product experience with accurate stats, powerful insights and an easy-to-use dashboard. 
 
-Some of the people who discover our content and find it valuable end up signing up for a Plausible Analytics account too. Read more about how we do [startup marketing](https://plausible.io/blog/startup-marketing).
+Our primary obligation is to Plausible subscribers, not investors, advertisers or any other third parties. [We listen to feedback](https://feedback.plausible.io) and try to make good decisions while staying true to our mission and meeting rigorous standards for stability, security and privacy.
 
-We focus most of our time on creating a great product experience with accurate stats, powerful insights and an easy-to-understand dashboard. We achieve this by [listening to feedback](https://feedback.plausible.io).
-
-A significant portion of our growth comes from website and business owners who love to use Plausible Analytics and decide to share their Plausible Analytics experience with the world.
-
-We are grateful to everyone who shares Plausible Analytics as without people spreading the word about us it would be difficult for us to grow and achieve our goal. Thank you!
+A significant portion of our growth comes from website and business owners who love using Plausible and share their experiences with the world. We are grateful to everyone who helps spread the word about Plausible. Without people sharing their experiences it would be difficult for us to do what we do. Thank you!
