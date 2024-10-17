@@ -25,7 +25,7 @@ Your customers get a simple yet powerful and fast-loading analytics dashboard fe
 
 You can see an example in [this live demo](https://plausible.io/plausible.io) which features real world traffic from our own website. For further details on features and capabilities of Plausible, do take a look at [our documentation](https://plausible.io/docs).
 
-Plausible is trusted by 12,000+ paying subscribers. We're a completely independent, self-funded and bootstrapped startup launched in 2019. We're operating a sustainable project funded solely by the fees that our subscribers pay us. More than 200,000 websites actively use Plausible and we count 4 billion pageviews between them each month.
+Plausible is trusted by thousands of paying subscribers. We're a completely independent, self-funded and bootstrapped startup launched in 2019. We're operating a sustainable project funded solely by the fees that our subscribers pay us.
 
 Here are the features we've built to help you resell or provide a white label analytics dashboard powered by Plausible to your customers:
 
