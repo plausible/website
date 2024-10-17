@@ -19,7 +19,7 @@ Prezly is providing Plausible Analytics powered web analytics to thousands of th
 
 ## What is Plausible Analytics?
 
-Plausible provides easy to use, intuitive, lightweight (< 1 KB) and privacy-first web analytics. We don't collect personal data, we don't use cookies or other long-term identifiers. We exclusively use EU-owned infrastructure, ensuring visitor stats never leave the EU.
+Plausible provides easy to use, intuitive, lightweight and privacy-first web analytics. We don't collect personal data, we don't use cookies or other long-term identifiers. We exclusively use EU-owned infrastructure, ensuring visitor stats never leave the EU.
 
 Your customers get a simple yet powerful and fast-loading analytics dashboard featuring all the important metrics at a glance which allows them to focus on creating a better site. The dashboard is easy to use and understand with no training or prior experience required.
 
