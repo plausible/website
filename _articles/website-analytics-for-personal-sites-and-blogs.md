@@ -59,9 +59,7 @@ You keep your site simple, clean and optimized for your visitors. No need to put
 
 Google Analytics is a bloated script that collects a lot of unnecessary data and it's not useful for the majority of site owners. This can lead to your site having slower loading times. It is common that the different speed tests including Google's own PageSpeed Insights flag Google Analytics as one of the elements that slow down a site.
 
-The recommended way to start tracking your website using Google Analytics is to install the Global Site Tag (gtag.js) tracking code on all of your pages. It weighs 28 KB and it downloads another file called the Google Analytics tag which adds an additional 17.7 KB to your page size. These two tracking scripts combined add 45.7 KB of page weight to each and every page load.
-
-Every KB can make a difference if you want to optimize for speed. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics). That’s more than 75 times smaller than the Google Analytics Global Site Tag. Your site will keep loading fast and your visitors will have a smooth experience. 
+Every KB can make a difference if you want to optimize for speed. Plausible Analytics script [is lightweight](https://plausible.io/lightweight-web-analytics). Your site will keep loading fast and your visitors will have a smooth experience. 
 
 ## Google Analytics is blocked by many web users
 
