@@ -1,7 +1,6 @@
 ---
 layout: article
-title: What is audience segmentation and how to use Plausible for an in-depth
-  analysis?
+title: Audience segmentation and how to use Plausible for an in-depth analysis
 description: Audience segmentation helps you find useful insights by breaking
   down your audience data. Plausible makes this easy and privacy-friendly.
 permalink: /audience-segmentation
@@ -158,7 +157,7 @@ Plausible’s [private-by-design](https://plausible.io/privacy-focused-web-analy
 
 Unlike other analytics tools, Plausible does not track or sell user behavior, so you can skip [cookie banners] (https://plausible.io/blog/cookie-consent-banners). This provides a smoother experience for your visitors and less headache for site owners.
 
-Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics), at less than 1 KB, and is over 75 times smaller than Google Analytics script. This helps prevent website slowdowns often caused by larger scripts and ensures a great experience for your customer base (also great for SEO). 
+Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics). This helps prevent website slowdowns often caused by larger scripts and ensures a great experience for your customer base (also great for SEO). 
 
 We also filter out referrer spam, data center traffic, and accurately attribute mobile traffic from apps like Gmail and Slack. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats.
 
