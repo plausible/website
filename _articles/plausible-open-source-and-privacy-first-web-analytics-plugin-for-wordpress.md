@@ -2,11 +2,11 @@
 layout: article
 title: "Plausible: Privacy-first web analytics plugin for WordPress"
 description: Plausible Analytics is a web analytics plugin for WordPress that is
-  a simple to use, lightweight (< 1 KB) and privacy-friendly Google Analytics
+  a simple to use, lightweight and privacy-friendly Google Analytics
   alternative.
 permalink: /wordpress-analytics-plugin
 ---
-Plausible Analytics is an open source web analytics plugin for WordPress that is an easy to use, lightweight (< 1 KB) and privacy-friendly Google Analytics alternative.
+Plausible Analytics is an open source web analytics plugin for WordPress that is an easy to use, lightweight and privacy-friendly Google Analytics alternative.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
@@ -20,7 +20,7 @@ Plausible Analytics is an open source web analytics plugin for WordPress that is
 Plausible Analytics is built to be a more modern [alternative to Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics solutions. Here's what makes us different:
 
 * Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any long-term identifiers and doesn't track any personal data. We're exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
-* Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Our script is under 1 KB in size, which is 75 times more lightweight than the Google Analytics script. Plausible will not slow down your site
+* Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Plausible will not slow down your site
 * Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top content, top referral sources, external link clicks and goal conversions
 * Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
 * Plausible, unlike Google Analytics, is not a free as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are solely funded by the fees our subscribers pay us
