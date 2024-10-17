@@ -63,7 +63,7 @@ Your clients will intuitively understand the metrics that Plausible Analytics pr
 
 ### Plausible Analytics helps you build faster websites
 
-The Plausible Analytics script is more than 75 times smaller than the Google Tag Manager and Analytics script ([under 1 KB vs 45.7 KB](https://plausible.io/lightweight-web-analytics)). The page weight of the websites you build for your clients will be cut down and the sites will load faster too.
+The Plausible Analytics script is [much smaller](https://plausible.io/lightweight-web-analytics) than the Google Tag Manager and Analytics script. The page weight of the websites you build for your clients will be cut down and the sites will load faster too.
 
 ### Plausible Analytics helps you build simpler and more user-friendly sites
 
