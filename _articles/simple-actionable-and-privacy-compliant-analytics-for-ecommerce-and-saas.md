@@ -161,7 +161,7 @@ All this means that you don't need to worry about having a cookie banner nor ann
 
 ## Build faster loading websites
 
-Every KB makes a difference when you want to [optimize your site for speed](https://plausible.io/lightweight-web-analytics). Plausible Analytics script weighs less than 1 KB. That's more than 75 times smaller than the Google Analytics Global Site Tag.
+Every KB makes a difference when you want to [optimize your site for speed](https://plausible.io/lightweight-web-analytics). Plausible Analytics script is lightweight.
 
 Large scripts can lead to your site having slower loading times. Commonly, the different page speed tests, including Google's PageSpeed Insights, flag Google Analytics as one of the elements that slow down a site.
 
