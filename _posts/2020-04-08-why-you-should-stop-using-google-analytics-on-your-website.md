@@ -147,7 +147,7 @@ This is where our brand-new solution comes in place. With Plausible Analytics we
 
 1. **Open source** with the code available [on GitHub](https://github.com/plausible/analytics/)
 2. **Simple to understand** and get insights from in one minute
-3. A **lightweight script of less than 1 KB** so your site keeps loading fast
+3. A **lightweight script** so your site keeps loading fast
 4. **Doesn't use cookies** so there's no need for cookie banners
 5. **Doesn't collect personal data** so no need for GDPR and CCPA consent prompts
 6. All the data is hosted in Germany and is exclusively processed on servers and cloud infrastructure owned and operated by European providers. **The data never leaves the EU**.
