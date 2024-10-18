@@ -82,7 +82,7 @@ You can ditch cookie consent banners, from our side. Please don’t take this as
 
 ### GA4 will slow down your ecommerce site. Plausible will not.
 
-The recommended GA4 implementation with Google Tag Manager uses a JavaScript file that is at least 75 times bigger than that of Plausible. If you use GTag and not GTM, the difference is even bigger. We have a detailed study of this [here](https://plausible.io/lightweight-web-analytics).
+The recommended GA4 implementation with Google Tag Manager uses a JavaScript file that is much heavier than that of Plausible. If you use GTag and not GTM, the difference is even bigger. We have a detailed study of this [here](https://plausible.io/lightweight-web-analytics).
 
 Slower stores are bad for SEO, site experience, cart abandonment, and whatnot. The Plausible script is lightweight: practically incapable of slowing down any site.
 
