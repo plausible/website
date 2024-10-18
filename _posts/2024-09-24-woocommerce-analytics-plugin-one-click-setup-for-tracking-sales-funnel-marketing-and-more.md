@@ -84,7 +84,7 @@ You can ditch cookie consent banners, from our side. Please don’t take this as
 
 The recommended GA4 implementation with Google Tag Manager uses a JavaScript file that is at least 75 times bigger than that of Plausible. If you use GTag and not GTM, the difference is even bigger. We have a detailed study of this [here](https://plausible.io/lightweight-web-analytics).
 
-Slower stores are bad for SEO, site experience, cart abandonment, and whatnot. The Plausible script is less than 1 KB: practically incapable of slowing down any site.
+Slower stores are bad for SEO, site experience, cart abandonment, and whatnot. The Plausible script is lightweight: practically incapable of slowing down any site.
 
 ## In-built WooCommerce Analytics
 
