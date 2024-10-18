@@ -32,12 +32,12 @@ We're Plausible Analytics and after using Google Analytics for many years we bel
 
 * **Open source** with the code available on GitHub and can be self-hosted too
 * **Simple to understand** and get insights from in one minute
-* **A [lightweight script of under 1 KB](https://plausible.io/lightweight-web-analytics)** so your site keeps loading fast
+* **A [lightweight script](https://plausible.io/lightweight-web-analytics)** so your site keeps loading fast
 * **Doesn’t use cookies** so there’s no need for cookie banners
 * **Doesn’t collect personal data** so no need for GDPR and CCPA consent prompts
 * See more details on the [differences between Plausible Analytics and Google Analytics](https://plausible.io/vs-google-analytics).
 
-If this sounds interesting, do [register for a trial](https://plausible.io/register). The script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days and no credit card is required either.
+If this sounds interesting, do [register for a trial](https://plausible.io/register). The script is lightweight so you can try and run it alongside Google Analytics. The free trial is for 30 days and no credit card is required either.
 
 * Website: <https://plausible.io/>
 * Cost: Starts from $9/month and there's a discount when paid annually
