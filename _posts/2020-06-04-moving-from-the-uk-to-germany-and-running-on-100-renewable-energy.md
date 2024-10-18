@@ -31,19 +31,7 @@ We're confident and comfortable with Germany as an integral part of the EU that 
 
 ## Moving to being 100% powered by renewable energy
 
-We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [weighs less than 1 KB](https://plausible.io/lightweight-web-analytics) which is more than 75 times smaller than the recommended Google Analytics Global Site Tag implementation.
-
-If you replace Google Analytics with Plausible Analytics, you will reduce your page size by approximately 45 KB for each visitor. With 10,000 monthly visitors, that will be a saving of 450,000 KB (0.45 GB) per month. Almost half a GB less of data will be transferred per month for every 10,000 visitors.
-
-That brings us to more than 5 GB of data transfer per year saved. Even a saving of 45 KB in scripts can make a huge difference in reducing the carbon footprint of your website.
-
-The estimated numbers vary a lot from study to study and by which type of network is used, but [Website Carbon Calculator](https://www.websitecarbon.com/) has set the energy usage at 1.8 kWh (kilowatt‐hours) for every GB of data transfer. That would result in almost 10 kWh (9.72 kWh) saved per year for one website of 10,000 monthly visitors only by reducing the size of one analytics script by [moving from Google Analytics to Plausible Analytics](https://plausible.io/vs-google-analytics).
-
-Another number that is not easy to get a definitive answer to is the carbon intensity of the electricity generation. The Website Carbon Calculator sets this at 475 g CO2 per kWh. This means that the almost 10 kWh saved per year for one single website of 10,000 monthly visitors ends up saving more than 4.5 kg (4.617 kg to be exact) of CO2 emissions.
-
-So almost five kilograms in the yearly reduction of CO2 emissions for one website of 10,000 monthly visitors alone from a saving of 45 KB in JavaScript. With all this now being 100% powered by renewable energy, our impact on the planet is even more minimal.
-
-These numbers are all estimates but you can imagine if millions of website owners and Google Analytics users end up making a similar reduction in their website size too. The total reduction in the carbon footprint of the web would be immense.
+We're now also 100% powered by renewable and sustainable energy which is great in further minimizing our impact on the planet. Plausible Analytics script [is very lightweight as well](https://plausible.io/lightweight-web-analytics).
 
 ## Give Plausible Analytics a chance
 
@@ -51,9 +39,9 @@ After using Google Analytics for many years we believe we have created a better 
 
 * [Open source](https://plausible.io/open-source-website-analytics) with the code available on GitHub
 * Simple to understand and get insights from in one minute
-* A lightweight script of under 1 KB so your site keeps loading fast
+* A lightweight script so your site keeps loading fast
 * [Doesn’t use cookies](https://plausible.io/blog/google-analytics-cookies) so there’s no need for cookie banners
 * Doesn’t collect personal data so no need for GDPR and CCPA consent prompts
 * All the data is hosted on servers owned by Hetzner (a European company) in Germany. The data never leaves the EU
 
-If this sounds interesting, do [register for a trial](https://plausible.io/register). Our script is under 1 KB so you can try and run it alongside Google Analytics. The free trial is for 30 days and no credit card is required.
+If this sounds interesting, do [register for a trial](https://plausible.io/register). Our script is tiny so you can try and run it alongside Google Analytics. The free trial is for 30 days and no credit card is required.
