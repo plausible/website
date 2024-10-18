@@ -155,7 +155,7 @@ Here are some of the great benefits of being open source and why I recommend oth
 
 * The fact that we have a community that we most probably couldn't have if we were not transparent and open source is precious.
 * The fact that you can view our source code to verify whether our actions match our words is valuable and builds trust.
-* The fact that we've had many valuable contributions such as those who helped us reduce the size of [our script to under 1 KB](https://plausible.io/lightweight-web-analytics) or those who build integrations with other tools.
+* The fact that we've had many valuable contributions such as those who helped us reduce the size of [our script](https://plausible.io/lightweight-web-analytics) or those who build integrations with other tools.
 * The fact that many people are happy to contribute by writing about, recommending and spreading the word about Plausible Analytics. 
 
 This is the real strength of open source software and what makes it valuable to the world of surveillance capitalism that we live in.
