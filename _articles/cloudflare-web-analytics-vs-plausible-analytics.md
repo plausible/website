@@ -110,14 +110,6 @@ Here are some of the metrics missing on Cloudflare Web Analytics compared to wha
 Cloudflare Analytics tool
 * Cloudflare Web Analytics recently introduced performance metrics for [Core Web Vitals](https://plausible.io/blog/page-experience-web-vitals) and this is something Plausible doesn't support
 
-## Cloudflare is lightweight compared to Google Analytics but it's still 6x heavier than Plausible
-
-Cloudflare Web Analytics JavaScript file that you need to integrate into your site to start tracking visitors is 4.3 KB.
-
-This is a big improvement compared to the 45.7 KB that Google Analytics integration adds to your page weight but it's still 6 times heavier than the Plausible Analytics default script which is at 0.7 KB. 
-
-If you want the most [lightweight web analytics](https://plausible.io/lightweight-web-analytics), Plausible is the lighter choice. 
-
 ## Different definitions of unique visitor
 
 Plausible Analytics and Cloudflare Web Analytics have different definitions of what a unique visitor is.
