@@ -34,7 +34,7 @@ Official WordPress plugin made by Google.
 
 Integrates your site with Google Analytics, Google Tag Manager, Google Optimize, Google Search Console, Google AdSense and other services. 
 
-This plugin is used on more than one million sites. It is free to use. Google Analytics script with the recommended Global Site Tag integration comes at 45.7 KB of page weight.
+This plugin is used on more than one million sites. It is free to use. 
 
 What insights can you get from Google Analytics? Google Analytics provides more than 125 different reports with almost 300 metrics between them. It tracks whatever you want but it's also overkill for most site owners.
 
@@ -71,7 +71,7 @@ Jetpack is made by the same people that also run WordPress.com.
 
 This plugin tries to do everything so you can consider it a mother of all WordPress plugins. It does backups, it does security, it protects from spam comments among many other things but it also has a stats feature.
 
-Jetpack is installed on more than five million sites. It is open source software and the stats feature within it is free to use. The analytics script itself is lightweight and comes at 3.1 KB.
+Jetpack is installed on more than five million sites. It is open source software and the stats feature within it is free to use. The analytics script itself is lightweight.
 
 What insights can you get from Jetpack Site Stats? The total number of views in the top graph. Top referrers, search engine terms and top posts below it. The number of WordPress followers your site has and the number of external link clicks.
 
@@ -103,7 +103,7 @@ See the number of total visitors, total pageviews and pageviews in the last hour
 
 Matomo itself notes that self-hosting their stats on your server "can use significant resources". If you have a high traffic site or use a shared hosting account, you may need to upgrade to a more powerful server.
 
-It is installed on more than twenty thousand sites. It is open source software, the basic features are free to use and there are paid premium features such as funnels, heatmaps and session recordings. The script adds 22.8 KB to the size of your site.
+It is installed on more than twenty thousand sites. It is open source software, the basic features are free to use and there are paid premium features such as funnels, heatmaps and session recordings.
 
 What insights can you get from Matomo? It is very similar to Google Analytics. You have more than 70 individual reports within it with hundreds of different website metrics within them. 
 
@@ -117,7 +117,7 @@ Here's how the dashboard looks like and you can [explore the live demo](https://
 
 ![Plausible Analytics dashboard](/assets/images/privacy-focused-web-analytics.png)
 
-Plausible Analytics WordPress plugin is installed on hundreds of WordPress sites and Plausible is trusted by thousands of paying subscribers to deliver their website and business insights. [The analytics script itself is very lightweight](https://plausible.io/lightweight-web-analytics) and comes at 1.2 KB.
+Plausible Analytics WordPress plugin is installed on hundreds of WordPress sites and Plausible is trusted by thousands of paying subscribers to deliver their website and business insights. [The analytics script itself is very lightweight](https://plausible.io/lightweight-web-analytics).
 
 Plausible is open source but it is not free to use. There's a free 30-day trial and if you choose to stay with Plausible, you'll need to get on a subscription plan. We choose the subscription business model rather than surveillance capitalism and are operating a sustainable project funded solely by subscribers' fees.
 
