@@ -133,7 +133,7 @@ From using Google Analytics ourselves in the past to speaking to other Google An
 
 * [Ease of use](https://plausible.io/simple-web-analytics) - Google Analytics is famous for having hundreds of different reports/metrics and many people struggle to understand and get value from it. Our tool gives all metrics at a glance.
 
-* [Website speed](https://plausible.io/lightweight-web-analytics) - Google Analytics tracks a lot of data so if you insert their scripts on your site, it may affect the page loading speed. Our tool weighs less than 1 KB so tiny impact on site speed.
+* [Website speed](https://plausible.io/lightweight-web-analytics) - Google Analytics tracks a lot of data so if you insert their scripts on your site, it may affect the page loading speed. Our script is lightweight so it has a tiny impact on site speed.
 
 * [Privacy regulations](https://plausible.io/data-policy) - [Google Analytics uses cookies](https://plausible.io/blog/google-analytics-cookies) and tracks personal data so your site needs to have cookie banner and prompts to get GDPR consent too. Our tool is compliant with the privacy regulations out of the box.
 
