@@ -94,7 +94,7 @@ Or Andrew Mason on his [personal website](https://www.andrewm.codes/privacy-poli
 
 Here is an alternative way to disclose your usage of Plausible Analytics. A "How Many People Are on This Site?" page or `/stats/` page as seen on the [website of Gergely Orosz](https://blog.pragmaticengineer.com/stats/):
 
-> I integrated Plausible analytics on this site. On top of the very small footprint of the analytics script (under 1KB) and no-tracking-and-not-selling-your-data-for-advertising part, a really neat thing is how you can make your dashboard public. Here is the dashboard for The Pragmatic Engineer with public (and live) visitor information, and historic stats. 
+> I integrated Plausible analytics on this site. On top of the very small footprint of the analytics script and no-tracking-and-not-selling-your-data-for-advertising part, a really neat thing is how you can make your dashboard public. Here is the dashboard for The Pragmatic Engineer with public (and live) visitor information, and historic stats. 
 
 ## How do I create a privacy policy for my website? 
  
