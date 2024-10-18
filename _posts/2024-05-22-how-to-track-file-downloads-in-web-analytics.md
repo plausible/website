@@ -70,9 +70,9 @@ All types of file extensions can be tracked with Plausible, either by default or
 - Countries, regions and cities that click on file download
 - Devices (screen size, browser, OS) that click on file download
 
-If you don’t have file downloads to track, you can keep the original script intact, which is effective and efficient at 0.7 KB only. This helps us keep our main tracking script lightweight and not deteriorate page load speeds and visitor experience.
+If you don’t have file downloads to track, you can keep the original script intact, which is effective and efficient. This helps us keep our main tracking script lightweight and not deteriorate page load speeds and visitor experience.
 
-Google Analytics 4, on the other hand, has a bloated tracking script as it comes with automatic file downloads tracking as part of its Enhanced Measurements. Generally, a compressed Google Analytics integration script is about 75 times larger than [Plausible’s lightweight script](https://plausible.io/simple-web-analytics).
+Google Analytics 4, on the other hand, has a bloated tracking script as it comes with automatic file downloads tracking as part of its Enhanced Measurements. A compressed Google Analytics integration script is much larger than [Plausible’s lightweight script](https://plausible.io/simple-web-analytics).
 
 ## How to optimize for file downloads?
 
