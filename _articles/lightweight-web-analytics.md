@@ -5,7 +5,7 @@ description: Replacing Google Analytics with a lightweight web analytics tool
   can have a significant effect on the page load time of your website.
 permalink: /lightweight-web-analytics
 ---
-Plausible Analytics script is lightweight. It's 75 times smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will prevent your site from loading slow.
+Plausible Analytics script is lightweight. It's much smaller than the Google Analytics Global Site Tag. Plausible will reduce your page weight and will prevent your site from loading slow.
 
 Having a fast loading website is one of the key elements of modern web development. Replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time and the carbon footprint too. Let's take a closer look.
 
@@ -25,12 +25,7 @@ What are the benefits of a fast loading website and why is site speed an importa
 
 ## How do web analytics scripts affect the page size and page load time?
 
-Web analytics like any other website element add extra page weight and extra loading time to your website. Here's the brief overview of Plausible and a couple of the most popular providers:
-
-* **Google Tag Manager** https://www.googletagmanager.com/gtag/js **~75 KB**
-* **Google Analytics** https://www.google-analytics.com/analytics.js **~100 KB**
-* **Matomo** https://example.org/matomo.js **22.8 KB**
-* **Plausible** https://plausible.io/js/script.js **<1 KB**
+Web analytics like any other website element add extra page weight and extra loading time to your website. 
 
 ### Does Google Analytics slow down my website?
 
@@ -142,7 +137,7 @@ Try and run your site through the [Website Carbon Calculator](https://www.websit
 
 Let's do a bit of a calculation. The Google Tag Manager way of integrating Google Analytics into a website adds a total script size of 75 KB.
 
-Plausible script itself is under 1 KB. **If you replace Google Analytics with Plausible you will reduce your page size by 74 KB for each visitor**.
+Plausible script itself is lightweight. **If you replace Google Analytics with Plausible you will reduce your page size by 74 KB for each visitor**.
 
 With 100K monthly visitors, that will be a saving of 74,00,000 KB (7 GB) per month. 7 GB less of data will be transferred per month for every 100K visitors.
 
@@ -162,6 +157,6 @@ These numbers are all estimates but you can imagine if millions of website owner
 
 ## Give Plausible a try as your lightweight web analytics tool
 
-Plausible is a simple, open-source and lightweight site analytics tool. Our analytics script is 22 times smaller than the Matomo script and 100 times smaller than the Google Analytics Global Site Tag. On top of that, we're also running on 100% green energy.
+Plausible is a simple, open-source and lightweight site analytics tool. Our analytics script is 22 times smaller than the Matomo script and 75 times smaller than the Google Analytics Global Site Tag. On top of that, we're also running on 100% green energy.
 
 [Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard while getting a faster website that produces less carbon emissions.
