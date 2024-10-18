@@ -186,7 +186,7 @@ Here's a quick summary on Plausible Analytics and the [way it differs from tools
 
 * We don't collect nor store any personal data. Unlike server logs, we don't even collect nor store IP addresses.
 * We don't use cookies.
-* We are lightweight with the script being under 1 KB so no impact on the site speed. Much more comparable to server logs than to Google Analytics.
+* We are lightweight so no impact on the site speed. Much more comparable to server logs than to Google Analytics.
 * We are isolated to one site only and don't do any tracking of people around the web and across their different devices.
 * Our business model has nothing to do with personalized advertising so we have no interest in collecting, sharing or selling your website data to anyone. You are fully in control and have full ownership of your website stats. Our business model is the subscription fee we charge you to host and manage your website stats for you.
 * Our script can be served from your domain name as a first-party connection if you're concerned about adblockers and other content blockers.
