@@ -184,4 +184,4 @@ All of the data that Plausible tracks and collects is kept fully secured, encryp
 
 You don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website data never leaves the EU.
 
-If you're curious about trying out our Plausible Analytics on your website, you can register for a [free 30-day trial](https://plausible.io/register) with no credit card required. Our analytics script weighs less than 1 KB so you can run it alongside Google Analytics for the trial period and decide for yourself if it works for you. You can even [import your old stats from Google Analytics](https://plausible.io/docs/google-analytics-import).
+If you're curious about trying out our Plausible Analytics on your website, you can register for a [free 30-day trial](https://plausible.io/register) with no credit card required. Our analytics script is lightweight so you can run it alongside Google Analytics for the trial period and decide for yourself if it works for you. You can even [import your old stats from Google Analytics](https://plausible.io/docs/google-analytics-import).
