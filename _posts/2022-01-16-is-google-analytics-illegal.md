@@ -94,7 +94,7 @@ In 2021, we moved to Hetzner, so all of the data we collect is hosted in Germany
 
 * All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. Hetzner, a European company, owns the server. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy. Your website data never leaves the EU.
 
-* For the CDN and DNS, we use Bunny, another European-owned provider from Slovenia. Using a global CDN means having a fast loading script no matter where your visitors are based. We're proud to have one of the most lightweight JavaScript snippets in the analytics industry. Clocking in at [less than 1KB](https://plausible.io/lightweight-web-analytics) (75 times smaller than Google Analytics), our script will not add any bloat to your website or cause any performance issues.
+* For the CDN and DNS, we use Bunny, another European-owned provider from Slovenia. Using a global CDN means having a fast loading script no matter where your visitors are based. We're proud to have [one of the most lightweight JavaScript snippets](https://plausible.io/lightweight-web-analytics) in the analytics industry. Our script will not add any bloat to your website or cause any performance issues.
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website and visitor data is exclusively processed with servers and cloud infrastructure owned and operated by European companies.
 
