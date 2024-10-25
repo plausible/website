@@ -55,25 +55,25 @@ You can also apply filters to the embed dashboard to segment the audience. These
 
 Learn more about [the embed dashboard functionality here](https://plausible.io/docs/embed-dashboard).
 
-## Stats API for complete flexibility 
+## Stats API for complete flexibility
 
 Stats API allows you to take individual metrics and create a custom-built dashboard within your user interface in whichever shape or form you want. Show one particular metric only or build a fully featured dashboard from scratch. It's all possible. 
 
 While the Stats API requires more development time than the embedded dashboard option, it offers complete flexibility.
-    
+
 Do you prefer to offer a fully featured dashboard but also display specific metrics in certain sections of your user interface? Stats API can also be used in combination with the embedded dashboard.
 
 See our [stats API documentation](https://plausible.io/docs/stats-api).
 
 ## Proxy to eliminate third-party calls
 
-Proxy allows you to run our lightweight web analytics script as a first-party connection from your domain name eliminating third-party calls. Another benefit of this approach is that you'll be getting more accurate stats, as content blockers don't typically block first-party scripts.
+Proxy allows you to run our lightweight web analytics script as a first-party connection from your domain name eliminating third-party calls. Another benefit of this approach is that you'll be getting [more accurate stats](https://plausible.io/most-accurate-web-analytics), as content blockers don't typically block first-party scripts.
 
 You can proxy requests to Plausible in various ways, all depending on how you've built your product and on your hosting situation. There's an NPM package, an events API, Apache and Nginx server instructions and much more.
 
 Learn more about [the proxy functionality](https://plausible.io/docs/proxy/introduction).
 
-## Rollup view for your internal reporting 
+## Rollup view for your internal reporting
 
 We also have the rollup reporting feature. It allows you to aggregate stats from multiple sites and see them in one combined dashboard while keeping the individual site stats on their own separate dashboards. 
 
