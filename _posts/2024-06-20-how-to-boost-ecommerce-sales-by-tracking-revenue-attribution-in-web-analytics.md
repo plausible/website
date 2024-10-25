@@ -100,7 +100,7 @@ It is extremely important to acknowledge that the data-driven attribution model 
 
 Google Analytics’ AI and ML proactively study all the customer journey paths and different user actions in the background. They notice patterns and calculate conversion probabilities for different user paths. Based on this, it assigns different weightages to various marketing touchpoints leading up to a purchase.
 
-However, you are almost always guaranteed to get half-baked and inaccurate data due to the following reasons:
+However, you are almost always guaranteed to get half-baked and [inaccurate data](https://plausible.io/most-accurate-web-analytics) due to the following reasons:
 
 * Various privacy regulations, especially from the European Union and the USA, require GA users to ask for website visitors’ consent before collecting and processing their data. Naturally, many visitors decline such requests, while your website experience gets downgraded for everyone.
 * Many privacy-first systems like Apple prevent user tracking by default. This means a huge loss of data.
