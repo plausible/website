@@ -23,7 +23,7 @@ Getting actionable insights from traditional web analytics tools can be a cumber
 Everything you need to know is on one page. There are no layers of menus. There is no need for you to build custom reports and dashboards. You get an overview in one minute and can get on with tasks that you enjoy more, such as creating new content or building your audience.
 
 You get actionable insights at a glance to analyze and understand the effectiveness of your marketing and user acquisition tactics:
- 
+
 * Number of visitors coming to your site
 * Where in the world your visitors are based
 * What devices, operating systems and browsers your visitors use
@@ -133,7 +133,7 @@ You can add multiple filters to create audience segments too. This allows you to
 
 Explore this on the [live demo](https://plausible.io/plausible.io).
 
-## Invite team members and collaborate 
+## Invite team members and collaborate
 
 Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
 
@@ -169,12 +169,10 @@ By using Plausible Analytics, your site will keep loading fast and your visitors
 
 ## Get accurate data
 
-Plausible Analytics takes several steps out of the box to elevate the accuracy of your stats:
+Plausible Analytics takes several steps out of the box to [elevate the accuracy of your stats](https://plausible.io/most-accurate-web-analytics):
 
 * Known referrer spam domains and traffic originating from data centers is filtered out. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats. For eg., Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar instances, but Plausible handles them all automatically for you.
-
 * Traffic originating from Android apps (traditionally categorized as "Direct / None" in analytics tools) is uncovered. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
-
 * Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry to eliminate the noise that VPNs add to the locations reports
 
 In addition to this, browsers such as Firefox block the most popular analytics tools and so do the different ad-blocking extensions. These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 30% or even more of the audience on a website blocking Google Analytics. 
