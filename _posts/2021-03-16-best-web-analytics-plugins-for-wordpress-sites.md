@@ -51,7 +51,7 @@ We may be biased but we don't recommend you use Google Analytics on your WordPre
 * It's overkill for the majority of site owners
 * It's a liability considering GDPR, CCPA and other privacy regulations
 * It uses cookies so you must obtain consent to store cookies
-* It's blocked by many plugins and browsers so the data is not very accurate
+* It's blocked by many plugins and browsers so the data is [not very accurate](https://plausible.io/most-accurate-web-analytics)
 * It requires an extensive privacy policy
 * It's abused by referral spam that skews the data
 * It's a proprietary product so you need to put your trust in Google
@@ -137,12 +137,12 @@ This plugin has more than one million active users and it is free to use. Activa
 
 As usual with WordPress, you are fully in control. This means that if you don't want to use a web analytics plugin but still want some stats, you can integrate using the manual option. 
 
-You need to put the analytics tracking code in your WordPress theme file called ```header.php```.
+You need to put the analytics tracking code in your WordPress theme file called `header.php`.
 
-In the "Appearance" section in the left-hand side navigation within your WordPress dashboard, click on "Theme Editor". Choose your theme in the top right (your current theme should be selected by default) and click on "Select". In "Theme Files" locate the ```header.php``` file.
+In the "Appearance" section in the left-hand side navigation within your WordPress dashboard, click on "Theme Editor". Choose your theme in the top right (your current theme should be selected by default) and click on "Select". In "Theme Files" locate the `header.php` file.
 
-Paste your analytics tracking code between ```<head>...</head>``` tags and click on the "Update File". This method works for Google Analytics, Plausible Analytics and most of the other web analytics tools.
+Paste your analytics tracking code between `<head>...</head>` tags and click on the "Update File". This method works for Google Analytics, Plausible Analytics and most of the other web analytics tools.
 
 Note that you will need to do this process every time you update your theme unless you create a child theme.
 
-P﻿.S. Check out our [compilation] (https://plausible.io/blog/wordpress-search-tracking#implementing-site-search-in-wordpress) of WordPress plugins for implementing on-site search.
+P﻿.S. Check out our [compilation](https://plausible.io/blog/wordpress-search-tracking#implementing-site-search-in-wordpress) of WordPress plugins for implementing on-site search.
