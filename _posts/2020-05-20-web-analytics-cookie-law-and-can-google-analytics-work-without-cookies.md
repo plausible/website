@@ -104,7 +104,7 @@ This is another negative aspect of cookie-based web analytics. It's not a bullet
 * On top of this, millions of web users have installed different adblocking browsing extensions such as the uBlock Origin. All these block Google Analytics tracking too.
 * [Safari's Intelligent Tracking Protection](https://plausible.io/blog/safari-privacy-report) does not block third-party requests on a website but it prevents them from placing cookies or from accessing the local storage of a device.
 
-All these make cookie based web analytics provide less accurate and incomplete web stats. 
+All these make cookie based web analytics provide [less accurate and incomplete web stats](https://plausible.io/most-accurate-web-analytics). 
 
 ## Can you get web analytics without cookies?
 
