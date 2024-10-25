@@ -15,7 +15,7 @@ This is what we see regularly in our support tickets too: how they are seeing mo
 We, at Plausible, take special measures in addressing challenges that pull down data accuracy. Let’s look at the reasons that affect data accuracy and what we do differently at Plausible to ensure accurate data and real insights.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Cookie consent banner dependency
 
