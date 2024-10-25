@@ -108,11 +108,11 @@ Whether you want to permanently block certain countries or just exclude specific
 
 ## Delayed data processing
 
-Google Analytics can take up to 48 hours to fully process data and update your reports. This generally means a delay in making important decisions, or worse: not knowing that the data may not be fresh and making misinformed decisions.
+Google Analytics can take [up to 48 hours](https://support.google.com/analytics/answer/11198161?hl=en) to fully process data and update your reports. This generally means a delay in making important decisions, or worse: not knowing that the data may not be fresh and making misinformed decisions.
 
 **How do we tackle this at Plausible?** Our data is always fresh and constantly updated. We provide real-time analytics.
 
-## Difficult setup and configuration contributing to setup errors
+## Complicated setup contributing to setup errors 
 
 Another thing that causes inaccuracy in statistics is a faulty Google Analytics setup. It is quite [complicated](https://plausible.io/blog/things-i-hate-about-GA4#iv-the-complexity-isnt-a-bug-its-a-feature) to set up a well-functioning GA dashboard, which is why there are so many expensive courses on the web trying to teach GA.
 
