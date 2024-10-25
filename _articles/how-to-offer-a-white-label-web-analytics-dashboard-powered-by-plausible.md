@@ -15,7 +15,7 @@ Prezly is providing Plausible Analytics powered web analytics to thousands of th
 ![How to offer a white label web analytics dashboard powered by Plausible](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is Plausible Analytics?
 
