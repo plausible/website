@@ -11,9 +11,14 @@ As we grew and improved our tech and product, and stuck with our philosophy of r
 
 This clarity helped us steer the product and business decisions –– like which features to build on priority, what pricing to set, etc. –– in the right direction.
 
-It’s been six good years in business and we understand the importance of data that can answer the single-most important question to businesses, whether they are new or evolving, “Who is our audience?”
+It’s been five good years in business and we understand the importance of data that can answer the single-most important question to businesses, whether they are new or evolving, “Who is our audience?”
 
 It makes sense to analyze your website traffic to understand such insights since it’s a fair presumption that both existing customers and potential customers must have visited your website at some point, at the very least.
+
+1. Ordered list
+{:toc}
+
+## W﻿hat is audience segmentation?
 
 While Plausible anyway gives you basic and reliable data on visitor traffic, it can come in hundreds or millions of numbers. Either way, it is next to impossible to make meaningful sense of it without creating some subgroups that can be studied.
 
@@ -28,9 +33,6 @@ Whereas, a large e-commerce platform might be interested in tracking complete, d
 The interesting thing to note is that if you are in business, you’d definitely be having some audience segments –– whether you are aware of them yet or not. It’s worth exploring them.
 
 So, let’s understand how and what a web analytics tool can tell you about your segments of audiences.
-
-1. Ordered list
-{:toc}
 
 ## What a web analytics tool can reveal about audience segmentation
 
@@ -59,7 +61,7 @@ Continuing the example from above, if you could access the segments of UAE visit
 
 In Plausible, this is as easy and quick as applying a few filters on your simple, elegant, single-page dashboard.
 
-## How to segment the audience in your Plausible dashboard?  
+## How to segment audience in your Plausible dashboard?  
 
 In Plausible, your audience data is already presented in basic segments like channels of acquisition, landing pages they visit, the locations they come from, and the devices they use. This is all done by default, out-of-the-box.
 
@@ -107,7 +109,7 @@ Hence, there are certain best practices that we recommend considering to make au
 
 ## Making the most of Plausible for audience segmentation
 
-This is an overview of the things that Plausible users normally do to have a good amount of data available. You can decide on which features to use based on the filters you’d like to use and the depth of analysis you would need.
+This is an overview of the things that Plausible users normally do to have a good amount of data available. You can decide on which features to use based on the filters you’d like to use and the depth of audience segmentation analysis you would need.
 
 You don’t have to guess that in one go, though. We offer a 30-day free trial (no credit card info needed) where you can test out ALL the features and make an informed decision.
 
@@ -125,7 +127,7 @@ This also comes in handy for analyzing the performance of different marketing ca
 
 ### For segmenting based on site interactions: track custom events  
 
-Another powerful way to segment your audience is by setting up custom events. With events, you can track specific actions visitors take on your site, such as signing up for a newsletter, clicking a call-to-action button, or downloading an ebook.
+Another powerful way to segment audience is by setting up custom events. With events, you can track specific actions visitors take on your site, such as signing up for a newsletter, clicking a call-to-action button, or downloading an ebook.
 
 By capturing site interactions, you can identify different audience segments based on their behavior.
 
@@ -155,7 +157,7 @@ We have designed Plausible keeping in mind the way web analytics should have alw
 
 Plausible’s [private-by-design](https://plausible.io/privacy-focused-web-analytics) solution is fully compliant with GDPR, CCPA, and PECR regulations. We operate without using cookies/persistent identifiers and don’t collect personally identifiable information. We ensure you maintain 100% ownership and control over your website data.
 
-Unlike other analytics tools, Plausible does not track or sell user behavior, so you can skip [cookie banners] (https://plausible.io/blog/cookie-consent-banners). This provides a smoother experience for your visitors and less headache for site owners.
+Unlike other analytics tools, Plausible does not track or sell user behavior, so you can skip [cookie banners](https://plausible.io/blog/cookie-consent-banners). This provides a smoother experience for your visitors and less headache for site owners.
 
 Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics). This helps prevent website slowdowns often caused by larger scripts and ensures a great experience for your customer base (also great for SEO). 
 
@@ -167,7 +169,7 @@ We are also not blocked by a lot of ad blockers and privacy-focused browsers lik
 
 ### Google Analytics is not what you think it is.  
 
-Google Analytics 4 is a default choice for many site owners. When it comes to audience segmentation and analysis, “Audiences” begins as a setting in a complex settings panel and ends up in the “Free Form” reports.
+Google Analytics 4 is a default choice for many site owners. When it comes to audience segmentation analysis, “Audiences” begins as a setting in a complex settings panel and ends up in the “Free Form” reports.
 
 In Google Analytics 4, you can create different audience groups based on user behavior. These groups let you organize users who visit your site in specific ways. You can then use these audience groups for things like retargeting ads in Google Ads. 
 
