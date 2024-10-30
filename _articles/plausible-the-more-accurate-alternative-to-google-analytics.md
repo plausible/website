@@ -1,7 +1,8 @@
 ---
 layout: article
 title: "Plausible: The more accurate alternative to Google Analytics"
-description: How Plausible provides much more accurate data than Google Analytics
+description: Is Google Analytics accurate and how Plausible provides much more
+  accurate data in comparison?
 permalink: /most-accurate-web-analytics
 ---
 “Every number in your Google Analytics account is wrong.” That is exactly what an independent [study](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) recently done by Orbit Media found. 
@@ -12,12 +13,32 @@ Google Analytics has been unable to provide solid solutions to these common prob
 
 This is what we see regularly in our support tickets too: how they are seeing more numbers in their Plausible dashboard than in their GA dashboard.
 
-We, at Plausible, take special measures in addressing challenges that pull down data accuracy. Let’s look at the reasons that affect data accuracy and what we do differently at Plausible to ensure accurate data and real insights.
+We, at Plausible, take special measures in addressing challenges that pull down data accuracy. 
 
 1. Ordered list
 {:toc}
 
-## Cookie consent banner dependency
+## Why does accurate data matter?
+
+Second guessing the numbers on an Analytics dashboard defeats the purpose of numbers. For instance, If you were to compare the sales in GA and another tool tracking your sales, you’d find the difference (depending on how much your audience uses ad blockers for example).
+
+First, this will cause confusion requiring you to manually investigate further. Second, this will cause GA to misattribute other related metrics such as acquisition channels. The bigger the scale, the bigger the difference could be.
+
+When data is underreported and/or inaccurate, businesses may misallocate resources, invest in the wrong strategies, or fail to capitalize on high-performing campaigns.
+
+Like, marketing teams might miss out on valuable audience segments or inaccurately measure the success of their efforts. This could straight up waste the marketing budget.
+
+Marketing agencies that have to show accurate stats/results to their clients and build their portfolio are affected the most. Imagine showing a different number on GA4 about a conversion to the client and the client seeing a different number in their backend.
+
+For publishers and content creators, inaccurate metrics may lead to inaccurate understanding of the audience, causing them to miss out on ad/affiliate revenues and creating good content strategies.
+
+In all cases, missing and/or inaccurate data affects the ability to track the real impact of the website, campaigns, and user engagement.
+
+## R﻿easons that affect data accuracy
+
+Let’s look at the reasons that affect data accuracy and what we do differently at Plausible to ensure accurate data and real insights.
+
+### Cookie consent banner dependency
 
 Implementing a GA tracking code on your website needs you to use a [cookie consent banner](https://plausible.io/blog/cookie-consent-banners). This is legally required in many regions to comply with privacy regulations like the EU’s GDPR and California's CCPA.
 
@@ -33,7 +54,7 @@ Neither do we ever track or store your visitors’ data for any reason, making u
 
 No consent banners means no declines and no missing data in the first place. It’s also great for creating a better website experience!
 
-## Spam and bot traffic skewing data
+### Spam and bot traffic skewing data
 
 One of the major challenges with web analytics is filtering out spam and bot traffic that can skew your data. GA4 excludes known bots automatically.
 
@@ -56,7 +77,7 @@ And all this depends on noticing the problem in the first place and dealing with
 
 Plausible excludes bots, crawlers, referrer spam and other known non-human activity by default. [In a test we ran](https://plausible.io/blog/server-log-analysis?utm_source=support&utm_medium=email), we saw 18x more pageviews with server side tracking than with Plausible which shows the volume of spam traffic that Plausible excludes.
 
-## Tracking script being blocked by ad blockers and browsers
+### Tracking script being blocked by ad blockers and browsers
 
 Google Analytics tracking script, being infamous for leaving cookies on users’ browsers and devices, has started being blocked by privacy-conscious users. The way they do this is by using ad blockers and privacy-first browsers like Safari and Firefox.
 
@@ -72,7 +93,7 @@ We give an option to use our [proxy](https://plausible.io/docs/proxy/introductio
 
 The silver lining is that it only takes a couple of minutes to set up a proxy using our instructions. No tech know-how is necessary.
 
-## Location inaccuracy
+### Location inaccuracy
 
 Users connecting through proxy servers or VPNs can conceal their true location, leading Google Analytics to log the location of the proxy or VPN server rather than the user's actual location.
 
@@ -86,13 +107,13 @@ Secondly, we use the MaxMind database to determine the visitor location based on
 
 The IP address itself is discarded to make sure we don't store any personal data. We never store IP addresses in our database, logs or anywhere on disk at all.
 
-## Misclassified Direct traffic
+### Misclassified Direct traffic
 
 Another challenge with analytics is accurately identifying traffic sources. In Google Analytics, traffic from mobile apps, like Gmail, Slack, Telegram, etc., is often misclassified as "direct," leaving you with unclear data. 
 
 **How do we tackle this at Plausible?** Our algorithms recognize traffic from Android apps and categorize it under "android-app" in the "Top Sources" report. This can help recover up to 10% of previously unrecognized traffic for sites with large mobile audiences.
 
-## Complex traffic exclusion settings
+### Complex traffic exclusion settings
 
 In GA, it’s possible to exclude internal traffic from polluting your analytics by excluding the IP addresses. If you wanted to exclude a country’s traffic from being recorded in GA4, there's no setting available and the workarounds are: 
 
@@ -106,13 +127,13 @@ In GA, it’s possible to exclude internal traffic from polluting your analytics
 
 Whether you want to permanently block certain countries or just exclude specific data for reporting, Plausible makes it simple to filter out the noise and focus on what matters most.
 
-## Delayed data processing
+### Delayed data processing
 
 Google Analytics can take [up to 48 hours](https://support.google.com/analytics/answer/11198161?hl=en) to fully process data and update your reports. This generally means a delay in making important decisions, or worse: not knowing that the data may not be fresh and making misinformed decisions.
 
 **How do we tackle this at Plausible?** Our data is always fresh and constantly updated. We provide real-time analytics.
 
-## Complicated setup contributing to setup errors 
+### Complicated setup contributing to setup errors
 
 Another thing that causes inaccuracy in statistics is a faulty Google Analytics setup. It is quite [complicated](https://plausible.io/blog/things-i-hate-about-GA4#iv-the-complexity-isnt-a-bug-its-a-feature) to set up a well-functioning GA dashboard, which is why there are so many expensive courses on the web trying to teach GA.
 
@@ -124,7 +145,7 @@ So it’s easier to miss out on essential settings or do something wrong than it
 
 And because we take care of many things out-of-the-box, the setup is not only simple but also minimal. This leaves little room for error and ensures all you see is real and accurate data.
 
-## Data modeling and sampling[​](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling)
+### Data modeling and sampling[​](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling)
 
 Google Analytics actively shows modeled key events. Quoting them: “Google uses modeling to estimate online key events that can’t be observed directly. Modeling allows for accurate attribution without identifying users.”
 
