@@ -134,18 +134,22 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 ### Stats not being recorded after enabling the proxy?
 
-We've put a lot of effort to ensure that the proxy works smoothly and have taken measures to prevent conflicts with popular performance optimization and caching plugins such as the WP Rocket, SG Optimizer, WP Optimize and LiteSpeed Cache. However, sometimes things might not go as planned.
+We've put a lot of effort to ensure that the proxy works smoothly and have taken measures to prevent conflicts with popular performance optimization and caching plugins. However, sometimes things might not go as planned.
 
-In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration [a quick double-check](https://plausible.io/docs/troubleshoot-integration) after you enable the proxy to make sure the stats are being recorded. 
+Many problems with proxy activation are due to restrictive firewall or security settings, where PHP may not be allowed to fetch and copy external resources to the server.
+
+In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration a quick double-check after you enable the proxy to make sure the stats are being recorded. 
 
 Some of the common issues that prevent the proxy from being setup correctly are:
 
-* If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields
-* Do you have any firewall or other security plugin activated that may affect the ability for WordPress to create files? Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
-* Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches
-* If this doesn't help, then please disable the proxy and clear all your caches. Then try to enable the proxy once again and clear all your caches once again
+* **Browser console errors**: After enabling the proxy, visit your website and check the browser console for any error messages related to the proxied script. [See more here](https://plausible.io/docs/troubleshoot-integration)
+* **SSL Certificate Usage**: If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields. Then please do try to enable the proxy again
+* **Firewall or Security Settings**: Do you or your hosting company have any firewall or other security plugins activated that may affect the ability for WordPress to create files? Please do disable these or do put your proxy file path and directory in the allow list. Then please do try to enable the proxy again
+* **Caching**: Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches and then try to enable the proxy again
+* **File Permissions**: Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
+* **PHP error logs**: Do check your PHP error logs after trying to enable the proxy. You may find helpful messages there to guide further troubleshooting
 
-If you notice anything weird, don't hesitate to [reach out to us](https://plausible.io/contact). We're here to help!
+After making any changes, remember to disable the proxy and clear all caches. Then, try enabling the proxy again and clear all caches once more.
 
 ### If the proxy script is slow
 
