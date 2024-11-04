@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Audience segmentation and how to use Plausible for an in-depth analysis
+title: "Plausible: Powerful audience segmentation and visitor analysis"
 description: Audience segmentation helps you find useful insights by breaking
   down your audience data. Plausible makes this easy and privacy-friendly.
 permalink: /audience-segmentation
