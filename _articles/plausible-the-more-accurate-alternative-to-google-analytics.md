@@ -75,7 +75,7 @@ And all this depends on noticing the problem in the first place and dealing with
 
 **How do we tackle this at Plausible?** We exclude 32k IP ranges from the get go. So you never have to worry about all this.
 
-Plausible excludes bots, crawlers, referrer spam and other known non-human activity by default. [In a test we ran](https://plausible.io/blog/server-log-analysis?utm_source=support&utm_medium=email), we saw 18x more pageviews with server side tracking than with Plausible which shows the volume of spam traffic that Plausible excludes.
+Plausible also excludes bots, crawlers, referrer spam and other known non-human activity by default. [In a test we ran](https://plausible.io/blog/server-log-analysis), we saw 18x more pageviews with server side tracking than with Plausible which shows the volume of spam traffic that Plausible excludes.
 
 ### Tracking script being blocked by ad blockers and browsers
 
@@ -89,7 +89,7 @@ Basically, if your users use privacy-friendly browsers and/or ad blockers, Googl
 
 One exception therein is the kind of adblockers who don’t like differentiating between privacy-friendly and non-privacy-friendly scripts and block all the JavaScript tracking codes on a website.
 
-We give an option to use our [proxy](https://plausible.io/docs/proxy/introduction?utm_source=support&utm_medium=email) script to bypass the ad blockers that could have blocked the Plausible tracking code otherwise. This means you get even more accurate data, even for users who have ad blockers enabled.
+We give an option to use our [proxy](https://plausible.io/docs/proxy/introduction) script to bypass the ad blockers that could have blocked the Plausible tracking code otherwise. This means you get even more accurate data, even for users who have ad blockers enabled.
 
 The silver lining is that it only takes a couple of minutes to set up a proxy using our instructions. No tech know-how is necessary.
 
@@ -106,6 +106,22 @@ Google Analytics changes the last digit of the IP address to zero when these add
 Secondly, we use the MaxMind database to determine the visitor location based on the IP address. This lookup happens on our servers and no data is ever sent to MaxMind. 
 
 The IP address itself is discarded to make sure we don't store any personal data. We never store IP addresses in our database, logs or anywhere on disk at all.
+
+### Conversion attribution inaccuracy
+
+Google Analytics makes you manually exclude unwanted referral sources like payment processors to keep your data clean.
+
+If not, you'll see traffic sources like PayPal, Stripe or Paddle as a source of the conversion instead of the original channel.
+
+This happens when users briefly leave for payments or password resets, causing GA4 to start a new session.
+
+On top of it, this has to be done within a cluttered settings panel.
+
+But Plausible handles this automatically—keeping your original traffic source and session intact; no extra setup needed!
+
+With Plausible, referral sources are counted only when they start a new session on your site. This prevents external domains such as payment gateways showing up in the list of sources.
+
+One makes you work to get accurate data, the other just works. 🙌
 
 ### Misclassified Direct traffic
 
@@ -145,7 +161,7 @@ So it’s easier to miss out on essential settings or do something wrong than it
 
 And because we take care of many things out-of-the-box, the setup is not only simple but also minimal. This leaves little room for error and ensures all you see is real and accurate data.
 
-### Data modeling and sampling[​](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling)
+### Data modeling and sampling
 
 Google Analytics actively shows modeled key events. Quoting them: “Google uses modeling to estimate online key events that can’t be observed directly. Modeling allows for accurate attribution without identifying users.”
 
@@ -161,7 +177,7 @@ So, that’s another reason that much of your GA stats are actually just estimat
 
 **How do we tackle this at Plausible?** Plausible does not use any data sampling or modeling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site.
 
-However, on some dashboard views that have a lot of data such as those with more than 20 million pageviews, we apply limited data sampling to help the dashboard load as fast as possible. We show a clear note in your dashboard when you're viewing a report with sampled data.
+However, on some dashboard views that have a lot of data such as those with more than 20 million pageviews, we apply [​limited data sampling](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling) to help the dashboard load as fast as possible.
 
 ## In conclusion
 
