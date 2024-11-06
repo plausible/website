@@ -121,7 +121,7 @@ But Plausible handles this automatically—keeping your original traffic source 
 
 With Plausible, referral sources are counted only when they start a new session on your site. This prevents external domains such as payment gateways showing up in the list of sources.
 
-One makes you work to get accurate data, the other just works. 🙌
+One makes you work to get accurate data, the other just works.
 
 ### Misclassified Direct traffic
 
