@@ -1,102 +1,48 @@
 ---
 layout: post
 title: How to analyze top landing pages and exit pages on your website?
-description: How do I see the pages that most visitors land on, the top pages
-  people use before exiting, for marketing analysis.
+description: How do I see the pages that most visitors land on and the top pages
+  people use before exiting?
 slug: analyzing-landing-pages
 date: 2024-11-07T12:26:44.804Z
 author: hricha-shandily
 image: /uploads/pages-report-in-plausible.png
 image-alt: Pages report in Plausible dashboard
 ---
-When you open your Plausible dashboard, one of the key reports you see is the “Top Pages” report. It shows you at a glance, which of your landing pages received the most visits for the time period selected.
+H﻿aving a website means having landing pages and tracking the traffic and performance of pages can bring great amounts of marketing and business insights.
 
-This helps you understand which content or features are drawing in the most traffic, allowing you to gauge interest in specific products, blog posts, pricing pages, or other important sections.
-
-You can also club this information with other analytics like top sources to understand  where your traffic is coming from and which channels (e.g., search engines, social media, or referrals) are driving visitors to specific pages. 
-
-By doing this, you can get a clearer picture of how effective each traffic source is in bringing users to your high-performing pages, and adjust your marketing or content strategy to focus on the channels that contribute the most value.
-
-Here’s what the report offers and how to use it effectively:
+L﻿et's see what are landing pages, how to easily analyze them and how to use such analysis as a site owner.
 
 1. Ordered list
    {:toc}
 
-## How to use this information as a site owner?
+## W﻿hat is a landing page?
 
-L﻿et's first start with an example.
+L﻿iterally, a landing page is a page where visitors "land" on your website after clicking a link on social media, ad, referral, etc.
 
-I noticed that in October 2024, one of the top exit pages for Plausible was our [Changelog page](https://plausible.io/changelog). So I applied a filter for the same, denoted by “1” in the screenshot below.
+This is a single web page usually designed with a specific intent/message: to tell about a feature, to educate about a topic (like this page), to get a form filled, to sell something, etc. 
 
-This filtered the dashboard showing that the sessions that saw people exiting through the Changelog page, had 2.4k visitors, 7.6k pageviews, etc.
+A good landing page is well researched for the needs of its audience, consistent with the messaging of the content piece that brought the traffic, clear, straightforward. You can build it programmatically or with the help of a content management system.
 
-The next thing I wanted to know was where did such sessions land on? So I switched to the Entry Pages tab, denoted by “2” in the screenshot below.
+O﻿nce built, the next step is to track how many visitors each page gets, from where, how, and other performance metrics. Since a website can have many landing pages, it becomes even more important to track what's working with your audience and what's not.
 
-This clearly showed that, apart from 700 people who directly came to the changelog page and exited from there only (this matches with the bounce rate of 28% too), maximum people were the ones using their dashboards, logging in, etc.
+## How do I see the pages with most traffic, time on page, bounce rate, exit rate, etc.?
 
-Now that makes sense and is a good sign. We don’t need to guess as to why the Changelog was acting as a top exit page.
+To analyze the top landing and entry/exit pages on your website, you can use a tool like Plausible Analytics. Y﻿ou can start tracking the performance of landing pages within minutes with Plausible's [standard script](https://plausible.io/lightweight-web-analytics) itself and no special settings required.
 
-So we know that perhaps many subscribers like visiting the changelog before closing their dashboards. Considering that we have ~14k paying subscribers as of November ‘24, 2.4k visitors exhibiting such behavior is a decent chunk of Plausible users and we should optimize the changelog for them.
+This helps you understand which content or features are drawing in the most traffic, allowing you to gauge interest in specific products, blog posts, pricing pages, or other important sections.
 
-![Following a visitor path by filtering dashboard with an exit page](/uploads/carrying-exit-page-analysis-.png "Following a visitor path by filtering dashboard with an exit page")
+You can also club this information with other analytics like [top sources](https://plausible.io/docs/top-referrers) to understand where your traffic is coming from and which channels (e.g., search engines, social media, or referrals) are driving visitors to specific pages.
 
-If you look at “3” in the screenshot, we also know that 5 such people upgraded to a paid plan before exiting. Moreover, the other “Goal Conversions” entries are a good indicator of what other events happened in those sessions.
+When you open your Plausible dashboard, one of the key reports you'll see by default is the “Top Pages” report. It shows you at a glance, which of your landing pages received the most visits, where the visitors land on, and where they exit from, for the time period selected.
 
-This helps us build a specific visitor flow and make multiple conclusions and build an understanding of what works for Plausible visitors/users and what doesn’t.
+![Top pages report in plausible](/uploads/top-pages-report-in-plausible.jpg "Top pages report in plausible")
 
-Here’s how our subscribers analyze the Pages reports to analyze their website's performance:
-
-### Identify what’s attracting or throwing off visitors
-
-The Entry Pages report shows which pages are the first touchpoints for visitors. If certain blog posts or product pages are consistently the top entry points, it means they're resonating well in search engines or through social sharing.
-
-Knowing this, you can keep such pages updated and keep them SEO’d. You can also learn about the kinds of topics that resonate with your audience and create marketing strategies accordingly.
-
-For eg., We at Plausible identified that content about using privacy-friendly analytics serves our visitors better than other types of content. So we try to create similar content on related subjects.
-
-Similarly, if your Exit Pages report shows that visitors are mostly exiting from your pricing page, then it may be an indicator that your pricing is not well accepted by your audience yet.
-
-If you can confirm this conclusion through social media, surveys, or any communication channel with your ideal customers, then you’ll have a great insight about adjusting your pricing accordingly.
-
-Other red flags could be having high exit rates on signup page, documentation, etc. since the user intent is generally high on such pages.
-
-### Assess the impact of marketing campaigns
-
-If you run marketing campaigns (e.g., social media ads, email campaigns), the Landing Page report can show if these efforts are driving visitors to the intended pages.
-
-To confirm campaign success, check if visitors land on the pages you’re promoting. If a campaign is meant to drive users to a particular offer or landing page, but that page isn’t showing up here, it may need adjustments.
-
-Make use of [UTM tracking](https://plausible.io/blog/utm-tracking-tags) for accurately attributing marketing channels. You can also visualize visitor journeys by setting up a [funnel](https://plausible.io/blog/funnels-conversion-optimization) in Plausible.
-
-Use the insights to align ad messaging with popular pages, or adjust targeting to increase traffic to underperforming landing pages.
-
-### Improve UX on entry pages
-
-Since landing pages are the first impression visitors get of your site, it’s good to optimize them for user experience.
-
-So identify traffic patterns. Like, which landing pages have high traffic but lower visit duration than expected for such pages. Once you identify such a page, filter your dashboard by it and see what the bounce rate (the percentage of visitors with a single page view) looks like.
-
-This can clearly signal areas to improve. Some common optimizations include page load speed, layout, content relevance, clear calls-to-action (CTAs) or links to guide visitors to explore other parts of your site, like product pages, contact forms, or resources.
-
-### Optimize low-performing pages
-
-If pages important to business, like your pricing or sign-up page, are low on the list, it could be a signal to improve their visibility –– through SEO, internal linking, or UX adjustments.
-
-### Spot opportunities for conversion
-
-For SaaS, pages with high traffic but low conversion are prime candidates for putting efforts into conversion optimization. Common optimizations include A/B testing calls-to-action (CTAs), updating content, or improving page load speed.
-
-### Do content planning
-
-Use this report to see which types of blog posts or articles resonate most with your audience. Pages that perform well can give way to future content ideas. Those with lower views might benefit from updates or SEO or being deleted for that matter.
-
-## How to use the Pages report in Plausible?
-
-If you don’t have an active Plausible account, you can open our [live demo](https://plausible.io/plausible.io) in a new tab to play around with the Pages report and the dashboard.
+If you don’t have an active Plausible account, you can open our [live demo](https://plausible.io/plausible.io) in a new tab to play around with the Pages report and the dashboard. Let's see how to use the reports:
 
 ### Top, Entry and Exit pages
 
-The Pages report is not only limited to the Top Pages, but you can switch among the following three types of reports:
+The Pages report is not only limited to the Top Pages, but you can switch tabs to access the following three types of reports: 
 
 1. Top Pages – to analyze the pages with the most visitors. 
 2. Entry Pages – to analyze the pages where visitors first land on your site.
@@ -185,5 +131,71 @@ If your site uses a frontend framework that relies on hash-based routing, i.e. U
 This setup enables you to track user navigation within your app without requiring additional configuration, keeping your Pages report comprehensive even in SPA environments.
 
 By understanding and addressing these cases, you can ensure your Pages report remains accurate and reflective of real user behavior on your site. If you need to suggest a new case we should be addressing for accurately tracking landing pages in Plausible, our [feedback board](https://feedback.plausible.io/) is always open.
+
+## How to use this information as a site owner?
+
+L﻿et's see an example first. I noticed that in October 2024, one of the top exit pages for Plausible was our [Changelog page](https://plausible.io/changelog). So I applied a filter for the same, denoted by “1” in the screenshot below.
+
+This filtered the dashboard showing that the sessions that saw people exiting through the Changelog page, had 2.4k visitors, 7.6k pageviews, etc.
+
+The next thing I wanted to know was where did such sessions land on? So I switched to the Entry Pages tab, denoted by “2” in the screenshot below.
+
+This clearly showed that, apart from 700 people who directly came to the changelog page and exited from there only (this matches with the bounce rate of 28% too), maximum people were the ones using their dashboards, logging in, etc.
+
+Now that makes sense and is a good sign. We don’t need to guess as to why the Changelog was acting as a top exit page.
+
+So we know that perhaps many subscribers like visiting the changelog before closing their dashboards. Considering that we have ~14k paying subscribers as of November ‘24, 2.4k visitors exhibiting such behavior is a decent chunk of Plausible users and we should optimize the changelog for them.
+
+![Following a visitor path by filtering dashboard with an exit page](/uploads/carrying-exit-page-analysis-.png "Following a visitor path by filtering dashboard with an exit page")
+
+If you look at “3” in the screenshot, we also know that 5 such people upgraded to a paid plan before exiting. Moreover, the other “Goal Conversions” entries are a good indicator of what other events happened in those sessions.
+
+This helps us build a specific visitor flow and make multiple conclusions and build an understanding of what works for Plausible visitors/users and what doesn’t.
+
+Here’s how our subscribers analyze the Pages reports to analyze their website's performance:
+
+### Identify what’s attracting or throwing off visitors
+
+The Entry Pages report shows which pages are the first touchpoints for visitors. If certain blog posts or product pages are consistently the top entry points, it means they're resonating well in search engines or through social sharing.
+
+Knowing this, you can keep such pages updated and keep them SEO’d. You can also learn about the kinds of topics that resonate with your audience and create marketing strategies accordingly.
+
+For eg., We at Plausible identified that content about using privacy-friendly analytics serves our visitors better than other types of content. So we try to create similar content on related subjects.
+
+Similarly, if your Exit Pages report shows that visitors are mostly exiting from your pricing page, then it may be an indicator that your pricing is not well accepted by your audience yet.
+
+If you can confirm this conclusion through social media, surveys, or any communication channel with your ideal customers, then you’ll have a great insight about adjusting your pricing accordingly.
+
+Other red flags could be having high exit rates on signup page, documentation, etc. since the user intent is generally high on such pages.
+
+### Assess the impact of marketing campaigns
+
+If you run marketing campaigns (e.g., social media ads, email campaigns), the Landing Page report can show if these efforts are driving visitors to the intended pages.
+
+To confirm campaign success, check if visitors land on the pages you’re promoting. If a campaign is meant to drive users to a particular offer or landing page, but that page isn’t showing up here, it may need adjustments.
+
+Make use of [UTM tracking](https://plausible.io/blog/utm-tracking-tags) for accurately attributing marketing channels. You can also visualize visitor journeys by setting up a [funnel](https://plausible.io/blog/funnels-conversion-optimization) in Plausible.
+
+Use the insights to align ad messaging with popular pages, or adjust targeting to increase traffic to underperforming landing pages.
+
+### Improve UX on entry pages
+
+Since landing pages are the first impression visitors get of your site, it’s good to optimize them for user experience.
+
+So identify traffic patterns. Like, which landing pages have high traffic but lower visit duration than expected for such pages. Once you identify such a page, filter your dashboard by it and see what the bounce rate (the percentage of visitors with a single page view) looks like.
+
+This can clearly signal areas to improve. Some common optimizations include page load speed, layout, content relevance, clear calls-to-action (CTAs) or links to guide visitors to explore other parts of your site, like product pages, contact forms, or resources.
+
+### Optimize low-performing pages
+
+If pages important to business, like your pricing or sign-up page, are low on the list, it could be a signal to improve their visibility –– through SEO, internal linking, or UX adjustments.
+
+### Spot opportunities for conversion
+
+For SaaS, pages with high traffic but low conversion are prime candidates for putting efforts into conversion optimization. Common optimizations include A/B testing calls-to-action (CTAs), updating content, or improving page load speed.
+
+### Do content planning
+
+Use this report to see which types of blog posts or articles resonate most with your audience. Pages that perform well can give way to future content ideas. Those with lower views might benefit from updates or SEO or being deleted for that matter.
 
 How do you like to use your Pages report? Let us know at reading@plausible.io and all the best. 🚀
