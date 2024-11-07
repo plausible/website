@@ -20,7 +20,7 @@ By doing this, you can get a clearer picture of how effective each traffic sourc
 Here’s what the report offers and how to use it effectively:
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## How to use the Pages report?
 
