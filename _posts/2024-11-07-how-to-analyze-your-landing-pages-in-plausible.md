@@ -14,13 +14,13 @@ H﻿aving a website means having landing pages and tracking the traffic and perf
 L﻿et's see what are landing pages, how to easily analyze them and how to use such analysis as a site owner.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## W﻿hat is a landing page?
 
 L﻿iterally, a landing page is a page where visitors "land" on your website after clicking a link on social media, ad, referral, etc.
 
-This is a single web page usually designed with a specific intent/message: to tell about a feature, to educate about a topic (like this page), to get a form filled, to sell something, etc. 
+This is a single web page usually designed with a specific intent/message: to tell about a feature, to educate about a topic (like this page), to get a form filled, to sell something, etc.
 
 A good landing page is well researched for the needs of its audience, consistent with the messaging of the content piece that brought the traffic, clear, straightforward. You can build it programmatically or with the help of a content management system.
 
