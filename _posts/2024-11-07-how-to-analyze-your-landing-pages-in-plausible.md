@@ -120,6 +120,26 @@ By understanding and addressing these cases, you can ensure your Pages report re
 
 ## How to use this information as a site owner?
 
+L﻿et's first start with an example.
+
+I noticed that in October 2024, one of the top exit pages for Plausible was our [Changelog page](https://plausible.io/changelog). So I applied a filter for the same, denoted by “1” in the screenshot below.
+
+This filtered the dashboard showing that the sessions that saw people exiting through the Changelog page, had 2.4k visitors, 7.6k pageviews, etc.
+
+The next thing I wanted to know was where did such sessions land on? So I switched to the Entry Pages tab, denoted by “2” in the screenshot below.
+
+This clearly showed that, apart from 700 people who directly came to the changelog page and exited from there only (this matches with the bounce rate of 28% too), maximum people were the ones using their dashboards, logging in, etc.
+
+Now that makes sense and is a good sign. We don’t need to guess as to why the Changelog was acting as a top exit page.
+
+So we know that perhaps many subscribers like visiting the changelog before closing their dashboards. Considering that we have ~14k paying subscribers as of November ‘24, 2.4k visitors exhibiting such behavior is a decent chunk of Plausible users and we should optimize the changelog for them.
+
+![Following a visitor path by filtering dashboard with an exit page](/uploads/carrying-exit-page-analysis-.png "Following a visitor path by filtering dashboard with an exit page")
+
+If you look at “3” in the screenshot, we also know that 5 such people upgraded to a paid plan before exiting. Moreover, the other “Goal Conversions” entries are a good indicator of what other events happened in those sessions.
+
+This helps us build a specific visitor flow and make multiple conclusions and build an understanding of what works for Plausible visitors/users and what doesn’t.
+
 Here’s how our subscribers analyze the Pages reports to analyze their website's performance:
 
 ### Identify what’s attracting or throwing off visitors
@@ -166,24 +186,4 @@ For SaaS, pages with high traffic but low conversion are prime candidates for pu
 
 Use this report to see which types of blog posts or articles resonate most with your audience. Pages that perform well can give way to future content ideas. Those with lower views might benefit from updates or SEO or being deleted for that matter.
 
-### Here’s an example
-
-I noticed that in October 2024, one of the top exit pages for Plausible was our [Changelog page](https://plausible.io/changelog). So I applied a filter for the same, denoted by “1” in the screenshot below.
-
-This filtered the dashboard showing that the sessions that saw people exiting through the Changelog page, had 2.4k visitors, 7.6k pageviews, etc.
-
-The next thing I wanted to know was where did such sessions land on? So I switched to the Entry Pages tab, denoted by “2” in the screenshot below.
-
-This clearly showed that, apart from 700 people who directly came to the changelog page and exited from there only (this matches with the bounce rate of 28% too), maximum people were the ones using their dashboards, logging in, etc.
-
-Now that makes sense and is a good sign. We don’t need to guess as to why the Changelog was acting as a top exit page.
-
-So we know that perhaps many subscribers like visiting the changelog before closing their dashboards. Considering that we have ~14k paying subscribers as of November ‘24, 2.4k visitors exhibiting such behavior is a decent chunk of Plausible users and we should optimize the changelogs for them.
-
-![Following a visitor path by filtering dashboard with an exit page](/uploads/carrying-exit-page-analysis-.png "Following a visitor path by filtering dashboard with an exit page")
-
-If you look at “3” in the screenshot, we also know that 5 such people upgraded to a paid plan before exiting. Moreover, the other “Goal Conversions” entries are a good indicator of what other events happened in those sessions.
-
-This helps us build a specific visitor flow and make multiple conclusions and build an understanding of what works for Plausible visitors/users and what doesn’t.
-
-How do you like to use your Pages report? Let us know!
+How do you like to use your Pages report? Let us know at reading@plausible.io and all the best. 🚀
