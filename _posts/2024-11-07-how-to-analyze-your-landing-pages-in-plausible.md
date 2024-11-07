@@ -1,11 +1,13 @@
 ---
 layout: post
 title: How to analyze your landing pages in Plausible?
-description: How Plausible provides much more accurate data than Google Analytics
+description: How to use Top Pages, Entry, and Exit Page reports to get real
+  insights into visitor behaviour.
 slug: analyzing-landing-pages
 date: 2024-11-07T12:26:44.804Z
 author: hricha-shandily
 image: /uploads/pages-report-in-plausible.png
+image-alt: Pages report in Plausible dashboard
 ---
 When you open your Plausible dashboard, one of the key reports you see is the “Top Pages” report. It shows you at a glance, which of your landing pages received the most visits for the time period selected.
 
