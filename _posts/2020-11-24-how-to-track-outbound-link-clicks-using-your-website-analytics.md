@@ -23,11 +23,13 @@ Outbound links have always been a big part of the open web. It's what helps peop
 ## How do you create outbound links?
 
 You create the outbound links the same way you do your inbound links. In HTML, it looks like this:
+
 ```html
     <a href="https://www.url.com/">link text</a>
 ```
 
 Many also set external links to be opened in new window not to lose the visitor who clicks on them. It's done like this:
+
 ```html
     <a href="https://www.url.com/" target="_blank" rel="noopener noreferrer">link text</a>
 ```
@@ -135,7 +137,7 @@ Plausible Analytics is an independent analytics tool that's built with simplicit
 
 If you want to track external link clicks in Plausible Analytics, here's what you need to do.
 
-### Sign up for a Plausible Analytics account 
+### Sign up for a Plausible Analytics account
 
 First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites.
 
@@ -167,7 +169,7 @@ Click on the "+ Add goal" button to go to the goal creation form. Select `Custom
 
 Next, click on the "Add goal" button and you'll be taken back to the Goals page.
 
-### Check your external link click stats in your dashboard 
+### Check your external link click stats in your dashboard
 
 After you've completed this process, all the external link clicks will start being tracked. They will be displayed in the "Goal Conversions" report at the bottom of your Plausible Analytics dashboard.
 
@@ -177,7 +179,7 @@ You'll see the "Outbound Link: Click" goal as soon as the first external link cl
 * The number of unique external link clicks
 * The conversion rate of different links
 * Top referral sources that lead to clicks
-* Top pages that drive the clicks
+* [Top pages](https://plausible.io/blog/analyzing-landing-pages) that drive the clicks
 * Countries that click on external links
 * Devices (screen size, browser, OS) that click on external links
 
