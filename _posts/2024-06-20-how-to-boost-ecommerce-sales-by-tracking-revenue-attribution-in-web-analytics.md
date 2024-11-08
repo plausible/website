@@ -57,7 +57,7 @@ Everything in web analytics revolves around events. Any insight you want to lear
 
 And any event that brings in revenue to you –– which mostly happens to be the sale of a product –– can be [assigned a dynamic monetary value](https://plausible.io/docs/ecommerce-revenue-tracking) in any currency. This can be done in pretty much any web analytics tool.
 
-This, when mapped against other data from your reports –– like associated traffic sources, top performing pages, engaging elements of the website, types of devices used, etc. –– helps you understand the correlations between these marketing activities and sales. The ideal goal is to recognize which factors significantly affect the sales.
+This, when mapped against other data from your reports –– like associated traffic sources, [top performing pages](https://plausible.io/blog/analyzing-landing-pages), engaging elements of the website, types of devices used, etc. –– helps you understand the correlations between these marketing activities and sales. The ideal goal is to recognize which factors significantly affect the sales.
 
 For eg. If you sell hoodies on your ecommerce store, you could set “purchase_hoodie” as an event and enable revenue tracking for it. So whenever a customer buys this hoodie, your web analytic tool will record it as an event and assign it its revenue-value.
 
