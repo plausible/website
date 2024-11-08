@@ -21,12 +21,12 @@ It is therefore a direct reflection of the degree of value a business or marketi
 
 A downloadable file on a website can be any of the following:
 
-- A software or app download, if your product has an app version. For eg. Figma.
-- An eBook or whitepaper download, if you have helpful content to share with your audience.
-- A spreadsheet download, if you have a useful template to share with your audience. For eg. a product implementation checklist.
-- A sales deck, or brochure, to help promote sales or your product’s features.
-- An audio, video, or PDF download, that could be anything from a song download to a research paper download.
-- Anything else.
+* A software or app download, if your product has an app version. For eg. Figma.
+* An eBook or whitepaper download, if you have helpful content to share with your audience.
+* A spreadsheet download, if you have a useful template to share with your audience. For eg. a product implementation checklist.
+* A sales deck, or brochure, to help promote sales or your product’s features.
+* An audio, video, or PDF download, that could be anything from a song download to a research paper download.
+* Anything else.
 
 Most web analytics tools, including Plausible, track a file download as a link click including a specific extension. Plausible tracks the following: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`, and other custom extensions.
 
@@ -62,13 +62,13 @@ File downloads are pretty standard to track with any Web Analytics tool. If you 
 
 All types of file extensions can be tracked with Plausible, either by default or by specification. On the Plausible dashboard, you will be able to see:
 
-- The number of total file download clicks
-- The number of unique file download clicks
-- The conversion rate
-- Top referral sources that lead to clicks
-- Top pages that drive the clicks
-- Countries, regions and cities that click on file download
-- Devices (screen size, browser, OS) that click on file download
+* The number of total file download clicks
+* The number of unique file download clicks
+* The conversion rate
+* Top referral sources that lead to clicks
+* [Top pages](https://plausible.io/blog/analyzing-landing-pages) that drive the clicks
+* Countries, regions and cities that click on file download
+* Devices (screen size, browser, OS) that click on file download
 
 If you don’t have file downloads to track, you can keep the original script intact, which is effective and efficient. This helps us keep our main tracking script lightweight and not deteriorate page load speeds and visitor experience.
 
