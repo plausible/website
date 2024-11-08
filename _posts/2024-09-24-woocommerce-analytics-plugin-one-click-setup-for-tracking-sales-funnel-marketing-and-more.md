@@ -213,7 +213,7 @@ So if you had to find out how many of those have been added to cart till date, y
 
 This shows that 4 out 29 unique visitors (a 13.8% conversion rate) have added beanies to their carts till date. 
 
-This data is accompanied by other key information (which also got filtered by sessions in which conversions occurred) such as traffic acquisition sources, top pages visited, countries where conversions took place, devices used, and additional details.
+This data is accompanied by other key information (which also got filtered by sessions in which conversions occurred) such as traffic acquisition sources, [top pages visited](https://plausible.io/blog/analyzing-landing-pages), countries where conversions took place, devices used, and additional details.
 
 This is also useful in strategic planning. For example, it is seen that Belgium, India, and the Netherlands showed interest in beanies. So you could experiment with advertising campaigns for these countries. 
 
