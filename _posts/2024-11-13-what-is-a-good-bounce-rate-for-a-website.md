@@ -6,7 +6,8 @@ description: What is bounce rate, what are some industry benchmarks, and how to
 slug: bounce-rate
 date: 2024-11-13T15:49:28.697Z
 author: hricha-shandily
-image: ""
+image: /uploads/bounce-rate.png
+image-alt: bounce rates of webpages
 ---
 When you first see your bounce rate of x%, it can be confusing making you think about what it is, is it good to have a higher or lower bounce rate, how is it being calculated for my site, what are some industry benchmarks, what can I do to improve it, etc. Let’s answer all questions.
 
