@@ -11,7 +11,7 @@ image: ""
 When you first see your bounce rate of x%, it can be confusing making you think about what it is, is it good to have a higher or lower bounce rate, how is it being calculated for my site, what are some industry benchmarks, what can I do to improve it, etc. Let’s answer all questions.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Understanding Bounce Rate
 
@@ -139,4 +139,99 @@ Clicking on any entry (or using the Filter option) in this report segments your 
 
 For eg., We compared the bounce rate on our sign-up page in Plausible between Q2 and Q3 of 2024.
 
-![](/uploads/signup-page-bounce-rate-comparison.jpg)
+![bounce rate on our sign-up page](/uploads/signup-page-bounce-rate-comparison.jpg "bounce rate on our sign-up page")
+
+It can be seen that the bounce rate decreased by 1% from Q2 to Q3. It is a positive indicator.
+
+### Segment bounce rate by traffic sources
+
+You can repeat the above exercise with your Top Sources report. For eg. If we compare how the sessions acquired to the Plausible site from Reddit engage in a comparison of Q3 from Q2, we see that the bounce rate has increased by 3%.
+
+![Bounce rate of individual traffic acquisition sources visible in Plausible](/uploads/bounce-rate-by-sources.jpg "Bounce rate of individual traffic acquisition sources visible in Plausible")
+
+So we can dig further into the posts on Reddit that contributed to this traffic and see what caused this. Generally, it so happens that the messaging or intent of the post (whoever posted it) doesn’t match with that of the landing page, causing high bounce rates.
+
+### Segment bounce rate by locations and devices
+
+Similar to above, you can explore your locations and devices/operating systems/device sizes reports on Plausible and analyze the respective bounce rates. With the locations reporting, you’ll need to use the filtering option to find out the bounce rate though.
+
+### Segment bounce rate by custom properties
+
+[Custom properties](https://plausible.io/docs/custom-props/introduction) lets you track any additional data you want to track on your site. Here are some examples:
+
+* Subscription Level – Tracks user subscription tiers, such as free, premium, or enterprise.
+* Content Author – Identifies the author of a blog post or page for author-specific analytics.
+* Logged-in Status – Differentiates between logged-in and logged-out users.
+* Product Category – Tracks the category of a product viewed or purchased to understand trends.
+
+The great news is that bounce rates can be segmented by this information too! For eg., we track our blog’s performance by authors in Plausible.
+
+If I use the custom property filter to check the bounce rates associated with my content on the Plausible site (in a Q2 vs Q3 ‘24 comparison), we can see the metrics as following:
+
+![Bounce rate of author's content on a site](/uploads/author-bounce-rate.jpg "Bounce rate of author's content on a site")
+
+This way, you can pretty much evaluate the performance of any custom property you are using on your website.
+
+More such examples can be: which category of products see high vs low bounce rates, which specific link text (e.g., 'Download Now' vs. 'Learn More') drives users to stay longer on the site, or which navigation menu items (e.g., 'Pricing' vs. 'Features') correlate with lower bounce rates.
+
+And don’t forget, you can mix and match multiple filters to do a deeper analysis! [Here’s](https://plausible.io/plausible.io?comparison=previous_period&keybindHint=C&period=custom&from=2024-07-01&to=2024-09-30&filters=((is,country,(GB)),(is,source,(DuckDuckGo)),(is,entry_page,(/)))&labels=(GB:United%2BKingdom)) one such segment to inspire you (click the “3 filters” beside the time range selector to understand the filters).
+
+## How to decrease your bounce rate?
+
+Don’t try to aim for a zero bounce rate because it's practically impossible and unnecessary for all sense and purposes. There will, for instance, always be people who land on your site by mistake and immediately exit.
+
+Or, there will always be people with lower attention spans or may have found what they wanted and choose to return to your site at a later time.
+
+Or, if the page is very straightforward and informative and gets to the root of what the user wants to know, such as contact pages, pricing, FAQs, etc., the visitor could bounce away with intentions of taking the conversation, and ultimate conversion, to another channel.
+
+So, not every bounce warrants an optimization. There are some best practices you can apply to keep your bounce rates healthy.
+
+### Use relevant and engaging content
+
+Choose the content format that resonates most with your audience. For instance, if you’re a fashion brand launching a new collection, visuals like photos and videos are likely to be more engaging than a long text-based article.
+
+Understanding that the audience would feel excited about the new line by posting pictures and/or videos about the new product makes more sense and can actually lead to high engagement and low bounce rates.
+
+Choose content formats that make sense for the topic and will keep people interested.
+
+### Know your audience
+
+Unusually high bounce rates mean that either you haven’t found your right audience yet or you have the right audience but can’t produce relevant content for them yet.
+
+Your content should feel relevant and useful to the people visiting your site. High bounce rates mean that visitors aren’t finding what they expected. Know your audience’s needs and address them to encourage visitors to explore more of your site.
+
+This is something we do at Plausible, for instance. We know that many of our subscribers are frustrated Google Analytics users so we try to educate them about the differences between the two tools.
+
+### Make your site fast and mobile-friendly
+
+A slow or hard-to-use site is a sure shot way to make people leave quickly, even if you created the perfect content for the perfect audience. Ensure your pages load very fast. 
+
+And don’t forget mobile users. A design that works well on mobile devices (if relevant to you) to at least not have visitors bounce off because of subpar tech.
+
+### Avoid too many popups
+
+Pop-ups can easily turn visitors off if they’re distracting or unrelated to the page. Keep them to a minimum, using them only when they really add value.
+
+### Match the page to visitor intent
+
+If you’re seeing high bounce rates from a particular source, like email campaigns or social media, it could mean that visitors aren’t finding what they expected on the page. Make sure your landing page aligns with what’s promised in the link or ad.
+
+This is also true for organic traffic from search engine clicks. You may rank for some keywords but if your content doesn’t match with the search intent, you’re likely to experience high bounce rates.
+
+For example, if an email campaign is promoting a specific product or offer, ensure the landing page directly addresses it. This alignment helps visitors feel they’re in the right place, making them more likely to stay and engage further.
+
+### Maintain a good site structure
+
+A well-organized site layout makes it easier for visitors to find what they’re looking for, keeping them on your site longer. Ensure clear navigation, with helpful internal links, footer links, subscription forms, and well-placed calls-to-action that encourage visitors to explore further.
+
+A clean, intuitive design makes for a more enjoyable browsing experience, and clear paths (like menu bars, sidebars, and footers) help guide visitors naturally through the site.
+
+### Run experiments
+
+You can optionally experiment with different approaches to help you learn what keeps visitors engaged. A/B testing, for example, allows you to try out two versions of a page to see which one performs better. You could also gather feedback from visitors on specific elements or content.
+
+## Bouncing off 👋
+
+Lastly, high bounce rates isn’t the end of the world. You can surely find many ways out.
+
+P.S. We are [in the process](https://feedback.plausible.io/228) of measuring the bounce rate metric in more ways than the typical one, making your life easier and stats more accurate. If you want to find out your site’s bounce rate, start a [free trial](https://plausible.io/register) now.
