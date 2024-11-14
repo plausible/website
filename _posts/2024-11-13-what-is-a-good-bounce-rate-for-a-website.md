@@ -201,13 +201,13 @@ Unusually high bounce rates mean that either you haven’t found your right audi
 
 Your content should feel relevant and useful to the people visiting your site. High bounce rates mean that visitors aren’t finding what they expected. Know your audience’s needs and address them to encourage visitors to explore more of your site.
 
-This is something we do at Plausible, for instance. We know that many of our subscribers are frustrated Google Analytics users so we try to educate them about the differences between the two tools.
+This is something we do at Plausible, for instance. We know that many of our subscribers are frustrated Google Analytics users so we try to educate them about the differences between the two tools. And they are some of our most viral posts!
 
 ### Make your site fast and mobile-friendly
 
 A slow or hard-to-use site is a sure shot way to make people leave quickly, even if you created the perfect content for the perfect audience. Ensure your pages load very fast. 
 
-And don’t forget mobile users. A design that works well on mobile devices (if relevant to you) to at least not have visitors bounce off because of subpar tech.
+And don’t forget mobile users. A design that works well on mobile devices (if relevant to you) will ensure that  at least visitors don't bounce off because of subpar tech.
 
 ### Avoid too many popups
 
