@@ -117,7 +117,7 @@ You don’t have to guess that in one go, though. We offer a 30-day free trial (
 
 Plausible provides clear insights into where your audiences are coming from. Whether they arrive from social media, search engines, direct visits, other websites, or any other source –– referral source data helps you segment your audience by how they found your site.
 
-When posting links (from your site) to other platforms like social media, paid ads, newsletters, etc., make sure to [tag them](https://plausible.io/docs/manual-link-tagging) with special query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
+When posting links (from your site) to other platforms like social media, paid ads, newsletters, etc., make sure to [tag them](https://plausible.io/docs/top-referrers) with special query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
 
 Plausible automatically captures these parameters, and you can view the segmented data under the "[Top Sources](https://plausible.io/docs/top-referrers)" section.
 
