@@ -213,7 +213,7 @@ This referral source includes visitors who typed your URL into their browser, cl
 
 #### How to minimize the amount of traffic without referrals 
 
-To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://plausible.io/docs/manual-link-tagging/). Plausible Analytics supports the following parameters:
+To minimize the amount of traffic that falls within the "Direct / None" category, you can [add these special query parameters to your links](https://plausible.io/docs/top-referrers). Plausible Analytics supports the following parameters:
 
 * yourdomain.com?ref=Newsletter
 * yourdomain.com?source=Newsletter
