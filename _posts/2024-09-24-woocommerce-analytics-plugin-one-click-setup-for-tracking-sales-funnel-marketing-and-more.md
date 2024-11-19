@@ -187,7 +187,7 @@ Your Plausible account functions just like any standard account, giving you acce
 
 We recommend implementing the following practices, as applicable, to ensure an optimal and highly functional setup.
 
-[Tag your URLs](https://plausible.io/docs/manual-link-tagging#how-to-utm-tag-links-in-your-marketing-campaigns) with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This practice will reduce the traffic categorized as Direct/Unknown and provide clearer insights into your traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
+[Tag your URLs](https://plausible.io/docs/top-referrers) with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This practice will reduce the traffic categorized as Direct/Unknown and provide clearer insights into your traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
 
 [Connect Plausible with your Google Search Console](https://plausible.io/docs/google-search-console-integration) account to get an overview of the top performing keywords that bring your traffic from Google. This will help you understand how well your content and SEO contribute to traffic, sales and other goals.
 
