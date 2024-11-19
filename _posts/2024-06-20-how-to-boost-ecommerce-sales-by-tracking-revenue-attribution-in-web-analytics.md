@@ -144,7 +144,7 @@ You can also do a ton of other stuff to understand your revenue attributions:
 
 #### Making the most of Plausible
 
-**[Tag your URLs](https://plausible.io/docs/manual-link-tagging#how-to-utm-tag-links-in-your-marketing-campaigns)** with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This will keep your traffic from getting shown in the Direct/Unknown category, and give you a better view of the traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
+**[Tag your URLs](https://plausible.io/docs/top-referrers)** with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This will keep your traffic from getting shown in the Direct/Unknown category, and give you a better view of the traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
 
 **[Connect Plausible with your Google Search Console](https://plausible.io/docs/google-search-console-integration)** account to get an overview of the top performing keywords that bring your traffic from Google. This will help you understand how well your content and SEO contribute to sales.
 
