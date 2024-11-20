@@ -35,6 +35,9 @@ plugins:
  - jekyll-purgecss
  - jekyll-minifier
 
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - Gemfile.lock
