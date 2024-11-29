@@ -19,12 +19,12 @@ B﻿ut Google Analytics is not privacy-friendly, requires a cookie consent banne
 
 Therefore, you can track your paid campaigns and how they affect conversions on your site, using Plausible Analytics –– the simpler, privacy-friendly (no consent banner required), and more accurate alternative to Google Analytics.
 
-I﻿n this article, we cover Plausible Analytics as an alternative to Google Analytics for tracking paid campaigns, especially Google Ads better. We also share what all cannot be done with Plausible <> Google Ads due to our privacy-friendly nature.
+I﻿n this article, we cover Plausible Analytics as an alternative to Google Analytics for tracking paid campaigns, especially Google Ads, better. We also share what all cannot be done with Plausible <> Google Ads due to our privacy-friendly nature.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
-## So what’s wrong with Google Analytics?
+## What’s wrong with Google Analytics?
 
 Google Analytics does not track ads performance accurately because it often struggles to track conversions accurately. C'mon Google, you had one job!
 
@@ -54,11 +54,11 @@ We have a [detailed comparison here](https://plausible.io/vs-google-analytics).
 
 ## Setup and track your paid campaigns with Plausible
 
-While setting up your ads in Google or anywhere, make sure to [UTM-tag](https://plausible.io/blog/utm-tracking-tags) your links. 
+While setting up your ads in Google or anywhere, make sure to [UTM-tag](https://plausible.io/blog/utm-tracking-tags) your links. This will help Plausible to correctly identify the traffic as paid, from which referral exactly, which campaigns, terms, and content used as specified in the UTM-tagging done by you.
 
 Please note we work with a [last-touch attribution model](https://plausible.io/blog/ecommerce-revenue-attribution#revenue-attribution-models) because of our privacy-first nature. This means that the traffic source from which such sessions were acquired where conversions happened, are the ones credited for that conversion.
 
-### Tagging URLs in Google Ads 
+### Tagging URLs in Google Ads
 
 W﻿hen it comes to Google Ads,﻿ you can utilize either auto-tagging or manual UTM tagging. Here’s how to do it:
 
@@ -121,7 +121,7 @@ You can learn more about UTM tracking in our [guide](https://plausible.io/blog/u
 
 Now, traffic from these ads will appear in Plausible under the Campaigns tab of the Top Sources report, categorized by UTM parameters. 
 
-### Visualizing campaign performance in Plausible
+### Tracking campaign performance in Plausible 
 
 In a nutshell, our [simple dashboard](https://plausible.io/simple-web-analytics) allows you to filter and visualize campaign performance effectively in three steps:
 
