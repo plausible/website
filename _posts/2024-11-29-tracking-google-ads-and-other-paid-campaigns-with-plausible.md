@@ -5,6 +5,7 @@ description: How to track the performance of Google Ads and other platforms in P
 slug: google-ads-tracking
 date: 2024-11-29T16:07:29.081Z
 author: hricha-shandily
+image: /uploads/tracking-paid-campaign-on-plausible-dashboard.png
 ---
 If you run paid campaigns on Google, Bing, Instagram, any newsletters, or even sponsored videos, etc., to drive sales or other conversion actions like sign-up, it’s a good idea to integrate an analytics tool. This helps fill blind spots about what was actually done on the website after someone clicked on your ad.
 
@@ -17,6 +18,9 @@ B﻿ut Google Analytics is not privacy-friendly, requires a cookie consent banne
 Therefore, you can track your paid campaigns and how they affect conversions on your site, using Plausible Analytics –– the simpler, privacy-friendly (no consent banner required), and more accurate alternative to Google Analytics.
 
 I﻿n this article, we cover Plausible Analytics as an alternative to Google Analytics for tracking paid campaigns, especially Google Ads better. We also share what all cannot be done with Plausible <> Google Ads due to our privacy-friendly nature.
+
+1. Ordered list
+{:toc}
 
 ## So what’s wrong with Google Analytics?
 
