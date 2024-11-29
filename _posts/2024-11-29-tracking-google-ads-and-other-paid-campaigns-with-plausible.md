@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Tracking Google Ads and other paid campaigns with Plausible
-description: How to track the performance of Google Ads and other platforms in Plausible?
+description: Guide to using auto-tagging, UTM parameters, and privacy-friendly
+  analytics to measure campaign performance effectively.
 slug: google-ads-tracking
 date: 2024-11-29T16:07:29.081Z
 author: hricha-shandily
 image: /uploads/tracking-paid-campaign-on-plausible-dashboard.png
+image-alt: Plausible dashboard paid ads tracking
 ---
 If you run paid campaigns on Google, Bing, Instagram, any newsletters, or even sponsored videos, etc., to drive sales or other conversion actions like sign-up, it’s a good idea to integrate an analytics tool. This helps fill blind spots about what was actually done on the website after someone clicked on your ad.
 
