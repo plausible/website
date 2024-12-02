@@ -98,7 +98,7 @@ When UTM tags are present in the URL, it takes priority over other parameters. A
 
 T﻿o track your campaigns using this method, follow these steps:
 
-**Step 1:** Create a UTM-tagged URL. You can utilize the [Google Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) for this purpose or do it manually. For example: <https://yourwebsite.com?utm_source=google&utm_medium=ppc&utm_campaign=spring_sale&utm_content=text_ad&utm_term=shoes>
+**Step 1:** Create a UTM-tagged URL. You can utilize the [Google Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) for this purpose or do it manually. For example: [`https://yourwebsite.com?utm_source=google&utm_medium=ppc&utm_campaign=spring_sale&utm_content=text_ad&utm_term=shoes`](https://yourwebsite.com?utm_source=google&utm_medium=ppc&utm_campaign=spring_sale&utm_content=text_ad&utm_term=shoes)``
 
 Explanation of parameters:
 
