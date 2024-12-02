@@ -22,7 +22,7 @@ Therefore, you can track your paid campaigns and how they affect conversions on 
 I﻿n this article, we cover Plausible Analytics as an alternative to Google Analytics for tracking paid campaigns, especially Google Ads, better. We also share what all cannot be done with Plausible <> Google Ads due to our privacy-friendly nature.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What’s wrong with Google Analytics?
 
