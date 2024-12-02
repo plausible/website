@@ -62,7 +62,7 @@ Please note we work with a [last-touch attribution model](https://plausible.io/b
 
 W﻿hen it comes to Google Ads,﻿ you can utilize either auto-tagging or manual UTM tagging. Here’s how to do it:
 
-#### 1﻿. **Using auto-tagging in Google Ads**
+#### Using auto-tagging in Google Ads
 
 Google Ads’ [auto-tagging](https://support.google.com/google-ads/answer/3095550?hl=en) generates a GCLID (Google Click ID) for tracking ad performance. It is turned on by default. When someone clicks your ad, auto-tagging adds a parameter called GCLID to the URLs.
 
@@ -90,7 +90,7 @@ Traffic from Google Ads will be categorized as following in the [Top Sources rep
 
 ![gclid tracking in Plausible](/uploads/gclid.gif "gclid tracking in Plausible")
 
-#### 2. Manually tagging links with UTM parameters
+#### Manually tagging links with UTM parameters
 
 With the auto-tagging method, you won’t be able to pinpoint the exact campaign, content or terms that brought you traffic. For more granular tracking or if you prefer not to use auto-tagging, you can manually add UTM parameters to your ad URLs.
 
@@ -121,7 +121,7 @@ You can learn more about UTM tracking in our [guide](https://plausible.io/blog/u
 
 Now, traffic from these ads will appear in Plausible under the Campaigns tab of the Top Sources report, categorized by UTM parameters. 
 
-### Tracking campaign performance in Plausible 
+### Tracking campaign performance in Plausible
 
 In a nutshell, our [simple dashboard](https://plausible.io/simple-web-analytics) allows you to filter and visualize campaign performance effectively in three steps:
 
