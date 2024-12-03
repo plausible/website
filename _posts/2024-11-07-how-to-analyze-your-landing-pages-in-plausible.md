@@ -170,7 +170,7 @@ Other red flags could be having high exit rates on signup page, documentation, e
 
 ### Assess the impact of marketing campaigns
 
-If you run marketing campaigns (e.g., social media ads, email campaigns), the Landing Page report can show if these efforts are driving visitors to the intended pages.
+If you run marketing campaigns (e.g., paid ads, email campaigns), the Landing Page report can show if these efforts are driving visitors to the intended pages.
 
 To confirm campaign success, check if visitors land on the pages you’re promoting. If a campaign is meant to drive users to a particular offer or landing page, but that page isn’t showing up here, it may need adjustments.
 
