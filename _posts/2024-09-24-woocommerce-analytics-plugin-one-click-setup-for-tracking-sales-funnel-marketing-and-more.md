@@ -35,7 +35,7 @@ Or in other words, they help you get a birds-eye view of all the possible data t
 P.S. You can take a quick look at [Plausible’s live demo](https://plausible.io/plausible.io), where we show our own website’s real stats, to see what you’ll get in an active Plausible dashboard.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## How does Plausible Analytics compare to Google Analytics for WooCommerce tracking?
 
