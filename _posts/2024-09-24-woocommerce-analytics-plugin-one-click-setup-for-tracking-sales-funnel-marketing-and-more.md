@@ -91,7 +91,7 @@ Slower stores are bad for SEO, site experience, cart abandonment, and whatnot. T
 WooCommerce account comes with some [in-built reporting](https://woocommerce.com/document/woocommerce-analytics/) for tracking basic ecommerce metrics like sales, orders, refunds, taxes, shipping, etc. The main difference between this reporting and a web analytics plugin like Plausible is that you can also do the following with Plausible:
 
 * You can also track traffic to pages, and where they come from (social, ads, emails, etc.). 
-* You can track the effectiveness of various marketing campaigns like an organic social media campaign, a Google Ads campaign, SEO, etc. and directly link them to sales.
+* You can track the effectiveness of various marketing campaigns like an organic social media campaign, a [Google Ads campaign](https://plausible.io/blog/google-ads-tracking), SEO, etc. and directly link them to sales.
 * You can track other metrics like bounce rate, visit duration, pages visited on your website, devices used, users’ countries and regions, etc.
 * You can visualize the end-to-end user journey from discovering your product or brand to completing a checkout. You can build [purchase funnels](https://plausible.io/blog/funnels-conversion-optimization) on Plausible. With this understanding of customers’ behavior and preferences, and where the funnel is leaking, you can take corrective action to improve sales.
 * You can track anything you want (like  on your website through custom events, beyond the standard events provided by the in-house WooCommerce analytics.
