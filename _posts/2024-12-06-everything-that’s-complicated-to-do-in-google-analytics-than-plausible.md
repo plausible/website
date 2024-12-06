@@ -22,9 +22,9 @@ We created Plausible with simplicity in mind, so you wouldn’t have to worry ab
 **Helpful tip**: You can open our [live dashboard](https://plausible.io/plausible.io) in another tab now as we keep referencing it throughout. You can also open the official [GA4 Merch Shop demo property](https://support.google.com/analytics/answer/6367342?hl=en#zippy=%2Cin-this-article) in a third tab to make the comparisons easier.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
-## Quick revision: Standard vs Custom reports in GA 4
+## Quick revision: Standard vs Custom reports in Google Analytics 4
 
 Google Analytics is mainly divided into two types of reports: standard reports and custom reports, aka Explorations. All the pre-built reports that are available under the “Reports” sidebar in GA4 are the standard ones.
 
