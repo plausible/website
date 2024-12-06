@@ -11,7 +11,7 @@ Plausible Analytics is an open source, simple, lightweight and privacy-friendly 
 ![Plausible: Open source Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Open source Google Analytics alternative")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is web analytics?
 
