@@ -83,7 +83,17 @@ You don't need to show any [cookie banners](https://plausible.io/blog/cookie-con
 
 Plausible is simple to set up and integrate into your website no matter which CMS you use or how you've built your site. You simply insert our one-line JavaScript snippet into the <head> section of the pages you'd like to keep an eye on and the numbers will start rolling in.
 
-**5. Created by an independent developer**
+**5﻿. Much easier to get business insights as compared to Google Analytics 4**
+
+Fetching most of even basic business insights from GA4 requires going through multiple different standard reports while editing them, using Explorations to build custom tables from scratch, or using a combination of both depending upon the use case. There's no exact one-stop overview with simple metrics.
+
+F﻿or example, there's a straightforward Exit Pages report available in the Plausible dashboard. But you would need to build a full-fledged custom report ("Explorations") from scratch in Google Analytics to learn the same insight.
+
+Similarly, you would need to build a custom report with multiple complex dimensions and metrics to learn how many conversions were acquired from which source, page, city, device, etc. –– all in one page. Again, this is as easy as applying a few filters in Plausible's dashboard.
+
+W﻿e cover all these instances where Plausible is easier to use than GA4 in [this comparison](https://plausible.io/blog/easy-insights).
+
+**6. Created by an independent developer**
 
 Plausible is not created by one of the largest companies in the world and is not run by a huge team. Plausible is created by a small independent team and no external funding. By using Plausible, you will support indie-developers, indie-businesses and an independent web.
 
