@@ -169,7 +169,7 @@ We are also not blocked by a lot of ad blockers and privacy-focused browsers lik
 
 ### Google Analytics is not what you think it is.  
 
-Google Analytics 4 is a default choice for many site owners. When it comes to audience segmentation analysis, “Audiences” begins as a setting in a complex settings panel and ends up in the “Free Form” reports.
+Google Analytics 4 is a default choice for many site owners. When it comes to audience segmentation analysis, “Audiences” begins as a setting in a [complex settings](https://plausible.io/blog/easy-insights#segmentation-of-audiences) panel and ends up in the “Free Form” reports.
 
 In Google Analytics 4, you can create different audience groups based on user behavior. These groups let you organize users who visit your site in specific ways. You can then use these audience groups for things like retargeting ads in Google Ads. 
 
