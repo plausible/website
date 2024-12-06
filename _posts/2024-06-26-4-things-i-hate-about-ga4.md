@@ -120,7 +120,7 @@ Regardless, steering away from this is extremely important not just from a busin
 
 ## IV. The complexity isn’t a bug, it’s a feature
 
-It’s an ever-evolving maze in there. And the GA4 docs that are supposed to help navigate it, are a victim of the tool’s own robustness.
+It’s an [ever-evolving maze](https://plausible.io/blog/easy-insights) in there. And the GA4 docs that are supposed to help navigate it, are a victim of the tool’s own robustness.
 
 Here are a few reasons I say this:
 
