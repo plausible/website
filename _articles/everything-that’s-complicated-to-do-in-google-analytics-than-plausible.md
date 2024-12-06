@@ -18,7 +18,7 @@ We created Plausible with simplicity in mind, so you wouldn’t have to worry ab
 **Helpful tip**: You can open our [live dashboard](https://plausible.io/plausible.io) in another tab now as we keep referencing it throughout. You can also open the official [GA4 Merch Shop demo property](https://support.google.com/analytics/answer/6367342?hl=en#zippy=%2Cin-this-article) in a third tab to make the comparisons easier.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Quick revision: Standard vs Custom reports in GA 4
 
@@ -93,8 +93,7 @@ Here are the steps recommended from GA4 experts:
 
 Also, if you use the Looker Studio, then the Exits metric is not available therein.
 
-### \
-How many conversions were acquired from which source, page, city, device, etc.?
+### How many conversions were acquired from which source, page, city, device, etc.?
 
 Conversions are known as Goals in Plausible and Key Events in Google Analytics 4.
 
