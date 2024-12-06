@@ -113,11 +113,11 @@ That leaves a single logical choice for tracking accurate revenue attributions: 
 
 ### Tracking revenue-synced conversions in Plausible
 
-In Plausible, website traffic is tracked based on sessions, and we don’t remember a user beyond one day. You get a simple dashboard, without hidden layers of menus and without having to figure out different attribution models.
+In Plausible, website traffic is tracked based on sessions, and we don’t remember a user beyond one day. You get a [simple dashboard](https://plausible.io/simple-web-analytics), without hidden layers of menus and without having to figure out different attribution models.
 
 Plus:
 
-* You can get [simple and quick](https://plausible.io/simple-web-analytics) answers at a glance.
+* You can get [simple and quick answers](https://plausible.io/blog/easy-insights) at a glance.
 * You don’t need to employ any consent banners on your website. This is because we are built in the EU, and are privacy-first and [open-source](https://plausible.io/open-source-website-analytics) by principle.
 * You don’t have to worry about cookies-related issues because we use a [cookie-less mechanism](https://plausible.io/blog/google-analytics-cookies) to track website data.
 * You can also count data from the users who use ad blockers, by using a [proxy](https://plausible.io/docs/proxy/introduction).
