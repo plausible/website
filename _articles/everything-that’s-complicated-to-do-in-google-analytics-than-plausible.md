@@ -1,7 +1,8 @@
 ---
 layout: article
 title: Everything that’s complicated to do in Google Analytics than Plausible
-description: cfc
+description: Finding these insights in Google Analytics can be a struggle.
+  Plausible simplifies this.
 permalink: /easy-insights
 ---
 The Google Analytics 4 interface has multiple reports, beneath multiple layers of menus. Some reports are standard, i.e. pre-made and available by default, while others are custom (“Explorations”) that you need to create on your own from scratch.
@@ -17,7 +18,7 @@ We created Plausible with simplicity in mind, so you wouldn’t have to worry ab
 **Helpful tip**: You can open our [live dashboard](https://plausible.io/plausible.io) in another tab now as we keep referencing it throughout. You can also open the official [GA4 Merch Shop demo property](https://support.google.com/analytics/answer/6367342?hl=en#zippy=%2Cin-this-article) in a third tab to make the comparisons easier.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Quick revision: Standard vs Custom reports in GA 4
 
