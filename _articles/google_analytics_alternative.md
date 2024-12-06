@@ -18,7 +18,7 @@ Here's why you should break the habit of using Google Analytics and consider [Pl
 
 ### Easy to use vs complex web analytics
 
-[Google Analytics](https://analytics.google.com/analytics/web/) is overkill for most website owners. It’s a powerful but complex tool that takes time to understand and requires training. Google Analytics collects way too many data points and most people find real and regular use for only a fraction of the data it measures.
+[Google Analytics](https://analytics.google.com/analytics/web/) is overkill for most website owners. It’s a powerful but [complex tool](https://plausible.io/blog/easy-insights) that takes time to understand and requires training. Google Analytics collects way too many data points and most people find real and regular use for only a fraction of the data it measures.
 
 Plausible is easy to use and understand with no training or prior experience necessary. Plausible cuts through the noise by presenting all the important website traffic and business insights on an intuitive dashboard.
 
@@ -80,8 +80,10 @@ We’re happy to provide information on how Plausible is built to help you compl
 With Plausible, you not only count visitors who reject the GDPR consent banner but you also gain the advantage of several built-in measures designed to improve the accuracy of your statistics:
 
 * Known referrer spam domains and traffic originating from data centers is filtered out. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats. For eg., Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar instances, but Plausible handles them all automatically for you.
-* We attempt to uncover traffic originating from Android apps which is traditionally categorized as "Direct / None" in Google Analytics. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
-* Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry in the Countries list to eliminate the noise that these services add to the locations report
+* We attempt to uncover traffic originating from Android apps which is traditionally categorized as "Direct / None" in Google Analytics. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram.
+* Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry in the Countries list to eliminate the noise that these services add to the locations report.
+
+[H﻿ere](https://plausible.io/most-accurate-web-analytics) are more reasons Plausible is more accurate as compared to Google Analytics 4.
 
 ### Avoiding the adblockers
 
