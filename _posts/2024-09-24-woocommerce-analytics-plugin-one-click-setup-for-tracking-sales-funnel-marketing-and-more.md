@@ -39,7 +39,7 @@ P.S. You can take a quick look at [Plausible’s live demo](https://plausible.io
 
 ## How does Plausible Analytics compare to Google Analytics for WooCommerce tracking?
 
-Traditionally, Google Analytics has been the go-to tool for this purpose. But it requires a deeply technical and complex setup, [loses a lot of accurate data](https://plausible.io/most-accurate-web-analytics) due to being blocked by many ad blockers, missing bot protection and consent banner declines, and is [not GDPR-compliant](https://plausible.io/blog/google-analytics-gdpr). 
+Traditionally, Google Analytics has been the go-to tool for this purpose. But it requires a deeply technical and [complex](https://plausible.io/blog/easy-insights) setup, [loses a lot of accurate data](https://plausible.io/most-accurate-web-analytics) due to being blocked by many ad blockers, missing bot protection and consent banner declines, and is [not GDPR-compliant](https://plausible.io/blog/google-analytics-gdpr). 
 
 Plausible Analytics is a powerful alternative that is lightweight, easy to use, and privacy-friendly.
 
