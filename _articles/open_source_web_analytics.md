@@ -11,7 +11,7 @@ Plausible Analytics is an open source, simple, lightweight and privacy-friendly 
 ![Plausible: Open source Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible: Open source Google Analytics alternative")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is web analytics?
 
@@ -59,7 +59,7 @@ No, Google Analytics is not open source. Google Analytics is a closed source, pr
 
 Other than Plausible being open source while Google Analytics being closed source, there are many other ways that these two site analytics products differ:
 
-1. Plausible is more simple to use as it tracks a smaller number of metrics and presents them on an easier to understand dashboard. Rather than tracking every metric imaginable, many of them that you will never find a use for, [Plausible Analytics focuses on the most essential stats](https://plausible.io/simple-web-analytics) only.
+1. Plausible is more simple to use as it tracks a smaller number of metrics and presents them on an easier to understand dashboard. Rather than tracking every metric imaginable, many of them that you will never find a use for, Plausible Analytics focuses on the [most essential stats only](https://plausible.io/simple-web-analytics). And presents them in a [more understandable](https://plausible.io/blog/easy-insights) way.
 2. [Plausible Analytics is lightweight](https://plausible.io/lightweight-web-analytics). Our script is a small script that is lighter and faster to load so you will reduce the page weight of your site compared to when using Google Analytics. Our script is more than 75 times smaller than a typical Google Analytics script.
 3. Plausible doesn't use cookies and doesn't track nor collect any personal data. This means that we are [compliant with the cookie law and other privacy regulations](https://plausible.io/data-policy) out of the box. There is no need for you to include GDPR, CCPA and other consent prompts nor to have a privacy policy because of the Plausible analytics.
 
