@@ -18,7 +18,9 @@ Plausible Analytics is compliant with different privacy regulations so you don't
 
 ## Get actionable insights from your key traffic and referral metrics
 
-Getting actionable insights from traditional web analytics tools can be a cumbersome, time-consuming and painful process. Plausible is built with simplicity in mind. [Our dashboard is simple](https://plausible.io/simple-web-analytics) to understand without having any prior experience, training or support. 
+Getting actionable insights from traditional web analytics tools can be a cumbersome, time-consuming and [painful process](https://plausible.io/blog/easy-insights). Plausible is built with simplicity in mind. 
+
+[Our dashboard is simple](https://plausible.io/simple-web-analytics) to understand without having any prior experience, training or support. 
 
 Everything you need to know is on one page. There are no layers of menus. There is no need for you to build custom reports and dashboards. You get an overview in one minute and can get on with tasks that you enjoy more, such as creating new content or building your audience.
 
