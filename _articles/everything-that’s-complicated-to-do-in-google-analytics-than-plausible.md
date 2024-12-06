@@ -44,31 +44,19 @@ The aforementioned metrics are also available as metrics in GA 4 which can essen
 
 But if you want to know where these insights are typically housed (based on the GA4 structure) when you open your GA dashboard, you will need to open different reports as explained below.
 
-Unique visitors: Are known as “users” in GA4 and this metric is available in the User Acquisition report. 
+**Unique visitors**: Are known as “users” in GA4 and this metric is available in the User Acquisition report. 
 
-Quick context: Why “user acquisition”? This is because GA4 profiles users and tries to separate unique users from total sessions, with the help of [cookies](https://plausible.io/blog/chrome-third-party-cookies). Plausible, though, is privacy-friendly and only counts aggregated stats in terms of sessions and never tracks individual users.
+*Quick context*: Why “user acquisition”? This is because GA4 profiles users and tries to separate unique users from total sessions, with the help of [cookies](https://plausible.io/blog/chrome-third-party-cookies). Plausible, though, is privacy-friendly and only counts aggregated stats in terms of sessions and never tracks individual users.
 
+**Total visits**: Are known as “sessions” in GA4 and this metric is available in the Traffic Acquisition report.
 
+**Total pageviews**: This metric is available in the Pages and Screens report.
 
-Total visits: Are known as “sessions” in GA4 and this metric is available in the Traffic Acquisition report.
+**Views per visit**: This metric is also available in the Pages and Screens report but not by default. It needs to be manually added using the report edit button.
 
+**Bounce Rate**: Bounce rate is also available as a metric which needs to be manually added to any of the reports you are viewing. It is not available by default and there’s no one-stop place to view it.
 
-
-Total pageviews: This metric is available in the Pages and Screens report.
-
-
-
-Views per visit: This metric is also available in the Pages and Screens report but not by default. It needs to be manually added using the report edit button.
-
-
-
-Bounce Rate: Bounce rate is also available as a metric which needs to be manually added to any of the reports you are viewing. It is not available by default and there’s no one-stop place to view it.
-
-
-
-Time on Page: This is not available. But you can find the Average Engagement Time per User and Average Engagement Time per Session metrics to be added to any report. You may also find these in the Engagement Overview report.
-
-
+**Time on Page**: This is not available. But you can find the Average Engagement Time per User and Average Engagement Time per Session metrics to be added to any report. You may also find these in the Engagement Overview report.
 
 P.S. While editing any standard report to add such metrics, don’t forget to “Save” them. It will avoid the trouble of adding the metric again and again.
 
