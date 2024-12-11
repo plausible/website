@@ -23,7 +23,7 @@ Coming back to our traffic surge from AI channels, we did not exactly apply any 
 While we are at it, we did figure out some AI optimization “techniques” that are worth noting. Let’s go.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Analyzing Plausible’s AI search traffic boost in 2024
 
