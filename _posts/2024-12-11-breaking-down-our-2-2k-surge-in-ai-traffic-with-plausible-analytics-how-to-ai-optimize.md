@@ -14,7 +14,7 @@ In 2024, the Plausible website saw a ~2,200% increase in referral traffic from f
 
 AI has officially taken over the way we search for things on our minds and get answers. Earlier, the AI models used to have a knowledge cutoff date with no internet access and had limited use cases. Eventually, the information became more up-to-date and transformed the way AI chats were used.
 
-Similarly, AI has started citing its sources now and started sending traffic to websites. Many businesses and individuals are curious about how they can start appearing or being mentioned more in the answers given by AI – a so-called “AI optimization” or “AI search optimization” or “AI SEO.”
+Similarly, AI has started citing its sources now and started sending traffic to websites. Many businesses and individuals are curious about how they can start appearing or being mentioned more in the answers given by AI – a so-called “AI optimization” or “AI search optimization.”
 
 The need seems to be somewhat more urgent given the lower click through rates to websites from Google SERPs because of Google AI overviews. Gartner [says](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents) search engine use will drop by about 25% by 2026,  because of AI chatbots and other virtual assistants.
 
