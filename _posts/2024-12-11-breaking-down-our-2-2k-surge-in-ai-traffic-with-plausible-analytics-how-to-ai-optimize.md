@@ -136,13 +136,13 @@ At the core of everything is a thoughtful product, built over the years that con
 
 Whenever we decide on a new topic to write about, we like to understand what the ideal reader might be seeking from it. This helps us understand the intent behind the topic and helps us match it. Intent matching triumphs keyword matching for us.
 
-This aligns with Google’s regular “helpful content updates” as well, which regularly penalizes websites for trying to hack the algorithm. This confirms that only useful content that understands the problem and offers real solutions will do well and not necessarily the one being optimized for searches.
+This aligns with Google’s regular “helpful content updates” as well, which regularly penalizes websites for trying to hack the algorithm. This confirms that only useful content that understands the problem and offers real solutions will do well in the long run and not necessarily the one being optimized for searches.
 
 Since AI tools pick their knowledge from search engines, it’s quite obvious that if a search engine likes you (high brand authority) –– you are more likely to be noticed by AI as well. 
 
 ## What can you *really* do?
 
-Let’s look at the things that can practically be done to ensure best chances of being AI-featured in its answers.
+Let’s look at the things that can practically be done to ensure best chances of being featured by AI in its answers.
 
 ### Identify your low hanging fruits
 
