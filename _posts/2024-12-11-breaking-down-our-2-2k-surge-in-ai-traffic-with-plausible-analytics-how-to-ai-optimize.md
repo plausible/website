@@ -187,7 +187,7 @@ Now, “llms.txt” files are making an appearance. According to [the](https://l
 
 > We propose that those interested in providing LLM-friendly content add a /llms.txt file to their site. This is a markdown file that provides brief background information and guidance, along with links to markdown files (which can also link to external sites) providing more detailed information. This can be used, for instance, in order to provide information necessary for coders to use a library, or as part of research to learn about a person or organization and so forth. You are free to use the llms.txt logo on your site to indicate your support if you wish.
 
-Even though there’s nothing official about this, if you notice the list of projects already using an llms.txt file in [this library](https://llmstxt.site/), you will notice that Anthropic itself uses it too. And who is Anthropic? It’s the creator of Claude AI. So there must be some merit in this optimization.
+Even though there’s nothing official about this, if you notice the list of projects already using an `llms.txt` file in [this library](https://llmstxt.site/), you will notice that Anthropic itself uses it too. And who is Anthropic? It’s the creator of Claude AI. So there must be some merit in this optimization.
 
 Thank us later.
 
@@ -205,9 +205,9 @@ Don’t stop at an isolated content piece but address related questions and cove
 
 ### Optimize for natural language and voice search
 
-This has been a growing SEO technique as well but makes a lot of sense for “AI SEO.” Why? Because voice search is becoming a key way people find information.
+This has been a growing SEO technique as well but makes a lot of sense for “AI optimization.” Why? Because voice search is becoming a key way people find information.
 
-Try to match natural, conversational language rather than traditional typing patterns. Users tend to phrase their queries in a more conversational tone when using voice search.
+Try to match natural, conversational language rather than traditional typing patterns. People tend to phrase their queries in a more conversational tone when using voice search. 
 
 ## Conclusion
 
