@@ -22,7 +22,7 @@ But extra metrics doesn't always mean extra insights –– but in many cases, m
 The question, though, is which metrics are actually useful for a website to track. This begs for the fundamental question to be resurfaced: what is the purpose of analytics? And how to decide which ones to track for your website.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is the purpose of analytics?
 
