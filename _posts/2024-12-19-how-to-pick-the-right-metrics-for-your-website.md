@@ -6,7 +6,8 @@ description: How to avoid metric overload and track the most useful website
 slug: pick-the-right-metrics
 date: 2024-12-19T06:57:23.446Z
 author: hricha-shandily
-image: /uploads/ai-traffic-growth-in-plausible-in-2024.jpg
+image: /uploads/plausible.png
+image-alt: analytics dashboard
 ---
 You can track almost any activity you want on your site with modern web analytics tools. And the process has only gotten simpler during the last decade.
 
