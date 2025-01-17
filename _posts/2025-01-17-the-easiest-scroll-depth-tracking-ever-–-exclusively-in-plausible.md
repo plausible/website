@@ -24,7 +24,7 @@ We automatically track and display all percentages to which your visitors scroll
 Happy new year! 🍻
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is scroll depth?
 
