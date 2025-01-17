@@ -4,19 +4,26 @@ title: How to use Google's Looker Studio to create custom analytics reports
 description: Google's Looker Studio enables flexible creation of interactive
   analytics dashboards and customizable reports that can be easily shared with
   others. Here's how to use it.
-slug: google-looker-studio-guide
+slug: /google-looker-studio-guide
 date: 2025-01-16T16:13:50.925Z
 author: marko-saric
+image: /uploads/looker-main-blog.png
+image-alt: How to use Google's Looker Studio
 ---
 Google Looker Studio, also known as Data Studio, is a powerful business intelligence (BI) tool that allows you to visualize and analyze data from various sources such as Plausible Analytics, Google Analytics, Google Ads and other platforms. Looker Studio enables flexible creation of interactive analytics dashboards and customizable reports that can be easily shared with others. 
 
 This post is our beginner's guide to using Looker Studio. We aim to introduce you to Looker Studio by showing you how to replicate a Plausible Analytics dashboard in Looker Studio and by also adding some more sophisticated reports. 
 
+1. Ordered list
+{:toc}
+
 ## Plausible connector for Looker Studio
 
 [Plausible Analytics Looker Studio Connector](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ) adds some sophisticated and powerful reporting features that help turn Plausible into [an even better replacement for Google Analytics](https://plausible.io/vs-google-analytics). 
 
-It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio). And for the remainder of this post we'll show you how to create replica of Plausible dashboard in Looker Studio. Let's get started.
+It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio). 
+
+And for the remainder of this post we'll show you how to create replica of Plausible dashboard in Looker Studio. Let's get started.
 
 ## Creating a simple report in Looker Studio
 
@@ -32,6 +39,8 @@ Let’s see this in action by recreating the top graph in the Plausible Analytic
 
 ### Time Series graph
 
+![Time Series graph](/uploads/time-series-graph-looker.png "Time Series graph")
+
 The most prominent part of the dashboard is the line chart that displays the number of "**Unique Visitors**" over time. In order to recreate this, we will select a "**Time Series Chart**" from the right-hand toolbar or you can do the same from the top menu under "**Insert**".
 
 Then, we will simply need to select "**Date**" as our dimension and "**Visitors**" as our metric.
@@ -44,6 +53,8 @@ Finally, if you want to see hourly data, you should use the "**Time**" dimension
 
 ### Scorecards
 
+![Scorecards](/uploads/scorecards-looker.png "Scorecards")
+
 Going back to the Plausible dashboard as our guide, next we want to add the individual metrics across the top. In Looker Studio, these are called "**Scorecards**". Let’s add one by going to "**Insert**" and choosing "**Scorecard**".
 
 The configuration for a scorecard is simple, you just need to pick the dimension that you want to highlight. Let’s start with "**Visitors**", then we can simply copy and paste the scorecard and update the metric for visits, pageviews, views per visit, bounce rate and visit duration.
@@ -54,13 +65,19 @@ Once we’ve set up all of our scorecards, we have something like this.
 
 ### Date range
 
+![Date range](/uploads/date-range-control-looker.png "Date range")
+
 Speaking of date ranges, this is a good time to add one to our report. To do this, you simply go to "**Insert**", choose "**Date Range Control**" and click anywhere on your report.
 
 This will give you a dropdown menu that enables you to select the date range you want to view for your entire report. When you change this date range, any comparisons that you’ve enabled (like our scorecard) will automatically update as well.
 
+![Select date range](/uploads/select-date-range-looker.png "Select date range")
+
 ### Tables
 
 Then we can move down our Plausible Analytics dashboard and recreate some of the tables you will find there. Tables in Looker Studio are one of the most versatile ways you can use your data as you can add several dimensions at once and export to CSV or Google Sheets.
+
+![Country table](/uploads/country-table-looker.png "Country table")
 
 For our purposes, we will look at the "**Countries**" and "**Devices**" section of the Plausible dashboard as these particularly show the strength of Looker Studio. In order to recreate the list of countries, we simply need to select "**Insert**", choose "**Table**" and then choose "**Country Name** as our "**Dimension**" and "**Visitors**" as our metric.
 
