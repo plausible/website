@@ -9,9 +9,9 @@ author: hricha-shandily
 image: /uploads/scroll-depth-metric-in-plausible.png
 image-alt: scroll depth metric in plausible
 ---
-Scroll depth tracking has always been a crucial metric for understanding how visitors engage with your web pages. It helps you see how far down a page users scroll, helping understand the content performance, engagement levels, and areas for improvement.
+Scroll depth tracking has always been a crucial metric for understanding how visitors engage with your web pages. It helps you see how far down a page users scroll, helping understand the content performance, engagement levels, and areas for improvement. 
 
-Setting up scroll tracking has always been a tedious process – no matter which tool you switched to. Google Analytics 4 (GA4) only offers basic tracking at 90% depth as part of their enhanced measurement, which is only useful in knowing whether visitors are scrolling all the way down or not.
+Setting up scroll tracking has been a tedious process for over a decade – no matter which tool you switched to. Google Analytics 4 (GA4) only offers basic tracking at 90% depth as part of their enhanced measurement, which is only useful in knowing whether visitors are scrolling all the way down or not.
 
 To track other percentages, like 25, 50 or 75 percent, you need to set up custom events in Google Tag Manager – a time-consuming process.
 
@@ -24,7 +24,7 @@ We automatically track and display all percentages to which your visitors scroll
 Happy new year! 🍻
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is scroll depth?
 
@@ -54,13 +54,17 @@ Here’s everything you need to know about it:
 
 ### Tracked by default
 
-Scroll depth is measured automatically for every page on your site that is tracked with the Plausible script, starting today. No sending scroll depth events, no plugins, no tag managers, no extra cost, no extra time and effort.
+Scroll depth is measured automatically for every page on your site that is tracked with the Plausible script, starting today. 
+
+No sending scroll depth events, no plugins, no tag managers, no extra cost, no extra time and effort.
 
 This is a rare feature that you won’t easily find in any other web analytics tool.
 
 ### Tracked at all page heights
 
-We track page scrolling at all page heights. It’s not limited to predetermined specific points only like 25, 50, 75, 90 percent.
+We track page scrolling at all scroll depth percentages – 1, 2, 3, ...33, 34, ...67, 68, ..., 99, 100%. 
+
+It’s not limited to predetermined specific points only like 25, 50, 75, 90 percent – like many other tools.
 
 ### Found with the Top Pages report
 
