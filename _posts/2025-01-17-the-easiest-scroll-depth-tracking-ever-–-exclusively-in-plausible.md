@@ -21,6 +21,9 @@ We automatically track and display all percentages to which your visitors scroll
 
 Happy new year! 🍻
 
+1. Ordered list
+{:toc}
+
 ## What is scroll depth?
 
 Simple as the name suggests, scroll depth is the vertical length to which a visitor scrolls a particular page on your website. This metric is generally reported as a percentage, such as 25, 50, 75, or 100 percent.
