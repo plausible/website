@@ -6,6 +6,8 @@ description: Scroll depth tracking, automatic and built-in—only on Plausible.
 slug: scroll-depth
 date: 2025-01-17T08:32:07.301Z
 author: hricha-shandily
+image: /uploads/scroll-depth-metric-in-plausible.png
+image-alt: scroll depth metric in plausible
 ---
 Scroll depth tracking has always been a crucial metric for understanding how visitors engage with your web pages. It helps you see how far down a page users scroll, helping understand the content performance, engagement levels, and areas for improvement.
 
@@ -52,7 +54,7 @@ Here’s everything you need to know about it:
 
 ### Tracked by default
 
-Scroll depth is measured automatically for every page on your site that is tracked with the Plausible script, starting today. No configuration, no plugins, no tag managers, no extra cost.
+Scroll depth is measured automatically for every page on your site that is tracked with the Plausible script, starting today. No sending scroll depth events, no plugins, no tag managers, no extra cost, no extra time and effort.
 
 This is a rare feature that you won’t easily find in any other web analytics tool.
 
