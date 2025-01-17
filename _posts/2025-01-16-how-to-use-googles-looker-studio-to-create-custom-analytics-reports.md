@@ -24,9 +24,9 @@ To create our first report in Looker Studio, we will create a simple replica of 
 
 You can explore this [simple report](https://lookerstudio.google.com/s/gm8gS_IpBiQ) template that we’ve created in Looker Studio which you can use to start building your own custom reports.
 
-First, a brief overview of how Looker Studio works. On the right hand side, you will see a toolbar that gives you options of the different fields available while above that, you will see the different visualization options.
+First, a brief overview of how Looker Studio works. On the right hand side, you will see a toolbar that gives you options of the different fields available while above that, you can click on the "**Chart**" area to see the different visualization options.
 
-When you select a visualization, you will have the option to add fields as "**Dimensions**", "**Metrics**" or "**Filters**". You can also specify how you want the data sorted and apply some custom styling.
+When you select a visualization such as the time series chart, you will have the option to add fields as "**Dimensions**", "**Metrics**" or "**Filters**". You can also specify how you want the data sorted and apply some custom styling.
 
 Let’s see this in action by recreating the top graph in the Plausible Analytics dashboard, which looks like this.
 
