@@ -174,13 +174,17 @@ One element that we didn’t fully recreate in the basic Looker Studio dashboard
 
 The reason for this omission is that displaying the percentages requires that we use a calculated field. To do this, we click on our table and go to "**Setup**" and under "**Metric**", we can select "**Add Metric**" and choose "**Add Calculated Field**".
 
-This opens up a screen where you can create your own custom calculated fields based on the data that is already available in the report. In our case, we want to create a new metric called "**%**" that simply returns the visitors metric in a new format. We will select "**Percent**" under "**Data Type**" and "**Percent of total**" under "**Comparison calculation**". This tells Looker Studio that we want our new metric to calculate the percentage of the total for each row in our table.
+This opens up a screen where you can create your own custom calculated fields based on the data that is already available in the report. In our case, we want to create a new metric called "**%**" that simply returns the visitors metric in a new format. 
+
+We will select "**Percent**" under "**Data Type**" and "**Percent of total**" under "**Comparison calculation**". This tells Looker Studio that we want our new metric to calculate the percentage of the total for each row in our table.
 
 Once configured, you can we can now see the percentages in our country / regions / cities table.
 
 ### Advanced filters
 
-Previously, we looked at simple Looker Studio filters that can be accomplished by adding drop-downs to the report. Looker Studio also allows for more advanced filtering that can be done at the level of individual elements. To demonstrate, we will build a stacked bar chart that shows two specific goals over time: ‘visit /register’ and ‘Sign up for a trial’. This would be a useful view to look at to track the performance of a specific register page over time in terms of sign ups. Note that these two specific goals are related to our own Plausible dashboard and you'll need to use goals that you've set up on your site.
+Previously, we looked at simple Looker Studio filters that can be accomplished by adding drop-downs to the report. Looker Studio also allows for more advanced filtering that can be done at the level of individual elements. 
+
+To demonstrate, we will build a stacked bar chart that shows two specific goals over time: ‘visit /register’ and ‘Sign up for a trial’. This would be a useful view to look at to track the performance of a specific register page over time in terms of sign ups. Note that these two specific goals are related to our own Plausible dashboard and you'll need to use goals that you've set up on your site.
 
 To start off, we will insert a "**Stacked Column Chart**" and we will select the "**Date**" as the dimension, "**Goal Name**" as the breakdown dimension and "**Visitors**" as the metric. Remember that when dealing with goals, the visitors metric gives the number of unique conversions.
 
@@ -232,4 +236,6 @@ Then we just need to use this to style our table by going to "**Chart**", then "
 
 Here we will select our total % calculated field and specify that anything "**Less Than**" 0.8 should be highlighted. With this, we will have a nicely highlighted table with all blog posts that make up the top 80% of traffic highlighted.
 
-I hope this post was a good introduction to Google Looker Studio. If you're looking for an easy to use, open source, lightweight and privacy-friendly alternative to Google Analytics with an official Google Looker Studio connector, do explore [Plausible Analytics](https://plausible.io).
+## T﻿ry it for yourself!
+
+I hope this post was a good introduction to Google Looker Studio. If you're looking for an easy to use, open source, lightweight and privacy-friendly alternative to Google Analytics with an official Google Looker Studio connector, do explore [Plausible Analytics](https://plausible.io). All the best!
