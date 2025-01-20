@@ -21,7 +21,7 @@ Using the example of replicating a Plausible Analytics dashboard, we’ll introd
 We’ll introduce you to what Looker Studio is, its capabilities, and how to utilize it by taking the example of replicating a Plausible Analytics dashboard in Looker Studio.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is Looker Studio?
 
@@ -156,6 +156,8 @@ You can accomplish this effect by layering two Looker Studio components one on t
 
 In Looker Studio, you can control the order that objects are displayed by right-clicking on an element and selecting "**Order**". You will then have the option to send an element up or down relative to other elements in your report.
 
+![ordering](/uploads/ordering.png "ordering")
+
 In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style*"" and choose "**Background**" and "**Border**" and choose "**Background\*\*".
 
 ### Custom groups
@@ -165,6 +167,8 @@ The next element on the advanced dashboard is a stacked line chart that uses a c
 To achieve this breakdown we will be using the "**Stacked Area Chart**" visualization and we will be selecting "**Date**" as the dimension and "**Visitors**" as the metric. Then under "**Breakdown Dimension**", we will need to select "**Add Metric**" and choose "**Add Group**".
 
 This will open up a screen where you can configure a new custom "**Data Group**". In our example, we want to use the dimension "**Channel**". By default, this field will indicate what channel a visitor used to visit the website including direct as well as organic search, email, organic social and others. We can configure our own groups that are direct and non-direct, by specifying that the direct group should exactly match the value direct while anything that doesn’t match will be grouped as non-direct.
+
+![configuring groups](/uploads/configuring-groups.png "configuring groups")
 
 Once we have done that, we can now use our direct traffic group in our chart as our breakdown dimension.
 
@@ -178,7 +182,9 @@ This opens up a screen where you can create your own custom calculated fields ba
 
 We will select "**Percent**" under "**Data Type**" and "**Percent of total**" under "**Comparison calculation**". This tells Looker Studio that we want our new metric to calculate the percentage of the total for each row in our table.
 
-Once configured, you can we can now see the percentages in our country / regions / cities table.
+![creating custom calculated fields](/uploads/creating-custom-calculated-fields.png "creating custom calculated fields")
+
+Once configured, we can now see the percentages in our country / regions / cities table.
 
 ### Advanced filters
 
@@ -192,6 +198,8 @@ But now we have a chart that has all of our goals rather than the two that we ar
 
 This brings up a screen that enables us to configure our advanced filter. We will select "**Goal Name**" as our dimension and we will select "**Include**" as we are selecting the conditions to include data. Exclude can be used if we wanted to filter out these two goals instead. Then we will select "**In**" which enables us to list the goal names that we want to filter for.
 
+![edit filter](/uploads/edit-filter.png "edit filter")
+
 For other situations, Looker Studio offers the ability to check for equals, contains, starts with as well as Regex matching.
 
 ### Data blending
@@ -204,6 +212,8 @@ As a result, we need to blend our data in Looker Studio. This enables you to cre
 
 Let’s look at how it works in more detail. First, you go to "**Resource**", select "**Manage blends**" and click on "**Add a blend**". Then we need to configure the blend based on the fields that we are interested in and specify how we want to join the data together which in our case will look like this.
 
+![data blending](/uploads/data-blending.png "data blending")
+
 In the left table we want date for dimensions and visitors as the metric. Then we need to add a filter that matches goal name equal to "**Signs up for a trial**". This will be the numerator for our calculation as it will give us visitors that signed up for a trial by date.
 
 Now we need to configure the right table to give us our denominator. For this we will configure everything the same except we will change our filter to equal "**visit /register**".  This way we will now have our visitors that visited the register page.
@@ -213,6 +223,8 @@ It is helpful to rename the metrics on each side so you don’t mix them up. We 
 Finally we need to configure the join condition. We will select "**Right Outer**" and we will join on date which means that there might be some dates that have "**visit /register**" but no conversions and these days should still be included.
 
 Now that we have our data blend ready, we just need to select this blend as the data source for a table. Then we can select date as our dimension and "**Sign Ups**" and "**Visit Register**" as our metrics. Finally, we can create a calculated metric that divides sign ups by visit register.
+
+![create a Calculated Metric](/uploads/create-a-calculated-metric.png "create a Calculated Metric")
 
 With that calculated field, we now have our table that shows the conversions by date as well as the conversion rate for that specific step in our customer journey.
 
@@ -228,13 +240,19 @@ Then we will go to "**Chart**", choose "**Styles**", then "**Series**", set the 
 
 With these style settings, we’ve now created a concise chart that gives us a quick view of our top 25 blog posts and where the main sources of traffic are coming from.
 
+![chart](/uploads/chart.png "chart")
+
 Finally underneath this chart we have a table that is set up to conditionally format a row based on whether or not it makes up 80% of the blog traffic. This way we could do an 80 / 20 analysis and see which blog posts are the most important in terms of driving new traffic.
 
 To do this, we create a table with entry page as the dimension and visitors as the metric. Then we need to create a calculated metric that keeps a running total of the visitors percentage. We can do this by selecting "**Percent of Total Relative to Corresponding Data**" under "**Comparison Calculation**" and "**Running Sum**" under "**Running Calculation**".
 
 Then we just need to use this to style our table by going to "**Chart**", then "**Styles**", "**Conditional Formatting**" and finally "**Add**. This will bring up a screen that will allow us to configure our "**Conditional Formatting Rule**".
 
+![edit rule](/uploads/edit-rule.png "edit rule")
+
 Here we will select our total % calculated field and specify that anything "**Less Than**" 0.8 should be highlighted. With this, we will have a nicely highlighted table with all blog posts that make up the top 80% of traffic highlighted.
+
+![table](/uploads/table.png "table")
 
 ## T﻿ry it for yourself!
 
