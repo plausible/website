@@ -10,30 +10,65 @@ author: marko-saric
 image: /uploads/looker-main-blog.png
 image-alt: How to use Google's Looker Studio
 ---
-Google Looker Studio, also known as Data Studio, is a powerful business intelligence (BI) tool that allows you to visualize and analyze data from various sources such as Plausible Analytics, Google Analytics, Google Ads and other platforms. Looker Studio enables flexible creation of interactive analytics dashboards and customizable reports that can be easily shared with others. 
+Different businesses or teams have unique goals, workflows, and preferences for tracking and visualizing their data. For marketers and marketing agencies, creating custom dashboards is crucial to help clients visualize and understand their data. One powerful tool for this purpose is Looker Studio by Google.
 
-This post is our beginner's guide to using Looker Studio. We aim to introduce you to Looker Studio by showing you how to replicate a Plausible Analytics dashboard in Looker Studio and by also adding some more sophisticated reports. 
+This beginner's guide provides a detailed exploration of Looker Studio, covering everything from basic visualizations to advanced techniques like data blending and calculated fields. 
+
+Additionally, we’re excited to introduce our all-new Plausible Analytics Looker Studio Connector, now live in beta, which simplifies integrating Plausible data into Looker Studio for more flexible and powerful reporting.
+
+Using the example of replicating a Plausible Analytics dashboard, we’ll introduce you to Looker Studio’s capabilities while showcasing how to create sophisticated, custom reports.
+
+We’ll introduce you to what Looker Studio is, its capabilities, and how to utilize it by taking the example of replicating a Plausible Analytics dashboard in Looker Studio.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
-## Plausible connector for Looker Studio
+## What is Looker Studio?
 
-[Plausible Analytics Looker Studio Connector](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ) adds some sophisticated and powerful reporting features that help turn Plausible into [an even better replacement for Google Analytics](https://plausible.io/vs-google-analytics). 
+Looker Studio is what was previously known as Google Data Studio. It is a data visualization tool designed with the intent of helping you create custom reports and simplify their interpretation through visualizations that you or your clients prefer.
 
-It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio). 
+It allows you to bring data from multiple sources into one place, transforming complex information into clear, easy-to-digest reports. This helps you get actionable and valuable insights from raw data.
 
-And for the remainder of this post we'll show you how to create replica of Plausible dashboard in Looker Studio. Let's get started.
+Looker Studio is free of cost to use, as a self-service business intelligence tool. However, the [Looker Studio Pro](https://support.google.com/looker-studio/answer/13715508?hl=en) is also an option.
+
+In a nutshell, you can do the following with Looker Studio:
+
+* Use visuals like tables, pie charts, bar graphs, etc.
+* Select the specific data and custom metrics you want to showcase.
+* Customize fonts, colors, and overall design. Or even do something like incorporating your client’s logo for personalization.
+* Share reports with others, giving them permission to either view or edit the reports based on your preferences.
+
+The Looker Studio is not only limited to Google’s tools like Google Analytics 4, Google Ads, Google Sheets, etc., but also connects with various third-party tools that connect data and analytics that are useful to businesses. It could be a CRM, Meta Ads, LinkedIn Ads, product analytics, etc. 
+
+The reports can be dynamic, meaning they automatically update whenever the original data source changes, ensuring your reports automatically reflect the most current information.
+
+## How to use Looker Studio?
+
+If you’re new to the Looker Studio, you can start by creating an account [here](https://lookerstudio.google.com/overview). The dashboard offers a variety of templates, from simple data overviews to detailed analyses.
+
+You can choose a template based on your needs and/or the audience of these visualizations. For eg., if you are a digital marketing team, you can look at the templates showcasing key KPIs like conversion rates, impressions by channel, and audience engagement.
+
+But the more important part is choosing a data connector. This basically means which tool you want Looker Studio to source its data from, so that you can create custom reports from it.
+
+As a crash course on how to use Looker Studio, we will take the example of our own connector.
+
+## Plausible Analytics connector for Looker Studio 
+
+Plausible Analytics is a simpler, privacy-friendly, and more accurate alternative to Google Analytics, that now comes with the official [Plausible Analytics Looker Studio Connector](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ). 
+
+This helps you add some sophisticated and powerful reporting features that help turn Plausible into [an even better replacement for Google Analytics](https://plausible.io/vs-google-analytics).
+
+It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio).
 
 ## Creating a simple report in Looker Studio
 
-To create our first report in Looker Studio, we will create a simple replica of the default Plausible Analytics dashboard. This will give us a feel for what fields are available in the Looker Studio connector and how we can begin to create our own custom data visualizations.
+To create our first report in Looker Studio, we will create a simple replica of the default Plausible Analytics dashboard itself. This will give us a feel of what fields are available in the Looker Studio connector and how we can begin to create our own custom data visualizations.
 
 You can explore this [simple report](https://lookerstudio.google.com/s/gm8gS_IpBiQ) template that we’ve created in Looker Studio which you can use to start building your own custom reports.
 
 First, a brief overview of how Looker Studio works. On the right hand side, you will see a toolbar that gives you options of the different fields available while above that, you can see the different visualization options.
 
-When you insert a visualization such as a time series chart, you will have the option to add fields as "**Dimensions**", "**Metrics**" or "**Filters**". You can also specify how you want the data sorted and apply some custom styling.
+When you insert a visualization such as a time series chart, you will have the option to add fields as "Dimensions", "Metrics" or "Filters". You can also specify how you want the data sorted and apply some custom styling.
 
 Let’s see this in action by recreating the top graph in the Plausible Analytics dashboard, which looks like this.
 
@@ -119,7 +154,7 @@ You can accomplish this effect by layering two Looker Studio components one on t
 
 In Looker Studio, you can control the order that objects are displayed by right-clicking on an element and selecting "**Order**". You will then have the option to send an element up or down relative to other elements in your report.
 
-In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style*"" and choose "**Background**" and "**Border**" and choose "**Background**".
+In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style*"" and choose "**Background**" and "**Border**" and choose "**Background\*\*".
 
 ### Custom groups
 
