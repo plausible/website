@@ -21,7 +21,7 @@ Using the example of replicating a Plausible Analytics dashboard, we’ll introd
 We’ll introduce you to what Looker Studio is, its capabilities, and how to utilize it by taking the example of replicating a Plausible Analytics dashboard in Looker Studio.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is Looker Studio?
 
