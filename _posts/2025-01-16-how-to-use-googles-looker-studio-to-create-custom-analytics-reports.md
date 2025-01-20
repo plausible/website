@@ -7,7 +7,7 @@ description: Google's Looker Studio enables flexible creation of interactive
 slug: /google-looker-studio-guide
 date: 2025-01-16T16:13:50.925Z
 author: marko-saric
-image: /uploads/looker-main-blog.png
+image: /uploads/looker-studio-report.png
 image-alt: How to use Google's Looker Studio
 ---
 Different businesses or teams have unique goals, workflows, and preferences for tracking and visualizing their data. For marketers and marketing agencies, creating custom dashboards is crucial to help clients visualize and understand their data. One powerful tool for this purpose is Looker Studio by Google.
@@ -21,7 +21,7 @@ Using the example of replicating a Plausible Analytics dashboard, we’ll introd
 We’ll introduce you to what Looker Studio is, its capabilities, and how to utilize it by taking the example of replicating a Plausible Analytics dashboard in Looker Studio.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is Looker Studio?
 
@@ -52,7 +52,7 @@ But the more important part is choosing a data connector. This basically means w
 
 As a crash course on how to use Looker Studio, we will take the example of our own connector.
 
-## Plausible Analytics connector for Looker Studio 
+## Plausible Analytics connector for Looker Studio
 
 Plausible Analytics is a simpler, privacy-friendly, and more accurate alternative to Google Analytics, that now comes with the official [Plausible Analytics Looker Studio Connector](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ). 
 
@@ -148,7 +148,7 @@ Plausible Analytics Looker Studio connector proves even more useful when you are
 
 Here we will cover a few examples of different advanced uses. You can also see [our advanced Looker Studio template](https://lookerstudio.google.com/s/ltrWC2jaK4Q).
 
-### Combining Elements
+### Combining elements
 
 One of the effects that is featured in the advanced dashboard is to have a scorecard that has a chart line background giving you the ability to quickly grasp the trend of the metric you are displaying.
 
@@ -194,7 +194,7 @@ This brings up a screen that enables us to configure our advanced filter. We wil
 
 For other situations, Looker Studio offers the ability to check for equals, contains, starts with as well as Regex matching.
 
-### Data Blending
+### Data blending
 
 Now that we have a chart that shows the performance of our goals over time we might want to calculate the % relationship of one goal to the other to see what percentage of visitors completes this stage of our conversion funnel. In our example case, we might want to know the conversion rate by day of our registration page, in other words, what is the number of sign-ups divided by the number of visits to the register page.
 
