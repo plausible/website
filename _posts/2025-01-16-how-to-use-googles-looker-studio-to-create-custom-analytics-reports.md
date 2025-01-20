@@ -58,17 +58,17 @@ Plausible Analytics is a simpler, privacy-friendly, and more accurate alternativ
 
 This helps you add some sophisticated and powerful reporting features that help turn Plausible into [an even better replacement for Google Analytics](https://plausible.io/vs-google-analytics).
 
-It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio).
+It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See our documentation on [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio).[](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ)
 
 ## Creating a simple report in Looker Studio
 
-To create our first report in Looker Studio, we will create a simple replica of the default Plausible Analytics dashboard itself. This will give us a feel of what fields are available in the Looker Studio connector and how we can begin to create our own custom data visualizations.
+To create our first report in Looker Studio, we will create a simple replica of the default Plausible Analytics dashboard. This will give us a feel for what fields are available in the Looker Studio connector and how we can begin to create our own custom data visualizations.
 
 You can explore this [simple report](https://lookerstudio.google.com/s/gm8gS_IpBiQ) template that we’ve created in Looker Studio which you can use to start building your own custom reports.
 
 First, a brief overview of how Looker Studio works. On the right hand side, you will see a toolbar that gives you options of the different fields available while above that, you can see the different visualization options.
 
-When you insert a visualization such as a time series chart, you will have the option to add fields as "Dimensions", "Metrics" or "Filters". You can also specify how you want the data sorted and apply some custom styling.
+When you insert a visualization such as a time series chart, you will have the option to add fields as "**Dimensions**", "**Metrics**" or "**Filters**". You can also specify how you want the data sorted and apply some custom styling.
 
 Let’s see this in action by recreating the top graph in the Plausible Analytics dashboard, which looks like this.
 
@@ -126,7 +126,9 @@ You can see this as well with the "**Devices**" table. By selecting "**Device**"
 
 Finally, let’s add some filters to our data. Looker Studio offers simple and advanced filtering and for now we’ll stick to the basics. To add a simple drop-down menu that will enable you to filter by different dimensions, you can go to "**Insert**" and choose "**Dimension Control**".
 
-Then you simply need to select what dimension you want the drop-down to use. For our example, let’s add one that corresponds to the Plausible dashboard: "**Source**". Once you add this, you will see that if you click it, you will see all the sources that referred traffic to your site. By selecting one or many, we will filter our report accordingly.
+Then you simply need to select what dimension you want the drop-down to use. For our example, let’s add one that corresponds to the Plausible dashboard: "**Source**". 
+
+Once you add this, you will see that if you click it, you will see all the sources that referred traffic to your site. By selecting one or many, we will filter our report accordingly.
 
 ### Considerations
 
@@ -140,7 +142,7 @@ Goals and custom properties are a special case as they have the additional conve
 
 So to create the table in the Plausible dashboard that shows unique conversions, total conversions and conversion rate by goal, you would have a table that looks like this in Looker Studio.
 
-## Advanced uses
+## Advanced uses **of Looker Studio**
 
 Plausible Analytics Looker Studio connector proves even more useful when you are using it for advanced applications that cannot be replicated in the Plausible dashboard.
 
