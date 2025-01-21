@@ -6,7 +6,7 @@ description: Google's Looker Studio enables flexible creation of interactive
   others. Here's how to use it.
 slug: /google-looker-studio-guide
 date: 2025-01-21T11:42:24.373Z
-author: marko-saric
+author: greg-dickens
 image: /uploads/looker-studio-report.png
 image-alt: How to use Google's Looker Studio
 ---
