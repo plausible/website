@@ -5,7 +5,7 @@ description: Google's Looker Studio enables flexible creation of interactive
   analytics dashboards and customizable reports that can be easily shared with
   others. Here's how to use it.
 slug: /google-looker-studio-guide
-date: 2025-01-16T16:13:50.925Z
+date: 2025-01-21T11:42:24.373Z
 author: marko-saric
 image: /uploads/looker-studio-report.png
 image-alt: How to use Google's Looker Studio
