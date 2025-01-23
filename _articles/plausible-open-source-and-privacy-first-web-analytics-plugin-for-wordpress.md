@@ -183,6 +183,18 @@ All the file downloads will start being tracked and will be displayed in the "Go
 
 You'll see "File Download" goal as soon as the first link that leads to a file has been recorded.
 
+## How to track form completions
+
+Form submissions tracking is essential for many site owners and Plausible helps you automate this process. Our form submissions tracking captures a form completion event upon each successful form submission on your site. 
+
+We have verified and tested this tracking with Contact Form 7, WP Forms and Ninja Forms but it should work for most other forms plugins as well. 
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Form completions" option.
+
+All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see "Form completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "Form completions" goal to see the breakdown over different pages the forms were submitted from.
+
 ## How to setup custom events to track goal conversions
 
 Plausible Analytics plugin makes it easy to set up custom events and track actions such as purchases, signups, button clicks or form submissions.
