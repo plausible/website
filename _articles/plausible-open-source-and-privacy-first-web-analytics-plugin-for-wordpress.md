@@ -188,7 +188,7 @@ You'll see "File Download" goal as soon as the first link that leads to a file h
 
 Form submissions tracking is essential for many site owners and Plausible helps you automate this process. Our form submissions tracking captures a form completion event upon each successful form submission on your site. 
 
-We have verified and tested this tracking with Contact Form 7, WP Forms and Ninja Forms but it should work for most other forms plugins as well. 
+We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja Forms and Elementor Forms but it should work for most other forms plugins as well. 
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Form completions" option.
 
