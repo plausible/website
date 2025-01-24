@@ -194,7 +194,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see "Form completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "Form completions" goal to see the breakdown over different pages the forms were submitted from.
+You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
 
 ## How to setup custom events to track goal conversions
 
