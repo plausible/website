@@ -107,7 +107,13 @@ Click the “Filter” option located beside the time period selector. This will
 
 Open the dropdown list located below the “Page” section and select the “contains” operator. Type a word like “blog” (like the example above). Click the “Apply Filter” button.
 
+![filter-by-page](/uploads/filter-by-page.png "filter-by-page")
 
+This way, your dashboard will show the average scroll depth for only the blog posts on your website, which happens to be 52% for the last 30 days in the case of our website: 
+
+![blog-posts-average-scroll-depth](/uploads/blog-posts-average-scroll-depth.png "blog-posts-average-scroll-depth")
+
+If you pay closer attention to this example, you’ll see that only the pages containing the word “blog” in their URLs are being displayed in the “Top Pages” report.
 
 ## What’s wrong with other web analytics tools’ scroll tracking?
 
