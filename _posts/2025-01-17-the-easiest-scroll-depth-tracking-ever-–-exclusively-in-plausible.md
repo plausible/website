@@ -136,9 +136,11 @@ P.S. We also have a [list of other similarities and differences](https://plausib
 
 ### How to track scroll depth in Google Analytics?
 
-The built-in scroll tracking (available as an enhanced measurement) in Google Analytics is so limited and rigid that the solution suggested by GA experts is to disable it entirely to implement a more customized solution within Google Tag Manager. 
+Google Analytics has been the default choice for web analytics for years. Yet, the built-in scroll tracking (available as an enhanced measurement, which also needs to be turned on manually) in GA4 continues to be limited as it only allows tracking at 90% scroll depth. 
 
-Here are the steps to do so:
+This is only useful in knowing whether visitors are scrolling all the way down or not. Therefore, the solution suggested by GA experts is to disable it entirely and implement a more customized solution within Google Tag Manager.
+
+Here is an overview of the steps to do so:
 
 1. Disable scroll tracking in the GA4 interface. 
 2. Configure a new scroll depth trigger in Google Tag Manager. Go to Triggers -> New -> Scroll Depths -> Vertical scroll depths -> Percentages -> enter values for which you want to track scrolling depth. Name the trigger and save it.
@@ -147,9 +149,9 @@ Here are the steps to do so:
 5. Open GA4 and to test your setup with the debugview.
 6. Create a custom dimension in GA4 settings. Decide the dimension name and scope. Select the relevant parameter (earlier setup within GTM). Save it. Wait for 24 hours, it'll be available in your reports. By the way, you can have up to 50 custom dimensions only.
 
-As you can see, this setup is time-consuming and tricky for those unfamiliar with Google Analytics and Tag Manager. You’ll need to test rigorously and need to maintain your setup over time as your website and GA evolve.
+As you can see, this setup is time-consuming and tricky for those unfamiliar with Google Analytics and Tag Manager. You’ll need to test rigorously and need to maintain your setup over time as both your website and GA evolve.
 
-Many engage freelancers and agencies to help with such setups, which is costly and time-consuming. There are many other [things that are much easier to do in Plausible than Google Analytics 4](https://plausible.io/blog/easy-insights).
+Many engage freelancers and agencies to help with such setups, which is expensive and time-consuming. There are many other [things that are much easier to do in Plausible than Google Analytics 4](https://plausible.io/blog/easy-insights).
 
 ## What is a good scroll depth?
 
