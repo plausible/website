@@ -113,13 +113,26 @@ This way, your dashboard will show the average scroll depth for only the blog po
 
 ![blog-posts-average-scroll-depth](/uploads/blog-posts-average-scroll-depth.png "blog-posts-average-scroll-depth")
 
-If you pay closer attention to this example, you’ll see that only the pages containing the word “blog” in their URLs are being displayed in the “Top Pages” report.
+By the way, if you pay closer attention to this example, you’ll see that only the pages containing the word “blog” in their URLs are being displayed in the “Top Pages” report. 
 
 ## What’s wrong with other web analytics tools’ scroll tracking?
 
-Other web analytics tools like [Matomo](https://plausible.io/vs-matomo), [Cloudflare](https://plausible.io/vs-cloudflare-web-analytics), etc. either don’t allow tracking the scroll depth metric or require complicated and technical setups and/or custom reporting to manage and track scroll depth.
+Other web analytics tools:
 
-And Google Analytics? Let’s see that one in a bit more detail.
+* Either don’t allow tracking the scroll depth metric, such as [Cloudflare Analytics](https://plausible.io/vs-cloudflare-web-analytics) amongst others,
+* Or require complicated and technical setups and/or custom reporting to manage, track and view their scroll depth data.
+
+Let’s take a look at Matomo and Google Analytics, which are popular choices for web analytics.
+
+### How to track scroll depth in Matomo?
+
+Matomo offers three ways to track scroll depth:
+
+1. Install the Matomo Heatmaps and Session Recording plugin. Then, by viewing the heatmaps, you’d be able to automatically see how far down visitors scroll on your pages.
+2. Use the Matomo Tag Manager. Matomo has its own tag manager, like the Google Tag Manager. To see scroll depth data in your Matomo dashboard, you'd need to create a new tag, configure the event with specific scroll depth percentages, and set up the appropriate trigger. 
+3. Manually track scroll percentage using a JavaScript code on your website.
+
+P.S. We also have a [list of other similarities and differences](https://plausible.io/vs-matomo) between Plausible and Matomo as web analytics tools for your easy analysis.
 
 ### How to track scroll depth in Google Analytics?
 
