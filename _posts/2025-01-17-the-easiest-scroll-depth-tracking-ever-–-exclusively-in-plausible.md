@@ -9,32 +9,30 @@ author: hricha-shandily
 image: /uploads/scroll-depth-metric-in-plausible.png
 image-alt: scroll depth metric in plausible
 ---
-Scroll depth tracking has always been a crucial metric for understanding how visitors engage with your web pages. It helps you see how far down a page users scroll, helping understand the content performance, engagement levels, and areas for improvement. 
+Scroll depth tracking has always been a crucial metric for businesses, marketers, and site owners. It helps you see how far users scroll down a page, and understand the content performance, engagement levels, and areas for improvement.
 
-Setting up scroll tracking has been a tedious process for over a decade – no matter which tool you switched to. Google Analytics 4 (GA4) only offers basic tracking at 90% depth as part of their enhanced measurement, which is only useful in knowing whether visitors are scrolling all the way down or not.
+Yet, setting up scroll tracking has always been a tedious process – no matter which tool you switched to. For instance, Google Analytics 4 (GA4) only offers basic tracking at 90% depth as part of their enhanced measurement, which is only useful in knowing whether visitors are scrolling all the way down or not.
 
-To track other percentages, like 25, 50 or 75 percent, you need to set up custom events in Google Tag Manager – a time-consuming process.
+To track other percentages, like 25, 50 or 75 percent, you need to set up custom events in Google Tag Manager, which involves a learning curve and requires time and patience.
 
-Whereas other alternatives such as Matomo, Cloudflare, etc. either don’t allow tracking this metric or require complicated and technical setups and/or custom reporting to track scroll depth.
+Whereas other alternatives such as Matomo, Cloudflare Analytics, etc., either don’t allow tracking this metric or require complicated and technical setups and/or custom reporting to track scroll depth.
 
 At Plausible, we’ve simplified this completely. Scroll depth tracking is now built into our analytics by default, requiring no setup or additional configurations.
 
 We automatically track and display all percentages to which your visitors scroll to. Available at no extra cost, this feature is live in your dashboard and ready to provide actionable insights.
 
-Happy new year! 🍻
-
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is scroll depth?
 
-Simple as the name suggests, scroll depth is the vertical length to which a visitor scrolls a particular page on your website. This metric is generally reported as a percentage, such as 25, 50, 75, or 100 percent.
+As the name suggests, scroll depth is the vertical length to which a visitor scrolls a particular page on your website. This metric is often reported as a percentage, such as 25, 50, 75, or 90 percent.
 
-If they scroll down all the way down to the page, it’s a 100% scrolling event. If half, 50%. And so on. 
+If they scroll down all the way down to the page (generally including the footer), it’s a 100% scrolling event. If half, 50%. And so on. This insight helps you:
 
 This insight helps you:
 
-* Understand visitor engagement by offering insights into how visitors interact with your content, identifying which sections capture attention and which are overlooked.
+* Understand how visitors interact with your content, identifying which sections capture attention and which are overlooked.
 * Optimize content placement by determining the ideal locations for important elements like calls-to-action, ensuring they are positioned where users are most likely to see them.
 * Improve page layout by analyzing scroll patterns.
 
@@ -42,7 +40,7 @@ For example, if you’ve got a long-form article with a call-to-action (CTA) nea
 
 This is also measured in pixels (usually rounded off values) in some tools. Although, it’s better to track it in percentages because that way it’s easier to judge the engagement level of the page and easily compare it to other pages too.
 
-## Introducing, Scroll Depth tracking in Plausible Analytics – the only analytics tool to do it automatically and comprehensively
+## Introducing, **automatic scroll depth** tracking in Plausible Analytics
 
 The scroll depth metric is now live in your dashboards! 
 
@@ -62,20 +60,22 @@ This is a rare feature that you won’t easily find in any other web analytics t
 
 ### Tracked at all page heights
 
-We track page scrolling at all scroll depth percentages – 1, 2, 3, ...33, 34, ...67, 68, ..., 99, 100%. 
+We track page scrolling at all scroll depth percentages: 1, 2, 3, 4,...33, 34, ...67, 68, ..., 98, 99, 100%.
 
-It’s not limited to predetermined specific points only like 25, 50, 75, 90 percent – like many other tools.
+It’s not limited to predetermined specific points only like 25, 50, 75, 90 percent – like some other tools. 
 
 ### Found with the Top Pages report
 
 You can find the scroll depth metric in two main areas of your dashboard:
 
-1. The top row of metrics in the dashboard, whenever a page filter is applied. You can click on the metric to display its performance over time on the line graph as well.
-2. The expanded Top Pages report (i.e. Details section), where you can even sort pages by scroll depth for deeper insights.
+1. **The top row of metrics in the dashboard**, whenever a page filter is applied. You can click on the metric to display its performance over time on the line graph as well.
+2. **The expanded Top Pages report (i.e. Details section)**, where you can even sort pages by scroll depth for deeper insights.
 
 If there’s no data available yet, scroll depth will simply display as “-” until sufficient traffic is captured.
 
-### How is it calculated?
+If you are new to Plausible, you can refer to the gif above to visualize this, or play around with our [live demo](https://plausible.io/plausible.io/pages?period=30d&keybindHint=T).
+
+### How is scroll depth calculated?
 
 Scroll depth in Plausible is defined as the maximum scroll depth reached by an average user on a specific page. If a user visits a page three times and scrolls to different depths:
 
@@ -87,7 +87,27 @@ The maximum depth for that user is 60%. The final scroll depth for the page is t
 
 ### Available with the official Plausible WordPress plugin
 
-This metric is now available with our [official WordPress plugin](https://plausible.io/wordpress-analytics-plugin) as well.
+This metric is available with our [official WordPress plugin](https://plausible.io/wordpress-analytics-plugin) as well.
+
+### Set your Page Scroll goals
+
+Page scroll tracking in Plausible goes beyond measuring how much of a page was scrolled.
+
+You can set specific goals by defining a scroll_threshold when creating a [pageview goal](https://plausible.io/docs/pageview-goals), making it easy to compare your ideal scroll depth against actual scroll depth.
+
+*<add screenshot>*
+
+### Group pages to see the average page scroll depth
+
+Another thing you can do in the Plausible dashboard is group similar pages and see the average scroll depth for them.
+
+For eg. If you want to see how much on an average do your blog posts have scroll depth, and you know that all your blog posts contain the word “blog” within the path of their respective URLs (as is the case with our website), then you can use the [Filter](https://plausible.io/docs/filters-segments) option to filter such pages. Here is how: 
+
+Click the “Filter” option located beside the time period selector. This will open a dropdown, where you can select the first option that says “Page.” This will open a modal as shown in the following screenshot.
+
+Open the dropdown list located below the “Page” section and select the “contains” operator. Type a word like “blog” (like the example above). Click the “Apply Filter” button.
+
+
 
 ## What’s wrong with other web analytics tools’ scroll tracking?
 
