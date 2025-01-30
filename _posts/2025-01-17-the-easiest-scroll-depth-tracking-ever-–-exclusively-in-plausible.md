@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The easiest scroll depth tracking ever – exclusively in Plausible
-description: Scroll depth tracking, automatic and built-in—only on Plausible.
-  Get actionable insights effortlessly.
-slug: scroll-depth
+title: What is scroll depth and how to track it automatically?
+description: What is scroll depth, what’s considered good, and how to track it
+  automatically without any extra setup or manual configuration needed.
+slug: scroll-depth-tracking
 date: 2025-01-17T08:32:07.301Z
 author: hricha-shandily
 image: /uploads/scroll-depth-metric-in-plausible.png
@@ -22,7 +22,7 @@ At Plausible, we’ve simplified this completely. Scroll depth tracking is now b
 We automatically track and display all percentages to which your visitors scroll to. Available at no extra cost, this feature is live in your dashboard and ready to provide actionable insights.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is scroll depth?
 
