@@ -169,6 +169,6 @@ In Plausible, you can club this metric with other metrics such as time on page a
 
 ## Ready to track your page scrolls?
 
-Plausible prioritizes [simplicity](https://plausible.io/simple-web-analytics), [privacy](https://plausible.io/privacy-focused-web-analytics) and [accuracy](https://plausible.io/most-accurate-web-analytics) – all at the same time. Our goal is to remove unnecessary complexity while providing the insights you need to improve your website.
+Plausible prioritizes [simplicity](https://plausible.io/simple-web-analytics), [privacy](https://plausible.io/privacy-focused-web-analytics) and [accuracy](https://plausible.io/most-accurate-web-analytics) – all at the same time. Our goal is to remove unnecessary complexity while providing the insights you need to improve your website and business.
 
-**[Try it out now](https://plausible.io/register)!**
+**[Give it a try for free](https://plausible.io/register)!**
