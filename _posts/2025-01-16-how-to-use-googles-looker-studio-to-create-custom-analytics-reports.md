@@ -142,6 +142,8 @@ Goals and custom properties are a special case as they have the additional conve
 
 So to create the table in the Plausible dashboard that shows unique conversions, total conversions and conversion rate by goal, you would have a table that looks like this in Looker Studio.
 
+![goals-table-in-looker-studio](/uploads/goals-table-in-looker-studio.png "goals-table-in-looker-studio")
+
 ## Advanced uses of Looker Studio
 
 Plausible Analytics Looker Studio connector proves even more useful when you are using it for advanced applications that cannot be replicated in the Plausible dashboard.
