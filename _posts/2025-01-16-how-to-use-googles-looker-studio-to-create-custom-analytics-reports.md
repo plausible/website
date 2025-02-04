@@ -21,7 +21,7 @@ Using the example of replicating a Plausible Analytics dashboard, we’ll introd
 We’ll introduce you to what Looker Studio is, its capabilities, and how to utilize it by taking the example of replicating a Plausible Analytics dashboard in Looker Studio.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is Looker Studio?
 
@@ -160,7 +160,7 @@ In Looker Studio, you can control the order that objects are displayed by right-
 
 ![ordering](/uploads/ordering.png "ordering")
 
-In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style*"" and choose "**Background**" and "**Border**" and choose "**Background\*\*".
+In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style**" and choose "**Background and Border**" and choose "**Background**." 
 
 ### Custom groups
 
