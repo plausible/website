@@ -16,4 +16,4 @@ Once enabled, all successful form completions will be tracked and displayed in t
 
 You'll see a **"WP Form Completions"** goal appear once the first successful submission is recorded. If you have multiple forms on your site, you can click on this goal to see a breakdown by page.
 
-T﻿o learn more about the Plausible WordPress plugin, visit [our guide](https://plausible.io/wordpress-analytics-plugin)
+T﻿o learn more about the Plausible WordPress plugin, visit [our guide](https://plausible.io/wordpress-analytics-plugin).
