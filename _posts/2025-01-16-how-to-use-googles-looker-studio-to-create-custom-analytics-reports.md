@@ -142,6 +142,8 @@ Goals and custom properties are a special case as they have the additional conve
 
 So to create the table in the Plausible dashboard that shows unique conversions, total conversions and conversion rate by goal, you would have a table that looks like this in Looker Studio.
 
+![goals-table-in-looker-studio](/uploads/goals-table-in-looker-studio.png "goals-table-in-looker-studio")
+
 ## Advanced uses of Looker Studio
 
 Plausible Analytics Looker Studio connector proves even more useful when you are using it for advanced applications that cannot be replicated in the Plausible dashboard.
@@ -158,7 +160,7 @@ In Looker Studio, you can control the order that objects are displayed by right-
 
 ![ordering](/uploads/ordering.png "ordering")
 
-In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style*"" and choose "**Background**" and "**Border**" and choose "**Background\*\*".
+In our case, we have set our scorecard to be the same height and width as our chart but we have then set the order of the chart so it is below the scorecard. Finally, we just need to set the background color of the scorecard so it is transparent enough for the chart to show through. You can do this by going to "**Style**" and choose "**Background and Border**" and choose "**Background**." 
 
 ### Custom groups
 
