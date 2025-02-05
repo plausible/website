@@ -30,6 +30,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Track **clicks on external links** so you can see which of your affiliate links are more popular than others
 * **Track file downloads** so you can see which of your documents are more popular than others
+* **Track successful form submissions** to see conversion rates and conversion attribution of your campaigns 
 * **Setup goals and custom events using CSS class names** so you can track conversions and analyze conversion attribution
 * Check your Plausible **stats dashboard directly in your WordPress** dashboard
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
@@ -183,19 +184,31 @@ All the file downloads will start being tracked and will be displayed in the "Go
 
 You'll see "File Download" goal as soon as the first link that leads to a file has been recorded.
 
+## How to track form completions
+
+Form submissions tracking is essential for many site owners and Plausible helps you automate this process. Our form submissions tracking captures a form completion event upon each successful form submission on your site. 
+
+We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja Forms and Elementor Forms but it should work for most other forms plugins as well. 
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Form completions" option.
+
+All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
+
 ## How to setup custom events to track goal conversions
 
-Plausible Analytics plugin makes it easy to set up custom events and track actions such as purchases, signups, button clicks or form submissions.
+Plausible Analytics plugin makes it easy to set up custom events and track actions such as signups or button clicks.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Custom events" option.
 
 Now you need to tag the site elements you want to track. No JavaScript knowledge is required to do this. The only thing you need is to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
 
-* You can click on any block element you want to track such as a button or a form. This will open up the block menu on the right-hand side of your screen
+* You can click on any block element you want to track. This will open up the block menu on the right-hand side of your screen
 
 ![Click on any block element you want to track](/docs/img/wordpress-button-css-class-name.png)
 
-* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track form submissions on your contact form, you could use: `plausible-event-name=Form+Submit`
+* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track signup button clicks, you could use: `plausible-event-name=Signup+Submit`
 
 ![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png)
 
@@ -204,7 +217,7 @@ Custom events won't show up automatically in your Plausible dashboard. You’ll 
 * To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section
 * You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form 
 * Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard
-* In our example where you added a CSS class name `plausible-event-name=Form+Submit`, the goal to add to your Plausible account is `Form Submit` (plus is replaced by a space)
+* In our example where you added a CSS class name `plausible-event-name=Signup+Submit`, the goal to add to your Plausible account is `Signup Submit` (plus is replaced by a space)
 * Next, click on the "Add goal" button and you'll be taken back to the Goals page
 
 When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard in the "Goal Conversions" section. Your custom event will appear there as soon as the first conversion has been recorded.
@@ -223,13 +236,13 @@ Authors, categories and custom taxonomies work out of the box as soon as they're
 
 ### Custom properties for custom events
 
-Let's say you have a contact form both in the header and footer of your site. 
+Let's say you have a button both in the header and footer of your site. 
 
-In addition to tracking submissions, you might want to know which section of your site the form was submitted on. Instead of creating separate goals for each form, you can send a custom property instead:
+In addition to tracking button clicks, you might want to know which section of your site the button was clicked on. Instead of creating separate goals for each button, you can send a custom property instead:
 
 `plausible-event-<property>=<value>` allows you to define custom properties that are sent with your custom event. For example `plausible-event-position=footer`. The full CSS class name would look like this:
 
-`plausible-event-name=Form+Submit plausible-event-position=footer`
+`plausible-event-name=Signup+Submit plausible-event-position=footer`
 
 You can add as many of these classes as you want. And the names can be anything that you want. Custom properties will show up automatically on your dashboard as long as you've added the goal itself. You don't need to manually add them in your settings.
 
