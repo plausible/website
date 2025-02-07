@@ -7,6 +7,7 @@ slug: seo-2025
 date: 2025-02-07T05:23:37.073Z
 author: hricha-shandily
 image: /uploads/organic-search-sources.png
+image-alt: organic search sources
 ---
 It’s an interesting time to be an online business, catching up with rapidly shifting “trends” regarding AI, increasing concerns around consumer privacy, and the one you can’t miss: shifting SEO –– one of the most favourite channels of digital marketers for more than two decades.
 
