@@ -2,8 +2,8 @@
 layout: post
 title: Evolution of SEO in 2025, role of AI, and measuring it all in Plausible
 description: Is SEO dead, the role of AI and privacy, how to stay relevant, and
-  everything in between
-slug: seo-2025
+  everything in between.
+slug: seo-dead
 date: 2025-02-07T05:23:37.073Z
 author: hricha-shandily
 image: /uploads/organic-search-sources.png
