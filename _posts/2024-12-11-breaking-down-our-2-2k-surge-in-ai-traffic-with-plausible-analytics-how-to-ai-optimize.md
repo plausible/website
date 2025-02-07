@@ -177,6 +177,8 @@ There’s someone who looked at Google AI overview’s [patent](https://richsang
 
 Another experiment would be to try out different content formats since Google AI overviews fetch their answers from different types of content formats like text, images, videos, etc.
 
+W﻿e also have a study on [how SEO is evolving,](https://plausible.io/blog/seo-dead) that can help you navigate it better.
+
 ### Consider adding an `llms.txt` file
 
 Have you ever used a `robots.txt` file for your site? It’s used by websites to give instructions to web crawlers/spiders/bots about which pages or sections of the site they are allowed to crawl and index.
