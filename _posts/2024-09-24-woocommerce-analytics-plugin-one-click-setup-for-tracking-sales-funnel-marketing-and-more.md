@@ -187,15 +187,15 @@ Your Plausible account functions just like any standard account, giving you acce
 
 We recommend implementing the following practices, as applicable, to ensure an optimal and highly functional setup.
 
-[Tag your URLs](https://plausible.io/docs/top-referrers) with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This practice will reduce the traffic categorized as Direct/Unknown and provide clearer insights into your traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
+**[Tag your URLs](https://plausible.io/docs/top-referrers)** with referral sources or UTM tagging, whenever using them in your ads, socials, emails, or anywhere else. This practice will reduce the traffic categorized as Direct/Unknown and provide clearer insights into your traffic sources and channels. This can later be filtered by your revenue-synced goals, revealing your top performing marketing channels.
 
-[Connect Plausible with your Google Search Console](https://plausible.io/docs/google-search-console-integration) account to get an overview of the top performing keywords that bring your traffic from Google. This will help you understand how well your content and SEO contribute to traffic, sales and other goals.
+**[Connect Plausible with your Google Search Console](https://plausible.io/docs/google-search-console-integration)** account to get an overview of the top performing keywords that bring your traffic from Google. This will help you understand how well your content and SEO [contribute to traffic, sales and other goals](https://plausible.io/blog/seo-dead#analyzing-organic-search-traffic).
 
-[Import historical GA4 data](https://plausible.io/docs/google-analytics-import), if you are making a switch from a Google Analytics 4 account to a Plausible account for tracking your ecommerce analytics.
+**[Import historical GA4 data](https://plausible.io/docs/google-analytics-import)**, if you are making a switch from a Google Analytics 4 account to a Plausible account for tracking your ecommerce analytics.
 
-[Track revenue with money-making goals](https://plausible.io/blog/ecommerce-revenue-attribution) like completing purchases. Although, this is an automatically implemented goal in Plausible as explained above, if there are other things that bring revenue to you, utilize such revenue-synced goals. For eg., if you conduct exclusive ticketed product reveal events, then you can track the sales of these tickets with revenue goals as well.
+**[Track revenue with money-making goals](https://plausible.io/blog/ecommerce-revenue-attribution)** like completing purchases. Although, this is an automatically implemented goal in Plausible as explained above, if there are other things that bring revenue to you, utilize such revenue-synced goals. For eg., if you conduct exclusive ticketed product reveal events, then you can track the sales of these tickets with revenue goals as well.
 
-[Create audience segments](https://plausible.io/audience-segmentation) by using filtering options in Plausible. This can help answer specific business questions. A few examples: How many buyers came from SEO activities?, or Which of our products are the most popular in Spain?, or Which pages are viewed the most on mobile?, etc. Talking of key business insights, there are multiple ways Plausible can help answer those. Let us see.
+**[Create audience segments](https://plausible.io/audience-segmentation)** by using filtering options in Plausible. This can help answer specific business questions. A few examples: How many buyers came from SEO activities?, or Which of our products are the most popular in Spain?, or Which pages are viewed the most on mobile?, etc. Talking of key business insights, there are multiple ways Plausible can help answer those. Let us see.
 
 ## Answering key ecommerce questions with Plausible Analytics
 
