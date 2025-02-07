@@ -111,6 +111,7 @@ Your consumers care more and more about privacy. Becoming more customer oriented
 * Increasing use of VPNs, ad blockers, and private browsing tools. Another study we did [here](https://plausible.io/blog/google-analytics-adblockers-missing-data) that revealed 58% of tech-savvy audiences use such methods.
 * There is a shift towards self-hosted and decentralized services as users move away from centralized Big Tech platforms.
 * Younger generations are increasingly aware of data rights and privacy risks.
+* I﻿f you run a quick Reddit search, you'll notice communities of privacy anxious individuals with a combined total of 1.7M members.
 
 If this is not enough, know that 120 countries have established privacy and security regulations just like the GDPR to protect their peoples’ data privacy.
 
