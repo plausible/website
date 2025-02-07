@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Evolution of SEO in 2025, role of AI, and measuring it all in Plausible
-description: c
-slug: c
+description: Is SEO dead, what has changed, the role of AI and privacy, and
+  everything in between
+slug: seo-2025
 date: 2025-02-07T05:23:37.073Z
 author: hricha-shandily
 ---
@@ -13,7 +14,7 @@ Some people on LinkedIn and other niche communities claim how “SEO is dead” 
 Meanwhile AI is being adopted more and more all over the world, privacy-conscious users are increasing, and it can all feel overwhelming. We try to take an objective view at everything and provide answers to what SEO looks like in 2025, how to adapt, what are some things to take care of, and how to measure it all in Plausible.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Is SEO dead in 2025?
 
