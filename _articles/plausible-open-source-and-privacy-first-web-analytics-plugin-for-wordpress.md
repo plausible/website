@@ -329,7 +329,7 @@ All the search activity will start being tracked and will be displayed in the "G
 
 You'll see the "WP Search Queries" goal as soon as the first search has been recorded. 
 
-We have a complete guide on WordPress search tracking and effectively using this feature in Plausible [here] (https://plausible.io/blog/wordpress-search-tracking).
+We have a complete guide on WordPress search tracking and effectively using this feature in Plausible [here](https://plausible.io/blog/wordpress-search-tracking).
 
 ## How to enable hash-based URL tracking
 
