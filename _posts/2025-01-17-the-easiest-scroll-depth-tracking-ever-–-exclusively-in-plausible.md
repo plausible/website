@@ -15,7 +15,7 @@ Yet, setting up scroll tracking has always been a tedious process – no matter 
 
 To track other percentages, like 25, 50 or 75 percent, you need to set up custom events in Google Tag Manager, which involves a learning curve and requires time and patience.
 
-Whereas other alternatives such as Matomo, Cloudflare Analytics, etc., either don’t allow tracking this metric or require complicated and technical setups and/or custom reporting to track scroll depth.
+Whereas other alternatives either don’t allow tracking this metric or require complicated and technical setups and/or custom reporting to track scroll depth.
 
 At Plausible, we’ve simplified this completely. Scroll depth tracking is now built into our analytics by default, requiring no setup or additional configurations.
 
@@ -75,25 +75,19 @@ If there’s no data available yet, scroll depth will simply display as “-” 
 
 If you are new to Plausible, you can refer to the gif above to visualize this, or play around with our [live demo](https://plausible.io/plausible.io/pages?period=30d&keybindHint=T).
 
-### How is scroll depth calculated?
-
-Scroll depth in Plausible is defined as the maximum scroll depth reached by an average user on a specific page. If a user visits a page three times and scrolls to different depths:
-
-1. First visit: 25%
-2. Second visit: 60%
-3. Third visit: 10%
-
-The maximum depth for that user is 60%. The final scroll depth for the page is then calculated based on the maximum average scroll depth of all users.
-
 ### Available with the official Plausible WordPress plugin
 
 This metric is available with our [official WordPress plugin](https://plausible.io/wordpress-analytics-plugin) as well.
 
-### Set your Page Scroll goals
+### Set your Scroll Depth goals
 
-Page scroll tracking in Plausible goes beyond measuring how much of a page was scrolled.
+Scroll Depth goal tracking in Plausible goes beyond measuring how much of a page was scrolled.
 
-You can set specific goals by defining a scroll_threshold when creating a [pageview goal](https://plausible.io/docs/pageview-goals), making it easy to compare your ideal scroll depth against actual scroll depth.
+You can set up a Scroll Depth goal with a specific scroll depth percentage threshold to see how many visitors scroll to and beyond your desired scroll depth mark.
+
+To get started with Scroll Depth Goals, go to your website's settings in Plausible Analytics and visit the Goals section. 
+
+See [how here](https://plausible.io/docs/scroll-depth).
 
 *<add screenshot>*
 
