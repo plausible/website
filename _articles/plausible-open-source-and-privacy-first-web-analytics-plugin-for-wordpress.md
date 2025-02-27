@@ -37,7 +37,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * Track **post authors, categories and custom taxonomies**
 * Send **custom properties alongside pageviews or custom events**
 * Track **purchases and revenue for your ecommerce store**
-* Track **WooCommerce sales** with automatic events such as add to cart, checkout and the purchase funnel
+* Track **WooCommerce and Easy Digital Downloads sales** with automatic events such as add to cart, checkout and the purchase funnel
 * Track *site search terms*
 * **Exclude specific pages from being tracked**
 * **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too
@@ -256,9 +256,9 @@ For more details on how to send other custom properties for pageviews, please ch
 
 ## How to track ecommerce revenue
 
-Plausible Analytics plugin has a built-in support for [tracking of WooCommerce store activity](https://plausible.io/blog/woocommerce-analytics-plugin). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+Plausible Analytics plugin has a built-in support for [tracking of WooCommerce store activity](https://plausible.io/blog/woocommerce-analytics-plugin) and Easy Digital Downloads as well. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automatically set up and start tracking several WooCommerce custom events:
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automatically set up and start tracking several WooCommerce or Easy Digital Downloads custom events:
 
 * Add to Cart
 * Remove from Cart
@@ -290,7 +290,7 @@ A purchase funnel will be created as well looking at the user journey all the wa
 
 All this is done automatically for you and you don't need to manually set up any custom events nor make any changes to your code.
 
-### If you're not using WooCommerce for your store
+### If you're not using WooCommerce or Easy Digital Downloads for your store
 
 You can manually configure the actions you want to track regardless of the technology you use to power your store. Here's how:
 
