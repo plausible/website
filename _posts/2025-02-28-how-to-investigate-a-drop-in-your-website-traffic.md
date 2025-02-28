@@ -136,10 +136,102 @@ For us, no significant pattern emerged. And we know that we are not a seasonal b
 
 The conclusion so far in our personal investigation is that Google search traffic is the main culprit for causing a drop in traffic for the Plausible site.
 
-
-
 This is also one of the most common reasons for seeing a drop in traffic so it’s worth checking the following while investigating any traffic fluctuations.
 
 ### Check if Google penalised the site
 
 To check if Google has issued a manual penalty to your site, you can check for any notifications in Google Search Console. You can also check the Security and Manual actions section in the Console for any detected issues. We did this for Plausible and found no such penalties.
+
+![search-console-security-and-manual-actions](/uploads/search-console-security-and-manual-actions.png "search-console-security-and-manual-actions")
+
+There are also algorithmic and site-wide penalties. Algorithmic penalty is something that causes a drop in your rankings if you don’t follow Google’s guidelines.
+
+A site-wide penalty is severe and usually causes the entire site to be marked as spam and be deindexed. A quick way to rule this out is to go to Google and type “site:domain keyword” and swap the keyword with a main search term usually used for your site.
+
+If Google search results return no or less than normal search results for your site, you may be battling with a partial or full site penalty.
+
+As for us, that’s not the case. The next thing to do is check for lost keywords, backlinks, broken links, and/or rankings.
+
+### Check with an SEO tool
+
+Many SEO tools provide an option to conduct a site audit which is the fastest way to come across any lingering issues. Other than that, look at your keywords and backlinks reports.
+
+Here’s what I found from our Keywords report after sorting it by lost traffic column (Look at the orange “Change” column):
+
+![seo-tool-report](/uploads/seo-tool-report.png "seo-tool-report")
+
+The first row shows us losing traffic (by 83) and ranking (by 13) for the keyword, “as goals”. But that’s a good thing because it’s not a relevant keyword, and this drop actually leaves us with quality traffic only!
+
+As for the next keywords like “google analytics alternatives,” “self hosted analytics,” etc., I did a manual Google search from our top 5 countries to find out if we really did drop in rankings and that wasn’t the case for my search at least.
+
+So why is this tool showing a drop in rankings? It’s difficult to pinpoint. It could be a one-off thing, maybe Google algorithm knows that I prefer Plausible as a search result, or the changes have been reset now.
+
+It at least doesn’t matter at this point because we know there’s nothing much to do on our end.
+
+I also checked our Backlinks report––a popularly considered SEO ranking factor––and it shows a decline too but we never trade in backlinks and it’s all organic for us so we believe this will recover on its own.
+
+However, if you notice a decline and have an SEO team or an SEO strategy, you can improve your backlinking efforts.
+
+### Confirm there are no technical issues
+
+Technical SEO, or general technical health of a website, ensures that search engines can efficiently crawl, index, and render a website. Slow site speed, indexing issues, crawl errors, server errors, etc., are all factors that can affect your site’s technical health.
+
+There’s a good [guide](https://www.semrush.com/blog/technical-seo/) by Semrush if you want to get deeper into this, but a quick and comprehensive way to check for any technical issues is to run an audit with your SEO tool.
+
+If you don’t pay for an SEO tool, you can use [Lighthouse Metrics](https://lighthouse-metrics.com/). Simply add your site’s domain name and you can get performance scores on metrics like first contentful paint, speed index, etc.
+
+You can also see areas for improvement on accessibility and SEO. Any score in green is good.
+
+![lighthouse-report](/uploads/lighthouse-report.png "lighthouse-report")
+
+If the issues seem to be of a larger scale, it’ll become important to involve your engineering team.
+
+## Concluding investigation
+
+Luckily, we didn’t have much to worry about. We will continue doing what we do with our content marketing while maintaining content quality. If you do happen to find anything worrisome, that’s not too bad because now you are not operating in the dark and can take corrective measures.
+
+But it’s worth taking a sanity check…
+
+## How much traffic drop is too much drop?
+
+This depends on: 
+
+**Your normal traffic levels**
+
+If you have 100 visitors in a month and notice a 3% drop, then that’s probably nothing to worry about since you’re still very close to your average. But if you have 1M visitors, and you see a 3% drop, that means you’re down to 970K visitors –– a loss of 30K visitors. 
+
+The same 3% drop can mean very different things for different traffic levels. So do look at absolute traffic levels too before getting overwhelmed with red, downward arrows. :)
+
+A small dip might be statistically insignificant for smaller websites, while for high-traffic sites, even a seemingly small percentage loss can translate to substantial revenue and engagement losses.
+
+**Industry and industry trends**
+
+A 10% drop for a SaaS business can be considered bad. Many SaaS companies rely on steady, predictable growth, and a sharp drop could signal problems such as customer churn, shifting market trends, or increased competition.
+
+Meanwhile, a 10% drop for a news site that thrives on viral content may not be as concerning, especially if the dip coincides with fewer trending stories or seasonal variations.
+
+Some industries naturally experience fluctuations due to external factors. For example, travel websites might see a dip in off-peak seasons, while e-commerce stores often see drops after big sales events like Black Friday.
+
+**Personal goals and observations**
+
+It’s also essential to align expectations with personal goals. If your aim is aggressive growth and you see even a slight dip, it might warrant an investigation. But if you’re maintaining steady traffic levels without significant business impact, a small drop may not be alarming.
+
+**Whether the drop is obvious**
+
+No matter how much your traffic numbers are, a 50% drop can’t be good (unless there’s a strong reason such as being in a seasonal business). 
+
+A sudden, significant drop often signals a major issue—like a Google penalty, site indexing problems, technical errors, or an algorithm update. If you see such a drastic decline, immediate action is necessary to diagnose and fix the problem.
+
+In cases where seasonality is a factor, a steep drop might be expected. For instance, a tax-related website might see traffic plunge after tax season ends. 
+
+However, if the decline is unexpected and sustained, it’s a red flag that warrants deeper investigation into possible causes like ranking drops, content performance, or shifts in audience interest.
+
+## You’re in good hands
+
+Fret not, traffic fluctuations are a natural part of site ownership. With the right tools and consistent monitoring, you can quickly identify dips and take corrective action as needed.
+
+If you want to try out an extremely simple way of tracking traffic and [ditch Google Analytics](https://plausible.io/vs-google-analytics), do sign up for our [free trial](https://plausible.io/register) and join our 14k+ happy subscribers.
+
+We are privacy-friendly and GDPR-compliant by default, our tracking code is less blocked by ad blockers, we automatically keep bot traffic at bay, and are proud to be a more accurate alternative to Google Analytics.
+
+Good luck!
