@@ -6,6 +6,8 @@ description: The process of analyzing a traffic drop, while revealing our own
 slug: drop-in-website-traffic
 date: 2025-02-28T10:22:19.083Z
 author: hricha-shandily
+image: /uploads/traffic-drop-in-plausible-dashboard.png
+image-alt: traffic drop and trend visible in Plausible dashboard
 ---
 If you are noticing your website traffic is down, the first thing to do is investigate the reasons. Don’t panic, you were probably hit by a Google’s core update, something maybe off on the technical side, the site may be responding to a new trend, or you may simply need to write more/better content.
 
