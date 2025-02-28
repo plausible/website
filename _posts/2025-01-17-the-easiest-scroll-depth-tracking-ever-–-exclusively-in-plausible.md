@@ -89,7 +89,7 @@ To get started with Scroll Depth Goals, go to your website's settings in Plausib
 
 See [how here](https://plausible.io/docs/scroll-depth).
 
-*<add screenshot>*
+![scroll-depth-goal](/uploads/scroll-depth-goal.png "scroll-depth-goal")
 
 ### Group pages to see the average page scroll depth
 
