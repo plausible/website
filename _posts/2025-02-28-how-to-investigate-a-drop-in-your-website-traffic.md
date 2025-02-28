@@ -232,6 +232,6 @@ Fret not, traffic fluctuations are a natural part of site ownership. With the ri
 
 If you want to try out an extremely simple way of tracking traffic and [ditch Google Analytics](https://plausible.io/vs-google-analytics), do sign up for our [free trial](https://plausible.io/register) and join our 14k+ happy subscribers.
 
-We are privacy-friendly and GDPR-compliant by default, our tracking code is less blocked by ad blockers, we automatically keep bot traffic at bay, and are proud to be a more accurate alternative to Google Analytics.
+We are privacy-friendly and GDPR-compliant by default, our tracking code is less blocked by ad blockers, we automatically keep bot traffic at bay, and are proud to be a [more accurate](https://plausible.io/most-accurate-web-analytics) alternative to Google Analytics.
 
 Good luck!
