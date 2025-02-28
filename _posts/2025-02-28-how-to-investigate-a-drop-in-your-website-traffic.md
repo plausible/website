@@ -18,7 +18,7 @@ To do this, you need a web analytics tool, and if the situation demands, access 
 By taking you through the things you can do on such tools and taking our own investigation as an example, we will demonstrate how to diagnose the issues causing your website’s traffic to decline.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Analyzing the traffic drop
 
