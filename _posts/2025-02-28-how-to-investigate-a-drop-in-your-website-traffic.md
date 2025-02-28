@@ -71,3 +71,75 @@ You can also click on any such Channel to [see the exact sources within each cha
 For us, out of the top four significant channels, organic search, referral and organic social are the three with declines.
 
 ![plausible-standard-reports](/uploads/plausible-standard-reports-.png "plausible-standard-reports")
+
+Referrals is something we don’t try to typically influence or buy, so it may not be worth investigating that further. If anything, producing content is the way to go for us so we continue investigating the other two declining channels: organic search and organic social.
+
+If I segment the dashboard by clicking on “Organic Search,” it is seen that Google, DuckDuckGo, Brave, etc., have contributed to the drops. Out of these, Google is the most significant traffic contributor.
+
+![organic-search-traffic-sources](/uploads/organic-search-traffic-sources.png "organic-search-traffic-sources")
+
+As for organic social traffic, the significant one is GitHub. Out of the channels that we actively post in, only LinkedIn seems to be having a drop, while the absolute numbers are only in hundreds.
+
+![organic-social-traffic-sources](/uploads/organic-social-traffic-sources.png "organic-social-traffic-sources")
+
+Conclusion: The biggest culprit until now seems to be Google search traffic. Could it be an algorithm update? Lost backlinks? Technical issues with crawling?
+
+Let’s come back to that in a minute. Let’s first check the other reports for more information.
+
+### Which pages are affected?
+
+This information is available in Plausible’s Entry Pages report and it can help spot the exact landing page or pages seeing the drop.
+
+**Using GA4?** You can open your “Landing Pages” standard report and continue investigating using the same principles we describe below.
+
+If you are seeing a pattern in such pages or only see specific 4-5 pages with significant drops, you could instantly get closer to the reason. For eg.,
+
+* If you see that a blog post is seeing a traffic drop this month as compared to last month and you know that it was going viral last month, then the drop is natural and you probably don’t have much to worry about. Or if that wasn’t the case, you can check the specific blog post for any SEO issues like drop in rankings, outdated content, or any technical issues.
+* If you see a pattern in the kind of pages seeing a drop, such as the pages in your SaaS app, you can compartmentalize better and know that you likely need to turn your eyes to your product marketing efforts.
+
+For us, upon checking the Entry Pages (i.e. landing pages) report, almost all the pages have seen a drop. So it’s a sitewide thing and a single page or pattern can’t be held culprit.
+
+This means that only the traffic sources side of the equation is affected, as we didn’t make any recent changes on the website either.
+
+### Could this be a geographical or devices related thing?
+
+This information is available in the Locations and Devices reports in Plausible.
+
+**Using GA4?** You need to select country, region, city as a primary and/or secondary dimension in Demographic reports –– one at a time. Same thing needs to be done for getting the Browser, OS, device info, etc., within the “Tech details” report.
+
+To analyze,
+
+* If you see certain regions with drops, you’d know where to turn your eyeballs to.
+* If you see specific devices or OS with drops, then you can check for technical issues. For eg., a sudden drop in traffic from mobile phone users could mean that your site is not accessible on phones anymore. In this case, get your tech team involved.
+
+In our case, our top five countries are consistent regardless of whether we apply the filters of organic search and organic social channels or not. So, keeping focused on the so-far observed organic traffic-drop would be enough. 
+
+Similar is the case with our devices report. The browser, OS, size data is also just a reflection of what our visitors use and don’t tell anything new about the traffic drop.
+
+So, that’s eliminated.
+
+### Is it a “time of the year” thing?
+
+If you are investigating a traffic drop in February, what was happening in February last year? This information can also be pulled from the Plausible Analytics dashboard (provided you were using it a year ago too).
+
+Here’s what to do:
+
+➡ ️ Choose a custom range (or press 'C') and set February 2024 (as per this example).
+
+➡ ️ Select "previous period" in the vs dropdown.
+
+For us, no significant pattern emerged. And we know that we are not a seasonal business so it does not apply to us.
+
+**Using GA4?** Use different time ranges, such as past months, or corresponding dates from previous years to account for seasonality. This will help identify trends and significant shifts in user behavior or traffic sources.
+
+## Analyzing an organic search drop
+
+The conclusion so far in our personal investigation is that Google search traffic is the main culprit for causing a drop in traffic for the Plausible site.
+
+
+
+This is also one of the most common reasons for seeing a drop in traffic so it’s worth checking the following while investigating any traffic fluctuations.
+
+### Check if Google penalised the site
+
+To check if Google has issued a manual penalty to your site, you can check for any notifications in Google Search Console. You can also check the Security and Manual actions section in the Console for any detected issues. We did this for Plausible and found no such penalties.
