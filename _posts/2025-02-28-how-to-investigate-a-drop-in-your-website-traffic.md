@@ -18,7 +18,7 @@ To do this, you need a web analytics tool, and if the situation demands, access 
 By taking you through the things you can do on such tools and taking our own investigation as an example, we will demonstrate how to diagnose the issues causing your website’s traffic to decline.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Analyzing the traffic drop
 
@@ -84,13 +84,17 @@ As for organic social traffic, the significant one is GitHub. Out of the channel
 
 ![organic-social-traffic-sources](/uploads/organic-social-traffic-sources.png "organic-social-traffic-sources")
 
+Also, a little decline in organic social traffic is natural because it’s a well-known fact that social media algorithms these days try to prevent people from exiting their platform.
+
+Interested people do make it to a website through the links in your profile’s description or when you post something truly interesting but it’s tougher to get organic social traffic nonetheless.
+
 Conclusion: The biggest culprit until now seems to be Google search traffic. Could it be an algorithm update? Lost backlinks? Technical issues with crawling?
 
 Let’s come back to that in a minute. Let’s first check the other reports for more information.
 
 ### Which pages are affected?
 
-This information is available in Plausible’s Entry Pages report and it can help spot the exact landing page or pages seeing the drop.
+This information is available in Plausible Analytics’ Entry Pages report and it can help spot the exact landing page or pages seeing the drop.
 
 **Using GA4?** You can open your “Landing Pages” standard report and continue investigating using the same principles we describe below.
 
@@ -217,6 +221,8 @@ Some industries naturally experience fluctuations due to external factors. For e
 **Personal goals and observations**
 
 It’s also essential to align expectations with personal goals. If your aim is aggressive growth and you see even a slight dip, it might warrant an investigation. But if you’re maintaining steady traffic levels without significant business impact, a small drop may not be alarming.
+
+For instance, even if your traffic has dipped but conversion rates on important goals (like sign ups or purchases) haven't, it’s alright.
 
 **Whether the drop is obvious**
 
