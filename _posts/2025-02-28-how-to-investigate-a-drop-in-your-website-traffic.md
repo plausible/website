@@ -18,7 +18,7 @@ To do this, you need a web analytics tool, and if the situation demands, access 
 By taking you through the things you can do on such tools and taking our own investigation as an example, we will demonstrate how to diagnose the issues causing your website’s traffic to decline.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Analyzing the traffic drop
 
@@ -46,7 +46,10 @@ I repeated the same exercise for the past 7 days and the drops are still there. 
 
 So I am also compelled to check for the past 12 months altogether to understand if there are bigger things to worry about and that showed improvements upwards of 50% so we should be good. There’s nothing big to worry about.
 
-By the way, if you’re a Plausible subscriber, you can set [traffic drop notifications](https://plausible.io/docs/traffic-spikes#set-the-unique-visitor-threshold-for-the-traffic-drop-notifications) by determining your 12 hour visitor threshold.
+A couple of tips if you’re a Plausible subscriber:
+
+* You can send [custom properties](https://plausible.io/docs/custom-props/introduction) along with your pageview or custom goals to determine, for eg., if specific actions taken by logged-in users. The Plausible dashboard can be just filtered by properties too, so you’ll be able to make a more nuanced analysis. You can even compare the trend for logged-in vs logged-out visitors.
+* You can set [traffic drop notifications](https://plausible.io/docs/traffic-spikes#set-the-unique-visitor-threshold-for-the-traffic-drop-notifications) by determining your 12 hour visitor threshold.
 
 #### Where to find this info in GA4? 
 
@@ -88,9 +91,9 @@ Also, a little decline in organic social traffic is natural because it’s a wel
 
 Interested people do make it to a website through the links in your profile’s description or when you post something truly interesting but it’s tougher to get organic social traffic nonetheless.
 
-Conclusion: The biggest culprit until now seems to be Google search traffic. Could it be an algorithm update? Lost backlinks? Technical issues with crawling?
+Since the biggest culprit until now seems to be Google search traffic, it’s possible to drill further down by seeing the exact search terms that bring Google traffic to you. This is available in the Plausible dashboard through a [GSC integration](https://plausible.io/docs/google-search-console-integration), or you can simply open up your Search Console in another tab.
 
-Let’s come back to that in a minute. Let’s first check the other reports for more information.
+It could also be an algorithm update, lost backlinks or technical issues with crawling. We have a whole section on analyzing an organic search drop down below, but first let’s check the other reports for more information and eliminate any other possibilities.
 
 ### Which pages are affected?
 
