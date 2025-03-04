@@ -187,7 +187,7 @@ Technical SEO, or general technical health of a website, ensures that search eng
 
 There’s a good [guide](https://www.semrush.com/blog/technical-seo/) by Semrush if you want to get deeper into this, but a quick and comprehensive way to check for any technical issues is to run an audit with your SEO tool.
 
-If you don’t pay for an SEO tool, you can use [Lighthouse Metrics](https://lighthouse-metrics.com/). Simply add your site’s domain name and you can get performance scores on metrics like first contentful paint, speed index, etc.
+If you don’t pay for an SEO tool, you can use [Lighthouse Metrics](https://lighthouse-metrics.com/). Simply add a page URL from your site and you can get performance scores on its metrics like first contentful paint, speed index, etc. 
 
 You can also see areas for improvement on accessibility and SEO. Any score in green is good.
 
