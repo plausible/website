@@ -65,7 +65,7 @@ In Plausible, this is as easy and quick as applying a few filters on your simple
 
 In Plausible, your audience data is already presented in basic segments like channels of acquisition, landing pages they visit, the locations they come from, and the devices they use. This is all done by default, out-of-the-box.
 
- When you have a Plausible dashboard open, clicking on any entry (or entries) filters the dashboard to show only the data pertaining to [those](https://plausible.io/plausible.io?filters=((is,country,(US)),(is_not,region,(US-CO,US-MN,US-AZ)),(is,goal,(Visit%2B/register)))&labels=(US:United%2BStates,US-CO:Colorado,US-MN:Minnesota,US-AZ:Arizona)) filters.
+When you have a Plausible dashboard open, clicking on any entry (or entries) filters the dashboard to show only the data pertaining to [those](https://plausible.io/plausible.io?filters=((is,country,(US)),(is_not,region,(US-CO,US-MN,US-AZ)),(is,goal,(Visit%2B/register)))&labels=(US:United%2BStates,US-CO:Colorado,US-MN:Minnesota,US-AZ:Arizona)) filters. You can also [save a segment](https://plausible.io/docs/filters-segments#how-to-save-a-segment) for quick access later.
 
 If you don’t have a Plausible Analytics account yet, you can play around with [our live demo](https://plausible.io/plausible.io) where our own website’s real data is publicly available. The following examples are fetched from the same dashboard, and you can try the explained filters for yourself on the live demo.
 
@@ -147,6 +147,7 @@ The best part? This integration is privacy-friendly and requires no additional G
 
 ### Other optimizations  
 
+* ﻿[Save your﻿ segments](https://plausible.io/docs/filters-segments#how-to-save-a-segment) for quick access later. 
 * If you have some old data from Google Analytics 4 that you don’t want to lose, you can simply [import it](https://plausible.io/docs/google-analytics-import) into Plausible. This ensures you retain those critical insights, which can be essential for segmenting your audience and understanding long-term trends.
 * You can [allow traffic](https://plausible.io/docs/subdomain-hostname-filter) only from specific hostnames to not pollute your data.
 * Plausible strips the query parameters from the pages reports for privacy purposes. If you want some pages to be reported with the complete URL that includes the query part as well, [here's](https://plausible.io/docs/custom-query-params) what you should do.
