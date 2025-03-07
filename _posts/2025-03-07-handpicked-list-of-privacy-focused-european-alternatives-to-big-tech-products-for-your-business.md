@@ -91,13 +91,13 @@ P.S. We use BunnyCDN at Plausible and have been happy users for a long time now.
 
 It offers features like a collaborative inbox, AI-powered chatbots, CRM integration, help desk management, etc. They also have a mobile app.
 
-Based in: France
+**Based in**: France
 
-Hosted in: EU. Messaging data is stored in The Netherlands and Plugin data is stored in Germany. However, their relay data is stored in the USA, UK and Singapore ([which they plan to change](https://help.crisp.chat/en/article/whats-crisp-eu-gdpr-compliance-status-nhv54c/))
+**Hosted in**: EU. Messaging data is stored in The Netherlands and Plugin data is stored in Germany. However, their relay data is stored in the USA, UK and Singapore ([which they plan to change](https://help.crisp.chat/en/article/whats-crisp-eu-gdpr-compliance-status-nhv54c/))
 
-GDPR compliant? Yes
+**GDPR compliant?** Yes
 
-Cost: Free plan available
+**Cost**: Free plan available
 
 [Visit Crisp](https://help.crisp.chat/en/)
 
@@ -111,13 +111,13 @@ Element is an open-source app for team communication, powered by an open protoco
 
 It keeps messages private with end-to-end encryption. Because Matrix is decentralized, Element users can chat with people on other Matrix apps and servers without being tied to one provider. You can even self-host your own Matrix server.
 
-Based in: UK (not EU)
+**Based in**: UK (not EU)
 
-Hosted in: EU ([source](https://element.io/privacy))
+**Hosted in**: EU ([source](https://element.io/privacy))
 
-GDPR compliant? Yes
+**GDPR compliant?** Yes
 
-Cost: Starts at €5 per user/month, paid annually (Free app available for personal use)
+**Cost**: Starts at €5 per user/month, paid annually (Free app available for personal use)
 
 [Visit Element](https://element.io/)
 
@@ -125,19 +125,15 @@ Cost: Starts at €5 per user/month, paid annually (Free app available for perso
 
 LanguageTool is an AI-based, open-source, multilingual grammar and spell checker supporting over 30 languages. They have a Chrome extension, Google Docs add-on, and a desktop app as well.
 
-
-
 It also comes with features to help track your productivity, see an overview of languages used, errors made, etc., so you can track your improvements over time. You can also self-host.
 
+**Based in**: Germany
 
+**Hosted in**: Dublin, Ireland ([source](https://languagetool.org/legal/dpa))
 
-Based in: Germany
+**GDPR compliant?** Yes
 
-Hosted in: Dublin, Ireland ([source](https://languagetool.org/legal/dpa))
-
-GDPR compliant? Yes
-
-Cost: Free
+**Cost**: Free
 
 [Visit LanguageTool](https://languagetool.org/)
 
@@ -145,15 +141,13 @@ Cost: Free
 
 Mistral is a French AI startup, with their own chat app called Le Chat, similar to ChatGPT, Deepseek, etc. They also published an [OSS model](https://ollama.com/library/mistral) a while back, which you can run on your own.
 
+**Based in**: France
 
+**Hosted in**: Sweden ([source](https://help.mistral.ai/en/articles/156206-when-using-mistral-ai-s-api-where-is-my-data-stored))
 
-Based in: France
+**GDPR compliant?** Yes
 
-Hosted in: Sweden ([source](https://help.mistral.ai/en/articles/156206-when-using-mistral-ai-s-api-where-is-my-data-stored))
-
-GDPR compliant? Yes
-
-Cost: Free
+**Cost**: Free
 
 [Visit Mistral AI](https://mistral.ai/)
 
@@ -163,15 +157,13 @@ Mullvad is a privacy-focused VPN service with over 700 servers in 38 countries. 
 
 True to European values, Mullvad VPN has a very strong stance on privacy which is clear upon visiting their homepage.
 
+**Based in**: Sweden
 
+**Hosted in**: A VPN cannot be restricted to a singular hosting location, however, they claim that all their VPN servers run from RAM, and don’t use any shared compute resources. Given these claims, it seems worth taking a look. 
 
-Based in: Sweden
+**GDPR compliant?** Yes
 
-Hosted in: A VPN cannot be restricted to a singular hosting location, however, they claim that all their VPN servers run from RAM, and don’t use any shared compute resources. Given these claims, it seems worth taking a look. 
-
-GDPR compliant? Yes
-
-Cost: €5 per month flat
+**Cost**: €5 per month flat
 
 [Visit Mullvad](https://mullvad.net/en)
 
@@ -181,13 +173,13 @@ Odoo is an open-source enterprise resource planning (ERP) software that integrat
 
 This modular approach helps businesses to customize the system to their specific needs for efficiency.​
 
-Based in: Belgium
+**Based in:** Belgium
 
-Hosted in: Data stored closest to your region, and you can request to change it ([source](https://www.odoo.com/privacy#part_12))
+**Hosted in**: Data stored closest to your region, and you can request to change it ([source](https://www.odoo.com/privacy#part_12))
 
-GDPR compliant? Yes
+**GDPR compliant?** Yes
 
-Cost: Free
+**Cost**: Free
 
 [Visit Odoo](https://www.odoo.com/)
 
@@ -199,19 +191,15 @@ While the community edition of Odoo is open source, they do have a proprietary o
 
 Passbolt is an open-source password manager for secure team collaboration. It offers end-to-end encryption using OpenPGP standards, ensuring that only authorized users can access stored data. They have been around for over a decade.
 
-
-
 You can also self-host it.
 
+**Based in**: Luxembourg
 
+**Hosted in**: EU
 
-Based in: Luxembourg
+**GDPR compliant?** Yes
 
-Hosted in: EU
-
-GDPR compliant? Yes
-
-Cost: Free
+**Cost**: Free
 
 [Visit Passbolt](https://www.passbolt.com/)
 
@@ -219,23 +207,17 @@ Cost: Free
 
 We’re Plausible Analytics and after using Google Analytics for many years we believe we have created an alternative that’s privacy-first, simple to use, lightweight and much better at certain things.
 
-
-
 We don’t use cookies so there’s no need for cookie banners. We don’t collect personal data so no need for GDPR and CCPA consent prompts either.
-
-
 
 We’re open source and can be self-hosted too.
 
+**Based in**: Estonia
 
+**Hosted in**: EU
 
-Based in: Estonia
+**GDPR compliant?** Yes
 
-Hosted in: EU
-
-GDPR compliant? Yes
-
-Cost: Starts at $9 per month, cheaper for an annual subscription (30-day free trial)
+**Cost**: Starts at $9 per month, cheaper for an annual subscription (30-day free trial)
 
 [Visit Plausible demo](https://plausible.io/plausible.io)
 
@@ -245,37 +227,31 @@ ProtonMail is an email service that emphasizes security and privacy through end-
 
 With features like Hide-my-email aliases, calendar and drive, they offer a compelling alternative to Google and Microsoft.
 
-Based in: Switzerland
+**Based in**: Switzerland
 
-Hosted in: Switzerland, Germany, and Norway ([source](https://proton.me/blog/sustaining-mission-over-time))
+**Hosted in**: Switzerland, Germany, and Norway ([source](https://proton.me/blog/sustaining-mission-over-time))
 
-GDPR compliant? Yes
+**GDPR compliant?** Yes
 
-Cost: Free
+**Cost**: Free
 
 [Visit ProtonMail](https://proton.me/mail)
 
 ### Tally Forms (Google Forms and Typeform alternative)
 
-Tally Forms is a free and intuitive forms builder. You can build your form by working in a text document like format. 
-
-
+Tally Forms is a free and intuitive forms builder. You can build your form by working in a text document like format.
 
 It also offers advanced features like conditional logic, signatures, calculations, file uploads, etc. In other words, a better alternative to Google Forms or Typeform.
 
-
-
 They initially created it in a motivation to replace the big tech as they were expensive, and have been at it for about 5 years now, completely funded by customers.
 
+**Based in**: Belgium
 
+**Hosted in**: EU
 
-Based in: Belgium
+**GDPR compliant?** Yes
 
-Hosted in: EU
-
-GDPR compliant? Yes
-
-Cost: Free
+**Cost**: Free
 
 [Visit Tally](https://tally.so/)
 
@@ -283,25 +259,17 @@ Cost: Free
 
 Whereby is a user-friendly, browser-based video conferencing tool, requiring no downloads or logins for guests.
 
-
-
 It offers features such as screen sharing, customizable meeting rooms, and integrations with tools like Trello, Google Docs, and Miro Whiteboard. Whereby also provides an API for embedding video conferencing capabilities into websites and applications.
-
-
 
 P.S. We use Whereby at Plausible for internal video calls.
 
+**Based in**: Norway
 
+**Hosted in**: User data stored in Ireland. However, being fully EU-hosted isn’t entirely feasible since they serve a global audience and need to maintain video routers worldwide. However, users in a European country will connect to a data center physically located within the EEC.
 
-Based in: Norway
+**GDPR compliant?** Yes
 
-Hosted in: User data stored in Ireland. However, being fully EU-hosted isn’t entirely feasible since they serve a global audience and need to maintain video routers worldwide. However, users in a European country will connect to a data center physically located within the EEC.
-
-
-
-GDPR compliant? Yes
-
-Cost: Free
+**Cost**: Free
 
 [Visit Whereby](https://whereby.com/)
 
