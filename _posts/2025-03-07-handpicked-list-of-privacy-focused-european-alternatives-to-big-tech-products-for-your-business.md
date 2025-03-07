@@ -13,7 +13,7 @@ Europe has been building world-class digital tools for years. A major advantage 
 If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives for your business.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Criteria for choosing these tools
 
