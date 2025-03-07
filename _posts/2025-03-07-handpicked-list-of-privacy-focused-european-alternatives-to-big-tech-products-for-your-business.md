@@ -173,7 +173,7 @@ Morning Score is a user-friendly SEO tool designed to simplify keyword tracking,
 
 [Visit Morning Score](https://morningscore.io/)
 
-### Mullvad (NordVPN & ExpressVPN alternative)
+### Mullvad (ExpressVPN alternative)
 
 Mullvad is a privacy-focused VPN service with over 700 servers in 38 countries. It provides apps for Windows, macOS, Linux, iOS, Android, and a Firefox add-on—all of which are open-source and available on GitHub.
 
