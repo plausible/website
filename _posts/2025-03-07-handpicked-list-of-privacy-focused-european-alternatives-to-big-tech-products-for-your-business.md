@@ -162,7 +162,7 @@ Mistral is a French AI startup, with their own chat app called Le Chat, similar 
 
 [Visit Mistral AI](https://mistral.ai/)
 
-### **Morning Score (Ahrefs & SEMrush alternative)**
+### Morning Score (Ahrefs & SEMrush alternative)
 
 Morning Score is a user-friendly SEO tool designed to simplify keyword tracking, competitor analysis, and website optimization while respecting privacy.
 
