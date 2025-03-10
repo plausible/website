@@ -167,7 +167,7 @@ Mistral is a French AI startup, with their own chat app called Le Chat, similar 
 Morning Score is a user-friendly SEO tool designed to simplify keyword tracking, competitor analysis, and website optimization while respecting privacy.
 
 * **Based in:** Denmark
-* **Hosted in:** Info not available
+* **Hosted in:** Germany
 * **GDPR compliant?** Info not available
 * **Cost:** Starts at €49/month (free trial available)
 
