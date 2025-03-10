@@ -40,7 +40,7 @@ For example, if you’ve got a long-form article with a call-to-action (CTA) nea
 
 This is also measured in pixels (usually rounded off values) in some tools. Although, it’s better to track it in percentages because that way it’s easier to judge the engagement level of the page and easily compare it to other pages too.
 
-## Introducing, **automatic scroll depth** tracking in Plausible Analytics
+## Introducing, automatic scroll depth tracking in Plausible Analytics
 
 The scroll depth metric is now live in your dashboards! 
 
