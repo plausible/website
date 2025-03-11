@@ -4,7 +4,7 @@ title: What is scroll depth and how to track it automatically?
 description: What is scroll depth, what’s considered good, and how to track it
   automatically without any extra setup or manual configuration needed.
 slug: scroll-depth-tracking
-date: 2025-01-17T08:32:07.301Z
+date: 2025-03-11T08:32:07.301Z
 author: hricha-shandily
 image: /uploads/scroll-depth-metric-in-plausible.png
 image-alt: scroll depth metric in plausible
@@ -52,7 +52,7 @@ Here’s everything you need to know about it:
 
 ### Tracked by default
 
-Scroll depth is measured automatically for every page on your site that is tracked with the Plausible script, starting today. 
+Scroll depth is measured automatically for every page on your site that is tracked with the Plausible script. 
 
 No sending scroll depth events, no plugins, no tag managers, no extra cost, no extra time and effort.
 
