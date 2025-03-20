@@ -134,11 +134,21 @@ Once you add this, you will see that if you click it, you will see all the sourc
 
 Creating your own customized reports gives you the power to use your Plausible Analytics data in new and interesting ways but it also means that you will be exposed to some of the limitations of how different data fields can or cannot be combined.
 
-For example, some dimensions are based on events (every action that takes place on your site) while others are based on visits (sessions that take place on your site). Depending on which category a dimension falls into, different metrics will be available. In general, page, hostname and goal are event dimensions while all others are session dimensions.   
+One of the primary considerations to keep in mind is that some dimensions are based on events (every action that takes place on your site) while others are based on visits (sessions that take place on your site). Depending on which category a dimension falls into, different metrics will be available. In general, page, hostname and goal are event dimensions while all others are session dimensions.   
 
 Bounce rate, visits and visit duration can only be used in combination with session dimensions, while events can only be used with event dimensions. In the case that you use an invalid combination of dimensions and metrics, you will either see null values for the invalid metric or you will see an error in Looker Studio.
 
-Goals and custom properties are a special case as they have the additional conversion rate metric that can only be used when one of these fields is either added as a dimension or used in a filter. In order to get the number of unique conversions, you should use the visitors metric and in order to get total conversions you should use the events metric.
+For example, if you try to use entry page as a dimension together with events, you will see null values because entry page is a session dimension.  (it keeps track of the first page that a user visited during their session) 
+
+![Entry page table with null events](/uploads/entry-page-events-null-looker.png "entry-page-events-null-looker")
+
+You have several ways that you can work around this. First, you can use visitors or visits as a metric with session dimensions like entry page.  Second, you can use page (which is an event dimension) with the events metric. And finally, you can use entry page in a filter and then pick an event dimension for your table like goal name. This way, you can see event-level details for a list of goals corresponding to the landing pages that you specify via the filter.
+
+![Goal events table filtered by entry page](/uploads/goal-events-filtered-by-entry-page-looker.png "goal-events-filtered-by-entry-page-looker")
+
+In general, filter dimensions do not have the same limitations as dimensions that you add directly to your charts and tables, so this can be a good alternative in many cases.
+
+Another consideration is that goals and custom properties have an additional conversion rate metric that can only be used when one of these fields is either added as a dimension or used in a filter. In order to get the number of unique conversions, you should use the visitors metric and in order to get total conversions you should use the events metric.
 
 So to create the table in the Plausible dashboard that shows unique conversions, total conversions and conversion rate by goal, you would have a table that looks like this in Looker Studio.
 
