@@ -78,3 +78,56 @@ Even Canada and India make an appearance in the top 25, contributing decent amou
 If you scroll all the way down, or simply look at the “Map view,” there’s hardly any part of the globe that’s not participating in the shift towards privacy-focused digital tools.
 
 ![map-view](/uploads/map-view.png "map-view")
+
+Privacy-conscious users are everywhere.
+
+## Which European tools are winning? 
+
+The dashboard has an [Outbound link click goal](https://plausible.io/docs/outbound-link-click-tracking) configured, which is useful in understanding which listed tools eventually attract real visitors. Once we filter the dashboard by this goal (see it [here](https://plausible.io/european-alternatives.eu?f=is,goal,Outbound%20Link:%20Click&period=all&keybindHint=A&comparison=off&match_day_of_week=true)), we can see which URLs were clicked.
+
+From these results, these are the top 10 tools receiving traffic from the EU alternatives website: 
+
+1. Mailbox.org (email provider)
+2. ProtonMail (email provider)
+3. Soverin (email provider)
+4. Startpage (search engine)
+5. Qwant (search engine)
+6. Posteo (email provider)
+7. Ecosia (search engine)
+8. Scaleway (cloud provider)
+9. Startmail (email provider)
+10. Good search (search engine)
+
+And if we look at the all-time data, there’s a whopping 1.2M total outbound clicks from the website to such tools, that’s more than half of the total all-time visits to the library.
+
+![outbound-clicks](/uploads/outbound-clicks-.png "outbound-clicks")
+
+And conversions aren’t just from Europe—the U.S. audience alone has a 16.8% conversion rate (check [here](https://plausible.io/european-alternatives.eu?f=is,goal,Outbound%20Link:%20Click&f=is,country,US&l=US,United%20States&period=all&keybindHint=A&comparison=off&match_day_of_week=true))!
+
+## Need a hand in deciding which tools to go with?
+
+We recently vetted many EU-built B2B tools and picked out a few of our favourites. They’re all:
+
+* Built in the EU – Companies headquartered in a European country.
+* Hosted in the EU – Ensuring your data doesn’t leave the European borders and stays compliant with European privacy laws.
+* GDPR-compliance –  Tools that align with European data protection laws.
+* High quality – Competitive with mainstream solutions.
+* Privacy-focused – Respecting user data and following GDPR regulations.
+
+If you’re interested, check out our [handpicked list of 16 privacy-focused European tools](https://plausible.io/blog/european-privacy-friendly-tools-for-business).
+
+## Privacy-friendly web analytics is on the rise
+
+We started Plausible Analytics six years ago as a privacy-first, [GDPR-compliant](https://plausible.io/data-policy), [cookieless](https://plausible.io/blog/google-analytics-cookies) and muuuch [easier-to-use](https://plausible.io/simple-web-analytics) alternative to Google Analytics.
+
+So, we took a look at how our category is doing:
+
+* 5th most popular category in the library
+* 9th most visited page overall
+* More than a 2,700% increase in unique visitors in 2025
+
+The demand for privacy-friendly web analytics is booming. If you’re looking for an alternative, check out our [privacy-first approach](https://plausible.io/privacy-focused-web-analytics).
+
+
+
+👋
