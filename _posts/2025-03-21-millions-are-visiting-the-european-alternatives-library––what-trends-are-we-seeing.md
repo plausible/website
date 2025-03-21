@@ -82,6 +82,12 @@ If you scroll all the way down, or simply look at the “Map view,” there’s 
 
 Privacy-conscious users are everywhere.
 
+## European countries leading (and lagging) in the shift to privacy-friendly tools
+
+Germany leads in visitor numbers, with 379K, and contributing 20.5% of the total traffic all-time! This is followed by the Netherlands (141K) and France (135K). These countries show significant engagement with European digital alternatives.
+
+On the lower end, Guernsey recorded 130 visitors, while regions like Vatican City State and Saint Martin (French part) had 3 each. The variation in engagement levels may reflect differences in population size, digital preferences, or awareness of privacy-friendly alternatives.
+
 ## Which European tools are winning? 
 
 The dashboard has an [Outbound link click goal](https://plausible.io/docs/outbound-link-click-tracking) configured, which is useful in understanding which listed tools eventually attract real visitors. Once we filter the dashboard by this goal (see it [here](https://plausible.io/european-alternatives.eu?f=is,goal,Outbound%20Link:%20Click&period=all&keybindHint=A&comparison=off&match_day_of_week=true)), we can see which URLs were clicked.
@@ -111,7 +117,7 @@ We recently vetted many EU-built B2B tools and picked out a few of our favourite
 
 * Built in the EU – Companies headquartered in a European country.
 * Hosted in the EU – Ensuring your data doesn’t leave the European borders and stays compliant with European privacy laws.
-* GDPR-compliance –  Tools that align with European data protection laws.
+* GDPR-compliant –  Tools that align with European data protection laws.
 * High quality – Competitive with mainstream solutions.
 * Privacy-focused – Respecting user data and following GDPR regulations.
 
