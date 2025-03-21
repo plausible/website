@@ -86,7 +86,7 @@ Privacy-conscious users are everywhere.
 
 Germany leads in visitor numbers, with 379K, and contributing 20.5% of the total traffic all-time! This is followed by the Netherlands (141K) and France (135K). These countries show significant engagement with European digital alternatives.
 
-On the lower end, Guernsey recorded 130 visitors, while regions like Vatican City State and Saint Martin (French part) had 3 each. The variation in engagement levels may reflect differences in population size, digital preferences, or awareness of privacy-friendly alternatives.
+On the lower end, Guernsey recorded 130 visitors, while regions like Vatican City State and Saint Martin (French part) had 3 each. The variation in engagement levels may reflect differences in population size, internet adoption rates, etc.
 
 ## Which European tools are winning? 
 
