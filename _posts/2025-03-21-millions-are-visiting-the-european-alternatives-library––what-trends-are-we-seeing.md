@@ -115,7 +115,7 @@ We recently vetted many EU-built B2B tools and picked out a few of our favourite
 * High quality – Competitive with mainstream solutions.
 * Privacy-focused – Respecting user data and following GDPR regulations.
 
-If you’re interested, check out our [handpicked list of 16 privacy-focused European tools](https://plausible.io/blog/european-privacy-friendly-tools-for-business).
+Check out our [handpicked list of 16 privacy-focused European tools](https://plausible.io/blog/european-privacy-friendly-tools-for-business).
 
 ## Privacy-friendly web analytics is on the rise
 
