@@ -11,13 +11,14 @@ author: hricha-shandily
 image: /uploads/eu-alternatives-traffic-graph.png
 image-alt: eu-alternatives-traffic-graph
 ---
-![]()
-
 ☝️That’s a screenshot from the publicly open Plausible Analytics dashboard of the European Alternatives [website](https://european-alternatives.eu/), featuring independent, privacy-friendly digital tools.
 
 With almost 2M visitors, 2.3M total visits, and 8.5M pageviews, this library is no longer a niche project—it’s the go-to destination for users looking for independent, privacy-friendly tools. Over 1 million of the ~2 million all-time visitors came in 2025 alone—and we’re only in March.
 
 Let’s use the analytics [dashboard](https://plausible.io/european-alternatives.eu) to see what trends are emerging and what is the demand looking like for EU-built, privacy-friendly tech.
+
+1. Ordered list
+{:toc}
 
 ## 1100% surge in 2025 traffic
 
@@ -87,16 +88,16 @@ The dashboard has an [Outbound link click goal](https://plausible.io/docs/outbou
 
 From these results, these are the top 10 tools receiving traffic from the EU alternatives website: 
 
-1. Mailbox.org (email provider)
-2. ProtonMail (email provider)
-3. Soverin (email provider)
-4. Startpage (search engine)
-5. Qwant (search engine)
-6. Posteo (email provider)
-7. Ecosia (search engine)
-8. Scaleway (cloud provider)
-9. Startmail (email provider)
-10. Good search (search engine)
+1. [Mailbox.org](https://mailbox.org/en/) (email provider)
+2. [ProtonMail](https://proton.me/mail) (email provider)
+3. [Soverin](https://soverin.com/) (email provider)
+4. [Startpage](https://www.startpage.com/) (search engine)
+5. [Qwant](https://www.qwant.com/) (search engine)
+6. [Posteo](https://posteo.de/en) (email provider)
+7. [Ecosia](https://www.ecosia.org/) (search engine)
+8. [Scaleway](https://www.scaleway.com/en/) (cloud provider)
+9. [Startmail](https://www.startmail.com/) (email provider)
+10. [Good search](https://good-search.org/en/) (search engine)
 
 And if we look at the all-time data, there’s a whopping 1.2M total outbound clicks from the website to such tools, that’s more than half of the total all-time visits to the library.
 
@@ -127,7 +128,5 @@ So, we took a look at how our category is doing:
 * More than a 2,700% increase in unique visitors in 2025
 
 The demand for privacy-friendly web analytics is booming. If you’re looking for an alternative, check out our [privacy-first approach](https://plausible.io/privacy-focused-web-analytics).
-
-
 
 👋
