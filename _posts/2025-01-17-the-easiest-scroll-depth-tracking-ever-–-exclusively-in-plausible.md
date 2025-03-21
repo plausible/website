@@ -28,7 +28,7 @@ We automatically track and display all percentages to which your visitors scroll
 
 As the name suggests, scroll depth is the vertical length to which a visitor scrolls a particular page on your website. This metric is often reported as a percentage, such as 25, 50, 75, or 90 percent.
 
-If they scroll down all the way down to the page (generally including the footer), it’s a 100% scrolling event. If half, 50%. And so on. This insight helps you:
+If they scroll down all the way down to the page (generally including the footer), it’s a 100% scrolling event. If half, 50%. And so on.
 
 This insight helps you:
 
@@ -153,7 +153,7 @@ There isn’t a universal “good” scroll depth because it depends on the purp
 
 On landing pages, especially ones designed for conversions, more than 70-90% scroll depth can be the goal, as it signals that users are understanding about the offering and reaching the final CTA or contact form.
 
-Similarly, if most users drop off before 25%, it might indicate issues with your header or introduction. But, if you have a CTA around that mark and your bounce rates are low, it could also indicate that the visitors converted around that time.
+Similarly, if most users drop off before 25%, it might indicate issues with your header or introduction. But, if you have a CTA around that mark and your bounce rates are low, it could also indicate that the visitors converted around that time. 
 
 Or if engagement drops significantly at 50%, perhaps your content isn’t holding attention, or the layout is causing friction. If many users aren’t even scrolling down below the 10% mark, then probably you targeted the wrong audience.
 
