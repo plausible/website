@@ -10,7 +10,7 @@ author: hricha-shandily
 ---
 Europe has been building world-class digital tools for years. A major advantage is that many of these tools prioritize privacy and open-source development by default.
 
-If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives for your business.
+[M﻿illions have been exploring European alternatives](https://plausible.io/blog/european-alternatives-trends-privacy-tech) this year (2025). If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives for your business.
 
 1. Ordered list
 {:toc}
