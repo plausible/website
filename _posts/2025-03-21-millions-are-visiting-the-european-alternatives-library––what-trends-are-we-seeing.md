@@ -6,7 +6,7 @@ description: Millions are exploring European alternatives for privacy-friendly
   tech. Which are the top categories, top tools, and the global demand driving
   this shift.
 slug: european-alternatives-trends-privacy-tech
-date: 2025-03-21T15:10:52.647Z
+date: 2025-03-24T07:34:19.666Z
 author: hricha-shandily
 image: /uploads/eu-alternatives-traffic-graph.png
 image-alt: eu-alternatives-traffic-graph
