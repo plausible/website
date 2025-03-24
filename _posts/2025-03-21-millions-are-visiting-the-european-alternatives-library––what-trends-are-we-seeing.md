@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Millions are visiting the European Alternatives library––what trends are
-  we seeing?
+title: Millions are visiting the European Alternatives site––what trends are we
+  seeing?
 description: Millions are exploring European alternatives for privacy-friendly
   tech. Which are the top categories, top tools, and the global demand driving
   this shift.
