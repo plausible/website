@@ -1,6 +1,6 @@
 ---
 layout: change
-title: Team accounts is here!
+title: Create a team in Plausible
 date: 2025-04-01T08:28:43.759Z
 ---
 It's now much easier to manage teams on Plausible. You can now:
