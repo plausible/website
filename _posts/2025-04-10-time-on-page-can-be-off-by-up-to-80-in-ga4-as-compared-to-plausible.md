@@ -42,15 +42,22 @@ And here’s Plausible’s Top Pages report:
 
 Let’s compare some pages:
 
+| Page path                                  | Avg engagement time per active user (GA4) | Time on Page (Plausible) | GA4 captured (% of Plausible) | GA4 underreporting by |
+| ------------------------------------------ | ----------------------------------------- | ------------------------ | ----------------------------- | --------------------- |
+| /make-corn-tortillas-polenta/              | 36 seconds                                | 1m 11s = 71 seconds      | 50.7%                         | 49.3%                 |
+| /zucchini-ricotta-fritters/                | 34 seconds                                | 2m 33s = 153 seconds     | 22.2%                         | 77.8%                 |
+| /vegan-gnocchi-made-tofu/                  | 16 seconds                                | 1m 21s = 81 seconds      | 19.8%                         | 80.2%                 |
+| /liquid-nitrogen-ice-cream-how-to/         | 1m 42s = 102 seconds                      | 1m 45s = 105 seconds     | 97.1%                         | 2.9%                  |
+| /tomato-soup-blender-not-acid/             | 1m 1s = 61 seconds                        | 1m 30s = 90 seconds      | 67.8%                         | 32.2%                 |
+| /spaghetti-burger-pasta/                   | 21 seconds                                | 1m 7s = 67 seconds       | 31.3%                         | 68.7%                 |
+| /coconut-tapioca-pudding-with-mango-sauce/ | 51 seconds                                | 2m 6s = 126 seconds      | 40.5%                         | 59.5%                 |
+| /spanish-tortilla-potatoes/                | 42 seconds                                | 2m 8s = 128 seconds      | 32.8%                         | 67.2%                 |
+
 
 
 As you can see, GA4 underreports by as much as 80% as compared to Plausible, while the average underreporting turns out to be 54.7%.
 
-
-
 Aka, more than half of the actual user engagement time is missing from Google Analytics 4’s reports, at least as compared to Plausible — which can seriously distort content performance insights and mislead decisions based on time-on-page metrics.
-
-
 
 So why are we betting more on Plausible’s engagement time tracking method and benching that against Google Analytics? Where do these differences stem from? 
 
