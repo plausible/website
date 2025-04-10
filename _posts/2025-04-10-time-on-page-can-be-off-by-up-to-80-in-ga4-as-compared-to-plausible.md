@@ -42,16 +42,16 @@ And here’s Plausible’s Top Pages report:
 
 Let’s compare some pages:
 
-| Page path                                  | Avg engagement time per active user (GA4) | Time on Page (Plausible) | GA4 captured (% of Plausible) | GA4 underreporting by |
-| ------------------------------------------ | ----------------------------------------- | ------------------------ | ----------------------------- | --------------------- |
-| /make-corn-tortillas-polenta/              | 36 seconds                                | 1m 11s = 71 seconds      | 50.7%                         | 49.3%                 |
-| /zucchini-ricotta-fritters/                | 34 seconds                                | 2m 33s = 153 seconds     | 22.2%                         | 77.8%                 |
-| /vegan-gnocchi-made-tofu/                  | 16 seconds                                | 1m 21s = 81 seconds      | 19.8%                         | 80.2%                 |
-| /liquid-nitrogen-ice-cream-how-to/         | 1m 42s = 102 seconds                      | 1m 45s = 105 seconds     | 97.1%                         | 2.9%                  |
-| /tomato-soup-blender-not-acid/             | 1m 1s = 61 seconds                        | 1m 30s = 90 seconds      | 67.8%                         | 32.2%                 |
-| /spaghetti-burger-pasta/                   | 21 seconds                                | 1m 7s = 67 seconds       | 31.3%                         | 68.7%                 |
-| /coconut-tapioca-pudding-with-mango-sauce/ | 51 seconds                                | 2m 6s = 126 seconds      | 40.5%                         | 59.5%                 |
-| /spanish-tortilla-potatoes/                | 42 seconds                                | 2m 8s = 128 seconds      | 32.8%                         | 67.2%                 |
+| **Page path**                              | **Avg. engagement time per active user (GA4)** | **Time on Page (Plausible)** | **GA4 captured (% of Plausible)** | **GA4 underreporting by** |
+| ------------------------------------------ | ---------------------------------------------- | ---------------------------- | --------------------------------- | ------------------------- |
+| /make-corn-tortillas-polenta/              | 36 seconds                                     | 1m 11s = 71 seconds          | 50.7%                             | **49.3%**                 |
+| /zucchini-ricotta-fritters/                | 34 seconds                                     | 2m 33s = 153 seconds         | 22.2%                             | **77.8%**                 |
+| /vegan-gnocchi-made-tofu/                  | 16 seconds                                     | 1m 21s = 81 seconds          | 19.8%                             | **80.2%**                 |
+| /liquid-nitrogen-ice-cream-how-to/         | 1m 42s = 102 seconds                           | 1m 45s = 105 seconds         | 97.1%                             | **2.9%**                  |
+| /tomato-soup-blender-not-acid/             | 1m 1s = 61 seconds                             | 1m 30s = 90 seconds          | 67.8%                             | **32.2%**                 |
+| /spaghetti-burger-pasta/                   | 21 seconds                                     | 1m 7s = 67 seconds           | 31.3%                             | **68.7%**                 |
+| /coconut-tapioca-pudding-with-mango-sauce/ | 51 seconds                                     | 2m 6s = 126 seconds          | 40.5%                             | **59.5%**                 |
+| /spanish-tortilla-potatoes/                | 42 seconds                                     | 2m 8s = 128 seconds          | 32.8%                             | **67.2%**                 |
 
 
 
@@ -79,13 +79,13 @@ If you’re interested in understanding actual time spent on page, it’s necess
 
 Here’s how we calculate time on page on the sites using Plausible:
 
-* We track active engagement only when the page is in “focus”. So we don’t count the time a visitor spent away from your website, say by switching tabs or switching apps.
-* We include time on page for bounced visits (i.e. visits where only a single page was viewed).
-* We count all time spent, even very short visits—down to a single second. This is the major difference in calculating time on page in both GA4 and Plausible.
+* We track **active engagement only** when the page is in “focus”. So we don’t count the time a visitor spent away from your website, say by switching tabs or switching apps.
+* We **include time on page for bounced visits** (i.e. visits where only a single page was viewed).
+* We **count all time spent**, even very short visits—down to a single second. This is the major difference in calculating time on page in both GA4 and Plausible.
 
 ### Calculation of unique visitors
 
-Normally, a bunch of newer unique visitors discover a site every day who typically interact with its pages, so it’s okay to not remember a unique visitor for multiple days/months/years, while still getting a fair judgement of the time spent on page.
+Normally, a bunch of **newer** unique visitors discover a site every day who typically interact with its pages, so it’s okay to not remember a unique visitor for multiple days/months/years, while still getting a fair judgement of the time spent on page.
 
 Still, let’s address the differences in counting unique visitors of both the tools since it makes for the denominator of the time on page formula.
 
