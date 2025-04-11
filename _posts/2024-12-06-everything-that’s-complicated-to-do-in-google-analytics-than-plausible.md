@@ -64,7 +64,7 @@ But if you want to know where these insights are typically housed (based on the 
 
 **Bounce Rate**: Bounce rate is also available as a metric which needs to be manually added to any of the reports you are viewing. It is not available by default and there’s no one-stop place to view it.
 
-**Time on Page**: This is not available. But you can find the Average Engagement Time per User and Average Engagement Time per Session metrics to be added to any report. You may also find these in the Engagement Overview report.
+**Time on Page**: "Time on page" was sunset after UA but you can find the Average Engagement Time per User and Average Engagement Time per Session metrics to be added to any report. You may also find these in the Engagement Overview report. But [we found them](https://plausible.io/blog/time-on-page-ga-vs-plausible) to be underreporting by as much as 80% as compared to Plausible's Time on page. 
 
 P.S. While editing any standard report to add such metrics, don’t forget to “Save” them. It will avoid the trouble of adding the metric again and again.
 
