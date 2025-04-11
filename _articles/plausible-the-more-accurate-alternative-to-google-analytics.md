@@ -149,6 +149,20 @@ Google Analytics can take [up to 48 hours](https://support.google.com/analytics/
 
 **How do we tackle this at Plausible?** Our data is always fresh and constantly updated. We provide real-time analytics.
 
+### T﻿ime on page tracking inaccuracy
+
+The average engagement time metrics in G﻿oogle Analytics 4 can be misleading since their calculations don't include the time from sessions that lasted below 10 seconds. 
+
+In our experiment, we found that such so called "non-engaged sessions" can be half of sessions, causing the final metric to underreport by as much as 80%.
+
+[H﻿ere's the full study](https://plausible.io/blog/time-on-page-ga-vs-plausible).
+
+**How do we tackle this at Plausible?** Here’s how we calculate time on page on the sites using Plausible:
+
+* We track **active engagement only** when the page is in “focus”. So we don’t count the time a visitor spent away from your website, say by switching tabs or switching apps.
+* We **include time on page for bounced visits** (i.e. visits where only a single page was viewed).
+* We **count all time spent**, even very short visits—down to a single second. *This is the major difference in calculating time on page in Plausible from GA4.*
+
 ### Complicated setup contributing to setup errors
 
 Another thing that causes inaccuracy in statistics is a faulty Google Analytics setup. It is quite [complicated](https://plausible.io/blog/things-i-hate-about-GA4#iv-the-complexity-isnt-a-bug-its-a-feature) to set up a well-functioning GA dashboard, which is why there are so many expensive courses on the web trying to teach GA.
