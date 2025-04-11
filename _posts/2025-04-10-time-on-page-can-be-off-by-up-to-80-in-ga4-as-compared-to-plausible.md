@@ -45,20 +45,18 @@ And here’s Plausible’s Top Pages report:
 
 ![plausible top pages foodrecipeshq](/uploads/plausible-top-pages-foodrecipeshq.png "plausible top pages foodrecipeshq")
 
-Let’s compare some pages:
+Let’s compare some pages. TOP=Time on Page.
 
-| **Page path**                              | **Avg. engagement time per active user (GA4)** | **Time on Page (Plausible)** | **GA4 captured (% of Plausible)** | **GA4 underreporting by** |
-| ------------------------------------------ | ---------------------------------------------- | ---------------------------- | --------------------------------- | ------------------------- |
-| /make-corn-tortillas-polenta/              | 36 seconds                                     | 1m 11s = 71 seconds          | 50.7%                             | **49.3%**                 |
-| /zucchini-ricotta-fritters/                | 34 seconds                                     | 2m 33s = 153 seconds         | 22.2%                             | **77.8%**                 |
-| /vegan-gnocchi-made-tofu/                  | 16 seconds                                     | 1m 21s = 81 seconds          | 19.8%                             | **80.2%**                 |
-| /liquid-nitrogen-ice-cream-how-to/         | 1m 42s = 102 seconds                           | 1m 45s = 105 seconds         | 97.1%                             | **2.9%**                  |
-| /tomato-soup-blender-not-acid/             | 1m 1s = 61 seconds                             | 1m 30s = 90 seconds          | 67.8%                             | **32.2%**                 |
-| /spaghetti-burger-pasta/                   | 21 seconds                                     | 1m 7s = 67 seconds           | 31.3%                             | **68.7%**                 |
-| /coconut-tapioca-pudding-with-mango-sauce/ | 51 seconds                                     | 2m 6s = 126 seconds          | 40.5%                             | **59.5%**                 |
-| /spanish-tortilla-potatoes/                | 42 seconds                                     | 2m 8s = 128 seconds          | 32.8%                             | **67.2%**                 |
-
-
+| **Page path**                              | **TOP (GA4)** | **TOP (Plausible)** | **GA4 captured (% of Plausible)** | **GA4 underreported by** |
+| ------------------------------------------ | ------------- | ------------------- | --------------------------------- | ------------------------ |
+| /make-corn-tortillas-polenta/              | 36s           | 1m 11s = 71s        | 50.7%                             | **49.3%**                |
+| /zucchini-ricotta-fritters/                | 34s           | 2m 33s = 153s       | 22.2%                             | **77.8%**                |
+| /vegan-gnocchi-made-tofu/                  | 16s           | 1m 21s = 81s        | 19.8%                             | **80.2%**                |
+| /liquid-nitrogen-ice-cream-how-to/         | 102s          | 1m 45s = 105s       | 97.1%                             | **2.9%**                 |
+| /tomato-soup-blender-not-acid/             | 61s           | 1m 30s = 90s        | 67.8%                             | **32.2%**                |
+| /spaghetti-burger-pasta/                   | 21s           | 1m 7s = 67s         | 31.3%                             | **68.7%**                |
+| /coconut-tapioca-pudding-with-mango-sauce/ | 51s           | 2m 6s = 126s        | 40.5%                             | **59.5%**                |
+| /spanish-tortilla-potatoes/                | 42s           | 2m 8s = 128s        | 32.8%                             | **67.2%**                |
 
 As you can see, GA4 underreports by as much as 80% as compared to Plausible, while the average underreporting turns out to be 54.7%.
 
