@@ -7,6 +7,8 @@ description: GA4 can underreport time-on-page by up to 80% vs. Plausible. Learn
 slug: time-on-page-ga-vs-plausible
 date: 2025-04-11T10:29:25.739Z
 author: hricha-shandily
+image: /uploads/table-comparing-engagement-time.png
+image-alt: Comparing engagement times in GA vs Plausible
 ---
 Imagine logging into Google Analytics. You want to see how your page from last month is performing – how much time does a visitor spend on average on your page. It’s 10 seconds. You end up spending marketing resources, you make strategies for improving your site’s engagement time.
 
