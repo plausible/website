@@ -169,7 +169,7 @@ You also need to understand your website performance but metrics like bounce rat
 
 Many Shopify store owners use both Shopify Analytics and Google Analytics 4 (GA4): Shopify Analytics as a quick overview of store performance and Google Analytics for deeper insights on overall website and marketing performance.
 
-> GA4 also repeats and adds a bunch of it own downsides which I will get to in a minute. Skip to the “Plausible” section if you are struggling with GA4 but I recommend you read through it anyway so you can understand all your options.
+> P.S. G﻿A4 also requires a cookie consent banner and is very complicated to use, while it comes with privacy concerns and inacurrate data according to multiple independent studies ([example](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/)) but I will get to it in a minute. Skip to the “Plausible” section if you are struggling with GA4 but I recommend you read through it anyway so you can understand all your options.
 
 **Deep dive into user behavior**
 
@@ -193,7 +193,7 @@ GA4’s integration into the Google Marketing ecosystem (Ads, Search Console, et
 
 If you want to know not just the last click, but the full path (first touch vs last touch contributions), GA4’s reports or BigQuery data can help.
 
-**Advanced Analysis and raw data export**
+**Advanced analysis and raw data export**
 
 You can export all raw event data to BigQuery (Google’s data warehouse) for even deeper analysis or joining with other data (like CRM or ad spend data), where you can run SQL queries to answer custom questions about user behavior or build machine learning models (for churn prediction, etc.).
 
