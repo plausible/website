@@ -4,7 +4,7 @@ title: "Shopify Analytics: Understanding reports, dashboards & alternatives"
 description: Measuring Shopify store performance with Shopify Analytics, Google
   Analytics, and Plausible Analytics
 slug: shopify-analytics
-date: 2025-04-18T16:34:21.725Z
+date: 2025-04-21T11:22:37.990Z
 author: hricha-shandily
 image: /uploads/shopify-analytics.png
 image-alt: Shopify analytics
