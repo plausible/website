@@ -16,7 +16,7 @@ A good combination of these tools can help you effectively monitor store activit
 So let’s understand what each option can offer so you can make an informed decision.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Shopify Analytics: the built-in reporting system
 
