@@ -4,7 +4,7 @@ title: "Shopify Analytics: Understanding reports, dashboards & alternatives"
 description: Measuring Shopify store performance with Shopify Analytics, Google
   Analytics, and Plausible Analytics
 slug: shopify-analytics
-date: 2025-04-21T11:22:37.990Z
+date: 2025-04-21T12:02:17.753Z
 author: hricha-shandily
 image: /uploads/shopify-analytics.png
 image-alt: Shopify analytics
@@ -219,7 +219,7 @@ These are manual methods and typically require a lot of time and effort to ensur
 
 **Google Tag Manager (GTM)**:
 
-To implement GA4 using GTM, you'll first need to create a GTM account and container. Once set up, add the GTM container code to your Shopify theme. This involves inserting the GTM <script> code into the <head> section and the <noscript> code immediately after the opening <body> tag of your theme.liquid file.​
+To implement GA4 using GTM, you'll first need to create a GTM account and container. Once set up, add the GTM container code to your Shopify theme. This involves inserting the GTM script code into the *head* section and the *noscript* code immediately after the opening body tag of your theme.liquid file.​
 
 Then, you can add a GA4 configuration tag within GTM using your Measurement ID. This setup allows for more granular control over event tracking, enabling you to configure events like page views, add-to-cart actions, and purchases. 
 
@@ -227,7 +227,7 @@ Don’t forget to also test your setup using GTM's Preview mode and GA4's DebugV
 
 **Global Site Tag (gtag.js)**:
 
-Alternatively, you can implement GA4 directly using the Global Site Tag (gtag.js). This involves adding the GA4 gtag.js snippet to your Shopify theme's <head> section. 
+Alternatively, you can implement GA4 directly using the Global Site Tag (gtag.js). This involves adding the GA4 gtag.js snippet to your Shopify theme's head section. 
 
 For tracking purchases, add the gtag.js code to the "Additional Scripts" section in your Shopify checkout settings, which allows you to capture transaction data on the order confirmation page.
 
@@ -322,7 +322,7 @@ You can easily add the Plausible snippet to Shopify by navigating to Sales Chann
 
 If you also want to track e-commerce metrics in Plausible like checkouts and revenue, you can easily follow the instructions [here](https://plausible.io/docs/shopify-integration).
 
-### How to use Plausible in tandem with Shopify? 
+### How to use Plausible in tandem with Shopify?
 
 You can do comprehensive tracking with Plausible plus Shopify, or even if you choose to use only Plausible. You can track e-commerce events with Plausible independently.
 
