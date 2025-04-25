@@ -340,7 +340,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the user status will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see the "Logged-in user status" goal as soon as the first search has been recorded. 
+In the "Properties" tab of the "Goal Conversions" report, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. 
 
 ## How to enable hash-based URL tracking
 
