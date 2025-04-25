@@ -35,6 +35,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * Check your Plausible **stats dashboard directly in your WordPress** dashboard
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
 * Track **post authors, categories and custom taxonomies**
+* Track **logged in vs logged out traffic**
 * Send **custom properties alongside pageviews or custom events**
 * Track **purchases and revenue for your ecommerce store**
 * Track **WooCommerce and Easy Digital Downloads sales** with automatic events such as add to cart, checkout and the purchase funnel
@@ -330,6 +331,16 @@ All the search activity will start being tracked and will be displayed in the "G
 You'll see the "WP Search Queries" goal as soon as the first search has been recorded. 
 
 We have a complete guide on WordPress search tracking and effectively using this feature in Plausible [here](https://plausible.io/blog/wordpress-search-tracking).
+
+## How to track logged-in user status
+
+Plausible Analytics plugin can help you understand the status of your logged in or your logged out users.
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Logged-in user status" option.
+
+All the user status will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see the "Logged-in user status" goal as soon as the first search has been recorded. 
 
 ## How to enable hash-based URL tracking
 
