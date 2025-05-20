@@ -6,6 +6,8 @@ description: We simulated non-human traffic to a test site. Google Analytics
 slug: filtering-bot-traffic-google-analytics-vs-plausible
 date: 2025-05-20T15:42:50.805Z
 author: hricha-shandily
+image: /uploads/plausible-vs-ga-bot-traffic-recording.png
+image-alt: plausible-vs-ga-bot-traffic-recording
 ---
 A good chunk of the traffic you see in Google Analytics could be bots (or non-human to be more precise). We tested by simulating non-human traffic to a test site. Google Analytics recorded it as real traffic. Plausible Analytics rejected it all.
 
@@ -21,7 +23,7 @@ Usually, it’s hard to pinpoint on an analytics dashboard whether a particular 
 To find out, we ran a controlled experiment: we built a test site, sent only simulated bot traffic to it, and compared what each analytics tool recorded.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Experiment: Simulating bot traffic to see what analytics tools catch
 
