@@ -63,3 +63,29 @@ The website was hosted on Vercel, allowing us to observe all the requests that w
 You can find the script that automated the browser [here](https://gist.github.com/Hricha-Shandily/8510495f597fc70a8d7d4294c3120878), and the script that was used to run this test in bulk [here](https://gist.github.com/Hricha-Shandily/4c09fac752f3d02994111c0b994aa8b3), in case you wish to replicate the results.
 
 Alright, result time!
+
+### Results
+
+During the first round of simulating non-human traffic, we set the User-Agent to "PostmanRuntime/7.43.4" (clearly non-human).
+
+Google Analytics got fooled:
+
+**15 May 2025, 23:23.**
+
+You can see traffic getting recorded in real time in the screenshot below, with 22 pageviews getting recorded.
+
+This is actually a fairly basic method of identifying non-human traffic but to my surprise, Google Analytics failed at this in the test.
+
+![GA real time dashboard showing bot traffic as real traffic](/uploads/ga-dashboard.png "GA real time dashboard showing bot traffic as real traffic")
+
+Plausible Analytics recorded none of such traffic and showed beautiful zeroes (I had already blocked my own visit too):
+
+**15 May 2025, 23:23.**
+
+![Plausible real time dashboard not recording bot traffic](/uploads/plausible-real-time-dashboard-not-recording-bot-traffic.png "Plausible real time dashboard not recording bot traffic")
+
+And here’s the screenshot from Vercel (where the site is hosted), where you can see requests coming from a User-Agent "PostmanRuntime/7.43.4".
+
+Note that I didn’t actually use Postman, just posed as it using Puppeteer. Postman was selected since it’s a widely known API testing tool, and any analytics tool should in theory be able to detect and block it. 
+
+![Vercel dashboard](/uploads/vercel-dashboard-1.png "Vercel dashboard")
