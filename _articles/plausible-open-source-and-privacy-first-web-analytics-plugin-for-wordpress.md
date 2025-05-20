@@ -175,11 +175,15 @@ You'll see "Outbound Link: Click" goal as soon as the first external link click 
 
 Plausible Analytics plugin can help you automate cloaked affiliate link click tracking on your WordPress site.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Cloaked affiliate links" option.
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Cloaked affiliate links" option. 
+
+Then enter the partial URLs (also known as shortlink slugs) that you'd like to track. E.g. enter `/recommends/` if you want to track clicks on cloaked links such as `https://yourdomain.com/recommends/affiliate-product/` or `https://yourdomain.com/recommends/another-product/`.
 
 All the cloaked affiliate link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see "Affiliate Link: Click" goal as soon as the first cloaked affiliate link click has been tracked.
+Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Link: Click" will appear in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" report to see which pages those cloaked links were clicked on.
 
 ## How to track file downloads
 
