@@ -88,7 +88,7 @@ And here’s the screenshot from Vercel (where the site is hosted), where you ca
 
 Note that I didn’t actually use Postman, just posed as it using Puppeteer. Postman was selected since it’s a widely known API testing tool, and any analytics tool should in theory be able to detect and block it. 
 
-![Vercel dashboard](/uploads/vercel-dashboard-1.png "Vercel dashboard")
+![Vercel dashboard - testing 1](/uploads/vercel-dashboard-1.png "Vercel dashboard - testing 1")
 
 **During the second round** of simulating non-human traffic, we set the User-Agent to a real looking browser, randomly selecting from 4 different valid User Agent strings.
 
@@ -103,3 +103,88 @@ You can see traffic getting recorded in real time in the screenshot below, with 
 Plausible Analytics again passed with flying colours as none of such traffic was recorded.
 
 **15 May 2025, 23:25.**
+
+![Plausible real time dashboard not recording bot traffic for a second time](/uploads/plausible-dashboard-rejecting-bot-traffic.png "Plausible real time dashboard not recording bot traffic for a second time")
+
+Here’s the screenshot from Vercel:
+
+![Vercel dashboard - testing 2](/uploads/vercel-dashboard-2.png "Vercel dashboard - testing 2")
+
+P.S. Vercel shows a higher number from what can be seen on GA. This is because the numbers are from past test runs too, when neither GA4 or Plausible scripts were installed on the website.
+
+### Conclusion
+
+This proves that Plausible Analytics has better bot detection and exclusion capabilities, as compared to Google Analytics. This helps keep your analytics clean and reliable.
+
+### “But wouldn’t Google Analytics clean up such data before presenting it in the standard reports?”
+
+I thought that since Google Analytics 4 has a data processing time of up to 48 hours ([official src](https://support.google.com/analytics/answer/11198161?hl=en)), it *could* probably realize that this was all bot traffic and exclude it from the standard reporting after all.
+
+So I waited an ample time and checked the “Traffic Acquisition” report on 19 May 2025, 21:34 and all that traffic seems to be recorded. Misleading much?
+
+![Traffic acquisition report in GA4 showing bot traffic](/uploads/traffic-acquisition-report-final-ga.png "Traffic acquisition report in GA4 showing bot traffic")
+
+## Why the difference?
+
+The answer lies in the way Plausible Analytics detects and excludes non-human traffic vs the way Google Analytics does. Here’s what happens:
+
+### How does Plausible exclude non-human traffic?
+
+At Plausible, we detect and automatically exclude bots (and are constantly evolving the detection systems) by:
+
+* Blocking traffic based on the User-Agent header (*Google Analytics failed at this in this test*)
+* Filtering out known referrer spam domains
+* Blocking traffic originating from data centers. We exclude ~32,000 data center IP ranges (i.e. a lot of IP addresses) by default.
+* Detecting and excluding unnatural traffic patterns (*Google Analytics failed at this in this test*)
+
+It’s possible that some non-human visits slip through the cracks if the bots try really hard to make their way into the site by posing as real humans, but otherwise we take great care at maintaining accuracy.
+
+### How does Google Analytics 4 exclude non-human traffic?
+
+Google Analytics (GA4) also has mechanisms to filter out bot traffic, though the approach differs. Known bot and spider traffic is automatically excluded by default.
+
+GA4 uses a combination of its own research and the industry-standard IAB “International Spiders & Bots” list to identify known bots, as mentioned in their [documentation](https://support.google.com/analytics/answer/9888366).
+
+This means that GA4 will automatically drop hits it recognizes as coming from well-known crawlers (e.g. Googlebot, Bingbot) or other entries on the IAB bot list so they don’t appear in your reports.
+
+GA4’s default filters do not automatically catch every conceivable bot or spam hit. For example, clever bots that masquerade as real browsers (not in the known list) or spam that uses headless browsers can still register in GA if they execute the tracking code like a normal visitor.
+
+Google Analytics experts suggest how to detect and exclude bot traffic manually by, for example, excluding suspicious IPs or user agents. And then how to maintain it all by doing a regular cleanup, among other optimizations.
+
+But that has many problems:
+
+* One may not know in the first place that some of their traffic contains non-real traffic and they need to do something about it
+* If they do know, they could make some mistakes in identifying it properly. There’s a difference in the way an analytics tool can block bots on a code-level versus what an end-user could comprehend and do.
+* If they do the above properly, they need to be technically sound or look through the right resources to make the right adjustments.
+* They need to maintain it and always second-guess what they’re seeing on their dashboards.
+
+That’s why we keep it all automatic at Plausible, so our subscribers don’t have to waste a second figuring out any of such optimizations.
+
+## Why’s it critical to exclude non-human traffic from your site stats?
+
+Accurate analytics are essential for making smart decisions. When bots, crawlers, or scripted visits sneak into your reports, they distort the picture of what your users are actually doing. Here’s why it matters:
+
+* Inflated pageviews: Bots can artificially boost your traffic numbers, making you think your site is more popular than it really is.
+* Misleading engagement metrics: Bounce rates, session duration, and conversion rates all become unreliable when mixed with non-human traffic.
+* Skewed A/B tests and experiments: If bots hit your variant pages, you may draw the wrong conclusions about what content or layout performs better.
+* Wasted marketing spend: You might invest in the wrong channels or campaigns because of bot-driven spikes that look like real user interest.
+* False sense of growth or success: Seeing traffic growth from bots can mask the reality that your actual audience is stagnant — or even shrinking.
+* Polluted user behavior insights: Understanding what real users do on your site becomes much harder when noise from scripts and crawlers is in the mix.
+
+
+
+* False conversions: Bots can accidentally (or deliberately) trigger conversion events — like submitting forms, reaching thank-you pages, or firing eCommerce purchase events. This can make it look like your campaigns are performing well when in reality, no real user completed the action.
+
+Keeping your analytics clean isn’t about perfection — it’s about removing the obvious noise so you can focus on what matters: your real audience.
+
+## Test-drive Plausible
+
+As of January 2025, we had blocked about 2 billion bots from accessing sites and skewing stats of Plausible subscribers.
+
+
+
+We are proud to have built a more accurate alternative to Google Analytics, not just in terms of detecting bot traffic but also in terms of recording traffic regardless of cookie consent banner declines, ad blockers blocking scripts, maintaining location accuracy, etc. –– while being privacy-friendly and well-accepted by the end-user. You can see a full comparison [here](https://plausible.io/most-accurate-web-analytics).
+
+
+
+You can conduct your own tests like we did and don’t forget to share the results with us. Good day/night! ✌️
