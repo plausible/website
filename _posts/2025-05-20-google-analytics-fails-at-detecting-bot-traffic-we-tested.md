@@ -89,3 +89,17 @@ And here’s the screenshot from Vercel (where the site is hosted), where you ca
 Note that I didn’t actually use Postman, just posed as it using Puppeteer. Postman was selected since it’s a widely known API testing tool, and any analytics tool should in theory be able to detect and block it. 
 
 ![Vercel dashboard](/uploads/vercel-dashboard-1.png "Vercel dashboard")
+
+**During the second round** of simulating non-human traffic, we set the User-Agent to a real looking browser, randomly selecting from 4 different valid User Agent strings.
+
+Google Analytics got fooled again:
+
+**15 May 2025, 23:24.**
+
+You can see traffic getting recorded in real time in the screenshot below, with 40 pageviews getting recorded.
+
+![GA real time dashboard showing bot traffic as real traffic for a second time](/uploads/ga-dashboard-testing-bot-traffic.png "GA real time dashboard showing bot traffic as real traffic for a second time")
+
+Plausible Analytics again passed with flying colours as none of such traffic was recorded.
+
+**15 May 2025, 23:25.**
