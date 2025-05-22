@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Analytics counts bots as real traffic [New Research]
+title: Google Analytics counts bots as real traffic [New Test]
 description: We simulated bot traffic to a test site. Google Analytics recorded
   it as real traffic. Plausible rejected it all.
 slug: filtering-bot-traffic-google-analytics-vs-plausible
@@ -9,20 +9,20 @@ author: hricha-shandily
 image: /uploads/plausible-vs-ga-bot-traffic-recording.png
 image-alt: plausible-vs-ga-bot-traffic-recording
 ---
-The traffic you see in Google Analytics could contain bots (or non-human traffic to be more precise). We tested by simulating non-human traffic to a test site. Google Analytics recorded it as real traffic. Plausible Analytics rejected it all.
+The traffic you see in Google Analytics could contain bots (or non-human traffic to be more precise). We tested by simulating bot traffic to a test site. Google Analytics recorded it as real traffic. Plausible Analytics rejected it all. 
 
 Bots now account for more than half of all internet traffic ([src](https://www.techradar.com/pro/security/bots-now-account-for-over-half-of-all-internet-traffic)) and it is very likely that your website too gets bot traffic every now and then.
 
-Bots, scrapers, headless browsers — they can all hit your site and trigger tracking scripts. If your analytics tool counts that traffic as human, your data becomes misleading. You might think you're getting more visits than you actually are.
+Bots, scrapers, headless browsers — they can all hit your site and trigger tracking scripts. If your analytics tool counts that traffic as human, your data becomes misleading. You don’t want to be seeing “non-real” traffic in your analytics dashboard as it could inflate your pageviews, distort your engagement metrics, conversion events and other insights.
 
-You don’t want to be seeing “non-real” traffic in your analytics dashboard as such traffic could inflate your pageviews, distort your engagement metrics, conversion events and other insights. If the scale is high, it could cause you to make totally misled business decisions, while giving a false sense of performance. Worst, it could lead you to invest in wrong marketing channels.
+If the scale is high, it could cause you to make totally misled business decisions or lead you to invest in wrong marketing channels.
 
 Usually, it’s hard to pinpoint on an analytics dashboard whether a particular visit was from a human or a non-human. So how bad is the problem really?
 
 To find out, we ran a controlled experiment: we built a test site, sent *only* simulated bot traffic to it, and compared what each analytics tool recorded.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Experiment: Simulating bot traffic to see what analytics tools catch
 
@@ -166,7 +166,7 @@ O﻿kay, so why does this happen?
 
 The answer lies in the way Plausible Analytics detects and excludes non-human traffic vs the way Google Analytics does.
 
-### How does Plausible exclude bot and spam traffic? 
+### How does Plausible exclude bot and spam traffic?
 
 At Plausible, we detect and automatically exclude bots (and are constantly evolving the detection systems) by:
 
