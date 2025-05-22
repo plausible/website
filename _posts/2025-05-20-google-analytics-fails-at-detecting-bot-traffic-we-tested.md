@@ -126,7 +126,7 @@ Here’s the screenshot from Vercel:
 
 ### T﻿esting with data center IP addresses
 
-During the third round of t﻿esting, everything was same as round two but we made the requests from data center IP addresses, instead of my home network.
+During the third round of t﻿esting, everything was same as round two but we made the requests from data center IP addresses (one from Germany and other from USA), instead of my home network. 
 
 #### R﻿esults
 
@@ -156,9 +156,13 @@ I thought that since Google Analytics 4 has a data processing time of up to 48 h
 
 So I waited an ample time and checked the “Traffic Acquisition” report on 19 May 2025, 21:34 and all that traffic seems to be recorded. Misleading much?
 
-![Traffic acquisition report in GA4 showing bot traffic](/uploads/traffic-acquisition-report-final-ga.png "Traffic acquisition report in GA4 showing bot traffic")
+![Traffic acquisition report in GA4 showing bot traffic](/uploads/ga-traffic-acquisition-report.png "Traffic acquisition report in GA4 showing bot traffic")
 
-## Why the difference?
+And congratulations to me as those 95 sessions were not just sessions, but unique visitors as the User Acquisition report tells me. 😍
+
+![User acquisition report in GA4 showing bot traffic](/uploads/ga4-user-acquisition-report.png "User acquisition report in GA4 showing bot traffic")
+
+## Why the differences?
 
 The answer lies in the way Plausible Analytics detects and excludes non-human traffic vs the way Google Analytics does. Here’s what happens:
 
