@@ -13,7 +13,7 @@ The traffic you see in Google Analytics could contain bots (or non-human traffic
 
 Bots now account for more than half of all internet traffic ([src](https://www.techradar.com/pro/security/bots-now-account-for-over-half-of-all-internet-traffic)) and it is very likely that your website too gets bot traffic every now and then.
 
-Bots, scrapers, headless browsers — they can all hit your site and trigger tracking scripts. If your analytics tool counts that traffic as human, your data becomes misleading. You don’t want to be seeing “non-real” traffic in your analytics dashboard as it could inflate your pageviews, and distort your engagement metrics, conversion events and other insights. 
+Bots, scrapers, headless browsers — they can all hit your site and trigger tracking scripts. If your analytics tool counts that traffic as human, your data becomes misleading. You don’t want to be seeing “non-real” traffic in your analytics dashboard as it could inflate your pageviews, and distort your engagement metrics, conversion events and other insights.
 
 If the scale is high, it could cause you to make totally misled business decisions or lead you to invest in wrong marketing channels.
 
