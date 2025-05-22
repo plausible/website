@@ -128,6 +128,24 @@ P.S. Vercel shows a higher number from what can be seen on GA4. This is because 
 
 ### T﻿esting with data center IP addresses
 
+During the third round of t﻿esting, everything was same as round two but we made the requests from data center IP addresses, instead of my home network.
+
+#### R﻿esults
+
+Google Analytics got fooled again. 🤷‍♀️
+
+**21 May 2025, 21:26.**
+
+You can see traffic getting recorded in real time in the screenshot below, with 17 pageviews getting recorded.
+
+![ga-real-time-dashboard-recording-traffic-from-data-center-ip-addresses](/uploads/ga-real-time-dashboard-recording-traffic-from-data-center-ip-addresses.png "ga-real-time-dashboard-recording-traffic-from-data-center-ip-addresses")
+
+Plausible Analytics didn't disappoint as none of such traffic was recorded. 
+
+**21 May 2025, 21:26.**
+
+![Plausible dashboard not recording traffic from data center IP addresses](/uploads/plausible-ss.png "Plausible dashboard not recording traffic from data center IP addresses")
+
 
 
 ### “But wouldn’t Google Analytics clean up such data before presenting it in the standard reports?”
