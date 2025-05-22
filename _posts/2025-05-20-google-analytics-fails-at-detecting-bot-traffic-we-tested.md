@@ -3,26 +3,26 @@ layout: post
 title: Google Analytics counts bots as real traffic [New Test]
 description: We simulated bot traffic to a test site. Google Analytics recorded
   it as real traffic. Plausible rejected it all.
-slug: filtering-bot-traffic-google-analytics-vs-plausible
+slug: testing-bot-traffic-filtering-google-analytics
 date: 2025-05-22T10:14:16.859Z
 author: hricha-shandily
-image: /uploads/plausible-vs-ga-bot-traffic-recording.png
-image-alt: plausible-vs-ga-bot-traffic-recording
+image: /uploads/plausible-vs-ga-bot-traffic-testing.png
+image-alt: plausible-vs-ga-bot-traffic-testing
 ---
 The traffic you see in Google Analytics could contain bots (or non-human traffic to be more precise). We tested by simulating bot traffic to a test site. Google Analytics recorded it as real traffic. Plausible Analytics rejected it all. 
 
 Bots now account for more than half of all internet traffic ([src](https://www.techradar.com/pro/security/bots-now-account-for-over-half-of-all-internet-traffic)) and it is very likely that your website too gets bot traffic every now and then.
 
-Bots, scrapers, headless browsers — they can all hit your site and trigger tracking scripts. If your analytics tool counts that traffic as human, your data becomes misleading. You don’t want to be seeing “non-real” traffic in your analytics dashboard as it could inflate your pageviews, distort your engagement metrics, conversion events and other insights.
+Bots, scrapers, headless browsers — they can all hit your site and trigger tracking scripts. If your analytics tool counts that traffic as human, your data becomes misleading. You don’t want to be seeing “non-real” traffic in your analytics dashboard as it could inflate your pageviews, and distort your engagement metrics, conversion events and other insights. 
 
 If the scale is high, it could cause you to make totally misled business decisions or lead you to invest in wrong marketing channels.
 
-Usually, it’s hard to pinpoint on an analytics dashboard whether a particular visit was from a human or a non-human. So how bad is the problem really?
+Usually, it’s hard to pinpoint on an analytics dashboard whether a particular visit was from a genuine visitor or a bot. So how bad is the problem really? 
 
 To find out, we ran a controlled experiment: we built a test site, sent *only* simulated bot traffic to it, and compared what each analytics tool recorded.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Experiment: Simulating bot traffic to see what analytics tools catch
 
