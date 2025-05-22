@@ -124,8 +124,6 @@ Here’s the screenshot from Vercel:
 
 ![Vercel dashboard - testing 2](/uploads/vercel-dashboard-2.png "Vercel dashboard - testing 2")
 
-P.S. Vercel shows a higher number from what can be seen on GA4. This is because the numbers are from past test runs too, when neither GA4 or Plausible scripts were installed on the website. It's also because the requests were made for loading images, JS files, etc., basically these are cumulative requests made to the server.
-
 ### T﻿esting with data center IP addresses
 
 During the third round of t﻿esting, everything was same as round two but we made the requests from data center IP addresses, instead of my home network.
@@ -146,7 +144,11 @@ Plausible Analytics didn't disappoint as none of such traffic was recorded.
 
 ![Plausible dashboard not recording traffic from data center IP addresses](/uploads/plausible-ss.png "Plausible dashboard not recording traffic from data center IP addresses")
 
+Here’s the screenshot from Vercel:
 
+![Vercel dashboard - testing 3](/uploads/vercel-dashboard.png "Vercel dashboard - testing 3")
+
+P.S. Vercel shows a higher number from what can be seen on GA4. This is because the numbers are from past test runs too, when neither GA4 or Plausible scripts were installed on the website. It's also because the requests were made for loading images, JS files, etc., basically these are cumulative requests made to the server.
 
 ### “But wouldn’t Google Analytics clean up such data before presenting it in the standard reports?”
 
