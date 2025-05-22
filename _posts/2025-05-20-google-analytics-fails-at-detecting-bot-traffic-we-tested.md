@@ -6,7 +6,7 @@ description: We simulated bot traffic to a test site. Google Analytics recorded
 slug: testing-bot-traffic-filtering-google-analytics
 date: 2025-05-22T10:57:32.789Z
 author: hricha-shandily
-image: /uploads/ga-bot-traffic-testing.png
+image: /uploads/ga-bot-traffic-test.png
 image-alt: ga-bot-traffic-testing
 ---
 The traffic you see in Google Analytics could contain bots (or non-human traffic to be more precise). We tested by simulating bot traffic to a test site. Google Analytics recorded it as real traffic. Plausible Analytics rejected it all. 
