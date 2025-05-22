@@ -144,7 +144,7 @@ Plausible Analytics didn't disappoint as none of such traffic was recorded.
 
 Here’s the screenshot from Vercel:
 
-![Vercel dashboard - testing 3](/uploads/vercel-dashboard.png "Vercel dashboard - testing 3")
+![Vercel dashboard - testing 3](/uploads/vercel-testing-3.png "Vercel dashboard - testing 3")
 
 P.S. Vercel shows a higher number from what can be seen on GA4. This is because the numbers are from past test runs too, when neither GA4 or Plausible scripts were installed on the website. It's also because the requests were made for loading images, JS files, etc. Basically, these are cumulative requests made to the server.
 
