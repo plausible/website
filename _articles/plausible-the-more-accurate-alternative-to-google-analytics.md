@@ -67,6 +67,8 @@ At Plausible, we detect and automatically exclude bots (and are constantly evolv
 
 Another thing we do at Plausible is that we exclude ~32,000 data center IP ranges (i.e. a lot of IP addresses) by default. This is a problem with GA4.
 
+In [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users—unlike Plausible, which correctly identified and excluded them from the stats.
+
 GA4 users constantly battle with skewing data due to this reason. For eg. When a site uses a cookie management platform (CMP), the CMP might send data center traffic which GA4 is unable to detect and exclude from stats.
 
 So GA users need to manually find out which IP addresses are being used by the CMP and exclude them within the GA4 settings. You may end up excluding 10 IP addresses based on the help guides or direct information available from the CMP, before another one attacks your stats.
