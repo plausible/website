@@ -54,7 +54,7 @@ The script was used to simulate two kinds of traffic patterns, 
 >
 > By testing both obvious bots and sneaky ones pretending to be normal browsers, we could see whether Google Analytics is smart enough to tell real users apart from scripted visits — even when they look legit on the surface.
 
-In both cases, we opened multiple browser instances, each of which visited the page. The script was written to scroll a bit to simulate user behaviour in 50% of the visits. And in 30% of the visits, the script would click on a link to navigate to another page.
+In both cases, we opened multiple browser instances, each of which visited the page. The script was written to scroll a bit to simulate user behaviour in 50% of the visits. And in 30% of the visits, the script would click on a specific link to navigate to another page. 
 
 This script typically took 5-10 seconds on my M1 Macbook Pro to run 10 simultaneous sessions (variables like hardware and network will affect the performance of these runs): clearly a “non-human traffic pattern”.
 
@@ -100,7 +100,7 @@ Note that I didn’t actually use Postman, just posed as it using Puppeteer. Pos
 
 ### T﻿esting using normal User-Agent strings
 
-During the second round, we set the User-Agent to a real looking browser, randomly selecting from 4 different valid User Agent strings, but since the requests were sent really fast, it qualifies as unnatural traffic pattern that a real human visitor won't be making.
+During the second round, we set the User-Agent to a real looking browser, randomly selecting from 4 different valid User Agent strings.
 
 #### R﻿esults
 
