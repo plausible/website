@@ -148,6 +148,14 @@ Here’s the screenshot from Vercel:
 
 P.S. Vercel shows a higher number from what can be seen on GA4. This is because the numbers are from past test runs too, when neither GA4 or Plausible scripts were installed on the website. It's also because the requests were made for loading images, JS files, etc. Basically, these are cumulative requests made to the server.
 
+**Are VPN users with datacenter IPs counted in Plausible?**
+
+To avoid excluding genuine visits from people who use VPNs with data center exit points, we use a VPN list to detect visitors using VPN services through data center IP addresses.
+
+We include these visits (including those using the Tor browser) in your stats unless our bot detection systems flag them as bots, for unnatural behavior for example.
+
+To avoid showing the VPN server’s actual location, we group these visits under “[Anonymous VPN Service](https://plausible.io/docs/countries#visitors-using-vpns-and-similar-services)” in the "Countries" report. This also helps keep your location data cleaner and more accurate. 
+
 ### “But wouldn’t Google Analytics clean up such data before presenting it in the standard reports?”
 
 I thought that since Google Analytics 4 has a data processing time of up to 48 hours ([official src](https://support.google.com/analytics/answer/11198161?hl=en)), it *could* probably realize that this was all bot traffic and exclude it from the standard reporting after all.
