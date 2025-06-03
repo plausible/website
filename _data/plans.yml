@@ -10,6 +10,10 @@
     - "Saved Segments"
   cta_text: "Start your free trial"
   cta_link_path: "/register"
+  first_paint_prices:
+    monthly: "$9"
+    monthly_with_discount: "$7.50"
+    yearly: "$90"
 
 - tier: "growth"
   title: "Growth"
@@ -23,6 +27,11 @@
     - "Shared Segments"
   cta_text: "Start your free trial"
   cta_link_path: "/register"
+  default_price: "$14"
+  first_paint_prices:
+    monthly: "$14"
+    monthly_with_discount: "$11.67"
+    yearly: "$140"
 
 - tier: "business"
   title: "Business"
@@ -39,6 +48,10 @@
     - "Priority support"
   cta_text: "Start your free trial"
   cta_link_path: "/register"
+  first_paint_prices:
+    monthly: "$19"
+    monthly_with_discount: "$15.83"
+    yearly: "$190"
 
 - tier: "enterprise"
   title: "Enterprise"

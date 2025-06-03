@@ -34,7 +34,7 @@
       }
     }
 
-    function price(currency, index, tier, yearlyBilling, withoutDiscount = false) {
+    function price(currency, index, tier, billingInterval, withDiscount = false) {
       index = parseInt(index)
       if (index === volumesWithPrices.length) {
         return "Custom"
@@ -42,10 +42,10 @@
 
       let price
 
-      if (yearlyBilling && withoutDiscount) {
-        price = volumesWithPrices[index][tier] * 12
-      } else if (yearlyBilling) {
+      if (billingInterval === 'yearly') {
         price = volumesWithPrices[index][tier] * 10
+      } else if (billingInterval === 'monthly' && withDiscount) {
+        price = (volumesWithPrices[index][tier] * 10 / 12).toFixed(2)
       } else {
         price = volumesWithPrices[index][tier]
       }
@@ -59,7 +59,7 @@
       return `left: calc(${newVal}% + (${13.87 - newVal * 0.26}px))`
     }
   </script>
-  <div class="mx-auto max-w-screen-xl mt-12 p-4" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}"
+  <div class="mx-auto max-w-screen-xl mt-12 p-4" x-data="{yearlyBilling: true, volumeIndex: 0, currency: '$'}"
     x-init="fetch('/api/paddle/currency').then(response => response.json()).then(data => currency = data.currency)">
     <div class="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center lg:items-baseline">
       <div class="lg:flex-1 lg:order-3 lg:justify-end flex">
@@ -88,40 +88,67 @@
       </div>
       <p class="lg:w-1/4 lg:order-1 font-medium text-gray-600">
         <span x-show="volumeIndex < volumesWithPrices.length">Up to</span>
-        <b class="text-gray-900" x-text="volume(volumeIndex)"></b>
+        <b class="text-gray-900" x-text="volume(volumeIndex)">10k</b>
         <span>monthly pageviews</span>
       </p>
       <div class="max-w-md lg:max-w-none w-full mt-6 lg:w-1/2 lg:order-2 flex items-baseline space-x-2">
         <span class="text-xs font-medium text-gray-600">10k</span>
         <div class="flex-1 relative">
-          <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" x-model="volumeIndex" />
-          <output class="bubble text-xs font-medium" x-text="volume(volumeIndex)"
-            x-bind:style="`${calculateBubblePosition(volumeIndex)}`" />
+          <input id="volume" class="shadow w-full" type="range" min="0" max="8" step="1" value="0"
+            x-model="volumeIndex" />
+          <output class="bubble text-xs font-medium" style="left: 13.87px;" x-text="volume(volumeIndex)"
+            x-bind:style="`${calculateBubblePosition(volumeIndex)}`">
+            10k
+          </output>
         </div>
         <span class="text-xs font-medium text-gray-600">10M+</span>
       </div>
     </div>
-    <div class="mt-6 overflow isolate mx-auto grid max-w-md grid-cols-1 gap-4 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+    <div
+      class="mt-6 text-gray-900 overflow isolate mx-auto grid max-w-md grid-cols-1 gap-4 lg:mx-0 lg:max-w-none lg:grid-cols-4">
       {% for plan in site.data.plans %}
       <div class="rounded-xl px-4 py-4 bg-white border border-gray-200 shadow-md">
-        <h3 class="text-lg font-semibold leading-8 text-gray-900">{{ plan.title }}</h3>
-        <p class="mt-4 flex items-baseline gap-x-1">
+        <h3 class="text-lg font-semibold leading-8">{{ plan.title }}</h3>
+        <div class="h-20 max-h-20 pt-4">
           {% if plan.tier == "enterprise" %}
-          <span class="text-4xl font-bold tracking-tight text-gray-900">Custom</span>
+          <div class="text-3xl font-bold tracking-tight leading-8">Custom</div>
           {% else %}
-          <span class="text-2xl font-bold w-max tracking-tight line-through text-gray-500 mr-1"
-            x-show="yearlyBilling && volumeIndex < volumesWithPrices.length"
-            x-html="price(currency, volumeIndex, '{{ plan.tier }}', yearlyBilling, withoutDiscount = true)"></span>
-          <span class="text-4xl font-bold tracking-tight text-gray-900"
-            x-html="price(currency, volumeIndex, '{{ plan.tier }}', yearlyBilling)"></span>
-          <span class="text-sm font-semibold leading-6 text-gray-600" x-show="volumeIndex < volumesWithPrices.length"
-            x-text="yearlyBilling && '/year' || '/month'">
-          </span>
+          <div x-show="yearlyBilling && volumeIndex < volumesWithPrices.length" class="flex">
+            <div class="flex flex-col">
+              <span class="h-8 leading-8 text-3xl font-bold tracking-tight"
+                x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'yearly')">
+                {{ plan.first_paint_prices.yearly }}
+              </span>
+              <span class="h-6 leading-6 font-bold tracking-tight text-sm">
+                <span class="line-through tracking-tight text-gray-600"
+                  x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly')">
+                  {{ plan.first_paint_prices.monthly }}
+                </span>
+                <span class="ml-1"
+                  x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly', withDiscount = true)">
+                  {{ plan.first_paint_prices.monthly_with_discount }}
+                </span>
+              </span>
+            </div>
+            <div class="flex flex-col text-sm text-gray-600 pl-1 leading-6 font-semibold">
+              <span class="h-8 flex items-end">/year</span>
+              <span class="h-6 ">/month</span>
+            </div>
+          </div>
+          <div x-cloak x-show="!yearlyBilling && volumeIndex < volumesWithPrices.length"
+            class="flex items-baseline gap-x-1">
+            <span class="text-3xl font-bold tracking-tight leading-8"
+              x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly')"></span>
+            <span class="text-sm font-semibold leading-6 text-gray-600 pl-1 self-end">/month</span>
+          </div>
+          <div x-cloak x-show="volumeIndex == volumesWithPrices.length" class="text-3xl font-bold tracking-tight leading-8">
+            Custom</div>
           {% endif %}
-        </p>
+        </div>
         <a :href="volumeIndex < volumesWithPrices.length && '{{ plan.cta_link_path }}' || '/contact'"
           x-text="volumeIndex < volumesWithPrices.length && '{{ plan.cta_text }}' || 'Contact us'"
           class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 bg-indigo-600 hover:bg-indigo-500 text-white transition duration-150 ease-in-out">
+          {{ plan.cta_text }}
         </a>
         <ul class="mt-6 space-y-1 text-xs text-gray-600">
           {% for benefit in plan.benefits %}
