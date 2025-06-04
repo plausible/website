@@ -87,25 +87,26 @@ There are some features that you can enable in the plugin. Here's a look at thos
 
 ## Insert your domain name and plugin token
 
-In the "**Domain Name**" field, make sure you use the same domain name as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
+In the "**Domain Name**" field, make sure you use the domain name exactly as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
 
 To automate the plugin setup, you need to generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
 
-You'll find a link to where to go to generate the token directly in the plugin itself.
+You'll find a link to generate the token directly within the plugin. Copy the token that is presented to you, then make sure to click on the "**Add Plugin Token**" button to confirm the token's creation.
+
+Next, paste the token into the "**Plugin Token**" field in the WordPress plugin settings and click the "**Connect**" button. 
 
 ![Create Plugin Token](/docs/img/plausible-plugin-api-token.png)
 
-After you generate a token, you'll be able to see a list of all your plugin tokens in your Plausible site settings in the "**Integrations**" section at any time.
-
 ### Oops! The token you used is invalid
 
-Are you seeing the "**Oops! The Plugin Token you used is invalid**" error message after trying to connect your plugin token? 
+Are you seeing the "**Oops! The Plugin Token you used is invalid**" error after trying to connect your plugin token?
 
-Here are the most common causes of that error:
+Here are the most common reasons for that error:
 
-* Do make sure that you're inserting the plugin token and not some other key. The plugin token is always in this format: `plausible-plugin-xxxxxxxxxxxx`. 
-* Do make sure to create the plugin token for the exact site that you're trying to connect to as plugin tokens are site specific
-* If both of these are fine, then please create a new plugin token and then try to connect it to the plugin once again
+* Make sure to click the "**Add Plugin Token**" button to confirm the token's creation. The token isn't created until you do
+* Double-check that you're pasting the plugin token and not another key. Plugin tokens always look like this: `plausible-plugin-xxxxxxxxxxxx`
+* Ensure the plugin token was created for the exact site you're trying to connect. Plugin tokens are site-specific
+* If everything looks correct, try creating a new plugin token and connect it again
 
 ## How to view your stats directly in your WordPress dashboard
 
