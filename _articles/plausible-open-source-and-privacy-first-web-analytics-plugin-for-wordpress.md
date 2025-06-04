@@ -93,9 +93,11 @@ To automate the plugin setup, you need to generate a plugin token in your Plausi
 
 You'll find a link to generate the token directly within the plugin. Copy the token that is presented to you, then make sure to click on the "**Add Plugin Token**" button to confirm the token's creation.
 
+![Add Plugin Token](/docs/img/plausible-plugin-api-token.png)
+
 Next, paste the token into the "**Plugin Token**" field in the WordPress plugin settings and click the "**Connect**" button. 
 
-![Create Plugin Token](/docs/img/plausible-plugin-api-token.png)
+![Create Plugin Token](/docs/img/add-wordpress-token.png)
 
 ### Oops! The token you used is invalid
 
