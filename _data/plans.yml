@@ -65,3 +65,7 @@
     - "Technical onboarding"
   cta_text: "Contact us"
   cta_link_path: "/contact"
+  style:
+    main: "bg-gray-900 text-white"
+    cta_button: "bg-gray-800 hover:bg-gray-700 text-white"
+    benefits_list: "text-gray-300"
