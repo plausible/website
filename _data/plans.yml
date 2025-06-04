@@ -35,19 +35,19 @@
     - "Looker Studio Connector"
     - "Ecommerce revenue attribution"
     - "Funnels"
-    - "Priority support"
   first_paint_price: "$19"
 
 - tier: "enterprise"
   title: "Enterprise"
   benefits:
     - "Everything in Business"
+    - "10+ sites"
     - "10+ team members"
-    - "50+ sites"
     - "600+ Stats API requests per hour"
     - '<p>Sites API access for <a class="text-indigo-600 hover:underline" href="/white-label-web-analytics">reselling</a></p>'
     - "5+ years of data retention"
     - "Technical onboarding"
+    - "Priority support"
   style:
     main: "bg-gray-900 text-white"
     benefits_list: "text-gray-300"
