@@ -59,7 +59,7 @@
       return `left: calc(${newVal}% + (${13.87 - newVal * 0.26}px))`
     }
   </script>
-  <div class="mx-auto max-w-screen-xl mt-12 p-4" x-data="{yearlyBilling: true, volumeIndex: 0, currency: '$'}"
+  <div class="mx-auto max-w-screen-xl mt-12 p-4" x-data="{yearlyBilling: false, volumeIndex: 0, currency: '$'}"
     x-init="fetch('/api/paddle/currency').then(response => response.json()).then(data => currency = data.currency)">
     <div class="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center lg:items-baseline">
       <div class="lg:flex-1 lg:order-3 lg:justify-end flex">
@@ -113,20 +113,17 @@
           {% if plan.tier == "enterprise" %}
           <div class="text-3xl font-bold tracking-tight leading-8">Custom</div>
           {% else %}
-          <div x-show="yearlyBilling && volumeIndex < volumesWithPrices.length" class="flex">
+          <div x-cloak x-show="yearlyBilling && volumeIndex < volumesWithPrices.length" class="flex">
             <div class="flex flex-col">
               <span class="h-8 leading-8 text-3xl font-bold tracking-tight"
                 x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'yearly')">
-                {{ plan.first_paint_prices.yearly }}
               </span>
               <span class="h-6 leading-6 font-bold tracking-tight text-sm">
                 <span class="line-through tracking-tight text-gray-600"
                   x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly')">
-                  {{ plan.first_paint_prices.monthly }}
                 </span>
                 <span class="ml-1"
                   x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly', withDiscount = true)">
-                  {{ plan.first_paint_prices.monthly_with_discount }}
                 </span>
               </span>
             </div>
@@ -135,10 +132,12 @@
               <span class="h-6 ">/month</span>
             </div>
           </div>
-          <div x-cloak x-show="!yearlyBilling && volumeIndex < volumesWithPrices.length"
+          <div x-show="!yearlyBilling && volumeIndex < volumesWithPrices.length"
             class="flex items-baseline gap-x-1">
             <span class="text-3xl font-bold tracking-tight leading-8"
-              x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly')"></span>
+              x-text="price(currency, volumeIndex, '{{ plan.tier }}', 'monthly')">
+            {{ plan.first_paint_price }}
+            </span>
             <span class="text-sm font-semibold leading-6 text-gray-600 pl-1 self-end">/month</span>
           </div>
           <div x-cloak x-show="volumeIndex == volumesWithPrices.length"

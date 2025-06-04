@@ -8,10 +8,7 @@
     - "Google Analytics import"
     - "Goals and custom events"
     - "Saved Segments"
-  first_paint_prices:
-    monthly: "$9"
-    monthly_with_discount: "$7.50"
-    yearly: "$90"
+  first_paint_price: "$9"
 
 - tier: "growth"
   title: "Growth"
@@ -24,10 +21,7 @@
     - "Embedded Dashboards"
     - "Shared Segments"
   default_price: "$14"
-  first_paint_prices:
-    monthly: "$14"
-    monthly_with_discount: "$11.67"
-    yearly: "$140"
+  first_paint_price: "$14"
 
 - tier: "business"
   title: "Business"
@@ -42,10 +36,7 @@
     - "Ecommerce revenue attribution"
     - "Funnels"
     - "Priority support"
-  first_paint_prices:
-    monthly: "$19"
-    monthly_with_discount: "$15.83"
-    yearly: "$190"
+  first_paint_price: "$19"
 
 - tier: "enterprise"
   title: "Enterprise"
