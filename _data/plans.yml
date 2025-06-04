@@ -8,8 +8,6 @@
     - "Google Analytics import"
     - "Goals and custom events"
     - "Saved Segments"
-  cta_text: "Start your free trial"
-  cta_link_path: "/register"
   first_paint_prices:
     monthly: "$9"
     monthly_with_discount: "$7.50"
@@ -25,8 +23,6 @@
     - "Shared Links"
     - "Embedded Dashboards"
     - "Shared Segments"
-  cta_text: "Start your free trial"
-  cta_link_path: "/register"
   default_price: "$14"
   first_paint_prices:
     monthly: "$14"
@@ -46,8 +42,6 @@
     - "Ecommerce revenue attribution"
     - "Funnels"
     - "Priority support"
-  cta_text: "Start your free trial"
-  cta_link_path: "/register"
   first_paint_prices:
     monthly: "$19"
     monthly_with_discount: "$15.83"
@@ -63,9 +57,6 @@
     - '<p>Sites API access for <a class="text-indigo-600 hover:underline" href="/white-label-web-analytics">reselling</a></p>'
     - "5+ years of data retention"
     - "Technical onboarding"
-  cta_text: "Contact us"
-  cta_link_path: "/contact"
   style:
     main: "bg-gray-900 text-white"
-    cta_button: "bg-gray-800 hover:bg-gray-700 text-white"
     benefits_list: "text-gray-300"

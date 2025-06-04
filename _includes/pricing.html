@@ -146,11 +146,18 @@
             Custom</div>
           {% endif %}
         </div>
-        <a :href="volumeIndex < volumesWithPrices.length && '{{ plan.cta_link_path }}' || '/contact'"
-          x-text="volumeIndex < volumesWithPrices.length && '{{ plan.cta_text }}' || 'Contact us'"
-          class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 transition duration-150 ease-in-out {{ plan.style.cta_button | default: 'bg-indigo-600 hover:bg-indigo-500 text-white' }}">
-          {{ plan.cta_text }}
+        {% if plan.tier == "enterprise" %}
+        <a href="/contact"
+          class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 transition duration-150 ease-in-out bg-gray-800 hover:bg-gray-700 text-white">
+          Contact us
         </a>
+        {% else %}
+        <a :href="volumeIndex < volumesWithPrices.length && '/register' || '/contact'"
+          x-text="volumeIndex < volumesWithPrices.length && 'Start your free trial' || 'Contact us'"
+          class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 transition duration-150 ease-in-out bg-indigo-600 hover:bg-indigo-500 text-white">
+          Start your free trial
+        </a>
+        {% endif %}
         <ul class="mt-6 space-y-1 text-sm {{ plan.style.benefits_list | default: 'text-gray-600' }}">
           {% for benefit in plan.benefits %}
           <li class="flex gap-x-3">
