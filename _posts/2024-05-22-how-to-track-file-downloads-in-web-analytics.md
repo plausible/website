@@ -77,12 +77,14 @@ T﻿his is a complicated and lengthy process, may require access to technical re
 
 ## P﻿roblems with tracking file downloads with GA4
 
-* Y﻿ou will end up missing some events as Google Analytics script is widely blocked by various internet users using ad blockers, privacy-friendly browsers. This can also happen when your cookie consent banner is declined by someone. Ultimately leading to missing stats and misleading insights.
-* B﻿ots and spam traffic can skew your file download data as GA4's bot filtering mechanisms are not great. In a test we ran
+W﻿hile the flexible method using Google Tag Manager is complicated, even if you use the Enhanced Measurement, you'll be prone to the following issues: 
+
+* Y﻿ou will end up missing some file downloads data as Google Analytics script is widely blocked by various internet users using ad blockers, privacy-friendly browsers. This can also happen when your cookie consent banner is declined by someone. Ultimately leading to [missing stats](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) and misleading insights.
+* B﻿ots and spam traffic can skew your file download data as GA4's bot filtering mechanisms are not great. In a [controlled experiment](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics), we saw first-hand how GA4 allowed bots to show as real users in the dashboard. If such non-human visits trigger your file downloads, your stats will simply be misleading.
+
+
 
 ## How to track file downloads on your website w﻿ith Plausible Analytics?
-
-
 
 If you are using Plausible, adding the code snippet for [tracking file downloads](https://plausible.io/docs/file-downloads-tracking) to the Plausible integration script is optional. Once done, it starts capturing file download events each time a link is clicked containing a file extension.
 
