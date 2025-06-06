@@ -10,12 +10,12 @@ author: hricha-shandily
 image: /uploads/track-file-downloads.png
 image-alt: How to track file downloads in your analytics
 ---
-I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, brochure, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be done using analytics tools like Google Analytics, a privacy-friendly alternative like Plausible, or other methods.
+I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, brochures, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be done using analytics tools like Google Analytics, a privacy-friendly alternative like Plausible, or other methods.
 
 H﻿ere's everything you need to know about what you can track about your file downloads and how.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is a file download?
 
@@ -117,7 +117,7 @@ A new goal appears on your dashboard called "File download" and you can see all 
 
 For in-depth instructions and guidance on tracking custom file types, check out [our documentation](https://plausible.io/docs/file-downloads-tracking).
 
-## Why track file downloads?
+## What to do with these insights?
 
 Tracking how your downloadable files are performing can help you learn about…
 
