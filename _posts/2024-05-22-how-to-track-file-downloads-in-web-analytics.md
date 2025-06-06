@@ -89,19 +89,21 @@ P﻿lausible Analytics is a simpler, privacy-friendly and [more accurate](https:
 * O﻿ur bot and spam tracking exclusion is top-notch. Here's proof from a latest [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics).
 * Y﻿ou don't need to go through a complicated and lengthy workflow if you want to track custom extensions.
 
-Plausible tracks the following: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`, 
-
-...and any other custom extensions you may like.
-
 ### How to track file downloads on your website w﻿ith Plausible Analytics?
 
 I﻿f you don't have an active Plausible account, you can [get started](https://plausible.io/docs/register-account)
 
-enable "**File downloads**" as an optional measurement 
+Then, simply enable "File downloads" as an optional measurement when adding a new site to your Plausible account, or at any later time in the "Site Installation" area of the "General" section in your site settings.
 
-Once done, it starts capturing file download events each time a link is clicked containing a file extension.
+![enable-file-downloads-tracking](/uploads/enable-file-downloads-tracking.webp "enable-file-downloads-tracking")
 
-All types of file extensions can be tracked with Plausible, either by default or by specification. On the Plausible dashboard, you will be able to see:
+Insert the displayed snippet into your site for all tracking to work as expected.
+
+P﻿.S. We are working on an update where you won't need to update the tracking snippet either and would be able to enable tracking with just a flip of a switch. 
+
+Once done, we automatically start collecting file download events each time a link is clicked containing any of the following file extensions: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`
+
+A new goal appears on your dashboard called "File download" and you can see all the related data such as: 
 
 * The number of total file download clicks
 * The number of unique file download clicks
@@ -111,7 +113,9 @@ All types of file extensions can be tracked with Plausible, either by default or
 * Countries, regions and cities that click on file download
 * Devices (screen size, browser, OS) that click on file download
 
+.﻿..in a single dashboard. You can check out our [live demo](https://plausible.io/plausible.io) to see what we mean.
 
+For in-depth instructions and guidance on tracking custom file types, check out [our documentation](https://plausible.io/docs/file-downloads-tracking).
 
 ## Why track file downloads?
 
