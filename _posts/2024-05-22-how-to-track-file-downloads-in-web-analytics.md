@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to track file downloads in web analytics
+title: How to track file downloads on your website using analytics tools?
 description: If your website has downloadable content or software, track how
   they are performing, how effective is your distribution strategy and how to
   optimize these two.
@@ -10,12 +10,12 @@ author: hricha-shandily
 image: /uploads/track-file-downloads.png
 image-alt: How to track file downloads in your analytics
 ---
-If you have a website with downloadable resources like content or software, it’s a good practice to track how they are performing for your audience and business/marketing. Staying in sight of this information reveals interesting insight into how valuable a resource is to your audience, how effective is your distribution strategy and what improvements can be made to these two.
+I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, brochure, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be easily done using analytics tools like Google Analytics or a privacy-friendly alt. like Plausible.
 
-It is therefore a direct reflection of the degree of value a business or marketing is generating for its audience, and could offer deeper analysis into a business’ core strategy itself. Let’s see what a file download is, and how to keep in touch to improve your marketing and distribution strategies.
+F﻿irst, let's see what is a file download and why does it matter to track them. You can skip to the sections below if you're only interested in seeing how to track file downloads on your site.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is a file download?
 
@@ -28,7 +28,79 @@ A downloadable file on a website can be any of the following:
 * An audio, video, or PDF download, that could be anything from a song download to a research paper download.
 * Anything else.
 
+## How to track file downloads on your website w﻿ith Google Analytics 4?
+
+You have two options to track file downloads in Google Analytics 4, as outlined below. Once done, you can find your file download events in your "Events" report or create a custom report from scratch as you wish.
+
+### By enabling Enhanced Measurements
+
+Open your GA4 account, go to admin > data collection and modification > data streams. Choose the data stream you want to update.
+
+In the Enhanced measurement section, toggle the switch to On to activate all tracking options. This includes the "file downloads" tracking too.
+
+I﻿n case you want customize individual measurement options, click the gear icon and select just the tracking options you want to keep.
+
+If you're using the Google tag on your site, ensure each event type is enabled for automatic tracking. By default, all events are turned on.
+
+Now, when someone clicks a link on your website that points to a common file type (see list), Google Analytics can automatically track it as a file download event (*file_download*).
+
+* document
+* text
+* executable
+* presentation
+* compressed file
+* video
+* audio
+
+**T﻿wo shortcomings of this method are:** 
+
+* If the URL containing your file download is longer than 100 characters, the end gets cut off—which often includes the file name or extension.
+* You cannot customize the list of supported file extensions, so you are limited to: *.pdf, .xls, .xlsx, .doc, .docx, .txt, .rtf, .csv, .exe, .key, .pps, .ppt, .pptx, .7z, .pkg, .rar, .gz, .zip, .avi, .mov, .mp4, .mpe, .mpeg, .wmv, .mid, .midi, .mp3, .wav, .wma.*
+
+I﻿f you want to overcome these shortcomings, your other option is to do a custom setup:
+
+### With Google Tag Manager
+
+H﻿ere's an overview of what you'd need to do: 
+
+1. Create a variable to get the file name from the clicked URL\
+   *(e.g., extract `guide.docx` from `https://yourdomain.com/resources/guide.docx`).*
+2. Optionally, create another variable to get the file extension\
+   *(e.g., extract `docx`).*
+3. Set up a link click trigger that detects specific file types (e.g., `.mp3`, `.zip`, `.docx`).
+4. Create a GA4 event tag, then test your setup using GTM's preview mode and Debugview.
+5. D﻿isable file download tracking as an enhanced measurement.
+
+The link m﻿ust include a visible file extension, like `.docx`, `.mp3`, or `.`
+
+T﻿his is a complicated and lengthy process, may require access to technical resources or a GA/GTM agency and the chances of errors are high.
+
+## P﻿roblems with tracking file downloads with GA4
+
+* Y﻿ou will end up missing some events as Google Analytics script is widely blocked by various internet users using ad blockers, privacy-friendly browsers. This can also happen when your cookie consent banner is declined by someone. Ultimately leading to missing stats and misleading insights.
+* B﻿ots and spam traffic can skew your file download data as GA4's bot filtering mechanisms are not great. In a test we ran
+
+## How to track file downloads on your website w﻿ith Plausible Analytics?
+
+
+
+If you are using Plausible, adding the code snippet for [tracking file downloads](https://plausible.io/docs/file-downloads-tracking) to the Plausible integration script is optional. Once done, it starts capturing file download events each time a link is clicked containing a file extension.
+
+All types of file extensions can be tracked with Plausible, either by default or by specification. On the Plausible dashboard, you will be able to see:
+
+* The number of total file download clicks
+* The number of unique file download clicks
+* The conversion rate
+* Top referral sources that lead to clicks
+* [Top pages](https://plausible.io/blog/analyzing-landing-pages) that drive the clicks
+* Countries, regions and cities that click on file download
+* Devices (screen size, browser, OS) that click on file download
+
 Most web analytics tools, including Plausible, track a file download as a link click including a specific extension. Plausible tracks the following: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`, and other custom extensions.
+
+If you don’t have file downloads to track, you can keep the original script intact, which is effective and efficient. This helps us keep our main tracking script lightweight and not deteriorate page load speeds and visitor experience.
+
+Google Analytics 4, on the other hand, has a bloated tracking script as it comes with automatic file downloads tracking as part of its Enhanced Measurements. A compressed Google Analytics integration script is much larger than [Plausible’s lightweight script](https://plausible.io/simple-web-analytics).
 
 ## Why track file downloads?
 
@@ -56,23 +128,9 @@ If your downloadable resources are a part of a marketing campaign or a [funnel](
 
 If your downloadable file is gated behind a contact form, tracking its downloads can help understand which content drives the most form submissions. In turn, you can measure the effectiveness of your lead generation efforts.
 
-## How to track file downloads on your website?
+Staying in sight of this information reveals how valuable a resource is to your audience, how effective is your distribution strategy and what improvements can be made to these two.
 
-File downloads are pretty standard to track with any Web Analytics tool. If you are using Plausible, adding the code snippet for [tracking file downloads](https://plausible.io/docs/file-downloads-tracking) to the Plausible integration script is optional. Once done, it starts capturing file download events each time a link is clicked containing a file extension.
-
-All types of file extensions can be tracked with Plausible, either by default or by specification. On the Plausible dashboard, you will be able to see:
-
-* The number of total file download clicks
-* The number of unique file download clicks
-* The conversion rate
-* Top referral sources that lead to clicks
-* [Top pages](https://plausible.io/blog/analyzing-landing-pages) that drive the clicks
-* Countries, regions and cities that click on file download
-* Devices (screen size, browser, OS) that click on file download
-
-If you don’t have file downloads to track, you can keep the original script intact, which is effective and efficient. This helps us keep our main tracking script lightweight and not deteriorate page load speeds and visitor experience.
-
-Google Analytics 4, on the other hand, has a bloated tracking script as it comes with automatic file downloads tracking as part of its Enhanced Measurements. A compressed Google Analytics integration script is much larger than [Plausible’s lightweight script](https://plausible.io/simple-web-analytics).
+It is therefore a direct reflection of the degree of value a business or marketing is generating for its audience, and could offer deeper analysis into a business’ core strategy itself. Let’s see what a file download is, and how to keep in touch to improve your marketing and distribution strategies.
 
 ## How to optimize for file downloads?
 
@@ -97,7 +155,3 @@ Figure out which kinds of audiences (and whether they are your ideal customers) 
 ### Monitor and adjust
 
 Keep an eye on metrics such as download counts, conversion rates, and referral sources to identify emerging patterns. Adjust by promoting, updating, or withdrawing resources as needed.
-
-## Before you go…
-
-We're creating a series on Web Analytics features, like this one, to help you learn and apply web analytics with ease. If you have specific topics you'd like us to cover, let us know at [reading@plausible.io](mailto:reading@plausible.io). We're listening!
