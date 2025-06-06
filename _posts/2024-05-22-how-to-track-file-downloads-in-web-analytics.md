@@ -10,9 +10,9 @@ author: hricha-shandily
 image: /uploads/track-file-downloads.png
 image-alt: How to track file downloads in your analytics
 ---
-I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, brochure, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be easily done using analytics tools like Google Analytics or a privacy-friendly alt. like Plausible.
+I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, brochure, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be done using analytics tools like Google Analytics, a privacy-friendly alternative like Plausible, or other methods.
 
-F﻿irst, let's see what is a file download and why does it matter to track them. You can skip to the sections below if you're only interested in seeing how to track file downloads on your site.
+H﻿ere's everything you need to know about what you can track about your file downloads and how.
 
 1. Ordered list
    {:toc}
@@ -30,7 +30,7 @@ A downloadable file on a website can be any of the following:
 
 ## How to track file downloads on your website w﻿ith Google Analytics 4?
 
-You have two options to track file downloads in Google Analytics 4, as outlined below. Once done, you can find your file download events in your "Events" report or create a custom report from scratch as you wish.
+I﻿f you use GA4, you have two options to track file downloads as outlined below. Once done, you can find your file download events in your "Events" report or create a custom report from scratch as you wish.
 
 ### By enabling Enhanced Measurements
 
@@ -63,28 +63,31 @@ I﻿f you want to overcome these shortcomings, your other option is to do a cust
 
 H﻿ere's an overview of what you'd need to do: 
 
-1. Create a variable to get the file name from the clicked URL\
-   *(e.g., extract `guide.docx` from `https://yourdomain.com/resources/guide.docx`).*
-2. Optionally, create another variable to get the file extension\
-   *(e.g., extract `docx`).*
-3. Set up a link click trigger that detects specific file types (e.g., `.mp3`, `.zip`, `.docx`).
-4. Create a GA4 event tag, then test your setup using GTM's preview mode and Debugview.
+1. Create a variable to get the file name from the clicked URL. *E.g., `guide.docx` from `https://yourdomain.com/resources/guide.docx`.*
+2. In Google Tag Manager, set up a link click trigger that detects specific file types (e.g., `.mp3`, `.zip`, `.docx`). 
+3. Create a GA4 event tag 
+4. Test your setup using GTM's preview mode + Debugview.
 5. D﻿isable file download tracking as an enhanced measurement.
 
-The link m﻿ust include a visible file extension, like `.docx`, `.mp3`, or `.`
-
-T﻿his is a complicated and lengthy process, may require access to technical resources or a GA/GTM agency and the chances of errors are high.
+T﻿his is a complicated and lengthy process, and requires access to technical resources or a GA/GTM agency  that can execute the setup for you. There are a couple of other issues as well. 
 
 ## P﻿roblems with tracking file downloads with GA4
 
-W﻿hile the flexible method using Google Tag Manager is complicated, even if you use the Enhanced Measurement, you'll be prone to the following issues: 
+W﻿hether you use the flexible method using Google Tag Manager or the Enhanced Measurement, you'll be prone to the following issues:
 
 * Y﻿ou will end up missing some file downloads data as Google Analytics script is widely blocked by various internet users using ad blockers, privacy-friendly browsers. This can also happen when your cookie consent banner is declined by someone. Ultimately leading to [missing stats](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) and misleading insights.
 * B﻿ots and spam traffic can skew your file download data as GA4's bot filtering mechanisms are not great. In a [controlled experiment](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics), we saw first-hand how GA4 allowed bots to show as real users in the dashboard. If such non-human visits trigger your file downloads, your stats will simply be misleading.
 
-
+I﻿f you're worried about inaccurate stats, and want a simpler and effective method of tracking file downloads on your site, you can check out Plausible Analytics.
 
 ## How to track file downloads on your website w﻿ith Plausible Analytics?
+
+P﻿lausible Analytics is a simpler, privacy-friendly and [more accurate](https://plausible.io/most-accurate-web-analytics) alternative to Google Analytics. All the shortcomings with GA4 wrt tracking file downloads, are not present with Plausible:
+
+* W﻿e are significantly less blocked by ad-blockers and privacy-respecting browsers due to our privacy-friendly nature.
+* Y﻿ou don't need a cookie consent banner to operate Plausible as we use cookieless tracking and have in-built GDPR compliance.
+* O﻿ur bot and spam tracking exclusion is top-notch. Here's proof from a latest [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics).
+*
 
 If you are using Plausible, adding the code snippet for [tracking file downloads](https://plausible.io/docs/file-downloads-tracking) to the Plausible integration script is optional. Once done, it starts capturing file download events each time a link is clicked containing a file extension.
 
