@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a good bounce rate for a website?
+title: What is a good bounce rate for a website? (and industry benchmarks)
 description: What is bounce rate, what are some industry benchmarks, and how to
   maintain a lower number?
 slug: bounce-rate
@@ -16,22 +16,22 @@ When you first see your bounce rate of x%, it can be confusing making you think 
 
 ## Understanding Bounce Rate
 
-Imagine you have a website with ten [web pages](https://plausible.io/blog/analyzing-landing-pages#what-is-a-landing-page). You get visitors from different sources like social media, paid campaigns, organic search, referrals, etc.
+Imagine you have a website with ten pages. You get visitors from different sources like social media, paid campaigns, organic search, referrals, etc.
 
 You ideally want these visitors to engage with your website and maybe take some necessary actions like signing up. For that to happen, the visitors would need to take any of the following actions:
 
 * Engage with more than one page.
 * Take a conversion action.
 
-Essentially, the percentage of visitors who are not taking any of these actions during their [sessions](https://plausible.io/docs/metrics-definitions#total-visits-or-sessions) is the bounce rate. A visitor to a website is said to have “bounced” away when they leave without interacting further with your website.
+Essentially, the percentage of visitors who are not taking any of these actions during their [session](https://plausible.io/docs/metrics-definitions#total-visits-or-sessions) is the bounce rate. A visitor to a website is said to have “bounced” away when they leave without interacting further with your website.
 
 They could leave by pressing the back button of their browser, closing the tab, or going to another website. Website owners should typically aim for low bounce rates.
 
-High bounce rates indicate low user engagement, meaning visitors may not be finding your content engaging or relevant enough to explore further.
+High bounce rates indicate low user engagement, meaning visitors may not be finding your content engaging or relevant enough to explore further, although there are some exceptions to that understanding as you will see in a bit.
 
 ### Bounce rate formula
 
-Bounce Rate = (Total single-page sessions / Total Sessions​) * 100
+**Bounce Rate = (Total single-page sessions / Total Sessions​) * 100**
 
 Where:
 
@@ -59,6 +59,7 @@ But it also depends. It depends how much bounce rate you should be expecting bas
 * The industry you are operating in.
 * Whether you deal in B2B or B2C.
 * The nature of the entry page from which visitors bounce off. 
+* The kind of content you made (original, general, with engaging elements like a video or calculator, etc.)
 
 Let’s see why.
 
