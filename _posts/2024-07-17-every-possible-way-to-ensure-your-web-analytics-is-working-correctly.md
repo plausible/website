@@ -1,26 +1,26 @@
 ---
 layout: post
-title: How to ensure that your web analytics is tracking correctly
-description: Check if your website tracking is working right, with an
-  all-encompassing process to spot and solve problems.
+title: How to check if Google Analytics (or any analytics tool) is working correctly?
+description: Check if your website tracking is working right, whether you use
+  GA4, Plausible, or any other tracking tool.
 slug: is-analytics-working-correctly
 date: 2024-07-18T05:16:03.377Z
 author: hricha-shandily
 image: /uploads/devtools-check-analytics-status.png
 image-alt: How to ensure that your web analytics is working correctly
 ---
-Whether you've recently added a new tracking snippet to your site or have reasons to believe that your web analytics might not be functioning properly, it's a good idea to verify if your analytics setup is correctly installed.
+Whether you've recently added a new tracking snippet to your site or have reasons to believe that your website analytics might not be functioning properly, it's a good idea to verify if your analytics setup is correctly installed.
 
 Doing this can help eliminate ambiguity and ensure a strong base for analyzing site traffic, understanding user behaviors, and drawing meaningful conclusions.
 
 In this post, we discuss everything that you can possibly do to ensure that your web analytics setup is working just fine! If you’re using Plausible, jump to the section about troubleshooting a Plausible script.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
-## A comprehensive framework to troubleshoot any web analytic script’s installation issues
+## Step-by-step guide to check if your analytics tool is installed and tracking correctly
 
-Web analytic tracking codes are typically JavaScript snippets. When installed on web pages, they serve as the medium for collecting data from visitor interactions on one hand and reporting them to the UI on the other.
+Web analytics tracking codes are typically JavaScript snippets. When installed on web pages, they serve as the medium for collecting data from visitor interactions on one hand and reporting them to the UI on the other.
 
 This is a general guide for checking for possible analytics installation issues that can be applied to most web analytic tracking tools.
 
@@ -36,7 +36,7 @@ To prevent this, make sure the script is added to the source code of every page 
 
 If this is not it, move over to the Browser Console as explained below.
 
-### Check the Network tab of your Browser Console
+### Check your browser’s Network tab
 
 This is where you can get the full picture of whether your tracking code is working properly or not. Start by opening a web page, right-click anywhere, and go to “Inspect” -> “Network” tab. Use the search bar to search for your script’s file by trying keywords like “script”, “plausible”, “analytics”, or similar.
 
@@ -50,7 +50,7 @@ Tip: If you are doing this activity for checking the collection of specific even
 
 Note: In case your website admin has added the analytics script via an NPM package directly in the source code, the network tab may not show the script being downloaded, however the tracking events will still show up as you interact with the website.
 
-#### If the script is not loading…
+#### What to do if the analytics script doesn’t load...
 
 If you found out that the script is not loading, then check these things:
 
@@ -58,16 +58,16 @@ If you found out that the script is not loading, then check these things:
 2. **Check with a different browser.** Some browsers like Safari are stricter with privacy, and may be blocking your tracker by default. Try troubleshooting on a different browser.
 3. **Check your internet.** If you are on a company network while testing, that may be blocking the script from loading. Or your Internet Service Provider could be blocking it, in which case try switching to a different network or to your mobile hotspot.
 
-#### If the script is loading, but you still don’t see data…
+#### When the script loads but no data appears...
 
 If this is the case, then check for these things:
 
 1. **Check if the script URL is correct.** A script URL is the address of a JavaScript file included on a webpage. For eg. Plausible’s default script mentions the script URL as “src=...” Like this:
-`<script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script>`
+   `<script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script>`
 2. **Check if the identifiers are correctly added.** Analytic tools assign unique tracking IDs to each website. For eg. In Plausible, we use your domain name as the unique tracking ID.
-See the “data-domain” mentioned in the example-script above. Similarly, Google Analytics’ identifiers take the structure of “G-XXXXXXX.”
+   See the “data-domain” mentioned in the example-script above. Similarly, Google Analytics’ identifiers take the structure of “G-XXXXXXX.”
 3. **Check for cross-domain or subdomain tracking.** Multiple tools like Plausible allow for both cross-domain and subdomain tracking. For example, you can have your website on acme.com and a learning site at learn.com (a different domain) or learn.acme.com (a subdomain).
-Generally, subdomains are included by default. You can check your analytics app settings to ensure that traffic from all valid hostnames are allowed.
+   Generally, subdomains are included by default. You can check your analytics app settings to ensure that traffic from all valid hostnames are allowed.
 4. **Check if tracking is disabled for you.** Some analytic tools allow ignoring internal traffic by either setting cookies on your browser or blocking IP addresses. Run your tests in the Incognito tab or simply check your analytic tool’s settings to confirm if this is the reason your own visits are not counted.
 5. **Check if the script needs to be manually initialized after loading.** Some tracking codes (although not common with web analytic tracking tools) need to be manually initialized after loading to start collecting visitor data and sending it to analytic tool’s servers. Check your tool’s documentation to see if the script needs to be manually initialized and follow the necessary steps.
 6. **Check for errors in the JS console.** If you see an error in your JS console, then you need to contact either your dev team or your web analytic tool’s support team. A JS Console error looks similar to the following screenshot, although not exact. 
@@ -94,8 +94,8 @@ Don’t worry, such test traffic won’t be falsely displayed as your actual tra
 
 If you are confused as to why your own visits are still not getting counted by our script, do try the solutions explained in the section above. In addition to them, you can note the following:
 
-- If you use browser extensions such as ad blockers, it can sometimes stop our script from loading. We are typically [not blocked](https://plausible.io/docs/proxy/introduction) by a majority of ad blockers since we are a [privacy-friendly](https://plausible.io/privacy-focused-web-analytics) analytics tool. But if you think this is happening anyway, then add our script to the allow-list.
-- If you installed Plausible through our WordPress plugin, then all logged-in admin visits will be blocked by default.
+* If you use browser extensions such as ad blockers, it can sometimes stop our script from loading. We are typically [not blocked](https://plausible.io/docs/proxy/introduction) by a majority of ad blockers since we are a [privacy-friendly](https://plausible.io/privacy-focused-web-analytics) analytics tool. But if you think this is happening anyway, then add our script to the allow-list.
+* If you installed Plausible through our WordPress plugin, then all logged-in admin visits will be blocked by default.
 
 ### Other issues
 
