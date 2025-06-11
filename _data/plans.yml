@@ -1,0 +1,53 @@
+- tier: "starter"
+  title: "Starter"
+  benefits:
+    - "One site"
+    - "3 years of data retention"
+    - "Intuitive, fast and privacy-friendly dashboard"
+    - "Email/Slack reports"
+    - "Google Analytics import"
+    - "Goals and custom events"
+    - "Saved Segments"
+  first_paint_price: "$9"
+
+- tier: "growth"
+  title: "Growth"
+  benefits:
+    - "Everything in Starter"
+    - "Up to 3 sites"
+    - "Up to 3 team members"
+    - "Team Management"
+    - "Shared Links"
+    - "Embedded Dashboards"
+    - "Shared Segments"
+  default_price: "$14"
+  first_paint_price: "$14"
+
+- tier: "business"
+  title: "Business"
+  benefits:
+    - "Everything in Growth"
+    - "Up to 10 sites"
+    - "Up to 10 team members"
+    - "5 years of data retention"
+    - "Custom Properties"
+    - "Stats API (600 requests per hour)"
+    - "Looker Studio Connector"
+    - "Ecommerce revenue attribution"
+    - "Funnels"
+  first_paint_price: "$19"
+
+- tier: "enterprise"
+  title: "Enterprise"
+  benefits:
+    - "Everything in Business"
+    - "10+ sites"
+    - "10+ team members"
+    - "600+ Stats API requests per hour"
+    - '<p>Sites API access for <a class="text-indigo-600 hover:underline" href="/white-label-web-analytics">reselling</a></p>'
+    - "5+ years of data retention"
+    - "Technical onboarding"
+    - "Priority support"
+  style:
+    main: "bg-gray-900 text-white"
+    benefits_list: "text-gray-300"
