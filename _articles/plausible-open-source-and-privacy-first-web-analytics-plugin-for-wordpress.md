@@ -91,11 +91,9 @@ In the "**Domain Name**" field, make sure you use the domain name exactly as you
 
 To automate the plugin setup, you need to generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
 
-You'll find a link to generate the token directly within the plugin. Copy the token that is presented to you, then make sure to click on the "**Add Plugin Token**" button to confirm the token's creation.
+You'll find a link to generate the token directly within the plugin settings. Clicking on this link will take you to the plausible.io website where you should click on the "**Create Plugin Token**" button. Then copy the token that is presented to you. 
 
-![Create Plugin Token](/docs/img/add-wordpress-token.png)
-
-Next, paste the token into the "**Plugin Token**" field in the WordPress plugin settings and click the "**Connect**" button. 
+Next, go back to the Plausible WordPress plugin settings, paste the token into the "**Plugin Token**" field and click the "**Connect**" button. 
 
 ### Oops! The token you used is invalid
 
@@ -103,7 +101,6 @@ Are you seeing the "**Oops! The Plugin Token you used is invalid**" error after 
 
 Here are the most common reasons for that error:
 
-* Make sure to click the "**Add Plugin Token**" button to confirm the token's creation. The token isn't created until you do
 * Double-check that you're pasting the plugin token and not another key. Plugin tokens always look like this: `plausible-plugin-xxxxxxxxxxxx`
 * Ensure the plugin token was created for the exact site you're trying to connect. Plugin tokens are site-specific
 * If everything looks correct, try creating a new plugin token and connect it again
