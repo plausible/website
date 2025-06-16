@@ -25,10 +25,16 @@
   }
 
   plausible.init({
-    customProperties: props
+    formSubmissions: true,
+    customProperties: props,
+    transformRequest: function (payload) {
+      if (payload.n === 'Form Submission') {
+        payload.n = 'Newsletter signup'
+      }
+      return payload
+    }
   })
   </script>
-
 
   {%- feed_meta -%}
 </head>
