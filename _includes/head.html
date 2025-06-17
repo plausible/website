@@ -28,7 +28,7 @@
     formSubmissions: true,
     customProperties: props,
     transformRequest: function (payload) {
-      if (payload.n === 'Form Submission') {
+      if (payload.n === 'Form: Submission') {
         payload.n = 'Newsletter signup'
       }
       return payload
