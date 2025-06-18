@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Evolution of SEO in 2025, role of AI, and measuring it all in Plausible
+title: Is SEO dead? How to stay discoverable in the age of AI, zero clicks, and
+  multichannel discovery?
 description: Is SEO dead, the role of AI and privacy, how to stay relevant, and
   everything in between.
 slug: seo-dead
