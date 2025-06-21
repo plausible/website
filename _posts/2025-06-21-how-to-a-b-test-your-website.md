@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to A/B test your website?
-description: c
+description: What is A/B testing and how can you do it for your website?
 slug: ab-testing
 date: 2025-06-21T06:38:02.782Z
 author: hricha-shandily
