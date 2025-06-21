@@ -8,7 +8,7 @@ author: hricha-shandily
 ---
 User behaviour keeps evolving. This means many things that used to resonate five or ten years ago, won’t now. For instance, a few years ago, it was normal to visit homepages of news outlets and now most of us prefer algorithm-curated, bite-sized news over full articles.
 
-Earlier, it was normal to browse info-heavy, desktop-first websites by clicking through menus and pages. Clicking through multiple pages was expected. Now? Users primarily use mobile, expecting fast, thumb-friendly designs, and preferring clean layouts with a clear, singular purpose per page.
+Earlier, it was normal to browse info-heavy, desktop-first websites where clicking through menus and pages was expected. Now? Users primarily use mobile, expecting fast, thumb-friendly designs, and preferring clean layouts with a clear, singular purpose per page.
 
 Such evolving behaviours usually leave a lot of room to experiment for brands in terms of what could psychologically and behaviourally resonate with the customers of today.
 
@@ -18,9 +18,9 @@ Such evolving behaviours usually leave a lot of room to experiment for brands in
 * “Does a sign-up button placed on the top-right make more sense for my audience, or one placed in the center of the landing page encourages sign up?”
 * “Is a 4-column pricing layout clearer than a 4-boxed pricing layout?”
 
-…and so on. These are questions that a website designer, marketer, content-writer, business owner – whoever working on the website can wonder about. One way to find a definitive answer to such questions is to run scientific experiments and settle the debate with what the actual end users like.
+…and so on. These are questions that a website designer, marketer, content-writer, business owner––whoever working on the website––can wonder about. One way to find a definitive answer to such questions is to run scientific experiments and settle the debate with what the actual end users like.
 
-Think of A/B testing as a way to engineer the closest version possible to that ideal webpage / website that hits the bulls eye –– aligning with customer behaviours and best user experience.
+Think of A/B testing as a way to engineer the closest version possible to that ideal webpage / website that hits the bulls eye – aligning with customer behaviours and best user experience.
 
 1. Ordered list
    {:toc}
@@ -44,6 +44,10 @@ You split the traffic evenly—50% of visitors see Variant A, and 50% see Varian
 Another common A/B test, especially back in the day, for landing pages used to be testing the right-left layout, i.e., whether it’s better to show the image on the right of the main messaging or to the left of it. Something like this:
 
 ![ab-testing-layout](/uploads/ab-testing-layout.png "ab-testing-layout")
+
+There’s also multivariate testing, which is like A/B testing but a bit more complex. Instead of testing just one change at a time, you test multiple elements on a page—like the headline, image, and button text—all at once, in different combinations. 
+
+The goal is to see which combination of changes works best together. It’s a good option when you’re looking to fine-tune several parts of a page, but you’ll need a bigger sample size to get meaningful results.
 
 ## Real-world examples of A/B tests
 
@@ -80,3 +84,103 @@ They even have a director of experimentation, quoting whom:
 Mailchimp tested its main headline: can you guess which one won?
 
 ![mailchimp-testing-headings](/uploads/mailchimp-testing-headings.png "mailchimp-testing-headings")
+
+🥁🥁The first one.
+
+## How to run an A/B test on your website?
+
+A’ight, time to have some fun! If you’re curious or confused about what could work better on your website, here’s the steps to take to run an A/B (or A/B/C/D/…) test:
+
+**1. Set a clear goal**\
+Firstly, decide what it is that you're trying to improve. Sign-ups, purchases, clicks, or something else? The key is to test something which is measurable. This will guide your test and how you judge success.
+
+**2. Choose one variable to test**\
+Start small. Focus on changing one thing at a time—like the wording of a button or the placement of a form. This keeps your results clean and helps you understand what’s actually driving change.
+
+**3. Create your variants**\
+Make two versions of the page or form or button or whatever you’re testing: version A (the original) and version B (the one with the change). Keep everything else the same so you're isolating the impact of your change.
+
+You can either A/B test something on your website programmatically or with the CMS used to manage your website if it offers A/B testing capabilities.
+
+**4. Split your audience randomly**\
+Divide your traffic randomly and evenly between the two versions. This helps make sure your comparison is fair, not skewed by user type, location, or device.
+
+If there are more versions, divide equally still. For a multivariate A/B/C/D test, you could divide your traffic in such a way that each version is shown to 25% of the traffic. Although, this is not a rule…if you want, you can assign weights and unequally split the traffic between your variants. 
+
+Again, this can be achieved programmatically or with the A/B testing tool of your choice.
+
+**5. Let the test run long enough**\
+Be patient—don’t stop the test too early. You need enough data from both versions to get trustworthy results. A general rule: run it for at least one full business cycle, to account for day-to-day variation.
+
+Also, resist the urge to constantly check results. Looking too soon (and making decisions based on early results) can lead to false positives. Stick to your planned test duration.
+
+## How to track and analyze the A/B test and its results?
+
+You can track the performance of each version of your A/B tested marketing asset by seeing which variant got how many unique conversions, total conversions, and the conversion rate (calculated as unique conversions for a goal / unique visitors). And comparing those side by side.
+
+Plus you can [segment](https://plausible.io/audience-segmentation) it further by locations, devices, traffic acquisition sources, entry pages, and exit pages. 
+
+Here’s an example: Let’s say you wanted to increase your newsletter subscriptions and A/B tested the call-to-action copy for 30 days, with two variants: “Subscribe Now” and “Get free tips.” Here’s what your results would look like in [Plausible](https://plausible.io/simple-web-analytics):
+
+![ab test results in plausible](/uploads/ab-test-results-in-plausible.png "ab test results in plausible")
+
+This visualization clearly shows that the “Subscribe Now” copy variant got a better conversion rate at 68.33%, with 108K unique conversions and 736K total conversions, where “conversions” means signing up to the newsletter.
+
+So it can be concluded that the first variant is a winner and you can safely choose that copy text for your CTA button for the future.
+
+If you want to see how the rest of the dashboard looks, feel free to explore our [live demo](https://plausible.io/plausible.io).
+
+### How to set up A/B test tracking in Plausible?
+
+You can make use of [custom properties](https://plausible.io/docs/custom-props/introduction) to see analytics for different tested versions of your website elements. You can attach custom properties in two ways:
+
+**With a pageview**
+
+Assume you are A/B testing the placement of your feature grid (a grid layout for a collection of the features you’re marketing on the page) for improving free trial sign up rates. Should it be on top or should it be further down the page?
+
+One important note here is that pageviews are collected automatically with Plausible, so if you’re using two different URLs for such an A/B test, like yoursite.com/a and yoursite.com/b –– then there’s no setup to do as you can simply filter your dashboard by a page and see the associated stats for it.
+
+However, it’s not a great SEO and UX practice to create two URLs like that. So, you’ll be managing this programmatically (or with the A/B testing tool of your choice).
+
+Instead, set up a [pageview goal](https://plausible.io/docs/pageview-goals) and send custom props for the version of the page served along with it.
+
+**With a custom goal**
+
+Custom properties can be sent with a [custom goal](https://plausible.io/docs/custom-event-goals) as well. So if you’re improving form submissions by testing the colour of a form, and prefer to use custom goals instead of pageview goals, then this option is available too.
+
+The cool part is that you can directly filter your dashboard with the custom properties too, i.e., without filtering by the associated goal, so that you can see how your general traffic does wrt to the variants.
+
+## Watch out for
+
+### SEO disruptions
+
+It’s good to be protective about your rankings while conducting such tests, especially thorough and large-scale tests. Google has issued [guidelines](https://developers.google.com/search/blog/2012/08/website-testing-google-search) on conducting experiments and A/B tests, here’s a concise version:
+
+1. Avoid cloaking: Always show the same content to both users and Googlebot. Don’t serve different versions based on user-agent.
+2. Use rel="canonical": When A/B testing with multiple URLs, use the rel="canonical" tag on variants to point to the original URL. This helps group them correctly without risking index exclusion like the noindex tag might.
+3. Use 302, not 301 redirects: For test redirects, use 302 (temporary) to signal that the original URL should stay indexed. JavaScript-based redirects are acceptable too.
+4. Keep tests short: Run tests only as long as needed to gather reliable data. Remove all test-related elements afterward to avoid penalties for perceived manipulation.
+
+### Statistical significance
+
+Statistical significance tells you whether the observed difference is likely real or just due to chance. Ensure your sample size is large enough. Too small, and even big differences may not be reliable.
+
+### Respect privacy and compliance
+
+If your A/B test involves collecting user data (e.g., behavior tracking or form inputs), ensure it complies with GDPR, CCPA, or other relevant privacy laws.
+
+### Consider page speed
+
+Be mindful that A/B testing scripts or tools (especially third-party ones) can increase load times. Opt for asynchronous scripts and monitor performance throughout the test.
+
+### Avoid testing during peak periods
+
+Running tests during seasonal or promotional spikes (like Black Friday) may distort results and put revenue at risk. Use stable periods to get more reliable data.
+
+### Segment your audience thoughtfully
+
+Make sure your test and control groups are comparable. Use random sampling or other fair segmentation techniques to avoid skewed results.
+
+## Lastly…
+
+It’s always a good idea to A/B test when in doubt, no idea or intuition is small enough to not test out in the real world. Who knows? It might just be the missing link you were looking for.
