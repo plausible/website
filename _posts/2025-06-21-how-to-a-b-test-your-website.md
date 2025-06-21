@@ -7,14 +7,16 @@ date: 2025-06-21T06:38:02.782Z
 author: hricha-shandily
 ---
 User behaviour keeps evolving. This means many things that used to resonate five or ten years ago, won’t now. For instance, a few years ago, it was normal to visit homepages of news outlets and now most of us prefer algorithm-curated, bite-sized news over full articles.
+
 Earlier, it was normal to browse info-heavy, desktop-first websites by clicking through menus and pages. Clicking through multiple pages was expected. Now? Users primarily use mobile, expecting fast, thumb-friendly designs, and preferring clean layouts with a clear, singular purpose per page.
+
 Such evolving behaviours usually leave a lot of room to experiment for brands in terms of what could psychologically and behaviourally resonate with the customers of today.
 
-“Which messaging would resonate best with my audiences? A short one telling about my product’s benefits or a longer one talking about its outcomes?”
-“Does including customer logos on the homepage increase sign ups? Or a minimal, non-pushy design without the logos assumes more trust?”
-“Does a strikethrough pricing with a promotional 20% off convert better than a simply written amount?”
-“Does a sign-up button placed on the top-right make more sense for my audience, or one placed in the center of the landing page encourages sign up?”
-“Is a 4-column pricing layout clearer than a 4-boxed pricing layout?”
+* “Which messaging would resonate best with my audiences? A short one telling about my product’s benefits or a longer one talking about its outcomes?”
+* “Does including customer logos on the homepage increase sign ups? Or a minimal, non-pushy design without the logos assumes more trust?”
+* “Does a strikethrough pricing with a promotional 20% off convert better than a simply written amount?”
+* “Does a sign-up button placed on the top-right make more sense for my audience, or one placed in the center of the landing page encourages sign up?”
+* “Is a 4-column pricing layout clearer than a 4-boxed pricing layout?”
 
 …and so on. These are questions that a website designer, marketer, content-writer, business owner – whoever working on the website can wonder about. One way to find a definitive answer to such questions is to run scientific experiments and settle the debate with what the actual end users like.
 
@@ -40,3 +42,41 @@ Say, you sell cotton socks through an e-commerce site and it being summer, you�
 You split the traffic evenly—50% of visitors see Variant A, and 50% see Variant B. At the end of the experimentation period, you track which group led to more purchases. If Variant B results in more people buying socks, you can conclude that its messaging is more effective.
 
 Another common A/B test, especially back in the day, for landing pages used to be testing the right-left layout, i.e., whether it’s better to show the image on the right of the main messaging or to the left of it. Something like this:
+
+![ab-testing-layout](/uploads/ab-testing-layout.png "ab-testing-layout")
+
+## Real-world examples of A/B tests
+
+### A/B testing from the 20th century
+
+Why not begin with the example that pioneered the concept of A/B testing in marketing? In 1923, advertising trailblazer Claude Hopkins placed different promotional coupons in print advertisements to measure which ones attracted more customer responses. 
+
+By comparing these outcomes, he could determine which ad copy was more persuasive. This is considered the first-ever A/B test conducted in the world of marketing.
+
+### The “obvious” blue links
+
+Google’s “50 shades of blue” experiment is one of the most famous A/B tests. At one point, Google couldn’t decide which shade of blue to use for link text in search results.
+
+To settle it, they ran an A/B test (more like an A/Z test) trying around 40 to 50 variations of blue on millions of users.
+
+By measuring click-through rates on each variation, Google identified the most effective shade. This helped them earn an extra $200M in revenue each year, as [reported](https://www.theguardian.com/technology/2014/feb/05/why-google-engineers-designers) in The Guardian. 
+
+### Bing surprised itself
+
+At Bing, a minor headline change was initially dismissed as low priority and ignored for months—until an engineer ran a quick A/B test and found it boosted revenue by 12%, ultimately generating $100 million. ([source](https://hbr.org/2017/09/the-surprising-power-of-online-experiments))
+
+### Creating a traveller’s urgency through scarcity
+
+Booking.com openly [talks](https://partner.booking.com/en-us/click-magazine/industry-perspectives/role-experimentation-bookingcom) about the A/B experiments they run across their travel booking website to ascertain what’s best for the users and eventually encourages most bookings. 
+
+One of the most talked about is their experimentation with showing “Sold out” for hotel listings, which created urgency in their users’ minds and led to more hotel bookings through their website.
+
+They even have a director of experimentation, quoting whom:
+
+> We run in excess of 1,000 concurrent experiments at any given moment across different products and target groups, allowing us to rapidly validate ideas and implementations. Each test is tailored towards a particular audience because we’re targeting specific solutions. This enables us to gather learnings on customer behaviours and discover what makes a meaningful difference for our users.
+
+### Mailchimp’s perfect headline
+
+Mailchimp tested its main headline: can you guess which one won?
+
+![mailchimp-testing-headings](/uploads/mailchimp-testing-headings.png "mailchimp-testing-headings")
