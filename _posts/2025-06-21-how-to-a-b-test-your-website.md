@@ -105,7 +105,7 @@ You can either A/B test something on your website programmatically or with the C
 **4. Split your audience randomly**\
 Divide your traffic randomly and evenly between the two versions. This helps make sure your comparison is fair, not skewed by user type, location, or device.
 
-If there are more versions, divide equally still. For a multivariate A/B/C/D test, you could divide your traffic in such a way that each version is shown to 25% of the traffic. Although, this is not a rule…if you want, you can assign weights and unequally split the traffic between your variants. 
+If there are more versions, divide equally still. For a A/B/C/D test, you could divide your traffic in such a way that each version is shown to 25% of the traffic. Although, this is not a rule…if you want, you can assign weights and unequally split the traffic between your variants. 
 
 Again, this can be achieved programmatically or with the A/B testing tool of your choice.
 
@@ -130,7 +130,7 @@ So it can be concluded that the first variant is a winner and you can safely cho
 
 If you want to see how the rest of the dashboard looks, feel free to explore our [live demo](https://plausible.io/plausible.io).
 
-### How to set up A/B test tracking in Plausible?
+### How to set up A/B test tracking in Plausible? 
 
 You can make use of [custom properties](https://plausible.io/docs/custom-props/introduction) to see analytics for different tested versions of your website elements. You can attach custom properties in two ways:
 
