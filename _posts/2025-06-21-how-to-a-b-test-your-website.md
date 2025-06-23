@@ -1,9 +1,10 @@
 ---
 layout: post
 title: How to A/B test your website?
-description: What is A/B testing and how can you do it for your website?
+description: What is A/B testing, real examples, and how to run A/B tests on a
+  website and analyze the results.
 slug: ab-testing
-date: 2025-06-23T09:30:06.294Z
+date: 2025-06-23T09:33:05.092Z
 author: hricha-shandily
 image: /uploads/ab-testing-layout.png
 image-alt: a/b testing of a landing page layout
