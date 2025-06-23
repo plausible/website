@@ -10,7 +10,7 @@ User behaviour keeps evolving. This means many things that used to resonate five
 
 Earlier, it was normal to browse info-heavy, desktop-first websites where clicking through menus and pages was expected. Now? Users primarily use mobile, expecting fast, thumb-friendly designs, and preferring clean layouts with a clear, singular purpose per page.
 
-Such evolving behaviours usually leave a lot of room to experiment for brands in terms of what could psychologically and behaviourally resonate with the customers of today.
+Such evolving behaviours also apply to smaller things like a subconscious preference for certain colours, website layouts, messagings, etc. This usually leave a lot of room to experiment for brands in terms of what could psychologically and behaviourally resonate with the customers of today.
 
 * “Which messaging would resonate best with my audiences? A short one telling about my product’s benefits or a longer one talking about its outcomes?”
 * “Does including customer logos on the homepage increase sign ups? Or a minimal, non-pushy design without the logos assumes more trust?”
@@ -23,7 +23,7 @@ Such evolving behaviours usually leave a lot of room to experiment for brands in
 Think of A/B testing as a way to engineer the closest version possible to that ideal webpage / website that hits the bulls eye – aligning with customer behaviours and best user experience.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is A/B testing?
 
@@ -43,9 +43,9 @@ You split the traffic evenly—50% of visitors see Variant A, and 50% see Varian
 
 Another common A/B test, especially back in the day, for landing pages used to be testing the right-left layout, i.e., whether it’s better to show the image on the right of the main messaging or to the left of it. Something like this:
 
-![ab-testing-layout](/uploads/ab-testing-layout.png "ab-testing-layout")
+![ab testing landing page layout](/uploads/ab-testing-layout.png "ab testing landing page layout")
 
-There’s also multivariate testing, which is like A/B testing but a bit more complex. Instead of testing just one change at a time, you test multiple elements on a page—like the headline, image, and button text—all at once, in different combinations. 
+There’s also multivariate testing, which is like A/B testing but a bit more complex. Instead of testing just one change at a time, you test multiple elements on a page—like the headline, image, and button text—all at once, in different combinations.
 
 The goal is to see which combination of changes works best together. It’s a good option when you’re looking to fine-tune several parts of a page, but you’ll need a bigger sample size to get meaningful results.
 
@@ -59,9 +59,7 @@ By comparing these outcomes, he could determine which ad copy was more persuasiv
 
 ### The “obvious” blue links
 
-Google’s “50 shades of blue” experiment is one of the most famous A/B tests. At one point, Google couldn’t decide which shade of blue to use for link text in search results.
-
-To settle it, they ran an A/B test (more like an A/Z test) trying around 40 to 50 variations of blue on millions of users.
+Google’s “50 shades of blue” experiment is one of the most famous A/B tests. At one point, Google couldn’t decide which shade of blue to use for link text in search results. To settle it, they ran an A/B test (more like an A/Z test) trying around 40 to 50 variations of blue on millions of users.
 
 By measuring click-through rates on each variation, Google identified the most effective shade. This helped them earn an extra $200M in revenue each year, as [reported](https://www.theguardian.com/technology/2014/feb/05/why-google-engineers-designers) in The Guardian. 
 
@@ -100,7 +98,7 @@ Start small. Focus on changing one thing at a time—like the wording of a butto
 **3. Create your variants**\
 Make two versions of the page or form or button or whatever you’re testing: version A (the original) and version B (the one with the change). Keep everything else the same so you're isolating the impact of your change.
 
-You can either A/B test something on your website programmatically or with the CMS used to manage your website if it offers A/B testing capabilities.
+You can run A/B tests on your website programmatically using custom code or server-side logic, or by using your CMS if it supports A/B testing features. Alternatively, you can use third-party A/B testing tools, client-side JavaScript via tag managers, or feature flag platforms that offer experimentation capabilities.
 
 **4. Split your audience randomly**\
 Divide your traffic randomly and evenly between the two versions. This helps make sure your comparison is fair, not skewed by user type, location, or device.
@@ -130,7 +128,7 @@ So it can be concluded that the first variant is a winner and you can safely cho
 
 If you want to see how the rest of the dashboard looks, feel free to explore our [live demo](https://plausible.io/plausible.io).
 
-### How to set up A/B test tracking in Plausible? 
+### How to set up A/B test tracking in Plausible?
 
 You can make use of [custom properties](https://plausible.io/docs/custom-props/introduction) to see analytics for different tested versions of your website elements. You can attach custom properties in two ways:
 
