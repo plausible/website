@@ -5,6 +5,8 @@ description: What is A/B testing and how can you do it for your website?
 slug: ab-testing
 date: 2025-06-21T06:38:02.782Z
 author: hricha-shandily
+image: /uploads/ab-testing-layout.png
+image-alt: a/b testing of a landing page layout
 ---
 User behaviour keeps evolving. This means many things that used to resonate five or ten years ago, won’t now. For instance, a few years ago, it was normal to visit homepages of news outlets and now most of us prefer algorithm-curated, bite-sized news over full articles.
 
@@ -83,7 +85,7 @@ Mailchimp tested its main headline: can you guess which one won?
 
 ![mailchimp-testing-headings](/uploads/mailchimp-testing-headings.png "mailchimp-testing-headings")
 
-🥁🥁The first one.
+🥁🥁The left one. 
 
 ## How to run an A/B test on your website?
 
