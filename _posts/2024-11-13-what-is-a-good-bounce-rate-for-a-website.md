@@ -224,7 +224,7 @@ For example, if an email campaign is promoting a specific product or offer, ensu
 
 ### Maintain a good site structure
 
-A well-organized site layout makes it easier for visitors to find what they’re looking for, keeping them on your site longer. Ensure clear navigation, with helpful internal links, footer links, subscription forms, and well-placed calls-to-action that encourage visitors to explore further.
+A well-organized site layout makes it easier for visitors to find what they’re looking for, keeping them on your site longer. Ensure clear navigation, with helpful internal links, footer links, subscription forms, and well-placed calls-to-action that encourage visitors to explore further. [A/B testing](https://plausible.io/blog/ab-testing) can help in a more scientific approach to this.
 
 A clean, intuitive design makes for a more enjoyable browsing experience, and clear paths (like menu bars, sidebars, and footers) help guide visitors naturally through the site.
 
