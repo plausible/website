@@ -159,7 +159,7 @@ Or if engagement drops significantly at 50%, perhaps your content isn’t holdin
 
 So, it all depends! This is why you need a dashboard to compare all metrics and make meaningful conclusions.
 
-In Plausible, you can club this metric with other metrics such as time on page and bounce rate to understand the engagement patterns properly. This can be measured against the visitors and pageviews, amongst other things.
+In Plausible, you can club this metric with other metrics such as time on page and bounce rate to understand the engagement patterns properly. This can be measured against the visitors and pageviews, amongst other things. You can even pair scroll‑depth tracking with [A/B test variations](https://plausible.io/blog/ab-testing) to see which layout/content/CTA placements yields deeper scrolls. 
 
 ## Ready to track your page scrolls?
 
