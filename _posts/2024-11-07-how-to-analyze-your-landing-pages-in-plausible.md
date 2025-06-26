@@ -158,13 +158,13 @@ Here’s how our subscribers analyze the Pages reports to analyze their website'
 
 The Entry Pages report shows which pages are the first touchpoints for visitors. If certain blog posts or product pages are consistently the top entry points, it means they're resonating well in search engines or through social sharing.
 
-Knowing this, you can keep such pages updated and keep them SEO’d. You can also learn about the kinds of topics that resonate with your audience and create marketing strategies accordingly.
+Knowing this, you can keep such pages updated and keep them *SEO’d*. You can also learn about the kinds of topics that resonate with your audience and create marketing strategies accordingly.
 
 For eg., We at Plausible identified that content about using privacy-friendly analytics serves our visitors better than other types of content. So we try to create similar content on related subjects.
 
 Similarly, if your Exit Pages report shows that visitors are mostly exiting from your pricing page, then it may be an indicator that your pricing is not well accepted by your audience yet.
 
-If you can confirm this conclusion through social media, surveys, or any communication channel with your ideal customers, then you’ll have a great insight about adjusting your pricing accordingly.
+If you can confirm this conclusion through social media, surveys, [A/B testing](https://plausible.io/blog/ab-testing), or any communication channel with your ideal customers, then you’ll have a great insight about adjusting your pricing accordingly. 
 
 Other red flags could be having high exit rates on signup page, documentation, etc. since the user intent is generally high on such pages.
 
