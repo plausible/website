@@ -69,7 +69,7 @@ See our [stats API documentation](https://plausible.io/docs/stats-api).
 
 Proxy allows you to run our lightweight web analytics script as a first-party connection from your domain name eliminating third-party calls. Another benefit of this approach is that you'll be getting [more accurate stats](https://plausible.io/most-accurate-web-analytics), as content blockers don't typically block first-party scripts.
 
-You can proxy requests to Plausible in various ways, all depending on how you've built your product and on your hosting situation. There's an NPM package, an events API, Apache and Nginx server instructions and much more.
+You can proxy requests to Plausible in various ways, all depending on how you've built your product and on your hosting situation. And if you don't want to manage your own proxy, we can handle it for you with our managed proxy. Our managed proxy helps bypass adblockers and count more traffic without any setup or maintenance on your end.
 
 Learn more about [the proxy functionality](https://plausible.io/docs/proxy/introduction).
 
@@ -77,6 +77,6 @@ Learn more about [the proxy functionality](https://plausible.io/docs/proxy/intro
 
 You can explore Plausible using [our free trial](https://plausible.io/register). We have a 30-day free trial with no credit card required. These 30 days allow you to explore Plausible, our dashboard and integration into your user interface.
 
-The Stats API, embedded dashboard and proxy are available during the trial and on our regular subscription plans. If you need access to the Sites API or want to track more than 10 websites, please contact us to discuss an enterprise plan.
+The Stats API, embedded dashboard and custom proxy are available during the trial and on our regular subscription plans. If you need access to the Sites API, want to use our managed proxy or want to track more than 10 websites, please contact us to discuss an enterprise plan.
 
 [Contact us](https://plausible.io/contact) if you have any questions about a possible integration of Plausible Analytics into your product.
