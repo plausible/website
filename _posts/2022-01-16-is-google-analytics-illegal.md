@@ -93,7 +93,6 @@ We've always stored all the site data we collect in the EU. In the past, we used
 In 2021, we moved to Hetzner, so all of the data we collect is hosted in Germany on a German-owned server. In early 2022, we made the switch to Bunny (a Slovenian-owned provider) for the global CDN, DNS and DDoS protection:
 
 * All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. Hetzner, a European company, owns the server. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy. Your website data never leaves the EU.
-
 * For the CDN and DNS, we use Bunny, another European-owned provider from Slovenia. Using a global CDN means having a fast loading script no matter where your visitors are based. We're proud to have [one of the most lightweight JavaScript snippets](https://plausible.io/lightweight-web-analytics) in the analytics industry. Our script will not add any bloat to your website or cause any performance issues.
 
 You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website and visitor data is exclusively processed with servers and cloud infrastructure owned and operated by European companies.
@@ -104,7 +103,7 @@ You can read more about what makes Plausible a [privacy-first web analytics tool
 
 ## We choose the subscription business model rather than surveillance capitalism
 
-Plausible Analytics is not free unlike Google Analytics. Plausible is not collecting and analyzing vast amounts of personal information from web users and using these behavioral insights to sell advertisements. With Plausible, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
+Plausible Analytics is [not free unlike Google Analytics](https://plausible.io/paid-analytics-vs-free-ga). Plausible is not collecting and analyzing vast amounts of personal information from web users and using these behavioral insights to sell advertisements. With Plausible, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
 
 We choose the subscription business model rather than the business model of surveillance capitalism. To keep the project development going, stay in business, continue putting effort into building a better product and cover our costs, we need to charge a fee.
 
