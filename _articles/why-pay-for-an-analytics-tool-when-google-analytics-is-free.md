@@ -89,7 +89,7 @@ Many people were still happier with Universal Analytics, or GA3. However, we con
 
 The common sentiment on the internet is that GA *abandoned* its power users with this migration, with speculations on the fact that they wanted people to either upgrade to GA360 or just made the new UI keeping developers in mind. 
 
-### Limitations of a freemium tool
+### The freemium tool's cost
 
 Google Analytics operates on a freemium model: the basic GA4 is free with data limits and sampling; the enterprise “360” tier costs ~$50 k–150 k/year.
 
