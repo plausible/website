@@ -11,7 +11,7 @@ This makes many people wonder why pay for an analytics tool when Google Analytic
 
 Who are we to answer this? In case you’re here for the first time, we’re Plausible: the non-complicated, privacy-friendly, more accurate, equally powerful, and yes – paid – alternative to Google Analytics. We’ve been in this industry for 6+ years at the time of writing this.
 
-After been received with a lot of love by website owners and the privacy-conscious community, we believe we s﻿truck a cord already which made our subscribers *rather pay for Plausible than deal with a free Google Analytics*.
+After been received with a lot of love by website owners and the privacy-conscious community, we believe we s﻿truck a chord already which made our subscribers *rather pay for Plausible than deal with a free Google Analytics*.
 
 We’ve been profitable and sustainable from the starting, and so we believe we’re qualified to answer what is it that makes sense for people to pay for a web analytics tool that’s an alternative to the digital marketing industry’s staple and free tool.
 
