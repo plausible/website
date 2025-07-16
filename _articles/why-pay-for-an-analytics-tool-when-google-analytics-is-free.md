@@ -43,7 +43,7 @@ For perspective, we at Plausible only charge $9 monthly for an easy to use and j
 
 The real reason Google provides its Analytics (and many other products) for free is so that it can collect as much information as possible from people, and feed it into its ad-tech machine for targeting consumers more precisely, leading to better revenue from the ad network.
 
-This entire process has been called “[surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).” Moreover, according to the book, “The age of surveillance capitalism,” surplus personal data is used for behavioral modelling, is sold to enterprises, etc., leaving those who give their data to Google as mere raw material for the ad-tech machine.
+This entire process has been called “[surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism).” Moreover, according to the book, “The age of surveillance capitalism,” surplus personal data is used for behavioural modelling, is sold to enterprises, etc., leaving those who give their data to Google as mere raw material for the ad-tech machine.
 
 You end up paying with the privacy of yours and your users. And it has very real financial implications too. 👇
 
