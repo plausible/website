@@ -15,6 +15,9 @@ After been received with a lot of love by website owners and the privacy-conscio
 
 We’ve been profitable and sustainable from the starting, and so we believe we’re qualified to answer what is it that makes sense for people to pay for a web analytics tool that’s an alternative to the digital marketing industry’s staple and free tool.
 
+1. Ordered list
+{:toc}
+
 ## Google Analytics’ hidden costs
 
 The following are the reasons that actually make Google Analytics “invisibly” very expensive to use, even though it charges no subscription fee.
