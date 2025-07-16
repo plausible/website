@@ -125,6 +125,8 @@ Plausible has no part in that business model. No personal data is being collecte
 
 Plausible is independently owned and developed. To keep the project going and to stay in business we need to charge a fee.
 
+T﻿he second overlooked fact is that Google Analytics, while doesn't charge a subscription fees, comes with a [bunch of hidden costs](https://plausible.io/paid-analytics-vs-free-ga). If you take all that into account, Plausible is much cheaper and convenient than using a "free" GA.
+
 ## Why is Plausible a great Google Analytics alternative?
 
 Plausible is a simple and privacy-friendly alternative to Google Analytics. It is an independent, open source and transparent analytics tool.
