@@ -101,8 +101,58 @@ The reasons we charge small subscription fees for Plausible are simple.
 
 ### We don’t make money by selling your data
 
-We're not involved with any form of surveillance capitalism, which means we don’t utilize (or even collect) your personal data for any purpose other than providing website usage statistics (which is also anonymized and aggregated).
+We're not involved with any form of surveillance capitalism, which means we don’t utilize (or even collect) your personal data for any purpose other than providing website usage statistics (which is anonymized and aggregated).
 
 We’re basically what any regular SaaS tool is: a good-experience tool with a little subscription fee. We’re a small team that cares only about a usable analytics tool with no overheads for privacy, legal fees, etc. 
 
 We do this full-time and charge a small fee only from our subscribers (we’re not VC-funded either) to fund Plausible and its operations.
+
+### We take care of things that Google Analytics does not
+
+The whole [reason](https://plausible.io/blog/the-analytics-tool-i-want) Uku created Plausible is so that nobody has to deal with GA’s issues – be it privacy, a complicated UI, hiring marketing agencies, dealing with skewed insights, struggling with setup, etc.
+
+Every reason you saw above about the hidden cost of using GA is simply not present with Plausible Analytics – by design. Here’s what that means:
+
+#### No steep learning curve
+
+In Plausible, there are no layers of menus, reports, settings, or tagging systems to figure out. No need to study how the tool works before you can use it. You install it, and it starts giving insights. The basics are already covered.
+
+It also means you don’t have to hire anyone just to figure out your analytics.
+
+#### No cookie banners or compliance overhead
+
+Because we don’t use cookies or track personal data, there’s [no need for annoying cookie consent banners](https://plausible.io/blog/cookie-consent-banners). This simplifies compliance, while improving your site’s user experience. 
+
+See how this works [here](https://plausible.io/blog/google-analytics-cookies).
+
+We don’t collect personal data, don’t use third-party cookies, or transfer data across jurisdictions. You’re not taking on legal risk just by using the product. No need for separate DPA reviews or extra documentation.
+
+No retargeting, no behavioural profiles, no leveraging your traffic data to improve an ad auction elsewhere. You'll be able to sleep easy knowing that your data is private, your user's data is private, and Google won’t be able to track you anymore.
+
+P.S. We do encourage you to consult your legal advisor to ensure you don’t get legal surprises later considering your unique industry, countries of operation, nature of business, etc.
+
+If you’re interested, you can also go through this [guide](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) by a data protection lawyer.
+
+#### No sampling or delays
+
+We do not use any data sampling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site. This is opposed to sampled reports in GA4.
+
+Traffic data is available in real time too. You don’t have to wait hours to see what’s happening on your site, as opposed to [GA4](https://support.google.com/analytics/answer/11198161?hl=en).
+
+#### No bot noise
+
+We filter out maximum of the background noise that skews numbers in GA—referrer spam, bots, and irrelevant pings that aren’t actual visits. We literally proved it with a [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) too.
+
+#### Included customer support
+
+You can reach out and actually get a timely, useful response from a human being who understands websites, analytics, marketing, tech and the entire ecosystem. Support isn’t hidden behind an enterprise contract or a paywall.
+
+#### Accuracy and reliability
+
+No dark patterns, no "ghost" referrals, no inflated numbers. There are exactly [11 reasons](https://plausible.io/most-accurate-web-analytics) we identified how we’re more accurate than GA. :)
+
+#### …yet, better features than GA
+
+We made sure to not leave out essential, useful features so you don’t feel like you’re missing out on anything when migrating from GA. It should feel like an upgrade, not a compromise. There are so many things that are present in Plausible and not in GA, such as automatic scroll depth tracking, easier AI-referral tracking, accurate VPN location detection, public stats, and much more.
+
+You can play around with our [live stats](https://plausible.io/plausible.io). There’s also a whole [compilation](https://plausible.io/blog/easy-insights) of things that are much easier to do in Plausible than GA.
