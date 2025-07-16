@@ -87,7 +87,7 @@ As a side note, for large teams or businesses that interact a lot with the Googl
 
 Many people were still happier with Universal Analytics, or GA3. However, we constantly (literally, everyday) read complaints about GA4 being a huge downgrade from UA. GA4 users struggle with setting it up, making sense of the UI, finding insights, blocking bots, etc.
 
-The common sentiment on the internet is that GA abandoned its power users with this migration, with speculations on the fact that they wanted people to either upgrade to GA360 or just made the new UI keeping developers in mind. 
+The common sentiment on the internet is that GA *abandoned* its power users with this migration, with speculations on the fact that they wanted people to either upgrade to GA360 or just made the new UI keeping developers in mind. 
 
 ### Limitations of a freemium tool
 
