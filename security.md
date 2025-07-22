@@ -15,6 +15,8 @@ Here's a brief summary of our data security practices:
 * All visitor data is irreversibly hashed
 * All data is hosted in the EU on EU-owned servers
 * User passwords are hashed and salted
+* You can enable two-factor authentication (2FA)
+* You can configure Single Sign-On (SSO)
 * Our software is updated multiple times per week
 * There is a public changelog 
 * Regular vulnerability scans are conducted 
