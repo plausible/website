@@ -45,9 +45,9 @@
     - "10+ team members"
     - "600+ Stats API requests per hour"
     - "Sites API access"
+    - "Single Sign-On (SSO)"
     - "Managed Proxy"
     - "5+ years of data retention"
-    - "Technical onboarding"
     - "Priority support"
   style:
     main: "bg-gray-900 text-white"
