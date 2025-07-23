@@ -8,3 +8,5 @@ N﻿ow you can enable SSO (by [contacting](https://plausible.io/contact) us) for
 This is possible by first logging in to identity provider (IdP) - be it Google, Okta, Microsoft (Entra) or other - and accessing Plausible through it.
 
 Our SSO implementation is SAML 2.0 compliant and it should be compatible with almost every identity provider as SAML 2.0 protocol is widely supported.
+
+L﻿earn more about the implementation on our [docs](https://plausible.io/docs/sso).
