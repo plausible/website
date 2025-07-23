@@ -9,4 +9,4 @@ This is possible by first logging in to identity provider (IdP) - be it Google, 
 
 Our SSO implementation is SAML 2.0 compliant and it should be compatible with almost every identity provider as SAML 2.0 protocol is widely supported.
 
-L﻿earn more about the implementation on our [docs](https://plausible.io/docs/sso). [contacting](https://plausible.io/contact)
+L﻿earn more about the implementation on our [docs](https://plausible.io/docs/sso), [contact us](https://plausible.io/contact) for enabling this feature.
