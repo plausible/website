@@ -1,7 +1,7 @@
 ---
 layout: change
 title: SSO is now available!
-date: 2025-07-23T09:34:25.093Z
+date: 2025-07-29T09:34:25.093Z
 ---
 N﻿ow you can enable SSO for your team on Plausible. SSO gives you a way to access Plausible without having to create a separate account for Plausible and managing additional credentials. 
 
