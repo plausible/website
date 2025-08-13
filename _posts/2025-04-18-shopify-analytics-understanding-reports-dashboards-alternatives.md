@@ -153,6 +153,8 @@ This is because there are too many reports spread across too many categories whi
 
 Since Shopify’s tracking uses cookies for analytics, you need consent from your site visitors to use cookies, which not only downgrades the user experience but when they get rejected by a visitor, the tracking script isn’t able to track them, resulting in partial website performance data capture and inaccurate reports making them unreliable.
 
+If the customer does not give consent in the cookie banner, Shopify cannot track the completed checkout. This means that your conversion rate data won't be as accurate.
+
 Shopify itself gives the option [to add cookie banners](https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/privacy-settings#cookie-banners) to your site.
 
 **Becomes expensive as you scale**
