@@ -16,7 +16,7 @@ Doing this can help eliminate ambiguity and ensure a strong base for analyzing s
 In this post, we discuss everything that you can possibly do to ensure that your web analytics setup is working just fine! If you’re using Plausible, jump to the section about troubleshooting a Plausible script.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Step-by-step guide to check if your analytics tool is installed and tracking correctly
 
