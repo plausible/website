@@ -7,7 +7,8 @@ description: ChatGPT referral traffic is down since July, but the quality of
 slug: chatgpt-referral-traffic
 date: 2025-08-28T10:55:44.972Z
 author: hricha-shandily
-image: /
+image: /uploads/chatgpt-traffic-decline.png
+image-alt: chatgpt-traffic-decline-july-21
 ---
 According to multiple users’ reports, the referral traffic from ChatGPT has been declining since July 21 and more so after 7 August (i.e. the launch of GPT-5).
 
