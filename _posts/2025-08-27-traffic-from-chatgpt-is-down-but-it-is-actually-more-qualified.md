@@ -12,7 +12,7 @@ image-alt: chatgpt-traffic-decline-july-21
 ---
 According to multiple users’ reports, the referral traffic from ChatGPT has been declining since July 21 and more so after 7 August (i.e. the launch of GPT-5).
 
-According to this LinkedIn post, the decline of referral traffic is at 52%. They analyzed 1+ Billion ChatGPT citations and 1+ million referral visits from ChatGPT. They found that this is because of the citations by ChatGPT being shrunk down to only a few reliable, answer-first, people-first information sources.
+According to [this](https://www.linkedin.com/posts/joshua-blyskal_chatgpt-referral-traffic-is-down-52-since-activity-7364003556087005185-BaJ0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB4pvPYBrpRcCx2NP4lznK4n7aLi9Inn8NQ) LinkedIn post, the decline of referral traffic is at 52%. They analyzed 1+ Billion ChatGPT citations and 1+ million referral visits from ChatGPT. They found that this is because of the citations by ChatGPT being shrunk down to only a few reliable, answer-first, people-first information sources.
 
 The major sites being cited now are Wikipedia, Reddit and TechRadar. These are the ones providing neutral, and/or opinionated recommendations to products and sharing information. Apparently, 1 in 5 ChatGPT citations are now going to just these three sites.
 
