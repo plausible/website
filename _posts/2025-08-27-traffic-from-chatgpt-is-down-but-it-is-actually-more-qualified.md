@@ -53,7 +53,7 @@ Another thing that supports this hypothesis is we’re organically mentioned on 
 
 In a nutshell, the quality of answers and citations by ChatGPT models is improving for end-users and only quality, people-first content can still survive.
 
-## So what to do?
+## What you should do next?
 
 Some straightforward solutions will suggest you to do “Reddit growth hacking” or get more Wikipedia mentions or get more and more backlinks from the web.
 
