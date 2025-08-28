@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traffic from ChatGPT is down, but it is actually more qualified.
+title: ChatGPT traffic is down — but Engagement is up!
 description: ChatGPT referral traffic is down since July, but the quality of
   visits and engagement has improved, showing why people-first content still
   wins
