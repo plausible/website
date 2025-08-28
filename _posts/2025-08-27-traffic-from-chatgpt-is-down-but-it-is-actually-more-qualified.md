@@ -16,18 +16,18 @@ According to [this](https://www.linkedin.com/posts/joshua-blyskal_chatgpt-referr
 
 The major sites being cited now are Wikipedia, Reddit and TechRadar. These are the ones providing neutral, and/or opinionated recommendations to products and sharing information. Apparently, 1 in 5 ChatGPT citations are now going to just these three sites.
 
-Naturally, we checked if this had impacted Plausible, especially because our ChatGPT numbers had been [growing](https://plausible.io/blog/ai-referral-traffic-and-optimization) really well. Having found out what we did, we have a few cents to add to what’s going on.
+Naturally, we checked if this had impacted Plausible, especially because our ChatGPT numbers *had* been [growing](https://plausible.io/blog/ai-referral-traffic-and-optimization) really well. Having found out what we did, we have two cents to add to what is going on – as the traffic seems to be more qualified.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## The fall of ChatGPT referral traffic
 
-Over the past two weeks, many site owners have reported a noticeable decline in referral traffic from ChatGPT. For most, this means fewer visits and fewer signups. The mood online has been skeptical, even frustrated.
+The decline in referral traffic from ChatGPT means fewer visits and fewer signups for most.
 
-Some speculate that OpenAI may be tightening which links surface inside chats, potentially keeping more traffic within its own ecosystem. Others wonder if this is the classic “platform playbook”: reduce organic reach just before introducing ads or new monetization features — a pattern we’ve seen before with Facebook and other platforms.
+OpenAI may be tightening which links surface inside chats, potentially keeping more traffic within its own ecosystem. Others wonder if this is the classic “platform playbook”: reduce organic reach just before introducing ads or new monetization features — a pattern we’ve seen before with Facebook and other platforms.
 
-And for ad-monetized publishers, the pain is even sharper: pageviews are down, which means revenues are directly hit. For those who hoped ChatGPT might one day rival Google as a traffic source, the last two weeks have been a reality check.
+For those who hoped ChatGPT might one day rival Google as a traffic source, the last few weeks have been a reality check.
 
 Yet when we look at our own numbers, the picture isn’t entirely bleak. Engagement signals are up, even as traffic fell. Here’s what we’re seeing:
 
@@ -53,18 +53,11 @@ People-first, original, and trustworthy content is still finding its way into GP
 
 ## What does this mean?
 
-Let’s join the dots.
+While we have only analyzed our own dashboard, the fact that our engagement rate still improved while the traffic declined means that ChatGPT is sending more quality traffic as compared to before.
 
-* ChatGPT models started favouring higher quality sources for providing answers in its chats.
-* Citations and direct referral traffic went down
-* But engagement on the traffic that did come was higher than before.
-* The goal conversions reduced which reflected the declined traffic but again, the percentage of goal conversions on the traffic that did visit our site was higher.
-
-While we have only analyzed our own dashboard, the fact that our engagement rate still improved while the traffic declined means that ChatGPT is sending more quality traffic as compared to before. This is all because of the improvement in the quality of answers provided by ChatGPT, making high-intent visitors come to the site, essentially weeding out the ones that weren’t probably the best fit for a site.
+This is all because of the improvement in the quality of answers provided by ChatGPT, making high-intent visitors come to the site, essentially weeding out the ones that weren’t probably the best fit for a site.
 
 Another thing that supports this hypothesis is we’re organically mentioned on platforms like Reddit, Wikipedia, and similar, since the beginning of Plausible. 
-
-In a nutshell, the quality of answers and citations by ChatGPT models is improving for end-users and only quality, people-first content can still survive.
 
 ## What you should do next?
 
@@ -78,7 +71,7 @@ So here’s our two cents:
 
 Think for a second, how ChatGPT conversations are. Regular people, natural language, real queries, real solutions. So if your content still sounds like corporate lingo or doesn’t answer real questions or resonates with real people, you stand a high risk of being left behind.
 
-Another thing to do is manage expectations. AI chats are now being optimized to answer as much as possible within the chat itself, which is bound to affect referrals. Which brings me to the next point. 
+Another thing to do is manage expectations. AI chats are now being optimized to answer as much as possible within the chat itself, which is bound to affect referrals. Which brings me to the next point.
 
 ### Build a brand and community
 
