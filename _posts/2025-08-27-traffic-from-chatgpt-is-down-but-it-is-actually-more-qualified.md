@@ -23,6 +23,14 @@ Naturally, we checked if this had impacted Plausible, especially because our Cha
 
 ## The fall of ChatGPT referral traffic
 
+Over the past two weeks, many site owners have reported a noticeable decline in referral traffic from ChatGPT. For most, this means fewer visits and fewer signups. The mood online has been skeptical, even frustrated.
+
+Some speculate that OpenAI may be tightening which links surface inside chats, potentially keeping more traffic within its own ecosystem. Others wonder if this is the classic “platform playbook”: reduce organic reach just before introducing ads or new monetization features — a pattern we’ve seen before with Facebook and other platforms.
+
+And for ad-monetized publishers, the pain is even sharper: pageviews are down, which means revenues are directly hit. For those who hoped ChatGPT might one day rival Google as a traffic source, the last two weeks have been a reality check.
+
+Yet when we look at our own numbers, the picture isn’t entirely bleak. Engagement signals are up, even as traffic fell. Here’s what we’re seeing:
+
 Below is the screenshot of our [live Plausible dashboard](https://plausible.io/plausible.io?f=is,source,chatgpt.com&period=custom&keybindHint=C&from=2025-07-21&to=2025-08-26&comparison=previous_period) for the period starting 21 July, compared to the previous period, filtered for ChatGPT-referred traffic.
 
 ![drop in traffic from chatgpt since 21 july 2025](/uploads/21-jul-chatgpt-traffic-drop.png "drop in traffic from chatgpt since 21 july 2025")
@@ -33,10 +41,15 @@ Here are the observations:
 * Views per visit up by 11% (positive signal)
 * Bounce rate down by 3% (positive signal)
 * Visit duration up by 16% (positive signal)
+* C﻿onversion rates up, even though slightly
 
-Even though the traffic has definitely gone down for us by significant margins, **the engagement rate has improved**. So I checked if the goal conversions from ChatGPT-referred traffic was up too and the conversion rates are all improved, even though the absolute conversions are expectedly reduced.
+Even though the traffic has definitely gone down for us by significant margins, **the engagement rate has improved**. 
 
 ![goal conversions from chatgpt-referred traffic](/uploads/cr-from-chatgpt-referral-traffic-since-21-jul.png "goal conversions from chatgpt-referred traffic")
+
+This trend suggests ChatGPT is leaning more on neutral, high-trust sources (like Wikipedia, Reddit, and neutral sites). For site owners, it means one thing: low-quality or filler content won’t make the cut. 
+
+People-first, original, and trustworthy content is still finding its way into GPT chats — and still sending valuable traffic.
 
 ## What does this mean?
 
@@ -81,10 +94,12 @@ Keeping your content up-to-date would also be a good idea.
 
 ### Write original content
 
-It can be thought leadership, your unique opinions, original research studies relevant to your industry or useful to your customers –– anything that basically is something unique to your brand.
+Publish content only *you* can provide. It can be thought leadership, your unique opinions, original research studies relevant to your industry or useful to your customers –– anything that basically is something unique to your brand.
 
 Such content cannot be duplicated and is instead cited across different content pieces, AI chats, and of course communities like Reddit.
 
 ## Conclusion
 
-The drop in ChatGPT referral traffic is not necessarily a setback—it’s a filter. Low-quality clicks are falling away, while higher-quality visitors are staying and engaging more. The winners will be the brands that commit to people-first, trustworthy, and original content. If you focus on solving problems and building credibility, traffic quality—not just quantity—will carry your growth forward.
+Traffic from ChatGPT may never match Google’s scale, and these drops prove how volatile referral traffic from new platforms can be. The short-term feels negative — fewer clicks, fewer signups. But the silver lining is that quality is rising: those who do arrive are more engaged and more likely to convert.
+
+For site owners, the lesson is clear: don’t bank on ChatGPT as the next Google, but do treat it as a growing channel where people-first content can win trust, attention, and conversions.
