@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Traffic from ChatGPT is down, but it is actually more qualified.
-description: des
+description: ChatGPT referral traffic is down since July, but the quality of
+  visits and engagement has improved, showing why people-first content still
+  wins
 slug: chatgpt-referral-traffic
-date: 2025-08-27T12:49:57.909Z
+date: 2025-08-28T10:55:44.972Z
 author: hricha-shandily
 image: /
 ---
@@ -13,7 +15,7 @@ According to this LinkedIn post, the decline of referral traffic is at 52%. They
 
 The major sites being cited now are Wikipedia, Reddit and TechRadar. These are the ones providing neutral, and/or opinionated recommendations to products and sharing information. Apparently, 1 in 5 ChatGPT citations are now going to just these three sites.
 
-Naturally, we checked what was going on at Plausible and we have our two cents to add to what’s going on. 
+Naturally, we checked if this had impacted Plausible, especially because our ChatGPT numbers had been [growing](https://plausible.io/blog/ai-referral-traffic-and-optimization) really well. Having found out what we did, we have a few cents to add to what’s going on.
 
 1. Ordered list
    {:toc}
@@ -31,7 +33,7 @@ Here are the observations:
 * Bounce rate down by 3% (positive signal)
 * Visit duration up by 16% (positive signal)
 
-Even though the traffic has definitely gone down for us by significant margins, the engagement rate has improved. So I checked if the goal conversions from ChatGPT-referred traffic was up too and the conversion rates are all improved, even though the absolute conversions are expectedly reduced.
+Even though the traffic has definitely gone down for us by significant margins, **the engagement rate has improved**. So I checked if the goal conversions from ChatGPT-referred traffic was up too and the conversion rates are all improved, even though the absolute conversions are expectedly reduced.
 
 ![goal conversions from chatgpt-referred traffic](/uploads/cr-from-chatgpt-referral-traffic-since-21-jul.png "goal conversions from chatgpt-referred traffic")
 
@@ -44,9 +46,9 @@ Let’s join the dots.
 * But engagement on the traffic that did come was higher than before.
 * The goal conversions reduced which reflected the declined traffic but again, the percentage of goal conversions on the traffic that did visit our site was higher.
 
-While we have only analyzed our own dashboard, the fact that our engagement rate still improved when the traffic declined is directly related to the fact that ChatGPT is sending more quality traffic as compared to before and this is all because of the improvement in the quality of answers that they provide, citing more reliable sources of the internet.
+While we have only analyzed our own dashboard, the fact that our engagement rate still improved while the traffic declined means that ChatGPT is sending more quality traffic as compared to before. This is all because of the improvement in the quality of answers provided by ChatGPT, making high-intent visitors come to the site, essentially weeding out the ones that weren’t probably the best fit for a site.
 
-Another thing that supports this theory is we’re organically mentioned on platforms like Reddit, Wikipedia, and similar, since the beginning of Plausible.
+Another thing that supports this hypothesis is we’re organically mentioned on platforms like Reddit, Wikipedia, and similar, since the beginning of Plausible. 
 
 In a nutshell, the quality of answers and citations by ChatGPT models is improving for end-users and only quality, people-first content can still survive.
 
@@ -81,3 +83,7 @@ Keeping your content up-to-date would also be a good idea.
 It can be thought leadership, your unique opinions, original research studies relevant to your industry or useful to your customers –– anything that basically is something unique to your brand.
 
 Such content cannot be duplicated and is instead cited across different content pieces, AI chats, and of course communities like Reddit.
+
+## Conclusion
+
+The drop in ChatGPT referral traffic is not necessarily a setback—it’s a filter. Low-quality clicks are falling away, while higher-quality visitors are staying and engaging more. The winners will be the brands that commit to people-first, trustworthy, and original content. If you focus on solving problems and building credibility, traffic quality—not just quantity—will carry your growth forward.
