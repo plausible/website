@@ -1,8 +1,9 @@
 ---
 layout: article
-title: How to set up Plausible Analytics using Google Tag Manager
-description: This document walks through how you can set up Plausible Analytics
-  using Google Tag Manager.
+title: How to set up Plausible Analytics using our Google Tag Manager template
+description: To make integrating Plausible with Google Tag Manager easier, we’ve
+  published a GTM template that lets you set up Plausible Analytics quickly and
+  without any code.
 permalink: /gtm-template
 ---
 To make integrating Plausible with Google Tag Manager easier, we’ve published a GTM template that lets you set up Plausible Analytics quickly and without any code.
