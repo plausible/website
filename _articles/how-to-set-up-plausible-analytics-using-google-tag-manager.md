@@ -9,22 +9,17 @@ This document walks through how you can set up Plausible Analytics using Google 
 
 ## Google Tag Manager Template
 
-In order to make the process easier, we have published a template that makes setting up Plausible Analytics with Google Tag Manager simple and code free. (You can find the source code for the Google Tag Manager template used [here](https://github.com/plausible/plausible-gtm-template))
+In order to make the process easier, we have published a template that makes setting up Plausible Analytics with Google Tag Manager simple and code free.
 
-The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard.
+The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here's the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template). 
 
-Alternatively, the template can be manually imported with the following steps:
-* Download the template.tpl file
-* Open a Google Tag Manager Web container inside Google Tag Manager
-* In Google Tag Manager browse to the Templates section and in the box titled Tag Templates click the blue New button.
-* Once the Template Editor is open, click the menu (three vertical dots) in the top-right corner of the window and choose Import.
-* Select the template.tpl file you downloaded previously
+Once you’ve installed the template, you should create a new "**Tag**" that uses it.  To do this:
 
-Once you’ve installed the template, either manually or through the template gallery, you should create a new Tag that uses it.  To do this:
-* In the main Google Tag Manager dashboard, browse to Tags and click New to create a new tag
+* In the main Google Tag Manager dashboard, browse to "**Tags**" and click "**New**" to create a new tag
 * From the list of available tag templates, choose the Plausible Analytics tag template you just installed
-* The only mandatory field in the tag configuration is the Script ID that can be found in the Plausible Analytics dashboard under Site Settings > Site Installation > Google Tag Manager (other optional configuration options are described below in the section Tag Configuration)
-* For the tag trigger, you should select All Pages - Page View, which will ensure that Plausible will capture data on all pages
+* The only mandatory field in the tag configuration is the "**Script ID**" that can be found in the Plausible Analytics dashboard under "**Site Settings**" > "**Site Installation**" > "**Google Tag Manager**"
+* Other optional configuration options are described below in the section "**Tag Configuration**"
+* For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
 
 ## Tag Configuration
 
@@ -32,14 +27,14 @@ The tag has the following optional configuration options:
 
 | **Optional Configuration** | **Explanation** |
 |---------------------------|-----------------|
-| **Auto Capture Pageviews**    | Whether to automatically capture pageviews (enabled by default) |
-| **Capture on Localhost**      | Whether to capture events on localhost (disabled by default) |
-| **File Downloads**            | Automatically [track file downloads](https://plausible.io/docs/file-downloads-tracking) (enabled by default) |
-| **Form Submissions**          | Whether to track form submissions (enabled by default) |
-| **Hash Based Routing**        | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing) (enabled by default) |
-| **Logging**                   | Whether to log on ignored events (enabled by default) |
-| **Outbound Links**            | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking) (enabled by default) |
+| **File Downloads**            | Whether to automatically [track file downloads](https://plausible.io/docs/file-downloads-tracking) |
+| **Form Submissions**          | Whether to automatically [track form submissions](https://plausible.io/docs/form-submissions-tracking) |
+| **Outbound Links**            | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking) |
+| **Hash Based Routing**        | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing) |
 | **Custom Properties**         | Allows you to attach [custom properties](https://plausible.io/docs/custom-props/introduction) (also known as custom dimensions in Google Analytics) when sending a pageview event. These can be configured using Google Tag Manager variables. |
+| **Capture on Localhost**      | Whether to capture events on localhost |
+| **Logging**                   | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning |
+| **Auto Capture Pageviews**    | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually |
 
 ## Testing
 
