@@ -1,23 +1,24 @@
 ---
 layout: article
-title: How to set up Plausible Analytics using Google Tag Manager
-description: This document walks through how you can set up Plausible Analytics
-  using Google Tag Manager.
+title: How to set up Plausible Analytics using our Google Tag Manager template
+description: To make integrating Plausible with Google Tag Manager easier, we’ve
+  published a GTM template that lets you set up Plausible Analytics quickly and
+  without any code.
 permalink: /gtm-template
 ---
-This document walks through how you can set up Plausible Analytics using Google Tag Manager.
+To make integrating Plausible with Google Tag Manager easier, we’ve published a GTM template that lets you set up Plausible Analytics quickly and without any code.
 
-## Google Tag Manager Template
+## Install the Plausible GTM template
 
-In order to make the process easier, we have published a template that makes setting up Plausible Analytics with Google Tag Manager simple and code free.
+The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here’s the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template). 
 
-The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here's the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template). 
+## Create a new Tag
 
 Once you’ve installed the template, you should create a new "**Tag**" that uses it.  To do this:
 
 * In the main Google Tag Manager dashboard, browse to "**Tags**" and click "**New**" to create a new tag
 * From the list of available tag templates, choose the Plausible Analytics tag template you just installed
-* The only mandatory field in the tag configuration is the "**Script ID**" that can be found in the Plausible Analytics dashboard under "**Site Settings**" > "**Site Installation**" > "**Google Tag Manager**"
+* The only required field in the tag configuration is "**Script ID**". You can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager**"
 * Other optional configuration options are described below in the section "**Tag Configuration**"
 * For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
 
