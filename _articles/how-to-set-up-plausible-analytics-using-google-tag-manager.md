@@ -6,7 +6,7 @@ description: To make integrating Plausible with Google Tag Manager easier, we’
   without any code.
 permalink: /gtm-template
 ---
-Plausible Analytics is an easy-to-use, lightweight, and privacy-friendly Google Analytics alternative.
+Plausible Analytics is an easy-to-use, lightweight, and privacy-friendly [Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
 If you already use Google Tag Manager (GTM) to manage scripts on your site, you can integrate Plausible that way too — no need to touch your website’s code. GTM lets you keep all your scripts organized in one place and makes it easy to update or remove tags later on.
 
@@ -16,48 +16,65 @@ We’ve built a **Plausible GTM template** to make this setup even smoother.
 
 ![Plausible Analytics Google Tag Manager template](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics Google Tag Manager template")
 
-This GTM method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead — it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup.
+This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead — it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup.
 
 1. Ordered list
    {:toc}
 
+## G﻿et started with Plausible Analytics
+
+To use Plausible Analytics, you need to register an account if you haven't already. To explore the product, we offer you a free 30-day trial (no credit card required). [Click here to register](https://plausible.io/register).
+
+O﻿nce you have:
+
+1. ﻿[Registered for an account](https://plausible.io/docs/register-account), 
+2. [Added your site details](https://plausible.io/docs/add-website)
+
+Y﻿ou will see the following screen, where you can select "Tag Manager" from the 4 tabs depicting the 4 different installation methods.
+
+![tag manager installation method in plausible](/uploads/tag-manager-installation.png "tag manager installation method in plausible")
+
+Y﻿ou can also always come back to this screen if you have an existing account, in the "**Site installation**" area under "**General**" in your [site settings](https://plausible.io/docs/website-settings).
+
+O﻿nce on this screen, copy the displayed site's script ID and save it for later as you'll need it in a couple of minutes.
+
 ## Install the Plausible GTM template
 
-The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here’s the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template). 
+The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here’s the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template).
 
 ![Plausible GTM Template](/uploads/plausible-gtm-template.png "Plausible GTM Template")
 
-## Create a new Tag
+### Create a new Tag
 
-Once you’ve installed the template, you should create a new "**Tag**" that uses it.  To do this:
+Once you’ve installed the template, you should create a new "**Tag**" that uses it. To do this:
 
-* In the main Google Tag Manager dashboard, browse to "**Tags**" and click "**New**" to create a new tag
+In the main Google Tag Manager dashboard, browse to "**Tags**" and click "**New**" to create a new tag.
 
 ![Plausible GTM Template New Tag](/uploads/plausible-gtm-template-new-tag.png "Plausible GTM Template New Tag")
 
-* From the list of available tag templates, choose the Plausible Analytics tag template you just installed
+From the list of available tag templates, choose the Plausible Analytics tag template you just installed.
 
 ![Plausible GTM Template New Tag Template](/uploads/plausible-gtm-template-new-tag-template.png "Plausible GTM Template New Tag Template")
 
-* The only required field in the tag configuration is "**Script ID**". You can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager**"
+The only required field in the tag configuration is "**Script ID**". You can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager**"
 
 ![Plausible GTM Template New Tag Script ID](/uploads/plausible-gtm-template-new-tag-script-id.png "Plausible GTM Template New Tag Script ID")
 
-* Other optional configuration options are described below in the section "**Tag Configuration**"
+Other optional configuration options are described below in the section "**Tag Configuration**"
 
 ![Plausible GTM Template New Tag Configuration options](/uploads/plausible-gtm-template-new-tag-configuration-options.png "Plausible GTM Template New Tag Configuration options")
 
-* For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
+For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
 
 ![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-trigger.png "Plausible GTM Template New Tag Trigger")
 
-## Tag Configuration
+#### Tag Configuration
 
 The tag has the following optional configuration options:
 
 | **Optional Configuration** | **Explanation**                                                                                                                                                                                                                                                                                  |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **File Downloads**         | Whether to automatically [track file downloads](https://plausible.io/docs/file-downloads-tracking)                                                                                                                                                                                               |
+| **File Downloads**         | Whether to automatically track file downloads ﻿                                                                                                                                                                                                                                                  |
 | **Form Submissions**       | Whether to automatically [track form submissions](https://plausible.io/docs/form-submissions-tracking)                                                                                                                                                                                           |
 | **Outbound Links**         | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)                                                                                                                                                                                           |
 | **Hash Based Routing**     | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing)                                                                                                                                                                         |
@@ -65,8 +82,6 @@ The tag has the following optional configuration options:
 | **Capture on Localhost**   | Whether to capture events on localhost                                                                                                                                                                                                                                                           |
 | **Logging**                | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning                                                                                                                                                                              |
 | **Auto Capture Pageviews** | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually |
-
-
 
 ## Custom Properties
 
