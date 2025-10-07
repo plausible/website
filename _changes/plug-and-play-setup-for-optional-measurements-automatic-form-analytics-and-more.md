@@ -10,7 +10,6 @@ W﻿e have so many updates to share with you!
 
 The new Plausible script makes managing your analytics easier than ever. You can now enable or disable optional measurements (like outbound link clicks, file downloads, and form submissions) or even change your site’s domain — **all without changing your site snippet again**. 
 
-\
 If you’re using the previous script, you’ll need to update to this new version once to take advantage of these improvements.
 
 ### 2. Introducing, automatic form submission tracking
