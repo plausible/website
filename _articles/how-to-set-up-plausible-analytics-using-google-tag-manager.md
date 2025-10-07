@@ -21,6 +21,35 @@ This GTM integration method is optional. You can always use the [direct Plausibl
 1. Ordered list
    {:toc}
 
+## Why use Plausible Analytics with GTM?
+
+Plausible is built to give you **privacy-friendly, lightweight analytics** with a clean, modern dashboard and minimal overhead.
+
+**No cookies, no personal tracking**\
+Plausible doesn’t rely on cookies or long-term identifiers. It doesn’t collect personal data, so you can avoid many GDPR/CCPA consent headaches.
+
+**Lightweight and fast**\
+The Plausible script is lightweight — it won’t bloat your page or slow down load times.
+
+**Simple, focused metrics**\
+Unlike feature-heavy tools, Plausible surfaces the key metrics you care about (engagement, top pages, referral sources, conversions) on one clean interface.
+
+**Better control and flexibility with GTM** \
+By combining Plausible with Google Tag Manager:
+
+* You don’t need to edit your site’s source code.
+* You can manage, update, or disable tags centrally.
+* You get the power of GTM’s variable system to send custom properties or conditional triggers.
+* You can gradually evolve your analytics setup (e.g. starting simple, then adding events) without rebuilding your base config.
+
+## B﻿efore you begin
+
+Make sure you have:
+
+* Access to your **Google Tag Manager** account.
+* A **Plausible Analytics** account (you can create one below).
+* The ability to edit or publish containers in GTM.
+
 ## G﻿et started with Plausible Analytics
 
 To use Plausible Analytics, you need to register an account if you haven't already. To help explore Plausible, we offer a free 30-day trial (no credit card required). [Click here to register](https://plausible.io/register). 
@@ -38,13 +67,13 @@ Y﻿ou can also always come back to this screen if you have an existing account,
 
 O﻿nce on this screen, copy the displayed site's script ID and save it for later as you'll need it in a couple of minutes.
 
-## Install the Plausible GTM template
+## Install the Plausible template in GTM
 
 The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here’s the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template).
 
 ![Plausible GTM Template](/uploads/plausible-gtm-template.png "Plausible GTM Template")
 
-### Create a new Tag
+## Create a new Tag
 
 Once you’ve installed the template, you should create a new "**Tag**" that uses it. To do this:
 
@@ -68,7 +97,7 @@ For the tag trigger, you should select "**All Pages** - "**Page View**", which w
 
 ![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-trigger.png "Plausible GTM Template New Tag Trigger")
 
-#### Tag Configuration
+#### Configure Your Plausible Tag
 
 The tag has the following optional configuration options:
 
@@ -83,9 +112,9 @@ The tag has the following optional configuration options:
 | **Logging**                | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning                                                                                                                                                                              |
 | **Auto Capture Pageviews** | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually |
 
-## Custom Properties
+## Add Custom Properties (Optional)
 
-The tag also gives you the option to configure one or more [custom properties](https://plausible.io/docs/custom-props/introduction) which will be attached to the pageview event in Plausible. To add pageview custom properties:
+The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview. To add them:
 
 * Click ‘Add Custom Property’
 * Select a Tag Manager variable from the dropdown menu (the custom prop value will come from this variable)
