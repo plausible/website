@@ -8,7 +8,7 @@ permalink: /gtm-template
 ---
 Plausible Analytics is an easy-to-use, lightweight, and privacy-friendly [Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
-If you already use Google Tag Manager (GTM) to manage scripts on your site, you can integrate Plausible that way too — no need to touch your website’s code. GTM lets you keep all your scripts organized in one place and makes it easy to update or remove tags later on.
+If you already use Google Tag Manager (GTM) to manage scripts on your site, you can integrate Plausible with it — no need to touch your website’s code. GTM lets you keep all your scripts organized in one place and makes it easy to update or remove tags later on.
 
 We’ve built a **Plausible GTM template** to make this setup even smoother.
 
@@ -23,7 +23,7 @@ This GTM integration method is optional. You can always use the [direct Plausibl
 
 ## G﻿et started with Plausible Analytics
 
-To use Plausible Analytics, you need to register an account if you haven't already. To explore the product, we offer you a free 30-day trial (no credit card required). [Click here to register](https://plausible.io/register).
+To use Plausible Analytics, you need to register an account if you haven't already. To help explore Plausible, we offer a free 30-day trial (no credit card required). [Click here to register](https://plausible.io/register). 
 
 O﻿nce you have:
 
@@ -56,15 +56,15 @@ From the list of available tag templates, choose the Plausible Analytics tag tem
 
 ![Plausible GTM Template New Tag Template](/uploads/plausible-gtm-template-new-tag-template.png "Plausible GTM Template New Tag Template")
 
-The only required field in the tag configuration is "**Script ID**". You can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager**"
+The only required field in the tag configuration is "**Script ID**" that you saved earlier. To repeat, you can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager.**" 
 
 ![Plausible GTM Template New Tag Script ID](/uploads/plausible-gtm-template-new-tag-script-id.png "Plausible GTM Template New Tag Script ID")
 
-Other optional configuration options are described below in the section "**Tag Configuration**"
+Other optional configuration options are described below in the section "**Tag Configuration.**"
 
 ![Plausible GTM Template New Tag Configuration options](/uploads/plausible-gtm-template-new-tag-configuration-options.png "Plausible GTM Template New Tag Configuration options")
 
-For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
+For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages.
 
 ![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-trigger.png "Plausible GTM Template New Tag Trigger")
 
@@ -85,7 +85,7 @@ The tag has the following optional configuration options:
 
 ## Custom Properties
 
-The tag also gives you the option to configure one or more [custom properties](https://plausible.io/docs/custom-props/introduction) which will be attached to the pageview event in Plausible.  To add pageview custom properties:
+The tag also gives you the option to configure one or more [custom properties](https://plausible.io/docs/custom-props/introduction) which will be attached to the pageview event in Plausible. To add pageview custom properties:
 
 * Click ‘Add Custom Property’
 * Select a Tag Manager variable from the dropdown menu (the custom prop value will come from this variable)
@@ -93,34 +93,31 @@ The tag also gives you the option to configure one or more [custom properties](h
 
 As a simple example, you could send the full URL of a page to Plausible for every pageview by selecting the Built-In GTM Variable Page URL:
 
-<﻿imgs>
+![built in variable gtm](/uploads/built-in-variable.png "built in variable gtm")
 
-You can take things a step further by defining your own custom GTM variables.  As an example, you could send the Page Title as a custom prop on every page view.  Instead of selecting, Built-In Variable you will instead create a New Variable.
+Then you just need to give the name that it will appear under in your Plausible dashboard.
 
-<﻿img>
+You can take things a step further by defining your own custom GTM variables. As an example, you could send the Page Title as a custom prop on every page view.
+
+Instead of selecting, Built-In Variable you will instead create a New Variable by selecting the next option.
 
 You can then give this variable a name, like Page Title and select Javascript Variable.
 
-<﻿img>
+![js variable gtm](/uploads/js-variable-gtm.png "js variable gtm")
 
-Then under Global Variable name, you simply enter ‘document.title’.  This will automatically take the title of the page using Javascript and make it available as your GTM variable.
+Then, when asked to enter "Global Variable name", you simply enter ‘document.title’.  This will automatically take the title of the page using Javascript and make it available as your GTM variable.
 
-<﻿img>
-
-\
 Finally, to send this to Plausible you would just need to give it a name like ‘page_title’.
-
-<﻿img>
 
 With both of those variables set-up, your final custom props configuration would look like this:
 
-<﻿img>
+![custom props in gtm](/uploads/custom-props-in-gtm.png "custom props in gtm")
 
 ## Sending Custom Events
 
-You can also use Google Tag Manager to send custom events to Plausible.  You just need to create a new tag and select Custom HTML.  Then in the Custom HTML you will paste the following:
+You can also use Google Tag Manager to send custom events to Plausible.  You just need to create a new tag and select Custom HTML. Then in the Custom HTML paste the following:
 
-<script type="text/javascript">window.plausible("EVENT_NAME");</script>
+`<script type="text/javascript">window.plausible("EVENT_NAME");</script>`
 
 Where EVENT_NAME is the name of the custom event that you’ve set up in Plausible.
 
