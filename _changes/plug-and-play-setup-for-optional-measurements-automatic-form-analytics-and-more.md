@@ -24,7 +24,3 @@ Plausible automatically detects and records all form submissions across your sit
 I﻿f you prefer installing/managing Plausible using Google Tag Manager, it's now way easier to do that. 
 
 We’ve launched our [official GTM template](https://plausible.io/gtm-template), allowing you to set up Plausible through Google Tag Manager with a simple, code-free configuration. Best of both worlds!
-
-### 4﻿. Improved installation verification
-
-Our script installation verification tool — which helps you confirm your Plausible script is installed correctly and troubleshoot setup issues — is now more powerful, accurate, and reliable.
