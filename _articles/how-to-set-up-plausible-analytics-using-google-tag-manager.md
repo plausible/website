@@ -36,7 +36,7 @@ Once you’ve installed the template, you should create a new "**Tag**" that use
 
 * For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
 
-![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-new-tag-template-trigger.png "Plausible GTM Template New Tag Trigger")
+![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-trigger.png "Plausible GTM Template New Tag Trigger")
 
 ## Tag Configuration
 
