@@ -12,15 +12,31 @@ To make integrating Plausible with Google Tag Manager easier, we’ve published 
 
 The simplest way to install the custom template is to locate it in the [Google Tag Manager template gallery](https://tagmanager.google.com/gallery/#/) where you can install it directly from your Google Tag Manager dashboard. Here’s the direct link to the [Plausible Analytics GTM template](https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template). 
 
+![Plausible GTM Template](/uploads/plausible-gtm-template.png "Plausible GTM Template")
+
 ## Create a new Tag
 
 Once you’ve installed the template, you should create a new "**Tag**" that uses it.  To do this:
 
 * In the main Google Tag Manager dashboard, browse to "**Tags**" and click "**New**" to create a new tag
+
+![Plausible GTM Template New Tag](/uploads/plausible-gtm-template-new-tag.png "Plausible GTM Template New Tag")
+
 * From the list of available tag templates, choose the Plausible Analytics tag template you just installed
+
+![Plausible GTM Template New Tag Template](/uploads/plausible-gtm-template-new-tag-template.png "Plausible GTM Template New Tag Template")
+
 * The only required field in the tag configuration is "**Script ID**". You can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager**"
+
+![Plausible GTM Template New Tag Script ID](/uploads/plausible-gtm-template-new-tag-script-id.png "Plausible GTM Template New Tag Script ID")
+
 * Other optional configuration options are described below in the section "**Tag Configuration**"
+
+![Plausible GTM Template New Tag Configuration options](/uploads/plausible-gtm-template-new-tag-configuration-options.png "Plausible GTM Template New Tag Configuration options")
+
 * For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages
+
+![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-new-tag-template-trigger.png "Plausible GTM Template New Tag Trigger")
 
 ## Tag Configuration
 
