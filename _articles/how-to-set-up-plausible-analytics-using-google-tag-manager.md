@@ -117,18 +117,19 @@ The tag has the following optional configuration options:
 The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview. To add them:
 
 * Click ‘Add Custom Property’
-* Select a Tag Manager variable from the dropdown menu (the custom prop value will come from this variable)
+* Select a GTM variable — this defines the value to send.
 * Type in the name of the Plausible custom prop under the field ‘Plausible Custom Property’
 
-As a simple example, you could send the full URL of a page to Plausible for every pageview by selecting the Built-In GTM Variable Page URL:
+For example, to send the full **page URL** with each pageview:
+
+* Choose the built-in GTM variable **Page URL**.
+* Name it `page_url` in Plausible.
 
 ![built in variable gtm](/uploads/built-in-variable.png "built in variable gtm")
 
-Then you just need to give the name that it will appear under in your Plausible dashboard.
+You can take things a step further by defining your own custom GTM variables. For instance, to send the page title as a property:
 
-You can take things a step further by defining your own custom GTM variables. As an example, you could send the Page Title as a custom prop on every page view.
-
-Instead of selecting, Built-In Variable you will instead create a New Variable by selecting the next option.
+Instead of selecting Built-In Variable, instead create a New Variable by selecting the next option.
 
 You can then give this variable a name, like Page Title and select Javascript Variable.
 
@@ -142,15 +143,15 @@ With both of those variables set-up, your final custom props configuration would
 
 ![custom props in gtm](/uploads/custom-props-in-gtm.png "custom props in gtm")
 
-## Sending Custom Events
+## Track Custom Events (Optional)
 
-You can also use Google Tag Manager to send custom events to Plausible.  You just need to create a new tag and select Custom HTML. Then in the Custom HTML paste the following:
+You can also use Google Tag Manager to send custom events to Plausible. You just need to create a new tag and select Custom HTML. Then in the Custom HTML paste the following:
 
 `<script type="text/javascript">window.plausible("EVENT_NAME");</script>`
 
 Where EVENT_NAME is the name of the custom event that you’ve set up in Plausible.
 
-You then just need to select a Trigger.  Two of the most useful triggers are the the ‘Clicks - All Elements’ trigger that fires any time someone clicks an element on your site and ‘Clicks - Just Links’ which fires any time someone clicks a link on your site.
+You then just need to select a Trigger. Two of the most useful triggers are the the ‘Clicks - All Elements’ trigger that fires any time someone clicks an element on your site and ‘Clicks - Just Links’ which fires any time someone clicks a link on your site.
 
 As an example, if we wanted to send an event called “Login Click” every time that someone clicked the button that had text “Login”, we would have a tag that looks like this:
 
@@ -164,6 +165,22 @@ For the trigger, we are looking for the clicks where the target of the click is 
 
 Note: we are currently testing enhancements to our Google Tag Manager template to make the process of sending custom events to Plausible even easier and completely code-free.
 
-## Testing
+## Test your setup
 
-You can test that everything is working as expected by using Google Tag Manager’s Preview mode.  You can enter Preview mode by clicking the blue Preview button in the Google Tag Manager dashboard. This opens a new tab with your website running the GTM container where you can see if Plausible Analytics is running and capturing data properly. In the Tag Assistant Preview tab, you can see additional information about the events that trigger the tag and the data that is being sent.
+Before publishing, always verify that everything works as expected. To test:
+
+1. Click the blue Preview button in your GTM dashboard.
+2. A new tab will open showing your website with the GTM container active.
+3. In the Tag Assistant Preview panel, confirm that the Plausible tag fires correctly. You can see additional information about the events that trigger the tag and the data that is being sent.
+
+If you see the tag firing and data appearing in your Plausible dashboard — your setup is complete!
+
+## What’s next?
+
+Now that your site is tracking with Plausible via GTM, you can:
+
+* [G﻿et the most out of your Plausible experience](https://plausible.io/docs/your-plausible-experience)
+* [Connect your Google Search Console to Plausible](https://plausible.io/docs/google-search-console-integration) for seeing the search terms driving you traffic directly in the Plausible dashboard
+* C﻿ustomize your reporting by [connecting with Looker Studio](https://plausible.io/docs/looker-studio)
+
+E﻿njoy Plausible!
