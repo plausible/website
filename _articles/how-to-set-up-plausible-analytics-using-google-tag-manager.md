@@ -125,11 +125,11 @@ You then just need to select a Trigger.  Two of the most useful triggers are th
 
 As an example, if we wanted to send an event called “Login Click” every time that someone clicked the button that had text “Login”, we would have a tag that looks like this:
 
-<﻿img>\
-\
+`<script type="text/javascript">window.plausible("Login Click");</script>`
+
 And a trigger set up as ‘Click - All Elements’ that looks like this:
 
-<﻿img>
+![click - all elements](/uploads/click-all-elements.png "click - all elements")
 
 For the trigger, we are looking for the clicks where the target of the click is Equal to ‘Login’.
 
