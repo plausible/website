@@ -6,15 +6,18 @@ date: 2025-10-07T11:19:42.023Z
 ---
 W﻿e have so many updates to share with you!
 
-### 1. Simpler setup for optional measurements
+### 1. Brand new Plausible script for easier setup and more flexibility
 
-Outbound link clicks, file downloads, and form submissions can now be enabled directly from your Site Installation settings — with no need to update your site snippet. Just toggle them on and start tracking instantly. 
+The new Plausible script makes managing your analytics easier than ever. You can now enable or disable optional measurements (like outbound link clicks, file downloads, and form submissions) or even change your site’s domain — **all without changing your site snippet again**. 
+
+\
+If you’re using the previous script, you’ll need to update to this new version once to take advantage of these improvements.
 
 ### 2. Introducing, automatic form submission tracking
 
 [Form submissions tracking](https://plausible.io/docs/form-submissions-tracking) is now available as an optional measurement to track. Just toggle on to start tracking.
 
-Plausible automatically detects and records all form submissions across your site, making it easy to measure signups, contact form conversions and absolutely anything that is a form.
+Plausible automatically detects and records all form submissions across your site, making it easy to measure signups, contact form conversions, etc.
 
 ### 3﻿. Official Google Tag Manager template
 
