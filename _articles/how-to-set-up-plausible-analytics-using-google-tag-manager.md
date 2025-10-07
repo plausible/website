@@ -6,16 +6,20 @@ description: To make integrating Plausible with Google Tag Manager easier, we’
   without any code.
 permalink: /gtm-template
 ---
-Plausible Analytics is an easy to use, lightweight and privacy-friendly Google Analytics alternative.
+Plausible Analytics is an easy-to-use, lightweight, and privacy-friendly Google Analytics alternative.
 
-To make integrating Plausible with Google Tag Manager easier, we’ve published a GTM template that lets you set up Plausible Analytics quickly and without any code.
+If you already use Google Tag Manager (GTM) to manage scripts on your site, you can integrate Plausible that way too — no need to touch your website’s code. GTM lets you keep all your scripts organized in one place and makes it easy to update or remove tags later on.
+
+We’ve built a **Plausible GTM template** to make this setup even smoother.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">GTM template</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
 ![Plausible Analytics Google Tag Manager template](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics Google Tag Manager template")
 
+This GTM method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead — it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup.
+
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Install the Plausible GTM template
 
@@ -51,16 +55,16 @@ Once you’ve installed the template, you should create a new "**Tag**" that use
 
 The tag has the following optional configuration options:
 
-| **Optional Configuration** | **Explanation** |
-|---------------------------|-----------------|
-| **File Downloads**            | Whether to automatically [track file downloads](https://plausible.io/docs/file-downloads-tracking) |
-| **Form Submissions**          | Whether to automatically [track form submissions](https://plausible.io/docs/form-submissions-tracking) |
-| **Outbound Links**            | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking) |
-| **Hash Based Routing**        | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing) |
-| **Custom Properties**         | Allows you to attach [custom properties](https://plausible.io/docs/custom-props/introduction) (also known as custom dimensions in Google Analytics) when sending a pageview event. These can be configured using Google Tag Manager variables. |
-| **Capture on Localhost**      | Whether to capture events on localhost |
-| **Logging**                   | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning |
-| **Auto Capture Pageviews**    | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually |
+| **Optional Configuration** | **Explanation**                                                                                                                                                                                                                                                                                  |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **File Downloads**         | Whether to automatically [track file downloads](https://plausible.io/docs/file-downloads-tracking)                                                                                                                                                                                               |
+| **Form Submissions**       | Whether to automatically [track form submissions](https://plausible.io/docs/form-submissions-tracking)                                                                                                                                                                                           |
+| **Outbound Links**         | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)                                                                                                                                                                                           |
+| **Hash Based Routing**     | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing)                                                                                                                                                                         |
+| **Custom Properties**      | Allows you to attach [custom properties](https://plausible.io/docs/custom-props/introduction) (also known as custom dimensions in Google Analytics) when sending a pageview event. These can be configured using Google Tag Manager variables.                                                   |
+| **Capture on Localhost**   | Whether to capture events on localhost                                                                                                                                                                                                                                                           |
+| **Logging**                | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning                                                                                                                                                                              |
+| **Auto Capture Pageviews** | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually |
 
 ## Testing
 
