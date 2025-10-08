@@ -2,13 +2,13 @@
 layout: change
 title: Plug-and-play setup for optional measurements, automatic form analytics,
   and more
-date: 2025-10-07T11:19:42.023Z
+date: 2025-10-08T11:19:42.023Z
 ---
 W﻿e have so many updates to share with you!
 
 ### 1. Brand new Plausible script for easier setup and more flexibility
 
-The new Plausible script makes managing your analytics easier than ever. You can now enable or disable optional measurements (like outbound link clicks, file downloads, and form submissions) or even change your site’s domain — **all without changing your site snippet again**. 
+The new Plausible script makes managing your analytics easier than ever. You can now enable or disable optional measurements (like outbound link clicks, file downloads, and form submissions) or even change your site’s domain — **all without changing your site snippet again**.
 
 If you’re using the previous script, you’ll need to update to this new version once to take advantage of these improvements.
 
