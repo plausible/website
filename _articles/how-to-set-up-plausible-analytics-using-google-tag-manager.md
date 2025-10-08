@@ -19,22 +19,15 @@ We’ve built a **Plausible GTM template** to make this setup even smoother.
 This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead — it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Why use Plausible Analytics with GTM?
 
-Plausible is built to give you **privacy-friendly, lightweight analytics** with a clean, modern dashboard and minimal overhead.
+Plausible is built to give you privacy-friendly, lightweight analytics with a clean, modern dashboard and minimal overhead.We don’t collect personal data, so you can avoid many GDPR/CCPA consent headaches.
 
-**No cookies, no personal tracking**\
-Plausible doesn’t rely on cookies or long-term identifiers. It doesn’t collect personal data, so you can avoid many GDPR/CCPA consent headaches.
+The Plausible script is lightweight — it won’t bloat your page or slow down load times.Unlike feature-heavy tools, Plausible surfaces the key metrics you care about (engagement, top pages, referral sources, conversions) on one clean interface.
 
-**Lightweight and fast**\
-The Plausible script is lightweight — it won’t bloat your page or slow down load times.
-
-**Simple, focused metrics**\
-Unlike feature-heavy tools, Plausible surfaces the key metrics you care about (engagement, top pages, referral sources, conversions) on one clean interface.
-
-**Better control and flexibility with GTM** \
+**Better control and flexibility with GTM**\
 By combining Plausible with Google Tag Manager:
 
 * You don’t need to edit your site’s source code.
@@ -47,7 +40,7 @@ By combining Plausible with Google Tag Manager:
 Make sure you have:
 
 * Access to your **Google Tag Manager** account.
-* A **Plausible Analytics** account (you can create one below).
+* A **Plausible Analytics** account (you can create one as shown below). 
 * The ability to edit or publish containers in GTM.
 
 ## G﻿et started with Plausible Analytics
