@@ -33,10 +33,7 @@
 
 - question: Can I track visitors across my domain and subdomain?
   answer: "Yes. You can use the same snippet on both the domain name and its subdomain. This allows you to see the visitor journey end-to-end from the landing on the main domain name to a conversion on the subdomain. <a class='text-indigo-600' href='https://plausible.io/docs/subdomain-hostname-filter'>More details here</a>."
-  
-- question: Do you have a roll-up view with aggregated stats for several sites?
-  answer: "Yes. Rollup reporting allows you to aggregate stats from multiple sites and see them all together in one dashboard while still keeping the individual site stats on its own separate dashboard. <a class='text-indigo-600' href='https://plausible.io/docs/plausible-script#is-there-a-roll-up-view'>More details here</a>."
-  
+
 - question: Does Plausible get blocked by adblockers and how do I avoid that?
   answer: "We're not blocked to the same extent as Google Analytics (neither Firefox, Chrome nor Safari blocks Plausible out of the box) but we're blocked by some adblock browser extensions. You can use <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy</a> if you want to count visitors that use adblockers too."
   
