@@ -166,3 +166,27 @@ These are your newsletter and email-campaign platforms (e.g., Mailchimp, Convert
 * Users may open email on a device and click but then close before page fully loads, or script blocked, meaning Plausible may not count them.
 
 Expect that email tool “clicks” will almost always be higher than “visits” recorded by your web analytics. That doesn’t mean one is “wrong” — they measure different things: click attempts vs actual page-load visits. If the gap is large, you can look at how many clicks resulted in the analytics script firing (via UTM tagging + Plausible campaign tracking) and measure drop-off.
+
+## \
+Category 5: Why hosting dashboards and server logs show higher numbers
+
+Server logs (Apache, Nginx, CDN logs, hosting dashboards like cPanel, etc) record every request to your server — static assets (images, CSS, JS), bots, crawlers, failed requests, clients with scripts disabled, etc. They don’t rely on browser-script execution. 
+
+Because of that:
+
+* They tend to show *far* more “hits” than a tool like Plausible, which only counts visits when the analytics script loads and fires.
+* They include bot traffic, scraping, CDNs, cached assets, non-human traffic.
+* Hosting dashboards might show “unique visitors” based on IP or session heuristics, but it’s often far less refined than analytics.
+
+**Why numbers differ so much vs site analytics**
+
+* Different units: server logs measure requests/hits, not necessarily human page-views.
+* Bots/crawlers: lots of traffic that analytics filters out (because script didn’t run) will still show as server log hits.
+* Caching/CDNs: Some assets may never hit your origin server, so hosting logs may under-count some hits, too.
+* Script blocking: analytics script might not run in many visits, so analytics shows fewer; server logs will count the request anyway.
+
+F﻿or instance,
+
+If your hosting dashboard shows 10,000 “visitors” and Plausible shows 4,200 visits, that’s not Plausible missing traffic — it’s your host counting many things that your analytics tool intentionally excludes (non-human, blocked scripts, etc). 
+
+Use hosting logs for server performance, bandwidth, errors; use analytics for human behaviour and visits.
