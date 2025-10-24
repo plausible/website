@@ -144,3 +144,15 @@ What Plausible reports:
 F﻿or instance,If you see 1,000 clicks in GSC and 850 visits in Plausible in the same period, that doesn’t indicate a “loss” necessarily — it just means ~150 clicks didn’t lead to a page view recorded by Plausible (for any of the reasons above). That’s expected. Use GSC for how you appear in search; use Plausible for what happens on your site. The difference tells you something meaningful (for example: maybe your page loads slowly, causing drop-off before analytics loads).
 
 ## Category 3: Why ad platform clicks don’t match what you see in Plausible
+
+These are the platforms where you run paid campaigns (e.g., Meta Ads Manager (Facebook/Instagram), Google Ads, LinkedIn Ads, TikTok Ads Manager, etc.). They track impressions, clicks, and often landing-page visits (depending on how you tag links).
+
+* Ad platforms typically count a “click” when someone taps an ad link. That happens before your web page necessarily loads or your analytics script fires.
+* Redirects, tracking links, or user drop-off before page load mean that a click reported by an ad platform may not translate into a visit recorded by Plausible.
+* Attribution windows: ad tools may attribute conversions/clicks differently (e.g., last-click 7-day window) whereas still visits might be counted differently in your site analytics.
+* Browser blocking/consent may stop the analytics script, but the ad platform already counted the click.
+* Some ad tools count link-impressions or “view-through” conversions (ad shown but not clicked) — which don’t map to visits.
+
+F﻿or instance,If your ad tool reports 500 clicks and Plausible shows 420 visits from the same campaign URL/UTM during that period, that gap likely comes from clicks that didn’t result in page loads or script execution (or blocking). That’s absolutely normal. Use the ad click number to understand the campaign click-volume; use the site analytics number to understand what actually arrived and was tracked.
+
+## Category 4: Why email campaign clicks and Plausible visits don’t align
