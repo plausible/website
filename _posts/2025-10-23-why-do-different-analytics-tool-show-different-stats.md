@@ -156,3 +156,13 @@ These are the platforms where you run paid campaigns (e.g., Meta Ads Manager (Fa
 F﻿or instance,If your ad tool reports 500 clicks and Plausible shows 420 visits from the same campaign URL/UTM during that period, that gap likely comes from clicks that didn’t result in page loads or script execution (or blocking). That’s absolutely normal. Use the ad click number to understand the campaign click-volume; use the site analytics number to understand what actually arrived and was tracked.
 
 ## Category 4: Why email campaign clicks and Plausible visits don’t align
+
+These are your newsletter and email-campaign platforms (e.g., Mailchimp, ConvertKit, MailerLite, etc.). They track email opens, link clicks and may report user behaviour in the campaign.
+
+* Email platforms count clicks on links inside an email (sometimes pre-loaded, sometimes by bots checking links).
+* A click doesn’t guarantee the user waits for your page to load, that the analytics script fires, or that they don’t bounce immediately.
+* Some email platforms also count “opens” (which are often measured via a tiny image pixel) which don’t translate into site visits at all.
+* The link payload may include redirects or tracking parameters, which sometimes get stripped or delayed by the browser before analytics script loads.
+* Users may open email on a device and click but then close before page fully loads, or script blocked, meaning Plausible may not count them.
+
+Expect that email tool “clicks” will almost always be higher than “visits” recorded by your web analytics. That doesn’t mean one is “wrong” — they measure different things: click attempts vs actual page-load visits. If the gap is large, you can look at how many clicks resulted in the analytics script firing (via UTM tagging + Plausible campaign tracking) and measure drop-off.
