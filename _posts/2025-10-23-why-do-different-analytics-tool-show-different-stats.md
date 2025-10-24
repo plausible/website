@@ -88,15 +88,26 @@ While all web analytics tools operate similarly in principle, and essentially tr
 
 ### GA4 vs Plausible
 
-**How GA4 works**\
-GA4 uses an event-based tracking model, with cookies or user-ids identifying users/sessions, and offers extensive features for attribution, cross-device tracking, integrations with other Google products. GA4 also may apply data modeling or estimated data in certain reports when full data isn’t available.
+When you compare Plausible and Google Analytics side by side, you might notice that Plausible shows higher visitor numbers. That’s completely normal — and actually expected — because GA is more frequently blocked and often doesn’t run for every visitor.
 
-**How Plausible works**\
-Plausible’s public documentation states they use a small script, no cookies, no personal identifiers, and focus on privacy and speed. ([Plausible Analytics](https://plausible.io/self-hosted-web-analytics?utm_source=chatgpt.com))
+**Why Plausible often reports higher numbers?**
 
-Why you’ll often see fewer visits in Plausible (or different numbers):
+* **Blocking:**\
+  GA’s script is one of the most commonly blocked domains by browsers and extensions. Plausible’s script is privacy-friendly and much less likely to be blocked, especially if you use a proxy setup (which can even count visits from people using ad blockers).
+* **Consent requirements:**\
+  GA typically needs user consent to run, depending on how you’ve configured your GDPR or cookie banner. If a visitor declines, GA won’t count them at all. Plausible doesn’t use cookies or collect personal data, so it doesn’t need that consent and can count all visitors.
+* **Data modeling:**\
+  GA4 doesn’t always show purely measured data. In some cases, it fills in missing data using *modeled* or *predictive* metrics to estimate what likely happened. Plausible, on the other hand, shows only what was actually recorded on your site — no modeling, no extrapolation.
+* **Script reliability:**\
+  Because Plausible’s script is small and loads early, it tends to record visits more consistently. GA scripts depend on multiple tags and integrations, which are more prone to load delays or misconfiguration.
 
-* GA4 script may be more widely blocked, especially by ad-blockers, while Plausible may still count visits when GA4 doesn’t.
-* GA4 may rely on consent if implemented that way—if you’ve set GA4 to wait for consent then visits without consent aren’t counted; Plausible may count them (depending on your setup).
-* GA4 in some cases uses estimations or modeling in certain reports; Plausible shows only what was measured.
-* GA4 may merge devices/users under the same user-id; Plausible resets daily so returning visitors appear as new if they change device or browser.
+#### **When GA shows higher numbers than Plausible**
+
+That’s *unusual* — and usually a sign of an implementation issue rather than a data-collection difference. If GA is reporting more visitors than Plausible, it’s worth checking:
+
+* Are both scripts installed on all the same pages?
+* Could GA be double-counting events (for instance, if both Tag Manager and manual tags are firing)?
+* Does your consent banner block the Plausible script but not GA’s?
+* Is the Plausible snippet perhaps missing from some sections of your site?
+
+If everything looks fine on Plausible’s side (script firing, your own test visit appearing correctly), then it’s likely that GA is over-counting due to duplicate installations or modeled data.
