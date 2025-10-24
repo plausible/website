@@ -111,3 +111,36 @@ That’s *unusual* — and usually a sign of an implementation issue rather than
 * Is the Plausible snippet perhaps missing from some sections of your site?
 
 If everything looks fine on Plausible’s side (script firing, your own test visit appearing correctly), then it’s likely that GA is over-counting due to duplicate installations or modeled data.
+
+## Category 2: Understanding the difference between Plausible and search data tools
+
+These are services that do **not** rely on a script embedded in your site. Instead they collect data elsewhere (for example search engine logs) and provide insights. A prime example is Google Search Console (GSC).
+
+**How they work**
+
+Take GSC: It reports impressions and clicks from Google Search results — i.e., before the user lands on your site. For example, an impression means your page appeared in a search result; a click means someone clicked the link to your site. Plausible (and other on-site analytics) track what happens after the page is loaded (and the script runs). So you’re comparing two different stages of the user journey.
+
+**Why the numbers differ vs Plausible**
+
+* GSC counts clicks in search results whether or not the page load fully completes (or the analytics script loads). Plausible only counts visits when the script executes and page view is recorded.
+* Timing differences: GSC data may be delayed or aggregated; Plausible shows real-time or near real-time.
+* URL and query normalization: GSC aggregates by canonical URL and query; Plausible logs actual page URL visited.
+* Scope difference: GSC focuses on search traffic; Plausible covers all traffic sources your script sees (organic, direct, referral, campaign).
+* Filters: GSC may apply thresholding or drop certain low-volume queries; Plausible shows all recorded visits.
+
+### GSC vs Plausible
+
+What GSC reports:
+
+* Impressions: number of times any URL from your site was shown in Google Search results.
+* Clicks: number of times someone clicked a link to your site from Google Search.
+* These metrics are from Google’s own search engine logs, not your website’s analytics.
+
+What Plausible reports:
+
+* Visits and page views captured when your site loads the script and registers an event.\
+  So, for example, a user could click your search result (counted in GSC), but if they navigate away before your page loads, or your script fails, or they block scripts, Plausible won’t count the visit. That explains many mismatches.
+
+F﻿or instance,If you see 1,000 clicks in GSC and 850 visits in Plausible in the same period, that doesn’t indicate a “loss” necessarily — it just means ~150 clicks didn’t lead to a page view recorded by Plausible (for any of the reasons above). That’s expected. Use GSC for how you appear in search; use Plausible for what happens on your site. The difference tells you something meaningful (for example: maybe your page loads slowly, causing drop-off before analytics loads).
+
+## Category 3: Why ad platform clicks don’t match what you see in Plausible
