@@ -190,3 +190,27 @@ F﻿or instance,
 If your hosting dashboard shows 10,000 “visitors” and Plausible shows 4,200 visits, that’s not Plausible missing traffic — it’s your host counting many things that your analytics tool intentionally excludes (non-human, blocked scripts, etc). 
 
 Use hosting logs for server performance, bandwidth, errors; use analytics for human behaviour and visits.
+
+## Making sense of it all
+
+### Practical checklist
+
+* Ensure your analytics script is installed correctly: placed in `<head>`, fires early, no duplicate tags.
+* Review your cookie-consent implementation: is your analytics script blocked until consent is given? That might impact counts.
+* Tag campaigns with UTM parameters consistently so you can compare traffic sources across tools.
+* Check how many visitors might be blocking scripts (via browser & ad-blocker data) – this can help explain gaps.
+* Compare definitions: what counts as a “visit”, “session”, “click” in each tool you’re comparing?
+* Review the drop-off from “click” (ad tool / email tool) to “visit” (analytics). If drop-off seems large, investigate page-load speed, script execution, redirects.
+* Use trends rather than absolute numbers: Is traffic going up or down? Which source is improving? That’s more actionable than precise counts.
+
+Trying to make all your analytics tools show the exact same number is usually futile. Because each tool is measuring slightly different things, trying to force them into alignment often leads to frustration.\
+Instead:
+
+* Pick one tool as your “primary” measurement of traffic (for example Plausible for privacy-friendly, lightweight web analytics).
+* Use the others for context (search behaviour via GSC, campaign click-data via ad/email tool, hosting logs for technical hits).
+* Focus on trends, ratios, and changes over time, not the exact absolute number.
+* Recognize that gaps between tools are not necessarily “bad” — they can tell you something meaningful (e.g., how much traffic is blocked, how many users bounce before the script fires, how many clicks don’t result in page-loads).
+
+When your setup is correct and you understand what each tool is measuring, you can rely on Plausible’s metrics for your core decisions, and still use the others for complementary insights.
+
+I﻿f you have any questions/confusion regarding specific metrics while comparing your Plausible data to another tool that we may have missed in this guide, feel free to [reach out](https://plausible.io/contact) to us. We are happy to answer any queries and if necessary, we will update this guide as well.
