@@ -24,7 +24,7 @@ Web analytics tracking codes are typically JavaScript snippets. When installed o
 
 This is a general guide for checking for possible analytics installation issues that can be applied to most web analytic tracking tools.
 
-![How to debug web analytics script](https://plausible.io/uploads/framework-web-analytics-script-debug.png)
+![How to debug web analytics script](https://plausible.io/uploads/framework-web-analytics-script-debug.png "How to debug web analytics script")
 
 ### Start by checking your Real Time and/or Landing Pages data
 
@@ -42,7 +42,7 @@ This is where you can get the full picture of whether your tracking code is work
 
 Locate the file and check if it is loading. For example, If I do this activity for Plausible’s blog page, then this is what I should see:
 
-![Checking your analytics through the browser console network tab](https://plausible.io/uploads/browser-console-tag-check.png)
+![Checking your analytics through the browser console network tab](https://plausible.io/uploads/browser-console-tag-check.png "Checking your analytics through the browser console network tab")
 
 The green dot with “200 OK” here indicates that the tracking script is loading fine on this webpage. For some scripts, this number might not always be 200. As long as it's in the 200-299 range, the loading is successful.
 
@@ -72,7 +72,7 @@ If this is the case, then check for these things:
 5. **Check if the script needs to be manually initialized after loading.** Some tracking codes (although not common with web analytic tracking tools) need to be manually initialized after loading to start collecting visitor data and sending it to analytic tool’s servers. Check your tool’s documentation to see if the script needs to be manually initialized and follow the necessary steps.
 6. **Check for errors in the JS console.** If you see an error in your JS console, then you need to contact either your dev team or your web analytic tool’s support team. A JS Console error looks similar to the following screenshot, although not exact. 
 
-![Checking for errors related to your analytics in the browser console](https://plausible.io/uploads/browser-error.png)
+![Checking for errors related to your analytics in the browser console](https://plausible.io/uploads/browser-error.png "Checking for errors related to your analytics in the browser console")
 
 ### Contact the Support team
 
