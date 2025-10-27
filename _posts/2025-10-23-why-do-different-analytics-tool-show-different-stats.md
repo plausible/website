@@ -111,7 +111,7 @@ When you compare Plausible and Google Analytics side by side, you might notice t
 * **Script reliability:**\
   Because Plausible’s script is [small and loads early](https://plausible.io/lightweight-web-analytics), it tends to record visits more consistently. GA scripts depend on multiple tags and integrations, which are more prone to load delays or misconfiguration.
 
-#### **When GA shows higher numbers than Plausible**
+#### When GA shows higher numbers than Plausible
 
 That’s *unusual* and usually a sign of an implementation issue rather than a data-collection difference. If GA is reporting more visitors than Plausible, it’s worth checking:
 
