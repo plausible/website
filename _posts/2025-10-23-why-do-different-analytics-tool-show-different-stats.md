@@ -2,7 +2,7 @@
 layout: post
 title: Why analytics tools never show the same numbers?
 description: Why Plausible Analytics often shows different numbers than Google
-  Analytics, GSC, or email and ad tools — and what those differences mean.
+  Analytics, GSC, or email and ad tools – and what those differences mean.
 slug: why-analytics-numbers-dont-match
 date: 2025-10-27T13:33:24.328Z
 author: hricha-shandily
