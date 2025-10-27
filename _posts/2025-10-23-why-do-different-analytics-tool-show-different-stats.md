@@ -44,7 +44,7 @@ Result: Click numbers from email or ad tools will almost always be higher than v
 
 ### Bots, crawlers and non-human traffic
 
-Some tools (like Plausible) filter known bots/crawlers more aggressively; others include more of them (or count them as visits). Also, server-side logs or hosting dashboards count many requests from bots which analytics tools may ignore.
+Some tools (like Plausible) [filter known bots/crawlers more aggressively](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics); others include more of them (or count them as visits). Also, server-side logs or hosting dashboards count many requests from bots which analytics tools may ignore.
 
 Thus, if one tool filters bots more strictly than another, you’ll see differences.
 
@@ -83,7 +83,7 @@ While all web analytics tools operate similarly in principle, and essentially tr
 
 **How they differ vs Plausible:**
 
-* Script size & blocking: Some tools use large scripts and may be blocked more frequently. Plausible is intentionally lightweight and designed for minimal blocking.
+* Script size & blocking: Some tools use large scripts and may be blocked more frequently. Plausible is [intentionally lightweight](https://plausible.io/lightweight-web-analytics) and designed for minimal blocking.
 * Tracking identifiers: Some use cookies, localStorage, unique user IDs, device fingerprinting; Plausible hashes IP + User-Agent + domain with a daily salt, resetting every 24 hours so no persistent user ID is stored.
 * Privacy default: Plausible is built with “[privacy by default](https://plausible.io/privacy-focused-web-analytics)” in mind. Other tools may collect more granular data (for example user-id, device, cross-device, etc) which may also affect blocking/consent.
 * Session definition: Different tools define session boundaries differently; e.g., when a session ends, when new session starts, how returning visitors are counted.
@@ -204,6 +204,8 @@ Use hosting logs for server performance, bandwidth, errors; use analytics for hu
 
 * Ensure your analytics script is installed correctly: placed in `<head>`, fires early, no duplicate tags.
 * Review your cookie-consent implementation: is your analytics script blocked until consent is given? That might impact counts.
+
+  * Y﻿ou can also check out if you even need a cookie consent implementation, how to be GDPR-compliant, etc. [This guide](https://plausible.io/blog/cookie-consent-banners) would be a good starting point.
 * Tag campaigns with [UTM parameters](https://plausible.io/blog/utm-tracking-tags) consistently so you can compare traffic sources across tools.
 * Check how many visitors might be blocking scripts (via browser & ad-blocker data) – this can help explain gaps.
 * Compare definitions: what counts as a “visit”, “session”, “click” in each tool you’re comparing?
