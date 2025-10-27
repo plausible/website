@@ -13,7 +13,7 @@ If you’re comparing the data that you see in your Plausible dashboard with ano
 
 That can lead to questions like: *Which tool is “right”? What do the differences mean? Should I trust one over the other? Is there a bug? Is my setup correct?*
 
-I﻿n this blog post, we will explain why that happens — how things like browser blocking, cookie-consent banners, bot traffic, different definitions of m﻿etrics, how tags are installed, and more can lead to sizeable differences.
+I﻿n this blog post, we will explain why that happens – how things like browser blocking, cookie-consent banners, bot traffic, different definitions of m﻿etrics, how tags are installed, and more can lead to sizeable differences.
 
 The goal isn’t to declare one tool “right” and the others “wrong,” but to help you interpret the numbers correctly and use them wisely.
 
@@ -22,7 +22,7 @@ The goal isn’t to declare one tool “right” and the others “wrong,” but
 
 ## What makes analytics numbers differ?
 
-Here are the main factors — across all categories of tools — that lead to discrepancies in analytics:
+Here are the main factors, across all categories of tools, that lead to discrepancies in analytics:
 
 ### Cookie consent and privacy settings
 
@@ -42,7 +42,7 @@ When one tool is blocked a lot and another isn’t, the numbers diverge.
 
 Different tools measure different things, and may define “users,” “sessions,” “visits,” “clicks” differently.
 
-For example, Email platforms count every click on a tracked email link, ad platforms (Google Ads, Meta Ads, etc) count when someone clicks an ad – even if they close the page before it loads. But a web analytics tool only counts visits where the page loads and the script runs successfully.
+For example, Email platforms count every click on a tracked email link, ad platforms (Google Ads, Meta Ads, etc) count when someone clicks an ad, even if they close the page before it loads. But a web analytics tool only counts visits where the page loads and the script runs successfully.
 
 Result: Click numbers from email or ad tools will almost always be higher than visits in your web analytic dashboard.
 
@@ -73,7 +73,7 @@ Because each tool’s definitions vary, you’re comparing apples and oranges un
 
 ### Different scopes (visits vs clicks vs impressions)
 
-Finally, some tools track impressions (how many times something was shown), some track clicks, some track page loads or sessions. If you compare an email-tool click count with a website-analytics visit count, you’ll almost always see mismatch — and that’s expected.
+Finally, some tools track impressions (how many times something was shown), some track clicks, some track page loads or sessions. If you compare an email-tool click count with a website-analytics visit count, you’ll almost always see mismatch, and that’s expected.
 
 T﻿hese points alone must have painted a picture about why data differences occur. If you're comparing a specific tool to Plausible, feel free to go through our metrics' [definitions](https://plausible.io/docs/metrics-definitions), [ways of handling data](https://plausible.io/data-policy), or our [documentation](https://plausible.io/docs/) to help understand the differences deeply.
 
@@ -98,7 +98,7 @@ While all web analytics tools operate similarly in principle, and essentially tr
 
 T﻿his is the most common comparison.
 
-When you compare Plausible and Google Analytics side by side, you might notice that Plausible shows *higher* visitor numbers. That’s completely normal — and actually expected — because GA is more frequently blocked and often doesn’t run for every visitor.
+When you compare Plausible and Google Analytics side by side, you might notice that Plausible shows *higher* visitor numbers. That’s completely normal, and actually expected, because GA is more frequently blocked and often doesn’t run for every visitor.
 
 **Why Plausible often reports higher numbers?**
 
@@ -107,11 +107,11 @@ When you compare Plausible and Google Analytics side by side, you might notice t
 * **Consent requirements:**\
   GA typically needs user consent to run, depending on how you’ve configured your GDPR or cookie banner. If a visitor declines, GA won’t count them at all. Plausible doesn’t use cookies or collect personal data, so it doesn’t need that consent and can count all visitors generally.
 * **Data modeling:**\
-  GA4 doesn’t always show purely measured data. In some cases, it fills in missing data using *modeled* or *predictive* metrics to estimate what likely happened. Plausible, on the other hand, shows only what was actually recorded on your site — no modeling, no extrapolation.
+  GA4 doesn’t always show purely measured data. In some cases, it fills in missing data using *modeled* or *predictive* metrics to estimate what likely happened. Plausible, on the other hand, shows only what was actually recorded on your site – no modeling, no extrapolation.
 * **Script reliability:**\
   Because Plausible’s script is [small and loads early](https://plausible.io/lightweight-web-analytics), it tends to record visits more consistently. GA scripts depend on multiple tags and integrations, which are more prone to load delays or misconfiguration.
 
-#### **When GA shows higher numbers than Plausible**
+#### When GA shows higher numbers than Plausible
 
 That’s *unusual* and usually a sign of an implementation issue rather than a data-collection difference. If GA is reporting more visitors than Plausible, it’s worth checking:
 
@@ -155,7 +155,7 @@ What Plausible reports:
 * Visits and page views captured when your site loads the script and registers an event.\
   So, for example, a user could click your search result (counted in GSC), but if they navigate away before your page loads, or your script fails, or they block scripts, Plausible won’t count the visit. That explains many mismatches.
 
-F﻿or instance,If you see 1,000 clicks in GSC and 850 visits in Plausible in the same period, that doesn’t indicate a “loss” necessarily — it just means ~150 clicks didn’t lead to a page view recorded by Plausible (for any of the reasons above). That’s expected. Use GSC for how you appear in search; use Plausible for what happens on your site. The difference tells you something meaningful (for example: maybe your page loads slowly, causing drop-off before analytics loads).
+F﻿or instance,If you see 1,000 clicks in GSC and 850 visits in Plausible in the same period, that doesn’t indicate a “loss” necessarily – it just means ~150 clicks didn’t lead to a page view recorded by Plausible (for any of the reasons above). That’s expected. Use GSC for how you appear in search; use Plausible for what happens on your site. The difference tells you something meaningful (for example: maybe your page loads slowly, causing drop-off before analytics loads).
 
 ## Category 3: Why ad platform clicks don’t match what you see in Plausible
 
@@ -165,7 +165,7 @@ These are the platforms where you run paid campaigns (e.g., Meta Ads Manager (Fa
 * Redirects, tracking links, or user drop-off before page load mean that a click reported by an ad platform may not translate into a visit recorded by Plausible.
 * Attribution windows: ad tools may attribute conversions/clicks differently (e.g., last-click 7-day window) whereas still visits might be counted differently in your site analytics.
 * Browser blocking/consent may stop the analytics script, but the ad platform already counted the click.
-* Some ad tools count link-impressions or “view-through” conversions (ad shown but not clicked) — which don’t map to visits.
+* Some ad tools count link-impressions or “view-through” conversions (ad shown but not clicked), which don’t map to visits.
 
 F﻿or instance,If your ad tool reports 500 clicks and Plausible shows 420 visits from the same campaign URL/UTM during that period, that gap likely comes from clicks that didn’t result in page loads or script execution (or blocking). That’s absolutely normal. Use the ad click number to understand the campaign click-volume; use the site analytics number to understand what actually arrived and was tracked.
 
@@ -179,7 +179,7 @@ These are your newsletter and email-campaign platforms (e.g., Mailchimp, Convert
 * The link payload may include redirects or tracking parameters, which sometimes get stripped or delayed by the browser before analytics script loads.
 * Users may open email on a device and click but then close before page fully loads, or script blocked, meaning Plausible may not count them.
 
-Expect that email tool “clicks” will almost always be higher than “visits” recorded by your web analytics. That doesn’t mean one is “wrong” — they measure different things: click attempts vs actual page-load visits. If the gap is large, you can look at how many clicks resulted in the analytics script firing (via UTM tagging + Plausible campaign tracking) and measure drop-off.
+Expect that email tool “clicks” will almost always be higher than “visits” recorded by your web analytics. That doesn’t mean one is “wrong” – they measure different things: click attempts vs actual page-load visits. If the gap is large, you can look at how many clicks resulted in the analytics script firing (via UTM tagging + Plausible campaign tracking) and measure drop-off.
 
 ## Category 5: Why hosting dashboards and server logs show higher numbers
 
@@ -224,7 +224,7 @@ Instead:
 * Pick one tool as your “primary” measurement of traffic (for example Plausible for privacy-friendly, lightweight web analytics).
 * Use the others for context (search behaviour via GSC, campaign click-data via ad/email tool, hosting logs for technical hits).
 * Focus on trends, ratios, and changes over time, not the exact absolute number.
-* Recognize that gaps between tools are not necessarily “bad” — they can tell you something meaningful (e.g., how much traffic is blocked, how many users bounce before the script fires, how many clicks don’t result in page-loads).
+* Recognize that gaps between tools are not necessarily “bad” – they can tell you something meaningful (e.g., how much traffic is blocked, how many users bounce before the script fires, how many clicks don’t result in page-loads).
 
 When your setup is correct and you understand what each tool is measuring, you can rely on Plausible’s metrics for your core decisions, and still use the others for complementary insights.
 
