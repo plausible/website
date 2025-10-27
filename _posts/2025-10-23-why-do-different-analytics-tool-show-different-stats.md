@@ -15,6 +15,9 @@ I﻿n this blog post, we will explain why that happens — how things like brows
 
 The goal isn’t to declare one tool “right” and the others “wrong,” but to help you interpret the numbers and use them wisely.
 
+1. Ordered list
+   {:toc}
+
 ## What makes analytics numbers differ?
 
 Here are the main factors — across all categories of tools — that lead to discrepancies:
@@ -82,14 +85,14 @@ While all web analytics tools operate similarly in principle, and essentially tr
 
 * Script size & blocking: Some tools use large scripts and may be blocked more frequently. Plausible is intentionally lightweight and designed for minimal blocking.
 * Tracking identifiers: Some use cookies, localStorage, unique user IDs, device fingerprinting; Plausible hashes IP + User-Agent + domain with a daily salt, resetting every 24 hours so no persistent user ID is stored.
-* Privacy default: Plausible is built with “privacy by default” in mind. Other tools may collect more granular data (for example user-id, device, cross-device, etc) which may also affect blocking/consent.
+* Privacy default: Plausible is built with “[privacy by default](https://plausible.io/privacy-focused-web-analytics)” in mind. Other tools may collect more granular data (for example user-id, device, cross-device, etc) which may also affect blocking/consent.
 * Session definition: Different tools define session boundaries differently; e.g., when a session ends, when new session starts, how returning visitors are counted.
 * Bot filtering: Each tool has its own logic/lists for what is a bot vs human visit.
 * Data modeling or sampling: Some tools may sample large datasets or apply modeling; Plausible does not sample and shows only what was actually captured.
 
 ### GA4 vs Plausible
 
-When you compare Plausible and Google Analytics side by side, you might notice that Plausible shows higher visitor numbers. That’s completely normal — and actually expected — because GA is more frequently blocked and often doesn’t run for every visitor.
+When you compare Plausible and Google Analytics side by side, you might notice that Plausible shows *higher* visitor numbers. That’s completely normal — and actually expected — because GA is more frequently blocked and often doesn’t run for every visitor.
 
 **Why Plausible often reports higher numbers?**
 
@@ -100,7 +103,7 @@ When you compare Plausible and Google Analytics side by side, you might notice t
 * **Data modeling:**\
   GA4 doesn’t always show purely measured data. In some cases, it fills in missing data using *modeled* or *predictive* metrics to estimate what likely happened. Plausible, on the other hand, shows only what was actually recorded on your site — no modeling, no extrapolation.
 * **Script reliability:**\
-  Because Plausible’s script is small and loads early, it tends to record visits more consistently. GA scripts depend on multiple tags and integrations, which are more prone to load delays or misconfiguration.
+  Because Plausible’s script is [small and loads early](https://plausible.io/lightweight-web-analytics), it tends to record visits more consistently. GA scripts depend on multiple tags and integrations, which are more prone to load delays or misconfiguration.
 
 #### **When GA shows higher numbers than Plausible**
 
@@ -113,13 +116,17 @@ That’s *unusual* — and usually a sign of an implementation issue rather than
 
 If everything looks fine on Plausible’s side (script firing, your own test visit appearing correctly), then it’s likely that GA is over-counting due to duplicate installations or modeled data.
 
+Y﻿ou can check out [our guide](https://plausible.io/blog/is-analytics-working-correctly) on how to check if any analytics tool is working correctly.
+
 ## Category 2: Understanding the difference between Plausible and search data tools
 
 These are services that do **not** rely on a script embedded in your site. Instead they collect data elsewhere (for example search engine logs) and provide insights. A prime example is Google Search Console (GSC).
 
 **How they work**
 
-Take GSC: It reports impressions and clicks from Google Search results — i.e., before the user lands on your site. For example, an impression means your page appeared in a search result; a click means someone clicked the link to your site. Plausible (and other on-site analytics) track what happens after the page is loaded (and the script runs). So you’re comparing two different stages of the user journey.
+Take GSC: It reports impressions and clicks from Google Search results — i.e., before the user lands on your site. For example, an impression means your page appeared in a search result; a click means someone clicked the link to your site. 
+
+Plausible (and other on-site analytics) track what happens *after* the page is loaded and the script runs. So you’re comparing two different stages of the user journey.
 
 **Why the numbers differ vs Plausible**
 
@@ -168,8 +175,7 @@ These are your newsletter and email-campaign platforms (e.g., Mailchimp, Convert
 
 Expect that email tool “clicks” will almost always be higher than “visits” recorded by your web analytics. That doesn’t mean one is “wrong” — they measure different things: click attempts vs actual page-load visits. If the gap is large, you can look at how many clicks resulted in the analytics script firing (via UTM tagging + Plausible campaign tracking) and measure drop-off.
 
-## \
-Category 5: Why hosting dashboards and server logs show higher numbers
+## Category 5: Why hosting dashboards and server logs show higher numbers
 
 Server logs (Apache, Nginx, CDN logs, hosting dashboards like cPanel, etc) record every request to your server — static assets (images, CSS, JS), bots, crawlers, failed requests, clients with scripts disabled, etc. They don’t rely on browser-script execution. 
 
@@ -198,7 +204,7 @@ Use hosting logs for server performance, bandwidth, errors; use analytics for hu
 
 * Ensure your analytics script is installed correctly: placed in `<head>`, fires early, no duplicate tags.
 * Review your cookie-consent implementation: is your analytics script blocked until consent is given? That might impact counts.
-* Tag campaigns with UTM parameters consistently so you can compare traffic sources across tools.
+* Tag campaigns with [UTM parameters](https://plausible.io/blog/utm-tracking-tags) consistently so you can compare traffic sources across tools.
 * Check how many visitors might be blocking scripts (via browser & ad-blocker data) – this can help explain gaps.
 * Compare definitions: what counts as a “visit”, “session”, “click” in each tool you’re comparing?
 * Review the drop-off from “click” (ad tool / email tool) to “visit” (analytics). If drop-off seems large, investigate page-load speed, script execution, redirects.
