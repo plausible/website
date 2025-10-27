@@ -6,6 +6,8 @@ description: Why Plausible Analytics often shows different numbers than Google
 slug: why-analytics-numbers-dont-match
 date: 2025-10-23T15:38:08.055Z
 author: hricha-shandily
+image: /uploads/dashboard_plausible.png
+image-alt: Plausible dashboard stats
 ---
 If you’re comparing the data that you see in your Plausible dashboard with another tool you use like Google Analytics 4, Google Search Console, an email provider, Facebook ads, etc., seeing some differences is almost guaranteed.
 
@@ -16,7 +18,7 @@ I﻿n this blog post, we will explain why that happens — how things like brows
 The goal isn’t to declare one tool “right” and the others “wrong,” but to help you interpret the numbers and use them wisely.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What makes analytics numbers differ?
 
