@@ -24,6 +24,10 @@ Web analytics tracking codes are typically JavaScript snippets. When installed o
 
 This is a general guide for checking for possible analytics installation issues that can be applied to most web analytic tracking tools.
 
+I﻿f you are comparing two analytics tools and expecting to see exact same numbers and that is the reason you're investigating if your analytics is working properly, it also might be worth checking out [this guide](https://plausible.io/blog/why-analytics-numbers-dont-match) on "Why analytics tools never show the same numbers?"
+
+
+
 ![How to debug web analytics script](https://plausible.io/uploads/framework-web-analytics-script-debug.png "How to debug web analytics script")
 
 ### Start by checking your Real Time and/or Landing Pages data
