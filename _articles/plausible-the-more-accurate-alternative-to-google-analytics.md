@@ -34,6 +34,8 @@ For publishers and content creators, inaccurate metrics may lead to inaccurate u
 
 In all cases, missing and/or inaccurate data affects the ability to track the real impact of the website, campaigns, and user engagement.
 
+P.S. If you’ve ever wondered *why analytics numbers differ between tools*, [this post explains why](https://plausible.io/blog/why-analytics-numbers-dont-match).
+
 ## R﻿easons that affect data accuracy
 
 Let’s look at the reasons that affect data accuracy and what we do differently at Plausible to ensure accurate data and real insights.
