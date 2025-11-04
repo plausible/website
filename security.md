@@ -76,7 +76,7 @@ You are fully in control of any of the website stats we collect on your behalf. 
 
 ## User identification and authorization
 
-Passwords for signing in are hashed and salted. You can [enable two-factor authentication (2FA)](https://plausible.io/docs/2fa) as an extra security layer for your Plausible account. You can also [configure Single Sign-On (SSO)](https://plausible.io/docs/sso) for your team, including the option to restrict access so only users logging in through SSO can access your account.
+Passwords for signing in are hashed and salted. You can [enable two-factor authentication (2FA)](https://plausible.io/docs/2fa) as an extra security layer for your Plausible account. You can require all your team members to enable 2FA too. You can also [configure Single Sign-On (SSO)](https://plausible.io/docs/sso) for your team, including the option to restrict access so only users logging in through SSO can access your account.
 
 We list your active logged-in sessions in your account settings where we also allow you to remotely [log out of your account on other devices](https://plausible.io/docs/login-management). All logged-in sessions automatically expire after 14 days of inactivity. If you [change your account password](https://plausible.io/docs/reset-password), we automatically log out any of your sessions on your other devices.
 
