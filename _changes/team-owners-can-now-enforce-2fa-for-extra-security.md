@@ -3,9 +3,7 @@ layout: change
 title: Team owners can now enforce 2FA for extra security
 date: 2025-11-05T09:39:29.936Z
 ---
-Team owners can now make **two-factor authentication (2FA)** mandatory for all members. This helps teams keep their accounts and data even more secure.
-
-You can manage your team’s 2FA settings in the Team Settings section.
+Team owners can now make **two-factor authentication (2FA)** mandatory for all members. This helps teams keep their accounts and data even more secure. You can manage your team’s 2FA settings in the Team Settings section. Learn more [here](https://plausible.io/docs/2fa).
 
 W﻿e take security very seriously, here's an overview of everything you can do to keep your account secure:
 
