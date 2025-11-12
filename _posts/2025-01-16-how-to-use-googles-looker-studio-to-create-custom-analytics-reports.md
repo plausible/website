@@ -154,6 +154,12 @@ So to create the table in the Plausible dashboard that shows unique conversions,
 
 ![goals-table-in-looker-studio](/uploads/goals-table-in-looker-studio.png "goals-table-in-looker-studio")
 
+If you have revenue goals set up for your site, you will also be able to use the “Total Revenue” and “Average Revenue” metrics. These metrics work in a similar way to Conversion Rate, in that they require Goals or Custom Props to be added either as a Dimension or a Filter.
+
+The value of the revenue goals will be displayed as a simple number and you’ll need to apply currency formatting inside Looker Studio by clicking the edit icon, then going to *Data Type → Currency* and selecting the appropriate currency.
+
+Any Goals that have not been set up as revenue goals will display as Null. If you would like to create a Scorecard metric that shows total revenue for your entire site, apply a Filter using the Goal Dimension. The easiest way to do this is to create an ‘In List’ filter so you can select which Goals to include (either all Goals or only those tied to revenue).
+
 ## Advanced uses of Looker Studio
 
 Plausible Analytics Looker Studio connector proves even more useful when you are using it for advanced applications that cannot be replicated in the Plausible dashboard.
