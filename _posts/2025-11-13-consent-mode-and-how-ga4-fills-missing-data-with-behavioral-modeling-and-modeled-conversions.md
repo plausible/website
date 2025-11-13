@@ -2,8 +2,9 @@
 layout: post
 title: Consent Mode and how GA4 fills missing data with behavioral modeling and
   modeled conversions
-description: f
-slug: f
+description: Google Consent Mode, why GA4 depends on modeled data, and how
+  Plausible offers a simple, privacy friendly alternative with real insights.
+slug: consent-mode-ga4-modeled-data
 date: 2025-11-13T19:34:33.765Z
 author: hricha-shandily
 ---
