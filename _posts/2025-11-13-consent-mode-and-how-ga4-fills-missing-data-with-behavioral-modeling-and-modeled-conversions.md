@@ -8,11 +8,14 @@ slug: consent-mode-ga4-modeled-data
 date: 2025-11-13T19:34:33.765Z
 author: hricha-shandily
 ---
-Consent Mode and how GA4 fills missing data with behavioral modeling and modeled conversions
+A few years ago, websites could collect almost any data they wanted. Nobody had to give consent, nobody questioned tracking, and analytics tools like Google Analytics worked perfectly.
 
-A few years ago, website owners could collect almost any data they wanted. Nobody had to give consent, nobody questioned tracking, and analytics tools like Google Analytics had a perfect view of visitors.
+That time is gone. People say no to tracking, browsers block cookies, and privacy laws expect real consent. When a visitor rejects tracking, GA4 loses almost everything. To help patch this loss, Google created something called Consent Mode.
 
-That time is gone. People are aware, they say no to tracking. While browsers can block cookies. Laws demand real consent. And when a visitor rejects tracking, GA4 loses almost everything. To fix this loss, Google created something called the Consent Mode.
+Let’s break down what it is, why Google introduced it, what happens behind the scenes, and how Plausible takes a very different approach.
+
+1. Ordered list
+   {:toc}
 
 ## What is Google Consent Mode?
 
@@ -160,11 +163,7 @@ This distinction matters. Recovery means the data existed and we got it back. Re
 
 GA4’s modeled metrics are reconstruction. They are not real events. They are predictions.
 
-Once modeling is active, GA4 mixes:
-
-* real observed data\
-  and
-* predicted modeled data
+Once modeling is active, GA4 mixes real observed data and predicted modeled data.
 
 GA4 does not mark which is which. You cannot separate them in your reports.
 
