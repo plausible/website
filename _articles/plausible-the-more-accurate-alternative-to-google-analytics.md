@@ -191,7 +191,7 @@ You cannot differentiate modeled data from your regular data.
 
 Moreover, the conversion numbers you see aren't always final. It takes up to 12 days for conversion data to process and stabilize after each conversion is initially recorded. Why? Because GA4 is also feeding this data into attribution models (for example, to determine which channels contribute most to conversions).
 
-So, that’s another reason that much of your GA stats are actually just estimated numbers.
+So, that’s another reason that much of your GA stats are actually just estimated numbers. Here's a [full breakdown](https://plausible.io/blog/consent-mode-ga4-modeled-data).
 
 **How do we tackle this at Plausible?** Plausible does not use any data sampling or modeling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site.
 
