@@ -82,7 +82,7 @@ To get your banner up, you can find an ethical, privacy-respecting, and legally 
 
 If you are using Google Analytics, you can try out the [Consent Mode](https://support.google.com/google-ads/answer/10000067?hl=en) for controlling how your Google tags adjust based on the consent “status” of your website visitors. Google designed it to make up for your lost data when people reject your cookie banners. 
 
-The heavy downside is that this gives way to [key events modeling](https://support.google.com/analytics/answer/10710245?hl=en) inside your GA reports, i.e. you won’t be able to see accurate and real data in your reports with no way of differentiating it from modeled data.
+The heavy downside is that this gives way to [key events modeling](https://support.google.com/analytics/answer/10710245?hl=en) inside your GA reports, i.e. you won’t be able to see accurate and real data in your reports with no way of differentiating it from modeled data. We explain this in depth [here](https://plausible.io/blog/consent-mode-ga4-modeled-data)
 
 Moreover, there have been countless reports of missing data from Google Analytics users after they implemented Google Consent Mode V2. So make sure to make a fully informed decision.
 
