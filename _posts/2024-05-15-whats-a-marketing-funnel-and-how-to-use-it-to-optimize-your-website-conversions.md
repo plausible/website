@@ -110,7 +110,7 @@ You can mark such events as goals, and simply weave those goals into specific fu
 
 This gives enough data to conduct qualitative analysis, understand buyer personas better, conduct A/B tests and other marketing experiments to optimize the funnel in question.
 
-You can [create your funnels](https://plausible.io/docs/funnel-analysis) in seconds in privacy-first and simple-to-use web analytics tools. The biggest advantage is that the data you can get with a privacy-centric tool like Plausible is more truthful because we don’t use ML to model presumed analytics to fill in data gaps that stem from cookie consent banner declines.
+You can [create your funnels](https://plausible.io/docs/funnel-analysis) in seconds in privacy-first and simple-to-use web analytics tools. The biggest advantage is that the data you can get with a privacy-centric tool like Plausible is more truthful because we [don’t use ML to model presumed analytics](https://plausible.io/blog/consent-mode-ga4-modeled-data) to fill in data gaps that stem from cookie consent banner declines.
 
 For eg. one of the funnel goals we track at Plausible is how many website visitors complete the entire sign up flow. This starts with clicking the “Start Free Trial” or “Get Started” button on the website and landing on the registration page, followed by submitting contact information, followed by activating the account with OTP verification, and finally adding the specific website’s URL that needs to be tracked.
 
