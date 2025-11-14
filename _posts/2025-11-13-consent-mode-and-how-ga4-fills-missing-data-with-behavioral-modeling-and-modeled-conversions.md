@@ -5,14 +5,14 @@ title: Consent Mode and how GA4 fills missing data with behavioral modeling and
 description: Google Consent Mode, why GA4 depends on modeled data, and how
   Plausible offers a simple, privacy friendly alternative with real insights.
 slug: consent-mode-ga4-modeled-data
-date: 2025-11-14T06:05:28.601Z
+date: 2025-11-14T09:15:10.562Z
 author: hricha-shandily
 image: /uploads/blended-data-consent-mode-setting-in-ga4.png
 image-alt: blended-data-consent-mode-setting-in-ga4
 ---
 For a long time, website owners could collect as much data as they wanted without asking anyone. Nobody had to give consent, nobody questioned tracking, and tools like Google Analytics worked perfectly.
 
-That time is gone. People say no to tracking, browsers block cookies, and privacy laws demand real consent. When a visitor rejects tracking, GA4 loses almost all data. To help patch this loss, Google created something called the Consent Mode. 
+That time is gone. People say no to tracking, browsers block cookies, and privacy laws demand real consent. When a visitor rejects tracking, GA4 loses almost all data. To help patch this loss, Google created something called the Consent Mode.
 
 Let’s break down what it is, why Google introduced it, what happens behind the scenes, and how Plausible takes a very different approach where you don't have to lose data in the first place.
 
@@ -217,8 +217,6 @@ Consent Mode is a workaround that creates a long chain of technical requirements
 | Google modeling thresholds must be reached       | No modeling required              |
 | BigQuery exports vary depending on consent       | No BigQuery setup needed          |
 | GA4, Ads, and Tag Manager must stay in sync      | Nothing to sync                   |
-
-
 
 Instead of adding more layers to fix a broken tracking model, Plausible works cleanly with how the modern web operates.
 
