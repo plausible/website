@@ -7,6 +7,8 @@ description: Google Consent Mode, why GA4 depends on modeled data, and how
 slug: consent-mode-ga4-modeled-data
 date: 2025-11-14T06:05:28.601Z
 author: hricha-shandily
+image: /uploads/blended-data-consent-mode-setting-in-ga4.png
+image-alt: blended-data-consent-mode-setting-in-ga4
 ---
 For a long time, website owners could collect as much data as they wanted without asking anyone. Nobody had to give consent, nobody questioned tracking, and tools like Google Analytics worked perfectly.
 
@@ -15,7 +17,7 @@ That time is gone. People say no to tracking, browsers block cookies, and privac
 Let’s break down what it is, why Google introduced it, what happens behind the scenes, and how Plausible takes a very different approach where you don't have to lose data in the first place.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## What is Google Consent Mode?
 
