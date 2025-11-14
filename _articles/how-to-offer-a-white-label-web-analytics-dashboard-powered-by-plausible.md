@@ -73,6 +73,10 @@ You can proxy requests to Plausible in various ways, all depending on how you've
 
 Learn more about [the proxy functionality](https://plausible.io/docs/proxy/introduction).
 
+## Consolidated views
+
+If you manage several client sites under your account, you can use a [consolidated view](https://plausible.io/docs/consolidated-views) to see the overall traffic across all of them. This gives you a quick way to track total visitors and other key metrics for the full set of properties you manage. The layout is the same as any other dashboard, but the data includes all selected sites instead of a single one.
+
 ## How to explore the white label analytics dashboard powered by Plausible
 
 You can explore Plausible using [our free trial](https://plausible.io/register). We have a 30-day free trial with no credit card required. These 30 days allow you to explore Plausible, our dashboard and integration into your user interface.
