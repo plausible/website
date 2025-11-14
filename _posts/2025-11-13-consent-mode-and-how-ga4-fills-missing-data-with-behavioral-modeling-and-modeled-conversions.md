@@ -5,7 +5,7 @@ title: Consent Mode and how GA4 fills missing data with behavioral modeling and
 description: Google Consent Mode, why GA4 depends on modeled data, and how
   Plausible offers a simple, privacy friendly alternative with real insights.
 slug: consent-mode-ga4-modeled-data
-date: 2025-11-13T19:34:33.765Z
+date: 2025-11-14T06:05:28.601Z
 author: hricha-shandily
 ---
 For a long time, website owners could collect as much data as they wanted without asking anyone. Nobody had to give consent, nobody questioned tracking, and tools like Google Analytics worked perfectly.
