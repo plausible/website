@@ -54,7 +54,7 @@ Thus, if one tool filters bots more strictly than another, you’ll see differen
 
 ### Data sampling, modeling or estimated data
 
-Some analytics platforms (especially large ones) apply data modeling or estimates when full data isn’t available (due to blocking, consent denied, etc.). Others only show what they *actually measured*. 
+Some analytics platforms (especially large ones) [apply data modeling](https://plausible.io/blog/consent-mode-ga4-modeled-data) or estimates when full data isn’t available (due to blocking, consent denied, etc.). Others only show what they *actually measured*. 
 
 If one tool shows measured + modeled data and another shows measured only, the numbers naturally differ. For example, GA4 advertises modeling to fill gaps where tracking is difficult.
 
