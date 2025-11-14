@@ -78,7 +78,7 @@ Another option is to completely turn it off. There are more nuances to this that
 
 ### Google Consent Mode
 
-The Consent mode is designed by Google to help recover lost data from rejected cookie banners. In a nutshell, if a visitor happens to reject the banner, it doesn’t stop the Google tag from loading, it just anonymizes visitor identifiers.
+[The Consent mode](https://plausible.io/blog/consent-mode-ga4-modeled-data) is designed by Google to help recover lost data from rejected cookie banners. In a nutshell, if a visitor happens to reject the banner, it doesn’t stop the Google tag from loading, it just anonymizes visitor identifiers.
 
 This data is used to [model conversions](https://support.google.com/google-ads/answer/10081327?sjid=1760157719947060479-AP) and user behavior. This directly affects “Conversion“, “Ad“, and “Exploration“ reports in GA4.
 
