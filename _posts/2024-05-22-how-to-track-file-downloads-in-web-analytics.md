@@ -15,7 +15,7 @@ I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, b
 H﻿ere's everything you need to know about what you can track about your file downloads and how.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## What is a file download?
 
@@ -96,6 +96,8 @@ I﻿f you don't have an active Plausible account, you can [get started](https://
 Then, simply enable "File downloads" as an optional measurement when adding a new site to your Plausible account, or at any later time in the "Site Installation" area of the "General" section in your site settings.
 
 ![enable-file-downloads-tracking](/uploads/enable-file-downloads-tracking.webp "enable-file-downloads-tracking")
+
+T﻿hat's it.
 
 Insert the displayed snippet into your site for all tracking to work as expected.
 
