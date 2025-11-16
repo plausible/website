@@ -159,4 +159,6 @@ You'll see the "Outbound Link: Click" goal as soon as the first external link cl
 * Countries that click on external links
 * Devices (screen size, browser, OS) that click on external links
 
-And you can click on a particular external URL to filter your Plausible Analytics dashboard by those clicks only and get the full overview of the visitors that clicked on that specific URL. Enjoy!
+And you can click on a particular external URL to filter your Plausible Analytics dashboard by those clicks only and get the full overview of the visitors that clicked on that specific URL. For all details, you can check out our [documentation](https://plausible.io/docs/outbound-link-click-tracking).
+
+Enjoy!
