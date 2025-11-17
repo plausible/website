@@ -97,11 +97,7 @@ Then, simply enable "File downloads" as an optional measurement when adding a n
 
 ![enable-file-downloads-tracking](/uploads/enable-file-downloads-tracking.webp "enable-file-downloads-tracking")
 
-Insert the displayed snippet into your site for all tracking to work as expected.
-
-P﻿.S. We are working on an update where you won't need to update the tracking snippet either and would be able to enable tracking with just a flip of a switch. 
-
-Once done, we automatically start collecting file download events each time a link is clicked containing any of the following file extensions: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`
+T﻿hat's it. Once done, we automatically start collecting file download events each time a link is clicked containing any of the following file extensions: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`
 
 A new goal appears on your dashboard called "File download" and you can see all the related data such as: 
 
