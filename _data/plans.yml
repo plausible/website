@@ -35,6 +35,7 @@
     - "Looker Studio Connector"
     - "Ecommerce revenue attribution"
     - "Funnels"
+    - "Consolidated View"
   first_paint_price: "$19"
 
 - tier: "enterprise"
