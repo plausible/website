@@ -129,49 +129,25 @@ You can now see the number of external link clicks in Google Analytics, which li
 
 If you find Google Analytics cumbersome and slow to work with, you can get automated outbound link click tracking in Plausible Analytics on [our fast loading dashboard](https://plausible.io/plausible.io).
 
-## How to track outbound links with Plausible Analytics
-
-Don't use Google Analytics? You can get this automated external link click tracking directly in Plausible Analytics too. This is in-built into our analytics tool so the process to set it all up is even easier.
+## W﻿hat is Plausible Analytics?
 
 Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [website visitors' privacy](https://plausible.io/privacy-focused-web-analytics).
-
-If you want to track external link clicks in Plausible Analytics, here's what you need to do.
-
-### Sign up for a Plausible Analytics account
-
-First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites.
 
 We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed.
 
 The process below works on all the different content management systems you may use for your website including WordPress, Ghost, Squarespace and Webflow.
 
-### Add the Plausible script snippet to your site
+## How to track outbound links with Plausible Analytics
 
-Add the Plausible Analytics "outbound link click" script snippet to your site. The outbound link click snippet will look like this (make sure to change the data-domain attribute to the domain you added to your Plausible account):
+Don't use Google Analytics? You can get this automated external link click tracking directly in Plausible Analytics too. This is in-built into our analytics tool so the process to set it all up is even easier.
 
-```html
-<script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.outbound-links.js"></script>
-```
+First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites.
 
-You need to place this tracking script code into the header (`<head>`) section of your site. Place the tracking script within the `<head> … </head>` tags.
-
-### Create a custom event goal in your Plausible Analytics account
-
-Create one general goal for all external link clicks to start showing up in your dashboard.
-
-To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section. You should see a prompt to add a goal.
-
-![Image](https://plausible.io/docs/img/goal-conversions.png)
-
-Click on the "+ Add goal" button to go to the goal creation form. Select `Custom event` as the goal trigger and enter this exact name: `Outbound Link: Click`.
-
-![Image](https://plausible.io/docs/img/outbound-link-click-goal.png)
-
-Next, click on the "Add goal" button and you'll be taken back to the Goals page.
+Then, simply enable “O﻿utbound links” as an optional measurement when adding a new site to your Plausible account, or at any later time in the “Site Installation” area of the “General” section in your site settings.
 
 ### Check your external link click stats in your dashboard
 
-After you've completed this process, all the external link clicks will start being tracked. They will be displayed in the "Goal Conversions" report at the bottom of your Plausible Analytics dashboard.
+After you enable outbound link click tracking, we will automatically add a new goal called `Outbound Link: Click` to your site and all the external link clicks will start being tracked. They will be displayed in the "Goal Conversions" report at the bottom of your Plausible Analytics dashboard.
 
 You'll see the "Outbound Link: Click" goal as soon as the first external link click has been tracked. You can then see:
 
@@ -183,4 +159,6 @@ You'll see the "Outbound Link: Click" goal as soon as the first external link cl
 * Countries that click on external links
 * Devices (screen size, browser, OS) that click on external links
 
-And you can click on a particular external URL to filter your Plausible Analytics dashboard by those clicks only and get the full overview of the visitors that clicked on that specific URL. Enjoy!
+And you can click on a particular external URL to filter your Plausible Analytics dashboard by those clicks only and get the full overview of the visitors that clicked on that specific URL. For all details, you can check out our [documentation](https://plausible.io/docs/outbound-link-click-tracking).
+
+Enjoy!
