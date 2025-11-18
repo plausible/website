@@ -122,7 +122,7 @@ Plus:
 * You don’t have to worry about cookies-related issues because we use a [cookie-less mechanism](https://plausible.io/blog/google-analytics-cookies) to track website data.
 * You can also count data from the users who use ad blockers, by using a [proxy](https://plausible.io/docs/proxy/introduction).
 
-You can simply filter your traffic by a revenue-marked goal, and see an overview of the sources (channels + campaigns) that brought in those sessions, the pages that received those sessions, and the devices, browsers, operating systems on which the sessions were conducted.
+You can simply filter your traffic by a revenue-marked goal, and see an overview of the sources (channels + campaigns) that brought in those sessions, the pages that received those sessions, and the devices, browsers, operating systems on which the sessions were conducted, and even get a breakdown of the revenue by exact, specific traffic sources, top/entry/exit pages, locations, browser/OS/device types, and custom properties. 
 
 *P﻿.S.* If you have an e-commerce store powered by WooCommerce, you should check out [our plugin for implementing a full e-commerce tracking setup in literally one-click](https://plausible.io/blog/woocommerce-analytics-plugin).
 
