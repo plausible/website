@@ -73,14 +73,20 @@ You can proxy requests to Plausible in various ways, all depending on how you've
 
 Learn more about [the proxy functionality](https://plausible.io/docs/proxy/introduction).
 
-## Consolidated views
+## Consolidated View for a holistic look at your network
 
-If you manage several client sites under your account, you can use a [consolidated view](https://plausible.io/docs/consolidated-views) to see the overall traffic across all of them. This gives you a quick way to track total visitors and other key metrics for the full set of properties you manage. The layout is the same as any other dashboard, but the data includes all selected sites instead of a single one.
+Consolidated View functionality aggregates stats from all of your sites and allows you to see them in one combined dashboard while keeping the individual site stats on their own separate dashboards. 
+
+It allows you to keep all your global traffic in one dashboard for internal purposes but also share the traffic from individual tenant sites with the particular client only. 
+
+This way you can get detailed insights into individual site performance and a holistic view of your whole network too. 
+
+Learn more about [the consolidated view functionality](https://plausible.io/docs/consolidated-views).
 
 ## How to explore the white label analytics dashboard powered by Plausible
 
 You can explore Plausible using [our free trial](https://plausible.io/register). We have a 30-day free trial with no credit card required. These 30 days allow you to explore Plausible, our dashboard and integration into your user interface.
 
-The Stats API, embedded dashboard and custom proxy are available during the trial and on our regular subscription plans. If you need access to the Sites API, want to use our managed proxy or want to track more than 10 websites, please contact us to discuss an enterprise plan.
+The Stats API, embedded dashboard, Consolidated View and custom proxy are available during the trial and on our Business subscription plans. If you need access to the Sites API, want to use our managed proxy or want to track more than 10 websites, please contact us to discuss an enterprise plan.
 
 [Contact us](https://plausible.io/contact) if you have any questions about a possible integration of Plausible Analytics into your product.
