@@ -1,6 +1,6 @@
 ---
 layout: change
-title: Revenue breakdown in all expanded reports
+title: "Revenue breakdown in your reports "
 date: 2025-11-23T18:33:57.907Z
 ---
 I﻿f you track your [revenue goals](https://plausible.io/docs/ecommerce-revenue-tracking) in Plausible, you can now see a breakdown of your revenue within the individual reports as well.
