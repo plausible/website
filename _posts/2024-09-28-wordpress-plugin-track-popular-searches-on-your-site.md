@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "WordPress plugin: Track popular searches on your site"
+title: 11 handpicked WordPress search plugins for building the best site search
 description: Easily track the popular search terms visitors are using on your
   WordPress site. Optimize your site and improve user experience.
-slug: wordpress-search-tracking
+slug: "wordpress-plugin-for-site-search "
 date: 2024-09-28T15:08:11.500Z
 author: hricha-shandily
 image: /uploads/wordpress-search-queries-tracking-with-plugin.png
@@ -37,16 +37,16 @@ Alternatively, let’s say you already sell “red Christmas ankle socks” and 
 
 Or say, you run a blog on B2B marketing. If you find out about the topics your readers typically search for, you can prioritize those articles.
 
-In this article, we are sharing how you can implement an end-to-end search tracking –– right from getting the search functionality up in your site to mapping it to other relevant business analytics, so you can make data-informed business decisions.
+In this article, we are sharing how you can implement an end-to-end search tracking: right from getting the search functionality up in your site to mapping it to other relevant business analytics, so you can make data-informed business decisions.
 
 1. Ordered list
 {:toc}
 
-## Implementing site search in WordPress
+## List of site search plugins in WordPress
 
 The default WordPress search function is an option, but it is usually considered basic. 
 
-Here is a quick, high-level overview of some popular plugins that you can check out, followed by a deeper analysis of features.
+Here is a quick, high-level overview of some popular plugins that you can check out, followed by a deeper analysis of features. Each one offers different benefits: some might offer you better live search keywords, others support partial word matching...it's worth spending some time deciding on the plugin you require.
 
 | **Plugin name**                          | **Pricing options**                          | **Rating** | **Active installations** |
 | ---------------------------------------- | -------------------------------------------- | ---------- | ------------------------ |
@@ -253,7 +253,7 @@ Things to consider:
 
 Key features include:
 
-* Instant product search results: Shows live search results as users type.
+* Instant product search results: Shows live search keywords as users type. 
 * Detailed product previews: Displays product images, prices, and descriptions directly in search results.
 * Allows searches by SKU and other WooCommerce product attributes.
 * Customizable search box and results: Offers design options to match your site's styling.
