@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Plausible: Powerful audience segmentation and visitor analysis"
+title: "Plausible: Powerful website audience segmentation and visitor analysis "
 description: Audience segmentation helps you find useful insights by breaking
   down your audience data. Plausible makes this easy and privacy-friendly.
 permalink: /audience-segmentation
 ---
-The one thing that has always helped Plausible grow is sticking to the needs of a specific set of audience. When we started as a simple-enough and privacy-first way of tracking website traffic, we automatically started appealing to individual creators.
+The one thing that has always helped Plausible grow is sticking to the needs of a specific set of web audience. When we started as a simple-enough and privacy-first way of tracking website traffic, we automatically started appealing to individual creators. 
 
 As we grew and improved our tech and product, and stuck with our philosophy of rejecting surveillance capitalism while providing a really easy, but useful, tool to use –– we noticed an uptick in the customer base that were small startups and tech founders.
 
@@ -20,26 +20,26 @@ It makes sense to analyze your website traffic to understand such insights since
 
 ## W﻿hat is audience segmentation?
 
-While Plausible anyway gives you basic and reliable data on visitor traffic, it can come in hundreds or millions of numbers. Either way, it is next to impossible to make meaningful sense of it without creating some subgroups that can be studied.
+While Plausible anyway gives you basic and reliable data on visitor traffic, it can come in hundreds or millions of numbers. Either way, it is next to impossible to make meaningful sense of it without creating some subgroups that can be studied. 
 
-That is audience segmentation in a nutshell, i.e. when you filter out your available website visitors’ data to create “segments” that can be studied to answer meaningful business questions and take defining decisions and/or create marketing strategies.
+That is audience profiling and segmentation in a nutshell, i.e. when you filter out your available website visitors’ data to create “segments” that can be studied to answer meaningful business questions and take defining decisions and/or create marketing strategies.
 
-The use cases and depths of analyses can greatly vary though. Say, an independent journalist may want to know about the number of unique visitors to their website, segmented by cities they get in a month and a year. This clarity could help them personalize their research work, language and writing style to the cities that show the most interest in their work.
+The use cases and depths of analyses can greatly vary though. Say, an independent journalist may want to know about the number of unique visitors to their website, segmented by cities they get in a month and a year. This clarity could help them personalize their research work, language and writing style to the cities that show the most interest in their work. 
 
-Similarly, a SaaS business team may have additional requirements and could want to know about the audience segments taking specific actions on their site and converting. They could also want to drill further into that to understand which channels such converting audiences typically came from in a given period of time.
+Similarly, a SaaS business team may have additional requirements and could want to know about the website audience segments taking specific actions on their site and converting. They could also want to drill further into that to understand which channels such converting web audiences typically came from in a given period of time. 
 
 Whereas, a large e-commerce platform might be interested in tracking complete, detailed customer journeys, from initial product views to final purchases, across different product categories and marketing campaigns.
 
-The interesting thing to note is that if you are in business, you’d definitely be having some audience segments –– whether you are aware of them yet or not. It’s worth exploring them.
+The interesting thing to note is that if you are in business, you’d definitely be having some audience segments, whether you are aware of them yet or not. It’s worth exploring them.
 
-So, let’s understand how and what a web analytics tool can tell you about your segments of audiences.
+So, let’s understand how and what audience segmentation tools or more specifically, a web analytics tool can tell you about your segments of audiences.
 
 ## What a web analytics tool can reveal about audience segmentation
 
-No matter the depth of analysis needed, any segment is built with a mix and match of the three basic questions:
+No matter the depth of audience segmentation analysis needed, any segment is built with a mix and match of the three basic questions:
 
 * How did the audience find us (channels of acquisition, marketing campaigns)?
-* What they were like (devices used, locations they live in)?
+* What they were like (devices used, demographics they come from)?
 * What they did on the site (pages visited, actions taken, conversions met, etc.)?
 
 In a web analytics dashboard, like Plausible or Google Analytics, these common audience insights take the shape of:
@@ -63,7 +63,7 @@ In Plausible, this is as easy and quick as applying a few filters on your simple
 
 ## How to segment audience in your Plausible dashboard?  
 
-In Plausible, your audience data is already presented in basic segments like channels of acquisition, landing pages they visit, the locations they come from, and the devices they use. This is all done by default, out-of-the-box.
+In Plausible, your audience data is already presented in basic segments like channels of acquisition, landing pages they visit, their demographics, and the devices they use. This is all done by default, out-of-the-box. 
 
 When you have a Plausible dashboard open, clicking on any entry (or entries) filters the dashboard to show only the data pertaining to [those](https://plausible.io/plausible.io?filters=((is,country,(US)),(is_not,region,(US-CO,US-MN,US-AZ)),(is,goal,(Visit%2B/register)))&labels=(US:United%2BStates,US-CO:Colorado,US-MN:Minnesota,US-AZ:Arizona)) filters. You can also [save a segment](https://plausible.io/docs/filters-segments#how-to-save-a-segment) for quick access later.
 
