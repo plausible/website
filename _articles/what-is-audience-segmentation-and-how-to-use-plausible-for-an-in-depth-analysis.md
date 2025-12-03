@@ -7,11 +7,11 @@ permalink: /audience-segmentation
 ---
 The one thing that has always helped Plausible grow is sticking to the needs of a specific set of web audience. When we started as a simple-enough and privacy-first way of tracking website traffic, we automatically started appealing to individual creators. 
 
-As we grew and improved our tech and product, and stuck with our philosophy of rejecting surveillance capitalism while providing a really easy, but useful, tool to use –– we noticed an uptick in the customer base that were small startups and tech founders.
+As we grew and improved our tech and product, and stuck with our philosophy of rejecting surveillance capitalism while providing a really easy, but useful, tool to use, we noticed an uptick in the customer base that were small startups and tech founders.
 
-This clarity helped us steer the product and business decisions –– like which features to build on priority, what pricing to set, etc. –– in the right direction.
+This clarity helped us steer the product and business decisions: like which features to build on priority, what pricing to set, etc., in the right direction.
 
-It’s been five good years in business and we understand the importance of data that can answer the single-most important question to businesses, whether they are new or evolving, “Who is our audience?”
+It’s been seven good years in business and we understand the importance of data that can answer the single-most important question to businesses, whether they are new or evolving, “Who is our audience?” 
 
 It makes sense to analyze your website traffic to understand such insights since it’s a fair presumption that both existing customers and potential customers must have visited your website at some point, at the very least.
 
@@ -101,7 +101,7 @@ Another, fairly simpler, use case for creating an audience segment can be to und
 
 ![Example of a segment of audience that visited blog pages written by a specific author](/uploads/plausible-segment-author.png "Example of a segment of audience that visited blog pages written by a specific author")
 
-Similarly, you could have simply understood which pages rank for which keywords from Google. This brings us to the next section –– making the most of Plausible.
+Similarly, you could have simply understood which pages rank for which keywords from Google. This brings us to the next section: making the most of Plausible.
 
 Since tracking additional stuff like the interactions happening on your site, the contribution of marketing campaigns in acquiring visitors, the role of SEO in it, etc. is not something we can track by default (since it is all personalized to your use case), some additional steps are required.
 
@@ -115,7 +115,7 @@ You don’t have to guess that in one go, though. We offer a 30-day free trial (
 
 ### For segmenting based on traffic acquisition: leverage URL Parameters  
 
-Plausible provides clear insights into where your audiences are coming from. Whether they arrive from social media, search engines, direct visits, other websites, or any other source –– referral source data helps you segment your audience by how they found your site.
+Plausible provides clear insights into where your audiences are coming from. Whether they arrive from social media, search engines, direct visits, other websites, or any other source, referral source data helps you segment your audience by how they found your site.
 
 When posting links (from your site) to other platforms like social media, paid ads, newsletters, etc., make sure to [tag them](https://plausible.io/docs/top-referrers) with special query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
 
