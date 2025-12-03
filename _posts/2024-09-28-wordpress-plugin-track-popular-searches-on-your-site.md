@@ -42,7 +42,7 @@ In this article, we are sharing how you can implement an end-to-end search track
 1. Ordered list
 {:toc}
 
-## Implementing site search in WordPress
+## List of site search plugins in WordPress
 
 The default WordPress search function is an option, but it is usually considered basic. 
 
