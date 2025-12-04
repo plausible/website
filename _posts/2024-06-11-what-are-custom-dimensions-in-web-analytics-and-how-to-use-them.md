@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What are custom dimensions in Google analytics and how to use them?
+title: What are custom dimensions in Google Analytics and how to use them?
 description: Custom dimensions bridge the gap between the data that a website
   performance report offers and what you would like to specifically know about
   your website.
@@ -23,9 +23,9 @@ The more robust you want your website performance report to be, the more customi
 1. Ordered list
 {:toc}
 
-## What are custom dimensions?
+## What are custom dimensions in Google Analytics?
 
-Custom dimensions is a term coined by Google Analytics. We call it “custom properties” in Plausible. As the term suggests, custom dimensions are different sorts of features/facts/attributes, i.e. additional context, about the data you collect about the events happening on your website.
+Custom dimensions is a term coined by Google Analytics. As the term suggests, custom dimensions are different sorts of features/facts/attributes, i.e. additional context, about the data you collect about the events happening on your website.
 
 Some attributes are standard and are automatically collected by the web analytics tool you use. Such examples are page URL, page referrer, link text, engagement time, etc.
 
@@ -39,17 +39,17 @@ Did a visitor just load a page or start a session? Did they click a link, engage
 
 ### Metrics
 
-If dimensions –– whether standard or custom –– are descriptive facts about events, then metrics are the quantitative measurements of the performance of such dimensions.
+If dimensions – whether standard or custom – are descriptive facts about events, then metrics are the quantitative measurements of the performance of such dimensions.
 
-Some examples are event-count, conversions, engagement rate, open rate, revenue per customer, conversion rate, time on page, etc.
+Some examples are `event-count`, `conversions`, `engagement rate`, `open rate`, `revenue per customer`, `conversion rate`, `time on page`, etc.
 
 ### The relationship between events, dimensions, and metrics
 
 A dimension is an attribute about something tracked on your website. In Google Analytics 4, custom dimensions are categorized as three types:
 
-* Event-scoped: Attributes about events happening on your site.
-* Item-scoped: Attributes about products (like product ID, color, name, quantity, price, etc.), useful if you are running an e-commerce store.
-* User-scoped: Tracking attributes about your visitors or users. Plausible doesn’t do user-scoped tracking because [we are privacy-friendly](https://plausible.io/privacy-focused-web-analytics).
+* **Event-scoped**: Attributes about events happening on your site.
+* **Item-scoped**: Attributes about products (like product ID, color, name, quantity, price, etc.), useful if you are running an e-commerce store.
+* **User-scoped**: Tracking attributes about your visitors or users. 
 
 We will keep the scope of this article mostly to event-scoped dimensions.
 
@@ -64,10 +64,6 @@ Let’s say a website event you track is “[file downloads](https://plausible.i
 
 And metrics? When you eventually see reports in your web analytics dashboard, you can see such attributes as particulars/values of those attributes and judge their performance with the help of associated metrics data available.
 
-Here is an example from our [live dashboard](https://plausible.io/plausible.io), where we track our visitors’ browser language:
-
-![An example of custom dimensions from the analytics dashboard](https://plausible.io/uploads/custom-dimensions-in-web-analytics.png)
-
 ### A stupidly simple analogy
 
 My personal favorite way to never forget something technical is to visualize in it a regular life setting. In this case, the analogy would be this: Imagine your life was analogous to your website and it had a tracking device.
@@ -76,9 +72,9 @@ You could define certain general events to be tracked. Like “waking up”. The
 
 And when you view a report about your waking up patterns in the past 3 months, these facts would be presented as custom dimensions and the metrics would be sleep frequency, average length of sleep, sleep rate, etc.
 
-## How to use custom dimensions/properties?
+## How to use custom dimensions?
 
-Reiterating to prevent any confusion: the feature is called "Custom dimensions" in GA4 and "Custom properties” in Plausible Analytics. Understanding how to effectively use custom dimensions has two parts to it: planning your analytics, and setting them up in GA4 or Plausible.
+Understanding how to effectively use custom dimensions has two parts to it: planning your analytics, and setting them up in GA4.
 
 ### Plan your analytics
 
@@ -104,30 +100,14 @@ Later, when you see your reports, you can learn stuff like which author or conte
 * For a complete visualization of how visitors interact with your website, try incorporating your events and goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization).
 * Regularly review and adjust your events and custom dimensions as and when you notice any changes in your goals or user behavior. This could happen monthly, half-yearly, or yearly, depending on the stage of the volatility of growth.
 
-### Setting up custom dimensions
+## Setting up custom dimensions in Google Analytics 4
 
-The other important part is understanding your options and how to set up custom dimensions in different tools available. We will discuss Plausible and Google Analytics 4.
-
-### Setting up custom properties in Plausible
-
-We, at Plausible, take special care in keeping your analytics setup and your dashboard [confusion-free](https://plausible.io/simple-web-analytics). To set up custom properties (same thing as custom dimensions in GA4) in your Plausible account, all you need to do is two things:
-
-1. **Set some custom events/goals.** There are two ways to [track any event](https://plausible.io/docs/custom-event-goals) in Plausible: track pageviews (doesn’t require code editing), or track custom events (requires code editing).
-   Secondly, add these custom events as goals to your Plausible dashboard easily. So there’s no distinction/confusion between custom events and custom goals.
-2. **Mark which properties you want tracked**. Once you know which custom event-goals you are tracking, simply edit the JS snippet to let it know which [properties to track](https://plausible.io/docs/custom-props/introduction) as well.
-
-Then, you will be able to add all the properties that your JS snippet is sending to your dashboard in one click.
-
-Once this is set up, you will be able to filter and segment your traffic based on properties on your dashboard, among other things.
-
-### Setting up custom dimensions in Google Analytics 4
-
-Setting up custom dimensions in GA4 requires a more complex setup. Here’s a gist:
+Custom dimensions in Google Analytics 4 (GA4) let you attach extra, custom-defined context (attributes) to your events, users, or items: beyond what GA4 tracks by default.
 
 1. **Setting events**
    Firstly, you need to determine with the help of GA’s documentation which events are not being tracked automatically or with the help of GA’s Enhanced Conversions set of events. If the event you want to track is not a part of either of those categories, then see if it’s a “Recommended event.”
    If yes, then many cases require you to follow Google’s naming convention to set these events for yourself. And if it is not a “Recommended event”, then create a [custom event](https://support.google.com/analytics/answer/12229021?hl=en&ref_topic=13367566&sjid=12208603896311330242-AP).
-   Later, you can mark some events as “Key events” within your GA4 dashboard. Key events is GA4’s new name for what was earlier called “conversions”, and what we call “goals”.
+   Later, you can mark some events as “Key events” within your GA4 dashboard. Key events is GA4’s new name for what was earlier called “conversions.”
 2. **Parameters**
    Parameters are like a precursor to custom dimensions. They tell the script what additional context to gather about an event.
    You need to set up textual parameters (so they can be converted to custom dimensions) and numerical parameters (so they can be converted to custom metrics).
@@ -136,22 +116,73 @@ Setting up custom dimensions in GA4 requires a more complex setup. Here’s a gi
    P.S. In all cases of creating custom events or parameters, you would require some additional Google Tag Manager and DebugView skills as well.
 3. **Custom dimensions and metrics**
    Once your backend setup is complete, open your GA4 dashboard, ensure if data is being collected correctly using the DebugView. Then proceed to add [custom dimensions](https://support.google.com/analytics/answer/14240153?hl=en&ref_topic=11151952&sjid=12208603896311330242-AP) and metrics to be displayed on your reports.
+
+   In the GA4 interface: go to Admin → Custom definitions → Create custom dimension.
+
+   * Choose a Dimension name (the display name you want to see in reports.)[](https://www.analyticsmania.com/post/a-guide-to-custom-dimensions-in-google-analytics-4/?utm_source=chatgpt.com)
+   * Select the correct Scope (Event, User, or Item) depending on how you sent the data.
+   * For Event parameter / User property / Item property, enter the exact name of the parameter/property as sent in your tracking setup. Even if it doesn’t show in autocomplete, you can type it manually.
+   * Optionally, add a Description, helpful for documentation and future reference.
+
    For this, you can name the custom dimension or metrics something different from the parameters collecting the respective data, while adding additional information like unit of measurement, scope, and description.
 4. **Reports**
-   While creating your free form or funnel exploration reports, remember to ensure configuring relevant dimensions and metrics therein.
+   While creating your free form or funnel exploration reports, remember to ensure configuring relevant dimensions and metrics therein.\
+   \
+   After setup, new custom dimensions typically appear in GA4 reports within ~24–48 hours.\
+   \
+   Note: GA4 will not retroactively apply custom dimensions to past data; only events sent **after** registration will carry the new dimension in standard reports.
 
-**Our two cents on which tool to use**
+### Where you can use custom dimensions in GA4 reports?
+
+Once registered and collecting data, custom dimensions become available in:
+
+* **Explorations** (Free-form, Funnel, etc.): go to Explore → +Dimensions → Custom, then Import and add to your report.
+* **Segments, filters, breakdowns, and audiences**: you can use custom dimensions for deeper analysis, segmentation, or condition-based audiences.
+
+#### Best practices & limitations to keep in mind
+
+* GA4 standard quota per property: up to **50 event-scoped**, **25 user-scoped**, and **10 item-scoped** custom dimensions (for standard property).
+* Once created, you *cannot* change a custom dimension’s scope or its parameter name: only its display name or description. If you need a different setup, you must archive and recreate.
+* Use consistent naming and keep cardinality low (i.e. avoid high-cardinality values like raw user IDs) to keep reports performant and compliant with Generally Accepted Analytics practices.
+
+## Custom Properties: Plausible's simpler and effective version of custom dimensions
+
+W﻿e are Plausible Analytics, the [no-fuss alternative to GA4](https://plausible.io/vs-google-analytics)C﻿ustom Properties is our version of custom dimensions.
+
+We take special care in keeping your analytics setup and your dashboard [confusion-free](https://plausible.io/simple-web-analytics). Adding custom data to your pageviews or events is far more user-friendly than the setup required by GA4.
+
+### How custom properties work in Plausible?
+
+To set up custom properties (same thing as custom dimensions in GA4) in your Plausible account, **all you need to do is two things**:
+
+1. **Set some custom events/goals.** There are two ways to [track any event](https://plausible.io/docs/custom-event-goals) in Plausible: track pageviews (doesn’t require code editing), or track custom events (requires code editing).
+   Secondly, add these custom events as goals to your Plausible dashboard easily. So there’s no distinction/confusion between custom events and custom goals.
+2. **Mark which properties you want tracked**. Once you know which custom event-goals you are tracking, simply edit the JS snippet to let it know which [properties to track](https://plausible.io/docs/custom-props/introduction) as well.
+
+Then, you will be able to add all the properties that your JS snippet is sending to your dashboard in one click. Once this is set up, you will be able to filter and segment your traffic based on properties on your dashboard, among other things. Full info [here](https://plausible.io/docs/custom-props/props-dashboard).
+
+Because of this simplicity, you avoid the complexity of scopes (event/user/item), quotas, historical data limitations, or dashboards filled with dozens of dimension-setup screens, you just send extra data when needed.
+
+#### Once data is collected, segmentation/filtering is built-in
+
+After Plausible receives these custom properties, you can easily filter or segment your traffic in the dashboard by them. Once at least one event or pageview includes a given custom property, that property becomes available under the "Properties" section in your stats dashboard.
+
+That means you can, for example, see how different authors perform, track which content types have better conversions, or break down user behavior by custom labels — all without complicated config.
+
+T﻿he best way to visualize and play around with custom properties is through our own [publicly live dashboard](https://plausible.io/plausible.io?f=is,props:browser_language,en-US).﻿
+
+![custom props in plausible](https://plausible.io/uploads/custom-dimensions-in-web-analytics.png "custom props in plausible")
+
+## Our two cents on which tool to use
 
 Google Analytics 4 requires a learning curve, complex setup, and access to engineering know-how. You also need to do additional work in setting up some basic features for yourself. But the level of customization and robustness you get for yourself would be useful if you are a big agency or an enterprise.
 
 On the other hand, [Plausible takes responsibility](https://plausible.io/vs-google-analytics) for creating features that are user-friendly and we don’t put the ball in your court to figure out a bit too much about your web analytic reports.
 
-All in all, Google Analytics 4 might be an overkill for you if you are a startup. But Plausible might be an underkill for you if you are a huge agency or an enterprise.
+All in all, Google Analytics 4 might be an overkill for you if you are a startup.
 
 ## Parting tips
 
 * Next time you open your reports, decide on a specific purpose (no matter how small) to see them beforehand. This will reduce randomness from your analytic-viewing time and give you an anchor to make better decisions.
 * Even if you have less data, or missing data points, it is alright. Try looking for patterns instead.
 * If something can be achieved without customization in the tool of your choice, choose the former approach. It’ll keep your setup much more clean and manageable in the long run.
-
-P.S. We’re creating a series on Web Analytics features, like this one, to help you learn and apply web analytics with ease. If you have specific topics you’d like us to cover, let us know at `reading@plausible.io`. We’re listening!
