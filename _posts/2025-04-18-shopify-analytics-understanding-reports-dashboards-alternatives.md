@@ -9,9 +9,9 @@ author: hricha-shandily
 image: /uploads/shopify-analytics.png
 image-alt: Shopify analytics
 ---
-If you are trying to measure and analyze the activities on your Shopify store, you can use the in-built Shopify Analytics, and pair/replace it with Google Analytics or simpler, powerful and privacy-friendly alternatives like Plausible Analytics. 
+If you are trying to measure and analyze the activities on your Shopify store, you can use the in-built Shopify Analytics, and pair/replace it with Google Analytics or simpler, powerful and privacy-friendly alternatives like Plausible Analytics.
 
-A good combination of these tools can help you effectively monitor store activity, understand visitor behavior, analyze web performance, marketing campaigns, attribute sales, and much more. You can use these insights to boost revenue, optimize your store, marketing initiatives, etc.
+A good combination of these analytics tools can help you effectively monitor store activity, understand visitor behavior, analyze web performance, marketing campaigns, attribute sales, and much more. You can use these insights to boost revenue, optimize your store, marketing initiatives, etc.
 
 So let’s understand what each option can offer so you can make an informed decision.
 
@@ -22,7 +22,7 @@ So let’s understand what each option can offer so you can make an informed dec
 
 The first and foremost is the native reporting system offered by Shopify itself: “Shopify Analytics”. It’s available right in your Shopify account and accessible from the admin side panel.
 
-It gives merchants a quick overview of their store’s performance while the reports help you track your store's activities, understand your customers, analyze sales, finances, etc.
+It gives merchants a quick overview of their store’s performance and enables basic Shopify monitoring while the reports help you track your store's activities, understand your customers, analyze sales, finances, etc.
 
 Since it’s native to Shopify, you don’t need to do a manual dashboard or report setup, unless you want a custom dashboard (available only with higher plans).
 
@@ -86,7 +86,7 @@ Custom reporting and advanced filtering options are also available but only on h
 
 This offers a real-time visualization of what’s happening in your site right now. It shows the number of current visitors, their locations, actions they are taking, and any live sales or checkouts happening at that moment. It’s particularly useful during peak traffic events like flash sales or product launches.
 
-### Key metrics
+### Key metrics and KPIs for Shopify
 
 You will find a variety of metrics across the overview dashboard and reports. These are the key performance indicators (KPIs) that Shopify tracks for your store.
 
@@ -167,9 +167,13 @@ Shopify’s dashboard is focused on ecommerce metrics like Gross Sales, returnin
 
 You also need to understand your website performance but metrics like bounce rate, time on page, scroll depth, etc, are missing from Shopify Analytics. You’d also want to track sessions, analyze the marketing channels that bring you traffic, and do cross-domain tracking as well in some cases.
 
+This is where dedicated customer behavior analysis tools can fill the gaps by providing more granular tracking.
+
+So while Shopify Analytics allows essential Shopify monitoring out of the box, there are some limitations that make some merchants prefer more flexible dashboards for advanced KPI Shopify tracking. 
+
 ## Using Google Analytics for Shopify
 
-Many Shopify store owners use both Shopify Analytics and Google Analytics 4 (GA4): Shopify Analytics as a quick overview of store performance and Google Analytics for deeper insights on overall website and marketing performance.
+Many Shopify store owners use both Shopify Analytics and Google Analytics 4 (GA4): Shopify Analytics as a quick monitoring of Shopify store performance and Google Analytics for deeper insights on overall website and marketing performance.
 
 > P.S. G﻿A4 also requires a cookie consent banner and is very complicated to use, while it comes with privacy concerns and inacurrate data according to multiple independent studies ([example](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/)) but I will get to it in a minute. Skip to the “Plausible” section if you are struggling with GA4 but I recommend you read through it anyway so you can understand all your options.
 
@@ -187,7 +191,7 @@ GA4 allows custom events, custom dimensions, and custom reports. If you have a u
 
 If your business extends beyond just the Shopify storefront (e.g., you have a separate blog, or a web app, or multiple domains), GA4 can unify tracking across those. It can also track mobile app data if you have an app, integrating web and app analytics in one property.
 
-Shopify Analytics is only for your Shopify online store. Also, if you ever do cross-domain selling (maybe Shopify plus a separate landing page domain), GA4 can handle that.
+Shopify Analytics tool is only for your Shopify online store. Also, if you ever do cross-domain selling (maybe Shopify plus a separate landing page domain), GA4 can handle that. 
 
 **Attribution and marketing analytics** 
 
@@ -280,7 +284,7 @@ It’s child’s play to get started with Plausible. Just add the script to your
 
 **Single dashboard for everything**
 
-You get all your reports and metrics in literally [one dashboard](https://plausible.io/plausible.io) –– something missing from both Shopify Analytics and Google Analytics.
+You get all your reports and metrics in literally [one dashboard](https://plausible.io/plausible.io) – something missing from both Shopify Analytics and Google Analytics.
 
 W﻿e've also specifically designed Plausible keeping [simplicity](https://plausible.io/simple-web-analytics) in mind, while not compromising on features or privacy.
 
