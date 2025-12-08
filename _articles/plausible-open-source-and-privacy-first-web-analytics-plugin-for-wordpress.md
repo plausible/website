@@ -362,6 +362,18 @@ Normally the hash part of the URL is discarded in your Plausible dashboard. You 
 
 In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option.
 
+## How to track custom query parameters?
+
+By default, Plausible strips all query parameters for privacy purposes except for `ref`, `source`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` and `utm_term`.
+
+This means that pages like `yoursite.com/article?lang=en` will be reported as `yoursite.com/article/` in your Plausible dashboard.
+
+In the "Enhanced measurements" section of our WordPress plugin settings, you can enable the "Query parameters" mode to track custom query parameters. 
+
+Then enter the query parameter that you'd like to track. E.g. enter `lang` if you want to track views on pages such as `yoursite.com/article?lang=en` or `yoursite.com/article?lang=de`.
+
+All the query parameters will start being tracked and will be displayed in the `Properties` tab of the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
 ## How to track visitors who use Internet Explorer
 
 The default Plausible script won't work on Internet Explorer because it uses the `document.currentScript` API to read configuration options. 
