@@ -362,7 +362,7 @@ Normally the hash part of the URL is discarded in your Plausible dashboard. You 
 
 In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option.
 
-## How to track custom query parameters?
+## How to track custom query parameters
 
 By default, Plausible strips all query parameters for privacy purposes except for `ref`, `source`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` and `utm_term`.
 
