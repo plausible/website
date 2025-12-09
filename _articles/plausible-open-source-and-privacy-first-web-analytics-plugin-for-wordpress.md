@@ -332,7 +332,7 @@ You'll see "404" goal as soon as the first visit on an error page has been track
 
 ## How to enable site search tracking
 
-Plausible Analytics plugin can help you understand the activity on your search form and identify the search terms your visitors are searching for. It can also help you know how many results your search results show for the different search terms. 
+Plausible Analytics plugin can help you understand the activity on your search form and identify the search terms your visitors are searching for. It can also help you know how many results your search results show for the different search terms and on which of your pages people have used the search form. 
 
 All this can help you better understand the needs of your audience enabling you to create a better website and more relevant content that answers questions people have.
 
@@ -361,6 +361,18 @@ Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specifi
 Normally the hash part of the URL is discarded in your Plausible dashboard. You can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats and see the different pages your visitors have viewed.
 
 In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option.
+
+## How to track custom query parameters
+
+By default, Plausible strips all query parameters for privacy purposes except for `ref`, `source`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` and `utm_term`.
+
+This means that pages like `yoursite.com/article?lang=en` will be reported as `yoursite.com/article/` in your Plausible dashboard.
+
+In the "Enhanced measurements" section of our WordPress plugin settings, you can enable the "Query parameters" mode to track custom query parameters. 
+
+Then enter the query parameter that you'd like to track. E.g. enter `lang` if you want to track views on pages such as `yoursite.com/article?lang=en` or `yoursite.com/article?lang=de`.
+
+All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
 ## How to track visitors who use Internet Explorer
 
