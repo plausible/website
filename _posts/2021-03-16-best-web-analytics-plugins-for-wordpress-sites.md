@@ -145,4 +145,4 @@ Paste your analytics tracking code between `<head>...</head>` tags and click on 
 
 Note that you will need to do this process every time you update your theme unless you create a child theme.
 
-P﻿.S. Check out our [compilation](https://plausible.io/blog/wordpress-search-tracking#implementing-site-search-in-wordpress) of WordPress plugins for implementing on-site search.
+P﻿.S. Check out our [compilation](https://plausible.io/blog/wordpress-plugin-for-site-search) of WordPress plugins for implementing on-site search.
