@@ -346,8 +346,6 @@ You'll see the "WP Search Queries" goal appear as soon as the first search is re
 * result_count: how many results each search returned
 * search_source: which pages people searched from
 
-We have a complete guide on WordPress search tracking and effectively using this feature in Plausible [here](https://plausible.io/blog/wordpress-search-tracking).
-
 ## How to track logged-in user status
 
 Plausible Analytics plugin can help you understand the status of your logged in or your logged out users.
