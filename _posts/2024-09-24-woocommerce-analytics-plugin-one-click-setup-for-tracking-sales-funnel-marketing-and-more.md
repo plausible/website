@@ -173,7 +173,7 @@ You can utilize other “Enhanced Measurements” and additional settings, as li
 
 ![Plausible wordpress plugin settings](/uploads/plausible-wordpress-plugin-settings.jpg "Plausible wordpress plugin settings")
 
-Such examples include [tracking site search terms](https://plausible.io/blog/wordpress-search-tracking), 404 error pages, outbound clicks, etc. We highly recommend going through our [detailed plugin overview here](https://plausible.io/wordpress-analytics-plugin), where we explain each setting and more.
+Such examples include tracking [site search terms](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics), 404 error pages, outbound clicks, etc. We highly recommend going through our [detailed plugin overview here](https://plausible.io/wordpress-analytics-plugin), where we explain each setting and more.
 
 ### Additional store tracking with your Plausible account
 
