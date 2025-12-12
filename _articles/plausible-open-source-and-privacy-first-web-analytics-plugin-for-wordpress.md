@@ -340,7 +340,11 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the search activity will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see the "WP Search Queries" goal as soon as the first search has been recorded. 
+You'll see the "WP Search Queries" goal appear as soon as the first search is recorded. Click on this goal to segment your audience by visitors who have used your search functionality. Under the "Properties" tab, you'll find detailed breakdowns:
+
+* search_query: the specific terms people searched for
+* result_count: how many results each search returned
+* search_source: which pages people searched from
 
 We have a complete guide on WordPress search tracking and effectively using this feature in Plausible [here](https://plausible.io/blog/wordpress-search-tracking).
 
