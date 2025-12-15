@@ -3,7 +3,7 @@ layout: post
 title: How to transition to Plausible after GA4?
 description: How to transition to Plausible after GA4?
 slug: plausible-ga4
-date: 2025-12-12T15:41:42.632Z
+date: 2025-12-15T12:07:29.196Z
 author: hricha-shandily
 ---
 If you have spent years in the Google Analytics world, the idea of switching to another tool can feel risky. GA4 is packed with multiple reports, dimensions, scopes, filters, settings and whatnot. Plausible shows you a simple and just as (or more) useful dashboard.
@@ -67,21 +67,25 @@ This is the most basic one.
 
 The Plausible dashboard gives you key metrics at a glance: unique visitors, total visits, pageviews, bounce rate, visit duration, and % change versus a previous period. Simply select your date range (e.g. last 91 days) in the top-right, and you will see a graph.
 
+![plausible analytics gives website performance overview at a glance](/uploads/plausible-website-overview-at-a-glance.png "plausible analytics gives website performance overview at a glance ")
+
 No need to build custom reports (unless you want to, which is also possible): all core stats are on one page.
 
 Upon scrolling, you will find some standard reports that let you segment by traffic source, campaign, country, device, etc. For example, click the “Channels” report to see which channels (social, search, email, etc.) drove traffic.
+
+Y﻿ou can explore our very own live stats [dashboard](https://plausible.io/plausible.io).
 
 GA4: These metrics are found in different reports under different groups on the sidebar.
 
 ### Campaign and Channel Performance
 
-Tracking marketing campaigns is straightforward. Plausible automatically groups traffic by channels (Organic Search, Paid Social, Email, etc.). For paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up.
+Tracking marketing campaigns is straightforward. Firstly, your traffic is automatically grouped by channels (Organic Search, Paid Social, Email, etc.). For paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up.
 
 In the Top Sources report, switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. You can further filter by UTM Medium, Source, Campaign name, Content, or Term. This lets you drill into which specific email, ad, or promotion drove traffic.
 
 #### Tracking Google Ads with Plausible
 
-There are two ways to track Google Ads traffic: manual UTM tagging and auto-tagging using gclid\
+There are two ways to track Google Ads traffic: manual UTM tagging and auto-tagging using `gclid`\
 if you're using auto-tagging in Google Ads. 
 
 Plausible automatically detects the gclid parameter and attributes the visit to Google Ads. These visits show up under the "Paid Search" channel, no manual tagging required.
