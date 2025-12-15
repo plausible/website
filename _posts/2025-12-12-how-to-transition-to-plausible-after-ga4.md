@@ -13,7 +13,7 @@ If you are trying to figure out whether Plausible can support your daily marketi
 The goal is straightforward. If you already know GA4, you will finish this guide with a clear view of what Plausible can and cannot do for your workflow.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## GA4 and Plausible approach analytics differently
 
@@ -64,11 +64,11 @@ Once you’re within your Plausible dashboard and wondering how to use it or set
 
 ## Use cases: What you did in GA4 vs what you can do in Plausible
 
-### Traffic and Engagement Overview (e.g. Last Quarter’s visitor]
+### Traffic and Engagement Overview
 
 This is the most basic one.
 
-The Plausible dashboard gives you key metrics at a glance: unique visitors, total visits, pageviews, bounce rate, visit duration, and % change versus a previous period. Simply select your date range (e.g. last 91 days) in the top-right, and you will see a graph.
+The Plausible dashboard gives you key metrics at a glance: unique visitors, total visits, pageviews, bounce rate, visit duration, and % change versus a previous period. Simply select your date range (e.g. last 91 days) in the top-right, and you will see all your metrics along with their graph:
 
 ![plausible analytics gives website performance overview at a glance](/uploads/plausible-website-overview-at-a-glance.png "plausible analytics gives website performance overview at a glance ")
 
