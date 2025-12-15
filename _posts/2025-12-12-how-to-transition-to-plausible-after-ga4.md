@@ -6,25 +6,29 @@ slug: plausible-ga4
 date: 2025-12-12T15:41:42.632Z
 author: hricha-shandily
 ---
-If you have spent years in the Google Analytics world, the idea of switching to another tool can feel risky. GA4 is packed with multiple reports, dimensions, scopes, filters, settings and whatnot. Plausible shows you a single dashboard. At first glance, it can feel like something is missing (even though it's not).
+If you have spent years in the Google Analytics world, the idea of switching to another tool can feel risky. GA4 is packed with multiple reports, dimensions, scopes, filters, settings and whatnot. Plausible shows you a simple and just as (or more) useful dashboard.
 
-This guide shows how to accomplish the most common GA4 marketing tasks inside Plausible and where the tools differ.
+S﻿o if you're wondering how can Plausible fulfil your needs as your next analytics tool, you've landed at the right place. This guide shows how to accomplish the most common GA4 marketing tasks inside Plausible and where the tools differ.
 
 The goal is simple. If you are a marketer who knows GA4 well, you should walk away understanding exactly what Plausible can and cannot do for your workflows.
 
 ## GA4 and Plausible approach analytics differently
 
-### GA4 philosophy
+F﻿irst, let's address how Plausible is different from GA4 at the very core.
 
-GA4 collects a large amount of data tied to users and events. It also relies on machine learning and modeling to [fill data gaps](https://plausible.io/blog/consent-mode-ga4-modeled-data), since modern tracking is incomplete by design. When reports use sampled or modeled data, the numbers can shift slightly each time.
+### GA4's philosophy
 
-### Plausible philosophy
+GA4 collects a large amount of data tied to users and events. Usually, the goal is not just to track website activity but profile users in order to be able to run hyper-targeted ads, attribute conversions back to multiple touch points in a user journeys, etc. 
+
+It also relies on machine learning and modeling to [fill data gaps](https://plausible.io/blog/consent-mode-ga4-modeled-data), since its tracking is incomplete due to being blocked for being privacy-invasive. When reports use sampled or modeled data, the numbers can shift largely each time. 
+
+### Plausible's philosophy
 
 Plausible does [not track personal data](https://plausible.io/data-policy). We simply do not use cookies and identify visits anonymously. This choice removes the concept of a unique user identity. The data is unsampled and fully transparent, and less granular by default.
 
 ### Why does this matter to marketers?
 
-You will be able to do everything in Plausible starting from basic stuff to more advanced like funnel analysis, revenue and e-commerce tracking, custom reporting, ads and campaign performance, SEO and AI analysis, etc. We will explain how in their respective sections.
+You will be able to do everything in Plausible starting from basic website performance tracking to more advanced like campaign performance tracking, funnel analysis, revenue and e-commerce tracking, custom reporting, SEO & AI analysis, etc. We will explain how in their respective sections. 
 
 And, you will find:
 
@@ -37,27 +41,27 @@ And, you will find:
 
 As we are a private-by-design tool, you will not find:
 
-* User level reports
+* User-level reports
 * Identity stitched user journeys
-* GA-style retention or cohort modeling
+* GA-style retention or cohorts
 * Detailed attribution models
 * Ability to run Retargeting campaigns
 
-For most marketing teams, these cover your day to day needs.
+For most marketing teams, the first list covers day to day needs. 
 
 ## Getting started
 
 In case you haven’t already, you can begin by:
 
-* [Registering](https://plausible.io/docs/register-account) for your account and setting up your site or sites if you have many.
+* [Registering](https://plausible.io/docs/register-account) for your account and setting up your site (or sites if you have many).
 * Doing a GA import of all your GA properties into Plausible. We also ensure that there are no gaps in data and no double-counting issues. Follow [this](https://plausible.io/docs/custom-query-params) guide.
-* Familiarize yourself with our [metrics and definitions](https://plausible.io/docs/metrics-definitions). We have kept it all to be self-explanatory and in other cases, similar to GA4’s terminology for a smooth and fast transition.
+* Familiarize yourself with our [metrics and definitions](https://plausible.io/docs/metrics-definitions). We have tried to name it all to be simple, self-explanatory, and in other cases, similar to GA4’s terminology for a smooth and fast transition.
 
-Once you’re within your Plausible dashboard and wondering how to use it or set it up further in a way that enables you to do everything you were doing with GA, carry on.
+Once you’re within your Plausible dashboard and wondering how to use it or set it up further in a way that enables you to do everything you were doing with GA, carry on. 
 
 ## Use cases: What you did in GA4 vs what you can do in Plausible
 
-## Traffic and Engagement Overview (e.g. Last Quarter’s visitor]
+### Traffic and Engagement Overview (e.g. Last Quarter’s visitor]
 
 This is the most basic one.
 
@@ -69,13 +73,13 @@ Upon scrolling, you will find some standard reports that let you segment by traf
 
 GA4: These metrics are found in different reports under different groups on the sidebar.
 
-## Campaign and Channel Performance
+### Campaign and Channel Performance
 
 Tracking marketing campaigns is straightforward. Plausible automatically groups traffic by channels (Organic Search, Paid Social, Email, etc.). For paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up.
 
 In the Top Sources report, switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. You can further filter by UTM Medium, Source, Campaign name, Content, or Term. This lets you drill into which specific email, ad, or promotion drove traffic.
 
-### Tracking Google Ads with Plausible
+#### Tracking Google Ads with Plausible
 
 There are two ways to track Google Ads traffic: manual UTM tagging and auto-tagging using gclid\
 if you're using auto-tagging in Google Ads. 
@@ -92,7 +96,7 @@ Funnily enough, Google Analytics does not track ads performance accurately becau
 
 With Plausible, you don’t need a consent banner so your conversion tracking is way more accurate from the get go.
 
-## Audience Segmentation and Custom Dimensions/Properties
+### Audience Segmentation and Custom Dimensions/Properties
 
 Custom Properties is our version of Custom Dimensions in GA4. You can define Custom Properties to tag your events or pages with extra info. Think of them like GA4’s event-scoped [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics), but much simpler to use.
 
@@ -106,7 +110,7 @@ You don’t need to predefine a schema or worry about quotas. By contrast, GA4 r
 
 See full info on how to set up custom properties [here](https://plausible.io/docs/custom-props/introduction).
 
-## Tracking SEO Performance
+### Tracking SEO Performance
 
 Here’s how to do it:
 
@@ -121,7 +125,7 @@ This setup gives you a focused SEO view without requiring custom dashboards or k
 
 More on tracking SEO with Plausible [here](https://plausible.io/blog/seo-dead#analyzing-organic-search-traffic).
 
-## Revenue and E-commerce Tracking
+### Revenue and E-commerce Tracking
 
 If you run an online store or track monetary conversions, Plausible can handle revenue attribution too. Simply create a Custom Event goal for a purchase, and enable its revenue tracking.
 
@@ -135,7 +139,7 @@ This includes a built-in funnel from product page to checkout for easier analysi
 
 GA4: has sophisticated multi-step purchase funnels and customer lifetime metrics; Plausible focuses on immediate conversion steps and revenue. It does not track individual user journeys across sessions or calculate LTV by user.
 
-## Funnel Analysis and Conversion Goals
+### Funnel Analysis and Conversion Goals
 
 In your site settings, you can add a funnel with 2–8 steps, using either pageview goals or custom events as the steps. For example, you might build a signup funnel: Visit /register → Signup form → Account activation → Profile setup.
 
@@ -151,21 +155,21 @@ GA4: Build funnels via Explorations, but it requires manual setup of each step a
 
 P.S. We are also working on creating user journeys.
 
-## Advanced and custom reporting & Data Integrations
+### Advanced and custom reporting & Data Integrations
 
 For bespoke reports or dashboards, you have multiple options.
 
-### Looker Studio Connector
+#### Looker Studio Connector
 
 We offer an official Looker Studio (formerly Google Data Studio) connector. You can link your Plausible site and build custom charts, combining Plausible data with other sources like CRM platforms, ad data, or surveys – as you please.
 
 The connector includes all Plausible metrics and dimensions, so you can recreate your dashboard or build completely new visualizations.
 
-### Stats API for Custom Access
+#### Stats API for Custom Access
 
 We provide a robust Stats API for programmatic access. You can use it to pull visitor counts, page stats, goals, or funnel data into tools like Python, R, or any HTTP client. This enables advanced use cases like syncing with internal dashboards or analytics stacks.
 
-### Export to Google Sheets, Data Warehouses, BI Tools
+#### Export to Google Sheets, Data Warehouses, BI Tools
 
 The API works well for pushing data into Google Sheets, BigQuery, or any BI system. Community-built connectors like Airbyte and Fivetran allow automatic syncing of Plausible data into databases.
 
@@ -184,21 +188,19 @@ The API works well for pushing data into Google Sheets, BigQuery, or any BI syst
 | Attribution modeling  | Multiple model options              | Last touch only                            |
 | Looker Studio reports | Yes                                 | Yes (official connector available)         |
 
+### Bonus features (not available in GA4)
 
-
-## Bonus features (not available in GA4)
-
-### Scroll Depth tracking
+#### Scroll Depth tracking
 
 Plausible automatically tracks scroll depth without requiring additional setup. You can see how many visitors reached how much percentage of a page from 1-100% – useful for understanding content engagement beyond bounce rate.
 
 In GA, the built-in scroll tracking (available as an enhanced measurement, which needs to be turned on manually) is limited as it only allows tracking at 90% scroll depth. This is only useful in knowing whether visitors are scrolling all the way down or not. Therefore, the solution suggested by GA experts is to disable it entirely and implement a more customized (cumbersome) solution within Google Tag Manager.
 
-### Embeddable dashboards
+#### Embeddable dashboards
 
 You can embed your Plausible dashboard anywhere with an iframe great for internal sharing. There’s also a WordPress plugin that adds the dashboard directly into your site’s admin panel.
 
-### Slack alerts
+#### Slack alerts
 
 You can enable your Plausible Analytics weekly and/or monthly reports and traffic spike notifications to be sent directly into your Slack channel.
 
