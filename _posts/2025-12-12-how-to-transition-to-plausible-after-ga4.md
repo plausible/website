@@ -12,6 +12,9 @@ If you are trying to figure out whether Plausible can support your daily marketi
 
 The goal is straightforward. If you already know GA4, you will finish this guide with a clear view of what Plausible can and cannot do for your workflow.
 
+1. Ordered list
+{:toc}
+
 ## GA4 and Plausible approach analytics differently
 
 F﻿irst, let's address how Plausible is different from GA4 at the very core.
