@@ -43,13 +43,9 @@ Your clients can get all the important insights from their website traffic on on
 
 ### Share the stats privately and securely with your clients without the need for accounts and passwords
 
-![Plausible shared reports](/uploads/plausible-shared-reports.png "Plausible shared reports")
-
-You can share the Plausible Analytics website dashboard to your clients privately and securely by generating a unique shared link. This link is impossible to guess so only people you send it to will have access to it. 
+You can share the Plausible Analytics website dashboard to your clients privately and securely by generating a [unique shared link](https://plausible.io/docs/shared-links). This link is impossible to guess so only people you send it to will have access to it. 
 
 Your clients do not need to log in, there's no need for accounts and passwords either. But you do have the option to add password protection for extra security.
-
-![Plausible password protected reports](/uploads/plausible-password-protected-report.png "Plausible password protected reports")
 
 ### Your clients can check their website traffic and site analytics in 1 minute
 
@@ -69,7 +65,7 @@ The Plausible Analytics script is [much smaller](https://plausible.io/lightweigh
 
 Plausible does not use cookies and is [fully compliant with GDPR, CCPA, PECR](https://plausible.io/data-policy) and other privacy regulations out of the box. 
 
-This means that you and your clients do not need to add [cookie banners] (https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
+This means that you and your clients do not need to add [cookie banners](https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
 
 This makes websites nicer, easier to use and more visitor-friendly.
 
@@ -93,7 +89,7 @@ This allows you to get a holistic view of your whole network in one dashboard fo
 
 See [how rollup reporting works](https://plausible.io/docs/plausible-script#is-there-a-roll-up-view).
 
-### Invite team members and collaborate 
+### Invite team members and collaborate
 
 Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
 
@@ -114,8 +110,6 @@ Learn how to [transfer the ownership of a site](https://plausible.io/docs/transf
 We’ve put a lot of effort into making a Google Analytics stats import tool. It allows you to import multiple Google Analytics properties into to the same Plausible dashboard. And it automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data. See [how to import historical GA stats into Plausible](https://plausible.io/docs/google-analytics-import).
 
 ### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
-
-![Plausible public stats](/uploads/plausible-public-stats.png "Plausible public stats")
 
 This is actually another interesting feature of Plausible Analytics. Your website stats dashboard is private by default but you can choose to be transparent and make it public so anyone with your custom link can view the dashboard too. 
 
