@@ -77,7 +77,7 @@ We choose the subscription business model rather than the business model of surv
 
 ## How to switch from Google Analytics to an open source analytics alternative
 
-Do you have a website or a blog? Give Plausible a chance.
+Do you have a website or a blog? Try [switching to Plausible](https://plausible.io/blog/ga-to-plausible-transition).
 
 [Sign up for a 30-day free trial](https://plausible.io/register) with no obligations and explore our open source site analytics dashboard. You don't even need to remove your current analytics provider until you've tested Plausible and figured out if you like our product.
 
