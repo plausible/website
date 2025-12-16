@@ -206,7 +206,7 @@ This is why GA4 reports can still feel misleading or incomplete. You avoid this 
 
 ### The complexity you avoid by choosing Plausible
 
-Consent Mode is a workaround that creates a long chain of technical requirements. When you switch to Plausible, you skip all of this:
+Consent Mode is a workaround that creates a long chain of technical requirements. When you [switch to Plausible](https://plausible.io/blog/ga-to-plausible-transition), you skip all of this:
 
 | **With GA4 + Consent Mode**                      | **With Plausible**                |
 | ------------------------------------------------ | --------------------------------- |
@@ -220,4 +220,4 @@ Consent Mode is a workaround that creates a long chain of technical requirements
 
 Instead of adding more layers to fix a broken tracking model, Plausible works cleanly with how the modern web operates.
 
-W﻿e have created Plausible to be a simpler, accurate, privacy-friendly alt. to Google Analytics. You can take a look at the [full comparison here](https://plausible.io/vs-google-analytics)﻿and start a [free trial here](https://plausible.io/register).
+W﻿e have created Plausible to be a simpler, accurate, privacy-friendly alt. to Google Analytics. You can take a look at the [full comparison here](https://plausible.io/vs-google-analytics)﻿ and start a [free trial here](https://plausible.io/register).
