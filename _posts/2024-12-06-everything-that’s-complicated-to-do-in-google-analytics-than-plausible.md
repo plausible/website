@@ -224,4 +224,6 @@ We explain this process and custom dimensions in more detail [here](https://plau
 * You can also compare Plausible with [Matomo](https://plausible.io/vs-matomo) and [Cloudflare Analytics](https://plausible.io/vs-cloudflare-web-analytics).
 * We are open-source and completely transparent with our practices. We don’t sell your customers data, are not involved in ad tech, and are an independent team that only cares about a good product.
 
+T﻿ransitioning from GA4 to Plausible? We have a [guide](https://plausible.io/blog/ga-to-plausible-transition) to help.
+
 Ready to try the simplest web analytics tool? [Create your account now](https://plausible.io/register)!
