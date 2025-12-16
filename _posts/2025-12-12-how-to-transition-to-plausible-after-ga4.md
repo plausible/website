@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to transition to Plausible after GA4?
-description: How to transition to Plausible after GA4?
+description: A practical guide for marketers switching from GA4 to Plausible
 slug: ga-to-plausible-transition
 date: 2025-12-16T12:45:37.638Z
 author: hricha-shandily
