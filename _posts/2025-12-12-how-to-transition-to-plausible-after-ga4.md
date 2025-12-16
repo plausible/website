@@ -2,13 +2,13 @@
 layout: post
 title: How to transition to Plausible after GA4?
 description: How to transition to Plausible after GA4?
-slug: plausible-ga4
+slug: ga-to-plausible-transition
 date: 2025-12-15T12:07:29.196Z
 author: hricha-shandily
 ---
-If you have spent years working with Google Analytics, switching tools can feel risky. GA4 includes many reports, dimensions, filters and settings. Plausible takes a different approach. It gives you one clean dashboard that stays simple while still giving you the insights you need.
+If you have spent years working with Google Analytics, switching tools can feel risky. GA4 includes many reports, dimensions, filters and settings. Plausible takes a different approach. You see one clean dashboard that stays simple while still giving you all the insights you need. 
 
-If you are trying to figure out whether Plausible can support your daily marketing work, this guide will help. It shows how to complete the most common GA4 tasks in Plausible and explains where the two tools differ.
+If you are trying to figure out whether Plausible can support your daily marketing work, this guide will help. We explain how to complete the most common GA4 tasks in Plausible and explain where the two tools differ.
 
 The goal is straightforward. If you already know GA4, you will finish this guide with a clear view of what Plausible can and cannot do for your workflow.
 
@@ -21,9 +21,9 @@ F﻿irst, let's address how Plausible is different from GA4 at the very core.
 
 ### GA4's philosophy
 
-GA4 collects a large amount of data tied to users and events. Usually, the goal is not just to track website activity but profile users in order to be able to run hyper-targeted ads, attribute conversions back to multiple touch points in a user journeys, etc. 
+GA4 collects a large amount of data tied to users and events. Usually, the goal is not just to track website activity but profile users in order to be able to run hyper-targeted ads, attribute conversions back to multiple touch points in user journeys, etc. 
 
-It also relies on machine learning and modeling to [fill data gaps](https://plausible.io/blog/consent-mode-ga4-modeled-data), since its tracking is incomplete due to being blocked for being privacy-invasive. When reports use sampled or modeled data, the numbers can shift largely each time. 
+It also relies on machine learning and modeling to [fill data gaps](https://plausible.io/blog/consent-mode-ga4-modeled-data), since its tracking is incomplete due to being blocked for being privacy-invasive. When reports use sampled or modeled data, the numbers can shift largely each time.
 
 ### Plausible's philosophy
 
@@ -50,7 +50,7 @@ As we are a private-by-design tool, you will not find:
 * Detailed attribution models
 * Ability to run Retargeting campaigns
 
-For most marketing teams, the first list covers day to day needs. 
+For most marketing teams, the first paragraph covers day to day needs.
 
 ## Getting started
 
@@ -66,9 +66,9 @@ Once you’re within your Plausible dashboard and wondering how to use it or set
 
 ### Traffic and Engagement Overview
 
-This is the most basic one.
+This is the most fundamental and common one.
 
-The Plausible dashboard gives you key metrics at a glance: unique visitors, total visits, pageviews, bounce rate, visit duration, and % change versus a previous period. Simply select your date range (e.g. last 91 days) in the top-right, and you will see all your metrics along with their graph:
+The Plausible dashboard gives you key metrics at a glance: unique visitors, total visits, pageviews, bounce rate, visit duration, and % change versus a previous period. Simply select your date range (e.g. last 91 days) in the top-right, and you will see all your metrics along with their respective graph.
 
 ![plausible analytics gives website performance overview at a glance](/uploads/plausible-website-overview-at-a-glance.png "plausible analytics gives website performance overview at a glance ")
 
@@ -82,24 +82,36 @@ GA4: These metrics are found in different reports under different groups on the 
 
 ### Campaign and Channel Performance
 
-Tracking marketing campaigns is straightforward. Firstly, your traffic is automatically grouped by channels (Organic Search, Paid Social, Email, etc.). For paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up.
+Tracking marketing campaigns is straightforward. By default, your traffic is automatically grouped by channels: 
 
-In the Top Sources report, switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. You can further filter by UTM Medium, Source, Campaign name, Content, or Term. This lets you drill into which specific email, ad, or promotion drove traffic.
+* D﻿isplay
+* E﻿mail
+* A﻿ffiliates
+* Paid Search
+* Paid Shopping
+* R﻿eferral
+* S﻿MS
+
+a﻿nd a whole bunch of others (full list with explanations [here](https://plausible.io/docs/top-referrers#channels)...which automatically covers all kinds of traffic you acquire from different marketing channels including paid and organic ones.
+
+S﻿pecifically for paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up. In the Top Sources report, switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. 
+
+You can further filter by UTM Medium, Source, Campaign name, Content, or Term. This lets you drill into which specific email, ad, or promotion drove traffic and led to conversions.
 
 #### Tracking Google Ads with Plausible
 
 There are two ways to track Google Ads traffic: manual UTM tagging and auto-tagging using `gclid`\
 if you're using auto-tagging in Google Ads. 
 
-Plausible automatically detects the gclid parameter and attributes the visit to Google Ads. These visits show up under the "Paid Search" channel, no manual tagging required.
+Plausible automatically detects the `gclid` parameter and attributes the visit to Google Ads. These visits show up under the "Paid Search" channel, no manual tagging required.
 
-P.S. We track the msclkid (Microsoft Click ID in Microsoft Ads) too.
+P.S. We track the `msclkid` (Microsoft Click ID in Microsoft Ads) too.
 
-For conversion tracking from campaigns, just set up goals in Plausible (like a thank-you page or a custom event), and you'll be able to measure precisely how many conversions each campaign, ad group, or keyword is driving, as long as your URLs are tagged.
+For conversion tracking from campaigns, just set up [goals](https://plausible.io/docs/goal-conversions) in Plausible, like a thank-you pageview goal (no code setup needed) or a custom event, and you'll be able to measure precisely how many conversions each campaign, ad group, or keyword is driving, as long as your URLs are tagged.
 
 For more, check out [tracking Google Ads in Plausible](https://plausible.io/blog/google-ads-tracking).
 
-Funnily enough, Google Analytics does not track ads performance accurately because it often struggles to track conversions accurately. According to [this](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) independent experiment, the conversions are underreported by about 20.3% in GA4 when using a consent banner, and about 11.3% even without using a consent banner.
+Funnily enough, Google Analytics does not track ads performance accurately. According to [this](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) independent experiment, the conversions are underreported by about 20.3% in GA4 when using a consent banner, and about 11.3% even without using a consent banner.
 
 With Plausible, you don’t need a consent banner so your conversion tracking is way more accurate from the get go.
 
