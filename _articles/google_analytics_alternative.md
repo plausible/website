@@ -135,4 +135,4 @@ Plausible is here to provide you all the valuable website traffic insights at a 
 
 Do you have a website or a business? Give Plausible a chance. [Sign up for a 30-day free trial](https://plausible.io/register) with no obligations and explore our simple and privacy-friendly website analytics dashboard.
 
-You can even [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
+I﻿f you are wondering about your workflows and transitioning from GA4 to Plausible, [this guide](https://plausible.io/blog/ga-to-plausible-transition) would help. You can even [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) into Plausible.
