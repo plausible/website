@@ -205,4 +205,6 @@ The more accurate the data, the more confidently you can base your business deci
 
 Working with more accurate and reliable data, collected ethically, is entirely possible. So why settle for less?
 
-Get a [free Plausible trial](https://plausible.io/register) right away –– we’ve made it super convenient to get started. And do check out our official [plugin](https://wordpress.org/plugins/plausible-analytics/) if you’re on WordPress.
+Get a [free Plausible trial](https://plausible.io/register) right away – we’ve made it super convenient to get started. You can also checkout our [GA4 to Plausible transition guide](https://plausible.io/blog/ga-to-plausible-transition)
+
+And do check out our official [plugin](https://wordpress.org/plugins/plausible-analytics/) if you’re on WordPress.
