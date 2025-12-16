@@ -3,7 +3,7 @@ layout: post
 title: How to transition to Plausible after GA4?
 description: How to transition to Plausible after GA4?
 slug: ga-to-plausible-transition
-date: 2025-12-15T12:07:29.196Z
+date: 2025-12-16T09:11:46.145Z
 author: hricha-shandily
 ---
 If you have spent years working with Google Analytics, switching tools can feel risky. GA4 includes many reports, dimensions, filters and settings. Plausible takes a different approach. You see one clean dashboard that stays simple while still giving you all the insights you need. 
@@ -52,7 +52,7 @@ As we are a private-by-design tool, you will not find:
 
 For most marketing teams, the first paragraph covers day to day needs.
 
-## Getting started
+## Getting up and running (fast)
 
 In case you haven’t already, you can begin by:
 
