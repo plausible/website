@@ -398,15 +398,18 @@ When you turn on the “Search Queries” setting in your WordPress plugin setti
 
 You can click on this entry from the “Goals” section of the dashboard or use the [Filter](https://plausible.io/docs/filters-segments) option to segment your dashboard by this goal only. Once done, you will be able to view:
 
-* **Unique visitors vs unique & total conversions, with conversion rate**. Since “WP Seach Queries” is implemented as a goal, the conversion in this context means that successful searches were conducted.
-* **Other data related to the activity that took place during** the sessions in which searches were done.
-* **The exact search queries** (case-sensitive) that took place. These queries are auto-implemented in the form of [custom properties](https://plausible.io/docs/custom-props/introduction), so no additional setup is needed on your end.
+* **Unique & total conversions, with conversion rate**. Since “WP Seach Queries” is implemented as a goal, the conversion in this context means that successful searches were conducted.
+* Other data related to the activity that took place during the sessions in which searches were done.
+* T﻿hree auto-implemented [custom properties](https://plausible.io/docs/custom-props/introduction):
+* * "search_query" – the exact search queries (case-sensitive) that took place. 
+  * "﻿result_count" – how many results each search returned.
+  * "﻿search_source" – which pages visitors were on when they used your site search.
 
 ![WP search queries filter on Plausible dashboard](/uploads/wp-search-queries-filter.png "WP search queries filter on Plausible dashboard")
 
 How to read this report?
 
-In the year so far, we had 32 unique visitors, out of which 3 visitors searched for something on the site 8 times. They all came from Direct sources. They exited the website from different pages (details mentioned). They came from the mentioned cities and used the mentioned browsers. They searched for “tshirt”, “Hoodie” and “hoodie.”
+In the year so far, 3 visitors searched for something on the site 8 times. They all came from Direct sources. They exited the website from different pages (details mentioned). They came from the mentioned cities and used the mentioned browsers. They searched for “tshirt”, “Hoodie” and “hoodie.”
 
 That’s the insight you get in an instant. Furthermore, you can go as deep as needed by clicking on any entry in this report. Let’s say you want to see the specific data for the search term: “tshirt.”
 
