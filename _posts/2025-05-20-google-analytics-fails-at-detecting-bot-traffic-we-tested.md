@@ -218,12 +218,12 @@ Accurate analytics are essential for making smart decisions. When bots, crawlers
 * Polluted user behavior insights: Understanding what real users do on your site becomes much harder when noise from scripts and crawlers is in the mix.
 * False conversions: Bots can accidentally (or deliberately) trigger conversion events — like submitting forms, reaching thank-you pages, or firing eCommerce purchase events. This can make it look like your campaigns are performing well when in reality, no real user completed the action.
 
-Keeping your analytics clean isn’t about perfection — it’s about removing the obvious noise so you can focus on what matters: your real audience.
+Keeping your analytics clean isn’t about perfection – it’s about removing the obvious noise so you can focus on what matters: your real audience.
 
 ## Test-drive Plausible
 
 As of January 2025, we had blocked about 2 billion bots from accessing sites and skewing stats of Plausible subscribers.
 
-We are proud to have built a more accurate alternative to Google Analytics, not just in terms of detecting bot traffic but also in terms of recording traffic regardless of cookie consent banner declines, ad blockers blocking scripts, maintaining location accuracy, etc. –– while being privacy-friendly and well-accepted by the end-user. You can see a full comparison [here](https://plausible.io/most-accurate-web-analytics).
+We are proud to have built a more accurate alternative to Google Analytics, not just in terms of detecting bot traffic but also in terms of recording traffic regardless of cookie consent banner declines, ad blockers blocking scripts, maintaining location accuracy, etc. – while being privacy-friendly and well-accepted by the end-user. You can see a full comparison [here](https://plausible.io/most-accurate-web-analytics).
 
 You can conduct your own tests like we did and don’t forget to share the results with us. Good day/night! ✌️
