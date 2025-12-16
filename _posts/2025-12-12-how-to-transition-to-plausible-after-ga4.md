@@ -150,7 +150,9 @@ If you run an online store or track monetary conversions, Plausible can handle r
 
 You can then send the sale amount and currency with each conversion (via JavaScript or a CSS class). Plausible will show total revenue, average order value, conversion rate, etc. on your dashboard.
 
-These revenue metrics are fully filterable by any dimension – campaign, source, landing page, country, device, even your custom properties. For example, you can see total revenue from a specific ad campaign or compare purchase value by product category (using a custom property for category). 
+These revenue metrics are fully filterable by any dimension – campaign, source, landing page, country, device, even your custom properties. For example, you can see total revenue from a specific ad campaign or compare purchase value by product category (using a custom property for category).
+
+M﻿ore on ecommerce and revenue tracking [here](https://plausible.io/blog/ecommerce-revenue-attribution)
 
 For WordPress shops, we even have an official plugin. You can also automatically track [WooCommerce](https://plausible.io/blog/woocommerce-analytics-plugin) events (add-to-cart, complete purchase, revenue, product name/category, etc.).
 
@@ -166,9 +168,11 @@ Once set up, Plausible shows the conversion rate and drop-off at each step. This
 
 Importantly, Plausible funnels use real, consented data – there’s no modeling or guesswork. If a visitor declines tracking, that session is simply not counted (it’s not “estimated” with machine learning). This means funnel conversion rates are truthful and not inflated by predictive fills.
 
-In practice, you can spin up a funnel in seconds, and filter it by channels/campaign, locations, and devices for deeper insight. 
+In practice, you can spin up a funnel in seconds, and filter it by channels/campaign, locations, and devices for deeper insight.
 
 For instance, filter a signup funnel by UTM campaign to see which ads lead to the best conversion rates.
+
+M﻿ore on funnel optimizations and using them in Plausible [here](https://plausible.io/blog/funnels-conversion-optimization)
 
 GA4: Build funnels via Explorations, but it requires manual setup of each step and can’t easily share insights on a simple dashboard. Our funnels are meant to be quick and straightforward, with the analytics “puzzle pieces” already in place.
 
@@ -180,13 +184,13 @@ For bespoke reports or dashboards, you have multiple options.
 
 #### Looker Studio Connector
 
-We offer an official Looker Studio (formerly Google Data Studio) connector. You can link your Plausible site and build custom charts, combining Plausible data with other sources like CRM platforms, ad data, or surveys – as you please.
+We offer an official Looker Studio (formerly Google Data Studio) [connector](https://plausible.io/blog/google-looker-studio-guide). You can link your Plausible site and build custom charts, combining Plausible data with other sources like CRM platforms, ad data, or surveys – as you please.
 
 The connector includes all Plausible metrics and dimensions, so you can recreate your dashboard or build completely new visualizations.
 
 #### Stats API for Custom Access
 
-We provide a robust Stats API for programmatic access. You can use it to pull visitor counts, page stats, goals, or funnel data into tools like Python, R, or any HTTP client. This enables advanced use cases like syncing with internal dashboards or analytics stacks.
+We provide a robust [Stats API](https://plausible.io/docs/stats-api) for programmatic access. You can use it to pull visitor counts, page stats, goals, or funnel data into tools like Python, R, or any HTTP client. This enables advanced use cases like syncing with internal dashboards or analytics stacks.
 
 #### Export to Google Sheets, Data Warehouses, BI Tools
 
@@ -211,17 +215,19 @@ The API works well for pushing data into Google Sheets, BigQuery, or any BI syst
 
 #### Scroll Depth tracking
 
-Plausible automatically tracks scroll depth without requiring additional setup. You can see how many visitors reached how much percentage of a page from 1-100% – useful for understanding content engagement beyond bounce rate.
+Plausible automatically [tracks scroll depth](https://plausible.io/blog/scroll-depth-tracking) without requiring additional setup. You can see how many visitors reached how much percentage of a page from 1-100% – useful for understanding content engagement beyond bounce rate.
 
-In GA, the built-in scroll tracking (available as an enhanced measurement, which needs to be turned on manually) is limited as it only allows tracking at 90% scroll depth. This is only useful in knowing whether visitors are scrolling all the way down or not. Therefore, the solution suggested by GA experts is to disable it entirely and implement a more customized (cumbersome) solution within Google Tag Manager.
+In GA4, the built-in scroll tracking (available as an enhanced measurement, which needs to be turned on manually) is limited as it only allows tracking at 90% scroll depth. This is only useful in knowing whether visitors are scrolling all the way down or not. 
+
+Therefore, the solution suggested by GA experts is to disable it entirely and implement a more customized (cumbersome) solution within Google Tag Manager.
 
 #### Embeddable dashboards
 
-You can embed your Plausible dashboard anywhere with an iframe great for internal sharing. There’s also a WordPress plugin that adds the dashboard directly into your site’s admin panel.
+You can [embed](https://plausible.io/docs/embed-dashboard) your Plausible dashboard anywhere with an iframe, great for internal sharing. If you're using our WordPress plugin, the dashboard is visible directly on your site’s admin panel. 
 
 #### Slack alerts
 
-You can enable your Plausible Analytics weekly and/or monthly reports and traffic spike notifications to be sent directly into your Slack channel.
+You can enable your Plausible Analytics weekly and/or monthly reports and traffic spike notifications to be sent directly into your [Slack channel](https://plausible.io/docs/slack-reports).
 
 GA4 does not support built-in Slack alerts. You’d need to:
 
