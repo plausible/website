@@ -58,6 +58,7 @@ In case you haven’t already, you can begin by:
 * [Registering](https://plausible.io/docs/register-account) for your account and setting up your site (or sites if you have many).
 * Doing a GA import of all your GA properties into Plausible. We also ensure that there are no gaps in data and no double-counting issues. Follow [this](https://plausible.io/docs/custom-query-params) guide.
 * Familiarize yourself with our [metrics and definitions](https://plausible.io/docs/metrics-definitions). We have tried to name it all to be simple, self-explanatory, and in other cases, similar to GA4’s terminology for a smooth and fast transition.
+* If you're still testing, you can even run Plausible alongside GA4, test things and only remove the GA4 script after you're completely happy with what Plausible provides. This won't affect your site speed either as we're very [lightweight](https://plausible.io/lightweight-web-analytics).
 
 Once you’re within your Plausible dashboard and wondering how to use it or set it up further in a way that enables you to do everything you were doing with GA, carry on. 
 
@@ -228,8 +229,6 @@ GA4 does not support built-in Slack alerts. You’d need to:
 * Set up your alert logic there.
 
 ## In the end
-
-
 
 | **Use Case**          | **GA4**                             | **Plausible**                               |
 | --------------------- | ----------------------------------- | ------------------------------------------- |
