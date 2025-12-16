@@ -115,8 +115,8 @@ Plausible Analytics is open source and you can self-host it on your own server.
 The main difference between Plausible Analytics in the cloud and the self-hosted version is that the self-hosted version you need to install, maintain and manage on your own server while the cloud version we manage for you so you don't have to worry about anything.
  You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
 
-## Sounds like an interesting alternative to you? 
+## Sounds like an interesting alternative to you?
 
-If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register).
+If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register)a﻿nd utilize our [GA4 to Plausible transition guide](https://plausible.io/blog/ga-to-plausible-transition).
 
 As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
