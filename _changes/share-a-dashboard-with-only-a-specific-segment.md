@@ -1,9 +1,11 @@
 ---
 layout: change
-title: Share a dashboard with only a specific segment
+title: Limited dashboard sharing
 date: 2025-12-17T14:44:03.695Z
 ---
-You can now share a dashboard that shows data from only one segment. People opening the link will always see that segment and cannot remove it. They can add more filters, but they will not be able to see any data outside the selected segment. This makes it easy to share only the data you want with the right audience.
+When sharing your dashboard with external parties, you can now choose to show only the data you want to show, i.e. show data from only one segment. 
+
+People opening the link will always see that segment and cannot remove it. They can add more filters, but they will not be able to see any data outside the selected segment. This makes it easy to share only the data you want with the right audience.
 
 *add the limit to segment hashed link with this.*
 
