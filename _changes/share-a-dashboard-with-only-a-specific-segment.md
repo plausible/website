@@ -12,3 +12,4 @@ People opening the link will always see that segment and cannot remove it. They 
 ### O﻿ther updates
 
 * N﻿ow you will find a percentage column appear upon hovering over any report. This makes it easier to see what percentage of the total visitors each source, page, region, or device contributes.
+* https://3.basecamp.com/5308029/buckets/37132704/card_tables/cards/9396184257#__recording_9396366123 raw data export
