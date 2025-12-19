@@ -246,7 +246,7 @@ layout: default
           <div class="p-4 border border-gray-100 rounded-lg">
             <div class="flex items-center">
               <a class="flex items-center group" href="https://twitter.com/{{ tweet.author_handle }}" target="_blank">
-                <img class="w-10 rounded-full" src="{{ tweet.author_img }}" />
+                <img class="w-10 rounded-full" alt="Profile image of {{ tweet.author_handle }}" src="{{ tweet.author_img }}" />
                 <div class="ml-2 leading-tight">
                   <div class="font-bold group-hover:text-blue-500">{{ tweet.author_name }}</div>
                   <div class="text-xs text-gray-500">@{{ tweet.author_handle }}</div>
