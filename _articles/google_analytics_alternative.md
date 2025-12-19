@@ -55,7 +55,7 @@ By using Google Analytics, you're sacrificing the privacy of your site visitors.
 
 If you are tracking and collecting personal website usage data, you need to ask for and get explicit consent from the visitor according to the recent regulations such as the [General Data Protection Regulation](https://gdpr-info.eu/) (GDPR) in Europe.
 
-Lawmakers around the world have realized the severity of the situation and several different personal data and privacy regulations have been introduced such as the [California Consumer Privacy Act](https://www.oag.ca.gov/privacy/ccpa) (CCPA) in the United States and the [Privacy and Electronic Communications Regulations](https://ico.org.uk/for-organisations/guide-to-pecr/) (PECR) in the United Kingdom.
+Lawmakers around the world have realized the severity of the situation and several different personal data and privacy regulations have been introduced such as the [California Consumer Privacy Act](https://www.oag.ca.gov/privacy/ccpa) (CCPA) in the United States and the [Privacy and Electronic Communications Regulations](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/what-are-pecr/) (PECR) in the United Kingdom.
 
 Google Analytics collects a lot of personal data and it is a potential liability for your site. Many website owners fail to do this, but you should and must disclose to your visitors your use of Google Analytics to track them.
 
