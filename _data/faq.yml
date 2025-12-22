@@ -29,10 +29,10 @@
   answer: "No. There are no hard limits on the number of sites, the number of team members or the number of API requests per hour that you can have in your Plausible account. To modify the limits of your plan, please contact us. We're here to help tailor your subscription plan to your needs."
   
 - question: Can I integrate your dashboard into my UI and offer it to my customers?
-  answer: "Yes. We have built several features to make it easy to integrate web analytics powered by Plausible (but without our branding) directly into your user interface. <a class='text-indigo-600' href='https://plausible.io/white-label-web-analytics'>See more here</a>."
+  answer: "Yes. We have built <a class='text-indigo-600' href='https://plausible.io/white-label-web-analytics'>several features</a> to make it easy to integrate web analytics powered by Plausible (but without our branding) directly into your user interface."
 
 - question: Can I track visitors across my domain and subdomain?
-  answer: "Yes. You can use the same snippet on both the domain name and its subdomain. This allows you to see the visitor journey end-to-end from the landing on the main domain name to a conversion on the subdomain. <a class='text-indigo-600' href='https://plausible.io/docs/subdomain-hostname-filter'>More details here</a>."
+  answer: "Yes. You can use the same snippet on both the domain name and its subdomain. This allows you to see the visitor journey end-to-end from the landing on the main domain name to a conversion on the subdomain. <a class='text-indigo-600' href='https://plausible.io/docs/subdomain-hostname-filter'>Learn more about hostname or subdomain tracking here</a>."
 
 - question: Does Plausible get blocked by adblockers and how do I avoid that?
   answer: "We're not blocked to the same extent as Google Analytics (neither Firefox, Chrome nor Safari blocks Plausible out of the box) but we're blocked by some adblock browser extensions. You can use <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy</a> if you want to count visitors that use adblockers too."
