@@ -42,7 +42,7 @@ Needless to say, it’s a complicated bunch of things to do in Explorations. And
 
 ![Main metrics in Plausible](/uploads/main-metrics.jpg "Main metrics in Plausible")
 
-In case you want to confirm what these metrics mean, you can have a look at the definitions [here](https://plausible.io/docs/metrics-definitions).
+In case you want to confirm what these metrics mean, you can have a look at the [definitions](https://plausible.io/docs/metrics-definitions).
 
 #### In GA4
 
@@ -107,7 +107,7 @@ You can scroll down to the “Goal Conversions” section of your dashboard. Her
 
 Clicking on any of these goals will filter your dashboard. This makes finding the essential associated information for each event/goal extremely straightforward. You can also include additional filters like Country, Channels, Pages, etc., to get more granular information.
 
-Learn more [here](https://plausible.io/blog/ecommerce-revenue-attribution).
+Learn more about [conversions and revenue attribution here](https://plausible.io/blog/ecommerce-revenue-attribution)
 
 ![goal and revenue tracking](/uploads/goal-and-revenue-tracking.webp "goal and revenue tracking")
 
@@ -131,7 +131,7 @@ For eg. If we want to study Plausible site’s UK visitors who upgraded to a pai
 
 ![segmenting in plausible](/uploads/segment.webp "segmenting in plausible")
 
-You can see more about what audience segmentation is and how to do it in Plausible [here](https://plausible.io/audience-segmentation).
+You can see more about what [audience segmentation is and how to do it in Plausible](https://plausible.io/audience-segmentation).
 
 #### In GA4
 
@@ -214,7 +214,7 @@ In GA4, they need to be added as a secondary dimension to the particular report 
 
 On top of that, custom dimensions are not easy to set up in GA4. You need to set up some events first (while ensuring they don’t fall under existing categories of events in GA’s documentation), then attach parameters using Google Tag Manager, followed by registering the custom dimensions in GA4 interface.
 
-We explain this process and custom dimensions in more detail [here](https://plausible.io/blog/custom-dimensions-analytics).
+We explain [this process and custom dimensions in more detail](https://plausible.io/blog/custom-dimensions-analytics)
 
 ## Other reasons Plausible is a superior web analytics choice
 
