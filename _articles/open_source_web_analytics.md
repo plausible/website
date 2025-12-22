@@ -49,7 +49,7 @@ We welcome feedback from our community. We have a [public roadmap](https://plaus
 
 #### You can open your website analytics and make the stats publicly-viewable too
 
-Plausible gives you the option to be transparent and open your web analytics to everyone. Your website stats are private by default but you can choose to make them public so anyone with your custom link can view them. You can view stats for Plausible website itself [here](https://plausible.io/plausible.io).
+Plausible gives you the option to be transparent and open your web analytics to everyone. Your website stats are private by default but you can choose to make them public so anyone with your custom link can view them. You can view the [stats for Plausible website](https://plausible.io/plausible.io) itself. 
 
 ## Is Google Analytics open source too?
 
