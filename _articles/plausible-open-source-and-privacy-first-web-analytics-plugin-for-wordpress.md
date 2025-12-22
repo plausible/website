@@ -316,7 +316,7 @@ You can manually configure the actions you want to track regardless of the techn
 
 `plausible-event-name=Purchase plausible-revenue-amount=10.29 plausible-revenue-currency=EUR`
 
-For full details on sending revenue data, [take a look here](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site).
+For full details on [sending revenue data](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site), take a look.
 
 ## How to track 404 error pages
 
@@ -346,7 +346,7 @@ You'll see the "WP Search Queries" goal appear as soon as the first search is re
 * result_count: how many results each search returned
 * search_source: which pages people searched from
 
-M﻿ore [here](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics).
+M﻿ore about [site search tracking in WordPress here](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics).
 
 ## How to track logged-in user status
 
