@@ -1,7 +1,7 @@
 ---
 layout: change
 title: Limited dashboard sharing
-date: 2025-12-17T14:44:03.695Z
+date: 2026-01-05T14:44:03.695Z
 ---
 When sharing your dashboard with external parties, you can now choose to show only the data you want to show, i.e. show data from only one segment. 
 
