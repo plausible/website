@@ -16,4 +16,4 @@ This makes it easy to share only the data you want with the right audience.
 ## O﻿ther updates
 
 * You can now see what percentage of your visitors came from different traffic sources, locations, and devices, as well as what percentage visited each page. A percentage column appears when you hover over a report and when the report is expanded.
-* Enterprise customers now have the option to access their event level data with [scheduled raw event data exports](https://plausible.io/docs/export-stats#scheduled-raw-event-data-exports).
+* Enterprise customers now have the option to access their privacy-friendly event level data with [scheduled raw event data exports](https://plausible.io/docs/export-stats#scheduled-raw-event-data-exports).
