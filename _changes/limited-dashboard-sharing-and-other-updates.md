@@ -1,6 +1,6 @@
 ---
 layout: change
-title: Limited dashboard sharing and other updates
+title: Limited dashboard sharing
 date: 2026-01-05T08:36:41.004Z
 ---
 H﻿appy new year! Here are a few updates to kick off the new year. 🎈
