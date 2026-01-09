@@ -91,13 +91,13 @@ We can enable Single Sign-On (SSO) for your team to log in to Plausible using yo
 
 This removes the need to create and manage separate user accounts, streamlines onboarding and offboarding, and aligns with internal security and compliance requirements. 
 
-Plausible supports the SAML 2.0 protocol, which works with most identity providers like Google Workspace, Okta and Microsoft Entra ID (Azure AD), so you can guard access using your corporate identity platform.
+Plausible supports the SAML 2.0 protocol, which works with most identity providers like Google Workspace, Okta and Microsoft Entra ID (Azure AD), so you can guard access using your corporate identity platform. Find [all info here](https://plausible.io/docs/sso).
 
 ### Managed proxy for more complete data 
 
 Some browsers and adblockers block requests to analytics services by default, which can lead to gaps in your data.
 
-A proxy lets you run Plausible’s tracking script and event API through your own domain instead of sending them directly to *plausible.io*, essentially making analytics look like a first-party connection from your site. This helps reduce blocking and gives you a more complete picture of user behavior.
+A [proxy](https://plausible.io/docs/proxy/introduction) lets you run Plausible’s tracking script and event API through your own domain instead of sending them directly to *plausible.io*, essentially making analytics look like a first-party connection from your site. This helps reduce blocking and gives you a more complete picture of user behavior.
 
 With Managed Proxy on the Enterprise plan, we handle the setup and maintenance for you. You simply point a CNAME from your domain to the proxy endpoint we provide and update the script snippet on your site. 
 
@@ -140,8 +140,12 @@ As an enterprise subscriber, you get access to all [business features](https://p
 
 We offer Enterprise plans for organizations that need more flexibility than our standard plans provide. You can choose any combination of higher limits, enterprise features, or both.
 
-We’ll work with you to put together a custom Enterprise plan that fits your usage, requirements and internal workflows. 
+We’ll work with you to put together a custom Enterprise plan that fits your usage, requirements and internal workflows. If your legal or procurement team needs to review any of our documents or has questions about how our security practices or data processing work in practice, we’re happy to help clarify.
+
+Unlike many B2B enterprise tools, our Enterprise plans don’t come with long-term contracts or lock-ins. You can start on an Enterprise plan, upgrade or downgrade as your needs change, or cancel at any time.
+
+Plausible is offered under our standard terms of service, privacy policy, data policy and data processing agreement. These documents are publicly available and apply equally to all subscribers.
 
 If you haven’t already, take a look at the Plausible [demo](https://plausible.io/plausible.io) dashboard (which is our very own analytics publicly live). Feel free to get started with a [free trial](https://plausible.io/register) and take Plausible for a ride.
 
-We’ll be ready to get in touch at `hello@plausible.io`.
+**Get in touch at `hello@plausible.io`.**
