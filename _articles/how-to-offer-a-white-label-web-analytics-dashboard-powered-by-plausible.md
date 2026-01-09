@@ -87,6 +87,6 @@ Learn more about [the consolidated view functionality](https://plausible.io/docs
 
 You can explore Plausible using [our free trial](https://plausible.io/register). We have a 30-day free trial with no credit card required. These 30 days allow you to explore Plausible, our dashboard and integration into your user interface.
 
-The Stats API, embedded dashboard, Consolidated View and custom proxy are available during the trial and on our Business subscription plans. If you need access to the Sites API, want to use our managed proxy or want to track more than 10 websites, please contact us to discuss an enterprise plan.
+The Stats API, embedded dashboard, Consolidated View and custom proxy are available during the trial and on our Business subscription plans. If you need access to the Sites API, want to use our managed proxy or want to track more than 10 websites, please contact us to discuss an [enterprise plan](https://plausible.io/enterprise-web-analytics).
 
 [Contact us](https://plausible.io/contact) if you have any questions about a possible integration of Plausible Analytics into your product.
