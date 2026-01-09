@@ -55,3 +55,25 @@ See:
 * [Privacy policy](https://plausible.io/privacy)
 * [Data policy](https://plausible.io/data-policy)
 * [Terms of service](https://plausible.io/terms)
+
+## Accurate stats
+
+Plausible is designed to show real numbers, not modeled or estimated data. We do not use sampling, statistical modeling, and we do not change historical data.
+
+As we do not apply thresholds, sampling or data blending, your numbers do not suddenly change when traffic increases. What you see today is directly comparable to what you saw last week or last year, making Plausible suitable for long-term reporting, forecasting and internal reviews.
+
+You’ll also generally see a much better accuracy in your stats because our tracking script is not blocked or denied by ad blockers or privacy-respecting browsers, or cookie consent banners. Because of this reason alone, you’ll see 55% more data available in Plausible as compared to GA4 ([study proves](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/)).
+
+Our bot detection system also ensures that you never have to worry about excluding bot or even spam traffic yourself.
+
+Our data is also always fresh and constantly updated. We provide real-time analytics.
+
+Find the [detailed breakdown](https://plausible.io/most-accurate-web-analytics) of how we ensure that you see accurate analytics and how this compares to Google Analytics.
+
+## Built for large teams and high-traffic sites
+
+Plausible can handle any number of pageviews/events on your sites, all you need to do is let us know about your requirement. The largest site in our network currently gets ~one billion pageviews per month, but that is not the upper limit for us.
+
+You can also have any number of sites and different [teams](https://plausible.io/docs/users-roles#working-with-your-team) on your Plausible account. Your data stays accurate and easy to understand, whether you are analyzing one site or hundreds.
+
+If your website or websites exceed 10 million monthly pageviews including custom events, or you need 10+ sites, or 10+ team members and/or higher API limits, a custom Enterprise plan is required.
