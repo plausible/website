@@ -144,9 +144,7 @@ We offer Enterprise plans for organizations that need more flexibility than our 
 
 We’ll work with you to put together a custom Enterprise plan that fits your usage, requirements and internal workflows. If your legal or procurement team needs to review any of our documents or has questions about how our security practices or data processing work in practice, we’re happy to help clarify.
 
-Unlike many B2B enterprise tools, our Enterprise plans don’t come with long-term contracts or lock-ins. You can start on an Enterprise plan, upgrade or downgrade as your needs change, or cancel at any time.
-
-Plausible is offered under our standard terms of service, privacy policy, data policy and data processing agreement. These documents are publicly available and apply equally to all subscribers.
+Unlike many B2B enterprise tools, our Enterprise plans don’t come with long-term contracts or lock-ins. You can start on an Enterprise plan, upgrade or downgrade as your needs change, or cancel at any time. Plausible is offered under our standard terms of service, privacy policy, data policy and data processing agreement. These documents are publicly available and apply equally to all subscribers.
 
 If you haven’t already, take a look at the Plausible [demo](https://plausible.io/plausible.io) dashboard (which is our very own analytics publicly live). Feel free to get started with a [free trial](https://plausible.io/register) and take Plausible for a ride.
 
