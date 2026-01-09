@@ -148,4 +148,4 @@ Unlike many B2B enterprise tools, our Enterprise plans don’t come with long-te
 
 If you haven’t already, take a look at the Plausible [demo](https://plausible.io/plausible.io) dashboard (which is our very own analytics publicly live). Feel free to get started with a [free trial](https://plausible.io/register) and take Plausible for a ride.
 
-**Get in touch at [hello@plausible.io](mailto://hello@plausible.io).**
+**Get in touch at [hello@plausible.io](mailto:hello@plausible.io?subject=Enterprise%20plan%20inquiry).**
