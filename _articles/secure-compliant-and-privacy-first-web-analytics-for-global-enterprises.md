@@ -14,7 +14,7 @@ Plausible has been trusted for years by organizations such as Hugging Face, Sent
 
 As of early 2026, Plausible is used by 16,000+ paying subscribers worldwide, including 600+ enterprise accounts.
 
-If you’re looking for a web analytics tool that can cover your needs right from handling high volumes of data, privacy-friendliness, accuracy of stats, state-of-the-art security practices, and is still easy to use, here’s everything you need to know. 
+If you’re looking for a web analytics tool that can cover your needs right from handling high volumes of data, privacy-friendliness, accuracy of stats, state-of-the-art security practices, and is still easy to use, here’s everything you need to know.
 
 1. Ordered list
 {:toc}
