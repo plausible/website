@@ -10,7 +10,7 @@ Plausible Analytics is loved by small and large organizations that run many webs
 
 Plausible has been trusted for years by organizations such as Hugging Face, Sentry, the Python Software Foundation, the Steve Jobs Archive, the Rails Foundation, Harvard University, the Scottish and Welsh governments – just to name a few.
 
-As of early 2026, Plausible is used by ~17,000 paying subscribers worldwide, including 600+ enterprise accounts.
+As of early 2026, Plausible is used by ~16,000 paying subscribers worldwide, including 600+ enterprise accounts.
 
 If you’re looking for a web analytics tool that can cover your needs right from handling high volumes of data, privacy-friendliness, accuracy of stats, state-of-the-art security practices, and is still easy to use, here’s everything you need to know. 
 
