@@ -118,6 +118,27 @@ You can learn more about [white labeling](https://plausible.io/white-label-web-a
 
 In addition to the features above, Enterprise plans offer:
 
-* 5+ years of data retention, making it easier to analyze trends over time, compare performance year over year and meet internal reporting requirements.
-* Higher API limits, including 600+ Stats API requests per hour
-* Priority support with faster response times and direct access to the Plausible team when issues or questions arise.
+* **5+ years of data retention**, making it easier to analyze trends over time, compare performance year over year and meet internal reporting requirements.
+* **Higher API limits**, including 600+ Stats API requests per hour
+* **Priority support** with faster response times and direct access to the Plausible team when issues or questions arise.
+
+## Other features to make your Plausible experience smooth
+
+As an enterprise subscriber, you get access to all [business features](https://plausible.io/#pricing), some of which are worth mentioning here:
+
+* Set weekly/monthly performance [reports](https://plausible.io/docs/email-reports) to be sent through email
+* [Import](https://plausible.io/docs/google-analytics-import) your GA4 data for a smooth transition
+* Use the official [Looker Studio Connector](https://plausible.io/docs/looker-studio) or the [Search Console integration](https://plausible.io/docs/google-search-console-integration)
+* Setup all kinds of [goals](https://plausible.io/docs/goal-conversions) and [funnel](https://plausible.io/docs/funnel-analysis) f﻿or conversion analysis
+* Track easily across different [subdomains/hostnames](https://plausible.io/docs/subdomain-hostname-filter')
+* Use segments for [audience segmentation](https://plausible.io/audience-segmentation) and deeper analysis
+
+## Talk to us about an Enterprise plan
+
+We offer Enterprise plans for organizations that need more flexibility than our standard plans provide. You can choose any combination of higher limits, enterprise features, or both.
+
+We’ll work with you to put together a custom Enterprise plan that fits your usage, requirements and internal workflows. 
+
+If you haven’t already, take a look at the Plausible [demo](https://plausible.io/plausible.io) dashboard (which is our very own analytics publicly live). Feel free to get started with a [free trial](https://plausible.io/register) and take Plausible for a ride.
+
+We’ll be ready to get in touch at `hello@plausible.io`.
