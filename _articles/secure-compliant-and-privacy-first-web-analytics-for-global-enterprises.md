@@ -77,3 +77,47 @@ Plausible can handle any number of pageviews/events on your sites, all you need 
 You can also have any number of sites and different [teams](https://plausible.io/docs/users-roles#working-with-your-team) on your Plausible account. Your data stays accurate and easy to understand, whether you are analyzing one site or hundreds.
 
 If your website or websites exceed 10 million monthly pageviews including custom events, or you need 10+ sites, or 10+ team members and/or higher API limits, a custom Enterprise plan is required.
+
+## Enterprise-only features for advanced needs
+
+You can get access to the following enterprise-only features, depending upon the custom plan you decide with us.
+
+### Single Sign-On (SSO) for centralized access control
+
+We can enable Single Sign-On (SSO) for your team to log in to Plausible using your existing identity provider.
+
+This removes the need to create and manage separate user accounts, streamlines onboarding and offboarding, and aligns with internal security and compliance requirements. 
+
+Plausible supports the SAML 2.0 protocol, which works with most identity providers like Google Workspace, Okta and Microsoft Entra ID (Azure AD), so you can guard access using your corporate identity platform.
+
+### Managed proxy for more complete data 
+
+Some browsers and adblockers block requests to analytics services by default, which can lead to gaps in your data.
+
+A proxy lets you run Plausible’s tracking script and event API through your own domain instead of sending them directly to *plausible.io*, essentially making analytics look like a first-party connection from your site. This helps reduce blocking and gives you a more complete picture of user behavior.
+
+With Managed Proxy on the Enterprise plan, we handle the setup and maintenance for you. You simply point a CNAME from your domain to the proxy endpoint we provide and update the script snippet on your site. 
+
+We take care of the rest behind the scenes, so you get the benefits of a first-party connection without the operational overhead.
+
+### Scheduled raw event data exports for deeper analysis
+
+You can get access to the raw event data so you can run custom queries, build your own reports, or feed internal dashboards and data warehouses.
+
+With scheduled raw event data exports on the Enterprise plan, you can automatically export your event data on a regular schedule. Exports include all events tracked by Plausible (pageviews and custom events) in a simple format that works with tools like BigQuery, Snowflake, Redshift, or your own internal systems.
+
+Once set up, these exports run automatically and deliver your data where you need it, without manual steps. This makes it easier to combine Plausible data with other sources, perform deeper analysis, and meet internal reporting or compliance requirements.
+
+### Sites API
+
+The Plausible Site provisioning API offers a way to create and manage sites in your Plausible account programmatically. This is useful if you run many websites or if you're offering a web analytics dashboard powered by Plausible to your customers.
+
+You can learn more about [white labeling](https://plausible.io/white-label-web-analytics) here. For full technical details on the Sites API and how to use it, see our [documentation](https://plausible.io/docs/sites-api).
+
+### Other Enterprise features
+
+In addition to the features above, Enterprise plans offer:
+
+* 5+ years of data retention, making it easier to analyze trends over time, compare performance year over year and meet internal reporting requirements.
+* Higher API limits, including 600+ Stats API requests per hour
+* Priority support with faster response times and direct access to the Plausible team when issues or questions arise.
