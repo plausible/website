@@ -6,13 +6,15 @@ description: Why Plausible stays independent, avoids selling data, and is funded
 slug: customers-not-investors
 date: 2026-01-15T11:45:23.026Z
 author: hricha-shandily
+image: /uploads/plausible-no-investors.png
+image-alt: Plausible is subscriber funded
 ---
 Plausible has been several years into business. We’re sustainably profitable and solely funded by our subscribers. We have never raised a single dollar from any investor and respectfully, don’t plan on doing so.
 
 Why? In a nutshell: saying no to investors buys us freedom. Freedom to:
 
 1. Ordered list  
-   {:toc}
+{:toc}
 
 ## Stay loyal to our purpose and principles, not a board of directors
 
@@ -24,7 +26,7 @@ If there were investors, we would have two groups to satisfy: customers and shar
 * Saying no to markets that dilute focus
 * Growing only as fast as revenue allows
 
-Investors usually need outsized returns. Our priority is privacy and simplicity, which would be harder to protect under *growth-at-all-costs* incentives.
+Investors usually need outsized returns. Our priority is [privacy](https://plausible.io/privacy-focused-web-analytics) and [simplicity](https://plausible.io/simple-web-analytics), which would be harder to protect under *growth-at-all-costs* incentives.
 
 ## Our subscribers are happy to support us
 
@@ -40,11 +42,11 @@ With investors, success is often defined as acquisition or IPO. We don’t want 
 
 ## Our structure allows for it
 
-The truth is that venture backed startups are great for problems that require massive upfront capital or winner takes most dynamics.
+The truth is that venture backed startups are great for problems that require massive upfront capital or *winner takes most* dynamics.
 
 But for a focused SaaS product like ours with clear customers and steady demand, saying no to investors makes more sense for us.
 
-Some people argue that investors might have helped us offer Plausible for free like our main competitor out there, but that would force us to make money some other way. And that easiest “other way” for an analytics tool is to sell customer data which is exactly what plausible was built to fight against.
+Some people argue that investors might have helped us offer Plausible for free like our main competitor out there (although they [aren't truly free](https://plausible.io/paid-analytics-vs-free-ga) either), but that would force us to make money some other way. And that easiest “other way” for an analytics tool is to sell customer data which is exactly what plausible was built to fight against. 
 
 ## Why don't we sell data?
 
