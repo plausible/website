@@ -68,6 +68,6 @@ Imagine if you had the same choice with your favorite proprietary and closed sou
 
 Plausible Analytics is made with care, designed with love and built to last. We [avoid most traditional marketing practices](https://plausible.io/blog/startup-marketing) and instead focus on creating a great product experience with accurate stats, powerful insights and an easy-to-use dashboard. 
 
-Our primary obligation is to Plausible subscribers, not investors, advertisers or any other third parties. [We listen to feedback](https://feedback.plausible.io) and try to make good decisions while staying true to our mission and meeting rigorous standards for stability, security and privacy.
+Our primary obligation is to Plausible subscribers, [not investors](https://plausible.io/blog/customers-not-investors), advertisers or any other third parties. [We listen to feedback](https://feedback.plausible.io) and try to make good decisions while staying true to our mission and meeting rigorous standards for stability, security and privacy.
 
 A significant portion of our growth comes from website and business owners who love using Plausible and share their experiences with the world. We are grateful to everyone who helps spread the word about Plausible. Without people sharing their experiences it would be difficult for us to do what we do. Thank you!
