@@ -47,7 +47,7 @@ Last year, we went several months without any salaries living from personal savi
 
 Both [my co-founder Uku](https://twitter.com/ukutaht) and I worked at venture-funded startups before Plausible. Some things are different when you're bootstrapping.
 
-The best thing about being bootstrapped is that we don't waste any time obsessing over investors and their wants—no calls, meetings, reports, presentations and expectations. Instead, we only obsess about our customers, their needs and about removing Google Analytics from the web.
+The best thing about being bootstrapped is that we [don't waste any time obsessing over investors](https://plausible.io/blog/customers-not-investors) and their wants—no calls, meetings, reports, presentations and expectations. Instead, we only obsess about our customers, their needs and about removing Google Analytics from the web.
 
 We do miss out on getting featured in the tech media. TechCrunch published a story about our growth once (thanks to the VCs who were sharing a list of fastest growing open source startup) but otherwise, we get no coverage that VC-funded startups get. 
 
