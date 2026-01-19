@@ -127,7 +127,7 @@ At Plausible, we're indie hackers. We have no external funding so we're complete
 
 Are we crazy to reject all the venture funds that regularly knock on our door? We don't think so and we believe it is time for more startups to do things patiently and differently.
 
-Having no investors means that we don't have easy money we can throw at Google and Facebook funding them to do the marketing work for us. Our marketing budget is $0 if you don't account for our own time. That doesn't stop us from growing and from doing marketing though.
+Having [no investors](https://plausible.io/blog/customers-not-investors) means that we don't have easy money we can throw at Google and Facebook funding them to do the marketing work for us. Our marketing budget is $0 if you don't account for our own time. That doesn't stop us from growing and from doing marketing though.
 
 And our "boring marketing strategy" is very efficient. Being active in different niche communities is free. So is being involved in social media. So is writing blog posts and sharing them with various niche aggregators.
 
@@ -173,7 +173,7 @@ The early work was focused on increasing brand awareness and attracting people t
 
 And now people who try Plausible and have a great and useful experience transitioning from Google Analytics help drive word of mouth and proactive marketing buzz for us.
 
-## Don't be worried about being transparent and open source 
+## Don't be worried about being transparent and open source
 
 We've managed all this with a privacy first and open source product built completely in public. All our development work and our codebase is available in the public. All our website traffic stats and revenue numbers are in the public too. 
 
