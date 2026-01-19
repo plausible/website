@@ -36,7 +36,7 @@ You don't have to worry about Schrems II and that it invalidates the EU-US Priva
 
 ## Completely independent, self-funded and bootstrapped
 
-There are no investors behind Plausible Analytics and no big corporations with a different agenda or big plans. We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. We ignore all such requests. We're solely funded by our subscribers. 
+There are [no investors](https://plausible.io/blog/customers-not-investors) behind Plausible Analytics and no big corporations with a different agenda or big plans. We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. We ignore all such requests. We're solely funded by our subscribers. 
 
 ## We minimize data collection
 
