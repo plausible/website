@@ -186,3 +186,51 @@ Again, an SEO tool offers such reports if you’re subscribed to the right plan.
 Many websites maintain “resources” or “recommended tools/content” pages. If your content or product genuinely fits, you can reach out and suggest it for inclusion. This works especially well for tools, educational content, and open source projects.
 
 You will also find many platforms like Appsumo, SaaSHub, AlternativeTo where you can submit your startup/site for discoverability and backlinks.
+
+## How *not* to get backlinks?
+
+### Do not buy backlinks
+
+It is a black hat SEO trick which is a hard NO. This would only do more harm than good. You would easily find a lot of sellers with enticing claims of getting you an instant ranking boost but they just don’t work anymore as the ranking algorithms have gotten smarter.
+
+In extreme cases, buying backlinks can get your site permanently excluded from Google’s search results too.
+
+### Do not spam comments and forums
+
+Dropping links in blog comments, forums, or Q&A sites purely for SEO value also does not work anymore. It’s fine if someone is sharing your link somewhere it adds genuine value or has been asked for.
+
+Most of these links are anyway nofollow, heavily moderated, or removed entirely. So turning it into a war-room type strategy can harm your brand reputation and also get you banned entirely from communities. Case in point: Reddit.
+
+### Do not trade links excessively
+
+AB or ABCD link exchanges are very common. If you have a web presence, you will start getting so many emails about link swaps. If you happen to find a genuinely nice cross-linking opportunity, it’s fine.
+
+But if you turn it into a mindless strategy at scale, you’ll end up creating unnatural linking patterns.
+
+This is the most common way of generating backlinks but that is exactly why there’s so much low quality spam out there which you must steer clear from.
+
+## How to check if backlinks are leading to traffic improvements?
+
+Backlinks are not an end goal by themselves. What really matters is whether they help improve visibility, rankings, and actual traffic.
+
+Here’s how you can check if more backlinks = more traffic for you. Do give a few weeks or months for the results to show up.
+
+### Track referral traffic growth over time
+
+Backlinks, **if** they are actually being clicked wherever they’re placed, would lead to more direct traffic from referral sources.
+
+If you want to be even more specific and are expecting traffic from a certain, high-value backlink: you can also check if you’ve been getting traffic from that specific domain itself.
+
+Even if a link does not pass SEO authority, referral traffic alone can make it valuable.
+
+### Track organic traffic growth over time
+
+This is the main one as backlinks are supposed to influence organic traffic indirectly by improving rankings.
+
+So compare your organic traffic before and after earning strong backlinks. This should be done over weeks or months, not days, since search engines take time to process new links and we’re looking for high-level trends here.
+
+You need a web analytics tool to track this. For instance, in Plausible, you can directly see your traffic grouped by specific channels like referral and organic search (includes AI search traffic too).
+
+In this example, you can see traffic to the blog grouped by acquisition channels over the last 91 days and compared to the previous period ([check interactive dashboard here](https://plausible.io/plausible.io?f=is,channel,Organic%20Search)).
+
+The green arrows indicate growth. Hovering over the arrows would show you growth in percentage terms as well.
