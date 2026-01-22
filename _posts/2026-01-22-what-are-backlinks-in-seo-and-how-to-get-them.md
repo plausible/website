@@ -135,3 +135,54 @@ That’s how we’ve done it at Plausible. We’ve generated hundreds of thousan
 Like, a well-written comparison article or a unique industry report may get picked up by bloggers, journalists, or forum discussions months or even years after it is published. These links compound over time without any direct outreach from your side.
 
 Also worth noting that as a side-effect of writing useful content on the internet: you’ll almost always generate some backlinks automatically. The question is whether you’re okay with solely relying on that or want to speed it up by manual backlinking strategies as well.
+
+### Manual backlink building methods
+
+Manual backlink building means actively promoting your content or site to earn links. The only catch with these methods is that you would need to hire someone: an in-house person or a full team or an SEO agency to do these things for you.
+
+#### Guest posting on relevant websites
+
+You can write articles for other popular blogs or publications in your industry and include a contextual backlink to your site. You get full control on what to write and spread the word out there.
+
+Be sure to provide real value to the audience of the site you are writing for. Low quality guest posting done at scale no longer works and can even turn out to be counter-productive by hurting your brand’s perception.
+
+#### Creating linkable assets
+
+Some content types attract more backlinks than others, like:
+
+* Original research and surveys
+* Free tools or calculators
+* Definitive guides and tutorials
+* Infographics
+
+People naturally link to these assets when they need to reference data or recommend a resource.
+
+#### Broken link building
+
+You can look for broken links on other websites and suggest your content as a replacement.
+
+For example, if a blog links to a resource that now throws a 404 response, you can reach out to the author, point out the broken link, and recommend your relevant content instead. This both helps the site owner and earns you a backlink.
+
+There are broken backlink checkers available now: 
+
+1. Just put the domain of the site you want to get a backlink from.
+2. Get a list of the links in their content that no longer work due to the linked page being broken or any such reason.
+3. Reach out to the author or the content team of this blog for replacing this link with yours. Wait and watch.
+
+#### Unlinked brand mentions
+
+Sometimes websites mention your brand or product without linking to it. You can find these mentions and politely ask the author to turn the mention into a clickable link. Since they already know your brand, your chances of getting the link are often high.
+
+#### Competitor backlink analysis
+
+By analyzing where your competitors get their backlinks from, you can identify opportunities for your own site.
+
+If a website links to multiple competitors in your niche, there is a good chance they may also be open to linking to you, provided you offer something comparable or better.
+
+Again, an SEO tool offers such reports if you’re subscribed to the right plan.
+
+#### Resource pages, roundups and libraries
+
+Many websites maintain “resources” or “recommended tools/content” pages. If your content or product genuinely fits, you can reach out and suggest it for inclusion. This works especially well for tools, educational content, and open source projects.
+
+You will also find many platforms like Appsumo, SaaSHub, AlternativeTo where you can submit your startup/site for discoverability and backlinks.
