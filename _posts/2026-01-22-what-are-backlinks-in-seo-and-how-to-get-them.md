@@ -78,3 +78,60 @@ Wikipedia is a well known example of this. All external links from Wikipedia use
 Even though such links can send traffic and add credibility with readers, it does not directly pass SEO authority in the same way a dofollow link does – technically speaking.
 
 ### They send real referral traffic
+
+Strong backlinks are mainly for reader-experience and search engine optimization is a side-effect of that. That’s essentially what Google is trying to do as well to determine your rank-ability – whether you’re good enough for showing as a top result to its users.
+
+If a backlink is placed on a popular article that people genuinely read, it can drive high quality traffic consistently.
+
+### They come from unique domains
+
+It is usually better to earn links from many different websites than many links from the same site.
+
+Ten backlinks from ten different authoritative domains would carry more weight than a hundred backlinks from a single domain. This shows that your content is being recommended across the web, not just by one source.
+
+## Backlink checkers
+
+By now, you have gotten a good idea of what backlinks are! You must be curious about how many backlinks you have and which ones.
+
+All you need to do is open the search engine you use and type backlink checkers and you’ll get a ton of free backlink checkers.
+
+Just add your domain name and you will get a list of your website’s backlinks, and usually a lot of other info as well.
+
+### Backlink Analytics
+
+Backlink checkers give you many reports, depending on the tool you’re using. It’s even better if you’re already subscribed to an SEO tool of your choice.
+
+We checked ours using Semrush and here’s a snapshot of what we got:
+
+![backlink analytics](/uploads/backlink-analytics.png "backlink analytics")
+
+We can see a LOT through these reports. On this dashboard alone, we were able to do the following.
+
+* Add competitors to compare our backlink profile to theirs. Yes, anybody’s backlink profile is publicly available.
+* See if our domain’s authority score is good based on the reputation of our backlinking network graph.
+* See our backlinks’ toxicity score (to see how many “bad” backlinks we have)
+* Visualize trends in graphs
+* See the categories of referring domains (IT, online services, Marketing, etc.)
+* Top anchors
+* A breakdown of referring domains by their authority scores
+* Types of backlinks we’ve earned (image, text, follow, nofollow, etc.)
+* Countries, TLD distribution, top pages that get backlinks
+
+## How to get backlinks?
+
+Okay, now we know what backlinks are and where you stand currently. The next step is to understand how to get backlinks.
+
+There are **two ways of getting backlinks: automatically and manually**. By automatically, we mean you just focus on putting good content out there and wait for it to get discovered by people who would genuinely find it useful to link to. This is organic, natural, fuss free, saves you time, effort and money but requires patience. It’s what the search engines ideally expect too, i.e., that they don’t get gamed.
+
+That’s how we’ve done it at Plausible. We’ve generated hundreds of thousands of backlinks but never worked on getting a single backlink manually. Having said that, here’s what did help:
+
+* We try to create as useful content as possible (and original researches) that organically attracts backlinks.
+* Word of mouth leading to natural "review" posts, videos, listicle recommendations, etc. When people genuinely like your product or content, they talk about it.
+* Marketplace listings (mostly organic)
+* Being an analytics tool, many subscribers mention us and link to our data policy in their own privacy policy pages. These are organic, contextual backlinks created as a side effect of product usage.
+
+…so, if your product or content is genuinely useful, solves a real problem, and reaches the right audience, your backlink profile can often build itself over time.
+
+Like, a well-written comparison article or a unique industry report may get picked up by bloggers, journalists, or forum discussions months or even years after it is published. These links compound over time without any direct outreach from your side.
+
+Also worth noting that as a side-effect of writing useful content on the internet: you’ll almost always generate some backlinks automatically. The question is whether you’re okay with solely relying on that or want to speed it up by manual backlinking strategies as well.
