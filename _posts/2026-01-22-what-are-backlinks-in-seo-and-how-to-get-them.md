@@ -234,3 +234,9 @@ You need a web analytics tool to track this. For instance, in Plausible, you can
 In this example, you can see traffic to the blog grouped by acquisition channels over the last 91 days and compared to the previous period ([check interactive dashboard here](https://plausible.io/plausible.io?f=is,channel,Organic%20Search)).
 
 The green arrows indicate growth. Hovering over the arrows would show you growth in percentage terms as well.
+
+![plausible-dashboard-blog-analytics](/uploads/plausible-dashboard-blog-analytics.png "plausible-dashboard-blog-analytics")
+
+Here, organic search is growing, which suggests improved visibility in search results. Referral traffic, on the other hand, shows visitors who clicked through from links on other websites. This is the most direct way to see backlinks working.
+
+You can also go one level deeper by clicking into the Referral channel to see exactly which domains are sending traffic. This allows you to identify high-value backlinks that are not only helping SEO, but also bringing in real visitors.
