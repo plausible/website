@@ -15,6 +15,9 @@ If any blogger, company site, or basically any site includes a clickable link to
 
 Think of it like a whole network of webpages linking to a few of each other which makes navigating the web easier. It also helps in writing content itself as you can cite your resources, add references, etc., by linking to the relevant webpage.
 
+1. Ordered list
+{:toc}
+
 ## Why are backlinks important? 
 
 In SEO terms, backlinks act as **signals of trust** and authority to search engines like Google. When other websites link to your site, it essentially means that “*This content is useful and worth referencing*,” and search engines take that as a positive signal. In turn, they rank you higher on the SERPs and you ideally get more traffic.
@@ -240,3 +243,119 @@ The green arrows indicate growth. Hovering over the arrows would show you growth
 Here, organic search is growing, which suggests improved visibility in search results. Referral traffic, on the other hand, shows visitors who clicked through from links on other websites. This is the most direct way to see backlinks working.
 
 You can also go one level deeper by clicking into the Referral channel to see exactly which domains are sending traffic. This allows you to identify high-value backlinks that are not only helping SEO, but also bringing in real visitors.
+
+![](/uploads/filter-traffic-by-referral-source.png)
+
+You can do the same by clicking on “organic search.” If you click on “Google” you will be able to see the exact search terms bringing in traffic too.
+
+The key thing to look for here is not sudden spikes, but steady trends.
+
+### Focus on trends, not individual links
+
+It is hard to attribute traffic gains or conversion improvements to a single backlink. Some visitors may arrive through a backlink, leave, and return later via search or direct traffic.
+
+Instead, look at overall trends:
+
+* Is your backlink profile improving in quality?
+* Is organic traffic trending upward?
+* Are more pages starting to rank?
+* Is overall traffic improving?
+
+When backlinks are working, the impact is usually cumulative and long-term, not instant.
+
+### Monitor keyword rankings
+
+Backlinks often help pages rank higher for existing keywords or start ranking for new ones. This can be done as part of backlink analytics explained above.
+
+With an SEO tool, you can track the keyword rankings of pages that received backlinks. Or if you don’t want to go so specific, just look at high-level trends like:
+
+* Are rankings increasing?
+* Are new keywords being added?
+* Is the authority score improving?
+
+### Combine SEO tools and analytics for clearer insights
+
+SEO tools help you understand *why* rankings may be changing, but they do not show you what users actually do on your site. The most reliable way to evaluate backlinks is to combine both data sources.
+
+For example an SEO tool shows that your product page gained rankings but Plausible shows if that page contributed to conversions.
+
+This way, you can be confident your backlinks are contributing to traffic and in some relevant cases, conversion improvements.
+
+What if you’re seeing negative trends even after making all the efforts?
+
+## Backlink Audits
+
+A backlink audit is the process of analyzing all the websites that link to your site and evaluating the quality of those links. You can either do this in response to noticing negative trends or just as a hygienic cleanup.
+
+This will typically help you look at:
+
+**Link quality and toxicity**\
+The tool checks whether a linking site looks spammy, artificially created, or part of a known link network. Links from low trust domains, irrelevant niches, or suspicious pages are flagged as potentially toxic.
+
+**Authority of linking domains**\
+Backlinks from strong, authoritative sites are marked as valuable, while links from weak or low reputation domains are marked as risky.
+
+**Follow vs nofollow ratio**\
+A natural backlink profile contains a mix of dofollow and nofollow links. An unnatural pattern, such as an unusually high number of keyword stuffed dofollow links, can be a red flag.
+
+**Anchor text distribution**\
+Whether your anchor texts look natural or over-optimized. Too many identical keyword anchors can signal manipulation and down-rank you.
+
+**Link velocity and patterns**\
+Sudden spikes in backlinks from low quality sites may indicate spam attacks or poor link building practices.
+
+After running a backlink audit, you usually end up with three groups of links:
+
+* Healthy links that help your SEO
+* Neutral links that are harmless
+* Toxic links that may hurt your rankings
+
+For harmful links, you have two main options:
+
+1. Contact the site owner and request removal
+2. Use Google’s Disavow Tool to tell Google to ignore those links
+
+This process helps ensure that your backlink profile reflects genuine editorial recommendations, not artificial manipulation.
+
+## FAQs
+
+### How to find competitors' backlinks?
+
+You can use the backlink checkers as explained above. Use an SEO tool of your choice such as Morning Score, Semrush, Neil Patel, etc., and enter a competitor’s domain and open their backlinks or referring domains report.
+
+This shows you which websites link to them, which pages attract the most links, and what anchor text is being used.
+
+You can also do some manual research by searching Google for things like:
+
+“best tools for \[your industry]”
+
+or,
+
+“\[competitor name] review”
+
+This helps uncover links that may not be obvious at first glance.
+
+### How many backlinks do I need?
+
+There is no fixed number. It depends on:
+
+* How competitive your niche is
+* The authority of your site compared to competitors
+* The quality of backlinks, not just the quantity
+
+A good rule of thumb is to look at the pages currently ranking for your target keywords. If they have strong backlink profiles, you will likely need backlinks of similar quality to compete.
+
+Focus on earning better links than your competitors, not simply more links.
+
+### How to disavow backlinks?
+
+Disavowing backlinks means telling Google to ignore certain links pointing to your site.
+
+You should only do this if you believe harmful or spammy backlinks are negatively affecting your site and you cannot get them removed manually.
+
+The general process looks like this:
+
+1. Create a list of links to disavow. To disavow a domain (or subdomain) prefix it with "domain:"
+2. Upload your list to the [Disavow links tool page](https://search.google.com/search-console/disavow-links)
+
+Use this carefully though. Google is generally good at ignoring low quality links on its own. If your site has not been involved in link schemes or manual penalties, you often do not need to disavow anything at all.
