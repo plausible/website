@@ -26,7 +26,7 @@ In SEO terms, backlinks act as **signals of trust** and authority to search engi
 
 So what then? If you get a few sites to link back to you, you’ll start enjoying high rankings in Google and get a ton of organic traffic? It’s not that simple.
 
-## Good vs okay backlinks
+## Good vs okay vs bad backlinks
 
 Think of backlinks like recommendations from around the internet. Here’s what separates a good and rather useful backlink from the not so good ones:
 
