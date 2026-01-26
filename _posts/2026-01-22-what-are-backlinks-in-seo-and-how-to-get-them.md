@@ -6,7 +6,7 @@ description: Learn what backlinks are, how they affect SEO, how to earn quality
 slug: backlinks-seo-guide
 date: 2026-01-26T13:35:21.739Z
 author: hricha-shandily
-image: /uploads/plausible-backlink-from-wikipedia.png
+image: /uploads/plausible-s-backlink-from-wikipedia.png
 image-alt: plausible analytics backlink from wikipedia
 ---
 Backlinks are when another website (another domain) links back to you.
