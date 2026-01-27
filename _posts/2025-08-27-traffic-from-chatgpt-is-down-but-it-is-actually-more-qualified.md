@@ -61,7 +61,7 @@ Another thing that supports this hypothesis is we’re organically mentioned on 
 
 ## What you should do next?
 
-Some straightforward solutions will suggest you to do “Reddit growth hacking” or get more Wikipedia mentions or get more and more backlinks from the web.
+Some straightforward solutions will suggest you to do “Reddit growth hacking” or get more Wikipedia mentions or get more and more [backlinks](https://plausible.io/blog/backlinks-seo-guide) from the web.
 
 But we’ve never been the ones to do any sort of citations or growth hacking, neither do I believe that such tactics can survive the next AI update (as it will only get better and better at weeding out content written for making you click *sign up* and not for providing original value).
 
