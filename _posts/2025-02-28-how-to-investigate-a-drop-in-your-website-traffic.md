@@ -93,7 +93,7 @@ Interested people do make it to a website through the links in your profile’s 
 
 Since the biggest culprit until now seems to be Google search traffic, it’s possible to drill further down by seeing the exact search terms that bring Google traffic to you. This is available in the Plausible dashboard through a [GSC integration](https://plausible.io/docs/google-search-console-integration), or you can simply open up your Search Console in another tab.
 
-It could also be an algorithm update, lost backlinks or technical issues with crawling. We have a whole section on analyzing an organic search drop down below, but first let’s check the other reports for more information and eliminate any other possibilities.
+It could also be an algorithm update, lost [backlinks](https://plausible.io/blog/backlinks-seo-guide) or technical issues with crawling. We have a whole section on analyzing an organic search drop down below, but first let’s check the other reports for more information and eliminate any other possibilities.
 
 ### Which pages are affected?
 
@@ -177,9 +177,9 @@ So why is this tool showing a drop in rankings? It’s difficult to pinpoint. It
 
 It at least doesn’t matter at this point because we know there’s nothing much to do on our end.
 
-I also checked our Backlinks report––a popularly considered SEO ranking factor––and it shows a decline too but we never trade in backlinks and it’s all organic for us so we believe this will recover on its own.
+I also checked our Backlinks report (a popularly considered SEO ranking factor) and it shows a decline too but we never trade in backlinks and it’s all organic for us so we believe this will recover on its own.
 
-However, if you notice a decline and have an SEO team or an SEO strategy, you can improve your backlinking efforts.
+However, if you notice a decline and have an SEO team or an SEO strategy, you can improve your [backlinking efforts](https://plausible.io/blog/backlinks-seo-guide#how-to-get-backlinks).
 
 ### Confirm there are no technical issues
 
