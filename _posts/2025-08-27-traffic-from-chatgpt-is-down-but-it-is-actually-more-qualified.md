@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ChatGPT traffic is down — but Engagement is up!
+title: ChatGPT traffic is down, but Engagement is up!
 description: ChatGPT referral traffic is down since July, but the quality of
   visits and engagement has improved, showing why people-first content still
   wins
@@ -81,13 +81,13 @@ The same goes for your unique community and evangelists so you can minimize depe
 
 ### Refresh your content
 
-One attribute of Reddit is that it offers fresh content because the conversations are always flowing, 24*7. It could be the latest software updates, the next big trend in fashion, or car reviews –– almost anything you can possibly think of.
+One attribute of Reddit is that it offers fresh content because the conversations are always flowing, 24*7. It could be the latest software updates, the next big trend in fashion, or car reviews, almost anything you can possibly think of.
 
 Keeping your content up-to-date would also be a good idea.
 
 ### Write original content
 
-Publish content only *you* can provide. It can be thought leadership, your unique opinions, original research studies relevant to your industry or useful to your customers –– anything that basically is something unique to your brand.
+Publish content only *you* can provide. It can be thought leadership, your unique opinions, original research studies relevant to your industry or useful to your customers. Anything that basically is something unique to your brand.
 
 Such content cannot be duplicated and is instead cited across different content pieces, AI chats, and of course communities like Reddit.
 
