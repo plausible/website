@@ -299,6 +299,14 @@ P.S. We use Whereby at Plausible for internal video calls.
 
 If you wish to self-host, check out [Jitsi](https://jitsi.org/).
 
+G﻿H alts
+
+c﻿odeberg
+
+https://gitea.com (self-hosted)
+
+
+
 ## Final thoughts
 
 By choosing European-built alternatives, you support businesses that respect privacy, security, and local data regulations. Whether self-hosted or cloud-based, these tools provide viable, high-quality replacements for big tech solutions.
