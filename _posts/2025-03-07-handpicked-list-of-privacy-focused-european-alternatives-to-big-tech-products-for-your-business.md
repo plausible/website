@@ -10,10 +10,10 @@ author: hricha-shandily
 ---
 Europe has been building world-class digital tools for years. A major advantage is that many of these tools prioritize privacy and open-source development by default.
 
-[M﻿illions have been exploring European alternatives](https://plausible.io/blog/european-alternatives-trends-privacy-tech). If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives for your business.
+[M﻿illions have been exploring European alternatives](https://plausible.io/blog/european-alternatives-trends-privacy-tech). If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives B2B.
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Criteria for choosing these tools
 
@@ -41,7 +41,7 @@ AppSignal is an intuitive APM for developers which helps track performance, spot
 
 **GDPR compliant?** Yes
 
-**Cost**: Starts at €18 per month (30-day free trial)
+**Cost**: Free plan available, paid plans
 
 [Visit AppSignal](https://www.appsignal.com/)
 
@@ -128,7 +128,7 @@ It keeps messages private with end-to-end encryption. Because Matrix is decentra
 
 **GDPR compliant?** Yes
 
-**Cost**: Starts at €5 per user/month, paid annually (Free app available for personal use)
+**Cost**: Community edition is free to self-host, enterprise plans available
 
 [Visit Element](https://element.io/)
 
@@ -170,30 +170,35 @@ It also comes with features to help track your productivity, see an overview of 
 
 [Visit LanguageTool](https://languagetool.org/)
 
+### LibreOffice (Microsoft Office, Google Docs/Sheets/Slides alternative)
+
+LibreOffice is a free, open-source office suite that provides word processing, spreadsheets, presentations, and more as an alternative to traditional office platforms. It is developed by The Document Foundation, a non-profit based in Germany. 
+
+LibreOffice itself is not a hosted service, it runs on your own devices or infrastructure, and all data stays under your control.
+
+**Based in:** Germany
+
+**Hosted in:** Depends on where you install it
+
+**GDPR compliant?** Yes (self-hosted; no built-in tracking)
+
+**Cost:** Free
+
+[Visit LibreOffice](https://www.libreoffice.org)
+
 ### Mistral AI (ChatGPT alternative)
 
 Mistral is a French AI startup, with their own chat app called Le Chat, similar to ChatGPT, Deepseek, etc. They also published an [OSS model](https://ollama.com/library/mistral) a while back, which you can run on your own.
 
 **Based in**: France
 
-**Hosted in**: Sweden ([source](https://help.mistral.ai/en/articles/156206-when-using-mistral-ai-s-api-where-is-my-data-stored))
+**Hosted in**: Sweden, subprocessors in US ([source](https://trust.mistral.ai/subprocessors)
 
 **GDPR compliant?** Yes
 
 **Cost**: Free
 
 [Visit Mistral AI](https://mistral.ai/)
-
-### Morning Score (Ahrefs & SEMrush alternative)
-
-Morning Score is a user-friendly SEO tool designed to simplify keyword tracking, competitor analysis, and website optimization while respecting privacy.
-
-* **Based in:** Denmark
-* **Hosted in:** Germany
-* **GDPR compliant?** Info not available
-* **Cost:** Starts at €49/month (free trial available)
-
-[Visit Morning Score](https://morningscore.io/)
 
 ### Mullvad (ExpressVPN alternative)
 
@@ -211,7 +216,7 @@ True to European values, Mullvad VPN has a very strong stance on privacy which i
 
 [Visit Mullvad](https://mullvad.net/en)
 
-### Odoo (Salesforce & SAP alternative)
+### Odoo (Salesforce alternative)
 
 Odoo is an open-source enterprise resource planning (ERP) software that integrates multiple business applications into a single platform. They have a wide range of modules, including CRM, sales management, e-commerce, warehouse management, accounting, manufacturing, and human resources. 
 
@@ -340,14 +345,8 @@ P.S. We use Whereby at Plausible for internal video calls.
 
 If you wish to self-host, check out [Jitsi](https://jitsi.org/).
 
-G﻿H alts
-
-c﻿odeberg
-
-https://gitea.com (self-hosted)
-
 ## Final thoughts
 
 By choosing European-built alternatives, you support businesses that respect privacy, security, and local data regulations. Whether self-hosted or cloud-based, these tools provide viable, high-quality replacements for big tech solutions.
 
-**Do you have any suggestions? You can write to us at [reading@plausible.io](mailto:reading@plausible.io).**
+Do you have any suggestions? You can write to us at [reading@plausible.io](mailto:reading@plausible.io).
