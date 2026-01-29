@@ -247,6 +247,25 @@ You can also self-host it.
 
 [Visit Passbolt](https://www.passbolt.com/)
 
+### Phare Uptime (Uptime.com, BetterStack alternative)
+
+Phare Uptime is an uptime monitoring and incident management platform that continuously checks websites, APIs, and servers, alerts your team when something goes wrong, and offers customizable status pages.
+
+T﻿hey "[prioritize](https://phare.io/legal/sub-processors)European companies that use European hosting whenever possible to ensure better privacy, GDPR compliance, supporting local and lower latency."
+
+* **Supporting Local**: Keep the digital economy thriving in Europe
+* **Faster Service**: Lower latency for Phare's mostly European users
+
+**Based in:** Estonia
+
+**Hosted in:** EU (core services hosted at Hetzner, Germany) with monitoring agents globally
+
+**GDPR compliant?** Yes
+
+**Cost:** Free plan available, paid plans
+
+[Visit Phare Uptime](https://phare.io/)
+
 ### Plausible Analytics (Google Analytics alternative)
 
 We’re Plausible Analytics and after using Google Analytics for many years we believe we have created an alternative that’s privacy-first, simple to use, lightweight and much [better at certain things](https://plausible.io/blog/easy-insights).
