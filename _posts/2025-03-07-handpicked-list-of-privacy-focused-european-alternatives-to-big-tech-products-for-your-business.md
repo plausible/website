@@ -69,7 +69,7 @@ If you are looking for a comprehensive list manager, check out [Listmonk](https:
 
 ### BunnyCDN (Cloudflare alternative)
 
-BunnyCDN is a Content Delivery Network (CDN) designed to enhance website performance by caching and delivering content through a global network of servers. 
+BunnyCDN is a Content Delivery Network (CDN) designed to enhance website performance by caching and delivering content through a global network of servers.
 
 Unlike many big-tech CDNs that track user data, BunnyCDN focuses on speed and efficiency [without invasive data collection](https://bunny.net/blog/building-a-privacy-first-platform-at-bunny-net-tools-to-safeguard-data-and-build-trust/). They also include features like image optimization, video delivery, and edge storage. 
 
@@ -131,6 +131,28 @@ It keeps messages private with end-to-end encryption. Because Matrix is decentra
 **Cost**: Starts at €5 per user/month, paid annually (Free app available for personal use)
 
 [Visit Element](https://element.io/)
+
+### Hetzner (AWS, Google Cloud, DigitalOcean alternative)
+
+Hetzner is a German infrastructure provider offering dedicated servers, cloud instances, and storage. Hetzner operates data centers in Germany and Finland, with optional server locations in the United States and Singapore. When you choose an EU location, all customer account data and server data remain within the EU. 
+
+If you choose a non-EU location, only the data stored on that server is processed outside the EU, while customer account data remains under the EU-based Hetzner entity and GDPR safeguards.
+
+Offering non-EU locations is common for infrastructure providers to support global customers. Hetzner remains a reliable EU-based alternative because it is headquartered in Germany, operates under EU law, and allows customers to keep all data entirely within the EU.
+
+Official Hetzner documents also note that the company does not operate its own data center parks outside Europe; in the US and Singapore they use colocation space but remain contractually based in Germany.
+
+**Based in:** Germany
+
+**Hosted in:** Germany and Finland, more context explained above
+
+**GDPR compliant?** Yes
+
+**Cost:** Paid
+
+At Plausible, we also use Hetzner ourselves. All the data is hosted on servers owned by Hetzner in Germany, and the data never leaves the EU.
+
+[Visit Hetzner](https://www.hetzner.com)
 
 ### LanguageTool (Grammarly alternative)
 
@@ -304,8 +326,6 @@ G﻿H alts
 c﻿odeberg
 
 https://gitea.com (self-hosted)
-
-
 
 ## Final thoughts
 
