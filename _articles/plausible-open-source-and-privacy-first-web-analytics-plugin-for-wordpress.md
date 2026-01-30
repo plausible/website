@@ -72,7 +72,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 * Click the "Add Plugin" button. This will take you to the plugins marketplace.
 * In the search box, type "Plausible Analytics" and press Enter/Return. Make sure to open the official plugin listed, as shown in the screenshot below.
 
-![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \"Plausible Analytics\" WordPress plugin")
+![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\"Plausible Analytics\\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/)
 * You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one by one in the next section.
@@ -93,7 +93,7 @@ There are some features that you can enable in the plugin. Here's a look at thos
 
 In the "**Domain Name**" field, make sure you use the domain name exactly as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
 
-To automate the plugin setup, you need to generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field in the plugin. This will make it so that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings.
+To automate the plugin setup, you need to generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field in the plugin. This will ensure that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings. 
 
 You'll find a link to generate the token directly within the plugin settings. Clicking on this link will take you to the plausible.io website where you should click on the "**Create Plugin Token**" button. Then copy the token that is presented to you. 
 
