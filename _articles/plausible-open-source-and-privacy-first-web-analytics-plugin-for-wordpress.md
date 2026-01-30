@@ -72,7 +72,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 * Click the "Add Plugin" button. This will take you to the plugins marketplace.
 * In the search box, type "Plausible Analytics" and press Enter/Return. Make sure to open the official plugin listed, as shown in the screenshot below.
 
-![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\"Plausible Analytics\\" WordPress plugin")
+![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\\"Plausible Analytics\\\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/)
 * You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one by one in the next section.
@@ -271,7 +271,7 @@ For more details on custom events, please check out [this documentation page](ht
 
 You can attach custom properties when sending pageviews or custom events to create custom metrics. Custom properties allow you to collect and analyze metrics that we don't track automatically.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Authors and categories" option to do so.
+In the "Enhanced measurements" section of our WordPress plugin settings, when you enable the "Authors and categories" or "Logged-in user status" option, you start seeing properties for them in your dashboard.
 
 This will then start sending your post author names, post categories and custom taxonomies as custom properties alongside pageviews. You can then filter your Plausible dashboard by a specific author to see all the relevant stats for the posts published by that particular writer or a specific category to see the popularity of a category.
 
