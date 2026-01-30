@@ -183,31 +183,21 @@ If you'd like to count your visits, you can do so as well. Simply enable the use
 
 By default, Plausible adds a shortcut to the WordPress toolbar so you can quickly jump to analytics for the page you’re viewing. If you prefer a cleaner toolbar or don’t need quick access to stats while browsing your site, you can disable this menu with a single toggle.
 
-## How to track external link clicks
+## E﻿nhanced measurements
 
-Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
+### How to track 404 error pages
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Outbound links" option.
+Having 404 error pages on your WordPress site can lead to a bad user experience, a negative first impression, and even damage your search engine rankings and traffic you get from Google.
 
-All the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+Plausible Analytics plugin can help you identify those broken links and 404 page not found errors. 
 
-You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "404 error pages" option.
 
-## How to track cloaked affiliate link clicks
+All the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-Plausible Analytics plugin can help you automate cloaked affiliate link click tracking on your WordPress site.
+You'll see "404" goal as soon as the first visit on an error page has been tracked.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Cloaked affiliate links" option. 
-
-Then enter the partial URLs (also known as shortlink slugs) that you'd like to track. E.g. enter `/recommends/` if you want to track clicks on cloaked links such as `https://yourdomain.com/recommends/affiliate-product/` or `https://yourdomain.com/recommends/another-product/`.
-
-All the cloaked affiliate link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
-
-Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Link: Click" will appear in the "Goal Conversions" report of your Plausible Analytics dashboard. 
-
-Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" report to see which pages those cloaked links were clicked on.
-
-## How to track file downloads
+### How to track file downloads
 
 File downloads tracking is essential for many site owners and Plausible helps you automate this process. Our file downloads tracking captures a file download event each time a link is clicked with a document, presentation, text file, compressed file, video, audio or other common file type. 
 
@@ -221,7 +211,31 @@ All the file downloads will start being tracked and will be displayed in the "Go
 
 You'll see "File Download" goal as soon as the first link that leads to a file has been recorded.
 
-## How to track form completions
+### How to track external link clicks
+
+Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Outbound links" option.
+
+All the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
+
+### How to track cloaked affiliate link clicks
+
+Plausible Analytics plugin can help you automate cloaked affiliate link click tracking on your WordPress site.
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Cloaked affiliate links" option. 
+
+Then enter the partial URLs (also known as shortlink slugs) that you'd like to track. E.g. enter `/recommends/` if you want to track clicks on cloaked links such as `https://yourdomain.com/recommends/affiliate-product/` or `https://yourdomain.com/recommends/another-product/`.
+
+All the cloaked affiliate link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Link: Click" will appear in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" report to see which pages those cloaked links were clicked on.
+
+### How to track form completions
 
 Form submissions tracking is essential for many site owners and Plausible helps you automate this process. Our form submissions tracking captures a form completion event upon each successful form submission on your site. 
 
@@ -233,7 +247,7 @@ All the successful form completions will start being tracked and will be display
 
 You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
 
-## How to setup custom events to track goal conversions
+### How to setup custom events to track goal conversions
 
 Plausible Analytics plugin makes it easy to set up custom events and track actions such as signups or button clicks.
 
@@ -261,7 +275,7 @@ When you navigate back to your Plausible dashboard, you should see the number of
 
 For more details on custom events, please check out [this documentation page](https://plausible.io/docs/custom-event-goals).
 
-## How to send custom properties
+### How to send custom properties
 
 You can attach custom properties when sending pageviews or custom events to create custom metrics. Custom properties allow you to collect and analyze metrics that we don't track automatically.
 
@@ -271,7 +285,7 @@ This will then start sending your post author names, post categories and custom 
 
 Authors, categories and custom taxonomies work out of the box as soon as they're enabled, but if you prefer you can manually send additional custom properties alongside custom events or pageviews. Here's how to do so:
 
-### Custom properties for custom events
+#### Custom properties for custom events
 
 Let's say you have a button both in the header and footer of your site. 
 
@@ -285,13 +299,13 @@ You can add as many of these classes as you want. And the names can be anything 
 
 For more details on custom events and custom properties, please check out [this documentation page](https://plausible.io/docs/custom-event-goals).
 
-### Custom properties for pageviews
+#### Custom properties for pageviews
 
 Post authors, categories and custom taxonomies are tracked out of the box as soon as the "Authors and categories" option is enabled in the "Enhanced measurements" section of our WordPress plugin settings.
 
 For more details on how to send other custom properties for pageviews, please check out [this documentation page](https://plausible.io/docs/custom-props/for-pageviews#2-add-your-custom-properties-to-your-plausible-snippet).
 
-## How to track ecommerce revenue
+### How to track ecommerce revenue
 
 Plausible Analytics plugin has a built-in support for [tracking of WooCommerce store activity](https://plausible.io/blog/woocommerce-analytics-plugin) and Easy Digital Downloads as well. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
 
@@ -327,7 +341,7 @@ A purchase funnel will be created as well looking at the user journey all the wa
 
 All this is done automatically for you and you don't need to manually set up any custom events nor make any changes to your code.
 
-### If you're not using WooCommerce or Easy Digital Downloads for your store
+#### If you're not using WooCommerce or Easy Digital Downloads for your store
 
 You can manually configure the actions you want to track regardless of the technology you use to power your store. Here's how:
 
@@ -342,19 +356,7 @@ You can manually configure the actions you want to track regardless of the techn
 
 For full details on [sending revenue data](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site), take a look.
 
-## How to track 404 error pages
-
-Having 404 error pages on your WordPress site can lead to a bad user experience, a negative first impression, and even damage your search engine rankings and traffic you get from Google.
-
-Plausible Analytics plugin can help you identify those broken links and 404 page not found errors. 
-
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "404 error pages" option.
-
-All the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
-
-You'll see "404" goal as soon as the first visit on an error page has been tracked. 
-
-## How to enable site search tracking
+### How to enable site search tracking
 
 Plausible Analytics plugin can help you understand the activity on your search form and identify the search terms your visitors are searching for. It can also help you know how many results your search results show for the different search terms and on which of your pages people have used the search form. 
 
@@ -372,7 +374,7 @@ You'll see the "WP Search Queries" goal appear as soon as the first search is re
 
 M﻿ore about [site search tracking in WordPress here](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics).
 
-## How to track logged-in user status
+### How to track logged-in user status
 
 Plausible Analytics plugin can help you understand the status of your logged in or your logged out users.
 
@@ -382,7 +384,7 @@ All the user status will start being tracked and will be displayed in the "Goal 
 
 In the "Properties" tab of the "Goal Conversions" report, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. 
 
-## How to enable hash-based URL tracking
+### How to enable hash-based URL tracking
 
 Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specific-subheading` or `yourdomain.com/#contact`?
 
@@ -390,7 +392,7 @@ Normally the hash part of the URL is discarded in your Plausible dashboard. You 
 
 In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option.
 
-## How to track custom query parameters
+### How to track custom query parameters
 
 By default, Plausible strips all query parameters for privacy purposes except for `ref`, `source`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` and `utm_term`.
 
@@ -401,12 +403,6 @@ In the "Enhanced measurements" section of our WordPress plugin settings, you can
 Then enter the query parameter that you'd like to track. E.g. enter `lang` if you want to track views on pages such as `yoursite.com/article?lang=en` or `yoursite.com/article?lang=de`.
 
 All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard. 
-
-## How to track visitors who use Internet Explorer
-
-The default Plausible script won't work on Internet Explorer because it uses the `document.currentScript` API to read configuration options. 
-
-In the "Enhanced measurements" section of our WordPress plugin settings, you can enable the "IE compatibility" mode to count visitors who use the Internet Explorer browser.
 
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
