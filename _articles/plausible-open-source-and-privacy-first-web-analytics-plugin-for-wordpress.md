@@ -26,24 +26,24 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * Plausible, unlike Google Analytics, is [not a free](https://plausible.io/paid-analytics-vs-free-ga) as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are solely funded by the fees our subscribers pay us
 * There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing)
 
-## What are the other features of Plausible Analytics for WordPress?
+## How can Plausible Analytics be used for WordPress?
 
-* Track **clicks on external links** so you can see which of your affiliate links are more popular than others
-* **Track file downloads** so you can see which of your documents are more popular than others
-* **Track successful form submissions** to see conversion rates and conversion attribution of your campaigns 
-* **Setup goals and custom events using CSS class names** so you can track conversions and analyze conversion attribution
-* Check your Plausible **stats dashboard directly in your WordPress** dashboard
+* **See which external and affiliate links people actually click** so you know what sends traffic and drives value
+* **Find out which files get downloaded the most**, whether they are PDFs, resources, or digital products
+* **Measure form submissions as conversions** to understand how well your pages and campaigns perform
+* Define **goals and custom events** **using CSS class names** to track meaningful actions and see where conversions come from. No JS knowledge needed.
+* **View your Plausible stats directly inside WordPress** without switching tools or tabs
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
 * Track **post authors, categories and custom taxonomies**
-* Track **logged in vs logged out traffic**
-* Send **custom properties alongside pageviews or custom events**
+* Track **logged in vs logged out traffic** to see how members and public users differ
+* Send **custom properties** (extra context) alongside pageviews or custom events to better segment and analyze your traffic
 * Track **purchases and revenue for your ecommerce store**
-* Track **WooCommerce and Easy Digital Downloads sales** with automatic events such as add to cart, checkout and the purchase funnel
-* Track *site search terms*
-* **Exclude specific pages from being tracked**
-* **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too
-* **Allow specific user roles (editors, authors or contributors) to access the stats dashboard**
-* See a **link to the post stats in the toolbar** while browsing your site
+* **Get built-in tracking for WooCommerce and Easy Digital Downloads**, including add to cart, checkout, and completed purchases
+* Track **site search terms**. See what people search for on your site to understand their intent and content needs
+* **Exclude specific pages from being tracked** when they should not appear in your analytics
+* **Exclude admins from being tracked**. You can exclude editors, authors and contributors from being tracked too. Keep your data clean and accurate
+* **Control who can access the analytics** dashboard by assigning access to specific user roles
+* **Jump to analytics for any post or page from the WordPress toolbar** while browsing your site
 
 ## How to get started with Plausible Analytics
 
