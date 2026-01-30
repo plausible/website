@@ -356,7 +356,7 @@ Form submissions tracking is essential for many site owners and Plausible helps 
 
 We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja Forms and Elementor Forms but it should work for most other forms plugins as well. 
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Form completions" option.
+In the "Enhanced measurements" section of our WordPress plugin settings, just enable the "Form completions" option.
 
 All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
@@ -377,6 +377,8 @@ You'll see the "WP Search Queries" goal appear as soon as the first search is re
 * search_query: the specific terms people searched for
 * result_count: how many results each search returned
 * search_source: which pages people searched from
+
+![wp search tracking](/uploads/wp-search-queries.png "wp search tracking")
 
 M﻿ore about [site search tracking in WordPress here](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics).
 
