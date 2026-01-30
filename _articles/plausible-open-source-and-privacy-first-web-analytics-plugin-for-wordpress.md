@@ -111,16 +111,6 @@ Here are the most common reasons for that error:
 * Ensure the plugin token was created for the exact site you're trying to connect. Plugin tokens are site-specific
 * If everything looks correct, try creating a new plugin token and connect it again
 
-## How to view your stats directly in your WordPress dashboard
-
-You can view your Plausible stats dashboard directly in your WordPress dashboard without needing to visit our website.
-
-In the "View your stats in your WordPress dashboard" section of the plugin settings, enable the "View stats in WordPress" option.
-
-You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard.
-
-The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show stats dashboard to additional user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
-
 ## How to enable a proxy to get more accurate stats
 
 Plausible script is not blocked to the same extent as Google Analytics but we're blocked by some blocklist maintainers who have taken the stance that they want to block every tracking script and don't want to have the responsibility to judge what's good and what's bad.
@@ -133,7 +123,7 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 * **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin
 * In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option
 
-![Enable proxy in our WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
+![Enable proxy in plausible WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
 
 * If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect
 * Enabling the proxy will make our script run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json` and it creates a randomly named folder and file in the `/wp-content/uploads/` directory
@@ -164,6 +154,16 @@ We will send you a notification if the proxy takes too long (>500ms) to send pag
 * Access your server using (S)FTP, SSH or your host
 * Navigate to the directory of the Plausible plugin, usually `wp-content/plugins/plausible-analytics`
 * Open the `mu-plugin` directory within the plugin directory and copy the `plausible-proxy-speed-module.php` file to the `wp-content/mu-plugins` folder (if the `mu-plugins` folder doesn't exist within `wp-content`, create it before copying the file)
+
+## How to view your stats directly in your WordPress dashboard
+
+You can view your Plausible stats dashboard directly in your WordPress dashboard without needing to visit our website.
+
+In the "View your stats in your WordPress dashboard" section of the plugin settings, enable the "View stats in WordPress" option.
+
+You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard.
+
+The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show stats dashboard to additional user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
 
 ## How to track external link clicks
 
