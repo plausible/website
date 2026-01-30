@@ -414,6 +414,18 @@ Then enter the query parameter that you'd like to track. E.g. enter `lang` if yo
 
 All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard.
 
+## O﻿ther things you can do with Plausible 
+
+P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subsriber does. We recommend inspecting our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some highlights:
+
+### I﻿ntegrate with Google Search Console
+
+### E﻿nable notifications
+
+### S﻿etup funnels
+
+
+
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
 Most of our subscribers come from word of mouth, so if you love Plausible, we'd appreciate if you'd consider leaving a comment in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/). Thank you!
