@@ -85,9 +85,11 @@ You can also verify your installation to make sure everything is on track. You c
 
 "Plausible Analytics" entry will show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the various options available.
 
-![Plausible Analytics WordPress plugin settings](/uploads/plausible-analytics-wordpress-plugin-settings.png)
+T﻿his is the settings screen and it comes with a few options pre-enabled which you can keep as it is if you do want to track those things or turn them off.
 
-There are some features that you can enable in the plugin. Here's a look at those.
+![Plausible Analytics WordPress plugin settings](/uploads/plausible-wp-plugin-settings.png)
+
+Here are elaborate explanations for all the settings.
 
 ## Insert your domain name and plugin token
 
