@@ -416,7 +416,7 @@ All the query parameters will start being tracked and will be displayed in the "
 
 ## O﻿ther things you can do with Plausible 
 
-P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subsriber does. We recommend inspecting our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some highlights:
+P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subscriber does. We recommend inspecting our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some highlights:
 
 ### I﻿ntegrate with Google Search Console
 
@@ -428,9 +428,11 @@ Set up email or Slack notifications to stay informed about important changes in 
 
 ### S﻿etup funnels
 
-
+Use [funnels](https://plausible.io/docs/funnel-analysis) to understand how visitors move through key steps on your site, such as landing on a page, viewing product pages, and completing a signup or purchase. Funnels help you spot where people drop off and where you can improve conversions.
 
 ### G﻿et a consolidated view for all your sites
+
+
 
 ### C﻿onnect with Looker Studio for custom reporting
 
