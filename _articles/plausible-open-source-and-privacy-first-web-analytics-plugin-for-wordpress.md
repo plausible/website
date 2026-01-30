@@ -75,16 +75,17 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 ![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \"Plausible Analytics\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/)
-* You will then be taken through our get started guide to set up the plugin and the different options
-* "Plausible Analytics" entry will also show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to further explore the various options available.
-
-![Plausible Analytics WordPress plugin settings](/uploads/plausible-analytics-wordpress-plugin-settings.png)
+* You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one by one in the next section.
 
 That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
 
 You can also verify your installation to make sure everything is on track. You can launch our testing tool at any time from your [site settings](https://plausible.io/docs/website-settings) You will see a message like this if your tracking is working fine.
 
 ![verifying wp installation with plausible](/uploads/installation-verification.png)
+
+"Plausible Analytics" entry will show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the various options available.
+
+![Plausible Analytics WordPress plugin settings](/uploads/plausible-analytics-wordpress-plugin-settings.png)
 
 There are some features that you can enable in the plugin. Here's a look at those.
 
