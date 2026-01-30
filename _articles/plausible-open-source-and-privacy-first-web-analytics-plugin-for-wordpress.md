@@ -346,6 +346,8 @@ You can manually configure the actions you want to track regardless of the techn
 
 `plausible-event-name=Purchase plausible-revenue-amount=10.29 plausible-revenue-currency=EUR`
 
+![revenue-tracking-wordpress](/uploads/revenue-tracking-wordpress.png "revenue-tracking-wordpress")
+
 For full details on [sending revenue data](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site), take a look.
 
 ### How to track form completions
