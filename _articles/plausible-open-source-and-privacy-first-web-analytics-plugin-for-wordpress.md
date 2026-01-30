@@ -165,6 +165,24 @@ You can now go to the "Dashboard" section in the left hand side of your WordPres
 
 The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show stats dashboard to additional user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
 
+## How to exclude specific pages from being tracked
+
+In the "Exclude specific pages from being tracked" section of our WordPress plugin settings, you can add a list of page paths that you don't want to be counted in your website analytics.
+
+Any pages you list should be comma-separated. All entries must begin with a `/`, and should not include the trailing slash as we account for this automatically. 
+
+You can use an asterisk (`*`) to match patterns in your page path URLs. Asterisks can be placed on either end or in the middle of any page path URL. You can for instance exclude all of your articles within a specific directory by setting this pageview goal `/subdirectory-to-exclude*`.
+
+## How to exclude admins and other roles from being tracked
+
+By default, our WordPress plugin excludes your own "administrator" visits from being counted in the stats. You can optionally choose to exclude visits from being counted for other user roles too including authors, editors and contributors. Go to the "Track analytics for user roles" section of our WordPress plugin to do so.
+
+If you'd like to count your visits, you can do so as well. Simply enable the user role that you prefer to track.
+
+## How to disable menu in toolbar
+
+By default, Plausible adds a shortcut to the WordPress toolbar so you can quickly jump to analytics for the page you’re viewing. If you prefer a cleaner toolbar or don’t need quick access to stats while browsing your site, you can disable this menu with a single toggle.
+
 ## How to track external link clicks
 
 Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
@@ -389,20 +407,6 @@ All the query parameters will start being tracked and will be displayed in the "
 The default Plausible script won't work on Internet Explorer because it uses the `document.currentScript` API to read configuration options. 
 
 In the "Enhanced measurements" section of our WordPress plugin settings, you can enable the "IE compatibility" mode to count visitors who use the Internet Explorer browser.
-
-## How to exclude specific pages from being tracked
-
-In the "Exclude specific pages from being tracked" section of our WordPress plugin settings, you can add a list of page paths that you don't want to be counted in your website analytics.
-
-Any pages you list should be comma-separated. All entries must begin with a `/`, and should not include the trailing slash as we account for this automatically. 
-
-You can use an asterisk (`*`) to match patterns in your page path URLs. Asterisks can be placed on either end or in the middle of any page path URL. You can for instance exclude all of your articles within a specific directory by setting this pageview goal `/subdirectory-to-exclude*`.
-
-## How to exclude admins and other roles from being tracked
-
-By default, our WordPress plugin excludes your own "administrator" visits from being counted in the stats. You can optionally choose to exclude visits from being counted for other user roles too including authors, editors and contributors. Go to the "Track analytics for user roles" section of our WordPress plugin to do so.
-
-If you'd like to count your visits, you can do so as well. Simply enable the user role that you prefer to track.
 
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
