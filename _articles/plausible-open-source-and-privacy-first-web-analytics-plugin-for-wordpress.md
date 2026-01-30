@@ -420,11 +420,19 @@ P﻿lausible is a mainstream web analytics tool and you can do everything that a
 
 ### I﻿ntegrate with Google Search Console
 
+See your search queries, impressions, clicks, and average positions alongside your site traffic. This helps you understand how people find your site through Google and how search performance translates into visits and conversions.
+
 ### E﻿nable notifications
+
+Set up email or Slack notifications to stay informed about important changes in your traffic. You also get alerts for traffic spikes, drops, so you notice issues or opportunities without constantly checking your dashboard.
 
 ### S﻿etup funnels
 
 
+
+### G﻿et a consolidated view for all your sites
+
+### C﻿onnect with Looker Studio for custom reporting
 
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
