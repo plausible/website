@@ -390,7 +390,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the user status will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard.
 
-In the "Properties" tab of the "Goal Conversions" report, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. 
+In the "Properties" tab of the "Goal Conversions" report, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. This property will be available in the dashboard with all the relevant filters as well, as shown in the examples above.
 
 ### How to enable hash-based URL tracking
 
@@ -399,6 +399,8 @@ Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specifi
 Normally the hash part of the URL is discarded in your Plausible dashboard. You can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats and see the different pages your visitors have viewed.
 
 In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option.
+
+![hash-based-url-tracking-in-wp](/uploads/hash-based-url-tracking-in-wp.png "hash-based-url-tracking-in-wp")
 
 ### How to track custom query parameters
 
