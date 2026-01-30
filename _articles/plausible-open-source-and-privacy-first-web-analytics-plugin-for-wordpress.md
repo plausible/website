@@ -245,9 +245,7 @@ Clicking on this goal shows you which cloaked links were clicked, along with the
 
 Plausible Analytics plugin makes it easy to set up custom events and track actions such as signups or button clicks.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Custom events" option.
-
-Now you need to tag the site elements you want to track. No JavaScript knowledge is required to do this. The only thing you need is to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
+You need to tag the site elements you want to track. No JavaScript knowledge is required to do this. The only thing you need is to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
 
 * You can click on any block element you want to track. This will open up the block menu on the right-hand side of your screen
 
