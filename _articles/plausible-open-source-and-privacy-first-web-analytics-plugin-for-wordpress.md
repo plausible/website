@@ -388,7 +388,7 @@ Plausible Analytics plugin can help you understand the status of your logged in 
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Logged-in user status" option.
 
-All the user status will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the user status will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard.
 
 In the "Properties" tab of the "Goal Conversions" report, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. 
 
