@@ -402,7 +402,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, you can
 
 Then enter the query parameter that you'd like to track. E.g. enter `lang` if you want to track views on pages such as `yoursite.com/article?lang=en` or `yoursite.com/article?lang=de`.
 
-All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard.
 
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
