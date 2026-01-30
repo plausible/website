@@ -235,18 +235,6 @@ Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Lin
 
 Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" report to see which pages those cloaked links were clicked on.
 
-### How to track form completions
-
-Form submissions tracking is essential for many site owners and Plausible helps you automate this process. Our form submissions tracking captures a form completion event upon each successful form submission on your site. 
-
-We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja Forms and Elementor Forms but it should work for most other forms plugins as well. 
-
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Form completions" option.
-
-All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
-
-You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
-
 ### How to setup custom events to track goal conversions
 
 Plausible Analytics plugin makes it easy to set up custom events and track actions such as signups or button clicks.
@@ -355,6 +343,18 @@ You can manually configure the actions you want to track regardless of the techn
 `plausible-event-name=Purchase plausible-revenue-amount=10.29 plausible-revenue-currency=EUR`
 
 For full details on [sending revenue data](https://plausible.io/docs/ecommerce-revenue-tracking#3-start-sending-the-revenue-data-from-your-site), take a look.
+
+### How to track form completions
+
+Form submissions tracking is essential for many site owners and Plausible helps you automate this process. Our form submissions tracking captures a form completion event upon each successful form submission on your site. 
+
+We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja Forms and Elementor Forms but it should work for most other forms plugins as well. 
+
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Form completions" option.
+
+All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+
+You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
 
 ### How to enable site search tracking
 
