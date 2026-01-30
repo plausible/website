@@ -46,7 +46,7 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 * **Control who can access the analytics** dashboard by assigning access to specific user roles
 * **Jump to analytics for any post or page from the WordPress toolbar** while browsing your site
 
-## How to get started with Plausible Analytics
+## How to get started with Plausible Analytics?
 
 To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial. No credit card is required to sign up.
 
@@ -60,9 +60,11 @@ Please, remove `https` and `www` from the URL, just keep the hostname (`yourdoma
 
 ![Enter the domain name of the website you want to track](/docs/img/website-details.png)
 
-That's it! You have now registered for an account and you have added your website. Now you need to go to your WordPress dashboard and activate the Plausible Analytics WordPress plugin.
+That's it! You have now registered for an account and you have added your website. 
 
-## How to install Plausible Analytics WordPress plugin
+Now you need to go to your WordPress dashboard and activate the Plausible Analytics WordPress plugin.
+
+## How to install Plausible Analytics WordPress plugin?
 
 Here's how you can install the Plausible Analytics plugin on your WordPress site:
 
