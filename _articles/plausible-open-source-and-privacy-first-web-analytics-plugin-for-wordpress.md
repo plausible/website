@@ -416,7 +416,7 @@ All the query parameters will start being tracked and will be displayed in the "
 
 ## O﻿ther things you can do with Plausible 
 
-P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subscriber does. We recommend inspecting our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some highlights:
+P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subscriber does. We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some quick highlights: 
 
 ### I﻿ntegrate with Google Search Console
 
@@ -432,9 +432,11 @@ Use [funnels](https://plausible.io/docs/funnel-analysis) to understand how visit
 
 ### G﻿et a consolidated view for all your sites
 
-
+If you manage multiple websites, you can view combined stats across all of them in a single dashboard. This makes it easier to monitor overall performance, compare trends, and get a high-level overview without switching between sites.
 
 ### C﻿onnect with Looker Studio for custom reporting
+
+Export your Plausible data to Looker Studio to build custom dashboards and reports. This is useful if you want to combine analytics data with other sources or create tailored reports for clients, teams, or stakeholders.
 
 ## Enjoying Plausible Analytics and our WordPress plugin?
 
