@@ -195,12 +195,11 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see "404" goal as soon as the first visit on an error page has been tracked. Two properties are also passed along with the goal: 
-
-* "path" to show the 404 pages...also available in the "Conversion Pages" report
-* "﻿user_logged_in" if you have enabled this tracking
+You'll see "404" goal as soon as the first visit on an error page has been tracked. You'll see a property "path" to show the 404 pages...also available in the "Conversion Pages" report.
 
 ![404-pages-tracking-in-plausible](/uploads/404-pages-tracking-in-plausible.png "404-pages-tracking-in-plausible")
+
+T﻿he other property is also visible here for "user_logged_in" because if you enable this setting (explained below), this property is available within all the relevant filters too.
 
 Y﻿ou will be able to see the traffic sources to these 404 pages, which pages are throwing a 404, what were the entry pages and exit pages for such sessions, whether they are isolated to specific browsers, which locations, etc.
 
@@ -216,7 +215,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the file downloads will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see "File Download" goal as soon as the first link that leads to a file has been recorded.
+You'll see "File Download" goal as soon as the first link that leads to a file has been recorded along with details on the files that were downloaded, on which pages, conversion rate, and other relevant properties if sending.
 
 ### How to track external link clicks
 
