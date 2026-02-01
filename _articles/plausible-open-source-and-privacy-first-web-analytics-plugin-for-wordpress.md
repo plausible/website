@@ -50,7 +50,7 @@ P﻿lausible is a web analytics plugin that can be used to measure your website 
 
 ## How to get started with Plausible Analytics?
 
-To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial. No credit card is required to sign up.
+To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial (no credit card required).
 
 [Click here to register](https://plausible.io/register). It is a simple process and we only ask for your name and email address.
 
