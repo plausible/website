@@ -99,9 +99,9 @@ In the "**Domain Name**" field, make sure you use the domain name exactly as you
 
 To automate the plugin setup, you need to generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field in the plugin. This will ensure that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings. 
 
-You'll find a link to generate the token directly within the plugin settings. Clicking on this link will take you to the plausible.io website where you should click on the "**Create Plugin Token**" button. Then copy the token that is presented to you. 
+You'll find a link to generate the token directly within the plugin settings. Clicking on this link will take you to the plausible.io website where you should click on the "**Create Plugin Token**" button. Then copy the token that is presented to you.
 
-Next, go back to the Plausible WordPress plugin settings, paste the token into the "**Plugin Token**" field and click the "**Connect**" button. 
+Next, go back to the Plausible WordPress plugin settings, paste the token into the "**Plugin Token**" field and click the "**Connect**" button.
 
 ### Oops! The token you used is invalid
 
@@ -121,14 +121,14 @@ Site owners feel unfairly targeted and an innocent casualty of this arms race be
 
 We've introduced a proxy feature after hearing from so many site owners who expect privacy-first analytics not to be blocked. We wanted to give a choice to people that use Plausible Analytics.
 
-* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%
-* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin
-* In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option
+* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%.
+* **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin.
+* In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option.
 
 ![Enable proxy in plausible WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
 
-* If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect
-* Enabling the proxy will make our script run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json` and it creates a randomly named folder and file in the `/wp-content/uploads/` directory
+* If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect.
+* Enabling the proxy will make our script run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json` and it creates a randomly named folder and file in the `/wp-content/uploads/` directory.
 
 ### Stats not being recorded after enabling the proxy?
 
@@ -140,12 +140,12 @@ In case plugin conflicts arise with your WordPress, it might cause the stats not
 
 Some of the common issues that prevent the proxy from being setup correctly are:
 
-* **Browser console errors**: After enabling the proxy, visit your website and check the browser console for any error messages related to the proxied script. [See more here](https://plausible.io/docs/troubleshoot-integration)
-* **SSL Certificate Usage**: If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields. Then please do try to enable the proxy again
-* **Firewall or Security Settings**: Do you or your hosting company have any firewall or other security plugins activated that may affect the ability for WordPress to create files? Please do disable these or do put your proxy file path and directory in the allow list. Then please do try to enable the proxy again
-* **Caching**: Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches and then try to enable the proxy again
-* **File Permissions**: Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed
-* **PHP error logs**: Do check your PHP error logs after trying to enable the proxy. You may find helpful messages there to guide further troubleshooting
+* **Browser console errors**: After enabling the proxy, visit your website and check the browser console for any error messages related to the proxied script. [See more here](https://plausible.io/docs/troubleshoot-integration).
+* **SSL Certificate Usage**: If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields. Then please do try to enable the proxy again.
+* **Firewall or Security Settings**: Do you or your hosting company have any firewall or other security plugins activated that may affect the ability for WordPress to create files? Please do disable these or do put your proxy file path and directory in the allow list. Then please do try to enable the proxy again.
+* **Caching**: Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches and then try to enable the proxy again.
+* **File Permissions**: Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed.
+* **PHP error logs**: Do check your PHP error logs after trying to enable the proxy. You may find helpful messages there to guide further troubleshooting.
 
 After making any changes, remember to disable the proxy and clear all caches. Then, try enabling the proxy again and clear all caches once more.
 
@@ -249,21 +249,21 @@ Plausible Analytics plugin makes it easy to set up custom events and track actio
 
 You need to tag the site elements you want to track. No JavaScript knowledge is required to do this. The only thing you need is to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
 
-* You can click on any block element you want to track. This will open up the block menu on the right-hand side of your screen
+* You can click on any block element you want to track. This will open up the block menu on the right-hand side of your screen.
 
 ![Click on any block element you want to track](/docs/img/wordpress-button-css-class-name.png)
 
-* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track signup button clicks, you could use: `plausible-event-name=Signup+Submit`
+* You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track signup button clicks, you could use: `plausible-event-name=Signup+Submit`.
 
 ![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png)
 
 Custom events won't show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
 
-* To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section
-* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form 
-* Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard
-* In our example where you added a CSS class name `plausible-event-name=Signup+Submit`, the goal to add to your Plausible account is `Signup Submit` (plus is replaced by a space)
-* Next, click on the "Add goal" button and you'll be taken back to the Goals page
+* To configure a goal, go to your website's settings in your Plausible Analytics account and visit the "Goals" section.
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form.
+* Select Custom event as the goal trigger and enter the name of the custom event you are triggering. The name must match the one you added as a CSS class name on your site for conversions to appear in your analytics dashboard.
+* In our example where you added a CSS class name `plausible-event-name=Signup+Submit`, the goal to add to your Plausible account is `Signup Submit` (plus is replaced by a space).
+* Next, click on the "Add goal" button and you'll be taken back to the Goals page.
 
 When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard in the "Goal Conversions" section. Your custom event will appear there as soon as the first conversion has been recorded.
 
@@ -339,11 +339,11 @@ All this is done automatically for you and you don't need to manually set up any
 
 You can manually configure the actions you want to track regardless of the technology you use to power your store. Here's how:
 
-* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section
-* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form
-* Select "Custom event" as the goal trigger, enter the goal name in the "Event name" field, tick to "Enable Revenue Tracking" and set the currency of your choice
+* To configure a goal, go to your website’s settings in your Plausible Analytics account and visit the "Goals" section.
+* You should see a prompt to add a goal. Click on the "+ Add goal" button to go to the goal creation form.
+* Select "Custom event" as the goal trigger, enter the goal name in the "Event name" field, tick to "Enable Revenue Tracking" and set the currency of your choice.
 * This currency will be used for total and average revenue metrics in the dashboard. Note that the currency for a specific event cannot be changed later.
-* Next, click on the "Add goal" button and you’ll be taken back to the Goals page
+* Next, click on the "Add goal" button and you’ll be taken back to the Goals page.
 * You can now start sending revenue data from your site alongside custom events using JavaScript or the CSS class name approach:
 
 `plausible-event-name=Purchase plausible-revenue-amount=10.29 plausible-revenue-currency=EUR`
@@ -366,7 +366,7 @@ You'll see "WP Form Completions" goal as soon as the first successful for submis
 
 ### How to enable site search tracking
 
-Plausible Analytics plugin can help you understand the activity on your search form and identify the search terms your visitors are searching for. It can also help you know how many results your search results show for the different search terms and on which of your pages people have used the search form. 
+Plausible Analytics plugin can help you understand the activity on your search form and identify the search terms your visitors are searching for. It can also help you know how many results your search results show for the different search terms and on which of your pages people have used the search form.
 
 All this can help you better understand the needs of your audience enabling you to create a better website and more relevant content that answers questions people have.
 
