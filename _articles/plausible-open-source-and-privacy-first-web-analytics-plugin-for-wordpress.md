@@ -19,15 +19,17 @@ Plausible Analytics is a privacy-friendly web analytics plugin for WordPress tha
 
 Plausible Analytics is built to be a more modern [alternative to Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics solutions. Here's what makes us different:
 
-* Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any long-term identifiers and doesn't track any personal data. We're exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics)
-* Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Plausible will not slow down your site
+* Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any long-term identifiers and doesn't track any personal data. We're exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics).
+* Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Plausible will not slow down your site.
 * P﻿lausible is [much more accurate](https://plausible.io/most-accurate-web-analytics) in stats as compared to GA4.
-* Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top posts, referral sources, engagement metrics (time on page, scroll depth, bounce rate and more), external link clicks and goal conversions
-* Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words
-* Plausible, unlike Google Analytics, is [not a free](https://plausible.io/paid-analytics-vs-free-ga) as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are solely funded by the fees our subscribers pay us
-* There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing)
+* Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top posts, referral sources, engagement metrics (time on page, scroll depth, bounce rate and more), external link clicks and goal conversions.
+* Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words.
+* Plausible, unlike Google Analytics, is [not a free](https://plausible.io/paid-analytics-vs-free-ga) as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are [solely funded by the fees](https://plausible.io/blog/customers-not-investors) our subscribers pay us.
+* There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing).
 
 ## How can Plausible Analytics be used for WordPress?
+
+P﻿lausible is a web analytics plugin that can be used to measure your website traffic, understand trends, analyze traffic sources, marketing campaigns, build funnels, track revenue, and much more. We offer a very easy setup and some special features for WordPress users, an overview is here:
 
 * **See which external and affiliate links people actually click** so you know what sends traffic and drives value
 * **Find out which files get downloaded the most**, whether they are PDFs, resources, or digital products
@@ -72,7 +74,7 @@ Here's how you can install the Plausible Analytics plugin on your WordPress site
 * Click the "Add Plugin" button. This will take you to the plugins marketplace.
 * In the search box, type "Plausible Analytics" and press Enter/Return. Make sure to open the official plugin listed, as shown in the screenshot below.
 
-![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \"Plausible Analytics\" WordPress plugin")
+![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\"Plausible Analytics\\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/)
 * You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one by one in the next section.
@@ -414,7 +416,7 @@ Then enter the query parameter that you'd like to track. E.g. enter `lang` if yo
 
 All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard.
 
-## O﻿ther things you can do with Plausible 
+## O﻿ther things you can do with Plausible
 
 P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subscriber does. We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some quick highlights: 
 
