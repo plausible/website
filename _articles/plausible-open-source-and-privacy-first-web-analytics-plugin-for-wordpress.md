@@ -193,7 +193,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see "404" goal as soon as the first visit on an error page has been tracked. You'll see a property "path" to show the 404 pages...also available in the "Conversion Pages" report.
+You'll see "404" goal as soon as the first visit on an error page has been tracked. You'll see a property (properties explained below) "path" to show the 404 pages.
 
 ![404-pages-tracking-in-plausible](/uploads/404-pages-tracking-in-plausible.png "404-pages-tracking-in-plausible")
 
@@ -217,8 +217,6 @@ You'll see "File Download" goal as soon as the first link that leads to a file h
 
 ### How to track external link clicks
 
-Outbound links play a significant role on the open web and Plausible Analytics plugin can help you automate external link click tracking on your WordPress site.
-
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Outbound links" option.
 
 All the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
@@ -229,7 +227,7 @@ You'll see "Outbound Link: Click" goal as soon as the first external link click 
 
 Plausible Analytics plugin can help you automate cloaked affiliate link click tracking on your WordPress site.
 
-In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Cloaked affiliate links" option. 
+In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Cloaked affiliate links" option.
 
 Then enter the partial URLs (also known as shortlink slugs) that you'd like to track. E.g. enter `/recommends/` if you want to track clicks on cloaked links such as `https://yourdomain.com/recommends/affiliate-product/` or `https://yourdomain.com/recommends/another-product/`.
 
