@@ -72,18 +72,10 @@ Now you need to go to your WordPress dashboard and activate the Plausible Analyt
 * Click the "Add Plugin" button. This will take you to the plugins marketplace.
 * In the search box, type "Plausible Analytics" and press Enter/Return. Make sure to open the official plugin listed, as shown in the screenshot below.
 
-![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\\\"Plausible Analytics\\\\" WordPress plugin")
+![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \"Plausible Analytics\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/).
-* You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one by one in the next section.
-
-That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
-
-You can also verify your installation to make sure everything is on track. You can launch our testing tool at any time from your [site settings](https://plausible.io/docs/website-settings). You will see a message like this if your tracking is working fine.
-
-![verifying wp installation with plausible](/uploads/installation-verification.png "verifying wp installation with plausible")
-
-"Plausible Analytics" entry will show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the various options available.
+* You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one.
 
 T﻿his is the full settings screen and it comes with a few options pre-enabled which you can keep as it is if you do want to track those things or turn them off.
 
@@ -111,6 +103,12 @@ Here are the most common reasons for that error:
 * Ensure the plugin token was created for the exact site you're trying to connect. Plugin tokens are site-specific
 * If everything looks correct, try creating a new plugin token and connect it again
 
+That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
+
+You can also verify your installation to make sure everything is on track. You can launch our testing tool at any time from your [site settings](https://plausible.io/docs/website-settings). You will see a message like this if your tracking is working fine.
+
+![verifying wp installation with plausible](/uploads/installation-verification.png "verifying wp installation with plausible")
+
 ## How to enable a proxy to get more accurate stats
 
 Plausible script is not blocked to the same extent as Google Analytics but we're blocked by some blocklist maintainers who have taken the stance that they want to block every tracking script and don't want to have the responsibility to judge what's good and what's bad.
@@ -123,7 +121,7 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 * **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin.
 * In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option.
 
-![Enable proxy in plausible WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png)
+![Enable proxy in plausible WordPress plugin](/docs/img/plausible-wordpress-plugin-proxy.png "Enable proxy in plausible WordPress plugin")
 
 * If you have a caching plugin enabled, please make sure to clear the cache for the changes to take effect.
 * Enabling the proxy will make our script run as a first-party connection from your domain name. The proxy uses WordPress' API with a randomly generated endpoint, starting with `yourdomain.com/wp-json` and it creates a randomly named folder and file in the `/wp-content/uploads/` directory.
