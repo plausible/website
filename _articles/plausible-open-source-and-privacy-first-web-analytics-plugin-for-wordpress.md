@@ -13,7 +13,7 @@ Plausible Analytics is a privacy-friendly web analytics plugin for WordPress tha
 ![Plausible Analytics WordPress plugin](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics WordPress plugin")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## How is Plausible Analytics different from Google Analytics?
 
@@ -245,11 +245,11 @@ You need to tag the site elements you want to track. No JavaScript knowledge is 
 
 * You can click on any block element you want to track. This will open up the block menu on the right-hand side of your screen.
 
-![Click on any block element you want to track](/docs/img/wordpress-button-css-class-name.png)
+![Click on any block element you want to track](/docs/img/wordpress-button-css-class-name.png "Click on any block element you want to track")
 
 * You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track signup button clicks, you could use: `plausible-event-name=Signup+Submit`.
 
-![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png)
+![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png "Add a CSS class name in the \"Additional CSS class(es)\" field")
 
 Custom events won't show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
 
@@ -265,7 +265,7 @@ For more details on custom events, please check out [this documentation page](ht
 
 ### How to send custom properties
 
-You can attach custom properties when sending pageviews or custom events to create custom metrics. Custom properties allow you to collect and analyze metrics that we don't track automatically.
+You can attach [custom properties](https://plausible.io/blog/custom-dimensions-analytics#custom-properties-plausibles-simpler-and-effective-version-of-custom-dimensions) when sending pageviews or custom events to create custom metrics. Custom properties allow you to collect and analyze metrics that we don't track automatically.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, when you enable the "Authors and categories" or "Logged-in user status" option, you start seeing properties for them in your dashboard.
 
@@ -354,7 +354,7 @@ We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja F
 
 In the "Enhanced measurements" section of our WordPress plugin settings, just enable the "Form completions" option.
 
-All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard.
 
 You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
 
@@ -434,6 +434,6 @@ If you manage multiple websites, you can view combined stats across all of them 
 
 Export your Plausible data to Looker Studio to build custom dashboards and reports. This is useful if you want to combine analytics data with other sources or create tailored reports for clients, teams, or stakeholders.
 
-## Enjoying Plausible Analytics and our WordPress plugin?
+## Enjoying Plausible and our WordPress plugin?
 
 Most of our subscribers come from word of mouth, so if you love Plausible, we'd appreciate if you'd consider leaving a comment in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/). Thank you!
