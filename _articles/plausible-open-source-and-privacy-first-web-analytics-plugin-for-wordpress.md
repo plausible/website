@@ -54,13 +54,13 @@ To use Plausible Analytics, you need to register an account. To explore the prod
 
 [Click here to register](https://plausible.io/register). It is a simple process and we only ask for your name and email address.
 
-![Register your Plausible account](/docs/img/register-account.png)
+![Register your Plausible account](/docs/img/register-account.png "Register your Plausible account")
 
 After you verify your email address, you need to enter the domain name of the website you want to track. 
 
 Please, remove `https` and `www` from the URL, just keep the hostname (`yourdomain.com`). For example, if your site is `https://www.yourdomain.com` then the part to enter in the "Domain" field is `yourdomain.com`.
 
-![Enter the domain name of the website you want to track](/docs/img/website-details.png)
+![Enter the domain name of the website you want to track](/docs/img/website-details.png "Enter the domain name of the website you want to track")
 
 That's it! You have now registered for an account and you have added your website. 
 
@@ -68,28 +68,26 @@ Now you need to go to your WordPress dashboard and activate the Plausible Analyt
 
 ## How to install Plausible Analytics WordPress plugin?
 
-Here's how you can install the Plausible Analytics plugin on your WordPress site:
-
 * Go into the "Plugins" section in the left-hand side navigation within your WordPress dashboard.
 * Click the "Add Plugin" button. This will take you to the plugins marketplace.
 * In the search box, type "Plausible Analytics" and press Enter/Return. Make sure to open the official plugin listed, as shown in the screenshot below.
 
-![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\"Plausible Analytics\\" WordPress plugin")
+![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\\\"Plausible Analytics\\\\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/).
 * You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one by one in the next section.
 
 That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
 
-You can also verify your installation to make sure everything is on track. You can launch our testing tool at any time from your [site settings](https://plausible.io/docs/website-settings) You will see a message like this if your tracking is working fine.
+You can also verify your installation to make sure everything is on track. You can launch our testing tool at any time from your [site settings](https://plausible.io/docs/website-settings). You will see a message like this if your tracking is working fine.
 
-![verifying wp installation with plausible](/uploads/installation-verification.png)
+![verifying wp installation with plausible](/uploads/installation-verification.png "verifying wp installation with plausible")
 
 "Plausible Analytics" entry will show up in the "Settings" section in the left-hand side navigation of your WordPress dashboard. Click on it to explore the various options available.
 
-T﻿his is the settings screen and it comes with a few options pre-enabled which you can keep as it is if you do want to track those things or turn them off.
+T﻿his is the full settings screen and it comes with a few options pre-enabled which you can keep as it is if you do want to track those things or turn them off.
 
-![Plausible Analytics WordPress plugin settings](/uploads/plausible-wp-plugin-settings.png)
+![Plausible Analytics WordPress plugin settings](/uploads/plausible-wp-plugin-settings.png "Plausible Analytics WordPress plugin settings")
 
 Here are elaborate explanations for all the settings.
 
