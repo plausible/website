@@ -1,6 +1,6 @@
 ---
 layout: change
-title: More specific goals with custom properties
+title: Goals with custom properties
 date: 2026-02-04T07:25:22.752Z
 ---
 You can now select up to three existing custom properties and values directly in the goal settings. This lets you turn a broad goal into a more specific one, like a Purchase goal for specific subscription plans and payment cycles.
