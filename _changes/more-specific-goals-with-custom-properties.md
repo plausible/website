@@ -9,7 +9,7 @@ You can now select up to three existing custom properties and values directly in
 
 T﻿his works with all types of goals: pageview goals, custom events and scroll goals.
 
-Goals with properties behave like built-in [segments](https://plausible.io/docs/filters-segments). This would especially help make [funnels](https://plausible.io/docs/funnel-analysis) more precise, since each step can now represent a specific version of a goal instead of a *catch all*.
+Goals with properties behave like built-in [segments](https://plausible.io/docs/filters-segments)for your dashboard. These would also help make [funnels](https://plausible.io/docs/funnel-analysis) more precise, since each step can now represent a specific version of a goal instead of a *catch all*.
 
 P.S. Sending custom properties works exactly as before. You still send them in your goal snippet and can use them for filtering and breakdowns across the dashboard.
 
