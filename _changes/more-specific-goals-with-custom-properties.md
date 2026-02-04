@@ -5,7 +5,7 @@ date: 2026-02-04T07:25:22.752Z
 ---
 You can now select up to three existing custom properties and values directly in the goal settings. This lets you turn a broad goal into a more specific one, like a Purchase goal for logged in users or for a particular country.
 
-![goals with properties plausible analytics](/uploads/goals-with-properties-plausible-analytics.png "goals with properties plausible analytics")
+![goals with custom properties in plausible analytics](/uploads/goals-with-props-in-plausible-analytics.png "goals with custom properties in plausible analytics")
 
 T﻿his works with all types of goals: pageview goals, custom events and scroll goals.
 
