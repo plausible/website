@@ -8,7 +8,7 @@ permalink: /gtm-template
 ---
 Plausible Analytics is an easy-to-use, lightweight, and privacy-friendly [Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
-If you already use Google Tag Manager (GTM) to manage scripts on your site, you can integrate Plausible with it — no need to touch your website’s code. GTM lets you keep all your scripts organized in one place and makes it easy to update or remove tags later on.
+If you already use Google Tag Manager (GTM) to manage scripts on your site, you can integrate Plausible with it, no need to touch your website’s code. GTM lets you keep all your scripts organized in one place and makes it easy to update or remove tags later on.
 
 We’ve built a **Plausible GTM template** to make this setup even smoother.
 
@@ -19,21 +19,13 @@ We’ve built a **Plausible GTM template** to make this setup even smoother.
 This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead — it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup.
 
 1. Ordered list
-{:toc}
+   {:toc}
 
-## Why use Plausible Analytics with GTM?
+## Why use Plausible Analytics?
 
-Plausible is built to give you privacy-friendly, lightweight analytics with a clean, modern dashboard and minimal overhead.We don’t collect personal data, so you can avoid many GDPR/CCPA consent headaches.
+Plausible is built to give you [privacy-friendly](https://plausible.io/privacy-focused-web-analytics), [lightweight](https://plausible.io/lightweight-web-analytics) analytics with a clean, modern dashboard and minimal overhead. We don’t collect personal data, so you can avoid many GDPR/CCPA consent headaches.
 
-The Plausible script is lightweight — it won’t bloat your page or slow down load times.Unlike feature-heavy tools, Plausible surfaces the key metrics you care about (engagement, top pages, referral sources, conversions) on one clean interface.
-
-**Better control and flexibility with GTM**\
-By combining Plausible with Google Tag Manager:
-
-* You don’t need to edit your site’s source code.
-* You can manage, update, or disable tags centrally.
-* You get the power of GTM’s variable system to send custom properties or conditional triggers.
-* You can gradually evolve your analytics setup (e.g. starting simple, then adding events) without rebuilding your base config.
+Unlike feature-heavy tools, Plausible surfaces the key metrics you care about (engagement, top pages, referral sources, conversions) on [one clean interface](https://plausible.io/simple-web-analytics).
 
 ## B﻿efore you begin
 
