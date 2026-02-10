@@ -115,9 +115,21 @@ H﻿ere is the overview of the optional configuration options:
 
 T﻿hat's it. Just check the boxes for the things you'd like to track and you will find the relevant data in your dashboard, no coding needed.
 
+## Creating Custom Event Tags
 
+Unlike the Initialization Tag, you can create as many Custom Event Tags as you want.  This all depends on what GTM triggers you would like to use to send data to Plausible Analytics.
 
+[L﻿earn about custom events here](https://plausible.io/docs/custom-event-goals).
 
+In this section, we will run through a quick example to give you an example of how it works and then run through additional configuration options.
+
+When you create a new tag and select ‘Custom Event’, you will see only one mandatory field: ‘Event Name’.
+
+This is the name of the custom event that you’ve set up in Plausible (if you click the icon on the right, you can set this value using a GTM variable if you would like).
+
+For a very simple event, you then just need to select a Trigger.  Two of the most useful triggers are the ‘Clicks - All Elements’ trigger that fires any time someone clicks an element on your site and ‘Clicks - Just Links’ which fires any time someone clicks a link on your site.
+
+You can find these options by going to Triggers > New > Configure.  Then in the sidebar you will see the different trigger types, including the click options mentioned above.
 
 
 
