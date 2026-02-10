@@ -113,6 +113,18 @@ H﻿ere is the overview of the optional configuration options:
 
 
 
+T﻿hat's it. Just check the boxes for the things you'd like to track and you will find the relevant data in your dashboard, no coding needed.
+
+
+
+
+
+
+
+
+
+\-﻿--------------
+
 ## Add Custom Properties (Optional)
 
 The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview. To add them:
