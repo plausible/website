@@ -75,19 +75,29 @@ Once inside, you’ll see a **Type** option with two choices: **Initializatio
 * **Initialization:** This is mandatory for Plausible Analytics to run on your site and should be set up with one tag only.
 * **Custom events:** This is optional and you can set up as many tags as you want. This enables you to attach event tags to different triggers in GTM so you can send custom event data to Plausible.
 
+![plausible gtm tag basic settings](/uploads/plausible-gtm-tag-basic-settings.png "plausible gtm tag basic settings")
 
 
 
+## Setting up the Initialization Tag
+
+Let’s first look at setting up the Initialization Tag, as this is the only mandatory step to get Plausible Analytics running with Google Tag Manager.
+
+When you create a new tag with the Plausible Analytics template and you select ‘Initialization’, there is one required field: ‘Script ID’.  You can find it in Plausible during site onboarding under the "Tag Manager" tab or later in "Site Settings" → "General" → "Site Installation" → "Tag Manager".
+
+Scroll down to the “Triggering” section. For the tag trigger, you should select "All Pages" - "Page View", which will ensure that Plausible will capture data on all pages.
+
+And that’s it!  For a very simple Plausible installation, you could stop here and the Plausible script will run on all pageviews and capture the core set of data.
+
+Optionally, in this tag you can also set up simple 404 tracking and set Custom Properties for pageviews (see Custom Properties section below).
+
+To enable 404 Page tracking, simply check the box and enter the title of your website’s 404 page.
 
 
 
-
+![init-tag-settings](/uploads/init-tag-settings.png "init-tag-settings in plausible gtm")
 
 \-﻿-------------
-
-The only required field in the tag configuration is "**Script ID**" that you saved earlier. To repeat, you can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager.**" 
-
-![Plausible GTM Template New Tag Script ID](/uploads/plausible-gtm-template-new-tag-script-id.png "Plausible GTM Template New Tag Script ID")
 
 Other optional configuration options are described below in the section "**Tag Configuration.**"
 
