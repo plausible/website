@@ -77,8 +77,6 @@ Once inside, you’ll see a **Type** option with two choices: **Initializatio
 
 ![plausible gtm tag basic settings](/uploads/plausible-gtm-tag-basic-settings.png "plausible gtm tag basic settings")
 
-
-
 ## Setting up the Initialization Tag
 
 Let’s first look at setting up the Initialization Tag, as this is the only mandatory step to get Plausible Analytics running with Google Tag Manager.
@@ -101,16 +99,19 @@ To enable 404 Page tracking, simply check the box and enter the title of your we
 
 H﻿ere is the overview of the optional configuration options:
 
-| **Optional Configuration** | **Explanation**                                                                                                                                                                                                                                                                                  |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **File Downloads**         | Whether to automatically track file downloads ﻿                                                                                                                                                                                                                                                  |
-| **Form Submissions**       | Whether to automatically [track form submissions](https://plausible.io/docs/form-submissions-tracking)                                                                                                                                                                                           |
-| **Outbound Links**         | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)                                                                                                                                                                                           |
-| **Hash Based Routing**     | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing)                                                                                                                                                                         |
-| **Custom Properties**      | Allows you to attach [custom properties](https://plausible.io/docs/custom-props/introduction) (also known as custom dimensions in Google Analytics) when sending a pageview event. These can be configured using Google Tag Manager variables.                                                   |
-| **Capture on Localhost**   | Whether to capture events on localhost                                                                                                                                                                                                                                                           |
-| **Logging**                | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning                                                                                                                                                                              |
-| **Auto Capture Pageviews** | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually |
+| **Optional Configuration**     | **Explanation**                                                                                                                                                                                                                                                                                   |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **File Downloads**             | Whether to automatically [track file downloads](https://plausible.io/docs/file-downloads-tracking) ﻿                                                                                                                                                                                              |
+| **Form Submissions**           | Whether to automatically [track form submissions](https://plausible.io/docs/form-submissions-tracking)                                                                                                                                                                                            |
+| **Outbound Links**             | Automatically [track clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)                                                                                                                                                                                            |
+| **Hash Based Routing**         | Automatically track page paths that use a `#` in the URL, [described here](https://plausible.io/docs/hash-based-routing)                                                                                                                                                                          |
+| **Custom Properties**          | Allows you to attach [custom properties](https://plausible.io/docs/custom-props/introduction) (also known as custom dimensions in Google Analytics) when sending a pageview event. These can be configured using Google Tag Manager variables.                                                    |
+| **Capture on Localhost**       | Whether to capture events on localhost                                                                                                                                                                                                                                                            |
+| **Logging**                    | Whether to log on ignored events. When enabled, any ignored events are logged to the browser console with a warning.                                                                                                                                                                              |
+| **Auto Capture Pageviews**     | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually. |
+| **Custom File Download Types** | Override the default file extensions for tracking file downloads, so only your custom file type downloads will be tracked instead.                                                                                                                                                                |
+
+
 
 ## Add Custom Properties (Optional)
 
