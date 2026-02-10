@@ -16,7 +16,7 @@ We’ve built a **Plausible GTM template** to make this setup even smoother.
 
 ![Plausible Analytics Google Tag Manager template](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics Google Tag Manager template")
 
-This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead — it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup.
+This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead, it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, you can also check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup. 
 
 1. Ordered list
    {:toc}
@@ -69,6 +69,21 @@ In the main Google Tag Manager dashboard, browse to "**Tags**" and click "**New*
 From the list of available tag templates, choose the Plausible Analytics tag template you just installed.
 
 ![Plausible GTM Template New Tag Template](/uploads/plausible-gtm-template-new-tag-template.png "Plausible GTM Template New Tag Template")
+
+Once inside, you’ll see a **Type** option with two choices: **Initialization** or **Custom Event**.
+
+* **Initialization:** This is mandatory for Plausible Analytics to run on your site and should be set up with one tag only.
+* **Custom events:** This is optional and you can set up as many tags as you want. This enables you to attach event tags to different triggers in GTM so you can send custom event data to Plausible.
+
+
+
+
+
+
+
+
+
+\-﻿-------------
 
 The only required field in the tag configuration is "**Script ID**" that you saved earlier. To repeat, you can find it in Plausible during site onboarding under the "**Tag Manager**" tab or later in "**Site Settings**" → "**General**" → "**Site Installation**" → "**Tag Manager.**" 
 
