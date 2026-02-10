@@ -87,29 +87,19 @@ When you create a new tag with the Plausible Analytics template and you select �
 
 Scroll down to the “Triggering” section. For the tag trigger, you should select "All Pages" - "Page View", which will ensure that Plausible will capture data on all pages.
 
-And that’s it!  For a very simple Plausible installation, you could stop here and the Plausible script will run on all pageviews and capture the core set of data.
+And that’s it! For a very simple Plausible installation, you could stop here and the Plausible script will run on all pageviews and capture the core set of data.
 
-Optionally, in this tag you can also set up simple 404 tracking and set Custom Properties for pageviews (see Custom Properties section below).
+### A﻿dditional configuration options
+
+Optionally, in this tag you can also set up some enhanced measurements. Some boxes are pre-ticked which you can uncheck if you wish to. And check the ones that you would like to track.
+
+Y﻿ou can also do simple 404 tracking and set Custom Properties for pageviews (see Custom Properties section below).
 
 To enable 404 Page tracking, simply check the box and enter the title of your website’s 404 page.
 
-
-
 ![init-tag-settings](/uploads/init-tag-settings.png "init-tag-settings in plausible gtm")
 
-\-﻿-------------
-
-Other optional configuration options are described below in the section "**Tag Configuration.**"
-
-![Plausible GTM Template New Tag Configuration options](/uploads/plausible-gtm-template-new-tag-configuration-options.png "Plausible GTM Template New Tag Configuration options")
-
-For the tag trigger, you should select "**All Pages** - "**Page View**", which will ensure that Plausible will capture data on all pages.
-
-![Plausible GTM Template New Tag Trigger](/uploads/plausible-gtm-template-trigger.png "Plausible GTM Template New Tag Trigger")
-
-#### Configure Your Plausible Tag
-
-The tag has the following optional configuration options:
+H﻿ere is the overview of the optional configuration options:
 
 | **Optional Configuration** | **Explanation**                                                                                                                                                                                                                                                                                  |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
