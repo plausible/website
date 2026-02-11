@@ -173,62 +173,18 @@ You can then give this variable a name, like Page Title and select Javascript Va
 
 ![choose variable type](/uploads/choose-variable-type.png "choose variable type")
 
+Then under Global Variable name, you simply enter ‘document.title’. This will automatically take the title of the page using Javascript and make it available as your GTM variable.
 
-
-
-
-
-
-To add them:
-
-* Click ‘Add Custom Property’
-* Select a GTM variable — this defines the value to send.
-* Type in the name of the Plausible custom prop under the field ‘Plausible Custom Property’
-
-For example, to send the full **page URL** with each pageview:
-
-* Choose the built-in GTM variable **Page URL**.
-* Name it `page_url` in Plausible.
-
-![built in variable gtm](/uploads/built-in-variable.png "built in variable gtm")
-
-You can take things a step further by defining your own custom GTM variables. For instance, to send the page title as a property:
-
-Instead of selecting Built-In Variable, instead create a New Variable by selecting the next option.
-
-You can then give this variable a name, like Page Title and select Javascript Variable.
-
-![js variable gtm](/uploads/js-variable-gtm.png "js variable gtm")
-
-Then, when asked to enter "Global Variable name", you simply enter ‘document.title’.  This will automatically take the title of the page using Javascript and make it available as your GTM variable.
+![variable configuration](/uploads/variable-configuration.png "variable configuration")
 
 Finally, to send this to Plausible you would just need to give it a name like ‘page_title’.
 
 With both of those variables set-up, your final custom props configuration would look like this:
 
-![custom props in gtm](/uploads/custom-props-in-gtm.png "custom props in gtm")
+![custom props configured in plausible gtm template](/uploads/custom-props-configured-in-plausible-gtm-template.png "custom props configured in plausible gtm template")
 
-## Track Custom Events (Optional)
-
-You can also use Google Tag Manager to send custom events to Plausible. You just need to create a new tag and select Custom HTML. Then in the Custom HTML paste the following:
-
-`<script type="text/javascript">window.plausible("EVENT_NAME");</script>`
-
-Where EVENT_NAME is the name of the custom event that you’ve set up in Plausible.
-
-You then just need to select a Trigger. Two of the most useful triggers are the the ‘Clicks - All Elements’ trigger that fires any time someone clicks an element on your site and ‘Clicks - Just Links’ which fires any time someone clicks a link on your site.
-
-As an example, if we wanted to send an event called “Login Click” every time that someone clicked the button that had text “Login”, we would have a tag that looks like this:
-
-`<script type="text/javascript">window.plausible("Login Click");</script>`
-
-And a trigger set up as ‘Click - All Elements’ that looks like this:
-
-![click - all elements](/uploads/click-all-elements.png "click - all elements")
-
-For the trigger, we are looking for the clicks where the target of the click is Equal to ‘Login’.
-
-Note: we are currently testing enhancements to our Google Tag Manager template to make the process of sending custom events to Plausible even easier and completely code-free.
+\
+You could use this custom prop set-up for either pageviews or custom events, the configuration of the custom props is the same for both.
 
 ## Test your setup
 
@@ -238,7 +194,7 @@ Before publishing, always verify that everything works as expected. To test:
 2. A new tab will open showing your website with the GTM container active.
 3. In the Tag Assistant Preview panel, confirm that the Plausible tag fires correctly. You can see additional information about the events that trigger the tag and the data that is being sent.
 
-If you see the tag firing and data appearing in your Plausible dashboard — your setup is complete!
+If you see the tag firing and data appearing in your Plausible dashboard, your setup is complete!
 
 ## What’s next?
 
