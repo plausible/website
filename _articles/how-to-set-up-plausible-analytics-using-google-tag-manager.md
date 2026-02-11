@@ -146,13 +146,31 @@ Additionally, we can configure Custom Properties (see below) and Revenue Trackin
 
 ![revenue tracking through plausible gtm config](/uploads/revenue-tracking-in-plausible-gtm.png "revenue tracking through plausible gtm config")
 
-
+You can find more details about setting up revenue tracking on your site [here](https://plausible.io/docs/ecommerce-revenue-tracking).
 
 \-﻿--------------
 
 ## Add Custom Properties (Optional)
 
-The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview. To add them:
+The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview. 
+
+Both the Initialization Tag and the Custom Event Tags give you the option to configure one or more custom properties. In the case of the Initialization Tag, these custom properties will be attached to pageviews, while for Custom Events, they will be attached to that specific event.
+
+As a simple example, you could send the full URL of a page to Plausible for every pageview or event by using the Built-In GTM Variable ‘Page URL’.
+
+
+
+To do this, you would first click ‘Add Custom Property’ in the Initialization Tag.  Then in the ‘Custom Property Name’ input box you will put whatever the name of the event is in Plausible.  In our case, we can call it ‘page_url’.
+
+
+
+Then we can click the icon next to the ‘Custom Property Value’ input box to see a list of all the available GTM Variables.  Then we will simply select ‘Page URL’ and you will see that it populates our text field as {{Page URL}}. 
+
+
+
+
+
+To add them:
 
 * Click ‘Add Custom Property’
 * Select a GTM variable — this defines the value to send.
