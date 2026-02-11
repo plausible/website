@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Reach out to the Plausible team for support, feedback or feature questions. Find email contact details on this page.
+description: Reach out to the Plausible team for support, feedback, or feature questions. Find email contact details on this page.
 ---
 
 <div class="bg-grey-50">
@@ -56,9 +56,10 @@ description: Reach out to the Plausible team for support, feedback or feature qu
             <div class="ml-3 text-base text-gray-800 leading-6">
               <p>
                 <script type="text/javascript">
-                user = "hello";
-                domain = "plausible.io";
-                document.write(user + '@' + domain);
+                var user = "hello";
+                var domain = "plausible.io";
+                var addr = user + '@' + domain;
+                document.write('<a class="text-indigo-600" href="mailto:' + addr + '">' + addr + '</a>');
                 </script>
                 <noscript>hello at plausible.io</noscript>
               </p>
@@ -72,37 +73,36 @@ description: Reach out to the Plausible team for support, feedback or feature qu
               <h2 class="text-2xl font-extrabold text-gray-900">
                 Frequently asked questions
               </h2>
-              <dl class="mt-6 space-y-6 divide-y divide-gray-200">
 
-                {% assign counter = 0 %}
-                {% for section in site.data.faq %}
-                <div class="pt-6">
-                  <h3 class="text-lg font-semibold text-gray-900">{{ section.category }}</h3>
-                </div>
+              {% for section in site.data.faq %}
+              <div class="mt-6">
+                <h3 class="pt-6 text-lg font-semibold text-gray-900">{{ section.category }}</h3>
+                <dl class="space-y-6 divide-y divide-gray-200">
                   {% for item in section.items %}
-                    {% assign counter = counter | plus: 1 %}
                     <div class="pt-6">
                       <dt class="text-lg">
-                        <button class="flex items-start justify-between w-full text-left text-gray-400" @click="selected !== {{ counter }} ? selected = {{ counter }} : selected = null">
+                        <button class="flex items-start justify-between w-full text-left text-gray-400" @click="selected !== '{{ forloop.parentloop.index }}-{{ forloop.index }}' ? selected = '{{ forloop.parentloop.index }}-{{ forloop.index }}' : selected = null">
                           <span class="font-medium text-gray-900">
                             {{ item.question }}
                           </span>
                           <span class="flex items-center ml-6 h-7">
-                            <svg class="w-6 h-6 -rotate-0 transform" :class="{'-rotate-180': selected == {{ counter }}}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <svg class="w-6 h-6 -rotate-0 transform" :class="{'-rotate-180': selected == '{{ forloop.parentloop.index }}-{{ forloop.index }}'}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                           </span>
                         </button>
                       </dt>
-                      <dd class="pr-12 mt-2" x-cloak x-show="selected == {{ counter }}">
+                      <dd class="pr-12 mt-2" x-cloak x-show="selected == '{{ forloop.parentloop.index }}-{{ forloop.index }}'">
                         <p class="text-base text-gray-500">
                         {{ item.answer }}
                         </p>
                       </dd>
                     </div>
                   {% endfor %}
-                {% endfor %}
-              </dl>
+                </dl>
+              </div>
+              {% endfor %}
+
             </div>
           </div>
         </div>
