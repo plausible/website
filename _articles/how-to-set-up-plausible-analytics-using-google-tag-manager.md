@@ -142,6 +142,10 @@ And a trigger set up as ‘Click - All Elements’ that looks like this:
 
 ![trigger for custom event](/uploads/trigger-for-custom-event.png "trigger for custom event")
 
+Additionally, we can configure Custom Properties (see below) and Revenue Tracking data to be sent with the custom event. To add revenue data, simply tick the checkbox and enter the currency and amount that should be associated with the event. For example, if you want the amount to be $10.29, it should look like this:
+
+![revenue tracking through plausible gtm config](/uploads/revenue-tracking-in-plausible-gtm.png "revenue tracking through plausible gtm config")
+
 
 
 \-﻿--------------
