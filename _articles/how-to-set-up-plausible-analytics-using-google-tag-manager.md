@@ -58,7 +58,7 @@ The simplest way to install the custom template is to locate it in the [Google T
 
 ![Plausible GTM Template](/uploads/plausible-gtm-template.png "Plausible GTM Template")
 
-## Create a new Tag
+### Create a new Tag
 
 Once you’ve installed the template, you should create a new "**Tag**" that uses it. To do this:
 
@@ -77,7 +77,7 @@ Once inside, you’ll see a **Type** option with two choices: **Initializatio
 
 ![plausible gtm tag basic settings](/uploads/plausible-gtm-tag-basic-settings.png "plausible gtm tag basic settings")
 
-## Setting up the Initialization Tag
+### Setting up the Initialization Tag
 
 Let’s first look at setting up the Initialization Tag, as this is the only mandatory step to get Plausible Analytics running with Google Tag Manager.
 
@@ -87,7 +87,7 @@ Scroll down to the “Triggering” section. For the tag trigger, you should sel
 
 And that’s it! For a very simple Plausible installation, you could stop here and the Plausible script will run on all pageviews and capture the core set of data.
 
-### A﻿dditional configuration options
+#### A﻿dditional configuration options
 
 Optionally, in this tag you can also set up some enhanced measurements. Some boxes are pre-ticked which you can uncheck if you wish to. And check the ones that you would like to track.
 
@@ -111,11 +111,9 @@ H﻿ere is the overview of the optional configuration options:
 | **Auto Capture Pageviews**     | Whether to automatically capture pageviews. If this is unchecked, the script will be loaded and ready to receive events but no pageviews will be sent. You would need to recreate pageview events by creating another tag with the trigger "**Page View**" or similar to send the event manually. |
 | **Custom File Download Types** | Override the default file extensions for tracking file downloads, so only your custom file type downloads will be tracked instead.                                                                                                                                                                |
 
-
-
 T﻿hat's it. Just check the boxes for the things you'd like to track and you will find the relevant data in your dashboard, no coding needed.
 
-## Creating Custom Event Tags (Optional)
+### Creating Custom Event Tags (Optional)
 
 Unlike the Initialization Tag, you can create as many Custom Event Tags as you want. This all depends on what GTM triggers you would like to use to send data to Plausible Analytics.
 
@@ -148,7 +146,7 @@ Additionally, we can configure Custom Properties (see below) and Revenue Trackin
 
 You can find more details about setting up revenue tracking on your site [here](https://plausible.io/docs/ecommerce-revenue-tracking).
 
-## Add Custom Properties (Optional)
+### Add Custom Properties (Optional)
 
 The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview.
 
