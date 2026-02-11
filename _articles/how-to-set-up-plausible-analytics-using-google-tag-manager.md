@@ -134,7 +134,13 @@ For a very simple event, you then just need to select a Trigger. Two of the most
 
 You can find these options by going to Triggers > New (﻿+) > Trigger Configuration. Then in the sidebar you will see the different trigger types, including the click options mentioned above.
 
+**As an example**, if we wanted to send an event called “Login Click” every time someone clicked the button that had text “Login”, we would have a tag that looks like this:
 
+![setting up a custom event in plausible through gtm](/uploads/setting-up-a-custom-event-in-plausible-through-gtm.png "setting up a custom event in plausible through gtm")
+
+And a trigger set up as ‘Click - All Elements’ that looks like this:
+
+![trigger for custom event](/uploads/trigger-for-custom-event.png "trigger for custom event")
 
 
 
