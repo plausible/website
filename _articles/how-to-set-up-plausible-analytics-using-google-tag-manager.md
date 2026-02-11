@@ -19,7 +19,7 @@ We’ve built a **Plausible GTM template** to make this setup even smoother.
 This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead, it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, you can also check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup. 
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Why use Plausible Analytics?
 
@@ -93,7 +93,7 @@ Optionally, in this tag you can also set up some enhanced measurements. Some box
 
 Y﻿ou can also do simple 404 tracking and set Custom Properties for pageviews (see Custom Properties section below).
 
-To enable 404 Page tracking, simply check the box and enter the title of your website’s 404 page.
+**To enable 404 Page tracking**, simply check the box and enter the title of your website’s 404 page.
 
 ![init-tag-settings](/uploads/init-tag-settings.png "init-tag-settings in plausible gtm")
 
@@ -115,11 +115,11 @@ H﻿ere is the overview of the optional configuration options:
 
 T﻿hat's it. Just check the boxes for the things you'd like to track and you will find the relevant data in your dashboard, no coding needed.
 
-## Creating Custom Event Tags
+## Creating Custom Event Tags (Optional)
 
-Unlike the Initialization Tag, you can create as many Custom Event Tags as you want.  This all depends on what GTM triggers you would like to use to send data to Plausible Analytics.
+Unlike the Initialization Tag, you can create as many Custom Event Tags as you want. This all depends on what GTM triggers you would like to use to send data to Plausible Analytics.
 
-[L﻿earn about custom events here](https://plausible.io/docs/custom-event-goals).
+[L﻿earn about custom events here](https://plausible.io/docs/custom-event-goals). 
 
 In this section, we will run through a quick example of how it works and then run through additional configuration options.
 
@@ -148,11 +148,9 @@ Additionally, we can configure Custom Properties (see below) and Revenue Trackin
 
 You can find more details about setting up revenue tracking on your site [here](https://plausible.io/docs/ecommerce-revenue-tracking).
 
-\-﻿--------------
-
 ## Add Custom Properties (Optional)
 
-The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview. 
+The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview.
 
 Both the Initialization Tag and the Custom Event Tags give you the option to configure one or more custom properties. **In the case of the Initialization Tag, these custom properties will be attached to pageviews, while for Custom Events, they will be attached to that specific event**.
 
@@ -184,7 +182,7 @@ With both of those variables set-up, your final custom props configuration would
 ![custom props configured in plausible gtm template](/uploads/custom-props-configured-in-plausible-gtm-template.png "custom props configured in plausible gtm template")
 
 \
-You could use this custom prop set-up for either pageviews or custom events, the configuration of the custom props is the same for both.
+You could use this custom properties set-up for either pageviews or custom events, the configuration of the custom props is the same for both.
 
 ## Test your setup
 
