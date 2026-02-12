@@ -53,7 +53,11 @@ For full details, see our [Data Policy](https://plausible.io/data-policy) and [S
 
 ## Ready to try Plausible?
 
-<div class="mt-5 sm:mt-8 sm:flex sm:justify-center" style="gap: 12px;">
-  <a href="/register" style="text-decoration: none; color: white; background-color: #5046e5; display: flex; align-items: center; justify-content: center; padding: 12px 32px; font-size: 16px; font-weight: 500; border-radius: 6px;">Start free trial</a>
-  <a href="/plausible.io" style="text-decoration: none; color: #5046e5; background-color: white; border: 2px solid #5046e5; display: flex; align-items: center; justify-content: center; padding: 12px 32px; font-size: 16px; font-weight: 500; border-radius: 6px; margin-top: 12px;">View live demo</a>
+<div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8" style="all: initial; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 32px; font-family: inherit;">
+  <div style="display: inline-flex; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.12);">
+    <a href="/register" style="all: unset; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; padding: 16px 40px; font-size: 18px; font-weight: 500; color: white; background-color: #5046e5; border-radius: 6px; transition: background-color 0.15s;">Start free trial</a>
+  </div>
+  <div style="display: inline-flex; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.12); margin-top: 12px;">
+    <a href="/plausible.io" style="all: unset; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; padding: 16px 40px; font-size: 18px; font-weight: 500; color: #5046e5; background-color: white; border-radius: 6px; transition: color 0.15s;">View live demo</a>
+  </div>
 </div>
