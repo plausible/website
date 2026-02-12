@@ -53,4 +53,11 @@ For full details, see our [Data Policy](https://plausible.io/data-policy) and [S
 
 ## Ready to try Plausible?
 
-<a class="button" href="/register">Start your free trial</a> <a class="button button-secondary" href="/plausible.io">View live demo</a>
+<div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Start free trial</a>
+  </div>
+  <div class="mt-3 sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">View live demo</a>
+  </div>
+</div>
