@@ -58,6 +58,6 @@ For full details, see our [Data Policy](https://plausible.io/data-policy) and [S
     <a href="/register" style="text-decoration: none; color: white; background-color: #5046e5; display: flex; align-items: center; justify-content: center; padding: 12px 32px; font-size: 16px; font-weight: 500; border-radius: 6px;">Start free trial</a>
   </div>
   <div class="mt-3 sm:mt-0 sm:ml-3">
-    <a href="/plausible.io" style="text-decoration: none; color: #5046e5; background-color: white; display: flex; align-items: center; justify-content: center; padding: 12px 32px; font-size: 16px; font-weight: 500; border-radius: 6px;">View live demo</a>
+    <a href="/plausible.io" style="text-decoration: none; color: #5046e5; background-color: white; border: 2px solid #5046e5; display: flex; align-items: center; justify-content: center; padding: 12px 32px; font-size: 16px; font-weight: 500; border-radius: 6px;">View live demo</a>
   </div>
 </div>
