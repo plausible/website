@@ -11,7 +11,7 @@ permalink: /for-ecommerce-saas
 
 Plausible Analytics is compliant with different privacy regulations so you don't need to worry about getting GDPR consent from your visitors. We keep it simple by minimizing data collection and focusing on 20% of Google Analytics metrics that 80% of analytics users find most useful.
 
-![Website analytics for ecommerce and SaaS](/uploads/google-analytics-alternatives.png "Website analytics for ecommerce and SaaS")
+![Website analytics for ecommerce and SaaS](/uploads/plausible-ecommerce-saas.png "Website analytics for ecommerce and SaaS")
 
 1. Ordered list
 {:toc}
