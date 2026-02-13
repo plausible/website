@@ -15,6 +15,8 @@ After been received with a lot of love by website owners and the privacy-conscio
 
 We’ve been profitable and sustainable from the starting, and so we believe we’re qualified to answer what is it that makes sense for people to pay for a web analytics tool that’s an alternative to the digital marketing industry’s staple and free tool.
 
+![why pay for plausible analytics](/uploads/plausible-paid-analytics-vs-free-ga.png "why pay for plausible analytics")
+
 1. Ordered list
 {:toc}
 
