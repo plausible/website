@@ -12,7 +12,7 @@ For some of these content creators, external recognition is not that important. 
 
 Others like to understand the impact that their efforts have on the world, which posts bring in the readers, what topics people seem to enjoy the most and even how people end up discovering their content in the first place.
 
-![Website analytics for bloggers and content creators](/uploads/google-analytics-alternatives.png "Website analytics for bloggers and content creators")
+![Website analytics for bloggers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for bloggers and content creators")
 
 1. Ordered list
 {:toc}
