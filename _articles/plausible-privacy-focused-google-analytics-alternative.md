@@ -11,7 +11,7 @@ By using Plausible Analytics, all the site measurement is carried out absolutely
 
 Here's a look at what makes Plausible Analytics a privacy-friendly Google Analytics alternative.
 
-![Plausible: Privacy-friendly website analytics](/uploads/google-analytics-alternatives.png "Plausible: Privacy-friendly website analytics")
+![Plausible: Privacy-friendly website analytics](/uploads/plausible-privacy-friendly.png "Plausible: Privacy-friendly website analytics")
 
 1. Ordered list
 {:toc}
