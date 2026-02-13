@@ -10,7 +10,7 @@ Plausible Analytics is a privacy-friendly web analytics plugin for WordPress tha
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
-![Plausible Analytics WordPress plugin](/assets/images/privacy-focused-web-analytics.png "Plausible Analytics WordPress plugin")
+![Plausible Analytics WordPress plugin](/uploads/plausible-wordpress-plugin.png "Plausible Analytics WordPress plugin")
 
 1. Ordered list
 {:toc}
@@ -72,7 +72,7 @@ Now you need to go to your WordPress dashboard and activate the Plausible Analyt
 * Click the "Add Plugin" button. This will take you to the plugins marketplace.
 * In the search box, type "Plausible Analytics" and press Enter/Return. Make sure to open the official plugin listed, as shown in the screenshot below.
 
-![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \"Plausible Analytics\" WordPress plugin")
+![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\"Plausible Analytics\\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/).
 * You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one.
@@ -249,7 +249,7 @@ You need to tag the site elements you want to track. No JavaScript knowledge is 
 
 * You can then click on "Advanced" and add a CSS class name in the "Additional CSS class(es)" field. Add the CSS class name in this format: `plausible-event-name=MyEventName`. For instance, if you want to track signup button clicks, you could use: `plausible-event-name=Signup+Submit`.
 
-![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png "Add a CSS class name in the \"Additional CSS class(es)\" field")
+![Add a CSS class name in the "Additional CSS class(es)" field](/docs/img/wordpress-css-class-name.png "Add a CSS class name in the \\"Additional CSS class(es)\\" field")
 
 Custom events won't show up automatically in your Plausible dashboard. You’ll have to configure the goal for them to show up. Here's how:
 
