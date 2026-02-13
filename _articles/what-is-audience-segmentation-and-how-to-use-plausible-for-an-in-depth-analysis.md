@@ -15,6 +15,8 @@ It’s been seven good years in business and we understand the importance of dat
 
 It makes sense to analyze your website traffic to understand such insights since it’s a fair presumption that both existing customers and potential customers must have visited your website at some point, at the very least.
 
+![audience segmentation in plausible analytics](/uploads/plausible-visitor-segmentation.png "audience segmentation in plausible analytics")
+
 1. Ordered list
 {:toc}
 
