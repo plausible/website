@@ -9,7 +9,7 @@ Cloudflare Web Analytics is a new player on the simple, privacy-first and de-Goo
 
 This is a look at Cloudflare Web Analytics and how it compares to Plausible Analytics and other analytics tools such as Google Analytics.
 
-![Cloudflare Web Analytics vs Plausible Analytics](/uploads/google-analytics-alternatives.png "Cloudflare Web Analytics vs Plausible Analytics")
+![Cloudflare Web Analytics vs Plausible Analytics](/uploads/plausible-vs-cloudlare-analytics.png "Cloudflare Web Analytics vs Plausible Analytics")
 
 1. Ordered list
 {:toc}
@@ -31,8 +31,8 @@ It works client side using a JavaScript snippet that you need to insert into you
 This is how they describe it: "Our analytics don't cookie your visitors, collect their personal information, or track them across sites. So if your site needs a cookie banner, it won't be because of us".
 
 That sounds pretty much like [what Plausible does too](https://plausible.io/privacy-focused-web-analytics), so Cloudflare Web Analytics is what we'll compare Plausible Analytics to in this post.
- 
-## Plausible vs Cloudflare Web Analytics comparison: What are the differences? 
+
+## Plausible vs Cloudflare Web Analytics comparison: What are the differences?
 
 Even though both Plausible and Cloudflare Web Analytics are built to be simple to use, privacy-friendly and lightweight, there are some important differences too. Let's explore them.
 
@@ -70,7 +70,7 @@ Plausible top pages and top sources:
 
 ![Plausible Analytics top pages](/uploads/plausible-top-pages-sources.png)
 
-### Bots are not excluded 
+### Bots are not excluded
 
 Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. 
 
@@ -107,7 +107,7 @@ Here are some of the metrics missing on Cloudflare Web Analytics compared to wha
 * No support for [UTM tags](https://plausible.io/blog/utm-tracking-tags) so you cannot track your marketing campaigns, emails and minimize the dark traffic
 * No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
 * No way to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted. To avoid adblockers, you will need to use their premium 
-Cloudflare Analytics tool
+  Cloudflare Analytics tool
 * Cloudflare Web Analytics recently introduced performance metrics for [Core Web Vitals](https://plausible.io/blog/page-experience-web-vitals) and this is something Plausible doesn't support
 
 ## Different definitions of unique visitor
@@ -115,7 +115,7 @@ Cloudflare Analytics tool
 Plausible Analytics and Cloudflare Web Analytics have different definitions of what a unique visitor is.
 
 Like Plausible Analytics, Cloudflare Web Analytics [doesn't use cookies nor local storage to track visitors](https://plausible.io/blog/google-analytics-cookies) so a different method of counting is necessary.
- 
+
 In Cloudflare Web Analytics, "a visit is a successful page view that has an HTTP referrer that doesn't match the hostname of the request".
 
 Basically Cloudflare counts the number of times someone landed on any page of your site from another site. They say that "you should expect this number to differ from other analytics tools". 
@@ -145,7 +145,7 @@ It is also a company that is not specialized in web analytics which shows in the
 Plausible Analytics, on the other hand, is made by a small, bootstrapped and independent team. And web analytics is what we do so our focus is 100% on our web analytics product. 
 
 It costs time and money to develop, manage and maintain a web analytics service. This is why we charge a fee for our subscription plans. It helps us run a sustainable business that we can work on full time. By using Plausible, you will support indie-developers, indie-businesses and the independent web. 
- 
+
 Cloudflare chooses to make their web analytics a free product but they cut the costs of running that free service by using aggressive data sampling and strict data history limitations.
 
 If you're curious about Plausible Analytics, we have a 30-day free trial. There's no credit card required to sign up for the trial. [Learn more here](https://plausible.io/register).
