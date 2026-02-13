@@ -9,7 +9,7 @@ Many site owners have the habit of installing the Google Analytics tracking scri
 
 Here's why you should break the habit of using Google Analytics and consider [Plausible Analytics](https://plausible.io/) as a simple, lightweight, ethical, open source and privacy-friendly Google Analytics alternative.
 
-![Plausible as a great Google Analytics alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Google Analytics alternative")
+![Plausible as a great Google Analytics alternative](/uploads/plausible-vs-ga.png "Plausible as a great Google Analytics alternative")
 
 1. Ordered list
 {:toc}
