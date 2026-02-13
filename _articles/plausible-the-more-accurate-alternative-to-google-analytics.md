@@ -15,6 +15,8 @@ This is what we see regularly in our support tickets too: how they are seeing mo
 
 We, at Plausible, take special measures in addressing challenges that pull down data accuracy. 
 
+![plausible-most-accurate-web-analytics](/uploads/plausible-most-accurate-web-analytics.png "plausible-most-accurate-web-analytics")
+
 1. Ordered list
 {:toc}
 
