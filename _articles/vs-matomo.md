@@ -10,7 +10,7 @@ Matomo, formerly known as Piwik, was founded in 2007 and has long been the most 
 
 [Plausible Analytics](https://plausible.io) is a newer player on this market launched in 2019. So what are the differences between the two and why should you consider Plausible as a Matomo alternative? Let's take a look.
 
-![Plausible as a great Matomo alternative](/uploads/google-analytics-alternatives.png "Plausible as a great Matomo alternative")
+![Plausible as a great Matomo alternative](/uploads/plausible-vs-matomo.png "Plausible as a great Matomo alternative")
 
 1. Ordered list
 {:toc}
