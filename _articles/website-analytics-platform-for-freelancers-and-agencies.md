@@ -10,7 +10,7 @@ One of the use cases [Plausible Analytics](https://plausible.io/) was specifical
 
 A regular task when working on a website for a client is to install some kind of website statistics and reporting solution. And Google Analytics is the most popular web analytics solution.
 
-![Website analytics platform for freelancers and agencies](/uploads/google-analytics-alternatives.png "Website analytics platform for freelancers and agencies")
+![Website analytics platform for freelancers and agencies](/uploads/plausible-freelancers-agencies.png "Website analytics platform for freelancers and agencies")
 
 1. Ordered list
 {:toc}
