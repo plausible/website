@@ -9,7 +9,7 @@ Plausible Analytics is a privacy-focused web analytics platform built for organi
 
 We believe web analytics should serve website owners without exploiting their visitors, delivering useful insights while respecting privacy by default.
 
-Plausible runs on modern, scalable infrastructure designed for long-term operational reliability. More than 16,000 paying subscribers trust Plausible to measure their websites without compromising visitor privacy, including organizations operating in regulated and privacy-sensitive environments.
+Plausible runs on modern, scalable infrastructure designed for long-term operational reliability. More than 16,000 paying subscribers trust us to measure their websites without compromising visitor privacy, including organizations operating in regulated and privacy-sensitive environments.
 
 ![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
 
