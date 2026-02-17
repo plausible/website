@@ -19,7 +19,7 @@ We’ve built a **Plausible GTM template** to make this setup even smoother.
 This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead, it’s even simpler and only takes a few lines of code to get started. If you’re using another platform, you can also check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup. 
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Why use Plausible Analytics?
 
