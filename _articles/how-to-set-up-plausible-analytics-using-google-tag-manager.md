@@ -81,7 +81,7 @@ Once inside, you’ll see a **Type** option with two choices: **Initializatio
 
 Let’s first look at setting up the Initialization Tag, as this is the only mandatory step to get Plausible Analytics running with Google Tag Manager.
 
-When you create a new tag with the Plausible Analytics template and you select ‘Initialization’, there is one required field: ‘Script ID’.  You can find it in Plausible during site onboarding under the "Tag Manager" tab or later in "Site Settings" → "General" → "Site Installation" → "Tag Manager".
+When you create a new tag with the Plausible Analytics template and select ‘Initialization’, there is one required field: ‘Script ID’. You can find it in Plausible during site onboarding under the "Tag Manager" tab or later in "Site Settings" → "General" → "Site Installation" → "Tag Manager".
 
 Scroll down to the “Triggering” section. For the tag trigger, you should select "All Pages" - "Page View", which will ensure that Plausible will capture data on all pages.
 
