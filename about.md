@@ -11,7 +11,7 @@ We believe web analytics should serve website owners without exploiting their vi
 
 Plausible runs on modern, scalable infrastructure designed for long-term operational reliability. More than 16,000 paying subscribers trust us to measure their websites without compromising visitor privacy, including organizations operating in regulated and privacy-sensitive environments.
 
-![About Plausible Analytics](/uploads/google-analytics-alternatives.png "About Plausible Analytics")
+![About Plausible Analytics](/uploads/about-plausible.png "About Plausible Analytics")
 
 ## Our story
 
