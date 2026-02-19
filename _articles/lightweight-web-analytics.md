@@ -9,7 +9,7 @@ Plausible Analytics script is lightweight. It's much smaller than the Google Ana
 
 Having a fast loading website is one of the key elements of modern web development. Replacing your website analytics script from Google Analytics to a lightweight web analytics tool such as [Plausible Analytics](https://plausible.io/) can have a significant effect on the page load time and the carbon footprint too. Let's take a closer look.
 
-![Plausible: A lightweight web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: A lightweight web analytics tool")
+![Plausible: A lightweight web analytics tool](/uploads/plausible-lightweight-script.png "Plausible: A lightweight web analytics tool")
 
 1. Ordered list
 {:toc}
