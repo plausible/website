@@ -66,13 +66,19 @@ Because Plausible is lightweight, it will not slow down your clients’ websites
 
 If clients manage their own sites, you can simply send them the [instructions](https://plausible.io/docs/register-account) and they can implement it themselves without technical knowledge.
 
-#### Schedule weekly and/or monthly email reports with all the data included / Deliver reports without extra work
+### Share analytics easily with your clients
 
-![Plausible email reports](/uploads/plausible-email-reports.png "Plausible email reports")
+Plausible makes it simple to keep clients informed without extra work from your side. You can share insights in the way that suits each client, whether they prefer regular reports in their inbox or direct access to a live dashboard.
 
-Most clients prefer to get their reports directly into their inbox and Plausible Analytics makes that process simple. Email reports can be sent to multiple recipients and can be scheduled on a weekly (every Monday) and/or monthly basis (every 1st of the month). 
+#### Schedule reports that arrive automatically
 
-All the stats are embedded directly in the email and there's no need for your client to go to any website. There are no attachments, no PDFs and no links to click on. No friction either. 
+![Plausible email reports](/uploads/email-reports.webp "Plausible email reports")
+
+You can set up weekly (every Monday) and/or monthly (every 1st of the month) [email reports](https://plausible.io/docs/email-reports) that include all the important stats. The data is embedded directly in the email, so clients can review their performance instantly without logging in, downloading files or clicking through multiple links.
+
+There are no attachments, no PDFs and no custom report building. Just clear, ready-to-read insights delivered on a schedule.
+
+Reports can be sent to multiple recipients, which is helpful when several stakeholders want to stay updated.
 
 ### Reports are automated, there's no longer a need to build custom dashboards
 
