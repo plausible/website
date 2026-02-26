@@ -9,7 +9,7 @@ permalink: /for-freelancers-agencies
 ---
 P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies or anybody working on a client's site to provide website analytics. The Plausible dashboard is very easy to understand, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on sites.
 
-T﻿he same features a﻿nd capabilities are very useful for freelancers and c﻿onsultants too for providing website analytics to their clients.
+T﻿he same features a﻿nd capabilities are very useful for freelancers and ﻿consultants too for providing website analytics to their clients.
 
 ![Google Analytics alternative for agencies, freelancers and consultants](/uploads/plausible-freelancers-agencies.png "Google Analytics alternative for agencies, freelancers and consultants")
 
@@ -163,7 +163,7 @@ If needed, you can **[transfer ownership](https://plausible.io/docs/transfer-own
 
 ### Get a consolidated view across all sites
 
-If you manage many websites, you can view the performance of your entire portfolio in one place. [Consolidated view](https://plausible.io/docs/consolidated-views) lets you combine traffic and insights from multiple sites into a single dashboard while keeping each individual site separate.
+You can view the performance of your entire portfolio in one place. [Consolidated view](https://plausible.io/docs/consolidated-views) lets you combine traffic and insights from multiple sites into a single dashboard while keeping each individual site separate.
 
 This is useful for agencies that want a high-level overview of all client activity, your own properties and SaaS projects without switching between dashboards.
 
@@ -175,7 +175,7 @@ A﻿ll in all, Plausible enables:
 * Multiple teams per account
 * Portfolio views
 
-GA often becomes chaotic with dozens of properties.
+GA, on the other hand, often becomes chaotic with dozens of properties.
 
 ## More ways Plausible helps your agency
 
@@ -189,7 +189,7 @@ O﻿ur [import tool](https://plausible.io/docs/google-analytics-import) automati
 
 ### Support your clients’ SEO with actionable insights
 
-I﻿n the dashboard, you will find a dedicated Organic Search channel, so you and your clients can instantly see how much traffic comes from search engines.
+I﻿n the dashboard, you will find a dedicated Organic Search channel, so you can instantly see how much traffic comes from search engines.
 
 This channel also includes traffic from AI assistants and search tools, giving you a more complete picture of how people discover the site.
 
