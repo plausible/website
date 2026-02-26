@@ -134,9 +134,9 @@ Each team can have its own members, sites and permissions, so the right people h
 
 When you add a site, it belongs to a team and has a clear owner. This makes it easy to understand who manages the dashboard, who controls the settings and who is responsible for billing.
 
-You can set everything up for your clients yourself, keep full control, or let clients own their sites directly while you remain a [collaborator](https://plausible.io/docs/users-roles#working-with-external-collaborators).
+You can set everything up for your clients yourself, keep full control, or let clients own their sites directly while you remain a [collaborator](https://plausible.io/docs/users-roles#working-with-external-collaborators). You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.  
 
-If needed, you can [transfer ownership](https://plausible.io/docs/transfer-ownership) of a site to your client once the project is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
+If needed, you can **[transfer ownership](https://plausible.io/docs/transfer-ownership)** of a site to your client once the project is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
 
 ### Get a consolidated view across all sites
 
@@ -146,41 +146,37 @@ This is useful for agencies that want a high-level overview of all client activi
 
 You can still drill down into each site when needed, but the consolidated view helps you quickly understand overall trends, spot changes and monitor performance across your whole network at a glance.
 
+## More ways Plausible helps your agency
+
+Plausible includes several features that make day-to-day agency work smoother, especially when you are migrating clients, building reports or integrating analytics into your existing stack.
+
+### Import historical Google Analytics data
+
+If your clients are moving away from Google Analytics, you do not have to lose their historical data! You can import past stats so trends, seasonality and year-over-year comparisons remain intact inside Plausible.
+
+O﻿ur [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data.
+
+### Integrations with tools your clients already use
+
+Plausible connects with popular platforms so you can combine analytics with search and e-commerce insights.
+
+* [Google Search Console integration](https://plausible.io/docs/google-search-console-integration) for SEO performance and deeper search performance analysis inside Plausible itself.
+* Shopify integration for ecommerce tracking
+* Easy event tracking for conversions and goals
+
+### Build custom reports when needed
+
+While most clients are happy with the built-in dashboard and automated emails, you can also create tailored reports for advanced use cases.
+
+Use the [Looker Studio connector](https://plausible.io/docs/looker-studio) to build custom dashboards that combine Plausible data with other sources for internal reporting or client presentations.
+
+### White-label analytics for your own brand
+
+If you want analytics to feel like part of your agency’s offering, Plausible includes [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients.
 
 
 
 
-
-
-
-
-
-
-### Invite team members and collaborate
-
-Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
-
-You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.  
-
-You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
-
-### Transfer the ownership of a site to your client
-
-With Plausible, you can set up a site, custom events and make sure everything works correctly before transferring the ownership of that site to your client. 
-
-Then, your client, as a new owner of the site, will be responsible for billing and other day-to-day operations. You can still keep access to the stats dashboard and site settings. 
-
-Learn how to [transfer the ownership of a site](https://plausible.io/docs/transfer-ownership).
-
-
-
-
-
-
-
-### You can also import historical Google Analytics stats
-
-We’ve put a lot of effort into making a Google Analytics stats import tool. It allows you to import multiple Google Analytics properties into to the same Plausible dashboard. And it automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data. See [how to import historical GA stats into Plausible](https://plausible.io/docs/google-analytics-import).
 
 ### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
 
