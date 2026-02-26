@@ -25,11 +25,11 @@ So on top of installing the analytics, agencies and freelancers are tasked with 
 
 With Plausible Analytics, we believe we have created a [better and easier solution](https://plausible.io/vs-google-analytics) for certain use cases both for freelancers and agencies, but their clients too.
 
-## What makes Plausible Analytics a great web analytics platform for freelancers and agencies?
+## How agencies and freelancers use Plausible with their clients
 
-Here's a look at the features and the workflow of Plausible Analytics that makes your life as someone who works with clients easier:
+Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
 
-### Schedule weekly and/or monthly email reports with all the data included
+### Schedule weekly and/or monthly email reports with all the data included / Deliver reports without extra work
 
 ![Plausible email reports](/uploads/plausible-email-reports.png "Plausible email reports")
 
