@@ -80,17 +80,13 @@ There are no attachments, no PDFs and no custom report building. Just clear, rea
 
 Reports can be sent to multiple recipients, which is helpful when several stakeholders want to stay updated.
 
-### Reports are automated, there's no longer a need to build custom dashboards
+#### Share the live dashboard with a secure link
 
-Plausible Analytics is [built with simplicity](https://plausible.io/simple-web-analytics) in mind. There are no layers of menus, there is no need for you to build custom reports, custom dashboards or PowerPoint documents. 
+If clients want to explore their analytics in real time, you can generate a private [shared link](https://plausible.io/docs/shared-links) to the dashboard.
 
-Your clients can get all the important insights from their website traffic on one single automated page or via one single automated email. You don't need to worry about creating custom reports to help them understand what they need to know.
+They do not need an account or password to view it. Anyone with the link can access the stats, and you can optionally protect it with a password for extra security.
 
-### Share the stats privately and securely with your clients without the need for accounts and passwords
-
-You can share the Plausible Analytics website dashboard to your clients privately and securely by generating a [unique shared link](https://plausible.io/docs/shared-links). This link is impossible to guess so only people you send it to will have access to it. 
-
-Your clients do not need to log in, there's no need for accounts and passwords either. But you do have the option to add password protection for extra security.
+You can also share a filtered view, so clients only see a specific segment of the data that is relevant to them.
 
 ### Plausible Analytics helps you build faster websites
 
