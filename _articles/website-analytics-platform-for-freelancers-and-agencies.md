@@ -174,7 +174,7 @@ You can also f﻿ilter by organic traffic to evaluate SEO performance separately
 
 ### Track goals, funnels and conversions without complexity
 
-Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action. You can also track [revenue-goals](https://plausible.io/docs/ecommerce-revenue-tracking)with Plausible.
+Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action. You can also track [revenue-goals](https://plausible.io/docs/ecommerce-revenue-tracking)with Plausible, or attach [custom properties](https://plausible.io/docs/custom-props/introduction) for having custom metrics.
 
 Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks and without working with code. While there are custom events for tracking absolutely anything else you need to.
 
@@ -200,13 +200,9 @@ Use the [Looker Studio connector](https://plausible.io/docs/looker-studio) to bu
 
 If you want analytics to feel like part of your agency’s offering, e﻿xplore our [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients.
 
+## See a live Plausible Analytics dashboard in action
 
-
-
-
-### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
-
-This is actually another interesting feature of Plausible Analytics. Your website stats dashboard is private by default but you can choose to be transparent and make it public so anyone with your custom link can view the dashboard too. 
+This is actually another interesting feature of Plausible Analytics. Your website stats dashboard is private by default but you can choose to be transparent and make it public so anyone with your custom link can view the dashboard too.
 
 This live stats link can then be displayed in your footer, in your emails, in your presentation or wherever else you wish to share your stats.
 
