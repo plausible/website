@@ -50,7 +50,23 @@ Plausible Analytics is an [open source product](https://plausible.io/open-source
 
 Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
 
-### Schedule weekly and/or monthly email reports with all the data included / Deliver reports without extra work
+### Easy to implement across all client sites
+
+Plausible Analytics takes only a couple of minutes to install, whether you manage a handful of sites or hundreds of client projects. There is no complex setup, no lengthy configuration and no need to maintain custom tracking scripts.
+
+If you already use common tools in your workflow, Plausible fits right in:
+
+* Add Plausible using **[Google Tag Manager](https://plausible.io/gtm-template)** template if you manage tracking centrally across multiple sites
+* Use the **[WordPress plugin](https://plausible.io/wordpress-analytics-plugin)** if many of your clients run on WordPress
+* Install the simple script directly on custom sites, static sites or any CMS. Check our [installation guides here](https://plausible.io/docs/integration-guides).
+* Works smoothly with modern frameworks and site builders too.
+* If you handle analytics for a large number of clients, Plausible can scale with you. The **[Sites API](https://plausible.io/docs/sites-api)** lets you programmatically add, configure and manage all your client websites from your own systems, without manual setup for each new project.
+
+Because Plausible is lightweight, it will not slow down your clients’ websites. Most common tracking works automatically, and custom events can be added with a single line of code when needed.
+
+If clients manage their own sites, you can simply send them the [instructions](https://plausible.io/docs/register-account) and they can implement it themselves without technical knowledge.
+
+#### Schedule weekly and/or monthly email reports with all the data included / Deliver reports without extra work
 
 ![Plausible email reports](/uploads/plausible-email-reports.png "Plausible email reports")
 
