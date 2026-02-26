@@ -100,9 +100,9 @@ Plausible makes it simple to keep clients informed without extra work from your 
 
 You can set up weekly (every Monday) and/or monthly (every 1st of the month) [email reports](https://plausible.io/docs/email-reports) that include all the important stats. The data is embedded directly in the email, so clients can review their performance instantly without logging in, downloading files or clicking through multiple links.
 
-There are no attachments, no PDFs and no custom report building. Just clear, ready-to-read insights delivered on a schedule.
+There are no attachments, no PDFs and no custom report building. Just clear, ready-to-read insights delivered on a schedule. Reports can be sent to multiple recipients, which is helpful when several stakeholders want to stay updated.
 
-Reports can be sent to multiple recipients, which is helpful when several stakeholders want to stay updated.
+Y﻿ou can also setup [traffic spike notifications](https://plausible.io/docs/traffic-spikes).
 
 #### Share the live dashboard with a secure link
 
@@ -114,7 +114,11 @@ You can also share a filtered view, so clients only see a specific segment of th
 
 ## One account, multiple teams, multiple sites
 
-You can add as many clients' websites as you want, under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
+Plausible Analytics is designed to work the way agencies and freelancers actually operate. You can manage all your own properties, SaaS projects and client websites from a single account while keeping everything organized and properly separated.
+
+You can add as many clients' websites as you want, under a single Plausible Analytics account and subscription. All the stats are accessible with easy switches on our simple dashboard.
+
+![switch between sites on plausible analytics](/uploads/plausible-all-sites.png "switch between sites on plausible analytics")
 
 Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
 
