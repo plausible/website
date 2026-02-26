@@ -1,12 +1,19 @@
 ---
 layout: article
-title: Website analytics platform for agencies (and freelancers)
+title: Simple, powerful and privacy-first website analytics for agencies (and
+  freelancers)
 description: Plausible Analytics is a simple, privacy-friendly website analytics
   platform for agencies and freelancers to manage client sites and deliver clear
   reports.
 permalink: /for-freelancers-agencies
 ---
-One of the use cases Plausible Analytics was specifically designed for are agencies (and freelancers) who work with clients on developing their apps/websites, marketing and communication.
+P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies to provide website analytics to their clients that is extremely easy to work with. The Plausible dashboard is very easy to understand, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on your clients' sites.
+
+T﻿he same features a﻿nd capabilities are very useful for freelancers and c﻿onsultants too for providing website analytics to their clients.
+
+
+
+One of the use cases Plausible Analytics was specifically designed for are agencies (and freelancers) 
 
 A common task when managing a client’s website is setting up a reliable analytics and reporting solution. Google Analytics is the most widely used option, but it often comes with a complex setup, ongoing maintenance, and data accuracy issues due to ad blockers and consent requirements.
 
