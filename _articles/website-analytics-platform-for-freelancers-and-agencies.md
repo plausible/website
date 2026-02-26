@@ -174,11 +174,9 @@ You can also f﻿ilter by organic traffic to evaluate SEO performance separately
 
 ### Track goals, funnels and conversions without complexity
 
-Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action.
+Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action. You can also track [revenue-goals](https://plausible.io/docs/ecommerce-revenue-tracking)with Plausible.
 
-You can define goals and conversions without complicated setup or tagging systems. Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks and without working with code.
-
-While there are custom events for tracking absolutely anything else you need to.
+Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks and without working with code. While there are custom events for tracking absolutely anything else you need to.
 
 For more advanced analysis, you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) to understand how visitors move through important journeys, such as from landing page to signup to purchase. This helps you identify drop-off points and opportunities to improve conversion rates across client sites.
 
@@ -192,8 +190,6 @@ When running paid ads, email marketing or social campaigns, you can track perfor
 
 This allows you to see exactly which campaigns, creatives and channels drive traffic and conversions, so you can confidently advise clients on where to increase budget and what to cut.
 
-Together, these insights make it easier to deliver actionable recommendations instead of just raw reports, helping you demonstrate the real impact of your marketing work.
-
 ### Build custom reports when needed
 
 While most clients are happy with the built-in dashboard and automated emails, you can also create tailored reports for advanced use cases.
@@ -202,7 +198,7 @@ Use the [Looker Studio connector](https://plausible.io/docs/looker-studio) to bu
 
 ### White-label analytics for your own brand
 
-If you want analytics to feel like part of your agency’s offering, Plausible includes [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients.
+If you want analytics to feel like part of your agency’s offering, e﻿xplore our [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients.
 
 
 
