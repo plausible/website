@@ -176,13 +176,15 @@ You can also f﻿ilter by organic traffic to evaluate SEO performance separately
 
 Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action.
 
-You can define goals and conversions without complicated setup or tagging systems. Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks. While there are custom events for tracking absolutely anything else you need to.
+You can define goals and conversions without complicated setup or tagging systems. Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks and without working with code.
 
-For more advanced analysis, you can build funnels to understand how visitors move through important journeys, such as from landing page to signup to purchase. This helps you identify drop-off points and opportunities to improve conversion rates across client sites.
+While there are custom events for tracking absolutely anything else you need to.
+
+For more advanced analysis, you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) to understand how visitors move through important journeys, such as from landing page to signup to purchase. This helps you identify drop-off points and opportunities to improve conversion rates across client sites.
 
 You can also segment the data by traffic source, campaign, device, country and more to see what is driving results. This makes it easier to answer client questions like which channels bring the highest-quality visitors or which campaigns convert best.
 
-All of this is presented in a clear, privacy-friendly way without invasive tracking or complicated reporting tools, so you get actionable insights without added overhead.
+F﻿ind the overview and more details [here](https://plausible.io/blog/funnels-conversion-optimization)
 
 ### Measure and optimize ad campaigns
 
