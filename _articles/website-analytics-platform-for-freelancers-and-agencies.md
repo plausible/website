@@ -116,19 +116,45 @@ You can also share a filtered view, so clients only see a specific segment of th
 
 Plausible Analytics is designed to work the way agencies and freelancers actually operate. You can manage all your own properties, SaaS projects and client websites from a single account while keeping everything organized and properly separated.
 
+For example:
+
+* Your agency’s own websites
+* Internal or SaaS projects
+* Client projects
+
 You can add as many clients' websites as you want, under a single Plausible Analytics account and subscription. All the stats are accessible with easy switches on our simple dashboard.
 
 ![switch between sites on plausible analytics](/uploads/plausible-all-sites.png "switch between sites on plausible analytics")
 
 Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
 
-### You can have a holistic view of your whole network in one dashboard
+Each team can have its own members, sites and permissions, so the right people have access to the right data only. Learn more about [teams and access control](https://plausible.io/docs/users-roles).
 
-Plausible Analytics rollup reporting allows you to aggregate stats from all your clients' sites and see them in one combined dashboard while keeping the individual site stats on their own separate dashboards too. 
+### Clear ownership, billing and control
 
-This allows you to get a holistic view of your whole network in one dashboard for your internal purposes but also share the traffic from individual clients' sites with the particular client only.
+When you add a site, it belongs to a team and has a clear owner. This makes it easy to understand who manages the dashboard, who controls the settings and who is responsible for billing.
 
-See [how rollup reporting works](https://plausible.io/docs/plausible-script#is-there-a-roll-up-view).
+You can set everything up for your clients yourself, keep full control, or let clients own their sites directly while you remain a [collaborator](https://plausible.io/docs/users-roles#working-with-external-collaborators).
+
+If needed, you can [transfer ownership](https://plausible.io/docs/transfer-ownership) of a site to your client once the project is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
+
+### Get a consolidated view across all sites
+
+If you manage many websites, you can view the performance of your entire portfolio in one place. [Consolidated view](https://plausible.io/docs/consolidated-views) lets you combine traffic and insights from multiple sites into a single dashboard while keeping each individual site separate.
+
+This is useful for agencies that want a high-level overview of all client activity, your own properties and SaaS projects without switching between dashboards.
+
+You can still drill down into each site when needed, but the consolidated view helps you quickly understand overall trends, spot changes and monitor performance across your whole network at a glance.
+
+
+
+
+
+
+
+
+
+
 
 ### Invite team members and collaborate
 
