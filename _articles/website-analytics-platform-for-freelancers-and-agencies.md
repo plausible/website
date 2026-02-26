@@ -112,7 +112,7 @@ They do not need an account or password to view it. Anyone with the link can acc
 
 You can also share a filtered view, so clients only see a specific segment of the data that is relevant to them.
 
-### You can use one Plausible Analytics account for all your clients
+## One account, multiple teams, multiple sites
 
 You can add as many clients' websites as you want, under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
 
@@ -141,6 +141,12 @@ With Plausible, you can set up a site, custom events and make sure everything wo
 Then, your client, as a new owner of the site, will be responsible for billing and other day-to-day operations. You can still keep access to the stats dashboard and site settings. 
 
 Learn how to [transfer the ownership of a site](https://plausible.io/docs/transfer-ownership).
+
+
+
+
+
+
 
 ### You can also import historical Google Analytics stats
 
