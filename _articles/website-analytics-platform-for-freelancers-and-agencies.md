@@ -28,7 +28,7 @@ With Plausible Analytics, we believe we have created a [better and easier soluti
 
 ## What exactly is Plausible and why agencies love us?
 
-P﻿lausible Analytics is *the* original and top alternative to Google Analytics. Unlike complex platforms, Plausible is:
+P﻿lausible Analytics is *the* original and [top alternative to Google Analytics](https://plausible.io/vs-google-analytics). Plausible is simple, privacy-first, accurate and powerful, and many things. But here's why that matters for your agency:
 
 ### Strengthens your reputation as a privacy-first agency
 
@@ -77,7 +77,7 @@ Plausible Analytics is open source, with an open roadmap and a clear privacy pol
 
 Overall, Plausible helps agencies reduce operational overhead, deliver better client experiences and position themselves as forward-thinking partners rather than just service providers.
 
-## How agencies and freelancers use Plausible with their clients
+## How to use Plausible as an agency?
 
 Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
 
