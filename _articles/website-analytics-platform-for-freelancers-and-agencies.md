@@ -7,32 +7,32 @@ description: Plausible Analytics is a simple, privacy-friendly website analytics
   reports.
 permalink: /for-freelancers-agencies
 ---
-P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies to provide website analytics to their clients that is extremely easy to work with. The Plausible dashboard is very easy to understand, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on your clients' sites.
+P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies or anybody working on a client's site to provide website analytics. The Plausible dashboard is very easy to understand, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on sites.
 
 T﻿he same features a﻿nd capabilities are very useful for freelancers and c﻿onsultants too for providing website analytics to their clients.
 
-![Website analytics platform for freelancers and agencies](/uploads/plausible-freelancers-agencies.png "Website analytics platform for freelancers and agencies")
+![Google Analytics alternative for agencies, freelancers and consultants](/uploads/plausible-freelancers-agencies.png "Google Analytics alternative for agencies, freelancers and consultants")
 
 1. Ordered list
    {:toc}
 
 ## The problem with Google Analytics
 
+G﻿oogle Analytics is the staple for tracking web performance data but comes with a lot of baggage. The complexity of setup and reporting is a major issue for most, especially after GA4. It's also not privacy-friendly and is blocked by a majority of web causing a lot of data to be missing from its reports.
+
 [The problem with Google Analytics](https://plausible.io/blog/remove-google-analytics) is that it tracks way too many data points and is overkill for the majority of clients. This makes Google Analytics difficult to understand for the majority of new or non-technical users who are unfamiliar with it and who may be intimidated by having access to hundreds of different reports and metrics.
 
-So on top of installing the analytics, agencies are forced with making the web analytics process simpler for clients to get insights and value from. Working with Google Analytics (especially GA4) is a cumbersome, time consuming and painful process that requires a lot of training and support.  
+So on top of installing the analytics, agencies are forced with making the web analytics process simpler for clients to get insights and value from. Working with GA is a cumbersome, time consuming and painful process that requires a lot of training and support.
 
 With Plausible Analytics, we believe we have created a [better and easier solution](https://plausible.io/vs-google-analytics) that keeps both you and your clients happy.
 
 ## What exactly is Plausible and why agencies love us?
 
-P﻿lausible Analytics is *the* original and top alternative to Google Analytics. easier-to-use, privacy-friendly, open-sourced 
-
-P﻿lausible focuses on the essentials. Unlike complex platforms, Plausible is:
+P﻿lausible Analytics is *the* original and top alternative to Google Analytics. Unlike complex platforms, Plausible is:
 
 **[V﻿ery easy to use](https://plausible.io/simple-web-analytics)**. All metrics are on one dashboard which is easily comprehensible. You don't have to challenge yourself with complex metrics and twelve layers of menus everytime you login.
 
-Plausible Analytics is straightforward and cuts through the noise that more complex tools create. Everything your clients need to know is on one single page. They can quickly review all their website data and insights in about a minute and get on with their work.
+Plausible is straightforward and cuts through the noise. Everything your clients need to know is on one single page. They/you can quickly review all the site data and insights instantly and get on with the day.
 
 There is no need to host training sessions or explain complicated reports. You will spend less time answering analytics questions and more time doing meaningful work.
 
