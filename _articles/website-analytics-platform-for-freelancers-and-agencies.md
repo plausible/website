@@ -133,7 +133,7 @@ You can add as many clients' websites as you want, under a single Plausible Anal
 
 Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
 
-Each team can have its own members, sites and permissions, so the right people have access to the right data only. Learn more about [teams and access control](https://plausible.io/docs/users-roles).
+Each team can have its own members, sites, permissions and subscription, so the right people have access to the right data and billing is handled by the appropriate owner. This makes it easy to separate internal projects, SaaS properties and client accounts while keeping everything under one umbrella. Learn more about [teams and access control](https://plausible.io/docs/users-roles). 
 
 ### Clear ownership, billing and control
 
