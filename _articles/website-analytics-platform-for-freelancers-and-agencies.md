@@ -46,6 +46,30 @@ Also, you 100% own and control all of your website data. This data is not being 
 
 Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
 
+\-﻿--
+
+P﻿asted from before, see how to include in this section:
+
+### Plausible Analytics helps you build faster websites
+
+The Plausible Analytics script is [much smaller](https://plausible.io/lightweight-web-analytics) than the Google Tag Manager and Analytics script. The page weight of the websites you build for your clients will be cut down and the sites will load faster too.
+
+### Plausible Analytics helps you build simpler and more user-friendly sites
+
+Plausible does not use cookies and is [fully compliant with GDPR, CCPA, PECR](https://plausible.io/data-policy) and other privacy regulations out of the box. 
+
+This means that you and your clients do not need to add [cookie banners](https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
+
+This makes websites nicer, easier to use and more visitor-friendly.
+
+### With Plausible Analytics, you fully own and control your data
+
+With Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
+
+Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
+
+\-﻿--
+
 ## How agencies and freelancers use Plausible with their clients
 
 Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
@@ -87,24 +111,6 @@ If clients want to explore their analytics in real time, you can generate a priv
 They do not need an account or password to view it. Anyone with the link can access the stats, and you can optionally protect it with a password for extra security.
 
 You can also share a filtered view, so clients only see a specific segment of the data that is relevant to them.
-
-### Plausible Analytics helps you build faster websites
-
-The Plausible Analytics script is [much smaller](https://plausible.io/lightweight-web-analytics) than the Google Tag Manager and Analytics script. The page weight of the websites you build for your clients will be cut down and the sites will load faster too.
-
-### Plausible Analytics helps you build simpler and more user-friendly sites
-
-Plausible does not use cookies and is [fully compliant with GDPR, CCPA, PECR](https://plausible.io/data-policy) and other privacy regulations out of the box. 
-
-This means that you and your clients do not need to add [cookie banners](https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
-
-This makes websites nicer, easier to use and more visitor-friendly.
-
-### With Plausible Analytics, you fully own and control your data
-
-With Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
-
-Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
 
 ### You can use one Plausible Analytics account for all your clients
 
