@@ -11,26 +11,18 @@ P﻿lausible Analytics is a great way for marketing agencies, website/app develo
 
 T﻿he same features a﻿nd capabilities are very useful for freelancers and c﻿onsultants too for providing website analytics to their clients.
 
-
-
-One of the use cases Plausible Analytics was specifically designed for are agencies (and freelancers) 
-
-A common task when managing a client’s website is setting up a reliable analytics and reporting solution. Google Analytics is the most widely used option, but it often comes with a complex setup, ongoing maintenance, and data accuracy issues due to ad blockers and consent requirements.
-
-Plausible offers a simpler, privacy-friendly alternative that’s quick to implement and delivers accurate, trustworthy insights you can confidently share with clients.
-
 ![Website analytics platform for freelancers and agencies](/uploads/plausible-freelancers-agencies.png "Website analytics platform for freelancers and agencies")
 
 1. Ordered list
    {:toc}
 
-## The problem with Google Analytics for freelancers and agencies
+## The problem with Google Analytics
 
-[The problem with Google Analytics](https://plausible.io/blog/remove-google-analytics) is that it tracks way too many data points and is overkill for the majority of clients. This makes Google Analytics difficult to understand for the majority of non-technical users who are unfamiliar with it and who may be intimidated by having access to hundreds of different reports and metrics.
+[The problem with Google Analytics](https://plausible.io/blog/remove-google-analytics) is that it tracks way too many data points and is overkill for the majority of clients. This makes Google Analytics difficult to understand for the majority of new or non-technical users who are unfamiliar with it and who may be intimidated by having access to hundreds of different reports and metrics.
 
-So on top of installing the analytics, agencies and freelancers are tasked with making the web analytics process simpler for clients to get insights and value from. But when dealing with Google Analytics this can be a cumbersome, time consuming and painful process that requires a lot of training and support.
+So on top of installing the analytics, agencies are forced with making the web analytics process simpler for clients to get insights and value from. Working with Google Analytics (especially GA4) is a cumbersome, time consuming and painful process that requires a lot of training and support.  
 
-With Plausible Analytics, we believe we have created a [better and easier solution](https://plausible.io/vs-google-analytics) for certain use cases both for freelancers and agencies, but their clients too.
+With Plausible Analytics, we believe we have created a [better and easier solution](https://plausible.io/vs-google-analytics) that keeps both you and your clients happy.
 
 ## How agencies and freelancers use Plausible with their clients
 
