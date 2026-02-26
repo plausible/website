@@ -153,7 +153,7 @@ You can still drill down into each site when needed, but the consolidated view h
 
 ## More ways Plausible helps your agency
 
-Plausible includes several features that make day-to-day agency work smoother, especially when you are migrating clients, building reports or integrating analytics into your existing stack.
+Plausible includes several features that make day-to-day agency work smoother.
 
 ### Import historical Google Analytics data
 
@@ -161,21 +161,15 @@ If your clients are moving away from Google Analytics, you do not have to lose t
 
 O﻿ur [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data.
 
-### Integrations with tools your clients already use
-
-Plausible connects with popular platforms so you can combine analytics with search and e-commerce insights.
-
-* Google Search Console integration for SEO performance and deeper search performance analysis inside Plausible itself.
-
 ### Support your clients’ SEO with actionable insights
 
-Plausible helps you turn search traffic into practical SEO advice clients can act on. You will find a dedicated Organic Search channel, so you and your clients can instantly see how much traffic comes from search engines. 
+I﻿n the dashboard, you will find a dedicated Organic Search channel, so you and your clients can instantly see how much traffic comes from search engines.
 
 This channel also includes traffic from AI assistants and search tools, giving you a more complete picture of how people discover the site.
 
-With the [Google Search Console integration](https://plausible.io/docs/google-search-console-integration), you can see which queries and pages drive organic visitors alongside engagement and conversion data.
+Y﻿ou can also use the [Google Search Console integration](https://plausible.io/docs/google-search-console-integration) and see which queries and pages drive organic visitors, alongside engagement and conversion data.
 
-You can also f﻿ilter by organic traffic to evaluate SEO performance separately from ads and other channels, helping you demonstrate the impact of your optimization work with clear, easy-to-understand reports.
+You can f﻿ilter by organic traffic to evaluate SEO performance separately from ads and other channels, helping you demonstrate the impact of your optimization work with clear, easy-to-understand reports.
 
 ### Track goals, funnels and conversions without complexity
 
