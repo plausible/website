@@ -160,9 +160,37 @@ O﻿ur [import tool](https://plausible.io/docs/google-analytics-import) automati
 
 Plausible connects with popular platforms so you can combine analytics with search and e-commerce insights.
 
-* [Google Search Console integration](https://plausible.io/docs/google-search-console-integration) for SEO performance and deeper search performance analysis inside Plausible itself.
-* Shopify integration for ecommerce tracking
-* Easy event tracking for conversions and goals
+* Google Search Console integration for SEO performance and deeper search performance analysis inside Plausible itself.
+
+### Support your clients’ SEO with actionable insights
+
+Plausible helps you turn search traffic into practical SEO advice clients can act on. You will find a dedicated Organic Search channel, so you and your clients can instantly see how much traffic comes from search engines. 
+
+This channel also includes traffic from AI assistants and search tools, giving you a more complete picture of how people discover the site.
+
+With the [Google Search Console integration](https://plausible.io/docs/google-search-console-integration), you can see which queries and pages drive organic visitors alongside engagement and conversion data.
+
+You can also f﻿ilter by organic traffic to evaluate SEO performance separately from ads and other channels, helping you demonstrate the impact of your optimization work with clear, easy-to-understand reports.
+
+### Track goals, funnels and conversions without complexity
+
+Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action.
+
+You can define goals and conversions without complicated setup or tagging systems. Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks. While there are custom events for tracking absolutely anything else you need to.
+
+For more advanced analysis, you can build funnels to understand how visitors move through important journeys, such as from landing page to signup to purchase. This helps you identify drop-off points and opportunities to improve conversion rates across client sites.
+
+You can also segment the data by traffic source, campaign, device, country and more to see what is driving results. This makes it easier to answer client questions like which channels bring the highest-quality visitors or which campaigns convert best.
+
+All of this is presented in a clear, privacy-friendly way without invasive tracking or complicated reporting tools, so you get actionable insights without added overhead.
+
+### Measure and optimize ad campaigns
+
+When running paid ads, email marketing or social campaigns, you can track performance using [simple UTM tags](https://plausible.io/blog/utm-tracking-tags) on your links.
+
+This allows you to see exactly which campaigns, creatives and channels drive traffic and conversions, so you can confidently advise clients on where to increase budget and what to cut.
+
+Together, these insights make it easier to deliver actionable recommendations instead of just raw reports, helping you demonstrate the real impact of your marketing work.
 
 ### Build custom reports when needed
 
