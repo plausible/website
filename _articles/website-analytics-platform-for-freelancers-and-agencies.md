@@ -42,6 +42,10 @@ There is no need to host training sessions or explain complicated reports. You w
 
 **[GDPR, CCPA and PECR compliant](https://plausible.io/data-policy)** out of the box. You don't have to worry about cookie consent banners or legal compliances (although it's best to check with your local legal consultants).
 
+Also, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
+
+Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
+
 ## How agencies and freelancers use Plausible with their clients
 
 Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
