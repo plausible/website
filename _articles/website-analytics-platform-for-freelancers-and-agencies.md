@@ -83,23 +83,21 @@ Plausible is designed to fit different ways of working with clients, whether you
 
 ### Easy to implement across all client sites
 
-Plausible Analytics takes only a couple of minutes to install, whether you manage a handful of sites or hundreds of client projects. There is no complex setup, no lengthy configuration and no need to maintain custom tracking scripts.
+S﻿tarting with the very first steps, Plausible Analytics takes only a couple of minutes to install, whether you manage a handful of sites or hundreds of client projects. There is no complex setup, no lengthy configuration and no need to maintain custom tracking scripts.
 
 If you already use common tools in your workflow, Plausible fits right in:
 
-* Add Plausible using **[Google Tag Manager](https://plausible.io/gtm-template)** template if you manage tracking centrally across multiple sites
-* Use the **[WordPress plugin](https://plausible.io/wordpress-analytics-plugin)** if many of your clients run on WordPress
+* Add Plausible using **[Google Tag Manager](https://plausible.io/gtm-template)** template if you manage tracking centrally across multiple sites.
+* Use the **[WordPress plugin](https://plausible.io/wordpress-analytics-plugin)** if many of your clients run on WordPress.
 * Install the simple script directly on custom sites, static sites or any CMS. Check our [installation guides here](https://plausible.io/docs/integration-guides).
 * Works smoothly with modern frameworks and site builders too.
-* If you handle analytics for a large number of clients, Plausible can scale with you. The **[Sites API](https://plausible.io/docs/sites-api)** lets you programmatically add, configure and manage all your client websites from your own systems, without manual setup for each new project.
-
-Because Plausible is lightweight, it will not slow down your clients’ websites. Most common tracking works automatically, and custom events can be added with a single line of code when needed.
+* If you handle analytics for a large number of clients, the **[Sites API](https://plausible.io/docs/sites-api)** lets you programmatically add, configure and manage all your client websites from your own systems, without manual setup for each new project.
 
 If clients manage their own sites, you can simply send them the [instructions](https://plausible.io/docs/register-account) and they can implement it themselves without technical knowledge.
 
 ### Share analytics easily with your clients
 
-Plausible makes it simple to keep clients informed without extra work from your side. You can share insights in the way that suits each client, whether they prefer regular reports in their inbox or direct access to a live dashboard.
+I﻿t's easy to keep your clients informed without extra work from your side. You can share insights in the way that suits each client, whether they prefer regular reports in their inbox or direct access to a live dashboard.
 
 #### Schedule reports that arrive automatically
 
@@ -118,6 +116,12 @@ If clients want to explore their analytics in real time, you can generate a priv
 They do not need an account or password to view it. Anyone with the link can access the stats, and you can optionally protect it with a password for extra security.
 
 You can also share a filtered view, so clients only see a specific segment of the data that is relevant to them.
+
+#### Add clients as external collaborators
+
+You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.
+
+You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
 
 ## One account, multiple teams, multiple sites
 
