@@ -30,45 +30,52 @@ With Plausible Analytics, we believe we have created a [better and easier soluti
 
 P﻿lausible Analytics is *the* original and top alternative to Google Analytics. Unlike complex platforms, Plausible is:
 
-**[V﻿ery easy to use](https://plausible.io/simple-web-analytics)**. All metrics are on one dashboard which is easily comprehensible. You don't have to challenge yourself with complex metrics and twelve layers of menus everytime you login.
+### Strengthens your reputation as a privacy-first agency
 
-Plausible is straightforward and cuts through the noise. Everything your clients need to know is on one single page. They/you can quickly review all the site data and insights instantly and get on with the day.
+P﻿lausible is **[p﻿rivacy-friendly](https://plausible.io/privacy-focused-web-analytics)** by default so there's no headache for figuring things out or hunting settings that will make you privacy-friendly. You plug in Plausible and be assured that the privacy is being taken care of behind-the-scenes so you do not need to worry about extra legal work or intrusive consent banners.
 
-There is no need to host training sessions or explain complicated reports. You will spend less time answering analytics questions and more time doing meaningful work.
+T﻿his also reflects well on your agency. Clients increasingly care about data protection, compliance and ethical technology choices.
 
-**[Lightweight](https://plausible.io/lightweight-web-analytics)**, so your clients will love you for using a script that helps with the site's core web vitals.
+W﻿e're also **[GDPR, CCPA and PECR compliant](https://plausible.io/data-policy)** out of the box. You don't have to worry about cookie consent banners or legal compliances (although it's best to check with your local legal consultants).
 
-**[P﻿rivacy-friendly](https://plausible.io/privacy-focused-web-analytics)** by default so there's no headache for figuring things out or hunting settings that will make you privacy-friendly. You plug in Plausible and be assured that the privacy is being taken care of behind-the-scenes.so you do not need to worry about extra legal work or intrusive consent banners.
+You can confidently position your agency as modern, responsible and privacy-conscious while delivering the insights clients expect.
 
-**[GDPR, CCPA and PECR compliant](https://plausible.io/data-policy)** out of the box. You don't have to worry about cookie consent banners or legal compliances (although it's best to check with your local legal consultants).
+### Saves hours of setup, training and support
 
-Also, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
+Complex analytics platforms require significant time to implement, configure and explain. For agencies managing many clients, that overhead adds up quickly.
 
-Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
+Plausible is **[v﻿ery easy to use](https://plausible.io/simple-web-analytics)**. All metrics are on one dashboard which is easily comprehensible. You don't have to challenge yourself with complex metrics and twelve layers of menus everytime you login.
 
-\-﻿--
+This means:
 
-P﻿asted from before, see how to include in this section:
+* Faster implementation across client sites
+* No need for lengthy onboarding or training sessions
+* Fewer support questions from clients
+* More time for meaningful work
 
-### Plausible Analytics helps you build faster websites
+### Helps you deliver faster, higher-performing websites
 
-The Plausible Analytics script is [much smaller](https://plausible.io/lightweight-web-analytics) than the Google Tag Manager and Analytics script. The page weight of the websites you build for your clients will be cut down and the sites will load faster too.
+Plausible is [lightweight](https://plausible.io/lightweight-web-analytics), so it does not slow down your clients’ sites. This supports better Core Web Vitals and overall performance, which benefits SEO, user experience and conversion rates.
 
-### Plausible Analytics helps you build simpler and more user-friendly sites
+Using a minimal script instead of heavy tracking tools helps you build faster websites without sacrificing analytics.
 
-Plausible does not use cookies and is [fully compliant with GDPR, CCPA, PECR](https://plausible.io/data-policy) and other privacy regulations out of the box. 
+### Makes reporting simple for clients
 
-This means that you and your clients do not need to add [cookie banners](https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
+Because everything is presented clearly on one page, clients can understand their performance at a glance. You do not need to translate complex metrics into plain language or build custom dashboards just to make reports usable.
 
-This makes websites nicer, easier to use and more visitor-friendly.
+This reduces friction in client communication and makes your work easier to demonstrate.
 
-### With Plausible Analytics, you fully own and control your data
+### Gives you full control of client data
 
-With Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
+With Plausible, you and your clients fully own the analytics data. It is not shared with or sold to third parties.
 
-Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
+This builds trust and avoids the concerns many organizations have about data ownership when using ad-funded platforms.
 
-\-﻿--
+### Built for transparency and long-term trust
+
+Plausible Analytics is open source, with an open roadmap and a clear privacy policy. This transparency makes it easier for agencies to recommend it as a long-term solution they can stand behind.
+
+Overall, Plausible helps agencies reduce operational overhead, deliver better client experiences and position themselves as forward-thinking partners rather than just service providers.
 
 ## How agencies and freelancers use Plausible with their clients
 
