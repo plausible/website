@@ -28,20 +28,19 @@ With Plausible Analytics, we believe we have created a [better and easier soluti
 
 P﻿lausible Analytics is *the* original and top alternative to Google Analytics. easier-to-use, privacy-friendly, open-sourced 
 
-P﻿lausible focuses on the essentials. Unlike complex platforms, Plausible is: 
+P﻿lausible focuses on the essentials. Unlike complex platforms, Plausible is:
 
-* [V﻿ery easy to use](https://plausible.io/simple-web-analytics). All metrics are on one dashboard which is easily comprehensible. You don't have to challenge yourself with complex metrics and twelve layers of menus everytime you login.
-* [Lightweight](https://plausible.io/lightweight-web-analytics), so your clients will love you for using a script that helps with the site's core web vitals.
-* [P﻿rivacy-friendly](https://plausible.io/privacy-focused-web-analytics) by default so there's no headache for figuring things out or hunting settings that will make you privacy-friendly. You plug in Plausible and be assured that the privacy is being taken care of behind-the-scenes.so you do not need to worry about extra legal work or intrusive consent banners.
-* [GDPR, CCPA and PECR compliant](https://plausible.io/data-policy) out of the box. You don't have to worry about cookie consent banners or legal compliances (although it's best to check with your local legal consultants).
-
-### Your clients can check their website traffic and site analytics in 1 minute
+**[V﻿ery easy to use](https://plausible.io/simple-web-analytics)**. All metrics are on one dashboard which is easily comprehensible. You don't have to challenge yourself with complex metrics and twelve layers of menus everytime you login.
 
 Plausible Analytics is straightforward and cuts through the noise that more complex tools create. Everything your clients need to know is on one single page. They can quickly review all their website data and insights in about a minute and get on with their work.
 
-### No training, education or responding to questions is necessary
+There is no need to host training sessions or explain complicated reports. You will spend less time answering analytics questions and more time doing meaningful work.
 
-Your clients will intuitively understand the metrics on the dashboard. There is no need to host training sessions or explain complicated reports. You will spend less time answering analytics questions and more time doing meaningful work.
+**[Lightweight](https://plausible.io/lightweight-web-analytics)**, so your clients will love you for using a script that helps with the site's core web vitals.
+
+**[P﻿rivacy-friendly](https://plausible.io/privacy-focused-web-analytics)** by default so there's no headache for figuring things out or hunting settings that will make you privacy-friendly. You plug in Plausible and be assured that the privacy is being taken care of behind-the-scenes.so you do not need to worry about extra legal work or intrusive consent banners.
+
+**[GDPR, CCPA and PECR compliant](https://plausible.io/data-policy)** out of the box. You don't have to worry about cookie consent banners or legal compliances (although it's best to check with your local legal consultants).
 
 ## How agencies and freelancers use Plausible with their clients
 
