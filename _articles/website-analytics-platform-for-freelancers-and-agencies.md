@@ -14,7 +14,7 @@ T﻿he same features a﻿nd capabilities are very useful for freelancers and ﻿
 ![Google Analytics alternative for agencies, freelancers and consultants](/uploads/plausible-freelancers-agencies.png "Google Analytics alternative for agencies, freelancers and consultants")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## The problem with Google Analytics
 
@@ -81,9 +81,9 @@ Overall, Plausible helps agencies reduce operational overhead, deliver better cl
 
 Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
 
-### Easy to implement across all client sites
+### Implement easily across all client sites
 
-S﻿tarting with the very first steps, Plausible Analytics takes only a couple of minutes to install, whether you manage a handful of sites or hundreds of client projects. There is no complex setup, no lengthy configuration and no need to maintain custom tracking scripts.
+S﻿tarting with the first steps, Plausible Analytics takes only a couple of minutes to install, whether you manage a handful of sites or hundreds of client projects. There is no complex setup, no lengthy configuration and no need to maintain custom tracking scripts.
 
 If you already use common tools in your workflow, Plausible fits right in: 
 
@@ -97,7 +97,7 @@ If clients manage their own sites, you can simply send them the [instructions](h
 
 ### Share analytics easily with your clients
 
-Y﻿ou can easily keep your clients informed without extra work from your side. You can share insights in the way that suits each client, whether they prefer regular reports in their inbox or direct access to a live dashboard.
+Y﻿ou can easily keep your clients informed without extra work from your side. You can share insights in the way that suits each client.
 
 #### Schedule reports that arrive automatically
 
@@ -119,9 +119,7 @@ You can also share a filtered view, so clients only see a specific segment of th
 
 #### Add clients as external collaborators
 
-You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.
-
-You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
+You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators. You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
 
 ## One account, multiple teams, multiple sites
 
@@ -144,7 +142,7 @@ Agencies structure analytics ownership in different ways depending on who pays, 
 
 Plausible supports all of these scenarios. You can structure your clients using three practical models:
 
-#### A: One team per client (client-owned analytics)
+#### One team per client (client-owned analytics)
 
 Each team can have its own members, sites, permissions and subscription, so the right people have access to the right data and billing is handled by the appropriate owner. This makes it easy to separate internal projects, SaaS properties and client accounts while keeping everything under one umbrella.
 
@@ -152,7 +150,7 @@ Each team can have its own members, sites, permissions and subscription, so the 
 * Client can own billing
 * Easy to transfer ownership later
 
-#### B: One agency team with many client sites (agency-owned analytics)
+#### One agency team with many client sites (agency-owned analytics)
 
 * Agency pays
 * Agency controls access
@@ -161,11 +159,11 @@ Each team can have its own members, sites, permissions and subscription, so the 
 
 Learn more about [teams and access control](https://plausible.io/docs/users-roles). 
 
-#### C: Transfer site ownership to your client (handoff model)
+#### Transfer site ownership to your client (handoff model)
 
 If needed, you can **[transfer ownership](https://plausible.io/docs/transfer-ownership)** of a site to your client once the project or analytics setup is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
 
-Also, most agencies use a mix of these models depending on the client relationship, contract structure and whether analytics is part of ongoing services. Any permutation and combination is possible!
+Also, **most agencies use a mix of these models** depending on the client relationship, contract structure and whether analytics is part of ongoing services. Any permutation and combination is possible!
 
 ### Get a consolidated view across all sites
 
@@ -229,7 +227,7 @@ Use the [Looker Studio connector](https://plausible.io/docs/looker-studio) to bu
 
 ### White-label analytics for your own brand
 
-If you want analytics to feel like part of your agency’s offering, e﻿xplore our [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients.
+If you want analytics to feel like part of your agency’s offering, e﻿xplore our [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients. This also adds to your marketability.
 
 ## See a live Plausible Analytics dashboard in action
 
