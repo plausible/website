@@ -133,24 +133,26 @@ You can add as many clients' websites as you want, under a single Plausible Anal
 
 Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
 
-### Clear ownership, billing and control
+### Choose the ownership model that fits your agency
 
-Agencies often need:
+Agencies structure analytics ownership in different ways depending on who pays, who manages clients and how long projects last.
 
-* Agency owns analytics
-* Client owns analytics
-* Transfer later
-* Mixed billing setups
+* Sometimes the agency owns and manages analytics
+* Sometimes the client owns it directly
+* Sometimes ownership is transferred after the project
+* Sometimes billing differs across clients
 
-Plausible supports all of these. You can structure clients in two main ways:
+Plausible supports all of these scenarios. You can structure your clients using three practical models:
 
-**A: One team per client:** Each team can have its own members, sites, permissions and subscription, so the right people have access to the right data and billing is handled by the appropriate owner. This makes it easy to separate internal projects, SaaS properties and client accounts while keeping everything under one umbrella.
+#### A: One team per client (client-owned analytics)
+
+Each team can have its own members, sites, permissions and subscription, so the right people have access to the right data and billing is handled by the appropriate owner. This makes it easy to separate internal projects, SaaS properties and client accounts while keeping everything under one umbrella.
 
 * Clean separation
 * Client can own billing
 * Easy to transfer ownership later
 
-**B: One agency team with many client sites**
+#### B: One agency team with many client sites (agency-owned analytics)
 
 * Agency pays
 * Agency controls access
@@ -159,7 +161,11 @@ Plausible supports all of these. You can structure clients in two main ways:
 
 Learn more about [teams and access control](https://plausible.io/docs/users-roles). 
 
-If needed, you can **[transfer ownership](https://plausible.io/docs/transfer-ownership)** of a site to your client once the project is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
+#### C: Transfer site ownership to your client (handoff model)
+
+If needed, you can **[transfer ownership](https://plausible.io/docs/transfer-ownership)** of a site to your client once the project or analytics setup is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
+
+Also, most agencies use a mix of these models depending on the client relationship, contract structure and whether analytics is part of ongoing services. Any permutation and combination is possible!
 
 ### Get a consolidated view across all sites
 
