@@ -1,117 +1,237 @@
 ---
 layout: article
-title: Website analytics platform for freelancers and agencies
-description: With Plausible Analytics, we believe we have created a better and
-  easier website analytics solution for certain use cases both for freelancers
-  and agencies, but their clients too.
+title: Simple, powerful and privacy-first website analytics for Agencies (and
+  freelancers)
+description: Plausible Analytics is a simple, privacy-friendly website analytics
+  platform for agencies and freelancers to manage client sites and deliver clear
+  reports.
 permalink: /for-freelancers-agencies
 ---
-One of the use cases [Plausible Analytics](https://plausible.io/) was specifically designed for are the freelancers and agencies who work with clients developing their websites, communication and marketing practices.
+P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies or anybody working on a client's site to provide website analytics. The Plausible dashboard is very easy to understand, GDPR-compliant, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on sites.
 
-A regular task when working on a website for a client is to install some kind of website statistics and reporting solution. And Google Analytics is the most popular web analytics solution.
+T﻿he same features a﻿nd capabilities are very useful for freelancers and ﻿consultants too for providing website analytics to their clients.
 
-![Website analytics platform for freelancers and agencies](/uploads/plausible-freelancers-agencies.png "Website analytics platform for freelancers and agencies")
+![Google Analytics alternative for agencies, freelancers and consultants](/uploads/plausible-freelancers-agencies.png "Google Analytics alternative for agencies, freelancers and consultants")
 
 1. Ordered list
 {:toc}
 
-## The problem with Google Analytics for freelancers and agencies
+## The problem with Google Analytics
 
-[The problem with Google Analytics](https://plausible.io/blog/remove-google-analytics) is that it tracks way too many data points and is overkill for the majority of clients. This makes Google Analytics difficult to understand for the majority of non-technical users who are unfamiliar with it and who may be intimidated by having access to hundreds of different reports and metrics.
+G﻿oogle Analytics is the staple for tracking web performance data but comes with a lot of baggage. The complexity of setup and reporting is a major issue for most, especially after the coming of GA4. It's also not privacy-friendly and is blocked by a majority of web causing a lot of data to be missing from its reports.
 
-So on top of installing the analytics, agencies and freelancers are tasked with making the web analytics process simpler for clients to get insights and value from. But when dealing with Google Analytics this can be a cumbersome, time consuming and painful process that requires a lot of training and support.
+[The problem with Google Analytics](https://plausible.io/blog/remove-google-analytics) is that it tracks way too many data points and is overkill for the majority of clients. This makes it difficult to understand for the majority of new or non-technical users who are unfamiliar with it and who may be intimidated by having access to hundreds of different reports and metrics.
 
-With Plausible Analytics, we believe we have created a [better and easier solution](https://plausible.io/vs-google-analytics) for certain use cases both for freelancers and agencies, but their clients too.
+So on top of installing the analytics, agencies are forced with making the web analytics process simpler for clients to get insights and value from. Working with GA is a cumbersome, time consuming and painful process that requires a lot of training and support.
 
-## What makes Plausible Analytics a great web analytics platform for freelancers and agencies?
+With Plausible Analytics, we have created a [better and easier solution](https://plausible.io/vs-google-analytics) that keeps both you and your clients happy.
 
-Here's a look at the features and the workflow of Plausible Analytics that makes your life as someone who works with clients easier:
+## What exactly is Plausible Analytics and why agencies love us?
 
-### Schedule weekly and/or monthly email reports with all the data included
+P﻿lausible Analytics is *the* original and [top alternative to Google Analytics](https://plausible.io/vs-google-analytics). Plausible is simple, privacy-first, accurate and powerful, and many things. But here's why that matters for your agency:
 
-![Plausible email reports](/uploads/plausible-email-reports.png "Plausible email reports")
+### Strengthens your reputation as a privacy-first agency
 
-Most clients prefer to get their reports directly into their inbox and Plausible Analytics makes that process simple. Email reports can be sent to multiple recipients and can be scheduled on a weekly (every Monday) and/or monthly basis (every 1st of the month). 
+P﻿lausible is **[p﻿rivacy-friendly](https://plausible.io/privacy-focused-web-analytics)** by default so there's no headache for figuring things out or hunting settings that will make you privacy-friendly. You plug in Plausible and be assured that the privacy is being taken care of behind-the-scenes so you do not need to worry about extra legal work or intrusive consent banners.
 
-All the stats are embedded directly in the email and there's no need for your client to go to any website. There are no attachments, no PDFs and no links to click on. No friction either. 
+T﻿his also reflects well on your agency. Clients increasingly care about data protection, compliance and ethical technology choices.
 
-### Reports are automated, there's no longer a need to build custom dashboards
+W﻿e're also **[GDPR, CCPA and PECR compliant](https://plausible.io/data-policy)** out of the box. You don't have to worry about cookie consent banners or legal compliances (although it's best to check with your local legal consultants).
 
-Plausible Analytics is [built with simplicity](https://plausible.io/simple-web-analytics) in mind. There are no layers of menus, there is no need for you to build custom reports, custom dashboards or PowerPoint documents. 
+You can confidently position your agency as modern, responsible and privacy-conscious while delivering the insights clients expect.
 
-Your clients can get all the important insights from their website traffic on one single automated page or via one single automated email. You don't need to worry about creating custom reports to help them understand what they need to know.
+### Saves hours of setup, training and support
 
-### Share the stats privately and securely with your clients without the need for accounts and passwords
+Complex analytics platforms require significant time to implement, configure and explain. For agencies managing many clients, that overhead adds up quickly.
 
-You can share the Plausible Analytics website dashboard to your clients privately and securely by generating a [unique shared link](https://plausible.io/docs/shared-links). This link is impossible to guess so only people you send it to will have access to it. 
+Plausible is **[v﻿ery easy to use](https://plausible.io/simple-web-analytics)**. All metrics are on one dashboard which is easily comprehensible. You don't have to challenge yourself with complex metrics and twelve layers of menus everytime you login.
 
-Your clients do not need to log in, there's no need for accounts and passwords either. But you do have the option to add password protection for extra security.
+This means:
 
-### Your clients can check their website traffic and site analytics in 1 minute
+* Faster implementation across client sites
+* No need for lengthy onboarding or training sessions
+* Fewer support questions from clients
+* More time for meaningful work
 
-Plausible Analytics is straightforward, simple and it cuts through the noise that more complex analytics providers create. Everything your clients need to know is on one single page. 
+### Helps you deliver faster, higher-performing websites
 
-They can quickly review all their website data and insights in 1 minute and get on with their work.
+Plausible is [lightweight](https://plausible.io/lightweight-web-analytics), so it does not slow down your clients’ sites. This supports better Core Web Vitals and overall performance, which benefits SEO, user experience and conversion rates.
 
-### No training, education or responding to questions is necessary
+Using a minimal script instead of heavy tracking tools helps you build faster websites without sacrificing analytics.
 
-Your clients will intuitively understand the metrics that Plausible Analytics provides on the dashboard. You won't need to host training sessions to explain to them how they can read their analytics. You won't need to support them and answer questions around the use of analytics either. 
+### Makes reporting simple for clients
 
-### Plausible Analytics helps you build faster websites
+Because everything is presented clearly on one page, clients can understand their performance at a glance. You do not need to translate complex metrics into plain language or build custom dashboards just to make reports usable.
 
-The Plausible Analytics script is [much smaller](https://plausible.io/lightweight-web-analytics) than the Google Tag Manager and Analytics script. The page weight of the websites you build for your clients will be cut down and the sites will load faster too.
+This reduces friction in client communication and makes your work easier to demonstrate.
 
-### Plausible Analytics helps you build simpler and more user-friendly sites
+### Gives you full control of client data
 
-Plausible does not use cookies and is [fully compliant with GDPR, CCPA, PECR](https://plausible.io/data-policy) and other privacy regulations out of the box. 
+With Plausible, you and your clients fully own the analytics data. It is not shared with or sold to third parties.
 
-This means that you and your clients do not need to add [cookie banners](https://plausible.io/blog/cookie-consent-banners) and do not need to get GDPR or CCPA consent either. You don't need to worry about adding anything to your privacy policy around the use of analytics either. 
+This builds trust and avoids the concerns many organizations have about data ownership when using ad-funded platforms.
 
-This makes websites nicer, easier to use and more visitor-friendly.
+### Built for transparency and long-term trust
 
-### With Plausible Analytics, you fully own and control your data
+Plausible Analytics is open source, with an open roadmap and a clear privacy policy. This transparency makes it easier for agencies to recommend it as a long-term solution they can stand behind.
 
-With Plausible Analytics, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties. 
+Overall, Plausible helps agencies reduce operational overhead, deliver better client experiences and position themselves as forward-thinking partners rather than just service providers.
 
-Plausible Analytics is an [open source product](https://plausible.io/open-source-website-analytics), with an open roadmap and an easy to understand privacy policy.
+## How to use Plausible as an agency?
 
-### You can use one Plausible Analytics account for all your clients
+Plausible is designed to fit different ways of working with clients, whether you manage analytics on their behalf or give them direct access.
 
-You can add as many clients' websites as you want, under a single Plausible Analytics account. All the stats are accessible with easy switches on our simple dashboard.
+### Implement easily across all client sites
+
+S﻿tarting with the first steps, Plausible Analytics takes only a couple of minutes to install, whether you manage a handful of sites or hundreds of client projects. There is no complex setup, no lengthy configuration and no need to maintain custom tracking scripts.
+
+If you already use common tools in your workflow, Plausible fits right in: 
+
+* You can optionally setup Plausible using **[Google Tag Manager](https://plausible.io/gtm-template)** template if you manage tracking centrally across multiple sites.
+* Use the **[WordPress plugin](https://plausible.io/wordpress-analytics-plugin)** if many of your clients run on WordPress.
+* Install the simple script directly on custom sites, static sites or any CMS. Check our [installation guides here](https://plausible.io/docs/integration-guides).
+* Works smoothly with modern frameworks and site builders too.
+* If you handle analytics for a large number of clients, the **[Sites API](https://plausible.io/docs/sites-api)** lets you programmatically add, configure and manage all your client websites from your own systems, without manual setup for each new project.
+
+If clients manage their own sites, you can simply send them the [instructions](https://plausible.io/docs/register-account) and they can implement it themselves without technical knowledge.
+
+### Share analytics easily with your clients
+
+Y﻿ou can easily keep your clients informed without extra work from your side. You can share insights in the way that suits each client.
+
+#### Schedule reports that arrive automatically
+
+![Plausible email reports](/uploads/email-reports.webp "Plausible email reports")
+
+You can set up weekly (every Monday) and/or monthly (every 1st of the month) [email reports](https://plausible.io/docs/email-reports) that include all the important stats. The data is embedded directly in the email, so clients can review their performance instantly without logging in, downloading files or clicking through multiple links.
+
+There are no attachments, no PDFs and no custom report building. Just clear, ready-to-read insights delivered on a schedule. Reports can be sent to multiple recipients, which is helpful when several stakeholders want to stay updated.
+
+Y﻿ou can also setup [traffic spike notifications](https://plausible.io/docs/traffic-spikes).
+
+#### Share the live dashboard with a secure link
+
+If clients want to explore their analytics in real time, you can generate a private [shared link](https://plausible.io/docs/shared-links) to the dashboard.
+
+They do not need an account or password to view it. Anyone with the link can access the stats, and you can optionally protect it with a password for extra security.
+
+You can also share a filtered view, so clients only see a specific segment of the data that is relevant to them.
+
+#### Add clients as external collaborators
+
+You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators. You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
+
+## One account, multiple teams, multiple sites
+
+Plausible Analytics is designed to work the way agencies and freelancers actually operate. You can manage all your own properties, SaaS projects and client websites from a single account while keeping everything organized and properly separated.
+
+You can add as many clients' websites as you want, under a single Plausible Analytics account and subscription. All the stats are accessible with easy switches on our simple dashboard.
+
+![switch between sites on plausible analytics](/uploads/plausible-all-sites.png "switch between sites on plausible analytics")
 
 Do note that while specific subscription plans have designated site limits, we can accommodate any number of sites you may need with our custom plans. See more on [our pricing page](https://plausible.io/#pricing).
 
-### You can have a holistic view of your whole network in one dashboard
+### Choose the ownership model that fits your agency
 
-Plausible Analytics rollup reporting allows you to aggregate stats from all your clients' sites and see them in one combined dashboard while keeping the individual site stats on their own separate dashboards too. 
+Agencies structure analytics ownership in different ways depending on who pays, who manages clients and how long projects last.
 
-This allows you to get a holistic view of your whole network in one dashboard for your internal purposes but also share the traffic from individual clients' sites with the particular client only.
+* Sometimes the agency owns and manages analytics
+* Sometimes the client owns it directly
+* Sometimes ownership is transferred after the project
+* Sometimes billing differs across clients
 
-See [how rollup reporting works](https://plausible.io/docs/plausible-script#is-there-a-roll-up-view).
+Plausible supports all of these scenarios. You can structure your clients using three practical models:
 
-### Invite team members and collaborate
+#### One team per client (client-owned analytics)
 
-Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
+Each team can have its own members, sites, permissions and subscription, so the right people have access to the right data and billing is handled by the appropriate owner. This makes it easy to separate internal projects, SaaS properties and client accounts while keeping everything under one umbrella.
 
-You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.  
+* Clean separation
+* Client can own billing
+* Easy to transfer ownership later
 
-You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
+#### One agency team with many client sites (agency-owned analytics)
 
-### Transfer the ownership of a site to your client
+* Agency pays
+* Agency controls access
+* Simpler for internal management
+* Requires careful permissions
 
-With Plausible, you can set up a site, custom events and make sure everything works correctly before transferring the ownership of that site to your client. 
+Learn more about [teams and access control](https://plausible.io/docs/users-roles). 
 
-Then, your client, as a new owner of the site, will be responsible for billing and other day-to-day operations. You can still keep access to the stats dashboard and site settings. 
+#### Transfer site ownership to your client (handoff model)
 
-Learn how to [transfer the ownership of a site](https://plausible.io/docs/transfer-ownership).
+If needed, you can **[transfer ownership](https://plausible.io/docs/transfer-ownership)** of a site to your client once the project or analytics setup is complete. They take over billing and administration, while you can still keep access to the stats and settings if you want.
 
-### You can also import historical Google Analytics stats
+Also, **most agencies use a mix of these models** depending on the client relationship, contract structure and whether analytics is part of ongoing services. Any permutation and combination is possible!
 
-We’ve put a lot of effort into making a Google Analytics stats import tool. It allows you to import multiple Google Analytics properties into to the same Plausible dashboard. And it automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data. See [how to import historical GA stats into Plausible](https://plausible.io/docs/google-analytics-import).
+### Get a consolidated view across all sites
 
-### Do you want to see a live demo of Plausible Analytics website analytics dashboard?
+You can view the performance of your entire portfolio in one place. [Consolidated view](https://plausible.io/docs/consolidated-views) lets you combine traffic and insights from multiple sites into a single dashboard while keeping each individual site separate.
 
-This is actually another interesting feature of Plausible Analytics. Your website stats dashboard is private by default but you can choose to be transparent and make it public so anyone with your custom link can view the dashboard too. 
+This is useful for agencies that want a high-level overview of all client activity, your own properties and SaaS projects without switching between dashboards.
+
+You can still drill down into each site when needed, but the consolidated view helps you quickly understand overall trends, spot changes and monitor performance across your whole network at a glance.
+
+A﻿ll in all, Plausible enables:
+
+* Multiple sites per team
+* Multiple teams per account
+* Portfolio views
+
+GA, on the other hand, often becomes chaotic with dozens of properties.
+
+## More ways Plausible helps your agency
+
+Plausible includes several features that make day-to-day agency work smoother.
+
+### Import historical Google Analytics data
+
+If your clients are moving away from Google Analytics, you do not have to lose their historical data! You can import past stats so trends, seasonality and year-over-year comparisons remain intact inside Plausible.
+
+O﻿ur [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting of periods and to avoid any gaps in your data.
+
+### Support your clients’ SEO with actionable insights
+
+I﻿n the dashboard, you will find a dedicated Organic Search channel, so you can instantly see how much traffic comes from search engines.
+
+This channel also includes traffic from AI assistants and search tools, giving you a more complete picture of how people discover the site.
+
+Y﻿ou can also use the [Google Search Console integration](https://plausible.io/docs/google-search-console-integration) and see which queries and pages drive organic visitors, alongside engagement and conversion data.
+
+You can f﻿ilter by organic traffic to evaluate SEO performance separately from ads and other channels, helping you demonstrate the impact of your optimization work with clear, easy-to-understand reports.
+
+### Track goals, funnels and conversions without complexity
+
+Plausible makes it easy to measure what actually matters to your clients: purchases, signups, downloads or any other key action. You can also track [revenue-goals](https://plausible.io/docs/ecommerce-revenue-tracking), or attach [custom properties](https://plausible.io/docs/custom-props/introduction) for having custom metrics.
+
+Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks and without working with code. While there are custom events for tracking absolutely anything else you need to.
+
+F﻿ind the overview and more details [here](https://plausible.io/blog/funnels-conversion-optimization).
+
+For more advanced analysis, you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) to understand how visitors move through important journeys, such as from landing page to signup to purchase. This helps you identify drop-off points and opportunities to improve conversion rates across client sites.
+
+You can also segment the data by traffic source, campaign, device, country and more to see what is driving results. This makes it easier to answer client questions like which channels bring the highest-quality visitors or which campaigns convert best.
+
+### Measure and optimize ad campaigns
+
+When running paid ads, email marketing or social campaigns, you can track performance using [simple UTM tags](https://plausible.io/blog/utm-tracking-tags) on your links.
+
+This allows you to see exactly which campaigns, creatives and channels drive traffic and conversions, so you can confidently advise clients on where to increase budget and what to cut.
+
+### Build custom reports when needed
+
+While most clients are happy with the built-in dashboard and automated emails, you can also create tailored reports for advanced use cases.
+
+Use the [Looker Studio connector](https://plausible.io/docs/looker-studio) to build custom dashboards that combine Plausible data with other sources for internal reporting or client presentations.
+
+### White-label analytics for your own brand
+
+If you want analytics to feel like part of your agency’s offering, e﻿xplore our [white-label options](https://plausible.io/white-label-web-analytics). You can present dashboards and reports under your own brand, creating a seamless experience for clients. This also adds to your marketability.
+
+## See a live Plausible Analytics dashboard in action
+
+This is actually another interesting feature of Plausible Analytics. Your website stats dashboard is private by default but you can choose to be transparent and make it public so anyone with your custom link can view the dashboard too.
 
 This live stats link can then be displayed in your footer, in your emails, in your presentation or wherever else you wish to share your stats.
 
