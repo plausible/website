@@ -7,7 +7,7 @@ description: Plausible Analytics is a simple, privacy-friendly website analytics
   reports.
 permalink: /for-freelancers-agencies
 ---
-P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies or anybody working on a client's site to provide website analytics. The Plausible dashboard is very easy to understand, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on sites.
+P﻿lausible Analytics is a great way for marketing agencies, website/app development agencies or anybody working on a client's site to provide website analytics. The Plausible dashboard is very easy to understand, GDPR-compliant, easy to share with your clients, manage team access, and just takes a couple of minutes to implement on sites.
 
 T﻿he same features a﻿nd capabilities are very useful for freelancers and ﻿consultants too for providing website analytics to their clients.
 
