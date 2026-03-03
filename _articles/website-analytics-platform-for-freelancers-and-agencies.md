@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Simple, powerful and privacy-first website analytics for Agencies (and
+title: Easy, powerful and privacy-first website analytics for Agencies (and
   freelancers)
 description: Plausible Analytics is a simple, privacy-friendly website analytics
   platform for agencies and freelancers to manage client sites and deliver clear
