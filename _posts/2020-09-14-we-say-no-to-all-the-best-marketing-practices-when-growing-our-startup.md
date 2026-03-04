@@ -92,10 +92,6 @@ We don't send you the latest tips, advice, news and other messages to try and ke
 
 You can always follow us on social media if you want all the latest updates and other community engagement. We're active on [Twitter](https://twitter.com/plausiblehq) and [Mastodon](https://fosstodon.org/@plausible).
 
-## We don't use a chatbot or an AI-tool to engage and convert you
-
-There are no live chats popups and chatbots on our website. You can [reach out to us via email](https://plausible.io/contact) but you'll have to speak to one of us rather than our AI robot. Sorry for the inconvenience.
-
 ## We don't ask you to join yet another webinar to learn some secrets
 
 We don't do any "free" webinars or other courses where the idea is to give you just a little bit of information while trying to upsell you something else.
