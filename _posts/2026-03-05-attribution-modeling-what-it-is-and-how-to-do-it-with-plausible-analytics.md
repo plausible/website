@@ -16,7 +16,7 @@ There are multiple ways of doing this, i.e., various models for assigning weight
 
 But eventually, it’s about key business questions and informing marketing, sales, product, finance teams, etc., about budget decisions, campaign strategy, and even product direction.
 
-1. Ordered list  
+1. Ordered list
 {:toc}
 
 ## What is attribution modeling in marketing?
@@ -27,11 +27,14 @@ Attribution modeling is simply assigning credit to different interactions (touch
 
 There are largely two models:
 
-* **Single-touch**
+#### Single-touch
 
-  * **First-touch:** All credit goes to the first interaction in the buyer’s journey that introduced someone to your offering/brand. It is usually useful for understanding high-level awareness drivers. Like, ads or social media content that get people to discover you).
-  * **Last-touch (last-click):** All credit goes to the interaction right before conversion. Useful for understanding what closed the deal. Like, somebody visiting the product page on your ecommerce store directly for purchasing.
-* **Multi-touch:** Credit is shared across multiple interactions. This can be evenly shared, weighted by position, or determined by a more data-driven algorithm. There are several sub-models in this type.
+* **First-touch:** All credit goes to the first interaction in the buyer’s journey that introduced someone to your offering/brand. It is usually useful for understanding high-level awareness drivers. Like, ads or social media content that get people to discover you).
+* **Last-touch (last-click):** All credit goes to the interaction right before conversion. Useful for understanding what closed the deal. Like, somebody visiting the product page on your ecommerce store directly for purchasing.
+
+#### Multi-touch
+
+Credit is shared across multiple interactions. This can be evenly shared, weighted by position, or determined by a more data-driven algorithm. There are several sub-models in this type.
 
 Each model has a purpose and a context where it’s most relevant. Which one a business uses depends on what questions they want answered.
 
@@ -84,7 +87,7 @@ Plausible Analytics (we) is a [lightweight](https://plausible.io/lightweight-web
 
 Since we’re privacy-first, most privacy-friendly browsers and adblockers don’t block our script, which is why our stats are much more [accurate](https://plausible.io/most-accurate-web-analytics) than other tracking tools.
 
-This also means we **don’t need to rely on modeled data**, nor try to reconstruct complex user journeys. Everything you see on the dashboard is 100% real data. 
+This also means **we** **don’t need to rely on modeled data**, nor try to reconstruct complex user journeys. Everything you see on the dashboard is 100% real data. 
 
 ### How Plausible collects and presents data
 
