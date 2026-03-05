@@ -7,12 +7,17 @@ description: Learn what attribution modeling is and how to apply it using
 slug: attribution-modeling
 date: 2026-03-05T11:38:13.415Z
 author: hricha-shandily
+image: /uploads/attribution-modeling.png
+image-alt: attribution modeling with privacy-friendly web analytics tool
 ---
 Attribution modeling is how marketing teams decide where growth really comes from. In other words, it’s about attributing the touchpoints (specific channels, campaigns, ads, etc.) that led someone to take a desired action (like purchase, sign up, etc.) in your business.
 
 There are multiple ways of doing this, i.e., various models for assigning weightage to different touchpoints and it depends on how deep you want to go into this analysis and what suits your business.
 
 But eventually, it’s about key business questions and informing marketing, sales, product, finance teams, etc., about budget decisions, campaign strategy, and even product direction.
+
+1. Ordered list  
+{:toc}
 
 ## What is attribution modeling in marketing?
 
