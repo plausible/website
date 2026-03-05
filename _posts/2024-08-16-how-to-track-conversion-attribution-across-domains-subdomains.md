@@ -70,7 +70,7 @@ In Plausible, this is easily doable with either [pageview goals](https://plausib
 
 ### Utilize the dashboard appropriately
 
-To actually “attribute” the conversions, you would need to filter your dashboard by this conversion (goal) itself and maybe, by the referrer source for a more in-depth analysis. For example, doing this for our own [live dashboard](https://plausible.io/plausible.io) produces the following result:
+To actually “[attribute](https://plausible.io/blog/attribution-modeling)” the conversions, you would need to filter your dashboard by this conversion (goal) itself and maybe, by the referrer source for a more in-depth analysis. For example, doing this for our own [live dashboard](https://plausible.io/plausible.io) produces the following result:
 
 ![segment of the traffic from a particular source that converted](/uploads/filtered-plausible-dashboard.png "segment of the traffic from a particular source that converted")
 
