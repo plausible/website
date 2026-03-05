@@ -33,7 +33,7 @@ There are largely two models:
   * **Last-touch (last-click):** All credit goes to the interaction right before conversion. Useful for understanding what closed the deal. Like, somebody visiting the product page on your ecommerce store directly for purchasing.
 * **Multi-touch:** Credit is shared across multiple interactions. This can be evenly shared, weighted by position, or determined by a more data-driven algorithm. There are several sub-models in this type.
 
-Each model has a purpose and a context where it’s most relevant. Which one a business uses depends on what question they want answered.
+Each model has a purpose and a context where it’s most relevant. Which one a business uses depends on what questions they want answered.
 
 But eventually, the goal is to answer relevant business questions like where to allocate budget, which campaign to stop, which to keep running, etc.
 
@@ -246,4 +246,4 @@ For teams that require deeper modeling, Plausible data can be exported and layer
 
 Attribution modeling does not have to be complicated to be useful. Many teams make meaningful decisions about budget allocation, content strategy, paid campaigns, and website optimization using the framework given above.
 
-New here? Learn more [about us](https://plausible.io/). And [start your free trial here](https://plausible.io/register) (no CC needed).
+New here? Learn more [about us](https://plausible.io/). And **[start your free trial here](https://plausible.io/register)** (no CC needed).
