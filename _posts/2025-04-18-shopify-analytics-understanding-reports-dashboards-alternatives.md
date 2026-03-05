@@ -195,7 +195,7 @@ Shopify Analytics tool is only for your Shopify online store. Also, if you ever 
 
 **Attribution and marketing analytics** 
 
-GA4’s integration into the Google Marketing ecosystem (Ads, Search Console, etc.) means you get a more complete marketing picture. Shopify’s marketing attribution is improving, but GA4 is still more flexible and detailed on this front.
+GA4’s integration into the Google Marketing ecosystem (Ads, Search Console, etc.) means you get a more complete marketing picture. Shopify’s [marketing attribution](https://plausible.io/blog/attribution-modeling) is improving, but GA4 is still more flexible and detailed on this front.
 
 If you want to know not just the last click, but the full path (first touch vs last touch contributions), GA4’s reports or BigQuery data can help.
 
