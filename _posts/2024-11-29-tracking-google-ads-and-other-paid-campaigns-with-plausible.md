@@ -160,7 +160,7 @@ We also do not utilize or generate any cookies or persistent identifiers. We gen
 
 ### Importing Plausible goals into Google Ads
 
-With Plausible, you can easily track pageview and custom [goals](https://plausible.io/docs/goal-conversions), including revenue tracking and attribute them back to your paid campaigns using UTM parameters as explained above.
+With Plausible, you can easily track pageview and custom [goals](https://plausible.io/docs/goal-conversions), including revenue tracking and [attribute them](https://plausible.io/blog/attribution-modeling) back to your paid campaigns using UTM parameters as explained above.
 
 But if you want to import this goals/conversion data into Google Ads, it is unfortunately not possible currently. Even though we provide the options to export all your stats in a [CSV](https://plausible.io/docs/export-stats) and through our [Stats API](https://plausible.io/docs/stats-api), whatever data you export stays privacy-friendly and aggregated.
 
