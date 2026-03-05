@@ -191,7 +191,7 @@ They do this to cover the data gaps stemming from rejected cookie banners, brows
 
 You cannot differentiate modeled data from your regular data.
 
-Moreover, the conversion numbers you see aren't always final. It takes up to 12 days for conversion data to process and stabilize after each conversion is initially recorded. Why? Because GA4 is also feeding this data into attribution models (for example, to determine which channels contribute most to conversions).
+Moreover, the conversion numbers you see aren't always final. It takes up to 12 days for conversion data to process and stabilize after each conversion is initially recorded. Why? Because GA4 is also feeding this data into [attribution models](https://plausible.io/blog/attribution-modeling) (for example, to determine which channels contribute most to conversions).
 
 So, that’s another reason that much of your GA stats are actually just estimated numbers. Here's a [full breakdown](https://plausible.io/blog/consent-mode-ga4-modeled-data).
 
