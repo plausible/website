@@ -42,13 +42,13 @@ For most marketing teams, this covers day to day needs. And, you will find:
 * [No need for privacy banners](https://plausible.io/blog/cookie-consent-banners#but-can-you-avoid-the-cookie-consent-banners) or consent popups
 * Fully transparent data collection
 * M﻿uch [more accurate](https://plausible.io/most-accurate-web-analytics) data than GA4, about
+* [A﻿ttribution models](https://plausible.io/blog/attribution-modeling)
 
 As we are a private-by-design tool, you will not find:
 
 * User-level reports
 * Identity stitched user journeys
 * GA-style retention or cohorts
-* Detailed attribution models
 * Ability to run Retargeting campaigns
 
 ## Getting up and running (fast)
