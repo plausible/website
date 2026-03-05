@@ -125,6 +125,8 @@ Tip: You can also filter your dashboard by specific regions or devices/browsers 
 
 The Top Sources area is your most essential area for attribution.
 
+![last-touch-attribution-in-plausible-analytics](/uploads/channels.png "last-touch-attribution-in-plausible-analytics")
+
 Here you can analyze:
 
 * Which [channels](https://plausible.io/docs/top-referrers#channels) drive the most conversions
@@ -151,6 +153,8 @@ This is especially useful for paid campaigns, email, and bottom-of-funnel activi
 To understand what creates demand, look at your Entry pages report, while still having the dashboard filtered by the goal in question. 
 
 Entry pages show where sessions begin. When you filter by conversions, you can see which landing pages tend to start journeys that result in goal completions.
+
+![first-touch-attribution-in-plausible-analytics](/uploads/first-touch-attribution-in-plausible-analytics.png "first-touch-attribution-in-plausible-analytics")
 
 This is your practical first-touch view as you’ll discover:
 
