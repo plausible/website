@@ -1,16 +1,17 @@
 ---
 layout: article
-title: Website analytics platform for bloggers and content creators
+title: Website analytics for publishers and content creators
 description: Here's a look at why we created Plausible Analytics as a great
-  Google Analytics alternative for content creators and their personal websites
-  and blogs.
+  Google Analytics alternative for content creators and publishers.
 permalink: /for-bloggers-creators
 ---
-Many people create content on their personal websites and blogs. There are many motivations behind this. Some use it like a diary, some as a hobby, or as a way to connect to other people, as a way to build an audience, make money and even improve their career opportunities. 
+Many people publish content on their own websites. Independent publishers, journalists, writers and creators run blogs, media sites and online publications of all sizes.
 
-For some of these content creators, external recognition is not that important. They write what they want, about things they are interested in and they publish whatever they please. The fun is in the writing and the creative process itself.
+Some publish mainly for the joy of writing and sharing ideas. Others aim to grow an audience, build a publication, generate revenue or create new career opportunities.
 
-Others like to understand the impact that their efforts have on the world, which posts bring in the readers, what topics people seem to enjoy the most and even how people end up discovering their content in the first place.
+Understanding how readers engage with your content can help you make better decisions. Which articles attract the most readers? What topics resonate with your audience? Where do your visitors come from? And how do people discover your work in the first place?
+
+Simple and privacy-friendly analytics can give you these insights without slowing down your site or collecting personal data about your readers.
 
 ![Website analytics for bloggers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for bloggers and content creators")
 
