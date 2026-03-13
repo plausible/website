@@ -25,6 +25,8 @@ All this data you can use to assess the performance of your site and to figure o
 
 Being open source means that our [source code](https://github.com/plausible/analytics/) is available and accessible on GitHub so anyone can check it out. You can read it, inspect it and review it to understand how it works and to ensure it keeps the data private and secure.
 
+If you like what we're building, consider giving the project a ⭐ on GitHub to support the development.
+
 This gives you and everyone else full transparency on how we handle the website traffic data. It is this transparency and openness that means that open source products can be more trustworthy than proprietary and closed source products.
 
 You can even download Plausible Analytics, install and run it on your own server.
