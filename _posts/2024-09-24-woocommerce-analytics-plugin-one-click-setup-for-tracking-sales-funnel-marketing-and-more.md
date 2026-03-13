@@ -181,7 +181,7 @@ You can track other ecommerce events, pageview goals, properties, funnels, and a
 
 For eg., if you want to track the clicks to your mobile app download button, it can be done using either of custom event goals or pageview goals in Plausible.
 
-Your Plausible account functions just like any standard account, giving you access to all regular features. For a complete overview and to adjust any necessary settings, check the [Plausible Docs](https://plausible.io/docs/). Or, reach out to hello@plausible.io.
+Your Plausible account functions just like any standard account, giving you access to all regular features. For a complete overview and to adjust any necessary settings, check the [Plausible Docs](https://plausible.io/docs/). Or, [reach out to us](https://plausible.io/contact).
 
 ### Best practices for using Plausible Analytics for WooCommerce
 
