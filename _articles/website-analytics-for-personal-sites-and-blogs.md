@@ -1,15 +1,15 @@
 ---
 layout: article
 title: Content analytics for publishers and content creators
-description: See how readers engage with your content and what drives loyalty
-  and subscriptions. Privacy-friendly content analytics without cookies.
+description: See how readers engage with your content and what drives
+  subscriptions. Privacy-friendly content analytics without cookies.
 permalink: /for-bloggers-creators
 ---
-Many people publish content on their websites. Publishers, media companies, journalists, writers and creators run blogs, media sites and online publications of all sizes.
+Publishers, media companies, journalists, writers and creators run blogs, media sites and online publications of all sizes.
 
 Some aim to grow an audience, build a publication, generate revenue or create new career opportunities. Some publish for the joy of writing and sharing ideas.
 
-Understanding how readers engage with your content can help you make better decisions. Which articles attract the most readers? What topics resonate with your audience? Where do your visitors come from? And how do people discover your work in the first place?
+Understanding how readers engage with your content can help you make better decisions. Which articles attract the most readers? What topics resonate with your audience? Where do your visitors come from? How well do they convert on your ads or subscription boxes? 
 
 Simple and privacy-friendly analytics can give you these insights without slowing down your site or collecting personal data about your readers.
 
@@ -20,19 +20,15 @@ Simple and privacy-friendly analytics can give you these insights without slowin
 
 ## Google Analytics is not the best option for publishers
 
-Google Analytics is the obvious and the default choice for most websites. Even though it is a very useful and powerful tool used on the majority of websites on the web, it [brings several issues](https://plausible.io/blog/remove-google-analytics) that distract site owners from what they enjoy doing the most. 
+Google Analytics is the default choice for most websites. Even though it is a very useful and powerful tool used on the majority of websites on the web, it [brings several issues](https://plausible.io/blog/remove-google-analytics). 
 
-Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for content creators and their personal websites and blogs.
-
-Many publishers still use Google Analytics to measure audience behavior. But over time, it has become increasingly difficult for editorial teams to get clear insights from it.
+Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for publishers, media houses, and basically, any content creator.
 
 ### Google Analytics is extremely complex
 
 Google Analytics collects so much data from website visitors that it can showcase more than 125 different reports and almost 300 individual metrics. You will rarely have a need for more than a handful of these. This makes GA an overkill for the majority of bloggers.
 
 Many try to simplify Google Analytics by creating custom reports and custom dashboards. Some even take Google Analytics training courses in order to learn how to use it, how to understand the different metrics and extract actionable insights from them.
-
-If you just want to publish content and interact with people, learning about analytics is not something you put on top of your priority list. So you end up ignoring Google Analytics. You keep it installed on your site and it keeps tracking your visitors but you don't really get much value from it.
 
 Plausible Analytics is built with [simplicity in mind](https://plausible.io/simple-web-analytics). Anyone can understand all the metrics we present at a glance and without having any training or prior analytics experience. Everything you need to know is on one page.
 
@@ -66,23 +62,13 @@ Google Analytics is the most widely used tracking script on the web. This makes 
 
 These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 40% or even more of the audience on a tech website blocking Google Analytics.
 
-Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see more accurate (and higher) visitor numbers.
-
-\-﻿--
-
-Plausible Analytics was built as a modern alternative to traditional analytics platforms.
-
-It provides clear insights into how readers engage with your stories without relying on cookies or collecting personal data. The dashboard focuses on the metrics that actually help publishers understand their audience.
-
-Because Plausible does not use cookies, you avoid many of the tracking limitations that affect traditional analytics tools. Traffic and engagement data remain far more complete while still respecting reader privacy.
-
-Unlike many analytics platforms, Plausible is lightweight, open source, and designed to surface meaningful insights rather than overwhelming teams with reports.
-
-
+Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see [more accurate](https://plausible.io/most-accurate-web-analytics) (and higher) visitor numbers.
 
 ## How publishers use Plausible?
 
-Media companies and publishers are among our biggest customers. Apart from all the core reasons above that publishers and content creators prefer Plausible, here's a look at how to actually use Plausible for your use cases.
+Media companies and publishers are among our biggest customers. 
+
+Plausible Analytics was built as a modern alternative to traditional analytics platforms. It provides clear insights into how readers engage with your stories without relying on cookies or collecting personal data. The dashboard focuses on the metrics that actually help publishers understand their audience.
 
 ### Understand which stories resonate with readers
 
