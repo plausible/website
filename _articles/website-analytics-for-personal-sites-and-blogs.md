@@ -83,9 +83,11 @@ The report includes metrics such as:
 * **Visitors** and **pageviews** to show which stories attract the most attention
 * **Bounce rate** to indicate whether readers continue exploring your site
 * **Time on page** to understand how long readers stay with the article
-* **Scroll depth** to see how far readers move through the story
+* **[Scroll depth](https://plausible.io/blog/scroll-depth-tracking)** to see how far readers move through the story
 
 For example, an article with strong time-on-page and deeper scroll depth likely indicates that readers are actively engaging with the content.
+
+For long-form journalism or feature stories, the engagement signals especially help editorial teams see whether readers stay with the article or leave early. 
 
 These insights help shape editorial planning and identify the topics that matter most to your readers.
 
@@ -109,31 +111,15 @@ You can see traffic from:
 
 ## Connect content to subscriptions and revenue
 
-For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue.
+For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue. For instance, this is a common model on Substack these days.
 
-Knowing which stories contribute to these outcomes helps publishers understand how editorial work supports audience growth.
-
-Plausible allows you to track meaningful [goals](https://plausible.io/docs/goal-conversions) such as:
+Knowing which stories contribute to these outcomes helps publishers. Plausible allows you to track meaningful [goals](https://plausible.io/docs/goal-conversions) such as:
 
 * newsletter signups
 * subscription conversions
 * clicks on key calls to action
 
 Once goals are configured, you can see which pages generate the most conversions. This allows you to connect specific articles with audience growth and reader revenue.
-
-## Measure how deeply readers engage with your stories
-
-Page views only tell part of the story. Plausible includes engagement signals that help publishers understand how readers interact with their content.
-
-For long-form journalism, understanding how far readers scroll can be more valuable than traffic numbers.
-
-These include:
-
-* [scroll depth](https://plausible.io/docs/scroll-depth)
-* bounce rate
-* time on page
-
-For long-form journalism or feature stories, these signals help editorial teams see whether readers stay with the article or leave early.
 
 ### Track monetization metrics and ad engagement
 
