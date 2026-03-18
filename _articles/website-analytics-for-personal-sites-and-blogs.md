@@ -72,11 +72,9 @@ Plausible Analytics was built as a modern alternative to traditional analytics p
 
 ### Understand which stories resonate with readers
 
-Every publication produces hundreds or thousands of articles. Some perform well immediately while others quietly build long-term readership.
+Amongst your hundreds or thousands of articles, some perform well immediately while others build long-term readership. Plausible makes it easy to see how each story performs.
 
-Plausible makes it easy to see how each story performs.
-
-Open the **Top Pages** report in your Plausible dashboard. This report gives you a clear overview of how your articles perform. You can quickly see which pages attract the most readers and how those readers engage with each story.
+Open the **[Top Pages](https://plausible.io/docs/top-pages)** report in your Plausible dashboard. You can quickly see which pages attract the most readers and how those readers engage with each story.
 
 ![Top pages report in Plausible](/uploads/top-pages-in-plausible.png "Top pages report in Plausible")
 
@@ -87,13 +85,11 @@ The report includes metrics such as:
 * **Time on page** to understand how long readers stay with the article
 * **Scroll depth** to see how far readers move through the story
 
-Together, these signals help reveal which articles truly hold readers’ attention rather than simply generating clicks.
-
 For example, an article with strong time-on-page and deeper scroll depth likely indicates that readers are actively engaging with the content.
 
 These insights help shape editorial planning and identify the topics that matter most to your readers.
 
-Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know **where readers begin and end their sessions on your website.**
+Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know where readers begin and end their sessions on your website.
 
 ### Understand how readers discover your content
 
