@@ -147,17 +147,19 @@ Plausible makes it easy to experiment with these elements through simple [A/B te
 
 Over time, these small improvements can significantly increase engagement across your publication.
 
+## Built for editorial teams
 
+Analytics should support editorial work rather than create more complexity.
 
+Plausible is designed so that editors, journalists, and content teams can quickly understand their audience without navigating complicated reports.
 
+Everything is presented on a single dashboard, making it easy to see:
 
+* how stories perform
+* where engagement is growing
+* which topics attract loyal readers
 
-
-
-
-
-
-
+Because the platform is lightweight and easy to implement, it can be added to any publication in just a few minutes.
 
 
 
