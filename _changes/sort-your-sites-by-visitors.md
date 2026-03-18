@@ -1,6 +1,6 @@
 ---
 layout: change
-title: Sort your sites by visitors!
+title: Sort your sites by traffic
 date: 2026-03-18T16:43:23.842Z
 ---
 I﻿f you have multiple sites on Plausible, you can now sort them by:
