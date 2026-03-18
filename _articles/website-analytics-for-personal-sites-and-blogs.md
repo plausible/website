@@ -163,9 +163,9 @@ Because the platform is lightweight and easy to implement, it can be added to an
 
 
 
-## Give Plausible Analytics a chance
+## Test Plausible Analytics alongside GA
 
-Register for a [free 30-day trial](https://plausible.io/register) account to test Plausible Analytics on your site. It's so lightweight that you can run it alongside Google Analytics without any impact on your site loading time. 
+Register for a [free 30-day trial](https://plausible.io/register) account to test Plausible Analytics on your site. It's so lightweight that you can run it alongside Google Analytics without any impact on your site loading time.
 
 The 30 days of the free trial should give you enough time to explore Plausible Analytics and figure out how it fits with your needs and your workflow compared to Google Analytics.
 
