@@ -93,18 +93,19 @@ Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know where
 
 ### Understand how readers discover your content
 
-Publishers rely on a mix of traffic sources including search engines, social media, newsletters, and direct visits.
-
-The **Traffic Sources** report in Plausible shows where your readers originate.
+Publishers rely on a mix of traffic sources including search engines, social media, newsletters, and direct visits. The **[Traffic Sources](https://plausible.io/docs/top-referrers)** report in Plausible shows where your readers originate.
 
 You can see traffic from:
 
 * search engines
+* A﻿I platforms
 * social media platforms
 * newsletters
 * referral links from other publications
+* U﻿TMs
+* D﻿irect sources
 
-This helps you understand which distribution channels bring engaged readers to your site. Full [overview here](https://plausible.io/docs/top-referrers).
+.﻿..basically, every source that brings you traffic. This helps you understand which distribution channels bring engaged readers to your site.
 
 ## Connect content to subscriptions and revenue
 
