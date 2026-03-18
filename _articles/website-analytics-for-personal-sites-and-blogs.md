@@ -111,7 +111,9 @@ Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know **whe
 
 ## Connect content to subscriptions and revenue
 
-Modern publishers rely on sustainable reader revenue through subscriptions, memberships, or newsletters.
+For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue.
+
+Knowing which stories contribute to these outcomes helps publishers understand how editorial work supports audience growth.
 
 Plausible allows you to track meaningful [goals](https://plausible.io/docs/goal-conversions) such as:
 
@@ -119,20 +121,19 @@ Plausible allows you to track meaningful [goals](https://plausible.io/docs/goal-
 * subscription conversions
 * clicks on key calls to action
 
-This makes it easier to see how editorial work contributes to long-term audience growth.
+Once goals are configured, you can see which pages generate the most conversions. This allows you to connect specific articles with audience growth and reader revenue.
 
-Instead of focusing only on traffic numbers, publishers can understand how their content supports the health of the publication.
-
-## Understand how readers actually engage
+## Measure how deeply readers engage with your stories
 
 Page views only tell part of the story. Plausible includes engagement signals that help publishers understand how readers interact with their content.
+
+For long-form journalism, understanding how far readers scroll can be more valuable than traffic numbers.
 
 These include:
 
 * [scroll depth](https://plausible.io/docs/scroll-depth)
 * bounce rate
 * time on page
-* click-through rates
 
 For long-form journalism or feature stories, these signals help editorial teams see whether readers stay with the article or leave early.
 
