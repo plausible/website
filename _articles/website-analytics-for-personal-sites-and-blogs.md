@@ -109,6 +109,21 @@ These insights help shape editorial planning and identify the topics that matter
 
 Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know **where readers begin and end their sessions on your website.**
 
+### Understand how readers discover your content
+
+Publishers rely on a mix of traffic sources including search engines, social media, newsletters, and direct visits.
+
+The **Traffic Sources** report in Plausible shows where your readers originate.
+
+You can see traffic from:
+
+* search engines
+* social media platforms
+* newsletters
+* referral links from other publications
+
+This helps you understand which distribution channels bring engaged readers to your site. Full [overview here](https://plausible.io/docs/top-referrers).
+
 ## Connect content to subscriptions and revenue
 
 For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue.
@@ -137,13 +152,42 @@ These include:
 
 For long-form journalism or feature stories, these signals help editorial teams see whether readers stay with the article or leave early.
 
-## Improve headlines and presentation
+### Track monetization metrics and ad engagement
 
-Small editorial decisions can have a big impact on how a story performs.
+Understanding which articles generate strong engagement can help publishers optimize ad placement and content strategy.
+
+Plausible provides metrics that help publishers understand monetization signals, including:
+
+* click-through rates on links and calls to action
+* page engagement metrics such as bounce rate and time on page
+* traffic sources that bring valuable readers
+
+You can also track custom events and custom properties such as ad clicks or affiliate link interactions to better understand which content contributes most to revenue.
+
+For example, a publisher may want to measure how often readers click ads or affiliate links inside articles.
+
+You could track this as a custom event such as **“Affiliate link click”** or **“Ad click”**. Each time a reader clicks one of these links, the event is triggered. You can then attach custom properties to add more context about the interaction, such as the:
+
+* **Link type** – affiliate link, sponsor link, or internal promotion
+* **Placement** – sidebar, inline within the article, or end-of-article section
+
+.﻿..etc.
+
+In Plausible, these events appear in your **Events report**, where you can filter and break down the data using those properties.
+
+This allows publishers to answer practical questions such as:
+
+* Which articles generate the most affiliate revenue opportunities
+* Which placements drive the most ad engagement
+* Which topics perform best for sponsored content
+
+Over time, this helps publishers understand which types of content and placements contribute most to monetization.
+
+## A/B test headlines and images
 
 Headlines, images, and article presentation often determine whether readers click and continue reading.
 
-Plausible makes it easy to experiment with these elements through simple [A/B tests](https://plausible.io/blog/ab-testing). You can compare different headlines or images and quickly see which version resonates more with your audience.
+Plausible makes it easy to experiment with different site elements through simple [A/B tests](https://plausible.io/blog/ab-testing). You can compare different headlines or images and quickly see which version resonates more with your audience. 
 
 Over time, these small improvements can significantly increase engagement across your publication.
 
