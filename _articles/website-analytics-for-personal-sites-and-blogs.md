@@ -137,6 +137,22 @@ These include:
 
 For long-form journalism or feature stories, these signals help editorial teams see whether readers stay with the article or leave early.
 
+## Improve headlines and presentation
+
+Small editorial decisions can have a big impact on how a story performs.
+
+Headlines, images, and article presentation often determine whether readers click and continue reading.
+
+Plausible makes it easy to experiment with these elements through simple [A/B tests](https://plausible.io/blog/ab-testing). You can compare different headlines or images and quickly see which version resonates more with your audience.
+
+Over time, these small improvements can significantly increase engagement across your publication.
+
+
+
+
+
+
+
 
 
 
