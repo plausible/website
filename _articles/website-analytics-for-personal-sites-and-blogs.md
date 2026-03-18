@@ -5,9 +5,9 @@ description: See how readers engage with your content and what drives loyalty
   and subscriptions. Privacy-friendly content analytics without cookies.
 permalink: /for-bloggers-creators
 ---
-Many people publish content on their own websites. Independent publishers, journalists, writers and creators run blogs, media sites and online publications of all sizes.
+Many people publish content on their websites. Publishers, media companies, journalists, writers and creators run blogs, media sites and online publications of all sizes.
 
-Some publish mainly for the joy of writing and sharing ideas. Others aim to grow an audience, build a publication, generate revenue or create new career opportunities.
+Some aim to grow an audience, build a publication, generate revenue or create new career opportunities. Some publish for the joy of writing and sharing ideas.
 
 Understanding how readers engage with your content can help you make better decisions. Which articles attract the most readers? What topics resonate with your audience? Where do your visitors come from? And how do people discover your work in the first place?
 
@@ -18,27 +18,17 @@ Simple and privacy-friendly analytics can give you these insights without slowin
 1. Ordered list
    {:toc}
 
-## Understand what content actually works
-
-Every publisher wants to know which stories truly connect with readers.
-
-Some articles attract clicks but little engagement. Others build loyal audiences who come back again and again. Plausible helps you see the difference.
-
-This helps motivate them to put even more effort, publish more of the content that people enjoy the most and create a better website experience in general.
-
-And this is where website analytics come into the picture. Web analytics give website owners and bloggers a strong signal on what they have achieved, what worked well and what not so well. This helps them improve and better organize their future efforts. 
+## Google Analytics is not the best option for publishers
 
 Google Analytics is the obvious and the default choice for most websites. Even though it is a very useful and powerful tool used on the majority of websites on the web, it [brings several issues](https://plausible.io/blog/remove-google-analytics) that distract site owners from what they enjoy doing the most. 
 
 Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for content creators and their personal websites and blogs.
 
-## Google Analytics is not the best option for publishers
-
 Many publishers still use Google Analytics to measure audience behavior. But over time, it has become increasingly difficult for editorial teams to get clear insights from it.
 
 ### Google Analytics is extremely complex
 
-Google Analytics collects so much data from website visitors that it can showcase more than 125 different reports and almost 300 individual metrics. You as a site owner will rarely have a need for more than a handful of these. This makes Google Analytics an overkill for the majority of bloggers.
+Google Analytics collects so much data from website visitors that it can showcase more than 125 different reports and almost 300 individual metrics. You will rarely have a need for more than a handful of these. This makes GA an overkill for the majority of bloggers.
 
 Many try to simplify Google Analytics by creating custom reports and custom dashboards. Some even take Google Analytics training courses in order to learn how to use it, how to understand the different metrics and extract actionable insights from them.
 
@@ -90,25 +80,34 @@ Unlike many analytics platforms, Plausible is lightweight, open source, and desi
 
 
 
-## Why publishers choose Plausible?
+## How publishers use Plausible?
 
-Media companies and publishers are among our biggest customers. Here are some of the reasons editorial teams prefer it.
+Media companies and publishers are among our biggest customers. Apart from all the core reasons above that publishers and content creators prefer Plausible, here's a look at how to actually use Plausible for your use cases.
 
-## Understand which stories resonate
+### Understand which stories resonate with readers
 
 Every publication produces hundreds or thousands of articles. Some perform well immediately while others quietly build long-term readership.
 
 Plausible makes it easy to see how each story performs.
 
-With one simple dashboard you can quickly identify:
+Open the **Top Pages** report in your Plausible dashboard. This report gives you a clear overview of how your articles perform. You can quickly see which pages attract the most readers and how those readers engage with each story.
 
-* your most read articles
-* stories that keep readers engaged
-* topics that consistently attract returning visitors
+![Top pages report in Plausible](/uploads/top-pages-in-plausible.png "Top pages report in Plausible")
 
-Instead of relying on assumptions, editors can see how audiences actually respond to their work.
+The report includes metrics such as:
+
+* **Visitors** and **pageviews** to show which stories attract the most attention
+* **Bounce rate** to indicate whether readers continue exploring your site
+* **Time on page** to understand how long readers stay with the article
+* **Scroll depth** to see how far readers move through the story
+
+Together, these signals help reveal which articles truly hold readers’ attention rather than simply generating clicks.
+
+For example, an article with strong time-on-page and deeper scroll depth likely indicates that readers are actively engaging with the content.
 
 These insights help shape editorial planning and identify the topics that matter most to your readers.
+
+Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know **where readers begin and end their sessions on your website.**
 
 ## Connect content to subscriptions and revenue
 
