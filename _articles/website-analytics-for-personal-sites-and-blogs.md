@@ -111,7 +111,26 @@ You can see traffic from:
 
 Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
 
-## Connect content to subscriptions and revenue (codeless)
+### See what readers are engaging with right now
+
+Publishing is often fast-moving. Editors want to understand how newly published stories perform as readers discover them.
+
+Plausible includes a **[real-time analytics view](https://plausible.io/docs/realtime-dashboard)** that shows what is happening on your site at this moment.
+
+You can see:
+
+* how many readers are currently on your site
+* which articles they are reading right now
+* where those readers are coming from
+* w﻿hat goals were met in the last 30 minutes
+
+This helps editorial teams quickly identify when a story is gaining traction.
+
+For example, if an article suddenly receives traffic from social media or search, editors can decide to feature it more prominently on the homepage through a banner today.
+
+Real-time insights make it easier to react quickly and amplify stories that resonate with readers.
+
+### Connect content to subscriptions and revenue (codeless)
 
 For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue. For instance, this is a common model on Substack these days.
 
