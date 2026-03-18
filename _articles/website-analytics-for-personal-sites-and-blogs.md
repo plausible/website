@@ -46,7 +46,7 @@ On top of this, Google Analytics places [multiple cookies](https://developers.go
 
 These are things that many site owners and bloggers simply don't want to nor have the time or capacity to deal with. And the value that GA provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent.
 
-Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors. 
+Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
 
 You keep your site simple, clean and optimized for your visitors. No need to put any time and effort into legal aspects. You can focus on the more creative side of things.
 
@@ -58,7 +58,7 @@ Every KB can make a difference if you want to optimize for speed. Plausible Anal
 
 ### Google Analytics is blocked by many web users
 
-Google Analytics is the most widely used tracking script on the web. This makes it a big target. Browsers such as Brave and Firefox block it, so do the different ad-blocking extensions such as the uBlock Origin. 
+Google Analytics is the most widely used tracking script on the web. This makes it a big target. Browsers such as Brave and privacy extensions like uBlock Origin block Google Analytics by default, and some browser privacy settings can also prevent it from running.
 
 These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 40% or even more of the audience on a tech website blocking Google Analytics.
 
@@ -91,7 +91,7 @@ For long-form journalism or feature stories, the engagement signals especially h
 
 These insights help shape editorial planning and identify the topics that matter most to your readers.
 
-Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know where readers begin and end their sessions on your website.
+Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know where readers start their visit and where they leave your site.
 
 You can also segment this data by traffic source, campaign, or device type to better understand how different audiences engage with your content.
 
@@ -176,7 +176,7 @@ This allows publishers to answer practical questions such as:
 
 Headlines, images, and article presentation often determine whether readers click and continue reading.
 
-It is easy to experiment with different site elements through simple [A/B tests](https://plausible.io/blog/ab-testing)in Plausible. You can compare different headlines or images and quickly see which version resonates more with your audience. 
+It is easy to experiment with different site elements through simple [A/B tests](https://plausible.io/blog/ab-testing) in Plausible. You can compare different headlines or images and quickly see which version resonates more with your audience. 
 
 Over time, these small improvements can significantly increase engagement across your digital publication.
 
