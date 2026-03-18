@@ -66,9 +66,9 @@ Plausible Analytics is privacy-friendly by default, so it doesn't see the same l
 
 ## How publishers use Plausible?
 
-Media companies and publishers are among our biggest customers. 
+Media companies and digital publishers are among our largest customer groups.
 
-Plausible Analytics was built as a modern alternative to traditional analytics platforms. It provides clear insights into how readers engage with your stories without relying on cookies or collecting personal data. The dashboard focuses on the metrics that actually help publishers understand their audience.
+Plausible Analytics was built as a simple and privacy-friendly alternative to traditional analytics platforms. It provides clear insights into how readers engage with your stories without relying on cookies or collecting personal data. The dashboard focuses on the metrics that actually help publishers understand their audience.
 
 ### Understand which stories resonate with readers
 
@@ -81,7 +81,7 @@ Open the **[Top Pages](https://plausible.io/docs/top-pages)** report in your Pla
 The report includes metrics such as:
 
 * **Visitors** and **pageviews** to show which stories attract the most attention
-* **Bounce rate** to indicate whether readers continue exploring your site
+* **Bounce rate** 
 * **Time on page** to understand how long readers stay with the article
 * **[Scroll depth](https://plausible.io/blog/scroll-depth-tracking)** to see how far readers move through the story
 
@@ -93,6 +93,8 @@ These insights help shape editorial planning and identify the topics that matter
 
 Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know where readers begin and end their sessions on your website.
 
+You can also segment this data by traffic source, campaign, or device type to better understand how different audiences engage with your content.
+
 ### Understand how readers discover your content
 
 Publishers rely on a mix of traffic sources including search engines, social media, newsletters, and direct visits. The **[Traffic Sources](https://plausible.io/docs/top-referrers)** report in Plausible shows where your readers originate.
@@ -100,12 +102,13 @@ Publishers rely on a mix of traffic sources including search engines, social med
 You can see traffic from:
 
 * search engines
-* A﻿I platforms
-* social media platforms
+* AI platforms
+* social media
 * newsletters
-* referral links from other publications
-* U﻿TMs
-* D﻿irect sources
+* news aggregators and RSS readers
+* referral links
+* UTMs
+* direct sources
 
 .﻿..basically, every source that brings you traffic. This helps you understand which distribution channels bring engaged readers to your site.
 
@@ -126,7 +129,7 @@ You can see:
 
 This helps editorial teams quickly identify when a story is gaining traction.
 
-For example, if an article suddenly receives traffic from social media or search, editors can decide to feature it more prominently on the homepage through a banner today.
+For example, if an article suddenly receives traffic from social media or search, editors may move it higher on the homepage, promote it in newsletters, or share it across social channels.
 
 Real-time insights make it easier to react quickly and amplify stories that resonate with readers.
 
@@ -186,6 +189,10 @@ Many publishers run their sites on platforms such as WordPress, Ghost, Drupal, o
 Once installed, Plausible immediately starts collecting privacy-friendly analytics data without requiring cookies or complex configuration.
 
 You can find detailed setup [guides](https://plausible.io/docs/integration-guides) for many popular platforms.
+
+## U﻿se Plausible to refine your editorial strategy
+
+Analytics becomes most useful when it helps inform what you publish next. By reviewing which topics resonate, which articles attract readers, and which stories drive subscriptions, publishers can gradually refine their editorial strategy.
 
 ## Test Plausible Analytics alongside GA
 
