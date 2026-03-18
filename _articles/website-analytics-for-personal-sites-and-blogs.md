@@ -109,6 +109,8 @@ You can see traffic from:
 
 .﻿..basically, every source that brings you traffic. This helps you understand which distribution channels bring engaged readers to your site.
 
+Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
+
 ## Connect content to subscriptions and revenue
 
 For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue. For instance, this is a common model on Substack these days.
@@ -123,17 +125,11 @@ Once goals are configured, you can see which pages generate the most conversions
 
 ### Track monetization metrics and ad engagement
 
-Understanding which articles generate strong engagement can help publishers optimize ad placement and content strategy.
+Understanding which pages generate strong engagement can help publishers and content creators optimize ad placement and content strategy.
 
-Plausible provides metrics that help publishers understand monetization signals, including:
+You can track [custom events](https://plausible.io/docs/custom-event-goals) and [custom properties](https://plausible.io/docs/custom-props/introduction) such as ad clicks or affiliate link interactions to better understand which content contributes most to revenue. 
 
-* click-through rates on links and calls to action
-* page engagement metrics such as bounce rate and time on page
-* traffic sources that bring valuable readers
-
-You can also track custom events and custom properties such as ad clicks or affiliate link interactions to better understand which content contributes most to revenue.
-
-For example, a publisher may want to measure how often readers click ads or affiliate links inside articles.
+For example, you may want to measure how often readers click ads or affiliate links inside articles.
 
 You could track this as a custom event such as **“Affiliate link click”** or **“Ad click”**. Each time a reader clicks one of these links, the event is triggered. You can then attach custom properties to add more context about the interaction, such as the:
 
@@ -142,7 +138,7 @@ You could track this as a custom event such as **“Affiliate link click”** or
 
 .﻿..etc.
 
-In Plausible, these events appear in your **Events report**, where you can filter and break down the data using those properties.
+In Plausible, these events appear in your Events report, where you can filter and [break down the data](https://plausible.io/audience-segmentation) using those properties.
 
 This allows publishers to answer practical questions such as:
 
@@ -150,17 +146,13 @@ This allows publishers to answer practical questions such as:
 * Which placements drive the most ad engagement
 * Which topics perform best for sponsored content
 
-Over time, this helps publishers understand which types of content and placements contribute most to monetization.
-
 ## A/B test headlines and images
 
 Headlines, images, and article presentation often determine whether readers click and continue reading.
 
-Plausible makes it easy to experiment with different site elements through simple [A/B tests](https://plausible.io/blog/ab-testing). You can compare different headlines or images and quickly see which version resonates more with your audience. 
+It is easy to experiment with different site elements through simple [A/B tests](https://plausible.io/blog/ab-testing)in Plausible. You can compare different headlines or images and quickly see which version resonates more with your audience. 
 
 Over time, these small improvements can significantly increase engagement across your publication.
-
-
 
 ## Test Plausible Analytics alongside GA
 
