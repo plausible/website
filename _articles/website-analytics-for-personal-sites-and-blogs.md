@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Website analytics for publishers and content creators
-description: Here's a look at why we created Plausible Analytics as a great
-  Google Analytics alternative for content creators and publishers.
+title: Content analytics for publishers and content creators
+description: See how readers engage with your stories and what drives loyalty
+  and subscriptions. Privacy-friendly content analytics without cookies.
 permalink: /for-bloggers-creators
 ---
 Many people publish content on their own websites. Independent publishers, journalists, writers and creators run blogs, media sites and online publications of all sizes.
