@@ -111,7 +111,7 @@ You can see traffic from:
 
 Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
 
-## Connect content to subscriptions and revenue
+## Connect content to subscriptions and revenue (codeless)
 
 For many publishers, subscriptions, memberships, and newsletters are essential sources of revenue. For instance, this is a common model on Substack these days.
 
@@ -123,11 +123,15 @@ Knowing which stories contribute to these outcomes helps publishers. Plausible a
 
 Once goals are configured, you can see which pages generate the most conversions. This allows you to connect specific articles with audience growth and reader revenue.
 
+Y﻿ou even have options like automatic and [codeless form submissions tracking](https://plausible.io/docs/form-submissions-tracking) for tracking newsletter signups and codeless [pageview goals](https://plausible.io/docs/pageview-goals) where you can track a /thank-you or /subscription-confirmed page for instance.
+
+Y﻿ou can even weave multiple goals into a [funnel](https://plausible.io/docs/funnel-analysis) to track user journeys and dropoffs.
+
 ### Track monetization metrics and ad engagement
 
 Understanding which pages generate strong engagement can help publishers and content creators optimize ad placement and content strategy.
 
-You can track [custom events](https://plausible.io/docs/custom-event-goals) and [custom properties](https://plausible.io/docs/custom-props/introduction) such as ad clicks or affiliate link interactions to better understand which content contributes most to revenue. 
+You can track [custom events](https://plausible.io/docs/custom-event-goals) (with revenue tracking) and [custom properties](https://plausible.io/docs/custom-props/introduction) such as ad clicks or affiliate link interactions to better understand which content contributes most to revenue. 
 
 For example, you may want to measure how often readers click ads or affiliate links inside articles.
 
@@ -146,13 +150,23 @@ This allows publishers to answer practical questions such as:
 * Which placements drive the most ad engagement
 * Which topics perform best for sponsored content
 
-## A/B test headlines and images
+### A/B test headlines and images
 
 Headlines, images, and article presentation often determine whether readers click and continue reading.
 
 It is easy to experiment with different site elements through simple [A/B tests](https://plausible.io/blog/ab-testing)in Plausible. You can compare different headlines or images and quickly see which version resonates more with your audience. 
 
 Over time, these small improvements can significantly increase engagement across your publication.
+
+### Easy to integrate with your publishing platform
+
+Plausible can be added to any website with a simple script, and it works smoothly with most publishing platforms and CMS tools.
+
+Many publishers run their sites on platforms such as WordPress, Ghost, Drupal, or custom CMS setups. Plausible can be integrated into these systems in just a few minutes.
+
+Once installed, Plausible immediately starts collecting privacy-friendly analytics data without requiring cookies or complex configuration.
+
+You can find detailed setup [guides](https://plausible.io/docs/integration-guides) for many popular platforms.
 
 ## Test Plausible Analytics alongside GA
 
