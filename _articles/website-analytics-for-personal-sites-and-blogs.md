@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Content analytics for publishers and content creators
-description: See how readers engage with your stories and what drives loyalty
+description: See how readers engage with your content and what drives loyalty
   and subscriptions. Privacy-friendly content analytics without cookies.
 permalink: /for-bloggers-creators
 ---
@@ -16,9 +16,13 @@ Simple and privacy-friendly analytics can give you these insights without slowin
 ![Website analytics for bloggers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for bloggers and content creators")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
-## Web analytics give you a strong signal
+## Understand what content actually works
+
+Every publisher wants to know which stories truly connect with readers.
+
+Some articles attract clicks but little engagement. Others build loyal audiences who come back again and again. Plausible helps you see the difference.
 
 This helps motivate them to put even more effort, publish more of the content that people enjoy the most and create a better website experience in general.
 
@@ -28,7 +32,11 @@ Google Analytics is the obvious and the default choice for most websites. Even t
 
 Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for content creators and their personal websites and blogs.
 
-## Google Analytics is complicated to use and understand
+## Google Analytics is not the best option for publishers
+
+Many publishers still use Google Analytics to measure audience behavior. But over time, it has become increasingly difficult for editorial teams to get clear insights from it.
+
+### Google Analytics is extremely complex
 
 Google Analytics collects so much data from website visitors that it can showcase more than 125 different reports and almost 300 individual metrics. You as a site owner will rarely have a need for more than a handful of these. This makes Google Analytics an overkill for the majority of bloggers.
 
@@ -40,35 +48,102 @@ Plausible Analytics is built with [simplicity in mind](https://plausible.io/simp
 
 You can get an overview of all the most actionable metrics in one minute and get on with tasks that you enjoy more such as creating new content or engaging with your audience.
 
-## Google Analytics requires a privacy policy, cookie prompt and user consent
+### Google Analytics requires a privacy policy, cookie prompt and user consent
 
 There are several requirements for using Google Analytics. Some from Google's side and others from the different privacy regulations.
 
 Google for instance [requires](https://marketingplatform.google.com/about/analytics/terms/us/) you to have a privacy policy with details on your usage of Google Analytics. 
 
-> “You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law.”
+> You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law.
 
 On top of this, Google Analytics places [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) on the machines of your visitors which means that you need to ask for cookie consent from your visitors too.
 
-These are things that many site owners and bloggers simply don't want to nor have the time or capacity to deal with. And the value that Google Analytics provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent.
+These are things that many site owners and bloggers simply don't want to nor have the time or capacity to deal with. And the value that GA provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent.
 
 Plausible Analytics is compatible with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
 
 You keep your site simple, clean and optimized for your visitors. No need to put any time and effort into legal aspects. You can focus on the more creative side of things.
 
-## Google Analytics slows down your site and worsens the visitor experience
+### Google Analytics slows down your site and worsens the visitor experience
 
 Google Analytics is a bloated script that collects a lot of unnecessary data and it's not useful for the majority of site owners. This can lead to your site having slower loading times. It is common that the different speed tests including Google's own PageSpeed Insights flag Google Analytics as one of the elements that slow down a site.
 
 Every KB can make a difference if you want to optimize for speed. Plausible Analytics script [is lightweight](https://plausible.io/lightweight-web-analytics). Your site will keep loading fast and your visitors will have a smooth experience. 
 
-## Google Analytics is blocked by many web users
+### Google Analytics is blocked by many web users
 
 Google Analytics is the most widely used tracking script on the web. This makes it a big target. Browsers such as Brave and Firefox block it, so do the different ad-blocking extensions such as the uBlock Origin. 
 
 These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 40% or even more of the audience on a tech website blocking Google Analytics.
 
-Plausible Analytics is a new player on this market and it's privacy-friendly by default, so it doesn't see the same level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see more accurate (and higher) visitor numbers.
+Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see more accurate (and higher) visitor numbers.
+
+\-﻿--
+
+Plausible Analytics was built as a modern alternative to traditional analytics platforms.
+
+It provides clear insights into how readers engage with your stories without relying on cookies or collecting personal data. The dashboard focuses on the metrics that actually help publishers understand their audience.
+
+Because Plausible does not use cookies, you avoid many of the tracking limitations that affect traditional analytics tools. Traffic and engagement data remain far more complete while still respecting reader privacy.
+
+Unlike many analytics platforms, Plausible is lightweight, open source, and designed to surface meaningful insights rather than overwhelming teams with reports.
+
+
+
+## Why publishers choose Plausible?
+
+Media companies and publishers are among our biggest customers. Here are some of the reasons editorial teams prefer it.
+
+## Understand which stories resonate
+
+Every publication produces hundreds or thousands of articles. Some perform well immediately while others quietly build long-term readership.
+
+Plausible makes it easy to see how each story performs.
+
+With one simple dashboard you can quickly identify:
+
+* your most read articles
+* stories that keep readers engaged
+* topics that consistently attract returning visitors
+
+Instead of relying on assumptions, editors can see how audiences actually respond to their work.
+
+These insights help shape editorial planning and identify the topics that matter most to your readers.
+
+## Connect content to subscriptions and revenue
+
+Modern publishers rely on sustainable reader revenue through subscriptions, memberships, or newsletters.
+
+Plausible allows you to track meaningful [goals](https://plausible.io/docs/goal-conversions) such as:
+
+* newsletter signups
+* subscription conversions
+* clicks on key calls to action
+
+This makes it easier to see how editorial work contributes to long-term audience growth.
+
+Instead of focusing only on traffic numbers, publishers can understand how their content supports the health of the publication.
+
+## Understand how readers actually engage
+
+Page views only tell part of the story. Plausible includes engagement signals that help publishers understand how readers interact with their content.
+
+These include:
+
+* [scroll depth](https://plausible.io/docs/scroll-depth)
+* bounce rate
+* time on page
+* click-through rates
+
+For long-form journalism or feature stories, these signals help editorial teams see whether readers stay with the article or leave early.
+
+
+
+
+
+
+
+
 
 ## Give Plausible Analytics a chance
 
