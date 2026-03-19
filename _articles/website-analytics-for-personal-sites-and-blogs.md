@@ -130,13 +130,11 @@ O﻿r look at **Entry Pages** to see the pages actually attracting organic traff
 
 ![organic search performance in plausible](/uploads/organic-search-performance-in-plausible.png "organic search performance in plausible")
 
-For deeper insights, you can connect **Google Search Console** to Plausible. This lets you see the search terms people use to find your content alongside engagement metrics such as time on page and bounce rate.
+Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
 
 Together, these insights help publishers understand not just what ranks in search, but which content actually keeps readers engaged and brings consistent traffic over time.
 
-Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
-
-### See what readers are engaging with right now
+### See what readers are engaging with at this moment
 
 Publishing is often fast-moving. Editors want to understand how newly published stories perform as readers discover them.
 
