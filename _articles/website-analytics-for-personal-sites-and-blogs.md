@@ -2,7 +2,7 @@
 layout: article
 title: Content analytics for publishers and content creators
 description: See how readers engage with your content and what drives
-  subscriptions. Privacy-friendly content analytics without cookies.
+  subscriptions. Privacy-friendly and simple analytics for publishers.
 permalink: /for-bloggers-creators
 ---
 If you run a business based on content today, understanding what’s actually working is beneficial.
