@@ -28,7 +28,7 @@ T﻿he best news: You don't have to struggle with Google Analytics anymore.
 ![Website analytics for publishers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for publishers and content creators")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Why Google Analytics falls short for publishers
 
@@ -88,9 +88,7 @@ M﻿oreover, in [a test](https://plausible.io/blog/testing-bot-traffic-filterin
 
 ## How publishers use Plausible?
 
-Media companies and digital publishers are among our largest customer groups.
-
-Plausible Analytics was built as a simple and privacy-friendly alternative to traditional analytics platforms. It provides clear insights into how readers engage with your stories without relying on cookies or collecting personal data. The dashboard focuses on the metrics that actually help publishers understand their audience.
+Media companies and digital publishers are among our largest customer groups. The following are some of the core ways publishers use Plausible.
 
 ### Understand which stories resonate with readers
 
@@ -109,7 +107,7 @@ The report includes metrics such as:
 
 For example, an article with strong time-on-page and deeper scroll depth likely indicates that readers are actively engaging with the content.
 
-For long-form journalism or feature stories, the engagement signals especially help editorial teams see whether readers stay with the article or leave early. 
+For long-form journalism or feature stories, the engagement signals especially help editorial teams see whether readers stay with the article or leave early.
 
 These insights help shape editorial planning and identify the topics that matter most to your readers.
 
@@ -185,9 +183,9 @@ Knowing which stories contribute to these outcomes helps publishers. Plausible a
 * subscription conversions
 * clicks on key calls to action
 
-Once goals are configured, you can see which pages generate the most conversions. This allows you to connect specific articles with audience growth and reader revenue.
+.﻿..and [tie any goal to revenue](https://plausible.io/docs/ecommerce-revenue-tracking) so you can track it right within one dashboard while tying it back to traffic sources, top content, geographies, etc.
 
-Y﻿ou even have options like automatic and [codeless form submissions tracking](https://plausible.io/docs/form-submissions-tracking) for tracking newsletter signups and codeless [pageview goals](https://plausible.io/docs/pageview-goals) where you can track a /thank-you or /subscription-confirmed page for instance.
+Y﻿ou even have options like automatic and [codeless form submissions tracking](https://plausible.io/docs/form-submissions-tracking) for tracking newsletter signups and codeless [pageview goals](https://plausible.io/docs/pageview-goals) where you can track a `/thank-you` or `/subscription-confirmed` page for instance.
 
 Y﻿ou can even weave multiple goals into a [funnel](https://plausible.io/docs/funnel-analysis) to track user journeys and dropoffs.
 
