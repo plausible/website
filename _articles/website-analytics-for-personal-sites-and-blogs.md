@@ -5,7 +5,7 @@ description: See how readers engage with your content and what drives
   subscriptions. Privacy-friendly content analytics without cookies.
 permalink: /for-bloggers-creators
 ---
-If you run a business based on content today, you need to understand what’s actually working.
+If you run a business based on content today, understanding what’s actually working is beneficial.
 
 Which articles attract the most readers? What topics resonate with your audience? Where do your visitors come from? How do they convert into subscribers or revenue?
 
@@ -191,7 +191,7 @@ Y﻿ou can even weave multiple goals into a [funnel](https://plausible.io/docs/f
 
 ### Track monetization metrics and ad engagement
 
-Understanding which pages generate strong engagement can help publishers and content creators optimize ad placement and content strategy.
+Understanding which pages generate strong engagement can help you optimize ad placement and content strategy. 
 
 You can track [custom events](https://plausible.io/docs/custom-event-goals) (with revenue tracking) and [custom properties](https://plausible.io/docs/custom-props/introduction) such as ad clicks or affiliate link interactions to better understand which content contributes most to revenue. 
 
@@ -199,18 +199,20 @@ For example, you may want to measure how often readers click ads or affiliate li
 
 You could track this as a custom event such as **“Affiliate link click”** or **“Ad click”**. Each time a reader clicks one of these links, the event is triggered. You can then attach custom properties to add more context about the interaction, such as the:
 
-* **Link type** – affiliate link, sponsor link, or internal promotion
-* **Placement** – sidebar, inline within the article, or end-of-article section
+* **Link type** (affiliate link, sponsor link, or internal promotion) to see 
+* **Placement** (sidebar, inline within the article, or end-of-article section) to see which placements drive the most ad engagement
 
 .﻿..etc.
 
+Another popular use case for custom properties is tracking additional context about your individual pages, such as:
+
+* **Post author** to see which of the authors perform best and so on
+* **Category or section** (e.g. News, Opinion, Guides) to see what drives the most traffic or conversions
+* **Content type** (article, review, tutorial)
+
+a﻿nd so on.
+
 In Plausible, these events appear in your Events report, where you can filter and [break down the data](https://plausible.io/audience-segmentation) using those properties.
-
-This allows publishers to answer practical questions such as:
-
-* Which articles generate the most affiliate revenue opportunities
-* Which placements drive the most ad engagement
-* Which topics perform best for sponsored content
 
 ### A/B test headlines and images
 
@@ -228,7 +230,7 @@ Many publishers run their sites on platforms such as WordPress, Ghost, Drupal, o
 
 Once installed, Plausible immediately starts collecting privacy-friendly analytics data without requiring cookies or complex configuration.
 
-You can find detailed setup [guides](https://plausible.io/docs/integration-guides) for many popular platforms.
+You can find detailed setup [guides](https://plausible.io/docs/integration-guides) for many popular platforms. And there's a specific plug-and-play [plugin](https://plausible.io/wordpress-analytics-plugin) for WordPress as well.
 
 ## U﻿se Plausible to refine your editorial strategy
 
