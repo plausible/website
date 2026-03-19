@@ -38,17 +38,15 @@ But for publishers and content teams, the biggest challenge today isn’t just c
 
 Here's a look at why we created Plausible Analytics as a great [Google Analytics alternative](https://plausible.io/vs-google-analytics) for publishers, media houses, and basically, any content creator.
 
-### Google Analytics is extremely complex
+### Google Analytics is overwhelming and an overkill
 
 Google Analytics collects so much data from website visitors that it can showcase more than 125 different reports and almost 300 individual metrics. You will rarely have a need for more than a handful of these. This makes GA overkill for most content teams and publishers.
 
-Many try to simplify Google Analytics by creating custom reports and custom dashboards. Some even take Google Analytics training courses in order to learn how to use it, how to understand the different metrics and extract actionable insights from them.
+Many try to simplify GA by creating custom reports and dashboards. Some even take training courses to learn how to use it, how to understand the different metrics and extract actionable insights from them.
 
-Plausible Analytics is built with [simplicity in mind](https://plausible.io/simple-web-analytics). Anyone can understand all the metrics we present at a glance and without having any training or prior analytics experience. Everything you need to know is on one page.
+**On the other hand**, Plausible Analytics is built with [simplicity in mind](https://plausible.io/simple-web-analytics). Anyone can understand all the metrics we present at a glance and without having any training or prior analytics experience. Everything you need to know is on one page.
 
 You can get an overview of all the most actionable metrics in one minute and get on with tasks that you enjoy more such as creating new content or engaging with your audience.
-
-For editorial teams, this often means spending more time navigating reports than actually understanding how content performs.
 
 ### Google Analytics requires a privacy policy, cookie prompt and user consent
 
@@ -58,15 +56,15 @@ Google for instance [requires](https://marketingplatform.google.com/about/analyt
 
 > You must post a Privacy Policy and that Privacy Policy must provide notice of Your use of cookies, identifiers for mobile devices or similar technology used to collect data. You must disclose the use of Google Analytics, and how it collects and processes data. You will use commercially reasonable efforts to ensure that a User is provided with clear and comprehensive information about, and consents to, the storing and accessing of cookies or other information on the User’s device where such activity occurs in connection with the Service and where providing such information and obtaining such consent is required by law.
 
-When visitors decline cookies, their activity is not tracked. This creates a gap in your analytics, where a portion of your audience is simply missing from your reports.
+When visitors decline cookies, their activity is not tracked. This creates a gap in your analytics, where a portion of your audience is simply missing from your reports. It literally causes more than half of your data to be missing, according to an [independent study](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/).
 
 For publishers trying to understand which stories resonate or how readers engage, this can make decision-making much harder.
 
 On top of this, Google Analytics places [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) on the machines of your visitors which means that you need to ask for cookie consent from your visitors too.
 
-These are things that many site owners and bloggers simply don't want to nor have the time or capacity to deal with. And the value that GA provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent.
+These are things that many site owners and content creators simply don't want to nor have the time or capacity to deal with. And the value that GA provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent. 
 
-Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
+**On the other hand**, Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box! [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
 
 You keep your site simple, clean and optimized for your visitors. No need to put any time and effort into legal aspects. You can focus on creating content and growing your audience.
 
