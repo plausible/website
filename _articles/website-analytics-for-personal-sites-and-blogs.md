@@ -30,9 +30,9 @@ T﻿he best news: You don't have to struggle with Google Analytics anymore.
 1. Ordered list
    {:toc}
 
-## Google Analytics is not the best option for publishers
+## Why Google Analytics falls short for publishers
 
-Google Analytics is the default choice for most websites. Even though it is a very useful and powerful tool used on the majority of websites on the web, it [brings several issues](https://plausible.io/blog/remove-google-analytics). 
+Google Analytics is the default choice for most websites. Even though it is a very useful and powerful tool used on the majority of websites on the web, it [brings several issues](https://plausible.io/blog/remove-google-analytics).
 
 But for publishers and content teams, the biggest challenge today isn’t just complexity. It’s that the data itself is becoming less reliable.
 
