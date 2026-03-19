@@ -72,9 +72,9 @@ You keep your site simple, clean and optimized for your visitors. No need to put
 
 Google Analytics is a bloated script that collects a lot of unnecessary data and it's not useful for the majority of site owners. This can lead to your site having slower loading times. It is common that the different speed tests including Google's own PageSpeed Insights flag Google Analytics as one of the elements that slow down a site.
 
-Every KB can make a difference if you want to optimize for speed. Plausible Analytics script [is lightweight](https://plausible.io/lightweight-web-analytics). Your site will keep loading fast and your visitors will have a smooth experience. 
+**On the other hand**, Plausible Analytics script [is lightweight](https://plausible.io/lightweight-web-analytics). Your site will keep loading fast and your visitors will have a smooth experience. 
 
-### Google Analytics is blocked by many web users
+### Google Analytics is inaccurate
 
 Google Analytics is the most widely used tracking script on the web. This makes it a big target. Browsers such as Brave and privacy extensions like uBlock Origin block Google Analytics by default, and some browser privacy settings can also prevent it from running.
 
@@ -82,7 +82,9 @@ These are used by millions of web users who won't be counted in your website sta
 
 This means your analytics may underreport traffic and engagement, especially for audiences that are more privacy-conscious.
 
-Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see [more accurate](https://plausible.io/most-accurate-web-analytics) (and higher) visitor numbers.
+**On the other hand**, Plausible Analytics is privacy-friendly by default, so it sees significantly less level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see [more accurate](https://plausible.io/most-accurate-web-analytics) (and higher) visitor numbers.
+
+M﻿oreover, in [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users—unlike Plausible, which correctly identified and excluded them from the stats.
 
 ## How publishers use Plausible?
 
