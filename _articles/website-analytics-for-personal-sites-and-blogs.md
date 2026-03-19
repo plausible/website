@@ -5,13 +5,25 @@ description: See how readers engage with your content and what drives
   subscriptions. Privacy-friendly content analytics without cookies.
 permalink: /for-bloggers-creators
 ---
-Publishers, media companies, journalists, writers and creators run blogs, media sites and online publications of all sizes.
+I﻿f you're someone whose growth depends on content today, being on top of questions like the following can make or break your business. 
+
+Which articles/content attract the most readers? What topics resonate with your audience? Where do your visitors come from? How do they convert on your ads or subscriptions so you can optimize for it?
+
+Some of the most popular formats today include:
+
+* Newsletter businesses (Substack writers, niche newsletters)
+* Indie blogs that monetize via ads/affiliates
+* SEO-driven sites (reviews, finance, SaaS comparisons)
+* Twitter/X or LinkedIn creators with owned sites
+* Indie writers building subscription audiences
+* YouTubers with blogs and newsletters
+* E﻿ven content teams of SaaS businesses running large publications
 
 Some aim to grow an audience, build a publication, generate revenue or create new career opportunities. Some publish for the joy of writing and sharing ideas.
 
-Understanding how readers engage with your content can help you make better decisions. Which articles attract the most readers? What topics resonate with your audience? Where do your visitors come from? How well do they convert on your ads or subscription boxes? 
+W﻿hichever way you're growing your content business, you can utilize simple, privacy-friendly, cookie-banner-less, analytics platform that will be up on your site in minutes and give you all the insights on one simple dashboard that even a kid can understand.
 
-Simple and privacy-friendly analytics can give you these insights without slowing down your site or collecting personal data about your readers.
+T﻿he best news: You don't have to struggle with Google Analytics anymore.
 
 ![Website analytics for bloggers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for bloggers and content creators")
 
