@@ -112,6 +112,28 @@ You can see traffic from:
 
 .﻿..basically, every source that brings you traffic. This helps you understand which distribution channels bring engaged readers to your site.
 
+### Analyze your SEO performance and organic traffic
+
+Search remains one of the most important ways readers discover content.
+
+I﻿n Plausible, open the **Traffic Sources** report and filter by **Organic search**.
+
+This shows:
+
+* how many visitors come from search engines and AI
+* which sources drive the most traffic
+* how your organic traffic changes over time
+
+You can then combine this with the **Top Pages** report to see which articles attract search traffic and continue to perform long after publication.
+
+O﻿r look at **Entry Pages** to see the pages actually attracting organic traffic.
+
+![organic search performance in plausible](/uploads/organic-search-performance-in-plausible.png "organic search performance in plausible")
+
+For deeper insights, you can connect **Google Search Console** to Plausible. This lets you see the search terms people use to find your content alongside engagement metrics such as time on page and bounce rate.
+
+Together, these insights help publishers understand not just what ranks in search, but which content actually keeps readers engaged and brings consistent traffic over time.
+
 Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
 
 ### See what readers are engaging with right now
