@@ -39,7 +39,7 @@ Paying customers are billed automatically via supported payment methods.
     
 The number of pageviews purchased in the paid plan must be used during the applicable term and any unused pageviews at the end of the term are forfeited.
 
-You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly. In the event the usage of pageviews exceeds the paid plan you selected for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have a limited time to make a decision. You can choose to upgrade to a higher plan or cancel your account. If no action is taken, access to your stats may be restricted.
+You will never be charged extra for an occasional traffic spike. There are no surprise fees and your card will never be charged unexpectedly. In the event the usage of pageviews exceeds the paid plan you selected for two consecutive months, we will contact you to upgrade to a higher plan for the following month. You will have a limited time to decide. You can choose to upgrade to a higher plan or cancel your subscription. If no action is taken, access to your stats may be restricted.
 
 You can upgrade or downgrade in plan level at any time within your account settings. Downgrading your plan may cause the loss of features or capacity of your account. Plausible Analytics does not accept any liability for such loss.
 
@@ -105,7 +105,7 @@ Your use of Plausible Analytics is at your sole risk. The service is provided on
 
 We do not guarantee uninterrupted or error-free operation of the service and may experience downtime from time to time. Visit [our status page](https://plausible.io/status) for current service status.
 
-We make no guarantees that the service will meet your specific requirements.
+We do not guarantee that the service will meet your specific requirements.
 
 Technical support is provided by email on a reasonable effort basis.
 
@@ -129,5 +129,5 @@ If you have a question about these Terms of Service, please [contact us](https:/
 
 ---
 
-Last updated: March 2026  
+**Last updated: March 2026**  
 Clarifications only. No material changes to the service or data processing.
