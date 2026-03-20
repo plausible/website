@@ -134,5 +134,5 @@ If you have any questions about our security practices, please [contact us](http
 
 ---
 
-**Last updated: March 2026**
+**Last updated: March 2026**  
 Clarifications only. No material changes to data handling.
