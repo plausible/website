@@ -48,12 +48,12 @@ For more details, see our [Data Processing Agreement](https://plausible.io/dpa).
 
 ## As a visitor to the plausible.io website
 
-The privacy of our website visitors is important to us so we do not track any individual people. As a visitor to the plausible.io website:
+The privacy of our website visitors is important to us so we do not track individual people. As a visitor to the plausible.io website:
 
 - No personal data about visitors is collected or stored
 - No information such as cookies is stored in the browser  
-- No information about visitors is shared with or sold to third parties  
-- No information is shared with advertising companies  
+- No information about visitors is sold, and any processing is limited to trusted service providers where necessary to operate the service 
+- No information is shared with advertising companies or used for advertising purposes  
 - No information is mined and harvested for personal and behavioral trends  
 - No information is monetized  
 
@@ -69,7 +69,7 @@ Our guiding principle is to collect only what we need and to process this inform
 
 We use a small number of trusted external service providers for certain service offerings. These service providers are carefully selected and meet high data protection, data privacy and security standards.
 
-We only share the information required for the services offered and contractually require them to keep this information confidential and to process personal data only according to our instructions.
+We only share information where necessary to provide the service and contractually require them to keep this information confidential and to process personal data only according to our instructions.
 
 ---
 
