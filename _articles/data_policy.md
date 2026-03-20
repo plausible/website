@@ -20,7 +20,7 @@ Here’s a closer look at what we collect, how we use it and how we comply with 
 
 We do not track people across their devices or across websites and apps. All data is isolated to a single day, a single website and a single device. There is no way to know whether the same person visits a site from more than one device or visits another website.
 
-The goal of Plausible is to track overall trends in your website traffic, not individual visitors. We don't use cookies, we don't generate persistent identifiers and we don’t collect or store personal data that can be used to identify individuals. All data is aggregated.
+The goal of Plausible Analytics is to track overall trends in your website traffic, not individual visitors. We don't use cookies, we don't generate persistent identifiers and we don’t collect or store personal data that can be used to identify individuals. All data is aggregated.
 
 By using Plausible Analytics, all site measurement is carried out anonymously. We measure only the most essential data points and nothing else.
 
@@ -97,5 +97,5 @@ You can [sign up for a free trial](https://plausible.io/register) and explore pr
 
 ---
 
-Last updated: March 2026  
+**Last updated: March 2026**
 Clarifications only. No material changes to data handling.
