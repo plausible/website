@@ -67,7 +67,7 @@ If you want to report misuse of a Plausible Analytics trademark, please email tr
 
 ---
 
-**Last updated: March 2026**
+**Last updated: March 2026**  
 Clarifications only. No material changes to policy.
 
 _These guidelines are based on the Model Trademark Guidelines, available at http://www.modeltrademarkguidelines.org, used under a Creative Commons Attribution 3.0 Unported license: https://creativecommons.org/licenses/by/3.0/deed.en_US_
