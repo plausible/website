@@ -97,5 +97,5 @@ You can [sign up for a free trial](https://plausible.io/register) and explore pr
 
 ---
 
-**Last updated: March 2026**
+**Last updated: March 2026**  
 Clarifications only. No material changes to data handling.
