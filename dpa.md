@@ -33,7 +33,7 @@ We take many measures to protect and secure your data through backups, redundanc
 
 You entrust us with your site data and we take that trust to heart. You agree that Plausible Analytics may process your data as described in our data policy and only for that purpose.
 
-You retain full ownership and control of your website data. We obtain no rights from you to your website data. We do not sell or share your site data to third parties and we respect your visitors’ privacy.
+You retain full ownership and control of your website data. We obtain no rights from you to your website data. We do not sell your data and only share it with trusted service providers where necessary to operate and provide the service.
 
 Even though the purpose of Plausible Analytics is to measure website usage, this can be done without tracking, collecting or storing personal data that can be used to identify individuals, without using cookies and while respecting the privacy of your website visitors.
 
@@ -41,7 +41,7 @@ By using Plausible Analytics, all site measurement is carried out in an anonymou
 
 We do not attempt to generate a device-persistent identifier. We do not use cookies, browser cache nor local storage. We do not store, retrieve nor extract anything from visitor devices.
 
-Every HTTP request includes the IP address and User-Agent. We generate a daily changing identifier using these inputs. To anonymize these datapoints and make them impossible to relate back to the user, we run them through a hash function with a rotating salt.
+Every HTTP request includes the IP address and User-Agent. We generate a daily changing identifier based on these inputs. To anonymize these datapoints and make them impossible to relate back to the user, we run them through a hash function with a rotating salt.
 
 > hash(daily_salt + website_domain + ip_address + user_agent)
 
@@ -55,7 +55,7 @@ You can find more information in our publicly available [data policy](https://pl
 
 ## Organizational and technical security measures
 
-All tracked data is secured, encrypted and hosted on renewable energy powered servers in Germany. Visitor data is processed and stored within the European Union on EU-owned infrastructure and does not leave the EU.
+All tracked data is secured, encrypted and hosted on renewable energy powered servers in Germany. Visitor data is processed and stored within the European Union on EU-owned infrastructure.
 
 We use HTTPS in transit and strong hashing techniques. We apply strict firewall rules, private networking and secure backups. Passwords are hashed using bcrypt.
 
@@ -121,5 +121,5 @@ If you have questions about this DPA, contact us at privacy@plausible.io.
 
 ---
 
-Last updated: March 2026  
+**Last updated: March 2026**
 Clarifications only. No material changes to data processing.
