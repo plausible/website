@@ -5,7 +5,7 @@ description: Here’s a detailed overview of the technical and organizational se
 permalink: "/security"
 ---
 
-Plausible Analytics is a privacy-first web analytics startup that’s built to enable you to comply with GDPR, CCPA and other privacy regulations that impact your business. You entrust us with your site data and we take that trust to heart. We’re committed to being transparent, securing your data, eliminating systems vulnerability and ensuring continuity of access.
+Plausible Analytics is a privacy-first web analytics startup that’s built to enable you to comply with GDPR, CCPA and other privacy regulations that impact your business. You entrust us with your site data and we take that trust to heart. We’re committed to being transparent, securing your data, eliminating system vulnerabilities and ensuring continuity of access.
 
 ## TL;DR
 
@@ -134,5 +134,5 @@ If you have any questions about our security practices, please [contact us](http
 
 ---
 
-Last updated: March 2026  
+**Last updated: March 2026**
 Clarifications only. No material changes to data handling.
