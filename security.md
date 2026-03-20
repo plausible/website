@@ -18,14 +18,14 @@ Here's a brief summary of our data security practices:
 * You can enable two-factor authentication (2FA)
 * You can configure Single Sign-On (SSO)
 * Our software is updated multiple times per week
-* There is a public changelog 
+* We maintain a public changelog
 * Regular vulnerability scans are conducted 
 * All data is backed up on remote backups
 * Data access is firewalled and user-restricted
 * Our code is transparent and can be audited
 * Performance is monitored and uptime is disclosed
 * Data can be exported via CSV or stats API
-* We don’t collect or store personal data that can be used to identify individuals about website visitors
+* We don’t collect or store personal data about website visitors that can be used to identify individuals
 * We don’t store debit or credit card details
 * We do not store visitor data outside the EU
 * We don’t outsource our software development
@@ -36,7 +36,7 @@ Here’s a more detailed overview of the technical and organizational security m
 
 ## Data minimization
 
-Plausible is a privacy-first tool so we don’t collect or store personal or sensitive data that can be used to identify individuals. Even though the purpose of Plausible is to track the usage of a website, this can still be done without tracking, collecting or storing personal data, without using cookies and while respecting the privacy of your website visitors.
+Plausible is a privacy-first tool so we don’t collect or store personal data that can be used to identify individuals. Even though the purpose of Plausible is to track the usage of a website, this can still be done without tracking, collecting or storing personal data, without using cookies and while respecting the privacy of your website visitors.
 
 By using Plausible, all the site measurement is carried out in an anonymous and privacy-friendly way. We minimize data collection in general. We measure only the most essential data points and nothing else.
 
