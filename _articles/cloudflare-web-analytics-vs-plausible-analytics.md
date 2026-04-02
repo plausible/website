@@ -132,6 +132,8 @@ Instead, we generate a daily changing identifier using the visitor’s IP addres
 
 Plausible Analytics is an [open source web analytics](https://plausible.io/open-source-website-analytics) tool. Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure. Plausible can even be self-hosted for those who want to manage their own server infrastructure.
 
+Plausible is also incorporated and hosted in the EU, with all visitor data processed exclusively on European-owned infrastructure. Cloudflare is a US company, which creates data transfer considerations under GDPR. See our [EU hosting page](https://plausible.io/eu-hosted-web-analytics) for more on this.
+
 This is not the case with Cloudflare Web Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Cloudflare script.
 
 This doesn't necessary have to mean anything bad as Cloudflare unlike Google has no interest in the ad-tech world, it simply means that you have to put your trust in Cloudflare.

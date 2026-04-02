@@ -49,6 +49,8 @@ Plausible is designed to respect privacy and comply with relevant privacy laws b
 
 Because of this, Plausible can be used in a way that aligns with regulations like GDPR, PECR and CCPA for many common use cases. An independent [review](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) by a data protection lawyer backs this claim.
 
+All visitor data is also processed and stored exclusively in the EU on European-owned infrastructure, and never leaves the EEA. See our [EU hosting page](https://plausible.io/eu-hosted-web-analytics) for the full details.
+
 You can even [avoid cookie consent banners](https://plausible.io/blog/cookie-consent-banners#but-can-you-avoid-the-cookie-consent-banners) by using Plausible, which not only makes compliance easier but makes your website experience much better.
 
 We offer a [Data Processing Agreement (DPA)](https://plausible.io/dpa) and clear documentation around how data is handled and retained so your legal and compliance teams can review and approve the arrangement. You always retain ownership of your analytics data.

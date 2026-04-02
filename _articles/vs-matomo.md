@@ -90,6 +90,8 @@ Without taking the above steps, you would need to compromise the visitor experie
 
 Plausible doesn't use any cookies and we don't collect any personal data so by using Plausible you don't need to obtain a [cookie consent or the GDPR consent](https://plausible.io/data-policy) at all.
 
+Plausible is also incorporated and hosted in the EU, with all visitor data processed exclusively on European-owned infrastructure. See our [EU hosting page](https://plausible.io/eu-hosted-web-analytics) for more details.
+
 ## Sign up for a free Plausible trial
 
 [Sign up for a 30-day free trial](https://plausible.io/register) to explore our simple web analytics dashboard that is privacy-friendly out of the box and that helps you get a faster-loading website.
