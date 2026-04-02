@@ -73,7 +73,7 @@ Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/l
 
 ## Privacy regulations and the need for cookie notices and GDPR or CCPA consent
 
-By being a more simple and more lightweight alternative, it means that Plausible also tracks and collects fewer data points by default. We are built as a [privacy-first analytics tool](https://plausible.io/privacy-focused-web-analytics).
+By being a simpler and more lightweight alternative, it means that Plausible also tracks and collects fewer data points by default. We are built as a [privacy-first analytics tool](https://plausible.io/privacy-focused-web-analytics).
 
 With Matomo being a full-blown Google Analytics-like tool, it is using cookies and it is collecting personal data by default for reports such as session recordings and heatmaps.
 

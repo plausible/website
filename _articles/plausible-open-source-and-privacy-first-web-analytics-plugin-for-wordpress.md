@@ -21,15 +21,15 @@ Plausible Analytics is built to be a more modern [alternative to Google Analytic
 
 * Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any long-term identifiers and doesn't track any personal data. We're exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics).
 * Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Plausible will not slow down your site.
-* P﻿lausible is [much more accurate](https://plausible.io/most-accurate-web-analytics) in stats as compared to GA4.
+* Plausible is [much more accurate](https://plausible.io/most-accurate-web-analytics) in stats as compared to GA4.
 * Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top posts, referral sources, engagement metrics (time on page, scroll depth, bounce rate and more), external link clicks and goal conversions.
 * Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words.
-* Plausible, unlike Google Analytics, is [not a free](https://plausible.io/paid-analytics-vs-free-ga) as in beer product. We don't sell or monetize your site data. We choose the subscription business model rather than surveillance capitalism and are [solely funded by the fees](https://plausible.io/blog/customers-not-investors) our subscribers pay us.
+* We don't sell your data or make money from tracking people. We're [solely funded by the fees](https://plausible.io/blog/customers-not-investors) our subscribers pay us.
 * There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing).
 
 ## How can Plausible Analytics be used for WordPress?
 
-P﻿lausible is a web analytics plugin that can be used to measure your website traffic, understand trends, analyze traffic sources, marketing campaigns, build funnels, track revenue, and much more. We offer a very easy setup and some special features for WordPress users, an overview is here:
+Plausible is a web analytics plugin that can be used to measure your website traffic, understand trends, analyze traffic sources, marketing campaigns, build funnels, track revenue, and much more. We offer a very easy setup and some special features for WordPress users, an overview is here:
 
 * **See which external and affiliate links people actually click** so you know what sends traffic and drives value
 * **Find out which files get downloaded the most**, whether they are PDFs, resources, or digital products
@@ -77,7 +77,7 @@ Now you need to go to your WordPress dashboard and activate the Plausible Analyt
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/).
 * You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one.
 
-T﻿his is the full settings screen and it comes with a few options pre-enabled which you can keep as it is if you do want to track those things or turn them off.
+This is the full settings screen and it comes with a few options pre-enabled which you can keep as they are if you do want to track those things or turn them off.
 
 ![Plausible Analytics WordPress plugin settings](/uploads/plausible-wp-plugin-settings.png "Plausible Analytics WordPress plugin settings")
 
@@ -181,7 +181,7 @@ If you'd like to count your visits, you can do so as well. Simply enable the use
 
 By default, Plausible adds a shortcut to the WordPress toolbar so you can quickly jump to analytics for the page you’re viewing. If you prefer a cleaner toolbar or don’t need quick access to stats while browsing your site, you can disable this menu with a single toggle.
 
-## E﻿nhanced measurements
+## Enhanced measurements
 
 ### How to track 404 error pages
 
@@ -410,27 +410,27 @@ Then enter the query parameter that you'd like to track. E.g. enter `lang` if yo
 
 All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard.
 
-## O﻿ther things you can do with Plausible
+## Other things you can do with Plausible
 
-P﻿lausible is a mainstream web analytics tool and you can do everything that a regular Plausible subscriber does. We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some quick highlights: 
+We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some quick highlights: 
 
-### I﻿ntegrate with Google Search Console
+### Integrate with Google Search Console
 
 See your search queries, impressions, clicks, and average positions alongside your site traffic. This helps you understand how people find your site through Google and how search performance translates into visits and conversions.
 
-### E﻿nable notifications
+### Enable notifications
 
-Set up email or Slack notifications to stay informed about important changes in your traffic. You also get alerts for traffic spikes, drops, so you notice issues or opportunities without constantly checking your dashboard.
+Set up email or Slack notifications to stay informed about important changes in your traffic. You also get alerts for traffic spikes, drops so you notice issues or opportunities without constantly checking your dashboard.
 
-### S﻿etup funnels
+### Setup funnels
 
 Use [funnels](https://plausible.io/docs/funnel-analysis) to understand how visitors move through key steps on your site, such as landing on a page, viewing product pages, and completing a signup or purchase. Funnels help you spot where people drop off and where you can improve conversions.
 
-### G﻿et a consolidated view for all your sites
+### Get a consolidated view for all your sites
 
 If you manage multiple websites, you can view combined stats across all of them in a single dashboard. This makes it easier to monitor overall performance, compare trends, and get a high-level overview without switching between sites.
 
-### C﻿onnect with Looker Studio for custom reporting
+### Connect with Looker Studio for custom reporting
 
 Export your Plausible data to Looker Studio to build custom dashboards and reports. This is useful if you want to combine analytics data with other sources or create tailored reports for clients, teams, or stakeholders.
 

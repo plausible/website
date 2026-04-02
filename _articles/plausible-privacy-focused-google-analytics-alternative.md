@@ -5,11 +5,11 @@ description: Plausible provides cookie-less web analytics without collecting
   personal data and while respecting the privacy of your website visitors.
 permalink: /privacy-focused-web-analytics
 ---
-Even though the purpose of [Plausible Analytics](https://plausible.io) is to track the usage of a website, this can still be done without collecting any personal data or personally identifiable information (PII), without using cookies and while respecting the privacy of your website visitors.
+Most analytics tools treat visitor privacy as an afterthought. [Plausible](https://plausible.io) was built the other way around.
 
-By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. Cookies are not set and no personal data is collected. All data is in aggregate only. The website owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience.
+You get the data you need to understand your site. Your visitors get an experience that doesn't track, profile or follow them around the web. No cookies, no personal data, no consent banners required.
 
-Here's a look at what makes Plausible Analytics a privacy-friendly Google Analytics alternative.
+Here's how it works.
 
 ![Plausible: Privacy-friendly website analytics](/uploads/plausible-privacy-friendly.png "Plausible: Privacy-friendly website analytics")
 
@@ -60,17 +60,9 @@ You can read our [full comparison with server logs](https://plausible.io/blog/se
 
 The goal of Plausible Analytics is to track overall trends in your website traffic, it is not to track individual visitors. The privacy of your website visitors is important to us so we do not track any individual people. All the data is in aggregate only.
 
-## No tracking across devices
+## No persistent tracking of any kind
 
-We do not track people across their devices. All the data is isolated to a single device only. There is no way to know whether the same person visits a site from more than one device.
-
-## No tracking across websites and apps
-
-We do not track people across websites and apps that they visit. All the data is isolated to a single website only. There is no way to know what other websites someone visits.
-
-## All data is isolated to a single day
-
-All the data is isolated to a single day only. There is no way to know whether the same person comes back to a site on another day.
+We do not track visitors across devices, websites or time. All data is isolated to a single device, a single website and a single day. There is no way to know whether the same person visits from another device, visits another site, or returns the next day.
 
 ## No cookies and other persistent identifiers
 
@@ -90,33 +82,28 @@ When using Plausible Analytics, you 100% own and control all of your website dat
 
 You can delete everything that we have collected about your site any time that you want.
 
-## Your data is not sent to, shared with or sold to any third-parties
+## We don't make money from your data
 
-We do not share, sell or send your website data to any advertising companies or any other third-parties in general. Your website data is not monetized, mined and harvested for personal and behavioral trends. That is not our business model.
+Plausible is funded entirely by subscribers. We don't sell your data, we don't show ads and we don't share visitor information with third parties. Your data is never monetized or used for behavioral profiling.
 
-## We have nothing to do with surveillance capitalism
-
-Our business model has nothing to do with collecting and analyzing huge amounts of personal information from web users and using these behavioral insights to sell advertisements. We choose the subscription business model rather than the business model of surveillance capitalism.
-
-Plausible Analytics is funded by our community of people that use and enjoy our product. Since we don’t make money from advertising, by selling your data or by abusing the privacy of your visitors, we need to charge a fee. 
-
-Revenue from our paid subscribers helps keep the project development going, helps us cover our costs, stay in business, helps us to continue putting time and effort into improving the project.
+Because we don't make money from tracking people, we charge a fee instead. That's what keeps the project running and lets us focus entirely on building a better product for our customers.
 
 ## You can open up your stats and share them with your visitors
 
 We have an in-built feature that we recommend all website owners use to [open up their stats to the public](https://plausible.io/docs/visibility/). Then you can share your stats on your site to be fully transparent so your visitors and anyone else can view the data that you yourself have access to. 
 
-Many of sites using Plausible have chosen to do so. Then they share a link to their public stats dashboard in their footer, in their privacy policy or on their about page. You can even [embed our dashboard](https://plausible.io/docs/embed-dashboard) into your site.
+Many sites using Plausible have chosen to do so. Then they share a link to their public stats dashboard in their footer, in their privacy policy or on their about page. You can even [embed our dashboard](https://plausible.io/docs/embed-dashboard) into your site.
 
 ## You can self-host Plausible Analytics
 
 Plausible Analytics is open source and you can self-host it on your own server.
 
 The main difference between Plausible Analytics in the cloud and the self-hosted version is that the self-hosted version you need to install, maintain and manage on your own server while the cloud version we manage for you so you don't have to worry about anything.
- You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
 
-## Sounds like an interesting alternative to you?
+You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
 
-If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register)a﻿nd utilize our [GA4 to Plausible transition guide](https://plausible.io/blog/ga-to-plausible-transition).
+## Give Plausible a try
+
+If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register) and utilize our [GA4 to Plausible transition guide](https://plausible.io/blog/ga-to-plausible-transition).
 
 As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
