@@ -61,6 +61,8 @@ All visitor data is securely processed and stored in the EU on infrastructure ow
 
 Visitor data does not leave the EU.
 
+For full details on our infrastructure, subprocessors and what this means for GDPR compliance, see our [EU hosting page](https://plausible.io/eu-hosted-web-analytics).
+
 We use trusted service providers where necessary to operate and provide the service.
 
 ---
