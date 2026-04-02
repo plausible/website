@@ -21,9 +21,7 @@ People build audiences and businesses with content in many different ways, such 
 
 Some focus on audience growth, others on revenue or building a long-term publication. Some are only writing for the joy of this art.
 
-W﻿hichever way you're growing your content engine, you can utilize simple, privacy-friendly, without cookie banners, analytics platform that will be up on your site in minutes and give you all the insights on one simple dashboard that is easy to understand at a glance.
-
-T﻿he best news: You don't have to struggle with Google Analytics anymore.
+Whichever way you're growing your content engine, you can use a simple, privacy-friendly analytics platform with no cookie banners that will be up on your site in minutes and give you all the insights on one simple dashboard that is easy to understand at a glance.
 
 ![Website analytics for publishers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for publishers and content creators")
 
@@ -64,7 +62,7 @@ On top of this, Google Analytics places [multiple cookies](https://developers.go
 
 These are things that many site owners and content creators simply don't want to nor have the time or capacity to deal with. And the value that GA provides may not be worth it in terms of what it takes to have it running with regards to dealing with privacy policy and cookie consent. 
 
-**On the other hand**, Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box! [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
+**On the other hand**, Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box. [We don't use cookies](https://plausible.io/data-policy) and we don't collect any personal data from your visitors either. This means that you don't need to have a privacy policy regarding Plausible Analytics and you don't need to have a [cookie banner](https://plausible.io/blog/cookie-consent-banners) nor ask to get consent from your visitors.
 
 You keep your site simple, clean and optimized for your visitors. No need to put any time and effort into legal aspects. You can focus on creating content and growing your audience.
 
@@ -84,7 +82,7 @@ This means your analytics may underreport traffic and engagement, especially for
 
 **On the other hand**, Plausible Analytics is privacy-friendly by default, so it sees significantly less level of blockage. We also have a proxy that allows you to run our script as a [first party connection from your domain name](https://plausible.io/docs/proxy/introduction). You may very well see [more accurate](https://plausible.io/most-accurate-web-analytics) (and higher) visitor numbers.
 
-M﻿oreover, in [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users—unlike Plausible, which correctly identified and excluded them from the stats.
+Moreover, in [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users, while Plausible correctly identified and excluded them.
 
 ## How publishers use Plausible?
 
@@ -111,7 +109,7 @@ For long-form journalism or feature stories, the engagement signals especially h
 
 These insights help shape editorial planning and identify the topics that matter most to your readers.
 
-Y﻿ou can also make use of the Entry Pages and Exit Pages reports to know where readers start their visit and where they leave your site.
+You can also make use of the Entry Pages and Exit Pages reports to know where readers start their visit and where they leave your site.
 
 You can also segment this data by traffic source, campaign, or device type to better understand how different audiences engage with your content.
 
@@ -130,13 +128,13 @@ You can see traffic from:
 * UTMs
 * direct sources
 
-.﻿..basically, every source that brings you traffic. This helps you understand which distribution channels bring engaged readers to your site.
+This helps you understand which distribution channels bring engaged readers to your site.
 
 ### Analyze your SEO performance and organic traffic
 
 Search remains one of the most important ways readers discover content.
 
-I﻿n Plausible, open the **Traffic Sources** report and filter by **Organic search**.
+In Plausible, open the **Traffic Sources** report and filter by **Organic search**.
 
 This shows:
 
@@ -146,11 +144,11 @@ This shows:
 
 You can then combine this with the **Top Pages** report to see which articles attract search traffic and continue to perform long after publication.
 
-O﻿r look at **Entry Pages** to see the pages actually attracting organic traffic.
+Or look at **Entry Pages** to see the pages actually attracting organic traffic.
 
 ![organic search performance in plausible](/uploads/organic-search-performance-in-plausible.png "organic search performance in plausible")
 
-Y﻿ou can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
+You can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
 
 Together, these insights help publishers understand not just what ranks in search, but which content actually keeps readers engaged and brings consistent traffic over time.
 
@@ -165,7 +163,7 @@ You can see:
 * how many readers are currently on your site
 * which articles they are reading right now
 * where those readers are coming from
-* w﻿hat goals were met in the last 30 minutes
+* what goals were met in the last 30 minutes
 
 This helps editorial teams quickly identify when a story is gaining traction.
 
@@ -183,11 +181,11 @@ Knowing which stories contribute to these outcomes helps publishers. Plausible a
 * subscription conversions
 * clicks on key calls to action
 
-.﻿..and [tie any goal to revenue](https://plausible.io/docs/ecommerce-revenue-tracking) so you can track it right within one dashboard while tying it back to traffic sources, top content, geographies, etc.
+...and [tie any goal to revenue](https://plausible.io/docs/ecommerce-revenue-tracking) so you can track it right within one dashboard while tying it back to traffic sources, top content, geographies, etc.
 
-Y﻿ou even have options like automatic and [codeless form submissions tracking](https://plausible.io/docs/form-submissions-tracking) for tracking newsletter signups and codeless [pageview goals](https://plausible.io/docs/pageview-goals) where you can track a `/thank-you` or `/subscription-confirmed` page for instance.
+You even have options like automatic and [codeless form submissions tracking](https://plausible.io/docs/form-submissions-tracking) for tracking newsletter signups and codeless [pageview goals](https://plausible.io/docs/pageview-goals) where you can track a `/thank-you` or `/subscription-confirmed` page for instance.
 
-Y﻿ou can even weave multiple goals into a [funnel](https://plausible.io/docs/funnel-analysis) to track user journeys and dropoffs.
+You can even weave multiple goals into a [funnel](https://plausible.io/docs/funnel-analysis) to track user journeys and dropoffs.
 
 ### Track monetization metrics and ad engagement
 
@@ -202,7 +200,7 @@ You could track this as a custom event such as **“Affiliate link click”** or
 * **Link type** (affiliate link, sponsor link, or internal promotion) to see 
 * **Placement** (sidebar, inline within the article, or end-of-article section) to see which placements drive the most ad engagement
 
-.﻿..etc.
+...etc.
 
 Another popular use case for custom properties is tracking additional context about your individual pages, such as:
 
@@ -210,7 +208,7 @@ Another popular use case for custom properties is tracking additional context ab
 * **Category or section** (e.g. News, Opinion, Guides) to see what drives the most traffic or conversions
 * **Content type** (article, review, tutorial)
 
-a﻿nd so on.
+and so on.
 
 In Plausible, these events appear in your Events report, where you can filter and [break down the data](https://plausible.io/audience-segmentation) using those properties.
 
@@ -232,7 +230,7 @@ Once installed, Plausible immediately starts collecting privacy-friendly analyti
 
 You can find detailed setup [guides](https://plausible.io/docs/integration-guides) for many popular platforms. And there's a specific plug-and-play [plugin](https://plausible.io/wordpress-analytics-plugin) for WordPress as well.
 
-## U﻿se Plausible to refine your editorial strategy
+## Use Plausible to refine your editorial strategy
 
 Analytics becomes most useful when it helps inform what you publish next. By reviewing which topics resonate, which articles attract readers, and which stories drive subscriptions, publishers can gradually refine their editorial strategy.
 

@@ -5,13 +5,13 @@ description: Plausible Analytics is a privacy-friendly and open source Google
   Analytics alternative that you can install and self-host on your server.
 permalink: /self-hosted-web-analytics
 ---
-Plausible Analytics is an open source web analytics tool. Our mission is to reduce corporate surveillance by making a useful and privacy-friendly website analytics tool that doesn't come from the adtech world.
+Plausible Analytics is an open source web analytics tool. Our mission is to make useful, privacy-friendly web analytics that doesn't come from the adtech world.
 
-The site owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
+The site owner gets some actionable data to help them learn and improve, while the visitor's privacy is respected. Cookies are not used and no personal data is collected. There's no cross-site or cross-device tracking either.
 
 The easiest way to get started with Plausible is with our [official managed service in the cloud](https://plausible.io) but if you're happy to manage your own infrastructure, you can also self-host Plausible Community Edition (CE) on your server. Plausible CE is our "free as in beer", self-hosted and AGPL-licensed release.
 
-Our managed hosting can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of Plausible. So you’ll be supporting open source software and getting a great service!
+Our managed hosting can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of Plausible. So you’ll be supporting open source software and getting a great service.
 
 ![Plausible: Self-hosted Google Analytics alternative](/uploads/plausible-self-hosted.png "Plausible: Self-hosted Google Analytics alternative")
 
@@ -41,7 +41,7 @@ We believe that no financial sacrifice should be required to work on open source
 
 We released our code on GitHub and made it easy to self-host on principle, not because it's good business. While Plausible Community Edition can be self-hosted for free, we also sell a hosted, plug and play solution as a SaaS. This is our only source of funding. We're growing a sustainable open source project funded solely by the fees that our subscribers pay us.
 
-[Our business model](https://plausible.io/about) has nothing to do with collecting and analyzing huge amounts of personal information from your visitors and using these behavioral insights to sell advertisements. We don't make money by selling or sharing your data, or abusing your visitor's privacy.
+[Our business model](https://plausible.io/about) has nothing to do with collecting and analyzing huge amounts of personal information from your visitors and using these behavioral insights to sell advertisements. We don't make money by selling or sharing your data.
 
 We are not interested in raising funds or taking investment either. Plausible is completely independent and bootstrapped. Revenue from paid subscriptions is used to pay our rent, further develop Plausible and allow us to commit to open source full time.
 
