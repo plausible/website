@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Secure, compliant and privacy-first web analytics for global enterprises
-description: Enterprise-ready, privacy-first web analytics built for
-  high-traffic sites. Accurate stats, strong security, compliance by default and
-  custom plans.
+title: Enterprise web analytics without the compliance headaches
+description: Plausible is used by Hugging Face, MongoDB, Harvard and 600+
+  other enterprise accounts. No cookies, no consent banners, EU hosting, DPA
+  included. Custom plans for high-traffic sites.
 permalink: /enterprise-web-analytics
 ---
 Many large organizations are rethinking their analytics setup. The compliance overhead of cookie-based tools like Google Analytics, combined with data flowing to US servers and growing scrutiny from privacy regulators, has made the status quo harder to justify.
