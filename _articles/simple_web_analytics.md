@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Plausible: Simple web analytics, no complexity required"
+title: "Simple web analytics for people who just want the numbers"
 description: Plausible gives you the metrics that matter in a single dashboard.
-  No menus to dig through, no custom reports to build, no prior experience needed.
+  No menus, no custom reports, no prior experience needed.
 permalink: /simple-web-analytics
 ---
 Most analytics tools give you more data than you need and make it hard to find what matters. [Plausible](https://plausible.io/) takes a different approach: one page, the metrics that count, no setup required.

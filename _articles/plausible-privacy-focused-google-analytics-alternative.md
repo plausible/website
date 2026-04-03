@@ -1,66 +1,53 @@
 ---
 layout: article
-title: "Plausible: Privacy focused Google Analytics alternative"
-description: Plausible provides cookie-less web analytics without collecting
-  personal data and while respecting the privacy of your website visitors.
+title: "Privacy-focused web analytics: no cookies, no personal data, no consent banner"
+description: Web analytics without cookies, consent banners or personal data collection. GDPR, CCPA and PECR compliant out of the box. Your data stays in the EU.
 permalink: /privacy-focused-web-analytics
 ---
 Most analytics tools treat visitor privacy as an afterthought. [Plausible](https://plausible.io) was built the other way around.
 
 You get the data you need to understand your site. Your visitors get an experience that doesn't track, profile or follow them around the web. No cookies, no personal data, no consent banners required.
 
-Here's how it works.
-
 ![Plausible: Privacy-friendly website analytics](/uploads/plausible-privacy-friendly.png "Plausible: Privacy-friendly website analytics")
 
 1. Ordered list
 {:toc}
 
-## It's an open source web analytics software
+## It's open source web analytics software
 
 Plausible Analytics is [open source software](https://plausible.io/open-source-website-analytics). Our source code is available and accessible [on GitHub](https://github.com/plausible/analytics/).
 
-We are not a black box. Everything is in the open. Anyone can view, review and inspect the code we’re running to verify that we practice what we preach.
+We are not a black box. Everything is in the open. Anyone can view, review and inspect the code we're running to verify that we practice what we preach.
 
-This is essential in the market of privacy software. Corporations and proprietary software cannot always be trusted when data is in question. The only way to prove your trust is to allow experts to look into your code and verify that you're actually doing what you're saying you're doing.
+This matters in the market for privacy software. Proprietary tools cannot always be trusted when data is at stake. The only way to prove trustworthiness is to let experts look at the code.
 
-## Hosted in the EU powered by European-owned cloud infrastructure
+## Hosted in the EU on European-owned infrastructure
 
-We're a small team and we're based in the EU. The legal entity is incorporated in Estonia.
+We're a small team based in the EU. Our legal entity is incorporated in Estonia.
 
-All of the data that we do track and collect is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. The server is owned by Hetzner, a European company. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy.
+All data we collect is kept fully secured, encrypted and hosted on renewable energy powered servers in Falkenstein, Germany, owned by Hetzner, a European company. We use Bunny (a European provider from Slovenia) for our global CDN and DDoS protection.
 
-We use Bunny (another European-owned provider from Slovenia) for a global CDN, DNS and DDoS protection. This ensures that all visitor data we collect is exclusively processed with servers owned and operated by European companies.
+All visitor data is exclusively processed on servers owned and operated by European companies, covered by the EU's strict data privacy laws. Your website data [never leaves the EU](https://plausible.io/blog/google-analytics-illegal).
 
-You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data [never leaves the EU](https://plausible.io/blog/google-analytics-illegal).
+This matters practically. Several EU data protection authorities have declared Google Analytics non-compliant with GDPR because it transfers data to US servers. Switching to Plausible removes that risk entirely.
 
 ## Completely independent, self-funded and bootstrapped
 
-There are [no investors](https://plausible.io/blog/customers-not-investors) behind Plausible Analytics and no big corporations with a different agenda or big plans. We are not interested in raising funds or taking investment. Not from individuals, not from institutions and not from venture capitalists. We ignore all such requests. We're solely funded by our subscribers. 
+There are [no investors](https://plausible.io/blog/customers-not-investors) behind Plausible Analytics. We're not interested in raising funds or taking investment. We're funded entirely by our subscribers.
 
 ## We minimize data collection
 
-We minimize data collection in general. We measure only the most essential data points and nothing else.
+We collect only the most essential data points and nothing else.
 
-Other analytics tools such as the market leader Google Analytics collect and provide [hundreds of different reports with hundreds of different metrics](https://plausible.io/simple-web-analytics). This vast data collection is unnecessary, it is violating the privacy of web users and it is overkill for most website owners.
+Other analytics tools like Google Analytics offer [hundreds of different reports](https://plausible.io/simple-web-analytics) built on vast data collection that is unnecessary for most website owners.
 
-All the metrics we do collect fit on one single page. The benefits of minimizing data collection go beyond privacy. Plausible Analytics is much easier and simpler to use and understand. It's also [75 times lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site and reduces your carbon footprint. 
+All the metrics we do collect fit on one single page: page views, unique visitors, referral sources, top pages, countries, devices and browsers. That's it. This makes Plausible much easier to use. It's also [75 times lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site or add to your carbon footprint.
 
-You can view all the data we collect in [our live demo dashboard](https://plausible.io/plausible.io). It features our own website stats.
-
-## No personal data is collected
-
-We do not track, collect nor store any personal data or personally identifiable information. You can explore all the data points we do collect in [our data policy](https://plausible.io/data-policy).
-
-Plausible Analytics is even more privacy friendly than options such as server logs. In server logs, you can see all the IP addresses of your visitors and details about when they visited your site while there is no way to get any kind of personal data from Plausible Analytics.
-
-You can read our [full comparison with server logs](https://plausible.io/blog/server-log-analysis).
-
-## All data is in aggregate only
-
-The goal of Plausible Analytics is to track overall trends in your website traffic, it is not to track individual visitors. The privacy of your website visitors is important to us so we do not track any individual people. All the data is in aggregate only.
+You can see exactly what you'd get in [our live demo dashboard](https://plausible.io/plausible.io) or review the full list in [our data policy](https://plausible.io/data-policy).
 
 ## No persistent tracking of any kind
+
+The goal of Plausible is to track overall trends in your website traffic, not to track individual visitors. All the data is in aggregate only.
 
 We do not track visitors across devices, websites or time. All data is isolated to a single device, a single website and a single day. There is no way to know whether the same person visits from another device, visits another site, or returns the next day.
 
@@ -68,42 +55,42 @@ We do not track visitors across devices, websites or time. All data is isolated 
 
 [We do not use cookies whatsoever](https://plausible.io/blog/google-analytics-cookies).
 
-We do not generate any persistent identifiers either. We generate a random string of letters and numbers that is used to calculate unique visitors on a website and we reset this string once per day.
+We do not generate any persistent identifiers either. We generate a random string of letters and numbers to calculate unique visitors on a given day and reset this string daily.
 
-This makes us compliant with the different cookie laws and [privacy regulations such as GDPR](https://plausible.io/blog/google-analytics-gdpr) and PECR.
+This makes us compliant with cookie laws and [privacy regulations including GDPR](https://plausible.io/blog/google-analytics-gdpr), CCPA and PECR.
 
 Here's an independent [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
 
-By not using cookies you do not need to obtain consent from the visitors to store and retrieve data from their devices. It's one less thing to worry about and annoy your visitors with. 
+By not using cookies, you do not need to obtain consent from visitors to store and retrieve data from their devices. No cookie banner required.
 
-## You 100% own your website data
+## Privacy-first means more complete data, not less
 
-When using Plausible Analytics, you 100% own and control all of your website data. Although when using our hosted service, your site analytics are stored on our server in the cloud, you remain completely in control of your site data and you fully own all of your data too.
+This is the part most people don't expect. When you use Google Analytics, you need a consent banner. Visitors who decline it aren't tracked at all. Depending on your audience, a significant portion of your traffic is simply invisible.
 
-You can delete everything that we have collected about your site any time that you want.
+Because Plausible doesn't use cookies or collect personal data, no consent banner is required. Every visitor is counted. You get a more accurate picture of your traffic, not a filtered one.
+
+## You own your website data
+
+When using Plausible, you own and control all of your website data. Even when using our hosted service, you remain completely in control. You can delete everything we have collected about your site at any time.
 
 ## We don't make money from your data
 
-Plausible is funded entirely by subscribers. We don't sell your data, we don't show ads and we don't share visitor information with third parties. Your data is never monetized or used for behavioral profiling.
+Plausible is funded entirely by subscribers. We don't sell your data, show ads or share visitor information with third parties. Your data is never monetized or used for behavioral profiling.
 
 Because we don't make money from tracking people, we charge a fee instead. That's what keeps the project running and lets us focus entirely on building a better product for our customers.
 
 ## You can open up your stats and share them with your visitors
 
-We have an in-built feature that we recommend all website owners use to [open up their stats to the public](https://plausible.io/docs/visibility/). Then you can share your stats on your site to be fully transparent so your visitors and anyone else can view the data that you yourself have access to. 
-
-Many sites using Plausible have chosen to do so. Then they share a link to their public stats dashboard in their footer, in their privacy policy or on their about page. You can even [embed our dashboard](https://plausible.io/docs/embed-dashboard) into your site.
+We have a built-in feature that lets you [open your stats to the public](https://plausible.io/docs/visibility/). Many sites using Plausible share a link to their public dashboard in their footer, privacy policy or about page. You can even [embed the dashboard](https://plausible.io/docs/embed-dashboard) directly into your site.
 
 ## You can self-host Plausible Analytics
 
-Plausible Analytics is open source and you can self-host it on your own server.
-
-The main difference between Plausible Analytics in the cloud and the self-hosted version is that the self-hosted version you need to install, maintain and manage on your own server while the cloud version we manage for you so you don't have to worry about anything.
+Plausible is open source and you can self-host it on your own server. The cloud version we manage for you. The self-hosted version you install, maintain and manage yourself.
 
 You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
 
 ## Give Plausible a try
 
-If this sounds interesting to you, you can try out Plausible Analytics on your website. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register) and utilize our [GA4 to Plausible transition guide](https://plausible.io/blog/ga-to-plausible-transition).
+Hugging Face, Ghost, Basecamp, Harvard and thousands of other sites trust Plausible with their analytics. You can try it free for 30 days with no credit card required. [Start your free trial here](https://plausible.io/register).
 
-As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after you're completely happy with what Plausible provides. Enjoy!
+Setup takes a few minutes. Add a single script tag to your site and you're collecting data. You can run Plausible alongside your current analytics provider and only remove the other script once you're happy with what Plausible provides.
