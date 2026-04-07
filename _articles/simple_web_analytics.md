@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Simple web analytics for people who just want the numbers"
+title: Simple web analytics for people who just want the numbers
 description: Plausible gives you the metrics that matter in a single dashboard.
   No menus, no custom reports, no prior experience needed.
 permalink: /simple-web-analytics
@@ -9,7 +9,9 @@ Most analytics tools give you more data than you need and make it hard to find w
 
 Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom and the Steve Jobs Archive.
 
-![Plausible: Simple web analytics tool](/uploads/google-analytics-alternatives.png "Plausible: Simple web analytics tool")
+![simpler google analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: simpler google analytics alternative")
+
+**[👉 See how simple it is](https://plausible.io/plausible.io)**
 
 1. Ordered list
 {:toc}
@@ -28,17 +30,17 @@ Google Analytics is a powerful tool, but it's built for analysts, not website ow
 
 Whether you're running a blog, a SaaS product, or an online store, Plausible gives you the core metrics you need in a single view:
 
-- **Unique visitors and pageviews**
-- **Traffic sources** (referrers, search, social, campaigns)
-- **Top pages** (including entry and exit pages)
-- **Countries, devices, browsers, and operating systems**
-- **Goals and conversions**
-- **Revenue tracking** (for ecommerce)
+* **Unique visitors and pageviews**
+* **Traffic sources** (referrers, search, social, campaigns)
+* **Top pages** (including entry and exit pages)
+* **Countries, devices, browsers, and operating systems**
+* **Goals and conversions**
+* **Revenue tracking** (for ecommerce)
 
 No menus to dig through. No custom reports to build. No prior experience needed. Everything is on one page, filterable by any dimension, with the ability to compare time periods.
 
 > "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
-
+>
 > "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4." -- Cyrus Shepard, SEO consultant and former Moz lead
 
 ## More ways Plausible keeps things simple
