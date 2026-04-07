@@ -1,190 +1,163 @@
 ---
 layout: article
-title: Easy to use, actionable and privacy-compliant analytics for ecommerce and
-  startups
-description: Plausible Analytics helps ecommerce and SaaS startups get some
-  actionable data so that they can make better decisions while being compliant
-  with the privacy regulations.
+title: Web analytics for ecommerce and SaaS: simple, powerful and privacy-friendly
+description: Plausible is a simple, privacy-friendly alternative to Google Analytics for ecommerce and SaaS. No cookies, no consent banners and accurate data that isn't blocked by ad blockers.
 permalink: /for-ecommerce-saas
 ---
-[Plausible Analytics](https://plausible.io/) helps ecommerce and SaaS startups get actionable data to make better decisions. At the same time, their visitors keep having a privacy-friendly and enjoyable experience.
+If you run an ecommerce store or a SaaS business, you need to know what's driving traffic and conversions. The question isn't whether to track analytics, it's whether Google Analytics is actually giving you reliable data and whether the complexity is worth it.
 
-Plausible Analytics is compliant with different privacy regulations so you don't need to worry about getting GDPR consent from your visitors. We keep it simple by minimizing data collection and focusing on 20% of Google Analytics metrics that 80% of analytics users find most useful.
+For most teams, it isn't. Plausible gives you everything that matters: campaign tracking, conversion goals, revenue attribution, funnels and accurate traffic data. Without the setup overhead, cookie banners or the data quality problems that come with GA.
 
 ![Website analytics for ecommerce and SaaS](/uploads/plausible-ecommerce-saas.png "Website analytics for ecommerce and SaaS")
 
 1. Ordered list
 {:toc}
 
-## Get actionable insights from your key traffic and referral metrics
+## The problem with Google Analytics
 
-Getting actionable insights from traditional web analytics tools can be a cumbersome, time-consuming and [painful process](https://plausible.io/blog/easy-insights). Plausible is built with simplicity in mind. 
+Google Analytics is the default choice for most ecommerce and SaaS teams, but it comes with real costs.
 
-[Our dashboard is simple](https://plausible.io/simple-web-analytics) to understand without having any prior experience, training or support. 
+It's blocked by a large share of web visitors. Ad blockers and privacy-focused browsers routinely skip it, so a meaningful portion of your audience simply isn't counted. Some sites see 30% or more of traffic going untracked.
 
-Everything you need to know is on one page. There are no layers of menus. There is no need for you to build custom reports and dashboards. You get an overview in one minute and can get on with tasks that you enjoy more, such as creating new content or building your audience.
+GA also uses cookies and collects personal data, which means you need a cookie consent banner. Those banners reduce data quality further because many visitors decline. So you end up with analytics that are both invasive and incomplete.
 
-You get actionable insights at a glance to analyze and understand the effectiveness of your marketing and user acquisition tactics:
+On top of that, GA4 made reporting harder for most users. The interface is complex, the setup requires configuration, and getting simple answers often means building custom reports.
 
-* Number of visitors coming to your site
+Plausible is a [simpler, more accurate alternative](https://plausible.io/vs-google-analytics) that avoids these problems without asking you to give up the insights you rely on.
+
+## You get accurate data from day one
+
+Because Plausible is privacy-friendly by default, it isn't blocked at the same rate as Google Analytics. You immediately see more of your actual traffic.
+
+On top of that, Plausible takes several steps to [improve data accuracy](https://plausible.io/most-accurate-web-analytics):
+
+* Known referrer spam and data center traffic is filtered out automatically. We exclude around 32,000 data center IP ranges by default to prevent bots from inflating your numbers.
+* Traffic from Android apps (traditionally lumped into "Direct" in most tools) is identified separately. For sites with significant mobile traffic, this recovers 10% or more of previously unattributed visits from apps like Gmail, Slack and Telegram.
+* VPN and Tor browser visitors are grouped under "Anonymous VPN Service" to reduce noise in location reports.
+
+We also support [proxying our script as a first-party connection](https://plausible.io/docs/proxy/introduction) for even higher accuracy.
+
+## Switching is straightforward
+
+You don't have to lose your history when you move away from Google Analytics. You can import past stats so trends, seasonality and year-over-year comparisons stay intact inside Plausible.
+
+Our [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting or gaps in your data.
+
+If your store runs on WordPress, WooCommerce or Shopify, setup takes minutes. We have a [WordPress plugin](https://plausible.io/wordpress-analytics-plugin) and direct integrations with the most common platforms. You can also install via [Google Tag Manager](https://plausible.io/gtm-template) or add the script directly to any site or framework. See all [installation guides](https://plausible.io/docs/integration-guides).
+
+You can run Plausible alongside GA during the transition to compare results before removing anything.
+
+## Get actionable insights from your traffic and referral sources
+
+[Our dashboard](https://plausible.io/simple-web-analytics) gives you everything you need on one page. No custom reports to build, no menus to dig through. You can understand your site performance in under a minute.
+
+At a glance you can see:
+
+* Number of visitors and pageviews
 * Where in the world your visitors are based
-* What devices, operating systems and browsers your visitors use
-* What are the referral sources of your traffic
-* The duration of a session depending on the referral source
-* What pages are your visitors landing on
-* What's the bounce percentage of your visitors
+* What devices, operating systems and browsers they use
+* What referral sources are driving your traffic
+* Which pages visitors are landing on and where they drop off
+* Bounce rate and session duration by source
 
-And much more. You can see [our live demo](https://plausible.io/plausible.io) for full details on actionable metrics you get access to. 
+You can see [our live demo](https://plausible.io/plausible.io) for full details.
 
 ## Follow the user journey from paid ad to conversion
 
-With Plausible Analytics, you can follow the user journey from a paid advertising campaign to a conversion on your website. You do that by tagging your marketing campaigns with UTM tags and by setting up custom goals on your site:
-
 ### Track marketing campaigns using UTM tags
 
-UTM parameters are a useful tool for businesses. They help you get more insights into the dark traffic and identify specific campaigns or pieces of content that deliver the best conversions. 
+UTM parameters help you identify which campaigns and content drive conversions. Dark traffic (clicks from emails, messenger apps and bookmarks) won't show a referrer source by default. Tagging your links with `utm_source`, `utm_medium` and `utm_campaign` solves that.
 
-Dark traffic includes clicks from emails, messenger apps, bookmarks and social media. You cannot see which referrer sources are sending that traffic.
+Plausible has full UTM tag support out of the box. You can:
 
-A solution to minimize dark traffic is to tag links using utm_source, utm_medium and utm_campaign. Plausible has full UTM tag support out-of-the-box. 
+* Track email marketing campaigns
+* Compare paid vs. organic social
+* Analyze individual posts, influencers or affiliate partners
+* Measure guest blogging and content syndication
 
-When you have tagged links in your email campaigns and social media advertising, you see clicks on these links in your Plausible dashboard. With UTM tags, you can:
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)".
 
-* Track your email marketing campaigns
-* Compare paid vs. organic social media activities
-* Check the results of individual social media posts
-* Analyze influencers, affiliates and creators you're sponsoring
-* Analyze your guest blogging and content syndication campaigns
+### Set up goals and events to track conversions
 
-See "[how to use UTM parameters to track your campaigns and understand the dark traffic](https://plausible.io/blog/utm-tracking-tags)".
+You can track any action you want visitors to take: visiting a specific page, clicking a button, completing a checkout or signing up for a trial.
 
-### Set up custom goals and events to track conversions
-
-With Plausible Analytics, you can set up the goal and event tracking to figure out your conversion rates and understand the percentage of visitors who sign up for your service or buy your product.
-
-Goals can be any action that you want your users to take: visit a specific page URL, sign up to a newsletter, click on the "Download" button, register for a trial account or complete the checkout form of an ecommerce store.
-
-With goals and events, you can track the number of goals completed, conversion rates and other useful insights, including referrer sources driving conversions.
+Goals give you the number of completions, conversion rates and which referral sources are driving those conversions.
 
 Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
 
 ### Build sales and marketing funnels
 
-After you have your custom events in place, you can also start building sales and marketing funnels. The insights from the sales funnel allow you to uncover possible issues, optimize your site and increase the conversion rate. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
+Once you have custom events set up, you can build funnels to see where visitors drop off between steps. This helps you find friction points in your checkout flow or signup process and improve conversion rates. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
-### Seamless cross-subdomain tracking
+### Cross-subdomain tracking
 
-Does your business operate on a single domain name with multiple subdomains such as `docs.yourdomain.com`, `app.yourdomain.com` and `www.yourdomain.com`?
+If you run a main marketing site, an app on a subdomain and a docs site, Plausible can track the full visitor journey across all of them.
 
-Plausible helps you simplify cross-subdomain tracking. You can view the visitor journey end-to-end from the landing on your primary domain name to a conversion on the subdomain. 
+The original referral source stays attributed to the visitor as they move between subdomains, and conversions on any subdomain are credited to the right source. No need to filter out internal referrals.
 
-The original referral source will stay attributed to that visitor even when the visitor moves from one of your subdomains to another.
+See more on [hostname and subdomain tracking](https://plausible.io/docs/subdomain-hostname-filter).
 
-Any conversions that happen on your subdomains will be attributed to the original referral source that brought the visitor to your main domain. There's no need to filter out internal referral sources as this eliminates the issue where you might see your subdomains as a major source of traffic.
+## Track ecommerce revenue
 
-See more on our [hostname or subdomain tracking](https://plausible.io/docs/subdomain-hostname-filter).
+You can send monetary values alongside custom events to [track revenue for your store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution shows you which campaigns and landing pages generate the most revenue, not just the most clicks.
 
-## Send monetary values to track your ecommerce revenue
+![Plausible ecommerce revenue tracking](/uploads/plausible-ecommerce-revenue-goal.png "Plausible ecommerce revenue tracking")
 
-You can send dynamic monetary values alongside custom events to [track revenue for your ecommerce store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue. 
-
-Our revenue tracking supports multi-currencies too. You'll be able to see total revenue and average order revenue in your dashboard:
-
-The revenue metrics are fully filterable. For instance, you can see the total or average revenue for a particular custom event per any dimension such as a specific date, referral source, marketing campaign, entry page, country or device.
+Revenue tracking supports multiple currencies. You'll see total revenue and average order value in your dashboard, and all revenue metrics are fully filterable by date, referral source, campaign, entry page, country or device.
 
 Also see: [How to boost ecommerce sales by tracking revenue attribution in web analytics](https://plausible.io/blog/ecommerce-revenue-attribution)
 
-## Add properties to an event or pageview to create custom metrics
+## Add custom properties to events and pageviews
 
-You can create your custom metrics in Plausible Analytics. You do this by adding properties to your events or pageviews to collect and analyze data that Plausible Analytics doesn't automatically track. When sending an event, you can attach arbitrary metadata to it. This helps you:
+You can attach metadata to any event or pageview to track dimensions that Plausible doesn't capture automatically. This lets you:
 
-* Compare different website elements
-* [Track the number of clicks on outbound links](https://plausible.io/docs/outbound-link-click-tracking)
-* [Track the number of file downloads](https://plausible.io/docs/file-downloads-tracking)
-* Do A/B testing
+* Compare different website elements or variants
+* [Track outbound link clicks](https://plausible.io/docs/outbound-link-click-tracking)
+* [Track file downloads](https://plausible.io/docs/file-downloads-tracking)
+* Run A/B tests
 
-And anything else that you wish. You can then filter and sort your goals by event properties in your Plausible Analytics dashboard. [Learn more about custom properties for events here](https://plausible.io/docs/custom-event-goals#using-custom-props). And [custom properties for pageviews here](https://plausible.io/docs/custom-pageview-props).
+You can then filter and segment your dashboard by those properties. Just make sure not to send any personally identifiable information as custom property values.
 
-Note that you must ensure that no personally identifiable information (PII) is sent to Plausible Analytics when you collect the metadata. PII is information that could be used on its own to identify, contact, or precisely locate an individual. This includes:
+[Learn more about custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-pageview-props).
 
-* full names or usernames
-* email addresses
-* mailing addresses
-* phone numbers
-* credit card information
-* passport numbers
-* precise locations
-* IP addresses
-* pseudonymous cookie IDs, advertising IDs or other pseudonymous end user identifiers
+## See organic search and AI traffic clearly
 
-## Filter the dashboard by anything you click on
+The dashboard includes a dedicated Organic Search channel that shows how much of your traffic comes from search engines. This also includes traffic from AI assistants and AI-powered search tools, giving you a more complete picture of how people find you.
 
-You have your web metrics, your UTM tagged visitors are coming in, and you've set up goals and events with different labels so you're tracking custom metrics too.
+You can also connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries and pages drive organic visitors, alongside engagement and conversion data.
 
-The way you can dig more in-depth and get further insights is by filtering. Click on any metric on your Plausible Analytics dashboard to filter your dashboard by it: 
+## No cookie banner required
 
-* Click on any referral source to isolate all the traffic sent by that referral source and understand visitors and conversions coming from there
-* Click on any page to filter all the traffic by visitors who've seen that page
-* Click on any country to only analyze visitors coming from that country
+Plausible is compliant with GDPR, CCPA and PECR out of the box. We don't use cookies and we don't collect or store any personally identifiable information about your visitors.
 
-And on and on. All metrics are clickable.
+This means you don't need a cookie consent banner. No pop-ups asking visitors for permission, no decline rates reducing your data quality and no legal overhead to manage.
 
-What's even better is the fact that you can mix and match filters. Want to understand visitors coming from Facebook who've visited your home page, are located in the United States and using Chrome as a browser on iOS? You can do that by selecting those filters. 
+You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
 
-You can add multiple filters to create audience segments too. This allows you to see the conversions and revenue from for instance the audience segment that's located in Germany, Austria and Switzerland, that were referred by a particular UTM campaign and are using Mac OS.
+## Stay on top of traffic changes
 
-Explore this on the [live demo](https://plausible.io/plausible.io).
-
-## Invite team members and collaborate
-
-Plausible makes it easy to invite team members, clients and other collaborators. You can invite team members and also assign their roles. 
-
-You can choose to give people access to the stats dashboard only or give them the permission to edit site settings and invite other collaborators.  
-
-You can learn more about [user accounts and levels](https://plausible.io/docs/users-roles).
-
-## Share your stats via email or unique links
-
-You can share your Plausible Analytics reports and dashboard in multiple ways, both privately and publicly.
-
-[Email reports](https://plausible.io/docs/email-reports) can be sent to multiple recipients and scheduled weekly (every Monday) or monthly (every 1st of the month). All the stats are embedded directly in the email and there's no need to go to any website. There are no attachments, no PDFs and no links to click on. No friction.
-
-You can also share your website dashboard privately and securely by [generating a unique shared link](https://plausible.io/docs/shared-links). This link is impossible to guess, so only people you send it to will have access to it. No need to log in, no need for accounts and passwords either. You do have the option to password protect the link for extra security.
-
-You can even open up your Plausible Analytics dashboard [to the public](https://plausible.io/docs/visibility) and proudly share it with the world like we're sharing our stats in the live demo.
-
-## Simplified compliance with the privacy regulations
-
-Plausible Analytics is compliant with the different privacy regulations such as GDPR, CCPA and PECR out of the box. We don't use cookies and we don't collect or store any personally identifiable information from your visitors either. You can see [our data policy](https://plausible.io/data-policy) for full details on metrics we collect about your visitors on your behalf.
-
-You 100% own and control all of your website data. We do not collect and analyze personal information from web users and we do not use behavioral insights to sell advertisements. We do not sell or share your site data with any third-parties.
-
-All this means that you don't need to worry about having a cookie banner nor annoy your visitors asking for their GDPR consent when using Plausible Analytics. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
+You can set up [traffic spike notifications](https://plausible.io/docs/traffic-spikes) to get alerted when a campaign or piece of content drives an unusual surge in visitors. Useful for ecommerce during launches, sales or press coverage.
 
 ## Build faster loading websites
 
-Every KB makes a difference when you want to [optimize your site for speed](https://plausible.io/lightweight-web-analytics). Plausible Analytics script is lightweight.
+Plausible's script is lightweight, which keeps your pages fast. Heavy analytics scripts are a common flag in Google PageSpeed Insights. By switching to Plausible, you reduce that overhead and improve Core Web Vitals without giving up useful data.
 
-Large scripts can lead to your site having slower loading times. Commonly, the different page speed tests, including Google's PageSpeed Insights, flag Google Analytics as one of the elements that slow down a site.
+See more on our [lightweight analytics](https://plausible.io/lightweight-web-analytics).
 
-By using Plausible Analytics, your site will keep loading fast and your visitors will have a smooth experience.
+## Build custom reports with Looker Studio
 
-## Get accurate data
+If you need more advanced reporting, the [Looker Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. You can combine it with data from other sources like Google Search Console or your ad platforms for a more complete view.
 
-Plausible Analytics takes several steps out of the box to [elevate the accuracy of your stats](https://plausible.io/most-accurate-web-analytics):
+## Share stats with your team
 
-* Known referrer spam domains and traffic originating from data centers is filtered out. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats. For eg., Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar instances, but Plausible handles them all automatically for you.
-* Traffic originating from Android apps (traditionally categorized as "Direct / None" in analytics tools) is uncovered. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram
-* Visitors that use VPN services and the Tor browser are grouped under the “Anonymous VPN Service” entry to eliminate the noise that VPNs add to the locations reports
+You can invite teammates and assign roles: either view-only access to the dashboard, or full access to edit settings and manage collaborators. See more on [user accounts and roles](https://plausible.io/docs/users-roles).
 
-In addition to this, browsers such as Firefox block the most popular analytics tools and so do the different ad-blocking extensions. These are used by millions of web users who won't be counted in your website statistics. It's not uncommon to see 30% or even more of the audience on a website blocking Google Analytics. 
+You can also set up weekly or monthly [email reports](https://plausible.io/docs/email-reports) sent to multiple recipients. Stats are embedded directly in the email, no login required.
 
-Plausible Analytics is privacy-friendly by default, so it doesn't see the same level of blockage. We also have a way for you to [proxy our script as a first-party connection](https://plausible.io/docs/proxy/introduction).
+Or generate a private [shared link](https://plausible.io/docs/shared-links) to the dashboard for anyone who needs occasional access. No account required to view it, and you can password-protect it for extra security.
 
 ## Try Plausible Analytics
 
-Does all this sound good for your ecommerce or SaaS startup? You can try out Plausible Analytics on your website for free. We have a completely free 30-day trial. No credit card is required. You can [start your free trial here](https://plausible.io/register).
+[Start a free 30-day trial](https://plausible.io/register). No credit card required and you can run Plausible alongside your existing analytics while you evaluate it.
 
-We don't make money by selling or sharing your visitor data. That's why Plausible isn't free. We charge a subscription fee instead.
-
-As we're very lightweight, you can even run Plausible alongside your current analytics provider, test things and only remove the other script after being happy with what Plausible provides. Enjoy!
+We charge a subscription fee instead of monetizing your data. That's the model that keeps our incentives aligned with yours.
