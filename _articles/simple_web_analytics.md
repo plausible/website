@@ -7,7 +7,7 @@ permalink: /simple-web-analytics
 ---
 Most analytics tools give you more data than you need and make it hard to find what matters. [Plausible](https://plausible.io/) takes a different approach: one page, the metrics that count, no setup required.
 
-Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom and the Steve Jobs Archive.
+Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom, and the Steve Jobs Archive.
 
 ![simpler google analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: simpler google analytics alternative")
 
