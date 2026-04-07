@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Web analytics for ecommerce and SaaS: simple, powerful and privacy-friendly
+title: "Web analytics for ecommerce and SaaS: simple, powerful and privacy-friendly"
 description: Plausible is a simple, privacy-friendly alternative to Google Analytics for ecommerce and SaaS. No cookies, no consent banners and accurate data that isn't blocked by ad blockers.
 permalink: /for-ecommerce-saas
 ---
