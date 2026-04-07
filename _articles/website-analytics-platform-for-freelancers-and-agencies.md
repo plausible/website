@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Why agencies are switching from Google Analytics to Plausible
-description: Google Analytics is the default for most agencies, but it comes with
+title: "Why agencies are switching from Google Analytics to Plausible"
+description: "Google Analytics is the default for most agencies, but it comes with
   real costs. Plausible is a simpler, privacy-first alternative that's easier to
-  manage, share with clients and maintain across multiple sites.
+  manage, share with clients and maintain across multiple sites."
 permalink: /for-freelancers-agencies
 ---
 Google Analytics is the default choice for most agencies, but that doesn't mean it's the right one. It's complex to set up, hard for clients to understand, not privacy-friendly and increasingly blocked by browsers, which means missing data.
