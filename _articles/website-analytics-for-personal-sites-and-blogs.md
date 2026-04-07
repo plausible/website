@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Content analytics for publishers and content creators
-description: Simple, accurate analytics for publishers and content teams. No cookie banners, no data gaps. Understand what drives traffic, engagement and subscriptions.
+title: "Content analytics for publishers and content creators"
+description: "Simple, accurate analytics for publishers and content teams. No cookie banners, no data gaps. Understand what drives traffic, engagement and subscriptions."
 permalink: /for-bloggers-creators
 ---
 Publishers and content teams need to know what’s working. Which articles attract readers? What topics drive subscriptions? Where does your traffic actually come from?
