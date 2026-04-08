@@ -33,15 +33,6 @@ The Cloudflare Web Analytics dashboard includes a note that all stats are "based
 
 That means Cloudflare is not showing you the actual numbers from your site. They take 10% of your traffic, analyze it and display figures extrapolated from that sample. It's a way to reduce the cost of running a free product, but it leads to inaccurate data.
 
-Just compare these two charts for top pages and top sources. Same website and same time period but different numbers on the Cloudflare dashboard compared to the Plausible dashboard.
-
-Cloudflare top pages and top sources:
-
-![Cloudflare Web Analytics top pages](/uploads/cloudflare-web-analytics-top-sources-pages.png)
-
-Plausible top pages and top sources:
-
-![Plausible Analytics top pages](/uploads/plausible-top-pages-sources.png)
 
 
 ## Cloudflare limits the number of items shown per report
