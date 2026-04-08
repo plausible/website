@@ -1,13 +1,10 @@
 ---
 layout: article
-title: Cloudflare Web Analytics vs Plausible Analytics
-description: Here's a look at Cloudflare Web Analytics and how it compares to
-  Plausible Analytics and other analytics such as Google Analytics.
+title: "Cloudflare Web Analytics vs Plausible: A dedicated tool vs a side feature"
+description: Cloudflare Web Analytics and Plausible are both simple, privacy-friendly alternatives to Google Analytics. Here's how they compare on accuracy, features, data retention and transparency.
 permalink: /vs-cloudflare-web-analytics
 ---
-Cloudflare Web Analytics is a new player on the simple, privacy-first and de-Googled web analytics market.
-
-This is a look at Cloudflare Web Analytics and how it compares to Plausible Analytics and other analytics tools such as Google Analytics.
+Cloudflare Web Analytics entered the simple, privacy-first analytics market as a free alternative to Google Analytics. It's worth understanding exactly what you're getting and how it compares to a dedicated analytics tool like Plausible.
 
 ![Cloudflare Web Analytics vs Plausible Analytics](/uploads/plausible-vs-cloudlare-analytics.png "Cloudflare Web Analytics vs Plausible Analytics")
 
@@ -16,49 +13,25 @@ This is a look at Cloudflare Web Analytics and how it compares to Plausible Anal
 
 ## What is Cloudflare Analytics?
 
-Cloudflare offers a couple of similar sounding products: Cloudflare Analytics and Cloudflare Web Analytics.
+Cloudflare offers two similar-sounding products. Cloudflare Analytics is a server-side tool that works through their DNS proxy. No script needed, but it includes all bot and spam traffic which makes the data unreliable. You can read more about [client side vs server side web analytics](https://plausible.io/blog/server-log-analysis) and the gap between them.
 
-Cloudflare Analytics is a server-side analytics tool similar to server logs. You don't need to insert any JavaScript snippet on your site. You just need to change your DNS or use Cloudflare's proxy to get access to these stats. 
+Cloudflare Web Analytics is different. It works client-side via a JavaScript snippet, is free to use, and is their response to tools like Google Analytics and Plausible. This is how they describe it: "Our analytics don't cookie your visitors, collect their personal information, or track them across sites. So if your site needs a cookie banner, it won't be because of us".
 
-Like other server logs, Cloudflare Analytics is wildly inaccurate as all the bots and other spam is included in the stats. You can read more about [client side vs server side web analytics](https://plausible.io/blog/server-log-analysis) and the gap in the data between them.
-
-Cloudflare Analytics is a premium product for the paying customers of Cloudflare who use their other services to improve their sites' performance and security.
-
-Cloudflare has recently launched Cloudflare Web Analytics and this is their response to Google Analytics and other web analytics tools such as Plausible Analytics. 
-
-It works client side using a JavaScript snippet that you need to insert into your site. And unlike their other analytics product, Cloudflare Web Analytics is free to use. 
-
-This is how they describe it: "Our analytics don't cookie your visitors, collect their personal information, or track them across sites. So if your site needs a cookie banner, it won't be because of us".
-
-That sounds pretty much like [what Plausible does too](https://plausible.io/privacy-focused-web-analytics), so Cloudflare Web Analytics is what we'll compare Plausible Analytics to in this post.
-
-## Plausible vs Cloudflare Web Analytics comparison: What are the differences?
-
-Even though both Plausible and Cloudflare Web Analytics are built to be simple to use, privacy-friendly and lightweight, there are some important differences too. Let's explore them.
+That sounds similar to [what Plausible does too](https://plausible.io/privacy-focused-web-analytics). So Cloudflare Web Analytics is what we'll compare here.
 
 ## Cloudflare has strict data retention limits
 
-When Cloudflare Web Analytics launched, the maximum viewable range for your  dashboard was set to 7 days. You lost access to everything that happened more than a week ago. It seemed to be deleted as there was no way to retrieve it. 
+Cloudflare Web Analytics limits data retention to 30 days. That means anything older than a month is gone.
 
-They are "working on extending the queryable time range to 30 days for Business plan users" and have recently increased the data retention limits but there's no official announcement on how long the new limit is for. Also note that the business plan is not free and starts at $200 per month.
+This makes year on year comparisons impossible and even quarter on quarter comparisons out of reach. For most site owners, 30 days of history isn't enough to spot trends or measure the impact of changes over time.
 
-This is a dealbreaker for many people who use analytics. It is very common to compare larger data sets ranging from a month on month comparison, quarter on quarter or even year on year. 
+Plausible retains your data for a minimum of three years across all plans.
 
-Limiting data retention is a great way for Cloudflare to reduce their cost when providing a product free of charge but even 30 days of historical data is not that useful for most site owners.
+## Cloudflare stats are based on a 10% sample
 
-When using Plausible Analytics, there are no limitations on how much data you can store or retain. You can view any of the data we've counted about your website since you installed the Plausible Analytics script and you can do so at any time that you wish. No data restrictions or limits whatsoever. 
+The Cloudflare Web Analytics dashboard includes a note that all stats are "based on a 10% sample of page load events".
 
-## Cloudflare dashboard is inaccurate
-
-Some stats that Cloudflare Web Analytics displays are a bit weird and inaccurate. Here's why.
-
-### Stats are based on a 10% sample
-
-Their dashboard has a note that all stats are "based on a 10% sample of page load events". 
-
-What does that mean? Cloudflare Web Analytics is not showing the actual stats from your site. They take a subset of all of the data they collect (10% of your total traffic), analyze it and display an assumption based on the patterns seen in the sample they analyzed.
-
-This is another great way for them to reduce their running costs for providing this free product but it leads to inaccurate data. 
+That means Cloudflare is not showing you the actual numbers from your site. They take 10% of your traffic, analyze it and display figures extrapolated from that sample. It's a way to reduce the cost of running a free product, but it leads to inaccurate data.
 
 Just compare these two charts for top pages and top sources. Same website and same time period but different numbers on the Cloudflare dashboard compared to the Plausible dashboard.
 
@@ -70,84 +43,47 @@ Plausible top pages and top sources:
 
 ![Plausible Analytics top pages](/uploads/plausible-top-pages-sources.png)
 
-### Bots are not excluded
 
-Another inaccuracy comes from the fact that Cloudflare Web Analytics doesn't seem to do much bot detection. 
+## Cloudflare limits the number of items shown per report
 
-In your list of top browsers and top operating systems, you may find "Unknown" having a decent percentage of the market share. This is normally a good sign of bot traffic. You will also see obvious bots such as the GoogleBot.
+Cloudflare Web Analytics caps most reports at 15 entries. You can only see the top 15 pages, referral sources, devices and so on. For smaller sites that might be fine, but for anything with real volume it becomes a constraint quickly.
 
-![Cloudflare Web Analytics top OS](/uploads/cloudflare-web-analytics-os-browser.png)
+You can filter to look up a specific page or source manually, but there's no way to browse or discover what's outside the top 15.
 
-Plausible Analytics filters out known referrer spam domains and traffic originating from data centers, out-of-the-box. We exclude ~32K data center IP ranges (i.e. a lot of bot IP addresses) by default, preventing bot traffic from inflating your stats.
+Plausible has no limits on the number of items shown in any report. Have hundreds of pages or referral sources? Keep scrolling.
 
-## Cloudflare limits you to 15 items on any report
+## Cloudflare limits the insights you can access
 
-You can only see the top 15 of your pages, referral sources, countries and so on in your Cloudflare Web Analytics dashboard. Full lists are not available which makes it difficult to work with larger data sets or sites with a higher number of visitors. 
+Cloudflare Web Analytics covers the basics: page views, visits, referrers, countries and devices. Beyond that, it gets thin.
 
-You could use the filter to manually input a specific page or specific referral source to try and dig those stats up but there's no easy way to discover them.
+Plausible is built as a dedicated analytics product, so the feature set goes considerably further. You get live visitor counts, bounce rate, visit duration, [UTM campaign tracking](https://plausible.io/blog/utm-tracking-tags), goal and event tracking, and more. These aren't extras. They're the things most site owners actually need to understand their traffic and measure what matters.
 
-The filtering process is slow and inconvenient and goes something like this. To see stats for one of your pages outside of the top 15, you need to:
+The difference comes down to focus. For Cloudflare, web analytics is a small side feature. For Plausible, it's the entire product. That shows in what gets built, how fast things improve and how much attention goes into getting the details right.
 
-* Click on "Add filter"
-* Select "Path" as the filter
-* Then type in the page URL if you can remember what it is
-* Click on "Apply"
-
-Plausible Analytics doesn't have any limits on the number of items we show in the individual reports. Have hundreds of pages or hundreds of referral sources? Keep scrolling within your Top Pages or Top Sources lists. Same goes for countries, goals and other metrics within other reports.
-
-## Cloudflare limits the number of insights you can get access to
-
-Cloudflare Web Analytics is too basic even for the [simple web analytics](https://plausible.io/simple-web-analytics) tools such as Plausible Analytics. 
-
-Here are some of the metrics missing on Cloudflare Web Analytics compared to what you can get on Plausible Analytics:
-
-* No live view or live dashboard so you cannot see what's happening on your site right now
-* No visit duration and time on page so you cannot figure out how long people stay on your site, on the specific pages or judge the quality of a referral source
-* No bounce rate so you cannot analyze the quality of different pages or referral sources
-* No support for [UTM tags](https://plausible.io/blog/utm-tracking-tags) so you cannot track your marketing campaigns, emails and minimize the dark traffic
-* No goal and event tracking so you cannot figure out whether people are taking action you're focused on and you cannot track things such as [external link clicks](https://plausible.io/blog/track-outbound-link-clicks)
-* No way to serve the script as a first-party connection so the Cloudflare Web Analytics is blocked by many browsers and extensions which means fewer of your visitors get counted. To avoid adblockers, you will need to use their premium 
-  Cloudflare Analytics tool
-* Cloudflare Web Analytics recently introduced performance metrics for [Core Web Vitals](https://plausible.io/blog/page-experience-web-vitals) and this is something Plausible doesn't support
+Cloudflare can absorb the cost of offering analytics for free precisely because it's a minor feature for them. Keeping it free means keeping it limited. Plausible is funded entirely by subscribers, which is what lets a small independent team work on it full time.
 
 ## Different definitions of unique visitor
 
-Plausible Analytics and Cloudflare Web Analytics have different definitions of what a unique visitor is.
+Plausible and Cloudflare Web Analytics count visitors differently.
 
-Like Plausible Analytics, Cloudflare Web Analytics [doesn't use cookies nor local storage to track visitors](https://plausible.io/blog/google-analytics-cookies) so a different method of counting is necessary.
+In Cloudflare Web Analytics, "a visit is a successful page view that has an HTTP referrer that doesn't match the hostname of the request". Basically, Cloudflare counts the number of times someone landed on your site from another site. They acknowledge that "you should expect this number to differ from other analytics tools".
 
-In Cloudflare Web Analytics, "a visit is a successful page view that has an HTTP referrer that doesn't match the hostname of the request".
+If the same person visits your site ten times in one day, Cloudflare Web Analytics lists that person as ten unique visitors. Plausible counts them as one.
 
-Basically Cloudflare counts the number of times someone landed on any page of your site from another site. They say that "you should expect this number to differ from other analytics tools". 
+Plausible doesn't use cookies or persistent identifiers either. Instead, we generate a daily changing identifier using the visitor's IP address and User Agent, run through a hash function with a rotating salt. You can read more in [our data policy](https://plausible.io/data-policy).
 
-This is because it may differ greatly from other analytics tools depending on the type of site and audience you're attracting. 
+## Open source vs closed source
 
-If the same person visits your site ten times in one day, Cloudflare Web Analytics lists that person as ten unique visitors while tools such as Plausible Analytics will show that visitor as one unique.
-
-Plausible Analytics doesn't attempt to generate a device-persistent identifier either because these are considered [personal data under GDPR](https://plausible.io/blog/google-analytics-gdpr).
-
-Instead, we generate a daily changing identifier using the visitor’s IP address and User Agent. To anonymize these datapoints, we run them through a hash function with a rotating salt. You can learn more about our method in [our data policy](https://plausible.io/data-policy).
-
-## Open source vs closed source web analytics
-
-Plausible Analytics is an [open source web analytics](https://plausible.io/open-source-website-analytics) tool. Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure. Plausible can even be self-hosted for those who want to manage their own server infrastructure.
+Plausible is [open source](https://plausible.io/open-source-website-analytics). Our source code is available on GitHub so anyone can read and review it to verify that we do what we say.
 
 Plausible is also incorporated and hosted in the EU, with all visitor data processed exclusively on European-owned infrastructure. Cloudflare is a US company, which creates data transfer considerations under GDPR. See our [EU hosting page](https://plausible.io/eu-hosted-web-analytics) for more on this.
 
-This is not the case with Cloudflare Web Analytics which is a closed source product. There's simply no way of knowing what's going on behind the scenes when using the Cloudflare script.
+Cloudflare Web Analytics is closed source. There's no way to verify what happens behind the scenes when using their script. That doesn't necessarily mean anything bad. Cloudflare, unlike Google, has no stake in the ad-tech world. But you do have to take their word for it.
 
-This doesn't necessary have to mean anything bad as Cloudflare unlike Google has no interest in the ad-tech world, it simply means that you have to put your trust in Cloudflare.
+## Which tool is right for you?
 
-## Paid vs Free (and David vs Goliath)
+If you're already a Cloudflare customer and just need a basic traffic overview with zero setup cost, Cloudflare Web Analytics is a reasonable starting point. If you need accurate data, full history, goal tracking and a complete picture of your traffic, Plausible is the better fit.
 
-Cloudflare Web Analytics is a product made by one of the largest corporations in the world. A company that has many different money-generating products which allows them to provide analytics free of charge as a way to get more paying customers or a way to gather business intelligence to improve their services.
+## Try Plausible free for 30 days
 
-It is also a company that is not specialized in web analytics which shows in the way they've built their analytics dashboard with inconveniences such as not having an easy access to view the stats for today.
-
-Plausible Analytics, on the other hand, is made by a small, bootstrapped and independent team. And web analytics is what we do so our focus is 100% on our web analytics product. 
-
-It costs time and money to develop, manage and maintain a web analytics service. This is why we charge a fee for our subscription plans. It helps us run a sustainable business that we can work on full time. By using Plausible, you will support indie-developers, indie-businesses and the independent web. 
-
-Cloudflare chooses to make their web analytics a free product but they cut the costs of running that free service by using aggressive data sampling and strict data history limitations.
-
-If you're curious about Plausible Analytics, we have a 30-day free trial. There's no credit card required to sign up for the trial. [Learn more here](https://plausible.io/register).
+Hugging Face, Ghost, Basecamp and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required.
