@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Plausible: Privacy-first web analytics plugin for WordPress"
-description: Plausible Analytics is a web analytics plugin for WordPress that is
-  a simple to use, lightweight and privacy-friendly Google Analytics
-  alternative.
+title: "Plausible Analytics for WordPress: no cookies, no consent banner, accurate data"
+description: A lightweight, privacy-friendly Google Analytics alternative for
+  WordPress. No cookies, no consent banners, accurate data and a simple
+  dashboard that shows what matters.
 permalink: /wordpress-analytics-plugin
 ---
-Plausible Analytics is a privacy-friendly web analytics plugin for WordPress that is an easy-to-use, lightweight and more accurate alternative to Google Analytics.
+Most WordPress analytics plugins either slow your site down, require a cookie banner, or hand your visitors’ data to Google. Plausible does none of those things. You get accurate, privacy-friendly stats in a lightweight plugin that takes minutes to set up.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
@@ -17,24 +17,24 @@ Plausible Analytics is a privacy-friendly web analytics plugin for WordPress tha
 
 ## How is Plausible Analytics different from Google Analytics?
 
-Plausible Analytics is built to be a more modern [alternative to Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics solutions. Here's what makes us different:
+Here is how Plausible compares to [Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics tools:
 
-* Plausible, unlike Google Analytics, doesn't use cookies, doesn't use any long-term identifiers and doesn't track any personal data. We're exclusively powered by [EU-owned cloud infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics).
-* Plausible, unlike Google Analytics, is [built for speed and performance](https://plausible.io/lightweight-web-analytics). Plausible will not slow down your site.
-* Plausible is [much more accurate](https://plausible.io/most-accurate-web-analytics) in stats as compared to GA4.
-* Plausible, unlike Google Analytics, is [simple to use](https://plausible.io/simple-web-analytics) and get valuable insights from. All the key metrics are displayed on one page, including top posts, referral sources, engagement metrics (time on page, scroll depth, bounce rate and more), external link clicks and goal conversions.
-* Plausible like WordPress but unlike Google Analytics is [open source software](https://plausible.io/open-source-website-analytics). You can inspect and review our source code to verify that our actions match with our words.
-* We don't sell your data or make money from tracking people. We're [solely funded by the fees](https://plausible.io/blog/customers-not-investors) our subscribers pay us.
-* There's a 30-day free trial with no credit card required. If you find Plausible useful, you can get on a paid subscription. The plans start at $9 per month and are based on the number of page views your sites have. You can see the [pricing here](https://plausible.io/#pricing).
+* No cookies, no long-term identifiers, no personal data collection. Fully GDPR, CCPA and PECR compliant out of the box. All data is processed on [EU-owned infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more about [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics).
+* [Lightweight script](https://plausible.io/lightweight-web-analytics) that will not slow down your site.
+* [Much more accurate](https://plausible.io/most-accurate-web-analytics) than GA4. Not blocked by most ad blockers and not affected by cookie consent losses.
+* [Simple to use](https://plausible.io/simple-web-analytics) from day one. All key metrics on one page: top posts, referral sources, engagement metrics (time on page, scroll depth, bounce rate and more), external link clicks and goal conversions.
+* [Open source](https://plausible.io/open-source-website-analytics), like WordPress itself. You can inspect and review our code to verify our actions match our words.
+* We don't sell your data or make money from tracking people. We are [solely funded by subscriber fees](https://plausible.io/blog/customers-not-investors).
+* 30-day free trial with no credit card required. Plans start at $9/month based on page views. See [pricing](https://plausible.io/#pricing).
 
 ## How can Plausible Analytics be used for WordPress?
 
-Plausible is a web analytics plugin that can be used to measure your website traffic, understand trends, analyze traffic sources, marketing campaigns, build funnels, track revenue, and much more. We offer a very easy setup and some special features for WordPress users, an overview is here:
+Plausible lets you measure traffic, understand trends, analyze sources, track campaigns, build funnels, and monitor revenue. Setup is straightforward, and there are several features built specifically for WordPress users:
 
 * **See which external and affiliate links people actually click** so you know what sends traffic and drives value
 * **Find out which files get downloaded the most**, whether they are PDFs, resources, or digital products
 * **Measure form submissions as conversions** to understand how well your pages and campaigns perform
-* Define **goals and custom events** **using CSS class names** to track meaningful actions and see where conversions come from. No JS knowledge needed.
+* Define **goals and custom events using CSS class names** to track meaningful actions and see where conversions come from. No JS knowledge needed.
 * **View your Plausible stats directly inside WordPress** without switching tools or tabs
 * **Track 404 error pages** that people visit so you can fix them and redirect them to more appropriate pages
 * Track **post authors, categories and custom taxonomies**
@@ -52,17 +52,17 @@ Plausible is a web analytics plugin that can be used to measure your website tra
 
 To use Plausible Analytics, you need to register an account. To explore the product, we offer you a free 30-day trial (no credit card required).
 
-[Click here to register](https://plausible.io/register). It is a simple process and we only ask for your name and email address.
+[Register your account](https://plausible.io/register). We only ask for your name and email address.
 
 ![Register your Plausible account](/docs/img/register-account.png "Register your Plausible account")
 
 After you verify your email address, you need to enter the domain name of the website you want to track. 
 
-Please, remove `https` and `www` from the URL, just keep the hostname (`yourdomain.com`). For example, if your site is `https://www.yourdomain.com` then the part to enter in the "Domain" field is `yourdomain.com`.
+Remove `https` and `www` from the URL and just keep the hostname (`yourdomain.com`). For example, if your site is `https://www.yourdomain.com` then the part to enter in the "Domain" field is `yourdomain.com`.
 
 ![Enter the domain name of the website you want to track](/docs/img/website-details.png "Enter the domain name of the website you want to track")
 
-That's it! You have now registered for an account and you have added your website. 
+That's it! You've registered and added your website.
 
 Now you need to go to your WordPress dashboard and activate the Plausible Analytics WordPress plugin.
 
@@ -75,21 +75,21 @@ Now you need to go to your WordPress dashboard and activate the Plausible Analyt
 ![Search and install the "Plausible Analytics" WordPress plugin](/uploads/plausible-analytics-wp-plugin.png "Search and install the \\"Plausible Analytics\\" WordPress plugin")
 
 * Install and Activate Plausible. You can also find the listing of [our official "Plausible Analytics" plugin](https://wordpress.org/plugins/plausible-analytics/).
-* You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain one.
+* You will then be taken through our Get Started guide to set up the plugin and the different options. You will see the same, and many more, options in the Plausible plugin settings screen, which we will explain below.
 
-This is the full settings screen and it comes with a few options pre-enabled which you can keep as they are if you do want to track those things or turn them off.
+The full settings screen has a few options pre-enabled. You can keep them as-is or turn off anything you don't need.
 
 ![Plausible Analytics WordPress plugin settings](/uploads/plausible-wp-plugin-settings.png "Plausible Analytics WordPress plugin settings")
 
-Here are elaborate explanations for all the settings.
+Here is what each setting does.
 
 ## Insert your domain name and plugin token
 
-In the "**Domain Name**" field, make sure you use the domain name exactly as you've added it to your Plausible account. Please remove `https` and `www` from the domain name, just keep the hostname (`yourdomain.com`).
+In the "**Domain Name**" field, use the domain name exactly as you've added it to your Plausible account. Remove `https` and `www` and just keep the hostname (`yourdomain.com`).
 
-To automate the plugin setup, you need to generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field in the plugin. This will ensure that you can take all the actions directly in the settings area of our WordPress plugin without needing to visit your Plausible site settings. 
+To automate the plugin setup, generate a plugin token in your Plausible site settings and paste it into the "**Plugin Token**" field. This lets you manage everything directly from the WordPress plugin without visiting your Plausible account.
 
-You'll find a link to generate the token directly within the plugin settings. Clicking on this link will take you to the plausible.io website where you should click on the "**Create Plugin Token**" button. Then copy the token that is presented to you.
+You'll find a link to generate the token directly within the plugin settings. Clicking on this link will take you to the plausible.io website where you should click on the "**Create Plugin Token**" button. Then copy the token.
 
 Next, go back to the Plausible WordPress plugin settings, paste the token into the "**Plugin Token**" field and click the "**Connect**" button.
 
@@ -103,21 +103,21 @@ Here are the most common reasons for that error:
 * Ensure the plugin token was created for the exact site you're trying to connect. Plugin tokens are site-specific
 * If everything looks correct, try creating a new plugin token and connect it again
 
-That's it! You are now counting your site stats with a privacy-first web analytics tool. You can now go to our website and access your Plausible Analytics account to view the dashboard.
+That's it! Your site is now being tracked. Visit your [Plausible dashboard](https://plausible.io/) to see the stats.
 
-You can also verify your installation to make sure everything is on track. You can launch our testing tool at any time from your [site settings](https://plausible.io/docs/website-settings). You will see a message like this if your tracking is working fine.
+You can also verify your installation at any time from your [site settings](https://plausible.io/docs/website-settings). You will see a message like this if your tracking is working fine.
 
 ![verifying wp installation with plausible](/uploads/installation-verification.png "verifying wp installation with plausible")
 
 ## How to enable a proxy to get more accurate stats
 
-Plausible script is not blocked to the same extent as Google Analytics but we're blocked by some blocklist maintainers who have taken the stance that they want to block every tracking script and don't want to have the responsibility to judge what's good and what's bad.
+Plausible's script is not blocked anywhere near as widely as Google Analytics, but some blocklist maintainers take an all-or-nothing approach and block every analytics script regardless of privacy practices.
 
-Site owners feel unfairly targeted and an innocent casualty of this arms race between blocklist maintainers and the adtech industry. Site owners want some data to figure out what's going on and learn what they can do to improve. It's unfortunate for them to lose valuable, privacy-friendly insights that help them create a better user experience.
+Site owners using privacy-first analytics end up as an innocent casualty in the arms race between blocklist maintainers and the adtech industry. Losing privacy-friendly data makes it harder to understand and improve your site.
 
-We've introduced a proxy feature after hearing from so many site owners who expect privacy-first analytics not to be blocked. We wanted to give a choice to people that use Plausible Analytics.
+We introduced a proxy feature so site owners who want complete data have the option to get it.
 
-* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works all fine. In our testing, between 6% and 26% of people block scripts all depending on the type of the site and the audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%.
+* **Not concerned about missing data?** Simply run our default script. A portion of your visitors will block it but otherwise it works fine. In our testing, between 6% and 26% of people block scripts depending on the type of site and audience. In more extreme cases, with very tech-savvy referral sources these numbers can get up to 60%.
 * **Are you concerned about missing data?** Proxy our script. We've made it easy to do so in our WordPress plugin.
 * In the "Bypass adblockers" section of our WordPress plugin settings, turn on the "Enable proxy" option.
 
@@ -128,20 +128,16 @@ We've introduced a proxy feature after hearing from so many site owners who expe
 
 ### Stats not being recorded after enabling the proxy?
 
-We've put a lot of effort to ensure that the proxy works smoothly and have taken measures to prevent conflicts with popular performance optimization and caching plugins. However, sometimes things might not go as planned.
+We have taken measures to prevent conflicts with popular caching and performance plugins, but sometimes things don't go as planned. Many proxy issues come down to restrictive firewall or security settings that prevent PHP from fetching external resources.
 
-Many problems with proxy activation are due to restrictive firewall or security settings, where PHP may not be allowed to fetch and copy external resources to the server.
-
-In case plugin conflicts arise with your WordPress, it might cause the stats not to be recorded properly. So please give your integration a quick double-check after you enable the proxy to make sure the stats are being recorded. 
-
-Some of the common issues that prevent the proxy from being setup correctly are:
+After enabling the proxy, give your integration a quick check to confirm stats are being recorded. Here are the most common causes if they are not:
 
 * **Browser console errors**: After enabling the proxy, visit your website and check the browser console for any error messages related to the proxied script. [See more here](https://plausible.io/docs/troubleshoot-integration).
-* **SSL Certificate Usage**: If your site uses an SSL certificate, please go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields. Then please do try to enable the proxy again.
-* **Firewall or Security Settings**: Do you or your hosting company have any firewall or other security plugins activated that may affect the ability for WordPress to create files? Please do disable these or do put your proxy file path and directory in the allow list. Then please do try to enable the proxy again.
-* **Caching**: Do you have any caching enabled either within your WordPress admin dashboard, within your hosting company or Cloudflare? Please try to clear all caches and then try to enable the proxy again.
-* **File Permissions**: Do you have correct permissions for WordPress to be able to create files in the uploads directory? The folder permissions (755) for the `/wp-content/uploads/` directory and file permission (644) are needed.
-* **PHP error logs**: Do check your PHP error logs after trying to enable the proxy. You may find helpful messages there to guide further troubleshooting.
+* **SSL Certificate Usage**: If your site uses an SSL certificate, go into your WordPress general settings and make sure to add the `s` in the `https://` both in the `WordPress Address (URL)` and `Site Address (URL)` fields. Then try enabling the proxy again.
+* **Firewall or Security Settings**: Check whether you or your hosting company have a firewall or security plugin that prevents WordPress from creating files. Disable it or add your proxy file path to the allow list, then try enabling the proxy again.
+* **Caching**: Clear all caches (WordPress, hosting, Cloudflare) and try enabling the proxy again.
+* **File Permissions**: WordPress needs write permissions on the uploads directory. The required permissions are 755 for the `/wp-content/uploads/` folder and 644 for files.
+* **PHP error logs**: Check your PHP error logs after enabling the proxy for any helpful error messages.
 
 After making any changes, remember to disable the proxy and clear all caches. Then, try enabling the proxy again and clear all caches once more.
 
@@ -155,11 +151,11 @@ We will send you a notification if the proxy takes too long (>500ms) to send pag
 
 ## How to view your stats directly in your WordPress dashboard
 
-You can view your Plausible stats dashboard directly in your WordPress dashboard without needing to visit our website.
+You can view your Plausible stats directly inside WordPress without visiting our website.
 
 In the "View your stats in your WordPress dashboard" section of the plugin settings, enable the "View stats in WordPress" option.
 
-You can now go to the "Dashboard" section in the left hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard.
+You can now go to the "Dashboard" section in the left-hand side of your WordPress admin navigation menu. Then click on "Analytics" to view your site statistics within your WordPress dashboard.
 
 The site statistics within your WordPress dashboard are available to the administrators by default. In the "Show stats dashboard to additional user roles" section of our WordPress plugin, you can also grant access to the stats dashboard to editors, authors and contributors.
 
@@ -169,7 +165,7 @@ In the "Exclude specific pages from being tracked" section of our WordPress plug
 
 Any pages you list should be comma-separated. All entries must begin with a `/`, and should not include the trailing slash as we account for this automatically. 
 
-You can use an asterisk (`*`) to match patterns in your page path URLs. Asterisks can be placed on either end or in the middle of any page path URL. You can for instance exclude all of your articles within a specific directory by setting this pageview goal `/subdirectory-to-exclude*`.
+You can use an asterisk (`*`) to match patterns in your page path URLs. Asterisks can be placed on either end or in the middle of any page path URL. You can, for instance, exclude all of your articles within a specific directory by setting this pageview goal `/subdirectory-to-exclude*`.
 
 ## How to exclude admins and other roles from being tracked
 
@@ -197,9 +193,9 @@ You'll see "404" goal as soon as the first visit on an error page has been track
 
 ![404-pages-tracking-in-plausible](/uploads/404-pages-tracking-in-plausible.png "404-pages-tracking-in-plausible")
 
-T﻿he other property is also visible here for "user_logged_in" because if you enable this setting (explained below), this property is available within all the relevant filters too.
+The other property is also visible here for "user_logged_in" because if you enable this setting (explained below), this property is available within all the relevant filters too.
 
-Y﻿ou will be able to see the traffic sources to these 404 pages, which pages are throwing a 404, what were the entry pages and exit pages for such sessions, whether they are isolated to specific browsers, which locations, etc.
+You will be able to see the traffic sources to these 404 pages, which pages are throwing a 404, what were the entry pages and exit pages for such sessions, whether they are isolated to specific browsers, which locations, etc.
 
 ### How to track file downloads
 
@@ -213,7 +209,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 All the file downloads will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
 
-You'll see "File Download" goal as soon as the first link that leads to a file has been recorded along with details on the files that were downloaded, on which pages, conversion rate, and other relevant properties if sending.
+You'll see the "File Download" goal as soon as the first download is recorded, along with details on which files were downloaded, on which pages, and the conversion rate.
 
 ### How to track external link clicks
 
@@ -237,11 +233,11 @@ Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Lin
 
 Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" report to see which pages those cloaked links were clicked on.
 
-### How to setup custom events to track goal conversions
+### How to set up custom events to track goal conversions
 
 Plausible Analytics plugin makes it easy to set up custom events and track actions such as signups or button clicks.
 
-You need to tag the site elements you want to track. No JavaScript knowledge is required to do this. The only thing you need is to tag the site element you want to track with a CSS class name directly in your WordPress editor. Here's how:
+No JavaScript knowledge is required. Just tag the element you want to track with a CSS class name directly in your WordPress editor. Here's how:
 
 * You can click on any block element you want to track. This will open up the block menu on the right-hand side of your screen.
 
@@ -295,7 +291,7 @@ For more details on how to send other custom properties for pageviews, please ch
 
 ### How to track ecommerce revenue
 
-Plausible Analytics plugin has a built-in support for [tracking of WooCommerce store activity](https://plausible.io/blog/woocommerce-analytics-plugin) and Easy Digital Downloads as well. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
+Plausible has built-in support for [WooCommerce store tracking](https://plausible.io/blog/woocommerce-analytics-plugin) and Easy Digital Downloads. Revenue attribution helps you determine which marketing campaigns and landing pages result in the most revenue for your business or ecommerce store.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Ecommerce revenue" option. This will automatically set up and start tracking several WooCommerce or Easy Digital Downloads custom events:
 
@@ -325,9 +321,9 @@ Several custom properties ([also known as custom dimensions in Google Analytics]
 * total_tax
 * variation_id
 
-A purchase funnel will be created as well looking at the user journey all the way from viewing a product to completing a purchase. This will help you see the drop-off rates between the different steps and understand your cart abandonment rate.
+A purchase funnel is also created automatically, tracking the full journey from product view to completed purchase. This shows drop-off rates at each step so you can understand your cart abandonment rate.
 
-All this is done automatically for you and you don't need to manually set up any custom events nor make any changes to your code.
+All of this happens automatically. You don't need to set up any custom events or make any changes to your code.
 
 #### If you're not using WooCommerce or Easy Digital Downloads for your store
 
@@ -356,7 +352,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, just en
 
 All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard.
 
-You'll see "WP Form Completions" goal as soon as the first successful for submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
+You'll see "WP Form Completions" goal as soon as the first successful form submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
 
 ### How to enable site search tracking
 
@@ -376,11 +372,11 @@ You'll see the "WP Search Queries" goal appear as soon as the first search is re
 
 ![wp search tracking](/uploads/wp-search-queries.png "wp search tracking")
 
-M﻿ore about [site search tracking in WordPress here](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics).
+More about [site search tracking in WordPress here](https://plausible.io/blog/wordpress-plugin-for-site-search#plausible-wordpress-plugin-for-accurate-site-search-and-web-analytics).
 
 ### How to track logged-in user status
 
-Plausible Analytics plugin can help you understand the status of your logged in or your logged out users.
+Plausible can help you understand whether your visitors are logged in or logged out.
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Logged-in user status" option.
 
@@ -412,7 +408,7 @@ All the query parameters will start being tracked and will be displayed in the "
 
 ## Other things you can do with Plausible
 
-We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible but here are some quick highlights: 
+We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible, but here are some quick highlights:
 
 ### Integrate with Google Search Console
 
@@ -420,9 +416,9 @@ See your search queries, impressions, clicks, and average positions alongside yo
 
 ### Enable notifications
 
-Set up email or Slack notifications to stay informed about important changes in your traffic. You also get alerts for traffic spikes, drops so you notice issues or opportunities without constantly checking your dashboard.
+Set up email or Slack notifications to stay informed about important changes in your traffic. You also get alerts for traffic spikes and drops so you notice issues or opportunities without constantly checking your dashboard.
 
-### Setup funnels
+### Set up funnels
 
 Use [funnels](https://plausible.io/docs/funnel-analysis) to understand how visitors move through key steps on your site, such as landing on a page, viewing product pages, and completing a signup or purchase. Funnels help you spot where people drop off and where you can improve conversions.
 
@@ -436,4 +432,6 @@ Export your Plausible data to Looker Studio to build custom dashboards and repor
 
 ## Enjoying Plausible and our WordPress plugin?
 
-Most of our subscribers come from word of mouth, so if you love Plausible, we'd appreciate if you'd consider leaving a comment in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/). Thank you!
+If you haven't tried Plausible yet, sign up for a [free 30-day trial](https://plausible.io/register), no credit card required. Thousands of teams including Ghost, Basecamp and the Python Software Foundation trust Plausible with their analytics.
+
+Most of our growth comes from word of mouth, so if you find it useful, we'd appreciate it if you left a review in [the official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/).
