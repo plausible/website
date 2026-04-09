@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Plausible: Audience segmentation without the complexity"
+title: "Segment your website traffic without the complexity"
 description: Break your visitor data into meaningful segments without cookies,
   consent banners or bloated reports. Accurate, privacy-friendly audience
   analysis in one simple dashboard.
