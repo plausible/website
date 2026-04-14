@@ -1,34 +1,33 @@
 ---
 layout: post
-title: How to use UTM parameters to track your marketing campaigns and
-  understand the dark traffic
-description: Plausible Analytics has full UTM tags support out-of-the-box to
-  help you track your paid marketing campaigns with a fast and easy to
-  understand dashboard.
+title: How to use UTM parameters to track your campaigns and understand dark traffic
+description: UTM parameters help you understand where your traffic comes from. Learn what they are, how to use them and how to track your campaigns in Plausible Analytics.
 slug: utm-tracking-tags
 date: 2020-09-29T15:06:06.455Z
 author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
 ---
-UTM parameters are a useful tool for business owners. They can help you get more insights into the dark traffic, track paid marketing campaigns, newsletters and identify specific pieces of social media content that deliver the best conversions. 
+UTM parameters help you understand where your traffic is coming from. They can illuminate dark traffic, track paid campaigns and pinpoint which content drives results.
 
-[Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box to help you track your marketing campaigns from click to conversion. Let's take a closer look.
+[Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box.
 
 1. Ordered list
 {:toc}
 
 ## What does UTM stand for?
 
+UTM stands for Urchin Tracking Module. Urchin was an analytics company Google acquired in 2005 and turned into [Google Analytics](https://plausible.io/vs-google-analytics). The UTM parameter format they introduced became the standard and is now supported by all major analytics tools.
+
 A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "Direct / None" in your Plausible Analytics dashboard.
 
 Dark traffic includes clicks from emails, clicks from documents, clicks from mobile messengers, bookmarks, people typing in the URL directly into the browser and many other mechanisms. Site owners cannot see which referrer sources are sending that traffic.
 
-By default, Plausible Analytics attempts to uncover traffic originating from Android apps which is traditionally categorized as direct traffic in Google Analytics and other analytics tools. 
+By default, Plausible Analytics attempts to uncover traffic originating from Android apps which is traditionally categorized as direct traffic in Google Analytics and other analytics tools.
 
 The volume of "android-app" entries in your Plausible "Top Sources" report will vary based on your site and audience. For sites with significant mobile traffic, this recovers 10% or more previously unattributed traffic from apps like Gmail, Slack and Telegram.
 
-A solution to minimize dark traffic even further is to tag links. Website owners use UTM parameters (Urchin Tracking Modules) to help them understand where their site traffic is coming from. Urchin was the analytics company that Google acquired in 2005 and turned it into [Google Analytics](https://plausible.io/vs-google-analytics).
+Tagging your links with UTM parameters is a solution to minimize dark traffic even further.
 
 ## How do I see UTM campaign stats in Plausible Analytics?
 
@@ -56,11 +55,102 @@ UTM parameters are all the tags that come after the question mark (`?`) in the U
 
 Individual parameters are separated by the ampersand (`&`) symbol.
 
-You can tag all your links manually or you can use the UTM tag builder tool that makes this easy for you.
+You can tag all your links manually or use the builder below.
 
-## UTM Tag Builder tools
+## UTM tag builder
 
-You can use UTM tag builder tools such as [this one](https://utmbuilder.net/) or [another one](https://www.utmtagbuilder.com/) to help you tag your links.
+Enter your URL and campaign details below to generate a tagged link:
+
+<div style="margin: 1.5rem 0; padding: 1.5rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 0.875rem; font-family: inherit;">
+  <div style="display: grid; gap: 0.875rem;">
+    <div>
+      <label for="utm-url" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Website URL <span style="color: #ef4444;">*</span></label>
+      <input type="url" id="utm-url" placeholder="https://yourdomain.com" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
+    </div>
+    <div>
+      <label for="utm-source" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Source (utm_source) <span style="color: #ef4444;">*</span></label>
+      <input type="text" id="utm-source" placeholder="e.g. newsletter, twitter, google" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
+    </div>
+    <div>
+      <label for="utm-medium" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Medium (utm_medium)</label>
+      <input type="text" id="utm-medium" placeholder="e.g. email, social, cpc" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
+    </div>
+    <div>
+      <label for="utm-campaign" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Name (utm_campaign)</label>
+      <input type="text" id="utm-campaign" placeholder="e.g. spring-sale, product-launch" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
+    </div>
+    <div>
+      <label for="utm-term" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Term (utm_term)</label>
+      <input type="text" id="utm-term" placeholder="e.g. analytics software (for paid search)" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
+    </div>
+    <div>
+      <label for="utm-content" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Content (utm_content)</label>
+      <input type="text" id="utm-content" placeholder="e.g. banner-top, link-footer" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
+    </div>
+  </div>
+  <div id="utm-result" style="display: none; margin-top: 1.25rem;">
+    <label style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Your tagged URL</label>
+    <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+      <div id="utm-output" style="flex: 1; padding: 0.75rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; word-break: break-all; color: #1f2937; line-height: 1.5;"></div>
+      <button id="utm-copy" style="flex-shrink: 0; padding: 0.5rem 1rem; background: #4f46e5; color: #fff; font-size: 0.875rem; font-weight: 500; border: none; border-radius: 0.375rem; cursor: pointer; font-family: inherit;">Copy</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var fields = ['utm-url', 'utm-source', 'utm-medium', 'utm-campaign', 'utm-term', 'utm-content'];
+
+  function buildUrl() {
+    var url = document.getElementById('utm-url').value.trim();
+    var source = document.getElementById('utm-source').value.trim();
+    if (!url || !source) {
+      document.getElementById('utm-result').style.display = 'none';
+      return;
+    }
+    var params = [];
+    params.push('utm_source=' + encodeURIComponent(source));
+    var medium = document.getElementById('utm-medium').value.trim();
+    if (medium) params.push('utm_medium=' + encodeURIComponent(medium));
+    var campaign = document.getElementById('utm-campaign').value.trim();
+    if (campaign) params.push('utm_campaign=' + encodeURIComponent(campaign));
+    var term = document.getElementById('utm-term').value.trim();
+    if (term) params.push('utm_term=' + encodeURIComponent(term));
+    var content = document.getElementById('utm-content').value.trim();
+    if (content) params.push('utm_content=' + encodeURIComponent(content));
+    var separator = url.indexOf('?') === -1 ? '?' : '&';
+    document.getElementById('utm-output').textContent = url + separator + params.join('&');
+    document.getElementById('utm-result').style.display = 'block';
+  }
+
+  fields.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener('input', buildUrl);
+  });
+
+  document.getElementById('utm-copy').addEventListener('click', function() {
+    var text = document.getElementById('utm-output').textContent;
+    var btn = document.getElementById('utm-copy');
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function() {
+        btn.textContent = 'Copied!';
+        setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+      });
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      btn.textContent = 'Copied!';
+      setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+    }
+  });
+})();
+</script>
 
 ## Types of UTM parameters
 
@@ -70,21 +160,21 @@ UTM parameters consist of:
 
 `utm_source`: The name of the campaign source where you plan to share the link. Such as the name of your newsletter or the name of the social network you're doing a campaign on. 
 
-The `utm_source` parameter is mandatory and required. Make sure to use it in all UTM tagged links.
+The `utm_source` parameter is required. Make sure to use it in all UTM tagged links.
 
 ### UTM Medium
 
 `utm_medium`: The name of the channel where the link is placed. Such as email or paid social media posts.
 
-You can organize and group `utm_medium` tags within few of your main marketing strategies: 
+You can organize and group `utm_medium` tags within a few of your main marketing strategies:
 
-* "Email" for all email marketing campaigns
-* "Social" for organic content posted on your social media channels
-* "Social+paid" for paid campaigns posted on social media
-* "CPC" for pay per click advertising such as search engine paid advertising.
-* "Display" for any advertising banner campaigns you're having on other websites
-* "Affiliate" for all affiliate marketing campaigns
-* "Referral" for all organic campaigns on other websites
+* "email" for all email marketing campaigns
+* "social" for organic content posted on your social media channels
+* "social-paid" for paid campaigns posted on social media
+* "cpc" for pay per click advertising such as search engine paid advertising
+* "display" for any advertising banner campaigns you run on other websites
+* "affiliate" for all affiliate marketing campaigns
+* "referral" for all organic campaigns on other websites
 
 ### UTM Campaign
 
@@ -100,7 +190,7 @@ You can organize and group `utm_medium` tags within few of your main marketing s
 
 `utm_content`: The name of the specific link.
 
-In some campaigns, you may be having multiple links pointing to the same location. For instance two different links to your landing page in an email. `utm_content` allows you to differentiate between these two links and see which one performs best.
+In some campaigns, you may have multiple links pointing to the same location. For instance two different links to your landing page in an email. `utm_content` allows you to differentiate between these two links and see which one performs best.
 
 ## Why are UTM parameters so valuable?
 
@@ -110,11 +200,11 @@ UTM parameters help you understand the big picture and referral sources that bri
 
 Facebook is a big source of traffic for many websites but the Facebook referrer only includes the fact that the visitor came from Facebook. Facebook never sends the post or comment ID where someone clicked. You can get this data by including UTM tags in the links you share on Facebook.
 
-Twitter is similar in the way that it sets the referrer to their link shortener so you can see the shortened link but not the actual tweet that brought the traffic. UTM tags help you solve this.
+X (formerly Twitter) is similar in that it sets the referrer to their link shortener, so you can see the shortened link but not the actual post that brought the traffic. UTM tags help you solve this.
 
 ### Track your email marketing campaigns
 
-Any clicks on links in emails be it personal emails you send or newsletters are classified as "direct / none". UTM tags are a perfect tool to get some insights into your email marketing campaigns. 
+Any clicks on links in emails, whether personal or newsletters, are classified as "direct / none". UTM tags are the right tool for understanding your email traffic.
 
 Any links that you include in any of your emails should be tagged. At the top level, you can use `utm_source=email` to see how many visitors you're getting from emails.
 
@@ -127,6 +217,8 @@ Or you could track individual newsletter that you send out to your subscribers:
 `?utm_medium=email&utm_source=my-newsletter&utm_campaign=november-edition`
 
 For email newsletter campaigns, a useful naming convention could be to include the date the email was sent and the subject line as your `utm_campaign` tag.
+
+Note that many email platforms like Mailchimp, ConvertKit and HubSpot can auto-generate UTM parameters for links in your campaigns. Check your platform's settings before tagging links manually.
 
 ### Compare paid vs organic social media activities 
 
@@ -146,13 +238,13 @@ Or:
 
 `https://yourdomain.com?utm_medium=social&utm_source=facebook&utm_campaign=new-season-announcement`
 
-The above examples would allow you to not only split the traffic and see the difference between paid and organic posts but also the results of the individual posts such as paid campaign you're having for Black Friday sale or the organic post you published about the announcement for the new season.
+This lets you see the difference between paid and organic posts, and compare the results of individual campaigns side by side.
 
 ### Analyze influencers, affiliates and creators you're sponsoring
 
 UTM tags are useful in the world of affiliate marketing, influencer marketing and other sponsorships such as when sponsoring a specific newsletter. 
 
-You could tag all of the links they post with their unique UTM tags so you can not only figure out what results they drive and what ROI (return on investment) they get you, but also compare them to each other to understand which deliver the best value for you and which may make sense to sponsor again.
+Tag all the links they post with unique UTM tags so you can measure what results each drives, compare them and decide which are worth continuing.
 
 ### Analyze your guest blogging and content syndication campaigns 
 
@@ -161,6 +253,10 @@ In content marketing, companies do many guest blogging and content syndication c
 Simply tag all the links in the different guest posts and other syndication activities to be able to see how many clicks and other results they drive.
 
 ## Best practices for UTM tags and other things to know
+
+### Never use UTMs on internal links
+
+Only tag links that point to your site from external sources. If you add UTM parameters to links within your own site, it overwrites the original referral source for that session. A visitor who arrived from your newsletter will suddenly appear as a new direct visit when they click an internally tagged link. This corrupts your traffic attribution data.
 
 ### UTM tags are case-sensitive
 
@@ -172,11 +268,9 @@ Be consistent in your UTM naming practices. Keep all the tag names consistent to
 
 We merge all identical sources in the "All" tab of the "Top Sources" report in your Plausible Analytics dashboard.
 
-For instance, clicks that you get from Twitter which are not tagged by UTMs are labeled with a referral source Twitter by Twitter itself. If you tag some links that you share on Twitter with the `utm_source=Twitter` or `utm_source=twitter`, clicks on those we will merge alongside other Twitter clicks in the "All" tab. 
+For instance, clicks from X that are not tagged by UTMs are labeled with the referral source X. If you tag links you share on X with `utm_source=Twitter` or `utm_source=twitter`, we merge those clicks alongside other X clicks in the "All" tab to give you a combined view.
 
-This is in order to make it easier for you to keep track and get a combined overview of all the clicks from Twitter. 
-
-If you want to isolate your UTM tagged clicks from the organic clicks, you can click on the "UTM Source" tab within the "Campaigns" section of your "Top Sources" report, where we only show those clicks coming from your UTM tagged links. 
+If you want to isolate your UTM tagged clicks from organic clicks, use the "UTM Source" tab within the "Campaigns" section of your "Top Sources" report, which shows only traffic from tagged links.
 
 ### You cannot use spaces in UTM tags
 
@@ -196,9 +290,9 @@ So try to avoid URLs with more than a single question mark in them. If the URL a
 
 Do you see too many campaign names and other sources in your UTM report? Is it difficult to get a good overview? Try to create a better and more consistent campaign naming convention for you and your team.
 
-Keeping the `utm_source` consistent from platform to platform allows you to view all the activities in one place. If you tag all the links you share on Facebook with `utm_source` Facebook, then you'll be able to see all of them by clicking on the `utm_source` Facebook in your Plausible Analytics dashboard. 
+Keeping `utm_source` consistent from platform to platform lets you see all activity in one place. If you tag all links you share on Facebook with `utm_source=facebook`, you can filter by that source in your Plausible dashboard.
 
-This is not possible if you call some of your tags Facebook, others facebook, or Facebook-post and facebook-paid.
+That becomes impossible if you mix `Facebook`, `facebook` and `facebook-paid` across different links.
 
 ### How to test UTM parameters
 
@@ -208,6 +302,6 @@ In order to test whether your UTM tagged link works, simply click on it and chec
 
 Note that in Plausible Analytics the referral sources are counted only when they start a new session so you won't be able to use this method to test your links multiple times each day. Our session length is one day long.
 
-## Explore our fast, simple and easy to understand UTM campaign dashboard
+## Try Plausible UTM campaign tracking
 
-Plausible Analytics features a fast-loading, easy to use and easy to understand UTM campaign dashboard. We have a completely free 30 day trial so you can test everything before you make a decision. No credit card is required. [Register your trial here](https://plausible.io/register).
+Plausible Analytics includes UTM campaign tracking out-of-the-box. You get a 30-day free trial with no credit card required. [Register here](https://plausible.io/register).
