@@ -5,11 +5,14 @@ description: If you collect personal data or use cookies, a privacy policy is
   legally required. Here's what to include and how to write one.
 slug: /privacy-policy-page
 date: 2020-11-11T10:32:28.848Z
+last_modified_at: 2026-04-15
 author: marko-saric
 image: /uploads/plausible-october-traffic.png
 image-alt: Do I need a privacy policy for my website?
 ---
 TL;DR: If you collect personal data or use cookies, a privacy policy is legally required. If you don't, you should still have one to show visitors you take their privacy seriously.
+
+<!--more-->
 
 This post is an introduction to privacy policies. It may not cover all the laws you are subject to. We encourage you to discuss specific issues with your lawyer if you have any concerns about what applies to you and what actions to take.
 
