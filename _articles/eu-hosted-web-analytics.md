@@ -58,7 +58,7 @@ We also offer a [self-hosted version](https://plausible.io/self-hosted-web-analy
 
 ## Who uses Plausible
 
-Plausible is trusted by thousands of paying subscribers worldwide, including government organizations, universities and enterprises operating under strict privacy and data residency requirements. The Scottish and Welsh governments, the Python Software Foundation, Harvard University and Sentry are among the organizations that have chosen Plausible.
+Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers worldwide, including government organizations, universities and enterprises operating under strict privacy and data residency requirements. The Scottish and Welsh governments, the Python Software Foundation, Harvard University and Sentry are among the organizations that have chosen Plausible.
 
 Many of these organizations chose Plausible specifically because of where their data is hosted and how it is handled.
 

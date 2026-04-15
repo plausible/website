@@ -17,7 +17,7 @@ Most analytics tools are black boxes. You add their script to your site, hand ov
 
 Being open source means our [source code](https://github.com/plausible/analytics/) is available and accessible on GitHub. Anyone can read it, inspect it and review how it works, how data is handled and what gets collected. There are no hidden behaviors.
 
-This transparency is what makes open source software more trustworthy than closed alternatives. You don't have to take our word for it. The project has thousands of stars on GitHub and is trusted by thousands of paying subscribers including Hugging Face, Basecamp, Ghost, MongoDB, the Open Source Initiative and the Python Software Foundation.
+This transparency is what makes open source software more trustworthy than closed alternatives. You don't have to take our word for it. The project has thousands of stars on GitHub and is trusted by {{ site.data.site.subscriber_count }} paying subscribers including Hugging Face, Basecamp, Ghost, MongoDB, the Open Source Initiative and the Python Software Foundation.
 
 ## What data does Plausible collect?
 
