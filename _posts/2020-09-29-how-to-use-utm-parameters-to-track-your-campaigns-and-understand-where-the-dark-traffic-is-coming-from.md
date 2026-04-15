@@ -4,6 +4,7 @@ title: How to use UTM parameters to track your campaigns and understand dark tra
 description: UTM parameters help you understand where your traffic comes from. Learn what they are, how to use them and how to track your campaigns in Plausible Analytics.
 slug: utm-tracking-tags
 date: 2020-09-29T15:06:06.455Z
+last_modified_at: 2026-04-15
 author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
