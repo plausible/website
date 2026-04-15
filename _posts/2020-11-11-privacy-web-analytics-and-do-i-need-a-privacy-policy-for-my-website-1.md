@@ -12,8 +12,6 @@ image-alt: Do I need a privacy policy for my website?
 ---
 TL;DR: If you collect personal data or use cookies, a privacy policy is legally required. If you don't, you should still have one to show visitors you take their privacy seriously.
 
-<!--more-->
-
 This post is an introduction to privacy policies. It may not cover all the laws you are subject to. We encourage you to discuss specific issues with your lawyer if you have any concerns about what applies to you and what actions to take.
 
 1. Ordered list
@@ -151,4 +149,4 @@ Basecamp has open-sourced [its privacy policy](https://github.com/basecamp/polic
 
 You're free to use their policies under the Creative Commons Attribution license. Start from their template and adapt it to your situation.
 
-If you prefer a more guided approach, tools like [Iubenda](https://www.iubenda.com) and [Termly](https://termly.io) can generate a privacy policy based on your answers to a set of questions and help keep it up to date as laws change.
+If you prefer a more guided approach, tools like [Iubenda](https://www.iubenda.com) and [Termly](https://termly.io) can generate a privacy policy based on your answers to a set of questions and help keep it up to date as laws change.
