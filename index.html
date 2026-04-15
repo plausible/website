@@ -174,7 +174,7 @@ layout: default
               Paying subscribers
               </dt>
               <dd class="order-1 text-5xl font-extrabold text-indigo-600">
-              17k
+              {{ site.data.site.subscriber_count_short }}
               </dd>
             </div>
             <div class="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
@@ -182,7 +182,7 @@ layout: default
               Tracked pageviews
               </dt>
               <dd class="order-1 text-5xl font-extrabold text-indigo-600">
-              260B
+              {{ site.data.site.pageviews_tracked }}
               </dd>
             </div>
             <div class="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
@@ -190,7 +190,7 @@ layout: default
               Uptime (Last 90 days)
               </dt>
               <dd class="order-1 text-5xl font-extrabold text-indigo-600">
-              99.99%
+              {{ site.data.site.uptime }}
               </dd>
             </div>
           </dl>
@@ -226,7 +226,7 @@ layout: default
       Google Analytics is frustrating to use, difficult to understand, slow to load and privacy-invasive. That's why we built Plausible Analytics, a simple but powerful alternative.
       </p>
   <p>
-      Here's what makes Plausible a great <a href="/vs-google-analytics">Google Analytics alternative</a> and why over 17,000 paying customers trust us with their website and business insights:
+      Here's what makes Plausible a great <a href="/vs-google-analytics">Google Analytics alternative</a> and why over {{ site.data.site.subscriber_count }} paying customers trust us with their website and business insights:
       </p>
       <h3>Simple analytics at a glance</h3>
       <p>
@@ -248,7 +248,7 @@ layout: default
   <span class="text-gray-500">Co-founders</span>
 </p>
       <p>
-        P.S. We're a completely independent, self-funded, bootstrapped and debt-free team of 10. We're not interested in raising funds or taking investment. We choose the subscription business model rather than surveillance capitalism. We're operating a sustainable project funded solely by the fees that our subscribers pay us. Read more <a href="/about" class="text-indigo-600 hover:underline">about us</a>.
+        P.S. We're a completely independent, self-funded, bootstrapped and debt-free team of {{ site.data.site.team_size }}. We're not interested in raising funds or taking investment. We choose the subscription business model rather than surveillance capitalism. We're operating a sustainable project funded solely by the fees that our subscribers pay us. Read more <a href="/about" class="text-indigo-600 hover:underline">about us</a>.
       </p>
   </div>
   </div>

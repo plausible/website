@@ -9,7 +9,7 @@ Building analytics into your product from scratch takes significant time and ong
 
 Because we don't use cookies or collect personal data, your customers won't need consent banners or worry about GDPR compliance on the analytics side. All visitor data stays on EU-owned infrastructure. The dashboard is fast, clean and easy to use with no training required.
 
-Plausible is trusted by thousands of paying subscribers. We're an independent, bootstrapped startup launched in 2019, funded solely by our subscribers. You can see a live example at [our demo](https://plausible.io/plausible.io).
+Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers. We're an independent, bootstrapped startup launched in 2019, funded solely by our subscribers. You can see a live example at [our demo](https://plausible.io/plausible.io).
 
 Prezly, a storytelling platform offering site building and newsletters, uses Plausible to provide web analytics to thousands of their customers, including Shopify, Sennheiser and many other international brands. Read more [in their announcement](https://www.prezly.com/help/analytics-dashboard).
 
