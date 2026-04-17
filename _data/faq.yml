@@ -50,10 +50,10 @@
       answer: "You can use the <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> to block visits from specific IP addresses, hostnames or countries from being recorded. For referral sources that look like spam, you can filter them out in your dashboard view. If you're seeing bot traffic that our filters should be catching, email us with the dates and source details and we'll investigate."
 
     - question: I think the bot filter is removing real visitors. What can I do?
-      answer: "Our filters are aggressive by design and false positives do happen occasionally. If you suspect legitimate traffic is being excluded, email us with specifics and we'll investigate. In the meantime, you can use <a class='text-indigo-600' href='https://plausible.io/docs/filters-segments'>filters and segments</a> to examine traffic patterns more closely."
+      answer: "Our filters are aggressive by design and false positives do happen occasionally. If you suspect legitimate traffic is being excluded, email us with specifics and we'll investigate."
 
     - question: Can I see or filter AI crawler traffic (ChatGPT, Perplexity and others)?
-      answer: "Human visitors arriving from AI tools like ChatGPT or Perplexity are tracked normally and appear in your dashboard as referral sources. AI crawler traffic is a different thing: bots that crawl your site automatically. Most crawlers don't execute JavaScript and never trigger the Plausible script. Those that do are caught by our User-Agent blocking."
+      answer: "If someone clicks through to your site from ChatGPT or Perplexity, that visit is tracked normally and those tools appear in your dashboard as referral sources. AI crawler traffic is a different thing: bots that crawl your site automatically. Most crawlers don't execute JavaScript and never trigger the Plausible script. Those that do are caught by our User-Agent blocking."
 
 - category: Pricing, plans & discounts
   items:
@@ -61,7 +61,7 @@
       answer: "The free trial is 30 days and no credit card is required. All stats collected during the trial are kept and nothing resets when you upgrade. If you don't upgrade before the trial ends, your dashboard will be locked but your data is retained. You can upgrade at any time to restore full access. <a class='text-indigo-600' href='https://plausible.io/docs/trial-to-paid'>How to upgrade from trial to paid</a>."
 
     - question: What's the difference between the Starter, Growth and Business plans?
-      answer: "All plans cover the same pageview tiers. The difference is features and team size. Starter is for solo use on a single site. Growth adds multiple sites, team members and dashboard sharing. Business adds funnels, revenue tracking, custom properties and Stats API access. Enterprise covers large-scale needs like SSO, Sites API and raw data exports. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans'>Choose the right plan</a>."
+      answer: "All plans cover the same pageview tiers. The difference is features and team size. Starter is for solo use on a single site. Growth adds multiple sites, team members and dashboard sharing. Business adds funnels, revenue tracking, custom properties and Stats API access. Enterprise covers large-scale needs like SSO, managed proxy and Sites API. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans'>Choose the right plan</a>."
 
     - question: Do you have a free plan?
       answer: "We don't have a free plan. Plausible is independent and funded solely by the fees our subscribers pay. We're not monetizing the data we collect, so a subscription fee is needed to cover our costs and salaries."
@@ -72,7 +72,7 @@
     - question: Do you offer nonprofit, education or open-source discounts?
       answer: "Yes. We offer a 15% introductory discount for nonprofits, educational institutions and open-source projects. It applies to Business plans on annual billing only. To get a discount code, start your free 30-day trial and email us with your organization name, type and website. We'll send you a one-time code to use at checkout. <a class='text-indigo-600' href='https://plausible.io/docs/nonprofit-and-education-pricing'>Full details on nonprofit and education pricing</a>."
 
-    - question: I received an email saying my stats will stop being counted. What should I do?
+    - question: I received an email saying my dashboard will be locked. What should I do?
       answer: "This means your usage has exceeded your plan tier for two consecutive months. You can upgrade from your account settings and the charge is pro-rated so you only pay the difference. If you don't upgrade within a week, dashboards are temporarily locked, but stats continue being collected in the background. You can restore access at any time by upgrading. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>More details on overages and upgrades</a>."
 
 - category: Getting started & tracking issues
@@ -118,13 +118,13 @@
 - category: GDPR, DPA & compliance
   items:
     - question: Where can I find your Data Processing Agreement?
-      answer: "The DPA is available at <a class='text-indigo-600' href='https://plausible.io/dpa'>plausible.io/dpa</a>. It covers our GDPR obligations and processor responsibilities and applies to all Plausible customers. Enterprise customers needing a custom or negotiated DPA can email us."
+      answer: "The DPA is available at <a class='text-indigo-600' href='https://plausible.io/dpa'>plausible.io/dpa</a>. It covers our GDPR obligations and processor responsibilities and applies to all Plausible customers."
 
     - question: We need you to complete a security or compliance questionnaire. How do we submit it?
       answer: "Our <a class='text-indigo-600' href='https://plausible.io/security'>security page</a> and <a class='text-indigo-600' href='https://plausible.io/docs/compliance'>compliance documentation</a> cover the questions typically asked in vendor security reviews. We recommend going through those first. Because Plausible doesn't process personal data or track individual users, we're typically classified as low-risk in these assessments. If specific questions aren't covered, email us with the outstanding items."
 
     - question: Where are your servers located and where is the data stored?
-      answer: "We exclusively use EU-owned cloud infrastructure. Site data is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data <a class='text-indigo-600' href='https://plausible.io/security'>never leaves the EU and EU-owned infrastructure</a>."
+      answer: "We exclusively use EU-owned cloud infrastructure. Site data is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data <a class='text-indigo-600' href='https://plausible.io/eu-hosted-web-analytics'>never leaves the EU and EU-owned infrastructure</a>."
 
     - question: How do I delete my data, my sites or my account?
       answer: "To delete an individual site and all its stats, go to your site settings and use the Delete option in the Danger Zone section. To delete your entire account and all associated data, go to Account Settings and use Delete Account in the Danger Zone section. <a class='text-indigo-600' href='https://plausible.io/docs/delete-site-data'>Deleting a site</a> | <a class='text-indigo-600' href='https://plausible.io/docs/delete-account'>Deleting your account</a>."

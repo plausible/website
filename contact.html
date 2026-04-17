@@ -26,7 +26,7 @@ description: Find answers to common questions about Plausible Analytics. Contact
           <a href="https://plausible.io/docs/goal-conversions" class="relative rounded-lg border border-gray-200 bg-white px-5 py-4 hover:border-indigo-400 flex items-start space-x-3">
             <div>
               <p class="text-sm font-medium text-gray-900">Goals, events & conversions</p>
-              <p class="text-sm text-gray-500">Set up custom events, form tracking and revenue goals</p>
+              <p class="text-sm text-gray-500">Set up custom events, funnels, form tracking and revenue goals</p>
             </div>
           </a>
           <a href="https://plausible.io/docs/bot-traffic-filtering" class="relative rounded-lg border border-gray-200 bg-white px-5 py-4 hover:border-indigo-400 flex items-start space-x-3">
@@ -50,7 +50,7 @@ description: Find answers to common questions about Plausible Analytics. Contact
           <a href="https://plausible.io/docs/compliance" class="relative rounded-lg border border-gray-200 bg-white px-5 py-4 hover:border-indigo-400 flex items-start space-x-3">
             <div>
               <p class="text-sm font-medium text-gray-900">GDPR, DPA & compliance</p>
-              <p class="text-sm text-gray-500">Data policy, DPA, security questionnaires and data deletion</p>
+              <p class="text-sm text-gray-500">Data policy, DPA, security questionnaires and data processing</p>
             </div>
           </a>
         </div>
@@ -58,11 +58,12 @@ description: Find answers to common questions about Plausible Analytics. Contact
         <div class="mt-4 flex flex-wrap gap-x-6 gap-y-2">
           <a href="https://feedback.plausible.io" class="text-sm text-indigo-600 hover:text-indigo-800">Feature requests, feedback &amp; roadmap &rarr;</a>
           <a href="https://plausible.io/docs/integration-guides" class="text-sm text-indigo-600 hover:text-indigo-800">Browse 60+ integration guides &rarr;</a>
+          <a href="https://plausible.io/#pricing" class="text-sm text-indigo-600 hover:text-indigo-800">View plans and pricing &rarr;</a>
         </div>
 
         <div class="mt-8 rounded-lg border border-gray-200 bg-white px-5 py-4">
           <p class="text-sm font-medium text-gray-900">Looking for an enterprise plan?</p>
-          <p class="text-sm text-gray-500 mt-1">Custom pageview limits, priority support, SLAs and a dedicated account manager. <a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">See what's included</a> or email us below with your usage and requirements.</p>
+          <p class="text-sm text-gray-500 mt-1">Custom pageview limits, SSO, managed proxy, Sites API, extended data retention and priority support. <a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">See what's included</a> or email us below with your usage and requirements.</p>
         </div>
 
         <div class="mt-8" x-data="{ topic: null }">
@@ -92,7 +93,7 @@ description: Find answers to common questions about Plausible Analytics. Contact
           </div>
 
           <div x-show="topic === 'pricing'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
-            <p>See our <a class="text-indigo-600" href="https://plausible.io/docs/subscription-plans">subscription plans</a> for a full breakdown of tiers and what's included. For nonprofit, education or open-source discounts, see our <a class="text-indigo-600" href="https://plausible.io/docs/nonprofit-and-education-pricing">discount policy</a>.</p>
+            <p>View <a class="text-indigo-600" href="https://plausible.io/#pricing">plans and pricing</a> on our website, or see the <a class="text-indigo-600" href="https://plausible.io/docs/subscription-plans">subscription plans doc</a> for a full breakdown of tiers and features.</p>
           </div>
 
           <div x-show="topic === 'nonprofit'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
@@ -108,7 +109,7 @@ description: Find answers to common questions about Plausible Analytics. Contact
           </div>
 
           <div x-show="topic === 'enterprise'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
-            <p><a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">Our enterprise plan</a> includes custom pageview limits, priority support, SLAs and a dedicated account manager. Email us below with your estimated monthly pageviews and any specific requirements.</p>
+            <p><a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">Our enterprise plan</a> includes custom pageview limits, SSO, managed proxy, Sites API access, extended data retention and priority support. Email us with your estimated monthly pageviews and any specific requirements.</p>
           </div>
 
           <div class="mt-6 flex">
@@ -143,11 +144,11 @@ description: Find answers to common questions about Plausible Analytics. Contact
               </div>
 
               {% for section in site.data.faq %}
-              <div class="mt-6" x-show="search === '' || Array.from($el.querySelectorAll('[data-question]')).some(el => el.dataset.question.includes(search.toLowerCase()))">
+              <div class="mt-6" x-show="search === '' || `{{ section.items | map: 'question' | join: ' ' | downcase }}`.includes(search.toLowerCase())">
                 <h3 class="pt-8 pb-2 text-xs font-bold text-indigo-600 uppercase tracking-wide">{{ section.category }}</h3>
                 <dl class="space-y-6 divide-y divide-gray-200">
                   {% for item in section.items %}
-                    <div class="pt-6" data-question="{{ item.question | downcase }}" x-show="search === '' || $el.dataset.question.includes(search.toLowerCase())">
+                    <div class="pt-6" x-show="search === '' || `{{ item.question | downcase }}`.includes(search.toLowerCase())">
                       <dt class="text-lg">
                         <button class="flex items-start justify-between w-full text-left text-gray-400" @click="selected !== '{{ forloop.parentloop.index }}-{{ forloop.index }}' ? selected = '{{ forloop.parentloop.index }}-{{ forloop.index }}' : selected = null">
                           <span class="font-medium text-gray-900">
