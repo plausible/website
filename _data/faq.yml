@@ -1,55 +1,130 @@
-- category: Getting started
+- category: Billing, invoices & VAT
+  items:
+    - question: Is the billing based on the number of sites I have?
+      answer: "Billing is based on the total pageviews and events across all sites in your team, not the number of sites. If you have multiple teams, each is billed separately. You can check your current usage in the Subscription section of your account settings."
+
+    - question: Can I send invoices to a different email address?
+      answer: "Your Plausible login email and your Paddle billing email are separate. To change where invoices are sent, email us with your current Paddle email and the new address you'd like to use. You can also give your accounting team direct billing access by adding them as a team member with the Billing role. <a class='text-indigo-600' href='https://plausible.io/docs/invoice-email'>Learn more about invoice email and billing access</a>."
+
+    - question: How do I add my VAT number?
+      answer: "On the second step of checkout, click \"Add VAT number\" alongside your payment details. Paddle handles all tax calculations and applies the correct rate based on your details. If you missed this step, open any Paddle invoice and click \"Add address & VAT Number\". Paddle will refund the VAT on your original payment and apply the correct rate going forward. <a class='text-indigo-600' href='https://paddle.com/support/which-countries-does-paddle-charge-vat-for/'>See which countries Paddle charges VAT for</a>."
+
+    - question: How do I change my billing address or legal entity?
+      answer: "Open any invoice and click \"Edit business address\" to update your address details. To change the country on your subscription, let your current subscription run to the end of its billing period, cancel it and resubscribe from the same Plausible account with the correct country. All your data, sites and settings stay unchanged. Paddle does not allow country changes on active subscriptions due to tax regulations."
+
+    - question: How do I get an invoice?
+      answer: "Paddle (our payment processor) emails an invoice to your billing address automatically after each payment. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>download all your invoices</a> in your account settings. If invoices aren't reaching the right address, see the question above about changing your invoice email."
+
+    - question: Do you support any alternative payment methods?
+      answer: "Credit card, PayPal, Apple Pay and Google Pay are supported. All processing is handled by Paddle. We can't accept wire transfers, manual invoicing or cryptocurrency."
+
+    - question: What happens if I go over my monthly pageview limit?
+      answer: "No surprise fees. An occasional spike won't trigger extra charges or stop your stats from being counted. A single month over your limit requires no action. If usage exceeds your plan for two consecutive months, we'll ask you to upgrade. If you don't within a week, dashboards are temporarily locked but stats continue being collected in the background. You can unlock them at any time by upgrading, or they unlock automatically at the start of the next billing cycle if usage drops back within your tier. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>Full details on overages and upgrades</a>."
+
+    - question: How do I cancel my subscription and what happens to my data?
+      answer: "You can cancel at any time from the Subscription section in your account settings. Your stats continue being collected and you have full access until the end of your billing period. After that, your dashboard is locked but your data is retained for a period based on your plan. You can export your data at any time from your site settings, and resubscribe whenever you like to unlock your dashboards and resume data collection. <a class='text-indigo-600' href='https://plausible.io/docs/cancel-subscription'>Full cancellation details</a>."
+
+    - question: How does billing work when I upgrade or downgrade?
+      answer: "When upgrading, Paddle calculates a pro-rated charge based on what you've already paid and the time remaining in your current billing period. When downgrading, the unused portion is added as credit applied to future payments. <a class='text-indigo-600' href='https://plausible.io/docs/change-plan'>Learn more about changing your plan</a>."
+
+- category: Goals, events & conversions
+  items:
+    - question: I set up a custom event but it's not showing in my dashboard. How do I debug it?
+      answer: "Custom events don't appear until they fire at least once. If yours isn't showing up, the most likely cause is incorrect tagging: either the event attribute isn't set correctly, or it isn't applied to the right element on your site. <a class='text-indigo-600' href='https://plausible.io/docs/custom-event-goals'>See the custom event setup and debugging guide</a>."
+
+    - question: Can I set a goal based on someone visiting a specific page?
+      answer: "Yes. Pageview goals trigger when a visitor lands on a URL you specify. They work without any code changes and support wildcards to match URL patterns like /blog/*. <a class='text-indigo-600' href='https://plausible.io/docs/pageview-goals'>See how pageview goals work</a>."
+
+    - question: How do I track ecommerce revenue?
+      answer: "Plausible supports revenue tracking by attaching a monetary value to any custom event. You can track in any currency and see total revenue, average revenue and conversion metrics in your dashboard, filtered by source, campaign, page or location. <a class='text-indigo-600' href='https://plausible.io/docs/ecommerce-revenue-tracking'>See how ecommerce revenue tracking works</a>."
+
+    - question: Can I export goal and conversion data?
+      answer: "Yes. You can export your full stats including goal data as CSV from the dashboard. Use the download icon in the top right of your dashboard. <a class='text-indigo-600' href='https://plausible.io/docs/export-stats'>Learn about exporting your stats</a>."
+
+- category: Bot filtering & traffic accuracy
+  items:
+    - question: How does Plausible's bot filtering work?
+      answer: "Plausible filters bots automatically using multiple layers: User-Agent blocking of known crawlers, referrer spam filtering, data center IP filtering and traffic pattern detection. We block approximately 2 billion bot visits per month across our network, on top of bots that don't run JavaScript at all. <a class='text-indigo-600' href='https://plausible.io/docs/bot-traffic-filtering'>See the full bot filtering overview</a>."
+
+    - question: I think bots are inflating my stats. Can I block specific sources?
+      answer: "You can use the <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> to block visits from specific IP addresses, hostnames or countries from being recorded. For referral sources that look like spam, you can filter them out in your dashboard view. If you're seeing bot traffic that our filters should be catching, email us with the dates and source details and we'll investigate."
+
+    - question: I think the bot filter is removing real visitors. What can I do?
+      answer: "Our filters are aggressive by design and false positives do happen occasionally. If you suspect legitimate traffic is being excluded, email us with specifics and we'll investigate. In the meantime, you can use <a class='text-indigo-600' href='https://plausible.io/docs/filters-segments'>filters and segments</a> to examine traffic patterns more closely."
+
+    - question: Can I see or filter AI crawler traffic (ChatGPT, Perplexity and others)?
+      answer: "Human visitors arriving from AI tools like ChatGPT or Perplexity are tracked normally and appear in your dashboard as referral sources. AI crawler traffic is a different thing: bots that crawl your site automatically. Most crawlers don't execute JavaScript and never trigger the Plausible script. Those that do are caught by our User-Agent blocking."
+
+- category: Pricing, plans & discounts
+  items:
+    - question: How long is the free trial and what happens when it ends?
+      answer: "The free trial is 30 days and no credit card is required. All stats collected during the trial are kept and nothing resets when you upgrade. If you don't upgrade before the trial ends, your dashboard will be locked but your data is retained. You can upgrade at any time to restore full access. <a class='text-indigo-600' href='https://plausible.io/docs/trial-to-paid'>How to upgrade from trial to paid</a>."
+
+    - question: What's the difference between the Starter, Growth and Business plans?
+      answer: "All plans cover the same pageview tiers. The difference is features and team size. Starter is for solo use on a single site. Growth adds multiple sites, team members and dashboard sharing. Business adds funnels, revenue tracking, custom properties and Stats API access. Enterprise covers large-scale needs like SSO, Sites API and raw data exports. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans'>Choose the right plan</a>."
+
+    - question: Do you have a free plan?
+      answer: "We don't have a free plan. Plausible is independent and funded solely by the fees our subscribers pay. We're not monetizing the data we collect, so a subscription fee is needed to cover our costs and salaries."
+
+    - question: Is there a plan between 10K and 100K pageviews?
+      answer: "The jump from 10K to 100K is intentional. You get ten times more pageviews for roughly double the price, which gives you a lot of room to grow without paying proportionally more. If you're currently between those tiers, the 10K plan covers you and a single month over the limit won't trigger an upgrade or extra charges. You'd only need to move up if your traffic consistently exceeds 10K for two consecutive months. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>How overages work</a>."
+
+    - question: Do you offer nonprofit, education or open-source discounts?
+      answer: "Yes. We offer a 15% introductory discount for nonprofits, educational institutions and open-source projects. It applies to Business plans on annual billing only. To get a discount code, start your free 30-day trial and email us with your organization name, type and website. We'll send you a one-time code to use at checkout. <a class='text-indigo-600' href='https://plausible.io/docs/nonprofit-and-education-pricing'>Full details on nonprofit and education pricing</a>."
+
+    - question: I received an email saying my stats will stop being counted. What should I do?
+      answer: "This means your usage has exceeded your plan tier for two consecutive months. You can upgrade from your account settings and the charge is pro-rated so you only pay the difference. If you don't upgrade within a week, dashboards are temporarily locked, but stats continue being collected in the background. You can restore access at any time by upgrading. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>More details on overages and upgrades</a>."
+
+- category: Getting started & tracking issues
   items:
     - question: I've integrated Plausible into my site. How do I check if I've done it correctly?
-      answer: "We have a testing tool that you can try directly from your <a class='text-indigo-600' href='https://plausible.io/docs/website-settings'>site settings</a>. It will send some traffic to your site to ensure that everything is working correctly. If we encounter an issue with your integration, we'll provide some tips on how to fix it. <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>Learn more</a>."
+      answer: "Run the testing tool directly from your <a class='text-indigo-600' href='https://plausible.io/docs/website-settings'>site settings</a>. It sends traffic to your site and checks that everything is working. If there's a problem with your integration, it'll tell you what to fix. <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>Learn more</a>."
 
     - question: Why don't I see my own visits?
-      answer: "There are a few common reasons. Our <a class='text-indigo-600' href='https://plausible.io/wordpress-analytics-plugin'>official WordPress plugin</a> excludes logged-in admin visits by default. If the testing tool confirms tracking is working, you have nothing to worry about. The <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> may also be blocking your visits based on IP address, hostname or country. And browser extensions or network-level adblockers can block the Plausible script. Consider setting up <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy</a> to avoid that. See our full <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>troubleshooting guide</a> for more details."
+      answer: "A few things to check. Our <a class='text-indigo-600' href='https://plausible.io/wordpress-analytics-plugin'>official WordPress plugin</a> excludes logged-in admin visits by default. The <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> may also be blocking your visits based on IP address, hostname or country. And browser extensions or network-level adblockers can block the Plausible script. Consider setting up <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy</a> to avoid that. If the testing tool confirms tracking is working, everything is fine on our end. See our full <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>troubleshooting guide</a> for more details."
 
     - question: Does Plausible get blocked by adblockers and how do I avoid that?
       answer: "We're not blocked to the same extent as Google Analytics (neither Firefox, Chrome nor Safari blocks Plausible out of the box) but we're blocked by some adblock browser extensions. You can use <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy</a> if you want to count visitors that use adblockers too."
 
     - question: Can I track visitors across my domain and subdomain?
-      answer: "Yes. You can use the same snippet on both the domain name and its subdomain. This allows you to see the visitor journey end-to-end from the landing on the main domain name to a conversion on the subdomain. <a class='text-indigo-600' href='https://plausible.io/docs/subdomain-hostname-filter'>Learn more about hostname or subdomain tracking here</a>."
+      answer: "Yes. Use the same snippet on both the domain and its subdomain. This lets you follow the visitor journey end-to-end, from arriving on your main domain to converting on a subdomain. <a class='text-indigo-600' href='https://plausible.io/docs/subdomain-hostname-filter'>Learn more about hostname and subdomain tracking</a>."
 
     - question: Can I import my Google Analytics data?
       answer: "Yes. You can import your historical Google Analytics stats into your Plausible dashboard. <a class='text-indigo-600' href='https://plausible.io/docs/google-analytics-import'>See how the GA importer works</a>."
 
-- category: Billing and pricing
-  items:
-    - question: Is the billing based per account or per website?
-      answer: "The billing is based on the total number of pageviews and events between all of the sites you have added to your account. You can see this total number of billable pageviews at any time in your account settings."
+    - question: My proxy is set up but Plausible isn't recording any data. What should I check?
+      answer: "Most proxy issues come down to one thing: your proxy needs to forward the visitor's real IP address, not the IP of the server running the proxy. If Plausible receives the proxy server's IP, it will likely be blocked by our data center bot filtering and no data will be recorded. You can check which IP Plausible is receiving using the <a class='text-indigo-600' href='https://plausible.io/docs/events-api#debugging'>X-Debug-Request header in the Events API</a>. Then double-check your setup against the <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>proxy setup guide</a>."
 
-    - question: How do I add my business details and the VAT number?
-      answer: "You can add your company address and VAT number on the payment screen during the upgrade process. You can also open any of your previous invoices and click on the Add address & VAT Number link to do so."
+    - question: Why don't my Plausible stats match Google Analytics, my email tool or my server logs?
+      answer: "Some difference is normal. Each tool measures traffic differently, with different bot filters, different counting methods and different definitions of what a visit or pageview is. Plausible doesn't use cookies and doesn't require consent banners, so it often captures visitors that cookie-based tools miss. At the same time, Plausible filters non-human traffic aggressively, so its numbers can be lower than server logs or ad platforms that count every request. <a class='text-indigo-600' href='https://plausible.io/docs/dashboard-faq'>See detailed explanations for each tool comparison</a>."
 
-    - question: How do I get an invoice?
-      answer: "Our payment processor Paddle sends an invoice to you via email automatically upon each payment. You can click on a link within this email to download your invoice. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>download your invoices</a> in your Plausible account settings."
-
-    - question: Do you support any alternative payment methods?
-      answer: "Credit card, PayPal, Apple Pay and Google Pay are the supported payment methods. We cannot accept payments by wire transfer, invoicing or cryptocurrency."
-
-    - question: What happens if I go over my monthly page views limit?
-      answer: "You will never be charged extra for an occasional traffic spike. We will not stop counting your stats either. There are no surprise fees and your card will never be charged unexpectedly. Suppose new higher traffic levels become your new standard and your page views exceed your subscription plan for two consecutive months. In that case, we kindly ask you to upgrade your subscription plan to accommodate your new traffic levels using our self-serve platform."
-
-    - question: How does the billing work if I upgrade my subscription to a higher tier?
-      answer: "Our payment processor Paddle will calculate a pro-rated amount which reflects the amount you have paid on your previous subscription and the amount of time until that subscription was supposed to expire."
-
-    - question: Do you have a free plan?
-      answer: "We don't have a free plan. Plausible is independent and funded solely by the fees that our subscribers pay us. We're not monetizing the data we collect so a subscription fee is needed to cover our costs and salaries. Thanks for understanding!"
-
-- category: Sharing and collaboration
+- category: Sharing, teams & agency use
   items:
     - question: Can I give someone access to my stats without making the dashboard public?
-      answer: "You can <a class='text-indigo-600' href='https://plausible.io/docs/users-roles'>create a team, invite team members and assign user roles</a> in your settings. Or you can use our <a class='text-indigo-600' href='https://plausible.io/docs/shared-links'>private and secure shared links</a>. These can be password protected and limited to a specific audience segment. The person you share the link with doesn't need to have a Plausible account and they can see the individual dashboard but cannot see anything else that you have on your account."
+      answer: "You can <a class='text-indigo-600' href='https://plausible.io/docs/users-roles'>create a team, invite team members and assign user roles</a> in your settings. Or you can use our <a class='text-indigo-600' href='https://plausible.io/docs/shared-links'>private and secure shared links</a>. These can be password protected and limited to a specific audience segment. The person you share the link with doesn't need to have a Plausible account."
+
+    - question: What's the difference between a shared link, an embedded dashboard and a team member invite?
+      answer: "A <a class='text-indigo-600' href='https://plausible.io/docs/shared-links'>shared link</a> gives read-only access to a specific dashboard with no Plausible account needed. It can be password protected. An <a class='text-indigo-600' href='https://plausible.io/docs/embed-dashboard'>embedded dashboard</a> puts that same view inside your own website or app using an iframe. A <a class='text-indigo-600' href='https://plausible.io/docs/users-roles'>team member invite</a> gives a named person their own login with a defined role (viewer, editor, admin or billing) across your sites."
+
+    - question: How do I transfer a site to a different user or team?
+      answer: "Go to site settings, click \"Danger Zone\" and use the Transfer Site Ownership option. The recipient needs a Plausible account and an active subscription that covers the transferred site. Subscriptions are not transferred with the site. <a class='text-indigo-600' href='https://plausible.io/docs/transfer-ownership'>See the full transfer ownership guide</a>."
+
+    - question: I'm an agency managing multiple client sites. What's the recommended setup?
+      answer: "There are three common approaches: one team per client (each client has separate billing), one agency team for all sites (you manage billing centrally), or managing a site during the project and transferring it to the client on handoff. Most agencies use a mix depending on the client relationship. <a class='text-indigo-600' href='https://plausible.io/docs/agencies-and-freelancers'>See the full agency and freelancer guide</a>."
 
     - question: Can I integrate your dashboard into my UI and offer it to my customers?
-      answer: "Yes. We have built <a class='text-indigo-600' href='https://plausible.io/white-label-web-analytics'>several features</a> to make it easy to integrate web analytics powered by Plausible (but without our branding) directly into your user interface."
+      answer: "Yes. We have <a class='text-indigo-600' href='https://plausible.io/white-label-web-analytics'>several features</a> designed for this: embed Plausible-powered analytics into your UI without our branding."
 
-    - question: Is there a hard limit on the number of sites, team members or API requests per hour?
-      answer: "No. There are no hard limits on the number of sites, the number of team members or the number of API requests per hour that you can have in your Plausible account. To modify the limits of your plan, please contact us. We're here to help tailor your subscription plan to your needs."
-
-- category: Privacy and data
+- category: GDPR, DPA & compliance
   items:
+    - question: Where can I find your Data Processing Agreement?
+      answer: "The DPA is available at <a class='text-indigo-600' href='https://plausible.io/dpa'>plausible.io/dpa</a>. It covers our GDPR obligations and processor responsibilities and applies to all Plausible customers. Enterprise customers needing a custom or negotiated DPA can email us."
+
+    - question: We need you to complete a security or compliance questionnaire. How do we submit it?
+      answer: "Our <a class='text-indigo-600' href='https://plausible.io/security'>security page</a> and <a class='text-indigo-600' href='https://plausible.io/docs/compliance'>compliance documentation</a> cover the questions typically asked in vendor security reviews. We recommend going through those first. Because Plausible doesn't process personal data or track individual users, we're typically classified as low-risk in these assessments. If specific questions aren't covered, email us with the outstanding items."
+
     - question: Where are your servers located and where is the data stored?
-      answer: "We exclusively use EU-owned cloud infrastructure. The site data we collect is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data <a class='text-indigo-600' href='https://plausible.io/security'>never leaves the EU and EU owned infrastructure</a>."
+      answer: "We exclusively use EU-owned cloud infrastructure. Site data is stored in Falkenstein, Germany on servers owned by Hetzner, a European company. Your site data <a class='text-indigo-600' href='https://plausible.io/security'>never leaves the EU and EU-owned infrastructure</a>."
+
+    - question: How do I delete my data, my sites or my account?
+      answer: "To delete an individual site and all its stats, go to your site settings and use the Delete option in the Danger Zone section. To delete your entire account and all associated data, go to Account Settings and use Delete Account in the Danger Zone section. <a class='text-indigo-600' href='https://plausible.io/docs/delete-site-data'>Deleting a site</a> | <a class='text-indigo-600' href='https://plausible.io/docs/delete-account'>Deleting your account</a>."
