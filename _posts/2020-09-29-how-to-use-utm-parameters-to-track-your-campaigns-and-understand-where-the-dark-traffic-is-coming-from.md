@@ -4,7 +4,7 @@ title: How to use UTM parameters to track your campaigns and understand dark tra
 description: UTM parameters help you understand where your traffic comes from. Learn what they are, how to use them and how to track your campaigns in Plausible Analytics.
 slug: utm-tracking-tags
 date: 2020-09-29T15:06:06.455Z
-last_modified_at: 2026-04-15
+last_modified_at: 2026-04-21
 author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
@@ -12,6 +12,8 @@ image-alt: UTM campaign tracking with Plausible Analytics
 UTM parameters help you understand where your traffic is coming from. They can illuminate dark traffic, track paid campaigns and pinpoint which content drives results.
 
 [Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box.
+
+Already know UTM tags and just need to build a link? Use the [UTM builder](/utm-builder).
 
 1. Ordered list
 {:toc}
@@ -89,11 +91,11 @@ Enter your URL and campaign details below to generate a tagged link:
       <input type="text" id="utm-content" placeholder="e.g. banner-top, link-footer" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
     </div>
   </div>
-  <div id="utm-result" style="display: none; margin-top: 1.25rem;">
+  <div id="utm-result" style="margin-top: 1.25rem;">
     <label style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Your tagged URL</label>
     <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
-      <div id="utm-output" style="flex: 1; padding: 0.75rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; word-break: break-all; color: #1f2937; line-height: 1.5;"></div>
-      <button id="utm-copy" style="flex-shrink: 0; padding: 0.5rem 1rem; background: #4f46e5; color: #fff; font-size: 0.875rem; font-weight: 500; border: none; border-radius: 0.375rem; cursor: pointer; font-family: inherit;">Copy</button>
+      <div id="utm-output" style="flex: 1; padding: 0.75rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; word-break: break-all; color: #9ca3af; line-height: 1.5;">Fill in the URL and source above to generate your tagged link.</div>
+      <button id="utm-copy" style="flex-shrink: 0; padding: 0.5rem 1rem; background: #4f46e5; color: #fff; font-size: 0.875rem; font-weight: 500; border: none; border-radius: 0.375rem; cursor: pointer; font-family: inherit; visibility: hidden;">Copy</button>
     </div>
   </div>
 </div>
@@ -105,8 +107,12 @@ Enter your URL and campaign details below to generate a tagged link:
   function buildUrl() {
     var url = document.getElementById('utm-url').value.trim();
     var source = document.getElementById('utm-source').value.trim();
+    var output = document.getElementById('utm-output');
+    var copyBtn = document.getElementById('utm-copy');
     if (!url || !source) {
-      document.getElementById('utm-result').style.display = 'none';
+      output.textContent = 'Fill in the URL and source above to generate your tagged link.';
+      output.style.color = '#9ca3af';
+      copyBtn.style.visibility = 'hidden';
       return;
     }
     var params = [];
@@ -120,8 +126,9 @@ Enter your URL and campaign details below to generate a tagged link:
     var content = document.getElementById('utm-content').value.trim();
     if (content) params.push('utm_content=' + encodeURIComponent(content));
     var separator = url.indexOf('?') === -1 ? '?' : '&';
-    document.getElementById('utm-output').textContent = url + separator + params.join('&');
-    document.getElementById('utm-result').style.display = 'block';
+    output.textContent = url + separator + params.join('&');
+    output.style.color = '#1f2937';
+    copyBtn.style.visibility = 'visible';
   }
 
   fields.forEach(function(id) {
