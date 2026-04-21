@@ -42,7 +42,7 @@ Enter your URL and campaign details to generate a tagged link:
   <div id="utm-result" style="margin-top: 1.25rem;">
     <label style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Your tagged URL</label>
     <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
-      <div id="utm-output" style="flex: 1; padding: 0.75rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; word-break: break-all; color: #9ca3af; line-height: 1.5;">Fill in the URL and source above to generate your tagged link.</div>
+      <div id="utm-output" style="flex: 1; padding: 0.75rem; background: #f3f4f6; border: 1px solid #e5e7eb; border-radius: 0.375rem; word-break: break-all; color: #9ca3af; line-height: 1.5;">Fill in the URL and source above to generate your tagged link.</div>
       <button id="utm-copy" style="flex-shrink: 0; padding: 0.5rem 1rem; background: #4f46e5; color: #fff; font-size: 0.875rem; font-weight: 500; border: none; border-radius: 0.375rem; cursor: pointer; font-family: inherit; visibility: hidden;">Copy</button>
     </div>
   </div>
@@ -62,6 +62,9 @@ Enter your URL and campaign details to generate a tagged link:
       output.style.color = '#9ca3af';
       copyBtn.style.visibility = 'hidden';
       return;
+    }
+    if (url && !/^https?:\/\//i.test(url)) {
+      url = 'https://' + url;
     }
     var params = [];
     params.push('utm_source=' + encodeURIComponent(source));
