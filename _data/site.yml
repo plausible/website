@@ -3,3 +3,12 @@ subscriber_count_short: "17k"
 pageviews_tracked: "260B"
 uptime: "99.99%"
 team_size: "10"
+plausible_script_kb: 2.5
+ga4_script_kb: 135
+script_ratio: 54
+plausible_script_kb_raw: 6.1
+ga4_script_kb_raw: 380
+matomo_script_kb: 22
+matomo_script_kb_raw: 66
+co2_kwh_per_gb: 0.06
+co2_kg_per_kwh: 0.445

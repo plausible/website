@@ -65,9 +65,9 @@ Google Analytics is closed source. There's no way to independently verify what h
 
 ### Faster and lighter
 
-Every script you add to a page has a performance cost. Plausible's script is a fraction of the size of a typical Google Analytics script.
+Every script you add to a page has a performance cost. The Google Analytics tracking script is {{ site.data.site.ga4_script_kb }}KB gzipped. Plausible's is {{ site.data.site.plausible_script_kb }}KB, which is {{ site.data.site.script_ratio }} times smaller.
 
-This matters for your visitors and for search rankings. Plausible is built to be a [lightweight analytics tool](https://plausible.io/lightweight-web-analytics) that gives you the insights you need without slowing your site down.
+This matters for your visitors and for search rankings. See how the difference compounds with our [analytics script size calculator](/google-analytics-script-size), or read more about what makes Plausible a [lightweight analytics tool](/lightweight-web-analytics).
 
 ### Independent and community-driven
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "UTM Builder"
+title: "UTM builder"
 description: Generate UTM tagged links for your campaigns. Fill in the details below and copy the tagged URL to use in your emails, social posts and ads.
 permalink: /utm-builder
 ---

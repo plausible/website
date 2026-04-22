@@ -132,7 +132,7 @@ Funnels are useless unless they are being constantly noticed, updated and optimi
 
 This can be done proactively and reactively, by employing the best possible strategies to optimize for an ideal funnel. And when you happen to see an under-performing or abnormally “leaky” funnel, because there are either too many drop-offs at a stage in the funnel or the conversion rate is below acceptable, it’s a useful sign in itself that tells where exactly you need to focus your optimization efforts.
 
-Here are some ways to optimize for the most efficient funnels and maintain good conversion rates.
+Here are some ways to optimize for the most efficient funnels and maintain good conversion rates. You can use the [Plausible conversion rate calculator](https://plausible.io/conversion-rate-calculator) to benchmark your current rate and find out how much traffic you need to hit your goals.
 
 ### Set a purpose for each stage of the funnel
 
