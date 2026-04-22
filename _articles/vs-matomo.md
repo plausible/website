@@ -42,7 +42,7 @@ We have a [live demo](https://plausible.io/plausible.io) for you to view. It sho
 
 Web analytics scripts like any other website element add extra page weight and extra loading time to your website. Every KB matters when you want to keep your site fast to load.
 
-Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) built with speed and performance in mind. Our tracking script is a fraction of the size of Matomo's, which adds up across every page load, every visitor, every day.
+Plausible Analytics is a [lightweight web analytics tool](https://plausible.io/lightweight-web-analytics) built with speed and performance in mind. Our tracking script is {{ site.data.site.plausible_script_kb }}KB gzipped. Matomo's is {{ site.data.site.matomo_script_kb }}KB, nearly 9 times larger. See how the data transfer adds up for your traffic with our [script size calculator](/google-analytics-script-size).
 
 ## No cookies, no consent banner required
 

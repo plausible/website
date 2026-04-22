@@ -41,9 +41,9 @@ Plausible is compliant with GDPR, CCPA and PECR out of the box. [We don’t use 
 
 ### Google Analytics slows down your site and worsens the visitor experience
 
-Google Analytics collects far more data than most sites need, and the script weight shows. Speed tests including Google's own PageSpeed Insights regularly flag it as something slowing your site down.
+Google Analytics collects far more data than most sites need, and the script weight shows. The Google Analytics tracking script is {{ site.data.site.ga4_script_kb }}KB gzipped. Speed tests including Google's own PageSpeed Insights regularly flag it as something slowing your site down.
 
-Plausible's script [is lightweight](https://plausible.io/lightweight-web-analytics). Your site stays fast and your visitors get a smooth experience.
+Plausible's script is {{ site.data.site.plausible_script_kb }}KB gzipped, which is {{ site.data.site.script_ratio }} times smaller. Your site stays fast and your visitors get a smooth experience. See how it adds up with our [analytics script size calculator](/google-analytics-script-size).
 
 ### Google Analytics is inaccurate
 

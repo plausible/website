@@ -43,7 +43,9 @@ We collect only the most essential data points and nothing else.
 
 Other analytics tools like Google Analytics offer [hundreds of different reports](https://plausible.io/simple-web-analytics) built on vast data collection that is unnecessary for most website owners.
 
-All the metrics we do collect fit on one single page: page views, unique visitors, referral sources, top pages, countries, devices and browsers. That's it. This makes Plausible much easier to use. It's also [significantly lighter than Google Analytics](https://plausible.io/lightweight-web-analytics) so it doesn't slow down your site or add to your carbon footprint.
+All the metrics we do collect fit on one single page: page views, unique visitors, referral sources, top pages, countries, devices and browsers. That's it. This makes Plausible much easier to use.
+
+We're also [significantly lighter than Google Analytics](https://plausible.io/lightweight-web-analytics). Our script is {{ site.data.site.plausible_script_kb }}KB gzipped versus GA4's {{ site.data.site.ga4_script_kb }}KB, so it doesn't slow down your site or add to your carbon footprint. See the full breakdown with our [script size calculator](/google-analytics-script-size).
 
 You can see exactly what you'd get in [our live demo dashboard](https://plausible.io/plausible.io) or review the full list in [our data policy](https://plausible.io/data-policy).
 

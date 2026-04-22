@@ -184,7 +184,7 @@ If you cannot live without some specific features, try and find more lightweight
 
 * Google Fonts can be replaced with web safe fonts
 * YouTube videos that autoplay can be replaced with a no-cookie embed alternative (switch the domain to youtube-nocookie.com) or a facade that requires a click to play
-* Google Analytics with its heavy script size can be [replaced with Plausible Analytics](https://plausible.io/vs-google-analytics) which is lightweight
+* Google Analytics ({{ site.data.site.ga4_script_kb }}KB gzipped) can be [replaced with Plausible Analytics](https://plausible.io/vs-google-analytics) which is {{ site.data.site.plausible_script_kb }}KB. Use our [script size calculator](/google-analytics-script-size) to see how much that saves across your traffic.
 
 Identify heavy and slow elements of your site and go on a hunt for more appropriate and lightweight alternative solutions.
 
