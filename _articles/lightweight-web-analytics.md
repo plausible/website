@@ -35,7 +35,7 @@ For most site owners it is overkill. The problem most people are actually trying
 
 The Google Analytics script is **{{ site.data.site.ga4_script_kb }}KB gzipped**. The Plausible tracking script is **{{ site.data.site.plausible_script_kb }}KB**, which is {{ site.data.site.script_ratio }} times smaller.
 
-That's the GA4 script alone. Most users also load Google Tag Manager and a cookie consent banner, pushing the total past 285KB. See how that adds up for your traffic with our [analytics script size calculator](/google-analytics-script-size).
+That's the GA4 script alone. Most users also load Google Tag Manager and a cookie consent banner, pushing the total past 285KB.
 
 ## Why is Plausible lightweight?
 
