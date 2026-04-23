@@ -86,6 +86,13 @@ Enter your monthly visitors and configure your Google Analytics setup to see the
         <div style="font-size: 0.75rem; color: #6b7280; margin-top: 0.25rem;">estimated</div>
       </div>
     </div>
+    <div style="margin-top: 1rem;">
+      <div style="padding: 1rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; text-align: center;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: #374151; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">Page load time saved per visitor</div>
+        <div id="calc-speed" style="font-size: 1.75rem; font-weight: 800; color: #111827; line-height: 1;"></div>
+        <div style="font-size: 0.75rem; color: #6b7280; margin-top: 0.25rem;">download time only, actual impact is typically higher</div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -110,6 +117,11 @@ Enter your monthly visitors and configure your Google Analytics setup to see the
     if (kg >= 1000) return (kg / 1000).toFixed(1) + ' tonnes';
     if (kg >= 10) return Math.round(kg) + ' kg';
     return kg.toFixed(1) + ' kg';
+  }
+
+  function formatTime(ms) {
+    if (ms >= 1000) return (ms / 1000).toFixed(1) + 's';
+    return Math.round(ms) + 'ms';
   }
 
   function setCardStyle(id, active) {
@@ -140,10 +152,14 @@ Enter your monthly visitors and configure your Google Analytics setup to see the
     if (consentKB > 0) breakdownParts.push((cbChecked ? 'Cookiebot' : 'OneTrust') + ' ' + consentKB + 'KB');
     document.getElementById('calc-ga4-breakdown').textContent = breakdownParts.length > 1 ? breakdownParts.join(' + ') + ' = ' + totalGA4KB + 'KB' : '';
 
+    var bandwidthKBps = 10000 / 8;
+    var timeSavedMs = ((totalGA4KB - plausibleKB) / bandwidthKBps) * 1000;
+
     document.getElementById('calc-plausible').textContent = formatSize(visitors * plausibleKB);
     document.getElementById('calc-ga4').textContent = formatSize(visitors * totalGA4KB);
     document.getElementById('calc-savings').textContent = formatSize(visitors * (totalGA4KB - plausibleKB));
     document.getElementById('calc-co2').textContent = formatCO2(visitors * (totalGA4KB - plausibleKB) * 12 * co2KgPerKb);
+    document.getElementById('calc-speed').textContent = formatTime(timeSavedMs);
   }
 
   input.addEventListener('input', function() {
@@ -180,7 +196,7 @@ Enter your monthly visitors and configure your Google Analytics setup to see the
 })();
 </script>
 
-<p style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.75rem;">Script sizes measured from CDN. GTM size varies by container configuration. Consent platform sizes vary by version and setup. CO2 estimate uses {{ site.data.site.co2_kwh_per_gb }} kWh per GB (network energy, <a href="https://sustainablewebdesign.org/" style="color: #9ca3af;">Sustainable Web Design model</a>) and {{ site.data.site.co2_kg_per_kwh }} kg CO2 per kWh (<a href="https://www.iea.org/reports/electricity-2025/emissions" style="color: #9ca3af;">IEA global average</a>).</p>
+<p style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.75rem;">Script sizes measured from CDN. GTM size varies by container configuration. Consent platform sizes vary by version and setup. CO2 estimate uses {{ site.data.site.co2_kwh_per_gb }} kWh per GB (network energy, <a href="https://sustainablewebdesign.org/" style="color: #9ca3af;">Sustainable Web Design model</a>) and {{ site.data.site.co2_kg_per_kwh }} kg CO2 per kWh (<a href="https://www.iea.org/reports/electricity-2025/emissions" style="color: #9ca3af;">IEA global average</a>). Page load time estimate based on script download at 10 Mbps (average 4G mobile). Parse and execution time adds further delay not included here.</p>
 
 ## What those gigabytes actually mean
 
@@ -222,5 +238,7 @@ Because Plausible does not use cookies or collect personal data, you do not need
 Script weight also affects your [Core Web Vitals](https://plausible.io/blog/page-experience-web-vitals) scores. These are Google's measures of page speed and responsiveness, and they influence search rankings.
 
 Third-party scripts compete for main thread time even when loaded asynchronously, which directly impacts Largest Contentful Paint and Interaction to Next Paint. Removing a heavy analytics stack is one of the most reliable ways to improve those scores.
+
+The page load time figure in the calculator above shows download time only. The browser still has to parse and execute whatever it downloads, which adds further delay on top. The number shown is a floor, not a ceiling. For sites where Core Web Vitals scores are close to Google's thresholds, switching analytics is often the single biggest lever available without touching your own code.
 
 For the full picture on analytics and website performance, see [lightweight web analytics](/lightweight-web-analytics).
