@@ -13,7 +13,7 @@ UTM parameters help you understand where your traffic is coming from. They can i
 
 [Plausible Analytics](https://plausible.io/) has full UTM tag support out-of-the-box.
 
-Already know UTM tags and just need to build a link? Use the [UTM builder](/utm-builder).
+Already know UTM tags and just need to build a link? Use the [UTM builder](/utm-builder). Already have a link? Use the [UTM checker](/utm-checker) to validate it.
 
 1. Ordered list
 {:toc}
@@ -36,7 +36,7 @@ Tagging your links with UTM parameters is a solution to minimize dark traffic ev
 
 When you have UTM tagged links in your emails, social media and other platforms, you can see clicks on these links in your Plausible Analytics dashboard. You can see referral sources of your traffic, even those that would otherwise be listed as "Direct / None": 
 
-* In your "Top Sources" report you can filter by medium, source, campaign, term and content tabs which include all the visits to your sites from tagged links.
+* In your "Campaigns" report you can filter by UTM Medium, UTM Source, UTM Campaign, UTM Term and UTM Content tabs which include all the visits to your sites from tagged links.
 
 * You can click on any of your individual UTM tags to drill down and get a full report based on that specific UTM tag:
 
@@ -48,12 +48,12 @@ When you have UTM tagged links in your emails, social media and other platforms,
 
 UTM parameters are bits of text that you add to your URLs and links that you share. Here's what a link looks like when it's tagged with UTM parameters:
 
-`https://yourdomain.com?utm_medium=social&utm_source=Twitter&utm_campaign=milestone`
+`https://yourdomain.com?utm_medium=social&utm_source=linkedin&utm_campaign=milestone`
 
 UTM parameters are all the tags that come after the question mark (`?`) in the URL above:
 
 * utm_medium=social
-* utm_source=Twitter
+* utm_source=linkedin
 * utm_campaign=milestone
 
 Individual parameters are separated by the ampersand (`&`) symbol.
@@ -62,106 +62,7 @@ You can tag all your links manually or use the builder below.
 
 ## UTM tag builder
 
-Enter your URL and campaign details below to generate a tagged link:
-
-<div style="margin: 1.5rem 0; padding: 1.5rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 0.875rem; font-family: inherit;">
-  <div style="display: grid; gap: 0.875rem;">
-    <div>
-      <label for="utm-url" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Website URL <span style="color: #ef4444;">*</span></label>
-      <input type="url" id="utm-url" placeholder="https://yourdomain.com" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
-    </div>
-    <div>
-      <label for="utm-source" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Source (utm_source) <span style="color: #ef4444;">*</span></label>
-      <input type="text" id="utm-source" placeholder="e.g. newsletter, twitter, google" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
-    </div>
-    <div>
-      <label for="utm-medium" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Medium (utm_medium)</label>
-      <input type="text" id="utm-medium" placeholder="e.g. email, social, cpc" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
-    </div>
-    <div>
-      <label for="utm-campaign" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Name (utm_campaign)</label>
-      <input type="text" id="utm-campaign" placeholder="e.g. spring-sale, product-launch" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
-    </div>
-    <div>
-      <label for="utm-term" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Term (utm_term)</label>
-      <input type="text" id="utm-term" placeholder="e.g. analytics software (for paid search)" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
-    </div>
-    <div>
-      <label for="utm-content" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Campaign Content (utm_content)</label>
-      <input type="text" id="utm-content" placeholder="e.g. banner-top, link-footer" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
-    </div>
-  </div>
-  <div id="utm-result" style="margin-top: 1.25rem;">
-    <label style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.5rem;">Your tagged URL</label>
-    <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
-      <div id="utm-output" style="flex: 1; padding: 0.75rem; background: #f3f4f6; border: 1px solid #e5e7eb; border-radius: 0.375rem; word-break: break-all; color: #9ca3af; line-height: 1.5;">Fill in the URL and source above to generate your tagged link.</div>
-      <button id="utm-copy" style="flex-shrink: 0; padding: 0.5rem 1rem; background: #4f46e5; color: #fff; font-size: 0.875rem; font-weight: 500; border: none; border-radius: 0.375rem; cursor: pointer; font-family: inherit; visibility: hidden;">Copy</button>
-    </div>
-  </div>
-</div>
-
-<script>
-(function() {
-  var fields = ['utm-url', 'utm-source', 'utm-medium', 'utm-campaign', 'utm-term', 'utm-content'];
-
-  function buildUrl() {
-    var url = document.getElementById('utm-url').value.trim();
-    var source = document.getElementById('utm-source').value.trim();
-    var output = document.getElementById('utm-output');
-    var copyBtn = document.getElementById('utm-copy');
-    if (!url || !source) {
-      output.textContent = 'Fill in the URL and source above to generate your tagged link.';
-      output.style.color = '#9ca3af';
-      copyBtn.style.visibility = 'hidden';
-      return;
-    }
-    if (url && !/^https?:\/\//i.test(url)) {
-      url = 'https://' + url;
-    }
-    var params = [];
-    params.push('utm_source=' + encodeURIComponent(source));
-    var medium = document.getElementById('utm-medium').value.trim();
-    if (medium) params.push('utm_medium=' + encodeURIComponent(medium));
-    var campaign = document.getElementById('utm-campaign').value.trim();
-    if (campaign) params.push('utm_campaign=' + encodeURIComponent(campaign));
-    var term = document.getElementById('utm-term').value.trim();
-    if (term) params.push('utm_term=' + encodeURIComponent(term));
-    var content = document.getElementById('utm-content').value.trim();
-    if (content) params.push('utm_content=' + encodeURIComponent(content));
-    var separator = url.indexOf('?') === -1 ? '?' : '&';
-    output.textContent = url + separator + params.join('&');
-    output.style.color = '#1f2937';
-    copyBtn.style.visibility = 'visible';
-  }
-
-  fields.forEach(function(id) {
-    var el = document.getElementById(id);
-    if (el) el.addEventListener('input', buildUrl);
-  });
-
-  document.getElementById('utm-copy').addEventListener('click', function() {
-    var text = document.getElementById('utm-output').textContent;
-    var btn = document.getElementById('utm-copy');
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text).then(function() {
-        btn.textContent = 'Copied!';
-        setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
-      });
-    } else {
-      var ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.position = 'fixed';
-      ta.style.opacity = '0';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      btn.textContent = 'Copied!';
-      setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
-    }
-  });
-})();
-</script>
+Use the [Plausible UTM builder](/utm-builder) to generate tagged links without doing it manually. It flags naming issues as you type and shows exactly how each parameter will appear in your Plausible dashboard. Already have a link? Use the [UTM checker](/utm-checker) to validate it and get a clean version ready to use.
 
 ## Types of UTM parameters
 
@@ -181,7 +82,7 @@ You can organize and group `utm_medium` tags within a few of your main marketing
 
 * "email" for all email marketing campaigns
 * "social" for organic content posted on your social media channels
-* "social-paid" for paid campaigns posted on social media
+* "paid-social" for paid campaigns posted on social media
 * "cpc" for pay per click advertising such as search engine paid advertising
 * "display" for any advertising banner campaigns you run on other websites
 * "affiliate" for all affiliate marketing campaigns
@@ -211,7 +112,7 @@ UTM parameters help you understand the big picture and referral sources that bri
 
 Facebook is a big source of traffic for many websites but the Facebook referrer only includes the fact that the visitor came from Facebook. Facebook never sends the post or comment ID where someone clicked. You can get this data by including UTM tags in the links you share on Facebook.
 
-X (formerly Twitter) is similar in that it sets the referrer to their link shortener, so you can see the shortened link but not the actual post that brought the traffic. UTM tags help you solve this.
+Instagram is similar: links shared in posts, stories and bios often arrive with no useful referrer context. UTM tags are the only reliable way to identify which Instagram content drove a click.
 
 ### Track your email marketing campaigns
 
@@ -235,15 +136,15 @@ Note that many email platforms like Mailchimp, ConvertKit and HubSpot can auto-g
 
 Social media typically sends dark traffic referrals. So by tagging the content you share in social media, you can bring light to some of your activities. 
 
-One way to do that would be to tag all your organic (non-paid) social media links with a `utm_medium=social` tag and all your paid social media posts with a `utm_medium=social-paid` tag.
+One way to do that would be to tag all your organic (non-paid) social media links with a `utm_medium=social` tag and all your paid social media posts with a `utm_medium=paid-social` tag.
 
-This will show a clear split in your website referral traffic between visitors and activity coming from "social" and "social-paid". It makes it easier to analyze and understand the results you're getting from your campaigns.
+This will show a clear split in your website referral traffic between visitors and activity coming from "social" and "paid-social". It makes it easier to analyze and understand the results you're getting from your campaigns.
 
 ### Check the results of each individual social media post
 
 You can go even deeper than the paid vs organic social media split. You could analyze each individual post that you share using the `utm_campaign` tags. Here's an example:
 
-`https://yourdomain.com?utm_medium=social-paid&utm_source=facebook&utm_campaign=black-friday-sale`
+`https://yourdomain.com?utm_medium=paid-social&utm_source=facebook&utm_campaign=black-friday-sale`
 
 Or:
 
@@ -271,7 +172,7 @@ Only tag links that point to your site from external sources. If you add UTM par
 
 ### UTM tags are case-sensitive
 
-UTM tags are case-sensitive so `utm_source=Twitter` and `utm_source=twitter` will show separately in the "UTM Source" tab within the "Campaigns" section in the "Top Sources" report of your Plausible dashboard. 
+UTM tags are case-sensitive so `utm_source=LinkedIn` and `utm_source=linkedin` will show separately in the "UTM Source" tab in the Campaigns report of your Plausible dashboard. 
 
 Be consistent in your UTM naming practices. Keep all the tag names consistent to keep your dashboard clean and tidy and make it easier to analyze results.
 
@@ -279,13 +180,13 @@ Be consistent in your UTM naming practices. Keep all the tag names consistent to
 
 We merge all identical sources in the "All" tab of the "Top Sources" report in your Plausible Analytics dashboard.
 
-For instance, clicks from X that are not tagged by UTMs are labeled with the referral source X. If you tag links you share on X with `utm_source=Twitter` or `utm_source=twitter`, we merge those clicks alongside other X clicks in the "All" tab to give you a combined view.
+For instance, clicks from LinkedIn that are not tagged by UTMs are labeled with the referral source LinkedIn. If you tag links you share on LinkedIn with `utm_source=linkedin`, we merge those clicks alongside other LinkedIn clicks in the "All" tab to give you a combined view.
 
-If you want to isolate your UTM tagged clicks from organic clicks, use the "UTM Source" tab within the "Campaigns" section of your "Top Sources" report, which shows only traffic from tagged links.
+If you want to isolate your UTM tagged clicks from organic clicks, use the "UTM Source" tab in the Campaigns report, which shows only traffic from tagged links.
 
 ### You cannot use spaces in UTM tags
 
-You cannot just include `utm_medium=social paid` as spaces are not supported. Either call it `utm_medium=social-paid`, `utm_medium=social+paid` or `utm_medium=social%20paid`.
+You cannot just include `utm_medium=paid social` as spaces are not supported. Either call it `utm_medium=paid-social`, `utm_medium=paid+social` or `utm_medium=paid%20social`.
 
 ### Plausible converts plus signs into spaces
 
