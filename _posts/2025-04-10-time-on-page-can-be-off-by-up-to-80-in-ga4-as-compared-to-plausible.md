@@ -41,7 +41,7 @@ Here’s the screenshot from GA4’s “Pages and Screens” report:
 
 ![ga4-pages-report](/uploads/ga4-pages-report.png "ga4-pages-report")
 
-And here’s Plausible’s Top Pages report:
+And here’s Plausible’s **Top Pages** tab:
 
 ![plausible top pages foodrecipeshq](/uploads/plausible-top-pages-foodrecipeshq.png "plausible top pages foodrecipeshq")
 

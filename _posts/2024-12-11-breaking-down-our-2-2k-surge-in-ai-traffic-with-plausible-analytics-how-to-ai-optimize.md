@@ -27,13 +27,13 @@ While we are at it, we did figure out some AI optimization “techniques” that
 
 ## Analyzing Plausible’s AI search traffic boost in 2024
 
-AI traffic can be isolated using the [Top Sources report](https://plausible.io/docs/top-referrers) (click on any source to filter the dashboard by it) or by straight away using the Filter button on the dashboard. We used the AI search engines we could identify from our list of Referrer URLs in the Filter modal:
+AI traffic can be isolated using the [Sources tab](https://plausible.io/docs/top-referrers) (click on any source to filter the dashboard by it) or by straight away using the Filter button on the dashboard. We used the AI search engines we could identify from our list of Referrer URLs in the Filter modal:
 
 ![filter by source](/uploads/ai-traffic-filters.jpg "filter by source")
 
 ### Figuring out where AI chats mention Plausible and send traffic
 
-We have a pre-made Entry Pages report in Plausible. After filtering the dashboard with only AI traffic, we looked at this report to figure out where such people entered our site from.
+We have a pre-made **Entry Pages** tab in Plausible. After filtering the dashboard with only AI traffic, we looked at this report to figure out where such people entered our site from.
 
 This would directly correlate with what subject was being discussed in those AI chats before the visitor came to Plausible. Here’s the screenshot of our top entry pages from AI channels:
 

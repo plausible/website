@@ -46,7 +46,7 @@ The scroll depth metric is now live in your dashboards! 
 
 ![scroll-depth-tracking-in-plausible](/uploads/scroll-depth-tracking-in-plausible.gif "scroll-depth-tracking-in-plausible")
 
-If you don’t have an account with Plausible, you can check out the Top Pages report in our [live demo](https://plausible.io/plausible.io/pages?period=30d&keybindHint=T) to see what this looks like.
+If you don’t have an account with Plausible, you can check out the **Top Pages** tab in our [live demo](https://plausible.io/plausible.io/pages?period=30d&keybindHint=T) to see what this looks like.
 
 Here’s everything you need to know about it:
 
@@ -64,12 +64,12 @@ We track page scrolling at all scroll depth percentages: 1, 2, 3, 4,...33, 34, .
 
 It’s not limited to predetermined specific points only like 25, 50, 75, 90 percent – like some other tools. 
 
-### Found with the Top Pages report
+### Found with the **Top Pages** tab
 
 You can find the scroll depth metric in two main areas of your dashboard:
 
 1. **The top row of metrics in the dashboard**, whenever a page filter is applied. You can click on the metric to display its performance over time on the line graph as well.
-2. **The expanded Top Pages report (i.e. Details section)**, where you can even sort pages by scroll depth for deeper insights.
+2. **The expanded **Top Pages** tab (i.e. Details section)**, where you can even sort pages by scroll depth for deeper insights.
 
 If there’s no data available yet, scroll depth will simply display as “-” until sufficient traffic is captured.
 

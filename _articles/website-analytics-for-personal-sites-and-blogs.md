@@ -80,7 +80,7 @@ These insights help shape editorial planning and identify the topics that matter
 
 ### Understand how readers discover your content
 
-Publishers rely on multiple channels: search, social, newsletters, direct, and increasingly AI platforms like ChatGPT or Perplexity. The **[Traffic Sources](https://plausible.io/docs/top-referrers)** report in Plausible shows where your readers come from and lets you compare channels by engagement, not just volume.
+Publishers rely on multiple channels: search, social, newsletters, direct, and increasingly AI platforms like ChatGPT or Perplexity. The **[Channels, Sources and Campaigns tabs](https://plausible.io/docs/top-referrers)** in Plausible show where your readers come from and let you compare channels by engagement, not just volume.
 
 You can also use UTM parameters to measure specific campaigns, such as how many readers a particular newsletter edition sends to your site. Combined with goal tracking, you can see which sources actually drive subscriptions, not just pageviews.
 
@@ -88,7 +88,7 @@ You can also use UTM parameters to measure specific campaigns, such as how many 
 
 Search remains one of the most important ways readers discover content.
 
-In Plausible, open the **Traffic Sources** report and filter by **Organic search**. You can see which articles attract search traffic and which continue to perform long after publication. The **Entry Pages** report shows the pages actually pulling in organic visitors.
+In Plausible, open the **Channels** tab and filter by **Organic search**. You can see which articles attract search traffic and which continue to perform long after publication. The **Entry Pages** tab shows the pages actually pulling in organic visitors.
 
 ![organic search performance in plausible](/uploads/organic-search-performance-in-plausible.png "organic search performance in plausible")
 
@@ -146,11 +146,11 @@ You can also attach properties to individual pages to add more context, such as:
 * **Category or section** (e.g. News, Opinion, Guides) to see what resonates most with readers
 * **Content type** (article, review, tutorial)
 
-In Plausible, these events appear in your Events report, where you can filter and [break down the data](https://plausible.io/audience-segmentation) using those properties.
+In Plausible, these events appear in the **Goals** tab, where you can filter and [break down the data](https://plausible.io/audience-segmentation) using those properties.
 
 ### See where your audience is located
 
-The [Locations report](https://plausible.io/docs/countries) shows which countries and regions your readers come from. For publishers who monetize via display ads or sponsorships, audience geography matters: ad rates and sponsor interest vary significantly by country. Knowing your geographic mix helps you understand the value of your audience, not just its size.
+The [Countries, Regions and Cities tabs](https://plausible.io/docs/countries) show which countries and regions your readers come from. For publishers who monetize via display ads or sponsorships, audience geography matters: ad rates and sponsor interest vary significantly by country. Knowing your geographic mix helps you understand the value of your audience, not just its size.
 
 ### Track A/B test results
 

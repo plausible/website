@@ -30,7 +30,7 @@ Another interesting number is the “time on page,” which is 2m47s spent on av
 
 ## Reddit surpasses Google, while privacy-friendly search engines gain traction
 
-Look at the Top Sources report for 2025 so far:
+Look at the Sources tab for 2025 so far:
 
 ![top-sources-2025-eu-alternatives](/uploads/top-sources-2025-eu-alternatives.png "top-sources-2025-eu-alternatives")
 
@@ -48,7 +48,7 @@ This says something about the increasing preference for privacy-friendly tools, 
 
 ## Top 5 categories: What are people looking for?
 
-A quick look at the "Top Pages" report tells us about the most popular top 5 categories:
+A quick look at the "Top Pages" tab tells us about the most popular top 5 categories:
 
 \- Email providers
 
@@ -72,7 +72,7 @@ Businesses are actively seeking privacy-friendly analytics, hosting, and infrast
 
 ## Not just a European trend—demand goes beyond the EU borders
 
-Looking at the [all-time Countries report](https://plausible.io/european-alternatives.eu?period=all&keybindHint=A&comparison=off&match_day_of_week=true): European countries make up the bulk of visitors (as expected), but the United States ranks fourth, sending over 100K visitors to the site! 
+Looking at the [all-time Countries tab](https://plausible.io/european-alternatives.eu?period=all&keybindHint=A&comparison=off&match_day_of_week=true): European countries make up the bulk of visitors (as expected), but the United States ranks fourth, sending over 100K visitors to the site! 
 
 Even Canada and India make an appearance in the top 25, contributing decent amounts of visitors to the site.
 

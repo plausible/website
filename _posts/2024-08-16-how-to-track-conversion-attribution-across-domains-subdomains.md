@@ -42,7 +42,7 @@ Think of it from the perspective of the [tracking JavaScript snippet](https://pl
 
 So from the perspective of the JavaScript (JS) snippet, when a visitor comes to your site through a [referral link](https://plausible.io/docs/top-referrers#1-automatic-by-the-referer-header), the JavaScript (JS) code checks for any referral or UTM values.
 
-So, it is able to record where the session came from. This, by the way, is how our [Top Sources report](https://plausible.io/docs/top-referrers) is made. For example, if someone clicks on a link from a social media post with utm_source=facebook, the JS code will note 'facebook' as the source of that visit.
+So, it is able to record where the session came from. This, by the way, is how our [Sources tab](https://plausible.io/docs/top-referrers) is populated. For example, if someone clicks on a link from a social media post with utm_source=facebook, the JS code will note 'facebook' as the source of that visit.
 
 Then as the user interacts with your site, the JS snippet keeps recording such interactions in the form of [pageviews](https://plausible.io/docs/top-pages), button clicks, or any custom events for that matter.
 
@@ -84,7 +84,7 @@ But filtering by a specific subdomain helps you segment your traffic and focus o
 
 ![segment your traffic by hostname on plausible dashboard](/uploads/filter-by-hostname.png "segment your traffic by hostname on plausible dashboard")
 
-P.S. Filtering by hostname is also beneficial when you have pages with identical paths on different sites. For example, if you have a page path like /best-page/ on both yourdomain.com and docs.yourdomain.com, these identical paths will be consolidated into a single entry in the "Top Pages" report on your global dashboard, with combined statistics.
+P.S. Filtering by hostname is also beneficial when you have pages with identical paths on different sites. For example, if you have a page path like /best-page/ on both yourdomain.com and docs.yourdomain.com, these identical paths will be consolidated into a single entry in the "Top Pages" tab on your global dashboard, with combined statistics.
 
 By applying a hostname filter, you can differentiate between the performance of yourdomain.com/best-page/ and docs.yourdomain.com/best-page/, allowing you to see the number of visitors and pageviews for each separately.
 
@@ -116,7 +116,7 @@ If the user signs up successfully, the conversion will be attributed to the orig
 
 In Plausible, you can further filter by hostnames as well.
 
-**5. Analyze the data.** Look at the Top Sources report (which are basically channel-acquisition reports) to understand where your converting users are coming from.
+**5. Analyze the data.** Look at the Sources tab (which shows your acquisition channels) to understand where your converting users are coming from.
 
 Use the funnel visualization (if available in your analytics tool) to track the step-by-step process users take from their initial visit to signup, across different domains and subdomains.
 

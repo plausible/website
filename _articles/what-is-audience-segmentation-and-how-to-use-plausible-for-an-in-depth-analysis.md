@@ -104,7 +104,7 @@ Plausible shows you where your visitors are coming from: social media, search en
 
 When sharing links to other platforms like social media, paid ads or newsletters, make sure to [tag them](https://plausible.io/docs/top-referrers) with query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
 
-Plausible automatically captures these parameters, and you can view the segmented data under the "[Top Sources](https://plausible.io/docs/top-referrers)" section.
+Plausible automatically captures these parameters, and you can view the segmented data under the "[Sources](https://plausible.io/docs/top-referrers)" tab.
 
 You can also click any entry to filter the whole dashboard to that source, or combine multiple sources, across any timeframe.
 

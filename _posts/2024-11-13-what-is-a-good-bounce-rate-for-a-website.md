@@ -133,7 +133,7 @@ By segmenting bounce rates by page, source, device, etc., you can also see how y
 
 The bounce rate can tell you a lot about how your page is performing. It reveals whether or not visitors are engaged with your content and if they view other pages on your website or complete conversion actions, after landing on the initial page.
 
-In Plausible, you get a [“Top Pages” report](https://plausible.io/blog/analyzing-landing-pages#top-entry-and-exit-pages) out of the box. Clicking the associated “Details” button shows the bounce rate for each page separately. You can even sort your list of pages by bounce rate in ascending or descending order.
+In Plausible, you get a [“Top Pages” report](https://plausible.io/blog/analyzing-landing-pages#top-entry-and-exit-pages) out of the box. Clicking the expand icon in the top right shows the bounce rate for each page separately. You can even sort your list of pages by bounce rate in ascending or descending order.
 
 ![Bounce rate of individual landing pages visible in Plausible](/uploads/top-pages-bounce-rates.jpg "Bounce rate of individual landing pages visible in Plausible")
 
@@ -147,7 +147,7 @@ It can be seen that the bounce rate decreased by 1% from Q2 to Q3. It is a posit
 
 ### Segment bounce rate by traffic sources
 
-You can repeat the above exercise with your Top Sources report. For eg. If we compare how the sessions acquired to the Plausible site from Reddit engage in a comparison of Q3 from Q2, we see that the bounce rate has increased by 3%.
+You can repeat the above exercise with your Sources tab. For eg. If we compare how the sessions acquired to the Plausible site from Reddit engage in a comparison of Q3 from Q2, we see that the bounce rate has increased by 3%.
 
 ![Bounce rate of individual traffic acquisition sources visible in Plausible](/uploads/bounce-rate-by-sources.jpg "Bounce rate of individual traffic acquisition sources visible in Plausible")
 

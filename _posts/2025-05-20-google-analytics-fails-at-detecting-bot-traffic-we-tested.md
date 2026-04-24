@@ -154,7 +154,7 @@ To avoid excluding genuine visits from people who use VPNs with data center exit
 
 We include these visits (including those using the Tor browser) in your stats unless our bot detection systems flag them as bots, for unnatural behavior for example.
 
-To avoid showing the VPN server’s actual location, we group these visits under “[Anonymous VPN Service](https://plausible.io/docs/countries#visitors-using-vpns-and-similar-services)” in the "Countries" report. This also helps keep your location data cleaner and more accurate. 
+To avoid showing the VPN server’s actual location, we group these visits under “[Anonymous VPN Service](https://plausible.io/docs/countries#visitors-using-vpns-and-similar-services)” in the "Countries" tab. This also helps keep your location data cleaner and more accurate. 
 
 ### “But wouldn’t Google Analytics clean up such data before presenting it in the standard reports?”
 

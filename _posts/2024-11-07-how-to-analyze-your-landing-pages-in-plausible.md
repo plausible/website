@@ -38,19 +38,19 @@ When you open your Plausible dashboard, one of the key reports you'll see by def
 
 ![Top pages report in plausible](/uploads/top-pages-report-in-plausible.jpg "Top pages report in plausible")
 
-If you don’t have an active Plausible account, you can open our [live demo](https://plausible.io/plausible.io) in a new tab to play around with the Pages report and the dashboard. Let's see how to use the reports:
+If you don’t have an active Plausible account, you can open our [live demo](https://plausible.io/plausible.io) in a new tab to play around with the pages section and the dashboard. Let's see how to use the reports:
 
 ### Top, Entry and Exit pages
 
-The Pages report is not only limited to the Top Pages, but you can switch tabs to access the following three types of reports: 
+Switch between three tabs in the pages section: 
 
 1. Top Pages – to analyze the pages with the most visitors. 
 2. Entry Pages – to analyze the pages where visitors first land on your site.
 3. Exit Pages – to analyze the pages where visitors leave your site.
 
-These reports effectively help you pinpoint which pages are drawing in visitors initially, holding their attention, and acting as exit points.
+These tabs effectively help you pinpoint which pages are drawing in visitors initially, holding their attention, and acting as exit points.
 
-For eg., If you look at our live demo, the top most entries for all the three reports are the same (“/:dashboard,” “/sites”, etc.), suggesting that maximum Plausible visitors enter, stay and exit from their Plausible accounts itself, indicating maximum engagement with the core product. 
+For eg., If you look at our live demo, the top most entries for all three tabs are the same (“/:dashboard,” “/sites”, etc.), suggesting that maximum Plausible visitors enter, stay and exit from their Plausible accounts itself, indicating maximum engagement with the core product. 
 
 It can also be used as an insight, because if we were to announce an urgent product update tomorrow, we know an in-app notification may be the best place to do so.
 
@@ -64,7 +64,7 @@ P.S. You can check out the [definitions](https://plausible.io/docs/metrics-defin
 
 ### Filter and segment entries
 
-If you click on any entry in any of the three kinds of reports, the entire dashboard gets filtered by it and displays stats associated with that landing page only.
+If you click on any entry in any of the three tabs, the entire dashboard gets filtered by it and displays stats associated with that landing page only.
 
 For eg., Our live demo shows that during the past 30 days, ignoring the first few product-specific pages, our landing page on open-source web analytics brought us 1.5k visitors.
 
@@ -82,7 +82,7 @@ You can also use the “Filter” option to start a fresh workflow. For eg., you
 
 ### Special cases and best practices
 
-While the Pages report is straightforward for most cases, you can see if any of the below cases apply to you and manage them accordingly.
+While the pages section is straightforward for most cases, you can see if any of the below cases apply to you and manage them accordingly.
 
 #### Shield specific traffic from being recorded
 
@@ -96,7 +96,7 @@ If we [filter by Google Translate hostname](https://plausible.io/plausible.io?pe
 
 By the way, we detect and [block bot traffic](https://plausible.io/most-accurate-web-analytics#spam-and-bot-traffic-skewing-data) by default so you never have to worry about excluding such traffic.
 
-#### View combined Pages reports for multiple sites
+#### View combined pages data for multiple sites
 
 You may have multiple sites/dashboards in your Plausible account. This could be if you have a Marketing agency, or a collection of tools with separate sites, or may have a different dashboard for multiple subdomains (for eg., “site.com” and “app.site.com”) as a SaaS. 
 
@@ -106,7 +106,7 @@ In such cases, you may want aggregated stats from all or some of such sites. You
 
 Plausible automatically discards query parameters from URLs to prevent them from showing up as separate pages in the report.
 
-For eg., if someone visits \`site.com/index.php?article=some_article&page=11\`, it will be recorded as \`yoursite.com/index.php\`, regardless of the query details. The referrers and UTMs are recorded separately in the Top Sources report though.
+For eg., if someone visits \`site.com/index.php?article=some_article&page=11\`, it will be recorded as \`yoursite.com/index.php\`, regardless of the query details. The referrers and UTMs are recorded separately in the Sources tab though.
 
 If there are specific pages where query parameters are important and should be retained in the report, you can [capture the full URL](https://plausible.io/docs/custom-query-params), including the query part.
 
@@ -118,9 +118,9 @@ By [configuring a custom URL](https://plausible.io/docs/custom-locations) in Pla
 
 #### Avoid trailing Slash Discrepancies
 
-Sometimes, you may see identical page paths both with and without a trailing slash (e.g., \`/some_article\` and \`/some_article/\`). This discrepancy can create duplicate entries in your Pages report, which may confuse the analysis of traffic to specific pages.
+Sometimes, you may see identical page paths both with and without a trailing slash (e.g., \`/some_article\` and \`/some_article/\`). This discrepancy can create duplicate entries in the **Top Pages** tab, which may confuse the analysis of traffic to specific pages.
 
-To address this, apply a 301 redirect to standardize URL paths, ensuring all traffic is directed to a single version of each page. This will help you maintain accurate data in the Pages report.
+To address this, apply a 301 redirect to standardize URL paths, ensuring all traffic is directed to a single version of each page. This will help you maintain accurate accurate pages data.
 
 #### Track Single-Page Applications (SPA) and URL Hashes
 
@@ -128,9 +128,9 @@ Plausible is designed to automatically track page views in single-page applicati
 
 If your site uses a frontend framework that relies on hash-based routing, i.e. URLs ending in \`#section\` (eg. https://plausible.io/#pricing), you can [track these hash-based routes](https://plausible.io/docs/hash-based-routing) accurately.
 
-This setup enables you to track user navigation within your app without requiring additional configuration, keeping your Pages report comprehensive even in SPA environments.
+This setup enables you to track user navigation within your app without requiring additional configuration, keeping your pages data comprehensive even in SPA environments.
 
-By understanding and addressing these cases, you can ensure your Pages report remains accurate and reflective of real user behavior on your site. If you need to suggest a new case we should be addressing for accurately tracking landing pages in Plausible, our [feedback board](https://feedback.plausible.io/) is always open.
+By understanding and addressing these cases, you can ensure your pages data remains accurate and reflective of real user behavior on your site. If you need to suggest a new case we should be addressing for accurately tracking landing pages in Plausible, our [feedback board](https://feedback.plausible.io/) is always open.
 
 ## How to use this information as a site owner?
 
@@ -148,21 +148,21 @@ So we know that perhaps many subscribers like visiting the changelog before clos
 
 ![Following a visitor path by filtering dashboard with an exit page](/uploads/carrying-exit-page-analysis-.png "Following a visitor path by filtering dashboard with an exit page")
 
-If you look at “3” in the screenshot, we also know that 5 such people upgraded to a paid plan before exiting. Moreover, the other “Goal Conversions” entries are a good indicator of what other events happened in those sessions.
+If you look at “3” in the screenshot, we also know that 5 such people upgraded to a paid plan before exiting. Moreover, the other Goals tab entries are a good indicator of what other events happened in those sessions.
 
 This helps us build a specific visitor flow and make multiple conclusions and build an understanding of what works for Plausible visitors/users and what doesn’t.
 
-Here’s how our subscribers analyze the Pages reports to analyze their website's performance:
+Here’s how our subscribers analyze the pages tabs to analyze their website's performance:
 
 ### Identify what’s attracting or throwing off visitors
 
-The Entry Pages report shows which pages are the first touchpoints for visitors. If certain blog posts or product pages are consistently the top entry points, it means they're resonating well in search engines or through social sharing.
+The **Entry Pages** tab shows which pages are the first touchpoints for visitors. If certain blog posts or product pages are consistently the top entry points, it means they're resonating well in search engines or through social sharing.
 
 Knowing this, you can keep such pages updated and keep them *SEO’d*. You can also learn about the kinds of topics that resonate with your audience and create marketing strategies accordingly.
 
 For eg., We at Plausible identified that content about using privacy-friendly analytics serves our visitors better than other types of content. So we try to create similar content on related subjects.
 
-Similarly, if your Exit Pages report shows that visitors are mostly exiting from your pricing page, then it may be an indicator that your pricing is not well accepted by your audience yet.
+Similarly, if your **Exit Pages** tab shows that visitors are mostly exiting from your pricing page, then it may be an indicator that your pricing is not well accepted by your audience yet.
 
 If you can confirm this conclusion through social media, surveys, [A/B testing](https://plausible.io/blog/ab-testing), or any communication channel with your ideal customers, then you’ll have a great insight about adjusting your pricing accordingly. 
 
@@ -198,4 +198,4 @@ For SaaS, pages with high traffic but low conversion are prime candidates for pu
 
 Use this report to see which types of blog posts or articles resonate most with your audience. Pages that perform well can give way to future content ideas. Those with lower views might benefit from updates or SEO or being deleted for that matter.
 
-How do you like to use your Pages report? Let us know at reading@plausible.io and all the best. 🚀
+How do you like to use the pages tabs? Let us know at reading@plausible.io and all the best. 🚀
