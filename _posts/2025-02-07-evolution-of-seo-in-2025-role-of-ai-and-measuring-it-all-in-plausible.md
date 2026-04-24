@@ -138,17 +138,17 @@ You can play around with our [live demo](https://plausible.io/plausible.io), if 
 
 ### See overall organic search traffic
 
-We have a pre-built “[Top Channels](https://plausible.io/docs/top-referrers)” report in the dashboard which automatically consolidates relevant traffic sources into their respective channel types such as Direct, organic search, organic social, etc. 
+We have a pre-built “[Channels](https://plausible.io/docs/top-referrers)” tab in the dashboard which automatically consolidates relevant traffic sources into their respective channel types such as Direct, organic search, organic social, etc. 
 
 This makes it super convenient to see all organic traffic together rather than piecing different traffic sources together from different reports, or relying on custom reporting. 
 
-When you click on the organic search entry (like shown in the case study above), your dashboard filters by it to only show data relevant to organic search, and you get to see a “Top Sources” report with a breakdown of these organic search channels. 
+When you click on the organic search entry (like shown in the case study above), your dashboard filters by it to only show data relevant to organic search, and you get to see a “Sources” tab with a breakdown of these organic search channels. 
 
 This is an expandable report that shows the sources by visitors, bounce rate, and visit duration, which you can sort by as well. You can click on any of such sources to filter further. Take a look [here](https://plausible.io/plausible.io?f=is,channel,Organic%20Search&period=12mo&keybindHint=L).
 
 ### Assess effective content
 
-In the filtered dashboard, you can use the Entry Pages report to see which pages attract the most organic search visitors. This is also an expandable report with metrics you can use to sort your landing pages by.
+In the filtered dashboard, you can use the **Entry Pages** tab to see which pages attract the most organic search visitors. This is also an expandable report with metrics you can use to sort your landing pages by.
 
 You can click on any row to further filter the dashboard and study that landing page: its bounce rate, geographies it was visited from, goal conversions in the sessions acquired through this page, etc. 
 
@@ -158,7 +158,7 @@ You can click on any row to further filter the dashboard and study that landing 
 
 You can break down your Google search traffic further by [integrating](https://plausible.io/docs/google-search-console-integration) your Google Search Console account with Plausible. You’ll be able to see the search terms that got you traffic from Google directly in the Plausible dashboard.
 
-Compare the queries driving traffic with the Entry Pages report to see which content aligns with search intent. Over time, you can monitor which keywords gain traction and adjust your content strategy accordingly.
+Compare the queries driving traffic with the **Entry Pages** tab to see which content aligns with search intent. Over time, you can monitor which keywords gain traction and adjust your content strategy accordingly.
 
 ### Correlate conversions and other things
 

@@ -57,7 +57,7 @@ A couple of tips if you’re a Plausible subscriber:
 
 ### See which traffic channels are contributing to lower traffic levels
 
-In Plausible, you can see a straightforward Top Channels report. You can check out what each channel means [here](https://plausible.io/docs/top-referrers#channels).
+In Plausible, you can see a straightforward Channels tab. You can check out what each channel means [here](https://plausible.io/docs/top-referrers#channels).
 
 **Using GA4?** You can open your “Traffic Acquisition” standard report and continue investigating using the same principles we describe below.
 
@@ -97,7 +97,7 @@ It could also be an algorithm update, lost [backlinks](https://plausible.io/blog
 
 ### Which pages are affected?
 
-This information is available in Plausible Analytics’ Entry Pages report and it can help spot the exact landing page or pages seeing the drop.
+This information is available in Plausible Analytics’ **Entry Pages** tab and it can help spot the exact landing page or pages seeing the drop.
 
 **Using GA4?** You can open your “Landing Pages” standard report and continue investigating using the same principles we describe below.
 
@@ -112,7 +112,7 @@ This means that only the traffic sources side of the equation is affected, as we
 
 ### Could this be a geographical or devices related thing?
 
-This information is available in the Locations and Devices reports in Plausible.
+This information is available in the Locations and Devices sections in Plausible.
 
 **Using GA4?** You need to select country, region, city as a primary and/or secondary dimension in Demographic reports –– one at a time. Same thing needs to be done for getting the Browser, OS, device info, etc., within the “Tech details” report.
 

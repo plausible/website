@@ -76,7 +76,7 @@ Paste a tagged URL below. The checker splits it into its parts, flags issues, an
     var issues = [];
     if (val !== val.toLowerCase()) {
       if (key === 'utm_source') {
-        issues.push({ type: 'case', msg: '<strong>' + key + '</strong>: "' + escHtml(val) + '" has mixed case. Google Analytics counts "' + escHtml(val) + '" and "' + escHtml(val.toLowerCase()) + '" as separate sources everywhere. Plausible auto-consolidates utm_source variants in the Sources report and preserves the raw value in the Campaigns report.' });
+        issues.push({ type: 'case', msg: '<strong>' + key + '</strong>: "' + escHtml(val) + '" has mixed case. Google Analytics counts "' + escHtml(val) + '" and "' + escHtml(val.toLowerCase()) + '" as separate sources everywhere. Plausible auto-consolidates utm_source variants in the Sources tab and preserves the raw value in the Campaigns tab.' });
       } else {
         issues.push({ type: 'case', msg: '<strong>' + key + '</strong>: "' + escHtml(val) + '" has mixed case. "' + escHtml(val) + '" and "' + escHtml(val.toLowerCase()) + '" will be treated as separate values in your analytics.' });
       }
@@ -253,13 +253,13 @@ Paste a tagged URL below. The checker splits it into its parts, flags issues, an
 
 ## Common UTM mistakes
 
-In Google Analytics, the issues below create fragmented campaign data that is hard to filter and impossible to compare. [Plausible](https://plausible.io/) automatically consolidates many of these inconsistencies in your Sources report, the Campaigns report gives you a faithful record of exactly what was sent. Link quality there is entirely up to you.
+In Google Analytics, the issues below create fragmented campaign data that is hard to filter and impossible to compare. [Plausible](https://plausible.io/) automatically consolidates many of these inconsistencies in your Sources tab, the Campaigns tab gives you a faithful record of exactly what was sent. Link quality there is entirely up to you.
 
 **Mixed case across campaigns.** UTM values are case-sensitive. In Google Analytics, `utm_source=LinkedIn` and `utm_source=linkedin` are two separate sources in every report. Plausible automatically consolidates utm_source variants in the Sources tab, so your top-level traffic view stays clean. For all other UTM fields, mixed case means separate entries in your analytics. Lowercase everything.
 
 **Spaces in values.** Plausible converts plus signs to spaces, so `spring+sale` appears as `spring sale` in your dashboard. Hyphens work too. Avoid raw spaces: they encode as `%20` and break easily when links are copied by hand.
 
-**Inconsistent source names.** In Google Analytics, `fb`, `facebook` and `Facebook` are three separate sources with no grouping. Plausible automatically consolidates known platform variants in the Sources tab, so all traffic from the same platform shows together. The Campaigns report gives you a faithful record of exactly what was sent. Inconsistent naming will still show as separate entries there.
+**Inconsistent source names.** In Google Analytics, `fb`, `facebook` and `Facebook` are three separate sources with no grouping. Plausible automatically consolidates known platform variants in the Sources tab, so all traffic from the same platform shows together. The Campaigns tab gives you a faithful record of exactly what was sent. Inconsistent naming will still show as separate entries there.
 
 **Tagging internal links.** A UTM tag on a link inside your own site overwrites the original referral source for that session. If someone arrived from your newsletter and then clicks a UTM-tagged link on your homepage, the newsletter attribution is gone. Only tag external links.
 

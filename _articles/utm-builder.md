@@ -52,7 +52,7 @@ Enter your URL and campaign details to generate a tagged link:
       <button id="utm-copy" style="flex-shrink: 0; width: 5.5rem; padding: 0.5rem 1rem; background: #4f46e5; color: #fff; font-size: 0.875rem; font-weight: 500; border: none; border-radius: 0.375rem; cursor: pointer; font-family: inherit; visibility: hidden;">Copy</button>
     </div>
   </div>
-  <div id="utm-campaign-note" style="display: none; margin-top: 1rem; font-size: 0.8125rem; color: #6b7280;">Find your clicks on UTM tagged links in the Campaigns report in your Plausible dashboard.</div>
+  <div id="utm-campaign-note" style="display: none; margin-top: 1rem; font-size: 0.8125rem; color: #6b7280;">Find your clicks on UTM tagged links in the Campaigns tab in your Plausible dashboard.</div>
 </div>
 
 <p style="margin-top: -0.5rem; font-size: 0.875rem;">Already have a UTM link? <a href="/utm-checker">Check and clean it up →</a></p>
@@ -67,7 +67,7 @@ Enter your URL and campaign details to generate a tagged link:
     if (!val) return warnings;
     if (val !== val.toLowerCase()) {
       if (fieldId === 'utm-source') {
-        warnings.push('Mixed case: Google Analytics counts "' + escHtml(val) + '" and "' + escHtml(val.toLowerCase()) + '" as separate sources everywhere. Plausible auto-consolidates utm_source variants in the Sources report and preserves the raw value in the Campaigns report.');
+        warnings.push('Mixed case: Google Analytics counts "' + escHtml(val) + '" and "' + escHtml(val.toLowerCase()) + '" as separate sources everywhere. Plausible auto-consolidates utm_source variants in the Sources tab and preserves the raw value in the Campaigns tab.');
       } else {
         warnings.push('Mixed case: "' + escHtml(val) + '" and "' + escHtml(val.toLowerCase()) + '" will be treated as separate values in your analytics.');
       }
@@ -193,6 +193,6 @@ Enter your URL and campaign details to generate a tagged link:
 - **Use lowercase for UTM values.** In Google Analytics, `utm_source=LinkedIn` and `utm_source=linkedin` are counted as two separate sources in every report. Plausible automatically consolidates utm_source variants in the Sources tab, so your top-level traffic view stays clean regardless. For all other UTM fields, mixed case means separate entries in your analytics.
 - **Never tag internal links.** UTMs on links within your own site overwrite the original referral source for that session and corrupt your attribution data.
 - **Hyphens and plus signs both work instead of spaces.** Plausible converts plus signs to spaces, so `spring+sale` shows as `spring sale` in your dashboard. Either format works. Avoid raw spaces: they encode as `%20` and break easily when links are copied by hand.
-- **Keep naming consistent in your UTM campaigns.** In Google Analytics, `facebook`, `Facebook` and `fb` appear as three separate sources with no grouping. Plausible automatically consolidates known platform variants in the Sources tab, so all traffic from the same platform shows together regardless of how links were tagged. The Campaigns report preserves raw values exactly as tagged, so inconsistent naming will fragment your campaign-level analysis.
+- **Keep naming consistent in your UTM campaigns.** In Google Analytics, `facebook`, `Facebook` and `fb` appear as three separate sources with no grouping. Plausible automatically consolidates known platform variants in the Sources tab, so all traffic from the same platform shows together regardless of how links were tagged. The Campaigns tab preserves raw values exactly as tagged, so inconsistent naming will fragment your campaign-level analysis.
 
 For a full walkthrough including how UTM data appears in your Plausible dashboard, see [How to use UTM parameters to track your campaigns](/blog/utm-tracking-tags).

@@ -123,7 +123,7 @@ Attribution only works if you define *what* you’re attributing. In Plausible, 
 
 Once goals are defined, every report can be filtered by conversions. This turns traffic data into attribution data.
 
-### 2. Use the Sources report for last-touch attribution
+### 2. Use the Sources tab for last-touch attribution
 
 Effectively, Plausible gives you a last-touch view by default since the analytics are sessions based.
 
@@ -131,7 +131,7 @@ You can [filter by any goal](https://plausible.io/docs/filters-segments) in the 
 
 Tip: You can also filter your dashboard by specific regions or devices/browsers to add context to your analysis.
 
-The Top Sources area is your most essential area for attribution.
+The Sources section is your most essential area for attribution.
 
 ![last-touch-attribution-in-plausible-analytics](/uploads/channels.png "last-touch-attribution-in-plausible-analytics")
 
@@ -187,7 +187,7 @@ P.S. [Bonus read](https://plausible.io/blog/analyzing-landing-pages): How to ana
 
 When links are consistently tagged, Plausible lets you break down conversions by campaign.
 
-For this, keep your dashboard filtered by the goal in question, go to: [Campaigns report](https://plausible.io/docs/top-referrers#campaigns) dropdown → Select from UTM mediums, sources, campaigns, contents, or terms, depending upon the depth/purpose of your analysis.
+For this, keep your dashboard filtered by the goal in question, go to: [Campaigns tab](https://plausible.io/docs/top-referrers#campaigns) dropdown → Select from UTM mediums, sources, campaigns, contents, or terms, depending upon the depth/purpose of your analysis.
 
 Now you can compare:
 

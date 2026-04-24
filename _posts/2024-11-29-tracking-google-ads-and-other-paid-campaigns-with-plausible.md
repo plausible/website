@@ -82,7 +82,7 @@ Step 4: Click Save.
 
 Once auto-tagging is enabled, Plausible will detect the traffic from links with GCLID parameters. While we strip out the unique identifiers to comply with GDPR, you can still associate traffic with your Google Ads.
 
-Traffic from Google Ads will be categorized as following in the [Top Sources report](https://plausible.io/docs/top-referrers):
+Traffic from Google Ads will be categorized as following in the [Sources tab](https://plausible.io/docs/top-referrers):
 
 * In the “Channels” tab as “Paid Search”
 * In the “Sources” tab as “Google” 
@@ -119,7 +119,7 @@ You can learn more about UTM tracking in our [guide](https://plausible.io/blog/u
 
 ![final url in google ad](/uploads/adding-utm-tagged-url-in-google-ad.gif "final url in google ad")
 
-Now, traffic from these ads will appear in Plausible under the Campaigns tab of the Top Sources report, categorized by UTM parameters. 
+Now, traffic from these ads will appear in Plausible under the Campaigns tab, categorized by UTM parameters. 
 
 ### Tracking campaign performance in Plausible
 
@@ -129,7 +129,7 @@ In a nutshell, our [simple dashboard](https://plausible.io/simple-web-analytics)
 2. Track conversion goals (e.g., form submissions or purchases) and other activity on the site (like which pages visited)[](https://plausible.io/docs/goal-conversions) in Plausible, to see how many visitors from ads completed them.
 3. Use funnels: Create a funnel to visualize the customer journey and conversion drop-offs at each stage.
 
-The “Top Sources” report in Plausible (check out our [live demo](https://plausible.io/plausible.io)) which shows your traffic acquisition sources will show you which exact campaign or ad serving brought you how much traffic. Such traffic can be isolated by filtering the dashboard with the exact acquisition source.
+The Sources tab in Plausible (check out our [live demo](https://plausible.io/plausible.io)) shows which exact campaign or ad brought you how much traffic. Such traffic can be isolated by filtering the dashboard with the exact acquisition source.
 
 You can isolate traffic by selecting any UTM parameter from the campaigns tab:
 

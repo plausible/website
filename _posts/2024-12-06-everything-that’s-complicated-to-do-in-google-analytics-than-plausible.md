@@ -103,7 +103,7 @@ Conversions are known as Goals in Plausible and Key Events in Google Analytics 4
 
 #### In Plausible
 
-You can scroll down to the “Goal Conversions” section of your dashboard. Here you will find the list of goals converted for the selected period, along with their Click Rate, Visits and Revenue too if you’ve enabled revenue tracking.
+You can scroll down to the **Goals** tab of your dashboard. Here you will find the list of goals converted for the selected period, along with their Click Rate, Visits and Revenue too if you’ve enabled revenue tracking.
 
 Clicking on any of these goals will filter your dashboard. This makes finding the essential associated information for each event/goal extremely straightforward. You can also include additional filters like Country, Channels, Pages, etc., to get more granular information.
 
@@ -198,9 +198,9 @@ In GA4, country, region and city need to be selected as a primary and/or seconda
 
 Same thing needs to be done for getting the Browser, OS, device info, etc., in yet another “Tech details” report. Phew.
 
-#### Entry Pages report
+#### **Entry Pages** tab
 
-This is available in Plausible right beside the Top Pages and Exit Pages report.
+This is available in Plausible right beside the Top Pages and **Exit Pages** tab.
 
 You do get a landing page report in GA4 which shows the pages where visitors first land on your site. However, “Entrances” as a metric is only available in custom reports, a.k.a. Explorations.
 

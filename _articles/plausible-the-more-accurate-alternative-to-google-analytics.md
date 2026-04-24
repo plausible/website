@@ -133,7 +133,7 @@ One makes you work to get accurate data, the other just works.
 
 Another challenge with analytics is accurately identifying traffic sources. In Google Analytics, traffic from mobile apps, like Gmail, Slack, Telegram, etc., is often misclassified as "direct," leaving you with unclear data. 
 
-**How do we tackle this at Plausible?** Our algorithms recognize traffic from Android apps and categorize it under "android-app" in the "Top Sources" report. This can help recover up to 10% of previously unrecognized traffic for sites with large mobile audiences.
+**How do we tackle this at Plausible?** Our algorithms recognize traffic from Android apps and categorize it under "android-app" in the "Sources" tab. This can help recover up to 10% of previously unrecognized traffic for sites with large mobile audiences.
 
 ### Complex traffic exclusion settings
 

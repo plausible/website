@@ -94,7 +94,7 @@ Tracking marketing campaigns is straightforward. By default, your traffic is aut
 
 a﻿nd a whole bunch of others (full list with explanations [here](https://plausible.io/docs/top-referrers#channels)...which automatically covers all kinds of traffic you acquire from different marketing channels including paid and organic ones.
 
-S﻿pecifically for paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up. In the Top Sources report, switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. 
+S﻿pecifically for paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up. Switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. 
 
 You can further filter by UTM Medium, Source, Campaign name, Content, or Term. This lets you drill into which specific email, ad, or promotion drove traffic and led to conversions.
 
@@ -140,7 +140,7 @@ Here’s how to do it:
 2. Google Search Console integration\
    You can connect your site’s GSC property to Plausible in one click. This adds a “Search terms” report showing which keywords are driving clicks and conversions to your site from Google along with impressions, click-through rate, and average position.
 3. Filter by search traffic\
-   Click on “Organic Search” in the Channels report to filter the entire dashboard to just SEO-driven visitors. You can then analyze their behavior: what pages they visit, what goals they complete, what countries they come from, and so on.
+   Click on “Organic Search” in the Channels tab to filter the entire dashboard to just SEO-driven visitors. You can then analyze their behavior: what pages they visit, what goals they complete, what countries they come from, and so on.
 
 This setup gives you a focused SEO view without requiring custom dashboards. All the insights are integrated into your main analytics flow.
 

@@ -219,7 +219,7 @@ This is also useful in strategic planning. For example, it is seen that Belgium,
 
 Or that all of the traffic is received on the desktop version, so a mobile site or mobile app may not be a priority for the business right now.
 
-**Pro tip**: These insights can be further broken down, by clicking the “Details” option.
+**Pro tip**: These insights can be further broken down, by clicking the expand icon in the top right.
 
 ![Answering how many beanies were added to cart till date with Plausible](/uploads/plausible-beanie-add-to-cart.jpg "Answering how many beanies were added to cart till date with Plausible")
 
@@ -229,7 +229,7 @@ Knowing which marketing efforts are paying off helps with optimizing ad spend an
 
 This is possible as Plausible automatically takes the referral tag from links that bring you traffic. But if you tag URLs with UTM parameters, you can further break down your traffic sources by UTM campaigns, terms, etc., and monitor the conversion rate for each channel.
 
-This data is available in your “[Top Sources](https://plausible.io/docs/top-referrers)” report and clicking on any entry of that report filters your entire dashboard by that traffic acquisition channel.
+This data is available in your “[Sources](https://plausible.io/docs/top-referrers)” tab and clicking on any entry filters your entire dashboard by that traffic acquisition channel.
 
 This allows you to:
 

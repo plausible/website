@@ -187,7 +187,7 @@ Plausible Analytics plugin can help you identify those broken links and 404 page
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "404 error pages" option.
 
-All the 404 error pages will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the 404 error pages will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard. 
 
 You'll see "404" goal as soon as the first visit on an error page has been tracked. You'll see a property (properties explained below) "path" to show the 404 pages.
 
@@ -207,7 +207,7 @@ Both internal and external files downloads are tracked. These file extensions ar
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "File downloads" option.
 
-All the file downloads will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the file downloads will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard. 
 
 You'll see the "File Download" goal as soon as the first download is recorded, along with details on which files were downloaded, on which pages, and the conversion rate.
 
@@ -215,7 +215,7 @@ You'll see the "File Download" goal as soon as the first download is recorded, a
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Outbound links" option.
 
-All the external link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the external link clicks will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard. 
 
 You'll see "Outbound Link: Click" goal as soon as the first external link click has been tracked.
 
@@ -227,11 +227,11 @@ In the "Enhanced measurements" section of our WordPress plugin settings, enable 
 
 Then enter the partial URLs (also known as shortlink slugs) that you'd like to track. E.g. enter `/recommends/` if you want to track clicks on cloaked links such as `https://yourdomain.com/recommends/affiliate-product/` or `https://yourdomain.com/recommends/another-product/`.
 
-All the cloaked affiliate link clicks will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the cloaked affiliate link clicks will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard. 
 
-Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Link: Click" will appear in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+Once the first cloaked affiliate link is clicked, a new goal called "Cloaked Link: Click" will appear in the **Goals** tab of your Plausible Analytics dashboard. 
 
-Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" report to see which pages those cloaked links were clicked on.
+Clicking on this goal shows you which cloaked links were clicked, along with the number of unique and total clicks for each. You can also look at the "Top Pages" tab to see which pages those cloaked links were clicked on.
 
 ### How to set up custom events to track goal conversions
 
@@ -255,7 +255,7 @@ Custom events won't show up automatically in your Plausible dashboard. You’ll 
 * In our example where you added a CSS class name `plausible-event-name=Signup+Submit`, the goal to add to your Plausible account is `Signup Submit` (plus is replaced by a space).
 * Next, click on the "Add goal" button and you'll be taken back to the Goals page.
 
-When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard in the "Goal Conversions" section. Your custom event will appear there as soon as the first conversion has been recorded.
+When you navigate back to your Plausible dashboard, you should see the number of visitors who triggered the custom event. Custom events are listed at the bottom of your dashboard in the **Goals** tab. Your custom event will appear there as soon as the first conversion has been recorded.
 
 For more details on custom events, please check out [this documentation page](https://plausible.io/docs/custom-event-goals).
 
@@ -350,7 +350,7 @@ We have verified and tested this tracking with Contact Form 7, WP Forms, Ninja F
 
 In the "Enhanced measurements" section of our WordPress plugin settings, just enable the "Form completions" option.
 
-All the successful form completions will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard.
+All the successful form completions will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard.
 
 You'll see "WP Form Completions" goal as soon as the first successful form submission has been recorded. If you have multiple forms on your site, you can click on the "WP Form Completions" goal to see the breakdown over different pages the forms were submitted from.
 
@@ -362,7 +362,7 @@ All this can help you better understand the needs of your audience enabling you 
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Search queries" option.
 
-All the search activity will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard. 
+All the search activity will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard. 
 
 You'll see the "WP Search Queries" goal appear as soon as the first search is recorded. Click on this goal to segment your audience by visitors who have used your search functionality. Under the "Properties" tab, you'll find detailed breakdowns:
 
@@ -380,9 +380,9 @@ Plausible can help you understand whether your visitors are logged in or logged 
 
 In the "Enhanced measurements" section of our WordPress plugin settings, enable the "Logged-in user status" option.
 
-All the user status will start being tracked and will be displayed in the "Goal Conversions" report of your Plausible Analytics dashboard.
+All the user status will start being tracked and will be displayed in the **Goals** tab of your Plausible Analytics dashboard.
 
-In the "Properties" tab of the "Goal Conversions" report, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. This property will be available in the dashboard with all the relevant filters as well, as shown in the examples above.
+In the **Properties** tab, you'll see the "user_logged_in" property as soon as the first visitor has been recorded. This property will be available in the dashboard with all the relevant filters as well, as shown in the examples above.
 
 ### How to enable hash-based URL tracking
 
@@ -390,7 +390,7 @@ Does your site contain hash-based URLs such as `yourdomain.com/blog-post#specifi
 
 Normally the hash part of the URL is discarded in your Plausible dashboard. You can enable "Hash-based routing" in your Plausible WordPress plugin settings to preserve the hash-based routing in your stats and see the different pages your visitors have viewed.
 
-In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option to start tracking it. This will be available in your Top Pages report:
+In the "Enhanced measurements" section of the Plausible WordPress plugin settings, enable the "Hash-based routing" option to start tracking it. This will be available in your **Top Pages** tab:
 
 ![hash-based-url-tracking-in-wp](/uploads/hash-based-url-tracking-in-wp.png "hash-based-url-tracking-in-wp")
 
@@ -404,7 +404,7 @@ In the "Enhanced measurements" section of our WordPress plugin settings, you can
 
 Then enter the query parameter that you'd like to track. E.g. enter `lang` if you want to track views on pages such as `yoursite.com/article?lang=en` or `yoursite.com/article?lang=de`.
 
-All the query parameters will start being tracked and will be displayed in the "Properties" tab of the "Goal Conversions" report of your Plausible Analytics dashboard.
+All the query parameters will start being tracked and will be displayed in the **Properties** tab of your Plausible Analytics dashboard.
 
 ## Other things you can do with Plausible
 
