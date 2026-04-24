@@ -1,13 +1,16 @@
 ---
 layout: article
 title: EU-hosted web analytics with no data transfers outside Europe
-description: Plausible Analytics is incorporated, built and hosted in the EU. All visitor data is processed on European-owned infrastructure and never leaves the EU.
+description: Plausible Analytics is incorporated, built and hosted in the EU.
+  All visitor data is processed on European-owned infrastructure and never
+  leaves the EU.
 permalink: /eu-hosted-web-analytics
 ---
-
 Plausible Analytics is incorporated in Estonia, built by a team based in the EU and hosted entirely on infrastructure owned by European companies. All visitor data we collect on your behalf is processed and stored in the EU. It never leaves.
 
 This is not a configuration option or an add-on. It is simply how Plausible works.
+
+![EU-hosted and GDPR-compliant web analytics](/uploads/plausible-eu-hosted.png "EU-hosted and GDPR-compliant web analytics")
 
 1. Ordered list
 {:toc}
@@ -32,11 +35,11 @@ Because Plausible does not collect personal data or use cookies, the baseline le
 
 We provide the following documents to support your compliance review:
 
-- [Data policy](https://plausible.io/data-policy): what we collect, how we store it and where
-- [Privacy policy](https://plausible.io/privacy): how we handle data as a company
-- [Data Processing Agreement (DPA)](https://plausible.io/dpa): for organizations that require a formal DPA with their analytics vendor
-- [GDPR legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy): an independent review by a data protection lawyer confirming that Plausible can be used without cookie consent and without violating GDPR
-- [Subprocessors](https://plausible.io/privacy#what-we-collect-what-we-use-it-for-and-services-we-use): the third-party services we use to operate Plausible, all bound by data protection agreements
+* [Data policy](https://plausible.io/data-policy): what we collect, how we store it and where
+* [Privacy policy](https://plausible.io/privacy): how we handle data as a company
+* [Data Processing Agreement (DPA)](https://plausible.io/dpa): for organizations that require a formal DPA with their analytics vendor
+* [GDPR legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy): an independent review by a data protection lawyer confirming that Plausible can be used without cookie consent and without violating GDPR
+* [Subprocessors](https://plausible.io/privacy#what-we-collect-what-we-use-it-for-and-services-we-use): the third-party services we use to operate Plausible, all bound by data protection agreements
 
 If your legal team has further questions about how data is handled or needs additional documentation, [contact us](https://plausible.io/contact).
 
