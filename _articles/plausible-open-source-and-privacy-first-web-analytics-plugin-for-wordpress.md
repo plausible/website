@@ -433,7 +433,7 @@ If you manage multiple websites, you can view combined stats across all of them 
 
 ### Connect with Looker Studio for custom reporting
 
-Export your Plausible data to Looker Studio to build custom dashboards and reports. This is useful if you want to combine analytics data with other sources or create tailored reports for clients, teams, or stakeholders.
+The [official Plausible Looker Studio connector](https://plausible.io/looker-studio-connector) connects your Plausible data directly to Google's free data visualization tool. Build custom dashboards, combine your analytics data with ad spend or revenue data from other sources, and create tailored reports you can share with clients or stakeholders as a live link.
 
 ## Enjoying Plausible and our WordPress plugin?
 

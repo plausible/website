@@ -190,6 +190,6 @@ Now that your site is tracking with Plausible via GTM, you can:
 
 * [Get the most out of your Plausible experience](https://plausible.io/docs/your-plausible-experience)
 * [Connect your Google Search Console to Plausible](https://plausible.io/docs/google-search-console-integration) to see the search terms driving your traffic directly in your dashboard
-* Customize your reporting by [connecting with Looker Studio](https://plausible.io/docs/looker-studio)
+* Build custom dashboards and client reports by connecting with the [official Looker Studio connector](https://plausible.io/looker-studio-connector). Blend your Plausible data with ad spend, CRM data or any other source in one report.
 
 If you haven't tried Plausible yet, sign up for a free 30-day trial, no credit card required. Thousands of teams including Basecamp, Sentry and the Python Software Foundation trust Plausible with their analytics.

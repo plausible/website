@@ -1,24 +1,18 @@
 ---
 layout: post
 title: How to use Google's Looker Studio to create custom analytics reports
-description: Google's Looker Studio enables flexible creation of interactive
-  analytics dashboards and customizable reports that can be easily shared with
-  others. Here's how to use it.
+description: Use the official Plausible Analytics connector to build custom
+  dashboards and reports in Looker Studio. Combine your analytics data with ad
+  spend, revenue or any other source. Here's how.
 slug: /google-looker-studio-guide
 date: 2025-01-21T11:42:24.373Z
 author: greg-dickens
 image: /uploads/looker-studio-report.png
 image-alt: How to use Google's Looker Studio
 ---
-Different businesses or teams have unique goals, workflows, and preferences for tracking and visualizing their data. For marketers and marketing agencies, creating custom dashboards is crucial to help clients visualize and understand their data. One powerful tool for this purpose is Looker Studio by Google.
+Plausible keeps its dashboard simple by design. But some workflows need more: custom layouts for clients, reports that blend traffic data with ad spend, or views that go beyond what a fixed dashboard can offer. That is what the official [Plausible Analytics Looker Studio connector](https://plausible.io/looker-studio-connector) is for.
 
-This beginner's guide provides a detailed exploration of Looker Studio, covering everything from basic visualizations to advanced techniques like data blending and calculated fields. 
-
-Additionally, we’re excited to introduce our all-new Plausible Analytics Looker Studio Connector, now live in beta, which simplifies integrating Plausible data into Looker Studio for more flexible and powerful reporting.
-
-Using the example of replicating a Plausible Analytics dashboard, we’ll introduce you to Looker Studio’s capabilities while showcasing how to create sophisticated, custom reports.
-
-We’ll introduce you to what Looker Studio is, its capabilities, and how to utilize it by taking the example of replicating a Plausible Analytics dashboard in Looker Studio.
+Looker Studio is Google's free data visualization tool. This guide walks through its capabilities using the Plausible connector as the example, from basic visualizations to advanced techniques like data blending, calculated fields and conditional formatting.
 
 1. Ordered list
 {:toc}
@@ -54,11 +48,9 @@ As a crash course on how to use Looker Studio, we will take the example of our o
 
 ## Plausible Analytics connector for Looker Studio
 
-Plausible Analytics is a simpler, privacy-friendly, and more accurate alternative to Google Analytics, that now comes with the official [Plausible Analytics Looker Studio Connector](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ). 
+Plausible Analytics is a simpler, privacy-friendly and more accurate alternative to Google Analytics. The [official Plausible Looker Studio connector](https://plausible.io/looker-studio-connector) connects your Plausible data to Looker Studio so you can build custom reports and combine it with all your other data sources.
 
-This helps you add some sophisticated and powerful reporting features that help turn Plausible into [an even better replacement for Google Analytics](https://plausible.io/vs-google-analytics).
-
-It allows you to link your Plausible data with Looker Studio and integrate it with all your other data sources to produce custom and flexible reports in seconds. See our documentation on [how to start using the Plausible Looker Studio connector](https://plausible.io/docs/looker-studio).[](https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ)
+It makes Plausible [an even stronger replacement for Google Analytics](https://plausible.io/vs-google-analytics) for teams that need custom reporting alongside privacy-first data collection.
 
 ## Creating a simple report in Looker Studio
 
@@ -272,6 +264,8 @@ Here we will select our total % calculated field and specify that anything "**Le
 
 ![table](/uploads/table.png "table")
 
-## T﻿ry it for yourself!
+## Try it for yourself
 
-I hope this post was a good introduction to Google Looker Studio. If you're looking for an easy to use, open source, lightweight and privacy-friendly alternative to Google Analytics with an official Google Looker Studio connector, do explore [Plausible Analytics](https://plausible.io). All the best!
+Plausible replaces Google Analytics with a simpler, privacy-first dashboard. No cookies, no personal data, no consent banner. The [official Looker Studio connector](https://plausible.io/looker-studio-connector) adds custom reporting on top of that, so you get both: clean data collection and the flexibility to present it however you need.
+
+If you haven't tried Plausible yet, [start a free 30-day trial](https://plausible.io/register). No credit card required.
