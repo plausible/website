@@ -7,18 +7,16 @@ permalink: /paid-analytics-vs-free-ga
 ---
 Google Analytics has been the staple of the digital marketing industry. It's the most commonly adopted web analytics tool on the internet, that it’s a habit–a no-brainer–for site owners to install and use it for tracking site performance. And because it’s always been free to use, that is part of the habit as well.
 
-This makes many people wonder why pay for an analytics tool when Google Analytics–the *go-to* tool–is available for free. It’s a good question and we’re here to answer it with full transparency. 
+Because of this, it’s reasonable to ask why anyone would pay for an analytics tool when Google Analytics is available at no cost.
 
-This question comes up frequently when comparing analytics tools. In case you’re here for the first time, we’re Plausible: the non-complicated, privacy-friendly, more accurate, equally powerful, and yes – paid – alternative to Google Analytics. We’ve been in this industry for 6+ years at the time of writing this.
+This question comes up frequently when comparing analytics options. The answer depends on how different tools approach data collection, privacy, usability, and the total cost of ownership.
 
-After been received with a lot of love by website owners and the privacy-conscious community, we believe we s﻿truck a chord already which made our subscribers *rather pay for Plausible than deal with a free Google Analytics*.
-
-We’ve been profitable and sustainable from the starting, and so we believe we’re qualified to answer what is it that makes sense for people to pay for a web analytics tool that’s an alternative to the digital marketing industry’s staple and free tool.
+In this article, we’ll look at those tradeoffs to help you decide which approach fits your needs.
 
 ![why pay for plausible analytics](/uploads/plausible-paid-analytics-vs-free-ga.png "why pay for plausible analytics")
 
 1. Ordered list
-   {:toc}
+{:toc}
 
 ## Google Analytics’ hidden costs
 
