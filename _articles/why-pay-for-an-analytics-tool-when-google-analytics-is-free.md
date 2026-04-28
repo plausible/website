@@ -7,9 +7,9 @@ permalink: /paid-analytics-vs-free-ga
 ---
 Google Analytics has been the staple of the digital marketing industry. It's the most commonly adopted web analytics tool on the internet, that it’s a habit–a no-brainer–for site owners to install and use it for tracking site performance. And because it’s always been free to use, that is part of the habit as well.
 
-This makes many people wonder why pay for an analytics tool when Google Analytics–the *go-to* tool–is available for free. 🤷 It’s a good question and we’re here to answer it with full transparency. 
+This makes many people wonder why pay for an analytics tool when Google Analytics–the *go-to* tool–is available for free. It’s a good question and we’re here to answer it with full transparency. 
 
-Who are we to answer this? In case you’re here for the first time, we’re Plausible: the non-complicated, privacy-friendly, more accurate, equally powerful, and yes – paid – alternative to Google Analytics. We’ve been in this industry for 6+ years at the time of writing this.
+This question comes up frequently when comparing analytics tools. In case you’re here for the first time, we’re Plausible: the non-complicated, privacy-friendly, more accurate, equally powerful, and yes – paid – alternative to Google Analytics. We’ve been in this industry for 6+ years at the time of writing this.
 
 After been received with a lot of love by website owners and the privacy-conscious community, we believe we s﻿truck a chord already which made our subscribers *rather pay for Plausible than deal with a free Google Analytics*.
 
@@ -18,7 +18,7 @@ We’ve been profitable and sustainable from the starting, and so we believe we�
 ![why pay for plausible analytics](/uploads/plausible-paid-analytics-vs-free-ga.png "why pay for plausible analytics")
 
 1. Ordered list
-{:toc}
+   {:toc}
 
 ## Google Analytics’ hidden costs
 
@@ -40,9 +40,9 @@ Time = value = money.
 
 Because of the above reason, it’s common for business owners to just hire a marketing agency, a freelancer, or an internal GA expert to handle this part of marketing or website management. If not that, many end up subscribing to an expensive GA mastery course.
 
-This ends up making the “free” tool more expensive than the perceived savings of the subscription fees. If it was just a simpler product with good UX and customer support for a little subscription fees, you would be saving more money at the end of the day.
+This ends up making the “free” tool more expensive than the perceived savings of the subscription fees. If it was just a simpler product with good UX and customer support for a little subscription fees, the total cost would be lower.
 
-For perspective, we at Plausible only charge $9 monthly for an easy to use and just as powerful web analytics tool. This is way lesser than hiring any marketing agency, freelancer, internal GA expert, or buying a course.
+Plausible starts at $9/month and covers the core analytics needs for most websites. This is way lesser than hiring any marketing agency, freelancer, internal GA expert, or buying a course.
 
 ### The privacy cost
 
@@ -76,9 +76,16 @@ The other thing is that GA4 [doesn’t do a great job](https://plausible.io/blog
 
 ### The reputation cost
 
-Using Google products is now commonly perceived as creepy tracking of your customers, even if you’re not doing so intentionally or are unaware about it.
+Some visitors are increasingly sensitive to tracking and data collection practices. This shows up in measurable ways:
 
-Worse, if you come under scrutiny for your privacy practices just because of using GA, you stand the risk of losing your brand’s long-earned reputation as well.
+* Consent banners are often declined, which reduces the amount of data collected.
+* Ad blockers and privacy tools frequently block analytics scripts.
+
+[An independent study](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that Google Analytics can miss a significant share of traffic when consent banners are used, with losses averaging over 50% in some cases.
+
+Using tools associated with cross-site tracking can create tension with messaging around privacy, especially for products aimed at privacy-conscious audiences.
+
+As a result, some teams choose analytics solutions that avoid personal data collection to keep their tooling aligned with their public commitments.
 
 ### The tiny business cost
 
@@ -154,7 +161,7 @@ You can reach out and actually get a timely, useful response from a human being 
 
 #### Accuracy and reliability
 
-No dark patterns, no "ghost" referrals, no inflated numbers. There are exactly [11 reasons](https://plausible.io/most-accurate-web-analytics) we identified how we’re more accurate than GA. :)
+No dark patterns, no "ghost" referrals, no inflated numbers. There are exactly [11 reasons](https://plausible.io/most-accurate-web-analytics) we identified how we’re more accurate than GA. :
 
 #### …yet, better features than GA
 
