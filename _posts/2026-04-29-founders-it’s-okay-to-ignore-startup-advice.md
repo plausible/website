@@ -4,7 +4,7 @@ title: Founders, it’s okay to ignore startup advice.
 description: How we built a profitable, independent SaaS by without common
   startup advice and focusing on steady growth, simplicity and long-term
   thinking.
-slug: building-without-startup-playbook
+slug: ignore-startup-advice
 date: 2026-04-29T09:59:41.110Z
 author: hricha-shandily
 ---
