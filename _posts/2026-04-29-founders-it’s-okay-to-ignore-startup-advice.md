@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Founders, it’s okay to ignore startup advice.
-description: How we built a profitable, independent SaaS by ignoring common
+description: How we built a profitable, independent SaaS by without common
   startup advice and focusing on steady growth, simplicity and long-term
   thinking.
 slug: building-without-startup-playbook
