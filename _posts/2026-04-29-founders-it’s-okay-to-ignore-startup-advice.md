@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Founders, it’s okay to ignore startup advice.
-description: How we built a profitable, independent SaaS without common startup
-  advice and focusing on steady growth, simplicity and long-term thinking.
+title: The boring way to build a startup
+description: Seven years in, Plausible is profitable, independent, and still
+  here. How we built it by staying self-funded, keeping things small, and
+  ignoring most of the standard startup playbook.
 slug: ignore-startup-advice
 date: 2026-04-29T09:59:41.110Z
 author: hricha-shandily
@@ -23,7 +24,7 @@ It all sounds reasonable. It just didn’t feel like something we could follow w
 
 So, we kept things simple: no bets we couldn’t afford to lose, no growth at all costs, no unrealistic targets.
 
-That ruled out a surprising number of “normal” startup decisions, that helped us stay alive and thriving for seven years, while safely ignoring common startup advice.
+That ruled out a surprising number of “normal” startup decisions. It's what kept us alive and thriving for seven years.
 
 1. Ordered list 
 {:toc}
@@ -38,13 +39,13 @@ We didn’t set targets that forced us into risky decisions just to hit them.
 
 Instead, we started out with our own pocket money, built something people would find useful, let them use the tool, provide feedback, stick around and bring more people.
 
-The focus was on the core things that would help the business stay.
+The focus was on the things that would help the business survive.
 
 ## It’s okay to stay self-funded
 
-Another thing we’ve learned is okay to do is to self-fund if you can and if the nature of your business/industry allows you to. We’re 100% user-supported to this day and a good breakdown of [how we did that is here](https://plausible.io/blog/customers-not-investors).
+It's okay to self-fund if you can, and if the nature of your business allows it. We’re 100% user-supported to this day and a good breakdown of [how we did that is here](https://plausible.io/blog/customers-not-investors).
 
-We have deliberately turned down hundreds of investing offers (a few, very tempting ones) till date. Staying self-supported forced us to not postpone figuring out how the business works. There was no runway to fall back on, no buffer to absorb bad decisions.
+We have deliberately turned down hundreds of investing offers. Staying self-supported forced us to not postpone figuring out how the business works. There was no runway to fall back on, no buffer to absorb bad decisions.
 
 If something didn’t work, we felt it immediately.
 
@@ -56,9 +57,9 @@ We didn’t have to grow at a specific pace or work toward a predefined outcome.
 
 That decision simplifies a lot of things. If customers are the ones funding the business, the product has to be useful. There’s no fallback.
 
-It also means you don’t need a second business model. No ads, no selling data, no “free but actually not free”.
-
 That kind of independence is hard to give up.
+
+Being [open source](https://plausible.io/open-source-website-analytics) is part of what makes it credible. The code is public. People can see exactly what the product does with their data. You don't have to take our word for it.
 
 ## It’s okay to keep things small
 
@@ -76,7 +77,7 @@ When it’s your own business, not a runway from investors, big bets feel differ
 
 So instead of trying to jump ahead, we just kept things manageable and kept going.
 
-## Do you really need a free plan?
+## Charging from day one simplified things
 
 We chose a subscription model from the start.
 
@@ -98,7 +99,7 @@ Just a product people pay for because it’s useful.
 
 ## Organic growth beats manufactured growth
 
-We didn’t run ads. We didn’t build aggressive funnels. We didn’t define a narrow ICP and optimize everything around it.
+We didn’t run ads. We didn’t build aggressive funnels. We didn’t define a narrow Ideal Customer Profile and optimize everything around it.
 
 We also avoided a lot of the usual tactics that come with that approach.
 
@@ -112,9 +113,9 @@ That’s it.
 
 It’s slower. There’s no obvious spike you can point to.
 
-It took us 324 days to reach the first $400 MRR. Took us 3 years to make $1M ARR. And another 3 to multiply that manifolds. While we got to be profitable from the early years itself.
+It took us 324 days to reach the first $400 MRR. Took us 3 years to make $1M ARR. And another 3 to multiply it several times over. And we were profitable within the first few years.
 
-But it’s simpler, tends to stick and the compounding and organic results are simply unbeatable.
+But it's simpler, it sticks, and the compounding tends to outlast anything you could manufacture.
 
 ## It’s slower, and that’s the trade-off
 
@@ -128,7 +129,7 @@ But the upside is you don’t have to make decisions just to keep up. You don’
 
 You just keep going.
 
-Tortoise does beat the rabbit.
+Tortoise does beat the hare.
 
 ## Most of it is just the “boring” work
 
@@ -159,9 +160,7 @@ And we still enjoy working on it.
 
 This isn’t the only way to do things.
 
-Some companies raise money, move fast, take big risks, and build something huge.
-
-This is just another option.
+Some companies raise money, move fast, take big risks, and build something huge. That works for some. This is what worked for us.
 
 Build something useful.
 Charge for it.
