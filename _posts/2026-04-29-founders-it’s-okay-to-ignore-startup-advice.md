@@ -25,7 +25,7 @@ So, we kept things simple: no bets we couldn’t afford to lose, no growth at al
 That ruled out a surprising number of “normal” startup decisions, that helped us stay alive and thriving for seven years, while safely ignoring common startup advice.
 
 1. Ordered list 
-{:toc}
+   {:toc}
 
 ## Sustaining the startup beats breakout growth
 
@@ -35,7 +35,7 @@ We avoided bets where the downside was losing the company.\
 We didn’t spend money we didn’t have.\
 We didn’t set targets that forced us into risky decisions just to hit them.
 
-Instead, the founders started with their own pocket money, built something people would find useful, let them use the tool, provide feedback, stick around and bring more people. 
+Instead, we started out with our own pocket money, built something people would find useful, let them use the tool, provide feedback, stick around and bring more people.
 
 The focus was on the core things that would help the business stay.
 
@@ -113,7 +113,9 @@ That’s it.
 
 It’s slower. There’s no obvious spike you can point to.
 
-But it’s simpler. And it tends to stick.
+It took us 324 days to reach the first $400 MRR. Took us 3 years to make $1M ARR. And another 3 to multiply that manifolds. While we got to be profitable from the early years itself.
+
+But it’s simpler, tends to stick and the compounding and organic results are simply unbeatable.
 
 ## It’s slower, and that’s the trade-off
 
@@ -129,13 +131,9 @@ You just keep going.
 
 Tortoise does beat the rabbit.
 
-## Most of it was just the “boring” work
+## Most of it is just the “boring” work
 
-There’s this idea that building a startup is a series of intense, high-stakes moments.
-
-In our case, it wasn’t.
-
-Most weeks look the same:
+There’s this idea that building a startup is a series of intense, high-stakes moments. In our case, it might not be as true. Most weeks look the same:
 
 Work on the product.\
 Fix something that’s broken or confusing.\
