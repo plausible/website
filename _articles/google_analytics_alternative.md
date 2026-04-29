@@ -27,7 +27,7 @@ Plausible gives you all the important metrics on one page: visitors, sources, pa
 
 This is one of the most overlooked reasons to switch. Google Analytics 4 misses a lot of traffic.
 
-When consent banners are shown, [an independent study found](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) that GA4 fails to capture an average of 55.6% of traffic compared to Plausible. With tech-savvy audiences, the share of people [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data) can reach 60%.
+When consent banners are shown, [an independent study found](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) that GA4 fails to capture an average of 55.6% of traffic compared to Plausible. Use our [cookie banner traffic loss calculator](/cookie-banner-traffic-loss-calculator) to estimate the gap on your own site. With tech-savvy audiences, the share of people [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data) can reach 60%.
 
 Plausible doesn't collect personal data, so it doesn't require a consent banner. That means it counts visitors who decline cookie prompts. It's also not part of the adtech ecosystem, so most adblockers leave it alone. You can also [proxy our script](https://plausible.io/docs/proxy/introduction) through your own domain as a first-party connection to bypass the ones that do target analytics scripts.
 

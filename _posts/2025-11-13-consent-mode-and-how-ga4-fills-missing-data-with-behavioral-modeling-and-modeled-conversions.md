@@ -25,7 +25,7 @@ When you implement a [cookie consent banner](https://plausible.io/blog/cookie-co
 
 Consent given: *track*. Consent not given: *do not track*.
 
-And because a major chunk of site visitors deny the cookie banners and do not like to give away their data, GA script gets blocked from loading on a site and in return, GA4 (and Google Ads) lose a lot of valuable data to show on their dashboards. In fact, about 50% of the data is [known to be lost](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) due to this very reason.
+And because a major chunk of site visitors deny the cookie banners and do not like to give away their data, GA script gets blocked from loading on a site and in return, GA4 (and Google Ads) lose a lot of valuable data to show on their dashboards. In fact, about 50% of the data is [known to be lost](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) due to this very reason. You can estimate your own gap with our [cookie banner traffic loss calculator](/cookie-banner-traffic-loss-calculator).
 
 Also, GA4 depends heavily on identifiers to build its reports. It tries to:
 

@@ -50,7 +50,9 @@ Many website visitors don’t want their activities to be tracked and want to pr
 
 This gap leads to underreporting in traffic numbers and incomplete data on user interactions, skewing analytics insights. Factors like banner visibility, user interaction, and explicit vs. implied consent also impact data completeness.
 
-In fact, according to the Orbit Media study shared above, the accuracy of GA4 as compared to Plausible –– due to the cookie consent banner’s presence –– was exactly at 55.6%. More than half of the data was missing, making Google Analytics stats not reliable!
+In fact, according to the Orbit Media study shared above, the accuracy of GA4 as compared to Plausible was exactly at 55.6% due to the cookie consent banner’s presence. More than half of the data was missing, making Google Analytics stats not reliable!
+
+You can estimate the size of your own data gap with our [cookie banner traffic loss calculator](/cookie-banner-traffic-loss-calculator).
 
 **How do we tackle this at Plausible?** We made Plausible tracking completely cookieless. This means that we track your website usage data without the usage of cookies or any other persistent identifiers.
 
