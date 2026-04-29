@@ -48,7 +48,7 @@ So even though you may not get more visitors from Google, the main benefit of me
 
 ## Core Web Vitals and other page experience signals
 
-![All page experience signals](/uploads/all-page-experience-signals.jpg)
+![All page experience signals](/uploads/all-page-experience-signals.jpg)
 
 Core Web Vitals are combined with other page experience signals to measure the user experience on your website, how people experience the speed, responsiveness and visual stability of your website. 
 
@@ -132,7 +132,7 @@ Great place to check your Core Web Vitals and get your real-world measurement sc
 
 ### Google Search Console 
 
-![Page experience scores in Google Search Console](/uploads/page-experience-signals.png)
+![Page experience scores in Google Search Console](/uploads/page-experience-signals.png)
 
 Google Search Console scores your pages with "Good", "Needs Improvement" or "Poor" based on the real-world data. It identifies pages that are not meeting the Core Web Vitals benchmarks and that require your attention.
 
