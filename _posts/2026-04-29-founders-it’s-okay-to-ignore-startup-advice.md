@@ -10,8 +10,8 @@ author: hricha-shandily
 ---
 M﻿ost startup stories that get glorified are dramatic.
 
-“We almost ran out of money.”\
-“We had to pivot.”\
+“We almost ran out of money.”
+“We had to pivot.”
 “It nearly failed.”
 
 Ours didn’t really have moments like that. It was mostly a long stretch of building, talking to users, fixing things, and trying not to make decisions that would put us out of business.
@@ -20,11 +20,12 @@ A lot of startup advice is about growing at all costs, raising money, setting am
 
 It all sounds reasonable. It just didn’t feel like something we could follow without taking risks we couldn’t afford.
 
-So we didn’t.
-
-We kept things simple: no bets we couldn’t afford to lose, no growth at all costs, no unrealistic targets.
+So, we kept things simple: no bets we couldn’t afford to lose, no growth at all costs, no unrealistic targets.
 
 That ruled out a surprising number of “normal” startup decisions, that helped us stay alive and thriving for seven years, while safely ignoring common startup advice.
+
+1. Ordered list 
+{:toc}
 
 ## Sustaining the startup beats breakout growth
 
@@ -159,20 +160,6 @@ And we still enjoy working on it.
 
 ## You don’t need to chase the dramatic story
 
-A lot of startup advice is built around the idea of a story. The struggle, the pivot, the breakout.
-
-It feels good, makes you feel like you made it. Stories are easier to share than steady progress.
-
-But you don’t actually need that.
-
-You can build something without the drama.\
-You can make decisions that feel a bit boring in the moment.\
-You can focus on staying in the game instead of chasing a big moment.
-
-While your unique story can take shape over time.
-
-Survival matters more than it gets credit for. Profitability gives you options. Independence keeps things simpler. And if you still enjoy the work after a few years, that’s probably a good sign you’re doing something right.
-
 This isn’t the only way to do things.
 
 Some companies raise money, move fast, take big risks, and build something huge.
@@ -186,4 +173,6 @@ Improve it steadily.
 
 Give it time.
 
-It won’t make for the most dramatic story. But you might still be here in seven years.
+It won’t make for the most glamorous story. But you might still be here in seven years. 
+
+Survival matters more than it gets credit for. Profitability gives you options. Independence keeps things simpler. And if you still enjoy the work after a few years, that’s a very underrated win.
