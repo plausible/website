@@ -90,7 +90,9 @@ If someone is paying, the product has to make sense quickly. There’s no room f
 
 So we kept it simple. Focused on the core use case. Avoided building features we didn’t really believe in.
 
-We just built something simpler. Something you can understand quickly. And something that respects user privacy by default. Over time, it became clear [why someone would pay for a simpler, privacy-friendly alternative](https://plausible.io/paid-analytics-vs-free-ga) instead of sticking with free.
+We just built [something simpler](https://plausible.io/simple-web-analytics). Something you can understand quickly. And something that respects user privacy by default.
+
+Over time, it became clear [why someone would pay for a simpler, privacy-friendly alternative](https://plausible.io/paid-analytics-vs-free-ga) instead of sticking with free.
 
 We also didn’t need a second business model. No ads, no selling data, no trade-offs hidden behind “free.”
 
