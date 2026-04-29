@@ -98,19 +98,21 @@ Just a product people pay for because it’s useful.
 
 ## Organic growth beats manufactured growth
 
-We didn’t run ads. We didn’t define a narrow ICP or build aggressive funnels. We didn’t try to force growth before the product was ready.
+We didn’t run ads. We didn’t build aggressive funnels. We didn’t define a narrow ICP and optimize everything around it.
 
-Most of our growth came from:
+We also avoided a lot of the usual tactics that come with that approach.
 
-* people finding us through content
-* trying the product
-* telling others
+No retargeting. No tracking people across the web. No popups or intrusive calls to action. No email sequences trying to “nurture” people into paying. No sales calls.
 
-That’s it. 
+That wasn’t some grand strategy. It just didn’t feel like how we wanted to build. [Most of our growth came despite not doing these things](https://plausible.io/blog/startup-marketing).
+
+Instead, people found us through content, trying the product, and telling others.
+
+That’s it.
 
 It’s slower. There’s no obvious spike you can point to.
 
-But it’s also simpler. And it tends to stick.
+But it’s simpler. And it tends to stick.
 
 ## It’s slower, and that’s the trade-off
 
@@ -170,8 +172,6 @@ You can focus on staying in the game instead of chasing a big moment.
 While your unique story can take shape over time.
 
 Survival matters more than it gets credit for. Profitability gives you options. Independence keeps things simpler. And if you still enjoy the work after a few years, that’s probably a good sign you’re doing something right.
-
-
 
 This isn’t the only way to do things.
 
