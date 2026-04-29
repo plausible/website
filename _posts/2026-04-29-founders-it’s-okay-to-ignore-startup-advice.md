@@ -8,19 +8,17 @@ slug: building-without-startup-playbook
 date: 2026-04-29T09:59:41.110Z
 author: hricha-shandily
 ---
-Founders, it’s okay to ignore startup advice.
+M﻿ost startup stories that get glorified are dramatic.
 
 “We almost ran out of money.”\
 “We had to pivot.”\
 “It nearly failed.”
 
-That’s how a lot of startup stories are told.
-
 Ours didn’t really have moments like that. It was mostly a long stretch of building, talking to users, fixing things, and trying not to make decisions that would put us out of business.
 
 A lot of startup advice is about growing at all costs, raising money, setting ambitious targets, moving quickly and figuring things out later.
 
-It all sounded reasonable. It just didn’t feel like something we could follow without taking risks we couldn’t afford.
+It all sounds reasonable. It just didn’t feel like something we could follow without taking risks we couldn’t afford.
 
 So we didn’t.
 
