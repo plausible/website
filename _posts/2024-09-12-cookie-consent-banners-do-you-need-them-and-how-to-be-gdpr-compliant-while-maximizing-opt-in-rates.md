@@ -62,7 +62,7 @@ According to a [guide by a data protection lawyer](https://plausible.io/blog/leg
 
 P﻿.S. This is not official legal advise.
 
-Plausible is [GDPR-compliant out of the box](https://plausible.io/privacy-focused-web-analytics). So you can actually ditch consent banners altogether, which not only annoy your visitors, but also cause about [55% data loss](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/), and eventually, business loss.
+Plausible is [GDPR-compliant out of the box](https://plausible.io/privacy-focused-web-analytics). So you can actually ditch consent banners altogether, which not only annoy your visitors, but also cause about [55% data loss](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/), and eventually, business loss. Use our [cookie banner traffic loss calculator](/cookie-banner-traffic-loss-calculator) to estimate how much traffic is invisible in your own analytics.
 
 Plausible is built in the EU itself, does not engage in cross-platform tracking, does not track and store any personally identifiable information, and does not pass on data to third parties.
 

@@ -67,7 +67,7 @@ By not using cookies, you do not need to obtain consent from visitors to store a
 
 ## Privacy-first means more complete data, not less
 
-This is the part most people don't expect. When you use Google Analytics, you need a consent banner. Visitors who decline it aren't tracked at all. Depending on your audience, a significant portion of your traffic is simply invisible.
+This is the part most people don't expect. When you use Google Analytics, you need a consent banner. Visitors who decline it aren't tracked at all. Depending on your audience, a significant portion of your traffic is simply invisible. Our [cookie banner traffic loss calculator](/cookie-banner-traffic-loss-calculator) shows how large that gap typically is.
 
 Because Plausible doesn't use cookies or collect personal data, no consent banner is required. Every visitor is counted. You get a more accurate picture of your traffic, not a filtered one.
 
