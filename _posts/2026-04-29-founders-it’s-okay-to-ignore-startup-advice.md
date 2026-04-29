@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Founders, it’s okay to ignore startup advice.
-description: How we built a profitable, independent SaaS by without common
-  startup advice and focusing on steady growth, simplicity and long-term
-  thinking.
+description: How we built a profitable, independent SaaS without common startup
+  advice and focusing on steady growth, simplicity and long-term thinking.
 slug: ignore-startup-advice
 date: 2026-04-29T09:59:41.110Z
 author: hricha-shandily
@@ -27,21 +26,19 @@ So, we kept things simple: no bets we couldn’t afford to lose, no growth at al
 That ruled out a surprising number of “normal” startup decisions, that helped us stay alive and thriving for seven years, while safely ignoring common startup advice.
 
 1. Ordered list 
-   {:toc}
+{:toc}
 
 ## Sustaining the startup beats breakout growth
 
 A lot of startup advice pushes you to take bigger risks, faster moves, higher stakes. That works sometimes. But if your goal is to still be around in a few years, avoiding certain situations helps.
 
-We avoided bets where the downside was losing the company.\
-We didn’t spend money we didn’t have.\
+We avoided bets where the downside was losing the company.
+We didn’t spend money we didn’t have.
 We didn’t set targets that forced us into risky decisions just to hit them.
 
 Instead, we started out with our own pocket money, built something people would find useful, let them use the tool, provide feedback, stick around and bring more people.
 
 The focus was on the core things that would help the business stay.
-
-Good old basics.
 
 ## It’s okay to stay self-funded
 
@@ -137,9 +134,9 @@ Tortoise does beat the rabbit.
 
 There’s this idea that building a startup is a series of intense, high-stakes moments. In our case, it might not be as true. Most weeks look the same:
 
-Work on the product.\
-Fix something that’s broken or confusing.\
-Talk to users.\
+Work on the product.
+Fix something that’s broken or confusing.
+Talk to users.
 Ship an improvement.
 
 Do that again next week.
@@ -166,13 +163,13 @@ Some companies raise money, move fast, take big risks, and build something huge.
 
 This is just another option.
 
-Build something useful.\
-Charge for it.\
-Keep your costs under control.\
+Build something useful.
+Charge for it.
+Keep your costs under control.
 Improve it steadily.
 
 Give it time.
 
-It won’t make for the most glamorous story. But you might still be here in seven years. 
+It won’t make for the most glamorous story. But you might still be here in seven years.
 
 Survival matters more than it gets credit for. Profitability gives you options. Independence keeps things simpler. And if you still enjoy the work after a few years, that’s a very underrated win.
