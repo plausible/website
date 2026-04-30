@@ -63,11 +63,11 @@ description: Find answers to common questions about Plausible Analytics. Contact
 
         <div class="mt-8 rounded-lg border border-gray-200 bg-white px-5 py-4">
           <p class="text-sm font-medium text-gray-900">Looking for an enterprise plan?</p>
-          <p class="text-sm text-gray-500 mt-1">Custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy, Sites API and priority support. <a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">See what's included</a> or email us below with your usage and requirements.</p>
+          <p class="text-sm text-gray-500 mt-1">Custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy, Sites API and priority support. <a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">See what's included</a> or email us with your usage and requirements.</p>
         </div>
 
         <div class="mt-8" x-data="{ topic: null }">
-          <p class="text-gray-800 leading-7">Still need help? Select what your question is about for a direct answer, or email us below. We typically reply within one business day.</p>
+          <p class="text-gray-800 leading-7">Still need help? Select what your question is about for a direct answer, or email us at <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a>. We typically reply within one business day.</p>
 
           <div class="mt-4 flex flex-wrap gap-2">
             <button @click="topic = 'billing'" class="rounded-full border px-3 py-1.5 text-sm transition-colors" :class="topic === 'billing' ? 'border-indigo-400 bg-indigo-50 text-indigo-700' : 'border-gray-200 bg-white text-gray-700 hover:border-indigo-300'">Billing &amp; invoices</button>
@@ -82,53 +82,42 @@ description: Find answers to common questions about Plausible Analytics. Contact
 
           <div x-show="topic === 'billing'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p>Most billing questions are answered in our <a class="text-indigo-600" href="https://plausible.io/docs/billing">billing FAQ</a>, covering VAT numbers, invoice email routing, address changes and overage handling. If your question isn't there, include your current Paddle billing email when you write to us so we can locate your account quickly.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Still stuck? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'goals'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p>Our <a class="text-indigo-600" href="https://plausible.io/docs/goal-conversions">goal setup guide</a> covers all goal types including pageview goals, custom events, form submissions, link clicks, file downloads and ecommerce revenue. If a custom event isn't firing, the most likely cause is incorrect tagging. See the <a class="text-indigo-600" href="https://plausible.io/docs/custom-event-goals">debugging guide</a>.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Still stuck? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'bots'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p>See <a class="text-indigo-600" href="https://plausible.io/docs/bot-traffic-filtering">how our bot filtering works</a> and what you can control via the <a class="text-indigo-600" href="https://plausible.io/docs/excluding">Shields feature</a>. If you think you're seeing unfiltered bot traffic, email us with the dates and source details and we'll investigate.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Still stuck? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'pricing'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p>View <a class="text-indigo-600" href="https://plausible.io/#pricing">plans and pricing</a> on our website, or see the <a class="text-indigo-600" href="https://plausible.io/docs/subscription-plans">subscription plans doc</a> for a full breakdown of tiers and features.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Still stuck? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'nonprofit'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
-            <p>We offer a 15% introductory discount for nonprofits, educational institutions and open-source projects on Business plans with annual billing. Start your free 30-day trial, then email us below with your organization name, type and website and we'll send you a discount code. <a class="text-indigo-600" href="https://plausible.io/docs/nonprofit-and-education-pricing">Full details</a>.</p>
+            <p>We offer a 15% introductory discount for nonprofits, educational institutions and open-source projects on Business plans with annual billing. Start your free 30-day trial, then email us with your organization name, type and website and we'll send you a discount code. <a class="text-indigo-600" href="https://plausible.io/docs/nonprofit-and-education-pricing">Full details</a>.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Ready to claim your discount? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'installation'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p>Run our <a class="text-indigo-600" href="https://plausible.io/docs/troubleshoot-integration">automated testing tool</a> from your site settings to diagnose most integration issues. For proxy setup, see the <a class="text-indigo-600" href="https://plausible.io/docs/proxy/introduction">proxy guide</a>. If you're still stuck, include your site URL and what you've already tried when you email us.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Still stuck? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'compliance'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p>Our <a class="text-indigo-600" href="https://plausible.io/dpa">DPA</a> applies to all customers and covers GDPR obligations. For vendor security reviews and compliance questionnaires, our <a class="text-indigo-600" href="https://plausible.io/docs/compliance">compliance docs</a> and <a class="text-indigo-600" href="https://plausible.io/security">security overview</a> answer most questions without needing to contact us.</p>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Still stuck? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
 
           <div x-show="topic === 'enterprise'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
             <p><a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">Our enterprise plan</a> includes custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy, Sites API and priority support. Email us with your estimated monthly pageviews and any specific requirements.</p>
-          </div>
-
-          <div class="mt-6 flex">
-            <div class="flex-shrink-0">
-              <svg class="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-              </svg>
-            </div>
-            <div class="ml-3 text-base text-gray-800 leading-6">
-              <p>
-                <script type="text/javascript">
-                var user = "hello";
-                var domain = "plausible.io";
-                var addr = user + '@' + domain;
-                document.write('<a class="text-indigo-600" href="mailto:' + addr + '">' + addr + '</a>');
-                </script>
-                <noscript>hello at plausible.io</noscript>
-              </p>
-            </div>
+            <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Ready to talk? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
         </div>
 
