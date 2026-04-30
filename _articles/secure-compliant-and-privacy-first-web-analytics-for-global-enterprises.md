@@ -156,4 +156,4 @@ There are no long-term contracts or lock-ins. You can upgrade, downgrade or canc
 
 You can explore our [live demo](https://plausible.io/plausible.io) or start a [free trial](https://plausible.io/register) before committing.
 
-**[Get in touch](https://plausible.io/contact).** We'll get back to you within one business day to discuss your requirements and next steps.
+Email us at [hello@plausible.io](mailto:hello@plausible.io). We'll get back to you within one business day to discuss your requirements and next steps.
