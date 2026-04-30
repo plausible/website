@@ -7,8 +7,8 @@ description: Seven years in, Plausible is profitable, independent, and still
 slug: ignore-startup-advice
 date: 2026-04-29T09:59:41.110Z
 author: hricha-shandily
-image: ""
-image-alt: ""
+image: "uploads/plausible-analytics-signups-organic-growth.webp"
+image-alt: "plausible analytics signups organic growth"
 ---
 M﻿ost startup stories that get glorified are dramatic.
 
