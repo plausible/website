@@ -13,10 +13,16 @@ Two visitors who buy are worth more than a hundred who bounce. Understanding you
 
 ## Conversion rate calculator
 
+<style>
+@media (max-width: 600px) {
+  .calc-grid-3 { grid-template-columns: 1fr !important; }
+}
+</style>
+
 Adjust the numbers to match your site:
 
 <div style="margin: 1.5rem 0; padding: 1.5rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 0.875rem; font-family: inherit;">
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
     <div>
       <label for="cr-visitors" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Monthly visitors</label>
       <input type="text" id="cr-visitors" value="10,000" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
@@ -72,7 +78,7 @@ Adjust the numbers to match your site:
 Know your conversion rate? Enter it below along with your target to find out how much traffic you need:
 
 <div style="margin: 1.5rem 0; padding: 1.5rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 0.875rem; font-family: inherit;">
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
     <div>
       <label for="tg-target" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Target conversions per month</label>
       <input type="text" id="tg-target" value="500" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
@@ -133,7 +139,7 @@ Know your conversion rate? Enter it below along with your target to find out how
 See how much a small conversion rate improvement is worth in terms of additional conversions:
 
 <div style="margin: 1.5rem 0; padding: 1.5rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 0.875rem; font-family: inherit;">
-  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+  <div class="calc-grid-3" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
     <div>
       <label for="imp-visitors" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Monthly visitors</label>
       <input type="text" id="imp-visitors" value="10,000" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
@@ -148,7 +154,7 @@ See how much a small conversion rate improvement is worth in terms of additional
     </div>
   </div>
   <div id="imp-result" style="display: none;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+    <div class="calc-grid-3" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
       <div style="padding: 1rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; text-align: center;">
         <div style="font-size: 0.75rem; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">Before</div>
         <div id="imp-before" style="font-size: 1.75rem; font-weight: 800; color: #111827; line-height: 1;"></div>
