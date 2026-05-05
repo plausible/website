@@ -323,6 +323,22 @@ They initially created it in a motivation to replace the big tech as they were e
 
 [Visit Tally](https://tally.so/)
 
+### Tuta (Gmail alternative)
+
+Tuta is an email service that provides end-to-end encryption for emails, calendars, and contacts. Encryption is applied automatically, including to subject lines, and the service does not rely on advertising or tracking.
+
+The codebase is open source, and the service is designed to minimize data collection. It includes standard email functionality along with a calendar, but does not aim to replicate a full productivity suite.
+
+**Based in**: Germany
+
+**Hosted in**: Germany (EU data centers)
+
+**GDPR compliant?** Yes
+
+**Cost**: Free plan available; paid plans for additional storage, custom domains, and business features
+
+[Visit Tuta](https://tuta.com/)
+
 ### Whereby (Zoom and Google Meet alternative)
 
 Whereby is a user-friendly, browser-based video conferencing tool, requiring no downloads or logins for guests.
