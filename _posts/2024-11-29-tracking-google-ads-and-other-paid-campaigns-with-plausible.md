@@ -45,7 +45,7 @@ There are other ways in which Google Analytics is inaccurate, for reasons like s
 
 Plausible offers other advantages and makes a lot of sense as an analytics tool of choice.
 
-1. Lightweight script: Plausible’s tracking script is at least 75x smaller than GA4’s, not slowing down your sit
+1. Lightweight script: Plausible’s tracking script is {{ site.data.site.script_ratio }}x smaller than GA4’s, not slowing down your site
 2. Simple dashboard: No complex menus—just effective, actionable insights.
 3. Privacy-friendly by design: Plausible doesn’t require a cookie consent banner because it doesn’t track or store personal data.
 4. Dedicated support: You get faster assistance directly from the core team, something missing from Google Analytics. 

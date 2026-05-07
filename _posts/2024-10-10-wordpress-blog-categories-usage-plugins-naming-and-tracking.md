@@ -237,7 +237,7 @@ And most importantly, you can find out if any [goals](https://plausible.io/docs/
 We encourage everyone to go through our free 30-day trial. Our plugin is highly rated at 4.9 stars, take pride in being a [simpler alternative](https://plausible.io/simple-web-analytics) to Google Analytics 4. We:
 
 * Are proven to be [more accurate](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/)
-* Are [lightweight](https://plausible.io/lightweight-web-analytics) by at least 75 times as compared to GA4 script
+* Are [lightweight](https://plausible.io/lightweight-web-analytics) by {{ site.data.site.script_ratio }} times as compared to GA4 script
 * Block bot traffic by default
 * Are less blocked by ad blockers and privacy-first browsers
 * Have compliances in-built, no consent banner needed from our side
