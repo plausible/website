@@ -4,6 +4,8 @@ title: "How much JavaScript does Google Analytics add to your site?"
 description: "Google Analytics adds 135KB of JavaScript for every new visitor. Add GTM and a cookie consent banner and you're past 285KB. Plausible adds 2.5KB and needs none of it."
 permalink: /google-analytics-script-size
 ---
+<p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
+
 Google Analytics (GA4) is the most widely used analytics tool on the web and one of the heaviest scripts you can add to a site. The size of that script compounds into gigabytes of data transferred every month.
 
 [Plausible Analytics](https://plausible.io/) was built differently: to give you what you need without the weight of a platform designed for advertising and audience building.

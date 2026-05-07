@@ -4,6 +4,8 @@ title: "UTM checker"
 description: Paste a UTM-tagged URL to validate it, spot naming issues and get a clean corrected version ready to copy.
 permalink: /utm-checker
 ---
+<p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
+
 UTM links accumulate mess. A teammate copies a URL and tweaks it by hand. Someone uses `Facebook` where everyone else uses `facebook`. Spaces sneak in. The result is fragmented campaign data that is hard to filter and impossible to compare.
 
 Paste a tagged URL below. The checker splits it into its parts, flags issues, and generates a clean suggested URL ready to copy.
@@ -266,3 +268,5 @@ In Google Analytics, the issues below create fragmented campaign data that is ha
 **Skipping utm_medium.** Source tells you where. Medium tells you what kind of channel. Without medium, you cannot distinguish a newsletter campaign from a banner ad on the same site. It takes one extra field and pays off every time you need to compare channels.
 
 For a full guide to UTM parameters including how they appear in your Plausible dashboard, see [How to use UTM parameters to track your campaigns](/blog/utm-tracking-tags).
+
+If your campaigns use `cpc` as their medium, the [ad cost calculator](/ad-cost-calculator) lets you calculate your cost per click, cost per mille and cost per acquisition once your tagged campaigns are running.

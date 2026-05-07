@@ -4,6 +4,8 @@ title: "Conversion rate calculator"
 description: "Calculate your website conversion rate, the traffic you need to hit your goals, and the impact of small improvements."
 permalink: /conversion-rate-calculator
 ---
+<p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
+
 Conversion rate is one of the most useful numbers you can track on a website. It tells you not just how many people visited, but how many did something that mattered.
 
 Two visitors who buy are worth more than a hundred who bounce. Understanding your conversion rate helps you decide where to focus: on getting more traffic, or on making better use of the traffic you already have.
@@ -259,3 +261,5 @@ Plausible lets you track goals without writing any code. You can define what cou
 Once a goal is set up, it appears in your dashboard alongside your traffic data, so you can see your conversion rate directly and filter by source, page or campaign to understand where conversions actually come from.
 
 You can also add revenue tracking to goals to see the monetary value of conversions and compare it across channels. See [ecommerce revenue tracking](https://plausible.io/docs/ecommerce-revenue-tracking) for details.
+
+If you are running paid campaigns, use the [ad cost calculator](/ad-cost-calculator) to calculate your cost per click, cost per mille and cost per acquisition alongside your conversion data.

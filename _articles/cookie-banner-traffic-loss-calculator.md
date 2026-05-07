@@ -4,6 +4,8 @@ title: "Cookie banner traffic loss calculator"
 description: "Estimate how many website visitors are invisible to Google Analytics because of cookie consent banner declines."
 permalink: /cookie-banner-traffic-loss-calculator
 ---
+<p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
+
 Most analytics tools use cookies and collect personal data to identify visitors. Both require consent. Consent requires a banner. And every visitor who declines or simply ignores the banner disappears from your data entirely.
 
 Google Analytics cannot track what it has no permission to touch. The result is a gap between the traffic you actually have and the traffic your dashboard shows you. This calculator estimates the size of that gap.
@@ -185,3 +187,5 @@ The consent acceptance rate stops being a variable in your analytics accuracy be
 Whether a consent banner is required depends on your specific setup, audience location and any other tools running on your site. If you are running Plausible alongside other tracking tools that use cookies, those tools may still require consent. For a detailed legal assessment of when consent is and is not required, see our [guide written by a data protection lawyer](/blog/legal-assessment-gdpr-eprivacy). Nothing on this page is legal advice.
 
 If your GA data shows 28,400 visitors per month with a 45% consent rate, your actual traffic is closer to 51,600. Switching to Plausible does not manufacture traffic. It makes the traffic you already have visible.
+
+If you are spending on paid acquisition, the same distortion affects your cost per acquisition directly. Fewer recorded conversions means a higher reported CPA, making campaigns look less efficient than they are. Use the [ad cost calculator](/ad-cost-calculator) to see what a more accurate conversion count does to your numbers.

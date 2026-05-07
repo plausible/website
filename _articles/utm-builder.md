@@ -4,6 +4,8 @@ title: "UTM builder"
 description: Generate UTM tagged links for your campaigns. Fill in the details below and copy the tagged URL to use in your emails, social posts and ads.
 permalink: /utm-builder
 ---
+<p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
+
 Campaign traffic is invisible without tagging. Clicks from emails, newsletters and social media often arrive with no referral data, showing up as "direct" in your analytics. UTM parameters fix that: small tags you append to links that tell your analytics tool exactly where a click came from.
 
 [Plausible Analytics](https://plausible.io/) reads UTM tags out-of-the-box, with no cookies, no consent prompts and no Google account required. Build your tagged links below.
@@ -196,3 +198,5 @@ Enter your URL and campaign details to generate a tagged link:
 - **Keep naming consistent in your UTM campaigns.** In Google Analytics, `facebook`, `Facebook` and `fb` appear as three separate sources with no grouping. Plausible automatically consolidates known platform variants in the Sources tab, so all traffic from the same platform shows together regardless of how links were tagged. The Campaigns tab preserves raw values exactly as tagged, so inconsistent naming will fragment your campaign-level analysis.
 
 For a full walkthrough including how UTM data appears in your Plausible dashboard, see [How to use UTM parameters to track your campaigns](/blog/utm-tracking-tags).
+
+If your campaigns use `cpc` as their medium, the [ad cost calculator](/ad-cost-calculator) lets you calculate your cost per click, cost per mille and cost per acquisition once your tagged campaigns are running.
