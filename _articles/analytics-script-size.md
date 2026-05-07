@@ -209,7 +209,7 @@ A representative breakdown for a site running GTM + GA4 + OneTrust:
 | OneTrust banner SDK | 121KB |
 | **Total** | **285-305KB+** |
 
-Compared to Plausible: one script, 2.5KB. No cookie banner needed.
+Compared to Plausible: one script, {{ site.data.site.plausible_script_kb }}KB. No cookie banner needed.
 
 ## Why the difference
 
