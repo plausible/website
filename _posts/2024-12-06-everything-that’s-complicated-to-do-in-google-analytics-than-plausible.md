@@ -220,7 +220,7 @@ We explain [this process and custom dimensions in more detail](https://plausible
 
 * Plausible is [privacy-friendly](https://plausible.io/privacy-focused-web-analytics) by default. We never use any cookies or persistent identifiers to track visitors outside of your website. This means you are compliant with various regulations around the world by default, be it GDPR, CCPA, PECR, or anything else. You won’t even need to put up a cookie consent banner from our side.
 * Our stats are always more accurate as compared to Google Analytics because their tracking script is widely blocked by ad blockers and privacy-friendly browsers. There are various other reasons for such inaccuracies that we discuss [here](https://plausible.io/most-accurate-web-analytics).
-* We have an extremely [lightweight script](https://plausible.io/lightweight-web-analytics) at ~1.5 kB, {{ site.data.site.script_ratio }}x smaller than GA’s.
+* We have an extremely [lightweight script](https://plausible.io/lightweight-web-analytics) at {{ site.data.site.plausible_script_kb }}KB, {{ site.data.site.script_ratio }}x smaller than GA’s.
 * You can also compare Plausible with [Matomo](https://plausible.io/vs-matomo) and [Cloudflare Analytics](https://plausible.io/vs-cloudflare-web-analytics).
 * We are open-source and completely transparent with our practices. We don’t sell your customers data, are not involved in ad tech, and are an independent team that only cares about a good product.
 
