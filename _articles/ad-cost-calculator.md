@@ -233,11 +233,9 @@ Cookie consent banners cause some visitors to decline tracking. When that happen
 
 Ad blockers strip tracking scripts. For audiences that skew technical, the gap between actual and recorded conversions can be significant.
 
-GA4 applies sampling and modelling on high-traffic properties. The conversion totals in your reports may be estimates rather than exact counts.
-
 Plausible tracks conversions without cookies, so it does not require consent to record a goal completion. The result is a more complete conversion count to feed into your CPA calculation.
 
-This does not mean replacing your ad platform's conversion signal entirely. Platforms need that signal for optimisation. But Plausible gives you an independent count that is less subject to consent drop-off and sampling distortion, so you can check whether the platform's numbers are in the right range.
+This does not mean replacing your ad platform's conversion signal entirely. Platforms need that signal for optimisation. But Plausible gives you an independent count less subject to consent drop-off, so you can check whether the platform's numbers are in the right range.
 
 ## How to track ad conversions in Plausible
 

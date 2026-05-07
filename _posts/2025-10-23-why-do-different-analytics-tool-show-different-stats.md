@@ -92,7 +92,7 @@ While all web analytics tools operate similarly in principle, and essentially tr
 * Privacy: Plausible is built with “[privacy by default](https://plausible.io/privacy-focused-web-analytics)” in mind. Other tools may collect more granular data (for example user-id, device, cross-device, etc) which also affects blocking/consent.
 * Session definition: Different tools define session boundaries differently; e.g., when a session ends, when new session starts, how returning visitors are counted.
 * Bot filtering: Each tool has its own logic/lists for what is a bot vs human visit.
-* Data modeling or sampling: Some tools may sample large datasets or apply modeling; Plausible does not sample and shows only what was actually captured.
+* Data modeling or sampling: Some tools sample large datasets or apply modeling to fill gaps. Plausible records 100% of traffic as it arrives. On dashboard views above 10 million pageviews, limited sampling applies to display. Narrow the date range to get exact counts.
 
 ### GA4 vs Plausible
 

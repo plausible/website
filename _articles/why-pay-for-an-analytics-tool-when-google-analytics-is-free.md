@@ -143,15 +143,15 @@ P.S. We do encourage you to consult your legal advisor to ensure you don’t get
 
 If you’re interested, you can also go through this [guide](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) by a data protection lawyer.
 
-#### No sampling or delays
+#### No delays or data gaps
 
-We do not use any data sampling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site. This is opposed to sampled reports in GA4.
+Traffic data is available in real time. You don’t have to wait hours to see what’s happening on your site, unlike [GA4](https://support.google.com/analytics/answer/11198161?hl=en).
 
-Traffic data is available in real time too. You don’t have to wait hours to see what’s happening on your site, as opposed to [GA4](https://support.google.com/analytics/answer/11198161?hl=en).
+GA4 also relies on machine learning and modelling to fill gaps caused by consent drop-off and ad blocker blocking. The numbers it shows can shift between visits and are often estimates rather than counts of what actually happened.
 
 #### No bot noise
 
-We filter out maximum of the background noise that skews numbers in GA—referrer spam, bots, and irrelevant pings that aren’t actual visits. We literally proved it with a [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) too.
+We filter out maximum of the background noise that skews numbers in GA: referrer spam, bots, and irrelevant pings that aren’t actual visits. We literally proved it with a [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) too.
 
 #### Included customer support
 

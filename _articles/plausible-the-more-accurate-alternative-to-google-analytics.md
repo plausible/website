@@ -73,7 +73,7 @@ At Plausible, we detect and automatically exclude bots (and are constantly evolv
 
 Another thing we do at Plausible is that we exclude ~32,000 data center IP ranges (i.e. a lot of IP addresses) by default. This is a problem with GA4.
 
-In [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users—unlike Plausible, which correctly identified and excluded them from the stats.
+In [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users. Plausible correctly identified and excluded them from the stats.
 
 GA4 users constantly battle with skewing data due to this reason. For eg. When a site uses a cookie management platform (CMP), the CMP might send data center traffic which GA4 is unable to detect and exclude from stats.
 
@@ -125,7 +125,7 @@ This happens when users briefly leave for payments or password resets, causing G
 
 On top of it, this has to be done within a cluttered settings panel.
 
-But Plausible handles this automatically—keeping your original traffic source and session intact; no extra setup needed!
+But Plausible handles this automatically, keeping your original traffic source and session intact. No extra setup needed!
 
 With Plausible, referral sources are counted only when they start a new session on your site. This prevents external domains such as payment gateways showing up in the list of sources.
 
@@ -169,7 +169,7 @@ In our experiment, we found that such so called "non-engaged sessions" can be ha
 
 * We track **active engagement only** when the page is in “focus”. So we don’t count the time a visitor spent away from your website, say by switching tabs or switching apps.
 * We **include time on page for bounced visits** (i.e. visits where only a single page was viewed).
-* We **count all time spent**, even very short visits—down to a single second. *This is the major difference in calculating time on page in Plausible from GA4.*
+* We **count all time spent**, even very short visits, down to a single second. *This is the major difference in calculating time on page in Plausible from GA4.*
 
 ### Complicated setup contributing to setup errors
 
@@ -199,7 +199,7 @@ So, that’s another reason that much of your GA stats are actually just estimat
 
 **How do we tackle this at Plausible?** Plausible does not use any data sampling or modeling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site.
 
-However, on some dashboard views that have a lot of data such as those with more than 20 million pageviews, we apply [​limited data sampling](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling) to help the dashboard load as fast as possible.
+However, on some dashboard views that have a lot of data such as those with more than 10 million pageviews, we apply [​limited data sampling](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling) to help the dashboard load as fast as possible.
 
 ## In conclusion
 
