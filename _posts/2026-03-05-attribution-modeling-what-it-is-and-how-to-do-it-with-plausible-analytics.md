@@ -103,7 +103,7 @@ Take a look at our **[live demo](https://plausible.io/plausible.io)** but hereâ€
 * Location and device information
 * Custom properties (aka custom dimensions)
 
-All of this is presented in a clean dashboard without sampling or heavy modeling.
+All of this is presented in a clean dashboard without heavy modeling.
 
 ## How to do attribution modeling in Plausible?
 

@@ -75,7 +75,7 @@ For large organizations operating across multiple regions, this approach also si
 
 Plausible shows real numbers, not modeled or estimated data. We never alter historical data.
 
-Because we don't apply thresholds, sampling or data blending, your numbers don't suddenly change when traffic increases. What you see today is directly comparable to what you saw last week or last year, making Plausible suitable for long-term reporting, forecasting and internal reviews.
+We collect and store 100% of your traffic as it arrives and never alter historical data. Your numbers are stable and directly comparable over time, making Plausible suitable for long-term reporting, forecasting and internal reviews. On dashboard views above 10 million pageviews, limited sampling applies to keep load times fast: you can always narrow the date range to see exact counts.
 
 Your data will also be more complete. Our tracking script is not blocked by ad blockers, privacy-respecting browsers or cookie consent banners the way GA4's is. Studies show Plausible captures [55% more data than GA4](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) for this reason alone.
 

@@ -27,7 +27,7 @@ It also relies on machine learning and modeling to [fill data gaps](https://plau
 
 ### Plausible's philosophy
 
-Plausible does [not track personal data](https://plausible.io/data-policy). We simply do not use cookies and identify visits anonymously. This choice removes the concept of a unique user identity. The data is unsampled and fully transparent, and less granular by default.
+Plausible does [not track personal data](https://plausible.io/data-policy). We simply do not use cookies and identify visits anonymously. This choice removes the concept of a unique user identity. The data is fully transparent and less granular by default.
 
 ### Why does this matter to marketers?
 
@@ -35,7 +35,7 @@ You will be able to do everything in Plausible starting from basic website perfo
 
 For most marketing teams, this covers day to day needs. And, you will find:
 
-* Clean, unsampled visitor numbers
+* No modeled or estimated data
 * Clear traffic sources
 * Accurate event and goal reporting
 * Complete data as the Plausible script is largely not blocked by ad blockers
@@ -117,7 +117,7 @@ With Plausible, you don’t need a consent banner so your conversion tracking is
 
 ### Audience Segmentation and Custom Dimensions/Properties
 
-If you’ve used GA4’s “comparisons” or custom dimensions to slice your audience, you’ll find [segmentation](https://plausible.io/audience-segmentation) in Plausible to be much simpler and more flexible. Every dimension—like referrer, landing page, device, country, campaign, etc.—can be clicked and filtered right from the dashboard. 
+If you’ve used GA4’s “comparisons” or custom dimensions to slice your audience, you’ll find [segmentation](https://plausible.io/audience-segmentation) in Plausible to be much simpler and more flexible. Every dimension (like referrer, landing page, device, country, campaign, etc.) can be clicked and filtered right from the dashboard. 
 
 Custom Properties is our version of Custom Dimensions in GA4. You can define Custom Properties to tag your events or pages with extra info. Think of them like GA4’s event-scoped [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics), but much simpler to use.
 
@@ -180,7 +180,7 @@ P.S. We are also working on creating user journeys.
 
 GA4: Build funnels via Explorations, but it requires manual setup of each step and can’t easily share insights on a simple dashboard. Our funnels are meant to be quick and straightforward, with the analytics “puzzle pieces” already in place.
 
-In GA4, tracking anything beyond a pageview often means heading into Google Tag Manager and configuring custom event parameters, scopes, and triggers. That works, but it’s a time sink—and easy to get wrong.
+In GA4, tracking anything beyond a pageview often means heading into Google Tag Manager and configuring custom event parameters, scopes, and triggers. That works, but it’s a time sink and easy to get wrong.
 
 ### Advanced and custom reporting & Data Integrations
 
