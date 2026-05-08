@@ -88,29 +88,28 @@ An email address is required to create an account. You need to provide us with y
 
 A persistent first-party cookie is stored to keep you logged in. This is necessary for the service to function and so you don’t have to log in on each returning session.
 
-All of the data that we collect is kept fully secured, encrypted and hosted on 100% renewable energy powered servers in Falkenstein, Germany. The servers are owned by Hetzner, a European company. Your site data never leaves the EU.
+All of the data that we collect is kept fully secured, encrypted and hosted on 100% renewable energy powered servers in Falkenstein, Germany. Your site data never leaves the EU.
 
-We use Bunny (a European provider based in Slovenia) for CDN, DNS and DDoS protection.
+We use a small number of trusted external service providers.
 
-We use UpCloud (a European provider based in Finland) for database hosting and storage of data exports.
+For visitors to plausible.io:
 
-The payment process is handled by Paddle, our payment provider.
+- **hCaptcha**: spam protection on our registration page
+- **Algolia** *(optional)*: documentation search, only if you use the search on our docs site
+- **Mailchimp** *(optional)*: blog subscriptions, only if you subscribe to our blog. Open and link tracking are disabled on all emails.
 
-Transactional emails and email reports are sent using Postmark. We have disabled both open tracking and link tracking on all emails.
+For customers and subscribers:
 
-We use Gravatar to get your account profile picture via a proxy to ensure no personal data is exposed.
-
-We use DuckDuckGo to get your site favicon via a proxy.
-
-If you choose to import Google Analytics data or use integrations, you connect your Google account to Plausible. Google may share account-related data with us to provide the service.
-
-When you contact support, we store correspondence to provide help and maintain context. We use Help Scout.
-
-When you submit feedback, we store it to improve our product. We use Nolt.
-
-We use hCaptcha to protect against spam.
-
-For blog subscriptions, we use Mailchimp. We have disabled both open tracking and link tracking on all emails.
+- **Hetzner** (European, Germany): server infrastructure and hosting
+- **Bunny** (European, Slovenia): CDN, DNS and DDoS protection
+- **UpCloud** (European, Finland): database hosting and storage of data exports
+- **Paddle**: payment processing
+- **Postmark**: transactional emails and email reports. Open and link tracking are disabled on all emails.
+- **Gravatar**: account profile picture, fetched via a proxy to ensure no personal data is exposed
+- **DuckDuckGo**: site favicon, fetched via a proxy
+- **Google** *(optional)*: if you import Google Analytics data or connect integrations, Google may share account-related data with us to provide the service.
+- **Help Scout** *(optional)*: support correspondence, only if you contact us
+- **Nolt** *(optional)*: product feedback, only if you submit feedback
 
 For more details on our subprocessors, see our Data Processing Agreement.
 
@@ -153,5 +152,5 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 
 ---
 
-**Last updated: March 2026**  
-Clarifications only. No material changes to data collection or processing.
+**Last updated: May 2026**  
+Added Algolia for documentation search.
