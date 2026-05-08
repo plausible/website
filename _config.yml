@@ -7,7 +7,7 @@ description: 'Plausible is a lightweight and open-source Google Analytics altern
 show_excerpts: true
 css_dir: 'assets/css'
 twitter:
-  username: ukutaht
+  username: PlausibleHQ
 feed:
   path: /blog/feed.xml
 
