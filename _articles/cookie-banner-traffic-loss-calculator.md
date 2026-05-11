@@ -14,8 +14,16 @@ Google Analytics cannot track what it has no permission to touch. The result is 
 
 Enter your reported monthly visitors and adjust the consent acceptance rate to match your audience:
 
+<style>
+@media (max-width: 540px) {
+  #cb-inputs-grid { grid-template-columns: 1fr !important; }
+  #cb-results-grid { grid-template-columns: 1fr 1fr !important; }
+  #cb-data-gap-card { grid-column: 1 / -1; }
+}
+</style>
+
 <div style="margin: 1.5rem 0; padding: 1.5rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; font-size: 0.875rem; font-family: inherit;">
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+  <div id="cb-inputs-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
     <div>
       <label for="cb-visitors" style="display: block; font-weight: 600; color: #374151; margin-bottom: 0.25rem;">Monthly visitors (as reported by GA)</label>
       <input type="text" id="cb-visitors" value="28,400" style="width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 0.375rem; font-size: 0.875rem; font-family: inherit; box-sizing: border-box; outline: none;" />
@@ -43,7 +51,7 @@ Enter your reported monthly visitors and adjust the consent acceptance rate to m
       </div>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+    <div id="cb-results-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
       <div style="padding: 1rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; text-align: center;">
         <div style="font-size: 0.75rem; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">True visitors/month</div>
         <div id="cb-true-visitors" style="font-size: 1.75rem; font-weight: 800; color: #111827; line-height: 1;"></div>
@@ -52,7 +60,7 @@ Enter your reported monthly visitors and adjust the consent acceptance rate to m
         <div style="font-size: 0.75rem; font-weight: 700; color: #dc2626; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">Invisible per month</div>
         <div id="cb-hidden-visitors" style="font-size: 1.75rem; font-weight: 800; color: #111827; line-height: 1;"></div>
       </div>
-      <div style="padding: 1rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; text-align: center;">
+      <div id="cb-data-gap-card" style="padding: 1rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.375rem; text-align: center;">
         <div style="font-size: 0.75rem; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem;">Data gap</div>
         <div id="cb-hidden-percent" style="font-size: 1.75rem; font-weight: 800; color: #dc2626; line-height: 1;"></div>
         <div style="font-size: 0.75rem; color: #6b7280; margin-top: 0.25rem;">of traffic hidden</div>
