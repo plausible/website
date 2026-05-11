@@ -73,7 +73,7 @@
       answer: "Yes. We offer a 15% introductory discount for nonprofits, educational institutions and open-source projects. It applies to Business plans on annual billing only. To get a discount code, start your free 30-day trial and email us with your organization name, type and website. We'll send you a one-time code to use at checkout. <a class='text-indigo-600' href='https://plausible.io/docs/nonprofit-and-education-pricing'>Full details on nonprofit and education pricing</a>."
 
     - question: I received an email saying my dashboard will be locked. What should I do?
-      answer: "This means your usage has exceeded your plan tier for two consecutive months. You can upgrade from your account settings and the charge is pro-rated so you only pay the difference. If you don't upgrade within a week, dashboards are temporarily locked, but stats continue being collected in the background. You can restore access at any time by upgrading. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>More details on overages and upgrades</a>."
+      answer: "This means your usage has exceeded your plan tier for two consecutive months. If your traffic has already dropped back to normal, no action is needed: your dashboard will automatically unlock at the start of your next billing cycle. If you need access restored now, you can upgrade from your account settings and the charge is pro-rated so you only pay the difference. Either way, stats continue being collected in the background while any lock is in place. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>More details on overages and upgrades</a>."
 
 - category: Getting started & tracking issues
   items:
