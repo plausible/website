@@ -1,8 +1,9 @@
 ---
 layout: article
 title: "White label web analytics for agencies and SaaS teams"
-description: Add white label web analytics to your product without building a
-  dashboard. No cookies, no consent banners, no Plausible branding.
+description: "Embed a complete privacy-first analytics dashboard into your product
+  or client portal. No Plausible branding, no cookies, no consent banners. Trusted
+  by Prezly and teams worldwide."
 permalink: /white-label-web-analytics
 ---
 Building analytics into your product from scratch takes significant time and ongoing maintenance. Plausible gives you a complete, privacy-first analytics product you can integrate directly into your own, with no Plausible branding visible to your customers.
@@ -11,12 +12,32 @@ Because we don't use cookies or collect personal data, your customers won't need
 
 Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers. We're an independent, bootstrapped startup launched in 2019, funded solely by our subscribers. You can see a live example at [our demo](https://plausible.io/plausible.io).
 
-Prezly, a storytelling platform offering site building and newsletters, uses Plausible to provide web analytics to thousands of their customers, including Shopify, Sennheiser and many other international brands. Read more [in their announcement](https://www.prezly.com/help/analytics-dashboard).
-
 ![White label web analytics for agencies and SaaS teams](/uploads/plausible-whitelabel.png "Plausible: White label web analytics")
 
 1. Ordered list
 {:toc}
+
+## Who uses white-label analytics
+
+Two types of teams typically embed Plausible into their product or service.
+
+**SaaS teams** who need analytics as a feature. Your users want to understand how their product or site is performing, but building and maintaining a custom analytics dashboard is a significant engineering investment. Embedding Plausible gives you a complete, production-ready analytics product without the build cost, and keeps it maintained as you focus on your core product.
+
+**Agencies** who manage client sites and want to present analytics under their own brand. Rather than pointing clients to a third-party tool, you can surface their data inside your own client portal, reporting interface or branded dashboard.
+
+## Why build vs buy favours embedding
+
+Building web analytics from scratch means owning data collection, storage, aggregation, visualization and ongoing maintenance. You also need to handle privacy compliance, bot filtering, adblocker bypass and scale. Each of those is a real engineering project.
+
+Plausible handles all of it. You get a production-ready, privacy-compliant analytics product you can integrate in days. Your team keeps its focus on what makes your product different.
+
+## How Prezly uses it in production
+
+[Prezly](https://www.prezly.com/feature/pr-analytics-tool), a storytelling platform for PR teams, embeds Plausible to provide web analytics to thousands of their customers. Brands like Sennheiser, Nintendo, IKEA, Sony, Edelman and Weber Shandwick use Prezly's analytics, all powered by Plausible behind the scenes with no Plausible branding visible.
+
+Prezly promotes the analytics as a core product feature on their homepage and actively links to it in their marketing. They've also published [Prezly Insights](https://www.prezly.com/insights), a study drawing on aggregated data from across their customers' dashboards.
+
+This is the typical pattern: one integration, managed once, that works automatically for every customer they onboard.
 
 ## Sites API to manage a large number of sites programmatically
 
