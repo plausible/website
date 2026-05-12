@@ -9,6 +9,7 @@ date: 2020-04-08T12:20:53.993Z
 author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
+last_modified_at: 2026-05-12
 ---
 We are working on a leaner and more transparent alternative to Google Analytics. It's called Plausible Analytics and it comes without all the privacy baggage. Here's a look at some of the issues with Google Analytics.
 
@@ -41,23 +42,17 @@ Here's what Google [says](https://policies.google.com/technologies/partner-sites
 
 ## It's a bloated script that affects your site speed
 
-Web analytics like any other website element add extra page weight and extra loading time to a site. Google's Global Site Tag and the Universal Analytics script can be considered bloat if you only care about the most useful website stats and want to make your site as lean and fast as possible.
+Web analytics like any other website element add extra page weight and extra loading time to a site. Google Analytics 4 (GA4) is one of the heaviest third-party scripts you can add to a site.
 
-Global Site Tag, the recommended way of integrating Google Analytics into your site, is a centralized script that can help you integrate many other Google services and features such as conversion tracking and remarketing.
+The GA4 script alone weighs 135 KB gzipped (380 KB raw). Most sites also load Google Tag Manager alongside it. And if you need a cookie consent banner to comply with privacy regulations, that adds still more overhead. The combined total can easily exceed 285 KB per page load. Every KB matters when you want to keep your site fast, and a more [lightweight analytics](https://plausible.io/lightweight-web-analytics) solution removes this layer of overhead entirely.
 
-*https://www.googletagmanager.com/gtag/js* weighs 28 KB and this script downloads another JavaScript file called the Google Analytics tag (*https://www.google-analytics.com/analytics.js*) which adds 17.7 KB to your page size.
+## It’s overkill for the majority of site owners
 
-These two tracking scripts combined add 45.7 KB of page weight to each and every page load. Every KB matters when you want to keep your site fast to load and a more [lightweight analytics](https://plausible.io/lightweight-web-analytics) solution is needed.
+For most site owners, the amount of data Google Analytics 4 (GA4) collects is overkill. It’s a powerful but complex tool that takes time to understand and requires training. Most people find real and regular use for only a fraction of the metrics it measures.
 
-## It's overkill for the majority of site owners
+GA4 replaced Universal Analytics with an entirely new interface and data model. Understanding it well often requires a dedicated course or a specialist. Many users end up building a small custom dashboard with the few metrics they actually need, then ignoring everything else.
 
-For most site owners, the amount of data Google Analytics collects is overkill. It’s a powerful but complex tool that takes time to understand and requires training. Most people find real and regular use for only a fraction of the metrics it measures.
-
-In total, Google Analytics on its left-hand side navigation menu has more than 125 items for different reports you can gather your insights from. All these different reports track more than 290 different metrics combined.
-
-Analyzing these is a full-time job that requires a lot of time, effort, expertise and experience to do well. Many Google Analytics users end up creating custom dashboards where they add few widgets with useful metrics that they get actual value from. Then they ignore everything else that Google Analytics tracks.
-
-Some just ignore their Google Analytics completely as it's overwhelming to even start with. There's a need for more [simple site analytics](https://plausible.io/simple-web-analytics).
+Some just ignore their Google Analytics completely as it’s overwhelming to even start with. There’s a need for more [simple site analytics](https://plausible.io/simple-web-analytics).
 
 ## It's a liability considering GDPR, CCPA and other privacy regulations
 
@@ -75,13 +70,13 @@ Google states that you "must obtain end users’ legally valid consent" to the u
 
 ## It uses cookies so you must obtain consent to store cookies
 
-Google Analytics is a cookie-based web analytics tool and it is not possible to use it without cookies. Google Analytics sets [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) and it "uses cookies to identify unique users across browsing sessions". This is done "to remember what a user has done on previous pages / interactions with the website".
+Google Analytics 4 is a cookie-based web analytics tool and it is not possible to use it without cookies. GA4 sets multiple cookies (including _ga and _gid) and uses them to identify unique users across browsing sessions. This is done to remember what a user has done on previous pages and interactions with the website.
 
 And all the privacy regulations have a say about cookies too. PECR, for instance, requires a site owner to tell their visitors about cookies that they use to track personal data and give visitors the choice of whether to accept them or not.
 
 [According to PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you "need to tell people about analytics cookies and gain consent for their use". If you use cookies you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
-With Plausible, you can count visitors who reject the consent banner which leads to a much higher accuracy in your stats. [An independent study on GA4’s data accuracy](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that when consent banners are displayed, GA4 fails to capture an average of 55.6% of the traffic compared to Plausible.
+With Plausible, you can count visitors who reject the consent banner which leads to a much higher accuracy in your stats. [An independent study on GA4’s data accuracy](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that when consent banners are displayed, GA4 fails to capture an average of 55.6% of the traffic compared to Plausible. Use our [cookie banner traffic loss calculator](https://plausible.io/cookie-banner-traffic-loss-calculator) to estimate the gap for your own site.
 
 ## It's blocked by many plugins and browsers so the data is not very accurate
 
@@ -91,7 +86,7 @@ Google Analytics script is blocked by millions of people who use adblockers such
 
 There's no definite answer on how many people block Google Analytics as that depends on the audience of your site, but for a tech audience, you shouldn't be surprised to see 50% or more of the visitors [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data).
 
-Another aspect of Google Analytics data accuracy that some people are concerned with is the fact that it uses data sampling. It's the [practice of](https://support.google.com/analytics/answer/2637192?hl=en) "analyzing a subset of all data in order to uncover the meaningful information in the larger data set". Here's [a deeper look](https://matomo.org/blog/2019/08/what-is-google-analytics-data-sampling-and-whats-so-bad-about-it/) into that issue.
+Another accuracy issue in GA4 is conversion modeling. When a visitor declines your cookie consent banner, GA4 does not simply omit that visitor from your data. Instead it uses machine learning to infer what they likely did, based on patterns from visitors who accepted. A portion of what GA4 reports as data is a statistical estimate rather than a direct measurement.
 
 ## It requires an extensive privacy policy
 
@@ -143,7 +138,7 @@ For those who just use Google Analytics to understand their search engine visibi
 
 * ### Privacy-friendly and simple to understand alternatives
 
-This is where our brand-new solution comes in place. With Plausible Analytics we believe we have created a better Google Analytics alternative for many site owners. Plausible Analytics gives you a web analytics tool that is:
+This is where Plausible comes in. Plausible Analytics is a privacy-first alternative to Google Analytics built for site owners who want clear data without the complexity. Plausible gives you a web analytics tool that is:
 
 1. **Open source** with the code available [on GitHub](https://github.com/plausible/analytics/)
 2. **Simple to understand** and get insights from in one minute
