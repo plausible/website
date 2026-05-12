@@ -1,10 +1,9 @@
 ---
 layout: article
-title: "Plausible Analytics for WordPress: no cookies, no consent banner,
-  accurate data"
-description: A lightweight, privacy-friendly Google Analytics alternative for
-  WordPress. No cookies, no consent banners, accurate data and a simple
-  dashboard that shows what matters.
+title: "WordPress analytics plugin: no cookies, no consent banner, accurate data"
+description: A lightweight WordPress analytics plugin without cookies or consent
+  banners. Privacy-friendly alternative to Google Analytics with accurate data
+  and a simple dashboard that shows what matters.
 permalink: /wordpress-analytics-plugin
 ---
 Most WordPress analytics plugins either slow your site down, require a cookie banner, or hand your visitors’ data to Google. Plausible does none of those things. You get accurate, privacy-friendly stats in a lightweight plugin that takes minutes to set up.

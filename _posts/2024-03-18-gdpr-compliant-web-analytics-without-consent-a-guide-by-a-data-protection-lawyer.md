@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "GDPR-compliant web analytics without consent: A guide by a data
-  protection lawyer"
-description: An experienced data protection expert and lawyer explains how web
-  analytics can be implemented in accordance with the strict requirements of
-  ePrivacy Directive and the GDPR.
+title: "GDPR-compliant web analytics without consent: a legal guide to cookieless tracking"
+description: How to implement GDPR-compliant web analytics without cookie banners
+  or user consent. A legal assessment by a data protection lawyer covering the
+  ePrivacy Directive requirements and how tools like Plausible comply.
 slug: legal-assessment-gdpr-eprivacy
 date: 2024-03-21T08:56:38.058Z
+last_modified_at: 2026-05-12
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Web analytics, ePrivacy Directive and GDPR

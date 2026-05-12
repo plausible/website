@@ -2,24 +2,19 @@
 layout: post
 title: "Cookie consent banners: do you need them, and how to be GDPR-compliant
   while maximizing opt-in rates?"
-description: The essentials of cookie consent, legal requirements, and
-  user-friendly strategies to boost opt-in rates while keeping your site
-  GDPR-compliant.
+description: Do you need a cookie consent banner on your website? Learn what the
+  law requires, when you can skip banners entirely and how to design one that is
+  actually compliant.
 slug: cookie-consent-banners
 date: 2024-09-12T12:30:37.294Z
+last_modified_at: 2026-05-12
 author: hricha-shandily
 image: /uploads/cookie-consent-banner-example.png
 image-alt: Example of a cookie consent banner
 ---
-You've probably seen those pop-ups on websites, sweetly offering you cookies. Those are cookie consent banners.
+Cookie consent banners are the pop-ups that ask visitors to accept, reject or customize tracking before it begins. They are required by law whenever your website sets non-essential cookies or collects personal data. This is most commonly triggered by tools like Google Analytics.
 
-Cookies are small data files stored on your device or browser by websites or third parties (such as Google Analytics) to remember information about you. They can track details like your behavior, preferences, activities, shopping cart contents, login information, etc.
-
-Some cookies are persistent and can also track visitor’s activity across different sessions, websites, and devices. While some cookies are considered essential for the functioning of the website, others are for marketing or retargeting purposes.
-
-The consent banner appears to inform you about the use of all such types of cookies and to request your permission before these cookies are set, ensuring compliance with various privacy regulations.
-
-These banners give users the choice to accept, reject, or customize the cookies being used on the site. The main purpose is to inform users and allow them control over their data, ensuring transparency and compliance with various privacy laws.
+Whether you need one depends on what you are collecting and how. In some cases, switching to a privacy-first analytics tool removes the need for a consent banner entirely.
 
 1. Ordered list
 {:toc}
@@ -60,7 +55,7 @@ According to a [guide by a data protection lawyer](https://plausible.io/blog/leg
 * Google Analytics 4 relies on cookies and similar technologies to track detailed user behavior. These technologies require access to the user’s device to store or retrieve data, which means, under Article 5(3) of the ePrivacy Directive, Google Analytics 4 must obtain user consent before use.
 * Whereas, Plausible Analytics does not use cookies or similar technologies that store data on the user’s device. It analyzes aggregate data without accessing or storing anything on the device, so no consent is required under Article 5(3).
 
-P﻿.S. This is not official legal advise.
+P.S. This is not official legal advice.
 
 Plausible is [GDPR-compliant out of the box](https://plausible.io/privacy-focused-web-analytics). So you can actually ditch consent banners altogether, which not only annoy your visitors, but also cause about [55% data loss](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/), and eventually, business loss. Use our [cookie banner traffic loss calculator](/cookie-banner-traffic-loss-calculator) to estimate how much traffic is invisible in your own analytics.
 

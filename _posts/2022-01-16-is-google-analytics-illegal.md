@@ -2,16 +2,17 @@
 layout: post
 title: Is Google Analytics illegal? Several European Data Protection Authorities
   say so
-description: "Google Analytics is illegal according to the Austrian, French,
-  Italian, Danish, Finnish, Norwegian, Swedish and other European Data
-  Protection Authorities. "
+description: "Several European Data Protection Authorities ruled Google Analytics
+  illegal due to EU-US data transfers. Here is why, what changed since and what
+  it means for your website."
 slug: google-analytics-illegal
 date: 2023-07-06T05:06:21.605Z
+last_modified_at: 2026-05-12
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
-Is Google Analytics illegal? Yes, say the Austrian, French, Italian, Danish, Finnish, Norwegian, Swedish and other European Data Protection Authorities. Here's why.
+Is Google Analytics illegal? Multiple European Data Protection Authorities have found it to be in violation of GDPR due to EU-US data transfers. Here is the full picture, including what changed with the EU-US Data Privacy Framework in 2023.
 
 1. Ordered list
 {:toc}
@@ -60,6 +61,14 @@ You can read a more detailed [legal analysis here](https://gdprhub.eu/index.php?
 
 **Update July 3rd 2023:** Swedish Authority for Privacy Protection (IMY) has issued the first major fine (€1 million) for using Google Analytics declaring "companies must stop using Google Analytics". [Details here](https://www.imy.se/en/news/companies-must-stop-using-google-analytics/).
 
+### Update: The EU-US Data Privacy Framework
+
+The same month as the Swedish fine, the EU adopted an adequacy decision for a new EU-US Data Privacy Framework (DPF), intended to provide a legal basis for EU-US data transfers after the Privacy Shield was invalidated. Google has since certified under the DPF.
+
+However, the DPF does not resolve all the underlying concerns. The CLOUD Act, which allows US intelligence authorities to demand data from US companies regardless of where it is stored, remains in force. Noyb has already filed legal challenges to invalidate the DPF on the grounds that the surveillance powers that led to the earlier rulings have not fundamentally changed. The outcome is not yet decided.
+
+If you want certainty rather than waiting for the next court ruling, using a European-owned analytics tool that does not transfer data to the US removes the legal question entirely.
+
 ## Discuss Google Analytics and these specific rulings with your lawyer
 
 Before these rulings, we've listed many reasons [why you should remove Google Analytics from your site](https://plausible.io/blog/remove-google-analytics). These rulings are just the cherry on top. We don't want to spread fear, uncertainty and doubt as a marketing technique. If you're targeting Europeans, you should consider how these rulings affect you and the US-owned services that you're using. 
@@ -74,11 +83,11 @@ Here's an independent [legal assessment on GDPR-compliant web analytics](https:/
 
 If you are looking for a genuine EU alternative to Google Analytics, do give Plausible a chance. We're an independent and bootstrapped project incorporated in Estonia. Our team is based in Estonia, Germany and Belgium. All visitor data we collect is hosted in Germany on servers owned by a German company (Hetzner). We use a Slovenian-owned provider for our global CDN (Bunny).
 
-These rulings make Plausible an even more interesting [Google Analytics alternative](https://plausible.io/vs-google-analytics) to an even more significant number of sites. Thousands of sites, startups and some of the world's leading brands have already switched from Google Analytics and other services. Plausible is built for scale and can serve sites with hundreds of millions of monthly visitors.
+Thousands of organizations have switched to Plausible, including brands like Oatly, Basecamp and Ghost, institutions like Harvard University and MongoDB, and government organizations like the Scottish and Welsh governments. It is a [genuine Google Analytics alternative](https://plausible.io/vs-google-analytics) built for scale, serving sites with hundreds of millions of monthly visitors.
 
-We're a profitable and sustainable open source project with more than 12,000 paying subscribers. More than 200,000 different websites use Plausible and we're counting four billion pageviews per month. We've put together [a list of people tweeting about using Plausible](https://twitter.com/PlausibleHQ/timelines/1311218983912308736) if that helps you.
+Plausible is an independent, bootstrapped project with {{ site.data.site.subscriber_count }} paying subscribers and {{ site.data.site.pageviews_tracked }} pageviews tracked.
 
-We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import you historical stats from Google Analytics to Plausible.
+We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import your historical stats from Google Analytics to Plausible.
 
 ## Privacy-first web analytics
 
@@ -95,7 +104,7 @@ In 2021, we moved to Hetzner, so all of the data we collect is hosted in Germany
 * All of the data that Plausible tracks and collects is kept fully secured, encrypted and hosted on renewable energy powered server in Falkenstein, Germany. Hetzner, a European company, owns the server. This ensures that all of the website data is being covered by the European Union's strict laws on data privacy. Your website data never leaves the EU.
 * For the CDN and DNS, we use Bunny, another European-owned provider from Slovenia. Using a global CDN means having a fast loading script no matter where your visitors are based. We're proud to have [one of the most lightweight JavaScript snippets](https://plausible.io/lightweight-web-analytics) in the analytics industry. Our script will not add any bloat to your website or cause any performance issues.
 
-You don't have to worry about Schrems II and that it invalidates the EU-US Privacy Shield when using Plausible. Your website and visitor data is exclusively processed with servers and cloud infrastructure owned and operated by European companies.
+You don't have to worry about EU-US data transfer regulations when using Plausible. Your website and visitor data is exclusively processed with servers and cloud infrastructure owned and operated by European companies.
 
 As always with Plausible, we're transparent and open source. Don't like the European Union and the European-owned cloud providers we use for our infrastructure? You can [self-host our analytics](https://plausible.io/self-hosted-web-analytics) with any cloud provider and in any country you wish. Even in the USA.
 
@@ -103,7 +112,7 @@ You can read more about what makes Plausible a [privacy-first web analytics tool
 
 ## We choose the subscription business model rather than surveillance capitalism
 
-Plausible Analytics is [not free unlike Google Analytics](https://plausible.io/paid-analytics-vs-free-ga). Plausible is not collecting and analyzing vast amounts of personal information from web users and using these behavioral insights to sell advertisements. With Plausible, you 100% own and control all of your website data. This data is not being shared with or sold to any third-parties.
+Plausible Analytics is [not free unlike Google Analytics](https://plausible.io/paid-analytics-vs-free-ga). Plausible is not collecting and analyzing vast amounts of personal information from web users and using these behavioral insights to sell advertisements. With Plausible, you 100% own and control all of your website data. This data is not being shared with or sold to any third parties.
 
 We choose the subscription business model rather than the business model of surveillance capitalism. To keep the project development going, stay in business, continue putting effort into building a better product and cover our costs, we need to charge a fee.
 
