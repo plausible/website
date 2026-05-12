@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How a few days of homepage edits led to our best month ever"
+title: "How simplifying our homepage helped increase trial signups by 84%"
 description: "After simplifying our homepage, trial signups rose 84% while non-logged-in traffic increased by only 2%. Here's what we changed."
 slug: homepage-edits-conversion-lift
-date: 2026-05-11T09:00:00.000Z
+date: 2026-05-12T09:00:00.000Z
 author: marko-saric
 image: /uploads/homepage-edits-conversion-lift.png
 image-alt: Plausible Analytics chart showing trial signups rising sharply from January to April 2026
@@ -22,14 +22,6 @@ Here's what we changed and what the data showed.
 Our homepage had been roughly the same for a long time. It was working well enough. We were growing steadily with it. But when we looked at it with fresh eyes in January, we realized we were making visitors work too hard to understand what Plausible does.
 
 The homepage still matters a lot for us. From January through April, it was the biggest entry point for non-logged-in visitors, accounting for roughly 43% of entrances. So even small improvements there can affect a large part of the signup journey.
-
-Part of what happened is probably inevitable for any product that survives long enough. Over time you accumulate communication debt.
-
-A new feature launches so you add a section about it. Enterprise customers ask questions so you add clarification copy. You enter a new market so you add messaging for a new audience. Each change makes sense in isolation.
-
-For us, that meant adding more detail about team sharing, dashboard sharing, goals, revenue tracking, enterprise plans and the transition from Google Analytics. All useful things to explain somewhere. But over time, the homepage became the place where too many of those explanations lived.
-
-After years of layering additions on top of additions, the homepage slowly drifts away from its original purpose. It stops reflecting the simple reason people came there in the first place. It becomes a collection of everything the company wants to say rather than the few things a visitor actually needs to understand.
 
 The page opened with our hero section and a screenshot of the dashboard. That part was fine. But right after that, visitors landed on a wall of text. Six subsections of long-form prose about our features, our philosophy, our approach to team sharing and enterprise plans. Hundreds of words before you reached the scannable feature grid.
 
@@ -63,11 +55,17 @@ Now a visitor can scan our eight key features within seconds of scrolling down. 
 
 "Get started" is probably the most overused button label on the web. It tells you nothing about what happens when you click. Will it cost money? Is this a demo, a signup or a purchase? "Start free trial" answers the important part: this is a trial, not a commitment.
 
+It looked like a tiny copy change, but it changed what the button promised.
+
 ### Cut the prose in half
 
 The old page had six subsections of text: [simple analytics](https://plausible.io/simple-web-analytics), [lightweight script](https://plausible.io/lightweight-web-analytics), privacy and GDPR, goals and revenue tracking, team sharing and dashboard sharing, and a smooth transition from Google Analytics. Plus a paragraph about enterprise plans.
 
 We cut it down to three: simple analytics, lightweight script and [privacy](https://plausible.io/privacy-focused-web-analytics). These are our strongest differentiators and the things people care about most when evaluating Plausible as their [Google Analytics alternative](https://plausible.io/vs-google-analytics).
+
+We didn't remove all the prose. Plausible is not just a list of features, and we still want the homepage to explain why we exist. Our philosophy around privacy, simplicity and independence is a big part of what has kept us differentiated in the analytics market.
+
+The change was not to hide that story. It was to stop making every visitor read it before they could quickly understand the product.
 
 The removed sections were either already covered by the feature grid above or only relevant to a small subset of visitors. Less text between understanding the product and seeing the pricing means fewer opportunities to lose people.
 
@@ -85,7 +83,7 @@ We didn't run an A/B test, so this is not a clean experiment. We can't prove tha
 
 Despite being the shortest month of the year and having fewer visitors than January, February set a new all-time record for trial signups. Then March broke that record. Then April broke it again.
 
-Looking only at non-logged-in visitors, the numbers moved like this:
+Looking only at non-logged-in visitors, trial signups increased 84% from January to April, while traffic increased by only about 2%.
 
 | Month | Trial signups | Register page conversion | Visitor-to-trial rate |
 |-------|--------------|--------------------------|------------------------|
@@ -121,6 +119,14 @@ It reminds us of what we learned in the early days of Plausible. When we reposit
 If you're running a company and haven't taken a fresh look at your homepage in a while, it might be worth spending a few days on it. Not necessarily a redesign. Just look at the order of information, the words on your buttons and whether there's text that could be cut without losing anything meaningful.
 
 In hindsight, some of these changes feel obvious. But they weren't obvious to us while we were deep in the product every day.
+
+Part of what happened is probably inevitable for any product that survives long enough. Over time, you accumulate communication debt.
+
+A new feature launches so you add a section about it. Enterprise customers ask questions so you add clarification copy. You enter a new market so you add messaging for a new audience. Each change makes sense in isolation.
+
+For us, that meant adding more detail about team sharing, dashboard sharing, goals, revenue tracking, enterprise plans and the transition from Google Analytics. All useful things to explain somewhere. But over time, the homepage became the place where too many of those explanations lived.
+
+After years of layering additions on top of additions, our homepage had slowly drifted away from its original purpose. It had become a collection of everything we wanted to say rather than the few things a visitor actually needed to understand.
 
 Our homepage had been "good enough" for years. It had helped us reach more than 15,000 paying subscribers, so it didn't feel broken. Nothing on the page was individually wrong. Almost every section had been added for a good reason. But together they created friction.
 
