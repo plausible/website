@@ -9,6 +9,7 @@ date: 2020-05-20T09:56:34.718Z
 author: marko-saric
 image: /uploads/big-spike-in-traffic.png
 image-alt: Cookieless web analytics and the cookie consent
+last_modified_at: 2026-05-12
 ---
 Are you confused about using Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? And can you have a cookieless web analytics alternative to Google Analytics? This post is here to figure it all out. Let's get started.
 
@@ -47,7 +48,7 @@ The information in this post is our view on things and it's here to help give yo
 
 ## Does Google Analytics use cookies?
 
-Google Analytics is a cookie based web analytics platform. It sets [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) (including _ga, _gid and _gat) and it "uses cookies to identify unique users across browsing sessions". This is done "to remember what a user has done on previous pages / interactions with the website".
+Google Analytics 4 (GA4) is a cookie-based web analytics platform. It sets multiple cookies (including _ga and _gid) and uses them to identify unique users across browsing sessions. This is done to remember what a user has done on previous pages and interactions with the website.
 
 Google [says](https://support.google.com/analytics/answer/2992042): "In order for Google Analytics to determine which traffic belongs to which user, a unique identifier associated with each user is sent with each hit. This identifier can be a single, first-party cookie named _ga that stores a Google Analytics client ID, or you can use the User-ID feature in conjunction with the client ID to more accurately identify users across all the devices they use to access your site or app".
 
@@ -66,9 +67,9 @@ In those cases, you're collecting data for advertising purposes which means that
 
 ### Can Google Analytics work without cookies?
 
-You can disable cookies from Google Analytics but disabling cookies leaves Google Analytics with a broken functionality. Tracking unique visitors will be broken and pretty much every pageview will be counted as a unique visitor.
+You can disable cookies from Google Analytics but disabling cookies leaves Google Analytics with broken functionality. Tracking unique visitors will not work properly and nearly every pageview will be counted as a unique visitor.
 
-Google says that in some cases you can replace Google Analytics cookies with your own storage mechanism such as localStorage or a service worker. This is a bit more complicated solution for the average website as you need to send another client ID to Google but here's [a guide](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id) from Google themselves on how you can achieve it.
+GA4 introduced Consent Mode as a partial workaround: when a visitor declines your cookie banner, the tracking tag still loads but operates without storing personal identifiers. The catch is that GA4 then fills in the gaps using conversion modeling, using machine learning to estimate what those visitors likely did based on patterns from users who accepted. You still get numbers, but a meaningful portion of them are statistical predictions rather than direct measurements. Our [cookie banner traffic loss calculator](https://plausible.io/cookie-banner-traffic-loss-calculator) helps you estimate how much traffic your site is losing to consent declines.
 
 ### Requirements for the use of Google Analytics
 

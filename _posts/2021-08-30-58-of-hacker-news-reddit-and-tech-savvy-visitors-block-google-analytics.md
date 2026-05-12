@@ -9,6 +9,7 @@ date: 2021-08-31T07:20:38.038Z
 author: marko-saric
 image: /uploads/blocking-google-analytics.png
 image-alt: 58% of Hacker News, Reddit and tech-savvy visitors block Google Analytics
+last_modified_at: 2026-05-12
 ---
 There are several [privacy concerns with running Google Analytics](https://plausible.io/blog/remove-google-analytics) but there are worries about data accuracy too. How much data is missing from Google Analytics due to adblockers and privacy-friendly browsers?
 
@@ -24,6 +25,8 @@ The level of Google Analytics blockage varies by industry, audience, the device 
 But how about a very tech-heavy website with a tech-savvy audience of hackers, developers and the like? How many visitors do sites that use Google Analytics miss out on from referral sources such as Hacker News or Reddit? Let's find out.
 
 ## Google Analytics and Plausible Analytics stats comparison
+
+The following study was conducted in August 2021 using Universal Analytics, the version of Google Analytics that Google replaced with GA4 in 2023. The adblock problem is equally present in GA4, and has grown worse as more browsers ship with tracking protection enabled by default.
 
 I looked at analytics of a site that had a post trending on Hacker News and Reddit with more than a thousand upvotes and more than a thousand comments.
 
@@ -105,3 +108,17 @@ For three days, the difference this makes would be minimal. The difference could
 Because Plausible and Google Analytics measure unique visitors differently, I also looked at the total pageviews. These should be identical but they show pretty much the same difference as unique visitors.
 
 All in all, the difference in stats would mostly come from people blocking the Google Analytics script. Google Analytics is listed on many blocklists while the Plausible proxy runs as a first-party connection and is not.
+
+## Adblockers are not the only source of missing data
+
+This study looked at one cause of missing data: adblockers and privacy-friendly browsers. GA4 has added another: consent mode modeling. When a visitor declines your cookie consent banner, GA4 does not exclude that visitor from the data. Instead it uses machine learning to estimate what they likely did, based on patterns from visitors who accepted.
+
+[An independent study by Orbit Media](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that when consent banners are displayed, GA4 fails to capture an average of 55.6% of actual traffic compared to Plausible. That is missing data at a similar scale to what we found with adblockers, and on a typical site rather than a tech-heavy audience.
+
+Between adblocking and consent-mode modeling, GA4 can be missing more than half of your actual traffic on a mainstream site, and up to 80% on a technical one. Use our [cookie banner traffic loss calculator](https://plausible.io/cookie-banner-traffic-loss-calculator) to estimate the consent-related gap on your own site.
+
+## Try Plausible as your Google Analytics alternative
+
+Plausible is not on any blocklist in the standard installation. Add a [proxy](https://plausible.io/docs/proxy/introduction) and it runs as a first-party connection that no browser or adblocker interferes with. No cookies, no consent banner required, and no machine learning filling in the gaps. You get the [actual numbers](https://plausible.io/most-accurate-web-analytics).
+
+[Sign up for a free trial](https://plausible.io/register) and see what your real visitor numbers look like.
