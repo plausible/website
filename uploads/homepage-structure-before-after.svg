@@ -1,0 +1,70 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Plausible homepage structure before and after</title>
+  <desc id="desc">A comparison of the old and new homepage order. The old order placed long prose before the feature grid. The new order moves the feature grid directly after the hero.</desc>
+  <rect width="1400" height="1400" fill="#F8FAFC"/>
+
+  <text x="100" y="110" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="750">Homepage structure before and after</text>
+  <text x="100" y="165" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28">Same design, same components. A clearer order of information.</text>
+
+  <rect x="90" y="225" width="1220" height="1050" rx="34" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="3"/>
+
+  <text x="155" y="310" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="750">Old order</text>
+  <text x="155" y="355" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">Visitors had to read before they could scan.</text>
+
+  <text x="770" y="310" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="750">New order</text>
+  <text x="770" y="355" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">Visitors can scan product value first.</text>
+
+  <rect x="155" y="410" width="510" height="82" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="3"/>
+  <text x="190" y="462" fill="#1E3A8A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700">Hero + dashboard screenshot</text>
+
+  <path d="M410 510V545" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="155" y="565" width="510" height="230" rx="16" fill="#FFF7ED" stroke="#FDBA74" stroke-width="3"/>
+  <text x="190" y="642" fill="#9A3412" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="33" font-weight="800">Long prose</text>
+  <text x="190" y="690" fill="#C2410C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25">6 sections before the</text>
+  <text x="190" y="730" fill="#C2410C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25">product summary could</text>
+  <text x="190" y="770" fill="#C2410C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25">be scanned</text>
+
+  <path d="M410 813V848" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="155" y="868" width="510" height="118" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="190" y="916" fill="#334155" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="750">Feature grid</text>
+  <text x="190" y="956" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">Buried below the essay</text>
+
+  <path d="M410 1004V1039" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="155" y="1059" width="240" height="82" rx="15" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="197" y="1111" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700">Testimonials</text>
+
+  <rect x="425" y="1059" width="240" height="82" rx="15" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="502" y="1111" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700">Pricing</text>
+
+  <rect x="770" y="410" width="510" height="82" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="3"/>
+  <text x="805" y="462" fill="#1E3A8A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700">Hero + dashboard screenshot</text>
+
+  <path d="M1025 510V545" stroke="#86EFAC" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="770" y="565" width="510" height="150" rx="16" fill="#ECFDF5" stroke="#86EFAC" stroke-width="5"/>
+  <text x="805" y="625" fill="#166534" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="33" font-weight="850">Feature grid</text>
+  <text x="805" y="672" fill="#15803D" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25">Moved right after the hero</text>
+
+  <path d="M1025 733V768" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="770" y="788" width="510" height="82" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="805" y="840" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700">Testimonials</text>
+
+  <path d="M1025 888V923" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="770" y="943" width="510" height="150" rx="16" fill="#FFF7ED" stroke="#FDBA74" stroke-width="3"/>
+  <text x="805" y="1000" fill="#9A3412" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="31" font-weight="800">Shorter prose</text>
+  <text x="805" y="1046" fill="#C2410C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25">3 stronger sections after</text>
+  <text x="805" y="1085" fill="#C2410C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25">the quick product scan</text>
+
+  <path d="M1025 1111V1146" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="770" y="1166" width="510" height="82" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="979" y="1218" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="700">Pricing</text>
+
+  <path d="M697 632H728" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M728 632L708 615M728 632L708 649" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
