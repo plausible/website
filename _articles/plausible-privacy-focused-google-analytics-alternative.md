@@ -1,7 +1,8 @@
 ---
 layout: article
 title: "Privacy-focused web analytics: no cookies, no personal data, no consent banner"
-description: Web analytics without cookies, consent banners or personal data collection. GDPR, CCPA and PECR compliant out of the box. Your data stays in the EU.
+description: Privacy-friendly web analytics without cookies, consent banners or personal
+  data collection. GDPR, CCPA and PECR compliant out of the box. Your data stays in the EU.
 permalink: /privacy-focused-web-analytics
 ---
 Most analytics tools treat visitor privacy as an afterthought. [Plausible](https://plausible.io) was built the other way around.

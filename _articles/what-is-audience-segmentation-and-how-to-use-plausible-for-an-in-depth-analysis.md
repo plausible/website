@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Segment your website traffic without the complexity"
-description: Break your visitor data into meaningful segments without cookies,
-  consent banners or bloated reports. Accurate, privacy-friendly audience
+title: "Audience segmentation for web analytics: filter and segment without the complexity"
+description: Audience segmentation tools that don't need cookies or consent banners.
+  Break your visitor data into meaningful segments and get accurate, privacy-friendly
   analysis in one simple dashboard.
 permalink: /audience-segmentation
 ---
