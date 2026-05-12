@@ -85,12 +85,16 @@ Despite being the shortest month of the year and having fewer visitors than Janu
 
 Looking only at non-logged-in visitors, trial signups increased 84% from January to April, while traffic increased by only about 2%.
 
+<div style="overflow-x: auto;" markdown="1">
+
 | Month | Trial signups | Register page conversion | Visitor-to-trial rate |
 |-------|--------------|--------------------------|------------------------|
 | January | 2,423 | 38% | 2.65% |
 | February | 2,656 | 48.8% | 3.09% |
 | March | 3,608 | 52.8% | 3.64% |
 | April | 4,464 | 57.3% | 4.80% |
+
+</div>
 
 February, March and April were three consecutive all-time records for trial signups in Plausible's history.
 
