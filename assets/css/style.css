@@ -52,6 +52,11 @@ article img {
   white-space: pre-wrap;
 }
 
+.prose table {
+  display: block;
+  overflow-x: auto;
+}
+
 .prose table th {
   @apply px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-700 uppercase whitespace-no-wrap border-b border-gray-200 leading-4 bg-gray-50;
 }
