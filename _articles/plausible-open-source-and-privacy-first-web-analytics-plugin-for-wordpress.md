@@ -410,6 +410,40 @@ Then enter the query parameter that you'd like to track. E.g. enter `lang` if yo
 
 All the query parameters will start being tracked and will be displayed in the **Properties** tab of your Plausible Analytics dashboard.
 
+## Troubleshooting the WordPress plugin
+
+### No data is being recorded
+
+Run through these checks first:
+
+* Make sure the plugin is activated and you have entered the correct domain name in the plugin settings, matching exactly how it is added in your Plausible account
+* Clear all caches after activating the plugin or making any changes to the settings
+* Check your browser console for errors related to the Plausible script. Open developer tools (F12 on Chrome or Firefox, Option+Command+I on Safari) and look in the Console tab
+* If you have a caching or performance plugin such as WP Rocket or SiteGround Optimizer, add the Plausible script to its exclusion list
+
+### Admin visits are not showing
+
+The plugin excludes logged-in administrator visits by default. This is intentional and keeps your own activity out of the stats. To track your own visits, go to the "Track analytics for user roles" section in the plugin settings and enable the Administrator role.
+
+### Stats stopped recording after a site migration or clone
+
+The proxy creates a file in `/wp-content/uploads/`. When you migrate or clone your site, that file path may no longer match what the plugin expects. To regenerate it:
+
+1. Disable the proxy
+2. Clear all caches (WordPress, hosting, Cloudflare)
+3. Re-enable the proxy
+4. Clear all caches again
+
+### Plugin token showing as invalid
+
+Plugin tokens are site-specific and always start with `plausible-plugin-`. Make sure the token was created for the exact domain you are connecting. If in doubt, generate a new token from your Plausible site settings and connect it again.
+
+### Proxy is not recording stats after setup
+
+Clear all caches after enabling the proxy. If it is still not working, follow the full reset sequence above. See the "Stats not being recorded after enabling the proxy?" section for more detailed causes including firewall settings and file permissions.
+
+For anything not covered here, see the [full troubleshooting guide](https://plausible.io/docs/troubleshoot-integration).
+
 ## Other things you can do with Plausible
 
 We recommend reviewing our [documentation](https://plausible.io/docs) to explore everything you can do with Plausible, but here are some quick highlights:
