@@ -7,8 +7,8 @@ description: Seven years in, Plausible is profitable, independent, and still
 slug: ignore-startup-advice
 date: 2026-04-29T09:59:41.110Z
 author: hricha-shandily
-image: "/uploads/plausible-analytics-signups-organic-growth.webp"
-image-alt: "plausible analytics signups organic growth"
+image: /uploads/plausible-analytics-signups-organic-growth.webp
+image-alt: plausible analytics signups organic growth
 ---
 M﻿ost startup stories that get glorified are dramatic.
 
@@ -135,14 +135,14 @@ Tortoise does beat the hare.
 
 There’s this idea that building a startup is a series of intense, high-stakes moments. In our case, it might not be as true. Most weeks look the same:
 
-Work on the product.
+Work on the product. W﻿ork on the communication.
 Fix something that’s broken or confusing.
 Talk to users.
-Ship an improvement.
+Ship an improvement. 
 
 Do that again next week.
 
-It’s not exciting. It doesn’t give you that “we’re onto something big” feeling all the time. But it keeps things moving.
+It’s not exciting. It doesn’t give you that “we’re onto something big” feeling all the time. But it keeps things moving and sometimes gives [great results](https://plausible.io/blog/homepage-edits-conversion-lift) too.
 
 ## Seven years later, it adds up
 
