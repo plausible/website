@@ -1,23 +1,21 @@
 ---
 layout: article
-title: "Web analytics for ecommerce and SaaS: simple, powerful and privacy-friendly"
-description: Web analytics for ecommerce and SaaS that doesn't rely on cookies or
-  consent banners. Simple dashboard, accurate data not blocked by ad blockers and
-  a privacy-friendly alternative to Google Analytics.
+title: "Web analytics for ecommerce: simple, accurate and privacy-friendly"
+description: Web analytics for ecommerce that doesn't rely on cookies or consent banners. Simple dashboard, accurate data not blocked by ad blockers and a privacy-friendly alternative to Google Analytics.
 permalink: /for-ecommerce-saas
 ---
-If you run an ecommerce store or a SaaS business, you need to know what's driving traffic and conversions. The question isn't whether to track analytics, it's whether Google Analytics is actually giving you reliable data and whether the complexity is worth it.
+If you run an ecommerce store, you need to know what's driving traffic and conversions. The question isn't whether to track analytics, it's whether Google Analytics is actually giving you reliable data and whether the complexity is worth it.
 
 For most teams, it isn't. Plausible gives you everything that matters: campaign tracking, conversion goals, revenue attribution, funnels and accurate traffic data. Without the setup overhead, cookie banners or the data quality problems that come with GA.
 
-![Website analytics for ecommerce and SaaS](/uploads/plausible-ecommerce-saas.png "Website analytics for ecommerce and SaaS")
+![Website analytics for ecommerce](/uploads/plausible-ecommerce-saas.png "Website analytics for ecommerce")
 
 1. Ordered list
 {:toc}
 
 ## The problem with Google Analytics
 
-Google Analytics is the default choice for most ecommerce and SaaS teams, but it comes with real costs.
+Google Analytics is the default choice for most ecommerce teams, but it comes with real costs.
 
 It's blocked by a large share of web visitors. Ad blockers and privacy-focused browsers routinely skip it, so a meaningful portion of your audience simply isn't counted. Some sites see 30% or more of traffic going untracked.
 
@@ -81,23 +79,15 @@ See "[how to use UTM parameters to track your campaigns](https://plausible.io/bl
 
 ### Set up goals and events to track conversions
 
-You can track any action you want visitors to take: visiting a specific page, clicking a button, completing a checkout or signing up for a trial.
+You can track any action you want visitors to take: visiting a specific page, clicking a button, completing a checkout or signing up for a newsletter.
 
 Goals give you the number of completions, conversion rates and which referral sources are driving those conversions.
 
 Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
 
-### Build sales and marketing funnels
+### Build checkout funnels
 
-Once you have custom events set up, you can build funnels to see where visitors drop off between steps. This helps you find friction points in your checkout flow or signup process and improve conversion rates. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
-
-### Cross-subdomain tracking
-
-If you run a main marketing site, an app on a subdomain and a docs site, Plausible can track the full visitor journey across all of them.
-
-The original referral source stays attributed to the visitor as they move between subdomains, and conversions on any subdomain are credited to the right source. No need to filter out internal referrals.
-
-See more on [hostname and subdomain tracking](https://plausible.io/docs/subdomain-hostname-filter).
+Once you have custom events set up, you can build funnels to see where visitors drop off between steps. This helps you find friction points in your checkout flow and improve conversion rates. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
 ## Track ecommerce revenue
 
@@ -138,7 +128,7 @@ You own and control all your data. We don't sell or share it with third parties 
 
 ## Stay on top of traffic changes
 
-You can set up [traffic spike notifications](https://plausible.io/docs/traffic-spikes) to get alerted when a campaign or piece of content drives an unusual surge in visitors. Useful for ecommerce during launches, sales or press coverage.
+You can set up [traffic spike notifications](https://plausible.io/docs/traffic-spikes) to get alerted when a campaign or piece of content drives an unusual surge in visitors. Useful during launches, sales or press coverage.
 
 ## Build faster loading websites
 
