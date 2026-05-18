@@ -10,8 +10,9 @@ date: 2024-04-25T15:16:05.303Z
 author: hricha-shandily
 image: /uploads/is-google-analytics-illegal.png
 image-alt: How to optimize your paid ads after joining the cookieless analytics world
+last_modified_at: 2026-05-18
 ---
-Q﻿uick update: Google [announced](https://privacysandbox.com/intl/en_us/news/update-on-the-plan-for-phase-out-of-third-party-cookies-on-chrome/) recently that they are delaying the phasing out of third-party cookies. This is an effort to buy time to balance out the advertising industry's needs and that of privacy advocates. This buys advertisers some time, but the phase-out (in whatever shape it comes) is still around the corner. It's useful to prepare for this eventuality. Let's see how, below.
+Update: Google delayed the third-party cookie phase-out in 2024, then reversed course entirely in April 2025. Chrome will keep third-party cookies with a user-choice model rather than removing them by default. The forced deprecation is no longer planned. The advice below still holds: browser restrictions in Safari and Firefox, tightening regulation and shifting user expectations all point away from cross-site tracking regardless of what Chrome decides.
 
 Advertising has evolved from mass broadcasts to individualized targeting. Earlier, advertising success used to come easier with limited media channels like early TV and radio, because of their sheer novelty and lower competition rates.
 
@@ -52,7 +53,7 @@ For this privacy-intrusive nature of third-party cookies, they have been activel
 
 We explain more in depth about third-party cookies, the role of Google in surveillance capitalism, why Chrome is having to phase them out, and what it means for digital marketers in [this article](https://plausible.io/blog/chrome-third-party-cookies).
 
-All in all, if you use Google's advertising services — such as on Google Search, YouTube, Google Display Network, Google Shopping, Google Play, and Local Services — and especially rely on remarketing ads to convert sign-ups or other actions, you may need to revisit your advertising strategy because Google Chrome has slowly started phasing out third-party cookies and plans to [complete the process in early 2025](https://privacysandbox.com/intl/en_us/news/update-on-the-plan-for-phase-out-of-third-party-cookies-on-chrome/).
+All in all, if you use Google's advertising services — such as on Google Search, YouTube, Google Display Network, Google Shopping, Google Play, and Local Services — and especially rely on remarketing ads to convert sign-ups or other actions, you may need to revisit your advertising strategy. Google Chrome started phasing out third-party cookies for a portion of users but reversed course in April 2025, announcing a user-choice model instead. Third-party cookies remain in Chrome for now, though restrictions in other browsers and tightening regulations make the broader trend clear.
 
 ## Replacements of third-party cookies
 
