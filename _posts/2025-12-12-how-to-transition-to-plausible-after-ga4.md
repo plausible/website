@@ -6,6 +6,8 @@ slug: ga-to-plausible-transition
 date: 2025-12-16T12:45:37.638Z
 author: hricha-shandily
 ---
+*This post has an up-to-date evergreen version: [How to migrate from Google Analytics to Plausible](https://plausible.io/migrate-from-google-analytics).*
+
 If you have spent years working with Google Analytics, switching tools can feel risky. GA4 includes many reports, dimensions, filters and settings. Plausible takes a different approach. You see one clean dashboard that stays simple while still giving you all the insights you need. 
 
 If you are trying to figure out whether Plausible can support your daily marketing work, this guide will help. We explain how to complete the most common GA4 tasks in Plausible and explain where the two tools differ.
@@ -17,7 +19,7 @@ The goal is straightforward. If you already know GA4, you will finish this guide
 
 ## GA4 and Plausible approach analytics differently
 
-F﻿irst, let's address how Plausible is different from GA4 at the very core.
+First, let's address how Plausible is different from GA4 at the very core.
 
 ### GA4's philosophy
 
@@ -41,8 +43,8 @@ For most marketing teams, this covers day to day needs. And, you will find:
 * Complete data as the Plausible script is largely not blocked by ad blockers
 * [No need for privacy banners](https://plausible.io/blog/cookie-consent-banners#but-can-you-avoid-the-cookie-consent-banners) or consent popups
 * Fully transparent data collection
-* M﻿uch [more accurate](https://plausible.io/most-accurate-web-analytics) data than GA4, about
-* [A﻿ttribution models](https://plausible.io/blog/attribution-modeling)
+* Much [more accurate](https://plausible.io/most-accurate-web-analytics) data than GA4, about
+* [Attribution models](https://plausible.io/blog/attribution-modeling)
 
 As we are a private-by-design tool, you will not find:
 
@@ -76,7 +78,7 @@ No need to build custom reports (unless you want to, which is also possible): al
 
 Upon scrolling, you will find some standard reports that let you segment by traffic source, campaign, country, device, etc. For example, click the “Channels” report to see which channels (social, search, email, etc.) drove traffic.
 
-Y﻿ou can explore our very own live stats [dashboard](https://plausible.io/plausible.io).
+You can explore our very own live stats [dashboard](https://plausible.io/plausible.io).
 
 GA4: These metrics are found in different reports under different groups on the sidebar.
 
@@ -84,17 +86,17 @@ GA4: These metrics are found in different reports under different groups on the 
 
 Tracking marketing campaigns is straightforward. By default, your traffic is automatically grouped by channels: 
 
-* D﻿isplay
-* E﻿mail
-* A﻿ffiliates
+* Display
+* Email
+* Affiliates
 * Paid Search
 * Paid Shopping
-* R﻿eferral
-* S﻿MS
+* Referral
+* SMS
 
-a﻿nd a whole bunch of others (full list with explanations [here](https://plausible.io/docs/top-referrers#channels)...which automatically covers all kinds of traffic you acquire from different marketing channels including paid and organic ones.
+and a whole bunch of others (full list with explanations [here](https://plausible.io/docs/top-referrers#channels)...which automatically covers all kinds of traffic you acquire from different marketing channels including paid and organic ones.
 
-S﻿pecifically for paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up. Switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. 
+Specifically for paid ads and campaigns, [just tag your URLs](https://plausible.io/blog/utm-tracking-tags) with standard UTM parameters (utm_source, utm_medium, utm_campaign, etc.) – Plausible will pick them up. Switch to the Campaigns tab to see how many visits each UTM campaign or ad generated. 
 
 You can further filter by UTM Medium, Source, Campaign name, Content, or Term. This lets you drill into which specific email, ad, or promotion drove traffic and led to conversions.
 
@@ -154,7 +156,7 @@ You can then send the sale amount and currency with each conversion (via JavaScr
 
 These revenue metrics are fully filterable by any dimension – campaign, source, landing page, country, device, even your custom properties. For example, you can see total revenue from a specific ad campaign or compare purchase value by product category (using a custom property for category).
 
-M﻿ore on ecommerce and revenue tracking [here](https://plausible.io/blog/ecommerce-revenue-attribution)
+More on ecommerce and revenue tracking [here](https://plausible.io/blog/ecommerce-revenue-attribution)
 
 For WordPress shops, we even have an official plugin. You can also automatically track [WooCommerce](https://plausible.io/blog/woocommerce-analytics-plugin) events (add-to-cart, complete purchase, revenue, product name/category, etc.).
 
@@ -174,7 +176,7 @@ In practice, you can spin up a funnel in seconds, and filter it by channels/camp
 
 For instance, filter a signup funnel by UTM campaign to see which ads lead to the best conversion rates.
 
-M﻿ore on funnel optimizations and using them in Plausible [here](https://plausible.io/blog/funnels-conversion-optimization)
+More on funnel optimizations and using them in Plausible [here](https://plausible.io/blog/funnels-conversion-optimization)
 
 P.S. We are also working on creating user journeys.
 
@@ -214,7 +216,7 @@ Therefore, the solution suggested by GA experts is to disable it entirely and im
 
 In GA4, building a clean, shareable report often means jumping into Looker Studio or using Google Sheets.
 
-I﻿n Plausible, it's quite easy. Want to share performance with a team or client? You can send a live dashboard link (with optional branding removed), embed it, or export the data to CSV. For recurring needs, the official Looker Studio connector lets you recreate any view and combine it with other data sources.
+In Plausible, it's quite easy. Want to share performance with a team or client? You can send a live dashboard link (with optional branding removed), embed it, or export the data to CSV. For recurring needs, the official Looker Studio connector lets you recreate any view and combine it with other data sources.
 
 You can also [embed](https://plausible.io/docs/embed-dashboard) your Plausible dashboard anywhere with an iframe, great for internal sharing or displaying your stats on a site.
 
@@ -241,7 +243,7 @@ GA4 does not support built-in Slack alerts. You’d need to:
 | SEO performance       | Search Console integration          | Search Console integration                  |
 | Realtime view         | Realtime overview, misleading       | Realtime mode, filterable, accurate         |
 | Geo/device breakdowns | Built-in reports                    | Built-in reports                            |
-| Retention & cohorts   | Y﻿es                                | Not available (by privacy-friendly design)  |
+| Retention & cohorts   | Yes                                | Not available (by privacy-friendly design)  |
 | Attribution modeling  | Multiple model options              | Last-touch only                             |
 | Looker Studio reports | Yes                                 | Yes (official connector available)          |
 

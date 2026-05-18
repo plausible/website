@@ -38,7 +38,7 @@ In all cases, missing and/or inaccurate data affects the ability to track the re
 
 P.S. If you’ve ever wondered *why analytics numbers differ between tools*, [this post explains why](https://plausible.io/blog/why-analytics-numbers-dont-match).
 
-## R﻿easons that affect data accuracy
+## Reasons that affect data accuracy
 
 Let’s look at the reasons that affect data accuracy and what we do differently at Plausible to ensure accurate data and real insights.
 
@@ -157,13 +157,13 @@ Google Analytics can take [up to 48 hours](https://support.google.com/analytics/
 
 **How do we tackle this at Plausible?** Our data is always fresh and constantly updated. We provide real-time analytics.
 
-### T﻿ime on page tracking inaccuracy
+### Time on page tracking inaccuracy
 
-The average engagement time metrics in G﻿oogle Analytics 4 can be misleading since their calculations don't include the time from sessions that lasted below 10 seconds. 
+The average engagement time metrics in Google Analytics 4 can be misleading since their calculations don't include the time from sessions that lasted below 10 seconds. 
 
 In our experiment, we found that such so called "non-engaged sessions" can be half of sessions, causing the final metric to underreport by as much as 80%.
 
-[H﻿ere's the full study](https://plausible.io/blog/time-on-page-ga-vs-plausible).
+[Here's the full study](https://plausible.io/blog/time-on-page-ga-vs-plausible).
 
 **How do we tackle this at Plausible?** Here’s how we calculate time on page on the sites using Plausible:
 
@@ -199,7 +199,7 @@ So, that’s another reason that much of your GA stats are actually just estimat
 
 **How do we tackle this at Plausible?** Plausible does not use any data sampling or modeling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site.
 
-However, on some dashboard views that have a lot of data such as those with more than 10 million pageviews, we apply [​limited data sampling](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling) to help the dashboard load as fast as possible.
+However, on some dashboard views that have a lot of data such as those with more than 10 million pageviews, we apply [limited data sampling](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling) to help the dashboard load as fast as possible.
 
 ## In conclusion
 
@@ -209,6 +209,6 @@ The more accurate the data, the more confidently you can base your business deci
 
 Working with more accurate and reliable data, collected ethically, is entirely possible. So why settle for less?
 
-Get a [free Plausible trial](https://plausible.io/register) right away – we’ve made it super convenient to get started. You can also checkout our [GA4 to Plausible transition guide](https://plausible.io/blog/ga-to-plausible-transition)
+Get a [free Plausible trial](https://plausible.io/register) right away – we’ve made it super convenient to get started. You can also check out our [GA4 to Plausible migration guide](/migrate-from-google-analytics)
 
 And do check out our official [plugin](https://wordpress.org/plugins/plausible-analytics/) if you’re on WordPress.

@@ -10,6 +10,16 @@ Most website owners use Google Analytics because it's the default, not because i
 
 Here's how Plausible compares and what you actually get by switching.
 
+| | Plausible | Google Analytics 4 |
+|---|---|---|
+| Cookie consent banner required | No | Yes |
+| Personal data collected | No | Yes |
+| Script blocked by ad blockers | Rarely | Often |
+| Setup complexity | One script tag | Tag Manager, events, custom reports |
+| Data modeled or estimated | No | Yes |
+| Hosted in the EU | Yes | No |
+| Open source | Yes | No |
+
 ![Plausible vs Google Analytics comparison](/uploads/plausible-vs-ga.png "Plausible vs Google Analytics comparison")
 
 1. Ordered list
@@ -89,6 +99,6 @@ Plausible gives you accurate, easy-to-read website stats without the complexity,
 
 If you need advanced attribution modeling, raw event exports or deep custom reporting, GA4 has more depth. But for most site owners who want to understand where their traffic is coming from and what's working, Plausible covers it without the overhead.
 
-You can [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) so you don't lose your historical data. If you want to understand what changes day to day, [this transition guide](https://plausible.io/blog/ga-to-plausible-transition) covers the workflow differences in detail.
+You can [import your historical Google Analytics stats](https://plausible.io/docs/google-analytics-import) so you don't lose your historical data. For a full walkthrough of the switch, see the [GA4 to Plausible migration guide](/migrate-from-google-analytics).
 
 [Start your 30-day free trial](https://plausible.io/register) with no credit card required.
