@@ -42,7 +42,7 @@ Basically, Consent Mode is Google’s patch to keep the ecosystem running.
 
 ### How Consent Mode works?
 
-C﻿onsent Mode is like the bridge between cookie banners and GA script. It helps your site or app tell GA script whether a user has agreed to cookies or tracking. So when someone gives or refuses consent, Google tags can accordingly change how they work.
+Consent Mode is like the bridge between cookie banners and GA script. It helps your site or app tell GA script whether a user has agreed to cookies or tracking. So when someone gives or refuses consent, Google tags can accordingly change how they work.
 
 There are two implementation options available: a “**basic**” mode where tags are blocked until consent is given. It’s simple in the sense that Google tags are completely blocked from firing when the user doesn’t consent. And if the user does consent, everything works normally.
 
@@ -63,7 +63,7 @@ Such anonymized data **plus** the patterns observed from people who *did* consen
 
 Consent Mode is a whole system that tries to rebuild the data GA4 couldn't exactly collect: by reconstructing, reinforcing the patterns of behaviour from people who did consent and browsed the website.
 
-**E﻿xample**: Imagine you run an online store and 100 people click your Google Ads campaign. Only 60 of them give consent, so GA4 can fully track those users, and you see 5 real purchases from them. The remaining 40 users do not give consent, so GA4 only receives limited, cookieless pings with no information about what they actually did.
+**Example**: Imagine you run an online store and 100 people click your Google Ads campaign. Only 60 of them give consent, so GA4 can fully track those users, and you see 5 real purchases from them. The remaining 40 users do not give consent, so GA4 only receives limited, cookieless pings with no information about what they actually did.
 
 Without modeling, your GA4 report would simply show 5 conversions and nothing from the 40 untracked users.
 
@@ -118,11 +118,11 @@ Consent Mode does not observe non-consenting users directly, but indirectly with
 
 This reconstruction is triggered by a mathematical model, not by real data. Legal experts highlight that predicting behaviour after a user rejects tracking can be problematic. It does not go with the spirit of privacy-friendliness. This is why Consent Mode is seen as a gray area instead of a clear privacy solution.
 
-S﻿ome might argue that such data doesn’t go with personally identifiable information like complete IP Addresses (semi-anonymized IP Addresses still register), so it should be okay.
+Some might argue that such data doesn’t go with personally identifiable information like complete IP Addresses (semi-anonymized IP Addresses still register), so it should be okay.
 
-B﻿ut site owners are still sending some sort of data about the user (while the user thought you weren’t) to Google servers before actually anonymizing it, processing it and modeling it. The thing is: We can never know how that data is really processed by the servers, before being anonymized. Since Google is a closed-source and proprietary entity, there’s no way to find out either.
+But site owners are still sending some sort of data about the user (while the user thought you weren’t) to Google servers before actually anonymizing it, processing it and modeling it. The thing is: We can never know how that data is really processed by the servers, before being anonymized. Since Google is a closed-source and proprietary entity, there’s no way to find out either.
 
-A﻿ complete nightmare for a company if found indulging in such practices, usually without even being fully aware of it.
+A complete nightmare for a company if found indulging in such practices, usually without even being fully aware of it.
 
 ## What this means for your GA4 reports
 
@@ -142,7 +142,7 @@ Many businesses look at their reports and do not realize how much is modeled.
 
 This is the big question most website owners have, and the honest answer is: it depends on your setup and on what you expect from GA4. Here is the straightforward breakdown:
 
-You **need**, or rather m﻿ight want to explore, Google Consent Mode if:
+You **need**, or rather might want to explore, Google Consent Mode if:
 
 * You use GA4 with cookies 
 * You show a cookie banner
@@ -158,7 +158,7 @@ You **do not need** Consent Mode if:
 * You use an analytics tool that does not rely on tracking identifiers
 * You do not want modeled/inaccurate data in your reports
 * You prefer simple, reliable, human readable analytics over predictive ones
-* Y﻿ou are operating on a smaller scale
+* You are operating on a smaller scale
 * You want to avoid dealing with consent banners, GTM settings, and the legal gray area
 
 In other words, Consent Mode is required only if you want GA4 to keep "fully" functioning in a privacy regulated world. If you want to keep using GA4 and want your numbers to look somewhat complete, Consent Mode is basically unavoidable.
@@ -182,7 +182,7 @@ You do not need Consent Mode at all with Plausible because we do not rely on coo
 With Plausible, you skip all the complexity that Consent Mode tries to solve:
 
 * No consent banner required with Plausible, because we are [cookieless](https://plausible.io/blog/google-analytics-cookies) 
-* N﻿o legal battles (although please check it with your legal advisor for your specific case) because we're [privacy-friendly by design](https://plausible.io/privacy-focused-web-analytics)
+* No legal battles (although please check it with your legal advisor for your specific case) because we're [privacy-friendly by design](https://plausible.io/privacy-focused-web-analytics)
 * No reconstructed or stitched sessions
 * No modeled behaviour
 * No hidden guesses in reports
@@ -206,7 +206,7 @@ This is why GA4 reports can still feel misleading or incomplete. You avoid this 
 
 ### The complexity you avoid by choosing Plausible
 
-Consent Mode is a workaround that creates a long chain of technical requirements. When you [switch to Plausible](https://plausible.io/blog/ga-to-plausible-transition), you skip all of this:
+Consent Mode is a workaround that creates a long chain of technical requirements. When you [switch to Plausible](https://plausible.io/migrate-from-google-analytics), you skip all of this:
 
 | **With GA4 + Consent Mode**                      | **With Plausible**                |
 | ------------------------------------------------ | --------------------------------- |
@@ -220,4 +220,4 @@ Consent Mode is a workaround that creates a long chain of technical requirements
 
 Instead of adding more layers to fix a broken tracking model, Plausible works cleanly with how the modern web operates.
 
-W﻿e have created Plausible to be a simpler, accurate, privacy-friendly alt. to Google Analytics. You can take a look at the [full comparison here](https://plausible.io/vs-google-analytics)﻿ and start a [free trial here](https://plausible.io/register).
+We have created Plausible to be a simpler, accurate, privacy-friendly alt. to Google Analytics. You can take a look at the [full comparison here](https://plausible.io/vs-google-analytics) and start a [free trial here](https://plausible.io/register).

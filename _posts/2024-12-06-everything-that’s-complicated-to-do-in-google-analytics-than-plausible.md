@@ -70,7 +70,7 @@ P.S. While editing any standard report to add such metrics, don’t forget to �
 
 ### The pages from where people leave my site?
 
-Exit reports show where users leave your site. This can help you spot problems, like ineffective content or confusing pages. Although not all exits are bad—like when someone leaves after finishing a purchase. And that is exactly the insight we need.
+Exit reports show where users leave your site. This can help you spot problems, like ineffective content or confusing pages. Although not all exits are bad (like when someone leaves after finishing a purchase). And that is exactly the insight we need.
 
 #### In Plausible
 
@@ -224,6 +224,6 @@ We explain [this process and custom dimensions in more detail](https://plausible
 * You can also compare Plausible with [Matomo](https://plausible.io/vs-matomo) and [Cloudflare Analytics](https://plausible.io/vs-cloudflare-web-analytics).
 * We are open-source and completely transparent with our practices. We don’t sell your customers data, are not involved in ad tech, and are an independent team that only cares about a good product.
 
-T﻿ransitioning from GA4 to Plausible? We have a [guide](https://plausible.io/blog/ga-to-plausible-transition) to help.
+Transitioning from GA4 to Plausible? We have a [guide](https://plausible.io/migrate-from-google-analytics) to help.
 
 Ready to try the simplest web analytics tool? [Create your account now](https://plausible.io/register)!
