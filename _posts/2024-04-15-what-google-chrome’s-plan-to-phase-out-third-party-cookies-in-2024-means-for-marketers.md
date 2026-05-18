@@ -9,8 +9,9 @@ date: 2024-04-15T10:11:15.235Z
 author: hricha-shandily
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Google Chrome is phasing out third-party cookies
+last_modified_at: 2026-05-18
 ---
-Q﻿uick update: Google [announced](https://privacysandbox.com/intl/en_us/news/update-on-the-plan-for-phase-out-of-third-party-cookies-on-chrome/) recently that they are delaying the phasing out of third-party cookies. This is an effort to buy time to balance out the advertising industry's needs and that of privacy advocates. This buys marketers some time, but the phase-out (in whatever shape it comes) is still around the corner. It's useful to prepare for this eventuality. Let's see how, below.
+Update: Google delayed the third-party cookie phase-out in 2024, then reversed course entirely in April 2025. Chrome will keep third-party cookies with a user-choice model rather than removing them by default. The forced deprecation is no longer planned. The advice below still holds: browser restrictions in Safari and Firefox, tightening regulation and shifting user expectations all point away from cross-site tracking regardless of what Chrome decides.
 
 Audience insight is a digital marketer’s biggest ammunition. The right set of information enables us to show the right messages to the right people at the right time.
 

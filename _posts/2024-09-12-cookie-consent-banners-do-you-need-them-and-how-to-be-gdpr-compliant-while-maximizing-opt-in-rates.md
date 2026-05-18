@@ -7,7 +7,7 @@ description: Do you need a cookie consent banner on your website? Learn what the
   actually compliant.
 slug: cookie-consent-banners
 date: 2024-09-12T12:30:37.294Z
-last_modified_at: 2026-05-12
+last_modified_at: 2026-05-18
 author: hricha-shandily
 image: /uploads/cookie-consent-banner-example.png
 image-alt: Example of a cookie consent banner
@@ -67,7 +67,7 @@ We analyze website traffic while adhering to the principles of data minimization
 
 Establishing your marketing and website analysis goals, while evaluating how much you and your users value privacy, can help you decide which way to go.
 
-For eg. If retargeting ads are your priority, you cannot escape third-party cookies and Google Analytics along with Google Ads is the default choice. Although, they are going to be phased out pretty soon, so [plan accordingly](https://plausible.io/blog/paid-ads-cookieless-analytics).
+For eg. If retargeting ads are your priority, you cannot escape third-party cookies and Google Analytics along with Google Ads is the default choice. Note: in April 2025, Google reversed course. Chrome will maintain a user-choice model for third-party cookies rather than phasing them out. That said, [reducing dependence on them](https://plausible.io/blog/paid-ads-cookieless-analytics) still makes sense given restrictions in Safari and Firefox and tightening regulation.
 
 Similarly, if your target audience consists of privacy-aware individuals like developers, chances are that they would not only reject the cookie banners, but would have other privacy-protecting measures (like ad blockers, privacy-friendly browsers, etc.) in place.
 
