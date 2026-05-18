@@ -148,7 +148,7 @@ For most organizations, the cloud product is the better fit. It includes automat
 
 ## Talk to us about an Enterprise plan
 
-Enterprise plans are priced based on your monthly pageview volume. You can combine higher traffic limits, additional sites, more team members, higher API limits and enterprise features in whatever combination fits your needs.
+Enterprise plans are priced based on your monthly pageview volume. You can combine higher traffic limits, additional sites, more team members, higher API limits and enterprise features in whatever combination fits your needs. For a full breakdown of which features are Enterprise-only and what cannot be added to lower plans, see the [subscription plans documentation](https://plausible.io/docs/subscription-plans#enterprise-only-features).
 
 We'll work with you to put together a plan that matches your usage and workflows. If your legal or procurement team has questions about our security practices, data processing or compliance documentation, we're happy to help.
 
