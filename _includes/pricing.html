@@ -152,10 +152,10 @@
         </a>
         {% else %}
         <a :href="volumeIndex < volumesWithPrices.length && '/register' || '/contact'"
-          x-text="volumeIndex < volumesWithPrices.length && 'Start your free trial' || 'Contact us'"
-          @click="plausible('CTA Click', {props: {location: 'Pricing', button: volumeIndex < volumesWithPrices.length ? 'Start your free trial' : 'Contact us', plan: '{{ plan.tier }}', volume: volume(volumeIndex)}})"
+          x-text="volumeIndex < volumesWithPrices.length && 'Start free trial' || 'Contact us'"
+          @click="plausible('CTA Click', {props: {location: 'Pricing', button: volumeIndex < volumesWithPrices.length ? 'Start free trial' : 'Contact us', plan: '{{ plan.tier }}', volume: volume(volumeIndex)}})"
           class="mt-4 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 transition duration-150 ease-in-out bg-indigo-600 hover:bg-indigo-500 text-white">
-          Start your free trial
+          Start free trial
         </a>
         {% endif %}
         <ul class="mt-6 space-y-1 text-sm {{ plan.style.benefits_list | default: 'text-gray-600' }}">
