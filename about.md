@@ -5,29 +5,27 @@ description: Plausible Analytics is an independent, open source web analytics co
 permalink: /about
 ---
 
-Plausible Analytics is a privacy-focused web analytics platform built for organizations that want reliable measurement without regulatory complexity. We are an independent, self-funded European company operating under EU data protection law.
+Plausible Analytics is an independent, open source analytics company based in the EU. We built it because web analytics had drifted far from its purpose: a simple way for site owners to understand their traffic without surveilling their visitors.
 
-We believe web analytics should serve website owners without exploiting their visitors, delivering useful insights while respecting privacy by default.
+We do not use cookies and we do not collect personal data. No surveillance model, no data brokerage, no conflict of interest between what we sell and what our customers need.
 
-Plausible runs on modern, scalable infrastructure designed for long-term operational reliability. More than {{ site.data.site.subscriber_count }} paying subscribers trust us to measure their websites without compromising visitor privacy, including organizations operating in regulated and privacy-sensitive environments.
+More than {{ site.data.site.subscriber_count }} paying subscribers use Plausible, including Basecamp, Ghost, Hugging Face, MongoDB, the Python Software Foundation and Harvard University.
 
 ![About Plausible Analytics](/uploads/about-plausible.png "About Plausible Analytics")
 
 ## Our story
 
-Plausible was started in December 2018 by Uku Taht, who set out to build a simple and privacy-friendly alternative to traditional analytics tools.
+Uku Taht started Plausible in December 2018, building it alone as a simple privacy-friendly alternative to Google Analytics. Paid subscriptions launched in 2019.
 
-Paid subscriptions launched in 2019. Marko Saric joined in 2020 to lead marketing and communications. Since then, Plausible has grown steadily through product improvement, transparent communication and word of mouth.
+In 2020, when it was still just Uku building and a few hundred paying customers, Marko Saric joined to handle marketing and communications. No outside funding, no growth team. The company has grown through product improvement, transparent communication and word of mouth ever since.
 
-The company crossed $1 million in annual recurring revenue in 2022 and has continued to grow sustainably as a profitable, independently operated company.
+Plausible crossed $1 million in annual recurring revenue in 2022 and has continued to grow as a profitable, independently operated company.
 
-You can read a detailed account of our early growth and decisions in our [startup journey article](https://plausible.io/blog/open-source-saas).
+You can read a detailed account of our early decisions and growth in our [startup journey article](https://plausible.io/blog/open-source-saas).
 
-Today, Plausible is used by startups, independent creators, public sector organizations and established companies worldwide.
+Today Plausible is a team of {{ site.data.site.team_size }}. You can meet everyone on our [team page](https://plausible.io/docs/authors).
 
 ## How we're funded
-
-We have chosen to build Plausible through a subscription business model rather than outside investment.
 
 Subscription revenue funds our team, infrastructure and product development. We do not sell or share customer data and we do not monetize visitor behavior.
 

@@ -4,7 +4,7 @@ title: "Web analytics for SaaS: track signups, activation and growth"
 description: "Simple, accurate analytics for SaaS teams. Track trial signups, activation funnels and campaign attribution. No cookies, no consent banners, no GA complexity."
 permalink: /for-saas
 ---
-If you run a SaaS product, you need to know where signups come from, whether trials activate, which campaigns drive paid conversions, and how users move between your marketing site and your product.
+If you run a SaaS product, you need to know where signups come from, whether trials activate, which campaigns drive paid conversions and how users move between your marketing site and your product.
 
 Google Analytics can technically do all of this. But it's built for ad teams, not product and growth teams. The interface is complex, GA4 made reporting harder, and your technical audience is more likely than average to block it. So your data is incomplete before you've done anything wrong.
 
@@ -33,19 +33,16 @@ Because Plausible is privacy-friendly by default, it isn't blocked at the same r
 
 We also take additional steps to [improve data accuracy](https://plausible.io/most-accurate-web-analytics):
 
-* Known referrer spam and data center traffic is filtered out automatically. We exclude around 32,000 data center IP ranges by default to prevent bots from inflating your numbers.
-* Android app traffic (traditionally lumped into "Direct") is identified separately, recovering 10% or more of unattributed visits from apps like Gmail, Slack and Telegram.
+* Scrapers routinely crawl pricing pages and docs. Without filtering, they inflate traffic numbers and dilute your signup attribution. We exclude around 32,000 data center IP ranges by default to keep your trial and conversion metrics reliable.
 * We support [proxying our script as a first-party connection](https://plausible.io/docs/proxy/introduction) for even higher accuracy on sites where ad blocker rates are high.
 
 The result is data you can act on, not numbers you have to discount by an estimated correction factor.
 
 ## Switching is straightforward
 
-You don't have to lose your history when you move away from Google Analytics. You can import past stats so trends and year-over-year comparisons stay intact inside Plausible.
+You can import past stats so trends and year-over-year comparisons stay intact inside Plausible. Our [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting or gaps in your data.
 
-Our [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting or gaps in your data.
-
-Install takes minutes via script tag, [Google Tag Manager](https://plausible.io/gtm-template) or any of our [integration guides](https://plausible.io/docs/integration-guides). You can run Plausible alongside GA during the transition to compare results before removing anything.
+Install takes minutes via script tag, [Google Tag Manager](https://plausible.io/gtm-template) or any of our [integration guides](https://plausible.io/docs/integration-guides). If you're tracking across your marketing site and app subdomain, both use the same snippet with no additional configuration. You can run Plausible alongside GA during the transition to compare results before removing anything.
 
 ## Track the full SaaS funnel
 
@@ -80,6 +77,8 @@ Most SaaS products span multiple domains: a marketing site, an app on a subdomai
 
 The original referral source stays attributed to the visitor as they move between subdomains. A signup that completes on `app.yourproduct.com` is still credited to the blog post that started the journey on `yourproduct.com`. No internal referrals to filter out.
 
+All of these properties can run under a single Plausible subscription. You get a separate dashboard for each with no per-seat pricing and no separate billing per domain.
+
 See more on [hostname and subdomain tracking](https://plausible.io/docs/subdomain-hostname-filter).
 
 ## Track marketing campaigns using UTM tags
@@ -97,7 +96,7 @@ See "[how to use UTM parameters to track your campaigns](https://plausible.io/bl
 
 ## See organic search and AI traffic clearly
 
-The dashboard includes a dedicated Organic Search channel showing how much of your traffic comes from search engines. This also includes traffic from AI assistants and AI-powered search tools, giving you a more complete picture of how people discover your product.
+The dashboard includes a dedicated Organic Search channel showing how much of your traffic comes from search engines, including AI assistants and AI-powered search tools. For SaaS, this tells you how prospects discover your product category and find their way to your pricing or signup page.
 
 Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which queries and pages drive organic signups, alongside engagement and conversion data.
 
@@ -118,13 +117,17 @@ Plausible is compliant with GDPR, CCPA and PECR out of the box. No cookies, no p
 
 For SaaS, this matters beyond compliance. A cookie consent popup is friction at the top of your funnel. Removing it means no decline rates reducing your data quality and no interruption before users reach your signup form.
 
-You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
+You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. All data is hosted in the EU. For B2B SaaS, this simplifies data processing agreements and removes cross-border transfer concerns when enterprise customers ask where their analytics data lives. Plausible is also open source. The codebase is publicly auditable and you can self-host if your compliance requirements demand full data sovereignty. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
 
 ## Share analytics with your team and stakeholders
 
 You can invite teammates and assign roles: view-only access to the dashboard or full access to edit settings and manage collaborators. See more on [user accounts and roles](https://plausible.io/docs/users-roles).
 
 Set up weekly or monthly [email reports](https://plausible.io/docs/email-reports) for stakeholders who want a regular summary without logging in. Or generate a private [shared link](https://plausible.io/docs/shared-links) for investors, advisors or board members who want to check numbers without needing an account.
+
+## Access your data via API
+
+If you need programmatic access, the [stats API](https://plausible.io/docs/stats-api) lets you pull any metric from your Plausible dashboard into your own systems. Useful for feeding data into internal tools, automating reports or combining analytics with your product data in a warehouse.
 
 ## Build custom reports with Looker Studio
 
