@@ -8,11 +8,11 @@ permalink: /simple-web-analytics
 ---
 Most analytics tools give you more data than you need and make it hard to find what matters. [Plausible](https://plausible.io/) takes a different approach: one page, the metrics that count, no setup required.
 
-Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom, and the Steve Jobs Archive.
+Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom and the Steve Jobs Archive.
 
 ![simpler google analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: simpler google analytics alternative")
 
-**[👉 See how simple it is](https://plausible.io/plausible.io)**
+**[See how simple it is](https://plausible.io/plausible.io)**
 
 1. Ordered list
 {:toc}
@@ -25,11 +25,11 @@ Open it and you're met with a busy dashboard, multiple report sections and dozen
 
 Most people use a fraction of what's available. Many end up building custom dashboards just to surface the numbers they actually care about, then ignore the rest. Some give up entirely.
 
-Google Analytics is a powerful tool, but it's built for analysts, not website owners. It takes training, time, and ongoing effort to use well. That's what led us to build Plausible, and why we think it's [a great Google Analytics alternative](https://plausible.io/vs-google-analytics).
+Google Analytics is built for analysts, not website owners. It takes training, time, and ongoing effort to use well. That's what led us to build Plausible, and why we think it's [a great Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
 ## Plausible shows you what matters, nothing more
 
-Whether you're running a blog, a SaaS product, or an online store, Plausible gives you the core metrics you need in a single view:
+Whether you're running a blog, a SaaS product or an online store, Plausible gives you the core metrics you need in a single view:
 
 * **Unique visitors and pageviews**
 * **Traffic sources** (referrers, search, social, campaigns)
@@ -66,4 +66,4 @@ We cover more of these comparisons in [this post](https://plausible.io/blog/easy
 
 ## Try Plausible free for 30 days
 
-Plausible is open-source, privacy-friendly, and built to stay out of your way. [Sign up for a free trial](https://plausible.io/register) and see what your site data looks like when it's actually easy to read.
+Plausible is open-source, privacy-friendly and built to stay out of your way. [Sign up for a free trial](https://plausible.io/register) and see what your site data looks like when it's actually easy to read.

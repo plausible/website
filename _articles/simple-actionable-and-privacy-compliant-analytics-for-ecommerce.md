@@ -31,23 +31,20 @@ Because Plausible is privacy-friendly by default, it isn't blocked at the same r
 
 On top of that, Plausible takes several steps to [improve data accuracy](https://plausible.io/most-accurate-web-analytics):
 
-* Known referrer spam and data center traffic is filtered out automatically. We exclude around 32,000 data center IP ranges by default to prevent bots from inflating your numbers.
-* Traffic from Android apps (traditionally lumped into "Direct" in most tools) is identified separately. For sites with significant mobile traffic, this recovers 10% or more of previously unattributed visits from apps like Gmail, Slack and Telegram.
+* Bots don't buy. When crawlers inflate product page views, conversion rates drop artificially and campaign performance looks worse than it is. We exclude around 32,000 data center IP ranges by default to keep your checkout funnel metrics clean.
 * VPN and Tor browser visitors are grouped under "Anonymous VPN Service" to reduce noise in location reports.
 
 We also support [proxying our script as a first-party connection](https://plausible.io/docs/proxy/introduction) for even higher accuracy.
 
 ## Switching is straightforward
 
-You don't have to lose your history when you move away from Google Analytics. You can import past stats so trends, seasonality and year-over-year comparisons stay intact inside Plausible.
-
-Our [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting or gaps in your data.
+You can import past stats so seasonal trends and year-over-year comparisons stay intact inside Plausible. Our [import tool](https://plausible.io/docs/google-analytics-import) automatically detects time ranges to prevent double counting or gaps in your data.
 
 If your store runs on WordPress, WooCommerce or Shopify, setup takes minutes. We have a [WordPress plugin](https://plausible.io/wordpress-analytics-plugin) and direct integrations with the most common platforms. You can also install via [Google Tag Manager](https://plausible.io/gtm-template) or add the script directly to any site or framework. See all [installation guides](https://plausible.io/docs/integration-guides).
 
 You can run Plausible alongside GA during the transition to compare results before removing anything.
 
-## Get actionable insights from your traffic and referral sources
+## See where your traffic comes from
 
 [Our dashboard](https://plausible.io/simple-web-analytics) gives you everything you need on one page. No custom reports to build, no menus to dig through. You can understand your site performance in under a minute.
 
@@ -58,7 +55,7 @@ At a glance you can see:
 * What devices, operating systems and browsers they use
 * What referral sources are driving your traffic
 * Which pages visitors are landing on and where they drop off
-* Bounce rate and session duration by source
+* Bounce rate and visit duration by source
 
 You can see [our live demo](https://plausible.io/plausible.io) for full details.
 
@@ -114,7 +111,7 @@ You can then filter and segment your dashboard by those properties. Just make su
 
 ## See organic search and AI traffic clearly
 
-The dashboard includes a dedicated Organic Search channel that shows how much of your traffic comes from search engines. This also includes traffic from AI assistants and AI-powered search tools, giving you a more complete picture of how people find you.
+The dashboard includes a dedicated Organic Search channel that shows how much of your traffic comes from search engines, including AI assistants and AI-powered search tools. For ecommerce, this tells you how buyers find your products and product category, not just how many visited.
 
 You can also connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries and pages drive organic visitors, alongside engagement and conversion data.
 
@@ -122,9 +119,9 @@ You can also connect [Google Search Console](https://plausible.io/docs/google-se
 
 Plausible is compliant with GDPR, CCPA and PECR out of the box. We don't use cookies and we don't collect or store any personally identifiable information about your visitors.
 
-This means you don't need a cookie consent banner. No pop-ups asking visitors for permission, no decline rates reducing your data quality and no legal overhead to manage.
+For ecommerce, a cookie consent banner is friction before a visitor has even started browsing. Removing it means visitors reach your product pages and checkout without interruption, and you stop losing data every time someone declines.
 
-You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
+You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. All data is hosted in the EU. If you sell into Europe, that removes cross-border data transfer questions and simplifies compliance when customers or regulators ask where visitor data is stored. Plausible is also open source. The code is publicly available, so you can verify exactly what the script collects before installing it on your store. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
 
 ## Stay on top of traffic changes
 
