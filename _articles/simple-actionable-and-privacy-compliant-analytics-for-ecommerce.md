@@ -2,7 +2,7 @@
 layout: article
 title: "Web analytics for ecommerce: simple, accurate and privacy-friendly"
 description: Web analytics for ecommerce that doesn't rely on cookies or consent banners. Simple dashboard, accurate data not blocked by ad blockers and a privacy-friendly alternative to Google Analytics.
-permalink: /for-ecommerce-saas
+permalink: /for-ecommerce
 ---
 If you run an ecommerce store, you need to know what's driving traffic and conversions. The question isn't whether to track analytics, it's whether Google Analytics is actually giving you reliable data and whether the complexity is worth it.
 

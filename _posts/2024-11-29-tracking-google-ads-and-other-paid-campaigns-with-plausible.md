@@ -145,8 +145,8 @@ It’s as simple as that. You can also utilize [funnels](https://plausible.io/bl
 
 This way, you can track anything you want to with Plausible. For example: 
 
-* If you’re a [SaaS](https://plausible.io/for-ecommerce-saas), you can track the product sign ups coming from your ads. 
-* If you’re an e-commerce, you can [track the revenue](https://plausible.io/blog/ecommerce-revenue-attribution) affected by your ads and calculate your ROI.
+* If you’re a [SaaS](https://plausible.io/for-saas), you can track the product sign ups coming from your ads. 
+* If you’re an e-commerce, you can [track the revenue](https://plausible.io/for-ecommerce) affected by your ads and calculate your ROI.
 * Use the [ad cost calculator](https://plausible.io/ad-cost-calculator) to work out your CPC, CPM and CPA from your campaign numbers.
 
 Having said that, if you are looking for a deeper integration of Google Ads with Plausible, we have the following limitations due to our privacy-first nature and out-of-the-box compliance with the different cookie laws and privacy regulations such as GDPR and PECR.
