@@ -8,6 +8,7 @@ description: "Universal Google Analytics, the third version of Google Analytics,
 slug: /universal-google-analytics-is-dead
 date: 2022-03-16T17:13:33.247Z
 author: marko-saric
+last_modified_at: 2026-05-20
 image: /uploads/universal-google-analytics-is-dead.png
 image-alt: Universal Google Analytics has stopped tracking stats on July 1st
   2023 and there's no import to GA4
@@ -51,15 +52,15 @@ The main criticism seems to be that Google Analytics is moving from being a tool
 
 The user interface is even less intuitive than before and it's even more challenging to use. Even regular reports that everyone expects from their analytics tool are difficult to access in GA4. Instead of having access to a suite of reports, you now have to build your reports from scratch. It's still very slow to use too.
 
-## What can you do now?
+## What should you do if you haven't switched yet?
 
-First of all, there's still time. You have until July of 2023 to decide your next move.
+Universal Analytics stopped collecting data in July 2023. If you're still running on GA4 and reconsidering, now is a good time to look at alternatives.
 
-If GA4 excites you, set it up and try it out. See how it feels. Does it provide everything you need in an analytics tool? If you're happy with what it does, then you're all set and no further action is needed. 
+If GA4 works for you, no further action is needed.
 
-If you're not happy with the new GA4 experience, we have put together [a list of best Google Analytics alternatives](https://plausible.io/blog/google-analytics-alternatives). 
+If you're not happy with the GA4 experience, we have put together [a list of best Google Analytics alternatives](https://plausible.io/blog/google-analytics-alternatives).
 
-One of the alternatives is a tool we're building ourselves. It's called Plausible Analytics. And here's what makes Plausible a [good alternative to Google Analytics 4](https://plausible.io/vs-google-analytics).
+One of those alternatives is Plausible Analytics. Here's what makes Plausible a [good alternative to Google Analytics 4](https://plausible.io/vs-google-analytics).
 
 ## Why is Plausible better than GA4?
 
@@ -77,9 +78,7 @@ One of the alternatives is a tool we're building ourselves. It's called Plausibl
 
 7. Plausible is [open source web analytics](https://plausible.io/open-source-website-analytics). Our source code is available and accessible on GitHub so anyone can read it and review it to ensure it keeps the data private and secure.
 
-8. Plausible is growing fast. We now have more than 6,000 paying subscribers, we're tracking stats on more than 37,000 websites and we're counting more than one billion pageviews per month.
-
-9. Plausible allows you to import your historical stats from Google Analytics into your Plausible dashboard. Here are the instructions for our [Google Analytics import tool](https://plausible.io/docs/google-analytics-import).
+8. Plausible allows you to import your historical stats from Google Analytics into your Plausible dashboard. Here are the instructions for our [Google Analytics import tool](https://plausible.io/docs/google-analytics-import).
  
 ## How to import Google Analytics stats to Plausible Analytics 
 

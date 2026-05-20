@@ -226,4 +226,4 @@ As of January 2025, we had blocked about 2 billion bots from accessing sites and
 
 We are proud to have built a more accurate alternative to Google Analytics, not just in terms of detecting bot traffic but also in terms of recording traffic regardless of cookie consent banner declines, ad blockers blocking scripts, maintaining location accuracy, etc. – while being privacy-friendly and well-accepted by the end-user. You can see a full comparison [here](https://plausible.io/most-accurate-web-analytics).
 
-You can conduct your own tests like we did and don’t forget to share the results with us. Good day/night! ✌️
+You can conduct your own tests like we did and share your results with us. Or [start a free 30-day trial](https://plausible.io/register) and see how clean your own data looks compared to what you had before.

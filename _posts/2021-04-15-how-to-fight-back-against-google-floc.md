@@ -10,6 +10,8 @@ author: marko-saric
 image: /uploads/fight-back-google-floc.png
 image-alt: How to fight back against Google FLoC
 ---
+*Note: Google killed FLoC in January 2022 and replaced it with the Topics API. This post is preserved as a historical record of what FLoC was and why it raised privacy concerns.*
+
 Google is starting to track your site visitors for advertising purposes even when you're not using Google Analytics or having any relationship with Google.
 
 Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative and how you can fight back and opt-out as a web user and a web developer.

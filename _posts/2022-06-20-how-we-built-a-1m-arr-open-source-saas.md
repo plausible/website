@@ -321,3 +321,5 @@ We're not interested in venture capitalism, in the chase for the endless hyper-g
 We aim to continue building a sustainable business that helps us remain true to our mission of removing Google Analytics from as many websites as possible and bringing privacy-first, open source software to more people.
 
 Thank you for your trust and support!
+
+If you haven't tried Plausible yet, [start a free 30-day trial →](https://plausible.io/register)

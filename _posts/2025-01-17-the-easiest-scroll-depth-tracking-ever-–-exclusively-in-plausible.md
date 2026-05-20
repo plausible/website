@@ -165,4 +165,4 @@ In Plausible, you can club this metric with other metrics such as time on page a
 
 Plausible prioritizes [simplicity](https://plausible.io/simple-web-analytics), [privacy](https://plausible.io/privacy-focused-web-analytics) and [accuracy](https://plausible.io/most-accurate-web-analytics) – all at the same time. Our goal is to remove unnecessary complexity while providing the insights you need to improve your website and business.
 
-**[Give it a try for free](https://plausible.io/register)!**
+[Start your free 30-day trial →](https://plausible.io/register)
