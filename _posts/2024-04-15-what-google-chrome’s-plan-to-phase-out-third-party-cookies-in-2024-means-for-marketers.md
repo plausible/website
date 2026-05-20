@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Google phasing out third-party cookies in 2025 means for marketers?
+title: What Google Chrome’s plan to phase out third-party cookies means for marketers
 description: After being taken down by other browsers like Firefox and Safari,
   third-party cookies are now being phased out by marketers’ favorite – Google
   Chrome. Here's what that means.

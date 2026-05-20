@@ -192,3 +192,5 @@ By taking these recommendations into account, website operators can not only com
 - - -
 
 For more information about Steffen Gross and Simpliant, including up-to-date information and contact details, [please visit the Simpliant website](https://www.simpliant.eu).
+
+Plausible Analytics is built for exactly this use case: reach measurement without cookies, without consent banners and without personal data collection. [Try it free for 30 days →](https://plausible.io/register)

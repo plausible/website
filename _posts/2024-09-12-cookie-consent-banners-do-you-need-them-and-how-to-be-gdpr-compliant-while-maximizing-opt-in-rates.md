@@ -218,3 +218,5 @@ How do you achieve that?
 * Try to reduce this number. Use as few privacy-invasive services as possible.
 * Switch to a privacy-friendly service if you require a specific service and cannot go without it. There's a growing demand for privacy-first tools and a growing number of teams working on them so you are bound to find a friendlier alternative.
 * Want Google Analytics but cannot get many of your visitors to consent to have their personal data tracked for advertising purposes using cookies and other mechanisms? Plausible Analytics is a cookie-less and privacy-first alternative that doesn't track, collect nor store any personal data at all.
+
+[Start your free 30-day trial →](https://plausible.io/register)

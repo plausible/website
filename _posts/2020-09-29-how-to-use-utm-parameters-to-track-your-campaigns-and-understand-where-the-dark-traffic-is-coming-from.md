@@ -216,4 +216,4 @@ Note that in Plausible Analytics the referral sources are counted only when they
 
 ## Try Plausible UTM campaign tracking
 
-Plausible Analytics includes UTM campaign tracking out-of-the-box. You get a 30-day free trial with no credit card required. [Register here](https://plausible.io/register).
+Plausible Analytics includes UTM campaign tracking out-of-the-box. You get a 30-day free trial with no credit card required. [Start your free trial →](https://plausible.io/register)

@@ -4,7 +4,7 @@ title: What are backlinks in SEO and how to get them?
 description: Learn what backlinks are, how they affect SEO, how to earn quality
   links, avoid bad practices, and track their real impact on traffic.
 slug: backlinks-seo-guide
-date: 2026-01-26T13:35:21.739Z
+date: 2026-05-20T00:00:00.000Z
 author: hricha-shandily
 image: /uploads/plausible-s-backlink-from-wikipedia.png
 image-alt: plausible analytics backlink from wikipedia
@@ -250,6 +250,8 @@ You can do the same by clicking on “organic search.” If you click on “Goog
 
 The key thing to look for here is not sudden spikes, but steady trends.
 
+If you're not tracking this yet, [see how Plausible groups traffic by acquisition channel](https://plausible.io/plausible.io?f=is,channel,Organic%20Search) in our live public dashboard. Or [start a free trial](https://plausible.io/register) to measure it for your own site.
+
 ### Focus on trends, not individual links
 
 It is hard to attribute traffic gains or conversion improvements to a single backlink. Some visitors may arrive through a backlink, leave, and return later via search or direct traffic.
@@ -280,6 +282,8 @@ SEO tools help you understand *why* rankings may be changing, but they do not sh
 For example an SEO tool shows that your product page gained rankings but Plausible shows if that page contributed to conversions.
 
 This way, you can be confident your backlinks are contributing to traffic and in some relevant cases, conversion improvements.
+
+You can set up [goal conversions in Plausible](https://plausible.io/docs/goal-conversions) to tie referral traffic directly to signups, purchases, or any other action that matters on your site.
 
 What if you’re seeing negative trends even after making all the efforts?
 
@@ -359,3 +363,9 @@ The general process looks like this:
 2. Upload your list to the [Disavow links tool page](https://search.google.com/search-console/disavow-links)
 
 Use this carefully though. Google is generally good at ignoring low quality links on its own. If your site has not been involved in link schemes or manual penalties, you often do not need to disavow anything at all.
+
+## Track whether your backlinks are actually working
+
+The only way to know if your backlinks are sending traffic is to measure it. [Plausible](https://plausible.io/simple-web-analytics) shows referral and organic traffic side by side, lets you filter by source, and connects traffic to conversions. No cookies, no personal data collection, one script tag to install.
+
+[Start your free trial →](https://plausible.io/register)

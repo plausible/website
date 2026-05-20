@@ -102,6 +102,8 @@ Many indie hackers that contact us about our experience of running an open sourc
 
 With the change of our self-hosted release name and logo, the registration of our trademarks and the exclusive availability of certain enterprise features to our managed cloud hosting, we aim to better ensure the sustainability of Plausible Analytics in the face of external threats in the future. Thank you for your support!
 
+If you want to use Plausible without managing your own server, [start a free 30-day trial of our managed hosting →](https://plausible.io/register)
+
 * [Plausible CE installation instructions](https://github.com/plausible/community-edition/)
 * [Plausible CE 2.1.0 release notes](https://github.com/plausible/analytics/releases/tag/v2.1.0-rc.0).
 * Complete overview of differences [between Plausible Analytics Cloud and Plausible CE](https://plausible.io/self-hosted-web-analytics)
