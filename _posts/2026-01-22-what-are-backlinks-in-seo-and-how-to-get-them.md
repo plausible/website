@@ -4,7 +4,8 @@ title: What are backlinks in SEO and how to get them?
 description: Learn what backlinks are, how they affect SEO, how to earn quality
   links, avoid bad practices, and track their real impact on traffic.
 slug: backlinks-seo-guide
-date: 2026-05-20T00:00:00.000Z
+date: 2026-01-22T07:34:52.738Z
+last_modified_at: 2026-05-20T00:00:00.000Z
 author: hricha-shandily
 image: /uploads/plausible-s-backlink-from-wikipedia.png
 image-alt: plausible analytics backlink from wikipedia

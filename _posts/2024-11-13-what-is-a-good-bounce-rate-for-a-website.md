@@ -4,7 +4,8 @@ title: What is a good bounce rate for a website? (and industry benchmarks)
 description: What is bounce rate, what are some industry benchmarks, and how to
   maintain a lower number?
 slug: bounce-rate
-date: 2026-05-20T00:00:00.000Z
+date: 2024-11-13T15:49:28.697Z
+last_modified_at: 2026-05-20T00:00:00.000Z
 author: hricha-shandily
 image: /uploads/bounce-rate.png
 image-alt: bounce rates of webpages
