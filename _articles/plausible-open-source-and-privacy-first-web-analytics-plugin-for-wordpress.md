@@ -6,7 +6,7 @@ description: A lightweight WordPress analytics plugin without cookies or consent
   and a simple dashboard that shows what matters.
 permalink: /wordpress-analytics-plugin
 ---
-Most WordPress analytics plugins either slow your site down, require a cookie banner, or hand your visitors’ data to Google. Plausible does none of those things. You get accurate, privacy-friendly stats in a lightweight plugin that takes minutes to set up.
+Plausible is a WordPress analytics plugin that doesn’t slow your site down, doesn’t require a cookie banner, and doesn’t hand your visitors’ data to Google. You get accurate, privacy-friendly stats in a lightweight plugin that takes minutes to set up.
 
 <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">On WordPress</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" onclick="plausible('CTA Click', {props: {location: 'WordPress article', button: 'Live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
 
@@ -15,7 +15,7 @@ Most WordPress analytics plugins either slow your site down, require a cookie ba
 1. Ordered list
 {:toc}
 
-## How is Plausible Analytics different from Google Analytics?
+## Why use Plausible as your WordPress analytics plugin?
 
 Here is how Plausible compares to [Google Analytics](https://plausible.io/vs-google-analytics) and other traditional analytics tools:
 

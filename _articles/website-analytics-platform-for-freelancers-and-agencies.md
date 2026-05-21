@@ -208,7 +208,7 @@ You can also segment the data by traffic source, campaign, device, country and m
 
 ### Measure and optimize ad campaigns
 
-When running paid ads, email marketing or social campaigns, you can track performance using [simple UTM tags](https://plausible.io/blog/utm-tracking-tags) on your links.
+When running paid ads, email marketing or social campaigns, you can track performance using [simple UTM tags](https://plausible.io/blog/utm-tracking-tags) on your links. Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones.
 
 This allows you to see exactly which campaigns, creatives and channels drive traffic and conversions, so you can confidently advise clients on where to increase budget and what to cut.
 
