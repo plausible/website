@@ -1,16 +1,16 @@
 ---
 layout: article
 title: "UTM builder"
-description: Generate UTM tagged links for your campaigns. Fill in the details below and copy the tagged URL to use in your emails, social posts and ads.
+description: "Campaign URL builder and UTM link builder. Generate correctly formatted UTM-tagged links for your emails, social posts and ads. Fill in the details below and copy the tagged URL."
 permalink: /utm-builder
 ---
 <p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
 
 Campaign traffic is invisible without tagging. Clicks from emails, newsletters and social media often arrive with no referral data, showing up as "direct" in your analytics. UTM parameters fix that: small tags you append to links that tell your analytics tool exactly where a click came from.
 
-[Plausible Analytics](https://plausible.io/) reads UTM tags out-of-the-box, with no cookies, no consent prompts and no Google account required. Build your tagged links below.
+This UTM link builder generates the correct format automatically. [Plausible Analytics](https://plausible.io/) reads UTM tags out-of-the-box, with no cookies, no consent prompts and no Google account required.
 
-## UTM tag builder
+## Campaign URL builder
 
 Enter your URL and campaign details to generate a tagged link:
 
@@ -200,3 +200,15 @@ Enter your URL and campaign details to generate a tagged link:
 For a full walkthrough including how UTM data appears in your Plausible dashboard, see [How to use UTM parameters to track your campaigns](/blog/utm-tracking-tags).
 
 If your campaigns use `cpc` as their medium, the [ad cost calculator](/ad-cost-calculator) lets you calculate your cost per click, cost per mille and cost per acquisition once your tagged campaigns are running.
+
+## Common UTM mistakes
+
+**Mixed case.** `utm_source=LinkedIn` and `utm_source=linkedin` are separate sources in most analytics tools. Lowercase all UTM values.
+
+**Spaces in values.** Raw spaces encode as `%20` and break when links are copied by hand. Use hyphens: `spring-sale` not `spring sale`.
+
+**Tagging internal links.** UTM tags on links inside your own site overwrite the original referral source for that session. Only tag external links pointing to your domain.
+
+**Skipping utm_medium.** Source tells you where the traffic came from. Medium tells you what kind of channel. Without it, you cannot tell a newsletter from a banner ad on the same platform.
+
+Already have a tagged link and want to validate it? Run it through the [UTM checker](/utm-checker).

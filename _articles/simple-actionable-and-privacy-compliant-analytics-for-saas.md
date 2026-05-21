@@ -106,7 +106,7 @@ You can track:
 * Partner and affiliate traffic
 * Guest posts and content syndication
 
-See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)".
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming fragments your campaign data.
 
 ## See organic search and AI traffic clearly
 

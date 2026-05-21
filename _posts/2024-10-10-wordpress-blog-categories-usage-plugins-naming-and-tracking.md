@@ -208,7 +208,7 @@ You will be able to track sessions on your site where certain categories’ post
 
 To make this possible, you need to turn on a setting called “Authors and categories” within the Plausible [plugin](https://wordpress.org/plugins/search/plausible/). The plugin itself takes less than 2 minutes to set up, and tracking categories –– no matter how and where you implement them –– is basically a switch which needs to be turned on.
 
-Start by installing the plugin using this [guide](https://plausible.io/wordpress-analytics-plugin). Once done, open your WordPress dashboard and go to “Plugins” in the left-sidebar. Locate “Plausible Analytics” and go to its settings. Find the “Enhanced Measurements” section, and turn on “Authors and categories.”
+Start by installing the [WordPress analytics plugin](https://plausible.io/wordpress-analytics-plugin). Once done, open your WordPress dashboard and go to “Plugins” in the left-sidebar. Locate “Plausible Analytics” and go to its settings. Find the “Enhanced Measurements” section, and turn on “Authors and categories.”
 
 ![turning on Authors and Categories setting in Plausible plugin settings](/uploads/wp-plausible-plugin-settings-authors-and-categories.jpg "turning on Authors and Categories setting in Plausible plugin settings")
 

@@ -1,14 +1,14 @@
 ---
 layout: article
 title: "UTM checker"
-description: Paste a UTM-tagged URL to validate it, spot naming issues and get a clean corrected version ready to copy.
+description: "UTM validator and link checker. Paste any UTM-tagged URL to check UTM parameters, spot naming issues and get a clean corrected version ready to copy."
 permalink: /utm-checker
 ---
 <p style="font-size: 0.8125rem; margin-bottom: 1.5rem;"><a href="/tools">← All tools</a></p>
 
 UTM links accumulate mess. A teammate copies a URL and tweaks it by hand. Someone uses `Facebook` where everyone else uses `facebook`. Spaces sneak in. The result is fragmented campaign data that is hard to filter and impossible to compare.
 
-Paste a tagged URL below. The checker splits it into its parts, flags issues, and generates a clean suggested URL ready to copy.
+Paste any tagged URL below to check UTM parameters: the checker splits the link into its parts, flags issues, and generates a clean suggested URL ready to copy.
 
 ## UTM link checker
 
