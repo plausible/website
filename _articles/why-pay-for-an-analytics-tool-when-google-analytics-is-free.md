@@ -11,7 +11,14 @@ But "free" is doing a lot of work in that sentence. The actual cost shows up in 
 
 This page breaks down what GA actually costs and why a small subscription fee for Plausible is a better deal.
 
-> "Just replaced my full network's Google Analytics with Plausible - I can't remember when last I was this impressed by a SaaS UX + design. Became a paying customer within 1hr of the 30-day trial." -- Rob Hope, product designer and founder
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Just replaced my full network's Google Analytics with Plausible - I can't remember when last I was this impressed by a SaaS UX + design. Became a paying customer within 1hr of the 30-day trial."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Rob Hope</span>, product designer and founder
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

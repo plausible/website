@@ -11,7 +11,14 @@ Google Analytics is the default choice for most agencies, but that doesn't mean 
 
 Plausible is a privacy-first alternative that's built around how agencies actually work. One clean dashboard, easy client sharing, multi-site management and full GDPR compliance out of the box. It takes minutes to install and requires no ongoing maintenance or training.
 
-> "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4." -- Cyrus Shepard, SEO consultant and former Moz lead
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Cyrus Shepard</span>, SEO consultant and former Moz lead
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

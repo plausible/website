@@ -3,7 +3,7 @@ layout: article
 title: "Content analytics for publishers and content creators"
 description: "Simple, accurate analytics for publishers and content teams. No cookie banners, no data gaps. Understand what drives traffic, engagement and subscriptions."
 permalink: /for-bloggers-creators
-cta_headline: "Ready to understand what your readers actually want?"
+cta_headline: "Ready to know what your readers want?"
 ---
 If you publish content, you need to know what’s working. Which articles attract readers? What topics drive subscriptions? Where does your traffic actually come from?
 
@@ -11,7 +11,14 @@ The problem with Google Analytics is that it’s built for ad teams, not editori
 
 Media companies and digital publishers are one of the largest groups using Plausible, from large editorial teams and SEO-driven sites to indie blogs, newsletters and creator-led publications. Plausible gives you accurate, privacy-friendly analytics with no cookie banners, up and running in minutes, with everything you need on one page.
 
-> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">John O'Nolan</span>, Founder and CEO at Ghost
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

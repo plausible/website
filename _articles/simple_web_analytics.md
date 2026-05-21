@@ -11,9 +11,23 @@ Most analytics tools give you more data than you need and make it hard to find w
 
 Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom and the Steve Jobs Archive.
 
-> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
->
-> "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4." -- Cyrus Shepard, SEO consultant and former Moz lead
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">John O'Nolan</span>, Founder and CEO at Ghost
+  </figcaption>
+</figure>
+
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Cyrus Shepard</span>, SEO consultant and former Moz lead
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

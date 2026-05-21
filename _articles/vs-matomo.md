@@ -9,7 +9,14 @@ Most people comparing Matomo and Plausible are trying to move away from Google A
 
 Matomo, formerly known as Piwik, was founded in 2007 and is the most well known open source alternative to Google Analytics. [Plausible Analytics](https://plausible.io) launched in 2019 and has grown to become a widely used alternative. Let's look at where they differ.
 
-> "I really like the simplicity of the dashboard, not bloated with countless options and tabs. I know exactly where to look." -- Tomzur, co-founder of Kinsta
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "I really like the simplicity of the dashboard, not bloated with countless options and tabs. I know exactly where to look."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Tomzur</span>, co-founder of Kinsta
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

@@ -21,9 +21,23 @@ If you're using GA4 and wondering whether it's still the right tool, that's a re
 | Hosted in the EU | Yes | No |
 | Open source | Yes | No |
 
-> "Been a very happy customer of Plausible at Basecamp. Wonderful to see domains like web stats that were once a wasteland due to monopoly weight spring new, better options ❤️" -- DHH, Co-founder and CTO at 37signals
->
-> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Been a very happy customer of Plausible at Basecamp. Wonderful to see domains like web stats that were once a wasteland due to monopoly weight spring new, better options ❤️"
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">DHH</span>, Co-founder and CTO at 37signals
+  </figcaption>
+</figure>
+
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">John O'Nolan</span>, Founder and CEO at Ghost
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">
