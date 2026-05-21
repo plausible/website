@@ -3,7 +3,7 @@ layout: article
 title: "Plausible vs Google Analytics 4 (GA4): What changed and why people are switching"
 description: GA4 is a fundamentally different product from Universal Analytics. If you're reconsidering your setup, here's how Plausible compares and what you actually gain by switching.
 permalink: /vs-google-analytics
-cta_headline: "Ready to make the switch from Google Analytics?"
+cta_headline: "Ready to switch from Google Analytics?"
 ---
 
 Google didn't upgrade Google Analytics in 2023. They replaced it. Universal Analytics was shut down, historical data was deleted, and everyone using Google Analytics was moved onto a product built from scratch around Google's advertising infrastructure, not around the needs of website owners.
