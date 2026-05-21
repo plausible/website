@@ -10,7 +10,14 @@ Most analytics tools treat visitor privacy as an afterthought. [Plausible](https
 
 You get the data you need to understand your site. Your visitors get an experience that doesn't track, profile or follow them around the web. No cookies, no personal data, no consent banners required.
 
-> "I use Plausible for traffic analytics. Privacy-friendly, no cookie banner needed, lightweight script that doesn't slow down the page." -- Joost de Valk, founder of Yoast SEO
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "I use Plausible for traffic analytics. Privacy-friendly, no cookie banner needed, lightweight script that doesn't slow down the page."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Joost de Valk</span>, founder of Yoast SEO
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

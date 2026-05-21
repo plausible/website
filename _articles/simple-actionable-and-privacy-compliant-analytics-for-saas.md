@@ -11,9 +11,23 @@ Google Analytics can technically do all of this. But it's built for ad teams, no
 
 Plausible gives you accurate, privacy-friendly analytics built for the SaaS journey: from first visit to signup to activation to upgrade.
 
-> "I've been super happy with Plausible. All the conversion tracking we need, it has every report we use." -- Laura Roeder, Founder at Paperbell
->
-> "Plausible is the GOAT. Big fan here at Sentry." -- Matt Henderson, Director of Growth at Sentry
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "I've been super happy with Plausible. All the conversion tracking we need, it has every report we use."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Laura Roeder</span>, Founder at Paperbell
+  </figcaption>
+</figure>
+
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Plausible is the GOAT. Big fan here at Sentry."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Matt Henderson</span>, Director of Growth at Sentry
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

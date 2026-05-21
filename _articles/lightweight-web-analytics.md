@@ -3,7 +3,7 @@ layout: article
 title: "Lightweight web analytics built for fast-loading websites"
 description: Plausible Analytics is a lightweight alternative to Google Analytics. A tiny script, no cookies, no consent banner and no negative effect on your Core Web Vitals.
 permalink: /lightweight-web-analytics
-cta_headline: "Ready for analytics that won't slow your site down?"
+cta_headline: "Ready for analytics that won't slow you down?"
 ---
 Most websites are slowed down by the very tools used to measure them. Google Analytics is one of the heaviest third-party scripts you can add to a site, and it brings hidden costs beyond just file size.
 

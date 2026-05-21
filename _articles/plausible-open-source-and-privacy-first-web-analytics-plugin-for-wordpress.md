@@ -27,9 +27,23 @@ Here is how Plausible compares to [Google Analytics](https://plausible.io/vs-goo
 * We don't sell your data or make money from tracking people. We are [solely funded by subscriber fees](https://plausible.io/blog/customers-not-investors).
 * 30-day free trial with no credit card required. Plans start at $9/month based on page views. See [pricing](https://plausible.io/#pricing).
 
-> “I use Plausible for traffic analytics. Privacy-friendly, no cookie banner needed, lightweight script that doesn’t slow down the page.” — [Joost de Valk, founder of Yoast SEO](https://joost.blog/astro-seo-complete-guide/#9-analytics-and-measurement)
+<figure class=”not-prose my-6 pl-5 border-l-4 border-indigo-200”>
+  <blockquote class=”italic text-gray-700 leading-relaxed”>
+    “I use Plausible for traffic analytics. Privacy-friendly, no cookie banner needed, lightweight script that doesn’t slow down the page.”
+  </p>
+  <figcaption class=”mt-2 text-sm text-gray-500”>
+    <span class=”font-semibold text-gray-700”>Joost de Valk</span>, founder of Yoast SEO
+  </figcaption>
+</figure>
 
-> “I really like the simplicity of the dashboard, not bloated with countless options and tabs. I know exactly where to look.” — [Tomzur, co-founder of Kinsta](https://x.com/tomzur/status/2039317056839913824)
+<figure class=”not-prose my-6 pl-5 border-l-4 border-indigo-200”>
+  <blockquote class=”italic text-gray-700 leading-relaxed”>
+    “I really like the simplicity of the dashboard, not bloated with countless options and tabs. I know exactly where to look.”
+  </p>
+  <figcaption class=”mt-2 text-sm text-gray-500”>
+    <span class=”font-semibold text-gray-700”>Tomzur</span>, co-founder of Kinsta
+  </figcaption>
+</figure>
 
 ## How can Plausible Analytics be used for WordPress?
 

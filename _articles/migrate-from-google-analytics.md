@@ -10,7 +10,14 @@ If you have decided to leave GA4, this guide covers the practical steps: importi
 
 This is not a comparison page. If you are still deciding, start with [Plausible vs Google Analytics](/vs-google-analytics). If you are ready to switch, read on.
 
-> "Just replaced my full network's Google Analytics with Plausible - I can't remember when last I was this impressed by a SaaS UX + design. Became a paying customer within 1hr of the 30-day trial." -- Rob Hope, product designer and founder
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Just replaced my full network's Google Analytics with Plausible - I can't remember when last I was this impressed by a SaaS UX + design. Became a paying customer within 1hr of the 30-day trial."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Rob Hope</span>, product designer and founder
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">

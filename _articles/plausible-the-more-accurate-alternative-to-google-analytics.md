@@ -3,7 +3,7 @@ layout: article
 title: "Plausible: The more accurate alternative to Google Analytics"
 description: Google Analytics misses more data than most site owners realize. Here's how Plausible delivers more accurate numbers by design.
 permalink: /most-accurate-web-analytics
-cta_headline: "Ready for analytics numbers you can actually trust?"
+cta_headline: "Ready for analytics you can actually trust?"
 ---
 “Every number in your Google Analytics account is wrong.” That is exactly what an independent [study](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) by Orbit Media found.
 

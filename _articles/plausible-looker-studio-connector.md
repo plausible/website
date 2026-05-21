@@ -3,7 +3,7 @@ layout: article
 title: "Plausible Analytics Looker Studio connector: custom reports, no extra complexity"
 description: Build custom analytics dashboards and reports directly from your Plausible data. Combine it with ad spend, CRM data or any other source in Google Looker Studio.
 permalink: /looker-studio-connector
-cta_headline: "Ready to build custom reports with your Plausible data?"
+cta_headline: "Ready to build custom reports?"
 ---
 Plausible keeps its dashboard intentionally simple. But some workflows need more: custom layouts for clients, reports that blend analytics with ad spend or revenue data or views that go beyond what any fixed dashboard can offer. The official Plausible Looker Studio connector is built for those cases.
 

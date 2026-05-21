@@ -5,7 +5,7 @@ description: Plausible is used by Hugging Face, MongoDB, Harvard and 600+
   other enterprise accounts. No cookies, no consent banners, EU hosting, DPA
   included. Custom plans for high-traffic sites.
 permalink: /enterprise-web-analytics
-cta_headline: "Ready to simplify analytics across your organization?"
+cta_headline: "Ready to simplify your analytics stack?"
 ---
 Many large organizations are rethinking their analytics setup. The compliance overhead of cookie-based tools like Google Analytics, combined with data flowing to US servers and growing scrutiny from privacy regulators, has made the status quo harder to justify.
 
@@ -13,9 +13,23 @@ Plausible is a privacy-first alternative built to work at any scale. We don't us
 
 Organizations like Hugging Face, MongoDB, Basecamp, Sentry, the Python Software Foundation, the Steve Jobs Archive, Harvard University and the Scottish and Welsh governments have been running Plausible for years.
 
-> "We're massive users of Plausible here at Hugging Face." -- Clem Delangue, Co-founder and CEO at Hugging Face
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "We're massive users of Plausible here at Hugging Face."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Clem Delangue</span>, Co-founder and CEO at Hugging Face
+  </figcaption>
+</figure>
 
-> "Been a very happy customer of Plausible at Basecamp." -- DHH, Co-founder and CTO at 37signals
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "Been a very happy customer of Plausible at Basecamp."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">DHH</span>, Co-founder and CTO at 37signals
+  </figcaption>
+</figure>
 
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">
