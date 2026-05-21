@@ -15,7 +15,7 @@ Most analytics tools make audience segmentation harder than it needs to be. Buri
 
 ## What is audience segmentation?
 
-Plausible gives you reliable data on visitor traffic, but raw numbers alone are hard to act on. Audience segmentation is how you make sense of them: filtering your visitor data into groups that can be studied to answer real business questions and inform decisions.
+Plausible gives you reliable data on visitor traffic, but raw numbers alone are hard to act on. Audience segmentation is how you make sense of them: filtering your visitor data into groups that can be studied to answer real business questions and inform decisions. You might also see this called customer segmentation, traffic segmentation or behavioral segmentation, but the practice is the same across all three.
 
 The depth of analysis varies by use case. An independent journalist might want unique visitors segmented by city, to understand where interest in their work is strongest. A SaaS team might look at which audience segments convert, and which channels those visitors came from. A large e-commerce platform might track full customer journeys across product categories and campaigns.
 
@@ -89,6 +89,15 @@ A simpler use case: understanding which blog authors (tracked as a custom proper
 ![Example of a segment of audience that visited blog pages written by a specific author](/uploads/plausible-segment-author.png "Example of a segment of audience that visited blog pages written by a specific author")
 
 You can also see which pages rank for which keywords from Google. More on that below.
+
+### More segment ideas
+
+The examples above cover a few common use cases. Here are additional segment types worth exploring:
+
+- **Campaign segment**: filter by utm_campaign and a conversion goal to compare how individual campaigns drove sign-ups or purchases and which had the strongest return.
+- **E-commerce segment**: combine a purchase event with traffic source and device type to see where buyers come from and on what devices they convert.
+- **SaaS signup segment**: pair a free trial sign-up event with country and referral source to find which regions and channels bring in the most qualified leads.
+- **Content segment**: filter by a page path prefix or a custom Author property to see which content types or writers generate the most engagement and downstream conversions.
 
 Tracking on-site interactions, campaign contributions and SEO performance requires some additional setup since it varies by use case. Here are the practices we recommend.
 
