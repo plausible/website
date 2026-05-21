@@ -3,7 +3,7 @@ layout: article
 title: Why pay for an analytics tool when Google Analytics is free?
 description: Google Analytics isn't free. Here's what it costs in time, compliance risk and missing data, and why Plausible is a better deal.
 permalink: /paid-analytics-vs-free-ga
-cta_headline: "Ready to see what better analytics looks like?"
+cta_headline: "Ready for analytics worth paying for?"
 ---
 Google Analytics has been the default analytics tool for years. Installing it is habit, and because it carries no subscription fee, the cost feels like zero.
 
