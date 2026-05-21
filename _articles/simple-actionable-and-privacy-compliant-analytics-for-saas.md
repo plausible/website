@@ -22,7 +22,7 @@ Plausible gives you accurate, privacy-friendly analytics built for the SaaS jour
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
-    "Plausible is the GOAT. Big fan here at Sentry."
+    "Plausible has been really great at Sentry since we don't have user tracking on our website. Would recommend."
   </p>
   <figcaption class="mt-2 text-sm text-gray-500">
     <span class="font-semibold text-gray-700">Matt Henderson</span>, Director of Growth at Sentry

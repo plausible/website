@@ -11,6 +11,24 @@ This happens for several reasons: consent banner declines, spam and bot traffic,
 
 Here’s what we do differently.
 
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "We’ve made a decision that Google Analytics will no longer be our default analytics tool. Instead, our default analytics tool will be Plausible."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Tom Greenwood</span>, Managing Director at Wholegrain Digital
+  </figcaption>
+</figure>
+
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "We recommend Plausible because it's privacy-focused, provides more reliable data compared to Google Analytics, and it's extremely lightweight, so it doesn't harm your site performance."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">David Ramos</span>, Ghost
+  </figcaption>
+</figure>
+
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">
     <a href="/register" onclick="plausible(‘CTA Click’, {props: {location: ‘Most accurate hero’, button: ‘Start free trial’}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
