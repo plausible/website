@@ -5,10 +5,20 @@ description: Plausible Analytics is incorporated, built and hosted in the EU.
   All visitor data is processed on European-owned infrastructure and never
   leaves the EU.
 permalink: /eu-hosted-web-analytics
+cta_headline: "Ready for analytics that never leaves the EU?"
 ---
 Plausible Analytics is incorporated in Estonia, built by a team based in the EU and hosted entirely on infrastructure owned by European companies. All visitor data we collect on your behalf is processed and stored in the EU. It never leaves.
 
 This is not a configuration option or an add-on. It is simply how Plausible works.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![EU-hosted and GDPR-compliant web analytics](/uploads/plausible-eu-hosted.png "EU-hosted and GDPR-compliant web analytics")
 

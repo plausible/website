@@ -3,6 +3,7 @@ layout: article
 title: "Plausible vs Google Analytics 4 (GA4): What changed and why people are switching"
 description: GA4 is a fundamentally different product from Universal Analytics. If you're reconsidering your setup, here's how Plausible compares and what you actually gain by switching.
 permalink: /vs-google-analytics
+cta_headline: "Ready to make the switch from Google Analytics?"
 ---
 
 Google didn't upgrade Google Analytics in 2023. They replaced it. Universal Analytics was shut down, historical data was deleted, and everyone using Google Analytics was moved onto a product built from scratch around Google's advertising infrastructure, not around the needs of website owners.
@@ -19,6 +20,19 @@ If you're using GA4 and wondering whether it's still the right tool, that's a re
 | Setup complexity | One script tag | Tag Manager, events, custom reports |
 | Hosted in the EU | Yes | No |
 | Open source | Yes | No |
+
+> "Been a very happy customer of Plausible at Basecamp. Wonderful to see domains like web stats that were once a wasteland due to monopoly weight spring new, better options ❤️" -- DHH, Co-founder and CTO at 37signals
+>
+> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible vs Google Analytics 4 comparison](/uploads/plausible-vs-ga.png "Plausible vs Google Analytics 4 comparison")
 

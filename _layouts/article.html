@@ -17,18 +17,18 @@ layout: default
 <div class="bg-gray-50 pb-12">
   <div class="container mx-auto py-12 lg:py-16 lg:flex lg:items-center lg:justify-between border-t-2 border-gray-100">
     <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-      Ready to ditch Google Analytics?
+      {% if page.cta_headline %}{{ page.cta_headline }}{% else %}Ready to ditch Google Analytics?{% endif %}
       <br />
       <span class="text-indigo-600">Start your free trial today.</span>
     </h3>
     <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
       <div class="inline-flex rounded-md shadow">
-        <a href="/register" onclick="plausible('CTA Click', {props: {location: 'Article', button: 'Start free trial'}})" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+        <a href="/register" onclick="plausible('CTA Click', {props: {position: 'bottom', button: 'Start free trial'}})" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
           Start free trial
         </a>
       </div>
       <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="/plausible.io" onclick="plausible('CTA Click', {props: {location: 'Article', button: 'View live demo'}})" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+        <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'bottom', button: 'View live demo'}})" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
           View live demo
         </a>
       </div>

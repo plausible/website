@@ -5,6 +5,7 @@ description: Plausible is used by Hugging Face, MongoDB, Harvard and 600+
   other enterprise accounts. No cookies, no consent banners, EU hosting, DPA
   included. Custom plans for high-traffic sites.
 permalink: /enterprise-web-analytics
+cta_headline: "Ready to simplify analytics across your organization?"
 ---
 Many large organizations are rethinking their analytics setup. The compliance overhead of cookie-based tools like Google Analytics, combined with data flowing to US servers and growing scrutiny from privacy regulators, has made the status quo harder to justify.
 
@@ -15,6 +16,15 @@ Organizations like Hugging Face, MongoDB, Basecamp, Sentry, the Python Software 
 > "We're massive users of Plausible here at Hugging Face." -- Clem Delangue, Co-founder and CEO at Hugging Face
 
 > "Been a very happy customer of Plausible at Basecamp." -- DHH, Co-founder and CTO at 37signals
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![plausible analytics for enterprise](/uploads/plausible-enterprise.png "plausible analytics for enterprise")
 

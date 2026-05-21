@@ -3,12 +3,26 @@ layout: article
 title: "Web analytics for SaaS: track signups, activation and growth"
 description: "Simple, accurate analytics for SaaS teams. Track trial signups, activation funnels and campaign attribution. No cookies, no consent banners, no GA complexity."
 permalink: /for-saas
+cta_headline: "Ready to track your SaaS funnel accurately?"
 ---
 If you run a SaaS product, you need to know where signups come from, whether trials activate, which campaigns drive paid conversions and how users move between your marketing site and your product.
 
 Google Analytics can technically do all of this. But it's built for ad teams, not product and growth teams. The interface is complex, GA4 made reporting harder, and your technical audience is more likely than average to block it. So your data is incomplete before you've done anything wrong.
 
 Plausible gives you accurate, privacy-friendly analytics built for the SaaS journey: from first visit to signup to activation to upgrade.
+
+> "I've been super happy with Plausible. All the conversion tracking we need, it has every report we use." -- Laura Roeder, Founder at Paperbell
+>
+> "Plausible is the GOAT. Big fan here at Sentry." -- Matt Henderson, Director of Growth at Sentry
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Web analytics for SaaS](/uploads/plausible-ecommerce-saas.png "Web analytics for SaaS")
 

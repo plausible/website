@@ -3,10 +3,20 @@ layout: article
 title: "Lightweight web analytics built for fast-loading websites"
 description: Plausible Analytics is a lightweight alternative to Google Analytics. A tiny script, no cookies, no consent banner and no negative effect on your Core Web Vitals.
 permalink: /lightweight-web-analytics
+cta_headline: "Ready for analytics that won't slow your site down?"
 ---
 Most websites are slowed down by the very tools used to measure them. Google Analytics is one of the heaviest third-party scripts you can add to a site, and it brings hidden costs beyond just file size.
 
 [Plausible](https://plausible.io/) is built differently: a minimal script that collects what matters without adding meaningful weight to your pages.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible: A lightweight web analytics tool](/uploads/plausible-lightweight-script.png "Plausible: A lightweight web analytics tool")
 

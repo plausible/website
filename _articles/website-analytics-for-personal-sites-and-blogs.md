@@ -3,12 +3,24 @@ layout: article
 title: "Content analytics for publishers and content creators"
 description: "Simple, accurate analytics for publishers and content teams. No cookie banners, no data gaps. Understand what drives traffic, engagement and subscriptions."
 permalink: /for-bloggers-creators
+cta_headline: "Ready to understand what your readers actually want?"
 ---
 If you publish content, you need to know what’s working. Which articles attract readers? What topics drive subscriptions? Where does your traffic actually come from?
 
 The problem with Google Analytics is that it’s built for ad teams, not editorial ones. It’s complex, requires a cookie banner, and loses data every time a visitor declines consent. For publishers trying to understand what resonates, that makes decision-making much harder.
 
 Media companies and digital publishers are one of the largest groups using Plausible, from large editorial teams and SEO-driven sites to indie blogs, newsletters and creator-led publications. Plausible gives you accurate, privacy-friendly analytics with no cookie banners, up and running in minutes, with everything you need on one page.
+
+> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Website analytics for publishers and content creators](/uploads/plausible-bloggers-creators.png "Website analytics for publishers and content creators")
 

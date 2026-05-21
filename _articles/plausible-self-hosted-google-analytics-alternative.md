@@ -4,6 +4,7 @@ title: "Plausible: Self-Hosted Google Analytics alternative"
 description: Plausible Analytics is a privacy-friendly and open source Google
   Analytics alternative that you can install and self-host on your server.
 permalink: /self-hosted-web-analytics
+cta_headline: "Ready to get started with Plausible?"
 ---
 Plausible Analytics is an open source web analytics tool. Our mission is to make useful, privacy-friendly web analytics that doesn't come from the adtech world.
 
@@ -12,6 +13,15 @@ The site owner gets some actionable data to help them learn and improve, while t
 The easiest way to get started with Plausible is with our [official managed service in the cloud](https://plausible.io) but if you're happy to manage your own infrastructure, you can also self-host Plausible Community Edition (CE) on your server. Plausible CE is our "free as in beer", self-hosted and AGPL-licensed release.
 
 Our managed hosting can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of Plausible. So you’ll be supporting open source software and getting a great service.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible(‘CTA Click’, {props: {location: ‘Self-hosted hero’, button: ‘Start free trial’}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible(‘CTA Click’, {props: {location: ‘Self-hosted hero’, button: ‘View live demo’}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible: Self-hosted Google Analytics alternative](/uploads/plausible-self-hosted.png "Plausible: Self-hosted Google Analytics alternative")
 
