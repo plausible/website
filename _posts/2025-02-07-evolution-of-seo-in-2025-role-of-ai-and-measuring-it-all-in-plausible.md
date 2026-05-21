@@ -19,7 +19,7 @@ Meanwhile AI is being adopted more and more all over the world, privacy-consciou
 1. Ordered list
 {:toc}
 
-## Is SEO dead in 2025?
+## Is SEO dead?
 
 This is a good time to revisit what SEO even means. “Search Engine Optimization” is the method of optimizing whatever content you push on the web in a way that search engines like to present it (preferably on the first page of search results) to the people who search for related queries.
 

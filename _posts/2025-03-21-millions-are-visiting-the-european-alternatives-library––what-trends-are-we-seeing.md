@@ -13,18 +13,18 @@ image-alt: eu-alternatives-traffic-graph
 ---
 ☝️That’s a screenshot from the publicly open Plausible Analytics dashboard of the European Alternatives [website](https://european-alternatives.eu/), featuring independent, privacy-friendly digital tools.
 
-With almost 2M visitors, 2.3M total visits, and 8.5M pageviews, this library is no longer a niche project—it’s the go-to destination for users looking for independent, privacy-friendly tools. Over 1 million of the ~2 million all-time visitors came in 2025 alone—and we’re only in March.
+With almost 2M visitors, 2.3M total visits, and 8.5M pageviews, this library is no longer a niche project—it’s the go-to destination for users looking for independent, privacy-friendly tools. Over 1 million of the ~2 million all-time visitors came in 2025 alone.
 
 Let’s use the analytics [dashboard](https://plausible.io/european-alternatives.eu) to see what trends are emerging and what is the demand looking like for EU-built, privacy-friendly tech.
 
 1. Ordered list
 {:toc}
 
-## 1100% surge in 2025 traffic
+## 1100% traffic surge
 
 If we filter the dashboard by “Year to date” period, i.e. 2025 so far, we see there have been 1.3 million visitors to the website, with a surge of 1.1K%. 
 
-![1100% surge in 2025 traffic](/uploads/2025-stats-for-eu-alternatives.png "1100% surge in 2025 traffic")
+![1100% traffic surge](/uploads/2025-stats-for-eu-alternatives.png "1100% traffic surge")
 
 Another interesting number is the “time on page,” which is 2m47s spent on average. This goes on to show that people are interested and engaging well with the library.
 

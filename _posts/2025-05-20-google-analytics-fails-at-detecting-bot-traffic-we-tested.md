@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Analytics counts bots as real traffic [New Test]
+title: Google Analytics counts bots as real traffic
 description: We simulated bot traffic to a test site. Google Analytics recorded
   it as real traffic. Plausible rejected it all.
 slug: testing-bot-traffic-filtering-google-analytics
