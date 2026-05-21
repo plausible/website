@@ -378,7 +378,7 @@ AWStats is a free powerful and featureful open source tool that generates advanc
 
 More than 35% of all websites on the web use WordPress as the content management system. There are some WordPress exclusive and WordPress native ways to get website analytics. The same is the case for many of the other platforms.
 
-Plausible has a WordPress plugin too. You can [read more here](https://plausible.io/wordpress-analytics-plugin). Here are some of the best [Wordpress analytics plugins](https://plausible.io/blog/best-wordpress-analytics-plugins).
+Plausible has a [WordPress analytics plugin](https://plausible.io/wordpress-analytics-plugin) too. Here are some of the best [Wordpress analytics plugins](https://plausible.io/blog/best-wordpress-analytics-plugins).
 
 ### Koko Analytics
 

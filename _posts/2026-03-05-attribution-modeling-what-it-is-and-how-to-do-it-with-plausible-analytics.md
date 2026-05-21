@@ -183,7 +183,7 @@ P.S. [Bonus read](https://plausible.io/blog/analyzing-landing-pages): How to ana
 
 ### 4. UTM parameters for campaign-level attribution
 
-[UTM tagging](https://plausible.io/blog/utm-tracking-tags) is critical for clean campaign attribution. You can standardize parameters such as *utm_source, utm_medium, utm_campaign*.
+[UTM tagging](https://plausible.io/blog/utm-tracking-tags) is critical for clean campaign attribution. You can standardize parameters such as *utm_source, utm_medium, utm_campaign*. Use the [UTM builder](https://plausible.io/utm-builder) to generate correctly formatted links, or the [UTM checker](https://plausible.io/utm-checker) to validate and clean existing ones.
 
 When links are consistently tagged, Plausible lets you break down conversions by campaign.
 

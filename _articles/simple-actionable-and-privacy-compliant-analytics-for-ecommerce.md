@@ -72,7 +72,7 @@ Plausible has full UTM tag support out of the box. You can:
 * Analyze individual posts, influencers or affiliate partners
 * Measure guest blogging and content syndication
 
-See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)".
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming splits your campaign data.
 
 ### Set up goals and events to track conversions
 

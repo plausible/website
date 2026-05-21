@@ -135,6 +135,8 @@ When I work, I spend most of my energy tackling the toughest problems that direc
 
 So that’s about GA. Their product-market-fit is maaad. GA stands for web analytics, and web analytics is interchangeable for GA. But since they refuse to change, the privacy-caring alternatives are slowly and steadily taking the wheel.
 
+If you’re weighing up your options, see [how Plausible compares to GA4](/vs-google-analytics).
+
 - - -
 
 Do you genuinely enjoy using GA4? If yes, I want to know your perspective, and what is it that you do differently to make it all worth it. Write in at [hricha@plausible.io](mailto:hricha@plausible.io).

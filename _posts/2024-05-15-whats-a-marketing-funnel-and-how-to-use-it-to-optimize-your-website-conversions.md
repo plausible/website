@@ -2,12 +2,12 @@
 layout: post
 title: What's a marketing funnel and how to use it to optimize your website
   conversions
-description: In a nutshell, funnel optimization is the constant process of
-  engineering the closest path of similarity between a target audience’s
-  preferred buying journey and the journey (funnel) a business would typically
-  want them to take.
+description: Learn how to build, track, and optimize marketing funnels. Covers
+  funnel analytics, conversion funnel tracking, and how to use Plausible to find
+  where visitors drop off.
 slug: funnels-conversion-optimization
 date: 2024-05-15T19:00:03.647Z
+last_modified_at: 2026-05-21T00:00:00.000Z
 author: hricha-shandily
 image: /uploads/marketing-funnel-example.png
 image-alt: Marketing funnel optimization example
@@ -104,7 +104,7 @@ Eventually, you’ll find out how your buyers behave, how you can get them close
 
 ## How to track marketing funnels?
 
-The largest part of your funnel exists on your website, since that’s where maximum visitors come, and interact with assets like demo request forms, blog posts, sign up buttons, pricing page, subscription forms, landing pages, promos, various links, etc. All web analytics tools can come in handy to create and track funnels.
+The largest part of your funnel exists on your website, since that’s where maximum visitors come, and interact with assets like demo request forms, blog posts, sign up buttons, pricing page, subscription forms, landing pages, promos, various links, etc. All web analytics tools can come in handy for conversion funnel tracking.
 
 Web analytics tools can track all types of events on a website like pageviews, purchases, signups, button clicks, form submissions, etc. Some events are tracked by default, while others can be added with custom code snippets.
 
@@ -112,7 +112,7 @@ You can mark such events as goals, and simply weave those goals into specific fu
 
 This gives enough data to conduct qualitative analysis, understand buyer personas better, conduct A/B tests and other marketing experiments to optimize the funnel in question.
 
-You can create your funnels in seconds in privacy-first and simple-to-use web analytics tools. The biggest advantage is that the data you can get with a privacy-centric tool like Plausible is more truthful because we [don’t use ML to model presumed analytics](https://plausible.io/blog/consent-mode-ga4-modeled-data) to fill in data gaps that stem from cookie consent banner declines.
+You can do funnel analytics in seconds with a privacy-first tool like Plausible. The biggest advantage is that the data you can get with a privacy-centric tool like Plausible is more truthful because we [don’t use ML to model presumed analytics](https://plausible.io/blog/consent-mode-ga4-modeled-data) to fill in data gaps that stem from cookie consent banner declines.
 
 For eg. one of the funnel goals we track at Plausible is how many website visitors complete the entire sign up flow. This starts with clicking the “Start Free Trial” or “Get Started” button on the website and landing on the registration page, followed by submitting contact information, followed by activating the account with OTP verification, and finally adding the specific website’s URL that needs to be tracked.
 

@@ -271,7 +271,7 @@ These tools are good with providing metrics that are [sufficient](https://plausi
 * Closely monitor the performance of your campaigns to adjust strategies based on the new kinds of data and reporting available.
 * Keep active with the latest developments, since all the newer tech and tools are constantly evolving themselves. Stay flexible.
 * Stick to the basics. Even with evolving technologies and strategies, the fundamentals of advertising remain the same. Like, with search engine advertising, your ad position continues to be determined by a combination of quality score and CPC bids.
-* Stick to UTM tracking to track and attribute conversions to specific campaigns, channels, or ads. This is a transparent way to precisely monitor the performance of your paid campaigns.
+* Stick to UTM tracking to track and attribute conversions to specific campaigns, channels, or ads. This is a transparent way to precisely monitor the performance of your paid campaigns. Use the [UTM builder](https://plausible.io/utm-builder) to generate correctly tagged links, or the [UTM checker](https://plausible.io/utm-checker) to validate existing ones.
 * Use the [ad cost calculator](https://plausible.io/ad-cost-calculator) to calculate your CPC, CPM and CPA from your campaign numbers.
 
 ### Spread your assets
