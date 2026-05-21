@@ -5,14 +5,26 @@ description: Simple web analytics that shows you what matters, nothing more. One
   dashboard, no complex menus, no cookies, no consent banners. See your data the moment
   you install it.
 permalink: /simple-web-analytics
+cta_headline: "Ready for analytics that just makes sense?"
 ---
 Most analytics tools give you more data than you need and make it hard to find what matters. [Plausible](https://plausible.io/) takes a different approach: one page, the metrics that count, no setup required.
 
 Thousands of organizations have switched from Google Analytics to Plausible, including Oatly, LoveFrom and the Steve Jobs Archive.
 
-![simpler google analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: simpler google analytics alternative")
+> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
+>
+> "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4." -- Cyrus Shepard, SEO consultant and former Moz lead
 
-**[See how simple it is](https://plausible.io/plausible.io)**
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
+
+![simpler google analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: simpler google analytics alternative")
 
 1. Ordered list
 {:toc}
@@ -39,10 +51,6 @@ Whether you're running a blog, a SaaS product or an online store, Plausible give
 * **Revenue tracking** (for ecommerce)
 
 No menus to dig through. No custom reports to build. No prior experience needed. Everything is on one page, filterable by any dimension, with the ability to compare time periods.
-
-> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
->
-> "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4." -- Cyrus Shepard, SEO consultant and former Moz lead
 
 ## More ways Plausible keeps things simple
 

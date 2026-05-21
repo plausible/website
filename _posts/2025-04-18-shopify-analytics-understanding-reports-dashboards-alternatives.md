@@ -338,3 +338,60 @@ Plausible replaces GA4 entirely for most Shopify merchants. Simpler to set up, m
 The honest tradeoff: if you need BigQuery data export or Google Ads attribution within one platform, GA4 still has the edge. For everything else, Plausible gives you better data with less effort.
 
 [Try Plausible free for 30 days](https://plausible.io/register) or go straight to the [Shopify integration guide](https://plausible.io/docs/shopify-integration) to set up ecommerce tracking.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Shopify have built-in analytics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Shopify includes a built-in reporting system with an overview dashboard, 60+ reports and a live view. It is available on all pricing plans with no setup required. The tradeoff is that it relies on cookies, requires a consent banner and only covers your Shopify store, not your wider web presence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need Google Analytics for my Shopify store?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. GA4 adds deeper behavior analysis and cross-domain tracking, but it requires complex setup, a cookie consent banner and comes with known accuracy issues from ad blocker blocking. Many merchants switch to Plausible instead: simpler to configure, more accurate because it does not depend on cookie consent and no compliance overhead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Shopify Analytics accurate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partially. Because Shopify's tracking relies on cookies, any visitor who declines your consent banner is not tracked. That includes completed checkouts, which means your conversion rate data will be lower than reality. Tools that do not use cookies can count more of your actual visitors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use Plausible Analytics with Shopify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Add the Plausible script to your theme.liquid file and you have full web analytics running immediately. For ecommerce tracking including add to cart, checkout and purchases with revenue, Plausible provides a Shopify integration guide using a custom pixel in Shopify's Customer Events system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace Google Analytics with Plausible on Shopify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most Shopify merchants, yes. Plausible covers traffic sources, top pages, conversions, revenue and goal funnels in one dashboard without cookies or consent banners. The main case for keeping GA4 is if you need BigQuery data export or tightly integrated Google Ads attribution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Plausible track ecommerce events on Shopify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can track add to cart, checkout started, payment info added and completed purchases, all with revenue attribution. Custom properties let you break down sales by product title, category or any other dimension you define."
+      }
+    }
+  ]
+}
+</script>

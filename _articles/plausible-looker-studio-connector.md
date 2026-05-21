@@ -3,12 +3,20 @@ layout: article
 title: "Plausible Analytics Looker Studio connector: custom reports, no extra complexity"
 description: Build custom analytics dashboards and reports directly from your Plausible data. Combine it with ad spend, CRM data or any other source in Google Looker Studio.
 permalink: /looker-studio-connector
+cta_headline: "Ready to build custom reports with your Plausible data?"
 ---
 Plausible keeps its dashboard intentionally simple. But some workflows need more: custom layouts for clients, reports that blend analytics with ad spend or revenue data or views that go beyond what any fixed dashboard can offer. The official Plausible Looker Studio connector is built for those cases.
 
 Looker Studio is Google's free data visualization tool. Connect it to Plausible and you can build any report you want: your data, your layout, your audience.
 
-<div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8"> <div class="rounded-md shadow"> <a href="https://lookerstudio.google.com/datasources/create?connectorId=AKfycbz88iSK4B6V-VoaiwocFu2dDp3CBRM0arAZoDjQ97SroAt9RtzgS6z3UCxpjJDi0ieVjQ" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Looker Studio</a> </div> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://plausible.io/plausible.io" onclick="plausible('CTA Click', {props: {location: 'Looker Studio article', button: 'Live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Live demo</a> </div> </div>
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible Analytics Looker Studio connector](/uploads/looker-studio-report.png "Plausible Analytics Looker Studio connector")
 

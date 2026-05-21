@@ -3,12 +3,22 @@ layout: article
 title: "Plausible: The more accurate alternative to Google Analytics"
 description: Google Analytics misses more data than most site owners realize. Here's how Plausible delivers more accurate numbers by design.
 permalink: /most-accurate-web-analytics
+cta_headline: "Ready for analytics numbers you can actually trust?"
 ---
 “Every number in your Google Analytics account is wrong.” That is exactly what an independent [study](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) by Orbit Media found.
 
 This happens for several reasons: consent banner declines, spam and bot traffic, tracking scripts blocked by privacy-first browsers and ad blockers. Google Analytics has no solid solution to any of them. Site owners who switch to Plausible consistently see higher numbers than they ever did in GA.
 
 Here’s what we do differently.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible(‘CTA Click’, {props: {location: ‘Most accurate hero’, button: ‘Start free trial’}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible(‘CTA Click’, {props: {location: ‘Most accurate hero’, button: ‘View live demo’}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![plausible-most-accurate-web-analytics](/uploads/plausible-most-accurate-web-analytics.png "plausible-most-accurate-web-analytics")
 

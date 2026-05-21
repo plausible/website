@@ -3,10 +3,20 @@ layout: article
 title: "Web analytics for ecommerce: simple, accurate and privacy-friendly"
 description: Web analytics for ecommerce that doesn't rely on cookies or consent banners. Simple dashboard, accurate data not blocked by ad blockers and a privacy-friendly alternative to Google Analytics.
 permalink: /for-ecommerce
+cta_headline: "Ready for accurate ecommerce analytics?"
 ---
 If you run an ecommerce store, you need to know what's driving traffic and conversions. The question isn't whether to track analytics, it's whether Google Analytics is actually giving you reliable data and whether the complexity is worth it.
 
 For most teams, it isn't. Plausible gives you everything that matters: campaign tracking, conversion goals, revenue attribution, funnels and accurate traffic data. Without the setup overhead, cookie banners or the data quality problems that come with GA.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Website analytics for ecommerce](/uploads/plausible-ecommerce-saas.png "Website analytics for ecommerce")
 

@@ -3,10 +3,22 @@ layout: article
 title: "Plausible vs Matomo: A simple, privacy-first alternative"
 description: Plausible and Matomo are both open source analytics tools. Here's how they differ on simplicity, privacy, performance and setup.
 permalink: /vs-matomo
+cta_headline: "Ready to switch from Matomo to something simpler?"
 ---
 Most people comparing Matomo and Plausible are trying to move away from Google Analytics. Both tools get you there, but they take very different approaches. This page covers how they compare on simplicity, privacy, performance and setup.
 
 Matomo, formerly known as Piwik, was founded in 2007 and is the most well known open source alternative to Google Analytics. [Plausible Analytics](https://plausible.io) launched in 2019 and has grown to become a widely used alternative. Let's look at where they differ.
+
+> "I really like the simplicity of the dashboard, not bloated with countless options and tabs. I know exactly where to look." -- Tomzur, co-founder of Kinsta
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible as a great Matomo alternative](/uploads/plausible-vs-matomo.png "Plausible as a great Matomo alternative")
 

@@ -4,6 +4,7 @@ title: "Plausible vs Google Analytics: A simpler, more private alternative"
 description: Plausible is a simpler, more accurate and privacy-friendly alternative
   to Google Analytics. No cookies, no consent banners, GDPR-compliant and open source.
 permalink: /vs-google-analytics
+cta_headline: "Ready to make the switch from Google Analytics?"
 ---
 
 Most website owners use Google Analytics because it's the default, not because it's the best fit for their needs. GA4 has made things more complicated, not less, and there are real reasons to question whether it's still the right choice for your site.
@@ -19,6 +20,19 @@ Here's how Plausible compares and what you actually get by switching.
 | Data modeled or estimated | No | Yes |
 | Hosted in the EU | Yes | No |
 | Open source | Yes | No |
+
+> "Been a very happy customer of Plausible at Basecamp. Wonderful to see domains like web stats that were once a wasteland due to monopoly weight spring new, better options ❤️" -- DHH, Co-founder and CTO at 37signals
+>
+> "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA." -- John O'Nolan, Founder and CEO at Ghost
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible vs Google Analytics comparison](/uploads/plausible-vs-ga.png "Plausible vs Google Analytics comparison")
 

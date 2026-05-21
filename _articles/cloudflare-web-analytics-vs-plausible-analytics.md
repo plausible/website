@@ -3,8 +3,18 @@ layout: article
 title: "Cloudflare Web Analytics vs Plausible: A dedicated tool vs a side feature"
 description: Cloudflare Web Analytics and Plausible are both simple, privacy-friendly alternatives to Google Analytics. Here's how they compare on accuracy, features, data retention and transparency.
 permalink: /vs-cloudflare-web-analytics
+cta_headline: "Ready for a dedicated analytics tool?"
 ---
 Cloudflare Web Analytics entered the simple, privacy-first analytics market as a free alternative to Google Analytics. It's worth understanding exactly what you're getting and how it compares to a dedicated analytics tool like Plausible.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Cloudflare Web Analytics vs Plausible Analytics](/uploads/plausible-vs-cloudlare-analytics.png "Cloudflare Web Analytics vs Plausible Analytics")
 

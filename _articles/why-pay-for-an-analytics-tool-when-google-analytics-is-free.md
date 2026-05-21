@@ -3,12 +3,24 @@ layout: article
 title: Why pay for an analytics tool when Google Analytics is free?
 description: Google Analytics isn't free. Here's what it costs in time, compliance risk and missing data, and why Plausible is a better deal.
 permalink: /paid-analytics-vs-free-ga
+cta_headline: "Ready to see what better analytics looks like?"
 ---
 Google Analytics has been the default analytics tool for years. Installing it is habit, and because it carries no subscription fee, the cost feels like zero.
 
 But "free" is doing a lot of work in that sentence. The actual cost shows up in time spent learning a complex tool, in compliance overhead, in missing data and in what Google does with the data you hand over.
 
 This page breaks down what GA actually costs and why a small subscription fee for Plausible is a better deal.
+
+> "Just replaced my full network's Google Analytics with Plausible - I can't remember when last I was this impressed by a SaaS UX + design. Became a paying customer within 1hr of the 30-day trial." -- Rob Hope, product designer and founder
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![why pay for plausible analytics](/uploads/plausible-paid-analytics-vs-free-ga.png "why pay for plausible analytics")
 

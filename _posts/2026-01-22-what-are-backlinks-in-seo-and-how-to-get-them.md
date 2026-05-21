@@ -370,3 +370,36 @@ Use this carefully though. Google is generally good at ignoring low quality link
 The only way to know if your backlinks are sending traffic is to measure it. [Plausible](https://plausible.io/simple-web-analytics) shows referral and organic traffic side by side, lets you filter by source, and connects traffic to conversions. No cookies, no personal data collection, one script tag to install.
 
 [Start your free trial →](https://plausible.io/register)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How to find competitors' backlinks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use an SEO tool such as Morning Score, Semrush or Neil Patel. Enter a competitor's domain and open their backlinks or referring domains report. This shows you which websites link to them, which pages attract the most links, and what anchor text is being used. You can also search Google for things like 'best tools for [your industry]' or '[competitor name] review' to uncover links that may not be obvious at first glance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many backlinks do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no fixed number. It depends on how competitive your niche is, the authority of your site compared to competitors, and the quality of backlinks, not just the quantity. A good rule of thumb is to look at the pages currently ranking for your target keywords and aim to earn links of similar or better quality. Focus on earning better links than your competitors, not simply more links."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to disavow backlinks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Disavowing backlinks means telling Google to ignore certain links pointing to your site. You should only do this if you believe harmful or spammy backlinks are negatively affecting your site and you cannot get them removed manually. Create a list of links to disavow and upload it to the Disavow links tool in Google Search Console. Use this carefully as Google is generally good at ignoring low quality links on its own."
+      }
+    }
+  ]
+}
+</script>

@@ -3,11 +3,23 @@ layout: article
 title: "How to migrate from Google Analytics to Plausible"
 description: "A practical guide to switching from GA4 to Plausible. Import your historical data, recreate your reports and understand what changes."
 permalink: /migrate-from-google-analytics
+cta_headline: "Ready to leave Google Analytics behind?"
 ---
 
 If you have decided to leave GA4, this guide covers the practical steps: importing your data, setting up goals and tracking, and understanding what will feel different.
 
 This is not a comparison page. If you are still deciding, start with [Plausible vs Google Analytics](/vs-google-analytics). If you are ready to switch, read on.
+
+> "Just replaced my full network's Google Analytics with Plausible - I can't remember when last I was this impressed by a SaaS UX + design. Became a paying customer within 1hr of the 30-day trial." -- Rob Hope, product designer and founder
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Plausible vs Google Analytics comparison](/uploads/plausible-vs-ga.png "Plausible vs Google Analytics comparison")
 

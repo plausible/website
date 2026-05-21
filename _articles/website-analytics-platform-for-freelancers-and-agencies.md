@@ -5,10 +5,22 @@ description: "Manage all your client sites from one Plausible account. Share liv
   dashboards or scheduled email reports. No cookies, no consent banners, full GDPR
   compliance built in."
 permalink: /for-freelancers-agencies
+cta_headline: "Ready to make client analytics simple?"
 ---
 Google Analytics is the default choice for most agencies, but that doesn't mean it's the right one. It's complex to set up, hard for clients to understand, not privacy-friendly and increasingly blocked by browsers, which means missing data.
 
 Plausible is a privacy-first alternative that's built around how agencies actually work. One clean dashboard, easy client sharing, multi-site management and full GDPR compliance out of the box. It takes minutes to install and requires no ongoing maintenance or training.
+
+> "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4." -- Cyrus Shepard, SEO consultant and former Moz lead
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![Google Analytics alternative for agencies, freelancers and consultants](/uploads/plausible-freelancers-agencies.png "Google Analytics alternative for agencies, freelancers and consultants")
 

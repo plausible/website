@@ -1,16 +1,24 @@
 ---
 layout: article
 title: "White label web analytics for agencies and SaaS teams"
-description: "Embed a complete privacy-first analytics dashboard into your product
-  or client portal. No Plausible branding, no cookies, no consent banners. Trusted
-  by Prezly and teams worldwide."
+description: "Embed a white-label analytics dashboard into your product or client portal. No Plausible branding, no cookies, no consent banners. Used by agencies and SaaS teams worldwide."
 permalink: /white-label-web-analytics
+cta_headline: "Ready to embed analytics into your product?"
 ---
-Building analytics into your product from scratch takes significant time and ongoing maintenance. Plausible gives you a complete, privacy-first analytics product you can integrate directly into your own, with no Plausible branding visible to your customers.
+Building analytics into your product from scratch takes significant time and ongoing maintenance. Plausible gives you a complete, privacy-first white-label analytics product you can integrate directly into your own, with no Plausible branding visible to your customers.
 
 Because we don't use cookies or collect personal data, your customers won't need consent banners or worry about GDPR compliance on the analytics side. All visitor data stays on EU-owned infrastructure. The dashboard is fast, clean and easy to use with no training required.
 
-Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers. We're an independent, bootstrapped startup launched in 2019, funded solely by our subscribers. You can see a live example at [our demo](https://plausible.io/plausible.io).
+Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers. We're an independent, bootstrapped startup launched in 2019, funded solely by our subscribers.
+
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'top', button: 'View live demo'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">View live demo</a>
+  </div>
+</div>
 
 ![White label web analytics for agencies and SaaS teams](/uploads/plausible-whitelabel.png "Plausible: White label web analytics")
 
@@ -25,7 +33,7 @@ Two types of teams typically embed Plausible into their product or service.
 
 **Agencies** who manage client sites and want to present analytics under their own brand. Rather than pointing clients to a third-party tool, you can surface their data inside your own client portal, reporting interface or branded dashboard.
 
-## Why build vs buy favours embedding
+## Why teams choose white-label analytics over building from scratch
 
 Building web analytics from scratch means owning data collection, storage, aggregation, visualization and ongoing maintenance. You also need to handle privacy compliance, bot filtering, adblocker bypass and scale. Each of those is a real engineering project.
 
@@ -33,9 +41,9 @@ Plausible handles all of it. You get a production-ready, privacy-compliant analy
 
 ## How Prezly uses it in production
 
-[Prezly](https://www.prezly.com/feature/pr-analytics-tool), a storytelling platform for PR teams, embeds Plausible to provide web analytics to thousands of their customers. Brands like Sennheiser, Nintendo, IKEA, Sony, Edelman and Weber Shandwick use Prezly's analytics, all powered by Plausible behind the scenes with no Plausible branding visible.
+"Powered by web analytics good guys Plausible." That's how [Prezly](https://www.prezly.com/feature/pr-analytics-tool) describes the analytics they've built into their storytelling platform for PR teams. They [chose Plausible](https://www.prezly.com/changelog/meet-your-new-analytics-dashboard) for the team's strong ethics and the tool's accessibility, and use it on their own site too, not just for customers.
 
-Prezly promotes the analytics as a core product feature on their homepage and actively links to it in their marketing. They've also published [Prezly Insights](https://www.prezly.com/insights), a study drawing on aggregated data from across their customers' dashboards.
+They embed Plausible to provide web analytics to thousands of their customers with no Plausible branding visible. Brands like Sennheiser, Nintendo, IKEA, Sony, Edelman and Weber Shandwick use Prezly's analytics, all powered by Plausible behind the scenes. Prezly promotes the analytics as a core product feature and has published [Prezly Insights](https://www.prezly.com/insights), a study drawing on aggregated data from across their customers' dashboards.
 
 This is the typical pattern: one integration, managed once, that works automatically for every customer they onboard.
 
@@ -89,6 +97,20 @@ Consolidated View aggregates stats from all your sites into one combined dashboa
 
 Learn more about [the consolidated view functionality](https://plausible.io/docs/consolidated-views).
 
+## Frequently asked questions
+
+**What is white-label analytics?**
+White-label analytics (sometimes called private-label analytics) is an analytics product you integrate into your own under your own brand. Your customers see your dashboard, your design, your name. The underlying analytics infrastructure is Plausible's.
+
+**How do I set it up?**
+The quickest path is the embedded dashboard: create a shared link via the Sites API, then embed the iframe in your product. The full process typically takes a day or two of integration work. If you need more control over the presentation, the Stats API lets you pull individual metrics and build a fully custom UI.
+
+**Which plan includes white-label features?**
+The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. The Sites API, managed proxy and large-scale multi-site setups require an enterprise plan.
+
+**Can I match the dashboard to my brand?**
+Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch.
+
 ## Try it free for 30 days
 
 [Start your free trial](https://plausible.io/register) to explore Plausible and test the integration into your product. No credit card required.
@@ -96,3 +118,44 @@ Learn more about [the consolidated view functionality](https://plausible.io/docs
 The embedded dashboard, Stats API, Consolidated View and custom proxy are all available during the trial and on Business plans. If you need the Sites API, a managed proxy or want to track more than 10 websites, [get in touch about an enterprise plan](https://plausible.io/enterprise-web-analytics).
 
 [Contact us](https://plausible.io/contact) if you have any questions about integrating Plausible into your product.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is white-label analytics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "White-label analytics (sometimes called private-label analytics) is an analytics product you integrate into your own under your own brand. Your customers see your dashboard, your design, your name. The underlying analytics infrastructure is Plausible's."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I set it up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The quickest path is the embedded dashboard: create a shared link via the Sites API, then embed the iframe in your product. The full process typically takes a day or two of integration work. If you need more control over the presentation, the Stats API lets you pull individual metrics and build a fully custom UI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which plan includes white-label features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. The Sites API, managed proxy and large-scale multi-site setups require an enterprise plan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I match the dashboard to my brand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch."
+      }
+    }
+  ]
+}
+</script>
