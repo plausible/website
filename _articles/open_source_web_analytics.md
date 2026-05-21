@@ -9,6 +9,24 @@ cta_headline: "Ready to try open source analytics?"
 ---
 Most analytics tools are black boxes. You add their script to your site, hand over your visitor data with no way to verify how it's actually handled. Plausible is different: the entire codebase is public, auditable and available for anyone to inspect or run themselves.
 
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "I mainly use Plausible for my site's analytics. I really like them: they're privacy-focused, open source and show me exactly the subset of data I want to see. Most importantly, they don't set cookies."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Simon Willison</span>, co-creator of Django
+  </figcaption>
+</figure>
+
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "The Rails Foundation is committed to ensuring the privacy of our website visitors. To achieve this, we use Plausible as our web analytics tool. Plausible's primary goal is to track overall trends in website traffic, not individual visitors. Therefore, they do not use cookies or generate persistent identifiers, and they do not collect or store any personal or identifiable data."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Rails Foundation</span>, official privacy policy
+  </figcaption>
+</figure>
+
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">
     <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>

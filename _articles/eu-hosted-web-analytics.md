@@ -11,6 +11,24 @@ Plausible Analytics is incorporated in Estonia, built by a team based in the EU 
 
 This is not a configuration option or an add-on. It is simply how Plausible works.
 
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "The Rails Foundation is committed to ensuring the privacy of our website visitors. To achieve this, we use Plausible as our web analytics tool. Plausible's primary goal is to track overall trends in website traffic, not individual visitors. Therefore, they do not use cookies or generate persistent identifiers, and they do not collect or store any personal or identifiable data."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Rails Foundation</span>, official privacy policy
+  </figcaption>
+</figure>
+
+<figure class="my-6 pl-5 border-l-4 border-indigo-200">
+  <p class="italic text-gray-700 leading-relaxed">
+    "We are proud to be a part of preserving the privacy of companies and individuals on the internet, and celebrating tools like Plausible which enable actionable insights for companies like ours without compromising our core values."
+  </p>
+  <figcaption class="mt-2 text-sm text-gray-500">
+    <span class="font-semibold text-gray-700">Ivar Østhus</span>, CTO and co-founder at Unleash
+  </figcaption>
+</figure>
+
 <div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">
     <a href="/register" onclick="plausible('CTA Click', {props: {position: 'top', button: 'Start free trial'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">Start free trial</a>
