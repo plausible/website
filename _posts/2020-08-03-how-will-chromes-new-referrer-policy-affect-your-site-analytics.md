@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Chrome's new referrer policy affects your site analytics
+title: How Chrome's default referrer policy affects your site analytics
 description: In Chrome 85 Google changed its default referrer policy to
   strict-origin-when-cross-origin. Here's how that change affects your website
   analytics.
@@ -8,7 +8,7 @@ slug: referrer-policy
 date: 2020-08-03T13:05:55.629Z
 author: marko-saric
 image: /uploads/chrome-referrer-policy.png
-image-alt: How Chrome's new strict-origin-when-cross-origin referrer policy
+image-alt: How Chrome's default strict-origin-when-cross-origin referrer policy
   affects your site analytics
 ---
 Google's Chrome browser is the most popular web browser. It has a market share of more than 70%. Whatever new policy Chrome implements will have an affect on all websites as chances are the majority of your visitors use Chrome too.
@@ -20,7 +20,7 @@ What's a referrer policy and what does **strict-origin-when-cross-origin** even 
 1. Ordered list
 {:toc}
 
-## TL;DR: How Chrome's new referrer policy affects your analytics
+## TL;DR: How Chrome's default referrer policy affects your analytics
 
 [Web analytics tools](https://plausible.io/blog/google-analytics-alternatives) will have reduced granularity in the referral sources data. Your website analytics will still be able to show the referral source of your traffic but only on the domain level rather than the full URL. 
 
@@ -42,7 +42,7 @@ This is done using the Referer header (it is missing an R due to the original mi
 
 This mechanism can be very useful for many things including for website owners to understand which other websites talk about them, link to their content and where their website traffic is originating from.
 
-## What does Chrome's new referrer policy default do?
+## What does Chrome's default referrer policy do?
 
 From Google's [announcement](https://developers.google.com/web/updates/2020/07/referrer-policy-new-chrome-default): "strict-origin-when-cross-origin offers more privacy. With this policy, only the origin is sent in the Referer header of cross-origin requests. This prevents leaks of private data that may be accessible from other parts of the full URL such as the path and query string."
 

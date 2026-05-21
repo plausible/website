@@ -25,7 +25,7 @@ While we are at it, we did figure out some AI optimization “techniques” that
 1. Ordered list
 {:toc}
 
-## Analyzing Plausible’s AI search traffic boost in 2024
+## Analyzing Plausible’s AI search traffic boost
 
 AI traffic can be isolated using the [Sources tab](https://plausible.io/docs/top-referrers) (click on any source to filter the dashboard by it) or by straight away using the Filter button on the dashboard. We used the AI search engines we could identify from our list of Referrer URLs in the Filter modal:
 
