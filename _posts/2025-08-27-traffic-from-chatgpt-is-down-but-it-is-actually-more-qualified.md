@@ -41,7 +41,7 @@ Here are the observations:
 * Views per visit up by 11% (positive signal)
 * Bounce rate down by 3% (positive signal)
 * Visit duration up by 16% (positive signal)
-* C﻿onversion rates up, even though slightly
+* Conversion rates up, even though slightly
 
 Even though the traffic has definitely gone down for us by significant margins, **the engagement rate has improved**. 
 

@@ -124,7 +124,7 @@ Plus:
 
 You can simply filter your traffic by a revenue-marked goal, and see an overview of the sources (channels + campaigns) that brought in those sessions, the pages that received those sessions, and the devices, browsers, operating systems on which the sessions were conducted, and even get a breakdown of the revenue by exact, specific traffic sources, top/entry/exit pages, locations, browser/OS/device types, and custom properties. 
 
-*P﻿.S.* If you have an e-commerce store powered by WooCommerce, you should check out [our plugin for implementing a full e-commerce tracking setup in literally one-click](https://plausible.io/blog/woocommerce-analytics-plugin).
+*P.S.* If you have an e-commerce store powered by WooCommerce, you should check out [our plugin for implementing a full e-commerce tracking setup in literally one-click](https://plausible.io/blog/woocommerce-analytics-plugin).
 
 Assume a situation where you have an ecommerce store on [Shopify](https://plausible.io/blog/shopify-analytics) that sells hoodies and beanies. For marketing, you run Google ads, post daily on Instagram, and have some referral links from other domains. This is how you can understand which channels, campaigns, and other factors work best for your sales:
 

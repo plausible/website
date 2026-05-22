@@ -129,7 +129,7 @@ You can now see the number of external link clicks in Google Analytics, which li
 
 If you find Google Analytics cumbersome and slow to work with, you can get automated outbound link click tracking in Plausible Analytics on [our fast loading dashboard](https://plausible.io/plausible.io).
 
-## W﻿hat is Plausible Analytics?
+## What is Plausible Analytics?
 
 Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [website visitors' privacy](https://plausible.io/privacy-focused-web-analytics).
 
@@ -143,7 +143,7 @@ Don't use Google Analytics? You can get this automated external link click track
 
 First, you need to [sign up for a free trial account](https://plausible.io/). You can use it for 30 days on multiple sites.
 
-Then, simply enable “O﻿utbound links” as an optional measurement when adding a new site to your Plausible account, or at any later time in the “Site Installation” area of the “General” section in your site settings.
+Then, simply enable “Outbound links” as an optional measurement when adding a new site to your Plausible account, or at any later time in the “Site Installation” area of the “General” section in your site settings.
 
 ### Check your external link click stats in your dashboard
 

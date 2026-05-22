@@ -100,6 +100,8 @@ This is the part most people don't expect. When you use Google Analytics, you ne
 
 Because Plausible doesn't use cookies or collect personal data, no consent banner is required. Every visitor is counted. You get a more accurate picture of your traffic, not a filtered one.
 
+Oatly, for example, uses Plausible specifically for visitors who decline their cookie banner. They still get complete traffic data without collecting any personal data.
+
 ## You own your website data
 
 When using Plausible, you own and control all of your website data. Even when using our hosted service, you remain completely in control. You can delete everything we have collected about your site at any time.

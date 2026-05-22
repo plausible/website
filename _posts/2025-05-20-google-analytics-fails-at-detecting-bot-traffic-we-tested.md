@@ -48,7 +48,7 @@ The script was used to simulate two kinds of traffic patterns, 
 2. With the User-Agent set to a real looking browser, randomly selecting from 4 different valid User Agent strings.
 
    1. Once from my home network.
-   2. S﻿econdly, from data center IP addresses.
+   2. Secondly, from data center IP addresses.
 
 > 💡 In simpler terms, User-Agent strings are how browsers identify themselves to websites — like saying, “Hi, I’m Chrome on a Mac.” Bots or programs can use either a specific User Agent, for instance an API client like Postman will use \`PostmanRuntime\`, while some bots would try to masquerade as a real browser and will use a valid User-Agent.
 >
@@ -70,11 +70,11 @@ You can find the script that automated the browser [here](https://gist.github.co
 
 Alright, result time!
 
-### T﻿esting with an unusual User-Agent string
+### Testing with an unusual User-Agent string
 
 During the first round of simulating non-human traffic, we set the User-Agent to "PostmanRuntime/7.43.4" (clearly non-human request).
 
-#### R﻿esults
+#### Results
 
 Google Analytics got fooled:
 
@@ -82,7 +82,7 @@ Google Analytics got fooled:
 
 You can see traffic getting recorded in real time in the screenshot below, with 22 pageviews getting recorded.
 
-This is actually a fairly basic method of identifying non-human traffic a﻿nd I genuinely thought Google Analytics would pass this test (almost skipped this test) but to my surprise, Google Analytics failed at this.
+This is actually a fairly basic method of identifying non-human traffic and I genuinely thought Google Analytics would pass this test (almost skipped this test) but to my surprise, Google Analytics failed at this.
 
 ![GA real time dashboard showing bot traffic as real traffic](/uploads/ga-dashboard.png "GA real time dashboard showing bot traffic as real traffic")
 
@@ -98,11 +98,11 @@ Note that I didn’t actually use Postman, just posed as it using Puppeteer. Pos
 
 ![Vercel dashboard - testing 1](/uploads/vercel-dashboard-1.png "Vercel dashboard - testing 1")
 
-### T﻿esting using normal User-Agent strings
+### Testing using normal User-Agent strings
 
 During the second round, we set the User-Agent to a real looking browser, randomly selecting from 4 different valid User Agent strings.
 
-#### R﻿esults
+#### Results
 
 Google Analytics got fooled again:
 
@@ -122,13 +122,13 @@ Here’s the screenshot from Vercel:
 
 ![Vercel dashboard - testing 2](/uploads/vercel-dashboard-2.png "Vercel dashboard - testing 2")
 
-### T﻿esting with data center IP addresses
+### Testing with data center IP addresses
 
-During the third round of t﻿esting, everything was same as round two but we made the requests from data center IP addresses (one from Germany and other from USA), instead of my home network. 
+During the third round of testing, everything was same as round two but we made the requests from data center IP addresses (one from Germany and other from USA), instead of my home network. 
 
-#### R﻿esults
+#### Results
 
-Google Analytics got fooled again. 🤷‍♀️
+Google Analytics got fooled again. 🤷♀️
 
 **21 May 2025, 21:26.**
 
@@ -170,7 +170,7 @@ And congratulations to me as those 95 sessions were not just sessions, but uniqu
 
 ## Why the differences?
 
-O﻿kay, so why does this happen?
+Okay, so why does this happen?
 
 The answer lies in the way Plausible Analytics detects and excludes non-human traffic vs the way Google Analytics does.
 

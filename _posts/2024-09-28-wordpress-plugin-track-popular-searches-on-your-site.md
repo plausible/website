@@ -226,7 +226,7 @@ Key features include:
 Things to consider:
 
 * Requires an Algolia account.
-* Initial setup might be complex for users without technical knowledge, as it involves API key integration​.
+* Initial setup might be complex for users without technical knowledge, as it involves API key integration.
 
 ### WP Extended Search
 
@@ -299,7 +299,7 @@ Therefore, you need a analytics plugin in your WordPress toolkit.
 
 ## Plausible WordPress plugin for accurate site search and web analytics
 
-Plausible Analytics is a lightweight, super-simple, web analytics [plugin for WordPress](https://wordpress.org/plugins/plausible-analytics/). The best part is that all it takes is one click to enable site search terms tracking.
+Plausible Analytics is a lightweight, super-simple, web analytics [plugin for WordPress](/wordpress-analytics-plugin). The best part is that all it takes is one click to enable site search terms tracking.
 
 Plausible works regardless of the site search plugin or WordPress theme or custom code you use. If there’s a search happening on your site, with the help of any technology, Plausible can track and display the data for you.
 
@@ -362,7 +362,7 @@ Plausible Analytics is a [simpler alternative](https://plausible.io/simple-web-a
 
 Get started with Plausible Analytics by [creating a free account](https://plausible.io/register). You can test all features with a 30-day trial, with no credit card required. Just sign up with your name and email—it’s quick and easy.
 
-While this account can be used on any website, we recommend using our [official WordPress plugin](https://wordpress.org/plugins/plausible-analytics/) for a much easier and quicker installation. For doing so, head over to your WordPress dashboard and follow the following steps.
+While this account can be used on any website, we recommend using our [official WordPress plugin](/wordpress-analytics-plugin) for a much easier and quicker installation. For doing so, head over to your WordPress dashboard and follow the following steps.
 
 * Go into the “Plugins” section in the left-hand side navigation and click on “Add New.”
 * In the search box, type “Plausible Analytics” and press enter. 
@@ -372,9 +372,7 @@ While this account can be used on any website, we recommend using our [official 
 * In the 'Domain Name' field, enter the same domain from your Plausible account, but remove 'https' and 'www' (e.g., yourdomain.com).
 * Back in Plausible site settings, generate a plugin token and paste it into the 'Plugin Token' field in the plugin settings. This lets you manage everything directly in the WordPress plugin.
 
-We explain these steps, along with other useful settings than just site search tracking, in more detail in our [official WordPress plugin guide](https://plausible.io/wordpress-analytics-plugin).
-
-T﻿his way, you will ensure that the supporting data, like conversion data, effective marketing channels, traffic, geographies, etc., start collecting. Meanwhile, turn on site search tracking.
+This way, you will ensure that the supporting data, like conversion data, effective marketing channels, traffic, geographies, etc., start collecting. Meanwhile, turn on site search tracking.
 
 ### Enable site search tracking with a switch
 
@@ -384,7 +382,7 @@ In the “Enhanced measurements” section of the Plausible WordPress plugin set
 
 That’s it. Your site search tracking is activated, with no additional action required. 
 
-N﻿ow, whenever a search takes place in your site, it will be visible in your Plausible and WordPress dashboard along with the data on what was searched, how many times out of total traffic, how many results were displayed, conversion rate, etc. Let's explore this in more detail below.
+Now, whenever a search takes place in your site, it will be visible in your Plausible and WordPress dashboard along with the data on what was searched, how many times out of total traffic, how many results were displayed, conversion rate, etc. Let's explore this in more detail below.
 
 ## Plausible in action
 
@@ -400,10 +398,10 @@ You can click on this entry from the “Goals” section of the dashboard or use
 
 * **Unique & total conversions, with conversion rate**. Since “WP Seach Queries” is implemented as a goal, the conversion in this context means that successful searches were conducted.
 * Other data related to the activity that took place during the sessions in which searches were done.
-* T﻿hree auto-implemented [custom properties](https://plausible.io/docs/custom-props/introduction):
+* Three auto-implemented [custom properties](https://plausible.io/docs/custom-props/introduction):
 * * "search_query" – the exact search queries (case-sensitive) that took place. 
-  * "﻿result_count" – how many results each search returned.
-  * "﻿search_source" – which pages visitors were on when they used your site search.
+  * "result_count" – how many results each search returned.
+  * "search_source" – which pages visitors were on when they used your site search.
 
 ![WP search queries filter on Plausible dashboard](/uploads/wp-search-queries-filter.png "WP search queries filter on Plausible dashboard")
 
@@ -431,4 +429,4 @@ Apart from completing purchases, you can track any goal related to the search te
 * [Export the search statistics](https://plausible.io/docs/export-stats) as a CSV file.
 * [Link Google Search Console](https://plausible.io/docs/google-search-console-integration) with Plausible to understand search data from Google, in addition to on-site search as well.
 
-**Get started and [install the plugin for free now](https://wordpress.org/plugins/plausible-analytics/)** We are waiting to see what you do with it!
+**Get started and [install the plugin for free now](/wordpress-analytics-plugin)** We are waiting to see what you do with it!

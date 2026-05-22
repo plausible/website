@@ -107,7 +107,7 @@ Nevertheless, the use of Google Analytics requires a careful approach to meet le
 
 ### Plausible Analytics
 
-Plausible Analytics does not use cross-platform tracking and does not pass on data to third parties. It primarily uses data that is recorded by default in server logs, such as requested URLs, access times, HTTP status codes and transferred data volumes. 
+[Plausible Analytics](/cookieless-web-analytics) does not use cross-platform tracking and does not pass on data to third parties. It primarily uses data that is recorded by default in server logs, such as requested URLs, access times, HTTP status codes and transferred data volumes. 
 
 This information is used to analyze website traffic in accordance with the data protection principles of data minimization and data economy.
 

@@ -15,11 +15,11 @@ For folks using Google Ads, integrating with Google Analytics is a standard choi
 
 This particular integration also helps with creating Google Ads conversions based on GA4 key events, viewing the performance of Google Ads conversions within Google Analytics, or running retargeting campaigns on those website visitors who left without taking a desired action.
 
-B﻿ut Google Analytics is not privacy-friendly, requires a cookie consent banner to operate legally, and most importantly is not accurate at tracking Google Ads (and other campaigns for that matter). 
+But Google Analytics is not privacy-friendly, requires a cookie consent banner to operate legally, and most importantly is not accurate at tracking Google Ads (and other campaigns for that matter). 
 
 Therefore, you can track your paid campaigns and how they affect conversions on your site, using Plausible Analytics –– the simpler, privacy-friendly (no consent banner required), and more accurate alternative to Google Analytics.
 
-I﻿n this article, we cover Plausible Analytics as an alternative to Google Analytics for tracking paid campaigns, especially Google Ads, better. We also share what all cannot be done with Plausible <> Google Ads due to our privacy-friendly nature.
+In this article, we cover Plausible Analytics as an alternative to Google Analytics for tracking paid campaigns, especially Google Ads, better. We also share what all cannot be done with Plausible <> Google Ads due to our privacy-friendly nature.
 
 1. Ordered list
 {:toc}
@@ -60,7 +60,7 @@ Please note we work with a [last-touch attribution model](https://plausible.io/b
 
 ### Tagging URLs in Google Ads
 
-W﻿hen it comes to Google Ads,﻿ you can utilize either auto-tagging or manual UTM tagging. Here’s how to do it:
+When it comes to Google Ads, you can utilize either auto-tagging or manual UTM tagging. Here’s how to do it:
 
 #### Using auto-tagging in Google Ads
 
@@ -96,7 +96,7 @@ With the auto-tagging method, you won’t be able to pinpoint the exact campaign
 
 When UTM tags are present in the URL, it takes priority over other parameters. And unlike the "gclid" and "msclkid" marketing parameters, we do not strip the values of UTM tags which provides you more context.
 
-T﻿o track your campaigns using this method, follow these steps:
+To track your campaigns using this method, follow these steps:
 
 **Step 1:** Create a UTM-tagged URL. Use the [UTM builder](https://plausible.io/utm-builder) to generate correctly formatted links, or build one manually. If you already have a tagged URL and want to validate it first, run it through the [UTM checker](https://plausible.io/utm-checker). For example: [`https://yourwebsite.com?utm_source=google&utm_medium=ppc&utm_campaign=spring_sale&utm_content=text_ad&utm_term=shoes`](https://yourwebsite.com?utm_source=google&utm_medium=ppc&utm_campaign=spring_sale&utm_content=text_ad&utm_term=shoes)``
 
@@ -165,7 +165,7 @@ With Plausible, you can easily track pageview and custom [goals](https://plausib
 
 But if you want to import this goals/conversion data into Google Ads, it is unfortunately not possible currently. Even though we provide the options to export all your stats in a [CSV](https://plausible.io/docs/export-stats) and through our [Stats API](https://plausible.io/docs/stats-api), whatever data you export stays privacy-friendly and aggregated.
 
-It is Google Ads’ requirement to use at least one of unique identifiers (﻿hashed) when importing conversion data into their interface, in order to associate conversions with specific ad clicks. It can be a GCLID, or an email ID/phone number from your CRM in case of offline conversions. Here’s the official template:
+It is Google Ads’ requirement to use at least one of unique identifiers (hashed) when importing conversion data into their interface, in order to associate conversions with specific ad clicks. It can be a GCLID, or an email ID/phone number from your CRM in case of offline conversions. Here’s the official template:
 
 ![google ads conversion import template](/uploads/google-ads-import-template.png "google ads conversion import template")
 

@@ -177,7 +177,7 @@ There’s someone who looked at Google AI overview’s [patent](https://richsang
 
 Another experiment would be to try out different content formats since Google AI overviews fetch their answers from different types of content formats like text, images, videos, etc.
 
-W﻿e also have a study on [how SEO is evolving,](https://plausible.io/blog/seo-dead) that can help you navigate it better.
+We also have a study on [how SEO is evolving,](https://plausible.io/blog/seo-dead) that can help you navigate it better.
 
 ### Consider adding an `llms.txt` file
 

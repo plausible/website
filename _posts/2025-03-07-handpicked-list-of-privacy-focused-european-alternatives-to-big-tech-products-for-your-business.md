@@ -11,7 +11,7 @@ author: hricha-shandily
 ---
 Europe has been building world-class digital tools for years. A major advantage is that many of these tools prioritize privacy and open-source development by default.
 
-[M﻿illions have been exploring European alternatives](https://plausible.io/blog/european-alternatives-trends-privacy-tech). If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives B2B.
+[Millions have been exploring European alternatives](https://plausible.io/blog/european-alternatives-trends-privacy-tech). If you’re looking for alternatives to mainstream big tech services, here’s a handpicked list of high-quality European alternatives B2B.
 
 1. Ordered list
 {:toc}
@@ -88,7 +88,7 @@ P.S. We use BunnyCDN at Plausible and have been happy users for a long time now.
 
 ### Crisp (Intercom alternative)
 
-​Crisp chat is a business messaging platform that provides a unified messaging platform with live chat, email, and chatbot automation.
+Crisp chat is a business messaging platform that provides a unified messaging platform with live chat, email, and chatbot automation.
 
 It offers features like a collaborative inbox, AI-powered chatbots, CRM integration, help desk management, etc. They also have a mobile app.
 
@@ -221,7 +221,7 @@ True to European values, Mullvad VPN has a very strong stance on privacy which i
 
 Odoo is an open-source enterprise resource planning (ERP) software that integrates multiple business applications into a single platform. They have a wide range of modules, including CRM, sales management, e-commerce, warehouse management, accounting, manufacturing, and human resources. 
 
-This modular approach helps businesses to customize the system to their specific needs for efficiency.​
+This modular approach helps businesses to customize the system to their specific needs for efficiency.
 
 **Based in:** Belgium
 
@@ -257,7 +257,7 @@ You can also self-host it.
 
 Phare Uptime is an uptime monitoring and incident management platform that continuously checks websites, APIs, and servers, alerts your team when something goes wrong, and offers customizable status pages.
 
-T﻿hey "[prioritize](https://phare.io/legal/sub-processors)European companies that use European hosting whenever possible to ensure better privacy, GDPR compliance, supporting local and lower latency."
+They "[prioritize](https://phare.io/legal/sub-processors)European companies that use European hosting whenever possible to ensure better privacy, GDPR compliance, supporting local and lower latency."
 
 * **Supporting Local**: Keep the digital economy thriving in Europe
 * **Faster Service**: Lower latency for Phare's mostly European users

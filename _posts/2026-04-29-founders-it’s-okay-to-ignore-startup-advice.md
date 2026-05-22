@@ -10,7 +10,7 @@ author: hricha-shandily
 image: /uploads/plausible-analytics-signups-organic-growth.webp
 image-alt: plausible analytics signups organic growth
 ---
-M﻿ost startup stories that get glorified are dramatic.
+Most startup stories that get glorified are dramatic.
 
 “We almost ran out of money.”
 “We had to pivot.”
@@ -26,7 +26,7 @@ So, we kept things simple: no bets we couldn’t afford to lose, no growth at al
 
 That ruled out a surprising number of “normal” startup decisions. It's what kept us alive and thriving for seven years.
 
-1. Ordered list 
+1. Ordered list
 {:toc}
 
 ## Sustaining the startup beats breakout growth
@@ -135,7 +135,7 @@ Tortoise does beat the hare.
 
 There’s this idea that building a startup is a series of intense, high-stakes moments. In our case, it might not be as true. Most weeks look the same:
 
-Work on the product. W﻿ork on the communication.
+Work on the product. Work on the communication.
 Fix something that’s broken or confusing.
 Talk to users.
 Ship an improvement. 

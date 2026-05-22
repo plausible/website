@@ -111,7 +111,7 @@ All these make cookie based web analytics provide [less accurate and incomplete 
 
 We've built [Plausible Analytics](https://plausible.io) with privacy regulations in mind. Plausible Analytics does not use cookies and does not collect any personal data. This makes us compliant with the different cookie laws and privacy regulations.
 
-The fact that Plausible is a cookieless web analytics tool means that you are not required to annoy your visitors with a cookie notice if you're using Plausible for your website statistics.
+The fact that Plausible is a [cookieless web analytics](/cookieless-web-analytics) tool means that you are not required to annoy your visitors with a cookie notice if you're using Plausible for your website statistics.
 
 By not using cookies you do not need to obtain consent from the visitors to store and retrieve data from their devices. It's one less thing to worry about and annoy your visitors with. 
 
