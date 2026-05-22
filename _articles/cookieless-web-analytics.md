@@ -3,7 +3,7 @@ layout: article
 title: "Cookieless web analytics: accurate data without the consent banner"
 description: Plausible Analytics is built cookieless by design. No persistent identifiers, no consent banners and no data gaps from visitors who declined tracking. GDPR and CCPA compliant by default.
 permalink: /cookieless-web-analytics
-cta_headline: "Ready for analytics that doesn't need a cookie banner?"
+cta_headline: "Ready for analytics without the cookie banner?"
 ---
 
 Most analytics tools were built around individual tracking. To connect a visitor's first visit to a return visit, a paid ad click to a conversion, you need a persistent identifier. Cookies became the default because they made that possible.
