@@ -13,7 +13,7 @@ Plausible has been several years into business. We’re sustainably profitable a
 
 Why? In a nutshell: saying no to investors buys us freedom. Freedom to:
 
-1. Ordered list  
+1. Ordered list 
 {:toc}
 
 ## Stay loyal to our purpose and principles, not a board of directors

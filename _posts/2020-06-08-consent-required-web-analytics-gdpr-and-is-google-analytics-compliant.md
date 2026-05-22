@@ -152,7 +152,7 @@ Read more in our post about [Google Analytics and cookies](https://plausible.io/
 
 ## Google Analytics alternatives that are GDPR compliant
 
-We built Plausible Analytics with GDPR and user privacy in mind. This means that we don't use cookies at all and that we don't collect or store any personally identifiable information. Take a look at [our data policy](https://plausible.io/data-policy) for a detailed list on the few things that we do collect and everything else we've done to minimize data collection. 
+We built Plausible Analytics with GDPR and user privacy in mind. This means that we don't use [cookies](/cookieless-web-analytics) at all and that we don't collect or store any personally identifiable information. Take a look at [our data policy](https://plausible.io/data-policy) for a detailed list on the few things that we do collect and everything else we've done to minimize data collection. 
 
 We also don't use any of the data we do collect for any advertising and behavioral profiling purposes. Our business model has nothing to do with advertising. Our product is not your website data. Our product is the website analytics tool and our business model is focused on hosting this analytics tool and charging a subscription fee for doing that.
 

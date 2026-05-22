@@ -147,7 +147,7 @@ Once registered and collecting data, custom dimensions become available in:
 
 ## Custom Properties: Plausible's simpler and effective version of custom dimensions
 
-W﻿e are Plausible Analytics, the [no-fuss alternative to GA4](https://plausible.io/vs-google-analytics)C﻿ustom Properties is our version of custom dimensions.
+We are Plausible Analytics, the [no-fuss alternative to GA4](https://plausible.io/vs-google-analytics)Custom Properties is our version of custom dimensions.
 
 We take special care in keeping your analytics setup and your dashboard [confusion-free](https://plausible.io/simple-web-analytics). Adding custom data to your pageviews or events is far more user-friendly than the setup required by GA4.
 
@@ -169,7 +169,7 @@ After Plausible receives these custom properties, you can easily filter or segme
 
 That means you can, for example, see how different authors perform, track which content types have better conversions, or break down user behavior by custom labels — all without complicated config.
 
-T﻿he best way to visualize and play around with custom properties is through our own [publicly live dashboard](https://plausible.io/plausible.io?f=is,props:browser_language,en-US).﻿
+The best way to visualize and play around with custom properties is through our own [publicly live dashboard](https://plausible.io/plausible.io?f=is,props:browser_language,en-US).
 
 ![custom props in plausible](https://plausible.io/uploads/custom-dimensions-in-web-analytics.png "custom props in plausible")
 

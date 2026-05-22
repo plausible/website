@@ -123,7 +123,7 @@ Plausible is open source but it is not free to use. There's a free 30-day trial 
 
 What insights can you get from Plausible? Plausible is simple to understand but it also provides valuable and actionable website statistics. You can track 404 error pages and external link clicks out of the box. You can track conversions and other custom events too. See [how to get started with our WordPress plugin](https://plausible.io/wordpress-analytics-plugin).
 
-<div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="https://wordpress.org/plugins/plausible-analytics/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Plausible Analytics</a> </div> </div>
+<div class="sm:flex sm:justify-start md:mt-8"> <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> <a href="/wordpress-analytics-plugin" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">Plausible Analytics</a> </div> </div>
 
 ### Insert Headers and Footers - Best for manual insertion of any analytics code
 
@@ -145,4 +145,4 @@ Paste your analytics tracking code between `<head>...</head>` tags and click on 
 
 Note that you will need to do this process every time you update your theme unless you create a child theme.
 
-P﻿.S. Check out our [compilation](https://plausible.io/blog/wordpress-plugin-for-site-search) of WordPress plugins for implementing on-site search.
+P.S. Check out our [compilation](https://plausible.io/blog/wordpress-plugin-for-site-search) of WordPress plugins for implementing on-site search.

@@ -139,6 +139,8 @@ Exports include all events tracked by Plausible (pageviews and custom events) in
 
 Once set up, these exports run automatically and deliver your data where you need it, without manual steps. This makes it easier to combine Plausible data with other sources, perform deeper analysis, and meet internal reporting or compliance requirements.
 
+See how [scheduled raw event exports](https://plausible.io/docs/raw-data-export) work.
+
 ### Sites API
 
 The [Sites API](https://plausible.io/docs/sites-api) lets you create and manage sites in your account programmatically. This is useful if you run many websites or if you're offering a web analytics dashboard powered by Plausible to your customers.

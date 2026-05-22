@@ -32,7 +32,7 @@ High bounce rates indicate low user engagement, meaning visitors may not be find
 
 ### Bounce rate formula
 
-**Bounce Rate = (Total single-page sessions / Total Sessions​) * 100**
+**Bounce Rate = (Total single-page sessions / Total Sessions) * 100**
 
 Where:
 

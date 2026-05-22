@@ -151,7 +151,7 @@ First-party data is data that is passively observed as users interact with the p
 
 This stays within the domain of your website, and does not follow the visitor around on Chrome, as and when they leave the website. It respects visitor’s boundaries, and collects only the type of data that can be used to improve your own website experience.
 
-Some examples of such first-party data are “pageviews”, “scrolls”, “outbound clicks”, “bounce rates”, “visit duration”, “traffic sources”, etc. that can be collected via privacy-friendly website analytics tools.
+Some examples of such first-party data are “pageviews”, “scrolls”, “outbound clicks”, “bounce rates”, “visit duration”, “traffic sources”, etc. that can be collected via privacy-friendly [cookieless web analytics](/cookieless-web-analytics) tools.
 
 #### Zero-party data
 

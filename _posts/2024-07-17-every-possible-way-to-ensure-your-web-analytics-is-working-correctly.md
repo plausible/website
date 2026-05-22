@@ -24,7 +24,7 @@ Web analytics tracking codes are typically JavaScript snippets. When installed o
 
 This is a general guide for checking for possible analytics installation issues that can be applied to most web analytic tracking tools.
 
-I﻿f you are comparing two analytics tools and expecting to see exact same numbers and that is the reason you're investigating if your analytics is working properly, it also might be worth checking out [this guide](https://plausible.io/blog/why-analytics-numbers-dont-match) on "Why analytics tools never show the same numbers?"
+If you are comparing two analytics tools and expecting to see exact same numbers and that is the reason you're investigating if your analytics is working properly, it also might be worth checking out [this guide](https://plausible.io/blog/why-analytics-numbers-dont-match) on "Why analytics tools never show the same numbers?"
 
 
 
@@ -36,7 +36,7 @@ The best way to quickly verify that your analytics script is working is to check
 
 Alternatively, see if you can spot some landing pages getting no or unusually little traffic. One possible cause of this could be that your website developer missed adding the tracking script to a few web pages, or you're running analytics for a Single Page Application (SPA) with a broken installation.
 
-To prevent this, make sure the script is added to the source code of every page on your site. If you’re using an official plugin, like [Plausible for WordPress](https://wordpress.org/plugins/plausible-analytics/), it can help ensure the script is properly included everywhere by default.
+To prevent this, make sure the script is added to the source code of every page on your site. If you’re using an official plugin, like [Plausible for WordPress](/wordpress-analytics-plugin), it can help ensure the script is properly included everywhere by default.
 
 If this is not it, move over to the Browser Console as explained below.
 

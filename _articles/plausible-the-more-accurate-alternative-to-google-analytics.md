@@ -69,7 +69,7 @@ You can estimate the size of your own data gap with our [cookie banner traffic l
 
 Neither do we ever track or store your visitors’ data for any reason, making us inherently privacy-friendly. This means you don’t have to use a cookie consent banner on your website just because you’re using Plausible.
 
-No consent banners means no declines and no missing data in the first place.
+No consent banners means no declines and no missing data in the first place. More on how this works in our [cookieless web analytics overview](/cookieless-web-analytics).
 
 ### Spam and bot traffic skewing data
 
@@ -216,4 +216,4 @@ More accurate data means more confident decisions. That accuracy doesn’t requi
 
 [Try Plausible free](https://plausible.io/register): no setup overhead, no consent banners, no estimated numbers. You can also follow our [GA4 to Plausible migration guide](/migrate-from-google-analytics).
 
-On WordPress? Install our official [plugin](https://wordpress.org/plugins/plausible-analytics/).
+On WordPress? Install our official [plugin](/wordpress-analytics-plugin).

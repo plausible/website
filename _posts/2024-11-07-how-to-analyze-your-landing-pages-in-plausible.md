@@ -9,26 +9,26 @@ author: hricha-shandily
 image: /uploads/pages-report-in-plausible.png
 image-alt: Pages report in Plausible dashboard
 ---
-H﻿aving a website means having landing pages and tracking the traffic and performance of pages can bring great amounts of marketing and business insights.
+Having a website means having landing pages and tracking the traffic and performance of pages can bring great amounts of marketing and business insights.
 
-L﻿et's see what are landing pages, how to easily analyze them and how to use such analysis as a site owner.
+Let's see what are landing pages, how to easily analyze them and how to use such analysis as a site owner.
 
 1. Ordered list
 {:toc}
 
-## W﻿hat is a landing page?
+## What is a landing page?
 
-L﻿iterally, a landing page is a page where visitors "land" on your website after clicking a link on social media, ad, referral, etc.
+Literally, a landing page is a page where visitors "land" on your website after clicking a link on social media, ad, referral, etc.
 
 This is a single web page usually designed with a specific intent/message: to tell about a feature, to educate about a topic (like this page), to get a form filled, to sell something, etc.
 
 A good landing page is well researched for the needs of its audience, consistent with the messaging of the content piece that brought the traffic, clear, straightforward. You can build it programmatically or with the help of a content management system.
 
-O﻿nce built, the next step is to track how many visitors each page gets, from where, how, and other performance metrics. Since a website can have many landing pages, it becomes even more important to track what's working with your audience and what's not.
+Once built, the next step is to track how many visitors each page gets, from where, how, and other performance metrics. Since a website can have many landing pages, it becomes even more important to track what's working with your audience and what's not.
 
 ## How do I see the pages with most traffic, time on page, bounce rate, exit rate, etc.?
 
-To analyze the top landing and entry/exit pages on your website, you can use a tool like Plausible Analytics. Y﻿ou can start tracking the performance of landing pages within minutes with Plausible's [standard script](https://plausible.io/lightweight-web-analytics) itself and no special settings required.
+To analyze the top landing and entry/exit pages on your website, you can use a tool like Plausible Analytics. You can start tracking the performance of landing pages within minutes with Plausible's [standard script](https://plausible.io/lightweight-web-analytics) itself and no special settings required.
 
 This helps you understand which content or features are drawing in the most traffic, allowing you to gauge interest in specific products, blog posts, pricing pages, or other important sections.
 
@@ -134,7 +134,7 @@ By understanding and addressing these cases, you can ensure your pages data rema
 
 ## How to use this information as a site owner?
 
-L﻿et's see an example first. I noticed that in October 2024, one of the top exit pages for Plausible was our [Changelog page](https://plausible.io/changelog). So I applied a filter for the same, denoted by “1” in the screenshot below.
+Let's see an example first. I noticed that in October 2024, one of the top exit pages for Plausible was our [Changelog page](https://plausible.io/changelog). So I applied a filter for the same, denoted by “1” in the screenshot below.
 
 This filtered the dashboard showing that the sessions that saw people exiting through the Changelog page, had 2.4k visitors, 7.6k pageviews, etc.
 

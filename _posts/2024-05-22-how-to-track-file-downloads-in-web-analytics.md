@@ -10,9 +10,9 @@ author: hricha-shandily
 image: /uploads/track-file-downloads.png
 image-alt: How to track file downloads in your analytics
 ---
-I﻿f you have downloadable files on your website, such as PDFs, eBooks, apps, brochures, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be done using analytics tools like Google Analytics, a privacy-friendly alternative like Plausible, or other methods.
+If you have downloadable files on your website, such as PDFs, eBooks, apps, brochures, etc., and are curious about how they are performing, i.e. which files were downloaded, from where on your website, by which audience, etc., then it can be done using analytics tools like Google Analytics, a privacy-friendly alternative like Plausible, or other methods.
 
-H﻿ere's everything you need to know about what you can track about your file downloads and how.
+Here's everything you need to know about what you can track about your file downloads and how.
 
 1. Ordered list
 {:toc}
@@ -28,9 +28,9 @@ A downloadable file on a website can be any of the following:
 * An audio, video, or PDF download, that could be anything from a song download to a research paper download.
 * Anything else.
 
-## How to track file downloads on your website w﻿ith Google Analytics 4?
+## How to track file downloads on your website with Google Analytics 4?
 
-I﻿f you use GA4, you have two options to track file downloads as outlined below. Once done, you can find your file download events in your "Events" report or create a custom report from scratch as you wish.
+If you use GA4, you have two options to track file downloads as outlined below. Once done, you can find your file download events in your "Events" report or create a custom report from scratch as you wish.
 
 ### By enabling Enhanced Measurements
 
@@ -38,7 +38,7 @@ Open your GA4 account, go to admin > data collection and modification > data str
 
 In the Enhanced measurement section, toggle the switch to On to activate all tracking options. This includes the "file downloads" tracking too.
 
-I﻿n case you want customize individual measurement options, click the gear icon and select just the tracking options you want to keep.
+In case you want customize individual measurement options, click the gear icon and select just the tracking options you want to keep.
 
 If you're using the Google tag on your site, ensure each event type is enabled for automatic tracking. By default, all events are turned on.
 
@@ -52,52 +52,52 @@ Now, when someone clicks a link on your website that points to a common file typ
 * video
 * audio
 
-**T﻿wo shortcomings of this method are:** 
+**Two shortcomings of this method are:** 
 
 * If the URL containing your file download is longer than 100 characters, the end gets cut off—which often includes the file name or extension.
 * You cannot customize the list of supported file extensions, so you are limited to: *.pdf, .xls, .xlsx, .doc, .docx, .txt, .rtf, .csv, .exe, .key, .pps, .ppt, .pptx, .7z, .pkg, .rar, .gz, .zip, .avi, .mov, .mp4, .mpe, .mpeg, .wmv, .mid, .midi, .mp3, .wav, .wma.*
 
-I﻿f you want to overcome these shortcomings, your other option is to do a custom setup:
+If you want to overcome these shortcomings, your other option is to do a custom setup:
 
 ### With Google Tag Manager
 
-H﻿ere's an overview of what you'd need to do: 
+Here's an overview of what you'd need to do: 
 
 1. Create a variable to get the file name from the clicked URL. *E.g., `guide.docx` from `https://yourdomain.com/resources/guide.docx`.*
 2. In Google Tag Manager, set up a link click trigger that detects specific file types (e.g., `.mp3`, `.zip`, `.docx`). 
 3. Create a GA4 event tag 
 4. Test your setup using GTM's preview mode + Debugview.
-5. D﻿isable file download tracking as an enhanced measurement.
+5. Disable file download tracking as an enhanced measurement.
 
-T﻿his is a complicated and lengthy process, and requires access to technical resources or a GA/GTM agency  that can execute the setup for you. There are a couple of other issues as well. 
+This is a complicated and lengthy process, and requires access to technical resources or a GA/GTM agency  that can execute the setup for you. There are a couple of other issues as well. 
 
-## P﻿roblems with tracking file downloads with GA4
+## Problems with tracking file downloads with GA4
 
-W﻿hether you use the flexible method using Google Tag Manager or the Enhanced Measurement, you'll be prone to the following issues:
+Whether you use the flexible method using Google Tag Manager or the Enhanced Measurement, you'll be prone to the following issues:
 
-* Y﻿ou will end up missing some file downloads data as Google Analytics script is widely blocked by various internet users using ad blockers, privacy-friendly browsers. This can also happen when your cookie consent banner is declined by someone. Ultimately leading to [missing stats](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) and misleading insights.
-* B﻿ots and spam traffic can skew your file download data as GA4's bot filtering mechanisms are not great. In a [controlled experiment](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics), we saw first-hand how GA4 allowed bots to show as real users in the dashboard. If such non-human visits trigger your file downloads, your stats will simply be misleading.
+* You will end up missing some file downloads data as Google Analytics script is widely blocked by various internet users using ad blockers, privacy-friendly browsers. This can also happen when your cookie consent banner is declined by someone. Ultimately leading to [missing stats](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) and misleading insights.
+* Bots and spam traffic can skew your file download data as GA4's bot filtering mechanisms are not great. In a [controlled experiment](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics), we saw first-hand how GA4 allowed bots to show as real users in the dashboard. If such non-human visits trigger your file downloads, your stats will simply be misleading.
 
-I﻿f you're worried about inaccurate stats, and want a simpler and effective method of tracking file downloads on your site, you can check out Plausible Analytics.
+If you're worried about inaccurate stats, and want a simpler and effective method of tracking file downloads on your site, you can check out Plausible Analytics.
 
-## P﻿lausible Analytics for tracking file downloads
+## Plausible Analytics for tracking file downloads
 
-P﻿lausible Analytics is a simpler, privacy-friendly and [more accurate](https://plausible.io/most-accurate-web-analytics) alternative to Google Analytics. All the shortcomings with GA4 wrt tracking file downloads, are not present with Plausible:
+Plausible Analytics is a simpler, privacy-friendly and [more accurate](https://plausible.io/most-accurate-web-analytics) alternative to Google Analytics. All the shortcomings with GA4 wrt tracking file downloads, are not present with Plausible:
 
-* W﻿e are significantly less blocked by ad-blockers and privacy-respecting browsers due to our privacy-friendly nature.
-* Y﻿ou don't need a cookie consent banner to operate Plausible as we use cookieless tracking and have in-built GDPR compliance.
-* O﻿ur bot and spam tracking exclusion is top-notch. Here's proof from a latest [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics).
-* Y﻿ou don't need to go through a complicated and lengthy workflow if you want to track custom extensions.
+* We are significantly less blocked by ad-blockers and privacy-respecting browsers due to our privacy-friendly nature.
+* You don't need a cookie consent banner to operate Plausible as we use cookieless tracking and have in-built GDPR compliance.
+* Our bot and spam tracking exclusion is top-notch. Here's proof from a latest [test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics).
+* You don't need to go through a complicated and lengthy workflow if you want to track custom extensions.
 
-### How to track file downloads on your website w﻿ith Plausible Analytics?
+### How to track file downloads on your website with Plausible Analytics?
 
-I﻿f you don't have an active Plausible account, you can [get started](https://plausible.io/docs/register-account)
+If you don't have an active Plausible account, you can [get started](https://plausible.io/docs/register-account)
 
 Then, simply enable "File downloads" as an optional measurement when adding a new site to your Plausible account, or at any later time in the "Site Installation" area of the "General" section in your site settings.
 
 ![enable-file-downloads-tracking](/uploads/enable-file-downloads-tracking.webp "enable-file-downloads-tracking")
 
-T﻿hat's it. Once done, we automatically start collecting file download events each time a link is clicked containing any of the following file extensions: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`
+That's it. Once done, we automatically start collecting file download events each time a link is clicked containing any of the following file extensions: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`
 
 A new goal appears on your dashboard called "File download" and you can see all the related data such as: 
 
@@ -109,7 +109,7 @@ A new goal appears on your dashboard called "File download" and you can see all 
 * Countries, regions and cities that click on file download
 * Devices (screen size, browser, OS) that click on file download
 
-.﻿..in a single dashboard. You can check out our [live demo](https://plausible.io/plausible.io) to see what we mean.
+...in a single dashboard. You can check out our [live demo](https://plausible.io/plausible.io) to see what we mean.
 
 For in-depth instructions and guidance on tracking custom file types, check out [our documentation](https://plausible.io/docs/file-downloads-tracking).
 

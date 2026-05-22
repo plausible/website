@@ -181,7 +181,7 @@ You do not need Consent Mode at all with Plausible because we do not rely on coo
 
 With Plausible, you skip all the complexity that Consent Mode tries to solve:
 
-* No consent banner required with Plausible, because we are [cookieless](https://plausible.io/blog/google-analytics-cookies) 
+* No consent banner required with Plausible, because we are [cookieless](/cookieless-web-analytics)
 * No legal battles (although please check it with your legal advisor for your specific case) because we're [privacy-friendly by design](https://plausible.io/privacy-focused-web-analytics)
 * No reconstructed or stitched sessions
 * No modeled behaviour
