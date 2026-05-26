@@ -96,6 +96,8 @@ Here are the instructions on [how to get started with goals and events](https://
 
 Once you have custom events set up, you can build funnels to see where visitors drop off between steps. This helps you find friction points in your checkout flow and improve conversion rates. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
+For open-ended exploration, [user journeys](https://plausible.io/docs/user-journeys) let you trace what shoppers do before or after any page without defining the path upfront.
+
 ## Track ecommerce revenue
 
 You can send monetary values alongside custom events to [track revenue for your store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution shows you which campaigns and landing pages generate the most revenue, not just the most clicks.

@@ -93,6 +93,8 @@ Outbound link clicks, file downloads and form completions can be tracked automat
 
 For funnels, build 2-8 step funnels using any combination of your goals as steps. [Funnel analysis →](/docs/funnel-analysis)
 
+For open-ended path exploration without a predefined sequence, pick any page or event as a starting point and trace what visitors did next. [User journeys →](/docs/user-journeys)
+
 ## Step 5: Connect Google Search Console
 
 Connect your Search Console property to see keyword data alongside your traffic stats. This adds a Search terms report showing which queries drive clicks, impressions, CTR and average position.
