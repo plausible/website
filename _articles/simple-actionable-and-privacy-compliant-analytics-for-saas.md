@@ -99,6 +99,8 @@ Once you have goals set up, you can chain them into a funnel to see where visito
 
 Funnel analysis shows you exactly where the conversion breaks down. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
+For open-ended exploration without a predefined path, [user journeys](https://plausible.io/docs/user-journeys) let you pick any page or event as a starting point and trace what your visitors did next.
+
 ### Cross-subdomain tracking
 
 Most SaaS products span multiple domains: a marketing site, an app on a subdomain and a docs site. Plausible can track the full visitor journey across all of them.

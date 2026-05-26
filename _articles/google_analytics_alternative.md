@@ -71,7 +71,7 @@ Universal Analytics had flaws, but you could get to the numbers you needed. GA4 
 
 The result: basic tasks that took one click in Universal Analytics now require setting up custom events in Tag Manager, navigating "Explorations" (a separate reporting surface from the main dashboard), or writing SQL queries against a BigQuery export. Google provides no real support when something isn't working.
 
-Plausible gives you all the important metrics on one page: visitors, sources, pages, countries, devices, goals and revenue attribution. You can invite team members, connect to Search Console, build custom reports in Looker Studio, import your historical data and use features like funnels and realtime reporting. See what it looks like on our [live demo](https://plausible.io/plausible.io).
+Plausible gives you all the important metrics on one page: visitors, sources, pages, countries, devices, goals and revenue attribution. You can invite team members, connect to Search Console, build custom reports in Looker Studio, import your historical data and use features like funnels, user journeys and realtime reporting. See what it looks like on our [live demo](https://plausible.io/plausible.io).
 
 ### GA4 made accuracy worse, not better
 

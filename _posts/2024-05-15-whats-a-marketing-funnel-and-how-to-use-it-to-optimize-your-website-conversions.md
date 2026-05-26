@@ -100,7 +100,9 @@ This would give you a much more real view of how actual business and buyer journ
 
 But don’t get overwhelmed if you are still starting out. Start by identifying which goals are important for you to track, map out your existing customers’ journey as much as you know, start with a handful of basic funnels, analyze them regularly, connect the dots, improve the funnel further, while working out which strategies work best for each part of the funnel.
 
-Eventually, you’ll find out how your buyers behave, how you can get them closer to your ideal funnel, and gradually, you'll end up creating your own unique funnel which may not be funnel-shaped at all. But that is a good sign that you are getting closer to actual user journeys.
+Eventually, you’ll find out how your buyers behave, how you can get them closer to your ideal funnel, and gradually, you’ll end up creating your own unique funnel which may not be funnel-shaped at all. But that is a good sign that you are getting closer to actual user journeys.
+
+Plausible’s [user journeys](https://plausible.io/docs/user-journeys) feature is built for exactly this. Rather than defining a path upfront, you pick any page or event as a starting point and see what visitors did next. Or work backwards from a conversion to discover what led them there.
 
 ## How to track marketing funnels?
 
