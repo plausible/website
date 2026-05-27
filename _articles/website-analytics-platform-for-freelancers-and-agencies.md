@@ -230,7 +230,7 @@ Plausible makes it easy to measure what actually matters to your clients: purcha
 
 Page views, outbound link clicks, file downloads and custom events can all be tracked as goals in just a few clicks without touching code.
 
-For more advanced analysis, you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) to understand how visitors move through important journeys, such as from landing page to signup to purchase. This helps you identify drop-off points and opportunities to improve conversion rates across client sites.
+For more advanced analysis, you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) to measure drop-off across a defined sequence of steps, such as landing page to signup to purchase. Or use [user journeys](https://plausible.io/docs/user-journeys) to explore the paths visitors actually take without defining a sequence in advance. Both help you identify where visitors abandon and improve conversion rates across client sites.
 
 You can also segment the data by traffic source, campaign, device, country and more to see what is driving results. This makes it easier to answer client questions like which channels bring the highest-quality visitors or which campaigns convert best.
 

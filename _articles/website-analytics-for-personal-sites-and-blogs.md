@@ -155,7 +155,7 @@ Plausible lets you track meaningful [goals](https://plausible.io/docs/goal-conve
 
 You can use [codeless form submissions tracking](https://plausible.io/docs/form-submissions-tracking) for newsletter signups, or set up [pageview goals](https://plausible.io/docs/pageview-goals) to track a `/thank-you` or `/subscription-confirmed` page without writing any code.
 
-You can also chain multiple goals into a [funnel](https://plausible.io/docs/funnel-analysis) to track reader journeys and where they drop off.
+You can also chain multiple goals into a [funnel](https://plausible.io/docs/funnel-analysis) to measure drop-off across a defined sequence of steps, or use [user journeys](https://plausible.io/docs/user-journeys) to discover the paths readers actually take.
 
 ### Track monetization metrics and ad engagement
 
