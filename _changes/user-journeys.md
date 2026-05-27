@@ -1,7 +1,7 @@
 ---
 layout: change
-title: User journeys is here
-date: 2026-05-26T15:31:43.602Z
+title: User journeys is here!
+date: 2026-05-27T15:31:43.602Z
 ---
 You can now see the actual paths visitors take through your site with the new User Journeys feature.
 
