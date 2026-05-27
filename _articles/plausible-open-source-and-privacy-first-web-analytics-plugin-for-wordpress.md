@@ -339,7 +339,7 @@ Several custom properties ([also known as custom dimensions in Google Analytics]
 * total_tax
 * variation_id
 
-A purchase funnel is also created automatically, tracking the full journey from product view to completed purchase. This shows drop-off rates at each step so you can understand your cart abandonment rate.
+A purchase funnel is also created automatically, tracking drop-off from product view to completed purchase step by step. This shows where customers abandon so you can understand and reduce your cart abandonment rate.
 
 All of this happens automatically. You don't need to set up any custom events or make any changes to your code.
 

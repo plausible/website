@@ -125,7 +125,7 @@ Another way to segment your audience is by setting up custom events. With events
 
 There are various [methods](https://plausible.io/docs/goal-conversions) in Plausible to track such events (some not even requiring code edits) like enhanced measurements, pageview goals and custom event goals.
 
-You can also collect additional context about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics, and compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to see full customer journeys. 
+You can also collect additional context about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics, and compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to measure drop-off across a defined conversion sequence. 
 
 This helps you understand which actions your audience takes and which of them lead to conversions.
 
