@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plausible Analytics Data Processing Agreement
+title: Data Processing Agreement
 description: Plausible Analytics Data Processing Agreement (DPA) that you agree to when you sign up for a Plausible Analytics product.
 permalink: "/dpa"
 ---

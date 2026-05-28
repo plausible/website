@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plausible Analytics Privacy Policy
+title: Privacy Policy
 description: Plausible doesn't use cookies and doesn't collect personal data. Your data is your data, period.
 permalink: "/privacy"
 ---
