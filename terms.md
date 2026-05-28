@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plausible Analytics Terms of Service
+title: Terms of Service
 description: All the terms that you agree to when you sign up for a Plausible Analytics product.
 permalink: "/terms"
 ---

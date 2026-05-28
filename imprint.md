@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plausible Analytics company imprint
+title: Imprint
 permalink: /imprint
 ---
 

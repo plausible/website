@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plausible Analytics Trademark Guidelines
+title: Trademark Guidelines
 description: This trademark policy was prepared to help you understand how to use the Plausible Analytics trademarks, service marks and logos.
 permalink: "/trademark"
 ---

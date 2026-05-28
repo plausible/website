@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plausible Analytics Security Practices
+title: Security Practices
 description: Here’s a detailed overview of the technical and organizational security measures we use to secure Plausible and protect your data.
 permalink: "/security"
 ---

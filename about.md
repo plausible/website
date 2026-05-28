@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Plausible Analytics
+title: About
 description: Plausible Analytics is an independent, open source web analytics company. We're a small, self-funded team building a privacy-friendly alternative to Google Analytics.
 permalink: /about
 ---
