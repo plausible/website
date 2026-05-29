@@ -37,7 +37,7 @@ This is not a comparison page. If you are still deciding, start with [Plausible 
   </div>
 </div>
 
-![Plausible vs Google Analytics comparison](/uploads/plausible-vs-ga.png "Plausible vs Google Analytics comparison")
+![Plausible migration from Google Analytics](/uploads/plausible-migrate-from-ga.png "Plausible migration from Google Analytics")
 
 1. Ordered list
 {:toc}
