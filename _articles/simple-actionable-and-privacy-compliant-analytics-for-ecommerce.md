@@ -18,7 +18,7 @@ For most teams, it isn't. Plausible gives you everything that matters: campaign 
   </div>
 </div>
 
-![Website analytics for ecommerce](/uploads/plausible-ecommerce-saas.png "Website analytics for ecommerce")
+![Website analytics for ecommerce](/uploads/plausible-for-ecommerce.png "Website analytics for ecommerce")
 
 1. Ordered list
 {:toc}
