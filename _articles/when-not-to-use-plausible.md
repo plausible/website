@@ -40,6 +40,7 @@ Most analytics tools try to do more every year. Plausible goes in the other dire
 
 ![When Plausible is the right fit](/uploads/when-not-to-use-plausible.png "When Plausible is the right fit")
 
+1. Ordered list
 {:toc}
 
 ## Plausible is not a session replay or heatmap tool
