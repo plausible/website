@@ -122,7 +122,7 @@ We deploy updates frequently and use automated testing and code reviews to maint
 
 ## Data privacy and legal documents 
 
-Our legal documents including our [terms of service](https://plausible.io/terms), [privacy policy](https://plausible.io/privacy), [data policy](https://plausible.io/data-policy) and [data processing agreement](https://plausible.io/dpa) are publicly available.
+Our legal documents including our [terms of service](https://plausible.io/terms), [privacy policy](https://plausible.io/privacy), [data policy](https://plausible.io/data-policy) and [data processing agreement](https://plausible.io/dpa) are publicly available. For a single page covering all compliance and security documentation for vendor reviews, see [plausible.io/compliance](https://plausible.io/compliance).
 
 ## Reporting security problems
 

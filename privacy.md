@@ -92,6 +92,8 @@ All of the data that we collect is kept fully secured, encrypted and hosted on 1
 
 We use a small number of trusted external service providers.
 
+## Subprocessors
+
 For visitors to plausible.io:
 
 - **hCaptcha**: spam protection on our registration page
