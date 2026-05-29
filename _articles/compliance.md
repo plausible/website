@@ -3,7 +3,7 @@ layout: article
 title: "Plausible security and compliance documentation"
 description: "DPA, data policy, security overview, EU hosting, subprocessors, SSO and uptime. Everything a procurement or legal team needs to evaluate Plausible as a vendor."
 permalink: /compliance
-cta_headline: "Ready for analytics your legal team will approve?"
+cta_headline: "Ready? Your legal team will approve"
 ---
 
 Plausible is typically straightforward to approve in vendor reviews. Not because of optimized paperwork, but because the product does not collect personal data, does not use cookies and does not send data outside the EU. A simpler product means a simpler review. Organizations like Hugging Face, MongoDB, Basecamp and Harvard have completed this review and run Plausible at scale.
