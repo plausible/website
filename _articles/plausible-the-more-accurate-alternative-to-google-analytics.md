@@ -1,9 +1,10 @@
 ---
 layout: article
 title: "Plausible: The more accurate alternative to Google Analytics"
-description: Google Analytics misses more data than most site owners realize. Here's how Plausible delivers more accurate numbers by design.
+description: Google Analytics misses more data than most site owners realize.
+  Here's how Plausible delivers more accurate numbers by design.
 permalink: /most-accurate-web-analytics
-cta_headline: "Ready for analytics you can actually trust?"
+cta_headline: Ready for analytics you can actually trust?
 ---
 “Every number in your Google Analytics account is wrong.” That is exactly what an independent [study](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) by Orbit Media found.
 
@@ -83,6 +84,8 @@ At Plausible, we detect and automatically exclude bots by:
 * Detecting and excluding unnatural traffic patterns
 
 Plausible also excludes ~32,000 data center IP ranges by default. GA4 does not.
+
+Plausible's bot filtering also evolves with the web. Rather than depending solely on static bot lists, we continuously detect and exclude new forms of automated traffic as they appear.
 
 In [a test](https://plausible.io/blog/testing-bot-traffic-filtering-google-analytics) we conducted, we simulated bot traffic to a website and observed that GA4 failed to detect it, displaying the bots as real users. Plausible correctly identified and excluded them from the stats.
 
