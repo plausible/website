@@ -3,7 +3,7 @@ layout: article
 title: "When Plausible is not the right fit"
 description: "Plausible is built for simple, privacy-friendly website analytics. Here are the cases where Plausible may not be the right tool, and when another type of product may be a better fit."
 permalink: /when-not-to-use-plausible
-cta_headline: "Start a free 30-day trial"
+cta_headline: "Think Plausible is the right fit?"
 ---
 
 Most analytics tools try to do more every year. Plausible goes in the other direction.
