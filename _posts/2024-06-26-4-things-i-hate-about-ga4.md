@@ -84,6 +84,8 @@ This data is used to [model conversions](https://support.google.com/google-ads/a
 
 That is double trouble, because neither do you get accurate reports (since they are actually modeled by machine learning), and you continue to stay in a legally gray zone.
 
+Want to see how much data consent banners cost you? Use our [cookie banner traffic loss calculator](https://plausible.io/cookie-banner-traffic-loss-calculator) to estimate the gap for your own site.
+
 ### Other things to take care of
 
 To ensure absolute privacy-compliance, you have got to check with your region’s legal advisor and find out about acceptable [data retention periods](https://support.google.com/analytics/answer/7667196?hl=en), and change that setting within GA4.

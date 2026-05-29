@@ -137,6 +137,14 @@ The gap Shopify Analytics leaves is roughly this: you need to understand your we
 | Data accuracy | Partial (cookie opt-outs) | Partial (blockers + opt-outs) | High |
 | Open source | No | No | Yes |
 
+{% include cta-box.html
+  headline="Track Shopify traffic, purchases and revenue attribution without cookies or a consent banner"
+  link="/for-ecommerce"
+  link_text="Plausible for ecommerce"
+  secondary_link="/docs/shopify-integration"
+  secondary_text="Shopify setup guide"
+%}
+
 ## Google Analytics 4 for Shopify
 
 Many Shopify merchants use GA4 alongside Shopify Analytics: Shopify for store performance and GA4 for deeper website and marketing analysis.

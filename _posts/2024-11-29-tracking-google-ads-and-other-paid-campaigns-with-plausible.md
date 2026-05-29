@@ -52,6 +52,14 @@ Plausible offers other advantages and makes a lot of sense as an analytics tool 
 
 We have a [detailed comparison here](https://plausible.io/vs-google-analytics).
 
+{% include cta-box.html
+  headline="Track paid campaigns without relying on cookies or a consent banner"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/vs-google-analytics"
+  secondary_text="Plausible vs Google Analytics"
+%}
+
 ## Setup and track your paid campaigns with Plausible
 
 While setting up your ads in Google or anywhere, make sure to [UTM-tag](https://plausible.io/blog/utm-tracking-tags) your links. This will help Plausible to correctly identify the traffic as paid, from which referral exactly, which campaigns, terms, and content used as specified in the UTM-tagging done by you.

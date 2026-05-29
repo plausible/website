@@ -63,6 +63,14 @@ Plausible is built in the EU itself, does not engage in cross-platform tracking,
 
 We analyze website traffic while adhering to the principles of data minimization and economy, in line with privacy regulations. And it is all served on a [super simple](https://plausible.io/simple-web-analytics), easily comprehensible, accurate, single-page dashboard.
 
+{% include cta-box.html
+  headline="Estimate how much traffic your cookie banner hides. Then try Plausible free for 30 days and skip the banner entirely"
+  link="/cookie-banner-traffic-loss-calculator"
+  link_text="Try the calculator"
+  secondary_link="/cookieless-web-analytics"
+  secondary_text="How cookieless analytics works"
+%}
+
 ### How to make a decision?
 
 Establishing your marketing and website analysis goals, while evaluating how much you and your users value privacy, can help you decide which way to go.

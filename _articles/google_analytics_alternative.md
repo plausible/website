@@ -131,6 +131,10 @@ Plausible doesn't use that model. We charge a subscription to cover costs and ke
 
 "Free" is also relative. GA4 comes with [hidden costs](https://plausible.io/paid-analytics-vs-free-ga): time spent learning a complex interface, consent management platforms, legal exposure in GDPR-regulated markets and developer time maintaining a compliant setup. When you factor those in, Plausible often costs less in practice. See our [pricing page](https://plausible.io/#pricing).
 
+## Is Plausible right for you?
+
+Plausible is not the right fit for every use case. If you need session replay, user-level product analytics, retargeting or free hosted analytics, [read this before you decide](/when-not-to-use-plausible).
+
 ## Ready to switch?
 
 You can [import your historical Google Analytics data](https://plausible.io/docs/google-analytics-import) so you don't lose your historical stats. For a full walkthrough, see the [GA to Plausible migration guide](/migrate-from-google-analytics).

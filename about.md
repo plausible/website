@@ -47,6 +47,8 @@ We do not use cookies and we do not collect personal data. We do not perform cro
 
 For full details, see our [Data Policy](https://plausible.io/data-policy) and [Security documentation](https://plausible.io/security).
 
+Plausible is not the right tool for every analytics use case. [Read when Plausible is not a fit](/when-not-to-use-plausible) before you decide.
+
 ## Ready to try Plausible?
 
 <div class="flex justify-center mt-8 flex-wrap gap-3">

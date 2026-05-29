@@ -129,6 +129,14 @@ Plausible only uses EU-based service providers for hosting and additional servic
 | **GDPR compliance**                 | Designed for GDPR compliance with minimal data collection and anonymization.                                                                                                                                                                                                     | Requires configuration and consent mechanisms to be GDPR compliant.                                                                                                                                                                                            |
 | **Data protection risks for users** | Low, due to the absence of persistent identifiers.                                                                                                                                                                                                                               | Higher, due to the use of cookies and the possibility of cross-platform tracking.                                                                                                                                                                              |
 
+{% include cta-box.html
+  headline="Need GDPR-compliant analytics without a cookie banner? Plausible works without cookies or personal data collection"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/privacy-focused-web-analytics"
+  secondary_text="How Plausible handles privacy"
+%}
+
 ## Data protection law (GDPR) legal assessment
 
 When using web analytics tools such as Plausible Analytics and Google Analytics 4, the question arises as to which legal basis can be used for the processing of personal data in accordance with the General Data Protection Regulation (GDPR). 
