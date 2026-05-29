@@ -44,7 +44,7 @@ Here's what Google [says](https://policies.google.com/technologies/partner-sites
 
 Web analytics like any other website element add extra page weight and extra loading time to a site. Google Analytics 4 (GA4) is one of the heaviest third-party scripts you can add to a site.
 
-The GA4 script alone weighs 135 KB gzipped (380 KB raw). Most sites also load Google Tag Manager alongside it. And if you need a cookie consent banner to comply with privacy regulations, that adds still more overhead. The combined total can easily exceed 285 KB per page load. Every KB matters when you want to keep your site fast, and a more [lightweight analytics](https://plausible.io/lightweight-web-analytics) solution removes this layer of overhead entirely.
+The GA4 script alone weighs 135 KB gzipped (380 KB raw). Most sites also load Google Tag Manager alongside it. And if you need a cookie consent banner to comply with privacy regulations, that adds still more overhead. The combined total can easily exceed 285 KB per page load. Every KB matters when you want to keep your site fast, and a more [lightweight analytics](https://plausible.io/lightweight-web-analytics) solution removes this layer of overhead entirely. See how GA4's script size compares to Plausible's with our [analytics script size comparison](https://plausible.io/google-analytics-script-size).
 
 ## It’s overkill for the majority of site owners
 
@@ -67,6 +67,14 @@ On top of the standard site analytics, many Google Analytics users also enable d
 Google states that you "must obtain end users’ legally valid consent" to the use of cookies or other local storage where legally required and to the collection, sharing, and use of personal data for personalization of ads.
 
 **January 2022 update**: The Austrian and French Data Protection Authorities have decided that the use of [Google Analytics violates the GDPR](https://plausible.io/blog/google-analytics-illegal). These decisions are the first DPA decisions regarding EEA-US data transfers. Similar decisions are expected to drop in other EU member states.
+
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Migrate your history and start fresh with Plausible"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
 
 ## It uses cookies so you must obtain consent to store cookies
 

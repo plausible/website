@@ -40,6 +40,23 @@ article img {
   @apply max-w-full mt-10 mb-6 rounded;
 }
 
+.prose .cta-box p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.prose .cta-box a {
+  text-decoration: none;
+}
+
+.prose .cta-box a.cta-box-primary {
+  color: #ffffff;
+}
+
+.prose .cta-box a.cta-box-secondary {
+  color: #4338ca;
+}
+
 @screen lg {
   article img {
     max-width: unset;

@@ -92,6 +92,14 @@ Plausible Analytics recorded none of such traffic and showed beautiful zeroes (I
 
 ![Plausible real time dashboard not recording bot traffic](/uploads/plausible-real-time-dashboard-not-recording-bot-traffic.png "Plausible real time dashboard not recording bot traffic")
 
+{% include cta-box.html
+  headline="Want analytics with bot filtering built in and no GA4 complexity?"
+  link="/most-accurate-web-analytics"
+  link_text="How Plausible filters bots"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 And here’s the screenshot from Vercel (where the site is hosted), where you can see requests coming from a User-Agent "PostmanRuntime/7.43.4".
 
 Note that I didn’t actually use Postman, just posed as it using Puppeteer. Postman was selected since it’s a widely known API testing tool, and any analytics tool should in theory be able to detect and block it. 

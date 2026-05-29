@@ -44,6 +44,14 @@ When you have UTM tagged links in your emails, social media and other platforms,
 2. See which of your goals and events people that click on tagged URLs convert on
 3. See details about visitors that click on the tagged URLs such as what country they are from and what device, browser and OS they use
 
+{% include cta-box.html
+  headline="Build and validate UTM links before you publish with our free tools"
+  link="/utm-builder"
+  link_text="UTM builder"
+  secondary_link="/utm-checker"
+  secondary_text="UTM checker"
+%}
+
 ## How do I generate UTM tagged links? 
 
 UTM parameters are bits of text that you add to your URLs and links that you share. Here's what a link looks like when it's tagged with UTM parameters:

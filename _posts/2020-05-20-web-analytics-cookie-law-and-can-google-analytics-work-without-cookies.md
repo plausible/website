@@ -71,6 +71,14 @@ You can disable cookies from Google Analytics but disabling cookies leaves Googl
 
 GA4 introduced Consent Mode as a partial workaround: when a visitor declines your cookie banner, the tracking tag still loads but operates without storing personal identifiers. The catch is that GA4 then fills in the gaps using conversion modeling, using machine learning to estimate what those visitors likely did based on patterns from users who accepted. You still get numbers, but a meaningful portion of them are statistical predictions rather than direct measurements. Our [cookie banner traffic loss calculator](https://plausible.io/cookie-banner-traffic-loss-calculator) helps you estimate how much traffic your site is losing to consent declines.
 
+{% include cta-box.html
+  headline="Switch to cookieless analytics and skip the consent banner entirely"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/cookieless-web-analytics"
+  secondary_text="How cookieless analytics works"
+%}
+
 ### Requirements for the use of Google Analytics
 
 Google has several requirements for your use of Google Analytics:

@@ -62,6 +62,14 @@ As you can see, GA4 underreports by as much as 80% as compared to Plausible, whi
 
 Aka, **more than half of the actual user engagement time is missing from Google Analytics 4’s reports, at least as compared to Plausible — which can seriously distort content performance insights and mislead decisions based on time-on-page metrics.**
 
+{% include cta-box.html
+  headline="Get clearer engagement metrics without GA4 complexity"
+  link="/most-accurate-web-analytics"
+  link_text="How Plausible measures accuracy"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 What could be going on here? Why are we betting more on Plausible’s engagement time tracking method and benchmarking that against Google Analytics? Where do these differences stem from?
 
 ## Why the differences?

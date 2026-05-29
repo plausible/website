@@ -52,6 +52,14 @@ Plausible Analytics is a simpler, privacy-friendly and more accurate alternative
 
 It makes Plausible [an even stronger replacement for Google Analytics](https://plausible.io/vs-google-analytics) for teams that need custom reporting alongside privacy-first data collection.
 
+{% include cta-box.html
+  headline="Build custom reports from Plausible data in Looker Studio"
+  link="/looker-studio-connector"
+  link_text="Looker Studio connector"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## Creating a simple report in Looker Studio
 
 To create our first report in Looker Studio, we will create a simple replica of the default Plausible Analytics dashboard. This will give us a feel for what fields are available in the Looker Studio connector and how we can begin to create our own custom data visualizations.
