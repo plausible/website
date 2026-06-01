@@ -60,6 +60,27 @@ layout: default
 
 <hr class="w-full bg-gray-100 my-24" style="height: 1px;">
 
+<script>
+(function() {
+  var prose = document.querySelector('article .prose');
+  if (!prose) return;
+  prose.addEventListener('click', function(e) {
+    var a = e.target.closest('a');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var button = null;
+    if (href === '/register' || href.indexOf('plausible.io/register') !== -1) {
+      button = 'Start free trial';
+    } else if (href === '/plausible.io' || href.indexOf('plausible.io/plausible.io') !== -1) {
+      button = 'View live demo';
+    }
+    if (button) {
+      plausible('CTA Click', {props: {position: 'Inline', type: 'Blog', button: button}});
+    }
+  });
+})();
+</script>
+
 <div class="container max-w-screen-sm mb-24 flex justify-between">
   <div class="w-1/2">
     {% if page.next.url %}

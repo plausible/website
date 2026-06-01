@@ -53,9 +53,9 @@ Plausible is not the right tool for every analytics use case. [Read when Plausib
 
 <div class="flex justify-center mt-8 flex-wrap gap-3">
   <div class="inline-flex shadow rounded-md">
-    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'Bottom', button: 'Start free trial'}})" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" style="text-decoration: none; color: white;">Start free trial</a>
+    <a href="/register" onclick="plausible('CTA Click', {props: {position: 'Bottom', type: 'About', button: 'Start free trial'}})" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-indigo-600 border border-transparent leading-6 rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" style="text-decoration: none; color: white;">Start free trial</a>
   </div>
   <div class="inline-flex shadow rounded-md">
-    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'Bottom', button: 'View live demo'}})" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" style="text-decoration: none;">View live demo</a>
+    <a href="/plausible.io" onclick="plausible('CTA Click', {props: {position: 'Bottom', type: 'About', button: 'View live demo'}})" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-indigo-600 bg-white border border-transparent leading-6 rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" style="text-decoration: none;">View live demo</a>
   </div>
 </div>
