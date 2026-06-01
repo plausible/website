@@ -263,7 +263,7 @@
               <a href="/login" class="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Login</a>
             </div>
             <div class="hidden lg:inline-flex rounded-md shadow ml-6">
-              <a href="/register" onclick="plausible('CTA Click', {props: {position: 'Nav', button: 'Start free trial'}})" class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">Start free trial</a>
+              <a href="/register" onclick="plausible('CTA Click', {props: {position: 'Nav', type: 'Nav', button: 'Start free trial'}})" class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">Start free trial</a>
             </div>
           </li>
         </ul>
@@ -290,7 +290,7 @@
           </div>
         </div>
         <div x-show="!document.cookie.includes('logged_in=true')" class="border-b border-gray-200">
-          <a href="/register" onclick="plausible('CTA Click', {props: {position: 'Nav', button: 'Start free trial'}})" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">
+          <a href="/register" onclick="plausible('CTA Click', {props: {position: 'Nav', type: 'Nav', button: 'Start free trial'}})" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">
             Start free trial
           </a>
           <a href="/login" class="border-t border-gray-200 block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">

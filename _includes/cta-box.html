@@ -1,15 +1,18 @@
-{% assign cta_event = include.event | default: 'Inline CTA Click' %}
+{% assign cta_event = include.event | default: 'CTA Click' %}
+{% if page.layout == 'post' %}{% assign cta_type = 'Blog' %}{% elsif page.layout == 'article' %}{% assign cta_type = 'Landing page' %}{% else %}{% assign cta_type = page.layout %}{% endif %}
+{% if include.link contains 'register' %}{% assign cta_primary_button = 'Start free trial' %}{% elsif include.link contains '/plausible.io' %}{% assign cta_primary_button = 'View live demo' %}{% else %}{% assign cta_primary_button = include.link_text %}{% endif %}
 <div class="cta-box my-8 rounded-lg border border-indigo-100 bg-indigo-50 p-6">
   <p class="text-base font-semibold text-gray-900 mt-0 mb-0">{{ include.headline }}</p>
   <div class="mt-4 flex flex-wrap" style="gap: 0.75rem;">
     <a href="{{ include.link }}"
-       onclick="plausible('{{ cta_event }}', {props: {page: '{{ page.slug }}', button: '{{ include.link_text }}'}})"
+       onclick="plausible('{{ cta_event }}', {props: {position: 'Inline', type: '{{ cta_type }}', button: '{{ cta_primary_button }}'}})"
        class="cta-box-primary inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none transition duration-150 ease-in-out">
       {{ include.link_text }}
     </a>
     {% if include.secondary_link %}
+    {% if include.secondary_link contains 'register' %}{% assign cta_secondary_button = 'Start free trial' %}{% elsif include.secondary_link contains '/plausible.io' %}{% assign cta_secondary_button = 'View live demo' %}{% else %}{% assign cta_secondary_button = include.secondary_text %}{% endif %}
     <a href="{{ include.secondary_link }}"
-       onclick="plausible('{{ cta_event }}', {props: {page: '{{ page.slug }}', button: '{{ include.secondary_text }}'}})"
+       onclick="plausible('{{ cta_event }}', {props: {position: 'Inline', type: '{{ cta_type }}', button: '{{ cta_secondary_button }}'}})"
        class="cta-box-secondary inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md bg-white focus:outline-none transition duration-150 ease-in-out" style="border: 1px solid #C7D2FE; color: #4338ca;">
       {{ include.secondary_text }}
     </a>
