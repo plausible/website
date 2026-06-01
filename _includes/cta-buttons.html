@@ -1,0 +1,14 @@
+{% if include.position %}{% assign cta_position = include.position %}{% else %}{% assign cta_position = 'Hero' %}{% endif %}
+{% if include.type %}{% assign cta_type = include.type %}{% elsif page.layout == 'post' %}{% assign cta_type = 'Blog' %}{% elsif page.layout == 'article' %}{% assign cta_type = 'Landing page' %}{% else %}{% assign cta_type = page.layout | capitalize %}{% endif %}
+{% if include.primary_link %}{% assign cta_primary_link = include.primary_link %}{% else %}{% assign cta_primary_link = '/register' %}{% endif %}
+{% if include.primary_text %}{% assign cta_primary_text = include.primary_text %}{% else %}{% assign cta_primary_text = 'Start free trial' %}{% endif %}
+{% if include.secondary_link %}{% assign cta_secondary_link = include.secondary_link %}{% else %}{% assign cta_secondary_link = '/plausible.io' %}{% endif %}
+{% if include.secondary_text %}{% assign cta_secondary_text = include.secondary_text %}{% else %}{% assign cta_secondary_text = 'View live demo' %}{% endif %}
+<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+  <div class="rounded-md shadow">
+    <a href="{{ cta_primary_link }}" onclick="plausible('CTA Click', {props: {position: '{{ cta_position }}', type: '{{ cta_type }}', button: '{{ cta_primary_text }}'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">{{ cta_primary_text }}</a>
+  </div>
+  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+    <a href="{{ cta_secondary_link }}" onclick="plausible('CTA Click', {props: {position: '{{ cta_position }}', type: '{{ cta_type }}', button: '{{ cta_secondary_text }}'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: #4f46e5;">{{ cta_secondary_text }}</a>
+  </div>
+</div>
