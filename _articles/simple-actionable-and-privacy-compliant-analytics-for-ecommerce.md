@@ -5,9 +5,9 @@ description: Web analytics for ecommerce that doesn't rely on cookies or consent
 permalink: /for-ecommerce
 cta_headline: "Ready for accurate ecommerce analytics?"
 ---
-If you run an ecommerce store, you need to know what's driving traffic and conversions. The question isn't whether to track analytics, it's whether Google Analytics is actually giving you reliable data and whether the complexity is worth it.
+If you run an ecommerce store, you need to know which campaigns, pages and sources make money. The question isn't whether to track that, it's whether you can do it without a cookie consent banner blocking visitors before they reach your store.
 
-For most teams, it isn't. Plausible gives you everything that matters: campaign tracking, conversion goals, revenue attribution, funnels and accurate traffic data. Without the setup overhead, cookie banners or the data quality problems that come with GA.
+With GA4, you can't. Ecommerce revenue tracking in GA requires cookies, which means a consent banner, which means data loss from everyone who declines. Plausible tracks revenue attribution without cookies, so you get accurate data and your visitors get an uninterrupted path to checkout.
 
 {% include cta-buttons.html %}
 
@@ -98,6 +98,8 @@ You can send monetary values alongside custom events to [track revenue for your 
 ![Plausible ecommerce revenue tracking](/uploads/plausible-ecommerce-revenue-goal.png "Plausible ecommerce revenue tracking")
 
 Revenue tracking supports multiple currencies. You'll see total revenue and average order value in your dashboard, and all revenue metrics are fully filterable by date, referral source, campaign, entry page, country or device.
+
+GA4 ecommerce tracking relies on cookies to do this. Plausible doesn't, which means no consent banner between your visitor and your checkout, and no data lost to declines.
 
 Also see: [How to boost ecommerce sales by tracking revenue attribution in web analytics](https://plausible.io/blog/ecommerce-revenue-attribution)
 

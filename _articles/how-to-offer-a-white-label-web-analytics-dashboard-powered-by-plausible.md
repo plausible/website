@@ -99,18 +99,16 @@ White-label analytics (sometimes called private-label analytics) is an analytics
 The quickest path is the embedded dashboard: create a shared link via the Sites API, then embed the iframe in your product. The full process typically takes a day or two of integration work. If you need more control over the presentation, the Stats API lets you pull individual metrics and build a fully custom UI.
 
 **Which plan includes white-label features?**
-The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. The Sites API, managed proxy and large-scale multi-site setups require an enterprise plan.
+The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. These cover most integration scenarios.
+
+The Sites API, managed proxy and setups with more than 10 sites are on our [enterprise plan](https://plausible.io/enterprise-web-analytics).
 
 **Can I match the dashboard to my brand?**
 Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch.
 
-## Try it free for 30 days
+## Ready to integrate?
 
-[Start your free trial](https://plausible.io/register) to explore Plausible and test the integration into your product. No credit card required.
-
-The embedded dashboard, Stats API, Consolidated View and custom proxy are all available during the trial and on Business plans. If you need the Sites API, a managed proxy or want to track more than 10 websites, [get in touch about an enterprise plan](https://plausible.io/enterprise-web-analytics).
-
-[Contact us](https://plausible.io/contact) if you have any questions about integrating Plausible into your product.
+[Start a 30-day free trial](https://plausible.io/register) with no credit card required. The embedded dashboard, Stats API, Consolidated View and proxy are all available during the trial and on Business plans, which covers most integration scenarios. If you need the Sites API or a managed proxy, [contact us](https://plausible.io/contact) to discuss an enterprise plan.
 
 <script type="application/ld+json">
 {
@@ -138,7 +136,7 @@ The embedded dashboard, Stats API, Consolidated View and custom proxy are all av
       "name": "Which plan includes white-label features?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. The Sites API, managed proxy and large-scale multi-site setups require an enterprise plan."
+        "text": "The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. These cover most integration scenarios. The Sites API, managed proxy and setups with more than 10 sites are on our enterprise plan."
       }
     },
     {
