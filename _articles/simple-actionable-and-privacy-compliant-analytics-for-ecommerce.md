@@ -75,7 +75,7 @@ Plausible has full UTM tag support out of the box. You can:
 * Analyze individual posts, influencers or affiliate partners
 * Measure guest blogging and content syndication
 
-See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming splits your campaign data. Pair that with [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your store and which pages they land on.
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming splits your campaign data.
 
 ### Set up goals and events to track conversions
 
@@ -115,6 +115,12 @@ You can attach metadata to any event or pageview to track dimensions that Plausi
 You can then filter and segment your dashboard by those properties. Just make sure not to send any personally identifiable information as custom property values.
 
 [Learn more about custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-pageview-props).
+
+## See organic search and AI traffic clearly
+
+The **Organic Search** channel shows how much of your traffic comes from search engines. The **AI Assistants** channel tracks visits from tools like ChatGPT, Perplexity and Google Gemini as a separate group. For ecommerce, both represent discovery without ad spend: shoppers who found your store without you paying for the click.
+
+Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your store and which pages they land on.
 
 ## No cookie banner required
 

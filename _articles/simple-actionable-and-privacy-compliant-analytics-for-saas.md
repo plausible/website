@@ -115,7 +115,13 @@ You can track:
 * Partner and affiliate traffic
 * Guest posts and content syndication
 
-See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming fragments your campaign data. To see which search queries bring organic visitors to your site and which pages they land on, connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to your Plausible account.
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming fragments your campaign data.
+
+## See organic search and AI traffic clearly
+
+The **Organic Search** channel shows how much of your traffic comes from search engines. The **AI Assistants** channel groups traffic from tools like ChatGPT, Perplexity and Google Gemini separately. For SaaS, these are often your highest-intent visitors: someone searching for a solution or asking an AI tool for a recommendation is actively evaluating options in your category.
+
+Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your site and which pages they land on.
 
 ## Add custom properties to track product dimensions
 
