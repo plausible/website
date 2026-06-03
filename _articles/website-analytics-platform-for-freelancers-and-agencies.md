@@ -254,3 +254,7 @@ This is also a feature you can offer clients: dashboards can be made public or s
 Most agencies that try Plausible run it alongside Google Analytics for a while before fully switching. That's a reasonable approach. We don't make money from your data, so we charge a subscription fee instead.
 
 [Try Plausible free for 30 days](https://plausible.io/register) with no credit card required. It's enough time to install it on a few client sites, share the dashboard with clients and see how it fits your workflow.
+
+## Managing a large client portfolio?
+
+Our standard plans include up to 10 sites. If you manage more, we can put together a custom plan based on the total number of sites and monthly pageviews across your portfolio. Email us at [hello@plausible.io](mailto:hello@plausible.io) to discuss a setup that fits your agency.

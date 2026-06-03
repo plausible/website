@@ -156,6 +156,14 @@ If you need programmatic access, the [stats API](https://plausible.io/docs/stats
 
 If you need advanced reporting, the [Looker Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. Combine it with data from your CRM, ad platforms or revenue tools for a more complete view of your growth funnel.
 
+## Want to offer analytics to your own customers?
+
+This page covers using Plausible for your SaaS team's own analytics. If you want to embed analytics into your product as a feature for your customers, that is a different use case.
+
+Plausible supports white-label and OEM integrations: embed a fully featured dashboard directly into your user interface, provision sites automatically for each new customer via the Sites API, or use the Stats API to build a completely custom UI from individual metrics.
+
+[White-label analytics for SaaS products](https://plausible.io/white-label-web-analytics)
+
 ## Try Plausible Analytics
 
 [Start a free 30-day trial](https://plausible.io/register). No credit card required. You can run Plausible alongside your existing analytics while you evaluate it.

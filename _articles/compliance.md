@@ -6,9 +6,7 @@ permalink: /compliance
 cta_headline: "Ready? Your legal team will approve"
 ---
 
-Plausible is typically straightforward to approve in vendor reviews. Not because of optimized paperwork, but because the product does not collect personal data, does not use cookies and does not send data outside the EU. A simpler product means a simpler review. Organizations like Hugging Face, MongoDB, Basecamp and Harvard have completed this review and run Plausible at scale.
-
-This page is for security, legal and procurement teams evaluating Plausible as a vendor. Everything you need is here or linked from here.
+Plausible is typically straightforward to approve in vendor reviews. Not because of optimized paperwork, but because the product does not collect personal data, does not use cookies and does not send data outside the EU. A simpler product means a simpler review. Organizations like Hugging Face, Harvard and the Scottish and Welsh governments have completed this review and run Plausible at scale.
 
 ## Why Plausible is low-risk to approve
 
@@ -22,7 +20,7 @@ Specifically:
 - No data is shared with or sold to third parties.
 - A DPA is in place automatically for all customers. You do not need to request one.
 
-This assessment is supported by an independent [GDPR compliance review](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) conducted by a data protection lawyer.
+An independent review by a data protection lawyer confirms Plausible requires no cookie consent and falls outside the scope of GDPR personal data processing. [Read the full legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy).
 
 ## Legal documents
 
@@ -56,6 +54,4 @@ Available on Enterprise plans:
 
 ## Security questionnaires
 
-The documents above cover most questions in standard vendor security reviews. We recommend going through them before submitting a questionnaire, as most topics are already addressed.
-
-If there are specific questions not covered, [contact us](https://plausible.io/contact) with those questions. We respond within one business day.
+The documents above answer most questions in standard vendor security reviews. If anything is not covered, [contact us](https://plausible.io/contact) and we will respond within one business day.
