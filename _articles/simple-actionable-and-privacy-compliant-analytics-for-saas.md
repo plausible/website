@@ -115,13 +115,7 @@ You can track:
 * Partner and affiliate traffic
 * Guest posts and content syndication
 
-See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming fragments your campaign data.
-
-## See organic search and AI traffic clearly
-
-The dashboard includes a dedicated Organic Search channel showing how much of your traffic comes from search engines, including AI assistants and AI-powered search tools. For SaaS, this tells you how prospects discover your product category and find their way to your pricing or signup page.
-
-Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which queries and pages drive organic signups, alongside engagement and conversion data.
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming fragments your campaign data. To see which search queries bring organic visitors to your site and which pages they land on, connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to your Plausible account.
 
 ## Add custom properties to track product dimensions
 

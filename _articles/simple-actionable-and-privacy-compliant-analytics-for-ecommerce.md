@@ -75,7 +75,7 @@ Plausible has full UTM tag support out of the box. You can:
 * Analyze individual posts, influencers or affiliate partners
 * Measure guest blogging and content syndication
 
-See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming splits your campaign data.
+See "[how to use UTM parameters to track your campaigns](https://plausible.io/blog/utm-tracking-tags)". Use the [UTM builder](/utm-builder) to generate correctly tagged links, or the [UTM checker](/utm-checker) to validate existing ones before inconsistent naming splits your campaign data. Pair that with [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your store and which pages they land on.
 
 ### Set up goals and events to track conversions
 
@@ -115,12 +115,6 @@ You can attach metadata to any event or pageview to track dimensions that Plausi
 You can then filter and segment your dashboard by those properties. Just make sure not to send any personally identifiable information as custom property values.
 
 [Learn more about custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-pageview-props).
-
-## See organic search and AI traffic clearly
-
-The dashboard includes a dedicated Organic Search channel that shows how much of your traffic comes from search engines, including AI assistants and AI-powered search tools. For ecommerce, this tells you how buyers find your products and product category, not just how many visited.
-
-You can also connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries and pages drive organic visitors, alongside engagement and conversion data.
 
 ## No cookie banner required
 
