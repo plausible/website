@@ -83,6 +83,8 @@ Plausible is also incorporated and hosted in the EU, with all visitor data proce
 
 If you need heatmaps, session recordings and deep customization and are willing to invest in setup and ongoing maintenance, Matomo may suit you. If you want accurate, privacy-friendly data without the overhead, Plausible is likely the better fit.
 
+If you are evaluating other privacy-friendly tools alongside Matomo and Plausible, our [buyer's guide to privacy-friendly analytics](/privacy-friendly-web-analytics) covers the full set of criteria worth checking.
+
 ## Bringing your historical data with you
 
 If you want to keep your historical Matomo data, Plausible supports [CSV imports](https://plausible.io/docs/csv-import). Matomo's export format will need some adjustments to match our import template, but it's doable.
