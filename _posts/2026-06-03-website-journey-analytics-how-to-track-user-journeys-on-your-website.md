@@ -3,7 +3,7 @@ layout: post
 title: "Website Journey Analytics: How to track user journeys on your website"
 description: See how visitors move through your website, what they do before converting, and where they stop.
 slug: website-journey-analytics
-date: 2026-06-04T08:00:00.000Z
+date: 2026-06-04T14:58:06.000Z
 author: hricha-shandily
 image: /uploads/website-user-journeys-exploration.png
 image-alt: User Journeys report in Plausible Analytics
