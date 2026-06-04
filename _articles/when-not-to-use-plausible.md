@@ -124,3 +124,5 @@ Plausible is likely not a good fit if you:
 - Need to process protected health information or require a BAA
 
 If Plausible fits what you are looking for, [start a free 30-day trial](/register). No credit card required. You can also review our [compliance documentation](/compliance) before you decide.
+
+If you are also evaluating other privacy-friendly tools, our [buyer's guide to privacy-friendly analytics](/privacy-friendly-web-analytics) covers the criteria that separate tools that are genuinely privacy-first from those that only claim to be.

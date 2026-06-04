@@ -116,3 +116,5 @@ You can see [all the differences here](https://plausible.io/self-hosted-web-anal
 Hugging Face, Ghost, Basecamp, Harvard and thousands of other sites trust Plausible with their analytics. You can try it free for 30 days with no credit card required. [See pricing](https://plausible.io/#pricing) or [start your free trial](https://plausible.io/register).
 
 Setup takes a few minutes. Add a single script tag to your site and you're collecting data. You can run Plausible alongside your current analytics provider and only remove the other script once you're happy with what Plausible provides.
+
+If you're comparing multiple privacy-friendly tools before deciding, see our [guide to choosing a privacy-friendly analytics tool](/privacy-friendly-web-analytics).
