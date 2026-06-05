@@ -152,6 +152,8 @@ If you look at “3” in the screenshot, we also know that 5 such people upgrad
 
 This helps us build a specific visitor flow and make multiple conclusions and build an understanding of what works for Plausible visitors/users and what doesn’t.
 
+If you want to go beyond entry and exit pages, [website journey analytics](https://plausible.io/blog/website-journey-analytics) helps you see the actual paths visitors take after landing on a page or before converting.
+
 Here’s how our subscribers analyze the pages tabs to analyze their website's performance:
 
 ### Identify what’s attracting or throwing off visitors
