@@ -151,6 +151,8 @@ You can set your site conversion goals using [this guide](https://plausible.io/d
 
 It’s as simple as that. You can also utilize [funnels](https://plausible.io/blog/funnels-conversion-optimization) to visualize the percentage of visitors who completed a desired path exactly in their journey. And create [audience segments](https://plausible.io/audience-segmentation).
 
+You can also use [website journey analytics](https://plausible.io/blog/website-journey-analytics) to see what visitors from a specific campaign did next, or what they did before converting.
+
 This way, you can track anything you want to with Plausible. For example: 
 
 * If you’re a [SaaS](https://plausible.io/for-saas), you can track the product sign ups coming from your ads. 
