@@ -5,7 +5,7 @@ description: Plausible and Matomo are both open source analytics tools. Here's h
 permalink: /vs-matomo
 cta_headline: "Ready to switch from Matomo?"
 ---
-Most people comparing Matomo and Plausible are trying to move away from Google Analytics. Both tools get you there, but they take very different approaches. This page covers how they compare on simplicity, privacy, performance and setup.
+Most people comparing Matomo and Plausible are trying to move away from Google Analytics. Both avoid it, but Plausible makes a specific tradeoff: simple, cookieless analytics by default, without carrying over the complexity of the Google Analytics model. This page covers how they compare on simplicity, privacy, performance and setup.
 
 Matomo, formerly known as Piwik, was founded in 2007 and is the most well known open source alternative to Google Analytics. [Plausible Analytics](https://plausible.io) launched in 2019 and has grown to become a widely used alternative. Let's look at where they differ.
 
@@ -71,7 +71,7 @@ Plausible also collects fewer data points by default. We are built as a [privacy
 
 Matomo uses cookies and collects personal data by default for reports such as session recordings and heatmaps. That means you need a consent banner, and visitors who decline it won't be counted at all. Depending on your audience, that's a significant chunk of traffic you're simply not seeing.
 
-Plausible doesn't use any cookies and we don't collect any personal data so by using Plausible you don't need to obtain a [cookie consent or the GDPR consent](https://plausible.io/data-policy) at all. Every visitor is counted. You get a more accurate picture of your traffic, not a filtered one.
+Plausible doesn't use any cookies and we don't collect any personal data so by using Plausible you don't need an analytics cookie consent banner. You avoid the consent-banner data loss that hides visitors who declined. You get a more accurate picture of your traffic, not a filtered one.
 
 If you want to run Matomo without a consent banner, [Matomo's own documentation](https://matomo.org/blog/2018/04/how-to-not-process-any-personal-data-with-matomo-and-what-it-means-for-you/) outlines several configuration steps required to strip out personal data collection: things like anonymizing IP addresses, disabling cookies, masking URLs and form inputs, and handling historical data. It's doable, but it takes work and needs to be maintained over time.
 
@@ -81,7 +81,7 @@ Plausible is also incorporated and hosted in the EU, with all visitor data proce
 
 ## Which tool is right for you?
 
-If you need heatmaps, session recordings and deep customization and are willing to invest in setup and ongoing maintenance, Matomo may suit you. If you want accurate, privacy-friendly data without the overhead, Plausible is likely the better fit.
+If you need heatmaps, session recordings and deep customization and are willing to invest in setup and ongoing maintenance, Matomo is built for that. If you want accurate, privacy-friendly data without the overhead, Plausible is the right tool.
 
 If you are evaluating other privacy-friendly tools alongside Matomo and Plausible, our [buyer's guide to privacy-friendly analytics](/privacy-friendly-web-analytics) covers the full set of criteria worth checking.
 
@@ -91,4 +91,4 @@ If you want to keep your historical Matomo data, Plausible supports [CSV imports
 
 ## Sign up for a free Plausible trial
 
-Hugging Face, Ghost, Basecamp and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required.
+Hugging Face, Ghost, Basecamp and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside Matomo during your evaluation and compare the data before you commit.

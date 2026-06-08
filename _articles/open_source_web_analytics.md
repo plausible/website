@@ -72,10 +72,10 @@ If you want to run it yourself, [self-hosting is an option](https://plausible.io
 
 ## Plausible is open in other ways too
 
-We have a [public roadmap](https://plausible.io/roadmap) driven by community suggestions and you can reach us by email with any questions.
+We have a [public roadmap](https://feedback.plausible.io/roadmap) driven by community suggestions and you can reach us by email with any questions.
 
 Your stats are also private by default, but you can choose to make them public and share a custom link that lets anyone view them. See the [stats for the Plausible website](https://plausible.io/plausible.io) itself as an example.
 
 ## Try Plausible
 
-[Sign up for a 30-day free trial](https://plausible.io/register) with no obligations and explore our open source analytics dashboard. You don't need to remove your current analytics provider until you've tested Plausible and decided if it works for you.
+[Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside Google Analytics, compare the data and check the source on GitHub to verify what we collect.

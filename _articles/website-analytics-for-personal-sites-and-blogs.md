@@ -5,18 +5,18 @@ description: "Simple, accurate analytics for publishers and content teams. No co
 permalink: /for-bloggers-creators
 cta_headline: "Ready to know what your readers want?"
 ---
-If you publish content, you need to know what’s working. Which articles attract readers? What topics drive subscriptions? Where does your traffic actually come from?
+Publishers make consequential decisions from analytics: which topics to commission, which formats to double down on, which content turns readers into subscribers. When consent declines strip out a large share of your audience before GA has counted them, those decisions are based on gaps, not reality.
 
-The problem with Google Analytics is that it’s built for ad teams, not editorial ones. It’s complex, requires a cookie banner, and loses data every time a visitor declines consent. For publishers trying to understand what resonates, that makes decision-making much harder.
+Google Analytics is built for ad teams, not editorial ones. It requires a cookie banner, it’s complex to navigate, and it’s blocked at higher rates by the privacy-conscious audiences that many publications depend on. Sponsor traffic figures and subscription attribution both become approximations.
 
-Media companies and digital publishers are one of the largest groups using Plausible, from large editorial teams and SEO-driven sites to indie blogs, newsletters and creator-led publications. Plausible gives you accurate, privacy-friendly analytics with no cookie banners, up and running in minutes, with everything you need on one page.
+Media companies and digital publishers are one of the largest groups using Plausible, from large editorial teams and SEO-driven sites to indie blogs, newsletters and creator-led publications. Plausible gives you complete, accurate data with no cookie banner and a one-page dashboard any editor can read without training.
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
-    "Check out Plausible if you haven't yet - fantastic product. We switched over everything from GA."
+    "I integrated Plausible analytics on this site. On top of the very small footprint of the analytics script and no-tracking-and-not-selling-your-data-for-advertising part."
   </p>
   <figcaption class="mt-2 text-sm text-gray-500">
-    <span class="font-semibold text-gray-700">John O'Nolan</span>, Founder and CEO at Ghost
+    <span class="font-semibold text-gray-700">Gergely Orosz</span>, author of The Pragmatic Engineer newsletter
   </figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ When visitors decline cookies, their activity goes untracked. According to an [i
 
 Google Analytics also places [multiple cookies](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) on visitor machines, which means you need a cookie consent banner too.
 
-Plausible is compliant with GDPR, CCPA and PECR out of the box. [We don’t use cookies](https://plausible.io/data-policy) and we don’t collect personal data. That means no privacy policy requirements for Plausible, no [cookie banner](https://plausible.io/blog/cookie-consent-banners), and no consent prompts. You can focus on creating content.
+Plausible is compliant with GDPR, CCPA and PECR out of the box. [We don’t use cookies](https://plausible.io/data-policy) and we don’t collect personal data. That means no analytics cookie consent banner and no consent prompts. You can focus on creating content.
 
 ### Google Analytics slows down your site and worsens the visitor experience
 
@@ -111,7 +111,7 @@ Search remains one of the most important ways readers discover content.
 
 In Plausible, open the **Channels** tab and filter by **Organic search**. You can see which articles attract search traffic and which continue to perform long after publication. The **Entry Pages** tab shows the pages actually pulling in organic visitors.
 
-![organic search performance in plausible](/uploads/organic-search-performance-in-plausible.png "organic search performance in plausible")
+![Organic search performance in Plausible](/uploads/organic-search-performance-in-plausible.png "Organic search performance in Plausible")
 
 You can even [connect Search Console](https://plausible.io/docs/google-search-console-integration) to Plausible to see the search terms in Google bringing you traffic and a better analysis of SEO efforts.
 
@@ -191,6 +191,14 @@ Plausible can be added to any website with a simple script, and it works smoothl
 
 Many publishers run their sites on WordPress, Ghost, Drupal, or custom CMS setups. You can find setup [guides](https://plausible.io/docs/integration-guides) for most popular platforms, and there is a dedicated [WordPress plugin](https://plausible.io/wordpress-analytics-plugin) that takes a few minutes to set up.
 
+## Other teams use Plausible for
+
+* [SaaS products](/for-saas) — tracking trial signups, activation funnels and campaign attribution
+* [Ecommerce](/for-ecommerce) — revenue attribution and checkout funnels without cookies or consent banners
+* [Agencies and freelancers](/for-freelancers-agencies) — multi-site management, client reporting and GDPR compliance built in
+
 ## Try Plausible
 
-[Start a free 30-day trial](https://plausible.io/register). No credit card required. Plausible is lightweight enough to run alongside Google Analytics while you evaluate it, and you can bring your historical data across with our [Google Analytics importer](https://plausible.io/docs/google-analytics-import).
+[Start a free 30-day trial](https://plausible.io/register). No credit card required. Run it alongside Google Analytics, compare your traffic numbers and use the [Google Analytics importer](https://plausible.io/docs/google-analytics-import) to bring your historical data across when you switch.
+
+**Larger organization?** If your team needs Single Sign-On or a managed proxy, see [enterprise web analytics](/enterprise-web-analytics).

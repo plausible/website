@@ -95,7 +95,7 @@ If you don't have an active Plausible account, you can [get started](https://pla
 
 Then, simply enable "File downloads" as an optional measurement when adding a new site to your Plausible account, or at any later time in the "Site Installation" area of the "General" section in your site settings.
 
-![enable-file-downloads-tracking](/uploads/enable-file-downloads-tracking.webp "enable-file-downloads-tracking")
+![Enabling file downloads tracking in Plausible site settings](/uploads/enable-file-downloads-tracking.webp "Enabling file downloads tracking in Plausible site settings")
 
 That's it. Once done, we automatically start collecting file download events each time a link is clicked containing any of the following file extensions: `.pdf`, `.xlsx`, `.docx`, `.txt`, `.rtf`, `.csv`, `.exe`, `.key`, `.pps`, `.ppt`, `.pptx`, `.7z`, `.pkg`, `.rar`, `.gz`, `.zip`, `.avi`, `.mov`, `.mp4`, `.mpeg`, `.wmv`, `.midi`, `.mp3`, `.wav`, `.wma`, `.dmg`
 

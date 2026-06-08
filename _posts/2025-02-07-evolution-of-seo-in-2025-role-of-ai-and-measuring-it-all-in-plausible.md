@@ -39,7 +39,7 @@ Certainly. Think AI chatbots, privacy-first browsers, etc.
 
 Hmm, moment of truth. So, I decided to check ours at Plausible. I simply compared the last 12 months’ organic search traffic and it’s actually increased by 12%.
 
-![organic-search-traffic-in-12-months](/uploads/organic-search-traffic-in-12-months.png "organic-search-traffic-in-12-months")
+![Organic search traffic over the last 12 months in Plausible](/uploads/organic-search-traffic-in-12-months.png "Organic search traffic over the last 12 months in Plausible")
 
 [Last 3 months](https://plausible.io/plausible.io?f=is,channel,Organic%20Search&period=custom&keybindHint=C&from=2024-11-01&to=2025-01-31) looked stable too. Since Google is the main organic search source that sends the most traffic and is generally equated with SEO, I just looked at traffic sent by Google searches, and the patterns are still similar for us.
 
@@ -49,7 +49,7 @@ Not a good sample size but since we seem to be on the “safer” side, this mee
 
 So, traffic has been stable and growing from organic searches. Next, we look at the breakdown of organic sources. Apart from Google, it shows some sources like DuckDuckGo, Brave, ChatGPT, Perplexity, etc.
 
-![organic-search-top-sources](/uploads/organic-search-top-sources.png "organic-search-top-sources")
+![Breakdown of organic search sources in Plausible](/uploads/organic-search-top-sources.png "Breakdown of organic search sources in Plausible")
 
 The pattern here is that there are privacy-focused search engines and AI chatbots showing up decently more than the previous years.
 
@@ -152,7 +152,7 @@ In the filtered dashboard, you can use the **Entry Pages** tab to see which page
 
 You can click on any row to further filter the dashboard and study that landing page: its bounce rate, geographies it was visited from, goal conversions in the sessions acquired through this page, etc. 
 
-![entry-pages](/uploads/entry-pages.png "entry-pages")
+![Entry pages report filtered by organic search in Plausible](/uploads/entry-pages.png "Entry pages report filtered by organic search in Plausible")
 
 ### Assess effective keywords
 
@@ -166,7 +166,7 @@ That’s it. Now you can also see your goal conversions (learn how to set them u
 
 You can use a mix and match of filters to create your [segments](https://plausible.io/audience-segmentation) and analyze organic traffic further. For eg. I can apply the following four filters to assess how many people signed up for our free trial from organic searches, landing on the homepage, in England.
 
-![organic-search-traffic-segment](/uploads/organic-search-traffic-segment.png "organic-search-traffic-segment")
+![Organic search traffic segmented by channel, region, entry page and goal in Plausible](/uploads/organic-search-traffic-segment.png "Organic search traffic segmented by channel, region, entry page and goal in Plausible")
 
 You can check out this exact segmented dashboard [here](https://plausible.io/plausible.io?f=is,channel,Organic%20Search&f=is,region,GB-ENG&f=is,entry_page,/&f=is,goal,Sign%20up%20for%20a%20trial&l=GB-ENG,England&period=12mo&keybindHint=L).
 

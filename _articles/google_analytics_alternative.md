@@ -88,7 +88,7 @@ Since January 2022, data protection authorities in Austria, France, Italy, Denma
 
 Staying compliant with GA4 requires cookie consent banners, a detailed privacy policy covering analytics tracking and in many cases a paid consent management platform. Each of those adds cost and friction.
 
-Plausible processes all visitor data on servers owned and operated by European providers. Your data never leaves the EU. Because Plausible doesn't use cookies or collect personal data, you don't need consent notices for analytics at all.
+Plausible processes all visitor data on servers owned and operated by European providers. Your data never leaves the EU. Because Plausible doesn't use cookies or collect personal data, you don't need an analytics cookie consent banner under most privacy regulations.
 
 An independent [legal assessment comparing Plausible and Google Analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by a data protection lawyer is available if you want the detail.
 
@@ -132,4 +132,4 @@ Plausible is not the right fit for every use case. If you need session replay, u
 
 You can [import your historical Google Analytics data](https://plausible.io/docs/google-analytics-import) so you don't lose your historical stats. For a full walkthrough, see the [GA to Plausible migration guide](/migrate-from-google-analytics).
 
-[Start your 30-day free trial](https://plausible.io/register) with no credit card required.
+[Start your 30-day free trial](https://plausible.io/register). No credit card required. Install it alongside Google Analytics, check both dashboards side by side and switch when you're ready.

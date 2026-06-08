@@ -32,7 +32,7 @@ Another interesting number is the “time on page,” which is 2m47s spent on av
 
 Look at the Sources tab for 2025 so far:
 
-![top-sources-2025-eu-alternatives](/uploads/top-sources-2025-eu-alternatives.png "top-sources-2025-eu-alternatives")
+![Top traffic sources for the European Alternatives site in 2025](/uploads/top-sources-2025-eu-alternatives.png "Top traffic sources for the European Alternatives site in 2025")
 
 Google is typically the dominant search driver for most websites—but not here. Reddit ranks as the second-largest traffic source, bringing in 311K visitors—significantly more than Google (193K). This isn’t a regular thing we see with sites.
 
@@ -62,7 +62,7 @@ A quick look at the "Top Pages" tab tells us about the most popular top 5 catego
 
 Upon expanding the report, we can take a deeper look at the most popular categories in terms of unique visitors, while comparing the engagement metrics.
 
-![top-pages-eu-alternatives](/uploads/top-pages-eu-alternatives.png "top-pages-eu-alternatives")
+![Top pages on the European Alternatives site by visitor category](/uploads/top-pages-eu-alternatives.png "Top pages on the European Alternatives site by visitor category")
 
 **B2B categories win?**
 
@@ -78,7 +78,7 @@ Even Canada and India make an appearance in the top 25, contributing decent amou
 
 If you scroll all the way down, or simply look at the “Map view,” there’s hardly any part of the globe that’s not participating in the shift towards privacy-focused digital tools.
 
-![map-view](/uploads/map-view.png "map-view")
+![World map view showing global visitors to the European Alternatives site](/uploads/map-view.png "World map view showing global visitors to the European Alternatives site")
 
 Privacy-conscious users are everywhere.
 
@@ -107,7 +107,7 @@ From these results, these are the top 10 tools receiving traffic from the EU alt
 
 And if we look at the all-time data, there’s a whopping 1.2M total outbound clicks from the website to such tools, that’s more than half of the total all-time visits to the library.
 
-![outbound-clicks](/uploads/outbound-clicks-.png "outbound-clicks")
+![Outbound link clicks to privacy-friendly tools on the European Alternatives site](/uploads/outbound-clicks-.png "Outbound link clicks to privacy-friendly tools on the European Alternatives site")
 
 And conversions aren’t just from Europe—the U.S. audience alone has a 16.8% conversion rate (check [here](https://plausible.io/european-alternatives.eu?f=is,goal,Outbound%20Link:%20Click&f=is,country,US&l=US,United%20States&period=all&keybindHint=A&comparison=off&match_day_of_week=true))!
 

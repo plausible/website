@@ -92,4 +92,4 @@ Here are some of the actions you can take to speed up your website:
 
 Plausible is open source, privacy-friendly and built to be as small as possible. No cookies, no personal data collection and no bloated script competing with your content for bandwidth.
 
-[Start your 30-day free trial](https://plausible.io/register) and see what your site looks like without the overhead of Google Analytics.
+[Start your 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside Google Analytics and compare both the script weight and the numbers.

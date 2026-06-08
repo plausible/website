@@ -16,7 +16,7 @@ Specifically:
 
 - No personal data is collected. No IP addresses, device fingerprints or persistent identifiers of any kind.
 - No cookies are set. Nothing to consent to, no cookie banner required on your site.
-- All data is processed and stored in the EU on servers owned by European companies. Data never leaves the EEA.
+- All data is processed and stored in the EU on servers owned by European companies. Data never leaves the EU.
 - No data is shared with or sold to third parties.
 - A DPA is in place automatically for all customers. You do not need to request one.
 

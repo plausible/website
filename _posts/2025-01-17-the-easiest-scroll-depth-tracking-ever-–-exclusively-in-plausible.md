@@ -44,7 +44,7 @@ This is also measured in pixels (usually rounded off values) in some tools. Alth
 
 The scroll depth metric is now live in your dashboards! 
 
-![scroll-depth-tracking-in-plausible](/uploads/scroll-depth-tracking-in-plausible.gif "scroll-depth-tracking-in-plausible")
+![Scroll depth tracking in Plausible Analytics](/uploads/scroll-depth-tracking-in-plausible.gif "Scroll depth tracking in Plausible Analytics")
 
 If you don’t have an account with Plausible, you can check out the **Top Pages** tab in our [live demo](https://plausible.io/plausible.io/pages?period=30d&keybindHint=T) to see what this looks like.
 
@@ -89,7 +89,7 @@ To get started with Scroll Depth Goals, go to your website's settings in Plausib
 
 See [how here](https://plausible.io/docs/scroll-depth).
 
-![scroll-depth-goal](/uploads/scroll-depth-goal.png "scroll-depth-goal")
+![Setting up a scroll depth goal in Plausible Analytics](/uploads/scroll-depth-goal.png "Setting up a scroll depth goal in Plausible Analytics")
 
 ### Group pages to see the average page scroll depth
 
@@ -101,11 +101,11 @@ Click the “Filter” option located beside the time period selector. This will
 
 Open the dropdown list located below the “Page” section and select the “contains” operator. Type a word like “blog” (like the example above). Click the “Apply Filter” button.
 
-![filter-by-page](/uploads/filter-by-page.png "filter-by-page")
+![Filtering by page URL in Plausible Analytics](/uploads/filter-by-page.png "Filtering by page URL in Plausible Analytics")
 
 This way, your dashboard will show the average scroll depth for only the blog posts on your website, which happens to be 52% for the last 30 days in the case of our website: 
 
-![blog-posts-average-scroll-depth](/uploads/blog-posts-average-scroll-depth.png "blog-posts-average-scroll-depth")
+![Average scroll depth for blog posts in Plausible Analytics](/uploads/blog-posts-average-scroll-depth.png "Average scroll depth for blog posts in Plausible Analytics")
 
 By the way, if you pay closer attention to this example, you’ll see that only the pages containing the word “blog” in their URLs are being displayed in the “Top Pages” report. 
 
