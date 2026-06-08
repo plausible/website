@@ -132,4 +132,4 @@ Plausible and GA4 will never show identical numbers. They measure differently by
 | Retargeting audiences | Yes | Not available |
 | Modeled or estimated data | Yes | No |
 
-[Start your free trial →](https://plausible.io/register) or [contact us](/contact) if you have questions about your specific setup.
+[Start your free trial →](https://plausible.io/register). No credit card required. Add the Plausible script alongside GA, verify the numbers look right and remove GA when you're done. Or [contact us](/contact) if you have questions about your specific setup.

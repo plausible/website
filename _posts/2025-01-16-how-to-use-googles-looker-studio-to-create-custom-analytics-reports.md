@@ -140,11 +140,11 @@ Bounce rate, visits and visit duration can only be used in combination with sess
 
 For example, if you try to use entry page as a dimension together with events, you will see null values because entry page is a session dimension.  (it keeps track of the first page that a user visited during their session) 
 
-![Entry page table with null events](/uploads/entry-page-events-null-looker.png "entry-page-events-null-looker")
+![Entry page table with null events](/uploads/entry-page-events-null-looker.png "Entry page table with null events in Looker Studio")
 
 You have several ways that you can work around this. First, you can use visitors or visits as a metric with session dimensions like entry page.  Second, you can use page (which is an event dimension) with the events metric. And finally, you can use entry page in a filter and then pick an event dimension for your table like goal name. This way, you can see event-level details for a list of goals corresponding to the landing pages that you specify via the filter.
 
-![Goal events table filtered by entry page](/uploads/goal-events-filtered-by-entry-page-looker.png "goal-events-filtered-by-entry-page-looker")
+![Goal events table filtered by entry page](/uploads/goal-events-filtered-by-entry-page-looker.png "Goal events table filtered by entry page in Looker Studio")
 
 In general, filter dimensions do not have the same limitations as dimensions that you add directly to your charts and tables, so this can be a good alternative in many cases.
 
@@ -152,7 +152,7 @@ Another consideration is that goals and custom properties have an additional con
 
 So to create the table in the Plausible dashboard that shows unique conversions, total conversions and conversion rate by goal, you would have a table that looks like this in Looker Studio.
 
-![goals-table-in-looker-studio](/uploads/goals-table-in-looker-studio.png "goals-table-in-looker-studio")
+![Goals table showing conversions and conversion rates in Looker Studio](/uploads/goals-table-in-looker-studio.png "Goals table showing conversions and conversion rates in Looker Studio")
 
 If you have revenue goals set up for your site, you will also be able to use the “Total Revenue” and “Average Revenue” metrics. These metrics work in a similar way to Conversion Rate, in that they require Goals or Custom Props to be added either as a Dimension or a Filter.
 

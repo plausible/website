@@ -132,7 +132,7 @@ You can attach metadata to any event or pageview to track dimensions Plausible d
 * Measuring feature adoption events
 * Comparing engagement across product areas
 
-You can then filter and segment your dashboard by those properties to answer questions about your product, not just your marketing site. Learn more about [custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-pageview-props).
+You can then filter and segment your dashboard by those properties to answer questions about your product, not just your marketing site. Learn more about [custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-props/for-pageviews).
 
 ## No cookie banner on your signup flow
 
@@ -164,8 +164,16 @@ Plausible supports white-label and OEM integrations: embed a fully featured dash
 
 [White-label analytics for SaaS products](https://plausible.io/white-label-web-analytics)
 
+## Other teams use Plausible for
+
+* [Ecommerce](/for-ecommerce) — revenue attribution and checkout funnels without cookies or consent banners
+* [Content and publishing](/for-bloggers-creators) — tracking what drives traffic, engagement and subscriptions
+* [Agencies and freelancers](/for-freelancers-agencies) — multi-site management, client reporting and GDPR compliance built in
+
 ## Try Plausible Analytics
 
-[Start a free 30-day trial](https://plausible.io/register). No credit card required. You can run Plausible alongside your existing analytics while you evaluate it.
+[Start a free 30-day trial](https://plausible.io/register). No credit card required. Run it alongside your current stack, compare the numbers and remove what you no longer need once you've seen enough.
 
 We charge a subscription fee instead of monetizing your data. That's the model that keeps our incentives aligned with yours.
+
+**Larger organization?** If your team needs Single Sign-On, the Sites API or scheduled raw event exports, see [enterprise web analytics](/enterprise-web-analytics).

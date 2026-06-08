@@ -6,9 +6,9 @@ description: Audience segmentation tools that don't need cookies or consent bann
   analysis in one simple dashboard.
 permalink: /audience-segmentation
 ---
-Most analytics tools make audience segmentation harder than it needs to be. Buried menus, complex setup and data that is already incomplete because visitors rejected your cookie banner. Plausible takes a different approach: accurate, privacy-friendly data in a single dashboard, with filtering that takes seconds.
+Most analytics tools make audience segmentation harder than it needs to be. Buried menus, complex setup and data already incomplete because visitors rejected your cookie banner. Plausible skips the consent layer entirely: no cookies means complete data, and every filter is one click on the dashboard.
 
-![audience segmentation in plausible analytics](/uploads/plausible-visitor-segmentation.png "audience segmentation in plausible analytics")
+![Audience segmentation in Plausible Analytics](/uploads/plausible-visitor-segmentation.png "Audience segmentation in Plausible Analytics")
 
 1. Ordered list
 {:toc}
@@ -44,7 +44,7 @@ Or say you find that visitors from the UAE are engaging heavily with a new featu
 
 But getting there first requires breaking your audience data into segments that can actually be compared.
 
-Continuing the example above, combining the UAE visitor segment with the landing pages they visit most could reveal specific patterns or surface insights you would not otherwise notice.
+Combining the UAE segment with the landing pages they visit most shows which content is driving that interest, a connection the raw numbers alone would not reveal.
 
 In Plausible, this is as simple as applying a few filters on your dashboard.
 
@@ -103,39 +103,35 @@ Tracking on-site interactions, campaign contributions and SEO performance requir
 
 ## Making the most of Plausible for audience segmentation
 
-Here is an overview of what Plausible users typically set up to get more out of their data. Which features you use will depend on the filters you want and the depth of analysis you need.
+Here is what to configure to go deeper than the default segments.
 
-We offer a 30-day free trial with no credit card required, so you can explore all the features before deciding what you need.
+### For segmenting by traffic source: tag your campaigns
 
-### For segmenting based on traffic acquisition: leverage URL parameters  
+Use campaign parameters to segment traffic without building profiles or tracking people. Plausible captures them automatically as aggregate data. No cookies, no user profiles, no cross-site tracking.
 
-Plausible shows you where your visitors are coming from: social media, search engines, direct visits, referrals and more. You can then segment your audience by any of those sources.
+When sharing links on social media, in paid ads or newsletters, [tag them](https://plausible.io/docs/top-referrers) with query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
 
-When sharing links to other platforms like social media, paid ads or newsletters, make sure to [tag them](https://plausible.io/docs/top-referrers) with query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
+The segmented data appears under the "[Sources](https://plausible.io/docs/top-referrers)" tab. Click any entry to filter the whole dashboard to that source, combine multiple sources, or adjust the timeframe.
 
-Plausible automatically captures these parameters, and you can view the segmented data under the "[Sources](https://plausible.io/docs/top-referrers)" tab.
+This gives you campaign attribution without the surveillance infrastructure GA4 relies on.
 
-You can also click any entry to filter the whole dashboard to that source, or combine multiple sources, across any timeframe.
+### For segmenting by on-site actions: set up custom events
 
-This is useful for comparing campaign performance and understanding which channels bring the most valuable traffic.
+Custom events let you segment by what visitors actually do. Track specific actions like signing up for a newsletter, clicking a call-to-action or downloading a file.
 
-### For segmenting based on site interactions: track custom events  
-
-Another way to segment your audience is by setting up custom events. With events, you can track specific actions visitors take on your site, such as signing up for a newsletter, clicking a call-to-action button or downloading an ebook.
-
-There are various [methods](https://plausible.io/docs/goal-conversions) in Plausible to track such events (some not even requiring code edits) like enhanced measurements, pageview goals and custom event goals.
+Plausible offers [several ways](https://plausible.io/docs/goal-conversions) to track events, some without any code edits: enhanced measurements, pageview goals and custom event goals.
 
 You can also collect additional context about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics, and compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to measure drop-off across a defined conversion sequence. 
 
-This helps you understand which actions your audience takes and which of them lead to conversions.
+You get a clear picture of what drives conversions without collecting personal data about who did it.
 
-### For segmenting based on SEO performance: integrate with Google Search Console  
+### For segmenting by SEO performance: connect Google Search Console
 
 We offer an [integration with Google Search Console](https://plausible.io/docs/google-search-console-integration) that shows you the search terms that brought visitors to your site, directly inside your Plausible dashboard. 
 
 You can segment this data by filtering your dashboard with the “Google” traffic source entry to see which keywords drive real clicks. 
 
-This integration is privacy-friendly and requires no additional Google code on your site. Google shares search data they have already collected, so your site's privacy remains intact.
+No additional Google code on your site and no new data collected from your visitors. Google provides search data they already have; your site does not send anything extra.
 
 ### Other optimizations  
 
@@ -150,7 +146,7 @@ Plausible is built on the idea that analytics should not require a learning curv
 
 Plausible’s [private-by-design](https://plausible.io/privacy-focused-web-analytics) solution is fully compliant with GDPR, CCPA and PECR regulations. We operate without cookies or persistent identifiers and don’t collect personally identifiable information. Your data is never sold, never shared and never used for advertising.
 
-Unlike other analytics tools, Plausible does not track or sell user behavior, so you can skip [cookie banners](https://plausible.io/blog/cookie-consent-banners). This provides a smoother experience for your visitors and less friction for site owners.
+Unlike GA4, Plausible does not track or sell user behavior, so you can skip [cookie banners](https://plausible.io/blog/cookie-consent-banners). No consent popup means no data loss from visitors who would have declined.
 
 Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics), which prevents the slowdowns caused by heavier scripts and is good for SEO. 
 
@@ -158,7 +154,7 @@ We also filter out referrer spam and data center traffic, and accurately attribu
 
 For example, Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar cases, but Plausible handles them all automatically.
 
-We are also not blocked by most ad blockers and privacy-focused browsers like Safari and Firefox.
+We are also blocked far less often than Google Analytics by ad blockers and privacy-focused browsers like Safari and Firefox.
 
 ### How Google Analytics 4 handles audience segmentation
 
@@ -172,4 +168,4 @@ Moreover, [recent independent studies](https://www.orbitmedia.com/blog/inaccurat
 
 GA4 is not GDPR-compliant, is known to profile your users and sell their data, requires a learning curve and compromises the user experience. We cover [the full comparison between Plausible and Google Analytics](https://plausible.io/vs-google-analytics) in detail.
 
-Plausible is trusted by {{ site.data.site.subscriber_count }} teams including Hugging Face, Ghost and Basecamp. Try it free for 30 days, no credit card required, and see what your audience data looks like when it is accurate and complete.
+Plausible is trusted by {{ site.data.site.subscriber_count }} teams including Hugging Face, Ghost and Basecamp. [Try it free for 30 days](https://plausible.io/register), no credit card required. Run it alongside Google Analytics and see how the audience numbers compare when data is complete.

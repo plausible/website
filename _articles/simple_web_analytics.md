@@ -31,7 +31,7 @@ Thousands of organizations have switched from Google Analytics to Plausible, inc
 
 {% include cta-buttons.html %}
 
-![simpler google analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: simpler google analytics alternative")
+![Plausible: A simpler Google Analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: A simpler Google Analytics alternative")
 
 1. Ordered list
 {:toc}
@@ -67,7 +67,7 @@ Analytics scripts add weight to every page load. Plausible's script is [a fracti
 
 **2. No cookies, no consent prompts**
 
-Plausible doesn't use cookies and doesn't collect personal data. That means no cookie banners, no GDPR consent flows, no complex privacy policy additions. Your visitors get a cleaner experience, and you stay [compliant out of the box](https://plausible.io/data-policy). Your data is also hosted in the EU on EU-owned infrastructure.
+Plausible doesn't use cookies and doesn't collect personal data. That means no cookie banners, no GDPR consent flows, no complex privacy policy additions. Your visitors get a cleaner experience, and you stay [compliant out of the box](https://plausible.io/data-policy). Your data is also hosted in the EU on European-owned infrastructure.
 
 **3. Simple to set up**
 
@@ -81,4 +81,4 @@ We cover more of these comparisons in [this post](https://plausible.io/blog/easy
 
 ## Try Plausible free for 30 days
 
-Plausible is open-source, privacy-friendly and built to stay out of your way. [Sign up for a free trial](https://plausible.io/register) and see what your site data looks like when it's actually easy to read.
+Plausible is open-source, privacy-friendly and built to stay out of your way. [Sign up for a free trial](https://plausible.io/register). No credit card required. Run it alongside Google Analytics and you will see the same data in a fraction of the interface.

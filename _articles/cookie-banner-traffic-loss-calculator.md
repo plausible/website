@@ -138,7 +138,7 @@ Enter your reported monthly visitors and adjust the consent acceptance rate to m
 })();
 </script>
 
-If you want to close this gap entirely, [Plausible Analytics](https://plausible.io) is built without cookies, without personal data collection and without any cross-site tracking. Because nothing personal is collected, no consent banner is required under most privacy regulations and every visitor is counted, not just the ones who clicked accept.
+If you want to close this gap entirely, [Plausible Analytics](https://plausible.io) is built without cookies, without personal data collection and without any cross-site tracking. Because nothing personal is collected, no analytics cookie consent banner is required under most privacy regulations, so you avoid the consent-banner data loss that hides visitors who declined.
 
 ## What consent rate should I use?
 

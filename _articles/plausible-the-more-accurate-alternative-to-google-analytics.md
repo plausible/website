@@ -32,7 +32,7 @@ Here’s what we do differently.
 
 {% include cta-buttons.html %}
 
-![plausible-most-accurate-web-analytics](/uploads/plausible-most-accurate-web-analytics.png "plausible-most-accurate-web-analytics")
+![Plausible: The most accurate web analytics tool](/uploads/plausible-most-accurate-web-analytics.png "Plausible: The most accurate web analytics tool")
 
 1. Ordered list
 {:toc}
@@ -98,7 +98,7 @@ Apple's Intelligent Tracking Prevention, Firefox's Enhanced Tracking Protection 
 
 If your users use privacy-friendly browsers or ad blockers, Google Analytics script won’t be able to track their traffic on your website.
 
-**Plausible’s position:** Being cookieless and privacy-first means we’re not blocked by privacy-friendly browsers or most ad blockers in the first place.
+**Plausible’s position:** Being cookieless and privacy-first means we’re blocked far less often than Google Analytics by privacy-friendly browsers or ad blockers.
 
 One exception: ad blockers that make no distinction between privacy-friendly and invasive scripts, blocking all JavaScript tracking.
 
@@ -200,7 +200,7 @@ The conversion numbers aren’t final either. It takes up to 12 days for convers
 
 Much of what GA reports is estimated, not measured. Here's a [full breakdown](https://plausible.io/blog/consent-mode-ga4-modeled-data).
 
-Plausible does not use data sampling or modeling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect 100% accurate data of what happens on your site.
+Plausible does not use data sampling or modeling by default. We collect and store 100% of the data regardless of how many pageviews you have. The stats in your dashboard reflect directly measured data with no modeling or extrapolation.
 
 However, on some dashboard views that have a lot of data such as those with more than 10 million pageviews, we apply [limited data sampling](https://plausible.io/docs/dashboard-faq#does-plausible-do-data-sampling) to help the dashboard load as fast as possible.
 

@@ -46,7 +46,7 @@ If your analytics provider is a US company or stores data on US-owned infrastruc
 
 ## What EU hosting means in practice for Plausible
 
-Plausible is incorporated as a legal entity in Estonia. Our team is based in the EU. All visitor data is processed and stored exclusively on servers and cloud infrastructure owned and operated by European companies. No visitor data is transferred to the United States or any other country outside the EEA.
+Plausible is incorporated as a legal entity in Estonia. Our team is based in the EU. All visitor data is processed and stored exclusively on servers and cloud infrastructure owned and operated by European companies. No visitor data is transferred to the United States or any other country outside the EU.
 
 All visitor data is stored on servers owned by Hetzner, a German company, in Falkenstein, Germany. We use UpCloud, a Finnish company, for database hosting and storage of data exports. We use Bunny, a Slovenian company, as our CDN. These are the only three providers that touch visitor data, and all three are European-owned. We do not use US-owned cloud providers for data storage or processing. This is not a checkbox we tick for compliance purposes. It is a deliberate infrastructure decision that we have maintained for years.
 
@@ -88,4 +88,4 @@ Many of these organizations chose Plausible specifically because of where their 
 
 ## Get started
 
-You can [try Plausible free for 30 days](https://plausible.io/register) without a credit card. If you have procurement or compliance questions, [contact us](https://plausible.io/contact).
+You can [try Plausible free for 30 days](https://plausible.io/register) without a credit card. Run it in parallel with your existing tool and compare the numbers. If you have procurement or compliance questions, [contact us](https://plausible.io/contact).

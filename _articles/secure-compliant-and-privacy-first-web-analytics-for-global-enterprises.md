@@ -9,7 +9,7 @@ cta_headline: "Ready to simplify your analytics stack?"
 ---
 Many large organizations are rethinking their analytics setup. The compliance overhead of cookie-based tools like Google Analytics, combined with data flowing to US servers and growing scrutiny from privacy regulators, has made the status quo harder to justify.
 
-Plausible is a privacy-first alternative built to work at any scale. We don't use cookies, don't collect personal data and don't require consent banners. All data is processed and stored on EU-owned infrastructure and never leaves the EEA.
+Plausible is a privacy-first alternative built to work at any scale. We don't use cookies, don't collect personal data and don't require consent banners. All data is processed and stored on European-owned infrastructure and never leaves the EEA.
 
 Organizations like Hugging Face, MongoDB, Basecamp, Sentry, the Python Software Foundation, the Steve Jobs Archive, Harvard University and the Scottish and Welsh governments have been running Plausible for years.
 
@@ -33,7 +33,7 @@ Organizations like Hugging Face, MongoDB, Basecamp, Sentry, the Python Software 
 
 {% include cta-buttons.html %}
 
-![plausible analytics for enterprise](/uploads/plausible-enterprise.png "plausible analytics for enterprise")
+![Plausible Analytics for enterprise teams](/uploads/plausible-enterprise.png "Plausible Analytics for enterprise teams")
 
 If your organization needs accurate, complete analytics without the compliance burden of traditional tools, here's what Plausible offers.
 
@@ -94,7 +94,7 @@ Plausible shows real numbers, not modeled or estimated data. We never alter hist
 
 We collect and store 100% of your traffic as it arrives and never alter historical data. Your numbers are stable and directly comparable over time, making Plausible suitable for long-term reporting, forecasting and internal reviews. On dashboard views above 10 million pageviews, limited sampling applies to keep load times fast: you can always narrow the date range to see exact counts.
 
-Your data will also be more complete. Our tracking script is not blocked by ad blockers, privacy-respecting browsers or cookie consent banners the way GA4's is. Studies show Plausible captures [55% more data than GA4](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) for this reason alone.
+Your data will also be more complete. Our tracking script is far less likely to be blocked by ad blockers or privacy-respecting browsers, and it doesn't depend on cookie consent the way GA4's does. Studies show Plausible captures [55% more data than GA4](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) for this reason alone.
 
 Our bot detection system filters out bot and spam traffic automatically.
 
@@ -156,7 +156,7 @@ As an enterprise subscriber, you get access to all business plan features, inclu
 * [Import your GA4 data](https://plausible.io/docs/google-analytics-import) for a smooth transition
 * Use the official [Looker Studio Connector](https://plausible.io/docs/looker-studio) or the [Search Console integration](https://plausible.io/docs/google-search-console-integration)
 * Set up [goals](https://plausible.io/docs/goal-conversions) and [funnels](https://plausible.io/docs/funnel-analysis) for conversion analysis
-* Track across [subdomains and hostnames](https://plausible.io/docs/subdomain-hostname-filter')
+* Track across [subdomains and hostnames](https://plausible.io/docs/subdomain-hostname-filter)
 * Use [audience segments](https://plausible.io/audience-segmentation) for deeper analysis
 
 ## Self-hosting
@@ -173,6 +173,6 @@ We'll work with you to put together a plan that matches your usage and workflows
 
 There are no long-term contracts or lock-ins. You can upgrade, downgrade or cancel at any time. Our terms of service, privacy policy, data policy and DPA are publicly available and apply equally to all subscribers.
 
-You can explore our [live demo](https://plausible.io/plausible.io) or start a [free trial](https://plausible.io/register) before committing.
+[Start a free trial](https://plausible.io/register) or explore the [live demo](https://plausible.io/plausible.io). No credit card required. Run Plausible alongside your current analytics to review the data before making any changes to your setup.
 
 Email us at [hello@plausible.io](mailto:hello@plausible.io). We'll get back to you within one business day to discuss your requirements and next steps.

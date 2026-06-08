@@ -239,13 +239,13 @@ In this example, you can see traffic to the blog grouped by acquisition channels
 
 The green arrows indicate growth. Hovering over the arrows would show you growth in percentage terms as well.
 
-![plausible-dashboard-blog-analytics](/uploads/plausible-dashboard-blog-analytics.png "plausible-dashboard-blog-analytics")
+![Plausible dashboard showing blog traffic grouped by acquisition channels](/uploads/plausible-dashboard-blog-analytics.png "Plausible dashboard showing blog traffic grouped by acquisition channels")
 
 Here, organic search is growing, which suggests improved visibility in search results. Referral traffic, on the other hand, shows visitors who clicked through from links on other websites. This is the most direct way to see backlinks working.
 
 You can also go one level deeper by clicking into the Referral channel to see exactly which domains are sending traffic. This allows you to identify high-value backlinks that are not only helping SEO, but also bringing in real visitors.
 
-![](/uploads/filter-traffic-by-referral-source.png)
+![Filtering traffic by referral source in Plausible](/uploads/filter-traffic-by-referral-source.png "Filtering traffic by referral source in Plausible")
 
 You can do the same by clicking on “organic search.” If you click on “Google” you will be able to see the exact search terms bringing in traffic too.
 

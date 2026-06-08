@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Web analytics for ecommerce: simple, accurate and privacy-friendly"
-description: Web analytics for ecommerce that doesn't rely on cookies or consent banners. Simple dashboard, accurate data not blocked by ad blockers and a privacy-friendly alternative to Google Analytics.
+description: Web analytics for ecommerce that doesn't rely on cookies or consent banners. Simple dashboard, accurate data less affected by ad blocker blocking and a privacy-friendly alternative to Google Analytics.
 permalink: /for-ecommerce
 cta_headline: "Ready for accurate ecommerce analytics?"
 ---
@@ -114,7 +114,7 @@ You can attach metadata to any event or pageview to track dimensions that Plausi
 
 You can then filter and segment your dashboard by those properties. Just make sure not to send any personally identifiable information as custom property values.
 
-[Learn more about custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-pageview-props).
+[Learn more about custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-props/for-pageviews).
 
 ## See organic search and AI traffic clearly
 
@@ -152,8 +152,16 @@ You can also set up weekly or monthly [email reports](https://plausible.io/docs/
 
 Or generate a private [shared link](https://plausible.io/docs/shared-links) to the dashboard for anyone who needs occasional access. No account required to view it, and you can password-protect it for extra security.
 
+## Other teams use Plausible for
+
+* [SaaS products](/for-saas) — tracking trial signups, activation funnels and campaign attribution
+* [Content and publishing](/for-bloggers-creators) — tracking what drives traffic, engagement and subscriptions
+* [Agencies and freelancers](/for-freelancers-agencies) — multi-site management, client reporting and GDPR compliance built in
+
 ## Try Plausible Analytics
 
-[Start a free 30-day trial](https://plausible.io/register). No credit card required and you can run Plausible alongside your existing analytics while you evaluate it.
+[Start a free 30-day trial](https://plausible.io/register). No credit card required. Run it alongside your existing analytics and compare conversion and revenue numbers directly.
 
 We charge a subscription fee instead of monetizing your data. That's the model that keeps our incentives aligned with yours.
+
+**Larger organization?** If your team needs Single Sign-On or scheduled raw event exports for your data warehouse, see [enterprise web analytics](/enterprise-web-analytics).

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Plausible: GDPR, CCPA and cookie law compliant site analytics"
-description: Plausible provides cookie-less web analytics without collecting
+title: "Plausible: GDPR, CCPA and cookie law compliant web analytics"
+description: Plausible provides cookieless web analytics without collecting
   personal data and while respecting the privacy of website visitors. This is
   our data policy.
 permalink: /data-policy
@@ -37,7 +37,7 @@ Here is the complete list of what we collect and store:
 
 ---
 
-## How we count unique users without cookies
+## How we count unique visitors without cookies
 
 We do not generate persistent identifiers. We do not use cookies, browser cache or local storage.
 

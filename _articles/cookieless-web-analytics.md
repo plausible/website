@@ -89,4 +89,4 @@ Switching to Plausible eliminates this layer: no consent platform, no banner, no
 
 Plausible is [open source](https://plausible.io/open-source-website-analytics), hosted in the EU and funded entirely by subscribers. No advertising business, no data resale, no incentive to collect more than you need.
 
-[Start your 30-day free trial](https://plausible.io/register) with no credit card required. Add a single script tag to your site and you'll see complete, accurate traffic data from the first visit.
+[Start your 30-day free trial](https://plausible.io/register). No credit card required. Add a single script tag alongside your existing setup and you'll see the difference in reported traffic from the first visit.
