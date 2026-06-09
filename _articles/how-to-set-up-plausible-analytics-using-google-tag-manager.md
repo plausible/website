@@ -182,7 +182,17 @@ Before publishing, always verify that everything works as expected. To test:
 2. A new tab will open showing your website with the GTM container active.
 3. In the Tag Assistant Preview panel, confirm that the Plausible tag fires correctly. You can see additional information about the events that trigger the tag and the data that is being sent.
 
-If you see the tag firing and data appearing in your Plausible dashboard, your setup is complete!
+If you see the tag firing and data appearing in your Plausible dashboard, your setup is working correctly.
+
+## Publish your container
+
+Preview mode only runs on your own browser session. To make tracking go live for real visitors, you need to publish the container.
+
+1. Click **Submit** in the top-right corner of your GTM dashboard.
+2. Add a version name and description if you want (optional but useful for keeping track of changes).
+3. Click **Publish**.
+
+Until you publish, no data will be collected from actual visitors to your site.
 
 ## What’s next?
 
