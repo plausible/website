@@ -211,9 +211,7 @@ Our [import tool](https://plausible.io/docs/google-analytics-import) automatical
 
 ### Support your clients’ SEO with actionable insights
 
-In the dashboard, you will find a dedicated Organic Search channel, so you can instantly see how much traffic comes from search engines.
-
-This channel also includes traffic from AI assistants and search tools, giving you a more complete picture of how people discover the site.
+In the dashboard, you will find a dedicated **Organic Search** channel, so you can instantly see how much traffic comes from search engines. AI tools such as ChatGPT, Perplexity and Google Gemini appear in a separate **AI Assistants** channel.
 
 You can also use the [Google Search Console integration](https://plausible.io/docs/google-search-console-integration) and see which queries and pages drive organic visitors, alongside engagement and conversion data.
 

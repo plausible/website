@@ -119,9 +119,9 @@ See "[how to use UTM parameters to track your campaigns](https://plausible.io/bl
 
 ## See organic search and AI traffic clearly
 
-The dashboard includes a dedicated Organic Search channel showing how much of your traffic comes from search engines, including AI assistants and AI-powered search tools. For SaaS, this tells you how prospects discover your product category and find their way to your pricing or signup page.
+The **Organic Search** channel shows how much of your traffic comes from search engines. The **AI Assistants** channel groups traffic from tools like ChatGPT, Perplexity and Google Gemini separately. For SaaS, these are often your highest-intent visitors: someone searching for a solution or asking an AI tool for a recommendation is actively evaluating options in your category.
 
-Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which queries and pages drive organic signups, alongside engagement and conversion data.
+Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your site and which pages they land on.
 
 ## Add custom properties to track product dimensions
 

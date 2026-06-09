@@ -118,9 +118,9 @@ You can then filter and segment your dashboard by those properties. Just make su
 
 ## See organic search and AI traffic clearly
 
-The dashboard includes a dedicated Organic Search channel that shows how much of your traffic comes from search engines, including AI assistants and AI-powered search tools. For ecommerce, this tells you how buyers find your products and product category, not just how many visited.
+The **Organic Search** channel shows how much of your traffic comes from search engines. The **AI Assistants** channel tracks visits from tools like ChatGPT, Perplexity and Google Gemini as a separate group. For ecommerce, both represent discovery without ad spend: shoppers who found your store without you paying for the click.
 
-You can also connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries and pages drive organic visitors, alongside engagement and conversion data.
+Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your store and which pages they land on.
 
 ## No cookie banner required
 
