@@ -14,7 +14,7 @@ layout: default
   </div>
 </article>
 
-<div class="bg-gray-50 pb-12">
+<div x-data x-show="!document.cookie.includes('logged_in=true')" class="bg-gray-50 pb-12">
   <div class="container mx-auto py-12 lg:py-16 lg:flex lg:items-center lg:justify-between border-t-2 border-gray-100">
     <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
       {% if page.cta_headline %}{{ page.cta_headline }}{% else %}Ready to ditch Google Analytics?{% endif %}
