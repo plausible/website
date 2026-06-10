@@ -20,6 +20,14 @@ Let’s use the analytics [dashboard](https://plausible.io/european-alternatives
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Looking for a simple privacy-first alternative to Google Analytics?"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## 1100% traffic surge
 
 If we filter the dashboard by “Year to date” period, i.e. 2025 so far, we see there have been 1.3 million visitors to the website, with a surge of 1.1K%. 

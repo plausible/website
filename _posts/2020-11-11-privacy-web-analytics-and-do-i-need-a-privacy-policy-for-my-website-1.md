@@ -17,6 +17,14 @@ This post is an introduction to privacy policies. It may not cover all the laws 
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## Why should I create a privacy policy?
 
 A privacy policy is a legal document that informs your website visitors and explains what kind of personal data you collect about them, how you do it and what it's used for. 

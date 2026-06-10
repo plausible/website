@@ -21,6 +21,14 @@ CCPA was signed in June 2018, it went into effect at the start of 2020 and Calif
 
 The information in this post is our view on CCPA and it’s here to help give you an introduction to CCPA and how Plausible Analytics is built to help you comply with it. We encourage you to discuss specific issues with your lawyer to help you ensure that you fulfill the legal requirements that apply to you.
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## Who does CCPA affect and what are the penalties?
 
 Companies that serve residents of California may be affected. The location of the company doesn't really matter. Wherever you are based in the world, you may be affected if you're serving California residents. Those companies that fall under the law are:

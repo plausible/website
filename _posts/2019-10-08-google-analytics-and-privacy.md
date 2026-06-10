@@ -10,6 +10,14 @@ affects the privacy of your website's visitors. There's a growing distrust towar
 advertising sector but what are the actual issues besides calling out 'creepy' ads?
 Let's discuss the wider ethical questions around personal data collection and digital targeting.
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ### Why is Google in the analytics business?
 
 The biggest problem with online tracking is not that it's 'creepy'. The problem is

@@ -21,6 +21,14 @@ We created Plausible with simplicity in mind, so you wouldn’t have to worry ab
 
 **Helpful tip**: You can open our [live dashboard](https://plausible.io/plausible.io) in another tab now as we keep referencing it throughout. You can also open the official [GA4 Merch Shop demo property](https://support.google.com/analytics/answer/6367342?hl=en#zippy=%2Cin-this-article) in a third tab to make the comparisons easier.
 
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Import your stats and keep your history in one place"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 

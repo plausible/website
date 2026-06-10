@@ -4,7 +4,7 @@
 {% if include.primary_text %}{% assign cta_primary_text = include.primary_text %}{% else %}{% assign cta_primary_text = 'Start free trial' %}{% endif %}
 {% if include.secondary_link %}{% assign cta_secondary_link = include.secondary_link %}{% else %}{% assign cta_secondary_link = '/plausible.io' %}{% endif %}
 {% if include.secondary_text %}{% assign cta_secondary_text = include.secondary_text %}{% else %}{% assign cta_secondary_text = 'View live demo' %}{% endif %}
-<div class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
+<div x-data x-show="!document.cookie.includes('logged_in=true')" class="mt-6 max-w-md mx-auto sm:flex sm:justify-center">
   <div class="rounded-md shadow">
     <a href="{{ cta_primary_link }}" onclick="plausible('CTA Click', {props: {position: '{{ cta_position }}', type: '{{ cta_type }}', button: '{{ cta_primary_text }}'}})" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10" style="color: white;">{{ cta_primary_text }}</a>
   </div>

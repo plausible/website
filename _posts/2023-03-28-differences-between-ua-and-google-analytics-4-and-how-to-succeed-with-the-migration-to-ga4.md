@@ -16,6 +16,14 @@ We're an [alternative to Google Analytics](https://plausible.io) and many people
 
 So I thought it would be helpful to bring in an expert. And who better to enlighten us than the person who wrote a book on the topic? Enter [Jason Packer](https://www.quantable.com/), the first person ever to write words on our blog besides my co-founder and me.
 
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Import your stats and keep your history in one place"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 

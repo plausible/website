@@ -16,6 +16,14 @@ Europe has been building world-class digital tools for years. A major advantage 
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Looking for a simple privacy-first alternative to Google Analytics?"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Criteria for choosing these tools
 
 We selected these tools based on:

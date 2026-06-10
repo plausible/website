@@ -24,6 +24,14 @@ Are you looking for a Google Analytics alternative or a tool to use as an additi
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Looking for a simple privacy-first alternative to Google Analytics?"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Plausible Analytics
 
 ![Plausible Analytics Top Referrers and Top Pages](/uploads/top-referrers-pages.png "Plausible Analytics Top Referrers and Top Pages")

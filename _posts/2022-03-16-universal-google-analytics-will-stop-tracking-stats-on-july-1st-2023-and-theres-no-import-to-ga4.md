@@ -15,6 +15,14 @@ image-alt: Universal Google Analytics has stopped tracking stats on July 1st
 ---
 Google just dropped big news on the business and marketing world! Universal Google Analytics, the current version of Google Analytics, will be sunset and will stop counting stats on July 1st 2023. The new Google Analytics 4 will be replacing Universal Analytics.
 
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Import your stats and keep your history in one place"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 
