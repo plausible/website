@@ -105,11 +105,9 @@ Plausible is funded entirely by subscribers. We don't sell your data, show ads o
 
 Because we don't make money from tracking people, we charge a fee instead. That's what keeps the project running and lets us focus entirely on building a better product for our customers.
 
-## You can self-host Plausible Analytics
+## Open source, so you're never locked in
 
-Plausible is open source and you can self-host it on your own server. The cloud version we manage for you. The self-hosted version you install, maintain and manage yourself.
-
-You can see [all the differences here](https://plausible.io/self-hosted-web-analytics).
+Plausible is open source, so anyone can audit exactly what we collect. We run the cloud version for you, and if you ever want full control you can [run it yourself](https://plausible.io/self-hosted-web-analytics).
 
 ## Give Plausible a try
 

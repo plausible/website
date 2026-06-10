@@ -54,7 +54,7 @@ The goal of the AGPL license is to maximize user freedom and to encourage compan
 
 ## Can Plausible Analytics be self-hosted?
 
-Yes. You can install and run Plausible on your own server. See the [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) docs for details.
+Yes. You can install and run Plausible on your own server. See [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) for details.
 
 ## Is Google Analytics open source?
 

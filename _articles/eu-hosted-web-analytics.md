@@ -40,7 +40,9 @@ This is not a configuration option or an add-on. It is simply how Plausible work
 
 The GDPR restricts transfers of personal data outside the European Economic Area unless specific conditions are met. Chapter V of the GDPR requires that any transfer to a third country provides an equivalent level of protection to what the GDPR guarantees inside the EU.
 
-For transfers to the United States, this has been contested repeatedly. The Schrems II ruling by the Court of Justice of the EU invalidated the previous Privacy Shield framework in 2020. Since then, regulators across Europe have found that using US-based analytics services, including Google Analytics, can constitute an unlawful data transfer, because US companies remain subject to surveillance laws that allow US intelligence services to access data about European citizens. We covered this in detail in our post on [why Google Analytics was found to be illegal](https://plausible.io/blog/google-analytics-illegal) in several EU countries.
+For transfers to the United States, this has been contested repeatedly. The Schrems II ruling by the Court of Justice of the EU invalidated the previous Privacy Shield framework in 2020.
+
+Since then, regulators across Europe have found that using US-based analytics services, including Google Analytics, can constitute an unlawful data transfer, because US companies remain subject to surveillance laws that allow US intelligence services to access data about European citizens. We covered this in detail in our post on [why Google Analytics was found to be illegal](https://plausible.io/blog/google-analytics-illegal) in several EU countries.
 
 If your analytics provider is a US company or stores data on US-owned infrastructure, this is a live legal risk that your DPO and legal team may need to account for.
 
@@ -72,13 +74,13 @@ Many other popular analytics tools are also incorporated in the US or rely on US
 
 Plausible has no US parent company, no US investors with board control, and no US infrastructure. Your data is not subject to US surveillance law.
 
-The EU-U.S. Data Privacy Framework (DPF), adopted in 2023, is the current mechanism US companies use to justify EU data transfers. It replaced Privacy Shield, which was invalidated by the Schrems II ruling. The DPF is already facing a new legal challenge from the same group, and the structural issue that led to the Schrems II ruling, that US surveillance law applies to US companies regardless of where data is stored, has not changed. EU hosting sidesteps this uncertainty entirely.
+The EU-U.S. Data Privacy Framework (DPF), adopted in 2023, is the current mechanism US companies use to justify EU data transfers. It replaced Privacy Shield, which was invalidated by the Schrems II ruling.
+
+The DPF is already facing a new legal challenge from the same group, and the structural issue that led to the Schrems II ruling, that US surveillance law applies to US companies regardless of where data is stored, has not changed. EU hosting sidesteps this uncertainty entirely.
 
 ## Open source and independently verifiable
 
 Plausible is [open source](https://plausible.io/open-source-website-analytics). Our code is publicly available on [GitHub](https://github.com/plausible/analytics/). Anyone can audit exactly what data we collect, how we process it and where it goes.
-
-We also offer a [self-hosted version](https://plausible.io/self-hosted-web-analytics) for organizations that want to run Plausible on their own infrastructure entirely.
 
 ## Who uses Plausible
 

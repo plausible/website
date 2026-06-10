@@ -140,7 +140,9 @@ Plausible is compliant with GDPR, CCPA and PECR out of the box. No cookies, no p
 
 For SaaS, this matters beyond compliance. A cookie consent popup is friction at the top of your funnel. Removing it means no decline rates reducing your data quality and no interruption before users reach your signup form.
 
-You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. All data is hosted in the EU. For B2B SaaS, this simplifies data processing agreements and removes cross-border transfer concerns when enterprise customers ask where their analytics data lives. Plausible is also open source. The codebase is publicly auditable and you can self-host if your compliance requirements demand full data sovereignty. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
+You own and control all your data. We don't sell or share it with third parties and we don't use it for advertising. All data is hosted in the EU.
+
+For B2B SaaS, this simplifies data processing agreements and removes cross-border transfer concerns when enterprise customers ask where their analytics data lives. Plausible is also open source, so the codebase is publicly auditable. See full details on what makes Plausible a [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics) tool.
 
 ## Share analytics with your team and stakeholders
 
