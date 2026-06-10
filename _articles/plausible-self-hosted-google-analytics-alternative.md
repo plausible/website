@@ -32,6 +32,16 @@ Here are the differences between Plausible Analytics managed hosting in the clou
 | **Premium support**           | Real support delivered by real human beings who build and maintain Plausible.                                                                                                                                                                                                                                                                                                           | Premium support is not included. Self-hosting is community supported only.                                                                                                                                                                                                                                                                                          |
 | **Costs**                     | There's a cost associated with providing an analytics service so we charge a subscription fee. We choose the subscription business model rather than the business model of surveillance capitalism. Your money funds further development of Plausible.                                                                                                                                  | You need to pay for your server, CDN, backups and whatever other cost there is associated with running the infrastructure. You never have to pay any fees to us. Your money goes to 3rd party companies with no connection to us.                                                                                                                                   |
 
+## Self-hosting is a real commitment
+
+When you self-host, the work we do for cloud customers becomes your work. You own your backups, your server's uptime, the capacity to handle your traffic, the speed of your dashboard and the filtering that keeps bots out of your stats. The control that makes self-hosting appealing also makes all of this your responsibility.
+
+Some of this is hard to match on your own. We monitor traffic across the whole network, spot new bots and crawlers as they appear and exclude them for every site at once. A single instance only sees its own traffic, so it cannot keep up the same way.
+
+Security is the clearest example of work that needs fast action. When we learn of an issue we fix it on Plausible Cloud immediately, so our customers are protected, and we ship a release with the fix. On a self-hosted instance that fix only protects you once you apply the release yourself, so the gap is yours to close.
+
+Plan for this before you install. Watch our [releases on GitHub](https://github.com/plausible/analytics/releases) so you hear about new versions as they ship, keep a working backup and follow the [upgrade guide](https://github.com/plausible/community-edition/wiki/Upgrade) to apply them quickly. Self-hosting works well when you treat your instance as infrastructure you maintain, not software you install once.
+
 ## How can you be sustainable if you're giving your software for free?
 
 Many open source projects are under-resourced and under-funded. Some maintainers sacrifice their financial security to work on their passion. We do not think that should be required.

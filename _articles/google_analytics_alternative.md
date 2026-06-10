@@ -102,7 +102,7 @@ Universal Analytics was shut down when it stopped serving that purpose, with no 
 
 Plausible doesn't participate in that model. No personal data is collected or shared. Nothing is sold to third parties. We don't track visitors across sites. Your data stays in your account, in the EU, and is not used for anything other than showing you your own stats.
 
-If you prefer full control, you can self-host Plausible on your own server. Our [source code](https://github.com/plausible/analytics/) is publicly available on GitHub and anyone can audit exactly how data is handled.
+Plausible is open source. Our [source code](https://github.com/plausible/analytics/) is publicly available on GitHub and anyone can audit exactly how data is handled, something Google Analytics has never allowed.
 
 ## Faster and lighter
 
