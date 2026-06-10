@@ -1,7 +1,7 @@
 {% assign cta_event = include.event | default: 'CTA Click' %}
 {% if page.layout == 'post' %}{% assign cta_type = 'Blog' %}{% elsif page.layout == 'article' %}{% assign cta_type = 'Landing page' %}{% else %}{% assign cta_type = page.layout %}{% endif %}
 {% if include.link contains 'register' %}{% assign cta_primary_button = 'Start free trial' %}{% elsif include.link contains '/plausible.io' %}{% assign cta_primary_button = 'View live demo' %}{% else %}{% assign cta_primary_button = include.link_text %}{% endif %}
-<div class="cta-box my-8 rounded-lg border border-indigo-100 bg-indigo-50 p-6">
+<div x-data x-show="!document.cookie.includes('logged_in=true')" class="cta-box my-8 rounded-lg border border-indigo-100 bg-indigo-50 p-6">
   <p class="text-base font-semibold text-gray-900 mt-0 mb-0">{{ include.headline }}</p>
   <div class="mt-4 flex flex-wrap" style="gap: 0.75rem;">
     <a href="{{ include.link }}"

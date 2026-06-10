@@ -13,6 +13,14 @@ last_modified_at: 2026-05-12
 ---
 There are several [privacy concerns with running Google Analytics](https://plausible.io/blog/remove-google-analytics) but there are worries about data accuracy too. How much data is missing from Google Analytics due to adblockers and privacy-friendly browsers?
 
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Import your stats and keep your history in one place"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 

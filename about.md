@@ -33,7 +33,7 @@ Our primary obligation is to our customers. They fund the company and guide its 
 
 ## How we grow
 
-We have never spent a dollar on advertising, affiliates or paid endorsements, and we have never needed to. The recommendations that brought you here were written by people who chose to write them. You cannot buy that, and it says more about the product than anything we could claim about ourselves.
+We have never spent a cent on advertising, affiliates or paid endorsements. Plausible grows because people recommend it when they have no reason to other than that it works. That kind of trust cannot be bought, and it says more about the product than anything we could claim about ourselves.
 
 ## Open source as accountability
 

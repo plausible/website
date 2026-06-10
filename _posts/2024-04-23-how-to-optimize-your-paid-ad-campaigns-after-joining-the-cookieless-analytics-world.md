@@ -33,6 +33,14 @@ Let’s explore what we can do as digital advertisers to stay relevant, while re
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## What’s this babel about third-party cookies affecting advertisers?
 
 A third-party cookie is a tracking code that is set up on a visitor’s browser and device by a foreign party other than the website that’s being visited. These cookies track individual user behavior across multiple sites and devices, and unlock comprehensive insights into their online activities and interests.

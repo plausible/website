@@ -19,6 +19,14 @@ The majority of sites on the web run Google Analytics for their web stats so it'
 
 Let's start with some of the concerns that the site owners have raised to us about Google Analytics and its potential impact on search rankings and traffic from Google's search results.
 
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Import your stats and keep your history in one place"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 

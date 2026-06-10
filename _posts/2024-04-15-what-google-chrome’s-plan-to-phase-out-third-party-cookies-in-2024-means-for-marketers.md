@@ -30,6 +30,14 @@ This signals towards information loss (loss of audience context), requiring digi
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## What are third-party cookies?
 
 When you visit a website that uses third-party advertising or tracking services (like Google Analytics) or has a third-party embed (like a YouTube video), they set a cookie (bits of tracking code) on your browser with a unique tracking ID. 

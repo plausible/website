@@ -19,6 +19,14 @@ Let’s break down what it is, why Google introduced it, what happens behind the
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## What is Google Consent Mode?
 
 When you implement a [cookie consent banner](https://plausible.io/blog/cookie-consent-banners) on your website, normally what you’d expect to happen is this: 

@@ -17,6 +17,14 @@ If I could afford it, I would have preferred a five-star concierge service for n
 
 But I did take a $500 course for learning GA4 (Thank you to my employer at the time, who paid for it). That brings me to the first thing I quite don’t like, understand, digest, and accept about GA.
 
+{% include cta-box.html
+  headline="Ready to leave Google Analytics? Import your stats and keep your history in one place"
+  link="/migrate-from-google-analytics"
+  link_text="Migration guide"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 

@@ -14,6 +14,14 @@ image-alt: Is Google Analytics illegal?
 ---
 Is Google Analytics illegal? Multiple European Data Protection Authorities have found it to be in violation of GDPR due to EU-US data transfers. Here is the full picture, including what changed with the EU-US Data Privacy Framework in 2023.
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 

@@ -11,6 +11,14 @@ image-alt: Web Analytics, GDPR and is Google Analytics GDPR compliant?
 ---
 Let's take a look at the meaning of GDPR, how it impacts web analytics, whether you can take any steps to make Google Analytics GDPR compliant and also explore our [GDPR compliant Google Analytics alternative](https://plausible.io/vs-google-analytics).
 
+{% include cta-box.html
+  headline="Privacy-first analytics with no cookies and no consent banner required"
+  link="/cookieless-web-analytics"
+  link_text="How it works"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 1. Ordered list
 {:toc}
 
