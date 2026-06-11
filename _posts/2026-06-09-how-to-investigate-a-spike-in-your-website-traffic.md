@@ -123,13 +123,17 @@ The main thing to look for is whether all traffic rose together, or whether one 
 
 Depending on your site, the spike could come from Direct, Organic Search, AI referrals, Organic Social, Referral, Email, Paid, Affiliates or any other channel. The investigation logic is the same: isolate the source, check the pages it landed on, and compare engagement with your usual baseline.
 
-This goes hand in hand with the pages report in the next section: sources tell you where people came from, pages tell you what they came for.
+This goes hand in hand with the pages report (explained in the next section): sources tell you where people came from, pages tell you what they came for.
+
+Here's what that would look like in the Plausible dashboard:
 
 ![Traffic spike investigation in Plausible showing sources and entry pages together](/uploads/traffic-spike-investigation-in-plausible.webp "Traffic spike investigation in Plausible")
 
 If you filter the dashboard by a source, compare that filtered view with yesterday, the previous period or a custom period too. That helps you confirm whether this source is truly spiking or just following its usual pattern.
 
 If the answer is obvious at this stage, you may not need to keep digging. For example, if you launched a newsletter at 10 AM and Email traffic spiked at 10:05 AM with normal engagement, that is probably your answer. Note it down, compare the outcome with your expectations, and you can move on.
+
+Here is what spikes from different sources mean.
 
 ### If the spike came from Direct
 
@@ -196,11 +200,15 @@ Sometimes this is easy to trace. The referring URL may include the exact thread,
 
 You can click into the source, check Referrer URLs if available, search that site for your domain, or search the web for your URL and the date of the spike.
 
-Sometimes you will not be able to find the exact mention. That is okay. You do not always need the exact post. If you can confirm that the source is real, the traffic is relevant, and the visitors behaved positively, you can stop here and move to understanding the outcome.
+Sometimes you will not be able to find the exact mention. That is okay. You do not always need the exact post. 
+
+If you can confirm that the source is real, the traffic is relevant, and the visitors behaved positively, you can stop here and move to understanding the outcome.
 
 If the source is clear but the reason is not, pair it with the pages report. A homepage spike usually means a broader brand mention, while a feature page, docs page or blog post spike points to a more specific conversation.
 
-If you do find the exact mention, read the context. Are people recommending you? Complaining about you? Comparing you with an alternative? Confused about a feature? That context tells you whether to join the conversation, update the page, add better internal links, or simply save the source and date so you can compare future spikes.
+If you do find the exact mention, read the context. Are people recommending you? Complaining about you? Comparing you with an alternative? Confused about a feature? 
+
+That context tells you whether to join the conversation, update the page, add better internal links, or simply save the source and date so you can compare future spikes.
 
 ### If the spike came from a paid campaign
 
@@ -232,13 +240,17 @@ The answer changes your next step.
 
 If one blog post spiked, look for where it was shared and what audience it reached. If a product or pricing page spiked, check campaigns, mentions, brand search and conversions. If many random pages spiked at the same time, especially with poor engagement, you may be looking at bots, crawlers or scraping.
 
-This can also be a good place to stop. If the source was LinkedIn and the entry page was your homepage, the likely story may simply be that someone mentioned your brand. If the source was LinkedIn and the entry page was a specific feature page, investigate whether someone discussed that feature. If the source was Reddit and only one blog post spiked, look for that article in relevant subreddits and check whether the discussion explains the traffic.
+This can also be a good place to stop. If the source was LinkedIn and the entry page was your homepage, the likely story may simply be that someone mentioned your brand. If the source was LinkedIn and the entry page was a specific feature page, investigate whether someone discussed that feature. 
 
-This is also where you can separate a happy spike from a hollow one. For example, imagine your blog post gets picked up by a big newsletter and sends 10,000 visitors in a day, that is exciting. Now imagine a smaller spike of 1,000 visitors to a comparison page, and trial signups also increase. That smaller spike may be more valuable.
+Similarly, if the source was Reddit and only one blog post spiked, look for that article in relevant subreddits and check whether the discussion explains the traffic.
+
+This is also where you can separate a happy spike from a hollow one. For example, imagine your blog post gets picked up by a big newsletter and sends 10,000 visitors in a day, that is exciting. 
+
+Now imagine a smaller spike of 1,000 visitors to a comparison page, and trial signups also increase. That smaller spike may be more valuable to you.
 
 ### [Examples] How to read clues together
 
-Here are a few simple ways to read the clues together:
+Here are a few simple ways to read your *traffic source + page* clues together:
 
 * **Email + pricing page spike:** likely a newsletter, lifecycle email or sales campaign worked. Check conversions and replies.
 * **Organic Search + old article spike:** likely a topic started trending again or Google began ranking the page for a new query. Check Search Console.
