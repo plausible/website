@@ -367,5 +367,3 @@ If you wish to self-host, check out [Jitsi](https://jitsi.org/).
 By choosing European-built alternatives, you support businesses that respect privacy, security and local data regulations. Whether self-hosted or cloud-based, these tools provide viable, high-quality replacements for big tech solutions.
 
 If replacing Google Analytics is on your list, Plausible is the analytics entry from this list. No cookies, no consent banners, EU-hosted and open source. [Start a free 30-day trial →](https://plausible.io/register)
-
-Do you have any suggestions? You can write to us at [reading@plausible.io](mailto:reading@plausible.io).
