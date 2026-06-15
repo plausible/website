@@ -185,5 +185,3 @@ The possibilities would be endless with such insights!
 ## Concluding
 
 Tracking your ecommerce site is like getting intel straight from your products, search bar, wish lists, shopping carts, and whatnot, about how well shoppers are interacting with them. All that, without having to disrespect your customers’ privacy.
-
-If there’s a certain way you use your Plausible dashboard to understand e-commerce insights, we are curious. Let us know at [reading@plausible.io](mailto:reading@plausible.io). ✌️
