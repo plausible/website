@@ -51,7 +51,7 @@ Some information may become identifying when combined with other data:
 
 Different privacy laws and internal policies may define personal data differently, so treat the examples in this article as a practical analytics hygiene guide rather than legal advice. When in doubt, collect less.
 
-## PII vs personal data
+### PII vs personal data
 
 PII and personal data overlap a lot, which is why they often sound like the same thing. The difference is mostly about where the terms come from and how broadly they are used.
 
@@ -61,7 +61,36 @@ Personal data is the term used by GDPR. The [European Commission explains person
 
 For example, `jane@example.com` is obviously both PII and personal data. A random-looking customer ID may not look personal on its own, but if your systems can connect it to one customer, it should be treated as personal data for analytics purposes too.
 
-For website analytics, the practical rule is the same: if a value can identify, single out or be linked back to a person, do not send it to analytics.
+### Sensitive PII and special category data
+
+Some personal information needs extra care because misuse can create higher risk for the person involved.
+
+In US-style PII language, this is often discussed as sensitive PII: information such as: 
+
+* government ID numbers
+* financial account details
+* medical records
+* biometric data 
+* passwords
+* other details that could lead to harm if exposed
+
+Under GDPR and UK GDPR, some types of personal data are treated as special category data. The [ICO lists these categories](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) as data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data used for identification, health data, sex life and sexual orientation.
+
+For analytics, the guidance is simple: do not send this type of data. For example, track:
+
+```text
+Appointment request submitted
+Resource downloaded
+Application form submitted
+```
+
+Do not track:
+
+```text
+Therapy appointment requested by Jane Smith
+Diabetes guide downloaded by user_184291
+Disability accommodation request from jane@example.com
+```
 
 ## Common PII examples
 
@@ -222,37 +251,6 @@ appointment for Jane Smith
 If you track internal site search, avoid sending raw search terms when your users may search for people, customers, orders, tickets, invoices, email addresses or other sensitive records.
 
 For public content sites, tracking popular search terms can be useful. For logged-in tools, CRMs, support systems, health portals, finance apps or admin dashboards, it is safer to track only that a search happened, or to categorize searches without storing the exact query.
-
-## Sensitive PII and special category data
-
-Some personal information needs extra care because misuse can create higher risk for the person involved.
-
-In US-style PII language, this is often discussed as sensitive PII: information such as: 
-
-* government ID numbers
-* financial account details
-* medical records
-* biometric data 
-* passwords
-* other details that could lead to harm if exposed
-
-Under GDPR and UK GDPR, some types of personal data are treated as special category data. The [ICO lists these categories](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/) as data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data used for identification, health data, sex life and sexual orientation.
-
-For analytics, the guidance is simple: do not send this type of data. For example, track:
-
-```text
-Appointment request submitted
-Resource downloaded
-Application form submitted
-```
-
-Do not track:
-
-```text
-Therapy appointment requested by Jane Smith
-Diabetes guide downloaded by user_184291
-Disability accommodation request from jane@example.com
-```
 
 ## What not to send to analytics
 
