@@ -3,7 +3,7 @@ layout: post
 title: "PII examples: what not to send to analytics"
 description: See PII examples in URLs, forms, user IDs, emails and search queries, plus what not to send to analytics and how to redact personal data.
 slug: pii-examples
-date: 2026-06-17T10:30:00.000Z
+date: 2026-06-17T15:20:20.000Z
 author: hricha-shandily
 image: /uploads/pii-examples.png
 image-alt: examples of personal data that should not be sent to analytics
