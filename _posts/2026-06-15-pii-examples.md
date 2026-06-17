@@ -6,7 +6,7 @@ slug: pii-examples
 date: 2026-06-17T10:30:00.000Z
 author: hricha-shandily
 image: /uploads/pii-examples.png
-image-alt: Redact personal data such as email addresses, phone numbers, URLs, user IDs and search queries before sending it to analytics
+image-alt: examples of personal data that should not be sent to analytics
 ---
 
 Website analytics is useful when it helps you understand what people do on your site. It becomes risky when it starts collecting details that can identify a person.
