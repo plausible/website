@@ -143,7 +143,7 @@ Once registered and collecting data, custom dimensions become available in:
 
 * GA4 standard quota per property: up to **50 event-scoped**, **25 user-scoped**, and **10 item-scoped** custom dimensions (for standard property).
 * Once created, you *cannot* change a custom dimension’s scope or its parameter name: only its display name or description. If you need a different setup, you must archive and recreate.
-* Use consistent naming and keep cardinality low (i.e. avoid high-cardinality values like raw user IDs) to keep reports performant and compliant with Generally Accepted Analytics practices.
+* Use consistent naming and keep cardinality low (i.e. avoid high-cardinality values like [raw user IDs](https://plausible.io/blog/pii-examples#in-user-ids)) to keep reports performant and compliant with Generally Accepted Analytics practices.
 
 ## Custom Properties: Plausible's simpler and effective version of custom dimensions
 

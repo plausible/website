@@ -112,7 +112,7 @@ If there are specific pages where query parameters are important and should be r
 
 #### Shield sensitive information from URLs
 
-In some cases, you might prefer to use a custom URL to replace the actual URL of a page. This is particularly useful for aggregating multiple pages containing user-specific identifiers (e.g., \`/profile/12345\`), which can impact user privacy and lead to fragmented data in your reports. 
+In some cases, you might prefer to use a custom URL to replace the actual URL of a page. This is particularly useful for aggregating multiple pages containing [user-specific identifiers](https://plausible.io/blog/pii-examples#in-urls) (e.g., \`/profile/12345\`), which can impact user privacy and lead to fragmented data in your reports. 
 
 By [configuring a custom URL](https://plausible.io/docs/custom-locations) in Plausible, you can consolidate data from these pages into a single report entry, maintaining user privacy while simplifying your analytics.
 

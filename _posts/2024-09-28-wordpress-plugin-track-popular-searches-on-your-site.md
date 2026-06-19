@@ -403,6 +403,8 @@ You can click on this entry from the “Goals” section of the dashboard or use
   * "result_count" – how many results each search returned.
   * "search_source" – which pages visitors were on when they used your site search.
 
+If your site search can include names, email addresses, order numbers or other private details, review [what counts as PII before sending exact search queries to analytics](https://plausible.io/blog/pii-examples#in-search-queries).
+
 ![WP search queries filter on Plausible dashboard](/uploads/wp-search-queries-filter.png "WP search queries filter on Plausible dashboard")
 
 How to read this report?
