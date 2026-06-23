@@ -121,7 +121,7 @@ Custom events let you segment by what visitors actually do. Track specific actio
 
 Plausible offers [several ways](https://plausible.io/docs/goal-conversions) to track events, some without any code edits: enhanced measurements, pageview goals and custom event goals.
 
-You can also collect additional context about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics, and compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to measure drop-off across a defined conversion sequence. 
+You can also collect additional context about events with [custom dimensions](https://plausible.io/blog/custom-dimensions-analytics) to create custom metrics, and compose goals into [funnels](https://plausible.io/blog/funnels-conversion-optimization) to measure drop-off across a defined conversion sequence, or trace the paths visitors actually take with [user journeys](https://plausible.io/docs/user-journeys). 
 
 You get a clear picture of what drives conversions without collecting personal data about who did it.
 
