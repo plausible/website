@@ -155,7 +155,7 @@ As an enterprise subscriber, you get access to all business plan features, inclu
 * Schedule weekly or monthly [email performance reports](https://plausible.io/docs/email-reports)
 * [Import your GA4 data](https://plausible.io/docs/google-analytics-import) for a smooth transition
 * Use the official [Looker Studio Connector](https://plausible.io/docs/looker-studio) or the [Search Console integration](https://plausible.io/docs/google-search-console-integration)
-* Set up [goals](https://plausible.io/docs/goal-conversions) and [funnels](https://plausible.io/docs/funnel-analysis) for conversion analysis
+* Set up [goals](https://plausible.io/docs/goal-conversions), [funnels](https://plausible.io/docs/funnel-analysis) and [user journeys](https://plausible.io/docs/user-journeys) for conversion analysis
 * Track across [subdomains and hostnames](https://plausible.io/docs/subdomain-hostname-filter)
 * Use [audience segments](https://plausible.io/audience-segmentation) for deeper analysis
 
