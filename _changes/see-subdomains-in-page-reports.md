@@ -1,6 +1,6 @@
 ---
 layout: change
-title: See full URLs in page reports
+title: See full URLs in Page reports
 date: 2026-06-24T04:18:41.789Z
 ---
 You can now break down the **Top Pages**, **Entry Pages** and **Exit Pages** reports by full URL, instead of just path. This is especially helpful in seeing exactly where traffic is going across your subdomains like website, app, docs and more.
