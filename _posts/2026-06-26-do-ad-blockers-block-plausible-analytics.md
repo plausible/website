@@ -5,7 +5,7 @@ description: Plausible is blocked far less often than Google Analytics, but some
   blockers can still block any analytics script. Here's how blocking works and
   how Plausible's proxy option closes most of the remaining gap.
 slug: do-ad-blockers-block-plausible-analytics
-date: 2026-06-25T09:00:00.000Z
+date: 2026-06-26T09:00:00.000Z
 author: hricha-shandily
 image: /uploads/plausible-script-successfully-loaded.webp
 image-alt: Browser Network tab showing a successful Plausible event request
