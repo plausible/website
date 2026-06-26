@@ -58,7 +58,7 @@ Note: In case your website admin has added the analytics script via an NPM packa
 
 If you found out that the script is not loading, then check these things:
 
-1. **Check if you have an ad blocker installed.** Disable the ad blocker for this web page, and reload it to check if the script starts loading. Alternatively, you can allow your analytics domain within your ad blocker’s settings. Some analytics tools allow you to serve the script from your own domain. [Here’s](https://plausible.io/docs/proxy/introduction#are-you-concerned-about-missing-data) how you can do it for Plausible.
+1. **Check if you have an ad blocker installed.** Disable the ad blocker for this web page, and reload it to check if the script starts loading. Alternatively, you can allow your analytics domain within your ad blocker’s settings. Some analytics tools allow you to serve the script from your own domain. [Here’s](https://plausible.io/docs/proxy/introduction#are-you-concerned-about-missing-data) how you can do it for Plausible. Read more about [which blockers can affect Plausible and when proxying helps](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics).
 2. **Check with a different browser.** Some browsers like Safari are stricter with privacy, and may be blocking your tracker by default. Try troubleshooting on a different browser.
 3. **Check your internet.** If you are on a company network while testing, that may be blocking the script from loading. Or your Internet Service Provider could be blocking it, in which case try switching to a different network or to your mobile hotspot.
 
