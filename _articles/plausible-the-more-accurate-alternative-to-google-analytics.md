@@ -98,7 +98,7 @@ Apple's Intelligent Tracking Prevention, Firefox's Enhanced Tracking Protection 
 
 If your users use privacy-friendly browsers or ad blockers, Google Analytics script won’t be able to track their traffic on your website.
 
-**Plausible’s position:** Being cookieless and privacy-first means we’re blocked far less often than Google Analytics by privacy-friendly browsers or ad blockers.
+**Plausible’s position:** Being cookieless and privacy-first means we’re [blocked far less](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics) often than Google Analytics by privacy-friendly browsers or ad blockers.
 
 One exception: ad blockers that make no distinction between privacy-friendly and invasive scripts, blocking all JavaScript tracking.
 
