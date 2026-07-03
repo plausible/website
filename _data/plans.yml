@@ -8,6 +8,7 @@
     - "Google Analytics import"
     - "Goals and custom events"
     - "Saved Segments"
+    - "Annotations"
   first_paint_price: "$9"
 
 - tier: "growth"
@@ -20,6 +21,7 @@
     - "Shared Links"
     - "Embedded Dashboards"
     - "Shared Segments"
+    - "Shared Annotations"
   default_price: "$14"
   first_paint_price: "$14"
 
