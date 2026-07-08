@@ -61,6 +61,7 @@ Plausible lets you measure traffic, understand trends, analyze sources, track ca
 * Track **logged in vs logged out traffic** to see how members and public users differ
 * **Get built-in tracking for WooCommerce and Easy Digital Downloads**, including add to cart, checkout and completed purchases
 * Track **site search terms** to understand what your visitors are looking for
+* **Track multilingual sites built with WPML**, with each language domain on its own dashboard
 
 ## Get started in three steps
 
