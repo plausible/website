@@ -27,6 +27,8 @@ jobs:
         bundler-cache: true
 
     - name: Build
+      env:
+        JEKYLL_ENV: production
       run: bundle exec jekyll build
 
     - name: Tailscale
