@@ -1,0 +1,36 @@
+# workflow to verify new jekyll.yml logic, to be removed
+name: PR build (verify)
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Read .tool-versions
+      uses: marocchino/tool-versions-action@v1
+      id: versions
+
+    - uses: actions/setup-node@v3
+      with:
+        node-version: ${{steps.versions.outputs.nodejs}}
+        cache: 'npm'
+    - run: npm install
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{steps.versions.outputs.ruby}}
+        bundler-cache: true
+
+    - name: Build
+      run: bundle exec jekyll build
+
+    - name: Upload site artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: _site
+        path: _site/
+        retention-days: 1
