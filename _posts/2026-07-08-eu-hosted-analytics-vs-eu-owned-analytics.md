@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EU-hosted analytics is not the same as EU-owned analytics
+title: EU-hosted analytics isn't the same as EU-owned analytics
 description: EU-hosted analytics can help with data residency, but it does not always mean EU ownership or European-owned infrastructure.
 slug: eu-hosted-analytics-vs-eu-owned-analytics
 date: 2026-07-09T10:50:55.000Z
@@ -94,11 +94,11 @@ You can see the difference across the analytics market.
 
 Some tools offer EU data residency while remaining operated outside the EU.
 
-[Google's Analytics documentation for EU, Switzerland and UK data](https://support.google.com/analytics/answer/12017362?hl=en) says that data from devices in those regions is collected through local domains and servers before traffic is forwarded to Analytics servers for processing. [Google's data processing terms](https://business.safety.google/adsprocessorterms/) also say that Google may process customer personal data in any country where Google or its subprocessors maintain facilities. That is a useful example of the distinction: regional collection is not the same thing as EU-only processing or EU ownership.
+[PostHog's privacy policy](https://posthog.com/privacy) says its hosted services are offered by PostHog Inc., and that PostHog is headquartered in the United States. Its [privacy compliance documentation](https://posthog.com/docs/privacy) says PostHog Cloud EU is a managed version with servers hosted in Frankfurt. Again, the EU cloud option may be useful for many teams, but it is not the same claim as being an EU-incorporated analytics provider on European-owned infrastructure.
 
 [Mixpanel's EU residency documentation](https://docs.mixpanel.com/docs/privacy/eu-residency) says that Mixpanel stores user data on US servers by default, while giving customers the option to process and store customer personal data in Europe through its EU Data Residency Program. It also says new EU projects must send data to the EU endpoint, and that projects using the wrong residency location need to create a new project and migrate data.
 
-[PostHog's privacy policy](https://posthog.com/privacy) says its hosted services are offered by PostHog Inc., and that PostHog is headquartered in the United States. Its [privacy compliance documentation](https://posthog.com/docs/privacy) says PostHog Cloud EU is a managed version with servers hosted in Frankfurt. Again, the EU cloud option may be useful for many teams, but it is not the same claim as being an EU-incorporated analytics provider on European-owned infrastructure.
+[Google's Analytics documentation for EU, Switzerland and UK data](https://support.google.com/analytics/answer/12017362?hl=en) says that data from devices in those regions is collected through local domains and servers before traffic is forwarded to Analytics servers for processing. [Google's data processing terms](https://business.safety.google/adsprocessorterms/) also say that Google may process customer personal data in any country where Google or its subprocessors maintain facilities. That is a useful example of the distinction: regional collection is not the same thing as EU-only processing or EU ownership.
 
 Matomo is a good reminder that not every non-EU example is the same. Its [Cloud privacy policy](https://matomo.org/matomo-cloud-privacy-policy/) says personal data in a customer's Matomo Cloud instance and backups are stored in Europe, while InnoCraft, the company behind Matomo, is based in New Zealand. Matomo also notes that New Zealand has an EU adequacy decision, which the [European Commission lists among its adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en). That is a different legal posture from a US-operated provider, but it still shows why "where data is stored" and "who operates the service" are separate questions.
 
@@ -106,7 +106,7 @@ This distinction is now showing up in SaaS vendor research too. For example, Fou
 
 The important thing is not to assume based on a badge or a landing page phrase. Check the legal entity, infrastructure and subprocessors.
 
-## What Plausible means by EU-hosted
+## What Plausible means by EU-owned analytics
 
 At Plausible, EU hosting is not a checkbox or an enterprise add-on.
 
