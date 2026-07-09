@@ -1,8 +1,0 @@
-_site
-.jekyll-cache
-.jekyll-metadata
-node_modules
-vendor
-.git
-.github
-tmp
