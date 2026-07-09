@@ -21,8 +21,13 @@ jobs:
         cache: 'npm'
     - run: npm install
 
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{steps.versions.outputs.ruby}}
+        bundler-cache: true
+
     - name: Build
-      uses: jerryjvl/jekyll-build-action@v1
+      run: bundle exec jekyll build
 
     - name: Tailscale
       uses: tailscale/github-action@v2
