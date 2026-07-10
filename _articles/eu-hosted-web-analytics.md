@@ -52,6 +52,8 @@ Plausible is incorporated as a legal entity in Estonia. Our team is based in the
 
 All visitor data is stored on servers owned by Hetzner, a German company, in Falkenstein, Germany. We use UpCloud, a Finnish company, for database hosting and storage of data exports. We use Bunny, a Slovenian company, as our CDN. These are the only three providers that touch visitor data, and all three are European-owned. We do not use US-owned cloud providers for data storage or processing. This is not a checkbox we tick for compliance purposes. It is a deliberate infrastructure decision that we have maintained for years.
 
+If you're comparing vendors, it is worth understanding the difference between [EU-hosted analytics and EU-owned analytics](/blog/eu-hosted-analytics-vs-eu-owned-analytics). Hosting location helps, but company ownership and infrastructure ownership matter too.
+
 Because Plausible does not collect personal data or use cookies, the baseline legal risk is lower to begin with. But even the data we do collect stays in the EU.
 
 ## For legal and procurement teams
