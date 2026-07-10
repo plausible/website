@@ -59,7 +59,7 @@ When evaluating any privacy-friendly analytics tool, check whether the absence o
 
 ## Is visitor data hosted in the EU?
 
-"GDPR compliant" is a claim almost every analytics tool makes. It is not the same as EU-hosted.
+"GDPR compliant" is a claim almost every analytics tool makes. It is not the same as EU-hosted, and EU-hosted is not always the same as [EU-owned analytics](/blog/eu-hosted-analytics-vs-eu-owned-analytics).
 
 The Schrems II ruling in 2020 invalidated Privacy Shield and forced organizations to examine whether transfers of EU personal data to US providers had adequate protection from US government access. Since then, data protection authorities across Europe have found that specific Google Analytics implementations can constitute unlawful data transfers. Multiple EU countries [have ruled Google Analytics illegal](/blog/google-analytics-illegal) on these grounds.
 

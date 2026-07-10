@@ -49,7 +49,7 @@ We're a small team based in the EU. Our legal entity is incorporated in Estonia.
 
 All data we collect is kept fully secured, encrypted and hosted on renewable energy powered servers in Falkenstein, Germany, owned by Hetzner, a European company. We use Bunny (a European provider from Slovenia) for our global CDN and DDoS protection.
 
-All visitor data is exclusively processed on servers owned and operated by European companies, covered by the EU's strict data privacy laws. Your website data [never leaves the EU](https://plausible.io/eu-hosted-web-analytics).
+All visitor data is exclusively processed on servers owned and operated by European companies, covered by the EU's strict data privacy laws. Your website data [never leaves the EU](https://plausible.io/eu-hosted-web-analytics), and Plausible is [EU-owned rather than only EU-hosted](/blog/eu-hosted-analytics-vs-eu-owned-analytics).
 
 Several EU data protection authorities have declared Google Analytics non-compliant with GDPR because it transfers data to US servers. Switching to Plausible removes that risk entirely.
 

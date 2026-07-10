@@ -58,6 +58,8 @@ Plausible is designed to comply with relevant privacy laws by default. Because w
 
 All visitor data is stored exclusively on European-owned infrastructure and never leaves the EEA. See our [EU hosting page](https://plausible.io/eu-hosted-web-analytics) for details.
 
+For procurement teams comparing vendors, we also explain why [EU-hosted and EU-owned analytics are not the same thing](/blog/eu-hosted-analytics-vs-eu-owned-analytics).
+
 You can even [avoid cookie consent banners](https://plausible.io/blog/cookie-consent-banners#but-can-you-avoid-the-cookie-consent-banners) entirely, which simplifies compliance and removes friction for your visitors.
 
 We offer a [Data Processing Agreement (DPA)](https://plausible.io/dpa) and clear documentation around how data is handled and retained so your legal and compliance teams can review and approve the arrangement. You always retain ownership of your analytics data. For a single page with everything your procurement team needs, see our [security and compliance documentation](https://plausible.io/compliance).
