@@ -86,7 +86,9 @@ We also tested this directly. See [how Plausible handled bot traffic](https://pl
 
 Since January 2022, data protection authorities in Austria, France, Italy, Denmark, Finland, Norway and Sweden have ruled that [using Google Analytics violates GDPR](https://plausible.io/blog/google-analytics-illegal). The rulings relate to EEA-US data transfers under Schrems II.
 
-Staying compliant with GA4 requires cookie consent banners, a detailed privacy policy covering analytics tracking and in many cases a paid consent management platform. Each of those adds cost and friction.
+GA4's current legality in Europe rests on the EU-US Data Privacy Framework. That framework is in trouble. In June 2026, the US Supreme Court [ended the independence of the FTC](https://www.fieldfisher.com/en/locations/germany/insights/trump-v-slaughter-what-the-us-supreme-court), the agency the EU relies on to enforce the framework, and Max Schrems and noyb responded by [asking the European Commission to withdraw it](https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers) while preparing a challenge at the EU's top court. A separate case against it is [already pending](https://www.dataguidance.com/news/eu-cjeu-admits-microsoft-intervener-appeal-concerning) there. The two previous EU-US transfer deals were both struck down in court.
+
+Staying compliant with GA4 requires cookie consent banners, a detailed privacy policy covering analytics tracking and in many cases a paid consent management platform. Each of those adds cost and friction. And if the framework falls, the legal basis for sending visitor data to Google's US servers falls with it.
 
 Plausible processes all visitor data on servers owned and operated by European providers. Your data never leaves the EU. Because Plausible doesn't use cookies or collect personal data, you don't need an analytics cookie consent banner under most privacy regulations.
 
