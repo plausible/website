@@ -109,9 +109,7 @@ You do not need to enable a separate real-time product or add another tracking s
 
 See an example of a real-time dashboard in Plausible, filtered by a goal, showing how it is being completed in real-time:
 
-<div class="browser-frame">
-  <img src="/uploads/plausible-realtime-dashboard-filtered-by-goal.png" alt="Plausible real-time dashboard filtered by a conversion goal, showing sources, pages, cities, browsers and properties" loading="lazy" decoding="async" />
-</div>
+![Plausible real-time dashboard filtered by a conversion goal, showing sources, pages, cities, browsers and properties](/uploads/plausible-realtime-dashboard-filtered-by-goal.png "Plausible real-time dashboard filtered by a conversion goal")
 
 ## Plausible vs Google Analytics real-time reports
 
