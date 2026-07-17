@@ -69,6 +69,57 @@ article img {
   white-space: pre-wrap;
 }
 
+.prose .browser-frame {
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(17, 24, 39, 0.08);
+}
+
+.prose .browser-frame::before {
+  content: "";
+  display: block;
+  height: 26px;
+  background: #f4f4f5;
+}
+
+.prose .browser-frame::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ef4444;
+  box-shadow: 12px 0 #f59e0b, 24px 0 #22c55e;
+}
+
+.prose .browser-frame img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+@screen lg {
+  .prose .browser-frame {
+    width: 150%;
+    margin-left: -25%;
+  }
+
+  .prose .browser-frame img {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
 .prose table {
   display: block;
   overflow-x: auto;
