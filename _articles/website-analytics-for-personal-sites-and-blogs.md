@@ -121,7 +121,7 @@ This helps you see not just what ranks, but which content keeps bringing readers
 
 Publishing is often fast-moving. Editors want to understand how newly published stories perform as readers discover them.
 
-Plausible includes a **[real-time analytics view](https://plausible.io/docs/realtime-dashboard)** that shows what is happening on your site at this moment.
+Plausible includes a **[real-time analytics view](https://plausible.io/real-time-web-analytics)** that shows what is happening on your site at this moment.
 
 You can see:
 

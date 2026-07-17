@@ -32,7 +32,7 @@ If you are comparing two analytics tools and expecting to see exact same numbers
 
 ### Start by checking your Real Time and/or Landing Pages data
 
-The best way to quickly verify that your analytics script is working is to check the real-time data. If the data is showing up correctly, it means your script is functioning properly. If your analytic tool does not have Real Time reports, wait for a few minutes to see if data shows up in standard reports.
+The best way to quickly verify that your analytics script is working is to check the [real-time data](https://plausible.io/real-time-web-analytics). If the data is showing up correctly, it means your script is functioning properly. If your analytic tool does not have Real Time reports, wait for a few minutes to see if data shows up in standard reports.
 
 Alternatively, see if you can spot some landing pages getting no or unusually little traffic. One possible cause of this could be that your website developer missed adding the tracking script to a few web pages, or you're running analytics for a Single Page Application (SPA) with a broken installation.
 
