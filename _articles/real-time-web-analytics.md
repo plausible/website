@@ -19,9 +19,10 @@ Plausible gives you the count and the context in the same simple, one-page dashb
 </figure>
 
 {% include cta-buttons.html
-  primary_link="https://plausible.io/plausible.io?period=realtime"
-  primary_text="Test real-time view now"
-  hide_secondary=true
+  primary_link="/register"
+  primary_text="Start free trial"
+  secondary_link="https://plausible.io/plausible.io?period=realtime"
+  secondary_text="Test real-time view now"
 %}
 
 ![Plausible real-time web analytics dashboard with key reports, live filtering and bot filtering](/uploads/plausible-real-time-web-analytics.png "Plausible real-time web analytics dashboard")
