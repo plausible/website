@@ -243,7 +243,7 @@ Taken together, this gives you:
 
 Without needing user-level tracking or complex multi-touch modeling.
 
-For teams that require deeper modeling, Plausible data can be exported and layered into broader analytics systems, making it a clean acquisition-level input rather than a closed environment. Check out our [APIs](https://plausible.io/docs/stats-api), [export options](https://plausible.io/docs/export-stats), and [Looker Studio Connector](https://plausible.io/docs/looker-studio) for this purpose.
+For teams that require deeper modeling, Plausible data can be exported and layered into broader analytics systems, making it a clean acquisition-level input rather than a closed environment. Check out our [APIs](https://plausible.io/docs/stats-api), [export options](https://plausible.io/docs/export-stats), and [Data Studio Connector](https://plausible.io/docs/looker-studio) for this purpose.
 
 ## Bringing it all together
 

@@ -140,9 +140,9 @@ Plausible's script is lightweight, which keeps your pages fast. Heavy analytics 
 
 See more on our [lightweight analytics](https://plausible.io/lightweight-web-analytics).
 
-## Build custom reports with Looker Studio
+## Build custom reports with Data Studio
 
-If you need more advanced reporting, the [Looker Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. You can combine it with data from other sources like Google Search Console or your ad platforms for a more complete view.
+If you need more advanced reporting, the [Data Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. You can combine it with data from other sources like Google Search Console or your ad platforms for a more complete view.
 
 ## Share stats with your team
 

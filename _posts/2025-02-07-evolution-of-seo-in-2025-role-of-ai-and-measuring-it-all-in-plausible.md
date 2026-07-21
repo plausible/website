@@ -178,4 +178,4 @@ Plausible is an open-source, simpler, and privacy-friendly alternative to Google
 * Our stats are very accurate as we take special [measures](https://plausible.io/most-accurate-web-analytics) in ensuring so. This is another differentiator from most analytics tools.
 * We don’t rely on cookies or invasive tracking, ensuring privacy-friendly analytics and out-of-the-box compliance with GDPR, and similar laws around the world.
 
-P.S. Now you can even make your own SEO dashboard that suits your needs the best in Looker Studio using our brand new [connector](https://plausible.io/blog/google-looker-studio-guide). I’m thinking of making one as a template for SEO professionals, should I?
+P.S. Now you can even make your own SEO dashboard that suits your needs the best in Data Studio using our brand new [connector](https://plausible.io/blog/google-looker-studio-guide). I’m thinking of making one as a template for SEO professionals, should I?

@@ -478,9 +478,9 @@ Use [funnels](https://plausible.io/docs/funnel-analysis) to understand how visit
 
 If you manage multiple websites, you can view combined stats across all of them in a single dashboard. This makes it easier to monitor overall performance, compare trends, and get a high-level overview without switching between sites.
 
-### Connect with Looker Studio for custom reporting
+### Connect with Data Studio for custom reporting
 
-The [official Plausible Looker Studio connector](https://plausible.io/looker-studio-connector) connects your Plausible data directly to Google's free data visualization tool. Build custom dashboards, combine your analytics data with ad spend or revenue data from other sources, and create tailored reports you can share with clients or stakeholders as a live link.
+The [official Plausible Data Studio connector](https://plausible.io/looker-studio-connector) connects your Plausible data directly to Google's free data visualization tool. Build custom dashboards, combine your analytics data with ad spend or revenue data from other sources, and create tailored reports you can share with clients or stakeholders as a live link.
 
 ## Enjoying Plausible and our WordPress plugin?
 

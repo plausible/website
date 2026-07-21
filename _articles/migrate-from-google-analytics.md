@@ -98,7 +98,7 @@ Connect your Search Console property to see keyword data alongside your traffic 
 
 **Campaigns and UTM tracking**: Plausible reads standard UTM parameters automatically. Tag your URLs as you did in GA4 and the Campaigns tab shows traffic and conversions by campaign, source, medium, term and content. [UTM tracking →](/docs/manual-link-tagging)
 
-**Looker Studio**: The official connector lets you build custom charts and blend Plausible data with other sources like ad spend or CRM data. [Looker Studio connector →](/docs/looker-studio)
+**Data Studio**: The official connector lets you build custom charts and blend Plausible data with other sources like ad spend or CRM data. [Data Studio connector →](/docs/looker-studio)
 
 **Stats API**: Pull any metric programmatically for internal dashboards or BI tools. [Stats API →](/docs/stats-api)
 
@@ -126,7 +126,7 @@ Plausible and GA4 will never show identical numbers. They measure differently by
 | Custom segmentation | Custom dimensions | Custom properties |
 | SEO performance | Search Console integration | Search Console integration |
 | Scroll depth | 90% threshold only | Full 1-100% automatic |
-| Looker Studio | Yes | Yes, official connector |
+| Data Studio | Yes | Yes, official connector |
 | Stats API | Yes | Yes |
 | Retention and cohorts | Yes | Not available |
 | Retargeting audiences | Yes | Not available |

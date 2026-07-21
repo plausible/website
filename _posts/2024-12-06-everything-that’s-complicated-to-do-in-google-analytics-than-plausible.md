@@ -103,7 +103,7 @@ Here are the steps recommended from GA4 experts:
 * Add dimensions and metrics to the exploration by double-clicking.
 * Sort by Exits to identify the top exit pages.
 
-Also, if you use the Looker Studio, then the Exits metric is not available therein.
+Also, if you use the Data Studio, then the Exits metric is not available therein.
 
 ### How many conversions were acquired from which source, page, city, device, etc.?
 
