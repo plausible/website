@@ -237,7 +237,7 @@ This allows you to see exactly which campaigns, creatives and channels drive tra
 
 While most clients are happy with the built-in dashboard and automated emails, you can also create tailored reports for advanced use cases.
 
-Use the [Looker Studio connector](https://plausible.io/docs/looker-studio) to build custom dashboards that combine Plausible data with other sources for internal reporting or client presentations.
+Use the [Data Studio connector](https://plausible.io/docs/looker-studio) to build custom dashboards that combine Plausible data with other sources for internal reporting or client presentations.
 
 ### White-label analytics for your own brand
 

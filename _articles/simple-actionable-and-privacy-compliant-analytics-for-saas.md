@@ -154,9 +154,9 @@ Set up weekly or monthly [email reports](https://plausible.io/docs/email-reports
 
 If you need programmatic access, the [stats API](https://plausible.io/docs/stats-api) lets you pull any metric from your Plausible dashboard into your own systems. Useful for feeding data into internal tools, automating reports or combining analytics with your product data in a warehouse.
 
-## Build custom reports with Looker Studio
+## Build custom reports with Data Studio
 
-If you need advanced reporting, the [Looker Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. Combine it with data from your CRM, ad platforms or revenue tools for a more complete view of your growth funnel.
+If you need advanced reporting, the [Data Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. Combine it with data from your CRM, ad platforms or revenue tools for a more complete view of your growth funnel.
 
 ## Want to offer analytics to your own customers?
 
