@@ -36,14 +36,6 @@ pre.highlight {
   @apply p-4 pl-10 my-6 border border-gray-300;
 }
 
-.post-content-layout {
-  position: relative;
-}
-
-.post-toc {
-  display: none;
-}
-
 .post .post-content h2,
 .post .post-content h3,
 .post .post-content h4,
@@ -85,26 +77,12 @@ pre.highlight {
 
   .post-content-layout.toc-ready .post-toc {
     display: block;
-    position: absolute;
-    top: 2rem;
-    bottom: 0;
     left: calc(50% - 50vw + 1.5rem);
     width: min(13rem, calc(50vw - 22.5rem));
   }
 
   .post-toc-panel {
-    position: sticky;
-    top: 1.5rem;
-    width: 100%;
     max-height: calc(100vh - 3rem);
-    padding: 0.5rem 0;
-    overflow: hidden;
-    transition: width 200ms ease, padding 200ms ease;
-  }
-
-  .post-toc-title {
-    @apply text-gray-500 text-xs font-bold tracking-wider uppercase;
-    margin: 0 0 0.5rem 0.75rem;
   }
 
   .post-toc-list {

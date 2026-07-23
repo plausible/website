@@ -19,20 +19,15 @@
   var tocContainer = document.querySelector('.post-toc');
   if (!toc || !tocContainer) return;
 
-  var title = document.createElement('div');
-  title.className = 'post-toc-title';
-  title.textContent = 'On this page';
-  var panel = document.createElement('div');
-  panel.className = 'post-toc-panel';
+  var panel = tocContainer.querySelector('.post-toc-panel');
+  if (!panel) return;
   var sidebarToc = toc.cloneNode(true);
   sidebarToc.removeAttribute('id');
   sidebarToc.querySelectorAll('[id]').forEach(function(element) {
     element.removeAttribute('id');
   });
   sidebarToc.classList.add('post-toc-list');
-  panel.appendChild(title);
   panel.appendChild(sidebarToc);
-  tocContainer.appendChild(panel);
   var contentLayout = tocContainer.closest('.post-content-layout');
   if (contentLayout) contentLayout.classList.add('toc-ready');
 
