@@ -86,6 +86,17 @@
     });
   }, { passive: true });
 
-  setTocMode();
-  setActiveHeading();
+  function revealToc() {
+    window.requestAnimationFrame(function() {
+      setTocMode();
+      setActiveHeading();
+      tocContainer.classList.remove('invisible');
+    });
+  }
+
+  if (document.readyState === 'complete') {
+    revealToc();
+  } else {
+    window.addEventListener('pageshow', revealToc, { once: true });
+  }
 })();
