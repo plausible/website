@@ -72,8 +72,8 @@ pre.highlight {
   }
 
   .post-content-layout.toc-ready .post-toc {
-    @apply block;
-    left: calc(50% - 50vw + 1.5rem);
+    @apply block ml-6;
+    left: calc(50% - 50vw);
     width: min(13rem, calc(50vw - 22.5rem));
   }
 
@@ -116,7 +116,7 @@ pre.highlight {
   }
 
   .post-toc a:focus {
-    @apply text-indigo-700 outline-none shadow-outline;
+    @apply text-indigo-700 outline-none;
   }
 
   .post-toc .toc-active > a {
