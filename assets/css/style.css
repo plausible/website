@@ -41,14 +41,12 @@ pre.highlight {
 .post .post-content h4,
 .post .post-content h5,
 .post .post-content h6 {
-  position: relative;
+  @apply relative;
 }
 
 .post .post-content .heading-anchor {
-  @apply text-indigo-300 font-normal no-underline;
+  @apply text-indigo-300 font-normal no-underline opacity-0 transition duration-150 ease-in-out;
   margin-left: 0.4em;
-  opacity: 0;
-  transition: opacity 150ms ease, color 150ms ease;
 }
 
 .post .post-content h2:hover .heading-anchor,
@@ -57,26 +55,24 @@ pre.highlight {
 .post .post-content h5:hover .heading-anchor,
 .post .post-content h6:hover .heading-anchor,
 .post .post-content .heading-anchor:focus {
-  @apply text-indigo-600;
-  opacity: 1;
+  @apply text-indigo-600 opacity-100;
 }
 
 @screen md {
   .post .post-content .heading-anchor {
-    position: absolute;
+    @apply absolute ml-0;
     left: -1.15em;
-    margin-left: 0;
     padding-right: 0.25em;
   }
 }
 
 @screen lg {
   .post-content-layout.toc-ready .post-content > #markdown-toc {
-    display: none;
+    @apply hidden;
   }
 
   .post-content-layout.toc-ready .post-toc {
-    display: block;
+    @apply block;
     left: calc(50% - 50vw + 1.5rem);
     width: min(13rem, calc(50vw - 22.5rem));
   }
@@ -86,44 +82,33 @@ pre.highlight {
   }
 
   .post-toc-list {
+    @apply m-0 p-0 overflow-y-auto border-0 text-sm leading-snug border-l border-gray-200;
     max-height: calc(100vh - 7rem);
-    margin: 0;
-    padding: 0;
-    overflow-y: auto;
-    border: 0;
-    @apply text-sm leading-snug border-l border-gray-200;
     scrollbar-width: thin;
     scrollbar-color: #d2d6dc transparent;
   }
 
   .post-toc li > ol,
   .post-toc li > ul {
-    @apply border-l border-gray-200;
-    margin: 0;
-    padding: 0.125rem 0 0.125rem 0.75rem;
-    list-style: none;
+    @apply m-0 py-0.5 pl-3 border-l border-gray-200 list-none;
   }
 
   .post-toc li {
-    margin: 0.125rem 0;
+    @apply my-0.5;
   }
 
   .post-toc li > ol,
   .post-toc li > ul {
-    display: none;
+    @apply hidden;
   }
 
   .post-toc li.toc-active-branch > ol,
   .post-toc li.toc-active-branch > ul {
-    display: block;
+    @apply block;
   }
 
   .post-toc a {
-    @apply text-gray-500 no-underline rounded-md;
-    display: block;
-    position: relative;
-    padding: 0.375rem 0.5rem;
-    transition: color 150ms ease;
+    @apply block relative py-1.5 px-2 text-gray-500 no-underline rounded-md transition-colors duration-150 ease-in-out;
   }
 
   .post-toc a:hover {
@@ -139,13 +124,8 @@ pre.highlight {
   }
 
   .post-toc .toc-active > a::before {
-    position: absolute;
-    top: 0.25rem;
-    bottom: 0.25rem;
+    @apply absolute top-1 bottom-1 w-0.5 rounded-full bg-indigo-600;
     left: -0.8125rem;
-    width: 2px;
-    border-radius: 9999px;
-    @apply bg-indigo-600;
     content: "";
   }
 
@@ -154,62 +134,45 @@ pre.highlight {
   }
 
   .post-toc:not(.toc-started) .post-toc-panel {
-    width: 3.25rem;
-    padding: 0.75rem;
+    @apply w-13 p-3;
   }
 
   .post-toc:not(.toc-started) .post-toc-title {
-    display: none;
+    @apply hidden;
   }
 
   .post-toc:not(.toc-started) .post-toc-list {
+    @apply p-0 overflow-hidden border-l-0;
     max-height: calc(100vh - 3rem);
-    padding: 0;
-    overflow: hidden;
-    border-left: 0;
   }
 
   .post-toc:not(.toc-started) li,
   .post-toc:not(.toc-started) li > ol,
   .post-toc:not(.toc-started) li > ul {
-    display: block;
-  }
-
-  .post-toc:not(.toc-started) li {
-    margin: 0.125rem 0;
+    @apply block;
   }
 
   .post-toc:not(.toc-started) li > ol,
   .post-toc:not(.toc-started) li > ul {
-    padding: 0 0 0 0.25rem;
-    border-left: 0;
+    @apply py-0 pl-1 border-l-0;
   }
 
   .post-toc:not(.toc-started) a {
-    @apply bg-gray-300 rounded-full;
-    width: 100%;
-    height: 0.375rem;
-    padding: 0;
-    overflow: hidden;
-    color: transparent;
+    @apply w-full h-1.5 p-0 overflow-hidden text-transparent bg-gray-300 rounded-full transition-all duration-150 ease-in-out;
     font-size: 0;
-    transition: width 150ms ease, background-color 150ms ease;
   }
 
   .post-toc:not(.toc-started) li li a {
-    @apply bg-gray-200;
-    width: 70%;
+    @apply w-2/3 bg-gray-200;
   }
 
   .post-toc:not(.toc-started) .toc-active > a {
-    @apply bg-indigo-500;
-    width: 100%;
+    @apply w-full bg-indigo-500;
   }
 
   /* Laptop viewports need the image to respect the centered article gutter. */
   .post .post-content img {
-    width: 100%;
-    margin-left: 0;
+    @apply w-full ml-0;
   }
 }
 
