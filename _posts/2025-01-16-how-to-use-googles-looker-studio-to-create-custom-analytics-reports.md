@@ -19,7 +19,7 @@ Data Studio is Google's free data visualization tool. This guide walks through i
 
 ## What is Data Studio?
 
-Data Studio is what was previously known as Google Data Studio. It is a data visualization tool designed with the intent of helping you create custom reports and simplify their interpretation through visualizations that you or your clients prefer.
+Data Studio is a data visualization tool designed with the intent of helping you create custom reports and simplify their interpretation through visualizations that you or your clients prefer.
 
 It allows you to bring data from multiple sources into one place, transforming complex information into clear, easy-to-digest reports. This helps you get actionable and valuable insights from raw data.
 
