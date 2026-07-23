@@ -36,14 +36,6 @@ pre.highlight {
   @apply p-4 pl-10 my-6 border border-gray-300;
 }
 
-.post-header,
-.post-footer,
-.post .post-content {
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .post-content-layout {
   position: relative;
 }
@@ -60,11 +52,9 @@ pre.highlight {
   position: relative;
 }
 
-.heading-anchor {
+.post .post-content .heading-anchor {
+  @apply text-indigo-300 font-normal no-underline;
   margin-left: 0.4em;
-  color: #a5b4fc !important;
-  font-weight: 400;
-  text-decoration: none !important;
   opacity: 0;
   transition: opacity 150ms ease, color 150ms ease;
 }
@@ -74,13 +64,13 @@ pre.highlight {
 .post .post-content h4:hover .heading-anchor,
 .post .post-content h5:hover .heading-anchor,
 .post .post-content h6:hover .heading-anchor,
-.heading-anchor:focus {
-  color: #4f46e5 !important;
+.post .post-content .heading-anchor:focus {
+  @apply text-indigo-600;
   opacity: 1;
 }
 
-@media (min-width: 768px) {
-  .heading-anchor {
+@screen md {
+  .post .post-content .heading-anchor {
     position: absolute;
     left: -1.15em;
     margin-left: 0;
@@ -88,7 +78,7 @@ pre.highlight {
   }
 }
 
-@media (min-width: 1024px) {
+@screen lg {
   .post-content-layout.toc-ready .post-content > #markdown-toc {
     display: none;
   }
@@ -109,41 +99,31 @@ pre.highlight {
     max-height: calc(100vh - 3rem);
     padding: 0.5rem 0;
     overflow: hidden;
-    transition: width 180ms ease, padding 180ms ease;
+    transition: width 200ms ease, padding 200ms ease;
   }
 
   .post-toc-title {
+    @apply text-gray-500 text-xs font-bold tracking-wider uppercase;
     margin: 0 0 0.5rem 0.75rem;
-    color: #6b7280;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
   }
 
   .post-toc-list {
     max-height: calc(100vh - 7rem);
     margin: 0;
-    padding: 0 0 0 0.75rem;
+    padding: 0;
     overflow-y: auto;
     border: 0;
-    border-left: 1px solid #e5e7eb;
-    font-size: 0.8125rem;
-    line-height: 1.4;
+    @apply text-sm leading-snug border-l border-gray-200;
     scrollbar-width: thin;
-    scrollbar-color: #d1d5db transparent;
+    scrollbar-color: #d2d6dc transparent;
   }
 
   .post-toc li > ol,
   .post-toc li > ul {
+    @apply border-l border-gray-200;
     margin: 0;
     padding: 0.125rem 0 0.125rem 0.75rem;
-    border-left: 1px solid #e5e7eb;
     list-style: none;
-  }
-
-  .post-toc-list {
-    padding-left: 0;
   }
 
   .post-toc li {
@@ -161,22 +141,23 @@ pre.highlight {
   }
 
   .post-toc a {
+    @apply text-gray-500 no-underline rounded-md;
     display: block;
     position: relative;
     padding: 0.375rem 0.5rem;
-    border-radius: 0.375rem;
-    color: #6b7280;
-    text-decoration: none;
-    transition: color 120ms ease, background-color 120ms ease;
+    transition: color 150ms ease;
   }
 
   .post-toc a:hover {
-    color: #5145cd;
+    @apply text-indigo-700;
+  }
+
+  .post-toc a:focus {
+    @apply text-indigo-700 outline-none shadow-outline;
   }
 
   .post-toc .toc-active > a {
-    color: #5145cd;
-    font-weight: 600;
+    @apply text-indigo-700 font-semibold;
   }
 
   .post-toc .toc-active > a::before {
@@ -186,13 +167,12 @@ pre.highlight {
     left: -0.8125rem;
     width: 2px;
     border-radius: 9999px;
-    background: #5850ec;
+    @apply bg-indigo-600;
     content: "";
   }
 
   .post-toc .toc-active-branch > a {
-    color: #374151;
-    font-weight: 600;
+    @apply text-gray-700 font-semibold;
   }
 
   .post-toc:not(.toc-started) .post-toc-panel {
@@ -223,30 +203,29 @@ pre.highlight {
 
   .post-toc:not(.toc-started) li > ol,
   .post-toc:not(.toc-started) li > ul {
-    padding: 0 0 0 0.3rem;
+    padding: 0 0 0 0.25rem;
     border-left: 0;
   }
 
   .post-toc:not(.toc-started) a {
+    @apply bg-gray-300 rounded-full;
     width: 100%;
-    height: 0.35rem;
+    height: 0.375rem;
     padding: 0;
     overflow: hidden;
-    border-radius: 9999px;
-    background: #d1d5db;
     color: transparent;
     font-size: 0;
     transition: width 150ms ease, background-color 150ms ease;
   }
 
   .post-toc:not(.toc-started) li li a {
+    @apply bg-gray-200;
     width: 70%;
-    background: #e5e7eb;
   }
 
   .post-toc:not(.toc-started) .toc-active > a {
+    @apply bg-indigo-500;
     width: 100%;
-    background: #6875f5;
   }
 
   /* Laptop viewports need the image to respect the centered article gutter. */
@@ -256,7 +235,7 @@ pre.highlight {
   }
 }
 
-@media (min-width: 1280px) {
+@screen xl {
   .post .post-content img {
     width: 125%;
     margin-left: -12.5%;

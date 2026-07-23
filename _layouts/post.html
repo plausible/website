@@ -3,36 +3,36 @@ layout: default
 ---
 
 <article class="container post mt-16">
-  <div class="post-header">
-  <a
-    class="text-indigo-600 uppercase text-sm tracking-wide font-black"
-    href="/blog"
-    onclick="if (document.referrer === '{{ "" | absolute_url }}' || document.referrer === '{{ "/" | absolute_url }}') { history.back(); return false; } else { return true; }"
-    >
-    &larr; All posts
-  </a>
-  <h1 class="text-3xl mt-2 tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">{{ page.title | escape }}</h1>
+  <div class="post-header max-w-screen-sm mx-auto">
+    <a
+      class="text-indigo-600 uppercase text-sm tracking-wide font-black"
+      href="/blog"
+      onclick="if (document.referrer === '{{ "" | absolute_url }}' || document.referrer === '{{ "/" | absolute_url }}') { history.back(); return false; } else { return true; }"
+      >
+      &larr; All posts
+    </a>
+    <h1 class="text-3xl mt-2 tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">{{ page.title | escape }}</h1>
 
-  <div class="mt-2">
-    <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
-    {% if page.last_modified_at %}<span class="uppercase text-xs text-gray-500 font-bold">• Updated <time>{{ page.last_modified_at | date: "%b %-d, %Y" }}</time></span>{% endif %}
-    {% assign author = site.data.authors[page.author] %}
-    <span class="text-xs uppercase font-bold text-gray-500">• Written by <a class="uppercase text-xs text-indigo-600 font-bold hover:underline" href="https://twitter.com/{{author.twitter}}">{{ author.name }}</a></span>
-  </div>
+    <div class="mt-2">
+      <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% if page.last_modified_at %}<span class="uppercase text-xs text-gray-500 font-bold">• Updated <time>{{ page.last_modified_at | date: "%b %-d, %Y" }}</time></span>{% endif %}
+      {% assign author = site.data.authors[page.author] %}
+      <span class="text-xs uppercase font-bold text-gray-500">• Written by <a class="uppercase text-xs text-indigo-600 font-bold hover:underline" href="https://twitter.com/{{author.twitter}}">{{ author.name }}</a></span>
+    </div>
 
-  {% if page.image %}
-    <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image-alt | default: 'Featured image' }}" />
-  {% endif %}
+    {% if page.image %}
+      <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image-alt | default: 'Featured image' }}" />
+    {% endif %}
   </div>
 
   <div class="post-content-layout">
     <aside class="post-toc" aria-label="Table of contents"></aside>
-    <div class="mt-8 prose post-content">
+    <div class="mt-8 prose post-content max-w-screen-sm mx-auto">
       {{ content }}
     </div>
   </div>
 
-  <div class="mt-8 post-footer">
+  <div class="mt-8 post-footer max-w-screen-sm mx-auto">
     {% assign author = site.data.authors[page.author] %}
     <span class="text-xs uppercase font-bold text-gray-500">Written by <a class="uppercase text-xs text-indigo-600 font-bold hover:underline" href="https://twitter.com/{{author.twitter}}">{{ author.name }}</a></span>
   </div>
