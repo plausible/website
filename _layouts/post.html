@@ -31,7 +31,7 @@ layout: default
         <div class="post-toc-title ml-3 mb-2 text-gray-500 text-xs font-bold tracking-wider uppercase">On this page</div>
       </div>
     </aside>
-    <div class="mt-8 prose post-content max-w-screen-sm mx-auto">
+    <div class="mt-8 prose post-content max-w-screen-sm mx-auto" data-heading-anchors>
       {{ content }}
     </div>
   </div>
@@ -89,6 +89,7 @@ layout: default
 })();
 </script>
 
+<script type="text/javascript" src="{{ "/assets/js/heading-anchors.js" | relative_url }}?v={{ site.time | date:'%s' }}" defer></script>
 <script type="text/javascript" src="{{ "/assets/js/blog-post.js" | relative_url }}?v={{ site.time | date:'%s' }}" defer></script>
 
 <div class="container max-w-screen-sm mb-24 flex justify-between">

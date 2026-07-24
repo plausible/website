@@ -2,17 +2,19 @@
 layout: default
 ---
 
-<article class="container max-w-screen-sm my-12 md:my-16">
+<article class="container article max-w-screen-sm my-12 md:my-16">
   <header>
     <h1 class="text-3xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">
       {{ page.title | escape }}
     </h1>
   </header>
 
-  <div class="prose mt-8">
+  <div class="prose article-content mt-8" data-heading-anchors>
     {{ content }}
   </div>
 </article>
+
+<script type="text/javascript" src="{{ "/assets/js/heading-anchors.js" | relative_url }}?v={{ site.time | date:'%s' }}" defer></script>
 
 <div class="bg-gray-50 pb-12">
   <div class="container mx-auto py-12 lg:py-16 lg:flex lg:items-center lg:justify-between border-t-2 border-gray-100">
