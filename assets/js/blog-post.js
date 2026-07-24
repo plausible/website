@@ -2,25 +2,13 @@
   var content = document.querySelector('.post .post-content');
   if (!content) return;
 
-  var headings = Array.prototype.slice.call(content.querySelectorAll('h2[id], h3[id], h4[id], h5[id], h6[id]'));
-
-  headings.forEach(function(heading) {
-    if (heading.querySelector('.heading-anchor')) return;
-
-    var anchor = document.createElement('a');
-    anchor.className = 'heading-anchor';
-    anchor.href = '#' + encodeURIComponent(heading.id);
-    anchor.setAttribute('aria-label', 'Link to ' + heading.textContent.trim());
-    anchor.textContent = '#';
-    heading.appendChild(anchor);
-  });
-
   var toc = content.querySelector('#markdown-toc');
-  var tocContainer = document.querySelector('.post-toc');
+  var tocContainer = document.querySelector('.post .post-toc');
   if (!toc || !tocContainer) return;
 
   var panel = tocContainer.querySelector('.post-toc-panel');
   if (!panel) return;
+
   var sidebarToc = toc.cloneNode(true);
   sidebarToc.removeAttribute('id');
   sidebarToc.querySelectorAll('[id]').forEach(function(element) {
@@ -28,11 +16,14 @@
   });
   sidebarToc.classList.add('post-toc-list');
   panel.appendChild(sidebarToc);
+
   var contentLayout = tocContainer.closest('.post-content-layout');
   if (contentLayout) contentLayout.classList.add('toc-ready');
 
+  var headings = Array.prototype.slice.call(content.querySelectorAll('h2[id], h3[id], h4[id], h5[id], h6[id]'));
   var links = Array.prototype.slice.call(sidebarToc.querySelectorAll('a[href^="#"]'));
   var linksById = {};
+
   links.forEach(function(link) {
     try {
       linksById[decodeURIComponent(link.hash.slice(1))] = link;
@@ -42,10 +33,6 @@
   });
 
   var currentId = null;
-  function setTocMode() {
-    tocContainer.classList.toggle('toc-started', window.scrollY > 32);
-  }
-
   function setActiveHeading() {
     var active = null;
     var threshold = 140;
@@ -80,7 +67,6 @@
     if (ticking) return;
     ticking = true;
     window.requestAnimationFrame(function() {
-      setTocMode();
       setActiveHeading();
       ticking = false;
     });
@@ -88,7 +74,6 @@
 
   function revealToc() {
     window.requestAnimationFrame(function() {
-      setTocMode();
       setActiveHeading();
       tocContainer.classList.remove('invisible');
     });
