@@ -96,7 +96,7 @@ We use a small number of trusted external service providers.
 
 For visitors to plausible.io:
 
-- **hCaptcha**: spam protection on our registration page
+- **Friendly Captcha** (European, Germany): spam protection on our registration and login pages
 - **Algolia** *(optional)*: documentation search, only if you use the search on our docs site
 - **Mailchimp** *(optional)*: blog subscriptions, only if you subscribe to our blog. Open and link tracking are disabled on all emails.
 
@@ -154,5 +154,5 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 
 ---
 
-**Last updated: May 2026**  
-Added Algolia for documentation search.
+**Last updated: July 2026**  
+Replaced hCaptcha with Friendly Captcha for spam protection.
