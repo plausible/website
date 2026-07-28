@@ -36,6 +36,126 @@ pre.highlight {
   @apply p-4 pl-10 my-6 border border-gray-300;
 }
 
+.post .post-content h2,
+.post .post-content h3,
+.post .post-content h4,
+.post .post-content h5,
+.post .post-content h6,
+.article .article-content h2,
+.article .article-content h3,
+.article .article-content h4,
+.article .article-content h5,
+.article .article-content h6 {
+  @apply relative;
+}
+
+.post .post-content .heading-anchor,
+.article .article-content .heading-anchor {
+  @apply text-indigo-300 font-normal no-underline opacity-0 transition duration-150 ease-in-out;
+  margin-left: 0.4em;
+}
+
+.post .post-content h2:hover .heading-anchor,
+.post .post-content h3:hover .heading-anchor,
+.post .post-content h4:hover .heading-anchor,
+.post .post-content h5:hover .heading-anchor,
+.post .post-content h6:hover .heading-anchor,
+.post .post-content .heading-anchor:focus,
+.article .article-content h2:hover .heading-anchor,
+.article .article-content h3:hover .heading-anchor,
+.article .article-content h4:hover .heading-anchor,
+.article .article-content h5:hover .heading-anchor,
+.article .article-content h6:hover .heading-anchor,
+.article .article-content .heading-anchor:focus {
+  @apply text-indigo-600 opacity-100;
+}
+
+@screen md {
+  .post .post-content .heading-anchor,
+  .article .article-content .heading-anchor {
+    @apply absolute ml-0;
+    left: -1.15em;
+    padding-right: 0.25em;
+  }
+}
+
+@screen lg {
+  .post .post-content-layout.toc-ready .post-content > #markdown-toc {
+    @apply hidden;
+  }
+
+  .post .post-content-layout.toc-ready .post-toc {
+    @apply block ml-6;
+    left: calc(50% - 50vw);
+    width: min(13rem, calc(50vw - 22.5rem));
+  }
+
+  .post .post-toc-panel {
+    max-height: calc(100vh - 3rem);
+  }
+
+  .post .post-toc-list {
+    @apply m-0 p-0 overflow-y-auto border-0 text-sm leading-snug border-l border-gray-200;
+    max-height: calc(100vh - 7rem);
+    scrollbar-width: thin;
+    scrollbar-color: #d2d6dc transparent;
+  }
+
+  .post .post-toc li > ol,
+  .post .post-toc li > ul {
+    @apply m-0 py-0.5 pl-3 border-l border-gray-200 list-none;
+  }
+
+  .post .post-toc li {
+    @apply my-0.5;
+  }
+
+  .post .post-toc li > ol,
+  .post .post-toc li > ul {
+    @apply hidden;
+  }
+
+  .post .post-toc li.toc-active-branch > ol,
+  .post .post-toc li.toc-active-branch > ul {
+    @apply block;
+  }
+
+  .post .post-toc a {
+    @apply block relative py-1.5 px-2 text-gray-500 no-underline rounded-md;
+  }
+
+  .post .post-toc a:hover,
+  .post .post-toc a:focus {
+    @apply text-indigo-700 outline-none;
+  }
+
+  .post .post-toc .toc-active > a {
+    @apply text-indigo-700 font-semibold;
+  }
+
+  .post .post-toc .toc-active > a::before {
+    @apply absolute top-1 bottom-1 w-0.5 rounded-full bg-indigo-600;
+    left: -0.8125rem;
+    content: "";
+  }
+
+  .post .post-toc .toc-active-branch > a {
+    @apply text-gray-700 font-semibold;
+  }
+
+  /* Laptop viewports need the image to respect the centered article gutter. */
+  .post .post-content img {
+    @apply w-full ml-0;
+  }
+}
+
+@screen xl {
+  .post .post-content img {
+    width: 125%;
+    margin-left: -12.5%;
+  }
+}
+
 article img {
   @apply max-w-full mt-10 mb-6 rounded;
 }

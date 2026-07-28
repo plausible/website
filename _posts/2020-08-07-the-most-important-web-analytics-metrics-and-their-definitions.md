@@ -197,7 +197,7 @@ Visit duration is another metric that can help you measure the quality of your s
 
 How many people are on your site right now. This includes all visitors who have loaded a page in the last 5 minutes. 
 
-In Plausible Analytics, you can click on the number of current visitors to enter the "Realtime" dashboard and see what pages current visitors are viewing, referral sources that sent them to your site, completed goals and other details. 
+In Plausible Analytics, you can click on the number of current visitors to enter the [Realtime dashboard](https://plausible.io/real-time-web-analytics) and see what pages current visitors are viewing, referral sources that sent them to your site, completed goals and other details.
 
 This is especially useful in those cases where you have a spike in traffic and want to understand what that is caused by. When I see an unusually high number of active visitors on site, I enter the realtime view and look at the referral sources and the top pages.
 

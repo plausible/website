@@ -103,7 +103,7 @@ Here are the steps recommended from GA4 experts:
 * Add dimensions and metrics to the exploration by double-clicking.
 * Sort by Exits to identify the top exit pages.
 
-Also, if you use the Looker Studio, then the Exits metric is not available therein.
+Also, if you use the Data Studio, then the Exits metric is not available therein.
 
 ### How many conversions were acquired from which source, page, city, device, etc.?
 
@@ -162,7 +162,7 @@ Here’s how to study a segment in GA4:
 
 #### In Plausible
 
-Simply select “Realtime” from the time period filter or press R on your keyboard. You can even select any other entry (like an acquisition channel, a page, a goal, etc.) to filter real time traffic further and make important decisions in real time. 
+Simply select “Realtime” from the time period filter or press R on your keyboard. You can even select any other entry (like an acquisition channel, a page, a goal, etc.) to [filter real-time traffic](https://plausible.io/real-time-web-analytics) further and make important decisions in real time. 
 
 This is especially useful in making real-time decisions, for instance on high volume, high spend media buying campaigns. Check out our [real time dashboard](https://plausible.io/plausible.io?period=realtime&keybindHint=R) here.
 

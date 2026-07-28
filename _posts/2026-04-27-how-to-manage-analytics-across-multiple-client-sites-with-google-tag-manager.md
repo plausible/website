@@ -104,11 +104,11 @@ GTM is powerful but it's not universal. Some tracking requires server-side instr
 
 For everything that happens in the browser, including most of what agencies track for clients, GTM handles it cleanly.
 
-## Taking it further with Looker Studio
+## Taking it further with Data Studio
 
 Once your client sites are tracking reliably through GTM, the next question is often reporting. Plausible's own dashboard is clean and easy to share, but some clients want custom layouts, branded reports or views that combine analytics with their ad spend.
 
-The official [Plausible Looker Studio connector](https://plausible.io/looker-studio-connector) connects directly to your Plausible data. Build once, share a live link with the client, and it updates automatically. It's available on the Business plan and works with any Plausible site, regardless of how it was installed.
+The official [Plausible Data Studio connector](https://plausible.io/looker-studio-connector) connects directly to your Plausible data. Build once, share a live link with the client, and it updates automatically. It's available on the Business plan and works with any Plausible site, regardless of how it was installed.
 
 ## Get started
 

@@ -75,13 +75,13 @@ Google talks about [their vision of a user- and event-based measurement here](ht
 
 In UA, it's common practice to transform the data before it is stored. For example: removing query strings, rewriting URLs, or creating views that exclude or include certain types of traffic. 
 
-In GA4 these transformations need to be done either before the data is collected (like via a rule in GTM) or at the time the data is presented (like with segments, or filtering in Looker Studio). The advantage of this approach is that there's only one version of the data and it is designed to be close to the raw data. 
+In GA4 these transformations need to be done either before the data is collected (like via a rule in GTM) or at the time the data is presented (like with segments, or filtering in Data Studio). The advantage of this approach is that there's only one version of the data and it is designed to be close to the raw data. 
 
 Think of your GA4 property as your database of traffic data. You want one database to report from, not many different ones. Some cleaning can be done before storing the data, and other transformations done when the data is queried.
 
 ### Custom reporting is preferable to ad-hoc investigation
 
-[UA has 115 different built-in standard reports](https://plausible.io/simple-web-analytics), GA4 has 17. If you can't find what you need in one of those 17 it means you'll need to either customize one of the existing reports or use the "Explore" mode to create your own. If the reports are recurring and broadly distributed you should consider building out what you need in Looker Studio. 
+[UA has 115 different built-in standard reports](https://plausible.io/simple-web-analytics), GA4 has 17. If you can't find what you need in one of those 17 it means you'll need to either customize one of the existing reports or use the "Explore" mode to create your own. If the reports are recurring and broadly distributed you should consider building out what you need in Data Studio. 
 
 Defining what you need to report on before you spend a lot of time reacting to stakeholder questions about the data can save a lot of time and get teams better on the same page. It's more work upfront, but hopefully less work ongoing.
 
@@ -138,27 +138,27 @@ This section allows you to do deep-dives into the data that previously would hav
 
 We're all aware of the griping out there around GA4. It was probably inevitable that with a paradigm shift like this the complaints would flow. I don't want to add to the complaining, but rather take some of the most commonly raised issues and offer some context and fixes.
 
-### Quotas exceeded with Looker Studio
+### Quotas exceeded with Data Studio
 
-GA4's API has relatively low limits on how many queries can be made against it. If you have a significant number of Looker Studio dashboards or complex reports you can run up against these quotas quite easily. 
+GA4's API has relatively low limits on how many queries can be made against it. If you have a significant number of Data Studio dashboards or complex reports you can run up against these quotas quite easily. 
 
-These are limits in the GA4 API so in theory they could affect any BI tool or API connection to GA4, though so far these issues have appeared mostly with Looker Studio.
+These are limits in the GA4 API so in theory they could affect any BI tool or API connection to GA4, though so far these issues have appeared mostly with Data Studio.
 
-The work-around for this is to have something in between your BI dashboard and the GA4 API that stores the data. Most typically this is BigQuery, but it could be a data extractor, a third-party data hub/ETL system, or simply to use an "Extract Data" datasource type in Looker Studio to pre-specify which GA4 fields you want to use.
+The work-around for this is to have something in between your BI dashboard and the GA4 API that stores the data. Most typically this is BigQuery, but it could be a data extractor, a third-party data hub/ETL system, or simply to use an "Extract Data" datasource type in Data Studio to pre-specify which GA4 fields you want to use.
 
 ### Lack of default reporting
 
 While GA4 doesn't come with many reports out of the box, it does have a great ability to customize reports via the Library. This can be really helpful for end-users who can be presented with only the reports that are relevant to them in their left-hand navigation instead of 115+ reports to have to wade through (including many that are defunct or irrelevant). 
 
-If you can't build what you need by customizing an existing standard report then you'll need to move to Explore (which can be shared with other users of the property) or switch over to Looker Studio. This means that each new property may need some setup work to define what reporting is needed, but this proactive approach can end up with a set of reports more relevant to users.
+If you can't build what you need by customizing an existing standard report then you'll need to move to Explore (which can be shared with other users of the property) or switch over to Data Studio. This means that each new property may need some setup work to define what reporting is needed, but this proactive approach can end up with a set of reports more relevant to users.
 
 ### Lack of views, advanced filters, query string removal, configurable bot detection, etc
 
-As we mentioned in the "mindset" section, GA4 does a great job at collecting data, but it doesn't have many in-built tools for transforming data. In general, the best work-around for this will either be to modify the data before it is ever recorded (like via rules in GTM) or after the fact within custom reporting (like in Looker Studio or your BI tool of choice).
+As we mentioned in the "mindset" section, GA4 does a great job at collecting data, but it doesn't have many in-built tools for transforming data. In general, the best work-around for this will either be to modify the data before it is ever recorded (like via rules in GTM) or after the fact within custom reporting (like in Data Studio or your BI tool of choice).
 
 Whether it makes more sense to transform the data before or after collection depends upon the type of data and your own preferences and internal practices. For example, if in UA you had a filter that downcased all query strings to normalize that data, or a filter that removed things like session ids from the query strings that type of cleanup would probably be better to do within GTM. 
 
-Alternatively if you were using a filter to split out your blog subdirectory into its own view for reporting, that would likely be better handled by creating a Looker Studio report for just that blog data. 
+Alternatively if you were using a filter to split out your blog subdirectory into its own view for reporting, that would likely be better handled by creating a Data Studio report for just that blog data. 
 
 In some cases having a separate property could also be the solution, like a dev domain vs. a production domain that were previously on the same property but separated by filters + views. However using multiple properties on the same page to replicate UA view functionality is not typically a good idea.
 
@@ -172,7 +172,7 @@ The increased retention of 14 months helps, but without paying for GA4 360 there
 
 You'll have to pay once you have more than 1TB stored, but the storage is quite inexpensive ($5 per TB). With larger sites that BigQuery bill can become significant over time, so choosing what you want to store and how long you want to store at the beginning is ideal.
 
-The GA4 reporting interface cannot access that stored historical data, so you'll need some other way to look at it like Looker Studio.
+The GA4 reporting interface cannot access that stored historical data, so you'll need some other way to look at it like Data Studio.
 
 ### No backup or import of UA data
 
@@ -232,7 +232,7 @@ If you're still deciding whether to migrate to GA4 and are considering alternati
 * Intuitive and lightweight
 * Powered by EU-owned infrastructure
 * Funded directly by subscribers
-* Integrations with Search Console, Looker Studio and more 
+* Integrations with Search Console, Data Studio and more 
 * Automated tracking of external link clicks, [file downloads](https://plausible.io/blog/track-file-downloads-in-web-analytics) and 404 error pages
 * Easy setup of custom events using CSS class names
 * You can even import your historical UA stats

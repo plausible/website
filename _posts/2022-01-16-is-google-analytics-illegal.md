@@ -7,12 +7,12 @@ description: "Several European Data Protection Authorities ruled Google Analytic
   it means for your website."
 slug: google-analytics-illegal
 date: 2023-07-06T05:06:21.605Z
-last_modified_at: 2026-05-12
+last_modified_at: 2026-07-14
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
 ---
-Is Google Analytics illegal? Multiple European Data Protection Authorities have found it to be in violation of GDPR due to EU-US data transfers. Here is the full picture, including what changed with the EU-US Data Privacy Framework in 2023.
+Is Google Analytics illegal? Multiple European Data Protection Authorities have found it to be in violation of GDPR due to EU-US data transfers. Here is the full picture, including what changed with the EU-US Data Privacy Framework in 2023, and why that framework is now on shakier ground than ever after a June 2026 US Supreme Court ruling.
 
 {% include cta-box.html
   headline="Privacy-first analytics with no cookies and no consent banner required"
@@ -73,7 +73,13 @@ You can read a more detailed [legal analysis here](https://gdprhub.eu/index.php?
 
 The same month as the Swedish fine, the EU adopted an adequacy decision for a new EU-US Data Privacy Framework (DPF), intended to provide a legal basis for EU-US data transfers after the Privacy Shield was invalidated. Google has since certified under the DPF.
 
-However, the DPF does not resolve all the underlying concerns. The CLOUD Act, which allows US intelligence authorities to demand data from US companies regardless of where it is stored, remains in force. Noyb has already filed legal challenges to invalidate the DPF on the grounds that the surveillance powers that led to the earlier rulings have not fundamentally changed. The outcome is not yet decided.
+However, the DPF does not resolve all the underlying concerns. The CLOUD Act, which allows US intelligence authorities to demand data from US companies regardless of where it is stored, remains in force. The DPF is being challenged in front of the Court of Justice of the EU by French MP Philippe Latombe, and that appeal is still pending.
+
+**Update July 2026:** The DPF took its biggest hit yet, and it came from the US side. On June 29th 2026, the US Supreme Court ruled in Trump v. Slaughter that the president can fire FTC commissioners at will, [ending the FTC's independence](https://www.fieldfisher.com/en/locations/germany/insights/trump-v-slaughter-what-the-us-supreme-court). That matters because the European Commission's adequacy decision leans on the FTC being an independent privacy enforcer. Noyb counted [259 references to FTC independence](https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers) in the decision.
+
+The day after the ruling, Max Schrems and noyb sent a letter to the European Commission asking it to withdraw the adequacy decision, and announced they will file a challenge at the CJEU. This is the case people are already calling Schrems III. Schrems I killed Safe Harbor in 2015. Schrems II killed Privacy Shield in 2020. Both times, every website sending visitor data to US providers lost its legal basis overnight.
+
+To be clear: the DPF is still in force today and the Commission has not suspended it. Using Google Analytics with a proper consent setup is not illegal in the EU right now. But its legal basis now depends on a framework whose core US safeguards a US court has invalidated, with two challenges heading to the EU's top court.
 
 If you want certainty rather than waiting for the next court ruling, using a European-owned analytics tool that does not transfer data to the US removes the legal question entirely.
 

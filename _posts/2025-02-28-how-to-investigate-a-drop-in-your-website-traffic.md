@@ -241,7 +241,9 @@ However, if the decline is unexpected and sustained, it’s a red flag that warr
 
 Fret not, traffic fluctuations are a natural part of site ownership. With the right tools and consistent monitoring, you can quickly identify dips and take corrective action as needed.
 
-If you want to try out an extremely simple way of tracking traffic and [ditch Google Analytics](https://plausible.io/vs-google-analytics), do sign up for our [free trial](https://plausible.io/register) and join our 14k+ happy subscribers.
+If you're seeing the opposite pattern, here's [how to investigate a spike in website traffic](https://plausible.io/blog/spike-in-website-traffic).
+
+If you want to try out an extremely simple way of tracking traffic and [ditch Google Analytics](https://plausible.io/vs-google-analytics), do sign up for our [free trial](https://plausible.io/register) and join our  {{ site.data.site.subscriber_count }}  happy subscribers.
 
 We are privacy-friendly and GDPR-compliant by default, our tracking code is less blocked by ad blockers, we automatically keep bot traffic at bay, and are proud to be a [more accurate](https://plausible.io/most-accurate-web-analytics) alternative to Google Analytics.
 

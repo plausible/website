@@ -142,6 +142,3 @@ However, with Plausible, the same user session will not continue between these d
 * Sometimes, unexpected hostnames appear that can pollute your data. You can easily [allow only specific hostnames](https://plausible.io/docs/subdomain-hostname-filter#block-traffic-from-unwanted-hostnames) from your Plausible settings.
 * In case you have multiple dashboards for different subdomains/domains, you don’t need to switch dashboards every now and then. Just use one [combined dashboard](https://plausible.io/docs/subdomain-hostname-filter#roll-up-reporting). However, keep in mind that this doesn’t represent a single, continuous user journey. Since a unique user session is only tracked across subdomains using the same script, including multiple different domains in one dashboard could lead to confusion.
 
-## Winding up
-
-Do you use cross-hostname tracking for specific use cases? We want to know! Write in at [reading@plausible.io](mailto:reading@plausible.io). Ciao!

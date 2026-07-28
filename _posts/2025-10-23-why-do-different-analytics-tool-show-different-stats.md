@@ -103,7 +103,7 @@ When you compare Plausible and Google Analytics side by side, you might notice t
 **Why Plausible often reports higher numbers?**
 
 * **Blocking:**\
-  GA’s script is one of the most commonly blocked domains by browsers and extensions. Plausible’s script is privacy-friendly and much less likely to be blocked, and even more so if you use a [proxy](https://plausible.io/docs/proxy/introduction) setup (which can even count visits from people using ad blockers). 
+  GA’s script is one of the most commonly blocked domains by browsers and extensions. Plausible’s script is privacy-friendly and [much less likely to be blocked](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics), and even more so if you use a [proxy](https://plausible.io/docs/proxy/introduction) setup (which can even count visits from people using ad blockers).
 * **Consent requirements:**\
   GA typically needs user consent to run, depending on how you’ve configured your GDPR or cookie banner. If a visitor declines, GA won’t count them at all. Plausible doesn’t use cookies or collect personal data, so it doesn’t need that consent and can count all visitors generally.
 * **Data modeling:**\

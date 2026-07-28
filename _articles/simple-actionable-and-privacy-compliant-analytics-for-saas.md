@@ -55,7 +55,7 @@ Because Plausible is privacy-friendly by default, it isn't blocked at the same r
 We also take additional steps to [improve data accuracy](https://plausible.io/most-accurate-web-analytics):
 
 * Scrapers routinely crawl pricing pages and docs. Without filtering, they inflate traffic numbers and dilute your signup attribution. We exclude around 32,000 data center IP ranges by default to keep your trial and conversion metrics reliable.
-* We support [proxying our script as a first-party connection](https://plausible.io/docs/proxy/introduction) for even higher accuracy on sites where ad blocker rates are high.
+* We support [proxying our script as a first-party connection](https://plausible.io/docs/proxy/introduction) for even higher accuracy on sites where ad blocker rates are high. See [which blockers can affect Plausible and when proxying helps](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics).
 
 The result is data you can act on, not numbers you have to discount by an estimated correction factor.
 
@@ -154,9 +154,9 @@ Set up weekly or monthly [email reports](https://plausible.io/docs/email-reports
 
 If you need programmatic access, the [stats API](https://plausible.io/docs/stats-api) lets you pull any metric from your Plausible dashboard into your own systems. Useful for feeding data into internal tools, automating reports or combining analytics with your product data in a warehouse.
 
-## Build custom reports with Looker Studio
+## Build custom reports with Data Studio
 
-If you need advanced reporting, the [Looker Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. Combine it with data from your CRM, ad platforms or revenue tools for a more complete view of your growth funnel.
+If you need advanced reporting, the [Data Studio connector](https://plausible.io/docs/looker-studio) lets you pull Plausible data into custom dashboards. Combine it with data from your CRM, ad platforms or revenue tools for a more complete view of your growth funnel.
 
 ## Want to offer analytics to your own customers?
 

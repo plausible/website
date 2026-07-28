@@ -64,7 +64,7 @@ Universal Analytics had flaws, but you could get to the numbers you needed. GA4 
 
 The result: basic tasks that took one click in Universal Analytics now require setting up custom events in Tag Manager, navigating "Explorations" (a separate reporting surface from the main dashboard), or writing SQL queries against a BigQuery export. Google provides no real support when something isn't working.
 
-Plausible gives you all the important metrics on one page: visitors, sources, pages, countries, devices, goals and revenue attribution. You can invite team members, connect to Search Console, build custom reports in Looker Studio, import your historical data and use features like funnels, user journeys and realtime reporting. See what it looks like on our [live demo](https://plausible.io/plausible.io).
+Plausible gives you all the important metrics on one page: visitors, sources, pages, countries, devices, goals and revenue attribution. You can invite team members, connect to Search Console, build custom reports in Data Studio, import your historical data and use features like funnels, user journeys and realtime reporting. See what it looks like on our [live demo](https://plausible.io/plausible.io).
 
 ### GA4 made accuracy worse, not better
 
@@ -74,7 +74,7 @@ The consent banner alone accounts for most of it. [An independent study](https:/
 
 Beyond consent, GA4 is part of the adtech ecosystem. Most adblockers target it specifically. With tech-savvy audiences, the share of people [blocking Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data) can reach 60%.
 
-Plausible doesn't require consent and isn't part of the adtech ecosystem, so it's far less likely to be blocked. You can also [proxy our script](https://plausible.io/docs/proxy/introduction) through your own domain for first-party collection. Additional accuracy improvements built in by default:
+Plausible doesn't require consent and isn't part of the adtech ecosystem, so it's [far less likely to be blocked](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics). You can also [proxy our script](https://plausible.io/docs/proxy/introduction) through your own domain for first-party collection. Additional accuracy improvements built in by default:
 
 * Known referrer spam and data center traffic is filtered out. We exclude around 32,000 data center IP ranges to prevent bot inflation that GA4 doesn't handle automatically.
 * Android app traffic is properly attributed. GA4 traditionally lumps this into "Direct / None." For sites with significant mobile traffic, this accounts for 10% or more of previously unattributed visits from apps like Gmail, Slack and Telegram.
@@ -86,7 +86,9 @@ We also tested this directly. See [how Plausible handled bot traffic](https://pl
 
 Since January 2022, data protection authorities in Austria, France, Italy, Denmark, Finland, Norway and Sweden have ruled that [using Google Analytics violates GDPR](https://plausible.io/blog/google-analytics-illegal). The rulings relate to EEA-US data transfers under Schrems II.
 
-Staying compliant with GA4 requires cookie consent banners, a detailed privacy policy covering analytics tracking and in many cases a paid consent management platform. Each of those adds cost and friction.
+GA4's current legality in Europe rests on the EU-US Data Privacy Framework. That framework is in trouble. In June 2026, the US Supreme Court [ended the independence of the FTC](https://www.fieldfisher.com/en/locations/germany/insights/trump-v-slaughter-what-the-us-supreme-court), the agency the EU relies on to enforce the framework, and Max Schrems and noyb responded by [asking the European Commission to withdraw it](https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers) while preparing a challenge at the EU's top court. A separate case against it is [already pending](https://www.dataguidance.com/news/eu-cjeu-admits-microsoft-intervener-appeal-concerning) there. The two previous EU-US transfer deals were both struck down in court.
+
+Staying compliant with GA4 requires cookie consent banners, a detailed privacy policy covering analytics tracking and in many cases a paid consent management platform. Each of those adds cost and friction. And if the framework falls, the legal basis for sending visitor data to Google's US servers falls with it.
 
 Plausible processes all visitor data on servers owned and operated by European providers. Your data never leaves the EU. Because Plausible doesn't use cookies or collect personal data, you don't need an analytics cookie consent banner under most privacy regulations.
 

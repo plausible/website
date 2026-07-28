@@ -65,7 +65,7 @@ The Schrems II ruling in 2020 invalidated Privacy Shield and forced organization
 
 The EU-US Data Privacy Framework adopted in 2023 is the current adequacy mechanism for certified US companies. It replaced Privacy Shield, which was invalidated by Schrems II. It gives many vendors a transfer basis today, but it is not the same thing as avoiding transfers altogether, and the underlying structural issue remains: US surveillance law applies to US companies regardless of where they claim to store data.
 
-The cleanest way to reduce this transfer risk is EU-hosted analytics: a tool incorporated in the EU, running on EU-owned infrastructure, with no US parent company that could be compelled to produce the data.
+The cleanest way to reduce this transfer risk is EU-hosted analytics: a tool incorporated in the EU, running on EU-owned infrastructure, with no US parent company that could be compelled to produce the data. See [why that difference matters here](/blog/eu-hosted-analytics-vs-eu-owned-analytics). 
 
 If your organization requires formal documentation, look for a tool that provides a Data Processing Agreement, a published data policy and an independent legal assessment of its compliance status.
 

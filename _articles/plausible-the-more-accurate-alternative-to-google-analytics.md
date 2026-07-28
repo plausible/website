@@ -98,7 +98,7 @@ Apple's Intelligent Tracking Prevention, Firefox's Enhanced Tracking Protection 
 
 If your users use privacy-friendly browsers or ad blockers, Google Analytics script won’t be able to track their traffic on your website.
 
-**Plausible’s position:** Being cookieless and privacy-first means we’re blocked far less often than Google Analytics by privacy-friendly browsers or ad blockers.
+**Plausible’s position:** Being cookieless and privacy-first means we’re [blocked far less](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics) often than Google Analytics by privacy-friendly browsers or ad blockers.
 
 One exception: ad blockers that make no distinction between privacy-friendly and invasive scripts, blocking all JavaScript tracking.
 
@@ -158,7 +158,7 @@ In GA, it’s possible to exclude internal traffic from polluting your analytics
 
 Google Analytics can take [up to 48 hours](https://support.google.com/analytics/answer/11198161?hl=en) to fully process data and update your reports. This generally means a delay in making important decisions, or worse: not knowing that the data may not be fresh and making misinformed decisions.
 
-Plausible’s data is always fresh and constantly updated. Real-time analytics, no waiting.
+Plausible’s data is always fresh and constantly updated. [Real-time analytics](https://plausible.io/real-time-web-analytics), no waiting.
 
 ### Time on page tracking inaccuracy
 
