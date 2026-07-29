@@ -35,6 +35,10 @@ Thousands of teams including Ghost, Basecamp and the Python Software Foundation 
 
 ![Plausible Analytics WordPress plugin](/uploads/plausible-wordpress-plugin.png "Plausible Analytics WordPress plugin")
 
+
+1. Ordered list
+  {:toc}
+
 ## Why use Plausible as your WordPress analytics plugin?
 
 Here is how Plausible compares to [Google Analytics](https://plausible.io/vs-google-analytics):
