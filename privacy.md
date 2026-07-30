@@ -94,24 +94,29 @@ We use a small number of trusted external service providers.
 
 ## Subprocessors
 
-For visitors to plausible.io:
-
-- **hCaptcha**: spam protection on our registration page
-- **Algolia** *(optional)*: documentation search, only if you use the search on our docs site
-- **Mailchimp** *(optional)*: blog subscriptions, only if you subscribe to our blog. Open and link tracking are disabled on all emails.
-
-For customers and subscribers:
+Your website stats (your visitors' data):
 
 - **Hetzner** (European, Germany): server infrastructure and hosting
 - **Bunny** (European, Slovenia): CDN, DNS and DDoS protection
 - **UpCloud** (European, Finland): database hosting and storage of data exports
+
+These are the only subprocessors that touch visitor data. All three are European-owned and your site data never leaves the EU.
+
+Your account data (customers and subscribers):
+
 - **Paddle**: payment processing
 - **Postmark**: transactional emails and email reports. Open and link tracking are disabled on all emails.
 - **Gravatar**: account profile picture, fetched via a proxy to ensure no personal data is exposed
 - **DuckDuckGo**: site favicon, fetched via a proxy
 - **Google** *(optional)*: if you import Google Analytics data or connect integrations, Google may share account-related data with us to provide the service.
-- **Help Scout** *(optional)*: support correspondence, only if you contact us
+- **Help Scout and Anthropic** *(optional)*: support correspondence, only if you contact us. Help Scout stores the emails and Anthropic may help us draft replies. A team member reviews every reply before it is sent.
 - **Nolt** *(optional)*: product feedback, only if you submit feedback
+
+For visitors to plausible.io:
+
+- **hCaptcha**: spam protection on our registration page
+- **Algolia and Anthropic** *(optional)*: documentation search, only if you use the search on our docs site. Algolia provides the search and Anthropic powers the AI answers.
+- **Mailchimp** *(optional)*: blog subscriptions, only if you subscribe to our blog. Open and link tracking are disabled on all emails.
 
 For more details on our subprocessors, see our Data Processing Agreement.
 
@@ -154,5 +159,5 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 
 ---
 
-**Last updated: May 2026**  
-Added Algolia for documentation search.
+**Last updated: July 2026**  
+Added Anthropic for drafting support replies and for AI answers in the docs search. Grouped subprocessors by the type of data they handle.
