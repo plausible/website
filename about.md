@@ -9,7 +9,7 @@ Plausible Analytics is an independent, open source analytics company based in th
 
 We do not use cookies and we do not collect personal data. No surveillance model, no data brokerage, no conflict of interest between what we sell and what our customers need.
 
-More than {{ site.data.site.subscriber_count }} paying subscribers use Plausible, including Basecamp, Ghost, Hugging Face, MongoDB, the Python Software Foundation and Harvard University.
+More than {{ site.data.site.subscriber_count }} paying subscribers use Plausible. Basecamp, Ghost, Hugging Face, Home Assistant, MongoDB, the Python Software Foundation and Harvard University are among the names running it.
 
 ![About Plausible Analytics](/uploads/about-plausible.png "About Plausible Analytics")
 

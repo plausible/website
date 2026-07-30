@@ -20,10 +20,10 @@ Most analytics tools are black boxes. You add their script to your site, hand ov
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
-    "The Rails Foundation is committed to ensuring the privacy of our website visitors. To achieve this, we use Plausible as our web analytics tool. Plausible's primary goal is to track overall trends in website traffic, not individual visitors. Therefore, they do not use cookies or generate persistent identifiers, and they do not collect or store any personal or identifiable data."
+    "We've chosen Plausible because its philosophy aligns with our own privacy principles."
   </p>
   <figcaption class="mt-2 text-sm text-gray-500">
-    <span class="font-semibold text-gray-700">Rails Foundation</span>, official privacy policy
+    <span class="font-semibold text-gray-700">Open Home Foundation</span>, the non-profit behind Home Assistant
   </figcaption>
 </figure>
 

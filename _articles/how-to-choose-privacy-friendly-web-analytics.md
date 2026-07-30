@@ -162,7 +162,7 @@ The trade-off is maintenance. A self-hosted analytics server is infrastructure y
 
 **EU hosting:** Plausible is incorporated in Estonia, built by a team in the EU and hosted entirely on [EU-owned infrastructure](/eu-hosted-web-analytics): Hetzner in Germany, UpCloud in Finland and Bunny in Slovenia. Visitor data never leaves the EU, which substantially reduces EU-US transfer risk. No US parent company, no investor control, no US infrastructure. Compliance documentation including a DPA, data policy and independent legal assessment is on the [compliance page](/compliance).
 
-**Track record:** Plausible has been running since 2018. The team is {{ site.data.site.team_size }} people working on it full time, bootstrapped and profitable, with {{ site.data.site.subscriber_count }} paying customers including Hugging Face, Ghost, the Rails Foundation, Harvard University and Sentry.
+**Track record:** Plausible has been running since 2018. The team is {{ site.data.site.team_size }} people working on it full time, bootstrapped and profitable, with {{ site.data.site.subscriber_count }} paying customers. Hugging Face, Ghost, Home Assistant, the Rails Foundation, Harvard University and Sentry all run Plausible.
 
 **Business model:** Plausible is funded entirely by subscribers. There is no advertising business, no data resale and no investor pressure to expand data collection. That is what funds the product.
 
