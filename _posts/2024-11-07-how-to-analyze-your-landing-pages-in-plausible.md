@@ -154,7 +154,7 @@ This helps us build a specific visitor flow and make multiple conclusions and bu
 
 If you want to go beyond entry and exit pages, [website journey analytics](https://plausible.io/blog/website-journey-analytics) helps you see the actual paths visitors take after landing on a page or before converting.
 
-Here’s how our subscribers analyze the pages tabs to analyze their website's performance:
+Page reports are one part of the broader process of [checking your website traffic](/blog/check-website-traffic), alongside traffic sources, campaigns and conversions. Here’s how our subscribers use the pages tabs to analyze their website's performance:
 
 ### Identify what’s attracting or throwing off visitors
 

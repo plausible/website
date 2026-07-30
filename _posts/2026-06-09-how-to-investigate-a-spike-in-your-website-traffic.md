@@ -121,7 +121,7 @@ In Plausible, you can start with **[Channels](https://plausible.io/docs/top-refe
 
 The main thing to look for is whether all traffic rose together, or whether one source caused the spike.
 
-Depending on your site, the spike could come from Direct, Organic Search, AI referrals, Organic Social, Referral, Email, Paid, Affiliates or any other channel. The investigation logic is the same: isolate the source, check the pages it landed on, and compare engagement with your usual baseline.
+Depending on your site, the spike could come from Direct, Organic Search, AI referrals, Organic Social, Referral, Email, Paid, Affiliates or any other channel. The investigation logic is the same: isolate the source, check the pages it landed on, and compare engagement with your usual baseline. Our guide to [checking your own website traffic accurately](/blog/check-website-traffic) explains how to read these reports together during a normal traffic review.
 
 This goes hand in hand with the pages report (explained in the next section): sources tell you where people came from, pages tell you what they came for.
 
