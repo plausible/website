@@ -14,6 +14,7 @@ layout: default
   </div>
 </article>
 
+<div x-data x-show="!document.cookie.includes('logged_in=true')" class="bg-gray-50 pb-12">
 <script type="text/javascript" src="{{ "/assets/js/heading-anchors.js" | relative_url }}?v={{ site.time | date:'%s' }}" defer></script>
 
 <div class="bg-gray-50 pb-12">

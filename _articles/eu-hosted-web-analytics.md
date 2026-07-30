@@ -64,7 +64,7 @@ We provide the following documents to support your compliance review:
 * [Privacy policy](https://plausible.io/privacy): how we handle data as a company
 * [Data Processing Agreement (DPA)](https://plausible.io/dpa): for organizations that require a formal DPA with their analytics vendor
 * [GDPR legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy): an independent review by a data protection lawyer confirming that Plausible can be used without cookie consent and without violating GDPR
-* [Subprocessors](https://plausible.io/privacy#what-we-collect-what-we-use-it-for-and-services-we-use): the third-party services we use to operate Plausible, all bound by data protection agreements
+* [Subprocessors](https://plausible.io/privacy#subprocessors): the third-party services we use to operate Plausible, all bound by data protection agreements
 
 If your legal team has further questions about how data is handled or needs additional documentation, [contact us](https://plausible.io/contact).
 
