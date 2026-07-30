@@ -58,6 +58,8 @@ Some analytics platforms (especially large ones) [apply data modeling](https://p
 
 If one tool shows measured + modeled data and another shows measured only, the numbers naturally differ. For example, GA4 advertises modeling to fill gaps where tracking is difficult.
 
+The same principle applies to public traffic checkers and SEO platforms. They produce estimates rather than data recorded directly on the site. Our guide to [checking your own website traffic](/blog/check-website-traffic) explains this distinction and why first-party analytics should be your main source for measuring a site you own.
+
 ### Implementation / integration issues on your site
 
 Sometimes the difference comes down to how the tracking is set up: script placed in the wrong place, tag fired too late or not at all, duplicate tags, incorrect redirects, etc. Small differences in setup affect whether a tool “sees” the visit or not.
