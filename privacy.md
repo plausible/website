@@ -114,7 +114,7 @@ Your account data (customers and subscribers):
 
 For visitors to plausible.io:
 
-- **hCaptcha**: spam protection on our registration page
+- **Friendly Captcha** (European, Germany): spam protection on our registration and login pages
 - **Algolia and Anthropic** *(optional)*: documentation search, only if you use the search on our docs site. Algolia provides the search and Anthropic powers the AI answers.
 - **Mailchimp** *(optional)*: blog subscriptions, only if you subscribe to our blog. Open and link tracking are disabled on all emails.
 
@@ -160,4 +160,4 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 ---
 
 **Last updated: July 2026**  
-Added Anthropic for drafting support replies and for AI answers in the docs search. Grouped subprocessors by the type of data they handle.
+Replaced hCaptcha with Friendly Captcha for spam protection.
