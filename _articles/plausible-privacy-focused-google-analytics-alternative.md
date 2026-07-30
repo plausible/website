@@ -21,10 +21,10 @@ You get the data you need to understand your site. Your visitors get an experien
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
-    "Unlike Google, Plausible isn't in the advertising game and doesn't have an incentive to collect and sell user data."
+    "Our position is clear: we reject tools that track individuals across the web to monetize their data."
   </p>
   <figcaption class="mt-2 text-sm text-gray-500">
-    <span class="font-semibold text-gray-700">Danielle Foré</span>, Founder and CEO at elementary OS
+    <span class="font-semibold text-gray-700">Open Home Foundation</span>, the non-profit behind Home Assistant
   </figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ Plausible is open source, so anyone can audit exactly what we collect. We run th
 
 ## Give Plausible a try
 
-Hugging Face, Ghost, Basecamp, Harvard and thousands of other sites trust Plausible with their analytics. You can try it free for 30 days with no credit card required. [See pricing](https://plausible.io/#pricing) or [start your free trial](https://plausible.io/register).
+Hugging Face, Ghost, Basecamp, Harvard, Home Assistant and thousands of other sites trust Plausible with their analytics. You can try it free for 30 days with no credit card required. [See pricing](https://plausible.io/#pricing) or [start your free trial](https://plausible.io/register).
 
 Setup takes a few minutes. Add a single script tag to your site and you're collecting data. You can run Plausible alongside your current analytics provider and only remove the other script once you're happy with what Plausible provides.
 

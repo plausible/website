@@ -102,4 +102,4 @@ If you're already a Cloudflare customer and just need a rough traffic overview a
 
 ## Try Plausible free for 30 days
 
-Hugging Face, Ghost, Basecamp and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside your current tool and see how the numbers compare.
+Hugging Face, Ghost, Basecamp, Home Assistant and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside your current tool and see how the numbers compare.
