@@ -9,7 +9,7 @@ image: /uploads/check-website-traffic-plausible-dashboard.png
 image-alt: Plausible Analytics dashboard showing a year of website traffic, sources and top pages
 ---
 
-Checking your website traffic can sound like a matter of finding one number. In practice, it starts with a more useful question: **are people finding the site, and what happens when they do?**
+Checking your website traffic can sound like a matter of finding one number. In practice, it starts with a more useful question: are people finding the site, and what happens when they do?
 
 The most accurate way to answer that question is to install a web analytics tool on the site you own. This gives you first-party data based on visits that actually happened, rather than an outside tool's estimate.
 
