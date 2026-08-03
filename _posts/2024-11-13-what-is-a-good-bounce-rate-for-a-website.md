@@ -245,21 +245,79 @@ You can optionally experiment with different approaches to help you learn what k
 
 ## Frequently asked questions
 
-### Is a 20% or 30% bounce rate good?
+<style>
+  .bounce-rate-faq {
+    margin-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
 
-A bounce rate between 20% and 30% is generally low and can be a positive sign for eCommerce, product, and other websites where visitors are expected to view multiple pages. However, an unusually low bounce rate can sometimes result from duplicate tracking or events being counted as interactions, so confirm that your analytics setup is working correctly.
+  .bounce-rate-faq details {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 0;
+  }
 
-### Is a 48% bounce rate good?
+  .bounce-rate-faq summary {
+    align-items: center;
+    color: #111827;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    list-style: none;
+  }
 
-A 48% bounce rate is within a normal range for many websites. Whether it is good depends on the page type, traffic source, and intended visitor action. Compare it with similar pages on your own site rather than treating 48% as universally good or bad.
+  .bounce-rate-faq summary::-webkit-details-marker {
+    display: none;
+  }
 
-### Is a 90% bounce rate bad?
+  .bounce-rate-faq summary::after {
+    align-items: center;
+    background: #eef2ff;
+    border-radius: 9999px;
+    color: #4f46e5;
+    content: "+";
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 1.25rem;
+    height: 1.75rem;
+    justify-content: center;
+    line-height: 1;
+    margin-left: 1rem;
+    width: 1.75rem;
+  }
 
-A 90% bounce rate may be normal for a blog post, glossary entry, help article, or single-page landing page where visitors can accomplish their goal without viewing another page. On a homepage, product page, or multi-step conversion journey, it is more likely to warrant investigation.
+  .bounce-rate-faq details[open] summary::after {
+    content: "-";
+  }
 
-### What does a 100% bounce rate mean?
+  .bounce-rate-faq p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0.75rem 2.75rem 0 0;
+  }
+</style>
 
-A 100% bounce rate means every measured visit was classified as a bounce. This can happen when visitors leave without viewing another page or triggering an interactive event. If it occurs across a large number of visits or an entire website, check the analytics implementation because missing or incorrectly configured events may be responsible.
+<div class="bounce-rate-faq">
+<details>
+  <summary>Is a 20% or 30% bounce rate good?</summary>
+  <p>A bounce rate between 20% and 30% is generally low and can be a positive sign for eCommerce, product, and other websites where visitors are expected to view multiple pages. However, an unusually low bounce rate can sometimes result from duplicate tracking or events being counted as interactions, so confirm that your analytics setup is working correctly.</p>
+</details>
+
+<details>
+  <summary>Is a 48% bounce rate good?</summary>
+  <p>A 48% bounce rate is within a normal range for many websites. Whether it is good depends on the page type, traffic source, and intended visitor action. Compare it with similar pages on your own site rather than treating 48% as universally good or bad.</p>
+</details>
+
+<details>
+  <summary>Is a 90% bounce rate bad?</summary>
+  <p>A 90% bounce rate may be normal for a blog post, glossary entry, help article, or single-page landing page where visitors can accomplish their goal without viewing another page. On a homepage, product page, or multi-step conversion journey, it is more likely to warrant investigation.</p>
+</details>
+
+<details>
+  <summary>What does a 100% bounce rate mean?</summary>
+  <p>A 100% bounce rate means every measured visit was classified as a bounce. This can happen when visitors leave without viewing another page or triggering an interactive event. If it occurs across a large number of visits or an entire website, check the analytics implementation because missing or incorrectly configured events may be responsible.</p>
+</details>
+</div>
 
 ## Start measuring your bounce rate
 
