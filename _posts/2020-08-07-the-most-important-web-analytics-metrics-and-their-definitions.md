@@ -68,7 +68,7 @@ Accept that short term traffic fluctuations are normal and wait for more long-te
 
 The definition of unique visitors is a bit different in Plausible Analytics compared to a cookie-based analytics tool. Plausible Analytics is privacy friendly tool so we don't use cookies and any other persistent identifiers to keep track of visitors. 
 
-If a person visits your site from multiple devices or on multiple days, they are counted as separate visitors. This allows us to be compliant with the different privacy regulations such as PECR and [GDPR](https://plausible.io/blog/google-analytics-gdpr) so you don't need to get the visitor consent to keep track of the stats.
+If a person visits your site from multiple devices or on multiple days, they are counted as separate visitors. This allows us to be compliant with the different privacy regulations such as PECR and [GDPR](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) so you don't need to get the visitor consent to keep track of the stats.
  
 You can learn more about [how we count unique visitors](https://plausible.io/data-policy).
 

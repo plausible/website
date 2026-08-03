@@ -76,7 +76,7 @@ With outstanding projects such as [Let's Encrypt](https://letsencrypt.org/) avai
 
 Intrusive interstitials are popups, paywalls, full-page advertising banners and other website elements that block the page for a visitor which leads to a bad user experience. Google prefers not to send search traffic to sites that block the content.
 
-Note that some elements such as [cookie popups](https://plausible.io/blog/google-analytics-cookies) and [GDPR consent notices](https://plausible.io/blog/google-analytics-gdpr) are not included in this.
+Note that some elements such as [cookie popups](https://plausible.io/blog/google-analytics-cookies) and [GDPR consent notices](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) are not included in this.
 
 As a side note, those legal banners are also required not to be in the form of consent walls that obstruct the content. According to the GDPR legislation, the consent notices should not obstruct the content of the page and should allow visitors to view the content even when they don't want to interact with the notice.
 

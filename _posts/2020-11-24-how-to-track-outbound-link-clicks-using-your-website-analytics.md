@@ -69,7 +69,7 @@ If you find Google Analytics cumbersome and slow to work with, you can get autom
 
 ## What is Plausible Analytics?
 
-Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/google-analytics-gdpr) and being respectful of [website visitors' privacy](https://plausible.io/privacy-focused-web-analytics).
+Plausible Analytics is an independent analytics tool that's built with simplicity and privacy in mind. Our goal is to provide useful and accurate insights to site owners while being compliant with the different privacy regulations such as the [GDPR](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) and being respectful of [website visitors' privacy](https://plausible.io/privacy-focused-web-analytics).
 
 We've chosen the subscription business model rather than surveillance capitalism. This means that we charge a fee for our website analytics service if you decide to convert into a subscriber after your trial is completed.
 

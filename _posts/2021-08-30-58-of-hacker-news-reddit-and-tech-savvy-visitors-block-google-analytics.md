@@ -107,7 +107,7 @@ It’s worth noting that it’s rare for the data from two analytics providers t
 
 To track unique visitors, [Google Analytics uses cookies](https://plausible.io/blog/google-analytics-cookies). Plausible is a cookie-free tool and [tracks unique visitors differently](https://plausible.io/data-policy). 
 
-Plausible doesn't use any long term identifiers as we're a [GDPR compliant web analytics](https://plausible.io/blog/google-analytics-gdpr) tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back a few days later would be seen as another unique visitor.
+Plausible doesn't use any long term identifiers as we're a [GDPR compliant web analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) tool. This means that the same person visiting a site multiple times in one day would be seen as one unique visitor but that same person coming back a few days later would be seen as another unique visitor.
 
 Google's method is not bulletproof either as visitors using incognito mode would be new unique visitors and same would those who block or clear cookies.
 

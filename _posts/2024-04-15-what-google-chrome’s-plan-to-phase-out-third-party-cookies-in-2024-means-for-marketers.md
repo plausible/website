@@ -64,7 +64,7 @@ So what went wrong?
 
 Short answer: It’s because of the privacy concerns arising around the web, and Google platforms receiving constant pressure from regulatory bodies to adopt more privacy-friendly practices. 
 
-Regulatory bodies like [GDPR (General Data Protection Regulation)](https://plausible.io/blog/google-analytics-gdpr) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa) work to protect individual privacy by regulating the collection, processing, and usage of personal information by online businesses.
+Regulatory bodies like [GDPR (General Data Protection Regulation)](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa) work to protect individual privacy by regulating the collection, processing, and usage of personal information by online businesses.
 
 Long answer: In 2020, Google [announced](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html) that it’s working towards phasing out third-party cookies. In late 2023, it [announced](https://blog.google/products/chrome/privacy-sandbox-tracking-protection/) that the phase-out has begun with it testing the new changes with 1% of Chrome users. They’re on track to phase it all out by 2025.
 

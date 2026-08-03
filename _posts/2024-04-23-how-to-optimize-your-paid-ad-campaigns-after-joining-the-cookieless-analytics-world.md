@@ -57,7 +57,7 @@ That *undercover* tracker is a third-party cookie in a nutshell. Mostly, adverti
 
 Since Google also operates a vast network of Android apps, search engine, and other services to gather loads of first-party and third-party data on individuals, it helps it make its advertising reach and effectiveness very targeted and robust –– something advertisers bear the fruit of.
 
-For this privacy-intrusive nature of third-party cookies, they have been actively criticized by digital privacy advocates. This led to the formation of regulatory bodies like the [GDPR (General Data Protection Regulation)](https://plausible.io/blog/google-analytics-gdpr) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa), that made the collection and usage of personal data of online users much stricter.
+For this privacy-intrusive nature of third-party cookies, they have been actively criticized by digital privacy advocates. This led to the formation of regulatory bodies like the [GDPR (General Data Protection Regulation)](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa), that made the collection and usage of personal data of online users much stricter.
 
 We explain more in depth about third-party cookies, the role of Google in surveillance capitalism, why Chrome is having to phase them out, and what it means for digital marketers in [this article](https://plausible.io/blog/chrome-third-party-cookies).
 

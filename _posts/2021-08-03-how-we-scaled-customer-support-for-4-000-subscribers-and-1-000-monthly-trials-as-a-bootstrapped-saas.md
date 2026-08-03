@@ -145,7 +145,7 @@ This is the type of content that can help site owners deal with different areas 
 
 * When all the major browsers made a change to their [referrer policy](https://plausible.io/blog/referrer-policy), we had a guide on how that affects all the different web analytics tool
 
-* We also published a lot of content on the topics of privacy regulations, [GDPR](https://plausible.io/blog/google-analytics-gdpr), [cookies](https://plausible.io/blog/google-analytics-cookies) and [privacy policies](https://plausible.io/blog/privacy-policy-page) 
+* We also published a lot of content on the topics of privacy regulations, [GDPR](https://plausible.io/blog/legal-assessment-gdpr-eprivacy), [cookies](https://plausible.io/blog/google-analytics-cookies) and [privacy policies](https://plausible.io/blog/privacy-policy-page) 
 
 All these topics are relevant to Plausible, to our existing subscribers and our potential audience too. We now have a lot of links we can share when people ask us about these subjects. In many cases, people don't even need to ask us anything as they find the answers in our posts.
 

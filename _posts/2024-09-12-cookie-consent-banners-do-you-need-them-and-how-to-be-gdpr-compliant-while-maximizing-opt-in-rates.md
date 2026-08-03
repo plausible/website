@@ -176,7 +176,7 @@ This is deceptive and against the spirit of privacy regulations. Always provide 
 
 ## How to design a GDPR-compliant consent banner?
 
-Different corporations, legal teams and European countries seem to have slightly different interpretations of the privacy regulations. To be [compliant with GDPR](https://plausible.io/blog/google-analytics-gdpr), your consent banner needs to meet these requirements:
+Different corporations, legal teams and European countries seem to have slightly different interpretations of the privacy regulations. To be compliant with GDPR, your consent banner needs to meet these requirements:
 
 * Show contextual and non-personalized ads, don't place any non-functional cookies and don't track or share any personal data by default.
 * You must obtain consent from your visitor before you set a non-functional cookie and before you collect any personal data. Your site shouldn't load any third-party script, tracker or pixel that collect personal data and share it for non-functional purposes before obtaining consent from the visitor.

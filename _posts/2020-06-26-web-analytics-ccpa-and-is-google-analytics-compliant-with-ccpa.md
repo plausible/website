@@ -41,7 +41,7 @@ Penalties for breaking CCPA have no defined maximum and fines are up to $7,500 p
 
 ## CCPA is an opt out law
 
-[GDPR](https://plausible.io/blog/google-analytics-gdpr) is an opt-in law which means that your visitors and customers have to give you consent in order for you to collect and process their personal data. CCPA, on the other hand, is an opt out law which means that rather than requiring consent before taking any action, you need to be able to opt people out of personal data gathering if and when they do request it.
+[GDPR](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) is an opt-in law which means that your visitors and customers have to give you consent in order for you to collect and process their personal data. CCPA, on the other hand, is an opt out law which means that rather than requiring consent before taking any action, you need to be able to opt people out of personal data gathering if and when they do request it.
 
 ## What privacy and data rights does CCPA provide?
 
