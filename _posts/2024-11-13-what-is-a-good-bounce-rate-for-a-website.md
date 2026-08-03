@@ -5,7 +5,7 @@ description: What is bounce rate, what are some industry benchmarks, and how to
   maintain a lower number?
 slug: bounce-rate
 date: 2024-11-13T15:49:28.697Z
-last_modified_at: 2026-05-20T00:00:00.000Z
+last_modified_at: 2026-08-03T00:00:00.000Z
 author: hricha-shandily
 image: /uploads/bounce-rate.png
 image-alt: bounce rates of webpages
@@ -69,6 +69,16 @@ Let’s see why.
 Bounce rates vary significantly by industry and the type of entry page.
 
 We have created these ranges based on reported average bounce rates from studies conducted by digital marketing agencies and tools like HubSpot, Siege Media, etc.
+
+| Website type | Typical bounce rate | Why this range may be normal |
+| --- | ---: | --- |
+| Content websites and pages | 65%–90% | Visitors may read one article, find their answer, and leave without opening another page. |
+| Landing pages | 60%–90% | Visitors often complete or abandon a single intended action without navigating elsewhere. |
+| Service industry websites (legal, automotive, etc.) | 50%–70% | People may only need contact details, pricing, opening hours, or one specific answer. |
+| B2B websites | 25%–65% | Results vary between product pages, lead-generation pages, and educational content. |
+| Travel and hospitality websites | 40%–60% | Visitors commonly explore several destinations, prices, or booking options. |
+| Real estate websites | 30%–55% | Property searches typically involve viewing multiple listings and using search filters. |
+| Retail and eCommerce websites | 20%–55% | Shoppers are generally expected to browse products and move through cart and checkout pages. |
 
 #### Content websites and pages: 65% - 90%
 
@@ -232,6 +242,24 @@ A clean, intuitive design makes for a more enjoyable browsing experience, and cl
 ### Run experiments
 
 You can optionally experiment with different approaches to help you learn what keeps visitors engaged. A/B testing, for example, allows you to try out two versions of a page to see which one performs better. You could also gather feedback from visitors on specific elements or content.
+
+## Frequently asked questions
+
+### Is a 20% or 30% bounce rate good?
+
+A bounce rate between 20% and 30% is generally low and can be a positive sign for eCommerce, product, and other websites where visitors are expected to view multiple pages. However, an unusually low bounce rate can sometimes result from duplicate tracking or events being counted as interactions, so confirm that your analytics setup is working correctly.
+
+### Is a 48% bounce rate good?
+
+A 48% bounce rate is within a normal range for many websites. Whether it is good depends on the page type, traffic source, and intended visitor action. Compare it with similar pages on your own site rather than treating 48% as universally good or bad.
+
+### Is a 90% bounce rate bad?
+
+A 90% bounce rate may be normal for a blog post, glossary entry, help article, or single-page landing page where visitors can accomplish their goal without viewing another page. On a homepage, product page, or multi-step conversion journey, it is more likely to warrant investigation.
+
+### What does a 100% bounce rate mean?
+
+A 100% bounce rate means every measured visit was classified as a bounce. This can happen when visitors leave without viewing another page or triggering an interactive event. If it occurs across a large number of visits or an entire website, check the analytics implementation because missing or incorrectly configured events may be responsible.
 
 ## Start measuring your bounce rate
 
