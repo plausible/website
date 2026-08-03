@@ -91,7 +91,7 @@ We encourage you to discuss Google Analytics and these specific rulings with you
 
 Plausible Analytics is incorporated, built and hosted in the EU with all visitor data exclusively processed on servers and cloud infrastructure owned and operated by European providers. If Google Analytics no longer allows you to fulfill the legal requirements that apply to you, do check us out.
 
-Here's an independent [legal assessment on GDPR-compliant web analytics](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) and a legal comparison between Google Analytics and Plausible written by an experienced data protection expert and lawyer.
+Wondering what to do about it? Our [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) is an independent breakdown by a data protection lawyer of how to run analytics without cookie banners, consent screens or the EU-US transfer question at all.
 
 ## Plausible Analytics is a genuine European Google Analytics alternative
 

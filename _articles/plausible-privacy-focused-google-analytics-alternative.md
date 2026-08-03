@@ -81,7 +81,7 @@ We do not track visitors across devices, websites or time. All data is isolated 
 
 We [do not use cookies](https://plausible.io/blog/google-analytics-cookies) or any other persistent identifiers. We generate a random string of letters and numbers to calculate unique visitors on a given day and reset this string daily.
 
-This makes us compliant with cookie laws and [privacy regulations including GDPR](https://plausible.io/blog/google-analytics-gdpr), CCPA and PECR.
+This makes us compliant with cookie laws and privacy regulations including GDPR, CCPA and PECR.
 
 Here's an independent [legal assessment on GDPR-compliant web analytics without consent](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) written by an experienced data protection expert and lawyer.
 

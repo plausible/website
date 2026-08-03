@@ -6,12 +6,27 @@ description: How to implement GDPR-compliant web analytics without cookie banner
   ePrivacy Directive requirements and how tools like Plausible comply.
 slug: legal-assessment-gdpr-eprivacy
 date: 2024-03-21T08:56:38.058Z
-last_modified_at: 2026-05-12
+last_modified_at: 2026-08-02
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Web analytics, ePrivacy Directive and GDPR
 ---
-*In this article, Steffen Gross, an experienced data protection expert and lawyer at Simpliant Legal PartG mbB and external data protection officer at Simpliant GmbH, explains how web analytics can be implemented in accordance with the strict requirements of the ePrivacy Directive and the GDPR.*
+Is Google Analytics GDPR compliant? 
+
+No, not without a valid legal basis and consent. Google Analytics 4 collects detailed behavioral data, uses cookies and can be used for advertising and cross-device tracking, so it doesn't qualify for the legitimate interest exception under Art. 6(1)(f) GDPR. 
+
+It needs explicit user consent under Art. 6(1)(a) GDPR, and separately, under Art. 5(3) of the ePrivacy Directive, because it stores and reads information on the user's device through cookies.
+
+A Google Analytics GDPR compliance strategy therefore needs a cookie banner, a valid consent flow and a data processing agreement with Google.
+
+Personal data, for the purposes of the GDPR, means any information relating to an identified or identifiable natural person (Art. 4 (1) GDPR). This includes obvious identifiers such as a name or email address, but also location data, an online identifier or IP address, and pseudonymous data where it remains relatively easy to re-identify the individual behind it.
+
+1. Ordered list
+{:toc}
+
+## Is Google Analytics GDPR compliant? A legal guide by a data protection lawyer
+
+*The full legal reasoning is broken down below by Steffen Gross, an experienced data protection expert and lawyer at Simpliant Legal PartG mbB and external data protection officer at Simpliant GmbH, who explains how web analytics can be implemented in accordance with the strict requirements of the ePrivacy Directive and the GDPR.*
 
 Web tracking is crucial for understanding user behavior on websites and plays a central role in optimizing online presence.
 
@@ -28,9 +43,6 @@ It illustrates how website operators can establish tracking methods that both ac
 This article originated from our own search for a privacy-friendly analytics tool at Simpliant, which led us to discover Plausible Analytics. Written independently, its purpose is to offer guidance on the use of web statistics tools in adherence to data protection regulations.
 
 Having selected Plausible for our law firm, which specializes in GDPR compliance, I composed this article to impart our findings and perspectives. Plausible consented to its publication. Neither Plausible paid us for this article, nor did we pay Plausible for featuring this content on their website.
-
-1. Ordered list
-{:toc}
 
 ## Objectives and purposes of web tracking
 
@@ -157,7 +169,7 @@ This perspective aligns with the views of the French data protection authority, 
 
 In contrast, Google Analytics 4 collects detailed data on user behavior, which can also be used for advertising purposes. 
 
-Due to this extensive data collection and the potential risks to users' privacy, it is necessary to obtain explicit consent from users (Art. 6 (1) (a) GDPR). This means that website operators using Google Analytics 4 must ensure that [they obtain clear and informed consent](https://plausible.io/blog/google-analytics-gdpr) from their users before collecting and processing personal data.
+Due to this extensive data collection and the potential risks to users' privacy, it is necessary to obtain explicit consent from users (Art. 6 (1) (a) GDPR). This means that website operators using Google Analytics 4 must ensure that they obtain clear and informed consent from their users before collecting and processing personal data.
 
 ## ePrivacy Directive legal assessment
 

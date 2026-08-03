@@ -44,7 +44,7 @@ It is much easier to promote a product if it rides a wave of a growing market in
 
 * More website owners are becoming increasingly aware of the different privacy issues around websites analytics and user tracking
 
-* [GDPR](https://plausible.io/blog/google-analytics-gdpr), [CCPA](https://plausible.io/blog/google-analytics-ccpa) and other privacy regulations have certain requirements for website owners around needing to give visitors options and get their consent
+* [GDPR](https://plausible.io/blog/legal-assessment-gdpr-eprivacy), [CCPA](https://plausible.io/blog/google-analytics-ccpa) and other privacy regulations have certain requirements for website owners around needing to give visitors options and get their consent
 
 * Having a fast loading and speedy website makes the user experience much better especially on mobile phones and it is even a signal for search engine algorithms
 
