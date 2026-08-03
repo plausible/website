@@ -10,7 +10,7 @@ Most analytics tools were built around individual tracking. To connect a visitor
 
 That model worked until privacy regulations caught up with it. GDPR, CCPA and similar laws require informed consent before placing persistent identifiers on a visitor's device. Consent requires a banner. And every visitor who declines or ignores the banner disappears from your data.
 
-[Plausible](https://plausible.io/) was built without cookies or any persistent identifiers. Not as a workaround for regulations, but because individual tracking was never the goal. The result is analytics that works for the full range of your visitors, requires no consent banner under most privacy regulations and keeps your data complete by default.
+[Plausible](https://plausible.io/) is analytics without cookies or any persistent identifiers, built that way from the start. Not as a workaround for regulations, but because individual tracking was never the goal. The result is analytics that works for the full range of your visitors, requires no consent banner under most privacy regulations and keeps your data complete by default.
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
@@ -47,7 +47,7 @@ Google Analytics cannot measure what it has no permission to touch. The data gap
 
 ## How cookieless analytics works differently
 
-Plausible does not use cookies or any persistent identifiers. To count unique visitors, we generate a random string of letters and numbers that is reset every 24 hours. There is no way to connect a visitor's activity across sessions, across days or across devices. There is no individual record to protect because no individual record is created.
+Plausible is cookie-free analytics: no cookies, no persistent identifiers, nothing to consent to. To count unique visitors, we generate a random string of letters and numbers that is reset every 24 hours. There is no way to connect a visitor's activity across sessions, across days or across devices. There is no individual record to protect because no individual record is created.
 
 Every metric on your Plausible dashboard is an aggregate count: how many visitors, how many pageviews, which pages were most visited, which sources sent the most traffic. That is what most site owners actually need to make decisions about their content, their campaigns and their product. We collect less and show you more of what matters.
 
