@@ -15,6 +15,8 @@ Doing this can help eliminate ambiguity and ensure a strong base for analyzing s
 
 In this post, we discuss everything that you can possibly do to ensure that your web analytics setup is working just fine! If you’re using Plausible, jump to the section about troubleshooting a Plausible script.
 
+Once it's confirmed working, our guide to [checking your own website traffic accurately](https://plausible.io/blog/check-website-traffic) walks through actually reading those reports.
+
 1. Ordered list
 {:toc}
 

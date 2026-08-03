@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "PII examples: what not to send to analytics"
-description: See PII examples in URLs, forms, user IDs, emails and search queries, plus what not to send to analytics and how to redact personal data.
+title: "What is PII? Meaning and examples of personal data you shouldn't send to analytics"
+description: PII (personally identifiable information) is any data that can identify a person. See what counts, real examples in URLs, forms and emails, and how to keep it out of your analytics.
 slug: pii-examples
 date: 2026-06-17T15:20:20.000Z
 author: hricha-shandily

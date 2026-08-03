@@ -128,6 +128,8 @@ To check your bounce rate, your traffic needs to be analyzed for some time and f
 
 Check out our website’s live stats [here](https://plausible.io/plausible.io) to get a glimpse. You will also be able to see the percentage increase or decrease in the bounce rate over the selected time range and analyze your growth patterns.
 
+Bounce rate is just one piece of the picture. Our guide to [checking your own website traffic accurately](https://plausible.io/blog/check-website-traffic) covers visitors, sources, pages and conversions together.
+
 ![bounce rate metric in Plausible dashboard](/uploads/bounce-rate-in-plausible.jpg "bounce rate metric in Plausible dashboard")
 
 You can also monitor the bounce rate for individual pages, specific segments, or particular sections of your site.
