@@ -157,21 +157,79 @@ Use attribution to compare patterns and make better decisions, not as an unquest
 
 ## Frequently asked questions
 
-### Is Google still phasing out third-party cookies?
+<style>
+  .chrome-cookies-faq {
+    margin-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
 
-No. In [April 2025](https://privacysandbox.google.com/blog/privacy-sandbox-next-steps), Google confirmed that Chrome would keep its existing approach. It would not phase out third-party cookies or introduce the standalone prompt proposed in 2024. The [CMA's official case record](https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes) independently confirms both decisions. People can continue to control third-party cookies in Chrome's settings.
+  .chrome-cookies-faq details {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 0;
+  }
 
-### Does Chrome block third-party cookies by default?
+  .chrome-cookies-faq summary {
+    align-items: center;
+    color: #111827;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    list-style: none;
+  }
 
-Not for everyone in regular browsing. People can [choose to allow or block them](https://support.google.com/chrome/answer/95647), and Chrome blocks them by default in Incognito mode. Managed-device policies and site exceptions can affect the setting too. Safari and Firefox apply stronger restrictions to cross-site tracking by default.
+  .chrome-cookies-faq summary::-webkit-details-marker {
+    display: none;
+  }
 
-### Are third-party cookies going away in 2026?
+  .chrome-cookies-faq summary::after {
+    align-items: center;
+    background: #eef2ff;
+    border-radius: 9999px;
+    color: #4f46e5;
+    content: "+";
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 1.25rem;
+    height: 1.75rem;
+    justify-content: center;
+    line-height: 1;
+    margin-left: 1rem;
+    width: 1.75rem;
+  }
 
-No. As of this article's August 2026 update, Chrome has no 2026 deadline for removing them. [Google's April 2025 announcement](https://privacysandbox.google.com/blog/privacy-sandbox-next-steps) retained Chrome's existing approach, and the [CMA's October 2025 case closure](https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes) records that Google decided against both deprecation and the proposed prompt. Availability still varies from one browser and user to another.
+  .chrome-cookies-faq details[open] summary::after {
+    content: "-";
+  }
 
-### Should marketers still prepare for a cookieless future?
+  .chrome-cookies-faq p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0.75rem 2.75rem 0 0;
+  }
+</style>
 
-Prepare for an incomplete-cookie future, not a magical day when every third-party cookie disappears. Build direct customer relationships, use contextual and intent-based acquisition, measure what happens on your own website and avoid making cross-site recognition the one thing holding your strategy together.
+<div class="chrome-cookies-faq">
+<details>
+  <summary>Is Google still phasing out third-party cookies?</summary>
+  <p>No. In <a href="https://privacysandbox.google.com/blog/privacy-sandbox-next-steps">April 2025</a>, Google confirmed that Chrome would keep its existing approach. It would not phase out third-party cookies or introduce the standalone prompt proposed in 2024. The <a href="https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes">CMA's official case record</a> independently confirms both decisions. People can continue to control third-party cookies in Chrome's settings.</p>
+</details>
+
+<details>
+  <summary>Does Chrome block third-party cookies by default?</summary>
+  <p>Not for everyone in regular browsing. People can <a href="https://support.google.com/chrome/answer/95647">choose to allow or block them</a>, and Chrome blocks them by default in Incognito mode. Managed-device policies and site exceptions can affect the setting too. Safari and Firefox apply stronger restrictions to cross-site tracking by default.</p>
+</details>
+
+<details>
+  <summary>Are third-party cookies going away in 2026?</summary>
+  <p>No. As of this article's August 2026 update, Chrome has no 2026 deadline for removing them. <a href="https://privacysandbox.google.com/blog/privacy-sandbox-next-steps">Google's April 2025 announcement</a> retained Chrome's existing approach, and the <a href="https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes">CMA's October 2025 case closure</a> records that Google decided against both deprecation and the proposed prompt. Availability still varies from one browser and user to another.</p>
+</details>
+
+<details>
+  <summary>Should marketers still prepare for a cookieless future?</summary>
+  <p>Prepare for an incomplete-cookie future, not a magical day when every third-party cookie disappears. Build direct customer relationships, use contextual and intent-based acquisition, measure what happens on your own website and avoid making cross-site recognition the one thing holding your strategy together.</p>
+</details>
+</div>
 
 ## What is the current takeaway?
 
