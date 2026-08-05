@@ -36,7 +36,7 @@ But let’s talk about what this does to the sanctity of a web analytics tool, w
 
 1. The tool becomes more complex than it ever needed to. That points to bad UX, and delayed decisions.
 
-2. Tools like Google Analytics become inherently [non-compliant](https://plausible.io/blog/google-analytics-gdpr) to privacy regulations, and produce the need to get cookie consent banners up on their users’ websites. That’s bad UX for the website visitors and potential customers. Not only can it lead to lost business – a counterproductive act – but also to bad brand image because of losing customer trust.
+2. Tools like Google Analytics become inherently [non-compliant](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) to privacy regulations, and produce the need to get cookie consent banners up on their users’ websites. That’s bad UX for the website visitors and potential customers. Not only can it lead to lost business – a counterproductive act – but also to bad brand image because of losing customer trust.
 
 3. Analytics can become biased towards marketing goals rather than providing neutral insights. This is why inflated analytics or [complex attribution models](https://plausible.io/blog/ecommerce-revenue-attribution#downsides-of-using-the-data-driven-attribution-model) are a thing.
 

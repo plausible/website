@@ -27,7 +27,7 @@ Here's a closer look at Google's Federated Learning of Cohorts (FLoC) initiative
 
 ## Google's business model is a privacy violation
 
-The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/google-analytics-gdpr) are forcing companies to respect their users' privacy.
+The web as we know it is evolving. Apple is pushing a privacy-first approach from its operating systems and Safari. Services like DuckDuckGo and HEY give people competitive alternatives to the surveillance capitalism-funded products and regulations such as [CCPA](https://plausible.io/blog/google-analytics-ccpa) and [GDPR](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) are forcing companies to respect their users' privacy.
 
 Cross-site tracking using tools such as Google Analytics and third-party cookies is being phased out. Safari, Firefox and Brave are leading the way. And legislation like GDPR has proven that if you give people a fair choice to opt-out of personalized advertising, most of them will.
 

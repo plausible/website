@@ -57,7 +57,7 @@ If you use cookies for analytics or advertising, you likely need both.
 
 ## Do I need a privacy policy because of Plausible Analytics? 
 
-Plausible Analytics is a [privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics). It complies with privacy regulations such as [GDPR](https://plausible.io/blog/google-analytics-gdpr) and [CCPA](https://plausible.io/blog/google-analytics-ccpa). Plausible doesn't use cookies and doesn't collect personal data.
+Plausible Analytics is a [privacy-first web analytics tool](https://plausible.io/privacy-focused-web-analytics). It complies with privacy regulations such as GDPR and [CCPA](https://plausible.io/blog/google-analytics-ccpa). Plausible doesn't use cookies and doesn't collect personal data.
 
 If you don't collect or process personal data and don't use cookies, you may not legally need a privacy policy for your use of Plausible Analytics, though requirements vary by jurisdiction.
 

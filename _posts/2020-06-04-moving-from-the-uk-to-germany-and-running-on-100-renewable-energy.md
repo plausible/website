@@ -29,7 +29,7 @@ We use Bunny (another European-owned provider from Slovenia) for a global CDN an
 
 As a Plausible user, you don’t have to worry about Schrems II and that it invalidates the EU-US Privacy Shield. Your website data never leaves the EU. Plausible is incorporated, made and hosted in the EU using only European-owned cloud infrastructure.
 
-We're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/google-analytics-gdpr), laws and regulations even after the Brexit.
+We're confident and comfortable with Germany as an integral part of the EU that our server will continue to adhere to all the [GDPR and other strong European and German privacy standards](https://plausible.io/blog/legal-assessment-gdpr-eprivacy), laws and regulations even after the Brexit.
 
 ## Moving to being 100% powered by renewable energy
 

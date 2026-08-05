@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Cookieless web analytics and can Google Analytics work without cookies?
+title: Does Google Analytics use cookies? What the consent banner requires
 description: Are you confused about Google Analytics and the requirement to show
-  the cookie consent banner to your visitors? Can you have cookie free web
-  analytics?
+  the cookie consent banner to your visitors? Here's what the cookie laws
+  actually require.
 slug: google-analytics-cookies
 date: 2020-05-20T09:56:34.718Z
 author: marko-saric
 image: /uploads/big-spike-in-traffic.png
-image-alt: Cookieless web analytics and the cookie consent
+image-alt: Google Analytics cookies and the cookie consent banner
 last_modified_at: 2026-05-12
 ---
-Are you confused about using Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? And can you have a cookieless web analytics alternative to Google Analytics? This post is here to figure it all out. Let's get started.
+Are you confused about using Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? And is there a way to measure your website traffic without relying on cookies at all? This post is here to figure it all out. Let's get started.
 
 1. Ordered list
 {:toc}
@@ -115,7 +115,7 @@ This is another negative aspect of cookie-based web analytics. It's not a bullet
 
 All these make cookie based web analytics provide [less accurate and incomplete web stats](https://plausible.io/most-accurate-web-analytics). 
 
-## Can you get web analytics without cookies?
+## Is there web analytics that skips cookies entirely?
 
 We've built [Plausible Analytics](https://plausible.io) with privacy regulations in mind. Plausible Analytics does not use cookies and does not collect any personal data. This makes us compliant with the different cookie laws and privacy regulations.
 
@@ -145,7 +145,7 @@ Overall, we're happy with this approach because we expected bigger inaccuracy. I
 
 Turns out, counting IP addresses is not much less accurate than using cookies. And [not having to show a cookie banner](https://plausible.io/blog/cookie-consent-banners#do-you-need-a-cookie-consent-banner-on-your-website) is a worthwhile trade off for many sites.
 
-## Try Plausible Analytics for cookie free analytics
+## Try Plausible Analytics without the cookie banner
 
 Do you prefer not to use cookies in your web statistics and not to need to display cookie prompts and get cookie consent from your visitors? Try our cookie-free solution. By using Plausible, you will not place any cookies to the browsers of your visitors. No need for cookie prompts and cookie consent.
 

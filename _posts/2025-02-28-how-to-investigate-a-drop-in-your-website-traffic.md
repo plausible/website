@@ -243,6 +243,8 @@ Fret not, traffic fluctuations are a natural part of site ownership. With the ri
 
 If you're seeing the opposite pattern, here's [how to investigate a spike in website traffic](https://plausible.io/blog/spike-in-website-traffic).
 
+For the fuller picture beyond drops and spikes, our guide to [checking your own website traffic accurately](https://plausible.io/blog/check-website-traffic) covers visitors, sources, pages and conversions together.
+
 If you want to try out an extremely simple way of tracking traffic and [ditch Google Analytics](https://plausible.io/vs-google-analytics), do sign up for our [free trial](https://plausible.io/register) and join our  {{ site.data.site.subscriber_count }}  happy subscribers.
 
 We are privacy-friendly and GDPR-compliant by default, our tracking code is less blocked by ad blockers, we automatically keep bot traffic at bay, and are proud to be a [more accurate](https://plausible.io/most-accurate-web-analytics) alternative to Google Analytics.
