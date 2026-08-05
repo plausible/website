@@ -7,7 +7,7 @@ date: 2024-04-15T10:11:15.235Z
 author: hricha-shandily
 image: /uploads/google-third-party-cookie-announcement-2025.png
 image-alt: Google's April 2025 Privacy Sandbox announcement about third-party cookie choice in Chrome
-last_modified_at: 2026-08-04
+last_modified_at: 2026-08-05
 ---
 No. The much-discussed third-party cookie phase-out never actually happened in Chrome.
 
