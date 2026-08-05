@@ -45,7 +45,6 @@ In [July 2024](https://privacysandbox.google.com/blog/privacy-sandbox-update), G
 This wasn't just a matter of interpreting Google's wording. The UK's Competition and Markets Authority recorded the same outcome: Google had decided neither to deprecate third-party cookies nor to roll out the standalone prompt. The CMA [closed its Privacy Sandbox commitments case](https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes) in October 2025.
 
 ### The timeline in brief
-Regulatory bodies like [GDPR (General Data Protection Regulation)](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) and [CCPA (California Consumer Privacy Act)](https://plausible.io/blog/google-analytics-ccpa) work to protect individual privacy by regulating the collection, processing, and usage of personal information by online businesses.
 
 | Date | What Google announced |
 |---|---|
