@@ -127,11 +127,11 @@ Chrome's reversal doesn't weaken the case for privacy-first analytics. It only r
 
 Start with the relationship you actually have with your audience. Product usage, purchases, account preferences, newsletter signups, surveys and customer conversations can tell you far more than a trail of visits to unrelated websites.
 
-But don't treat “first-party” as a magic privacy label. Collect what you need, explain why you need it and protect it properly. The term describes who collected the data; it does not automatically make every use of that data responsible or exempt from privacy requirements.
+But also don't treat “first-party” as a magic privacy label. It is useful to collect what you need, explain why you need it and protect it properly.
 
 ### Use contextual and intent-based acquisition
 
-Someone searching for a solution is already telling you something useful: what they want at that moment. You don't need a month-long browsing history to respond to that intent. Google Ads can [match Search ads to people's search terms](https://support.google.com/google-ads/answer/14996023), while [contextual targeting matches ads to relevant website, video or app content](https://support.google.com/campaignmanager/answer/16587084).
+Someone searching for a solution is already telling you something useful: what they want at that moment. Google Ads can [match Search ads to people's search terms](https://support.google.com/google-ads/answer/14996023), while [contextual targeting matches ads to relevant website, video or app content](https://support.google.com/campaignmanager/answer/16587084).
 
 This is also where good content and clear positioning earn their keep. They attract the right people because the subject and message are relevant, not because an identifier followed someone around until they clicked.
 
@@ -145,15 +145,13 @@ Ask the questions you actually need answered. Which campaign brought people here
 
 Moving away from third-party cookies does not mean marketing in the dark. Privacy-first analytics can still show which channels and campaigns work, which content people engage with and whether they complete the actions that matter.
 
-With an open-source tool such as [Plausible Analytics](/open-source-website-analytics), you can inspect how that measurement works. Plausible uses no cookies or persistent identifiers, does not collect or store personal data that can identify an individual, and reports aggregated website statistics. Learn more about our approach to [privacy-friendly web analytics](/privacy-focused-web-analytics).
-
-Of course, changing your analytics tool doesn't magically make your entire organization compliant with every privacy law. Your other tools and data practices still matter. But it does remove a large amount of unnecessary data collection from a part of your stack you use every day.
+With an [open-source](/open-source-website-analytics) and [GDPR compliant](https://plausible.io/blog/legal-assessment-gdpr-eprivacy) tool such as Plausible Analytics, you can inspect how that measurement works. Plausible uses no cookies or persistent identifiers, does not collect or store personal data that can identify an individual, and reports aggregated website statistics. Learn more about our approach to [privacy-friendly web analytics](/privacy-focused-web-analytics).
 
 ### Treat platform attribution as an estimate
 
 Attribution has always looked more certain on a dashboard than it is in real life. A report cannot directly observe an interaction if it receives no linkable data. Google Ads itself says that browser restrictions, consent choices and technical limitations create gaps it tries to fill through [conversion modeling](https://support.google.com/google-ads/answer/12443859).
 
-Use attribution to compare patterns and make better decisions, not as an unquestionable record of why every person converted. Pair it with aggregate trends, experiments and the wonderfully low-tech habit of asking customers how they found you.
+Use attribution to compare patterns and make better decisions, not as an unquestionable record of why every person converted. Pair it with aggregate trends, experiments and the habit of asking customers how they found you.
 
 ## Frequently asked questions
 
@@ -227,7 +225,7 @@ Use attribution to compare patterns and make better decisions, not as an unquest
 
 <details>
   <summary>Should marketers still prepare for a cookieless future?</summary>
-  <p>Prepare for an incomplete-cookie future, not a magical day when every third-party cookie disappears. Build direct customer relationships, use contextual and intent-based acquisition, measure what happens on your own website and avoid making cross-site recognition the one thing holding your strategy together.</p>
+  <p>Prepare for an incomplete-cookie future, while not depending on a day when every third-party cookie disappears. Build direct customer relationships, use contextual and intent-based acquisition, measure what happens on your website and do not depend on making cross-site recognition too much as your strategy.</p>
 </details>
 </div>
 
