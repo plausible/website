@@ -7,8 +7,8 @@ slug: google-ads-tracking
 date: 2024-11-29T16:07:29.081Z
 last_modified_at: 2026-08-06
 author: hricha-shandily
-image: /uploads/tracking-paid-campaign-on-plausible-dashboard.png
-image-alt: Plausible dashboard paid ads tracking
+image: /uploads/google-ads-campaign-conversions-plausible.png
+image-alt: Plausible dashboard filtered by a Google Ads campaign and purchase goal
 ---
 If you run Google Ads or other paid campaigns, Plausible can show you what visitors do after clicking an ad: which pages they visit, whether they complete a goal or funnel, and how much revenue a campaign generates.
 
