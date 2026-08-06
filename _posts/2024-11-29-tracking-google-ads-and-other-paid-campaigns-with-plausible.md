@@ -31,7 +31,7 @@ Plausible measures aggregate website activity without tracking people across sit
 
 Google Analytics does not always track ads performance accurately because it can miss conversions. C'mon Google, you had one job!
 
-If you were to compare the number of conversions––like filling up a contact form or purchasing something––within Google Analytics and another tool measuring the same thing (like in your marketing automation tool or CRM), you would see some differences.
+If you were to compare the number of conversions, like filling up a contact form or purchasing something, within Google Analytics and another tool measuring the same thing (like in your marketing automation tool or CRM), you would see some differences.
 
 Orbit Media did an independent [experiment](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) and found such results, claiming that every number in Google Analytics is wrong. Here’s why:
 
@@ -49,7 +49,7 @@ There are other ways in which Google Analytics is inaccurate, for reasons like s
 Plausible offers other advantages and makes a lot of sense as an analytics tool of choice.
 
 1. Lightweight script: Plausible’s tracking script is {{ site.data.site.script_ratio }}x smaller than GA4’s, not slowing down your site
-2. Simple dashboard: No complex menus—just effective, actionable insights.
+2. Simple dashboard: No complex menus, just effective, actionable insights.
 3. Privacy-friendly by design: Plausible doesn’t require a cookie consent banner because it doesn’t track or store personal data.
 4. Dedicated support: You get faster assistance directly from the core team, something missing from Google Analytics.
 
@@ -148,7 +148,7 @@ You can isolate traffic by selecting any UTM parameter from the campaigns tab:
 
 ![utm parameters tracking in plausible](/uploads/utm-parameters.png "utm parameters tracking in plausible")
 
-This filtered dashboard shows what all happened in the sessions acquired from those campaigns –– which pages were visited, which conversion goals were completed, and even which locations these visitors were from (including [VPN entries](https://plausible.io/docs/countries#visitors-using-vpns-and-similar-services)), which devices, etc. they used.
+This filtered dashboard shows what all happened in the sessions acquired from those campaigns: which pages were visited, which conversion goals were completed, and even which locations these visitors were from (including [VPN entries](https://plausible.io/docs/countries#visitors-using-vpns-and-similar-services)), which devices, etc. they used.
 
 You can set your site conversion goals using [this guide](https://plausible.io/docs/goal-conversions), to help visualize the whole customer journey. Here’s an example of what a filtered dashboard would look like (notice the two filters at the top):
 
