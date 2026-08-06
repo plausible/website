@@ -19,7 +19,7 @@ Plausible measures aggregate website activity without tracking people across sit
 | What you want to do | Possible with Plausible? | How it works |
 | --- | --- | --- |
 | See traffic from Google Ads | Yes | Plausible recognizes Google Click IDs (GCLIDs) or UTM-tagged links. |
-| Compare campaigns, ads and keywords | Yes, with manual tagging | Add UTM parameters to your ad URLs. With GCLID alone, Plausible identifies paid Google traffic but does not populate the UTM Campaign, UTM Content or UTM Term reports. |
+| Compare campaigns, ads and keywords | Yes, with UTM tagging | Add UTM parameters to your Google Ads URLs. |
 | Attribute goals and revenue to paid campaigns | Yes | Filter the dashboard by campaign and view goals, funnels and revenue using Plausible's last-touch attribution. |
 | Import Plausible conversions into Google Ads | No | Google needs a click identifier or supported user-provided data to match an imported conversion to an ad interaction. Plausible does not retain that visitor-level data. |
 | Build retargeting audiences from Plausible visitors | No | Plausible does not create individual visitor profiles or track people across sites. |
