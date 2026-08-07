@@ -54,6 +54,8 @@ Plausible stores no user profiles. It keeps no cross-session history for individ
 
 If your analytics workflow depends on knowing that the same named person came back five times across multiple days, clicked three buttons and later became a customer, Plausible is probably not the tool you are looking for. Within the same day, return visits are counted together. Across days, there is no way to link visits to the same individual. That is intentional. Individual surveillance of your visitors is not something we are willing to build, regardless of what competing tools offer.
 
+One practical consequence: Plausible has no new-vs-returning visitor segment. Within a single day, you can see that one unique visitor generated several sessions. Over a longer period, there is no way to tell whether that visitor showed up again, because that would require recognizing the same person across days, which is exactly the kind of persistent tracking Plausible does not do. If new-vs-returning is central to how you read your traffic, Plausible will not give it to you.
+
 This boundary is also what makes Plausible compliant with GDPR, CCPA and similar laws without a consent banner. It is not a limitation to work around. It is the design.
 
 ## Plausible is not a full product analytics platform
@@ -119,6 +121,7 @@ Plausible is likely not a good fit if you:
 
 - Need session replay, heatmaps or individual visitor recordings
 - Need user-level product analytics, cohorts or retention analysis inside your app
+- Need to see new vs. returning visitor segments
 - Need retargeting, audience syncing or cross-site ad measurement
 - Need a free hosted analytics service with no subscription
 - Need to process protected health information or require a BAA
