@@ -11,7 +11,7 @@ Plausible Analytics is a privacy-first web analytics startup that’s built to e
 
 Here's a brief summary of our data security practices:
 
-* All data is encrypted in transit (TLS 1.2+) and at rest (AES-256)
+* All data is encrypted in transit (TLS 1.2+) 
 * All visitor data is irreversibly hashed
 * All visitor data is hosted in the EU on EU-owned servers
 * User passwords are hashed and salted
