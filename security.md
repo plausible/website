@@ -11,7 +11,7 @@ Plausible Analytics is a privacy-first web analytics startup that’s built to e
 
 Here's a brief summary of our data security practices:
 
-* All data is encrypted in transit
+* All data is encrypted in transit (TLS 1.2+) 
 * All visitor data is irreversibly hashed
 * All visitor data is hosted in the EU on EU-owned servers
 * User passwords are hashed and salted
@@ -19,8 +19,8 @@ Here's a brief summary of our data security practices:
 * You can configure Single Sign-On (SSO)
 * Our software is updated multiple times per week
 * We maintain a public changelog
-* Regular vulnerability scans are conducted 
-* All data is backed up on remote backups
+* Vulnerability scans run regularly and dependency scans run daily
+* All data is backed up daily and restore tests run quarterly
 * Data access is firewalled and user-restricted
 * Our code is transparent and can be audited
 * Performance is monitored and uptime is disclosed
@@ -52,7 +52,9 @@ For full details, please look at our [data policy](https://plausible.io/data-pol
 
 ## Data encryption
 
-To protect against access, modification or theft of data, all data is encrypted in transit and secured at rest. 
+To protect against access, modification or theft of data, all data is encrypted in transit and secured at rest.
+
+In transit we use TLS 1.2 or newer, with TLS 1.3 preferred.
 
 We use hashing techniques to ensure that visitor data cannot be reversed or used to identify individuals. The use of rotating salts adds an additional layer of protection.
 
@@ -88,9 +90,21 @@ Our team does not access customer data on a routine basis. Access is limited to 
 
 We use role-based access controls and restrict server access to specific individuals. All access is logged and monitored.
 
+Internal access to our systems goes through a zero trust network layer protected by single sign-on and multi-factor authentication.
+
 ## Backups and disaster recovery
 
-We maintain backups and disaster recovery procedures to protect against data loss. Backups are stored securely and used only for recovery purposes.
+All service data is backed up daily on automated schedules. Backups are encrypted (AES-256), stored in the EU, retained for 30 days and used only for recovery purposes.
+
+Restore tests run at least quarterly to verify that backups actually work.
+
+We maintain a formal business continuity plan and a disaster recovery plan, both reviewed at least annually.
+
+## Incident response
+
+We maintain a formal incident response plan with defined severity levels. The plan is tested with regular drills and every significant incident ends with a post-incident review.
+
+If a breach affects your data, we notify you without undue delay and no later than 48 hours after becoming aware of it.
 
 ## Subprocessors 
 
@@ -108,7 +122,7 @@ Plausible is hosted within data centers provided by Hetzner, which maintains str
 
 ## Availability and infrastructure monitoring 
 
-We monitor application performance and infrastructure to maintain reliability and availability.
+We monitor application performance and infrastructure around the clock. Alerts page an on-call engineer at any hour. Our CDN shields the service against DDoS attacks at the edge.
 
 We aim to provide continuous availability but do not guarantee uninterrupted service. You can view current and historical uptime on our [status page](https://status.plausible.io).
 
@@ -118,7 +132,9 @@ Our code is open source and publicly available. This allows independent verifica
 
 ## Software quality assurance
 
-We deploy updates frequently and use automated testing and code reviews to maintain quality.
+We deploy updates multiple times per week. Every change goes through peer review and automated testing before release and authors cannot approve their own changes. Every change ships with a rollback plan.
+
+Automated dependency scanning runs daily across all package ecosystems and opens update requests when a vulnerability is found. Regular vulnerability scans run on top of that.
 
 ## Data privacy and legal documents 
 
@@ -134,5 +150,5 @@ If you have any questions about our security practices, please [contact us](http
 
 ---
 
-**Last updated: March 2026**  
-Clarifications only. No material changes to data handling.
+**Last updated: August 2026**  
+Added specifics on encryption, backups, incident response and monitoring. No changes to data handling.
