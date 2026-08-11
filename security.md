@@ -52,7 +52,7 @@ For full details, please look at our [data policy](https://plausible.io/data-pol
 
 ## Data encryption
 
-To protect against access, modification or theft of data, all data is encrypted in transit and at rest.
+To protect against access, modification or theft of data, all data is encrypted in transit and secured at rest.
 
 In transit we use TLS 1.2 or newer, with TLS 1.3 preferred. At rest everything, including backups, is encrypted with AES-256. Encryption keys are stored separately from the data they protect and are rotated on expiry or suspected compromise.
 
