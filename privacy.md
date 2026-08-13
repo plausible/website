@@ -159,5 +159,5 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 
 ---
 
-**Last updated: July 2026**  
-Replaced hCaptcha with Friendly Captcha for spam protection.
+**Last updated: August 2026**  
+Now using Friendly Captcha for spam protection on login and registration pages.
