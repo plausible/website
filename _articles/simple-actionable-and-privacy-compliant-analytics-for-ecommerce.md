@@ -154,9 +154,10 @@ Or generate a private [shared link](https://plausible.io/docs/shared-links) to t
 
 ## Other teams use Plausible for
 
-* [SaaS products](/for-saas) — tracking trial signups, activation funnels and campaign attribution
-* [Content and publishing](/for-bloggers-creators) — tracking what drives traffic, engagement and subscriptions
-* [Agencies and freelancers](/for-freelancers-agencies) — multi-site management, client reporting and GDPR compliance built in
+* [SaaS products](/for-saas): tracking trial signups, activation funnels and campaign attribution
+* [Content and publishing](/for-bloggers-creators): tracking what drives traffic, engagement and subscriptions
+* [Agencies and freelancers](/for-freelancers-agencies): multi-site management, client reporting and GDPR compliance built in
+* [Public sector](/for-public-sector): EU-owned hosting, no consent banners and a clear procurement path for public institutions
 
 ## Try Plausible Analytics
 

@@ -40,21 +40,19 @@ They embed Plausible to provide web analytics to thousands of their customers wi
 
 This is the typical pattern: one integration, managed once, that works automatically for every customer they onboard.
 
-## Sites API to manage a large number of sites programmatically
+## One site per customer, provisioned automatically
 
-Sites API allows you to add, delete and manage sites at scale. You can also change domain names programmatically.
+If you run a SaaS platform, a website builder, a hosting service or a marketplace, the setup usually looks like this: each of your customers gets their own site in your Plausible account, created automatically the moment they sign up with you.
 
-The domain you add to Plausible doesn't need to match where you install the snippet. Think of it more like a site ID. This gives you flexibility depending on your setup.
+When a customer signs up, your backend uses the [Sites API](https://plausible.io/docs/sites-api) to create a site for them. The domain doesn't need to match a real hostname, so you can use a subdomain or tenant ID as the site identifier. Your tracking script or Events API sends that customer's pageviews and custom events with the matching identifier.
 
-Using the sites API, you can also add or delete goals and custom events. Goals and custom events allow you to track actions that you want visitors to take on a site.
+The Sites API then creates a shared link for the site, which you embed as an iframe in your customer's dashboard. It can also configure goals and custom events, change site identifiers and delete sites when customers leave. See the [Sites API documentation](https://plausible.io/docs/sites-api) for the full list of operations.
 
-Actions such as newsletter signups, button clicks, account registrations or checkout completions.
+Each customer only sees their own data. A shared link is scoped to a single site's dashboard, so there's no way to navigate from one tenant's embedded view to another tenant's stats or to any account-level data. Isolation between customers is the default, not something you configure.
 
-You can set these up for your customers so they can automatically track actions without any additional effort. You can learn more about [goals and custom events here](https://plausible.io/docs/goal-conversions).
+Standard plans include up to 10 sites. If you need more than 10, Enterprise plans combine a monthly usage tier for your customers' total pageviews and custom events with a site allowance from one of our Enterprise tiers. Some of our customers run thousands of sites on a single account.
 
-The sites API also allows you to create shared links, which you then use to embed the dashboard into your product.
-
-See our [sites API documentation](https://plausible.io/docs/sites-api).
+Within your site allowance, provisioning another site costs nothing extra, so creating one for every customer, including tiny or inactive ones, doesn't multiply your costs or require a plan change at each signup.
 
 ## Embed dashboard to integrate our stats into your user interface
 
@@ -106,6 +104,9 @@ The Sites API, managed proxy and setups with more than 10 sites are on our [ente
 **Can I match the dashboard to my brand?**
 Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch.
 
+**Can my customers see each other's data?**
+No. Each embedded dashboard is powered by a shared link scoped to a single site. A customer viewing their embedded dashboard can't navigate to another customer's stats, your platform-level analytics or anything else in your account. Tenant isolation is the default.
+
 ## Ready to integrate?
 
 [Start a 30-day free trial](https://plausible.io/register) with no credit card required. The embedded dashboard, Stats API, Consolidated View and proxy are all available during the trial and on Business plans, which covers most integration scenarios. If you need the Sites API or a managed proxy, [contact us](https://plausible.io/contact) to discuss an enterprise plan.
@@ -145,6 +146,14 @@ Yes. The embedded dashboard supports light, dark or system themes, a custom back
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my customers see each other's data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Each embedded dashboard is powered by a shared link scoped to a single site. A customer viewing their embedded dashboard can't navigate to another customer's stats, your platform-level analytics or anything else in your account. Tenant isolation is the default."
       }
     }
   ]
