@@ -34,15 +34,21 @@ Plausible measures the other side of the journey: a real person clicks a link in
 
 One is an estimate of presence. The other is a number you can connect to signups, leads and revenue. You may use both, but only referral analytics shows the business outcome on your site.
 
+### Human visits, not AI crawlers
+
+Plausible measures visits from people who click through from AI assistants. [Known AI crawlers and other bots are filtered](https://plausible.io/docs/bot-traffic-filtering) from your analytics, so referral traffic is not mixed with automated requests.
+
 ## See every AI source in one channel
 
 You do not need to build a custom segment or maintain a list of referrer domains. Plausible recognizes known AI assistants and groups them under the **AI Assistants** channel automatically.
 
 Open the channel to compare individual sources such as ChatGPT, Claude, Gemini, Perplexity, Copilot, etc. Sort them by visitors, bounce rate, visit duration or conversions to see which assistants send attention and which send genuinely useful traffic.
 
+You can also compare AI Assistants with organic search, social or any other channel to see whether fewer visits produce stronger engagement, higher conversion rates or more revenue per visitor.
+
 ## Find the content AI visitors choose
 
-[Filter your dashboard](https://plausible.io/docs/filters-segments) by the AI Assistants channel and every report updates to that audience. [Entry Pages](https://plausible.io/blog/analyzing-landing-pages#top-entry-and-exit-pages) shows where people first arrived, giving you a concrete view of the pages AI assistants link to successfully.
+[Filter your dashboard](https://plausible.io/docs/filters-segments) by the AI Assistants channel and every report updates to that audience. **[Entry Pages](https://plausible.io/blog/analyzing-landing-pages#top-entry-and-exit-pages)** shows where people first arrived, giving you a concrete view of the pages AI assistants link to successfully.
 
 [User journeys](https://plausible.io/docs/user-journeys) show where AI visitors go next, including the pages they view and the actions they take before converting. You can also compare how long they stay and [how far they scroll](https://plausible.io/docs/scroll-depth).
 
@@ -50,18 +56,13 @@ Instead of optimizing for an opaque visibility score, you can improve the pages 
 
 ## Connect AI traffic to conversions and revenue
 
-Traffic alone is not the goal. [Set up goals](https://plausible.io/docs/custom-event-goals) for the actions that matter to your business: trial registrations, newsletter subscriptions, demo requests, downloads or purchases. Plausible attributes those conversions to the AI source that started the visit.
+An AI mention becomes more valuable when it brings the right people to your site. A spike in visits looks promising, but business outcomes such as trial registrations, newsletter subscriptions, demo requests purchases, etc., show if the channel is also contributing to your business.
 
-[Add revenue data to a purchase goal](https://plausible.io/docs/ecommerce-revenue-tracking) to compare orders, conversion rate, average order value and revenue from the AI Assistants channel. For longer journeys, [build a funnel](https://plausible.io/docs/funnel-analysis) to see how many AI-referred visitors move from a landing page to signup or checkout.
+Plausible connects the [goals you track](https://plausible.io/docs/custom-event-goals) to the AI assistant that started the visit. You can see which sources and landing pages lead to meaningful outcomes, then decide which content to improve, which topics to expand, where AI referrals deserve more attention, etc.
+
+If you sell online, [revenue attribution](https://plausible.io/docs/ecommerce-revenue-tracking) reveals whether the assistant sending the most visits is also producing the most orders, revenue or average order value. For longer journeys, [funnels](https://plausible.io/docs/funnel-analysis) show how AI visitors progress from a landing page to signup or checkout.
 
 ![Goals report filtered by the AI Assistants channel, showing conversions, conversion rates and revenue](/uploads/ai-assistants-goals-revenue.png "Goals and revenue from AI assistant traffic")
-
-This lets you answer the useful questions:
-
-* Which AI assistant sends the most visitors?
-* Which cited pages bring people to the site?
-* Do AI visitors engage more or less than search visitors?
-* Which assistants drive signups, sales or revenue?
 
 ## How to track AI traffic with Plausible
 
