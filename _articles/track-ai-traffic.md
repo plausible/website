@@ -42,7 +42,7 @@ Plausible measures visits from people who click through from AI assistants. [Kno
 
 You do not need to build a custom segment or maintain a list of referrer domains. Plausible recognizes known AI assistants and groups them under the **AI Assistants** channel automatically.
 
-Open the channel to compare individual sources such as ChatGPT, Claude, Gemini, Perplexity, Copilot, etc. Sort them by visitors, bounce rate, visit duration or conversions to see which assistants send attention and which send genuinely useful traffic.
+You can simply open the channel to compare individual sources like ChatGPT, Claude, Gemini, Perplexity, Copilot, etc. Sort them by visitors, bounce rate, visit duration or conversions to see which assistants send attention and which send genuinely useful traffic.
 
 You can also compare AI Assistants with organic search, social or any other channel to see whether fewer visits produce stronger engagement, higher conversion rates or more revenue per visitor.
 
