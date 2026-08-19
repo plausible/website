@@ -13,6 +13,8 @@ This page covers what public-sector reviews usually ask us: where the data lives
 
 {% include cta-buttons.html %}
 
+![Plausible Analytics for public-sector organizations](/uploads/plausible-public-sector.png "Plausible Analytics for public-sector organizations")
+
 1. Ordered list
 {:toc}
 
