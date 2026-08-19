@@ -1,7 +1,10 @@
 - category: Billing, invoices & VAT
   items:
     - question: Is the billing based on the number of sites I have?
-      answer: "Billing is based on the total pageviews and events across all sites in your team, not the number of sites. If you have multiple teams, each is billed separately. You can check your current usage in the Subscription section of your account settings."
+      answer: "Within our standard plans, billing is based on the total pageviews and custom events across all sites in your team, not the number of sites. Standard plans include up to 10 sites. If you need more than 10, an Enterprise plan combines your monthly usage tier with a site allowance from one of our preset tiers. If you have multiple teams, each is billed separately. You can check your current usage in the Subscription section of your account settings."
+
+    - question: Do custom events count toward my billable usage?
+      answer: "Yes. Your subscription tier is based on the total pageviews plus custom events across all sites in your team, and each tracked event counts the same as a pageview. Custom events include outbound link clicks, file downloads, form submissions, 404 error tracking and any events you track manually. These are enabled by default on new sites, so review the Tracking area of your site settings if you want to turn any off. Pageview goals don't add anything to your usage. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans#how-usage-is-calculated'>How usage is calculated</a> | <a class='text-indigo-600' href='https://plausible.io/docs/script-extensions'>Managing optional measurements</a>."
 
     - question: Can I send invoices to a different email address?
       answer: "Your Plausible login email and your Paddle billing email are separate. To change where invoices are sent, email us with your current Paddle email and the new address you'd like to use. You can also give your accounting team direct billing access by adding them as a team member with the Billing role. <a class='text-indigo-600' href='https://plausible.io/docs/invoice-email'>Learn more about invoice email and billing access</a>."
@@ -20,6 +23,9 @@
 
     - question: What happens if I go over my monthly pageview limit?
       answer: "No surprise fees. An occasional spike won't trigger extra charges or stop your stats from being counted. A single month over your limit requires no action. If usage exceeds your plan for two consecutive months, we'll ask you to upgrade. If you don't within a week, dashboards are temporarily locked but stats continue being collected in the background. You can unlock them at any time by upgrading, or they unlock automatically at the start of the next billing cycle if usage drops back within your tier. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>Full details on overages and upgrades</a>."
+
+    - question: My traffic is seasonal or spikes around events. Do I need a plan sized for my peak month?
+      answer: "You don't need to size your plan for a single peak month. Pick a plan that fits your typical usage. One month over your limit requires no action and triggers no extra charges. If usage exceeds your plan for two consecutive months, we'll ask you to upgrade. If your traffic later settles back down, you can downgrade and the unused portion is applied as credit to future payments. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>How overages work</a> | <a class='text-indigo-600' href='https://plausible.io/docs/change-plan'>Changing your plan</a>."
 
     - question: How do I cancel my subscription and what happens to my data?
       answer: "You can cancel at any time from the Subscription section in your account settings. Your stats continue being collected and you have full access until the end of your billing period. After that, your dashboard is locked but your data is retained for a period based on your plan. You can export your data at any time from your site settings, and resubscribe whenever you like to unlock your dashboards and resume data collection. <a class='text-indigo-600' href='https://plausible.io/docs/cancel-subscription'>Full cancellation details</a>."

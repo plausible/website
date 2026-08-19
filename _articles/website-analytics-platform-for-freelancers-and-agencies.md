@@ -149,7 +149,7 @@ You can add as many clients' websites as you want under a single account and sub
 
 ![Switch between sites in Plausible Analytics](/uploads/plausible-all-sites.png "Switch between sites in Plausible Analytics")
 
-While specific plans have site limits, we can accommodate any number of sites with custom plans. See [our pricing page](https://plausible.io/#pricing) for details.
+Our standard plans include up to 10 sites. If you need more than 10, an Enterprise site allowance from one of our preset tiers covers you, with customers running thousands of sites on a single account. More on how that pricing works [below](#managing-more-than-10-client-sites).
 
 ### Choose the ownership model that fits your agency
 
@@ -237,7 +237,7 @@ This allows you to see exactly which campaigns, creatives and channels drive tra
 
 While most clients are happy with the built-in dashboard and automated emails, you can also create tailored reports for advanced use cases.
 
-Use the [Data Studio connector](https://plausible.io/docs/looker-studio) to build custom dashboards that combine Plausible data with other sources for internal reporting or client presentations.
+Use the [Data Studio connector](https://plausible.io/docs/looker-studio) to build custom dashboards that combine Plausible data with other sources for internal reporting or client presentations. You can build one report template and reuse it across client sites, which keeps monthly client reporting consistent as your portfolio grows.
 
 ### White-label analytics for your own brand
 
@@ -251,9 +251,10 @@ This is also a feature you can offer clients: dashboards can be made public or s
 
 ## Other teams use Plausible for
 
-* [SaaS products](/for-saas) — tracking trial signups, activation funnels and campaign attribution
-* [Ecommerce](/for-ecommerce) — revenue attribution and checkout funnels without cookies or consent banners
-* [Content and publishing](/for-bloggers-creators) — tracking what drives traffic, engagement and subscriptions
+* [SaaS products](/for-saas): tracking trial signups, activation funnels and campaign attribution
+* [Ecommerce](/for-ecommerce): revenue attribution and checkout funnels without cookies or consent banners
+* [Content and publishing](/for-bloggers-creators): tracking what drives traffic, engagement and subscriptions
+* [Public sector](/for-public-sector): EU-owned hosting, no consent banners and a clear procurement path for public institutions
 
 ## See if Plausible works for your agency
 
@@ -261,8 +262,20 @@ Most agencies that try Plausible run it alongside Google Analytics for a while b
 
 [Try Plausible free for 30 days](https://plausible.io/register). No credit card required. Run it on a few client sites alongside their existing analytics, compare the numbers and show clients the difference.
 
-## Managing a large client portfolio?
+## Managing more than 10 client sites?
 
-Our standard plans include up to 10 sites. If you manage more, we can put together a custom plan based on the total number of sites and monthly pageviews across your portfolio. Email us at [hello@plausible.io](mailto:hello@plausible.io) to discuss a setup that fits your agency.
+Our standard plans include up to 10 sites. If you need more than 10, an Enterprise plan adds a site allowance from one of our preset tiers, combined with a monthly usage tier based on the pageviews plus custom events across your whole portfolio.
+
+Site allowances come in preset tiers rather than a custom number per account. Once you're on a tier, you can add sites through the Sites API without contacting us or paying more, right up to that tier's ceiling, and there's no practical limit at the top: whether you're just over the standard 10-site limit or running 10,000, there's a tier for you.
+
+Email us at [hello@plausible.io](mailto:hello@plausible.io) with your total number of sites and combined monthly usage and we'll send you a quote.
+
+## Do you have a reseller or partner program?
+
+We get this question from agencies a lot, and the answer is that partnering with Plausible is already built into how the product works, not a separate program to sign up for. Pick whichever setup fits how you run client work:
+
+* **Bundle analytics reporting into your service.** Put your clients' sites on your own custom plan, present the dashboards under your brand with our [white-label options](https://plausible.io/white-label-web-analytics) and include analytics reporting in your retainer. If you want to resell access to Plausible itself, [contact us](https://plausible.io/contact) first so we can confirm the arrangement.
+* **Set clients up on their own subscription.** Each client pays us directly, and you keep access as a team member. You can also [transfer ownership](https://plausible.io/docs/transfer-ownership) of a site to a client at project handoff.
+* **Recommend us and let clients handle the rest.** Send them the [instructions](https://plausible.io/docs/register-account) and they can be up and running in minutes.
 
 **Larger organization or enterprise client?** If your team or a client needs the Sites API, Single Sign-On or a managed proxy, see [enterprise web analytics](/enterprise-web-analytics).

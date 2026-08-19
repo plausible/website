@@ -193,9 +193,10 @@ Many publishers run their sites on WordPress, Ghost, Drupal, or custom CMS setup
 
 ## Other teams use Plausible for
 
-* [SaaS products](/for-saas) — tracking trial signups, activation funnels and campaign attribution
-* [Ecommerce](/for-ecommerce) — revenue attribution and checkout funnels without cookies or consent banners
-* [Agencies and freelancers](/for-freelancers-agencies) — multi-site management, client reporting and GDPR compliance built in
+* [SaaS products](/for-saas): tracking trial signups, activation funnels and campaign attribution
+* [Ecommerce](/for-ecommerce): revenue attribution and checkout funnels without cookies or consent banners
+* [Agencies and freelancers](/for-freelancers-agencies): multi-site management, client reporting and GDPR compliance built in
+* [Public sector](/for-public-sector): EU-owned hosting, no consent banners and a clear procurement path for public institutions
 
 ## Try Plausible
 

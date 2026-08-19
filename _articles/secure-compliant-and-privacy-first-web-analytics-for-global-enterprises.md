@@ -1,15 +1,15 @@
 ---
 layout: article
 title: Enterprise web analytics without the compliance headaches
-description: Plausible is used by Hugging Face, MongoDB, Harvard and 600+
-  other enterprise accounts. No cookies, no consent banners, EU hosting, DPA
-  included. Custom plans for high-traffic sites.
+description: See the traffic GA4 loses to cookie consent and ad blockers.
+  Plausible is used by Hugging Face, MongoDB, Harvard and 600+ other enterprise
+  accounts. No cookies, no consent banners, EU hosting, DPA included.
 permalink: /enterprise-web-analytics
 cta_headline: "Ready to simplify your analytics stack?"
 ---
-Many large organizations are rethinking their analytics setup. The compliance overhead of cookie-based tools like Google Analytics, combined with data flowing to US servers and growing scrutiny from privacy regulators, has made the status quo harder to justify.
+Large organizations are being asked to make decisions from analytics reports that miss a meaningful share of their audience. Consent banners, ad blockers and GA4's modeling make it harder to know which numbers were measured and which were inferred. One enterprise team evaluating Plausible found that around 40% of its visitors declined analytics cookies.
 
-Plausible is a privacy-first alternative built to work at any scale. We don't use cookies, don't collect personal data and don't require consent banners. All data is processed and stored on European-owned infrastructure and never leaves the EEA.
+Plausible takes a different approach. We don't use cookies or collect personal data about website visitors, so the analytics do not need a consent banner. The same design keeps compliance simpler: all visitor data is processed and stored on European-owned infrastructure and never leaves the EEA.
 
 Organizations like Hugging Face, MongoDB, Basecamp, Sentry, the Python Software Foundation, the Steve Jobs Archive, Harvard University and the Scottish and Welsh governments have been running Plausible for years.
 
@@ -40,13 +40,29 @@ If your organization needs accurate, complete analytics without the compliance b
 1. Ordered list
 {:toc}
 
+## The consent blind spot: see the traffic GA4 can't show you
+
+On sites using cookie consent banners, GA4 does not fully measure visitors who decline or ignore them. With basic Consent Mode, those visitors are not measured. With advanced Consent Mode, Google receives cookieless signals and uses modeled estimates to fill some of the gap. Add the visitors whose browsers and ad blockers block the GA script entirely, and the gap between your reports and your real traffic keeps growing.
+
+At enterprise scale this is not a rounding error. If 30-40% of visitors decline consent, a large share of your attribution, conversion and traffic reporting depends on incomplete signals or modeling rather than directly measured visits.
+
+Plausible removes that source of data loss. There are no cookies and no personal data collection, so no consent banner is needed for the analytics. When Plausible is configured independently of other consent-gated tools, declining those tools does not prevent a visit from being measured. Our script is also less likely to be blocked than Google's.
+
+In one comparison covering a GA4 property with around 115,000 users, GA4 failed to capture [55.6% of traffic compared with Plausible](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) when consent banners were shown. Results vary depending on the site and consent setup.
+
+Plausible measures traffic directly instead of using behavioral modeling to fill gaps. Our bot detection system filters out bot and spam traffic automatically, and new events appear in real time.
+
+We also never alter historical data, so your numbers stay stable and directly comparable over time. That makes Plausible suitable for long-term reporting, forecasting and internal reviews. On dashboard views above 10 million pageviews, limited sampling applies to keep load times fast: you can always narrow the date range to see exact counts.
+
+See the [detailed breakdown](https://plausible.io/most-accurate-web-analytics) of how Plausible compares to Google Analytics on accuracy.
+
 ## Built for large teams and high-traffic sites
 
 Plausible can handle any volume of pageviews and events. The largest site in our network gets around one billion pageviews per month, and that's not the upper limit. Just contact us with your requirements.
 
 You can have any number of sites and [teams](https://plausible.io/docs/users-roles#working-with-your-team) on your Plausible account. Your data stays accurate and easy to understand, whether you are analyzing one site or hundreds.
 
-If your sites exceed 10 million monthly pageviews, or you need 10+ sites, 10+ team members or higher API limits, a custom Enterprise plan is required.
+If your monthly usage exceeds 10 million pageviews and custom events combined, or you need more than 10 sites, more than 10 team members or higher API limits, a custom Enterprise plan is required.
 
 Setup is straightforward. Plausible runs from a single lightweight script tag added to your site. No heavy SDK, no complex configuration required.
 
@@ -89,20 +105,6 @@ You fully own and control your website data. We claim no rights to it, never sel
 To learn more about how this works and why it matters, see our [privacy-focused analytics page](https://plausible.io/privacy-focused-web-analytics).
 
 For large organizations operating across multiple regions, this approach also simplifies privacy reviews and lowers your long-term risk.
-
-## Accurate stats
-
-Plausible shows real numbers, not modeled or estimated data. We never alter historical data.
-
-We collect and store 100% of your traffic as it arrives and never alter historical data. Your numbers are stable and directly comparable over time, making Plausible suitable for long-term reporting, forecasting and internal reviews. On dashboard views above 10 million pageviews, limited sampling applies to keep load times fast: you can always narrow the date range to see exact counts.
-
-Your data will also be more complete. Our tracking script is far less likely to be blocked by ad blockers or privacy-respecting browsers, and it doesn't depend on cookie consent the way GA4's does. Studies show Plausible captures [55% more data than GA4](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) for this reason alone.
-
-Our bot detection system filters out bot and spam traffic automatically.
-
-Your data is always up to date. We provide real-time analytics.
-
-See the [detailed breakdown](https://plausible.io/most-accurate-web-analytics) of how Plausible compares to Google Analytics on accuracy.
 
 ## Enterprise-only features for advanced needs
 
@@ -169,7 +171,9 @@ For most organizations, the cloud product is the better fit. It includes automat
 
 ## Talk to us about an Enterprise plan
 
-Enterprise plans are priced based on your monthly pageview volume. You can combine higher traffic limits, additional sites, more team members, higher API limits and enterprise features in whatever combination fits your needs. For a full breakdown of which features are Enterprise-only and what cannot be added to lower plans, see the [subscription plans documentation](https://plausible.io/docs/subscription-plans#enterprise-only-features).
+Enterprise plans are priced using your monthly usage and any higher limits you need. Monthly usage is the total pageviews plus custom events across all your sites.
+
+You can also combine higher usage limits, more sites, more team members, higher API limits and Enterprise features in whatever combination fits your needs. For a full breakdown of which features are Enterprise-only and what cannot be added to lower plans, see the [subscription plans documentation](https://plausible.io/docs/subscription-plans#enterprise-only-features).
 
 We'll work with you to put together a plan that matches your usage and workflows. If your legal or procurement team has questions about our security practices, data processing or compliance documentation, we're happy to help.
 

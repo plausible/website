@@ -168,9 +168,10 @@ Plausible supports white-label and OEM integrations: embed a fully featured dash
 
 ## Other teams use Plausible for
 
-* [Ecommerce](/for-ecommerce) — revenue attribution and checkout funnels without cookies or consent banners
-* [Content and publishing](/for-bloggers-creators) — tracking what drives traffic, engagement and subscriptions
-* [Agencies and freelancers](/for-freelancers-agencies) — multi-site management, client reporting and GDPR compliance built in
+* [Ecommerce](/for-ecommerce): revenue attribution and checkout funnels without cookies or consent banners
+* [Content and publishing](/for-bloggers-creators): tracking what drives traffic, engagement and subscriptions
+* [Agencies and freelancers](/for-freelancers-agencies): multi-site management, client reporting and GDPR compliance built in
+* [Public sector](/for-public-sector): EU-owned hosting, no consent banners and a clear procurement path for public institutions
 
 ## Try Plausible Analytics
 
