@@ -119,7 +119,7 @@ See "[how to use UTM parameters to track your campaigns](https://plausible.io/bl
 
 ## See organic search and AI traffic clearly
 
-The **Organic Search** channel shows how much of your traffic comes from search engines. The **AI Assistants** channel groups traffic from tools like ChatGPT, Perplexity and Google Gemini separately. For SaaS, these are often your highest-intent visitors: someone searching for a solution or asking an AI tool for a recommendation is actively evaluating options in your category.
+The **Organic Search** channel shows how much of your traffic comes from search engines. The **[AI Assistants](/track-ai-traffic)** channel groups traffic from tools like ChatGPT, Perplexity and Google Gemini separately. For SaaS, these are often your highest-intent visitors: someone searching for a solution or asking an AI tool for a recommendation is actively evaluating options in your category.
 
 Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your site and which pages they land on.
 

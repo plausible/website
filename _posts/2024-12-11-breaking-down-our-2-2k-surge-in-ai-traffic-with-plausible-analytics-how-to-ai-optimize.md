@@ -27,7 +27,7 @@ While we are at it, we did figure out some AI optimization “techniques” that
 
 ## Analyzing Plausible’s AI search traffic boost
 
-AI traffic can be isolated using the [Sources tab](https://plausible.io/docs/top-referrers) (click on any source to filter the dashboard by it) or by straight away using the Filter button on the dashboard. We used the AI search engines we could identify from our list of Referrer URLs in the Filter modal:
+Plausible now automatically groups identifiable AI referrals into a dedicated [AI Assistants channel](/track-ai-traffic), where you can compare sources, landing pages, engagement and conversions. When we ran this analysis in 2024, we isolated the AI search engines we could identify from the list of Referrer URLs in the Filter modal:
 
 ![filter by source](/uploads/ai-traffic-filters.jpg "filter by source")
 

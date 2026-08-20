@@ -110,6 +110,8 @@ Depending on your analytics tool, traffic may be grouped into channels such as:
 
 Start with channels for the broad picture, then drill into exact sources. If Organic Search grew, was it Google, Bing or another search engine? If Referral traffic spiked, which site linked to you? If AI traffic increased, did it come from ChatGPT, Perplexity or another service?
 
+Our guide to [AI traffic analytics](/track-ai-traffic) explains how to connect those referrals to landing pages, engagement and conversions.
+
 “Direct” does not always mean someone typed your address into the browser. It is the fallback when reliable referral or campaign information is missing. Bookmarks, untagged emails, private messages, apps, redirects and links that strip referral information can all appear as Direct.
 
 To judge traffic quality, click a source to filter the rest of the dashboard. Then check its landing pages, engagement and conversions. The source with the most visitors is not necessarily the most valuable source.

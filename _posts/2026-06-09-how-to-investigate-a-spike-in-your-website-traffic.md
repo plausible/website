@@ -176,7 +176,7 @@ If AI referrals caused the spike, check:
 * Whether the visitors behave like qualified traffic or quick curiosity clicks
 * Whether the spike matches a public discussion or trend in your niche
 
-This kind of traffic can be volatile. A page may be cited one week and disappear from answers the next. So treat AI referral spikes as a useful discovery signal, but still judge them by engagement, conversions and whether they bring the kind of visitors you want.
+This kind of traffic can be volatile. A page may be cited one week and disappear from answers the next. So treat AI referral spikes as a useful discovery signal, but [judge AI traffic by its engagement and conversions](/track-ai-traffic), not the spike alone.
 
 ### If the spike came from Organic Social
 
