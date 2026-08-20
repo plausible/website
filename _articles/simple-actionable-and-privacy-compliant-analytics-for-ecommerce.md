@@ -118,7 +118,7 @@ You can then filter and segment your dashboard by those properties. Just make su
 
 ## See organic search and AI traffic clearly
 
-The **Organic Search** channel shows how much of your traffic comes from search engines. The **AI Assistants** channel tracks visits from tools like ChatGPT, Perplexity and Google Gemini as a separate group. For ecommerce, both represent discovery without ad spend: shoppers who found your store without you paying for the click.
+The **Organic Search** channel shows how much of your traffic comes from search engines. The **[AI Assistants](/track-ai-traffic)** channel tracks visits from tools like ChatGPT, Perplexity and Google Gemini as a separate group. For ecommerce, both represent discovery without ad spend: shoppers who found your store without you paying for the click.
 
 Connect [Google Search Console](https://plausible.io/docs/google-search-console-integration) to see which search queries bring organic visitors to your store and which pages they land on.
 

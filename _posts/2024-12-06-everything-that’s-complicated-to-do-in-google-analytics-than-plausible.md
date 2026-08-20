@@ -190,7 +190,7 @@ And you can see how many visits vs uniques you got from each channel, source, ca
 
 ![top sources report in plausible](/uploads/top-sources.png "top sources report in plausible")
 
-We also do a bunch of other stuff that GA4 does not, like consolidating duplicate entries stemming from case-sensitivity, correctly grouping traffic from AI referrals, etc. There’s a good overview provided [here](https://plausible.io/docs/top-referrers).
+We also do a bunch of other stuff that GA4 does not, like consolidating duplicate entries stemming from case-sensitivity and [correctly grouping traffic from AI referrals](/track-ai-traffic). There’s a good overview of our traffic-source reporting [here](https://plausible.io/docs/top-referrers).
 
 In GA4, you get a separate Traffic acquisition and User acquisition report. Traffic acquisition tracks the sources from where traffic is acquired. User acquisition tracks the sources from where individual users are acquired.
 
