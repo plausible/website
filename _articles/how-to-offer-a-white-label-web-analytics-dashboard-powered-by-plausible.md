@@ -90,7 +90,7 @@ The embedded dashboard, Stats API and Consolidated View are available on Busines
 
 If your product needs to provision sites automatically for each customer, you need the Sites API and an Enterprise plan. Enterprise is also required for a managed proxy or more than 10 sites.
 
-Enterprise pricing is based on your customers' combined monthly pageviews and custom events, the number of sites, team members, API limits and any other requirements. Within your site allowance, adding another site does not create a separate subscription or charge.
+Enterprise pricing is based on your customers' combined monthly pageviews and custom events, the number of sites, members of your own team who need access to the Plausible account, API limits and any other requirements. Within your site allowance, adding another site does not create a separate subscription or charge.
 
 ## Ready to integrate?
 
@@ -100,7 +100,7 @@ If you need the Sites API, a managed proxy or more than 10 sites, email us at [h
 
 - Your expected combined monthly pageviews and custom events
 - The number of customer sites, campaigns or tenant dashboards
-- The number of team members who need account access
+- The number of people on your own team who need access to the Plausible account. Your customers access their dashboards through your product and do not need Plausible accounts.
 - Whether you need a managed proxy or higher API limits
 
 We'll reply with the likely setup and pricing.
