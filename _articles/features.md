@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "What you can do with Plausible"
-description: "Explore Plausible Analytics features for real-time reporting, audience segmentation and AI traffic analytics."
+description: "Explore what you can do with Plausible Analytics and discover features built to answer real questions about your website traffic."
 permalink: /features
 ---
 
