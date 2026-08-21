@@ -6,38 +6,16 @@ permalink: /features
 ---
 
 <style>
-  .features-list img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin-left: 0;
-  }
-
-  .feature-card a.feature-link {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .feature-card a.feature-link:hover {
-    text-decoration: underline;
-  }
-
-  .feature-card li {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .feature-card h2 {
-    margin-top: 0;
-  }
-
-  .feature-card > p:last-child {
-    margin-bottom: 0;
-  }
+  .features-list img { display: block; width: 100%; max-width: 100%; height: auto; margin-left: 0; }
+  .v4-split h2 { margin-top: 0; }
+  .v4-split ul { margin: 0; }
+  .v4-split li { margin-top: 0; margin-bottom: .25rem; }
+  .v4-split a.v4-feature { color: inherit; text-decoration: none; }
+  .v4-split a.v4-feature:hover { text-decoration: underline; }
+  .v4-split p:last-child { margin-bottom: 0; }
 </style>
 
-<div class="features-list" markdown="1">
+<div class="features-list" data-variate-section="features" markdown="1">
 
 Every feature we build has a purpose. We try to serve that purpose exceptionally well, without making Plausible harder to use or compromising your visitors’ privacy in the process.
 
@@ -67,18 +45,21 @@ See what's happening on your website right now, where the traffic is coming from
 
 **[Explore real-time web analytics →](/real-time-web-analytics)**
 
-<aside class="feature-card mt-12 p-5 sm:p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
-  <h2 class="mt-0">And there’s more</h2>
-  <ul class="mt-4 mb-0 grid sm:grid-cols-2 gap-x-8 gap-y-1">
-    <li><a class="feature-link" href="/docs/funnel-analysis">Funnels</a></li>
-    <li><a class="feature-link" href="/docs/custom-event-goals">Goals and conversions</a></li>
-    <li><a class="feature-link" href="/docs/ecommerce-revenue-tracking">Revenue tracking</a></li>
-    <li><a class="feature-link" href="/docs/user-journeys">User journeys</a></li>
-    <li><a class="feature-link" href="/docs/scroll-depth">Scroll depth</a></li>
-    <li><a class="feature-link" href="/docs/custom-props/introduction">Custom properties</a></li>
-    <li><a class="feature-link" href="/docs/email-reports">Email reports</a></li>
-    <li><a class="feature-link" href="/docs/shared-links">Shared dashboards</a></li>
+<aside class="v4-split mt-12 p-5 sm:p-6 bg-gray-100 rounded-lg grid sm:grid-cols-2 gap-6 sm:gap-10">
+  <div>
+    <h2>And there’s more</h2>
+    <p>Plausible includes more focused tools for understanding what brings people to your website and what they do next.</p>
+    <p><strong><a href="/docs">Explore all features →</a></strong></p>
+  </div>
+  <ul class="sm:pt-1">
+    <li><a class="v4-feature" href="/docs/funnel-analysis">Funnels</a></li>
+    <li><a class="v4-feature" href="/docs/custom-event-goals">Goals and conversions</a></li>
+    <li><a class="v4-feature" href="/docs/ecommerce-revenue-tracking">Revenue tracking</a></li>
+    <li><a class="v4-feature" href="/docs/user-journeys">User journeys</a></li>
+    <li><a class="v4-feature" href="/docs/scroll-depth">Scroll depth</a></li>
+    <li><a class="v4-feature" href="/docs/custom-props/introduction">Custom properties</a></li>
+    <li><a class="v4-feature" href="/docs/email-reports">Email reports</a></li>
+    <li><a class="v4-feature" href="/docs/shared-links">Shared dashboards</a></li>
   </ul>
-  <p class="mt-5 pt-4 mb-0 border-t border-gray-200"><strong><a href="/docs">Explore all features →</a></strong></p>
 </aside>
 </div>
