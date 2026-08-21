@@ -17,13 +17,13 @@ permalink: /features
 
 <div class="features-list" markdown="1">
 
-We build features because they solve something real, we try to solve it exceptionally well, and we refuse to make the product harder to use or privacy-invasive in the process.
+Every feature we build has a purpose. We try to serve that purpose exceptionally well, without making Plausible harder to use or compromising your visitors’ privacy in the process.
 
 That means you’ll find capabilities in Plausible that aren’t always easy to find elsewhere, [without the complexity](/simple-web-analytics) that usually comes with more powerful analytics.
 
 ## AI traffic analytics
 
-Measure visits from ChatGPT, Claude, Perplexity, Gemini, Copilot and other AI assistants. See which pages attract clicks and whether those visitors sign up, subscribe or buy.
+Track and analyze real visits your website gets from AI assistants like ChatGPT, Claude, Perplexity, Gemini, etc. See which pages attract clicks, how well they engage and whether those visitors complete business goals like signing up or purchasing.
 
 [![Plausible Analytics dashboard filtered by the AI Assistants channel](/uploads/ai-traffic-analytics.png "AI traffic analytics in Plausible")](/track-ai-traffic)
 
@@ -39,7 +39,7 @@ Filter your analytics by source, page, location, device, goal and more. Combine 
 
 ## Real-time web analytics
 
-See who is on your website right now, where they came from and which pages they are viewing. Follow launches, campaigns and traffic spikes as they happen.
+See what's happening on your website right now, where the traffic is coming from, which pages are being viewed, which goals are being met, etc. Follow launches, campaigns, traffic spikes, etc., as they happen.
 
 [![Plausible real-time web analytics dashboard with live visitor activity](/uploads/plausible-real-time-web-analytics.png "Plausible real-time web analytics dashboard")](/real-time-web-analytics)
 
