@@ -39,7 +39,7 @@ Filter your analytics by source, page, location, device, goal and more. Combine 
 
 ## Real-time web analytics
 
-See what's happening on your website right now, where the traffic is coming from, which pages are being viewed, which goals are being met, etc. Follow launches, campaigns, traffic spikes, etc., as they happen.
+See what's happening on your website right now, where the traffic is coming from, which pages are being viewed, which goals are being met, etc. Follow launches, campaigns, traffic spikes, etc., as they are happening.
 
 [![Plausible real-time web analytics dashboard with live visitor activity](/uploads/plausible-real-time-web-analytics.png "Plausible real-time web analytics dashboard")](/real-time-web-analytics)
 
