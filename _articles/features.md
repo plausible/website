@@ -6,13 +6,13 @@ permalink: /features
 ---
 
 <style>
-  .features-list img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin-left: 0;
-  }
+  .features-list img { display: block; width: 100%; max-width: 100%; height: auto; margin-left: 0; }
+  .more-features h2 { margin-top: 0; }
+  .more-features ul { margin: 0; }
+  .more-features li { margin-top: 0; margin-bottom: .25rem; }
+  .more-features a.feature-link { color: inherit; text-decoration: none; }
+  .more-features a.feature-link:hover { text-decoration: underline; }
+  .more-features p:last-child { margin-bottom: 0; }
 </style>
 
 <div class="features-list" markdown="1">
@@ -45,4 +45,21 @@ See what's happening on your website right now, where the traffic is coming from
 
 **[Explore real-time web analytics →](/real-time-web-analytics)**
 
+<aside class="more-features mt-12 p-5 sm:p-6 bg-gray-100 rounded-lg grid sm:grid-cols-2 gap-6 sm:gap-10">
+  <div>
+    <h2>And there’s more</h2>
+    <p>Plausible includes more focused tools for understanding what brings people to your website and what they do next.</p>
+    <p><strong><a href="/docs">Explore all features →</a></strong></p>
+  </div>
+  <ul class="sm:pt-1">
+    <li><a class="feature-link" href="/docs/funnel-analysis">Funnels</a></li>
+    <li><a class="feature-link" href="/docs/custom-event-goals">Goals and conversions</a></li>
+    <li><a class="feature-link" href="/docs/ecommerce-revenue-tracking">Revenue tracking</a></li>
+    <li><a class="feature-link" href="/docs/user-journeys">User journeys</a></li>
+    <li><a class="feature-link" href="/docs/scroll-depth">Scroll depth</a></li>
+    <li><a class="feature-link" href="/docs/custom-props/introduction">Custom properties</a></li>
+    <li><a class="feature-link" href="/docs/email-reports">Email reports</a></li>
+    <li><a class="feature-link" href="/docs/shared-links">Shared dashboards</a></li>
+  </ul>
+</aside>
 </div>
