@@ -7,7 +7,7 @@ cta_headline: "Ready to build custom reports?"
 ---
 Plausible keeps its dashboard intentionally simple. But some workflows need more: custom layouts for clients, reports that blend analytics with ad spend or revenue data or views that go beyond what any fixed dashboard can offer. The official Plausible Data Studio connector is built for those cases.
 
-Data Studio is Google's free data visualization tool. Connect it to Plausible and you can build any report you want: your data, your layout, your audience.
+Google Data Studio, formerly called Looker Studio, is Google's free data visualization tool. Connect it to Plausible and you can build a report around your data, your layout and your audience.
 
 {% include cta-buttons.html %}
 
@@ -22,9 +22,9 @@ The Data Studio connector is available on the [Business plan](https://plausible.
 
 The standard objection to privacy-first analytics is "but it doesn't let me build custom reports." The Plausible Data Studio connector removes that objection entirely.
 
-You keep everything that makes Plausible different: no cookies, no personal data collection, no GDPR headaches, accurate numbers unaffected by cookie consent losses. And you add the flexibility to present that data however a stakeholder, client or exec team needs to see it.
+You keep everything that makes Plausible different: no cookies and no collection of personal data about website visitors. You also get the flexibility to present that data for a stakeholder, client or leadership team.
 
-The connector is official, built and maintained by the Plausible team. It connects through our Stats API and stays current as the product evolves. Unlike community-built connectors, this one won't stop working when the API changes.
+The connector is built and maintained by Plausible and connects through our Stats API.
 
 ## What you can do with it
 
@@ -34,16 +34,16 @@ The connector is official, built and maintained by the Plausible team. It connec
 
 **Go beyond the dashboard layout.** The Plausible dashboard shows one view. Data Studio lets you build tables with multiple dimensions at once, stacked charts, conditional formatting, running totals and calculated fields. If you've ever wanted to see country, region and city in the same table without clicking through, that's one example.
 
-**Automate reporting.** Reports update automatically as new data comes in. Build a report once, share a link with your team, and it's always current.
+**Automate reporting.** Reports can pull updated data without being rebuilt. Choose real-time refresh or use the six-hour cache, then share a live link with your team.
 
 ## What's available in the connector
 
-All the fields you see in the Plausible dashboard are available as dimensions and metrics in Data Studio:
+The connector includes the main fields used for traffic, acquisition, content, goals, custom properties and revenue reporting:
 
 * Traffic metrics: visitors, visits, pageviews, bounce rate, visit duration
 * Dimensions: page, source, channel, country, region, city, device, browser, OS, entry page, exit page
 * Goal and custom event data: goal name, conversions, conversion rate
-* Custom properties
+* Custom properties, exposed as the "Custom Prop" (property name) and "Custom Prop Value" fields
 * Revenue metrics (if you have revenue goals set up)
 * Real-time data refresh or 6-hour caching depending on your preference
 
@@ -55,8 +55,8 @@ See the full setup guide in our [Data Studio documentation](https://plausible.io
 
 To get a feel for what's possible, explore the templates we've built:
 
-* [Simple report template](https://lookerstudio.google.com/s/gm8gS_IpBiQ): a clean replica of the Plausible dashboard to use as a starting point
-* [Advanced report template](https://lookerstudio.google.com/s/ltrWC2jaK4Q): data blending, calculated metrics, conditional formatting and more
+* [Simple report template](https://datastudio.google.com/s/gm8gS_IpBiQ): a clean replica of the Plausible dashboard to use as a starting point
+* [Advanced report template](https://datastudio.google.com/s/ltrWC2jaK4Q): data blending, calculated metrics, conditional formatting and more
 
 For a full walkthrough of Data Studio's features using these templates as examples, see our [Data Studio beginner's guide](https://plausible.io/blog/google-looker-studio-guide).
 
