@@ -13,6 +13,28 @@ permalink: /features
     height: auto;
     margin-left: 0;
   }
+
+  .feature-card a.feature-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .feature-card a.feature-link:hover {
+    text-decoration: underline;
+  }
+
+  .feature-card li {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .feature-card h2 {
+    margin-top: 0;
+  }
+
+  .feature-card > p:last-child {
+    margin-bottom: 0;
+  }
 </style>
 
 <div class="features-list" markdown="1">
@@ -45,4 +67,18 @@ See what's happening on your website right now, where the traffic is coming from
 
 **[Explore real-time web analytics →](/real-time-web-analytics)**
 
+<aside class="feature-card mt-12 p-5 sm:p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+  <h2 class="mt-0">And there’s more</h2>
+  <ul class="mt-4 mb-0 grid sm:grid-cols-2 gap-x-8 gap-y-1">
+    <li><a class="feature-link" href="/docs/funnel-analysis">Funnels</a></li>
+    <li><a class="feature-link" href="/docs/custom-event-goals">Goals and conversions</a></li>
+    <li><a class="feature-link" href="/docs/ecommerce-revenue-tracking">Revenue tracking</a></li>
+    <li><a class="feature-link" href="/docs/user-journeys">User journeys</a></li>
+    <li><a class="feature-link" href="/docs/scroll-depth">Scroll depth</a></li>
+    <li><a class="feature-link" href="/docs/custom-props/introduction">Custom properties</a></li>
+    <li><a class="feature-link" href="/docs/email-reports">Email reports</a></li>
+    <li><a class="feature-link" href="/docs/shared-links">Shared dashboards</a></li>
+  </ul>
+  <p class="mt-5 pt-4 mb-0 border-t border-gray-200"><strong><a href="/docs">Explore all features →</a></strong></p>
+</aside>
 </div>
