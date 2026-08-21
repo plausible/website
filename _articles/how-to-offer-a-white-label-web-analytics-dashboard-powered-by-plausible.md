@@ -1,115 +1,123 @@
 ---
 layout: article
-title: "White label web analytics for agencies and SaaS teams"
-description: "Embed a white-label analytics dashboard into your product or client portal. No Plausible branding, no cookies, no consent banners. Used by agencies and SaaS teams worldwide."
+title: "White label web analytics for SaaS platforms and website builders"
+description: "Embed a white-label analytics dashboard into your website builder, hosting service, SaaS platform or marketplace. No Plausible branding, no cookies, no analytics consent banner."
 permalink: /white-label-web-analytics
-cta_headline: "Ready to embed analytics into your product?"
+cta_headline: "Ready to give every customer their own analytics?"
 ---
 Building analytics into your product from scratch takes significant time and ongoing maintenance. Plausible gives you a complete, privacy-first white-label analytics product you can integrate directly into your own, with no Plausible branding visible to your customers.
 
 Because we don't use cookies or collect personal data, your customers won't need consent banners or worry about GDPR compliance on the analytics side. All visitor data stays on EU-owned infrastructure. The dashboard is fast, clean and easy to use with no training required.
 
-Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers. We're an independent, bootstrapped startup launched in 2019, funded solely by our subscribers.
+Plausible is trusted by {{ site.data.site.subscriber_count }} paying subscribers. We're an independent, bootstrapped company launched in 2019, funded solely by our subscribers.
 
 {% include cta-buttons.html %}
 
-![White label web analytics for agencies and SaaS teams](/uploads/plausible-whitelabel.png "Plausible: White label web analytics")
+![White label web analytics for SaaS platforms and website builders](/uploads/plausible-whitelabel.png "Plausible: White label web analytics")
 
 1. Ordered list
 {:toc}
 
-## Who uses white-label analytics
+## Built for products where every customer needs analytics
 
-Two types of teams typically embed Plausible into their product or service.
+This model works especially well for platforms where each customer has a site, storefront or campaign of their own.
 
-**SaaS teams** who need analytics as a feature. Your users want to understand how their product or site is performing, but building and maintaining a custom analytics dashboard is a significant engineering investment. Embedding Plausible gives you a complete, production-ready analytics product without the build cost, and keeps it maintained as you focus on your core product.
+**Website builders and hosting services** can include analytics with every customer site. Your backend provisions the dashboard when a site goes live, so customers have useful traffic data from day one. The same setup works for AI site builders.
 
-**Agencies** who manage client sites and want to present analytics under their own brand. Rather than pointing clients to a third-party tool, you can surface their data inside your own client portal, reporting interface or branded dashboard.
+**SaaS platforms** can add analytics as a maintained product feature without building a separate collection and reporting system. Customers stay inside your interface and see a dashboard that already feels familiar.
 
-## Why teams choose white-label analytics over building from scratch
+**Marketplaces** can give each seller a dashboard for their own storefront or listings. Each embedded view contains only that seller's site data.
 
-Building web analytics from scratch means owning data collection, storage, aggregation, visualization and ongoing maintenance. You also need to handle privacy compliance, bot filtering, adblocker bypass and scale. Each of those is a real engineering project.
+**Agencies** can present client analytics under their own brand inside a client portal or reporting interface. Our [analytics for agencies](https://plausible.io/for-freelancers-agencies) guide covers client reporting and multi-site management in more detail.
 
-Plausible handles all of it. You get a production-ready, privacy-compliant analytics product you can integrate in days. Your team keeps its focus on what makes your product different.
+## Operate one integration instead of an analytics product
 
-## How Prezly uses it in production
+Analytics at platform scale is not just a dashboard project. It means running event collection, storage, aggregation, bot filtering, reporting and ongoing product maintenance for every customer.
 
-"Powered by web analytics good guys Plausible." That's how [Prezly](https://www.prezly.com/feature/pr-analytics-tool) describes the analytics they've built into their storytelling platform for PR teams. They [chose Plausible](https://www.prezly.com/changelog/meet-your-new-analytics-dashboard) for the team's strong ethics and the tool's accessibility, and use it on their own site too, not just for customers.
+Plausible operates that analytics infrastructure and keeps the dashboard current. Your team connects customer provisioning, event routing and access to your own product once. The same integration then works as you add more customers.
 
-They embed Plausible to provide web analytics to thousands of their customers with no Plausible branding visible. Brands like Sennheiser, Nintendo, IKEA, Sony, Edelman and Weber Shandwick use Prezly's analytics, all powered by Plausible behind the scenes. Prezly promotes the analytics as a core product feature and has published [Prezly Insights](https://www.prezly.com/insights), a study drawing on aggregated data from across their customers' dashboards.
+You own how analytics fits into your product and who can access it. Plausible owns the analytics system behind it.
 
-This is the typical pattern: one integration, managed once, that works automatically for every customer they onboard.
+## How Prezly uses Plausible in production
 
-## One site per customer, provisioned automatically
+[Prezly](https://www.prezly.com/feature/pr-analytics-tool) embeds Plausible to give customers privacy-first newsroom and story analytics inside its PR platform. It [chose Plausible](https://www.prezly.com/changelog/meet-your-new-analytics-dashboard) because of our ethics and the dashboard's accessibility and uses Plausible for its own site analytics too.
 
-If you run a SaaS platform, a website builder, a hosting service or a marketplace, the setup usually looks like this: each of your customers gets their own site in your Plausible account, created automatically the moment they sign up with you.
+Prezly says more than 500 PR teams use its platform to track performance, including teams at Sennheiser, Sony and IKEA. Plausible also powers the traffic data in Prezly's [2025 PR performance report](https://www.prezly.com/insights), which draws on millions of newsroom pageviews.
 
-When a customer signs up, your backend uses the [Sites API](https://plausible.io/docs/sites-api) to create a site for them. The domain doesn't need to match a real hostname, so you can use a subdomain or tenant ID as the site identifier. Your tracking script or Events API sends that customer's pageviews and custom events with the matching identifier.
+It shows what the white-label model can become: analytics delivered as part of another product, maintained through one integration and useful across a large customer base.
 
-The Sites API then creates a shared link for the site, which you embed as an iframe in your customer's dashboard. It can also configure goals and custom events, change site identifiers and delete sites when customers leave. See the [Sites API documentation](https://plausible.io/docs/sites-api) for the full list of operations.
+## How a multi-tenant integration works
 
-Each customer only sees their own data. A shared link is scoped to a single site's dashboard, so there's no way to navigate from one tenant's embedded view to another tenant's stats or to any account-level data. Isolation between customers is the default, not something you configure.
+### Provision one site for each customer
 
-Standard plans include up to 10 sites. If you need more than 10, Enterprise plans combine a monthly usage tier for your customers' total pageviews and custom events with a site allowance from one of our Enterprise tiers. Some of our customers run thousands of sites on a single account.
+When a customer signs up or publishes a site, your backend uses the [Sites API](https://plausible.io/docs/sites-api) to create a site for them. The domain does not need to match a real hostname, so you can use a unique subdomain or tenant identifier.
 
-Within your site allowance, provisioning another site costs nothing extra, so creating one for every customer, including tiny or inactive ones, doesn't multiply your costs or require a plan change at each signup.
+The same API can configure tracker settings and goals, create the shared link used for the embedded dashboard, change the site identifier and delete the site when a customer leaves.
 
-## Embed dashboard to integrate our stats into your user interface
+### Send each customer's events to the matching site
 
-Embed dashboard allows you to embed our default dashboard (without Plausible branding) into your user interface. You get our modern, fast-loading and fully featured web analytics without any need for you to build a dashboard yourself.
+Your tracking script or Events API sends that customer's pageviews and custom events with the matching site identifier.
 
-The embed dashboard allows you to select the dashboard's theme (light, dark or system) or choose a custom background color. You can change CSS rules to make sure that the embedded dashboard aligns with your site design. 
+### Show the analytics inside your product
 
-You can also apply filters to the embed dashboard to segment the audience. These filters will be automatically added to your embed dashboard every time it's loaded. You can read more about [filtering and segmenting here](https://plausible.io/docs/filters-segments).
+Embed the customer's shared link as an iframe, or use the Stats API to build your own interface. Each shared link is scoped to one site, so the embedded view contains only that site's data and cannot navigate to another site or account-level information. Your application controls which customer receives each link.
 
-Learn more about [the embed dashboard functionality here](https://plausible.io/docs/embed-dashboard).
+## Embed our dashboard or build your own
 
-## Stats API for complete flexibility
+### Embed dashboard for the quickest path
 
-Stats API allows you to take individual metrics and create a custom-built dashboard in whatever shape you want. Show one metric only or build a fully featured dashboard from scratch.
+Embed the default Plausible dashboard into your interface with no Plausible branding. Customers get a complete dashboard without needing a Plausible account or learning another analytics product.
 
-While the Stats API requires more development time than the embedded dashboard option, it offers complete flexibility.
+You can choose a light, dark or system theme and set a custom background color. Manual width mode lets the iframe fill a container defined by your product. A shared link can also be limited to a saved segment when a customer should see only part of a site's data.
 
-Do you prefer to offer a fully featured dashboard but also display specific metrics in certain sections of your user interface? Stats API can also be used in combination with the embedded dashboard.
+See the [embedded dashboard documentation](https://plausible.io/docs/embed-dashboard) for the setup details.
 
-See our [stats API documentation](https://plausible.io/docs/stats-api).
+### Stats API for a custom interface
 
-## Proxy to eliminate third-party calls
+Use the [Stats API](https://plausible.io/docs/stats-api) when you want complete control over the presentation. Pull individual metrics into existing screens or build a custom dashboard around the data that matters to your customers.
 
-Proxy allows you to run our lightweight web analytics script as a first-party connection from your domain, which also means [more accurate stats](https://plausible.io/most-accurate-web-analytics) since content blockers don't typically block first-party scripts.
+You can combine both approaches. Embed the complete dashboard in one section of your product and use the Stats API for headline metrics elsewhere.
 
-You can proxy requests to Plausible in various ways, depending on how you've built your product and your hosting situation. If you don't want to manage your own proxy, we can handle it for you with our managed proxy. Our managed proxy helps bypass adblockers and count more traffic without any setup or maintenance on your end.
+## Run the integration across your customer base
 
-Learn more about [the proxy functionality](https://plausible.io/docs/proxy/introduction).
+**Managed proxy** routes the script and event collection through your domain as a first-party connection. Plausible runs the proxy for you, so there is no proxy infrastructure for your team to maintain.
 
-## Consolidated View for a holistic look at your network
+**Consolidated View** combines traffic across all customer sites in one internal dashboard. Your team sees the network as a whole while each customer-facing shared link remains limited to one site.
 
-Consolidated View aggregates stats from all your sites into one combined dashboard while keeping individual site dashboards separate. You can keep a global view for internal purposes and share each tenant site's stats only with that client.
+## Plans and pricing
 
-Learn more about [the consolidated view functionality](https://plausible.io/docs/consolidated-views).
+The embedded dashboard, Stats API and Consolidated View are available on Business plans and during the 30-day free trial, so you can test all three without a credit card.
+
+If your product needs to provision sites automatically for each customer, you need the Sites API and an Enterprise plan. Enterprise is also required for a managed proxy or more than 10 sites.
+
+Enterprise pricing is based on your customers' combined monthly pageviews and custom events, the number of sites, team members, API limits and any other requirements. Within your site allowance, adding another site does not create a separate subscription or charge.
+
+## Ready to integrate?
+
+[Start a 30-day free trial](https://plausible.io/register) with no credit card required. The trial includes the embedded dashboard, Stats API and Consolidated View, so your engineers can test the integration before committing to a plan.
+
+If you need the Sites API, a managed proxy or more than 10 sites, email us at [hello@plausible.io](mailto:hello@plausible.io) with a rough estimate of:
+
+- Your expected combined monthly pageviews and custom events
+- The number of customer sites, campaigns or tenant dashboards
+- The number of team members who need account access
+- Whether you need a managed proxy or higher API limits
+
+We'll reply with the likely setup and pricing.
 
 ## Frequently asked questions
 
 **What is white-label analytics?**
-White-label analytics (sometimes called private-label analytics) is an analytics product you integrate into your own under your own brand. Your customers see your dashboard, your design, your name. The underlying analytics infrastructure is Plausible's.
-
-**How do I set it up?**
-The quickest path is the embedded dashboard: create a shared link via the Sites API, then embed the iframe in your product. The full process typically takes a day or two of integration work. If you need more control over the presentation, the Stats API lets you pull individual metrics and build a fully custom UI.
+White-label analytics is an analytics product you integrate into your own product under your own brand. Your customers see the dashboard inside your product while Plausible runs the underlying analytics infrastructure.
 
 **Which plan includes white-label features?**
-The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. These cover most integration scenarios.
+The embedded dashboard, Stats API and Consolidated View are available on Business plans and during the 30-day free trial. The Sites API, managed proxy and setups with more than 10 sites require an [Enterprise plan](https://plausible.io/enterprise-web-analytics).
 
-The Sites API, managed proxy and setups with more than 10 sites are on our [enterprise plan](https://plausible.io/enterprise-web-analytics).
+**Can I match the dashboard to my product?**
+Yes. The embedded dashboard supports light, dark or system themes, a custom background color and manual width control. For complete design control, use the Stats API to build your own interface.
 
-**Can I match the dashboard to my brand?**
-Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch.
-
-**Can my customers see each other's data?**
-No. Each embedded dashboard is powered by a shared link scoped to a single site. A customer viewing their embedded dashboard can't navigate to another customer's stats, your platform-level analytics or anything else in your account. Tenant isolation is the default.
-
-## Ready to integrate?
-
-[Start a 30-day free trial](https://plausible.io/register) with no credit card required. The embedded dashboard, Stats API, Consolidated View and proxy are all available during the trial and on Business plans, which covers most integration scenarios. If you need the Sites API or a managed proxy, [contact us](https://plausible.io/contact) to discuss an enterprise plan.
+**Can customers see each other's data?**
+Each shared link is scoped to one site, so the embedded view contains only that site's data and cannot navigate to another site or account-level information. Your application controls which shared link is shown to each customer.
 
 <script type="application/ld+json">
 {
@@ -121,15 +129,7 @@ No. Each embedded dashboard is powered by a shared link scoped to a single site.
       "name": "What is white-label analytics?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "White-label analytics (sometimes called private-label analytics) is an analytics product you integrate into your own under your own brand. Your customers see your dashboard, your design, your name. The underlying analytics infrastructure is Plausible's."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I set it up?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The quickest path is the embedded dashboard: create a shared link via the Sites API, then embed the iframe in your product. The full process typically takes a day or two of integration work. If you need more control over the presentation, the Stats API lets you pull individual metrics and build a fully custom UI."
+        "text": "White-label analytics is an analytics product you integrate into your own product under your own brand. Your customers see the dashboard inside your product while Plausible runs the underlying analytics infrastructure."
       }
     },
     {
@@ -137,23 +137,23 @@ No. Each embedded dashboard is powered by a shared link scoped to a single site.
       "name": "Which plan includes white-label features?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The embedded dashboard, Stats API and Consolidated View are available during the 30-day free trial and on Business plans. These cover most integration scenarios. The Sites API, managed proxy and setups with more than 10 sites are on our enterprise plan."
+        "text": "The embedded dashboard, Stats API and Consolidated View are available on Business plans and during the 30-day free trial. The Sites API, managed proxy and setups with more than 10 sites require an Enterprise plan."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I match the dashboard to my brand?",
+      "name": "Can I match the dashboard to my product?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The embedded dashboard supports light, dark or system themes, a custom background color and custom CSS. For complete design control, use the Stats API to build your own interface from scratch."
+        "text": "Yes. The embedded dashboard supports light, dark or system themes, a custom background color and manual width control. For complete design control, use the Stats API to build your own interface."
       }
     },
     {
       "@type": "Question",
-      "name": "Can my customers see each other's data?",
+      "name": "Can customers see each other's data?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Each embedded dashboard is powered by a shared link scoped to a single site. A customer viewing their embedded dashboard can't navigate to another customer's stats, your platform-level analytics or anything else in your account. Tenant isolation is the default."
+        "text": "Each shared link is scoped to one site, so the embedded view contains only that site's data and cannot navigate to another site or account-level information. Your application controls which shared link is shown to each customer."
       }
     }
   ]
