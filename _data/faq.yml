@@ -50,7 +50,7 @@
 - category: Bot filtering & traffic accuracy
   items:
     - question: How does Plausible's bot filtering work?
-      answer: "Plausible filters bots automatically using multiple layers: User-Agent blocking of known crawlers, referrer spam filtering, data center IP filtering and traffic pattern detection. We block approximately 2 billion bot visits per month across our network, on top of bots that don't run JavaScript at all. <a class='text-indigo-600' href='https://plausible.io/docs/bot-traffic-filtering'>See the full bot filtering overview</a>."
+      answer: "Plausible filters bots automatically using multiple layers: User-Agent blocking of known crawlers, referrer spam filtering, data center IP filtering and traffic pattern detection. We block approximately 4 billion bot visits per month across our network, on top of bots that don't run JavaScript at all. <a class='text-indigo-600' href='https://plausible.io/docs/bot-traffic-filtering'>See the full bot filtering overview</a>."
 
     - question: I think bots are inflating my stats. Can I block specific sources?
       answer: "You can use the <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> to block visits from specific IP addresses, hostnames or countries from being recorded. For referral sources that look like spam, you can filter them out in your dashboard view. If you're seeing bot traffic that our filters should be catching, email us with the dates and source details and we'll investigate."
