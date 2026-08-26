@@ -16,7 +16,7 @@
       answer: "Open any invoice and click \"Edit business address\" to update your address details. To change the country on your subscription, let your current subscription run to the end of its billing period, cancel it and resubscribe from the same Plausible account with the correct country. All your data, sites and settings stay unchanged. Paddle does not allow country changes on active subscriptions due to tax regulations."
 
     - question: How do I get an invoice?
-      answer: "Paddle (our payment processor) emails an invoice to your billing address automatically after each payment. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>download all your invoices</a> in your account settings. If invoices aren't reaching the right address, see the question above about changing your invoice email."
+      answer: "Paddle (our payment processor) emails an invoice to your billing address automatically after each payment. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>open past invoices</a> in your account settings. Each invoice opens in a browser tab. Use your browser's Print command and select Save as PDF to save a copy. If invoices aren't reaching the right address, see the question above about changing your invoice email."
 
     - question: Do you support any alternative payment methods?
       answer: "Credit card, PayPal, Apple Pay and Google Pay are supported. All processing is handled by Paddle. We can't accept wire transfers, manual invoicing or cryptocurrency."
