@@ -45,7 +45,7 @@
       answer: "Plausible supports revenue tracking by attaching a monetary value to any custom event. You can track in any currency and see total revenue, average revenue and conversion metrics in your dashboard, filtered by source, campaign, page or location. <a class='text-indigo-600' href='https://plausible.io/docs/ecommerce-revenue-tracking'>See how ecommerce revenue tracking works</a>."
 
     - question: Can I export goal and conversion data?
-      answer: "Yes. You can export your full stats including goal data as CSV from the dashboard. Use the download icon in the top right of your dashboard. <a class='text-indigo-600' href='https://plausible.io/docs/export-stats'>Learn about exporting your stats</a>."
+      answer: "Yes. Use <strong>Export stats</strong> from the dashboard menu to export the current view, including goal and conversion data. To export all native Plausible stats to date, use <strong>Export Data</strong> under <strong>Imports & Exports</strong> in site settings. Both options export aggregated statistics. Individual event records are available through scheduled raw event data exports on Enterprise plans. <a class='text-indigo-600' href='https://plausible.io/docs/export-stats'>Learn about exporting your stats</a>."
 
 - category: Bot filtering & traffic accuracy
   items:

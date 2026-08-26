@@ -24,7 +24,7 @@ Here's a brief summary of our data security practices:
 * Data access is firewalled and user-restricted
 * Our code is transparent and can be audited
 * Performance is monitored and uptime is disclosed
-* Data can be exported via CSV or stats API
+* Aggregated stats can be exported via CSV or queried through our stats API. Enterprise customers can receive individual event records through scheduled raw event data exports
 * We don’t collect or store personal data about website visitors that can be used to identify individuals
 * We don’t store debit or credit card details
 * We do not store visitor data outside the EU
@@ -68,7 +68,7 @@ You retain full ownership and control of your website data. We do not sell your 
 
 ## Data portability
 
-You can export your data at any time in [CSV format](https://plausible.io/docs/export-stats) or by using our [stats API](https://plausible.io/docs/stats-api).
+You can export aggregated stats at any time in [CSV format](https://plausible.io/docs/export-stats) or query them using our [stats API](https://plausible.io/docs/stats-api). Enterprise customers who need individual event records can use [scheduled raw event data exports](https://plausible.io/docs/raw-data-export), delivered daily to their S3-compatible storage.
 
 ## Data deletion
 

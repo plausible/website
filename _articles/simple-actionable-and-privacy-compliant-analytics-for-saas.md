@@ -179,4 +179,4 @@ Plausible supports white-label and OEM integrations: embed a fully featured dash
 
 We charge a subscription fee instead of monetizing your data. That's the model that keeps our incentives aligned with yours.
 
-**Larger organization?** If your team needs Single Sign-On, the Sites API or scheduled raw event exports, see [enterprise web analytics](/enterprise-web-analytics).
+**Larger organization?** If your team needs Single Sign-On, the Sites API or scheduled raw event data exports, see [enterprise web analytics](/enterprise-web-analytics).

@@ -50,7 +50,7 @@ An independent review by a data protection lawyer confirms Plausible requires no
 Available on Enterprise plans:
 
 - **[Single Sign-On (SSO)](https://plausible.io/docs/sso)**: SAML 2.0 support for Google Workspace, Okta and Microsoft Entra ID.
-- **[Scheduled raw data exports](https://plausible.io/docs/raw-data-export)**: export raw event data to your own data warehouse for deeper analysis or internal compliance requirements.
+- **[Scheduled raw event data exports](https://plausible.io/docs/raw-data-export)**: export raw event data to your own data warehouse for deeper analysis or internal compliance requirements.
 
 ## Security questionnaires
 
