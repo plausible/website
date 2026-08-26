@@ -165,4 +165,4 @@ Or generate a private [shared link](https://plausible.io/docs/shared-links) to t
 
 We charge a subscription fee instead of monetizing your data. That's the model that keeps our incentives aligned with yours.
 
-**Larger organization?** If your team needs Single Sign-On or scheduled raw event exports for your data warehouse, see [enterprise web analytics](/enterprise-web-analytics).
+**Larger organization?** If your team needs Single Sign-On or scheduled raw event data exports for your data warehouse, see [enterprise web analytics](/enterprise-web-analytics).
