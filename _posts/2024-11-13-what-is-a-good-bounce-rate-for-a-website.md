@@ -122,6 +122,14 @@ Looking at the ranges above, your bounce rates can vary anywhere from 20% to 90%
 
 We believe a good benchmark for bounce rate is **aiming for 50% or lower** across your entire site. This indicates that visitors are finding your content engaging and are encouraged to explore the site.
 
+{% include cta-box.html
+  headline="You don't need Google Analytics to understand your bounce rate"
+  link="/register"
+  link_text="Start your free trial"
+  secondary_link="/simple-web-analytics"
+  secondary_text="See how Plausible works"
+%}
+
 ## How to check my website’s Bounce rate?
 
 To check your bounce rate, your traffic needs to be analyzed for some time and for that you need a web analytics tool like [Plausible](https://plausible.io/simple-web-analytics). When you implement Plausible on your site, bounce rate is available as a key metric at the top of the dashboard by default, with no special configurations needed.

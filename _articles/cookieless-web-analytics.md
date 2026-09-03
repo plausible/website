@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Cookieless web analytics: accurate data without the consent banner"
-description: Plausible Analytics is built cookieless by design. No persistent identifiers, no consent banners and no data gaps from visitors who declined tracking. GDPR and CCPA compliant by default.
+description: Cookieless web analytics and tracking without persistent identifiers or consent banners. Measure traffic and conversions while protecting visitor privacy.
 permalink: /cookieless-web-analytics
 cta_headline: "Ready for analytics without the cookie banner?"
 ---
@@ -37,6 +37,14 @@ That model worked until privacy regulations caught up with it. GDPR, CCPA and si
 1. Ordered list
 {:toc}
 
+## What is cookieless tracking?
+
+Cookieless tracking measures what happens on a website without storing cookies or building persistent profiles of individual visitors. A cookieless analytics tool can count visits, pageviews, traffic sources and conversions without following people across websites or across days.
+
+Not every tool described as cookieless works the same way. Some replace cookies with device fingerprinting, login IDs or server-side profiles. Plausible does not. We collect aggregate events and use a daily rotating identifier to estimate unique visitors. It cannot be used to follow someone across websites or across days.
+
+That tradeoff is deliberate. You cannot use Plausible to reconstruct an individual's activity across multiple days or devices. In return, you get useful website analytics without persistent identification or the consent machinery that comes with it.
+
 ## Why cookies became a compliance problem
 
 Analytics tools like Google Analytics were built to track individuals. Knowing that the same person visited three times, arrived from a paid ad and then purchased requires connecting those events to a persistent identity. Cookies do that reliably, which is why they became the default.
@@ -45,7 +53,7 @@ The problem is not the cookie itself. The problem is what it represents: persona
 
 Google Analytics cannot measure what it has no permission to touch. The data gap that results is structural. It is not a configuration problem you can route around.
 
-## How cookieless analytics works differently
+## How Plausible provides cookieless analytics
 
 Plausible is cookie-free analytics: no cookies, no persistent identifiers, nothing to consent to. To count unique visitors, we generate a random string of letters and numbers that is reset every 24 hours. There is no way to connect a visitor's activity across sessions, across days or across devices. There is no individual record to protect because no individual record is created.
 

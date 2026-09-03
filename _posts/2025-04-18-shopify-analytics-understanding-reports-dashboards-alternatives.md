@@ -1,23 +1,41 @@
 ---
 layout: post
 title: "Shopify Analytics: Understanding reports, dashboards & alternatives"
-description: What Shopify Analytics covers, where it falls short and why most merchants add a privacy-first tool like Plausible to fill the gap.
+description: Shopify Analytics covers store and sales reporting. Plausible replaces Google Analytics with simpler privacy-first traffic, campaign and conversion analytics.
 slug: shopify-analytics
 date: 2025-04-21T12:02:17.753Z
-last_modified_at: 2026-05-13
+last_modified_at: 2026-09-03
 author: hricha-shandily
 image: /uploads/shopify-analytics.png
 image-alt: Shopify analytics
 ---
 
-Shopify's built-in analytics tells you what sold. It doesn't tell you much about why visitors didn't buy, where they came from or how your store is performing as a website.
+Shopify merchants should not need Google Analytics just to understand how people find and use their store.
 
-Most Shopify merchants end up needing at least one more analytics tool. The question is which one, and whether its privacy requirements, setup complexity and accuracy tradeoffs are worth it.
+Shopify Analytics is a capable commerce reporting system. It connects traffic to products, orders and revenue inside Shopify. Plausible solves a different problem: simple, privacy-first web analytics without cookies, personal data or the complexity of the Google Analytics model.
 
-This post covers all three realistic options: Shopify Analytics (the built-in system), Google Analytics 4 and Plausible Analytics, a privacy-first alternative that works without cookies or consent banners.
+For most merchants, the practical setup is Shopify Analytics for commerce and Plausible for website traffic, campaigns and conversions. GA4 is mainly worth the additional complexity when your reporting depends heavily on the Google advertising ecosystem or advanced custom explorations.
 
 1. Ordered list
 {:toc}
+
+## The short answer: Shopify for commerce, Plausible for web analytics
+
+| What you need to understand | Best fit | Why |
+| --- | --- | --- |
+| Products, orders, margins and store operations | Shopify Analytics | It is built into Shopify and connected directly to your commerce data. |
+| Traffic, campaigns and conversions without cookies | Plausible Analytics | It replaces Google Analytics with a simple dashboard and privacy-first measurement. |
+| Detailed custom event analysis tied to Google Ads | Google Analytics 4 | It provides flexible explorations and deep integration with Google's advertising products. |
+
+Shopify and Plausible are complementary. You can keep Shopify as the source of truth for orders while Plausible shows which sources, campaigns and landing pages brought people to your store. Plausible can also cover a separate blog or other domains, so your web analytics are not locked to one ecommerce platform.
+
+{% include cta-box.html
+  headline="Understand Shopify traffic, campaigns and revenue without Google Analytics"
+  link="/register"
+  link_text="Start your free trial"
+  secondary_link="/docs/shopify-integration"
+  secondary_text="Shopify setup guide"
+%}
 
 ## Shopify Analytics: the built-in reporting system
 
@@ -25,7 +43,7 @@ The first option is the reporting system built into Shopify itself. It's availab
 
 It gives merchants a quick overview of store performance. Reports cover sales, customer behavior, finances and more without any setup required.
 
-Standard reporting is included with all pricing plans. According to Shopify's [pricing page](https://www.shopify.com/pricing), you get "access to 60+ reports to track your store performance or build custom reporting with flexible, real-time analytics."
+Shopify says the main Analytics features are available on [every subscription plan](https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports).
 
 Shopify Analytics has three main components: an Overview dashboard, detailed reports and a live view.
 
@@ -71,7 +89,7 @@ The default report categories:
 
 **Sales reports**: Total sales, sales by product or channel and average order values.
 
-Custom reporting and advanced filtering are available on higher Shopify plans. All stores have access to the core reports.
+You can customize a report as a data exploration and save the result for later use.
 
 #### Live View
 
@@ -99,69 +117,41 @@ Here are the metrics you'll see most often across the Overview dashboard and rep
 
 **Return Rate**: Percentage of items sold that were later returned.
 
-## Why merchants look for alternatives
+## What Shopify Analytics does not replace
 
-Shopify Analytics is useful for a quick read on store activity. But it has real limitations that push most merchants toward additional tools.
+Shopify has expanded its analytics considerably. Its current reports cover sales, sessions, bounce rate, average session duration, landing pages, campaigns and more. The reason to add Plausible is not that Shopify lacks every web metric.
 
-### Where Shopify Analytics falls short
+### Independent analytics beyond Shopify
 
-**Overly complex for everyday use**
+Shopify Analytics is built around your Shopify store and its data model. Plausible gives you one web analytics view across the storefront, a separate content site and other domains. If you later change ecommerce platforms, your Plausible history and campaign setup stay with you.
 
-Shopify recently overhauled its [Analytics UI](https://youtu.be/QVhyLBhbbPo) and the reception was poor. The current [community consensus](https://www.reddit.com/r/shopify/comments/1i2jh0a/what_the_fuck_happened_to_shopify_analytics/) is that it's too complicated for most store owners. Dozens of reports spread across multiple categories, with jargon that doesn't map to how most merchants think about their business.
+### Traffic measurement without analytics cookies
 
-**Requires a cookie consent banner**
+Shopify's own [analytics field reference](https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/analytics-fields) says online store sessions are counted when visitors consent to cookies through your banner. That limitation applies to its browser-based traffic measurement, not to the orders Shopify records as an ecommerce platform.
 
-Shopify's tracking relies on cookies. That means you need visitor consent to collect data. When visitors decline, you lose that tracking entirely, including completed checkouts. Your conversion rate and traffic data will be understated as a result.
+Plausible does not use cookies or collect personal data. It can measure the traffic and conversions it receives without waiting for analytics consent. Other tools on your Shopify store may still require a banner, so review the complete setup rather than assuming one analytics change removes every consent requirement.
 
-**Ecommerce-only focus**
+### A focused alternative to the Google Analytics model
 
-Shopify Analytics is built around sales metrics: gross sales, order counts, return rates. It doesn't cover the web analytics side. Bounce rate, time on page, scroll depth and a clear breakdown of which marketing channels are driving traffic are all absent. If you want to understand your site as a website rather than just a store, you need something else.
-
-**Cost scales with your plan**
-
-Advanced reporting is locked behind higher Shopify plans. If you downgrade or can't justify the upgrade cost, you lose access to data you've been relying on.
-
-### Comparing your options
-
-The gap Shopify Analytics leaves is roughly this: you need to understand your website traffic and marketing performance, not just your orders. That's where external tools come in. The two main options are Google Analytics 4 and Plausible Analytics. They serve different audiences with very different tradeoffs.
-
-| | Shopify Analytics | Google Analytics 4 | Plausible Analytics |
-|---|---|---|---|
-| Setup | Automatic | Complex | One script tag |
-| Cookie consent required | Yes | Yes | No |
-| Privacy | Moderate | Poor | Strong |
-| Ad blocker impact | Low | High | Very low |
-| Web analytics | Limited | Full | Full |
-| Ecommerce tracking | Built-in | Manual setup | Manual setup |
-| Real-time data | Live View only | No (up to 48h delay) | Yes |
-| Data accuracy | Partial (cookie opt-outs) | Partial (blockers + opt-outs) | High |
-| Open source | No | No | Yes |
-
-{% include cta-box.html
-  headline="Track Shopify traffic, purchases and revenue attribution without cookies or a consent banner"
-  link="/for-ecommerce"
-  link_text="Plausible for ecommerce"
-  secondary_link="/docs/shopify-integration"
-  secondary_text="Shopify setup guide"
-%}
+Shopify reports are increasingly capable, but adding more reports is not the same as making analytics simpler. Plausible keeps the common website questions in one place: where visitors came from, which pages they entered through and which campaigns or pages produced conversions.
 
 ## Google Analytics 4 for Shopify
 
-Many Shopify merchants use GA4 alongside Shopify Analytics: Shopify for store performance and GA4 for deeper website and marketing analysis.
+Some Shopify merchants use GA4 alongside Shopify Analytics for custom event analysis and connections to Google Ads.
 
-> Note: GA4 requires a cookie consent banner and is complex to configure. It also has documented accuracy problems. Independent studies ([example](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/)) have found significant discrepancies in traffic source attribution. If GA4's complexity is your main frustration, skip to the Plausible section below.
+GA4 mainly uses first-party cookies to measure visitor interactions. [Google's own guidance](https://support.google.com/analytics/answer/6004245) tells customers to inform visitors about stored information and give them the opportunity to grant or deny consent. If you do not need its advertising integrations or advanced explorations, adding that complexity is difficult to justify.
 
 ### What GA4 adds over Shopify Analytics
 
 **Deeper behavior analysis**
 
-GA4 lets you ask complex questions: how many visitors viewed a specific product, added it to cart but didn't complete the purchase and where did they come from? Shopify can't answer that without an Enterprise plan. GA4 can, through segments and explorations.
+GA4 lets you build explorations around custom events across websites and apps. Its advantage over Shopify is flexibility outside Shopify's own commerce data model, not basic metrics such as bounce rate or landing pages.
 
-GA4 also tracks events beyond the purchase journey: video plays, link clicks, form submissions. This gives a fuller picture of how visitors engage with your store.
+You can track events beyond the purchase journey, such as video plays, link clicks and form submissions. That flexibility comes with more setup and a steeper reporting model.
 
 **Customization**
 
-GA4 supports custom events, custom dimensions and custom reports. If you have unique interactions to track (a custom upsell flow, for example), GA4 can record them. Shopify's reports are fixed.
+GA4 supports custom events, custom dimensions and explorations. Shopify reports are also customizable, but they remain centered on Shopify's fields and commerce model.
 
 **Cross-domain and cross-platform tracking**
 
@@ -175,39 +165,13 @@ GA4 integrates with Google Ads and Google Search Console, giving a more complete
 
 **Raw data export**
 
-You can export all raw event data to BigQuery for custom analysis, SQL queries or combining with CRM and ad spend data. Shopify doesn't offer raw data export from its analytics system.
+You can export raw GA4 event data to BigQuery for custom analysis, SQL queries or combining it with CRM and advertising data.
 
 ### How to set up Google Analytics 4 on Shopify
 
-There are three methods.
+Use [Shopify's current Google Analytics setup guide](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics). Shopify's checkout and customer-events systems change over time, so copying an old theme-code tutorial can leave purchase events missing or counted twice.
 
-#### With the Google & YouTube Channel app
-
-The most straightforward option. Install the [Google & YouTube Channel App](https://apps.shopify.com/google) through your Shopify admin under Online Store > Preferences. Connect your existing GA4 account or create a new one.
-
-Note: checkout step tracking is not available with this method unless you're on Shopify Plus.
-
-#### Through Google Tag Manager or gtag.js
-
-**Google Tag Manager (GTM)**
-
-Create a GTM account and container. Add the GTM container code to your theme: the script in the `<head>` and the noscript tag immediately after the opening `<body>` tag of your theme.liquid file.
-
-Inside GTM, add a GA4 configuration tag with your Measurement ID. This gives you granular control over event tracking including page views, add-to-cart actions and purchases. Test using GTM's Preview mode and GA4's DebugView before going live.
-
-If you install GA4 via both the Shopify integration and GTM simultaneously without careful configuration, you can end up with double-counted data.
-
-**Global Site Tag (gtag.js)**
-
-Add the GA4 gtag.js snippet directly to the `<head>` section of your theme. To track purchases, add the conversion code to the "Additional Scripts" section in your Shopify checkout settings.
-
-Gtag.js is simpler to start with but harder to manage and customize without editing code directly.
-
-For a detailed walkthrough, see this [full guide](https://www.analyticsmania.com/post/how-to-install-google-analytics-4-on-shopify/).
-
-#### Third-party Shopify apps
-
-Apps like Analyzify, AD Google Analytics 4 and others in the [Shopify App Store](https://apps.shopify.com/) can handle GA4 setup for you. Compare features and pricing to find one that fits your needs.
+Choose one deliberate implementation path, follow Shopify's current instructions and test page views and purchases before relying on the reports. Check that an older GA4, Google Tag Manager or app-based installation is not still sending the same events.
 
 ### GA4 vs. Shopify Analytics
 
@@ -217,25 +181,25 @@ Shopify Analytics is automatic. GA4 requires deliberate setup: tracking code on 
 
 **Data accuracy**
 
-GA4 relies on a JavaScript snippet running in the visitor's browser. Ad blockers and privacy-focused browsers (Brave, DuckDuckGo) commonly block it entirely. Those visits and purchases are simply not recorded. Shopify Analytics captures orders server-side, so it's less affected.
+GA4 relies on JavaScript running in the visitor's browser. Ad blockers and privacy-focused browsers can block that tracking. Those browser-side interactions will not reach GA4 through the blocked tag. Shopify captures orders as the ecommerce platform, so its commerce records are less affected.
 
-GA4 data also takes up to 48 hours to fully stabilize. Shopify's reports update near real-time.
+GA4 includes a Realtime report, but [its fuller reports](https://support.google.com/analytics/answer/11198161) can continue processing and changing for 24 to 48 hours. Shopify says its overview dashboard updates within about a minute.
 
 **Privacy**
 
-Google Analytics has a well-documented history of cross-device and cross-app tracking, which has generated significant legal scrutiny across Europe. This forces consent banners onto your site, and banner refusals mean missing data.
+Google Analytics uses cookies and app identifiers to measure interactions. Its setup and consent requirements are a poor fit when your goal is straightforward website analytics with less personal data and fewer privacy decisions for visitors.
 
 ## Plausible Analytics for Shopify
 
 Plausible is a privacy-first alternative to Google Analytics built around a different premise: you shouldn't need to become a data engineer to understand how your website is performing.
 
-No cookies. No personal data collection. No consent banners. One script tag and you have a complete analytics setup that works for your Shopify store.
+No cookies and no personal data collection. Plausible itself does not create a need for an analytics consent banner. Add one script and you have a focused analytics setup for your Shopify store.
 
 ### Why Plausible is different
 
-**No cookie consent banner required**
+**No analytics consent banner for Plausible**
 
-Plausible doesn't use cookies or collect personal data, so you don't need a consent banner. Every visitor who hits your store is counted, including those who would have rejected a cookie prompt on any other tool. Safari's Intelligent Tracking Prevention (ITP) doesn't affect Plausible at all.
+Plausible doesn't use cookies or collect personal data, so Plausible itself does not require analytics consent. It can measure visits without waiting for a visitor to accept analytics cookies. Other services on your store may still require consent.
 
 **Higher accuracy by default**
 
@@ -249,11 +213,11 @@ GA4 splits your data across multiple reports, explorations and views. Plausible 
 
 **Real-time data**
 
-Plausible updates continuously. GA4 can take up to 48 hours to stabilize. Shopify's standard reports update every few minutes to an hour (only Live View is real-time).
+Plausible updates continuously. GA4 has a Realtime report, while fuller report data can take 24 to 48 hours to stabilize. Shopify says its overview dashboard updates within about a minute.
 
-**GDPR-compliant without configuration**
+**Privacy-first by default**
 
-Because Plausible doesn't collect personal data, it's GDPR-compliant by design. No data processing agreements to manage, no legal exposure from mishandled personal data and no consent configuration to maintain.
+Plausible is designed around data minimization. It does not use cookies or collect personal data, which removes the analytics-consent configuration required by tools that depend on those identifiers.
 
 **Open source**
 
@@ -266,14 +230,8 @@ Plausible's code is [publicly available on GitHub](https://github.com/plausible/
 1. In your Shopify admin, go to Sales Channels > Online Store > Themes
 2. Click "..." next to your active theme and select "Edit code"
 3. Open the `theme.liquid` file
-4. Paste your Plausible snippet just before the closing `</head>` tag
+4. Copy the current snippet from your Plausible site settings and paste it just before the closing `</head>` tag
 5. Save and confirm data is appearing in your Plausible dashboard
-
-Your snippet looks like this:
-
-```html
-<script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script>
-```
 
 **Step 2: Add ecommerce tracking (optional)**
 
@@ -283,9 +241,9 @@ Once configured, you'll see conversion data and revenue inside the same dashboar
 
 ### Using Plausible with Shopify
 
-**Web analytics Shopify doesn't provide**
+**A simpler, independent web analytics view**
 
-Your Plausible dashboard shows visitors, sessions, bounce rate, time on page, scroll depth, top pages, referral sources, countries, devices and browsers. This is the website performance layer that Shopify Analytics doesn't give you.
+Your Plausible dashboard shows visitors, sessions, bounce rate, time on page, scroll depth, top pages, referral sources, countries, devices and browsers. Shopify now provides several of these metrics too. Plausible's difference is the simple, privacy-first dashboard and the ability to keep the same analytics across Shopify and the rest of your web presence.
 
 Useful additions:
 
@@ -315,15 +273,15 @@ One practical advantage: because Plausible sits outside Shopify, your analytics 
 
 **Does Shopify have built-in analytics?**
 
-Yes. Shopify includes a built-in reporting system with an overview dashboard, 60+ reports and a live view. It's available on all pricing plans with no setup required. The tradeoff is that it relies on cookies, requires a consent banner and only covers your Shopify store (not your wider web presence).
+Yes. Shopify includes a customizable overview dashboard, detailed reports and Live View. Its main analytics features are available on every Shopify subscription plan. It is a capable source of truth for store and commerce performance, but it remains tied to Shopify.
 
 **Do I need Google Analytics for my Shopify store?**
 
-Not necessarily. GA4 adds deeper behavior analysis and cross-domain tracking, but it requires complex setup, a cookie consent banner and comes with known accuracy issues from ad blocker blocking. Many merchants switch to Plausible instead: simpler to configure, more accurate because it doesn't depend on cookie consent and no compliance overhead.
+Not necessarily. Shopify already covers commerce reporting. Plausible can replace GA4 for merchants who want simple traffic, campaign and conversion analytics without cookies or personal data. GA4 is mainly useful when you need advanced custom explorations, BigQuery export or deep Google Ads integration.
 
 **Is Shopify Analytics accurate?**
 
-Partially. Because Shopify's tracking relies on cookies, any visitor who declines your consent banner isn't tracked. That includes completed checkouts, which means your conversion rate data will be lower than reality. Tools like Plausible that don't use cookies can count more of your actual visitors.
+Shopify's commerce data and browser-based traffic data have different limitations. Orders are recorded by the ecommerce platform, while Shopify says online store sessions are counted when visitors consent to cookies through your banner. That can reduce the traffic denominator available for session-based analysis.
 
 **Can I use Plausible Analytics with Shopify?**
 
@@ -331,7 +289,7 @@ Yes. Add the Plausible script to your `theme.liquid` file and you have full web 
 
 **Can I replace Google Analytics with Plausible on Shopify?**
 
-For most Shopify merchants, yes. Plausible covers traffic sources, top pages, conversions, revenue and goal funnels in one dashboard without cookies or consent banners. The main case for keeping GA4 is if you need BigQuery data export or tightly integrated Google Ads attribution.
+For most Shopify merchants, yes. Plausible covers traffic sources, top pages, campaigns, conversions, revenue and funnels in one dashboard without cookies or personal data. Other services on your store may still require consent. Keep GA4 if you need BigQuery event export, advanced explorations or tightly integrated Google Ads attribution.
 
 **Does Plausible track ecommerce events on Shopify?**
 
@@ -339,11 +297,11 @@ Yes. You can track add to cart, checkout started, payment info added and complet
 
 ## Conclusion
 
-Shopify Analytics covers the basics for store owners who need a quick read on sales performance. GA4 goes deeper but at the cost of setup complexity, accuracy gaps and ongoing privacy compliance overhead.
+Shopify Analytics is a capable commerce reporting system and should remain your source of truth for orders. It does not mean you need to accept the Google Analytics model for the rest of your measurement.
 
-Plausible replaces GA4 entirely for most Shopify merchants. Simpler to set up, more accurate because it doesn't depend on cookie consent and a single dashboard you can use without a guide.
+Plausible gives Shopify merchants a simpler privacy-first view of traffic, campaigns and conversions. It works across the store and the rest of your web presence without cookies or personal data.
 
-The honest tradeoff: if you need BigQuery data export or Google Ads attribution within one platform, GA4 still has the edge. For everything else, Plausible gives you better data with less effort.
+Keep GA4 if BigQuery event export, advanced explorations or Google Ads integration are essential. Otherwise, Shopify plus Plausible is the clearer setup: commerce data where it belongs and independent web analytics you can understand without a reporting specialist.
 
 [Try Plausible free for 30 days](https://plausible.io/register) or go straight to the [Shopify integration guide](https://plausible.io/docs/shopify-integration) to set up ecommerce tracking.
 
@@ -357,7 +315,7 @@ The honest tradeoff: if you need BigQuery data export or Google Ads attribution 
       "name": "Does Shopify have built-in analytics?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Shopify includes a built-in reporting system with an overview dashboard, 60+ reports and a live view. It is available on all pricing plans with no setup required. The tradeoff is that it relies on cookies, requires a consent banner and only covers your Shopify store, not your wider web presence."
+        "text": "Yes. Shopify includes a customizable overview dashboard, detailed reports and Live View. Its main analytics features are available on every Shopify subscription plan. It is a capable source of truth for store and commerce performance, but it remains tied to Shopify."
       }
     },
     {
@@ -365,7 +323,7 @@ The honest tradeoff: if you need BigQuery data export or Google Ads attribution 
       "name": "Do I need Google Analytics for my Shopify store?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not necessarily. GA4 adds deeper behavior analysis and cross-domain tracking, but it requires complex setup, a cookie consent banner and comes with known accuracy issues from ad blocker blocking. Many merchants switch to Plausible instead: simpler to configure, more accurate because it does not depend on cookie consent and no compliance overhead."
+        "text": "Not necessarily. Shopify already covers commerce reporting. Plausible can replace GA4 for merchants who want simple traffic, campaign and conversion analytics without cookies or personal data. GA4 is mainly useful when you need advanced custom explorations, BigQuery export or deep Google Ads integration."
       }
     },
     {
@@ -373,7 +331,7 @@ The honest tradeoff: if you need BigQuery data export or Google Ads attribution 
       "name": "Is Shopify Analytics accurate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Partially. Because Shopify's tracking relies on cookies, any visitor who declines your consent banner is not tracked. That includes completed checkouts, which means your conversion rate data will be lower than reality. Tools that do not use cookies can count more of your actual visitors."
+        "text": "Shopify's commerce data and browser-based traffic data have different limitations. Orders are recorded by the ecommerce platform, while Shopify says online store sessions are counted when visitors consent to cookies through your banner. That can reduce the traffic denominator available for session-based analysis."
       }
     },
     {
@@ -389,7 +347,7 @@ The honest tradeoff: if you need BigQuery data export or Google Ads attribution 
       "name": "Can I replace Google Analytics with Plausible on Shopify?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For most Shopify merchants, yes. Plausible covers traffic sources, top pages, conversions, revenue and goal funnels in one dashboard without cookies or consent banners. The main case for keeping GA4 is if you need BigQuery data export or tightly integrated Google Ads attribution."
+        "text": "For most Shopify merchants, yes. Plausible covers traffic sources, top pages, campaigns, conversions, revenue and funnels in one dashboard without cookies or personal data. Other services on your store may still require consent. Keep GA4 if you need BigQuery event export, advanced explorations or tightly integrated Google Ads attribution."
       }
     },
     {
