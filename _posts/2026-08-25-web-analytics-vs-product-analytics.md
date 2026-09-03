@@ -113,7 +113,7 @@ That limitation follows directly from Plausible's privacy model. A person who vi
 
 ## Where Plausible is not trying to compete with product analytics tools
 
-Amplitude and Mixpanel are event-based analytics platforms with reports for product questions such as funnels, behavioral cohorts and retention. In both tools, events can be associated with a user identifier so activity from the same user can be analyzed together. Their documentation also describes separate group-level features for analyzing companies, workspaces or other account-like entities; these require additional instrumentation and may depend on the product or plan.
+Tools like Amplitude and Mixpanel are event-based analytics platforms with reports for product questions such as funnels, behavioral cohorts and retention. In both tools, events can be associated with a user identifier so activity from the same user can be analyzed together. Their documentation also describes separate group-level features for analyzing companies, workspaces or other account-like entities; these require additional instrumentation and may depend on the product or plan.
 
 Plausible overlaps with a portion of product analytics; it is not trying to reproduce that persistent behavioral model with a simpler interface. It does not provide:
 
