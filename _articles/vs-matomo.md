@@ -5,9 +5,23 @@ description: Plausible and Matomo are both open source analytics tools. Here's h
 permalink: /vs-matomo
 cta_headline: "Ready to switch from Matomo?"
 ---
-Most people comparing Matomo and Plausible are trying to move away from Google Analytics. Both avoid it, but Plausible makes a specific tradeoff: simple, cookieless analytics by default, without carrying over the complexity of the Google Analytics model. This page covers how they compare on simplicity, privacy, performance and setup.
+Matomo and Plausible both offer a way out of Google Analytics, but they make different tradeoffs. Matomo keeps the depth and configurability of traditional analytics. Plausible rejects that model's complexity: no cookies, no personal data and one simple dashboard.
+
+Plausible is built for people who need to understand their traffic and conversions without turning analytics into a separate discipline. It deliberately does not reproduce every report or visitor-level view found in Matomo.
 
 Matomo, formerly known as Piwik, was founded in 2007 and is the most well known open source alternative to Google Analytics. [Plausible Analytics](https://plausible.io) launched in 2019 and has grown to become a widely used alternative. Let's look at where they differ.
+
+## Choose based on the tradeoff
+
+| Choose Plausible if... | Choose Matomo if... |
+| --- | --- |
+| You want aggregate traffic and conversion data, not profiles of individual visitors. | You need visitor-level reports, heatmaps or session recordings. |
+| You want cookieless measurement without personal data or persistent identifiers by design. | You want to configure cookies, consent and privacy controls yourself. |
+| You want one focused dashboard with managed EU hosting. | You want a broader, more customizable analytics system. |
+
+If you need Matomo's depth, Plausible will feel limited. If you do not, that depth becomes more setup, more privacy configuration and more dashboard to work through.
+
+Already using Matomo? You do not need to switch blindly. Run Plausible alongside it during the 30-day free trial and compare the experience and the data. If you decide to switch, [CSV imports](https://plausible.io/docs/csv-import) let you bring your historical stats with you.
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
@@ -34,9 +48,11 @@ Matomo, formerly known as Piwik, was founded in 2007 and is the most well known 
 1. Ordered list
 {:toc}
 
-## What Plausible and Matomo have in common
+## Both are open source, but they are built for different jobs
 
-Both tools are [open source](https://plausible.io/open-source-website-analytics), with code available [on GitHub](https://github.com/plausible/analytics/) for anyone to inspect. Both can be self-hosted or used as a cloud service. And with either tool, you own your data completely. It's not shared with or sold to third parties. That's where the similarities largely end.
+Both tools are [open source](https://plausible.io/open-source-website-analytics), with code available [on GitHub](https://github.com/plausible/analytics/) for anyone to inspect. Both can be self-hosted or used as a cloud service. With either tool, your data is not shared with or sold to third parties.
+
+Those principles are shared. The product scope is not. Matomo aims to cover more kinds of analytics and gives teams more configuration. Plausible stays focused on aggregate website analytics with fewer moving parts.
 
 ## Simple web analytics vs complex web analytics
 
@@ -79,15 +95,7 @@ With Plausible, none of that configuration is needed. It works out of the box.
 
 Plausible is also incorporated and hosted in the EU, with all visitor data processed exclusively on European-owned infrastructure. See our [EU hosting page](https://plausible.io/eu-hosted-web-analytics) for more details.
 
-## Which tool is right for you?
-
-If you need heatmaps, session recordings and deep customization and are willing to invest in setup and ongoing maintenance, Matomo is built for that. If you want accurate, privacy-friendly data without the overhead, Plausible is the right tool.
-
 If you are evaluating other privacy-friendly tools alongside Matomo and Plausible, our [buyer's guide to privacy-friendly analytics](/privacy-friendly-web-analytics) covers the full set of criteria worth checking.
-
-## Bringing your historical data with you
-
-If you want to keep your historical Matomo data, Plausible supports [CSV imports](https://plausible.io/docs/csv-import). Matomo's export format will need some adjustments to match our import template, but it's doable.
 
 ## Sign up for a free Plausible trial
 

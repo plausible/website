@@ -40,6 +40,19 @@ Being open source means our [source code](https://github.com/plausible/analytics
 
 This transparency is what makes open source software more trustworthy than closed alternatives. You don't have to take our word for it. The project has thousands of stars on GitHub and is trusted by {{ site.data.site.subscriber_count }} paying subscribers including Hugging Face, Basecamp, Ghost, MongoDB, the Open Source Initiative and the Python Software Foundation.
 
+## Open source does not mean you have to self-host
+
+Plausible is available in two forms. Plausible Analytics Cloud is the managed service that funds our work. Plausible Community Edition (CE) is the free, self-hosted release for people who want to run it on their own infrastructure.
+
+| Plausible Analytics Cloud | Plausible Community Edition |
+| --- | --- |
+| We operate the servers, backups, security and updates. | You operate and secure your own server. |
+| New features and improvements are released continuously. | Stable releases are published on a slower schedule. |
+| Cloud plans include premium features and direct support. | Some premium features and direct support are not included. |
+| Start with a 30-day free trial. | No subscription fee to us, but infrastructure and maintenance are yours. |
+
+Choose Cloud if you want the transparency of open source software without turning analytics infrastructure into your responsibility. Choose Plausible CE if controlling the server matters more and you are ready to maintain it yourself. See the [complete Cloud and CE comparison](https://plausible.io/self-hosted-web-analytics).
+
 ## What data does Plausible collect?
 
 Plausible collects only what you need to understand your traffic: page views, referral sources, the countries and devices your visitors use and which pages they read. No personal data, no cookies, no cross-site tracking and no user profiles.
@@ -52,23 +65,21 @@ Plausible is open source under the GNU Affero General Public License Version 3 (
 
 The goal of the AGPL license is to maximize user freedom and to encourage companies to contribute back to open source. You can read more about [why we chose the AGPL license for our startup](https://plausible.io/blog/open-source-licenses).
 
-## Can Plausible Analytics be self-hosted?
-
-Yes. You can install and run Plausible on your own server. See [self-hosted web analytics](https://plausible.io/self-hosted-web-analytics) for details.
-
 ## Is Google Analytics open source?
 
 No, Google Analytics is not open source. It is a closed source, proprietary product. There is no way of knowing what happens behind the scenes when you run Google Analytics on your site. You have to trust Google.
 
 For a full comparison of the two, see [Plausible vs Google Analytics](https://plausible.io/vs-google-analytics). If you're evaluating other open source options, see how we compare to [Matomo](https://plausible.io/vs-matomo).
 
-## Why is Plausible not free while Google Analytics is?
+## Why does Plausible Cloud cost money if the code is open source?
 
-Plausible is independently owned and actively developed. To keep development going and cover our costs, we charge a subscription fee.
+Open source describes the freedom to inspect, modify and run the code. It does not mean someone else must operate the service for free.
+
+Plausible is independently owned and actively developed. Cloud subscriptions pay for servers, security, backups, product development and support. They also fund the continued development of Plausible CE.
 
 Google Analytics is free because Google built its business on collecting and analyzing personal data from web users and using those insights to sell advertising. Plausible doesn't operate that way. No personal data is collected. You own and control all of your website data and it is never shared with or sold to third parties.
 
-If you want to run it yourself, [self-hosting is an option](https://plausible.io/self-hosted-web-analytics).
+If you prefer to run the software yourself, [Plausible CE has no subscription fee](https://plausible.io/self-hosted-web-analytics). You provide the infrastructure and maintenance instead.
 
 ## Plausible is open in other ways too
 
