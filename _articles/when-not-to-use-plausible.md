@@ -60,7 +60,7 @@ This boundary is also what makes Plausible compliant with GDPR, CCPA and similar
 
 ## Plausible is not a full product analytics platform
 
-Website analytics and product analytics are different disciplines.
+[Website analytics and product analytics are different disciplines](/blog/web-analytics-vs-product-analytics).
 
 Plausible covers what happens on your public website: traffic sources, pageviews, conversions, custom events, funnels, properties and user journeys. It does not cover what logged-in users do inside your product over time.
 
