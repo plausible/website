@@ -53,6 +53,8 @@ GA4 is built for user profiling and ad attribution. Most of its complexity exist
 - Audiences for retargeting campaigns
 - Multi-touch attribution (Plausible uses last-touch only)
 
+If user-level reports, cohorts or retention analysis matter to your business, read our comparison of [web analytics and product analytics](/blog/web-analytics-vs-product-analytics) before migrating. You may want to use Plausible alongside a dedicated product analytics tool.
+
 ## Step 1: Start your Plausible trial
 
 [Start a free 30-day trial →](https://plausible.io/register)

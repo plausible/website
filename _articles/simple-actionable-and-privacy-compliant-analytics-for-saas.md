@@ -132,6 +132,8 @@ You can attach metadata to any event or pageview to track dimensions Plausible d
 * Measuring feature adoption events
 * Comparing engagement across product areas
 
+*Plausible can measure aggregate feature usage, but it is not designed for user-level retention or behavioral cohorts. See [how web analytics and product analytics differ](/blog/web-analytics-vs-product-analytics), including where Plausible fits.*
+
 You can then filter and segment your dashboard by those properties to answer questions about your product, not just your marketing site. Learn more about [custom properties for events](https://plausible.io/docs/custom-event-goals#using-custom-props) and [for pageviews](https://plausible.io/docs/custom-props/for-pageviews).
 
 ## No cookie banner on your signup flow
