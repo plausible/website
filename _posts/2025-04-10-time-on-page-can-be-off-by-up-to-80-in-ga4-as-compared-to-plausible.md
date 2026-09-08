@@ -60,7 +60,7 @@ Let’s compare some pages. TOP=Time on Page.
 
 As you can see, GA4 underreports by as much as 80% as compared to Plausible, while the average underreporting turns out to be 54.7%.
 
-Aka, **more than half of the actual user engagement time is missing from Google Analytics 4’s reports, at least as compared to Plausible — which can seriously distort content performance insights and mislead decisions based on time-on-page metrics.**
+Aka, **more than half of the actual user engagement time is missing from Google Analytics 4’s reports, at least as compared to Plausible, which can seriously distort content performance insights and mislead decisions based on time-on-page metrics.**
 
 {% include cta-box.html
   headline="Get clearer engagement metrics without GA4 complexity"

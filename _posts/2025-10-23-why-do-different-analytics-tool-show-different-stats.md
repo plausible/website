@@ -202,7 +202,7 @@ Because of that:
 
 For instance,
 
-If your hosting dashboard shows 10,000 “visitors” and Plausible shows 4,200 visits, that’s not Plausible missing traffic — it’s your host counting many things that your analytics tool intentionally excludes (non-human, blocked scripts, etc). 
+If your hosting dashboard shows 10,000 “visitors” and Plausible shows 4,200 visits, that’s not Plausible missing traffic—it’s your host counting many things that your analytics tool intentionally excludes (non-human, blocked scripts, etc).
 
 Use hosting logs for server performance, bandwidth, errors; use analytics for human behaviour and visits.
 
