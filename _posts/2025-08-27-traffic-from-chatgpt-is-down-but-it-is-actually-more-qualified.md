@@ -49,7 +49,7 @@ Even though the traffic has definitely gone down for us by significant margins, 
 
 This trend suggests ChatGPT is leaning more on neutral, high-trust sources (like Wikipedia, Reddit, and neutral sites). For site owners, it means one thing: low-quality or filler content won’t make the cut. 
 
-People-first, original, and trustworthy content is still finding its way into GPT chats — and still sending valuable traffic.
+People-first, original, and trustworthy content is still finding its way into GPT chats—and still sending valuable traffic.
 
 ## What does this mean?
 
@@ -93,6 +93,6 @@ Such content cannot be duplicated and is instead cited across different content 
 
 ## Conclusion
 
-Traffic from ChatGPT may never match Google’s scale, and these drops prove how volatile referral traffic from new platforms can be. The short-term feels negative — fewer clicks, fewer signups. But the silver lining is that quality is rising: those who do arrive are more engaged and more likely to convert.
+Traffic from ChatGPT may never match Google’s scale, and these drops prove how volatile referral traffic from new platforms can be. The short-term feels negative—fewer clicks, fewer signups. But the silver lining is that quality is rising: those who do arrive are more engaged and more likely to convert.
 
 For site owners, the lesson is clear: don’t bank on ChatGPT as the next Google, but do treat it as a growing channel where people-first content can win trust, attention, and conversions.
