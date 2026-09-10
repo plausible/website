@@ -53,7 +53,9 @@ Fees paid hereunder are non-refundable.
 
 You are solely responsible for properly canceling your account. An email to cancel your account is not considered cancellation. You can find instructions for [how to cancel your account here](https://plausible.io/docs/cancel-subscription). We provide a simple cancellation flow.
 
-If you cancel the service before the end of your current paid period, your cancellation will take effect at the end of the current billing cycle and you will not be charged again. All of your stats will be inaccessible after the time you paid for expires. Data may be retained in backups for a limited period before permanent deletion and cannot be recovered once deleted.
+If you cancel the service before the end of your current paid period, your cancellation will take effect at the end of the current billing cycle and you will not be charged again. All of your stats will be inaccessible after the time you paid for expires.
+
+If your trial expires without a paid subscription, or your paid subscription lapses, we will stop collecting new stats and eventually permanently delete the affected team's dashboards and all their stats unless you subscribe or resubscribe. We will notify you before deletion so you have time to subscribe, resubscribe or [export your stats](https://plausible.io/docs/export-stats). Deleted dashboards and stats cannot be recovered. Data may remain in backups for a limited period before permanent deletion.
 
 You can choose to [delete your account](https://plausible.io/docs/delete-account) and all your site stats at any time. All your stats will be permanently deleted without undue delay when you delete your Plausible Analytics account.
 
@@ -129,5 +131,6 @@ If you have a question about these Terms of Service, please [contact us](https:/
 
 ---
 
-**Last updated: March 2026**  
-Clarifications only. No material changes to the service or data processing.
+**Last updated: September 2026**
+
+Added an explicit policy for stopping stats collection and deleting dashboards and stats after trial expiry or subscription lapse, with advance notice.

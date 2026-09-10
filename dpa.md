@@ -81,7 +81,7 @@ More details are available on our [security page](https://plausible.io/security)
 
 * Plausible Analytics will notify the customer of any data breach without undue delay (no later than 48 hours) and take appropriate mitigation steps.
 
-* Plausible Analytics processes data only on documented instructions and does not modify or delete data unless instructed or required by law.
+* Plausible Analytics processes data only on documented instructions and does not modify or delete data unless instructed or required by law. These instructions include the deletion policy described below.
 
 * Plausible Analytics assists the customer with data protection obligations and forwards data subject requests to the customer.
 
@@ -90,6 +90,8 @@ More details are available on our [security page](https://plausible.io/security)
 You can choose to delete your account and delete your site stats at any time.
 
 All data will be permanently deleted without undue delay upon deletion. This action is irreversible.
+
+You instruct Plausible Analytics to delete the affected team's dashboards and stats after trial expiry or subscription lapse in accordance with the [Cancellation and termination section of our Terms of Service](https://plausible.io/terms#cancellation-and-termination). We will notify you before deletion so you have time to subscribe, resubscribe or export your stats. This deletion is irreversible.
 
 ## Customer undertakings and Plausible Analytics assistance
 
@@ -121,5 +123,6 @@ If you have questions about this DPA, contact us at privacy@plausible.io.
 
 ---
 
-**Last updated: March 2026**  
-Clarifications only. No material changes to data processing.
+**Last updated: September 2026**
+
+Added deletion instructions for dashboards and stats after trial expiry or subscription lapse, consistent with the Terms of Service.
