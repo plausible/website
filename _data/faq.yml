@@ -64,7 +64,7 @@
 - category: Pricing, plans & discounts
   items:
     - question: How long is the free trial and what happens when it ends?
-      answer: "The free trial is 30 days and no credit card is required. All stats collected during the trial are kept and nothing resets when you upgrade. If you don't upgrade before the trial ends, your dashboard will be locked but your data is retained. You can upgrade at any time to restore full access. <a class='text-indigo-600' href='https://plausible.io/docs/trial-to-paid'>How to upgrade from trial to paid</a>."
+      answer: "The free trial is 30 days and no credit card is required. If you haven't subscribed when it ends, your dashboard is locked. If you don't subscribe, we'll stop collecting new stats and eventually delete your dashboards and all their stats permanently. We'll email you before deletion so you have time to subscribe or export your stats. Subscribe before deletion to keep your historical stats. Deleted stats cannot be recovered. <a class='text-indigo-600' href='https://plausible.io/docs/trial'>How the free trial works</a>."
 
     - question: What's the difference between the Starter, Growth and Business plans?
       answer: "All plans cover the same pageview tiers. The difference is features and team size. Starter is for solo use on a single site. Growth adds multiple sites, team members and dashboard sharing. Business adds funnels, revenue tracking, custom properties and Stats API access. Enterprise covers large-scale needs with custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy and Sites API. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans'>Choose the right plan</a>."
