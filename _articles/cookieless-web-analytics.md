@@ -39,7 +39,7 @@ That model worked until privacy regulations caught up with it. GDPR, CCPA and si
 
 ## What is cookieless tracking?
 
-Cookieless tracking measures what happens on a website without storing cookies or building persistent profiles of individual visitors. A cookieless analytics tool can count visits, pageviews, traffic sources and conversions without following people across websites or across days.
+Cookieless tracking is a way to do [web analytics](/blog/web-analytics) without storing cookies or building persistent profiles of individual visitors. A cookieless analytics tool can count visits, pageviews, traffic sources and conversions without following people across websites or across days.
 
 Not every tool described as cookieless works the same way. Some replace cookies with device fingerprinting, login IDs or server-side profiles. Plausible does not. We collect aggregate events and use a daily rotating identifier to estimate unique visitors. It cannot be used to follow someone across websites or across days.
 

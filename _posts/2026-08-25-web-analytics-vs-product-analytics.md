@@ -26,7 +26,7 @@ This guide explains where that line sits, where [Plausible](/for-saas) fits and 
 
 ## What is web analytics?
 
-Web analytics helps you understand how people find and use a website, and whether they complete the actions the website is designed to encourage.
+[Web analytics](/blog/web-analytics) helps you understand how people find and use a website, and whether they complete the actions the website is designed to encourage.
 
 It is best suited to questions such as:
 
