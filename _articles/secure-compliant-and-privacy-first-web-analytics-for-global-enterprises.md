@@ -78,7 +78,7 @@ For procurement teams comparing vendors, we also explain why [EU-hosted and EU-o
 
 You can even [avoid cookie consent banners](https://plausible.io/blog/cookie-consent-banners#but-can-you-avoid-the-cookie-consent-banners) entirely, which simplifies compliance and removes friction for your visitors.
 
-We offer a [Data Processing Agreement (DPA)](https://plausible.io/dpa) and clear documentation around how data is handled and retained so your legal and compliance teams can review and approve the arrangement. You always retain ownership of your analytics data. For a single page with everything your procurement team needs, see our [security and compliance documentation](https://plausible.io/compliance).
+We offer a [Data Processing Agreement (DPA)](https://plausible.io/dpa) and clear documentation around how data is handled and retained so your legal and compliance teams can review and approve the arrangement. You always retain ownership of your analytics data. For security and privacy reviews, see our [security and compliance documentation](https://plausible.io/compliance). For vendor details, payment information and purchasing documents, see our [procurement page](https://plausible.io/procurement).
 
 While Plausible is engineered to support regulatory compliance out of the box, this information does not constitute legal advice. We recommend that you review our documentation and consult your legal team to confirm suitability for your specific context.
 

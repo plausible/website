@@ -8,6 +8,8 @@ cta_headline: "Ready? Your legal team will approve"
 
 Plausible is typically straightforward to approve in vendor reviews. Not because of optimized paperwork, but because the product does not collect personal data, does not use cookies and does not send data outside the EU. A simpler product means a simpler review. Organizations like Hugging Face, Harvard and the Scottish and Welsh governments have completed this review and run Plausible at scale.
 
+For purchasing steps, payment-recipient details and supplier documentation, see [Purchasing and vendor information](https://plausible.io/procurement).
+
 ## Why Plausible is low-risk to approve
 
 Plausible does not process personal data or track individual users. This puts it in a different category from most analytics tools in a vendor risk assessment.
@@ -54,4 +56,4 @@ Available on Enterprise plans:
 
 ## Security questionnaires
 
-The documents above answer most questions in standard vendor security reviews. If anything is not covered, [contact us](https://plausible.io/contact) and we will respond within one business day.
+The documents above answer most questions in standard vendor security reviews. If anything is not covered, [contact us](https://plausible.io/contact) with your specific questions and we'll be happy to help.
