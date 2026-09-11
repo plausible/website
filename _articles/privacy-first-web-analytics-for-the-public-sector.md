@@ -45,9 +45,11 @@ Because we don't collect personal data about website visitors or track them as i
 
 All subscriptions are processed by Paddle, our merchant of record. Paddle applies its own sanctions controls and blocks transactions it cannot legally process.
 
-If a standard card checkout isn't an option, add your reseller or procurement partner as a team member with the Billing role. They can manage the subscription and payment while you keep control of the account. You can also email us for vendor onboarding paperwork such as Paddle's W-9 form and company registration documents.
+Paddle automatically emails you an invoice after every payment.
 
-Our company registration, VAT number and legal details are on the [imprint page](https://plausible.io/imprint). We can provide tax and registration documents from the Estonian authorities on request.
+If online checkout isn't an option, add your reseller or procurement partner as a team member with the [Billing role](https://plausible.io/docs/users-roles#inviting-team-members-and-assigning-roles). They can manage the subscription and payment while you keep control of the team.
+
+We can provide Paddle's W-9 form on request. Our company registration, VAT number and legal details are on the [imprint page](https://plausible.io/imprint), and [Purchasing and vendor information](https://plausible.io/procurement) covers the purchasing process.
 
 ## Built for networks of public websites
 
