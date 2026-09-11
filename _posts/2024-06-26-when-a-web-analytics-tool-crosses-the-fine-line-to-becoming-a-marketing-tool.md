@@ -10,7 +10,7 @@ author: hricha-shandily
 image: /uploads/ga4-dashboard.png
 image-alt: When a web analytics tool crosses the fine line to becoming a marketing tool
 ---
-Web analytics, as the name suggests, came around for helping website-owners visualize data about different elements of their website. This’d help them optimize web usage.
+[Web analytics](/blog/web-analytics), as the name suggests, came around for helping website-owners visualize data about different elements of their website. This’d help them optimize web usage.
 
 More deeply speaking, this helps contribute to the need of a business owner to stay data-informed and make better decisions, keep themselves grounded and keep steering towards the right paths to success.
 
