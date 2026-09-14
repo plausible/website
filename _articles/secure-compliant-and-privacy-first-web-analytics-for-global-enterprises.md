@@ -7,9 +7,9 @@ description: See the traffic GA4 loses to cookie consent and ad blockers.
 permalink: /enterprise-web-analytics
 cta_headline: "Ready to simplify your analytics stack?"
 ---
-Large organizations are being asked to make decisions from analytics reports that miss a meaningful share of their audience. Consent banners, ad blockers and GA4's modeling make it harder to know which numbers were measured and which were inferred. One enterprise team evaluating Plausible found that around 40% of its visitors declined analytics cookies.
+Large organizations need reliable analytics without creating more compliance work. Google Analytics makes that harder: consent banners and ad blockers leave gaps in reporting, while GA4’s modeling makes it harder to tell which numbers were measured and which were inferred.
 
-Plausible takes a different approach. We don't use cookies or collect personal data about website visitors, so the analytics do not need a consent banner. The same design keeps compliance simpler: all visitor data is processed and stored on European-owned infrastructure and never leaves the EEA.
+Plausible takes a simpler, privacy-first approach. We don’t use cookies or collect personal data about website visitors, so our analytics don’t need a consent banner. All visitor data is processed and stored on European-owned infrastructure and never leaves the EEA.
 
 Organizations like Hugging Face, MongoDB, Basecamp, Sentry, the Python Software Foundation, the Steve Jobs Archive, Harvard University and the Scottish and Welsh governments have been running Plausible for years.
 
