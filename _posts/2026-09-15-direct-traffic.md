@@ -3,7 +3,7 @@ layout: post
 title: "What is direct traffic? What does it include, and why is its share the highest?"
 description: "Why is Direct your biggest traffic source? Are those visits bots? Why are tagged campaigns still showing as direct? Answers and practical checks."
 slug: direct-traffic
-date: 2026-09-15T10:00:00.000Z
+date: 2026-09-16T08:00:00.000Z
 author: hricha-shandily
 image: /uploads/direct-traffic-plausible.png
 image-alt: Plausible Analytics dashboard highlighting Direct / None in the Sources report
