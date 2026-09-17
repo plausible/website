@@ -22,7 +22,7 @@ Already know UTM tags and just need to build a link? Use the [UTM builder](/utm-
 
 UTM stands for Urchin Tracking Module. Urchin was an analytics company Google acquired in 2005 and turned into [Google Analytics](https://plausible.io/vs-google-analytics). The UTM parameter format they introduced became the standard and is now supported by all major analytics tools.
 
-A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "Direct / None" in your Plausible Analytics dashboard.
+A lot of website traffic [doesn't have a referrer header](https://plausible.io/blog/referrer-policy). This traffic is called dark traffic. You may know it as "[Direct / None](https://plausible.io/blog/direct-traffic)" in your Plausible Analytics dashboard.
 
 Dark traffic includes clicks from emails, clicks from documents, clicks from mobile messengers, bookmarks, people typing in the URL directly into the browser and many other mechanisms. Site owners cannot see which referrer sources are sending that traffic.
 
