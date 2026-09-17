@@ -137,7 +137,7 @@ Here is what spikes from different sources mean.
 
 ### If the spike came from Direct
 
-A "Direct/none" traffic spike can mean several things.
+A ["Direct/none" traffic spike](https://plausible.io/blog/direct-traffic#direct-traffic-suddenly-spiked-is-it-bots) can mean several things.
 
 It could be good: more people are typing your URL, using bookmarks, searching your brand and clicking through, or sharing your link in private places such as Slack, Discord, WhatsApp, email or newsletters. This is often called dark traffic because the original source is not passed along.
 

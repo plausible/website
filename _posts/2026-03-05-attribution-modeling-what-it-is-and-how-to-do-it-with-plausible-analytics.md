@@ -57,7 +57,7 @@ Many attribution systems now rely on modeled estimates to fill those gaps rather
 
 No tool can fully reconstruct every touchpoint in a modern buyer journey.
 
-Cross-device behavior, private browsing, internal link sharing, offline conversations, and dark social, all do create blind spots.
+Cross-device behavior, private browsing, internal link sharing, offline conversations, and [dark social](https://plausible.io/blog/direct-traffic), all do create blind spots.
 
 For many teams, especially smaller B2B or SaaS companies, the question is not “Can we track everything?” but:
 

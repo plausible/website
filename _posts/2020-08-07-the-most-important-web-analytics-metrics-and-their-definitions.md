@@ -209,7 +209,7 @@ Shows the first page people view on your site.
 
 ### Direct / None
 
-This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). For many websites, "Direct / None" stands at the top of their referral sources. 
+This referral source includes visitors who typed your URL into their browser, clicked a link in an email or a mobile app. It also includes other visitors who were [missing a referrer header](https://plausible.io/blog/referrer-policy). For many websites, ["Direct / None" stands at the top of their referral sources](https://plausible.io/blog/direct-traffic#why-is-direct-traffic-my-biggest-source).
 
 #### How to minimize the amount of traffic without referrals 
 
