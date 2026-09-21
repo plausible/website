@@ -146,7 +146,7 @@ If you compare the two screenshots of GA4 and Plausible, you would see more uniq
 
 This is another reason that explains the differences in average time on page between the two tools. So the only question remains, which one is more accurate?
 
-Due to our privacy-respecting nature, [Plausible counts unique visitors](https://plausible.io/data-policy#how-we-count-unique-users-without-cookies) differently than GA4. We delete old salts every 24 hours to avoid the possibility of linking visitor information from one day to the next. This makes us inherently GDPR compliant too.
+Due to our privacy-respecting nature, [Plausible counts unique visitors](https://plausible.io/data-policy#how-we-count-unique-visitors-without-cookies) differently than GA4. We delete old salts every 24 hours to avoid the possibility of linking visitor information from one day to the next. This makes us inherently GDPR compliant too.
 
 On the other hand, GA4 counts unique visitors by using a combination of browser cookies (client ID), user IDs (if available), and device IDs (or app instance ID) to identify and track individual users across sessions and devices through multiple days.
 
