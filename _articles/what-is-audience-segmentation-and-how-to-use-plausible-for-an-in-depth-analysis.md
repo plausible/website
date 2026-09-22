@@ -107,7 +107,7 @@ Here is what to configure to go deeper than the default segments.
 
 ### For segmenting by traffic source: tag your campaigns
 
-Use campaign parameters to segment traffic without building profiles or tracking people. Plausible captures them automatically as aggregate data. No cookies, no user profiles, no cross-site tracking.
+Use campaign parameters to segment traffic without building profiles or tracking people. Plausible captures campaign parameters automatically and uses them to group your dashboard statistics. No cookies, no user profiles, no cross-site tracking.
 
 When sharing links on social media, in paid ads or newsletters, [tag them](https://plausible.io/docs/top-referrers) with query parameters like ref, source, utm_source, utm_medium, utm_campaign, utm_content and utm_term.
 

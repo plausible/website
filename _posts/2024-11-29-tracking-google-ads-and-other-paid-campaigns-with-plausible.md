@@ -168,7 +168,7 @@ Having said that, if you are looking for a deeper integration of Google Ads with
 
 We do not track, collect nor store any personal data or personally identifiable information. The goal of Plausible Analytics is to track overall trends in your website traffic, it is not to track individual visitors and contribute to surveillance capitalism.
 
-The privacy of your website visitors is important to us so we do not track any individual people. All the data is in aggregate only.
+The privacy of your website visitors is important to us so we do not track any individual people.
 
 We also do not utilize or generate any cookies or persistent identifiers. We generate a random string of letters and numbers that is used to calculate unique visitors on a website and we reset this string once per day. You can read more about these decisions [here](https://plausible.io/privacy-focused-web-analytics).
 

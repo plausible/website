@@ -186,7 +186,7 @@ This is not a limitation you can route around with better attribution models or 
 
 Cookie consent banners exist because personal data is being collected and stored. Remove the personal data collection, and the legal basis for requiring consent goes away. See our [cookieless web analytics overview](/cookieless-web-analytics) for a full explanation of how this works in practice. More on why banners exist and what they mean for your site in our [cookie consent banners explainer](/blog/cookie-consent-banners).
 
-Plausible does not use cookies. It does not store any personal data. Sessions and pageviews are measured using aggregate, anonymized counts with no persistent identifiers. Because nothing personal is collected, there is nothing to consent to, and no banner is required in most jurisdictions including under GDPR and CCPA.
+Plausible does not use cookies. It does not store any personal data. The dashboard presents aggregated session and pageview statistics without persistent visitor identifiers. Because nothing personal is collected, there is nothing to consent to, and no banner is required in most jurisdictions including under GDPR and CCPA.
 
 Every visitor shows up. The ones who would have declined, the ones who would have bounced from the banner, the ones who block tracking scripts out of habit. None of them disappear.
 

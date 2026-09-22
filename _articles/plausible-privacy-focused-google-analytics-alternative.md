@@ -73,7 +73,7 @@ You can see exactly what you'd get in [our live demo dashboard](https://plausibl
 
 ## No persistent tracking of any kind
 
-The goal of Plausible is to track overall trends in your website traffic, not to track individual visitors. All the data is in aggregate only.
+The goal of Plausible is to track overall trends in your website traffic, not to track individual visitors.
 
 We do not track visitors across devices, websites or time. All data is isolated to a single device, a single website and a single day. There is no way to know whether the same person visits from another device, visits another site, or returns the next day.
 

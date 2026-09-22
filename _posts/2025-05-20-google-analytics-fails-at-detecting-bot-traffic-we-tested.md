@@ -187,7 +187,7 @@ The answer lies in the way Plausible Analytics detects and excludes non-human tr
 At Plausible, we detect and automatically exclude bots (and are constantly evolving the detection systems) by:
 
 * Blocking traffic based on the User-Agent header (*Google Analytics failed at this in this test*)
-* Blocking traffic originating from data centers. We exclude ~32,000 data center IP ranges (i.e. a lot of IP addresses) by default. (*Google Analytics failed at this in this test*)
+* Blocking traffic originating from data centers. We exclude ~{{ site.data.site.datacenter_ip_ranges }} data center IP ranges (i.e. a lot of IP addresses) by default. (*Google Analytics failed at this in this test*)
 * Detecting and excluding unnatural traffic patterns (*Google Analytics failed at this in this test*)
 * Filtering out known referrer spam domains
 

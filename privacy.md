@@ -57,7 +57,7 @@ The privacy of our website visitors is important to us so we do not track indivi
 - No information is mined and harvested for personal and behavioral trends  
 - No information is monetized  
 
-We use Plausible Analytics to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, not to track individual visitors. All the data is in aggregate only.
+We use Plausible Analytics to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, not to track individual visitors.
 
 Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can see full details in our data policy.
 
@@ -159,5 +159,5 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 
 ---
 
-**Last updated: August 2026**  
+**Last updated: September 2026**  
 Now using Friendly Captcha for spam protection on login and registration pages.

@@ -47,8 +47,7 @@ Customers are not locked in. If we were ever to make decisions that went against
 
 We built Plausible to prove that useful web analytics and visitor privacy are not mutually exclusive.
 
-We do not use cookies and we do not collect personal data. We do not perform cross-site or cross-device tracking. All analytics data is processed in aggregate.
-
+We do not use cookies and we do not collect personal data. We do not perform cross-site or cross-device tracking.
 For full details, see our [Data Policy](https://plausible.io/data-policy) and [Security documentation](https://plausible.io/security).
 
 Plausible is not the right tool for every analytics use case. [Read when Plausible is not a fit](/when-not-to-use-plausible) before you decide.

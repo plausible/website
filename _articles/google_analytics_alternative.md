@@ -76,7 +76,7 @@ Beyond consent, GA4 is part of the adtech ecosystem. Most adblockers target it s
 
 Plausible doesn't require consent and isn't part of the adtech ecosystem, so it's [far less likely to be blocked](https://plausible.io/blog/do-ad-blockers-block-plausible-analytics). You can also [proxy our script](https://plausible.io/docs/proxy/introduction) through your own domain for first-party collection. Additional accuracy improvements built in by default:
 
-* Known referrer spam and data center traffic is filtered out. We exclude around 32,000 data center IP ranges to prevent bot inflation that GA4 doesn't handle automatically.
+* Known referrer spam and data center traffic is filtered out. We exclude around {{ site.data.site.datacenter_ip_ranges }} data center IP ranges to prevent bot inflation that GA4 doesn't handle automatically.
 * Android app traffic is properly attributed. GA4 traditionally lumps this into "Direct / None." For sites with significant mobile traffic, this accounts for 10% or more of previously unattributed visits from apps like Gmail, Slack and Telegram.
 * VPN and Tor traffic is grouped under "Anonymous VPN Service" to reduce location noise.
 

@@ -1,6 +1,7 @@
 subscriber_count: "21,000"
 subscriber_count_short: "21k"
 pageviews_tracked: "313B"
+datacenter_ip_ranges: "40,800"
 uptime: "99.99%"
 team_size: "10"
 plausible_script_kb: 2.5

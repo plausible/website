@@ -41,7 +41,7 @@ That model worked until privacy regulations caught up with it. GDPR, CCPA and si
 
 Cookieless tracking is a way to do [web analytics](/blog/web-analytics) without storing cookies or building persistent profiles of individual visitors. A cookieless analytics tool can count visits, pageviews, traffic sources and conversions without following people across websites or across days.
 
-Not every tool described as cookieless works the same way. Some replace cookies with device fingerprinting, login IDs or server-side profiles. Plausible does not. We collect aggregate events and use a daily rotating identifier to estimate unique visitors. It cannot be used to follow someone across websites or across days.
+Not every tool described as cookieless works the same way. Some replace cookies with device fingerprinting, login IDs or server-side profiles. Plausible does not. We use a daily rotating identifier to estimate unique visitors. It cannot be used to follow someone across websites or across days.
 
 That tradeoff is deliberate. You cannot use Plausible to reconstruct an individual's activity across multiple days or devices. In return, you get useful website analytics without persistent identification or the consent machinery that comes with it.
 
@@ -55,9 +55,9 @@ Google Analytics cannot measure what it has no permission to touch. The data gap
 
 ## How Plausible provides cookieless analytics
 
-Plausible is cookie-free analytics: no cookies, no persistent identifiers, nothing to consent to. To count unique visitors, we generate a random string of letters and numbers that is reset every 24 hours. There is no way to connect a visitor's activity across sessions, across days or across devices. There is no individual record to protect because no individual record is created.
+Plausible is cookie-free analytics: no cookies, no persistent identifiers, nothing to consent to. To count unique visitors, we generate a random string of letters and numbers that is reset every 24 hours. We do not build persistent visitor profiles or track people across websites or devices.
 
-Every metric on your Plausible dashboard is an aggregate count: how many visitors, how many pageviews, which pages were most visited, which sources sent the most traffic. That is what most site owners actually need to make decisions about their content, their campaigns and their product. We collect less and show you more of what matters.
+The Plausible dashboard presents aggregated statistics: how many visitors, how many pageviews, which pages were most visited, which sources sent the most traffic. That is what most site owners actually need to make decisions about their content, their campaigns and their product. We collect less and show you more of what matters.
 
 Because no personal data is collected, no consent banner is required. No consent platform. No privacy policy addition. No ongoing compliance operation.
 
