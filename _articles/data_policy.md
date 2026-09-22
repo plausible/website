@@ -18,22 +18,32 @@ Here’s a closer look at what we collect, how we use it and how we comply with 
 
 ## First things first: What we collect and what we use it for
 
-We do not track people across their devices or across websites and apps. All data is isolated to a single day, a single website and a single device. There is no way to know whether the same person visits a site from more than one device or visits another website.
+The goal of Plausible Analytics is to understand overall trends in your website traffic. We don't use cookies or generate persistent visitor identifiers.
 
-The goal of Plausible Analytics is to track overall trends in your website traffic, not individual visitors. We don't use cookies, we don't generate persistent identifiers and we don’t collect or store personal data that can be used to identify individuals. All data is aggregated.
+We do not track people across devices, websites or apps. The daily visitor identifier is specific to a single website and device. It does not let us recognize the same visitor across days, across devices or on another website.
 
-By using Plausible Analytics, all site measurement is carried out anonymously. We measure only the most essential data points and nothing else.
+We store individual event and session records to calculate your website statistics. The dashboard presents aggregated statistics.
 
-Here is the complete list of what we collect and store:
+We collect and store the following types of analytics data:
 
-| Data point | Example | Comment |
+| Data point | Example | What we use it for |
 |---|---|---|
-| **Page URL** | _https://yoursite.com/pricing_ | Hostname and path are collected. Query parameters are discarded except for `ref`, `utm_*` and similar campaign parameters. |
-| **HTTP Referer** | _https://facebook.com_ | Used to show referral sources. |
-| **Browser** | _Chrome 86.0_ | Derived from User-Agent. Full User-Agent is discarded. |
-| **Operating system** | _macOS 10.15_ | Derived from User-Agent. Full User-Agent is discarded. |
-| **Device type** | _Desktop_ | Derived from User-Agent. |
-| **Country, region, city** | _United Kingdom, England, London_ | Derived from IP address. IP address is not stored. |
+| **Page URL** | `yoursite.com/pricing` | Shows which pages receive traffic. |
+| **Referral sources and campaigns** | `facebook.com`, `utm_source=newsletter` | Shows where traffic and conversions come from. |
+| **Browser, operating system and device type** | Chrome 153.0, macOS 10.15, desktop | Shows which browsers and devices visitors use. |
+| **Country, region and city** | United Kingdom, England, London | Shows visitors' approximate locations. |
+| **Engagement measurements** | Scroll depth, engagement time | Measures engagement with your pages. |
+| **Pageviews and custom events (when configured)** | `pageview`, `Signup`, `Download` | Counts pageviews automatically and custom events according to your tracking setup. |
+| **Custom properties (when configured)** | `author=Jane`, `category=Technology` | Adds information you choose to send with events. |
+| **Revenue data (when configured)** | `49.00 EUR` | Measures revenue from conversions. |
+
+We derive browser and operating system information from the User-Agent and approximate location from the IP address. We do not store raw User-Agent strings or IP addresses.
+
+For page URLs, we store the hostname and path. Query parameters are discarded except for supported campaign and referral parameters.
+
+We record when each event is received and use these records to calculate statistics such as entry and exit pages, pageviews per visit and visit duration. Session identifiers group events into visits.
+
+The next section explains how we generate daily visitor identifiers without storing raw IP addresses or User-Agent strings.
 
 ---
 
@@ -99,5 +109,5 @@ You can [sign up for a free trial](https://plausible.io/register) and explore pr
 
 ---
 
-**Last updated: March 2026**  
+**Last updated: September 2026**  
 Clarifications only. No material changes to data handling.

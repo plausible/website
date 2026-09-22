@@ -98,7 +98,7 @@ For more details on how we secure our systems and infrastructure, see our [full 
 
 Plausible was built to respect privacy at every level, while still giving you meaningful, accurate and complete insights. We do not collect personal data or use cookies, and we never track individuals across sites, devices or over time.
 
-All the data we collect is aggregated and focused on overall trends, not on identifying people. You get all information on a [simple and useful dashboard](https://plausible.io/simple-web-analytics) without ever having to worry about your customers' privacy.
+Our dashboard presents aggregated statistics focused on overall trends, not on identifying people. You get all information on a [simple and useful dashboard](https://plausible.io/simple-web-analytics) without ever having to worry about your customers' privacy.
 
 You fully own and control your website data. We claim no rights to it, never sell or share your data, and always respect your visitors' privacy.
 

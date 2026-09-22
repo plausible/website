@@ -91,7 +91,7 @@ This also means **we** **don’t need to rely on modeled data**, nor try to reco
 
 ### How Plausible collects and presents data
 
-Plausible [does not use cookies](https://plausible.io/data-policy) or persistent identifiers. It does not track users across devices or build behavioral profiles. We track website level data and aggregated analytics only. 
+Plausible [does not use cookies](https://plausible.io/data-policy) or persistent identifiers. It does not track users across devices or build behavioral profiles.
 
 Take a look at our **[live demo](https://plausible.io/plausible.io)** but here’s an overview of the main data you can see in the dashboard:
 

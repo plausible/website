@@ -76,7 +76,7 @@ At Plausible, we detect and automatically exclude bots by:
 * Blocking traffic originating from data centers
 * Detecting and excluding unnatural traffic patterns
 
-Plausible also excludes ~32,000 data center IP ranges by default. GA4 does not.
+Plausible also excludes ~{{ site.data.site.datacenter_ip_ranges }} data center IP ranges by default. GA4 does not.
 
 Plausible's bot filtering also evolves with the web. Rather than depending solely on static bot lists, we continuously detect and exclude new forms of automated traffic as they appear.
 

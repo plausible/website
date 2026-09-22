@@ -62,7 +62,7 @@ But if you want to know where these insights are typically housed (based on the 
 
 **Unique visitors**: Are known as “users” in GA4 and this metric is available in the User Acquisition report. 
 
-*Quick context*: Why “user acquisition”? This is because GA4 profiles users and tries to separate unique users from total sessions, with the help of [cookies](https://plausible.io/blog/chrome-third-party-cookies). Plausible, though, is privacy-friendly and only counts aggregated stats in terms of sessions and never tracks individual users.
+*Quick context*: Why “user acquisition”? This is because GA4 profiles users and tries to separate unique users from total sessions, with the help of [cookies](https://plausible.io/blog/chrome-third-party-cookies). Plausible reports aggregated visitor, session and pageview statistics without building profiles of individual visitors.
 
 **Total visits**: Are known as “sessions” in GA4 and this metric is available in the Traffic Acquisition report.
 

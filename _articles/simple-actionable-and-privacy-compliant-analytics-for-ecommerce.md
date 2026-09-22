@@ -34,7 +34,7 @@ Because Plausible is privacy-friendly by default, it isn't blocked at the same r
 
 On top of that, Plausible takes several steps to [improve data accuracy](https://plausible.io/most-accurate-web-analytics):
 
-* Bots don't buy. When crawlers inflate product page views, conversion rates drop artificially and campaign performance looks worse than it is. We exclude around 32,000 data center IP ranges by default to keep your checkout funnel metrics clean.
+* Bots don't buy. When crawlers inflate product page views, conversion rates drop artificially and campaign performance looks worse than it is. We exclude around {{ site.data.site.datacenter_ip_ranges }} data center IP ranges by default to keep your checkout funnel metrics clean.
 * VPN and Tor browser visitors are grouped under "Anonymous VPN Service" to reduce noise in location reports.
 
 We also support [proxying our script as a first-party connection](https://plausible.io/docs/proxy/introduction) for even higher accuracy.
