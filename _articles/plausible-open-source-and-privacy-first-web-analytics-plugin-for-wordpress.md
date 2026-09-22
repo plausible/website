@@ -73,4 +73,6 @@ Plausible lets you measure traffic, understand trends, analyze sources, track ca
 2. Install the **Plausible Analytics** plugin from the [official WordPress plugin directory](https://wordpress.org/plugins/plausible-analytics/) and activate it.
 3. Paste your plugin token into the plugin settings and click Connect. That's it, your site is now being tracked.
 
+Running a WordPress multisite network? You can combine its traffic in one Plausible dashboard. Activate the plugin across the network or on individual sites, then connect it in each site's settings using the same Plausible domain. See the [multisite setup guide](https://plausible.io/docs/wordpress-integration#wordpress-multisite-networks) for the steps and separate-dashboard options.
+
 For setup details, every plugin setting, the proxy, ecommerce revenue tracking and troubleshooting, see the [WordPress plugin documentation](https://plausible.io/docs/wordpress-integration).
