@@ -106,6 +106,9 @@
 
 - category: Sharing, teams & agency use
   items:
+    - question: Our owner is on leave or has left the organization. How can we regain control?
+      answer: "If another team owner is available, they can manage the team, sites and subscription using their own login. If your only owner is unavailable, see <a class='text-indigo-600' href='https://plausible.io/docs/transfer-account-ownership'>how to recover access</a> for the available recovery paths and when to contact support. We recommend keeping at least two team owners, each using their own Plausible account, to prevent this situation."
+
     - question: Can I give someone access to my stats without making the dashboard public?
       answer: "Yes. Invite someone as a team member to give them access across your team's sites, or as a site guest to limit their login to specific sites. You can also use a <a class='text-indigo-600' href='https://plausible.io/docs/shared-links'>private shared link</a> for read-only access without a Plausible account. Shared links can be password protected and limited to a specific audience segment. <a class='text-indigo-600' href='https://plausible.io/docs/users-roles'>Compare team members and site guests</a>."
 
