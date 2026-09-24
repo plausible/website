@@ -89,6 +89,8 @@ Here are the instructions on [how to get started with goals and events](https://
 
 Once you have custom events set up, you can build funnels to see where visitors drop off between steps. This helps you find friction points in your checkout flow and improve conversion rates. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 
+If shoppers can skip steps, choose **Flexible** when adding or editing your funnel. Only the first and last steps are required. For example, in a "View product → View cart → Purchase" funnel, shoppers who buy without visiting the cart page still count as converted.
+
 For open-ended exploration, [user journeys](https://plausible.io/docs/user-journeys) let you trace what shoppers do before or after any page without defining the path upfront.
 
 ## Track ecommerce revenue
