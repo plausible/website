@@ -118,7 +118,15 @@ You can do funnel analytics in seconds with a privacy-first tool like Plausible.
 
 For eg. one of the funnel goals we track at Plausible is how many website visitors complete the entire sign up flow. This starts with clicking the “Start Free Trial” or “Get Started” button on the website and landing on the registration page, followed by submitting contact information, followed by activating the account with OTP verification, and finally adding the specific website’s URL that needs to be tracked.
 
-You can see how this simple four-step funnel is visualized within the [live Plausible dashboard](https://plausible.io/plausible.io), and that it has a final conversion rate of 26.23% (which also can be changed in Plausible depending on whether you allow other activity to be done between your funnel steps or not) for the *last 30 days* at the time of writing this. It also shows the respective drop offs and conversion rates for each stage of the funnel on hovering. 
+You can see how this simple four-step funnel is visualized within the [live Plausible dashboard](https://plausible.io/plausible.io), and that it has a final conversion rate of 26.23% for the *last 30 days* at the time of writing this. It also shows the respective drop offs and conversion rates for each stage of the funnel on hovering.
+
+When adding or editing a funnel in Plausible, you can choose from three funnel types:
+
+* **Sequential:** Visitors must complete all steps in order, but can take other actions in between.
+* **Strict:** Visitors must complete all steps in order, with no other actions in between.
+* **Flexible:** Only the first and last steps are required. Any steps in between are optional.
+
+For example, in a "View product → View details → Purchase" funnel, choose Flexible to count purchases even when visitors skip "View details". Use Sequential or Strict when completing every step matters.
 
 ![Plausible registration completion funnel](https://plausible.io/uploads/registration-completion-funnel-example.png "Plausible registration completion funnel")
 
