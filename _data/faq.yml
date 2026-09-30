@@ -86,6 +86,9 @@
     - question: I've integrated Plausible into my site. How do I check if I've done it correctly?
       answer: "Run the testing tool directly from your <a class='text-indigo-600' href='https://plausible.io/docs/website-settings'>site settings</a>. It sends traffic to your site and checks that everything is working. If there's a problem with your integration, it'll tell you what to fix. <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>Learn more</a>."
 
+    - question: Do you offer training or onboarding for new teams?
+      answer: "Plausible is built so your whole team can use it without training. There's one dashboard and no reports to build. Our <a class='text-indigo-600' href='https://plausible.io/docs'>documentation</a> walks you through setup and every feature. For anything it doesn't answer, every plan includes email support from our team."
+
     - question: Why don't I see my own visits?
       answer: "A few things to check. Our <a class='text-indigo-600' href='https://plausible.io/wordpress-analytics-plugin'>official WordPress plugin</a> excludes logged-in admin visits by default. The <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> may also be blocking your visits based on IP address, hostname or country. And browser extensions or network-level adblockers can block the Plausible script. Consider setting up <a class='text-indigo-600' href='https://plausible.io/docs/proxy/introduction'>a proxy</a> to avoid that. If the testing tool confirms tracking is working, everything is fine on our end. See our full <a class='text-indigo-600' href='https://plausible.io/docs/troubleshoot-integration'>troubleshooting guide</a> for more details."
 
