@@ -9,6 +9,9 @@
     - question: Can I send invoices to a different email address?
       answer: "Your Plausible login email and your Paddle billing email are separate. To change where invoices are sent, email us with your current Paddle email and the new address you'd like to use. An invoice recipient does not count toward your team member limit. You can also give someone direct billing access by adding them as a team member with the Billing role, which does count toward the limit. <a class='text-indigo-600' href='https://plausible.io/docs/invoice-email'>Learn more about invoice email and billing access</a>."
 
+    - question: Do your prices include VAT?
+      answer: "No. The prices on our pricing page exclude VAT. Paddle, our payment processor, adds VAT at checkout where it applies, based on your country. Businesses can add their VAT number at checkout (see the next question). <a class='text-indigo-600' href='https://paddle.com/support/which-countries-does-paddle-charge-vat-for/'>See which countries Paddle charges VAT for</a>."
+
     - question: How do I add my VAT number?
       answer: "On the second step of checkout, click \"Add VAT number\" alongside your payment details. Paddle handles all tax calculations and applies the correct rate based on your details. If you missed this step, open any Paddle invoice and click \"Add address & VAT Number\". Paddle will refund the VAT on your original payment and apply the correct rate going forward. <a class='text-indigo-600' href='https://paddle.com/support/which-countries-does-paddle-charge-vat-for/'>See which countries Paddle charges VAT for</a>."
 
