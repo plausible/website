@@ -280,14 +280,14 @@ Not necessarily. Search Console counts clicks that lead from Google results to y
 <details markdown="1">
 <summary>Why does Shopify show orders when my conversion report is empty?</summary>
 
-Shopify can report more orders than converted sessions because one session can contain multiple separate purchases. Consent choices can also reduce session counts and other session-based metrics. Compare orders with converted sessions rather than expecting them to match. Shopify explains both causes in its [customer and session discrepancy guide](https://help.shopify.com/en/manual/reports-and-analytics/discrepancies/customer-discrepancies). For Plausible specifically, a theme-only installation leaves checkout pages untracked until you add the [custom pixel described in the Shopify integration guide](/docs/shopify-integration).
+Shopify can report more orders than converted sessions because one session can contain multiple separate purchases. Consent choices can also reduce session counts and other session-based metrics. Compare orders with converted sessions rather than expecting them to match. Shopify explains both causes in its [customer and session discrepancy guide](https://help.shopify.com/en/manual/reports-and-analytics/discrepancies/customer-discrepancies).
 
 </details>
 
 <details markdown="1">
 <summary>Ghost and Plausible show different countries. Which should I trust?</summary>
 
-Country totals alone do not prove that one tool missed people or the other counted bots. The tools may use different geolocation databases, collection methods and filtering rules. Compare the same dates, then inspect the affected traffic and check collection failures and filtering. Plausible documents its [bot filtering](/docs/bot-traffic-filtering) and [integration troubleshooting](/docs/troubleshoot-integration) so you can investigate the actual setup.
+Country totals alone do not prove that one tool missed people or the other counted bots. The tools may use different geolocation databases, collection methods and filtering rules. Compare the same dates, then inspect the affected traffic and check collection failures and filtering. Check Plausible's [bot filtering](/docs/bot-traffic-filtering) and [integration troubleshooting](/docs/troubleshoot-integration) guides so you can investigate the actual setup.
 
 </details>
 
@@ -301,7 +301,7 @@ Yes. Plausible's official plugin excludes logged-in administrator visits by defa
 <details markdown="1">
 <summary>Can I see traffic from all my websites in one dashboard?</summary>
 
-Yes. The sites do not need to use the same CMS. Install Plausible on each site and use **Consolidated View** on the Business plan for combined native traffic reporting. Individual site dashboards remain available. Imported history and revenue goals are excluded from the combined view, as explained in the [Consolidated View guide](/docs/consolidated-views).
+Yes. The sites do not need to use the same CMS. Install Plausible on each site and use **Consolidated View** for combined native traffic reporting. Individual site dashboards remain available. Imported history and revenue goals are excluded from the combined view, as explained in the [Consolidated View guide](/docs/consolidated-views).
 
 </details>
 </div>
