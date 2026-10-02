@@ -196,9 +196,9 @@ The integration uses Search Console data, with a reporting delay of about 24 to 
 
 You can manage sites together, give colleagues or clients [role-based dashboard access](/docs/users-roles) and use [private shared links](/docs/shared-links) without giving them access to the underlying CMS.
 
-On the Business plan, **Consolidated View** combines native traffic data from sites in a team. It excludes imported history and revenue goals. It aggregates site activity rather than identifying the same person across unrelated websites. [Consolidated View details](/docs/consolidated-views).
+**Consolidated View** combines native traffic data from sites in a team. It excludes imported history and revenue goals. It aggregates site activity rather than identifying the same person across unrelated websites. [Consolidated View details](/docs/consolidated-views).
 
-For reports outside Plausible, use [CSV exports](/docs/export-stats) or choose another option for [accessing your data](/docs/data-access), such as the Stats API. Dashboard exports have row limits and the separate full native-stats export excludes imported data. If you are moving from another tool, check the [historical import requirements](/docs/csv-import) before assuming its data can be transferred.
+For reports outside Plausible, there are [CSV exports](/docs/export-stats) or choose another option for [accessing your data](/docs/data-access), such as the Stats API. Dashboard exports have row limits and the separate full native-stats export excludes imported data. If you are moving from another tool, check the [historical import requirements](/docs/csv-import) before assuming its data can be transferred.
 
 ### What visitor data does Plausible collect?
 
