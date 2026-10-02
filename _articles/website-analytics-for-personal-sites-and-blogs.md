@@ -191,6 +191,8 @@ Plausible can be added to any website with a simple script, and it works smoothl
 
 Many publishers run their sites on WordPress, Ghost, Drupal, or custom CMS setups. You can find setup [guides](https://plausible.io/docs/integration-guides) for most popular platforms, and there is a dedicated [WordPress plugin](https://plausible.io/wordpress-analytics-plugin) that takes a few minutes to set up.
 
+If your publishing platform already includes traffic reports, first compare [what its built-in analytics covers and what an independent tool would add](/blog/cms-built-in-analytics). That helps you avoid installing a second tool to answer a question your existing dashboard already handles.
+
 ## Other teams use Plausible for
 
 * [SaaS products](/for-saas): tracking trial signups, activation funnels and campaign attribution
