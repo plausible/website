@@ -51,7 +51,7 @@ If an analytics setup requires a consent banner before it can collect data, that
 
 A genuinely cookieless tool that does not collect personal data should not need a banner just to run analytics. The key is whether this is true by design, not only after disabling features or accepting lower functionality.
 
-The practical consequence matters: when analytics depends on consent, visitors who decline are usually missing from the directly measured data. On EU-focused sites, consent acceptance rates commonly run 40 to 60 percent.
+The practical consequence matters: when analytics depends on consent, visitors who decline are usually missing from the directly measured data. On EU-focused sites, consent acceptance rates commonly run 40 to 60 percent. Built-in tools handle this differently, so check [how consent and visitor recognition affect analytics in Shopify, Squarespace, Wix and other website platforms](/blog/cms-built-in-analytics) before comparing their totals.
 
 There is also a compliance overhead cost that goes beyond the banner itself. Running a consent-based setup typically requires a consent management platform such as OneTrust or Cookiebot, documented consent records, granular opt-out controls and ongoing audits of what tags fire after a visitor declines. These are recurring costs, not one-time setup. A tool that removes the need for consent removes this entire layer.
 
