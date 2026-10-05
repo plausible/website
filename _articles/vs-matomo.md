@@ -99,4 +99,4 @@ If you are evaluating other privacy-friendly tools alongside Matomo and Plausibl
 
 ## Sign up for a free Plausible trial
 
-Hugging Face, Ghost, Basecamp, Home Assistant and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside Matomo during your evaluation and compare the data before you commit.
+Mozilla, Hugging Face, Ghost, Basecamp, Home Assistant and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside Matomo during your evaluation and compare the data before you commit.
