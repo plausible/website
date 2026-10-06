@@ -73,6 +73,10 @@ Here's an independent [legal assessment on GDPR-compliant web analytics without 
 
 Here are some customers who've mentioned Plausible in their privacy policies.
 
+Stripe names Plausible as the analytics tool for its Sessions website in its [event privacy notice](https://stripe.com/gb/legal/stripe-event-privacy-and-cookies-notice):
+
+> Cookies are not used and no personal data is collected.
+
 Here's how Oatly [mentions](https://www.oatly.com/en-us/cookie-policy) us:
 
 > All users visiting our website - including visitors clicking ”No thanks"

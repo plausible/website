@@ -112,4 +112,4 @@ Choose Plausible if website analytics informs real decisions. You keep years of 
 
 ## Try Plausible free for 30 days
 
-Mozilla, Hugging Face, Ghost, Basecamp, Home Assistant and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside your current tool and see how the numbers compare.
+Stripe, Mozilla, Hugging Face, Ghost, Basecamp, Home Assistant and thousands of others use Plausible. [Sign up for a 30-day free trial](https://plausible.io/register). No credit card required. Run it alongside your current tool and see how the numbers compare.

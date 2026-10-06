@@ -2,7 +2,7 @@
 layout: article
 title: Enterprise web analytics without the compliance headaches
 description: See the traffic GA4 loses to cookie consent and ad blockers.
-  Plausible is used by Mozilla, Hugging Face, MongoDB, Harvard and 600+ other enterprise
+  Plausible is used by Stripe, Mozilla, Hugging Face, MongoDB, Harvard and 600+ other enterprise
   accounts. No cookies, no consent banners, EU hosting, DPA included.
 permalink: /enterprise-web-analytics
 cta_headline: "Ready to simplify your analytics stack?"
@@ -11,7 +11,7 @@ Large organizations need reliable analytics without creating more compliance wor
 
 Plausible takes a simpler, privacy-first approach. We don’t use cookies or collect personal data about website visitors, so our analytics don’t need a consent banner. All visitor data is processed and stored on European-owned infrastructure and never leaves the EEA.
 
-Organizations like Mozilla, Hugging Face, MongoDB, Basecamp, Sentry, the Python Software Foundation, the Steve Jobs Archive, Harvard University and the Scottish and Welsh governments use Plausible.
+Organizations like Stripe, Mozilla, Hugging Face, MongoDB, Basecamp, Sentry, the Python Software Foundation, the Steve Jobs Archive, Harvard University and the Scottish and Welsh governments use Plausible.
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
