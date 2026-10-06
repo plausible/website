@@ -111,7 +111,7 @@ Plausible is open source, so anyone can audit exactly what we collect. We run th
 
 ## Give Plausible a try
 
-Mozilla, Hugging Face, Ghost, Basecamp, Harvard, Home Assistant and thousands of other sites trust Plausible with their analytics. You can try it free for 30 days with no credit card required. [See pricing](https://plausible.io/#pricing) or [start your free trial](https://plausible.io/register).
+Stripe, Mozilla, Hugging Face, Ghost, Basecamp, Harvard, Home Assistant and thousands of other sites trust Plausible with their analytics. You can try it free for 30 days with no credit card required. [See pricing](https://plausible.io/#pricing) or [start your free trial](https://plausible.io/register).
 
 Setup takes a few minutes. Add a single script tag to your site and you're collecting data. You can run Plausible alongside your current analytics provider and only remove the other script once you're happy with what Plausible provides.
 
