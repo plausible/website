@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Google Search Console integration: search queries and analytics in one dashboard"
-description: Connect Google Search Console to Plausible and see queries, search traffic, impressions, CTR and position alongside your organic traffic and website results.
+description: Connect Google Search Console to Plausible and see queries, search traffic, impressions, CTR and position alongside your organic traffic and website analytics.
 permalink: /google-search-console
 cta_headline: "Ready to bring search queries into your analytics?"
 ---
