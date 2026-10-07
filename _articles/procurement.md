@@ -18,7 +18,9 @@ See our [pricing](https://plausible.io/#pricing) for available plans. Our docs e
 
 Subscriptions are paid by card, PayPal, Apple Pay or Google Pay at checkout and renew automatically. Paddle automatically emails you an invoice after every payment. Paddle applies any sales tax or VAT. You can add your VAT number during checkout.
 
-If your organization cannot purchase through checkout, you can add a reseller or procurement partner to your team with the [Billing role](https://plausible.io/docs/users-roles#inviting-team-members-and-assigning-roles), so they handle payment while you keep control of the team.
+Larger annual plans can also be paid by invoice and bank transfer. Email us at [hello@plausible.io](mailto:hello@plausible.io) with your sites and expected traffic and we'll set it up.
+
+If neither works for your organization, you can add a reseller or procurement partner to your team with the [Billing role](https://plausible.io/docs/users-roles#inviting-team-members-and-assigning-roles), so they handle payment while you keep control of the team.
 
 ## Who provides the service and who receives payment?
 
