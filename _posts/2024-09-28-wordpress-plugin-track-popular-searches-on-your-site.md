@@ -345,7 +345,7 @@ While doing that, you also need to ensure that Google Tag Manager settings are a
 
 In Plausible, the site search tracking setup is basically one toggle, and the analysis happens on a single-page, user-friendly report, with even more accurate insights and less cumbersome work than GA4.
 
-Even the SEO data (directly sourced from Google Search Console), channels acquisition data (i.e., the “Traffic Acquisition” report in GA4), pages data, and all the other data is available on one single page report.
+Even the SEO data (directly sourced from [Google Search Console](/google-search-console)), channels acquisition data (i.e., the “Traffic Acquisition” report in GA4), pages data, and all the other data is available on one single page report.
 
 Plausible provides more accurate insights because our script doesn’t require a consent banner setup, while GA4 does and consent banner declines cause a [data loss of 55%](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/), in comparison to Plausible.
 

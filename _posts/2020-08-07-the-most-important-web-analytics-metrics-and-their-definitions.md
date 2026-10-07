@@ -108,7 +108,7 @@ The overall level of traffic from Google search (or other search engine that dri
 
 #### Search queries people find your site with
 
-Plausible Analytics allows you to [integrate your Google Search Console account](https://plausible.io/docs/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and how your SEO strategy performs.
+Plausible Analytics allows you to [integrate your Google Search Console account](https://plausible.io/docs/google-search-console-integration/) so you can see all the search queries that Google sends you traffic with. This tells you whether you're ranking for any relevant keyword phrases and [how your SEO strategy performs](/google-search-console).
 
 ![Our top search queries from Google](/uploads/top-google-search-queries.png)
 
