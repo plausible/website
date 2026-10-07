@@ -188,7 +188,7 @@ There are also specific setup guides for [Squarespace](/docs/squarespace-integra
 
 ### Which Google searches bring people to your pages?
 
-Google no longer includes search terms in the referral information sent when someone clicks a result, so a web analytics script cannot recover them on its own. The [Google Search Console integration](/docs/google-search-console-integration) brings queries, clicks, impressions, click-through rate and position into Plausible. You can examine search terms for a page, country or device segment alongside the traffic and conversions already in the dashboard.
+Google no longer includes search terms in the referral information sent when someone clicks a result, so a web analytics script cannot recover them on its own. The [Google Search Console integration](/google-search-console) brings queries, clicks, impressions, click-through rate and position into Plausible. You can examine search terms for a page, country or device segment alongside the traffic and conversions already in the dashboard.
 
 The integration uses Search Console data, with a reporting delay of about 24 to 36 hours and Google's sampling and privacy limits. You can filter search query data by page, country or device. With goals configured, you can also see which search keywords and landing pages are associated with signups or purchases. The reporting is aggregated and does not identify the person behind a query or purchase.
 
