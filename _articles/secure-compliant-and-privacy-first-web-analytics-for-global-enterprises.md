@@ -177,6 +177,8 @@ You can also combine higher usage limits, more sites, more team members, higher 
 
 We'll work with you to put together a plan that matches your usage and workflows. If your legal or procurement team has questions about our security practices, data processing or compliance documentation, we're happy to help.
 
+Larger annual plans can be paid by invoice and bank transfer as well as by card.
+
 There are no long-term contracts or lock-ins. You can upgrade, downgrade or cancel at any time. Our terms of service, privacy policy, data policy and DPA are publicly available and apply equally to all subscribers.
 
 [Start a free trial](https://plausible.io/register) or explore the [live demo](https://plausible.io/plausible.io). No credit card required. Run Plausible alongside your current analytics to review the data before making any changes to your setup.

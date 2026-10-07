@@ -47,7 +47,9 @@ All subscriptions are processed by Paddle, our merchant of record. Paddle applie
 
 Paddle automatically emails you an invoice after every payment.
 
-If online checkout isn't an option, add your reseller or procurement partner as a team member with the [Billing role](https://plausible.io/docs/users-roles#inviting-team-members-and-assigning-roles). They can manage the subscription and payment while you keep control of the team.
+Larger annual plans can also be paid by invoice and bank transfer instead of online checkout. Email us at [hello@plausible.io](mailto:hello@plausible.io) with your sites and expected traffic and we'll set it up.
+
+If neither works for your organization, add your reseller or procurement partner as a team member with the [Billing role](https://plausible.io/docs/users-roles#inviting-team-members-and-assigning-roles). They can manage the subscription and payment while you keep control of the team.
 
 We can provide Paddle's W-9 form on request. Our company registration, VAT number and legal details are on the [imprint page](https://plausible.io/imprint), and [Purchasing and vendor information](https://plausible.io/procurement) covers the purchasing process.
 
