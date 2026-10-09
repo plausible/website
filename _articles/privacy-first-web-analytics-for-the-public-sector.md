@@ -57,7 +57,7 @@ We can provide Paddle's W-9 form on request. Our company registration, VAT numbe
 
 Public institutions rarely run one website. A library consortium can have 200 branch sites, a school district one site per school, a ministry a whole family of campaign and service sites.
 
-Plausible handles this from a single account. Standard plans include up to 10 sites. If you need more than 10, Enterprise plans combine a monthly usage tier for the network's total pageviews and custom events with a site allowance from one of our Enterprise tiers, sized to cover the whole network.
+Plausible handles this from a single account. Standard plans include up to 10 sites: one on Starter, up to 3 on Growth and up to 10 on Business. If you need more than 10, Enterprise plans combine a monthly usage tier for the network's total pageviews and custom events with a site allowance from one of our Enterprise tiers, sized to cover the whole network.
 
 Within your site allowance, adding another site does not change the price or require a plan change. Some of our customers run thousands of sites on one account.
 
