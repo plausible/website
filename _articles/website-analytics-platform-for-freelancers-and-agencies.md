@@ -149,7 +149,7 @@ You can add as many clients' websites as you want under a single account and sub
 
 ![Switch between sites in Plausible Analytics](/uploads/plausible-all-sites.png "Switch between sites in Plausible Analytics")
 
-Our standard plans include up to 10 sites. If you need more than 10, an Enterprise site allowance from one of our preset tiers covers you, with customers running thousands of sites on a single account. More on how that pricing works [below](#managing-more-than-10-client-sites).
+Our standard plans include up to 10 sites: one on Starter, up to 3 on Growth and up to 10 on Business. If you need more than 10, an Enterprise site allowance from one of our preset tiers covers you, with customers running thousands of sites on a single account. More on how that pricing works [below](#managing-more-than-10-client-sites).
 
 ### Choose the ownership model that fits your agency
 
@@ -264,7 +264,7 @@ Most agencies that try Plausible run it alongside Google Analytics for a while b
 
 ## Managing more than 10 client sites?
 
-Our standard plans include up to 10 sites. If you need more than 10, an Enterprise plan adds a site allowance from one of our preset tiers, combined with a monthly usage tier based on the pageviews plus custom events across your whole portfolio.
+Our standard plans include up to 10 sites: one on Starter, up to 3 on Growth and up to 10 on Business. If you need more than 10, an Enterprise plan adds a site allowance from one of our preset tiers, combined with a monthly usage tier based on the pageviews plus custom events across your whole portfolio.
 
 Site allowances come in preset tiers rather than a custom number per account. Once you're on a tier, you can add sites through the Sites API without contacting us or paying more, right up to that tier's ceiling, and there's no practical limit at the top: whether you're just over the standard 10-site limit or running 10,000, there's a tier for you.
 
