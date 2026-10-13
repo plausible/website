@@ -10,7 +10,7 @@ Plausible is an open source web analytics tool. No cookies, no personal data col
 
 The same code runs in two ways. [Plausible Community Edition (CE)](https://github.com/plausible/community-edition/) is the free, self-hosted, AGPL-licensed release: you run it on your own server and manage everything yourself. Our managed cloud service handles all of that for you, and revenue from subscriptions funds the ongoing development of Plausible.
 
-{% include cta-buttons.html %}
+{% include cta-buttons.html supporting_text="Prefer managed hosting? Try Plausible Cloud free for 30 days. No credit card required." %}
 
 ![Plausible: Self-hosted Google Analytics alternative](/uploads/plausible-self-hosted.png "Plausible: Self-hosted Google Analytics alternative")
 
