@@ -29,7 +29,7 @@ Thousands of organizations have switched from Google Analytics to Plausible, inc
   </figcaption>
 </figure>
 
-{% include cta-buttons.html %}
+{% include cta-buttons.html supporting_text="No cookies. No personal data collected. Try it free for 30 days, no credit card required." %}
 
 ![Plausible: A simpler Google Analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: A simpler Google Analytics alternative")
 

@@ -14,3 +14,6 @@
   </div>
   {% endunless %}
 </div>
+{% if include.supporting_text %}
+<p class="mt-3 text-center text-sm text-gray-600">{{ include.supporting_text | escape }}</p>
+{% endif %}

@@ -109,13 +109,13 @@ Your account data (customers and subscribers):
 - **Gravatar**: account profile picture, fetched via a proxy to ensure no personal data is exposed
 - **DuckDuckGo**: site favicon, fetched via a proxy
 - **Google** *(optional)*: if you import Google Analytics data or connect integrations, Google may share account-related data with us to provide the service.
-- **Help Scout and Anthropic** *(optional)*: support correspondence, only if you contact us. Help Scout stores the emails and Anthropic may help us draft replies. A team member reviews every reply before it is sent.
+- **Help Scout and Anthropic** *(optional)*: support correspondence. Help Scout stores the emails and Anthropic may help us draft replies. Anthropic doesn't use this data to train its AI models.
 - **Nolt** *(optional)*: product feedback, only if you submit feedback
 
 For visitors to plausible.io:
 
 - **Friendly Captcha** (European, Germany): spam protection on our registration and login pages
-- **Algolia and Anthropic** *(optional)*: documentation search, only if you use the search on our docs site. Algolia provides the search and Anthropic powers the AI answers.
+- **Algolia and Anthropic** *(optional)*: documentation search, only if you use the search on our docs site. Algolia provides the search and Anthropic powers the AI answers. Anthropic doesn't use your search questions to train its AI models.
 - **Mailchimp** *(optional)*: blog subscriptions, only if you subscribe to our blog. Open and link tracking are disabled on all emails.
 
 For more details on our subprocessors, see our Data Processing Agreement.
