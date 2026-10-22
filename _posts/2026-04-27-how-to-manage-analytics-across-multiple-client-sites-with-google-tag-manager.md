@@ -77,6 +77,8 @@ For interactions specific to a client's site (a particular button, a pricing pag
 
 The event shows up in the client's Plausible dashboard under Goals once you've set up the matching goal in Plausible settings.
 
+If the client's site already pushes GA4 events to the data layer (`sign_up`, `add_to_cart`, `purchase` and so on), you can reuse those as triggers instead of building new ones. The [setup guide](https://plausible.io/gtm-template#reuse-events-from-your-existing-data-layer-optional) walks through it, including revenue for purchases.
+
 ## Managing multiple containers efficiently
 
 Once you have the pattern established, a few GTM practices keep multi-site management clean.
@@ -100,7 +102,7 @@ For your own traffic, Plausible ignores it automatically once you [add the exclu
 
 ## What GTM can't do
 
-GTM is powerful but it's not universal. Some tracking requires server-side instrumentation: revenue data from payment processors, backend conversion events, authenticated user actions. For those, you'd use Plausible's [server-side events API](https://plausible.io/docs/events-api) rather than the GTM template.
+GTM is powerful but it's not universal. Some tracking requires server-side instrumentation: revenue from payment processor webhooks, backend conversion events, authenticated user actions. For those, you'd use Plausible's [server-side events API](https://plausible.io/docs/events-api) rather than the GTM template.
 
 For everything that happens in the browser, including most of what agencies track for clients, GTM handles it cleanly.
 
