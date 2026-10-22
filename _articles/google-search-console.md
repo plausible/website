@@ -14,6 +14,8 @@ You can then check conversions and funnels for Google traffic, narrow the search
 
 No Google Analytics. No extra script. No custom report.
 
+More than {{ site.data.site.search_console_connected_sites }} sites have connected Google Search Console to Plausible.
+
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
   <p class="italic text-gray-700 leading-relaxed">
     "My 100% favorite GA4 alternative so far is Plausible. Not free and not a ton of bells and whistles, but SOOOO easy to use (for clients too) and the data is near real-time. A good solution for ~70% of websites struggling with GA4."

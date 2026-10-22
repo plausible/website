@@ -132,6 +132,6 @@ Plausible is not the right fit for every use case. If you need session replay, u
 
 ## Ready to switch?
 
-You can [import your historical Google Analytics data](https://plausible.io/docs/google-analytics-import) so you don't lose your historical stats. For a full walkthrough, see the [GA to Plausible migration guide](/migrate-from-google-analytics).
+More than {{ site.data.site.google_analytics_import_sites }} sites have imported their Google Analytics history into Plausible. You can [bring your historical stats with you](https://plausible.io/docs/google-analytics-import), so switching doesn't mean starting from scratch. Follow our [GA to Plausible migration guide](/migrate-from-google-analytics) to import your data, set up goals and understand what changes.
 
 [Start your 30-day free trial](https://plausible.io/register). No credit card required. Install it alongside Google Analytics, check both dashboards side by side and switch when you're ready.
