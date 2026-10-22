@@ -138,6 +138,31 @@ You can also configure Custom Properties (see below) and Revenue Tracking data t
 
 See the [full revenue tracking documentation](https://plausible.io/docs/ecommerce-revenue-tracking) for more details.
 
+### Reuse events from your existing data layer (Optional)
+
+If your site already sends events to Google Analytics 4 through GTM, you don't need to change anything on your site. Those events are already in the data layer and the Plausible tag can listen for them too.
+
+This works for any event your site pushes, such as `sign_up`, `generate_lead`, `add_to_cart`, `begin_checkout` or `purchase`. For each one you want in Plausible:
+
+1. **Create the goal.** In your [site settings](https://plausible.io/docs/website-settings) add a custom event goal, for example "Add to Cart".
+2. **Create the trigger.** In GTM go to Triggers > New > Custom Event and enter the data layer event name, for example `add_to_cart`. It needs to match exactly what your site pushes.
+3. **Create the tag.** Add a new Plausible Analytics tag, choose Custom Event and enter the goal name from step 1. Select the trigger from step 2 and save.
+
+To send extra details with the event, such as a product category or a form name, create a Data Layer Variable for that field and add it as a custom property (see the next section).
+
+#### Example: purchases with revenue
+
+GA4 ecommerce setups push a `purchase` event that includes the order value and currency, so you can send revenue to Plausible as well:
+
+1. In Plausible, add a custom event goal called "Purchase", turn on revenue tracking and choose your base currency.
+2. In GTM go to Variables > New > Data Layer Variable. Create one with the name `ecommerce.value` and another one with `ecommerce.currency`. Leave the Data Layer Version on Version 2.
+3. Create a Custom Event trigger for `purchase`.
+4. Create a Plausible Analytics Custom Event tag called "Purchase" with that trigger. Tick Revenue Tracking, click the icon next to Currency and pick your currency variable, then do the same next to Amount with your value variable.
+
+To test it, place a test order in Preview mode and check in Tag Assistant that the Plausible tag fired with the amount and currency filled in.
+
+Signups and lead forms are often covered by the Form Submissions checkbox without any extra setup, so check that before recreating them from the data layer.
+
 ### Add Custom Properties (Optional)
 
 The Plausible GTM tag lets you send [custom properties](https://plausible.io/docs/custom-props/introduction) (extra data) with every pageview.
