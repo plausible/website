@@ -31,6 +31,8 @@ We are self-funded and profitable, with no outside investors and no plans to sel
 
 Our primary obligation is to our customers. They fund the company and guide its direction, because no one else does.
 
+More than {{ site.data.site.five_year_paying_teams }} teams have been paying for Plausible for five years or longer. Their continued support helps us build an independent business for the long term.
+
 ## How we grow
 
 We have never spent a cent on advertising, affiliates or paid endorsements. Plausible grows because people recommend it when they have no reason to other than that it works. That kind of trust cannot be bought, and it says more about the product than anything we could claim about ourselves.

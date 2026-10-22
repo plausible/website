@@ -8,6 +8,8 @@ cta_headline: "Ready to leave Google Analytics behind?"
 
 If you have decided to leave GA4, this guide covers the practical steps: importing your data, setting up goals and tracking, and understanding what will feel different.
 
+More than {{ site.data.site.google_analytics_import_sites }} sites have imported their Google Analytics history into Plausible. Bring your historical stats with you, so switching doesn't mean starting from scratch.
+
 This is not a comparison page. If you are still deciding, start with [Plausible vs Google Analytics](/vs-google-analytics). If you are ready to switch, read on.
 
 <figure class="my-6 pl-5 border-l-4 border-indigo-200">
@@ -63,7 +65,7 @@ You can run Plausible alongside GA4 while you get familiar with the new dashboar
 
 ## Step 2: Import your historical data
 
-Before removing GA4, import your historical GA4 data into Plausible so you have continuity. Plausible handles deduplication so there are no gaps or double-counting issues.
+Before removing GA4, import your historical GA4 data into Plausible so you can refer back to it. Plausible adjusts import date ranges to avoid double-counting. Imports depend on the data available in GA4 and cannot fill gaps after Plausible started collecting your traffic.
 
 [How to import your Google Analytics data →](/docs/google-analytics-import)
 
