@@ -1,167 +1,179 @@
 ---
 layout: post
-title: "Google Analytics pricing: What do free GA4 and GA360 really cost?"
-description: "Is Google Analytics free? Understand GA4 limits, reported GA360 pricing and the costs of running your setup before paying for more analytics."
+title: "Google Analytics pricing: Free GA4 and paid GA360 explained"
+description: "How much does Google Analytics cost? Understand free GA4 limits, GA360 pricing and the costs of running your setup."
 slug: google-analytics-pricing
-date: 2026-10-21T10:00:00.000Z
+date: 2026-10-22T10:00:00.000Z
 author: hricha-shandily
-published: false
+image: /uploads/google-analytics-360-cohort-exploration.png
+image-alt: Google Analytics 360 cohort exploration showing weekly event counts and an unsampled exploration notice
 ---
 
-You should be able to understand which pages and campaigns work without building profiles of the people who visit your website. A growing audience should not make that harder.
+**The standard version of Google Analytics 4 (GA4) is free. Its paid enterprise version, Google Analytics 360 (GA360), requires a quote. Google does not publish a current dollar price list.**
 
-Google Analytics takes a different approach. Its website and app measurement connects closely with Google's advertising products. You can use the standard version for free or pay for Google Analytics 360 to get higher limits and additional enterprise capabilities. But buying more capacity only helps if that approach fits what you need to measure.
+That is the subscription answer. The more useful question is what you get for the money, including the work it takes to turn your analytics into something your team can use.
 
-Here's the pricing answer first: **standard Google Analytics 4 (GA4) has no subscription fee. Google Analytics 360 (GA360) is sold by quote, with a reported starting price of around US$50,000 per year.** That figure comes from reseller reporting, not a current public Google price list.
+Here's how the free and paid versions work, where the GA360 price figures come from and what to consider before upgrading or renewing.
 
-We'll explain where it comes from, what affects the bill and how to decide whether paying for GA360 solves your problem.
-
-*Pricing sources and product documentation checked in October 2026. All dollar figures below are US dollars.*
+*All dollar amounts are US dollars. Sources checked in October 2026.*
 
 1. Ordered list
 {:toc}
 
 ## Is Google Analytics free?
 
-Yes. [Standard Google Analytics](https://marketingplatform.google.com/about/analytics/) is free to use. You do not start paying a subscription simply because your website reaches a certain number of monthly visitors.
+[Standard Google Analytics](https://marketingplatform.google.com/about/analytics/) has no subscription fee. You can use it for a business website without buying GA360. A growing audience does not automatically trigger a paid plan.
 
-The distinction is between the free product's limits and the paid service, rather than a visitor threshold that automatically generates a bill.
+GA4 already includes [traffic reports, campaign measurement, ecommerce reporting and funnel explorations](https://marketingplatform.google.com/about/analytics/features/). GA360 gives organizations higher limits and additional enterprise capabilities within GA4.
 
-| Version | Subscription price | What you're choosing |
+| Product | Subscription cost | What that covers |
 |---|---|---|
-| GA4 Standard | Free | Google's measurement model within the standard limits |
-| Google Analytics 360 | Custom quote; reported starting point around $50,000/year | Higher limits, additional controls and enterprise support |
+| GA4 Standard | Free | Website and app analytics within standard limits |
+| GA4 360 | Custom quote; no public Google dollar price list | Higher limits, additional controls and enterprise support |
 
-The free subscription does not include every cost of operating your setup. If you use paid implementation support, a consent management platform or a data warehouse, those can have their own bills. Your team's time matters too.
+You can still incur costs around the free version. An agency might manage your implementation. Your team might export data to BigQuery or maintain custom reports. Those expenses are separate.
 
-That does not mean every GA4 setup is expensive to run. It means the subscription price is only one part of the calculation.
+Free GA4 does not come with a mandatory agency bill. Equally, a GA360 license does not necessarily cover all the work around it.
 
 ## How much does Google Analytics 360 cost?
 
-Google directs prospective Analytics 360 customers to [contact sales](https://marketingplatform.google.com/about/analytics-360/). It does not publish a dollar price list on that page.
+Google does not publish a dollar price list on its [Analytics 360 page](https://marketingplatform.google.com/about/analytics-360/). You can [contact Google's enterprise sales team or a Google Marketing Platform sales partner](https://marketingplatform.google.com/about/contact-us/) for a quote.
 
-The often-cited **$50,000/year starting price** comes from [Cardinal Path's August 2022 explanation of GA4 360 pricing](https://www.cardinalpath.com/blog/ua-360-vs-ga4-360-pricing-model). The reseller describes a suggested starting price that includes 25 million events per month.
+A [reseller article published in 2022](https://www.cardinalpath.com/blog/ua-360-vs-ga4-360-pricing-model) described a suggested $50,000 annual starting price. This is a historical reference point, not a verified current minimum. You need a current quote to establish what your organization would pay.
 
-Treat that as a published reference point, not a guaranteed quote for your organization today. Ask Google or a sales partner for the rates and services that apply to your usage and market.
+*The [suggested $150,000 annual starting price for Universal Analytics 360](https://www.cardinalpath.com/blog/ua-360-vs-ga4-360-pricing-model) refers to the older product. It should not be confused with GA4 360 pricing or presented as today's minimum.*
 
-### Why do some articles say $150,000 a year?
+### What makes a GA360 bill increase?
 
-Many refer to the older Universal Analytics 360 product. Cardinal Path distinguishes its suggested $150,000 annual price from the newer GA4 360 pricing model.
+[Google's billing documentation](https://support.google.com/marketingplatform/answer/9013858) describes a base fee covering the first 25 million monthly events, followed by tiered fees for additional volume. The per-event rate falls at higher tiers.
 
-These figures describe different product generations. A current GA4 360 contract can still cost more than $150,000 depending on usage and terms, but the older figure should not be presented as today's universal minimum.
+An event allowance is not a visitor allowance. Someone can arrive on a page, scroll, view another page and submit a form during one visit. Your configuration determines which interactions generate events. Google excludes certain events from billing, including user engagement, spam and hidden system events.
 
-## How GA360 pricing works
+[Subproperties](https://support.google.com/analytics/answer/11526072) and roll-up properties can add processing charges too. They let organizations split reporting into subsets or combine multiple properties. For example, [Google documents an additional roll-up event charge](https://support.google.com/analytics/answer/11539651) at half the source-event cost, subject to your contract.
 
-[Google's billing documentation](https://support.google.com/marketingplatform/answer/9013858) describes two parts: a fixed base fee covering the first 25 million monthly events and a variable fee for additional event volume. The per-event rate decreases at higher volume tiers.
+Ask for a quote based on **billable events and your complete property structure**. Pageviews alone will not tell you what the bill should be.
 
-Events are not visitors or pageviews. A single visit can generate several events, such as a pageview, a scroll and a signup. Your tracking configuration therefore affects the volume you process.
+Eligible admins can also [preview usage and sample pricing in Google Marketing Platform](https://support.google.com/marketingplatform/answer/9013858). Google notes that the preview rates are not contractual and can vary by market. It is a useful check against your usage, rather than a substitute for your agreement.
 
-Google also distinguishes billable events from total events. Its documentation excludes user engagement, spam and hidden system events from billing. Use the billable count when reviewing a quote.
+## What are you buying when you upgrade to GA360?
 
-### Your property structure can add cost
+GA360 makes sense when a specific limit or enterprise requirement gets in the way of work you already do.
 
-GA360 lets organizations separate or combine their reporting using subproperties and roll-up properties. A subproperty contains a subset of a source property's data. A roll-up combines data from multiple source properties.
+For example, a team that needs complete daily BigQuery exports above the standard allowance has a concrete capacity problem. An organization that needs separate reporting for regional teams may have a property-management requirement.
 
-Those additional processing steps can affect your bill. For example, [Google documents an additional charge for roll-up events](https://support.google.com/analytics/answer/11539651) at half the cost of source-property events, subject to your contract. Ask your provider to include your full property structure in the estimate.
-
-### How to get an estimate for your setup
-
-Eligible organization and billing admins can review usage and sample GA4 pricing in Google Marketing Platform. [Google explains how to access the preview](https://support.google.com/marketingplatform/answer/9013858), while noting that its displayed rates are not contractual and can vary by market.
-
-If you're buying through a partner, ask for a breakdown of the base fee, billable-event tiers, property charges and included services. Check what happens when volume grows and what support costs extra.
-
-## What does paying for GA360 change?
-
-GA360 raises limits within GA4 and adds enterprise capabilities. It does not replace GA4 with a simpler analytics product.
-
-Here are several differences from [Google's Standard versus 360 documentation](https://support.google.com/analytics/answer/11202874):
+Several differences appear in [Google's Standard versus 360 documentation](https://support.google.com/analytics/answer/11202874):
 
 | Capability | GA4 Standard | GA4 360 |
 |---|---|---|
 | Event parameters | 25 per event | 100 per event |
 | Audiences | 100 per property | 400 per property |
-| Daily BigQuery export | 1 million events | Billions of events |
-| Enterprise service-level agreements | Not included | Available under a 360 contract |
+| Daily BigQuery export | 1 million events per day | [Up to 20 billion events per day](https://support.google.com/analytics/answer/9358801) |
+| Enterprise service-level agreements | Not included | Covered by a 360 contract |
 
-Longer retention is another reason organizations consider upgrading. But the often-mentioned 14-month limit in free GA4 does **not** mean all your traffic reports disappear after 14 months. Google's [retention setting applies to explorations and funnel reports](https://support.google.com/analytics/answer/7667196), not standard aggregated reports. GA360 offers longer options, with restrictions depending on property size.
+Streaming BigQuery exports are a separate option with no event-volume limit in either version. [Google describes streaming as a best-effort service](https://support.google.com/analytics/answer/9358801) that may have data gaps and incurs additional BigQuery charges. Exceeding the daily export allowance does not mean every export route requires GA360, but streaming is not equivalent to a complete daily export.
 
-The useful question is which specific limit prevents you from doing your work. If you need a larger daily export, that is a capacity requirement. If colleagues struggle to find campaign results, a higher export limit will not address it.
+GA360 also offers longer retention options. One detail frequently gets lost in comparisons: the free version's 14-month retention setting does **not** mean all your traffic reports vanish after 14 months. Google's [retention setting governs explorations and funnel reports](https://support.google.com/analytics/answer/7667196), not standard aggregated reports.
 
-## What does your analytics setup cost to run?
+Retention also depends on data type and property size. Google limits user-level and key-event data retention to 14 months even in GA360; the longer settings apply to other event data. Large standard properties and XL 360 properties are limited to two months of event-level retention.
 
-Use your own invoices and working hours to calculate this. An invented estimate of agency fees or lost revenue tells you little about your organization.
+These differences can justify an upgrade. They do not make GA4 a different product to use. Higher limits won't make a confusing report easier for your colleagues to understand.
 
-| Cost | What to include |
+## The costs outside the subscription
+
+A useful analytics budget includes the work needed to get from a visitor arriving on your site to a report someone acts on.
+
+### Setting up and maintaining measurement
+
+Installing a tag is only the beginning if you need custom events, consent configuration or a reporting pipeline. Someone has to define those events, test that they fire correctly and maintain them when your website changes.
+
+That work may be handled internally, by an agency or through your GA360 partner. Check what is included before adding a separate allowance for it.
+
+### Getting reports into people's hands
+
+Consider your last campaign review. Could the marketing team see which landing pages generated signups? Or did someone have to build an exploration, export a spreadsheet and explain why the numbers differed from another report?
+
+Count that time. A report that requires specialist help every month has an ongoing cost even when the software subscription is free.
+
+### Running the surrounding tools
+
+If you use BigQuery, server-side tagging infrastructure or a paid consent management platform, include the relevant costs. Replacing analytics will not remove a consent platform you still need for advertising or other tools.
+
+For a practical estimate, fill in this worksheet using your own invoices and working hours:
+
+| Recurring cost | Your monthly amount |
 |---|---|
-| Subscription | Your GA360 quote or renewal price; zero for standard GA4 |
-| Additional usage | Charges outside the included event allowance |
-| External services | Implementation, maintenance and support not already included |
-| Infrastructure | Relevant warehouse storage, queries or tagging infrastructure |
-| Consent management | The analytics-related share, if applicable |
-| Internal time | Hours spent maintaining tracking and producing reports |
+| GA360 license, if applicable | Annual license fee divided by 12 |
+| Additional usage | Charges outside your included allowance |
+| Agency or partner services | Work not already included in the license |
+| Infrastructure and other tools | The share attributable to analytics |
+| Internal maintenance and reporting | Monthly hours multiplied by your internal hourly cost |
 
-Keep one-time setup costs separate from recurring costs. Avoid counting support twice if it is already bundled into the license. If other tools require your consent platform, replacing analytics will not remove that whole bill.
+Add those amounts and multiply by 12 for a recurring annual estimate. Record one-time implementation costs separately. If your traffic is seasonal, use a full year of invoices or model the months individually.
 
-For internal time, start with one month. Record how long your team spends maintaining events, building reports and resolving discrepancies. Multiply those hours by your own cost estimate rather than a generic industry rate.
+## GA360 still depends on your consent setup
 
-Some of that work remains useful with any tool. The question is how much of it helps you understand your website and how much exists to keep the setup working.
+There is another question a price comparison needs to answer: will the upgrade fix the problem that made you look for one?
 
-## Do you need more analytics capacity or a different approach?
+If you need higher export limits, GA360 can help. If your concern is relying on cookie consent to measure your website, buying more capacity leaves that collection model in place.
 
-Start with the decisions your team makes.
+With [basic Consent Mode](https://support.google.com/analytics/answer/10000067), Google's tags remain blocked when a visitor does not consent. Advanced Consent Mode sends cookieless signals and can support modeling to fill gaps, subject to [eligibility requirements](https://support.google.com/analytics/answer/11161109). Modeled activity and directly observed visits are different kinds of evidence. Google also states that advanced Consent Mode does not increase GA360 event-based billing.
 
-Suppose you run a busy SaaS website. Every month, your marketing team wants to know which campaigns bring trial signups, which landing pages convert and where visitors leave the signup flow.
+## Plausible Enterprise: simpler web analytics at scale
 
-Those are website performance questions. They do not inherently require recognizing the same person across a phone, laptop and mobile app, then using that identity to build an advertising audience.
+Plausible is a privacy-first, open source alternative to Google Analytics. We built it to help you understand your website without tracking people across the internet. We don't use cookies or collect personal data about website visitors, so [our analytics don't require a consent banner](/data-policy). We're an independent business funded by subscriptions, with visitor data kept on [European-owned infrastructure in the EEA](/eu-hosted-web-analytics).
 
-If those cross-device and advertising workflows are central to your business, include them explicitly in your evaluation. Google's [Analytics 360 positioning](https://marketingplatform.google.com/about/analytics-360/) is built around customer measurement and integration with its advertising products.
+You don't have to move to GA360 to keep measuring a growing website. Plausible shows which campaigns bring signups, which pages generate revenue and where visitors abandon a funnel.
 
-But high traffic alone does not establish that need. A publisher with millions of monthly pageviews may primarily need to understand readership, referral sources and subscriptions. The scale is substantial. The questions can still be straightforward.
+And simpler analytics doesn't mean smaller websites. The largest site in our network receives around one billion monthly pageviews. Organizations including Hugging Face, MongoDB and Basecamp use Plausible.
 
-Before upgrading or renewing, list the reports people actually use and the decisions they support. Then identify the capabilities those reports depend on. That gives you a concrete basis for choosing your analytics.
+Our Enterprise plans extend that approach to organizations with higher traffic, more sites and larger teams. They can include Single Sign-On (SSO) using SAML 2.0, the Sites API for programmatic site management, a managed proxy to reduce blocking and scheduled raw event data exports for your warehouse. We agree the features and limits with you, so you can get higher capacity without taking every Enterprise feature.
 
-## How Plausible answers website questions at scale
+Check out the details of our Enterprise plans [here](/enterprise-web-analytics).
 
-We built Plausible so website owners can understand their audience without tracking individuals. We don't use cookies or collect personal data about website visitors. We don't run an advertising business or sell your analytics data. Our business is providing analytics that people choose to pay for.
+### How Plausible Enterprise compares with GA360
 
-That approach extends to large organizations. Plausible runs on European-owned infrastructure, with visitor data processed and stored in the EEA. Our [Enterprise offering](/enterprise-web-analytics) supports large teams and high-traffic sites. The largest site in our network receives around one billion monthly pageviews.
+For an Enterprise decision, look at how each product collects data, supports your workflows and charges for usage:
 
-For the SaaS team above, the reporting could look like this:
+| Requirement | Plausible Enterprise | Google Analytics 360 |
+|---|---|---|
+| Analytics consent | No cookies; no consent banner needed for Plausible | [Basic Consent Mode blocks tags without consent; advanced mode sends cookieless signals and supports modeling](https://support.google.com/analytics/answer/10000067), subject to eligibility |
+| Cross-device measurement | Deliberately does not recognize the same person across devices | [User-ID can connect activity across devices and platforms](https://support.google.com/analytics/answer/9213390) when implemented in accordance with Google's policies |
+| Advertising audiences | Campaign and conversion reporting without building remarketing audiences | [Google Ads integration](https://support.google.com/analytics/answer/9379420) supports conversion sharing and remarketing |
+| Reporting across websites | [Consolidated View](https://plausible.io/docs/consolidated-views) is available from the Business plan, including Enterprise. It combines native traffic across sites in a team; excludes imported data and revenue goals | [Roll-up properties](https://support.google.com/analytics/answer/11526039) require GA360, Google's paid enterprise version. They combine source properties; subproperties provide filtered datasets |
+| Raw data for your warehouse | [Daily event- and session-level exports](https://plausible.io/docs/raw-data-export) to S3-compatible storage, ready for your own loading pipeline | [Native BigQuery exports](https://support.google.com/analytics/answer/11202874), including daily and streaming options |
+| Data retention | Extended retention agreed as part of your plan | [Up to 50 months for other event data](https://support.google.com/analytics/answer/7667196); user-level and key-event data are limited to 14 months. Property-size limits also apply |
+| Pricing basis | Custom plan based on pageviews plus custom events, required features and limits | Base fee plus tiered billable-event charges; subproperties and roll-ups can add costs |
 
-| Question | How to answer it in Plausible |
+### Which questions can each tool answer?
+
+Several Google workflows below are also available in free GA4. GA360 adds higher limits and enterprise controls.
+
+| Analytical question | Better fit |
 |---|---|
-| Which campaigns bring trial signups? | Set a signup goal and break conversions down by campaign |
-| Which landing pages convert? | Filter by that goal and compare entry pages |
-| Where does the signup flow lose visitors? | Define the steps with funnel analysis |
-| What paths lead to a conversion? | Explore user journeys backwards from a goal |
-| Which sources bring sales? | Send purchase values with a custom event and use revenue tracking |
+| Which [marketing channels](https://plausible.io/docs/top-referrers) bring the most visitors? | Both |
+| Which landing pages have the highest [conversion rates](https://plausible.io/docs/goal-conversions)? | Both; configure goals in Plausible and [key events in GA360](https://support.google.com/analytics/answer/13128484) |
+| Where do visitors abandon a [signup funnel](https://plausible.io/docs/funnel-analysis)? | Both, with funnel steps configured |
+| Which campaigns generate the most [recorded website revenue](https://plausible.io/docs/ecommerce-revenue-tracking)? | Both, with revenue tracking configured; attribution differs |
+| What [paths do visitors take before converting](https://plausible.io/docs/user-journeys)? | Both; Plausible's user journeys currently exclude revenue and property-filtered goals |
+| How do individuals behave across devices and apps? | [GA360, with User-ID configured](https://support.google.com/analytics/answer/9213390); Plausible deliberately does not link people across devices |
+| Can we build remarketing audiences from analytics behavior? | [GA360, through Google Ads integration](https://support.google.com/analytics/answer/9379420); Plausible does not build remarketing audiences |
+| Can we export event-level data for our warehouse? | Both; [Plausible delivers daily exports to S3-compatible storage](https://plausible.io/docs/raw-data-export) for your own warehouse pipeline |
+| Can we measure conversions without cookies or persistent visitor profiles? | [Plausible, by design](https://plausible.io/data-policy) |
 
-The dashboard covers traffic out of the box. Goals, funnels and revenue measurement need the relevant configuration. You choose what to measure because it answers a question, rather than collecting extra events just in case.
+If your workflow depends on cross-device customer measurement or activating analytics audiences in Google Ads, those are capabilities Plausible deliberately doesn't provide. And if you need events in BigQuery within minutes, our daily raw exports won't meet that requirement. Check the workflows you rely on before replacing them.
 
-[Explore our live dashboard](https://plausible.io/plausible.io) to see how the reports work.
+Plausible's [pageviews and custom events](https://plausible.io/docs/subscription-plans#how-usage-is-calculated) also won't necessarily match your GA4 billable-event count. Compare quotes using the volume and requirements for each product, rather than assuming the same event allowance buys the same thing.
 
-### Enterprise requirements without individual profiling
+**Need a simple and privacy-friendly enterprise analytics tool?** [Discuss a Plausible Enterprise plan with us](https://plausible.io/contact). Tell us your traffic volume, the sites you manage and the reports your team relies on. We'll explain how Plausible would handle them and put together a quote.
 
-Depending on your agreed plan, Enterprise can include Single Sign-On (SSO), the Sites API, a managed proxy and scheduled raw event data exports. Higher traffic limits do not require taking every Enterprise feature.
+[Explore Plausible's live dashboard](https://plausible.io/plausible.io) to see how the reporting works.
 
-The details matter. [Scheduled raw event data exports](https://plausible.io/docs/raw-data-export) deliver event- and session-level data daily to S3-compatible object storage. You can load that data into your warehouse, but it is not a native real-time BigQuery feed. Plausible also deliberately avoids persistent cross-device visitor profiles and remarketing audiences.
+## Try the reports before choosing the subscription
 
-Check those requirements before switching. See our [subscription documentation](https://plausible.io/docs/subscription-plans) for the available features and limits.
+You don't have to decide from a feature table. [Start a 30-day free trial](https://plausible.io/register) and run Plausible alongside your existing analytics. No credit card is required.
 
-### What about Plausible Enterprise pricing?
+Use it for an actual reporting task: review a campaign, compare landing-page conversions or investigate a signup funnel. Check whether your colleagues can get the answers they need and understand how those answers were measured.
 
-As of October 2026, even our highest-priced active Enterprise subscription costs less annually than GA4 360's reported $50,000 starting price. That describes our current subscriptions, rather than a price ceiling for every future custom plan.
+The standard trial includes Business plan features. [Contact us](https://plausible.io/contact) to discuss your Enterprise requirements such as SSO or scheduled exports.
 
-Your Plausible quote depends on usage and requirements. Billable usage includes pageviews and custom events, so don't assume your GA4 event count translates directly into a Plausible tier.
-
-[Tell us what you need to measure](https://plausible.io/contact), along with your traffic volume, number of sites and Enterprise requirements. We can put together a plan around that work.
-
-## Check the reports before committing to the bill
-
-An analytics upgrade should help your team make decisions. Start with the questions your colleagues need answered, then check the cost and complexity of answering them.
-
-If your current setup depends on Google's advertising and customer-identity workflows, account for those dependencies. If you primarily need to understand website traffic and conversions, evaluate what Plausible can do with less visitor data and a simpler dashboard.
-
-You can [start a 30-day free trial](https://plausible.io/register) with no credit card required and run Plausible alongside your current analytics. The standard trial includes Business plan features. [Contact us](https://plausible.io/contact) to arrange an evaluation of Enterprise requirements such as SSO or scheduled exports.
-
-Compare whether you can produce the reports you need, how much work they take and how the tools' measurement methods differ. The totals will not necessarily match. The aim is to choose a setup whose numbers you understand and can use.
+Your website can grow without making individual tracking the foundation of your analytics. Plausible is built for that choice.
