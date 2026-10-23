@@ -145,6 +145,8 @@ Once registered and collecting data, custom dimensions become available in:
 * Once created, you *cannot* change a custom dimension’s scope or its parameter name: only its display name or description. If you need a different setup, you must archive and recreate.
 * Use consistent naming and keep cardinality low (i.e. avoid high-cardinality values like [raw user IDs](https://plausible.io/blog/pii-examples#in-user-ids)) to keep reports performant and compliant with Generally Accepted Analytics practices.
 
+If those limits are blocking your reporting, check [how GA360 pricing works](/blog/google-analytics-pricing#how-much-does-google-analytics-360-cost) before deciding to upgrade.
+
 ## Custom Properties: Plausible's simpler and effective version of custom dimensions
 
 We are Plausible Analytics, the [no-fuss alternative to GA4](https://plausible.io/vs-google-analytics)Custom Properties is our version of custom dimensions.
