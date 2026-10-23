@@ -99,7 +99,7 @@ If you are looking for a genuine EU alternative to Google Analytics, do give Pla
 
 Thousands of organizations have switched to Plausible, including brands like Oatly, Basecamp and Ghost, institutions like Harvard University and MongoDB, and government organizations like the Scottish and Welsh governments. It is a [genuine Google Analytics alternative](https://plausible.io/vs-google-analytics) built for scale, serving sites with hundreds of millions of monthly visitors.
 
-Plausible is an independent, bootstrapped project with {{ site.data.site.subscriber_count }} paying subscribers and {{ site.data.site.pageviews_tracked }} pageviews tracked.
+Plausible is an independent, bootstrapped project with {{ site.data.site.subscriber_count }} paying subscribers and {{ site.data.site.events_stored }} events stored.
 
 We also feature a [Google Analytics import](https://plausible.io/docs/google-analytics-import) so you can import your historical stats from Google Analytics to Plausible.
 
