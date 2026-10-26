@@ -14,8 +14,13 @@ layout: default
     <h1 class="text-3xl mt-2 tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">{{ page.title | escape }}</h1>
 
     <div class="mt-2">
-      <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% if page.last_modified_at %}<span class="uppercase text-xs text-gray-500 font-bold">• Updated <time>{{ page.last_modified_at | date: "%b %-d, %Y" }}</time></span>{% endif %}
+      {% assign published_day = page.date | date: "%Y%m%d" | plus: 0 %}
+      {% assign updated_day = page.last_modified_at | date: "%Y%m%d" | plus: 0 %}
+      {% if page.last_modified_at and updated_day > published_day %}
+        <span class="uppercase text-xs text-gray-500 font-bold">Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time></span>
+      {% else %}
+        <time class="uppercase text-xs text-gray-500 font-bold" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% endif %}
       {% assign author = site.data.authors[page.author] %}
       <span class="text-xs uppercase font-bold text-gray-500">• Written by <a class="uppercase text-xs text-indigo-600 font-bold hover:underline" href="https://twitter.com/{{author.twitter}}">{{ author.name }}</a></span>
     </div>
