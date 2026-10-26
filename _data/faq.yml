@@ -13,10 +13,10 @@
       answer: "No. The prices on our pricing page exclude VAT. Paddle, our payment processor, adds VAT at checkout where it applies, based on your country. Businesses can add their VAT number at checkout (see the next question). <a class='text-indigo-600' href='https://paddle.com/support/which-countries-does-paddle-charge-vat-for/'>See which countries Paddle charges VAT for</a>."
 
     - question: How do I add my VAT number?
-      answer: "On the second step of checkout, click \"Add VAT number\" alongside your payment details. Paddle handles all tax calculations and applies the correct rate based on your details. If you missed this step, open any Paddle invoice and click \"Add address & VAT Number\". Paddle will refund the VAT on your original payment and apply the correct rate going forward. <a class='text-indigo-600' href='https://paddle.com/support/which-countries-does-paddle-charge-vat-for/'>See which countries Paddle charges VAT for</a>."
+      answer: "On the second step of checkout, click \"Add VAT number\" alongside your payment details. Paddle handles all tax calculations and applies the correct rate based on your details. If you missed this step, open your most recent Paddle invoice and click \"Add address & VAT Number\". Once Paddle accepts a valid VAT number, no VAT is charged on future payments and your details appear on invoices from then on. Invoices already issued stay as they were. UK businesses are the exception: Paddle still charges UK VAT, which you can reclaim on your VAT return. <a class='text-indigo-600' href='https://paddle.com/support/which-countries-does-paddle-charge-vat-for/'>See which countries Paddle charges VAT for</a>."
 
-    - question: How do I change my billing address or legal entity?
-      answer: "Open any invoice and click \"Edit business address\" to update your address details. To change the country on your subscription, let your current subscription run to the end of its billing period, cancel it and resubscribe from the same Plausible account with the correct country. All your data, sites and settings stay unchanged. Paddle does not allow country changes on active subscriptions due to tax regulations."
+    - question: How do I change my billing address, VAT number or country?
+      answer: "Open any invoice and click \"Edit business address\" to update your company name or address. The billing country and VAT number can't be changed on a running subscription. That's Paddle's rule, since tax is worked out from both at checkout. To change either, cancel your subscription in your account settings a day or two before your next renewal, then subscribe again right away from the same Plausible account with the new details. All your sites, stats and settings stay as they are. <a class='text-indigo-600' href='https://plausible.io/docs/billing#how-do-i-change-the-country-on-my-subscription'>More on changing billing details</a>."
 
     - question: How do I get an invoice?
       answer: "Paddle (our payment processor) emails an invoice to your billing address automatically after each payment. You can also <a class='text-indigo-600' href='https://plausible.io/docs/download-invoices'>open past invoices</a> in your account settings. Each invoice opens in a browser tab. Use your browser's Print command and select Save as PDF to save a copy. If invoices aren't reaching the right address, see the question above about changing your invoice email."
@@ -31,10 +31,13 @@
       answer: "You don't need to size your plan for a single peak month. Pick a plan that fits your typical usage. One month over your limit requires no action and triggers no extra charges. If usage exceeds your plan for two consecutive months, we'll ask you to upgrade. If your traffic later settles back down, you can downgrade and the unused portion is applied as credit to future payments. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>How overages work</a> | <a class='text-indigo-600' href='https://plausible.io/docs/change-plan'>Changing your plan</a>."
 
     - question: How do I cancel my subscription and what happens to my data?
-      answer: "You can cancel at any time from the Subscription section in your account settings. Your stats continue being collected and you have full access until the end of your billing period. After that, your dashboard is locked but your data is retained for a period based on your plan. You can export your data at any time from your site settings, and resubscribe whenever you like to unlock your dashboards and resume data collection. <a class='text-indigo-600' href='https://plausible.io/docs/cancel-subscription'>Full cancellation details</a>."
+      answer: "You can cancel at any time from the Subscription section in your account settings. Your stats continue being collected and you have full access until the end of your billing period. After that, your dashboard is locked and we may later delete your sites and stats. We'll email you before that happens. You can export your data from your site settings at any time, even after your subscription has ended. Resubscribe from the same account before the deletion date to unlock your dashboards with all your history. <a class='text-indigo-600' href='https://plausible.io/docs/cancel-subscription'>Full cancellation details</a>."
 
     - question: How does billing work when I upgrade or downgrade?
       answer: "When upgrading, Paddle calculates a pro-rated charge based on what you've already paid and the time remaining in your current billing period. When downgrading, the unused portion is added as credit applied to future payments. <a class='text-indigo-600' href='https://plausible.io/docs/change-plan'>Learn more about changing your plan</a>."
+
+    - question: My renewal payment failed. What happens now?
+      answer: "Paddle retries the payment automatically 3, 5 and 7 days after it first fails, and you keep full access to your stats in the meantime. To pay right away, click Billing details in the Subscription section of your account settings and update your card. Paddle then charges it again. If all the retries fail, your subscription is paused and your dashboards are locked until you update your payment details. <a class='text-indigo-600' href='https://plausible.io/docs/billing#why-did-my-payment-fail'>Common reasons a payment fails</a>."
 
 - category: Goals, events & conversions
   items:
@@ -56,7 +59,7 @@
       answer: "Plausible filters bots automatically using multiple layers: User-Agent blocking of known crawlers, referrer spam filtering, data center IP filtering and traffic pattern detection. We block approximately 4 billion bot visits per month across our network, on top of bots that don't run JavaScript at all. <a class='text-indigo-600' href='https://plausible.io/docs/bot-traffic-filtering'>See the full bot filtering overview</a>."
 
     - question: I think bots are inflating my stats. Can I block specific sources?
-      answer: "You can use the <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> to block visits from specific IP addresses, hostnames or countries from being recorded. For referral sources that look like spam, you can filter them out in your dashboard view. If you're seeing bot traffic that our filters should be catching, email us with the dates and source details and we'll investigate."
+      answer: "You can use the <a class='text-indigo-600' href='https://plausible.io/docs/excluding'>Shields feature</a> to stop visits from specific IP addresses, countries or pages from being recorded, or to only record visits on your own hostnames. Blocked traffic doesn't count towards your usage. For referral sources that look like spam, you can filter them out in your dashboard view. If you're seeing bot traffic that our filters should be catching, email us with the dates and source details and we'll investigate."
 
     - question: I think the bot filter is removing real visitors. What can I do?
       answer: "Our filters are aggressive by design and false positives do happen occasionally. If you suspect legitimate traffic is being excluded, email us with specifics and we'll investigate."
@@ -70,7 +73,7 @@
       answer: "The free trial is 30 days and no credit card is required. If you haven't subscribed when it ends, your dashboard is locked. If you don't subscribe, we'll stop collecting new stats and eventually delete your dashboards and all their stats permanently. We'll email you before deletion so you have time to subscribe or export your stats. Subscribe before deletion to keep your historical stats. Deleted stats cannot be recovered. <a class='text-indigo-600' href='https://plausible.io/docs/trial'>How the free trial works</a>."
 
     - question: What's the difference between the Starter, Growth and Business plans?
-      answer: "All plans cover the same pageview tiers. The difference is features and team size. Starter is for solo use on a single site. Growth adds multiple sites, team members and dashboard sharing. Business adds funnels, revenue tracking, custom properties and Stats API access. Enterprise covers large-scale needs with custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy and Sites API. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans'>Choose the right plan</a>."
+      answer: "All plans cover the same pageview tiers. The difference is features and team size. Starter is for solo use on a single site. Growth adds multiple sites, team members and dashboard sharing. Business adds funnels, revenue tracking, custom properties and Stats API access. Enterprise covers large-scale needs with custom limits on pageviews, sites, team members and API calls, plus SSO, managed proxy and Sites API. <a class='text-indigo-600' href='https://plausible.io/docs/subscription-plans'>Choose the right plan</a>."
 
     - question: Do you have a free plan?
       answer: "We don't have a free plan. Plausible is independent and funded solely by the fees our subscribers pay. We're not monetizing the data we collect, so a subscription fee is needed to cover our costs and salaries."
@@ -82,7 +85,7 @@
       answer: "Yes. We offer a 15% discount for nonprofits, educational institutions and open-source projects. It applies to Business plans on annual billing only. <a class='text-indigo-600' href='https://plausible.io/docs/nonprofit-and-education-pricing'>Full details on nonprofit and education pricing</a>."
 
     - question: I received an email saying my dashboard will be locked. What should I do?
-      answer: "This means your usage has exceeded your plan tier for two consecutive months. If your traffic has already dropped back to normal, no action is needed: your dashboard will automatically unlock at the start of your next billing cycle. If you need access restored now, you can upgrade from your account settings and the charge is pro-rated so you only pay the difference. Either way, stats continue being collected in the background while any lock is in place. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>More details on overages and upgrades</a>."
+      answer: "This means your usage has exceeded your plan tier for two consecutive months. If your traffic has already dropped back to normal, no action is needed: your dashboard will automatically unlock at the start of your next billing cycle. If you need access restored now, you can upgrade from your account settings and the charge is pro-rated so you only pay the difference. Either way, stats continue being collected in the background while any lock is in place. If you think bot or spam traffic pushed you over your limit, email us with the dates and traffic sources. If we confirm it was bot traffic, you may not need to upgrade. <a class='text-indigo-600' href='https://plausible.io/docs/billing'>More details on overages and upgrades</a>."
 
 - category: Getting started & tracking issues
   items:
@@ -100,6 +103,12 @@
 
     - question: Can I track visitors across my domain and subdomain?
       answer: "Yes. Use the same snippet on both the domain and its subdomain. This lets you follow the visitor journey end-to-end, from arriving on your main domain to converting on a subdomain. <a class='text-indigo-600' href='https://plausible.io/docs/subdomain-hostname-filter'>Learn more about hostname and subdomain tracking</a>."
+
+    - question: I'm adding my site but it says the domain is already registered. What should I do?
+      answer: "This usually means the domain is still on an older Plausible account, such as an expired trial. If you can log in to that account, delete the site from its site settings or transfer it to your new account. If you can't, email us from the login address of your new account with the domain and we'll sort it out. <a class='text-indigo-600' href='https://plausible.io/docs/transfer-ownership'>How site transfers work</a>."
+
+    - question: I lost my two-factor authentication device and my recovery codes. How do I log in?
+      answer: "Email us from your account's login address. We'll verify the account and remove two-factor authentication so you can log in with your password and turn it on again. <a class='text-indigo-600' href='https://plausible.io/docs/2fa'>More about two-factor authentication</a>."
 
     - question: Can I import my Google Analytics data?
       answer: "Yes. You can import your historical Google Analytics stats into your Plausible dashboard. <a class='text-indigo-600' href='https://plausible.io/docs/google-analytics-import'>See how the GA importer works</a>."

@@ -2,7 +2,6 @@
   title: "Starter"
   benefits:
     - "One site"
-    - "3 years of data retention"
     - "Intuitive, fast and privacy-friendly dashboard"
     - "Email/Slack reports"
     - "Google Analytics import"
@@ -31,7 +30,6 @@
     - "Everything in Growth"
     - "Up to 10 sites"
     - "Up to 10 team members"
-    - "5 years of data retention"
     - "Custom Properties"
     - "Stats API (600 requests per hour)"
     - "Data Studio Connector"
@@ -51,7 +49,6 @@
     - "Single Sign-On (SSO)"
     - "Managed Proxy"
     - "Scheduled raw event data exports"
-    - "5+ years of data retention"
     - "Priority support"
   style:
     main: "bg-gray-900 text-white"
