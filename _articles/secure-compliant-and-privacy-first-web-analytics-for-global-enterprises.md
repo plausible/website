@@ -148,7 +148,6 @@ You can learn more about [white labeling](https://plausible.io/white-label-web-a
 
 In addition to the features above, Enterprise plans offer:
 
-* **Extended data retention**, starting at 5+ years to make it easier to analyze trends over time, compare performance year over year and meet internal reporting requirements. If you need longer, we can discuss and set a custom limit.
 * **Higher API limits**, starting at 600+ Stats API requests per hour. If you need more, we can discuss and set a custom limit.
 * **Priority support** with faster response times and direct access to the Plausible team when issues or questions arise.
 

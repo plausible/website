@@ -16,7 +16,7 @@ If you're using GA4 and wondering whether it's still the right tool, that's a re
 | Personal data collected | No | Yes |
 | Script blocked by ad blockers | Rarely | Often |
 | Data modeled or estimated | No | Yes (consent mode) |
-| Data retention | From 3 years | 14 months on free plan |
+| Data retention | No limit while you're subscribed | 2 or 14 months of event-level data on the free plan |
 | Setup complexity | One script tag | Tag Manager, events, custom reports |
 | Hosted in the EU | Yes | No |
 | Open source | Yes | No |

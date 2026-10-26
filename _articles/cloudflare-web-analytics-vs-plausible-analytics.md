@@ -56,7 +56,7 @@ Cloudflare Web Analytics lets you access data from the previous six months. That
 
 Six months still rules out year-on-year comparisons and makes it harder to understand seasonality. If last year's launch, holiday period or traffic decline falls outside the window, you cannot compare against it.
 
-Plausible retains your data for a minimum of three years across all plans.
+Plausible keeps your stats for as long as you're subscribed. There's no retention limit on any plan, so you can compare against any period since you started.
 
 ## Older and larger Cloudflare reports may be sampled
 
