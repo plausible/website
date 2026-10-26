@@ -54,6 +54,18 @@ description: Find answers to common questions about Plausible Analytics. Contact
               <p class="text-sm text-gray-500">Data policy, DPA, security questionnaires and data processing</p>
             </div>
           </a>
+          <a href="https://plausible.io/docs/data-access" class="relative rounded-lg border border-gray-200 bg-white px-5 py-4 hover:border-indigo-400 flex items-start space-x-3">
+            <div>
+              <p class="text-sm font-medium text-gray-900">API & data exports</p>
+              <p class="text-sm text-gray-500">Stats API, exports and which option fits your use case</p>
+            </div>
+          </a>
+          <a href="https://plausible.io/docs/users-roles" class="relative rounded-lg border border-gray-200 bg-white px-5 py-4 hover:border-indigo-400 flex items-start space-x-3">
+            <div>
+              <p class="text-sm font-medium text-gray-900">Teams, access & site transfers</p>
+              <p class="text-sm text-gray-500">Team roles, guests, shared links and moving sites between accounts</p>
+            </div>
+          </a>
         </div>
 
         <div class="mt-4 flex flex-wrap gap-x-6 gap-y-2">
@@ -64,11 +76,12 @@ description: Find answers to common questions about Plausible Analytics. Contact
 
         <div class="mt-8 rounded-lg border border-gray-200 bg-white px-5 py-4">
           <p class="text-sm font-medium text-gray-900">Looking for an enterprise plan?</p>
-          <p class="text-sm text-gray-500 mt-1">Custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy, Sites API and priority support. <a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">See what's included</a> or email us with your expected monthly pageviews and custom events, number of sites, team size and API requirements.</p>
+          <p class="text-sm text-gray-500 mt-1">Custom limits on pageviews, sites, team members and API calls, plus SSO, managed proxy, Sites API and priority support. <a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">See what's included</a> or email us with your expected monthly pageviews and custom events, number of sites, team size and API requirements.</p>
         </div>
 
         <div class="mt-8" x-data="{ topic: null }">
-          <p class="text-gray-800 leading-7">Still need help? Select what your question is about for a direct answer, or email us at <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a>. We typically reply within one business day.</p>
+          <p class="text-gray-800 leading-7">Still need help? Select what your question is about for a direct answer, or email us at <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a>. We typically reply within one business day. Please write from the email address you use to log in to Plausible and include your site's domain, so we can find your account straight away.</p>
+          <p class="mt-3 text-sm text-gray-500">Reporting a security issue? See our <a class="text-indigo-600" href="https://plausible.io/vulnerability-disclosure-program">vulnerability disclosure program</a>. Running the self-hosted Community Edition? Ask in the <a class="text-indigo-600" href="https://github.com/plausible/analytics/discussions/categories/self-hosted-support">community forum</a>.</p>
 
           <div class="mt-4 flex flex-wrap gap-2">
             <button @click="topic = 'billing'" class="rounded-full border px-3 py-1.5 text-sm transition-colors" :class="topic === 'billing' ? 'border-indigo-400 bg-indigo-50 text-indigo-700' : 'border-gray-200 bg-white text-gray-700 hover:border-indigo-300'">Billing &amp; invoices</button>
@@ -119,7 +132,7 @@ description: Find answers to common questions about Plausible Analytics. Contact
           </div>
 
           <div x-show="topic === 'enterprise'" x-cloak class="mt-4 rounded-lg border border-gray-200 bg-gray-50 px-5 py-4 text-sm text-gray-700">
-            <p><a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">Our enterprise plan</a> includes custom limits on pageviews, sites, team members, API calls and data retention, plus SSO, managed proxy, Sites API and priority support. Email us with your expected monthly pageviews and custom events, number of sites, team size and API requirements.</p>
+            <p><a class="text-indigo-600" href="https://plausible.io/enterprise-web-analytics">Our enterprise plan</a> includes custom limits on pageviews, sites, team members and API calls, plus SSO, managed proxy, Sites API and priority support. Email us with your expected monthly pageviews and custom events, number of sites, team size and API requirements.</p>
             <p class="mt-3 pt-3 border-t border-gray-200 text-gray-500">Ready to talk? Email <a class="text-indigo-600" href="mailto:hello@plausible.io">hello@plausible.io</a></p>
           </div>
         </div>
