@@ -26,7 +26,7 @@ An independent review by a data protection lawyer confirms Plausible requires no
 
 ## Legal documents
 
-- **[Data Processing Agreement (DPA)](https://plausible.io/dpa)**: covers GDPR obligations, processor responsibilities, data location, breach notification (48-hour obligation) and subprocessor controls. Applies to all customers automatically.
+- **[Data Processing Agreement (DPA)](https://plausible.io/dpa)**: covers GDPR obligations, processor responsibilities, data location, breach notification (48-hour obligation), audit rights and subprocessor controls. Applies to all customers automatically.
 - **[Privacy policy](https://plausible.io/privacy)**: how Plausible handles data related to account holders.
 - **[Terms of service](https://plausible.io/terms)**: the contract governing use of Plausible.
 - **[Imprint](https://plausible.io/imprint)**: legal entity details, company registration and registered address.
