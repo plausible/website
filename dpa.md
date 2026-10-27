@@ -69,7 +69,7 @@ More details are available on our [security page](https://plausible.io/security)
 
 * Plausible Analytics will notify the customer without undue delay if an instruction infringes applicable Data Protection Legislation.
 
-* Plausible Analytics ensures confidentiality of visitor data.
+* Plausible Analytics ensures confidentiality of visitor data. Persons authorised to process visitor data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality.
 
 * Authorized personnel may access visitor data where necessary to provide support, maintain the service and ensure security.
 
@@ -84,6 +84,10 @@ More details are available on our [security page](https://plausible.io/security)
 * Plausible Analytics processes data only on documented instructions and does not modify or delete data unless instructed or required by law. These instructions include the deletion policy described below.
 
 * Plausible Analytics assists the customer with data protection obligations and forwards data subject requests to the customer.
+
+* Plausible Analytics makes available to the customer the information necessary to demonstrate compliance with Article 28 GDPR, primarily through our published documentation (see our [compliance page](https://plausible.io/compliance)) and written answers to the customer's questions.
+
+* Where that information is not sufficient, or a supervisory authority requires it, Plausible Analytics allows for and contributes to audits, including inspections, conducted by the customer or an independent auditor mandated by the customer. Such audits require at least 30 days' written notice, take place during normal business hours without disrupting the service, are limited to once per year unless a supervisory authority requires otherwise, are bound by confidentiality, and are carried out at the customer's cost. Inspections cover Plausible Analytics' own systems and processes. Facilities operated by our hosting providers are covered by those providers' own security controls.
 
 ## How we handle delete instructions
 
@@ -123,6 +127,6 @@ If you have questions about this DPA, contact us at privacy@plausible.io.
 
 ---
 
-**Last updated: September 2026**
+**Last updated: October 2026**
 
-Added deletion instructions for dashboards and stats after trial expiry or subscription lapse, consistent with the Terms of Service.
+Added information and audit rights (Article 28(3)(h) GDPR) and a confidentiality commitment for persons authorised to process visitor data (Article 28(3)(b) GDPR).
