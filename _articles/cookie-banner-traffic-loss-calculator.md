@@ -188,7 +188,7 @@ Cookie consent banners exist because personal data is being collected and stored
 
 Plausible does not use cookies. It does not store any personal data. The dashboard presents aggregated session and pageview statistics without persistent visitor identifiers. Because nothing personal is collected, there is nothing to consent to, and no banner is required in most jurisdictions including under GDPR and CCPA.
 
-Every visitor shows up. The ones who would have declined, the ones who would have bounced from the banner, the ones who block tracking scripts out of habit. None of them disappear.
+The visitors who would have declined and the ones who would have bounced from the banner are counted like everyone else. None of them disappear behind a consent prompt.
 
 Some brands address this without removing their existing consent setup entirely. Oatly, for example, uses Plausible specifically for visitors who decline their cookie banner, keeping their traffic data complete for the segment most likely to be invisible in other tools.
 
@@ -196,6 +196,6 @@ The consent acceptance rate stops being a variable in your analytics accuracy be
 
 Whether a consent banner is required depends on your specific setup, audience location and any other tools running on your site. If you are running Plausible alongside other tracking tools that use cookies, those tools may still require consent. For a detailed legal assessment of when consent is and is not required, see our [guide written by a data protection lawyer](/blog/legal-assessment-gdpr-eprivacy). Nothing on this page is legal advice.
 
-If your GA data shows 28,400 visitors per month with a 45% consent rate, your actual traffic is closer to 51,600. Switching to Plausible does not manufacture traffic. It makes the traffic you already have visible.
+If your GA data shows 28,400 visitors per month with a 45% consent rate, your actual traffic is closer to 63,100. Switching to Plausible does not manufacture traffic. It makes the traffic you already have visible.
 
 If you are spending on paid acquisition, the same distortion affects your cost per acquisition directly. Fewer recorded conversions means a higher reported CPA, making campaigns look less efficient than they are. Use the [ad cost calculator](/ad-cost-calculator) to see what a more accurate conversion count does to your numbers.

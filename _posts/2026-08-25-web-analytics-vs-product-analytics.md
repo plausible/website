@@ -130,7 +130,17 @@ Plausible can instead tell you how many visitors completed a signup or activatio
 
 This is also why a “unique visitor” in web analytics should not be treated as a SaaS user count. Your billing system or product database is the source of truth for accounts, subscriptions and churn.
 
-For a broader view of other use cases outside Plausible's scope—including session replay, retargeting and user-level tracking—read [when Plausible is not the right fit](/when-not-to-use-plausible).
+For a broader view of other use cases outside Plausible's scope, including session replay, retargeting and user-level tracking, read [when Plausible is not the right fit](/when-not-to-use-plausible).
+
+## Plausible or PostHog?
+
+PostHog comes up a lot in this comparison because it now offers web analytics too, alongside product analytics, session replay, feature flags, experiments and surveys. So for many teams the real choice is between one large platform and a focused tool.
+
+PostHog makes sense if your team wants all of that in one place and is happy to manage what gets collected. Its [GDPR documentation](https://posthog.com/docs/privacy/gdpr-compliance) says it automatically captures data that can be personal data, so you need a way for visitors to consent. There is a [cookieless mode](https://posthog.com/docs/privacy/cookieless-tracking), but you have to turn it on, and session replay and surveys don't work for visitors who haven't consented. PostHog Cloud EU runs on [AWS in Frankfurt](https://posthog.com/blog/posthog-cloud-eu). PostHog is venture funded and has [raised around $194m](https://posthog.com/handbook/story) since 2020.
+
+Plausible makes sense if what you need is website analytics, done in a way that needs no consent banner from day one. There's nothing to configure for privacy because there's no personal data to begin with. We're a self-funded company incorporated in Estonia, and visitor data stays on [EU-owned infrastructure](/eu-hosted-web-analytics) at Hetzner in Germany and UpCloud in Finland.
+
+Plenty of SaaS teams use both. Plausible on the marketing site, where you want every visitor counted without a banner, and a product analytics tool inside the logged-in app.
 
 ## SaaS use cases Plausible does cover
 
@@ -151,7 +161,7 @@ This works well for a defined conversion or onboarding path. It is not a substit
 
 ### Marketing attribution through to a meaningful conversion
 
-A signup count alone can reward channels that bring a lot of low-intent traffic. A more useful setup sends a later milestone—such as `Created Project`, `Booked Demo` or `Upgraded`—as a goal.
+A signup count alone can reward channels that bring a lot of low-intent traffic. A more useful setup sends a later milestone, such as `Created Project`, `Booked Demo` or `Upgraded`, as a goal.
 
 You can then filter that goal by referral source, channel, UTM campaign or landing page. This answers questions such as “Which campaign brought visitors who reached activation?” without building profiles for those visitors.
 
@@ -213,4 +223,4 @@ If your needs sit in the overlap, write down the exact question. “Can it track
 
 Those questions make the choice much easier.
 
-Plausible is built for teams that want clear answers about acquisition, website behavior and conversion without tracking people across the internet—or across months of product use. It can also measure selected activity inside a product. If that matches your needs, explore [Plausible for SaaS](/for-saas) or start a [free 30-day trial](/register). If you need retention cohorts or long-term user and account histories, choose a dedicated product analytics tool, whether or not you also use Plausible for your website.
+Plausible is built for teams that want clear answers about acquisition, website behavior and conversion without tracking people across the internet, or across months of product use. It can also measure selected activity inside a product. If that matches your needs, explore [Plausible for SaaS](/for-saas) or start a [free 30-day trial](/register). If you need retention cohorts or long-term user and account histories, choose a dedicated product analytics tool, whether or not you also use Plausible for your website.

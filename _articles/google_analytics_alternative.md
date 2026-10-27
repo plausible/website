@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Plausible vs Google Analytics 4 (GA4): What changed and why people are switching"
-description: GA4 is a fundamentally different product from Universal Analytics. If you're reconsidering your setup, here's how Plausible compares and what you actually gain by switching.
+title: "Plausible vs GA4: a simpler Google Analytics 4 alternative"
+description: "Looking for a GA4 alternative? Plausible shows your traffic on one simple dashboard, with no cookie banner and no personal data. Installs with one script tag."
 permalink: /vs-google-analytics
 cta_headline: "Ready to switch from Google Analytics?"
 ---

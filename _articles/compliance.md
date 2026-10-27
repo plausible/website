@@ -12,17 +12,17 @@ For purchasing steps, payment-recipient details and supplier documentation, see 
 
 ## Why Plausible is low-risk to approve
 
-Plausible does not process personal data or track individual users. This puts it in a different category from most analytics tools in a vendor risk assessment.
+Plausible does not collect personal data or track individual users. This puts it in a different category from most analytics tools in a vendor risk assessment.
 
 Specifically:
 
-- No personal data is collected. No IP addresses, device fingerprints or persistent identifiers of any kind.
+- No personal data is collected. IP addresses are only used to generate a daily rotating visitor hash and are never stored. No device fingerprints or persistent identifiers of any kind.
 - No cookies are set. Nothing to consent to, no cookie banner required on your site.
 - All data is processed and stored in the EU on servers owned by European companies. Data never leaves the EU.
 - No data is shared with or sold to third parties.
 - A DPA is in place automatically for all customers. You do not need to request one.
 
-An independent review by a data protection lawyer confirms Plausible requires no cookie consent and falls outside the scope of GDPR personal data processing. [Read the full legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy).
+An independent review by a data protection lawyer confirms Plausible requires no cookie consent. Visitor data is pseudonymized on arrival and fully anonymized within 24 hours, so it can be processed on the basis of legitimate interest. [Read the full legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy).
 
 ## Legal documents
 

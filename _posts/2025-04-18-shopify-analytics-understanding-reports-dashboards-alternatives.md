@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shopify Analytics: Understanding reports, dashboards & alternatives"
-description: Shopify Analytics covers store and sales reporting. Plausible replaces Google Analytics with simpler privacy-first traffic, campaign and conversion analytics.
+description: "Shopify Analytics comes with every Shopify plan. What its dashboard, reports and live view show, what they miss on traffic and campaigns and when to add Plausible."
 slug: shopify-analytics
 date: 2025-04-21T12:02:17.753Z
 last_modified_at: 2026-09-03

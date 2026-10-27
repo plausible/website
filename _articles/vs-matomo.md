@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Plausible vs Matomo: A simple, privacy-first alternative"
-description: Plausible and Matomo are both open source analytics tools. Here's how they differ on simplicity, privacy, performance and setup.
+description: "Looking for a Matomo alternative? Plausible swaps dozens of reports for one simple dashboard. No cookies, no consent banner and a 2.5 KB script, not 22 KB."
 permalink: /vs-matomo
 cta_headline: "Ready to switch from Matomo?"
 ---

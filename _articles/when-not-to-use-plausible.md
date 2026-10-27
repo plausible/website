@@ -128,4 +128,4 @@ Plausible is likely not a good fit if you:
 
 If Plausible fits what you are looking for, [start a free 30-day trial](/register). No credit card required. Run it alongside what you use now and see how the results compare on your own site. You can also review our [compliance documentation](/compliance) before you decide.
 
-If you are also evaluating other privacy-friendly tools, our [buyer's guide to privacy-friendly analytics](/privacy-friendly-web-analytics) covers the criteria that separate tools that are genuinely privacy-first from those that only claim to be.
+If you are also evaluating other privacy-friendly tools, our [buyer's guide to privacy-friendly analytics](/privacy-friendly-web-analytics) covers the criteria that separate tools that are genuinely privacy-first from those that only claim to be. For a direct look at Umami, Fathom and Simple Analytics, see [how to choose between them and Plausible](/plausible-umami-fathom-simple-analytics).
