@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Why pay for an analytics tool when Google Analytics is free?
-description: Google Analytics isn't free. Here's what it costs in time, compliance overhead and missing data, and why Plausible is a better deal.
+description: "Google Analytics 4 is free to install. The real cost is setup time, consent banners and the visitors who decline them. Plausible starts at $9/month."
 permalink: /paid-analytics-vs-free-ga
 cta_headline: "Ready for analytics worth paying for?"
 ---

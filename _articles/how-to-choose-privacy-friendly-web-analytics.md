@@ -43,6 +43,8 @@ There is no single best tool for every site. A personal blog, agency client dash
 
 Use the criteria below as a stable checklist. They let you evaluate any analytics tool without relying on feature tables that go stale as products change.
 
+If you're weighing Plausible against Umami, Fathom or Simple Analytics specifically, we've applied these criteria in [Plausible, Umami, Fathom or Simple Analytics: how to choose](/plausible-umami-fathom-simple-analytics). And here's [when Plausible is not the right fit](/when-not-to-use-plausible).
+
 ## Does it require a cookie consent banner?
 
 In Europe, cookie banners are usually about two related questions: does the tool store or access information on the visitor's device, and does it process personal data? Persistent identifiers, tracking cookies, cross-site tracking and many analytics configurations need consent before they run.

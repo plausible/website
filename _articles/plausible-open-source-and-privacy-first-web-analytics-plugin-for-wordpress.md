@@ -43,7 +43,7 @@ Thousands of teams including Ghost, Basecamp and the Python Software Foundation 
 
 Here is how Plausible compares to [Google Analytics](https://plausible.io/vs-google-analytics):
 
-* No cookies, no long-term identifiers, no personal data collection. Fully GDPR, CCPA and PECR compliant out of the box. All data is processed on [EU-owned infrastructure](https://plausible.io/blog/google-analytics-illegal). Read more about [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics).
+* No cookies, no long-term identifiers, no personal data collection. Fully GDPR, CCPA and PECR compliant out of the box. All data is processed on [EU-owned infrastructure](/eu-hosted-web-analytics). Read more about [privacy-first web analytics](https://plausible.io/privacy-focused-web-analytics).
 * [Lightweight script](https://plausible.io/lightweight-web-analytics) that's just {{ site.data.site.plausible_script_kb }} KB, {{ site.data.site.script_ratio }} times smaller than Google Analytics, so it will not slow down your site.
 * [Much more accurate](https://plausible.io/most-accurate-web-analytics) than GA4. Not blocked by most ad blockers and not affected by cookie consent losses.
 * [Simple to use](https://plausible.io/simple-web-analytics) from day one. All key metrics on one page: top posts, referral sources, engagement metrics (time on page, scroll depth, bounce rate and more), external link clicks and goal conversions.

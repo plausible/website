@@ -1,8 +1,7 @@
 ---
 layout: article
 title: "Plausible: Self-Hosted Google Analytics alternative"
-description: Plausible Analytics is a privacy-friendly and open source Google
-  Analytics alternative that you can install and self-host on your server.
+description: "Plausible Community Edition is free to self-host and open source (AGPLv3). How running it on your own server compares to our managed, EU-hosted cloud."
 permalink: /self-hosted-web-analytics
 cta_headline: "Ready to get started with Plausible?"
 ---

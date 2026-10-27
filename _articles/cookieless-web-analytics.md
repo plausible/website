@@ -8,7 +8,7 @@ cta_headline: "Ready for analytics without the cookie banner?"
 
 Most analytics tools were built around individual tracking. To connect a visitor's first visit to a return visit, a paid ad click to a conversion, you need a persistent identifier. Cookies became the default because they made that possible.
 
-That model worked until privacy regulations caught up with it. GDPR, CCPA and similar laws require informed consent before placing persistent identifiers on a visitor's device. Consent requires a banner. And every visitor who declines or ignores the banner disappears from your data.
+That model worked until privacy regulations caught up with it. In the EU, placing non-essential identifiers on a visitor's device requires informed consent. Consent requires a banner. And every visitor who declines or ignores the banner disappears from your data.
 
 [Plausible](https://plausible.io/) is analytics without cookies or any persistent identifiers, built that way from the start. Not as a workaround for regulations, but because individual tracking was never the goal. The result is analytics that works for the full range of your visitors, requires no consent banner under most privacy regulations and keeps your data complete by default.
 
@@ -49,13 +49,13 @@ That tradeoff is deliberate. You cannot use Plausible to reconstruct an individu
 
 Analytics tools like Google Analytics were built to track individuals. Knowing that the same person visited three times, arrived from a paid ad and then purchased requires connecting those events to a persistent identity. Cookies do that reliably, which is why they became the default.
 
-The problem is not the cookie itself. The problem is what it represents: personal data collection tied to an identifiable device. Under GDPR, CCPA and similar laws, collecting personal data requires a legal basis. For most commercial websites, that basis is consent. Consent requires a banner. The banner creates a split: visitors who click accept get tracked, visitors who decline do not.
+The problem is not the cookie itself. The problem is what it represents: personal data collection tied to an identifiable device. Under GDPR, collecting personal data requires a legal basis. For most commercial websites, that basis is consent. Consent requires a banner. The banner creates a split: visitors who click accept get tracked, visitors who decline do not.
 
 Google Analytics cannot measure what it has no permission to touch. The data gap that results is structural. It is not a configuration problem you can route around.
 
 ## How Plausible provides cookieless analytics
 
-Plausible is cookie-free analytics: no cookies, no persistent identifiers, nothing to consent to. To count unique visitors, we generate a random string of letters and numbers that is reset every 24 hours. We do not build persistent visitor profiles or track people across websites or devices.
+Plausible is cookie-free analytics: no cookies, no persistent identifiers, nothing to consent to. To count unique visitors, we hash the IP address and User-Agent with a salt that is deleted every 24 hours. The raw IP address is never stored. We do not build persistent visitor profiles or track people across websites or devices.
 
 The Plausible dashboard presents aggregated statistics: how many visitors, how many pageviews, which pages were most visited, which sources sent the most traffic. That is what most site owners actually need to make decisions about their content, their campaigns and their product. We collect less and show you more of what matters.
 

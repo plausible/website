@@ -166,6 +166,6 @@ The problem is that third-party cookie deprecation has made this whole approach 
 
 Moreover, [recent independent studies](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) have shown that the data tracked in Google Analytics is not accurate, missing up to 55% of traffic compared to Plausible.
 
-GA4 is not GDPR-compliant, is known to profile your users and sell their data, requires a learning curve and compromises the user experience. We cover [the full comparison between Plausible and Google Analytics](https://plausible.io/vs-google-analytics) in detail.
+GA4 uses cookies, so it needs a consent banner in the EU, and several EU data protection authorities have ruled against specific uses of it. It also takes time to learn and slows down your site. We cover [the full comparison between Plausible and Google Analytics](https://plausible.io/vs-google-analytics) in detail.
 
 Plausible is trusted by {{ site.data.site.subscriber_count }} teams including Mozilla, Hugging Face, Ghost, Basecamp and Home Assistant. [Try it free for 30 days](https://plausible.io/register), no credit card required. Run it alongside Google Analytics and see how the audience numbers compare when data is complete.
