@@ -88,7 +88,7 @@ Outbound link clicks, file downloads and form completions can be tracked automat
 [Set up custom event goals →](/docs/custom-event-goals)
 [Automatic link and download tracking →](/docs/script-extensions)
 
-For funnels, build 2-8 step funnels using any combination of your goals as steps. [Funnel analysis →](/docs/funnel-analysis)
+Build 2-8 step funnels from any pages and events on your site. [Funnel analysis →](/docs/funnel-analysis)
 
 For open-ended path exploration without a predefined sequence, pick any page or event as a starting point and trace what visitors did next. [User journeys →](/docs/user-journeys)
 
