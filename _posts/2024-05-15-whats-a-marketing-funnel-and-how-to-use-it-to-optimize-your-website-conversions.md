@@ -28,7 +28,7 @@ In a nutshell, funnel optimization is the constant process of engineering the cl
 
 Because funnels come with a lot of nuances, and are non-linear and non-time-bound in nature, every business/marketing needs to find its own unique funnels.
 
-If you already use Plausible, you can [build funnels directly in your dashboard](https://plausible.io/docs/funnel-analysis) without any extra setup beyond the goals you already track.
+If you already use Plausible, you can [build funnels directly in your dashboard](https://plausible.io/docs/funnel-analysis) from the pages and events you already track, with no extra setup.
 
 1. Ordered list
 {:toc}

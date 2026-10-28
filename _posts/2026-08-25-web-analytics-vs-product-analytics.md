@@ -148,7 +148,7 @@ The boundary does not mean Plausible stops being useful when someone clicks “S
 
 ### Signup funnels
 
-You can combine pageview goals and custom event goals into a funnel such as:
+You can combine pages and events into a funnel such as:
 
 1. Viewed pricing
 2. Started signup

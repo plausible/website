@@ -88,7 +88,7 @@ Each goal shows you completions, conversion rate and which referral sources are 
 
 ### Funnel analysis
 
-Once you have goals set up, you can chain them into a funnel to see where visitors drop off between steps. A typical SaaS funnel might track: visited pricing → started trial → completed onboarding → upgraded to paid.
+You can chain pages and events into a funnel to see where visitors drop off between steps. A typical SaaS funnel might track: visited pricing → started trial → completed onboarding → upgraded to paid.
 
 Funnel analysis shows you exactly where the conversion breaks down. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 

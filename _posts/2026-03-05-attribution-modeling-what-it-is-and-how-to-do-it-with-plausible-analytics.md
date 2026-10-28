@@ -208,7 +208,7 @@ This layer is often the most actionable because it directly informs where market
 
 ### 5. Use funnels to understand progression
 
-Plausible does not reconstruct multi-session journeys, but you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) by stitching together goals to understand if and how many visitors are moving between key steps, what and where the dropoffs are, etc. 
+Plausible does not reconstruct multi-session journeys, but you can build [funnels](https://plausible.io/blog/funnels-conversion-optimization) by stitching together pages and events to understand if and how many visitors are moving between key steps, what and where the dropoffs are, etc. 
 
 For open-ended path analysis, you can also use [User Journeys](https://plausible.io/docs/user-journeys) to see what visitors did before or after a conversion. We explain the strategy and examples in our guide to [website journey analytics](https://plausible.io/blog/website-journey-analytics).
 
