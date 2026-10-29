@@ -49,7 +49,7 @@ The connector includes the main fields used for traffic, acquisition, content, g
 
 ## Getting started
 
-Setup takes a few minutes. You'll need a Plausible Stats API key, which you can create in your account settings under API Keys.
+Setup takes a few minutes. You'll need a Plausible Stats API key, which you can create in your Plausible settings under API Keys. Select the team whose sites you want to report on first.
 
 See the full setup guide in our [Data Studio documentation](https://plausible.io/docs/looker-studio).
 
