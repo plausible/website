@@ -58,6 +58,8 @@ Agencies split ownership in different ways, and you can mix them:
 * **The client owns it.** Each client gets its own [team](/docs/users-roles) with its own members and subscription. You stay on as a member.
 * **Hand it over at the end.** Set the site up yourself, then [transfer ownership](/docs/transfer-ownership) when the project is done. The client takes over billing and you can keep access.
 
+You can [create your team](/docs/users-roles#creating-a-new-team) when you sign up and invite colleagues or clients from day one.
+
 On the Business plan, the [consolidated view](/docs/consolidated-views) combines all your sites into one dashboard. That gives you a quick read on the whole portfolio without opening each site, and you can still drill into any of them.
 
 ## Share stats without teaching anyone GA
