@@ -95,13 +95,13 @@ For open-ended exploration, [user journeys](https://plausible.io/docs/user-journ
 
 ## Track ecommerce revenue
 
-You can send monetary values alongside custom events to [track revenue for your store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution shows you which campaigns and landing pages generate the most revenue, not just the most clicks.
+You can send monetary values alongside custom events to [track revenue for your store](https://plausible.io/docs/ecommerce-revenue-tracking). Revenue attribution shows you which campaigns and landing pages generate the most revenue, not just the most clicks. It works from the visit itself, so you don't need customer IDs, payment-provider API keys or records of individual shoppers.
 
 ![Plausible ecommerce revenue tracking](/uploads/plausible-ecommerce-revenue-goal.png "Plausible ecommerce revenue tracking")
 
 Revenue tracking supports multiple currencies. You'll see total revenue and average order value in your dashboard, and all revenue metrics are fully filterable by date, referral source, campaign, entry page, country or device.
 
-GA4 ecommerce tracking relies on cookies to do this. Plausible doesn't, which means no consent banner between your visitor and your checkout, and no data lost to declines.
+GA4 ecommerce tracking relies on cookies to do this. Plausible doesn't, which means no consent banner between your visitor and your checkout, and no data lost to declines. On Shopify, the checkout is the exception: in regions where Shopify asks for consent, it only loads checkout pixels, including Plausible's, for shoppers who accept its banner unless you change the pixel's privacy setting. Our [Shopify guide](https://plausible.io/docs/shopify-integration#choose-the-pixels-customer-privacy-settings) shows how.
 
 Also see: [How to boost ecommerce sales by tracking revenue attribution in web analytics](https://plausible.io/blog/ecommerce-revenue-attribution)
 

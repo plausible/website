@@ -86,9 +86,17 @@ You can track any action you want visitors to take: visiting a pricing page, cli
 
 Each goal shows you completions, conversion rate and which referral sources are driving those completions. So when your growth team asks which channel delivers the most paying customers, not just the most signups, Plausible can answer it. Here are the instructions on [how to get started with goals and events](https://plausible.io/docs/custom-event-goals).
 
+### Revenue from your checkout
+
+Plausible credits revenue to the visit the purchase happened in. There's no payment integration to connect, no API key to hand over and no customer ID stored.
+
+Send the amount and currency with a purchase event when a checkout succeeds, whether it runs on Stripe, Paddle, Lemon Squeezy, Polar or your own billing page. Plausible then shows total and average revenue by referral source, campaign, entry page, country and device, and on every funnel step that uses the purchase goal. Purchases in other currencies are converted to your reporting currency automatically. Here are the instructions on [how to track revenue](https://plausible.io/docs/ecommerce-revenue-tracking#track-payments-from-stripe-paddle-lemon-squeezy-and-polar).
+
+Renewals, refunds and MRR stay in your billing system, because Plausible doesn't link a payment to a person across visits. If customers upgrade days after their trial, track the trial start as your attributed conversion and keep using Stripe or Paddle for trial-to-paid and churn. See [how to track trials and later upgrades](https://plausible.io/docs/ecommerce-revenue-tracking#saas-trials-and-upgrades-that-happen-in-a-later-visit).
+
 ### Funnel analysis
 
-You can chain pages and events into a funnel to see where visitors drop off between steps. A typical SaaS funnel might track: visited pricing → started trial → completed onboarding → upgraded to paid.
+You can chain pages and events into a funnel to see where visitors drop off between steps. A typical SaaS funnel might track: visited pricing → started trial → completed onboarding.
 
 Funnel analysis shows you exactly where the conversion breaks down. Here are the instructions on [how to get started with funnels](https://plausible.io/docs/funnel-analysis).
 

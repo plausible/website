@@ -4,7 +4,7 @@ title: "Shopify Analytics: Understanding reports, dashboards & alternatives"
 description: "Shopify Analytics comes with every Shopify plan. What its dashboard, reports and live view show, what they miss on traffic and campaigns and when to add Plausible."
 slug: shopify-analytics
 date: 2025-04-21T12:02:17.753Z
-last_modified_at: 2026-09-03
+last_modified_at: 2026-10-30
 author: hricha-shandily
 image: /uploads/shopify-analytics.png
 image-alt: Shopify analytics
@@ -193,13 +193,15 @@ Google Analytics uses cookies and app identifiers to measure interactions. Its s
 
 Plausible is a privacy-first alternative to Google Analytics built around a different premise: you shouldn't need to become a data engineer to understand how your website is performing.
 
-No cookies and no personal data collection. Plausible itself does not create a need for an analytics consent banner. Add one script and you have a focused analytics setup for your Shopify store.
+No cookies and no personal data collection. Plausible itself does not create a need for an analytics consent banner. Add the script to your theme and a custom pixel for checkout, and you have a focused analytics setup for your Shopify store.
 
 ### Why Plausible is different
 
 **No analytics consent banner for Plausible**
 
 Plausible doesn't use cookies or collect personal data, so Plausible itself does not require analytics consent. It can measure visits without waiting for a visitor to accept analytics cookies. Other services on your store may still require consent.
+
+The checkout is the exception. In regions where Shopify asks for consent, it only loads checkout pixels, including Plausible's, for shoppers who accept its banner unless you change the pixel's privacy setting. Our [Shopify guide](https://plausible.io/docs/shopify-integration#choose-the-pixels-customer-privacy-settings) shows how.
 
 **Higher accuracy by default**
 
@@ -261,11 +263,11 @@ Beyond standard web metrics, Plausible supports goals, [conversion funnels](http
 
 Once configured, you can filter your dashboard by a revenue goal and immediately see which sources, campaigns, pages and devices contributed to those conversions.
 
-Here's a concrete example. Say you sell hoodies and beanies and want to know which marketing activities drive hoodie purchases. Set up a "Purchase" goal marked as a revenue goal, add custom properties for product category and configure supporting goals for "Add to Cart" and "Begin Checkout."
+Here's a concrete example. Say you sell hoodies and beanies and want to know which marketing activities drive hoodie purchases. Set up a "Purchase" goal marked as a revenue goal, add a product category custom property to the purchase event in your pixel and configure supporting goals for "Add to Cart" and "Begin Checkout."
 
 ![Plausible Analytics dashboard filtered by Purchase goal and hoodies product category, showing revenue and traffic sources](/uploads/plausible-ecommerce-tracking-for-shopify.png "Plausible ecommerce tracking for Shopify")
 
-With this in place, filtering by the "complete purchase" goal and the "hoodies" product category shows every traffic source, campaign and page associated with those purchases. Toggle between UTM sources, mediums and campaigns to assess channel effectiveness. Toggle between top, entry and exit pages to find your best-performing content.
+With this in place, filtering by the "Purchase" goal and the "hoodies" product category shows every traffic source, campaign and page associated with those purchases. Toggle between UTM sources, mediums and campaigns to assess channel effectiveness. Toggle between top, entry and exit pages to find your best-performing content.
 
 One practical advantage: because Plausible sits outside Shopify, your analytics stay consistent if you ever switch ecommerce platforms. The data and setup don't change.
 
@@ -285,7 +287,7 @@ Shopify's commerce data and browser-based traffic data have different limitation
 
 **Can I use Plausible Analytics with Shopify?**
 
-Yes. Add the Plausible script to your `theme.liquid` file and you have full web analytics running immediately. For ecommerce tracking (add to cart, checkout, purchases and revenue), Plausible provides a [Shopify integration guide](https://plausible.io/docs/shopify-integration) using a custom pixel in Shopify's Customer Events system.
+Yes. Add the Plausible script to your `theme.liquid` file and you have storefront analytics running immediately. For ecommerce tracking (add to cart, checkout, purchases and revenue), Plausible provides a [Shopify integration guide](https://plausible.io/docs/shopify-integration) using a custom pixel in Shopify's Customer Events system.
 
 **Can I replace Google Analytics with Plausible on Shopify?**
 
@@ -293,7 +295,7 @@ For most Shopify merchants, yes. Plausible covers traffic sources, top pages, ca
 
 **Does Plausible track ecommerce events on Shopify?**
 
-Yes. You can track add to cart, checkout started, payment info added and completed purchases, all with revenue attribution. Custom properties let you break down sales by product title, category or any other dimension you define.
+Yes. You can track add to cart, checkout started, payment info added and completed purchases, all with revenue attribution. Add to cart events include the product title and quantity, and you can add your own custom properties to the purchase event.
 
 ## Conclusion
 
@@ -339,7 +341,7 @@ Keep GA4 if BigQuery event export, advanced explorations or Google Ads integrati
       "name": "Can I use Plausible Analytics with Shopify?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Add the Plausible script to your theme.liquid file and you have full web analytics running immediately. For ecommerce tracking including add to cart, checkout and purchases with revenue, Plausible provides a Shopify integration guide using a custom pixel in Shopify's Customer Events system."
+        "text": "Yes. Add the Plausible script to your theme.liquid file and you have storefront analytics running immediately. For ecommerce tracking including add to cart, checkout and purchases with revenue, Plausible provides a Shopify integration guide using a custom pixel in Shopify's Customer Events system."
       }
     },
     {
@@ -355,7 +357,7 @@ Keep GA4 if BigQuery event export, advanced explorations or Google Ads integrati
       "name": "Does Plausible track ecommerce events on Shopify?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. You can track add to cart, checkout started, payment info added and completed purchases, all with revenue attribution. Custom properties let you break down sales by product title, category or any other dimension you define."
+        "text": "Yes. You can track add to cart, checkout started, payment info added and completed purchases, all with revenue attribution. Add to cart events include the product title and quantity, and you can add your own custom properties to the purchase event."
       }
     }
   ]
