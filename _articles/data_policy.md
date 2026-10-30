@@ -39,6 +39,8 @@ We collect and store the following types of analytics data:
 
 We derive browser and operating system information from the User-Agent and approximate location from the IP address. We do not store raw User-Agent strings or IP addresses.
 
+Browser and operating system versions are stored as the major and minor version only, such as Chrome 153.0. Location is recorded only as country, region and city, never as an exact location.
+
 For page URLs, we store the hostname and path. Query parameters are discarded except for supported campaign and referral parameters.
 
 We record when each event is received and use these records to calculate statistics such as entry and exit pages, pageviews per visit and visit duration. Session identifiers group events into visits.
@@ -109,5 +111,5 @@ You can [sign up for a free trial](https://plausible.io/register) and explore pr
 
 ---
 
-**Last updated: September 2026**  
+**Last updated: October 2026**  
 Clarifications only. No material changes to data handling.
