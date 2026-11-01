@@ -15,7 +15,7 @@ jobs:
       uses: marocchino/tool-versions-action@v1
       id: versions
 
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v7
       with:
         node-version: ${{steps.versions.outputs.nodejs}}
         cache: 'npm'
