@@ -76,7 +76,7 @@ Adding tags to a spreadsheet or an ad setup isn't the final check. They need to 
 
 * **Did a redirect drop the tags?** A shortener, email click tracker or redirect from an old URL may discard the query parameters. Redirects don't always do this, so test yours before blaming them.
 * **Does the landing page record visits?** If tracking is missing there, your analytics may only see the visitor after they click further into the site, without the original campaign information. Check the tracking installation on that specific page ([here's how to do it in Plausible](https://plausible.io/docs/troubleshoot-integration)).
-* **Are you testing during an existing session?** In Plausible, clicking another tagged link during an active session doesn't replace that session's original source. For a reliable test, use a device and network combination that hasn't visited in the past 30 minutes. Opening an incognito window may not be enough. See [our UTM testing notes](https://plausible.io/docs/troubleshoot-integration#utm-parameters-not-appearing-in-campaigns).
+* **Are you testing during an existing session?** In Plausible, clicking another tagged link during an active session doesn't replace that session's original source. For a reliable test, use a device and network combination that hasn't visited in the past 30 minutes. Opening an incognito window may not be enough. See [our UTM testing notes](https://plausible.io/docs/top-referrers#utm-parameters-not-appearing-in-campaigns).
 
 ## Are browsers and privacy tools hiding the source?
 
