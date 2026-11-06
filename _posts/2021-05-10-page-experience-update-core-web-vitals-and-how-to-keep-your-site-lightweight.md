@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Core Web Vitals and how to improve the page experience "
-description: You've probably heard about Google's page experience update and the
-  introduction of Core Web Vitals but what does it all mean?  Here's a summary
-  of all the things you need to know.
+title: "Core Web Vitals and how to improve the page experience"
+description: You've probably heard about Core Web Vitals but what do they mean
+  for your site? Here's a summary of all the things you need to know.
 slug: page-experience-web-vitals
 date: 2021-05-11T08:41:53.079Z
+last_modified_at: 2026-11-06
 author: marko-saric
 image: /uploads/page-experience-core-web-vitals.png
 image-alt: Core Web Vitals and the page experience update
 ---
-As a site owner, you've probably heard about Google's page experience update and the introduction of Core Web Vitals but what does it all mean?
+As a site owner, you've probably heard about Core Web Vitals but what do they mean for your site?
 
-It's a new way of evaluating whether a site is providing a great user experience. If your site meets the threshold, it could benefit from a ranking boost in Google's search results.
+Core Web Vitals are Google's way of evaluating whether a site provides a great user experience. They have been part of Google's ranking algorithm since 2021. If your pages meet the thresholds, they could benefit from a ranking boost in Google's search results.
 
 Here's a summary of all the things you need to know.
 
@@ -23,11 +23,11 @@ Here's a summary of all the things you need to know.
 
 Page experience is a set of signals Google uses to measure the real-world user experience of a website. Security, loading performance, visual stability, mobile-friendliness and interactivity are some of the factors they look at.
 
-Unlike Google's other initiatives such as AMP pages and [FLoC](https://plausible.io/blog/google-floc), the idea of page experience and Core Web Vitals is a sensible approach that will make the web a faster, more efficient and more secure place.
+Unlike Google's other initiatives such as AMP pages and [FLoC](https://plausible.io/blog/google-floc), the idea of page experience and Core Web Vitals is a sensible approach that can make the web a faster, more efficient and more secure place.
 
-There are three brand-new Core Web Vitals benchmarks within the page experience signals and these will start rolling out as a part of the Google ranking algorithm beginning in mid-June 2021 and will be fully in place by the end of August 2021. 
+There are three Core Web Vitals benchmarks within the page experience signals. Google rolled them into its ranking algorithm between June and August 2021 and has updated them since. In March 2024, Interaction to Next Paint (INP) replaced First Input Delay (FID) as the measure of responsiveness.
 
-Your individual pages will get a label of either "Good", "Needs Improvement" or "Poor" for each of the Core Web Vitals. If your site meets the minimum threshold (score "Good") for all the Core Web Vitals, it could get a potential SEO ranking boost and more traffic from Google's search results.
+Your individual pages get a label of either "Good", "Needs Improvement" or "Poor" for each of the Core Web Vitals. If your site meets the minimum threshold (score "Good") for all the Core Web Vitals, it could get a potential SEO ranking boost and more traffic from Google's search results.
 
 ## What sites may be at risk? 
 
@@ -58,7 +58,7 @@ Here's the complete list of all the signals Google uses as part of the page expe
 
 The majority of people experience the web through smaller screens and mobile devices. Your website should be optimized for mobile devices.
 
-Google's search algorithm favors sites that use the responsive design that adapts itself to the size of the screen. Here's [a test tool](https://search.google.com/test/mobile-friendly) you can use to determine your site's mobile friendliness.
+Google's search algorithm favors sites that use the responsive design that adapts itself to the size of the screen. You can check how your pages perform on mobile with [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) or PageSpeed Insights.
 
 ### Safe browsing
 
@@ -94,15 +94,13 @@ The initial benchmark for the Largest Contentful Paint (LCP) has been set at 2.5
 
 Google plans to update the signals and benchmarks on a yearly basis in order to "further align with evolving user expectations and increase the aspects of user experience that we can measure". 
 
-### First Input Delay (FID)
+### Interaction to Next Paint (INP)
 
-First Input Delay (FID) is the second of the three Core Web Vitals. It measures how responsive your page is and how quickly visitors can interact with your page after landing. 
+Interaction to Next Paint (INP) is the second of the three Core Web Vitals. It measures how responsive your page is: how quickly it reacts when visitors click, tap or type.
 
-Here's how Google defines [FID](https://web.dev/fid/):
+INP replaced First Input Delay (FID) as a Core Web Vital in March 2024. FID only measured the delay before the first interaction was processed. INP looks at every interaction during the visit and how long it takes until the page visibly responds. Here's [Google's explanation of INP](https://web.dev/articles/inp).
 
-> FID measures the time from when a user first interacts with a page (i.e. when they click a link, tap on a button, or use a custom, JavaScript-powered control) to the time when the browser is actually able to begin processing event handlers in response to that interaction.
-
-The initial benchmark for the First Input Delay (FID) has been set at 100 milliseconds.
+The benchmark for a good Interaction to Next Paint (INP) is 200 milliseconds or less.
 
 ### Cumulative Layout Shift (CLS)
 
@@ -122,7 +120,7 @@ The initial benchmark is that websites should maintain a Cumulative Layout Shift
 
 Another report by [iProspect](https://corewebvitals.iprospect.com/) looked at 1,500 sites and found that 21% of sites meet the benchmarks.
 
-The First Input Delay vital is pretty much a non-existent issue for the vast majority of sites but many seem to struggle with Cumulative Layout Shift and Largest Contentful Paint. 
+In those studies, First Input Delay (since replaced by INP) was pretty much a non-existent issue for the vast majority of sites but many seemed to struggle with Cumulative Layout Shift and Largest Contentful Paint. 
 
 So if your site is meeting all the benchmarks and provides a fast and quick-loading user experience, you are in the minority!
 
@@ -132,11 +130,9 @@ Great place to check your Core Web Vitals and get your real-world measurement sc
 
 ### Google Search Console 
 
-![Page experience scores in Google Search Console](/uploads/page-experience-signals.png)
-
 Google Search Console scores your pages with "Good", "Needs Improvement" or "Poor" based on the real-world data. It identifies pages that are not meeting the Core Web Vitals benchmarks and that require your attention.
 
-In the "Experience" section of the Search Console, you have access to the reports on the "Page Experience", "Core Web Vitals" and the "Mobile Usability". 
+In the "Experience" section of the Search Console, you have access to the "Core Web Vitals" report. Google removed the "Page Experience" and "Mobile Usability" reports in late 2023. 
 
 This is the quickest way to identify any issues on your site as measured by real-world data and get the summary straight from the horse's mouth. 
 
@@ -146,7 +142,11 @@ PageSpeed Insights gives you access to both the Field Data (real-world data that
 
 The field data comes from the Chrome UX Report which takes the data from actual people that use the Chrome browser. The lab data comes from Google's Lighthouse tool which allows you to audit and assess your sites in the lab environment.
 
-One benefit of using PageSpeed Insights is that you can get the scores of any website on the web rather than only getting the scores of sites that you manage. Take a look at [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
+One benefit of using PageSpeed Insights is that you can get the scores of any website on the web rather than only getting the scores of sites that you manage. Take a look at [Google PageSpeed Insights](https://pagespeed.web.dev/).
+
+### Plausible Analytics
+
+Search Console and PageSpeed Insights get their real-world data from Chrome users only, and only for pages with enough traffic. With Plausible, you can send the Core Web Vitals rating of your own visitors' page loads to your dashboard as a custom event, using Google's open source web-vitals library. You then see the share of good, needs improvement and poor loads for each metric on each page. Here's [how to set it up](https://plausible.io/docs/core-web-vitals).
 
 ## How can I improve my page speed and pass core web vitals?
 

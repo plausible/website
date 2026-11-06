@@ -37,7 +37,7 @@ We collect and store the following types of analytics data:
 | **Custom properties (when configured)** | `author=Jane`, `category=Technology` | Adds information you choose to send with events. |
 | **Revenue data (when configured)** | `49.00 EUR` | Measures revenue from conversions. |
 
-We derive browser and operating system information from the User-Agent and approximate location from the IP address. We do not store raw User-Agent strings or IP addresses.
+We derive browser, operating system and device type from the User-Agent and approximate location from the IP address. We do not store raw User-Agent strings or IP addresses.
 
 Browser and operating system versions are stored as the major and minor version only, such as Chrome 153.0. Location is recorded only as country, region and city, never as an exact location.
 
@@ -51,7 +51,7 @@ The next section explains how we generate daily visitor identifiers without stor
 
 ## How we count unique visitors without cookies
 
-We do not generate persistent identifiers. We do not use cookies, browser cache or local storage.
+We do not generate persistent identifiers. We do not use cookies, browser cache or local storage to identify visitors.
 
 Every HTTP request includes IP address and User-Agent. We use these to generate a daily identifier:
 
@@ -62,6 +62,26 @@ hash(daily_salt + website_domain + ip_address + user_agent)
 The salt is rotated and deleted every 24 hours. Raw IP addresses and User-Agent data are never stored.
 
 This approach prevents tracking users across days while still providing useful aggregate analytics.
+
+---
+
+## What our script does in the visitor's browser
+
+Our script stores nothing on the visitor's device. It sets no cookies and writes nothing to local storage or the browser cache.
+
+For each pageview or event, it sends one request to Plausible with:
+
+* The page URL
+* The referrer
+* The event name, plus any custom properties or revenue the site has set up
+* Scroll depth and engagement time, measured while the page is open
+
+Before sending, it checks two things in the browser:
+
+* Whether the browser reports being controlled by automation tools such as Selenium or Playwright. These visits aren't recorded. Regular browsers aren't affected.
+* Whether a `plausible_ignore` flag is set in local storage. Site owners and visitors set this flag to [exclude their own visits](https://plausible.io/docs/excluding-localstorage). Our script only reads it, never writes it, and doesn't send it to us.
+
+Like any request on the web, ours carries the visitor's IP address and User-Agent. We use them for the daily identifier described above and to derive browser, device and location data, and we don't store them.
 
 ---
 
@@ -111,5 +131,5 @@ You can [sign up for a free trial](https://plausible.io/register) and explore pr
 
 ---
 
-**Last updated: October 2026**  
+**Last updated: November 2026**  
 Clarifications only. No material changes to data handling.
