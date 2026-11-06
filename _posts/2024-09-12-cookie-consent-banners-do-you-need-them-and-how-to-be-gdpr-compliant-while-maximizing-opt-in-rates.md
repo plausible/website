@@ -5,7 +5,7 @@ description: Learn when cookie consent is generally required, which cookies are
   exempt and how privacy-first analytics can remove the analytics banner entirely.
 slug: cookie-consent-banners
 date: 2024-09-12T12:30:37.294Z
-last_modified_at: 2026-09-03
+last_modified_at: 2026-11-06
 author: hricha-shandily
 image: /uploads/cookie-consent-banner-example.png
 image-alt: Example of a cookie consent banner
@@ -50,6 +50,8 @@ If analytics is the only reason your site displays a banner, switching to Plausi
 ## How to choose and configure a consent banner
 
 If your remaining tools require consent, choose a Consent Management Platform that can prevent them from loading before the visitor makes a choice. A banner that appears after tracking has already started does not solve the problem.
+
+Plausible doesn't need consent, so it can load for every visitor while your banner keeps your other tools blocked. Some CMPs block every analytics script by default, including cookieless ones. Our [consent management platform guide](https://plausible.io/docs/consent-management-platforms) shows how to exclude Plausible in Cookiebot, Usercentrics, OneTrust, Cookie Information and Google Tag Manager.
 
 Google Consent Mode adjusts Google tags based on the consent status you send. It can also introduce modeled behavior and conversions into reports. Those estimates are not the same as directly observed visitor activity. We explain the distinction in our [guide to GA4 consent mode and modeled data](https://plausible.io/blog/consent-mode-ga4-modeled-data).
 

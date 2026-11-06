@@ -81,6 +81,8 @@ Because Plausible does not collect personal data or use persistent identifiers, 
 
 This matters practically beyond just the banner itself. Cookie consent compliance involves a consent management platform, documented consent records, granular opt-out controls and ongoing audits of what fires after a decline. That is a non-trivial compliance operation that cookieless analytics removes the need for entirely.
 
+If you still need a banner for other tools on your site, Plausible can run outside it. Our [consent management platform guide](https://plausible.io/docs/consent-management-platforms) shows how to set that up in Cookiebot, OneTrust and others.
+
 Your visitors also get a cleaner experience. No modal asking them to make a decision before they can read your page. No dark pattern to ignore.
 
 ## The hidden overhead of cookie-based analytics
