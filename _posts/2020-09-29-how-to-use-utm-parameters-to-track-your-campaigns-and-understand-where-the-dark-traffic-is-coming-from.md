@@ -220,7 +220,7 @@ If you get no traffic from links tagged with UTM parameters, then your UTM repor
 
 In order to test whether your UTM tagged link works, simply click on it and check your Plausible Analytics dashboard. Your visit should immediately show on the dashboard.
 
-Note that in Plausible Analytics the referral sources are counted only when they start a new session so you won't be able to use this method to test your links multiple times each day. Our session length is one day long.
+Note that in Plausible Analytics the referral source and UTM tags are counted only when they start a new visit. A visit ends after 30 minutes without activity, so to test the same link again, wait at least 30 minutes after your last pageview.
 
 ## Try Plausible UTM campaign tracking
 
