@@ -88,7 +88,7 @@ An email address is required to create an account. You need to provide us with y
 
 A persistent first-party cookie is stored to keep you logged in. This is necessary for the service to function and so you don’t have to log in on each returning session.
 
-All of the data that we collect is kept fully secured, encrypted and hosted on 100% renewable energy powered servers in Falkenstein, Germany. Your site data never leaves the EU.
+Your website stats are encrypted and hosted on European-owned infrastructure, with the main servers powered by 100% renewable energy in Falkenstein, Germany. Your site data never leaves the EU. Account data is handled by the service providers listed below.
 
 We use a small number of trusted external service providers.
 
@@ -159,5 +159,5 @@ Contact us at privacy@plausible.io with any questions, comments or concerns.
 
 ---
 
-**Last updated: September 2026**  
-Now using Friendly Captcha for spam protection on login and registration pages.
+**Last updated: November 2026**  
+Clarified wording. No change to how we handle your data.
