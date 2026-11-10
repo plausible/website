@@ -14,7 +14,7 @@ So we left out the feature tick boxes. This page sticks to the things that rarel
 
 {% include cta-buttons.html %}
 
-![Plausible, Umami, Fathom or Simple Analytics: how to choose](/uploads/plausible-privacy-friendly.png "Plausible, Umami, Fathom or Simple Analytics: how to choose")
+![A Plausible dashboard faded behind four privacy points: no cookies or persistent identifiers, minimal data collection, data never sold or shared and hosting in the EU](/uploads/plausible-privacy-friendly.webp "Plausible, Umami, Fathom or Simple Analytics: how to choose")
 
 1. Ordered list
 {:toc}

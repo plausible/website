@@ -31,7 +31,7 @@ Thousands of organizations have switched from Google Analytics to Plausible, inc
 
 {% include cta-buttons.html supporting_text="No cookies. No personal data collected. Try it free for 30 days, no credit card required." %}
 
-![Plausible: A simpler Google Analytics alternative](/uploads/simple-google-analytics-alternative.webp "Plausible: A simpler Google Analytics alternative")
+![The Plausible dashboard for plausible.io: visitors graph, channels and top pages](/uploads/plausible-simple-web-analytics.webp "Plausible: A simpler Google Analytics alternative")
 
 1. Ordered list
 {:toc}
