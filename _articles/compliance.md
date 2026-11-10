@@ -6,7 +6,7 @@ permalink: /compliance
 cta_headline: "Ready? Your legal team will approve"
 ---
 
-Plausible is typically straightforward to approve in vendor reviews. Not because of optimized paperwork, but because the product does not collect personal data, does not use cookies and does not send data outside the EU. A simpler product means a simpler review. Organizations like Hugging Face, Harvard and the Scottish and Welsh governments have completed this review and run Plausible at scale.
+Plausible is typically straightforward to approve in vendor reviews. Not because of optimized paperwork, but because the product does not collect personal data, does not use cookies and does not send visitor data outside the EU. A simpler product means a simpler review. Organizations like Hugging Face, Harvard and the Scottish and Welsh governments have completed this review and run Plausible at scale.
 
 For purchasing steps, payment-recipient details and supplier documentation, see [Purchasing and vendor information](https://plausible.io/procurement).
 
@@ -18,7 +18,7 @@ Specifically:
 
 - No personal data is collected. IP addresses are only used to generate a daily rotating visitor hash and are never stored. No device fingerprints or persistent identifiers of any kind.
 - No cookies are set. Nothing to consent to, no cookie banner required on your site.
-- All data is processed and stored in the EU on servers owned by European companies. Data never leaves the EU.
+- All visitor data is processed and stored in the EU on servers owned by European companies, and never leaves the EU.
 - No data is shared with or sold to third parties.
 - A DPA is in place automatically for all customers. You do not need to request one.
 
@@ -56,4 +56,8 @@ Available on Enterprise plans:
 
 ## Security questionnaires
 
-The documents above answer most questions in standard vendor security reviews. If anything is not covered, [contact us](https://plausible.io/contact) with your specific questions and we'll be happy to help.
+The documents above answer most questions in standard vendor security reviews.
+
+Our DPA is part of our terms and applies automatically, so no signature is needed. If your organization still requires a signed copy, or needs our CAIQ Lite security questionnaire or VPAT 2.5 Accessibility Conformance Report, email us at [hello@plausible.io](mailto:hello@plausible.io) and we'll send them over.
+
+If anything is not covered, [contact us](https://plausible.io/contact) with your specific questions and we'll be happy to help.
