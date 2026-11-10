@@ -11,7 +11,7 @@ The same code runs in two ways. [Plausible Community Edition (CE)](https://githu
 
 {% include cta-buttons.html supporting_text="Prefer managed hosting? Try Plausible Cloud free for 30 days. No credit card required." %}
 
-![Plausible: Self-hosted Google Analytics alternative](/uploads/plausible-self-hosted.png "Plausible: Self-hosted Google Analytics alternative")
+![The Plausible Community Edition logo above a Plausible dashboard for plausible.io in a desktop window](/uploads/plausible-self-hosted.webp "Plausible: Self-hosted Google Analytics alternative")
 
 1. Ordered list
 {:toc}

@@ -11,7 +11,7 @@ Even though the purpose of [Plausible Analytics](https://plausible.io) is to tra
 
 Here’s a closer look at what we collect, how we use it and how we comply with privacy regulations such as GDPR, CCPA and PECR.
 
-![Plausible Data Policy](/uploads/plausible-data-policy.png "Plausible Data Policy")
+![A Plausible dashboard faded behind four points: full data ownership, GDPR, CCPA and PECR compliance, hosting in the EU and no personal data stored](/uploads/plausible-data-policy.webp "Plausible Data Policy")
 
 1. Ordered list
 {:toc}

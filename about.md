@@ -11,7 +11,7 @@ We do not use cookies and we do not collect personal data. No surveillance model
 
 More than {{ site.data.site.subscriber_count }} paying subscribers use Plausible. Stripe, Mozilla, Basecamp, Ghost, Hugging Face, Home Assistant, MongoDB, the Python Software Foundation and Harvard University are among the names running it.
 
-![About Plausible Analytics](/uploads/about-plausible.png "About Plausible Analytics")
+![A Plausible dashboard faded behind what Plausible stands for: independent and self-funded, open source, made and hosted in the EU, no cookies and no personal data](/uploads/about-plausible.webp "About Plausible Analytics")
 
 ## Our story
 

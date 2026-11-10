@@ -30,7 +30,7 @@ A tool can call itself privacy-friendly while still using cookies, requiring a c
 
 {% include cta-buttons.html %}
 
-![How to choose a privacy-friendly web analytics tool](/uploads/plausible-privacy-friendly.png "How to choose a privacy-friendly web analytics tool")
+![A Plausible dashboard faded behind four privacy points: no cookies or persistent identifiers, minimal data collection, data never sold or shared and hosting in the EU](/uploads/plausible-privacy-friendly.webp "How to choose a privacy-friendly web analytics tool")
 
 1. Ordered list
 {:toc}

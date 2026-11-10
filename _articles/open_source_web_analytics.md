@@ -29,7 +29,7 @@ Most analytics tools are black boxes. You add their script to your site, hand ov
 
 {% include cta-buttons.html supporting_text="No cookies. No personal data collected. Try it free for 30 days, no credit card required." %}
 
-![Plausible: Open source Google Analytics alternative](/uploads/plausible-open-source.png "Plausible: Open source Google Analytics alternative")
+![A Plausible dashboard faded behind three points: open source, community-driven, auditable and verifiable](/uploads/plausible-open-source.webp "Plausible: Open source Google Analytics alternative")
 
 1. Ordered list
 {:toc}

@@ -30,7 +30,7 @@ You get the data you need to understand your site. Your visitors get an experien
 
 {% include cta-buttons.html %}
 
-![Plausible: Privacy-friendly website analytics](/uploads/plausible-privacy-friendly.png "Plausible: Privacy-friendly website analytics")
+![A Plausible dashboard faded behind four privacy points: no cookies or persistent identifiers, minimal data collection, data never sold or shared and hosting in the EU](/uploads/plausible-privacy-friendly.webp "Plausible: Privacy-friendly website analytics")
 
 1. Ordered list
 {:toc}
