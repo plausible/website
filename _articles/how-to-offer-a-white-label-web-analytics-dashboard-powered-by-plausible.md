@@ -56,7 +56,7 @@ The same API can configure tracker settings and goals, create the shared link us
 
 ### Send each customer's events to the matching site
 
-Your tracking script or Events API sends that customer's pageviews and custom events with the matching site identifier.
+Your tracking script or [Events API](/blog/server-side-tracking-guide#how-plausibles-events-api-works) sends that customer's pageviews and custom events with the matching site identifier.
 
 ### Show the analytics inside your product
 

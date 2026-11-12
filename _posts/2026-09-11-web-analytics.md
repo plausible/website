@@ -51,7 +51,7 @@ You can record custom events beyond pageviews, including form submissions, downl
 
 Some tools use cookies or persistent identifiers to recognize browsers across visits. Others, including Plausible, provide [cookieless web analytics](/cookieless-web-analytics) without creating persistent visitor profiles.
 
-JavaScript is the most common method, but it is not the only one. Server logs can see requests that browser scripts miss, although they also include bots and requests for files. Server-side events are useful for actions confirmed by your backend, such as a completed payment. Some websites combine these methods because each captures a different part of the activity.
+JavaScript is the most common method, but it is not the only one. Server logs can see requests that browser scripts miss, although they also include bots and requests for files. [Server-side events](/blog/server-side-tracking-guide) are useful for actions confirmed by your backend, such as a successfully created account. Some websites combine these methods because each captures a different part of the activity.
 
 ## Important web analytics metrics
 
