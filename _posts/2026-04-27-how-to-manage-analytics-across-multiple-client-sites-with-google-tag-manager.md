@@ -102,7 +102,7 @@ For your own traffic, Plausible ignores it automatically once you [add the exclu
 
 ## What GTM can't do
 
-GTM is powerful but it's not universal. Some tracking requires server-side instrumentation: revenue from payment processor webhooks, backend conversion events, authenticated user actions. For those, you'd use Plausible's [server-side events API](https://plausible.io/docs/events-api) rather than the GTM template.
+The GTM template runs in the browser. To record an action confirmed by your website's server, such as a successfully created account, use [server-side event tracking](/blog/server-side-tracking-guide). Our guide explains how it works and walks through sending a signup to Plausible's Events API.
 
 For everything that happens in the browser, including most of what agencies track for clients, GTM handles it cleanly.
 
