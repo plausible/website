@@ -5,13 +5,15 @@ description: "Free calculators and utilities to help you understand your analyti
 permalink: /tools
 ---
 
-Free tools for marketers and analysts. Calculate what your campaigns are actually costing, validate your UTM setup before it corrupts your data, and see what you are trading away by using a heavier analytics tool.
+Free tools for marketers and analysts. Calculate what your campaigns are actually costing, validate your UTM setup before it corrupts your data, check whether an A/B test winner is real and see what you are trading away by using a heavier analytics tool.
 
 No account required. Everything runs in your browser.
 
 ## Calculators
 
 **[Conversion rate calculator](/conversion-rate-calculator)**: Calculate your conversion rate, the traffic you need to hit a goal, and what a small improvement is actually worth in extra conversions per month.
+
+**[A/B test significance calculator](/ab-test-significance-calculator)**: Check whether the winner of your A/B test is real or random noise, and how many visitors your test needs before you can trust it.
 
 **[Ad cost calculator](/ad-cost-calculator)**: Enter your campaign numbers once and calculate your CPC, CPM and CPA alongside derived metrics like click-through rate and conversion rate.
 

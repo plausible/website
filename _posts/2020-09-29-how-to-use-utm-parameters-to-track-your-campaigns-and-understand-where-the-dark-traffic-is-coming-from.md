@@ -4,7 +4,7 @@ title: How to use UTM parameters to track your campaigns and understand dark tra
 description: UTM parameters help you understand where your traffic comes from. Learn what they are, how to use them and how to track your campaigns in Plausible Analytics.
 slug: utm-tracking-tags
 date: 2020-09-29T15:06:06.455Z
-last_modified_at: 2026-04-21
+last_modified_at: 2026-11-12
 author: marko-saric
 image: /uploads/utm-campaign-tracking.png
 image-alt: UTM campaign tracking with Plausible Analytics
@@ -138,7 +138,7 @@ Or you could track individual newsletter that you send out to your subscribers:
 
 For email newsletter campaigns, a useful naming convention could be to include the date the email was sent and the subject line as your `utm_campaign` tag.
 
-Note that many email platforms like Mailchimp, ConvertKit and HubSpot can auto-generate UTM parameters for links in your campaigns. Check your platform's settings before tagging links manually.
+Many email platforms can add UTM tags to the links in your campaigns automatically, so check your platform's settings before you tag links by hand. Some tie this to Google Analytics. Mailchimp, for instance, only adds UTM tags once you connect a Google Analytics account. Without one, tag each link yourself as in the example above, or build the links with our [UTM builder](/utm-builder) before you paste them into the email. Mailchimp also adds its own `mc_cid` and `mc_eid` parameters to your links. Plausible doesn't record them, so they don't show up in your dashboard.
 
 ### Compare paid vs organic social media activities 
 

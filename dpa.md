@@ -39,7 +39,7 @@ Even though the purpose of Plausible Analytics is to measure website usage, this
 
 By using Plausible Analytics, all site measurement is carried out in an anonymous and privacy-friendly way. We minimize data collection in general. We measure only the most essential data points and nothing else.
 
-We do not attempt to generate a device-persistent identifier. We do not use cookies, browser cache nor local storage. We do not store, retrieve nor extract anything from visitor devices.
+We do not attempt to generate a device-persistent identifier. We do not use cookies, browser cache nor local storage to identify visitors, and we store nothing on visitor devices. The only thing our script reads from local storage is an optional opt-out flag, which site owners and visitors set themselves to [exclude their own visits](https://plausible.io/docs/excluding-localstorage). The script never writes this flag or sends it to us.
 
 Every HTTP request includes the IP address and User-Agent. We generate a daily changing identifier based on these inputs. To anonymize these datapoints and make them impossible to relate back to the user, we run them through a hash function with a rotating salt.
 
@@ -127,6 +127,6 @@ If you have questions about this DPA, contact us at privacy@plausible.io.
 
 ---
 
-**Last updated: October 2026**
+**Last updated: November 2026**
 
-Added information and audit rights (Article 28(3)(h) GDPR) and a confidentiality commitment for persons authorised to process visitor data (Article 28(3)(b) GDPR).
+Minor clarifications. No changes to data handling.

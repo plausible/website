@@ -5,6 +5,7 @@ description: What is A/B testing, real examples, and how to run A/B tests on a
   website and analyze the results.
 slug: ab-testing
 date: 2025-06-23T09:33:05.092Z
+last_modified_at: 2026-11-12
 author: hricha-shandily
 image: /uploads/ab-testing-layout.png
 image-alt: a/b testing of a landing page layout
@@ -117,23 +118,19 @@ Also, resist the urge to constantly check results. Looking too soon (and making 
 
 ## How to track and analyze the A/B test and its results?
 
-You can track the performance of each version of your A/B tested marketing asset by seeing which variant got how many unique conversions, total conversions, and the conversion rate (calculated as unique conversions for a goal / unique visitors). And comparing those side by side.
+You can track the performance of each version of your A/B tested marketing asset by comparing how many visitors saw each variant with how many of them converted. That gives you the conversion rate of each variant.
 
 Plus you can [segment](https://plausible.io/audience-segmentation) it further by locations, devices, traffic acquisition sources, entry pages, and exit pages. 
 
-Here’s an example: Let’s say you wanted to increase your newsletter subscriptions and A/B tested the call-to-action copy for 30 days, with two variants: “Subscribe Now” and “Get free tips.” Here’s what your results would look like in [Plausible](https://plausible.io/simple-web-analytics):
+Here’s an example: Let’s say you wanted to increase your newsletter subscriptions and A/B tested the call-to-action copy for 30 days, with two variants: “Subscribe Now” and “Get free tips.” Filter your [Plausible](https://plausible.io/simple-web-analytics) dashboard by your newsletter goal and open the custom property that holds the variant in the **Properties** tab. You see how many visitors signed up with each variant, such as 108K with “Subscribe Now” and 57.3K with “Get free tips.”
 
-![ab test results in plausible](/uploads/ab-test-results-in-plausible.png "ab test results in plausible")
-
-This visualization clearly shows that the “Subscribe Now” copy variant got a better conversion rate at 68.33%, with 108K unique conversions and 736K total conversions, where “conversions” means signing up to the newsletter.
-
-So it can be concluded that the first variant is a winner and you can safely choose that copy text for your CTA button for the future.
+That doesn't make “Subscribe Now” the winner yet. If it was shown to twice as many visitors, both variants convert at about the same rate. Remove the goal filter to see how many visitors saw each variant. Then enter the numbers into our [A/B test significance calculator](/ab-test-significance-calculator). It shows the conversion rate of each variant and whether the difference is real. Don't use the **CR** column in the report for this. It's calculated against all the visitors to your site rather than against each variant's visitors.
 
 If you want to see how the rest of the dashboard looks, feel free to explore our [live demo](https://plausible.io/plausible.io).
 
 ### How to set up A/B test tracking in Plausible?
 
-You can make use of [custom properties](https://plausible.io/docs/custom-props/introduction) to see analytics for different tested versions of your website elements. You can attach custom properties in two ways:
+You can make use of [custom properties](https://plausible.io/docs/custom-props/introduction) (available on the Business plan) to see analytics for different tested versions of your website elements. You can attach custom properties in two ways:
 
 **With a pageview**
 
@@ -151,6 +148,8 @@ Custom properties can be sent with a [custom goal](https://plausible.io/docs/cus
 
 The cool part is that you can directly filter your dashboard with the custom properties too, i.e., without filtering by the associated goal, so that you can see how your general traffic does wrt to the variants.
 
+See [how to measure A/B tests with Plausible](https://plausible.io/docs/ab-testing) in our docs for the full setup.
+
 ## Watch out for
 
 ### SEO disruptions
@@ -164,7 +163,7 @@ It’s good to be protective about your rankings while conducting such tests, es
 
 ### Statistical significance
 
-Statistical significance tells you whether the observed difference is likely real or just due to chance. Ensure your sample size is large enough. Too small, and even big differences may not be reliable.
+Statistical significance tells you whether the observed difference is likely real or just due to chance. Ensure your sample size is large enough. Too small, and even big differences may not be reliable. Use our [A/B test significance calculator](/ab-test-significance-calculator) to check your result and see how many visitors your test needs.
 
 ### Respect privacy and compliance
 

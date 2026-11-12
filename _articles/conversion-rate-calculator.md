@@ -248,6 +248,8 @@ Getting more traffic is not always the answer. If your site converts at 1%, doub
 
 In practice the two work together: you need enough traffic to test ideas meaningfully, and you need a reasonable conversion rate to justify growing traffic. But most sites have more room to improve conversion than to double their visitor count.
 
+Testing a change to improve it? Use the [A/B test significance calculator](/ab-test-significance-calculator) to check whether the result is real.
+
 ## How to track conversions in Plausible
 
 Plausible lets you track goals without writing any code. You can define what counts as a conversion and monitor it alongside your traffic.

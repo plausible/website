@@ -7,7 +7,7 @@ description: "Several European Data Protection Authorities ruled Google Analytic
   it means for your website."
 slug: google-analytics-illegal
 date: 2023-07-06T05:06:21.605Z
-last_modified_at: 2026-07-14
+last_modified_at: 2026-11-12
 author: marko-saric
 image: /uploads/is-google-analytics-illegal.png
 image-alt: Is Google Analytics illegal?
@@ -105,7 +105,7 @@ We also feature a [Google Analytics import](https://plausible.io/docs/google-ana
 
 ## Privacy-first web analytics
 
-We're a privacy-first web analytics service and we minimize any data collection in general. We don't use cookies, browser cache nor local storage. We don’t generate any persistent identifiers and there's no cross-site nor cross-device tracking with Plausible.
+We're a privacy-first web analytics service and we minimize any data collection in general. We don't use cookies, browser cache nor local storage to identify visitors. We don’t generate any persistent identifiers and there's no cross-site nor cross-device tracking with Plausible.
 
 Our priority has always been to never collect nor store any personal data in the first place, so these types of rulings affect us less than Google Analytics and other services that are part of surveillance capitalism. Still, since [the EU-US Privacy Shield was invalidated](https://noyb.eu/en/project/eu-us-transfers), we started putting more resources into using EU owned and operated service providers.
 
