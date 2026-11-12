@@ -42,7 +42,7 @@ By using Plausible, all the site measurement is carried out in an anonymous and 
 
 ## Personal data
 
-We don't use cookies, browser cache or local storage. We don't store, retrieve or extract anything from visitor devices. The data we process cannot be used to identify any single individual.
+We don't use cookies, browser cache or local storage to identify visitors, and we store nothing on visitor devices. The only thing our script reads from local storage is an optional opt-out flag that site owners and visitors set themselves to [exclude their own visits](https://plausible.io/docs/excluding-localstorage). The data we process cannot be used to identify any single individual.
 
 Every HTTP request sends the IP address and the User-Agent to the server so we use that. We generate a daily changing identifier utilizing the visitor’s IP address and User-Agent. To anonymize these data points and make them impossible to relate to the user, we run them through a hash function with a rotating salt. 
 
@@ -150,5 +150,5 @@ If you have any questions about our security practices, please [contact us](http
 
 ---
 
-**Last updated: August 2026**  
-Added specifics on encryption, backups, incident response and monitoring. No changes to data handling.
+**Last updated: November 2026**  
+Minor clarifications. No changes to data handling.
