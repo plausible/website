@@ -1,6 +1,6 @@
 FROM node:16-bullseye-slim AS node
 
-FROM ruby:3.0.3-slim-bullseye
+FROM ruby:3.0.7-slim-bullseye
 
 COPY --from=node /usr/local/bin/node /usr/local/bin/node
 COPY --from=node /usr/local/bin/npm /usr/local/bin/npm
