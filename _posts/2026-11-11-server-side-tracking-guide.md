@@ -46,23 +46,17 @@ Moving collection to a server does not automatically make it GDPR compliant. Wha
 
 ### Data quality: record confirmed actions without browser blockers
 
-A browser ad blocker can prevent an analytics script from loading or stop it from sending data. Once your website's server has completed an action, it can send the event directly to Plausible. A browser extension cannot block that server-to-server request and the visitor does not need to keep the tab open for it to be sent.
+A browser ad blocker can prevent an analytics script from loading or stop it from sending data. Once your website's server has completed an action, it can send the event directly to your analytics tool. A browser extension cannot block that server-to-server request and the visitor does not need to keep the tab open for it to be sent.
 
 You can also record the outcome at the point it becomes true. Send `Signup` after your website creates an account rather than counting a click on “Create account” or a visit to a thank-you page. With the event sent once after account creation, a failed form submission or a reload of the confirmation page should not produce another signup event.
 
 That improves the meaning and delivery of your conversion data, but you still need to handle failed API requests and prevent duplicate sends. Automated activity from bots also needs to be filtered out. Your website's account records remain the source to check for how many accounts were created. Analytics helps you understand which visits led to those signups.
 
-### Record work that finishes after the visitor leaves
-
-Server-side tracking can record work completed without an open browser tab, such as a report generated a few minutes after someone requests it. A browser event can record the request for the report; a server event can record its successful completion. Whether that event can be linked to the original visit depends on the analytics service and the visitor details available.
-
-For Plausible, background tasks often lack the visitor's original IP address and browser details. Their events may start separate visits or be filtered out, so this is not the setup recommended in the signup walkthrough below. See the [Events API attribution guidance](https://plausible.io/docs/events-api#how-server-side-events-are-attributed) for those limits.
-
 ### Keep browser measurements alongside confirmed outcomes
 
 Adding server-side events does not require removing browser tracking. You can keep pageviews, referral information and scroll depth from the browser while sending confirmed signups from your server.
 
-In Plausible, both feed the same dashboard. When a server-side signup matches an existing visit, it keeps that visit's referral information. Referral data can also come from server-side collection when you send it through the API. Scroll depth still needs measurements from the browser; a signup event alone does not provide them.
+Combining browser measurements with server-confirmed outcomes lets you understand both the visit and its result. Your analytics tool needs to support both collection methods. Browser behavior, such as scrolling, still needs to be measured in the browser.
 
 This lets you see how people use your pages alongside the actions your server confirms. It does not recover browser measurements that were blocked or never sent. A server-side signup can still be counted without its original referral source if there is no matching visit and you send no referral or campaign details. Record each signup in one place so the browser and server do not both count it.
 
@@ -72,7 +66,7 @@ Your server can record what it handles, but it cannot automatically see everythi
 
 - **Interactions that do not contact the server.** Scrolling through an article, clicking an outbound link or opening a menu may happen entirely in the browser. You need browser code to observe those actions and send an event if you want to measure them.
 - **Pageviews that do not reach your server.** A page loaded from the browser's cache or navigation handled entirely within a single-page website may not produce a new request to your server. Recording server requests alone will miss those views.
-- **Where a visitor originally came from.** A server-only setup needs to send referral and campaign information if you want it in your reports. Plausible's Events API accepts a `referrer` field and extracts UTM campaign parameters from the `url` you send. If a server event joins an existing visit, it uses the referral information already recorded for that visit. Neither approach recovers a landing pageview that was never recorded.
+- **Where a visitor originally came from.** A server-side signup does not automatically tell you the visitor's original referral source or campaign. Your setup needs to supply those details or connect the event to a visit where they were already recorded. How that connection works depends on your analytics tool. Recording the signup does not recover a landing pageview that was never recorded.
 
 Browser tracking is useful for collecting the wider picture of a visit, including pageviews, referral sources, campaigns and engagement measurements. Your server can add confirmed outcomes. With server-only collection, you need to supply visit details explicitly and browser-only behavior still needs browser code to measure it.
 
@@ -83,6 +77,8 @@ Server-side tracking also needs code you maintain: deciding when to send events,
 Plausible is [privacy-friendly by default](/privacy-focused-web-analytics), including when you use our JavaScript snippet in the browser. It uses no cookies or persistent visitor identifiers and does not track people across websites. Server-side collection gives you additional control over what you send, but you do not need it to make Plausible privacy-friendly.
 
 These privacy principles apply to both our script and our API. Our hosted service processes and stores visitor data in the EU. Plausible uses visitors' IP addresses and browser details to count visitors without storing those original values. Our [data policy](https://plausible.io/data-policy) explains how they are used.
+
+For browser tracking, Plausible also offers an [optional proxy](https://plausible.io/docs/proxy/introduction) that routes the script and analytics requests through your own domain to bypass most ad blockers. This keeps collection in the browser; it is different from sending events directly from your server.
 
 The [Events API](https://plausible.io/docs/events-api) is a way for your website's server to send analytics data directly to Plausible. Your server sends a request describing what happened and Plausible processes it for the same dashboard used by browser tracking.
 
