@@ -9,7 +9,7 @@ date: 2020-05-20T09:56:34.718Z
 author: marko-saric
 image: /uploads/big-spike-in-traffic.png
 image-alt: Google Analytics cookies and the cookie consent banner
-last_modified_at: 2026-05-12
+last_modified_at: 2026-11-13
 ---
 Are you confused about using Google Analytics on your website, the cookies and the requirement to show the cookie consent banner to your visitors? And is there a way to measure your website traffic without relying on cookies at all? This post is here to figure it all out. Let's get started.
 
@@ -32,13 +32,15 @@ All the privacy regulations have a say about cookies. PECR is the privacy regula
 
 PECR requires a website owner to tell their visitors about technologies such as cookies that they use to track personal data and give visitors the choice of whether to accept this or not. 
 
-According to [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you "need to tell people about analytics cookies and gain consent for their use". If you use cookies, you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
+Under PECR, analytics cookies need consent unless they fit the narrow exception explained below. If you use cookies, you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
 > Say what cookies will be set 
 >
 > Explain what the cookies will do
 >
 > Obtain consent to store cookies on devices
+
+The Data (Use and Access) Act 2025 added a [statistical purposes exception](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) to PECR. According to the ICO, you don't need consent when the sole purpose of the storage or access is collecting aggregate statistics about how your website is used so you can improve it. You still have to give visitors clear information and a simple and free way to object. Any third-party analytics provider can only use the data to help you improve your site. The exception doesn't cover tracking or profiling individuals or advertising, and the end result has to be aggregate statistics that can't be used to identify people.
 
 This is how we would sum up different regulations such as the General Data Protection Regulation (GDPR) in Europe and the California Consumer Privacy Act (CCPA) in the United States with regards to the cookies:
 
