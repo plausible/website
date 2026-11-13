@@ -9,7 +9,7 @@ date: 2020-04-08T12:20:53.993Z
 author: marko-saric
 image: /uploads/remove-google-analytics.png
 image-alt: Why you should stop using Google Analytics on your website
-last_modified_at: 2026-05-12
+last_modified_at: 2026-11-13
 ---
 We are working on a leaner and more transparent alternative to Google Analytics. It's called Plausible Analytics and it comes without all the privacy baggage. Here's a look at some of the issues with Google Analytics.
 
@@ -82,7 +82,7 @@ Google Analytics 4 is a cookie-based web analytics tool and it is not possible t
 
 And all the privacy regulations have a say about cookies too. PECR, for instance, requires a site owner to tell their visitors about cookies that they use to track personal data and give visitors the choice of whether to accept them or not.
 
-[According to PECR](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-cookies-and-similar-technologies/), you "need to tell people about analytics cookies and gain consent for their use". If you use cookies you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
+Since the Data (Use and Access) Act 2025, PECR has a narrow [statistical purposes exception](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) for analytics. It only applies when the sole purpose is collecting aggregate statistics to improve your own site, visitors get clear information and a simple and free way to object, and any analytics provider only uses the data to help you improve your site. It doesn't cover tracking individuals or advertising. GA4 is closely tied to Google's advertising products, so a typical GA4 setup is unlikely to qualify and most organizations keep it behind consent. In that case you must say what cookies will be set, explain what the cookies will do and obtain consent to store cookies on devices.
 
 With Plausible, you can count visitors who reject the consent banner which leads to a much higher accuracy in your stats. [An independent study on GA4’s data accuracy](https://www.orbitmedia.com/blog/inaccurate-google-analytics-traffic-sources/) found that when consent banners are displayed, GA4 fails to capture an average of 55.6% of the traffic compared to Plausible. Use our [cookie banner traffic loss calculator](https://plausible.io/cookie-banner-traffic-loss-calculator) to estimate the gap for your own site.
 

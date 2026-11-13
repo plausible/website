@@ -7,7 +7,7 @@ date: 2024-04-15T10:11:15.235Z
 author: hricha-shandily
 image: /uploads/google-third-party-cookie-announcement-2025.png
 image-alt: Google's April 2025 Privacy Sandbox announcement about third-party cookie choice in Chrome
-last_modified_at: 2026-08-05
+last_modified_at: 2026-11-13
 ---
 No. The much-discussed third-party cookie phase-out never actually happened in Chrome.
 
@@ -93,7 +93,7 @@ Technically, some can. Strategically, they shouldn't.
 Google removed the deadline, not the weaknesses of third-party-cookie-based marketing:
 
 - [Browser restrictions and user settings can block them](https://privacysandbox.google.com/cookies/prepare/overview), so the data is incomplete from the start.
-- People may decline consent. In the UK, for example, [non-essential cookies generally require consent](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/cookies-and-similar-technologies/). California gives eligible consumers a [right to opt out](https://oag.ca.gov/privacy/ccpa) of the sale or sharing of personal information for cross-context behavioral advertising.
+- People may decline consent. In the UK, for example, [cookies used for advertising require consent](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/). California gives eligible consumers a [right to opt out](https://oag.ca.gov/privacy/ccpa) of the sale or sharing of personal information for cross-context behavioral advertising.
 - Using a third party to [recognize the same browser across different sites](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies#privacy_and_tracking) is exactly the kind of tracking that browsers and privacy advocates have pushed back against.
 - Any measurement strategy that can be changed by a browser setting, platform decision or new rule is a fragile one.
 
