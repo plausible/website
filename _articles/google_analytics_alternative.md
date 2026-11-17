@@ -41,7 +41,7 @@ If you're using GA4 and wondering whether it's still the right tool, that's a re
 
 {% include cta-buttons.html %}
 
-![Plausible vs Google Analytics 4 comparison](/uploads/plausible-vs-ga.png "Plausible vs Google Analytics 4 comparison")
+![Plausible vs Google Analytics 4 comparison](/uploads/plausible-vs-ga.webp "Plausible vs Google Analytics 4 comparison")
 
 1. Ordered list
 {:toc}

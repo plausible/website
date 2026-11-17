@@ -32,7 +32,7 @@ That model worked until privacy regulations caught up with it. In the EU, placin
 
 {% include cta-buttons.html %}
 
-![Plausible: cookieless web analytics without consent banners](/uploads/plausible-cookieless-web-analytics.png "Plausible: cookieless web analytics")
+![Plausible: cookieless web analytics without consent banners](/uploads/plausible-cookieless-web-analytics.webp "Plausible: cookieless web analytics")
 
 1. Ordered list
 {:toc}

@@ -60,7 +60,7 @@ We use hashing techniques to ensure that visitor data cannot be reversed or used
 
 ## Server location
 
-All visitor data is kept encrypted in Germany on servers owned by a German company (Hetzner). This ensures that all website data is covered by the European Union’s strict data protection laws. Visitor data does not leave the EU.
+All visitor data is kept encrypted on European-owned infrastructure. Our main servers are in Falkenstein, Germany, and owned by a German company (Hetzner). We use UpCloud, a Finnish company, for database hosting and storage of data exports, and Bunny, a Slovenian company, as our CDN. This ensures that all website data is covered by the European Union’s strict data protection laws. Visitor data does not leave the EU.
 
 ## Data ownership
 
@@ -118,7 +118,7 @@ Payments are handled by Paddle. We do not store payment card details.
 
 ## Physical security
 
-Plausible is hosted within data centers provided by Hetzner, which maintains strong physical and environmental security controls.
+Plausible is hosted within data centers provided by Hetzner and UpCloud, which maintain strong physical and environmental security controls.
 
 ## Availability and infrastructure monitoring 
 
