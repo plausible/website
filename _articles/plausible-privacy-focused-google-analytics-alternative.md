@@ -47,7 +47,7 @@ This matters in the market for privacy software. Proprietary tools cannot always
 
 We're a small team based in the EU. Our legal entity is incorporated in Estonia.
 
-All data we collect is kept fully secured, encrypted and hosted on renewable energy powered servers in Falkenstein, Germany, owned by Hetzner, a European company. We use Bunny (a European provider from Slovenia) for our global CDN and DDoS protection.
+All data we collect is kept fully secured and encrypted on European-owned infrastructure. Our main servers are powered by renewable energy in Falkenstein, Germany, and owned by Hetzner, a European company. We use UpCloud (a European provider from Finland) for database hosting and storage of data exports and Bunny (a European provider from Slovenia) for our global CDN and DDoS protection.
 
 All visitor data is exclusively processed on servers owned and operated by European companies, covered by the EU's strict data privacy laws. Your website data [never leaves the EU](https://plausible.io/eu-hosted-web-analytics), and Plausible is [EU-owned rather than only EU-hosted](/blog/eu-hosted-analytics-vs-eu-owned-analytics).
 

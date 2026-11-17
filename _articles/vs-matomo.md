@@ -43,7 +43,7 @@ Already using Matomo? You do not need to switch blindly. Run Plausible alongside
 
 {% include cta-buttons.html %}
 
-![Plausible as a great Matomo alternative](/uploads/plausible-vs-matomo.png "Plausible as a great Matomo alternative")
+![Plausible as a great Matomo alternative](/uploads/plausible-vs-matomo.webp "Plausible as a great Matomo alternative")
 
 1. Ordered list
 {:toc}

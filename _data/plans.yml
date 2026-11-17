@@ -43,13 +43,13 @@
   title: "Enterprise"
   benefits:
     - "Everything in Business"
-    - "10+ sites"
-    - "10+ team members"
+    - "10+ sites and team members"
     - "600+ Stats API requests per hour"
     - "Sites API access"
     - "Single Sign-On (SSO)"
     - "Managed Proxy"
     - "Scheduled raw event data exports"
+    - "Annual billing by invoice"
     - "Priority support"
   style:
     main: "bg-gray-900 text-white"

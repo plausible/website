@@ -7,7 +7,7 @@ permalink: "/dpa"
 
 Thank you for using Plausible Analytics!
 
-Plausible Analytics is a European company and our data infrastructure is based in Germany and subject to the EU's strong data privacy laws. Processing and storing data in a secure, fair and transparent way is extremely important to us. 
+Plausible Analytics is a European company and our data infrastructure is based in the EU and subject to its strong data privacy laws. Processing and storing data in a secure, fair and transparent way is extremely important to us. 
 
 This Data Processing Agreement (“DPA”) is an addendum to the [Terms of Service](https://plausible.io/terms) between Plausible Analytics and the customer. 
 
@@ -55,7 +55,7 @@ You can find more information in our publicly available [data policy](https://pl
 
 ## Organizational and technical security measures
 
-All tracked data is secured, encrypted and hosted on renewable energy powered servers in Germany. Visitor data is processed and stored within the European Union on EU-owned infrastructure.
+All tracked data is secured and encrypted. Our main servers are powered by renewable energy in Falkenstein, Germany (Hetzner), and UpCloud in Finland provides database hosting and storage of data exports. Visitor data is processed and stored within the European Union on EU-owned infrastructure.
 
 We use HTTPS in transit and strong hashing techniques. We apply strict firewall rules, private networking and secure backups. Passwords are hashed using bcrypt.
 
