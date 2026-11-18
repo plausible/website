@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Analytics lacks many features to be a true Plausible replacement"
-description: "A dashboard you can use without training, share without a login and run without cookies. What would a Plausible user lose by switching to GA4?"
+description: "From flexible funnels to dashboards clients can open without an account, explore useful Plausible features that GA4 lacks or makes harder to use."
 slug: google-analytics-lacks-plausible-features
 date: 2026-11-18T01:00:00.000Z
 author: hricha-shandily
