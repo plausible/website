@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Analytics lacks many features to be a true Plausible replacement"
-description: "From flexible funnels to dashboards clients can open without an account, explore useful Plausible features that GA4 lacks or makes harder to use."
+description: "Useful Plausible features that GA4 lacks or makes harder to use."
 slug: google-analytics-lacks-plausible-features
 date: 2026-11-18T01:00:00.000Z
 author: hricha-shandily
