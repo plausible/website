@@ -22,7 +22,7 @@ This page covers what public-sector reviews usually ask us: where the data lives
 
 Many public institutions are moving away from US-owned analytics for two separate reasons. One is legal: cookie-based tools require consent banners, and data transfers to US servers keep coming under regulatory scrutiny. The other is strategic: a growing push across Europe to run public digital infrastructure on European technology.
 
-Plausible answers both. We're an EU-based company (registered in Estonia, see our [imprint](https://plausible.io/imprint)) and your visitor data is stored in Falkenstein, Germany, on servers owned by Hetzner, a European company. Not a US hyperscaler's EU region: EU-owned infrastructure. The difference matters, and we've written about [why EU-hosted and EU-owned are not the same thing](/blog/eu-hosted-analytics-vs-eu-owned-analytics).
+Plausible answers both. We're an EU-based company (registered in Estonia, see our [imprint](https://plausible.io/imprint)) and your visitor data is stored in Falkenstein, Germany, on servers owned by Hetzner, a European company. We use UpCloud, a Finnish company, for database hosting and storage of data exports (see our [security page](/security)). Not a US hyperscaler's EU region: EU-owned infrastructure. The difference matters, and we've written about [why EU-hosted and EU-owned are not the same thing](/blog/eu-hosted-analytics-vs-eu-owned-analytics).
 
 Plausible is also open source. Your team can audit the entire codebase, and if your requirements ever demand full infrastructure control, you can [self-host the Community Edition](https://plausible.io/self-hosted-web-analytics) on your own servers.
 
