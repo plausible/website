@@ -226,6 +226,8 @@ We explain [this process and custom dimensions in more detail](https://plausible
 
 ## Other reasons Plausible is a superior web analytics choice
 
+The differences go beyond finding the right report. We also look at [capabilities GA4 lacks or makes harder to use](/blog/google-analytics-lacks-plausible-features), including sharing live dashboards without a login and keeping optional steps in a funnel.
+
 * Plausible is [privacy-friendly](https://plausible.io/privacy-focused-web-analytics) by default. We never use any cookies or persistent identifiers to track visitors outside of your website. This means you are compliant with various regulations around the world by default, be it GDPR, CCPA, PECR, or anything else. You won’t even need to put up a cookie consent banner from our side.
 * Our stats are always more accurate as compared to Google Analytics because their tracking script is widely blocked by ad blockers and privacy-friendly browsers. There are various other reasons for such inaccuracies that we discuss [here](https://plausible.io/most-accurate-web-analytics).
 * We have an extremely [lightweight script](https://plausible.io/lightweight-web-analytics) at {{ site.data.site.plausible_script_kb }}KB, {{ site.data.site.script_ratio }}x smaller than GA’s.

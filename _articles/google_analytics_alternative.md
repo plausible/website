@@ -66,6 +66,8 @@ The result: basic tasks that took one click in Universal Analytics now require s
 
 Plausible gives you all the important metrics on one page: visitors, sources, pages, countries, devices, goals and revenue attribution. You can invite team members, connect to Search Console, build custom reports in Data Studio, import your historical data and use features like funnels, user journeys and realtime reporting. See what it looks like on our [live demo](https://plausible.io/plausible.io).
 
+For concrete examples, see how [Plausible handles everyday tasks that GA4 makes harder](/blog/google-analytics-lacks-plausible-features), from sharing a dashboard without an account to building funnels with optional steps.
+
 ### GA4 made accuracy worse, not better
 
 GA4 misses a substantial share of traffic compared to what actually visits your site.
