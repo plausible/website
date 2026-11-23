@@ -150,7 +150,7 @@ Unlike GA4, Plausible does not track or sell user behavior, so you can skip [coo
 
 Our tracking script is [lightweight](https://plausible.io/lightweight-web-analytics), which prevents the slowdowns caused by heavier scripts and is good for SEO. 
 
-We also filter out referrer spam and data center traffic, and accurately attribute mobile traffic from apps like Gmail and Slack. We exclude ~32K data center IP ranges by default, which covers a large share of known bot traffic and prevents it from inflating your stats.
+We also filter out referrer spam and data center traffic, and accurately attribute mobile traffic from apps like Gmail and Slack. We exclude ~{{ site.data.site.datacenter_ip_ranges }} data center IP ranges by default, which covers a large share of known bot traffic and prevents it from inflating your stats.
 
 For example, Cookiebot CMP users see a constant spike in their direct traffic because their sites are scanned constantly by the Cookiebot's bots, requiring manual exclusions in GA4. There are other similar cases, but Plausible handles them all automatically.
 
