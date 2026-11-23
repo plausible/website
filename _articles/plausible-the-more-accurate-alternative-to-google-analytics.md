@@ -88,7 +88,7 @@ So GA users need to manually find out which IP addresses are being used by the C
 
 And all this depends on noticing the problem in the first place, then wading through jargon and support guides to fix it. All you wanted was to see real site stats.
 
-Plausible excludes 32k IP ranges, bots, crawlers, referrer spam and other known non-human activity from the get-go. [In a test we ran](https://plausible.io/blog/server-log-analysis), we saw 18x more pageviews with server-side tracking than with Plausible, which shows the volume of spam traffic that Plausible excludes.
+Plausible excludes ~{{ site.data.site.datacenter_ip_ranges }} data center IP ranges, bots, crawlers, referrer spam and other known non-human activity from the get-go. [In a test we ran](https://plausible.io/blog/server-log-analysis), we saw 18x more pageviews with server-side tracking than with Plausible, which shows the volume of spam traffic that Plausible excludes.
 
 ### Tracking script being blocked by ad blockers and browsers
 
