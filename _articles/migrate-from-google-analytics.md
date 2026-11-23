@@ -106,6 +106,8 @@ Connect your Search Console property to see keyword data alongside your traffic 
 
 **Stats API**: Pull any metric programmatically for internal dashboards or BI tools. [Stats API →](/docs/stats-api)
 
+**MCP server**: Connect your AI assistant and ask questions about your stats in plain language, without building a report first. [Plausible MCP server →](/mcp-server)
+
 **CSV export**: Download stats directly from the dashboard for one-off reports. [Export stats →](/docs/export-stats)
 
 ## Why your numbers will look different
@@ -132,6 +134,7 @@ Plausible and GA4 will never show identical numbers. They measure differently by
 | Scroll depth | 90% threshold only | Full 1-100% automatic |
 | Data Studio | Yes | Yes, official connector |
 | Stats API | Yes | Yes |
+| MCP server for AI assistants | Yes, official server you run yourself | Yes, official and included on all plans |
 | Retention and cohorts | Yes | Not available |
 | Retargeting audiences | Yes | Not available |
 | Modeled or estimated data | Yes | No |

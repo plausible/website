@@ -65,3 +65,5 @@ For a full walkthrough of Data Studio's features using these templates as exampl
 The Data Studio connector works with data from any Plausible site, whether you installed Plausible via the [WordPress plugin](https://plausible.io/wordpress-analytics-plugin), the [Google Tag Manager template](https://plausible.io/gtm-template) or the direct script. It reads from the same data your Plausible dashboard shows.
 
 If you manage multiple sites, the connector lets you pull data from several of them into a single Data Studio report.
+
+Data Studio is for reports you build once and keep refreshed. For a quick question or a one-off summary, connect your AI assistant to our [MCP server](/mcp-server) and ask it instead.

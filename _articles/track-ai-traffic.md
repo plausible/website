@@ -72,6 +72,10 @@ New to Plausible? Add our [lightweight script](/lightweight-web-analytics) to yo
 
 Plausible focuses on observable activity on your website. When a visit carries referral information or a UTM tag, it attributes that visit to the relevant AI assistant. Private conversations and prompts remain private, while the traffic, engagement and conversions that follow a click become measurable.
 
+## Ask your AI assistant about your stats
+
+This page is about the visits AI assistants send to your website. Plausible also works the other way around: connect your own AI assistant to our official MCP server and ask it questions about your stats, including how your AI traffic is doing. It's read-only and included on all plans. [See the Plausible MCP server](/mcp-server).
+
 ## See what AI traffic does for your business
 
 [Start a free 30-day trial](https://plausible.io/register), with no credit card required. Or [open our public dashboard](https://plausible.io/plausible.io?f=is,channel,AI%20Assistants) to explore the AI traffic Plausible receives itself.

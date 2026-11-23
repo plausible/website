@@ -9,6 +9,8 @@
     - "Goals and custom events"
     - "Saved Segments"
     - "Annotations"
+    - "AI integration (MCP)"
+    - "300 MCP requests per hour"
   first_paint_price: "$9"
 
 - tier: "growth"
@@ -32,7 +34,8 @@
     - "Up to 10 sites"
     - "Up to 10 team members"
     - "Custom Properties"
-    - "Stats API (600 requests per hour)"
+    - "Stats API"
+    - "600 API/MCP requests per hour"
     - "Data Studio Connector"
     - "Ecommerce revenue attribution"
     - "Funnels and user journeys"
@@ -44,7 +47,7 @@
   benefits:
     - "Everything in Business"
     - "10+ sites and team members"
-    - "600+ Stats API requests per hour"
+    - "600+ API/MCP requests per hour"
     - "Sites API access"
     - "Single Sign-On (SSO)"
     - "Managed Proxy"
