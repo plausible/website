@@ -33,7 +33,7 @@ Thousands of teams including Ghost, Basecamp and the Python Software Foundation 
 
 {% include cta-buttons.html primary_link="https://wordpress.org/plugins/plausible-analytics/" primary_text="On WordPress" secondary_text="Live demo" %}
 
-![Plausible Analytics WordPress plugin](/uploads/plausible-wordpress-plugin.png "Plausible Analytics WordPress plugin")
+![Plausible Analytics WordPress plugin](/uploads/plausible-wordpress-plugin.webp "Plausible Analytics WordPress plugin")
 
 
 1. Ordered list

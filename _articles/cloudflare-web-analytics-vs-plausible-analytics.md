@@ -37,7 +37,7 @@ Plausible is for people who want to replace Google Analytics with a simple tool 
 
 {% include cta-buttons.html %}
 
-![Cloudflare Web Analytics vs Plausible Analytics](/uploads/plausible-vs-cloudlare-analytics.png "Cloudflare Web Analytics vs Plausible Analytics")
+![A Plausible dashboard next to Cloudflare Web Analytics: accurate stats, custom events, no traffic sampling and a rich dashboard against inflated stats, no event tracking, 10% sampling and limited insights](/uploads/plausible-vs-cloudlare-analytics.webp "Cloudflare Web Analytics vs Plausible Analytics")
 
 1. Ordered list
 {:toc}

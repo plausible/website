@@ -22,7 +22,7 @@ This page breaks down what GA actually costs and why Plausible is a better deal.
 
 {% include cta-buttons.html %}
 
-![Why pay for Plausible Analytics](/uploads/plausible-paid-analytics-vs-free-ga.png "Why pay for Plausible Analytics")
+![A Plausible dashboard faded behind four points: no data selling, no banner fatigue, no consultants required and fast customer support](/uploads/plausible-paid-analytics-vs-free-ga.webp "Why pay for Plausible Analytics")
 
 1. Ordered list
 {:toc}

@@ -29,7 +29,7 @@ Most websites are slowed down by the very tools used to measure them. Google Ana
 
 {% include cta-buttons.html %}
 
-![Plausible: A lightweight web analytics tool](/uploads/plausible-lightweight-script.png "Plausible: A lightweight web analytics tool")
+![A Plausible dashboard faded behind four points: optimized for Core Web Vitals, invisible to users, no adtech baggage and a minimal script footprint](/uploads/plausible-lightweight-script.webp "Plausible: A lightweight web analytics tool")
 
 1. Ordered list
 {:toc}

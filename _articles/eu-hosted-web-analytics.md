@@ -31,7 +31,7 @@ This is not a configuration option or an add-on. It is simply how Plausible work
 
 {% include cta-buttons.html %}
 
-![EU-hosted and GDPR-compliant web analytics](/uploads/plausible-eu-hosted.png "EU-hosted and GDPR-compliant web analytics")
+![A Plausible dashboard faded behind four points: EU-hosted infrastructure, no US data transfers, GDPR compliant by default and European-owned servers](/uploads/plausible-eu-hosted.webp "EU-hosted and GDPR-compliant web analytics")
 
 1. Ordered list
 {:toc}
