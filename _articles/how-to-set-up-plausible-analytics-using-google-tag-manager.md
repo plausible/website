@@ -12,7 +12,7 @@ Unlike heavier analytics tools, Plausible collects no personal data, requires no
 
 {% include cta-buttons.html primary_link="https://tagmanager.google.com/gallery/#/owners/plausible/templates/plausible-gtm-template" primary_text="GTM template" secondary_text="Live demo" %}
 
-![Plausible Analytics Google Tag Manager template](/uploads/plausible-gtm-setup.png "Plausible Analytics Google Tag Manager template")
+![A Plausible dashboard faded behind four points: GTM-ready, zero code setup, privacy preserved and fewer setup errors](/uploads/plausible-gtm-setup.webp "Plausible Analytics Google Tag Manager template")
 
 This GTM integration method is optional. You can always use the [direct Plausible setup](https://plausible.io/docs/plausible-script) instead. It only takes a few lines of code. If you’re using another platform, you can also check out our [integration guides](https://plausible.io/docs/integration-guides) for instructions specific to your setup. 
 
