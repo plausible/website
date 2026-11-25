@@ -31,7 +31,7 @@ Track and analyze real visits your website gets from AI assistants like ChatGPT,
 
 ## Explore your stats with AI
 
-Connect your AI assistant to Plausible and ask questions about traffic, top pages and conversions. Authorize the connection, select your team and start exploring. Our official MCP server provides read-only access and is included on all plans.
+Connect your AI assistant like Claude, ChatGPT, etc., to Plausible and ask questions about traffic, top pages and conversions. Authorize the connection, select your team and start exploring. Our official MCP server provides read-only access and is included on all plans.
 
 **[Connect your AI assistant →](/mcp-server)**
 
