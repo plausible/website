@@ -20,6 +20,14 @@ Here's how the free and paid versions work, where the GA360 price figures come f
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Simple web analytics with public traffic-based pricing. Try Plausible free for 30 days, no credit card required"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/#pricing"
+  secondary_text="See pricing"
+%}
+
 ## Is Google Analytics free?
 
 [Standard Google Analytics](https://marketingplatform.google.com/about/analytics/) has no subscription fee. You can use it for a business website without buying GA360. A growing audience does not automatically trigger a paid plan.

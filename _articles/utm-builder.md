@@ -178,6 +178,14 @@ Enter your URL and campaign details to generate a tagged link:
 })();
 </script>
 
+{% include cta-box.html
+  headline="Plausible reads your UTM tags out of the box. See which campaigns bring visitors and conversions without cookies"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## UTM parameters
 
 **utm_source** (required): The platform or channel sending the traffic. Examples: `newsletter`, `linkedin`, `facebook`, `google`.

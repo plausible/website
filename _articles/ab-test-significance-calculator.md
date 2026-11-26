@@ -293,6 +293,14 @@ Planning a test? Enter your current conversion rate and the smallest improvement
 
 Small improvements need a lot of traffic. Detecting a 20% lift on a 3% conversion rate takes around 14,000 visitors per variant. Detecting a 5% lift takes over 200,000. If your site doesn't get that kind of traffic, test bigger changes. A new headline or a different offer moves the numbers more than a new button color.
 
+{% include cta-box.html
+  headline="Measure your A/B test without cookies. Plausible counts visitors and conversions for each variant"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="https://plausible.io/docs/ab-testing"
+  secondary_text="A/B testing guide"
+%}
+
 ## How to read the result
 
 Statistically significant at 95% confidence means that if both variants performed the same, a gap this large would show up by chance less than 5% of the time. The p-value is that chance. The lower it is, the more you can trust the result.

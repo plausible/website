@@ -213,6 +213,14 @@ Enter your campaign numbers once and see whichever metrics you have data for.
 })();
 </script>
 
+{% include cta-box.html
+  headline="Your CPA needs a complete conversion count. Plausible records goal conversions without cookies"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## CPC, CPM and CPA: what they measure
 
 **Cost per click, or CPC**, is what you paid for each visitor an ad sent to your site. It is the right metric when the click itself is the goal, or when comparing campaigns on the same channel. It says nothing about what happens after the click. Formula: ad spend divided by clicks.

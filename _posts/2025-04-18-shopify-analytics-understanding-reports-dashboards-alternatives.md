@@ -30,11 +30,11 @@ For most merchants, the practical setup is Shopify Analytics for commerce and Pl
 Shopify and Plausible are complementary. You can keep Shopify as the source of truth for orders while Plausible shows which sources, campaigns and landing pages brought people to your store. Plausible can also cover a separate blog or other domains, so your web analytics are not locked to one ecommerce platform.
 
 {% include cta-box.html
-  headline="Understand Shopify traffic, campaigns and revenue without Google Analytics"
-  link="/register"
-  link_text="Start your free trial"
-  secondary_link="/docs/shopify-integration"
-  secondary_text="Shopify setup guide"
+  headline="See which sources, campaigns and landing pages bring people to your store. Explore a live Plausible dashboard"
+  link="/plausible.io"
+  link_text="View live demo"
+  secondary_link="/register"
+  secondary_text="Start free trial"
 %}
 
 ## Shopify Analytics: the built-in reporting system

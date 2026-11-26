@@ -14,6 +14,14 @@ You can evaluate Plausible with a free trial. No credit card is required. When y
 
 See our [pricing](https://plausible.io/#pricing) for available plans. Our docs explain [how to subscribe](https://plausible.io/docs/trial-to-paid), [payment methods and billing](https://plausible.io/docs/billing) and [how to view and save invoices](https://plausible.io/docs/download-invoices).
 
+{% include cta-box.html
+  headline="No cookies and no personal data to review. Try Plausible free for 30 days, no credit card required"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/#pricing"
+  secondary_text="See pricing"
+%}
+
 ## How payment works
 
 Subscriptions are paid by card, PayPal, Apple Pay or Google Pay at checkout and renew automatically. Paddle automatically emails you an invoice after every payment. Paddle applies any sales tax or VAT. You can add your VAT number during checkout.

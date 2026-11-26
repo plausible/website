@@ -24,6 +24,14 @@ Specifically:
 
 An independent review by a data protection lawyer confirms Plausible requires no cookie consent. Visitor data is pseudonymized on arrival and fully anonymized within 24 hours, so it can be processed on the basis of legitimate interest. [Read the full legal assessment](https://plausible.io/blog/legal-assessment-gdpr-eprivacy).
 
+{% include cta-box.html
+  headline="Evaluate Plausible while the review runs. 30-day free trial, no credit card required"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Legal documents
 
 - **[Data Processing Agreement (DPA)](https://plausible.io/dpa)**: covers GDPR obligations, processor responsibilities, data location, breach notification (48-hour obligation), audit rights and subprocessor controls. Applies to all customers automatically.

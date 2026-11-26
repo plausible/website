@@ -184,6 +184,14 @@ Enter your monthly visitors and configure your Google Analytics setup to see the
 
 <p style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.75rem;">Script sizes measured from CDN. GTM size varies by container configuration. Consent platform sizes vary by version and setup. CO2 estimate uses {{ site.data.site.co2_kwh_per_gb }} kWh per GB (network energy, <a href="https://sustainablewebdesign.org/" style="color: #9ca3af;">Sustainable Web Design model</a>) and {{ site.data.site.co2_kg_per_kwh }} kg CO2 per kWh (<a href="https://www.iea.org/reports/electricity-2025/emissions" style="color: #9ca3af;">IEA global average</a>).</p>
 
+{% include cta-box.html
+  headline="Replace Google Analytics with a lightweight script that needs no cookies and no consent banner"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## What those gigabytes actually mean
 
 Data transfer uses electricity at every hop: your server, the network between them, your visitor's device. The exact energy cost varies by region and infrastructure, but less data always means less electricity used.

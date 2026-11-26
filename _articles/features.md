@@ -21,6 +21,8 @@ Every feature we build has a purpose. We try to serve that purpose exceptionally
 
 That means you’ll find capabilities in Plausible that aren’t always easy to find elsewhere, [without the complexity](/simple-web-analytics) that usually comes with more powerful analytics.
 
+{% include cta-buttons.html %}
+
 ## AI traffic analytics
 
 Track and analyze real visits your website gets from AI assistants like ChatGPT, Claude, Perplexity, Gemini, etc. See which pages attract clicks, how well they engage and whether those visitors complete business goals like signing up or purchasing.

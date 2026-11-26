@@ -20,6 +20,14 @@ Before you celebrate or panic, it's important to understand where the traffic is
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Investigate a traffic spike in one dashboard: sources, pages, countries and devices, with no cookies"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Is it bot traffic?
 
 This is usually the first thing to check because a spike caused by bots is not something you want to report as growth. There is no single dashboard clue that proves "this is definitely a bot". But a few strong signals together can make the answer pretty clear.
