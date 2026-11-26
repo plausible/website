@@ -227,6 +227,14 @@ See how much a small conversion rate improvement is worth in terms of additional
 })();
 </script>
 
+{% include cta-box.html
+  headline="See your conversion rate by source, page and campaign in Plausible, with no cookies and no consent banner"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## What is a good conversion rate?
 
 Conversion rate varies widely depending on what you define as a conversion and what type of site you run.

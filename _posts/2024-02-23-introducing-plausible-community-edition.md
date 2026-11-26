@@ -32,6 +32,14 @@ Here’s more on what’s being changed and why.
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Prefer not to run your own server? Plausible Cloud is managed, EU-hosted and funds the open source project"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/self-hosted-web-analytics"
+  secondary_text="Compare Cloud and CE"
+%}
+
 ## Threats we’re facing
 
 We want to reduce the threat from businesses such as hosting companies and other resellers who try to commercialize popular open source projects. We’ve seen our self-hosted code being used in a way it was never intended for by corporations that don’t care about us or open source. Our license doesn’t prevent these corporations from using the Plausible Analytics name and logo either, as these are a part of our self-hosted code.

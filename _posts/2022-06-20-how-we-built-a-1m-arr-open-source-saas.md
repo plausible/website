@@ -21,6 +21,14 @@ It's time to reflect on how we got to where we are. This post summarizes how we 
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="See the product behind the story: simple, open source web analytics with no cookies"
+  link="/plausible.io"
+  link_text="View live demo"
+  secondary_link="/register"
+  secondary_text="Start free trial"
+%}
+
 ## How we got to $1M ARR
 
 First, a TL;DR summary:

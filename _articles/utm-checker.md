@@ -253,6 +253,14 @@ Paste any tagged URL below to check UTM parameters: the checker splits the link 
 })();
 </script>
 
+{% include cta-box.html
+  headline="See your traffic by source, medium and campaign in Plausible, with no cookies and no consent banner"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Common UTM mistakes
 
 In Google Analytics, the issues below create fragmented campaign data that is hard to filter and impossible to compare. [Plausible](https://plausible.io/) automatically consolidates many of these inconsistencies in your Sources tab, the Campaigns tab gives you a faithful record of exactly what was sent. Link quality there is entirely up to you.

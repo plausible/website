@@ -19,6 +19,14 @@ Think of it like a whole network of webpages linking to a few of each other whic
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="See which backlinks send you visitors and conversions, without cookies or a consent banner"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Why are backlinks important? 
 
 In SEO terms, backlinks act as **signals of trust** and authority to search engines like Google. When other websites link to your site, it essentially means that “*This content is useful and worth referencing*,” and search engines take that as a positive signal. In turn, they rank you higher on the SERPs and you ideally get more traffic.

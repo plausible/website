@@ -18,6 +18,14 @@ This guide helps you set up measurement, learn to read the dashboard, and gradua
 1. Ordered list
 {:toc}
 
+{% include cta-box.html
+  headline="Check your own traffic with first-party data. Plausible installs with one script tag and uses no cookies"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## 1. Install analytics on your website
 
 Before you can interpret traffic, you need somewhere reliable to record it. A website traffic checker can **only estimate** a site's traffic numbers; it cannot tell you exactly how many people visited. For that, your website needs to send data to an analytics platform.

@@ -9,6 +9,14 @@ Free tools for marketers and analysts. Calculate what your campaigns are actuall
 
 No account required. Everything runs in your browser.
 
+{% include cta-box.html
+  headline="Made by Plausible, the simple privacy-first alternative to Google Analytics. No cookies, no consent banner"
+  link="/register"
+  link_text="Start free trial"
+  secondary_link="/plausible.io"
+  secondary_text="View live demo"
+%}
+
 ## Calculators
 
 **[Conversion rate calculator](/conversion-rate-calculator)**: Calculate your conversion rate, the traffic you need to hit a goal, and what a small improvement is actually worth in extra conversions per month.

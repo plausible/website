@@ -37,7 +37,24 @@ layout: default
       </div>
     </aside>
     <div class="mt-8 prose post-content max-w-screen-sm mx-auto" data-heading-anchors>
+      {%- comment -%}
+        Posts without their own inline CTA box get the default one before the first H2.
+        Set `cta_box: false` in a post's front matter to opt out.
+      {%- endcomment -%}
+      {%- assign content_parts = content | split: '<h2' -%}
+      {% if content contains 'cta-box' or page.cta_box == false or content_parts.size < 2 %}
       {{ content }}
+      {% else %}
+      {{ content_parts[0] }}
+      {% include cta-box.html
+        headline="Looking for a simple privacy-first alternative to Google Analytics?"
+        link="/register"
+        link_text="Start free trial"
+        secondary_link="/plausible.io"
+        secondary_text="View live demo"
+      %}
+      {% for part in content_parts offset: 1 %}<h2{{ part }}{% endfor %}
+      {% endif %}
     </div>
   </div>
 
@@ -49,7 +66,7 @@ layout: default
 
 <hr class="w-full bg-gray-100 my-12" style="height: 1px;">
 
-<div class="bg-gray-50 pb-12">
+<div x-data x-show="!document.cookie.includes('logged_in=true')" class="logged-out-only bg-gray-50 pb-12">
   <div class="container mx-auto py-12 lg:py-16 lg:flex lg:items-center lg:justify-between">
     <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
       Ready to ditch Google Analytics?
@@ -80,6 +97,8 @@ layout: default
   prose.addEventListener('click', function(e) {
     var a = e.target.closest('a');
     if (!a) return;
+    // CTA boxes track their own clicks. Skip them here so a click is not counted twice.
+    if (a.closest('.cta-box')) return;
     var href = a.getAttribute('href') || '';
     var button = null;
     if (href === '/register' || href.indexOf('plausible.io/register') !== -1) {
