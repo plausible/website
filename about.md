@@ -54,6 +54,4 @@ For full details, see our [Data Policy](https://plausible.io/data-policy) and [S
 
 Plausible is not the right tool for every analytics use case. [Read when Plausible is not a fit](/when-not-to-use-plausible) before you decide.
 
-## Ready to try Plausible?
-
 {% include cta-buttons.html position="Bottom" type="About" %}
