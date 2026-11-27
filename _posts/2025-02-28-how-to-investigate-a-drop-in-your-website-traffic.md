@@ -73,6 +73,8 @@ Upon hovering over any such arrow, you’ll be able to see the drop in percentag
 
 You can also click on any such Channel to [see the exact sources within each channel](https://plausible.io/docs/top-referrers#sources) (eg. Twitter, Reddit, LinkedIn, etc., in organic social) along with their respective traffic contributions as well as changes compared to previous period.
 
+You can also make this comparison in your usual AI assistant by [connecting it to Plausible](/mcp-server). Try: “Compare the last seven complete days with the previous seven for example.com. Which channels and sources contributed most to the decline in visitors?” Use your own site and the period you’re investigating. The answer can help you decide where to look next, but the stats alone won’t explain what caused the drop.
+
 For us, out of the top four significant channels, organic search, referral and organic social are the three with declines.
 
 ![plausible-standard-reports](/uploads/plausible-standard-reports-.png "plausible-standard-reports")

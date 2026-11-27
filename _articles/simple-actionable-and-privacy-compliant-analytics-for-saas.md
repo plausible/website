@@ -160,6 +160,10 @@ You can invite teammates and assign roles: view-only access to the dashboard or 
 
 Set up weekly or monthly [email reports](https://plausible.io/docs/email-reports) for stakeholders who want a regular summary without logging in. Or generate a private [shared link](https://plausible.io/docs/shared-links) for investors, advisors or board members who want to check numbers without needing an account.
 
+## Ask about your stats from your AI assistant
+
+If you’re already working with an AI assistant, [connect it to Plausible](/mcp-server) and ask about your traffic and signups right there. Check which landing pages brought the most signups, compare your UTM campaigns or draft a short update for your team. Signup questions use the goals you’ve configured in Plausible. The connection is read-only and included on all plans.
+
 ## Access your data via API
 
 If you need programmatic access, the [stats API](https://plausible.io/docs/stats-api) lets you pull any metric from your Plausible dashboard into your own systems. Useful for feeding data into internal tools, automating reports or combining analytics with your product data in a warehouse.

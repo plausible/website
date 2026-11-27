@@ -84,6 +84,8 @@ Clients pay you for results, so the dashboard should make those easy to point at
 
 If you build monthly reports in Looker Studio, the [Looker Studio connector](/docs/looker-studio) lets you reuse one template across all client sites.
 
+For a quick client question or a first draft of an update, [connect your AI assistant to Plausible](/mcp-server). Ask about a specific client site, compare its traffic and conversions or summarize the month’s changes. You’ll need to be a member of the team that owns the site; guest access alone does not support the connection.
+
 ## Install it across client sites in minutes
 
 The script is one line. There's a [WordPress plugin](/wordpress-analytics-plugin), a [Google Tag Manager template](/gtm-template) and [guides](/docs/integration-guides) for most site builders and frameworks.

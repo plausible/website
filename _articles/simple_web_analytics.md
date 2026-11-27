@@ -83,6 +83,10 @@ We cover more of these comparisons in [this post](https://plausible.io/blog/easy
 
 Get [weekly or monthly email summaries](/docs/email-reports) and [notifications when traffic spikes or drops](/docs/traffic-spikes). More than {{ site.data.site.email_report_or_alert_sites }} sites have email reports or traffic alerts enabled in Plausible. Share reports with colleagues or clients, with no dashboard login required.
 
+**6. Ask from your usual AI assistant**
+
+Already working in ChatGPT, Claude or another compatible assistant? [Connect it to Plausible](/mcp-server) and ask about yesterday’s traffic, your top pages or which campaigns brought signups, without leaving your conversation.
+
 ## Try Plausible free for 30 days
 
 Plausible is open-source, privacy-friendly and built to stay out of your way. [Sign up for a free trial](https://plausible.io/register). No credit card required. Run it alongside Google Analytics and see how much easier it is to scan your stats, understand your traffic and find the insights you need.

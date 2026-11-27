@@ -6,9 +6,9 @@ permalink: /mcp-server
 image: /uploads/plausible-mcp.png
 cta_headline: "Explore your stats with your AI assistant"
 ---
-Plausible is built so you can check your stats in a minute and get on with your day. Some questions take more than one look though. What changed since last week? Which posts are losing search traffic? What goes in the monthly report?
+Plausible is built so you can check your stats in a minute and get on with your day. If you’re already working with an AI assistant, you can ask about your website right there too. How many people visited yesterday? What changed since last week? What goes in the monthly report?
 
-With the official Plausible MCP server you ask those questions in plain language. Connect ChatGPT, Claude, Grok, Cursor or another compatible assistant and it gets the answers from your Plausible stats. There is no API key to create and no queries to write.
+With the official Plausible MCP server you ask those questions in plain language, without leaving your conversation. Connect ChatGPT, Claude, Grok, Cursor or another compatible assistant and it gets the answers from your Plausible stats. There is no API key to create and no queries to write.
 
 Your assistant gets read-only access to the same aggregated stats you see in your dashboard. Plausible doesn't collect personal data, so there are no visitor profiles to hand over. It's included on all plans at no extra charge.
 
@@ -26,47 +26,55 @@ Your assistant gets read-only access to the same aggregated stats you see in you
 
 ## Chat with your website stats
 
-Start with whatever you’re curious about and ask follow-up questions as you go.
+Open your dashboard when you want to see your stats at a glance, or ask your assistant when you have a question. You can check yesterday’s traffic, compare this month with last month, find your top pages and traffic sources, see which campaigns brought signups or draft an update for your team. Ask follow-up questions as you go, without switching tabs.
+
+Start with whatever you’re curious about. Here are a few examples of how you can take a question further.
 
 ### Find what drove a traffic change
 
-Say traffic jumped after a launch. To see where those extra visits came from, you could start with a question like this.
+Understand where a rise or fall in traffic came from so you know what to look into next. If traffic jumped after a launch, you could start with a question like this.
 
 > Compare last week’s traffic with the week before. Which sources and landing pages contributed most to the change?
 
 ### Decide which pages to improve
 
-When you’re deciding which pages to update, start with ones that already get traffic from Google. If your assistant has access to both Search Console and Plausible, you can narrow down the list with a question like this.
+Find pages that already attract visitors but could do more to turn those visits into signups. You can ask your assistant to compare landing pages by traffic and signup rate using your Plausible stats.
+
+If you also connect Google Search Console to your assistant separately, you can bring search clicks into that comparison. Connecting Plausible alone does not give your assistant access to Search Console. With both connected, try:
 
 > Compare my top landing pages from Google Search last month. Which ones got plenty of clicks in Search Console but had a low signup rate among Google visitors in Plausible?
 
+### Check how a campaign performed
+
+See whether a newsletter, launch or paid campaign brought visitors who signed up, so you can decide what to repeat or change.
+
+Use the UTM campaign names from your campaign links and make sure signups are configured as a [goal](/docs/goal-conversions). Replace the names and dates below with your own.
+
+> Compare the UTM campaigns `spring-launch` and `spring-newsletter` for April 2026 by visitors, signup conversions and signup rate. Which brought the most signups?
+
 ### Draft a monthly update
 
-When it’s time to share what changed, give your assistant the same brief you’d give a teammate.
+Turn your traffic and conversion figures into a first draft you can review and share with your team. Give your assistant the same brief you’d give a teammate.
 
 > Draft a short update for my team. Compare last month’s traffic and signups with the month before, and highlight which sources changed most.
 
-If you track signups as a [goal](/docs/goal-conversions), your assistant can include them alongside traffic and sources. Review the draft and add context, like a newsletter you sent or a campaign you paused.
+Review the draft and add context, like a newsletter you sent or a campaign you paused.
 
 ## Connect in three steps
 
-Once you connect Plausible, you can ask about your website’s traffic, top pages and conversions right from your usual chat. You don’t need an API key.
+To try these questions with your own stats, connect Plausible to your AI assistant. You’ll sign in with your Plausible account and choose a team, with no API key to create.
 
 1. In your AI assistant, add `https://plausible.io/mcp` as a connection.
-2. Sign in to Plausible and choose the team you want your assistant to access.
-3. Ask your first question, like “Which pages brought in the most visitors last week?”
+2. Sign in to Plausible as prompted and choose the team you want your assistant to access.
+3. Return to your chat and start asking questions about your stats.
 
-Find instructions for your assistant in the [setup guide](/docs/mcp).
+Find complete instructions for your assistant in the [setup guide](/docs/mcp).
 
 ## What your assistant can access
 
 Your assistant can access your Plausible dashboard's aggregated stats. You can disconnect it anytime under **Connected apps** in your Plausible account.
 
 When you ask a question, Plausible shares the stats your assistant requests with its provider. The provider handles those stats under its own terms and privacy settings. [Read about privacy and access](/docs/mcp#privacy-and-access).
-
-## See how much traffic AI assistants send you
-
-Plausible’s [AI traffic analytics](/track-ai-traffic) shows how many visitors reach your site from tools like ChatGPT, Claude, Grok, etc. With Plausible connected, you can ask your assistant, “How many visitors came from AI assistants last month?”
 
 ## Frequently asked questions
 
@@ -141,5 +149,10 @@ Plausible’s [AI traffic analytics](/track-ai-traffic) shows how many visitors 
 <details>
   <summary>Is there a limit on how much I can ask?</summary>
   <p>Starter and Growth include 300 requests per hour and Business includes 600. The allowance is per team and one question can use several requests. <a href="/docs/mcp#request-limits">See request limits</a>.</p>
+</details>
+
+<details>
+  <summary>Is this the same as tracking traffic from AI assistants?</summary>
+  <p>Plausible’s <a href="/track-ai-traffic">AI traffic analytics</a> shows visits to your website from tools like ChatGPT, Claude and Grok. The MCP connection lets you ask your assistant about your Plausible stats, including those visits. For example: “How many visitors came from AI assistants last month?”</p>
 </details>
 </div>

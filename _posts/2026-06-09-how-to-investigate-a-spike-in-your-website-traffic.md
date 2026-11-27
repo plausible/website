@@ -139,6 +139,8 @@ Here's what that would look like in the Plausible dashboard:
 
 If you filter the dashboard by a source, compare that filtered view with yesterday, the previous period or a custom period too. That helps you confirm whether this source is truly spiking or just following its usual pattern.
 
+If you’re already discussing the spike with your AI assistant, [connect it to Plausible](/mcp-server) and ask: “Compare yesterday with the day before for example.com. Which sources and entry pages contributed most to the increase in visitors?” Use your own site and the dates around your spike. This helps narrow down where to investigate; you’ll still need context to explain why it happened.
+
 If the answer is obvious at this stage, you may not need to keep digging. For example, if you launched a newsletter at 10 AM and Email traffic spiked at 10:05 AM with normal engagement, that is probably your answer. Note it down, compare the outcome with your expectations, and you can move on.
 
 Here is what spikes from different sources mean.
