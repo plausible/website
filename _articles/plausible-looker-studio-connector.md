@@ -11,7 +11,7 @@ Google Data Studio, formerly called Looker Studio, is Google's free data visuali
 
 {% include cta-buttons.html %}
 
-![Plausible Analytics Data Studio connector](/uploads/looker-studio-report.png "Plausible Analytics Data Studio connector")
+![Plausible Analytics Data Studio connector](/uploads/looker-studio-connector-dashboard.png "Plausible Analytics Data Studio connector")
 
 The Data Studio connector is available on the [Business plan](https://plausible.io/#pricing).
 
