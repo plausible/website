@@ -44,6 +44,8 @@ When you have UTM tagged links in your emails, social media and other platforms,
 2. See which of your goals and events people that click on tagged URLs convert on
 3. See details about visitors that click on the tagged URLs such as what country they are from and what device, browser and OS they use
 
+You can also [ask your AI assistant about your campaigns](/mcp-server) through Plausible’s official MCP connection. For example: “Compare the UTM campaigns `spring-launch` and `spring-newsletter` for April 2026 by visitors, signup conversions and signup rate.” Use your own campaign names and dates, with signups configured as a [goal](/docs/goal-conversions).
+
 {% include cta-box.html
   headline="Build and validate UTM links before you publish with our free tools"
   link="/utm-builder"
